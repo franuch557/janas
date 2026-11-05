@@ -160,6 +160,50 @@ select{max-width:100%;text-overflow:ellipsis}
 .rvc{border-left:4px solid var(--ac)}
 .stats3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.bigv{font-size:28px;font-weight:700;margin:6px 0 4px}.okt{color:var(--ok)}.ert{color:var(--er)}
 @media(max-width:640px){.stats3{grid-template-columns:1fr}}h1,h2,h3,.stat b,.bigv,.oc-f>b{font-family:"Montserrat","Barlow",system-ui,sans-serif}h1{font-weight:800}.logo{display:block;height:26px;width:auto}.top .brand{display:flex;align-items:center;color:#fff}.top .bdg{background:#fff;color:var(--ac)}.top .btn.sec{border-color:rgba(255,255,255,.45)}.login{background:linear-gradient(180deg,var(--ac) 0,var(--ac) 38vh,var(--bg) 38vh)}.login .card{box-shadow:0 12px 40px rgba(0,0,0,.18)}.login .brand{color:var(--ac)}.login .logo{height:40px;margin-bottom:10px}.demo .btn.sec:hover{border-color:var(--ac);color:var(--ac)}nav button.on{color:var(--lk)}.pc{transition:box-shadow .15s,transform .15s}.pc:hover{box-shadow:0 6px 22px rgba(0,0,0,.10);transform:translateY(-2px)}@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .login .brand{color:#fff}}:root[data-theme="dark"] .login .brand{color:#fff}@media(max-width:640px){.logo{height:22px}}.vb.on{border-color:var(--ac);background:var(--ac);color:#fff}.dot.on,.cc.on img{border-color:var(--ac)}@media(max-width:800px){.gb.on{background:var(--ac);border-color:var(--ac);color:#fff}.gb.on small{color:#fff}}@media(max-width:640px){.tb2:has(>.vb){flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;margin-right:-14px;padding-right:14px;scrollbar-width:none}.tb2:has(>.vb)::-webkit-scrollbar{display:none}.tb2>.vb{flex:none;white-space:nowrap}.steps,.oc .steps{flex-direction:row;gap:0}.steps li{display:block;text-align:center}.steps li i{margin:0 auto}.steps li::before{display:block}.steps li:first-child::before{display:none}.oc-a .btn{flex:1 1 calc(50% - 6px)}.det .acts{position:sticky;bottom:0;z-index:5;background:var(--card);margin:8px -16px -16px;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--bd);box-shadow:0 -6px 18px rgba(0,0,0,.07);border-radius:0 0 10px 10px}}.vbar{position:sticky;top:calc(62px + env(safe-area-inset-top,0px));z-index:19;background:var(--wab);color:var(--wa);padding:8px 18px;font-size:13.5px;border-bottom:1px solid var(--bd)}@media(min-width:1500px){main{max-width:1480px}}@media(pointer:coarse){.lnk{display:inline-block;padding:9px 0;margin:-9px 0}td select,.as{min-height:40px}.dot{width:34px;height:34px}.pk input,.oc-h input{width:24px;height:24px}nav button{padding:13px 14px}.star{width:40px;height:40px;line-height:40px}}@media(max-width:800px){.top{gap:6px}.lay{min-height:calc(100dvh - 62px)}}@media(max-width:640px){main{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}.mod{padding-bottom:calc(22px + env(safe-area-inset-bottom,0px))}}html{-webkit-text-size-adjust:100%;text-size-adjust:100%}button,a,[data-a]{-webkit-tap-highlight-color:transparent;touch-action:manipulation}.pic{background:radial-gradient(circle at 30% 25%,var(--acb),var(--sunk) 70%)}.pic:not(:has(img))::after{content:"JANAS";position:absolute;right:10px;bottom:8px;font:800 11px/1 "Montserrat",sans-serif;letter-spacing:.12em;color:var(--ac);opacity:.55}
+/* ===== styl jak janas.com.pl: biel, Montserrat, prostokątne zielone przyciski, zdjęcia ===== */
+:root:not([data-theme="dark"]){--bg:#f3f4f3;--card:#fff;--sunk:#f6f7f6;--tx:#141414;--mu:#5d635e;--bd:#e2e5e2;--hdr:#fff}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--hdr:#121713}}:root[data-theme="dark"]{--hdr:#121713}
+body{font-family:"Montserrat","Barlow",system-ui,sans-serif;font-size:14.5px;letter-spacing:-.005em}
+h1{font-weight:600;font-size:28px;letter-spacing:-.01em}h2{font-weight:600}h3{font-weight:600}h2.secH{font-weight:500;font-size:20px;border-bottom:0;padding-bottom:0;position:relative}
+h2.secH::after{content:"";display:block;width:48px;height:3px;background:var(--ac);margin-top:10px}
+.top{background:var(--hdr);color:var(--tx);border-bottom:1px solid var(--bd);box-shadow:0 1px 0 rgba(0,0,0,.02);padding-left:0;height:64px}
+body::before{background:var(--hdr)}
+.top .brand{align-self:stretch;background:var(--ac);padding:0 26px;margin-right:6px}.top .logo{height:24px}
+.brand-sub{color:var(--mu);border-left:0;padding-left:6px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:500}
+.who{color:var(--mu)}.role{background:var(--acb);color:var(--ac);border-radius:2px}
+.top .btn.sec{background:transparent;color:var(--tx);border:1px solid var(--bd)}.top .btn.sec:hover{background:var(--sunk)}
+.top .bdg{background:var(--ac);color:#fff}
+.top [data-a="glogin"],.top [data-a="viewback"]{background:var(--ac)!important;color:#fff!important}
+.ham{margin-left:10px}
+.btn{border-radius:0;text-transform:uppercase;letter-spacing:.04em;font-weight:600;font-size:13px;padding:11px 20px}
+.btn.sm{font-size:11.5px;padding:7px 12px}.btn.sec{border-color:var(--bd)}
+.btn:not(.sec):not(.dng):hover{filter:none;background:#057a0a}
+.card,.tw,.oc,.mod,.remlist,.mg{border-radius:2px}.pc{border-radius:0}
+.chip{border-radius:2px;font-weight:600}.chip::before{border-radius:0;width:5px;height:5px}
+.tb input,.tb select,.tb2 select,.mod input,.mod select,.mod textarea,.login input,.qb input,.qi,.as,.ri input{border-radius:0}
+.vb,.gb{border-radius:0}.dot,.cc img{border-radius:0}.star{border-radius:0;background:rgba(255,255,255,.95)}
+nav{background:var(--card)}nav button{border-radius:0;font-weight:500;font-size:14px}nav button.on{box-shadow:inset 3px 0 0 var(--ac);background:var(--acb);color:var(--ac)}
+.toast{border-radius:0}.bdg{border-radius:0}
+.pic{font-size:0}.pic.big{border-radius:0}
+.pc h3{font-weight:600;letter-spacing:-.01em}.pr{color:var(--tx)}
+.stat{border-radius:2px;border-left-width:3px}.stat b{font-weight:600}
+.foot{background:#151a16;color:#b9c2ba;border-top:0}.foot b{color:#fff;letter-spacing:.08em}.foot a{color:#d8e0d9}
+/* baner ze zdjęciem */
+.hero{position:relative;margin:-24px -28px 22px;min-height:250px;display:flex;align-items:flex-end;background:#2a2f2b url("img/hero.jpg") center 60%/cover no-repeat;color:#fff}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72) 0,rgba(0,0,0,.45) 45%,rgba(0,0,0,.05) 100%)}
+.hero>div{position:relative;padding:34px 34px 30px;max-width:640px}
+.hero .hk{display:inline-block;background:var(--ac);color:#fff;font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;margin-bottom:14px}
+.hero h1{color:#fff;font-size:32px;font-weight:500;line-height:1.15;margin:0 0 10px}
+.hero p{margin:0 0 18px;color:#e9ece9;font-size:15px;font-weight:400;max-width:520px}
+.hero .btn{background:var(--ac);color:#fff}.hero .btn.sec{background:transparent;color:#fff;border-color:rgba(255,255,255,.6);margin-left:6px}
+main:has(>.hero)>h1:first-child{display:none}
+@media(max-width:640px){.hero{margin:-16px -14px 16px;min-height:210px}.hero>div{padding:22px 18px 20px}.hero h1{font-size:22px}.hero p{font-size:13.5px;margin-bottom:14px}.hero .btn.sec{display:none}.top .brand{padding:0 16px}.top{height:58px}}
+.tb2 .btn.sec.sm{text-transform:none;letter-spacing:0;font-size:13px}@media(max-width:640px){.top .btn{padding:8px 10px;font-size:11px;letter-spacing:.02em;white-space:nowrap}}
+/* logowanie na zdjęciu */
+.login{background:#1d221e url("img/hero.jpg") center/cover no-repeat;position:relative}
+.login::before{content:"";position:fixed;inset:0;background:rgba(8,20,9,.55)}
+.login .card{position:relative;border-radius:0;border:0;border-top:4px solid var(--ac);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+
 </style>
 </head>
 <body>
@@ -440,7 +484,8 @@ V.zapytania=()=>{const l=(db.inq||[]).slice().reverse(),op=l.filter(x=>x.st==='o
   (x.st==='open'?`<p class="mu" style="margin:0 0 8px">W magazynie: ${p?fmtQ(p.stock):'—'} · zarezerwowane: ${p?fmtQ(resv(p)):'—'} · dostępne: <b>${fmtQ(av)}</b> ${u}</p><div class="oc-a">${av>=x.qty?`<button class="btn" data-a="inqans" data-id="${x.id}" data-r="yes">Jest — potwierdź</button>`:''}<button class="btn sec" data-a="inqans" data-id="${x.id}" data-r="part">Jest część…</button><button class="btn sec" data-a="inqans" data-id="${x.id}" data-r="no">Brak…</button></div>`:`<p class="mu" style="margin:0">Odpowiedź (${esc(uname(a.by))}): ${inqText(x)}${a.note?' '+esc(a.note):''}</p>`)+`</div>`};
  return(op.length?op.map(card).join(''):'<p class="mu empty">Brak otwartych zapytań.</p>')+(cl.length?'<h2>Odpowiedziane</h2>'+cl.map(card).join(''):'')};
 V.statystyki=()=>statsHtml();
-V.katalog=()=>tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
+const heroHtml=()=>me&&me.role==='klient'?`<section class="hero"><div><span class="hk">Bezpieczeństwo i styl</span><h1>Kompleksowe rozwiązania dla Twojego domu i ogrodu</h1><p>Kostka brukowa, ogrodzenia, bramy, kruszywa i opał. Zamów online – odbierz w Glinnie lub zamów dowóz.</p><a class="btn" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn sec" href="https://janas.com.pl/oferta-2/" target="_blank" rel="noopener">Nasze realizacje</a></div></section>`:'';
+V.katalog=()=>heroHtml()+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
 V.magazyn=()=>tb();
 const SST={open:['Otwarte','er'],ordered:['Zamówione','wa'],instock:['Jest na stanie','ok'],done:['Zamknięte','ok']},sst=s=>s.st||(s.open===false?'done':'open');
 V.braki=()=>{const act=can('product.write')||can('shortage.write'),l=db.shortages.slice().reverse().sort((a,b)=>(sst(a)==='open'?0:1)-(sst(b)==='open'?0:1));
