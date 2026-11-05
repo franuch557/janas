@@ -194,7 +194,7 @@ const resv=p=>{if(!RC.m){RC.m={};db.corders.forEach(o=>{if(!o.rsv||!['nowe','zle
 const avail=p=>Math.round((p.stock-resv(p))*100)/100;
 const lg=(p,d,why)=>{db.log=(db.log||[]).concat({id:uid(),t:new Date().toISOString(),uid:me&&me.id,pid:p.id,name:p.name,d,after:p.stock,why}).slice(-500)};
 const NOTR={zamklient:'szef',zamowienia:'szef',braki:'szef',inq:'szef',zapytania:'szef',kalendarz:'szef',moje:'klient',koszyk:'klient',kompletacja:'magazynier',remanent:'magazynier',dostawy:'kierowca'};
-const notify=(to,text,v)=>{db.notifs=(db.notifs||[]).concat({id:uid(),uid:to,text,v:v||'',date:new Date().toLocaleString('pl-PL'),read:false}).slice(-300)};
+const notify=(to,text,v)=>{db.notifs=(db.notifs||[]).concat({id:uid(),uid:to,from:me&&me.id,text,v:v||'',date:new Date().toLocaleString('pl-PL'),read:false}).slice(-300)};
 const notifyRole=(r,text,v)=>db.users.filter(u=>u.role===r).forEach(u=>notify(u.id,text,v));
 const unread=()=>(db.notifs||[]).filter(n=>n.uid===me.id&&!n.read).length;
 const doAssign=(o,u)=>{o.assignee=u.id;o.status='zlecone';o.picked={}};
