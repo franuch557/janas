@@ -279,7 +279,9 @@ td .chip{white-space:nowrap}
 .calc input:focus,.calc select:focus{outline:2px solid var(--ac);outline-offset:-1px;border-color:transparent}
 .calc-r{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px;min-height:38px}.calc-r b{font-size:18px;font-family:"Barlow Semi Condensed","Barlow",sans-serif}
 .calc-n{font-size:13px;margin:8px 0 0}
-@media(max-width:640px){.calc-f{grid-template-columns:1fr 1fr}.calc-f>label:last-child{grid-column:1/-1}.calc-r .btn{flex:1 1 100%}}
+.calc-m{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}.calc-m .vb{padding:6px 12px;font-size:14px}
+.calc-f.calc-p{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:640px){.calc-f{grid-template-columns:1fr 1fr}.calc-f:not(.calc-p)>label:last-child{grid-column:1/-1}.calc-r .btn{flex:1 1 100%}}
 </style>
 </head>
 <body>
@@ -769,6 +771,7 @@ const A={
  tog(d){F[d.k]=!F[d.k];F.n=24;renderMain()},
  clr(){F={q:'',cat:'',sort:'kat',g:F.g};renderMain()},
  grp(d){F={q:F.q,cat:'',sort:F.sort||'kat',g:d.g,x:{}};renderMain()},
+ calcMode(d){CALC.m=d.m;CALC.o=true;const p=detail&&prod(detail),b=document.querySelector('details.calc');if(!p||!b)return;b.outerHTML=calcBox(p);const i=document.querySelector('.calc-f input');if(i)i.focus()},
  calcUse(d){const p=prod(d.id),q=p&&calcRes(p),i=$('#dq');if(!q||!i)return;i.value=q;i.dispatchEvent(new Event('input',{bubbles:true}));toast('Wpisano '+fmtQ(q)+' '+p.unit)},
  fav(d){guard('cart.use');const p=prod(d.id),k=serKey(p),a=favs()[me.id]=favs()[me.id]||[],i=a.indexOf(k);i<0?a.push(k):a.splice(i,1);save();toast(i<0?'Dodano do ulubionych':'Usunięto z ulubionych');detail||view==='ulubione'?renderMain():drawList();renderNav()},
  reorder(d){guard('cart.use');const o=db.corders.find(x=>x.id===d.id&&x.uid===me.id);if(!o)return;const c=db.carts[me.id]=db.carts[me.id]||[];let n=0;
@@ -872,12 +875,12 @@ function sels(p){if(!p.ser)return'';let cur=db.products.filter(x=>x.ser===p.ser&
   if(vals.length>1)out+=`<p class="mu" style="margin:12px 0 4px">${l||p.gl||'Wykończenie'}</p><div class="chips">${vals.map(v=>`<button type="button" class="vb${v===p[k]?' on':''}" data-a="vsel" data-k="${k}" data-v="${esc(v)}">${esc(lab(k,v))}</button>`).join('')}</div>`;
   const f=cur.filter(x=>x[k]===p[k]);if(f.length)cur=f});return out}
 const quoteBox=p=>`<div class="accb qbx"><b>Wycena indywidualna</b><p>Każdą realizację wyceniamy po rozmowie, a jeśli trzeba – po pomiarze u Ciebie. Odpowiadamy w dni robocze 8:00–16:00.</p><div class="oc-a"><a class="btn" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn sec" href="mailto:janas@janas.com.pl?subject=${encodeURIComponent('Zapytanie: '+p.name)}">Napisz e-mail</a>${me&&!isG()&&me.role==='klient'?`<button type="button" class="btn sec" data-a="quoteReq" data-id="${p.id}">Poproś o kontakt</button>`:''}</div></div>`;
-const CALC={o:false,l:'',w:'',h:'',z:'5'};
+const CALC={o:false,m:'d',l:'',w:'',a:'',h:'',z:'5'};
 const calcKind=p=>p.unit==='m²'?'a':p.unit==='t'&&/Kruszywa|Kamienie/.test(p.cat)?'t':p.unit==='m³'?'v':'';
-function calcRes(p){const k=calcKind(p),n=v=>parseFloat(String(v).replace(',','.'))||0,a=n(CALC.l)*n(CALC.w);if(!k||!(a>0))return 0;const q=k==='a'?a*(1+n(CALC.z)/100):a*n(CALC.h)/100*(k==='t'?1.6:1);return q>0?Math.ceil(q*10-1e-9)/10:0}
+function calcRes(p){const k=calcKind(p),n=v=>parseFloat(String(v).replace(',','.'))||0,a=CALC.m==='p'?n(CALC.a):n(CALC.l)*n(CALC.w);if(!k||!(a>0))return 0;const q=k==='a'?a*(1+n(CALC.z)/100):a*n(CALC.h)/100*(k==='t'?1.6:1);return q>0?Math.ceil(q*10-1e-9)/10:0}
 const calcOut=p=>{const q=calcRes(p);return q?`<span>Potrzebujesz ok. <b>${fmtQ(q)} ${esc(p.unit)}</b></span><button type="button" class="btn sm" data-a="calcUse" data-id="${p.id}">Wpisz do ilości</button>`:`<span class="mu">Wpisz wymiary, a policzymy ilość.</span>`};
 const calcBox=p=>{const k=calcKind(p);if(!k)return'';const f=(id,l,ph)=>`<label>${l}<input data-calc="${id}" type="text" inputmode="decimal" autocomplete="off" placeholder="${ph}" value="${esc(CALC[id])}"></label>`;
- return`<details class="calc"${CALC.o?' open':''}><summary>Policz, ile potrzebujesz</summary><div class="calc-b"><div class="calc-f">${f('l','Długość (m)','np. 6')}${f('w','Szerokość (m)','np. 4,5')}${k==='a'?`<label>Zapas na docinki<select data-calc="z">${[['0','bez zapasu'],['5','5%'],['10','10% (łuki)']].map(([v,t])=>`<option value="${v}"${CALC.z===v?' selected':''}>${t}</option>`).join('')}</select></label>`:f('h','Grubość warstwy (cm)','np. 10')}</div><div class="calc-r" id="calcr">${calcOut(p)}</div>${k==='t'?`<p class="mu calc-n">Liczymy 1,6 t na 1 m³. Dokładną ilość potwierdzimy przy zamówieniu.</p>`:''}</div></details>`};
+ return`<details class="calc"${CALC.o?' open':''}><summary>Policz, ile potrzebujesz</summary><div class="calc-b"><div class="calc-m" role="group" aria-label="Sposób liczenia">${[['d','Wymiary'],['p','Powierzchnia']].map(([m,t])=>`<button type="button" class="vb${CALC.m===m?' on':''}" aria-pressed="${CALC.m===m}" data-a="calcMode" data-m="${m}">${t}</button>`).join('')}</div><div class="calc-f${CALC.m==='p'?' calc-p':''}">${CALC.m==='p'?f('a','Powierzchnia (m²)','np. 32'):f('l','Długość (m)','np. 6')+f('w','Szerokość (m)','np. 4,5')}${k==='a'?`<label>Zapas na docinki<select data-calc="z">${[['0','bez zapasu'],['5','5%'],['10','10% (łuki)']].map(([v,t])=>`<option value="${v}"${CALC.z===v?' selected':''}>${t}</option>`).join('')}</select></label>`:f('h','Grubość warstwy (cm)','np. 10')}</div><div class="calc-r" id="calcr">${calcOut(p)}</div>${CALC.m==='p'?`<p class="mu calc-n">Nieregularny kształt? Weź powierzchnię z projektu albo podziel teren na prostokąty i dodaj ich powierzchnie.</p>`:''}${k==='t'?`<p class="mu calc-n">Liczymy 1,6 t na 1 m³. Dokładną ilość potwierdzimy przy zamówieniu.</p>`:''}</div></details>`};
 function detailHtml(p){const cl=me.role==='klient',im=imgOf(p),cs=COLS[p.ck]||[],si=selOf(p),kv=(a,b)=>`<div class="kv"><span>${a}</span><b>${b}</b></div>`;
  const btn=(can('cart.use')&&!p.quote?`<button class="btn" data-a="cartAdd" data-id="${p.id}" ${avail(p)<=0?'disabled':''}>Do koszyka</button>`:'')
  +(can('product.write')?`<button class="btn sec" data-a="prod" data-id="${p.id}">Edytuj</button>`:'')
