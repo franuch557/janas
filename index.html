@@ -212,10 +212,12 @@ th{background:var(--card);font-weight:600;color:var(--mu);border-bottom:1px soli
 .gb{padding:7px 0;border-radius:0;color:var(--mu);font-weight:500;background:none!important;box-shadow:none!important}
 .gb:hover{color:var(--tx)}.gb small{font-size:13px}
 .gb.on{color:var(--tx);font-weight:700}.gb.on span{box-shadow:inset 0 -2px 0 var(--ac)}
-.grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:34px 22px}
-.pc{background:none;border:0;border-radius:0;overflow:visible;transition:none}
-.pc:hover{box-shadow:none;transform:none}
-.pc .pic{height:auto;aspect-ratio:4/3;border-radius:var(--r);background:var(--sunk)}
+.grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
+.pc{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:8px 8px 14px;overflow:visible;transition:border-color .15s}
+.pc:hover{border-color:var(--mu)}
+.pc h3,.pc .dots,.pc p,.pc .row{padding:0 6px}
+.pc:hover{box-shadow:none;transform:none}.pc .star{top:16px;right:16px}
+.pc .pic{height:auto;aspect-ratio:4/3;border-radius:4px;background:var(--sunk)}
 .pc .pic img{transition:filter .2s}.pc:hover .pic img{filter:brightness(.94)}
 .pc:hover h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .pc h3{margin:12px 0 4px;font-size:18px;line-height:1.25}
@@ -225,7 +227,7 @@ th{background:var(--card);font-weight:600;color:var(--mu);border-bottom:1px soli
 .pc .row .chip{position:static}.pc .row .chip.ok{display:none}
 .pr{font-size:19px;font-weight:600}.un{font-size:14px}
 .pc>.btn{position:absolute;inset:0;margin:0;opacity:0;z-index:1;min-height:0;border-radius:var(--r)}
-.pc:has(>.btn:focus-visible){outline:2px solid var(--lk);outline-offset:6px;border-radius:var(--r)}
+.pc:has(>.btn:focus-visible){outline:2px solid var(--lk);outline-offset:2px}
 .star{z-index:3;width:34px;height:34px;line-height:34px;top:8px;right:8px;background:rgba(255,255,255,.9);color:#5a5f57;font-size:17px}.star.on{color:#c48a00}
 .pic:not(:has(img))::after{color:var(--mu);opacity:.6;font-weight:600;letter-spacing:.04em;font-family:"Barlow Semi Condensed",sans-serif}
 .pic{background:var(--sunk)}
@@ -259,7 +261,8 @@ body[data-role="klient"] main{max-width:1320px;margin:0 auto;width:100%}
  .top{padding:0 12px}main{padding:20px 14px}body[data-role="klient"] nav{padding:0 14px}}
 @media(max-width:640px){h1{font-size:26px;margin-bottom:14px}h2.secH{font-size:20px;margin:30px 0 10px}
  .top .btn{min-height:40px}.top .btn.sec{padding:8px}.top .btn:not(.sec){padding:8px 12px;font-size:14px}
- .grid{grid-template-columns:1fr 1fr;gap:24px 12px}.pc h3{margin:8px 0 2px;font-size:16px}.pc .dots,.pc .row{margin-left:0;margin-right:0}.pc .pic{height:auto}.pr{font-size:17px}.pc>.btn{margin:0}
+ .grid{grid-template-columns:1fr 1fr;gap:10px}.pc{padding:6px 6px 12px}.pc h3,.pc .dots,.pc .row{padding:0 4px}.pc .star{top:12px;right:12px}
+ body[data-role="klient"] nav{gap:18px;overflow-x:auto;scrollbar-width:none}body[data-role="klient"] nav button{flex:none;white-space:nowrap}.pc h3{margin:8px 0 2px;font-size:16px}.pc .dots,.pc .row{margin-left:0;margin-right:0}.pc .pic{height:auto}.pr{font-size:17px}.pc>.btn{margin:0}
  .dot{width:20px;height:20px}.pc .dot:nth-child(n+5){display:none}
  .det>.card:last-child{padding:18px 16px}.det h1{font-size:26px}
  .det .acts{box-shadow:none}
@@ -284,7 +287,7 @@ const PERMS={
  pracownik:['stock.read','order.view','order.create'],
  klient:['catalog','cart.use','order.cancel.own'],
  kierowca:['deliver']};
-const NAV=[['dashboard','Dashboard','dashboard'],['katalog','Katalog','catalog'],['magazyn','Magazyn','stock.read'],['braki','Zgłoszenia braków','shortage.read'],['zapytania','Zapytania o dostępność','inq.answer'],['przyjecia','Przyjęcia towaru','stock.write'],['historia','Historia stanów','stock.write'],['remanent','Remanent','stock.write'],['statystyki','Statystyki','order.decide'],['zamowienia','Zamówienia pracowników','order.view'],['zamklient','Zamówienia klientów','clientorder.read'],['kompletacja','Do kompletacji','pick.work'],['kalendarz','Kalendarz dostaw','calendar'],['dostawy','Moje dostawy','deliver'],['koszyk','Koszyk','cart.use'],['moje','Moje zamówienia','cart.use'],['uzytkownicy','Użytkownicy','user.write']];
+const NAV=[['dashboard','Dashboard','dashboard'],['katalog','Katalog','catalog'],['ulubione','Ulubione','cart.use'],['magazyn','Magazyn','stock.read'],['braki','Zgłoszenia braków','shortage.read'],['zapytania','Zapytania o dostępność','inq.answer'],['przyjecia','Przyjęcia towaru','stock.write'],['historia','Historia stanów','stock.write'],['remanent','Remanent','stock.write'],['statystyki','Statystyki','order.decide'],['zamowienia','Zamówienia pracowników','order.view'],['zamklient','Zamówienia klientów','clientorder.read'],['kompletacja','Do kompletacji','pick.work'],['kalendarz','Kalendarz dostaw','calendar'],['dostawy','Moje dostawy','deliver'],['koszyk','Koszyk','cart.use'],['moje','Moje zamówienia','cart.use'],['uzytkownicy','Użytkownicy','user.write']];
 const DEMO=[['szef','szef123'],['magazynier','mag123'],['pracownik','prac123'],['klient','klient123'],['kierowca','kier123']];
 
 const $=s=>document.querySelector(s);
@@ -568,6 +571,7 @@ V.zapytania=()=>{const l=(db.inq||[]).slice().reverse(),op=l.filter(x=>x.st==='o
 V.statystyki=()=>statsHtml();
 const heroHtml=()=>me&&me.role==='klient'?`<section class="hero"><div><span class="hk">Bezpieczeństwo i styl</span><h1>Kompleksowe rozwiązania dla Twojego domu i ogrodu</h1><p>Kostka brukowa, ogrodzenia, bramy, kruszywa i opał. Zamów online – odbierz w Glinnie lub zamów dowóz.</p><a class="btn" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn sec" href="https://janas.com.pl/oferta-2/" target="_blank" rel="noopener">Nasze realizacje</a></div></section>`:'';
 V.katalog=()=>tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
+V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w katalogu, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do katalogu</button></div>`};
 V.magazyn=()=>tb();
 const SST={open:['Otwarte','er'],ordered:['Zamówione','wa'],instock:['Jest na stanie','ok'],done:['Zamknięte','ok']},sst=s=>s.st||(s.open===false?'done':'open');
 V.braki=()=>{const act=can('product.write')||can('shortage.write'),l=db.shortages.slice().reverse().sort((a,b)=>(sst(a)==='open'?0:1)-(sst(b)==='open'?0:1));
@@ -756,7 +760,7 @@ const A={
  tog(d){F[d.k]=!F[d.k];F.n=24;renderMain()},
  clr(){F={q:'',cat:'',sort:'kat',g:F.g};renderMain()},
  grp(d){F={q:F.q,cat:'',sort:F.sort||'kat',g:d.g,x:{}};renderMain()},
- fav(d){guard('cart.use');const p=prod(d.id),k=serKey(p),a=favs()[me.id]=favs()[me.id]||[],i=a.indexOf(k);i<0?a.push(k):a.splice(i,1);save();toast(i<0?'Dodano do ulubionych':'Usunięto z ulubionych');detail?renderMain():drawList()},
+ fav(d){guard('cart.use');const p=prod(d.id),k=serKey(p),a=favs()[me.id]=favs()[me.id]||[],i=a.indexOf(k);i<0?a.push(k):a.splice(i,1);save();toast(i<0?'Dodano do ulubionych':'Usunięto z ulubionych');detail||view==='ulubione'?renderMain():drawList();renderNav()},
  reorder(d){guard('cart.use');const o=db.corders.find(x=>x.id===d.id&&x.uid===me.id);if(!o)return;const c=db.carts[me.id]=db.carts[me.id]||[];let n=0;
   o.items.forEach(it=>{const p=it.pid&&prod(it.pid);if(!p||avail(p)<=0)return;let x=c.find(y=>y.pid===p.id&&(y.col||'')===(it.col||''));const have=cartTot(p.id),q=Math.min(it.qty,Math.round((avail(p)-have)*100)/100);if(q<=0)return;if(x)x.qty=Math.round((x.qty+q)*100)/100;else c.push({pid:p.id,qty:q,col:it.col||''});n++});
   save();toast(n?'Dodano do koszyka pozycji: '+n:'Żadna pozycja nie jest teraz dostępna',!n);if(n){view='koszyk';detail=null;render()}},
@@ -850,7 +854,7 @@ const loginHtml=()=>`<div class="login"><div class="card">${themeBtn('btn sec ca
  ${SB?'':`<p class="mu" style="font-size:12px;margin-bottom:0">Konta demo: szef / szef123 · magazynier / mag123 · pracownik / prac123 · klient / klient123 · kierowca / kier123</p>`}
  ${CL.on||SB?'':'<p style="text-align:center;margin:10px 0 0"><button class="btn sec sm" data-a="reset">Przywróć dane demo</button></p>'}</div></div>`;
 function renderNav(){const n=$('#nav');if(!n)return;const cnt=(db.carts[me.id]||[]).length,cb=$('#cb');if(cb){cb.textContent=cnt;cb.style.display=cnt?'':'none'}const nb=$('#nb'),un=unread();UNR=un;if(nb){nb.textContent=un;nb.style.display=un?'':'none'}
- const nq=(db.inq||[]).filter(x=>x.st==='open').length;const pk=db.corders.filter(o=>o.assignee===me.id&&['zlecone','w_kompletacji'].includes(cst(o))).length;n.innerHTML=`<div class="navwho">${esc(me.name)}<small>${ROLES[me.role]}</small></div>`+navList().map(x=>`<button class="${x[0]===view?'on':''}" data-a="nav" data-v="${x[0]}">${esc(title(x))}${x[0]==='koszyk'&&cnt?` (${cnt})`:''}${x[0]==='kompletacja'&&pk?` (${pk})`:''}${x[0]==='zapytania'&&nq?` (${nq})`:''}</button>`).join('')}
+ const nq=(db.inq||[]).filter(x=>x.st==='open').length;const pk=db.corders.filter(o=>o.assignee===me.id&&['zlecone','w_kompletacji'].includes(cst(o))).length;n.innerHTML=`<div class="navwho">${esc(me.name)}<small>${ROLES[me.role]}</small></div>`+navList().map(x=>`<button class="${x[0]===view?'on':''}" data-a="nav" data-v="${x[0]}">${esc(title(x))}${x[0]==='koszyk'&&cnt?` (${cnt})`:''}${x[0]==='ulubione'&&(favs()[me.id]||[]).length?` (${(favs()[me.id]||[]).length})`:''}${x[0]==='kompletacja'&&pk?` (${pk})`:''}${x[0]==='zapytania'&&nq?` (${nq})`:''}</button>`).join('')}
 const DIMS=[['gr','Grubość'],['faza','Faza'],['grp',''],['fmt','Format']],FORD=['z fazą','mikrofaza','bez fazy'];
 function sels(p){if(!p.ser)return'';let cur=db.products.filter(x=>x.ser===p.ser&&x.cat===p.cat);if(cur.length<2)return'';
  const lab=(k,v)=>k==='gr'?v+' cm':k==='fmt'?(v?v+' cm':'—'):(v||'—');let out='';
