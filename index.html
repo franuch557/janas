@@ -979,7 +979,7 @@ function csnap(c,s,first){const docs=new Map(),rem=new Map();s.docs.forEach(d=>{
  CL.mine[c].forEach((j,id)=>{const sj=rem.has(id)?rem.get(id):null;if(sj===j)CL.mine[c].delete(id);else if(j===null){docs.delete(id);rem.delete(id)}else{docs.set(id,JSON.parse(j));rem.set(id,j)}});
  CL.rem[c]=rem;capply(c,docs);SC.clear();RC.m=null;if(!first)CL.ui()}
 async function startCloud(cdb){
- db=seed();db.cal=[];db.notifs=[];db.log=[];db.favs={};db.carts={};
+ db=seed();db.users=[];db.orders=[];db.shortages=[];db.cal=[];db.notifs=[];db.log=[];db.favs={};db.carts={};
  Object.assign(CL,{db:cdb,arr:{},bmap:{},rem:{},mine:{},q:Promise.resolve(),ro:false});
  CCOL.forEach(c=>{CL.arr[c]=cclone(db[c]||[]);CL.bmap[c]=new Map(CL.arr[c].map(x=>[x.id,cj(x)]));CL.rem[c]=new Map()});
  ['carts','favs'].forEach(c=>CL.rem[c]=new Map());[...CCOL,'carts','favs'].forEach(c=>CL.mine[c]=new Map());
