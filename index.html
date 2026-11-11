@@ -290,6 +290,18 @@ td .chip{white-space:nowrap}
  body[data-role="klient"] .callfab{display:flex;align-items:center;gap:8px;position:fixed;right:14px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;padding:12px 18px;border-radius:99px;background:var(--ac);color:#fff;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25)}
  body[data-role="klient"]:has(.det .acts .btn) .callfab{bottom:calc(86px + env(safe-area-inset-bottom,0px))}
  body[data-role="klient"] main{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}}
+/* audyt Impeccable 2026-11: kontrast, dotyk, elementy przeglądarki */
+:root{--ac:#05850b;--top:#05850b;--ok:#126b33}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--ac:#18821f}}
+:root[data-theme="dark"]{--ac:#18821f}
+.brand-sub,.who{color:#fff}
+::placeholder{color:var(--mu);opacity:1}
+::selection{background:var(--acb);color:var(--tx)}
+input,textarea{caret-color:var(--ac)}
+input[type=checkbox],input[type=radio]{accent-color:var(--ac)}
+.dot:focus-visible{outline:2px solid var(--lk);outline-offset:2px}
+@media(max-width:640px){.dot{width:26px;height:26px}.dots{gap:6px}.pc .dot:nth-child(n+5){display:none}
+ .foot a{display:inline-block;padding:9px 0}.foot{gap:0}}
 </style>
 </head>
 <body>
@@ -552,8 +564,8 @@ const tb2=()=>{const cl=me.role==='klient',g=curG(),t=(k,l)=>`<button type="butt
  const fs=(g.fl||[]).map(f=>{const o=f.o();return o.length>1?`<select data-gf="${f.k}" aria-label="${f.l}"><option value="">${f.l}: wszystkie</option>${o.map(([v,l])=>`<option value="${esc(v)}" ${((F.x||{})[f.k]||'')===v?'selected':''}>${esc(l)}</option>`).join('')}</select>`:''}).join('');
  return`<div class="tb2">${fs}${cl?t('av','Tylko dostępne'):t('low','Niski stan / brak')}<button type="button" class="btn sec sm" data-a="clr">Wyczyść filtry</button></div>`};
 const tb=extra=>{const so=[['kat','Sortuj: domyślnie'],['name','Sortuj: nazwa A–Z'],['pa','Sortuj: cena rosnąco'],['pd','Sortuj: cena malejąco']];if(me.role!=='klient')so.push(['sa','Sortuj: stan rosnąco']);
- return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" placeholder="Szukaj: nazwa, kolor, grubość…" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
-const dots=p=>{const cs=COLS[p.ck]||[];if(!cs.length)return"";const s=selOf(p);return`<div class="dots">${cs.slice(0,6).map((c,i)=>`<img class="dot${i===s?" on":""}" loading="lazy" src="${c[1]}" alt="${esc(c[0])}" title="${esc(c[0])}" data-a="pick" data-id="${p.id}" data-i="${i}">`).join("")}${cs.length>6?`<span class="mu">+${cs.length-6}</span>`:""}</div>`};
+ return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" aria-label="Szukaj w katalogu" placeholder="Szukaj: nazwa, kolor, grubość…" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
+const dots=p=>{const cs=COLS[p.ck]||[];if(!cs.length)return"";const s=selOf(p);return`<div class="dots">${cs.slice(0,6).map((c,i)=>`<img class="dot${i===s?" on":""}" role="button" tabindex="0" loading="lazy" src="${c[1]}" alt="${esc(c[0])}" title="${esc(c[0])}" data-a="pick" data-id="${p.id}" data-i="${i}">`).join("")}${cs.length>6?`<span class="mu">+${cs.length-6}</span>`:""}</div>`};
 const star=p=>can('cart.use')?`<button type="button" class="star${isFav(p)?' on':''}" data-a="fav" data-id="${p.id}" aria-label="Ulubione">${isFav(p)?'★':'☆'}</button>`:'';
 const cardOf=g=>{const p=g[0],one=g.length===1,pr=Math.min(...g.map(x=>x.price)),st=g.some(x=>avail(x)>x.min)?['Dostępny','ok']:g.some(x=>avail(x)>0)?['Ostatnie sztuki','wa']:['Brak','er'];
  return`<div class="card pc" data-a="open" data-id="${p.id}">${star(p)}<div class="pic">${p.icon}${imgOf(p)?`<img src="${esc(imgOf(p))}" alt="" loading="lazy" onerror="this.remove()">`:''}</div><h3>${esc(one?p.name:p.ser)}</h3>${dots(p)}<p class="mu">${one?esc(p.desc):g.length+' wariantów'}</p><div class="row"><b class="pr">${one?ppH(p):'od '+ppH({price:pr,unit:p.unit})}</b><span class="chip ${st[1]}">${st[0]}</span></div><button class="btn sec" data-a="open" data-id="${p.id}">Wybierz opcje</button></div>`};
@@ -926,7 +938,7 @@ function render(){document.body.dataset.role=me?me.role:'';if(!me){$('#app').inn
  renderNav();renderMain()}
 
 document.addEventListener('click',e=>{if(e.target.classList&&e.target.classList.contains('ov')){A.close();return}const b=e.target.closest('[data-a]');if(b)run(()=>A[b.dataset.a](b.dataset))});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.querySelector('.ov')){e.preventDefault();A.close();return}const t=document.activeElement&&document.activeElement.tagName;if(e.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(t)&&$('#q')){e.preventDefault();$('#q').focus()}});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[role=button][data-a]')){e.preventDefault();e.target.click();return}if(e.key==='Escape'&&document.querySelector('.ov')){e.preventDefault();A.close();return}const t=document.activeElement&&document.activeElement.tagName;if(e.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(t)&&$('#q')){e.preventDefault();$('#q').focus()}});
 document.addEventListener('input',e=>{if(e.target.id==='q'){F.q=e.target.value;F.n=24;drawList()}
  if(e.target.id==='remq'){REMQ=e.target.value;REMN=40;const l=$('#remlist');if(l)l.innerHTML=remList()}if(e.target.id==='oq'){OQ=e.target.value;drawOrders()}if(e.target.id==='hq'){HQ=e.target.value;drawHist()}if(e.target.id==='note')NOTE=e.target.value;if(e.target.id==='addr')ADDR=e.target.value;if(e.target.id==='phone')PHONE=e.target.value;
  if(e.target.id==='dq'&&detail){const v=parseFloat(e.target.value)||0,s=$('#dsum');if(s)s.textContent=pln(prod(detail).price*v)}});
