@@ -431,7 +431,7 @@ function oferta(){let k=0;const P=(n,c,gal,d)=>({id:'of'+(k++),name:n,cat:c,pric
   P("Projektowanie i wykonawstwo ogrodów","Usługi",["img/of/ogr1.jpg", "img/of/ogr2.jpg", "img/of/ogr3.jpg"],"Indywidualny projekt dopasowany do terenu i Twoich potrzeb, dobór roślin, wykonanie i porady pielęgnacyjne."),
   P("Układanie kostki brukowej i płyt tarasowych","Usługi",["img/of/kost2.jpg", "img/of/kost1.jpg", "img/of/kost3.jpg"],"Kompleksowe prace brukarskie: podbudowa, obrzeża, układanie kostki i płyt, wykończenie kruszywem."),
   P("Usługi miniładowarką Avant 640","Usługi",["img/of/avant1.jpg", "img/of/avant3.jpg", "img/of/avant2.jpg"],"Zamiatarka, minikoparka, łyżka 4w1, widły do palet, wiertnica, równiarka niwelacyjna, glebogryzarka separacyjna."),
-  P("Transport HDS+ z dźwigiem","Usługi",["img/of/hds2.jpg", "img/of/hds1.jpg"],"Przewóz materiałów budowlanych, maszyn i urządzeń, załadunek i rozładunek dźwigiem HDS, usługi na budowach i w ogrodnictwie.")]}
+  P("Transport HDS+ z dźwigiem","Usługi",["img/of/hds2.jpg", "img/of/hds1.jpg"],"Przewóz materiałów budowlanych, maszyn i urządzeń, załadunek i rozładunek dźwigiem HDS, usługi na budowach i w ogrodnictwie.")].filter(p=>!/^Układanie kostki/.test(p.name))/* JANAS nie układa kostki; filtr zamiast usunięcia, by nie przesunąć id */}
 function janas(){let k=0;const P=(n,c,pr,u,s,m,i,d)=>({id:'jn'+(k++),name:n,cat:c,price:pr,unit:u,stock:s,min:m,icon:i,img:'',desc:d+' Cena przykładowa.',brand:'JANAS'});
  return[
   P('Pellet drzewny A1 6 mm, worek 15 kg','Pelet i opał',24.9,'worek',400,100,'🔥','Pellet klasy A1.'),
@@ -913,7 +913,7 @@ const palHtml=p=>{const t=[];if(+p.pal_m2)t.push(fmtQ(p.pal_m2)+' m²');if(+p.pa
 const REL=[/^Obrzeże betonowe/,/^Geowłóknina/,/^Kruszywo łamane 0–31,5/,/^Piasek płukany 0–2/,/^Fuga do kostki/,/^Impregnat do kostki/,/^Wynajem zagęszczarki/];
 const relHtml=p=>{if(!isBruk(p))return'';const l=REL.map(r=>db.products.find(x=>r.test(x.name))).filter(Boolean);if(!l.length)return'';
  return`<div class="card arr rel"><h2>Do tego przyda się</h2><p class="mu">Do ułożenia kostki potrzebne są też podbudowa, podsypka i obrzeża.</p><div class="relg">${l.map(x=>`<button type="button" class="rel-i" data-a="open" data-id="${x.id}"><span>${esc(x.name)}</span><b>${ppH(x)}</b></button>`).join('')}</div></div>`};
-const REALZ=[[p=>KG.includes(p.cat),/^Układanie kostki/],[p=>KR.includes(p.cat),/^Kruszywa ozdobne/],[p=>p.cat==='Ogrodzenia',/^Ogrodzenia panelowe/]];
+const REALZ=[[p=>KR.includes(p.cat),/^Kruszywa ozdobne/],[p=>p.cat==='Ogrodzenia',/^Ogrodzenia panelowe/]];
 const realHtml=p=>{if(p.quote)return'';const m=REALZ.find(([f])=>f(p));const o=m&&db.products.find(x=>x.quote&&m[1].test(x.name));const g=o&&(o.gal||[]);if(!g||!g.length)return'';
  return`<div class="card arr real"><h2>Nasze realizacje</h2><div class="realg">${g.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener"><img src="${esc(u)}" alt="Realizacja JANAS" loading="lazy"></a>`).join('')}</div><p class="mu" style="margin:10px 0 0"><a class="tl" href="https://janas.com.pl/oferta-2/" target="_blank" rel="noopener">Więcej realizacji na janas.com.pl</a></p></div>`};
 const placHtml=p=>isBruk(p)?`<p class="plac">Chcesz zobaczyć kostkę na żywo? Zapraszamy do naszego ogrodu wystawowego w Glinnie 299 – jest otwarty całą dobę. <a class="tl" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></p>`:'';
