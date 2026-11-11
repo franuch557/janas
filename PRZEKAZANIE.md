@@ -18,7 +18,8 @@
 1. Zachować kopię (gałąź w repo) – wymaga zgody użytkownika.
 2. Decyzja: czy kopia zastępuje główny sklep. Przy publikacji: wpisać datę „Obowiązuje od”, wgrać do prawdziwej bazy (za zgodą): supabase-zamowienia.sql (nowa wersja), supabase-usun-konto.sql, supabase-ustawienia.sql.
 3. Usunąć „Układanie kostki” z obecnego sklepu (czeka na zgodę).
-4. Później: formularz wyceny, poradniki/FAQ, Messenger, prawdziwe opinie Google (treść od użytkownika).
+4. Kreator `wycena-3d.html` (ogrodzenie panelowe, siatka, kostka, żwir w 3D + lista materiałów z ceną; ceny ogrodzeń przykładowe, edytowalne w „Cennik”, zapis w localStorage); link w sekcji Zapytaj o wycenę.
+5. Później: formularz wyceny, poradniki/FAQ, Messenger, prawdziwe opinie Google (treść od użytkownika).
 
 ## Testowanie
 - Lokalny Supabase w Dockerze: scratchpad/sbtest (konta *@janas.test, hasło w konta-testowe.txt), start: `npx supabase@2.54.11 start -x studio,imgproxy,edge-runtime,logflare,vector,supavisor,postgres-meta,storage-api`.
