@@ -1314,7 +1314,7 @@ const TODO=t=>/\[.*do uzupełnienia.*\]/.test(t)?`<mark class="todo">${esc(t)}</
 const DOCV=['regulamin','prywatnosc','cookies'];
 const docSeller=()=>`${TODO(FIRMA.nazwa)}, ${TODO(FIRMA.wlasciciel)} – przedsiębiorca wpisany do Centralnej Ewidencji i Informacji o Działalności Gospodarczej (CEIDG), ${esc(FIRMA.adres)}, NIP ${TODO(FIRMA.nip)}, REGON ${TODO(FIRMA.regon)}, e-mail: <a href="mailto:${FIRMA.email}">${FIRMA.email}</a>, tel. <a href="tel:+48506141028">${FIRMA.tel}</a>`;
 /* Data wejścia w życie dokumentów – wpisać w dniu publikacji, np. '20 listopada 2026 r.' */
-const DOC_OD='';
+const DOC_OD='11 listopada 2026 r.';
 const DOCS={
 regulamin:()=>`<p class="doc-l">Obowiązuje od: ${DOC_OD||'<mark class="todo">[data – do uzupełnienia]</mark>'}</p>
 <h2>§ 1. Postanowienia ogólne</h2><ol><li>Sklep internetowy JANAS (dalej: Sklep) prowadzi ${docSeller()} (dalej: Sprzedawca).</li><li>Regulamin określa zasady korzystania ze Sklepu, składania zamówień, dostawy, płatności, odstąpienia od umowy i reklamacji.</li><li>Do korzystania ze Sklepu potrzebne jest urządzenie z dostępem do internetu, aktualna przeglądarka internetowa z włączoną obsługą JavaScript oraz – do złożenia zamówienia – aktywny adres e-mail.</li><li>Zakazane jest dostarczanie przez Klienta treści o charakterze bezprawnym.</li></ol>
