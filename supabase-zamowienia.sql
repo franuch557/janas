@@ -16,6 +16,8 @@ declare
   s numeric;
 begin
   if new.col <> 'corders' or public.janas_staff() then return new; end if;
+  -- wyjątek tylko dla funkcji janas_delete_me (usunięcie konta czyści telefon i adres)
+  if current_setting('janas.deleting', true) = '1' then return new; end if;
 
   if tg_op = 'INSERT' then
     -- upsert istniejącego rekordu sprawdza gałąź UPDATE
