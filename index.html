@@ -699,7 +699,7 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
 .shop-h p{margin:0;max-width:70ch}
 
 /* ---------- kafle produktów (jak Wiśniowski) ---------- */
-.kaf-sec .ep-h{margin-bottom:12px}.kaf-lead{max-width:62ch;margin:0 auto 32px}
+.kaf-sec .ep-h{margin-bottom:22px}.kaf-lead{max-width:62ch;margin:0 auto 32px}
 .kaf-g{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;background:var(--bg)}
 .kaf{grid-column:span 3;position:relative;overflow:hidden;border:0;padding:0;margin:0;cursor:pointer;background:#2a2d28;color:#fff;display:grid;place-items:center;font:inherit;text-align:center;height:clamp(280px,calc((100svh - var(--stick,120px)) / 2),560px);border-radius:0}
 .kaf-s{grid-column:span 2;height:clamp(200px,24vw,340px)}
@@ -792,19 +792,6 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
  .ep-dot.on::after{animation:prog 7s linear}
  .ep-hero:hover .ep-dot.on::after,.ep-hero:focus-within .ep-dot.on::after{animation-play-state:paused}
  @keyframes prog{from{transform:scaleX(0)}to{transform:scaleX(1)}}
- /* kafle: powolny ruch zdjęć jak w filmie i odsłanianie kurtyną */
- .kaf-img{animation:tlkb 20s ease-in-out infinite alternate;animation-delay:calc(var(--i,0) * -3.5s)}
- @keyframes tlkb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.09) translate(-1.5%,-1%)}}
- .kaf.rv{opacity:1;transform:none}
- .kaf.rv::before{content:"";position:absolute;inset:0;z-index:3;background:var(--bg);transform-origin:top;transition:transform 1.1s cubic-bezier(.7,0,.2,1) var(--d,0ms)}
- .kaf.rv.in::before{transform:scaleY(0)}
- .kaf.rv .kaf-h{opacity:0;transform:translateY(26px);transition:opacity .8s ease calc(var(--d,0ms) + .45s),transform .8s cubic-bezier(.2,.7,.2,1) calc(var(--d,0ms) + .45s)}
- .kaf.rv.in .kaf-h{opacity:1;transform:none}
- /* nagłówki sekcji: rysowana kreska */
- .ep-sec .ep-h.rv::after{content:"";display:block;width:56px;height:3px;background:var(--ac);margin-top:14px;transform:scaleX(0);transform-origin:left;transition:transform .8s cubic-bezier(.2,.7,.2,1) .35s}
- .ep-sec .ep-h.ep-c.rv::after{margin-left:auto;margin-right:auto;transform-origin:center}
- .ep-sec .ep-h.rv.in::after{transform:scaleX(1)}
- .ab-img img{transition:transform .2s linear;will-change:transform}
 }
 
 /* ---------- poprawki widoku na telefonie ---------- */
@@ -831,6 +818,32 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
  .crumbs-row{flex-wrap:nowrap}.crumbs-row>.btn{flex:none;padding:8px 12px;min-height:40px}.crumbs{flex:1 1 auto;min-width:0}
 }
 @media(max-width:700px){.pt-c{font-size:12px}}
+
+/* ---------- spokojniej: treść ważniejsza od efektów ---------- */
+.ep-sec>.eb,.ep-sec .ig-hd .eb,.ep-sec .wy-t .eb,.ep-sec .ab-t .eb,.ep-sec .op-et .eb,#jak .eb{display:none}
+.ep-sec{padding-top:60px}
+.kaf{height:clamp(220px,34vh,380px)}
+.kaf-s{height:clamp(150px,16vw,220px)}
+.kaf-h{font-size:clamp(24px,2.5vw,36px);font-weight:400}
+.kaf-s .kaf-h{font-size:clamp(19px,1.6vw,24px)}
+.kaf-t{transform:none;gap:8px}
+.kaf-m{opacity:1;transform:none;font-size:15px;font-weight:400}
+.kaf::after{background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,.42))}
+.kaf:hover::after,.kaf:focus-visible::after{background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.55))}
+.kaf:hover .kaf-img img,.kaf:focus-visible .kaf-img img{transform:scale(1.03)}
+.kaf-img img{transition:transform .6s ease}
+.ep-pave{background-image:none!important}
+.ep-why svg :is(path,circle,rect,line,polyline){stroke-dasharray:none!important;stroke-dashoffset:0!important;animation:none!important}
+.ep-hero .ep-hi.on{animation:none!important}
+.ep-sl.on>*{animation:none!important}
+.ep-stats .st-g>div{animation:none!important}
+.rv{transform:translateY(10px)!important;transition:opacity .45s ease var(--d,0ms),transform .45s ease var(--d,0ms)!important}
+.rv.in{transform:none!important}
+.ig-b img,.pr-img img{transition:transform .6s ease}
+.ig-b:hover img,.pr-c:hover .pr-img img{transform:scale(1.03)}
+.cta-l{display:flex;flex-wrap:wrap;gap:6px 18px;margin:20px 0 0!important;font-size:14.5px}
+.cta-l a{color:#fff;opacity:.85;text-decoration:underline;text-underline-offset:3px}.cta-l a:hover{opacity:1}
+@media(max-width:640px){.ep-sec{padding-top:44px}.kaf{height:46vw;min-height:180px}.kaf-s{height:34vw;min-height:130px}.kaf-m{font-size:13px}.kaf-s .kaf-m{display:block!important;font-size:12px;line-height:1.35;padding:0 6px}.kaf-m svg{display:none}}
 </style>
 </head>
 <body>
@@ -1147,17 +1160,12 @@ const heroHtml=()=>me&&me.role==='klient'?`<section class="hero"><div><span clas
 const EPCAT=[['kostka','Kostka i płyty','kost2'],['kruszywa','Kruszywa i kamienie','krusz1'],['ogrodzenia','Ogrodzenia','panel2'],['bramy','Bramy i automatyka','brama1'],['ogrod','Ogród i zadaszenia','zad1'],['uslugi','Usługi i transport HDS','hds2']];
 const EPREAL=[['kost1','Kostka brukowa','kostka'],['nowo1','Ogrodzenia nowoczesne','ogrodzenia'],['zad2','Zadaszenia tarasów','ogrod'],['ogr1','Projekty ogrodów','uslugi'],['slabb1','Beton architektoniczny','ogrod']];
 const epHome=()=>`<section class="ep-hero bleed" aria-roledescription="karuzela" aria-label="Najważniejsze z oferty">${heroSlides()}${openPill()}<div class="ep-stats"><div class="ep-in st-g"><div><b>2005</b><span>działamy od</span></div><div><b data-n="${Math.max(50,Math.floor(db.products.length/50)*50)}" data-s="+">${Math.max(50,Math.floor(db.products.length/50)*50)}+</b><span>produktów w sklepie</span></div><div><b data-n="${PARTN.length}">${PARTN.length}</b><span>marek partnerów</span></div><div><b>24 h</b><span>ogród wystawowy</span></div></div></div></section>
-${tilesHtml()}
-<section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p><ul class="ab-v"><li><b>Doświadczenie</b>Wieloletnia obecność na rynku i praca z wieloma klientami.</li><li><b>Jakość</b>Sprawdzeni producenci i indywidualne podejście do każdego klienta.</li><li><b>Elastyczność</b>Dopasowujemy się do Twoich wymagań i terminów.</li></ul></div></div></section>
-${inspHtml()}
-<section class="ep-sec" id="naz"><h2 class="ep-h ep-c">Co widzisz na zdjęciu?</h2><div class="hs"><img src="img/of/kost1.jpg" alt="Ścieżka z szarej kostki brukowej, obrzeże i rabata z białych otoczaków" loading="lazy"><button type="button" class="hs-p" style="left:18%;top:86%" data-a="grp" data-g="kostka"><span>Kostka brukowa</span></button><button type="button" class="hs-p" style="left:36%;top:62%" data-a="grp" data-g="akces"><span>Obrzeża</span></button><button type="button" class="hs-p hs-r" style="left:74%;top:52%" data-a="grp" data-g="kruszywa"><span>Otoczaki i grysy</span></button></div><p class="mu ep-c" style="margin-top:12px">Wybierz punkt, aby zobaczyć podobne produkty w sklepie.</p></section>
-<section class="ep-sec" id="dlaczego"><h2 class="ep-h ep-c">Dlaczego JANAS?</h2><div class="ep-why">
+${tilesHtml()}${rvHtml()}${stepsHtml()}<section class="ep-sec" id="dlaczego"><h2 class="ep-h ep-c">Dlaczego JANAS?</h2><div class="ep-why">
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/><path d="M12 2v3"/><circle cx="12" cy="10" r="1.2"/></svg><h3>Ogród wystawowy 24h</h3><p>Materiały zobaczysz ułożone, w świetle dziennym i wieczorem, o każdej porze.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V6"/><path d="M21 21V6"/><path d="M3 9h18"/><path d="M3 17h18"/><path d="M7 9v8M11 9v8M15 9v8M19 9v8"/></svg><h3>Montaż ogrodzeń i bram</h3><p>Zamontujemy ogrodzenie, bramę i automatykę – od doboru po serwis.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 17V9h11v8"/><path d="M13 12h4l3 3v2h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M4 9l6-6 3 3"/><path d="M10 3v4"/></svg><h3>Transport HDS z dźwigiem</h3><p>Palety rozładujemy na miejscu budowy, tam gdzie są potrzebne.</p></div>
-<div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 4h6v5h-3l-2 2V9h-1z"/></svg><h3>Doradztwo na miejscu</h3><p>W Glinnie pomożemy dobrać kostkę, ogrodzenie lub kruszywo do Twojego terenu.</p></div></div></section>
-${stepsHtml()}${poradyHtml()}${partnHtml()}${opinieHtml()}${wycenaHtml()}${faqHtml()}${socHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a><a class="btn ep-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></div></div></div></section>`;
-V.start=()=>epHome()+rvHtml();
+<div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 4h6v5h-3l-2 2V9h-1z"/></svg><h3>Doradztwo na miejscu</h3><p>W Glinnie pomożemy dobrać kostkę, ogrodzenie lub kruszywo do Twojego terenu.</p></div></div></section><section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p></div></div></section>${inspHtml()}${poradyHtml()}${partnHtml()}${OPINIE.length?opinieHtml():''}${wycenaHtml()}${faqHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a><a class="btn ep-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></div><p class="cta-l"><a href="${FIRMA.ig}" target="_blank" rel="noopener">Instagram</a><a href="${FIRMA.fb}" target="_blank" rel="noopener">Facebook</a><a href="${GOP}" target="_blank" rel="noopener">Opinie w Google</a></p></div></div></section>`;
+V.start=()=>epHome();
 V.katalog=()=>(me.role==='klient'?'<div class="shop-h"><h1 class="ep-h ep-shop" id="sklep">Sklep online</h1><p class="mu">Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Zamów online i odbierz w Glinnie albo zamów dowóz HDS.</p></div>':'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
 V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w katalogu, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do katalogu</button></div>`};
 V.magazyn=()=>tb();
@@ -1622,27 +1630,29 @@ const topBtn=()=>{let b=document.getElementById('totop');if(!b){b=document.creat
 addEventListener('scroll',topBtn,{passive:true});
 
 /* ---------- animacje: pojawianie przy przewijaniu, licznik, rysowane ikony, koszyk ---------- */
-const RV_SEL='.kaf,.ig-t,.pr-c,.op-e,.op-w,.kaf-lead,.ep-sec .ep-h,.ep-sec .eb,.pt-i,.ep-cat,.ep-m,.ab-img,.ab-t,.ep-why>div,.jk li,.pt-g li,.wy-t,.wy-f,.faq details,.soc-c,.ep-also,.hs,.ep-cta-t,.sim .card';
+const RV_SEL='.ig-t,.pr-c,.op-w,.pt-i,.ep-cat,.ep-m,.ab-img,.ab-t,.ep-why>div,.jk li,.pt-g li,.wy-t,.wy-f,.faq details,.soc-c,.ep-also,.hs,.ep-cta-t,.sim .card';
 let RVO=null;
 const revealInit=()=>{const els=[...document.querySelectorAll(RV_SEL)].filter(e=>!e.classList.contains('rv'));if(!els.length)return;
  if(RM()||!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('rv','in'));countUp(true);return}
  if(!RVO)RVO=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting)return;const t=en.target;t.classList.add('in');RVO.unobserve(t);if(t.closest('.ep-why'))drawIcons(t)}),{rootMargin:'0px 0px -8% 0px',threshold:.08});
- els.forEach(e=>{const sib=[...e.parentElement.children].filter(x=>x.matches(RV_SEL));const i=Math.max(0,sib.indexOf(e));e.style.setProperty('--d',Math.min(i,7)*70+'ms');e.classList.add('rv');RVO.observe(e)});
+ els.forEach(e=>{const sib=[...e.parentElement.children].filter(x=>x.matches(RV_SEL));const i=Math.max(0,sib.indexOf(e));e.style.setProperty('--d',Math.min(i,3)*50+'ms');e.classList.add('rv');RVO.observe(e)});
  revealSafety();
- document.querySelectorAll('.ep-why svg').forEach(sv=>sv.querySelectorAll('path,circle,rect,line,polyline').forEach(x=>x.setAttribute('pathLength','1')))};
+ };
 let RVT=0;const revealSafety=()=>{clearInterval(RVT);RVT=setInterval(()=>{const l=document.querySelectorAll('.rv:not(.in)');if(!l.length){clearInterval(RVT);return}const h=innerHeight;l.forEach(e=>{const r=e.getBoundingClientRect();if(r.top<h*.95&&r.bottom>0){e.classList.add('in');if(e.closest('.ep-why'))drawIcons(e)}})},600)};
 const drawIcons=box=>{const sv=box.querySelector('svg');if(sv)sv.classList.add('draw')};
 let CNT=false;
 const countUp=instant=>{if(CNT)return;const st=document.querySelector('.ep-stats');if(!st)return;CNT=true;st.querySelectorAll('b[data-n]').forEach(b=>{const n=+b.dataset.n,sf=b.dataset.s||'';if(instant||RM()){b.textContent=n+sf;return}const t0=performance.now(),D=1400;const f=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);b.textContent=Math.round(n*e)+sf;if(k<1)requestAnimationFrame(f)};b.textContent='0'+sf;requestAnimationFrame(f);setTimeout(()=>{b.textContent=n+sf},D+400)})};
-const animInit=()=>{try{k3dCheck();revealInit();inspInit();parallax();if(document.querySelector('.ep-stats'))setTimeout(()=>countUp(),500)}catch(e){}};
+const animInit=()=>{try{k3dCheck();revealInit();inspInit();}catch(e){}};
 {const _ca=A.cartAdd;A.cartAdd=d=>{const tot=()=>(db.carts[me&&me.id]||[]).reduce((a,x)=>a+(+x.qty||0),0),b0=tot();_ca(d);if(tot()>b0&&!RM()){const c=document.querySelector('.top .cartb[data-a="nav"][data-v="koszyk"], .top [aria-label="Koszyk"]');if(c){c.classList.remove('bump');void c.offsetWidth;c.classList.add('bump')}}}}
 
 /* ---------- strona główna jak u Wiśniowskiego: duże kafle produktów ---------- */
 const EPTILE=[['kostka','Kostka i płyty','kost2'],['ogrodzenia','Ogrodzenia','nowo2'],['bramy','Bramy i automatyka','brama1'],['ogrod','Ogród i zadaszenia','zad3']];
 const EPMINI=[['kruszywa','Kruszywa i kamienie','krusz1'],['uslugi','Usługi i transport HDS','hds2'],['akces','Akcesoria','akc1']];
 const CHEV='<svg width="9" height="15" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 1l6.5 6.5L1 14"/></svg>';
-const tileB=([g,l,img],i,sm)=>`<button type="button" class="kaf${sm?' kaf-s':''}" data-a="grp" data-g="${g}" style="--i:${i}"><span class="kaf-img"><img src="img/of/${img}.jpg" alt="" loading="lazy"></span><span class="kaf-t"><span class="kaf-h">${l}</span><span class="kaf-m">Zobacz w sklepie ${CHEV}</span></span></button>`;
-const tilesHtml=()=>`<section class="ep-sec kaf-sec" id="oferta"><h2 class="ep-h ep-c">Nasze produkty</h2><p class="mu ep-c kaf-lead">Kostka brukowa i płyty, ogrodzenia, bramy z automatyką, kruszywa i wszystko do ogrodu – od sprawdzonych producentów, z doradztwem na miejscu w Glinnie.</p><div class="kaf-g bleed">${EPTILE.map((x,i)=>tileB(x,i)).join('')}${EPMINI.map((x,i)=>tileB(x,i+4,1)).join('')}</div><p class="ep-also ep-c">W sklepie także <button type="button" class="lnkb" data-a="grp" data-g="opal">pelet i opał</button>.</p></section>`;
+const KAFD={kostka:'Kostka brukowa, płyty tarasowe i ogrodowe',ogrodzenia:'Panelowe 2D i 3D, betonowe, nowoczesne',bramy:'Bramy garażowe, napędy, piloty',ogrod:'Beton architektoniczny, zadaszenia, nawadnianie',kruszywa:'Piasek, żwir, grysy, otoczaki',uslugi:'Transport HDS, miniładowarka, ogrody',akces:'Obrzeża, fugi, geowłóknina, wynajem'};
+const kafN=g=>KAFD[g]||'Zobacz w sklepie';
+const tileB=([g,l,img],i,sm)=>`<button type="button" class="kaf${sm?' kaf-s':''}" data-a="grp" data-g="${g}" style="--i:${i}"><span class="kaf-img"><img src="img/of/${img}.jpg" alt="" loading="lazy"></span><span class="kaf-t"><span class="kaf-h">${l}</span><span class="kaf-m">${kafN(g)} ${CHEV}</span></span></button>`;
+const tilesHtml=()=>`<section class="ep-sec kaf-sec" id="oferta"><h2 class="ep-h ep-c">Nasze produkty</h2><div class="kaf-g bleed">${EPTILE.map((x,i)=>tileB(x,i)).join('')}${EPMINI.map((x,i)=>tileB(x,i+4,1)).join('')}</div><p class="ep-also ep-c">W sklepie także <button type="button" class="lnkb" data-a="grp" data-g="opal">pelet i opał</button>.</p></section>`;
 
 /* ---------- inspiracje: galeria z filtrami ---------- */
 const INSP=[['kost2','Podjazd z kostki przy nowoczesnym domu','kostka'],['kost1','Ścieżka z kostki i rabata z białych otoczaków','kostka'],['kost3','Łukowa ścieżka obsypana grysem','kostka'],['ogr3','Schody z płyt w trawniku','kostka'],
@@ -1669,9 +1679,6 @@ const PORADY=[
 const poradyHtml=()=>`<section class="ep-sec por" id="porady"><div class="ig-hd"><div><p class="eb">Porady</p><h2 class="ep-h">Skorzystaj z wiedzy naszych doradców</h2></div></div><div class="pr-g">${PORADY.map((x,i)=>`<button type="button" class="pr-c" data-a="porada" data-i="${i}"><span class="pr-img"><img src="img/of/${x.img}.jpg" alt="" loading="lazy"></span><span class="pr-tag">Porady · ${String(i+1).padStart(2,'0')}</span><span class="pr-h">${x.t}</span><span class="pr-m">Dowiedz się więcej ${CHEV}</span></button>`).join('')}</div></section>`;
 A.porada=d=>{const x=PORADY[+d.i];if(!x)return;modal(x.t,`<div class="pr-b">${x.b}</div>`,['Zobacz w sklepie','','Zamknij'],()=>{setTimeout(()=>A.grp({g:x.g}),0)})};
 
-/* ---------- paralaksa zdjęcia „Poznaj firmę” ---------- */
-const parallax=()=>{if(RM())return;const h=innerHeight;document.querySelectorAll('.ab-img img').forEach(im=>{const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>h)return;const k=(r.top+r.height/2-h/2)/h;im.style.transform=`translateY(${(k*-36).toFixed(1)}px) scale(1.12)`})};
-addEventListener('scroll',()=>requestAnimationFrame(parallax),{passive:true});
 
 /* ---------- telefon: kreator 3D, chowanie przycisków przy przewijaniu w dół ---------- */
 let K3D=false,K3C=0;
