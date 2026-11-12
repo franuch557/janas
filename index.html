@@ -697,6 +697,115 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
 /* sklep jako osobna strona */
 .shop-h{margin:0 0 18px}.shop-h .ep-shop{padding-top:6px!important;margin:0 0 6px!important;font-size:clamp(28px,3.2vw,40px)}
 .shop-h p{margin:0;max-width:70ch}
+
+/* ---------- kafle produktów (jak Wiśniowski) ---------- */
+.kaf-sec .ep-h{margin-bottom:12px}.kaf-lead{max-width:62ch;margin:0 auto 32px}
+.kaf-g{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:2px;background:var(--bg)}
+.kaf{grid-column:span 3;position:relative;overflow:hidden;border:0;padding:0;margin:0;cursor:pointer;background:#2a2d28;color:#fff;display:grid;place-items:center;font:inherit;text-align:center;height:clamp(280px,calc((100svh - var(--stick,120px)) / 2),560px);border-radius:0}
+.kaf-s{grid-column:span 2;height:clamp(200px,24vw,340px)}
+.kaf-img{position:absolute;inset:0}
+.kaf-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
+.kaf::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.26);transition:background .5s}
+.kaf:hover::after,.kaf:focus-visible::after{background:rgba(0,0,0,.44)}
+.kaf-t{position:relative;z-index:1;display:grid;gap:14px;justify-items:center;padding:0 20px;transform:translateY(17px);transition:transform .55s cubic-bezier(.2,.7,.2,1)}
+.kaf-h{font-size:clamp(28px,3.3vw,52px);font-weight:300;line-height:1.1;letter-spacing:-.01em;text-shadow:0 2px 18px rgba(0,0,0,.45)}
+.kaf-s .kaf-h{font-size:clamp(21px,2vw,30px);font-weight:400}
+.kaf-m{display:inline-flex;align-items:center;gap:10px;font-size:16px;font-weight:500;opacity:0;transform:translateY(8px);transition:opacity .4s,transform .4s;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.kaf:hover .kaf-t,.kaf:focus-visible .kaf-t{transform:none}
+.kaf:hover .kaf-m,.kaf:focus-visible .kaf-m{opacity:1;transform:none}
+.kaf:hover .kaf-img img,.kaf:focus-visible .kaf-img img{transform:scale(1.07)}
+.kaf:focus-visible{outline:3px solid #fff;outline-offset:-6px}
+@media(hover:none){.kaf-t{transform:none}.kaf-m{opacity:1;transform:none}}
+@media(max-width:640px){.kaf-g{grid-template-columns:1fr 1fr}.kaf{grid-column:span 2;height:58vw;min-height:230px}.kaf-s{grid-column:span 1;height:44vw;min-height:170px}.kaf-s:last-child{grid-column:span 2}.kaf-s .kaf-h{font-size:19px}.kaf-m{font-size:14px}.kaf-lead{margin-bottom:22px}}
+
+/* ---------- inspiracje ---------- */
+.ig-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.ig-hd .ep-h{margin-bottom:18px}.ig-hd .eb{margin-bottom:8px}
+.ig-ctl{display:flex;align-items:center;gap:10px;margin-bottom:22px}
+.ig-n{font-variant-numeric:tabular-nums;color:var(--mu);font-size:15px;margin-right:6px;letter-spacing:.06em}
+.ig-a{width:46px;height:46px;border-radius:50%;border:1px solid var(--bd);background:var(--card);color:var(--tx);font-size:24px;line-height:1;cursor:pointer;padding:0 0 3px;transition:background .2s,color .2s,border-color .2s}
+.ig-a:hover{background:var(--ac);border-color:var(--ac);color:#fff}
+.ig-f{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}
+.ig-f button{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:999px;padding:8px 16px;font:inherit;font-size:14.5px;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.ig-f button:hover{border-color:var(--ac)}
+.ig-f button[aria-pressed="true"]{background:var(--tx);border-color:var(--tx);color:var(--card)}
+.ig-t{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;overscroll-behavior-x:contain}
+.ig-t::-webkit-scrollbar{display:none}
+.ig-t:focus-visible{outline:3px solid var(--ac);outline-offset:4px}
+.ig-c{flex:0 0 clamp(260px,40vw,560px);margin:0;scroll-snap-align:start}
+.ig-c:first-child{flex-basis:clamp(260px,52vw,720px)}.ig-c:last-child{scroll-snap-align:end}
+.ig-b{position:relative;display:block;width:100%;aspect-ratio:4/3;padding:0;border:0;overflow:hidden;cursor:pointer;background:var(--sunk)}
+.ig-c:first-child .ig-b{aspect-ratio:auto;height:calc(clamp(260px,40vw,560px) * .75)}
+.ig-b img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}
+.ig-b::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55));opacity:0;transition:opacity .4s}
+.ig-more{position:absolute;left:18px;bottom:16px;z-index:1;color:#fff;font-weight:500;display:inline-flex;gap:10px;align-items:center;opacity:0;transform:translateY(8px);transition:opacity .35s,transform .35s}
+.ig-b:hover img{transform:scale(1.06)}.ig-b:hover::after,.ig-b:focus-visible::after{opacity:1}.ig-b:hover .ig-more,.ig-b:focus-visible .ig-more{opacity:1;transform:none}
+@media(hover:none){.ig-b::after,.ig-more{opacity:1;transform:none}}
+.ig-c figcaption{display:flex;gap:12px;align-items:baseline;padding:12px 2px 0;font-weight:500}
+.ig-i{color:var(--ac);font-size:13px;font-weight:600;letter-spacing:.08em}
+@media(prefers-reduced-motion:no-preference){.ig-sw .ig-c{animation:up .6s cubic-bezier(.2,.7,.2,1) both}.ig-sw .ig-c:nth-child(2){animation-delay:.07s}.ig-sw .ig-c:nth-child(3){animation-delay:.14s}.ig-sw .ig-c:nth-child(4){animation-delay:.21s}}
+@media(max-width:640px){.ig-c,.ig-c:first-child{flex-basis:82vw}.ig-c:first-child .ig-b{aspect-ratio:4/3;height:auto}.ig-ctl{margin-bottom:14px}.ig-a{width:40px;height:40px}.ig-f{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-16px;padding-right:16px}.ig-f button{flex:none}}
+
+/* ---------- porady ---------- */
+.pr-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.pr-c{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:0 0 6px;border:0;background:none;color:var(--tx);font:inherit;text-align:left;cursor:pointer}
+.pr-img{display:block;width:100%;aspect-ratio:3/2;overflow:hidden;margin-bottom:8px;background:var(--sunk)}
+.pr-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1s cubic-bezier(.2,.7,.2,1)}
+.pr-c:hover .pr-img img,.pr-c:focus-visible .pr-img img{transform:scale(1.06)}
+.pr-tag{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--lk)}
+.pr-h{font-size:18.5px;font-weight:600;line-height:1.3}
+.pr-m{display:inline-flex;gap:10px;align-items:center;font-size:14.5px;color:var(--lk);font-weight:500;margin-top:auto}
+.pr-m svg{transition:transform .25s}.pr-c:hover .pr-m svg{transform:translateX(4px)}
+.pr-c:focus-visible{outline:3px solid var(--ac);outline-offset:4px}
+.pr-b p{margin:0 0 12px}.pr-b ul{margin:0 0 6px;padding-left:20px;display:grid;gap:8px}
+@media(max-width:900px){.pr-g{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.pr-g{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-right:-16px;padding-right:16px;gap:14px}.pr-c{flex:0 0 74vw;scroll-snap-align:start}.pr-h{font-size:17px}}
+
+/* ---------- opinie (jak Techo-Bloc) ---------- */
+.op-e{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:start;max-width:900px;margin:0 auto;padding:40px 44px;background:var(--card);border:1px solid var(--bd)}
+.op-q{font-family:Georgia,serif;font-size:140px;line-height:.8;color:var(--ac);opacity:.9}
+.op-et .ep-h{margin-bottom:12px}.op-et .eb{margin-bottom:8px}.op-et .mu{margin:0 0 20px;max-width:60ch}
+.op-et .ep-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-start}
+.op-sec{background:var(--sunk);padding:72px 0;margin-top:72px}
+.op-w{display:grid;position:relative}
+.op-sl{grid-area:1/1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:48px;align-items:center;opacity:0;visibility:hidden;transition:opacity .6s,visibility 0s .6s}
+.op-sl.on{opacity:1;visibility:visible;transition:opacity .6s}
+.op-img{margin:0;aspect-ratio:4/3;overflow:hidden}.op-img img{width:100%;height:100%;object-fit:cover;display:block}
+.op-c{margin:0}.op-c .op-s{color:#c48a00;letter-spacing:3px;font-size:20px}
+.op-c blockquote{margin:14px 0 18px;font-size:clamp(20px,2vw,26px);line-height:1.45;font-weight:300}
+.op-c figcaption b{font-weight:600}.op-c figcaption span{display:block;color:var(--mu);font-size:14px;margin-top:2px}
+.op-nav{grid-area:2/1;display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:22px;padding-left:calc((100% - 48px) / 2.1 + 48px)}
+.op-nav .ep-arr{border-color:var(--bd);background:var(--card);color:var(--tx);width:44px;height:44px}
+.op-nav .lnkb{margin-left:auto}
+@media(max-width:900px){.op-sl{grid-template-columns:1fr;gap:20px}.op-nav{padding-left:0;margin-top:16px}.op-c{margin:0}.op-sec{padding:48px 0;margin-top:52px}}
+@media(max-width:640px){.op-e{grid-template-columns:1fr;gap:0;padding:26px 20px}.op-q{font-size:96px;height:56px}.op-et .btn{flex:1 1 100%}}
+
+/* ---------- animacje jak Bruk-Bet ---------- */
+.ep-dot{width:48px}
+.ep-dot::before{width:100%;height:3px;border:0;border-radius:2px;background:rgba(255,255,255,.42)}
+.ep-dot.on::before{background:rgba(255,255,255,.42);transform:none}
+.ep-dot{position:relative}
+.ep-dot::after{content:"";position:absolute;left:0;right:0;top:50%;height:3px;margin-top:-1.5px;border-radius:2px;background:#fff;transform:scaleX(0);transform-origin:left}
+.ep-dot.on::after{transform:scaleX(1)}
+.ab-img{overflow:hidden;border-radius:var(--r)}
+@media(prefers-reduced-motion:no-preference){
+ .ep-dot.on::after{animation:prog 7s linear}
+ .ep-hero:hover .ep-dot.on::after,.ep-hero:focus-within .ep-dot.on::after{animation-play-state:paused}
+ @keyframes prog{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+ /* kafle: powolny ruch zdjęć jak w filmie i odsłanianie kurtyną */
+ .kaf-img{animation:tlkb 20s ease-in-out infinite alternate;animation-delay:calc(var(--i,0) * -3.5s)}
+ @keyframes tlkb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.09) translate(-1.5%,-1%)}}
+ .kaf.rv{opacity:1;transform:none}
+ .kaf.rv::before{content:"";position:absolute;inset:0;z-index:3;background:var(--bg);transform-origin:top;transition:transform 1.1s cubic-bezier(.7,0,.2,1) var(--d,0ms)}
+ .kaf.rv.in::before{transform:scaleY(0)}
+ .kaf.rv .kaf-h{opacity:0;transform:translateY(26px);transition:opacity .8s ease calc(var(--d,0ms) + .45s),transform .8s cubic-bezier(.2,.7,.2,1) calc(var(--d,0ms) + .45s)}
+ .kaf.rv.in .kaf-h{opacity:1;transform:none}
+ /* nagłówki sekcji: rysowana kreska */
+ .ep-sec .ep-h.rv::after{content:"";display:block;width:56px;height:3px;background:var(--ac);margin-top:14px;transform:scaleX(0);transform-origin:left;transition:transform .8s cubic-bezier(.2,.7,.2,1) .35s}
+ .ep-sec .ep-h.ep-c.rv::after{margin-left:auto;margin-right:auto;transform-origin:center}
+ .ep-sec .ep-h.rv.in::after{transform:scaleX(1)}
+ .ab-img img{transition:transform .2s linear;will-change:transform}
+}
 </style>
 </head>
 <body>
@@ -1013,16 +1122,16 @@ const heroHtml=()=>me&&me.role==='klient'?`<section class="hero"><div><span clas
 const EPCAT=[['kostka','Kostka i płyty','kost2'],['kruszywa','Kruszywa i kamienie','krusz1'],['ogrodzenia','Ogrodzenia','panel2'],['bramy','Bramy i automatyka','brama1'],['ogrod','Ogród i zadaszenia','zad1'],['uslugi','Usługi i transport HDS','hds2']];
 const EPREAL=[['kost1','Kostka brukowa','kostka'],['nowo1','Ogrodzenia nowoczesne','ogrodzenia'],['zad2','Zadaszenia tarasów','ogrod'],['ogr1','Projekty ogrodów','uslugi'],['slabb1','Beton architektoniczny','ogrod']];
 const epHome=()=>`<section class="ep-hero bleed" aria-roledescription="karuzela" aria-label="Najważniejsze z oferty">${heroSlides()}${openPill()}<div class="ep-stats"><div class="ep-in st-g"><div><b>2005</b><span>działamy od</span></div><div><b data-n="${Math.max(50,Math.floor(db.products.length/50)*50)}" data-s="+">${Math.max(50,Math.floor(db.products.length/50)*50)}+</b><span>produktów w sklepie</span></div><div><b data-n="${PARTN.length}">${PARTN.length}</b><span>marek partnerów</span></div><div><b>24 h</b><span>ogród wystawowy</span></div></div></div></section>
-<section class="ep-sec" id="oferta"><h2 class="ep-h">Nasza oferta</h2><div class="ep-cats">${EPCAT.map(([g,l,img])=>`<button type="button" class="ep-cat" data-a="grp" data-g="${g}"><img src="img/of/${img}.jpg" alt="" loading="lazy"><span class="ep-cat-l">${l}<small>${gcount(GROUPS.find(x=>x.id===g))} pozycji w sklepie</small></span></button>`).join('')}</div><p class="ep-also">W sklepie także: <button type="button" class="lnkb" data-a="grp" data-g="akces">akcesoria do układania kostki</button> i <button type="button" class="lnkb" data-a="grp" data-g="opal">pelet i opał</button>.</p></section>
+${tilesHtml()}
 <section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p><ul class="ab-v"><li><b>Doświadczenie</b>Wieloletnia obecność na rynku i praca z wieloma klientami.</li><li><b>Jakość</b>Sprawdzeni producenci i indywidualne podejście do każdego klienta.</li><li><b>Elastyczność</b>Dopasowujemy się do Twoich wymagań i terminów.</li></ul></div></div></section>
-<section class="ep-sec" id="realizacje"><h2 class="ep-h ep-c">Znajdź inspiracje</h2><div class="ep-mosaic">${EPREAL.map(([img,l,g],i)=>`<figure class="ep-m ep-m${i}"><button type="button" class="ep-m-b" data-a="grp" data-g="${g}"><img src="img/of/${img}.jpg" alt="${l} – inspiracja" loading="lazy"><span class="ep-more">Zobacz w sklepie</span></button><figcaption>${l}</figcaption></figure>`).join('')}</div></section>
+${inspHtml()}
 <section class="ep-sec" id="naz"><h2 class="ep-h ep-c">Co widzisz na zdjęciu?</h2><div class="hs"><img src="img/of/kost1.jpg" alt="Ścieżka z szarej kostki brukowej, obrzeże i rabata z białych otoczaków" loading="lazy"><button type="button" class="hs-p" style="left:18%;top:86%" data-a="grp" data-g="kostka"><span>Kostka brukowa</span></button><button type="button" class="hs-p" style="left:36%;top:62%" data-a="grp" data-g="akces"><span>Obrzeża</span></button><button type="button" class="hs-p hs-r" style="left:74%;top:52%" data-a="grp" data-g="kruszywa"><span>Otoczaki i grysy</span></button></div><p class="mu ep-c" style="margin-top:12px">Kliknij punkt, aby zobaczyć podobne produkty w sklepie.</p></section>
 <section class="ep-sec" id="dlaczego"><h2 class="ep-h ep-c">Dlaczego JANAS?</h2><div class="ep-why">
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/><path d="M12 2v3"/><circle cx="12" cy="10" r="1.2"/></svg><h3>Ogród wystawowy 24h</h3><p>Materiały zobaczysz ułożone, w świetle dziennym i wieczorem, o każdej porze.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V6"/><path d="M21 21V6"/><path d="M3 9h18"/><path d="M3 17h18"/><path d="M7 9v8M11 9v8M15 9v8M19 9v8"/></svg><h3>Montaż ogrodzeń i bram</h3><p>Zamontujemy ogrodzenie, bramę i automatykę – od doboru po serwis.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 17V9h11v8"/><path d="M13 12h4l3 3v2h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M4 9l6-6 3 3"/><path d="M10 3v4"/></svg><h3>Transport HDS z dźwigiem</h3><p>Palety rozładujemy na miejscu budowy, tam gdzie są potrzebne.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 4h6v5h-3l-2 2V9h-1z"/></svg><h3>Doradztwo na miejscu</h3><p>W Glinnie pomożemy dobrać kostkę, ogrodzenie lub kruszywo do Twojego terenu.</p></div></div></section>
-${stepsHtml()}${partnHtml()}${opinieHtml()}${wycenaHtml()}${faqHtml()}${socHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a></div></div></div></section>`;
+${stepsHtml()}${poradyHtml()}${partnHtml()}${opinieHtml()}${wycenaHtml()}${faqHtml()}${socHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a><a class="btn ep-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></div></div></div></section>`;
 V.start=()=>epHome()+rvHtml();
 V.katalog=()=>(me.role==='klient'?'<div class="shop-h"><h1 class="ep-h ep-shop" id="sklep">Sklep online</h1><p class="mu">Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Zamów online i odbierz w Glinnie albo zamów dowóz HDS.</p></div>':'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
 V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w katalogu, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do katalogu</button></div>`};
@@ -1451,7 +1560,7 @@ addEventListener('scroll',fabLift,{passive:true});addEventListener('resize',fabL
 const HSL=[
  {img:'kost2',eb:'Bezpieczeństwo i styl · od 2005 roku',h:'Kostka brukowa, kruszywa i&nbsp;ogrodzenia z&nbsp;Glinna',p:'Ogród wystawowy w Glinnie 299 jest otwarty całą dobę. Doradzimy dobór materiałów i przywieziemy je transportem HDS.',b:[['Zobacz ofertę','#oferta'],['Sklep online','#sklep']]},
  {img:'nowo1',eb:'Ogrodzenia i bramy',h:'Ogrodzenia, bramy i&nbsp;automatyka w&nbsp;jednym miejscu',p:'Ogrodzenia panelowe, nowoczesne i betonowe, bramy garażowe Hörmann, Wiśniowski i AVO oraz napędy CAME, Nice i Fadini.',b:[['Ogrodzenia','g:ogrodzenia'],['Bramy i automatyka','g:bramy']]},
- {img:'slabb1',eb:'Ogród i taras',h:'Kruszywa, beton architektoniczny i&nbsp;zadaszenia',p:'Grysy i otoczaki, donice i płyty z betonu architektonicznego, zadaszenia tarasów i systemy nawadniania.',b:[['Kruszywa i kamienie','g:kruszywa'],['Ogród i zadaszenia','g:ogrod']]}];
+ {img:'ogr1',eb:'Ogród i taras',h:'Kruszywa, beton architektoniczny i&nbsp;zadaszenia',p:'Grysy i otoczaki, donice i płyty z betonu architektonicznego, zadaszenia tarasów i systemy nawadniania.',b:[['Kruszywa i kamienie','g:kruszywa'],['Ogród i zadaszenia','g:ogrod']]}];
 let HI=0,HT=0;
 const heroSlides=()=>HSL.map((x,i)=>`<img class="ep-hi${i===HI?' on':''}" src="img/of/${x.img}.jpg" alt="" ${i===0?'fetchpriority="high"':'loading="lazy"'}>`).join('')+`<div class="ep-slides">${HSL.map((x,i)=>{const H=i===0?'h1':'h2',off=i===HI?'':'tabindex="-1"';return`<div class="ep-hero-t ep-sl${i===HI?' on':''}" role="group" aria-roledescription="slajd" aria-label="${i+1} z ${HSL.length}" ${i===HI?'':'aria-hidden="true"'}><p class="ep-eb">${x.eb}</p><${H}>${x.h}</${H}><p>${x.p}</p><div class="ep-btns">${x.b.map(([l,t],k)=>t[0]==='#'?`<a class="btn${k?' ep-ghost':''}" href="${t}" data-jump ${off}>${l}</a>`:`<button type="button" class="btn${k?' ep-ghost':''}" data-a="grp" data-g="${t.slice(2)}" ${off}>${l}</button>`).join('')}</div></div>`}).join('')}</div><div class="ep-dots"><button type="button" class="ep-arr" data-a="slide" data-d="-1" aria-label="Poprzedni slajd">‹</button>${HSL.map((x,i)=>`<button type="button" class="ep-dot${i===HI?' on':''}" data-a="slide" data-i="${i}" aria-label="Slajd ${i+1}" ${i===HI?'aria-current="true"':''}></button>`).join('')}<button type="button" class="ep-arr" data-a="slide" data-d="1" aria-label="Następny slajd">›</button></div>`;
 const heroGo=n=>{const h=document.querySelector('.ep-hero');if(!h)return;HI=(n+HSL.length)%HSL.length;
@@ -1488,7 +1597,7 @@ const topBtn=()=>{let b=document.getElementById('totop');if(!b){b=document.creat
 addEventListener('scroll',topBtn,{passive:true});
 
 /* ---------- animacje: pojawianie przy przewijaniu, licznik, rysowane ikony, koszyk ---------- */
-const RV_SEL='.ep-sec .ep-h,.ep-sec .eb,.pt-i,.ep-cat,.ep-m,.ab-img,.ab-t,.ep-why>div,.jk li,.pt-g li,.wy-t,.wy-f,.faq details,.soc-c,.ep-also,.hs,.ep-cta-t,.sim .card';
+const RV_SEL='.kaf,.ig-t,.pr-c,.op-e,.op-w,.kaf-lead,.ep-sec .ep-h,.ep-sec .eb,.pt-i,.ep-cat,.ep-m,.ab-img,.ab-t,.ep-why>div,.jk li,.pt-g li,.wy-t,.wy-f,.faq details,.soc-c,.ep-also,.hs,.ep-cta-t,.sim .card';
 let RVO=null;
 const revealInit=()=>{const els=[...document.querySelectorAll(RV_SEL)].filter(e=>!e.classList.contains('rv'));if(!els.length)return;
  if(RM()||!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('rv','in'));countUp(true);return}
@@ -1500,8 +1609,44 @@ let RVT=0;const revealSafety=()=>{clearInterval(RVT);RVT=setInterval(()=>{const 
 const drawIcons=box=>{const sv=box.querySelector('svg');if(sv)sv.classList.add('draw')};
 let CNT=false;
 const countUp=instant=>{if(CNT)return;const st=document.querySelector('.ep-stats');if(!st)return;CNT=true;st.querySelectorAll('b[data-n]').forEach(b=>{const n=+b.dataset.n,sf=b.dataset.s||'';if(instant||RM()){b.textContent=n+sf;return}const t0=performance.now(),D=1400;const f=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);b.textContent=Math.round(n*e)+sf;if(k<1)requestAnimationFrame(f)};b.textContent='0'+sf;requestAnimationFrame(f);setTimeout(()=>{b.textContent=n+sf},D+400)})};
-const animInit=()=>{try{revealInit();if(document.querySelector('.ep-stats'))setTimeout(()=>countUp(),500)}catch(e){}};
+const animInit=()=>{try{revealInit();inspInit();parallax();if(document.querySelector('.ep-stats'))setTimeout(()=>countUp(),500)}catch(e){}};
 {const _ca=A.cartAdd;A.cartAdd=d=>{const tot=()=>(db.carts[me&&me.id]||[]).reduce((a,x)=>a+(+x.qty||0),0),b0=tot();_ca(d);if(tot()>b0&&!RM()){const c=document.querySelector('.top .cartb[data-a="nav"][data-v="koszyk"], .top [aria-label="Koszyk"]');if(c){c.classList.remove('bump');void c.offsetWidth;c.classList.add('bump')}}}}
+
+/* ---------- strona główna jak u Wiśniowskiego: duże kafle produktów ---------- */
+const EPTILE=[['kostka','Kostka i płyty','kost2'],['ogrodzenia','Ogrodzenia','nowo2'],['bramy','Bramy i automatyka','brama1'],['ogrod','Ogród i zadaszenia','zad3']];
+const EPMINI=[['kruszywa','Kruszywa i kamienie','krusz1'],['uslugi','Usługi i transport HDS','hds2'],['akces','Akcesoria','akc1']];
+const CHEV='<svg width="9" height="15" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 1l6.5 6.5L1 14"/></svg>';
+const tileB=([g,l,img],i,sm)=>`<button type="button" class="kaf${sm?' kaf-s':''}" data-a="grp" data-g="${g}" style="--i:${i}"><span class="kaf-img"><img src="img/of/${img}.jpg" alt="" loading="lazy"></span><span class="kaf-t"><span class="kaf-h">${l}</span><span class="kaf-m">Zobacz w sklepie ${CHEV}</span></span></button>`;
+const tilesHtml=()=>`<section class="ep-sec kaf-sec" id="oferta"><h2 class="ep-h ep-c">Nasze produkty</h2><p class="mu ep-c kaf-lead">Kostka brukowa i płyty, ogrodzenia, bramy z automatyką, kruszywa i wszystko do ogrodu – od sprawdzonych producentów, z doradztwem na miejscu w Glinnie.</p><div class="kaf-g bleed">${EPTILE.map((x,i)=>tileB(x,i)).join('')}${EPMINI.map((x,i)=>tileB(x,i+4,1)).join('')}</div><p class="ep-also ep-c">W sklepie także <button type="button" class="lnkb" data-a="grp" data-g="opal">pelet i opał</button>.</p></section>`;
+
+/* ---------- inspiracje: galeria z filtrami ---------- */
+const INSP=[['kost2','Podjazd z kostki przy nowoczesnym domu','kostka'],['kost1','Ścieżka z kostki i rabata z białych otoczaków','kostka'],['kost3','Łukowa ścieżka obsypana grysem','kostka'],['ogr3','Schody z płyt w trawniku','kostka'],
+ ['nowo1','Nowoczesne ogrodzenie przy domu','ogrodzenia'],['nowo2','Ogrodzenie z bramą przesuwną','ogrodzenia'],['bet2','Ogrodzenie betonowe z przęsłem żaluzjowym','ogrodzenia'],['slabb2','Ogrodzenie z betonu architektonicznego i drewna','ogrodzenia'],
+ ['brama1','Brama garażowa w nowoczesnej bryle','bramy'],['brama2','Brama segmentowa wieczorem','bramy'],['auto1','Brama skrzydłowa otwierana pilotem','bramy'],
+ ['ogr1','Strefa wypoczynku w ogrodzie','ogrod'],['zad3','Zadaszenie tarasu','ogrod'],['zad1','Przeszklone zadaszenie tarasu','ogrod'],['zad2','Wiata garażowa','ogrod'],['krusz1','Kolorowe grysy do ogrodu','kruszywa']];
+const INSPF=[['all','Wszystkie'],['kostka','Kostka i płyty'],['ogrodzenia','Ogrodzenia'],['bramy','Bramy'],['ogrod','Ogród i zadaszenia'],['kruszywa','Kruszywa']];
+let IGF='all';
+const igList=()=>INSP.filter(x=>IGF==='all'||x[2]===IGF);
+const igCards=()=>igList().map(([img,l,g],i)=>`<figure class="ig-c"><button type="button" class="ig-b" data-a="grp" data-g="${g}"><img src="img/of/${img}.jpg" alt="${l}" loading="lazy"><span class="ig-more">Zobacz produkty ${CHEV}</span></button><figcaption><span class="ig-i">${String(i+1).padStart(2,'0')}</span>${l}</figcaption></figure>`).join('');
+const inspHtml=()=>`<section class="ep-sec ig" id="realizacje"><div class="ig-hd"><div><p class="eb">Inspiracje</p><h2 class="ep-h">Znajdź pomysł na swój dom i ogród</h2></div><div class="ig-ctl"><span class="ig-n" aria-live="polite">01 / ${String(igList().length).padStart(2,'0')}</span><button type="button" class="ig-a" data-a="igs" data-d="-1" aria-label="Poprzednie zdjęcia">‹</button><button type="button" class="ig-a" data-a="igs" data-d="1" aria-label="Następne zdjęcia">›</button></div></div><div class="ig-f" role="group" aria-label="Filtruj inspiracje">${INSPF.map(([f,l])=>`<button type="button" data-a="igf" data-f="${f}" aria-pressed="${f===IGF}">${l}</button>`).join('')}</div><div class="ig-t" tabindex="0" aria-label="Galeria inspiracji">${igCards()}</div></section>`;
+const igStep=t=>{const c=t.querySelector('.ig-c');return c?c.getBoundingClientRect().width+16:300};
+const igCount=()=>{const t=document.querySelector('.ig-t'),n=document.querySelector('.ig-n');if(!t||!n)return;const k=igList().length,i=t.scrollLeft>=t.scrollWidth-t.clientWidth-4&&t.scrollLeft>0?k:Math.min(k,Math.round(t.scrollLeft/igStep(t))+1);n.textContent=String(i).padStart(2,'0')+' / '+String(k).padStart(2,'0')};
+const inspInit=()=>{const t=document.querySelector('.ig-t');if(!t||t.dataset.on)return;t.dataset.on=1;t.addEventListener('scroll',()=>requestAnimationFrame(igCount),{passive:true})};
+A.igs=d=>{const t=document.querySelector('.ig-t');if(!t)return;const max=t.scrollWidth-t.clientWidth;const c=t.scrollLeft;let x=c+ +d.d*igStep(t);if(x>max+4)x=c<max-4?max:0;else if(x<-4)x=c>4?0:max;t.scrollTo({left:x,behavior:RM()?'auto':'smooth'});setTimeout(igCount,450)};
+A.igf=d=>{IGF=d.f;const t=document.querySelector('.ig-t');if(!t)return;document.querySelectorAll('.ig-f button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.f===IGF));t.classList.remove('ig-sw');void t.offsetWidth;t.innerHTML=igCards();t.scrollLeft=0;t.classList.add('ig-sw');igCount()};
+
+/* ---------- porady ---------- */
+const PORADY=[
+ {img:'kost2',g:'kostka',t:'Kostka 6 cm czy 8 cm?',b:'<p><b>6 cm</b> wystarcza na chodniki, ścieżki, tarasy i podjazdy dla samochodów osobowych.</p><p><b>8 cm</b> wybierz tam, gdzie wjeżdżają cięższe pojazdy – auta dostawcze, śmieciarka, samochód z przyczepą – albo gdy podjazd jest bardzo intensywnie używany.</p><p>O trwałości nawierzchni decyduje też podbudowa. Jej rodzaj i grubość ustal z wykonawcą, zależnie od gruntu i obciążenia.</p><p>W ogrodzie wystawowym w Glinnie 299 zobaczysz ułożone kostki i płyty na żywo – jest otwarty całą dobę.</p>'},
+ {img:'krusz1',g:'kruszywa',t:'Ile kruszywa zamówić?',b:'<p>Policz objętość: <b>powierzchnia × grubość warstwy</b>. Przykład: 20 m² × 5 cm = 1 m³.</p><p>Kruszywa sprzedaje się zwykle na tony lub w big bagach. Orientacyjnie 1 m³ grysu waży około 1,4–1,6 t – zależnie od rodzaju i frakcji. Dokładną wagę podamy przy zamówieniu.</p><p>Na rabaty dekoracyjne zwykle wystarcza warstwa 4–5 cm. Pod kamień połóż agrowłókninę – ograniczy chwasty.</p>'},
+ {img:'nowo2',g:'ogrodzenia',t:'Ogrodzenie panelowe czy nowoczesne?',b:'<p><b>Panelowe</b> – szybkie w montażu, ekonomiczne i przewiewne. Dobre na długie odcinki i tył działki.</p><p><b>Nowoczesne</b> (sztachety, żaluzje, bloczki betonowe) – daje więcej prywatności i wygląda jak część architektury domu, ale kosztuje więcej.</p><p>Często łączy się oba: nowoczesny front z bramą i furtką, panele po bokach i z tyłu. Do każdego dobierzesz bramę przesuwną lub skrzydłową z napędem CAME, Nice lub Fadini.</p>'},
+ {img:'hds2',g:'uslugi',t:'Jak przygotować się na dostawę HDS?',b:'<ul><li>Sprawdź dojazd dla ciężarówki: szerokość wjazdu i czy droga jest utwardzona.</li><li>Nad miejscem rozładunku nie może być linii napowietrznych ani gałęzi.</li><li>Przygotuj równe, twarde miejsce na palety.</li><li>Bądź na miejscu albo poproś kogoś o odbiór.</li><li>Opisz miejsce rozładunku w uwagach do zamówienia – kierowca przyjedzie przygotowany.</li></ul>'}];
+const poradyHtml=()=>`<section class="ep-sec por" id="porady"><div class="ig-hd"><div><p class="eb">Porady</p><h2 class="ep-h">Skorzystaj z wiedzy naszych doradców</h2></div></div><div class="pr-g">${PORADY.map((x,i)=>`<button type="button" class="pr-c" data-a="porada" data-i="${i}"><span class="pr-img"><img src="img/of/${x.img}.jpg" alt="" loading="lazy"></span><span class="pr-tag">Porady · ${String(i+1).padStart(2,'0')}</span><span class="pr-h">${x.t}</span><span class="pr-m">Dowiedz się więcej ${CHEV}</span></button>`).join('')}</div></section>`;
+A.porada=d=>{const x=PORADY[+d.i];if(!x)return;modal(x.t,`<div class="pr-b">${x.b}</div>`,['Zobacz w sklepie','','Zamknij'],()=>{setTimeout(()=>A.grp({g:x.g}),0)})};
+
+/* ---------- paralaksa zdjęcia „Poznaj firmę” ---------- */
+const parallax=()=>{if(RM())return;const h=innerHeight;document.querySelectorAll('.ab-img img').forEach(im=>{const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>h)return;const k=(r.top+r.height/2-h/2)/h;im.style.transform=`translateY(${(k*-36).toFixed(1)}px) scale(1.12)`})};
+addEventListener('scroll',()=>requestAnimationFrame(parallax),{passive:true});
 const cookieBar=()=>{try{if(localStorage.getItem('janas-cookies'))return}catch(e){}if(document.querySelector('.ckbar'))return;const d=document.createElement('div');d.className='ckbar';d.setAttribute('role','region');d.setAttribute('aria-label','Informacja o plikach cookies');d.innerHTML='<p>Używamy tylko informacji niezbędnych do działania sklepu: logowania, koszyka, wybranego motywu i ostatnio oglądanych produktów. Nie śledzimy Cię i nie wyświetlamy reklam. <button type="button" class="lnkb" data-a="nav" data-v="cookies">Polityka cookies</button></p><button type="button" class="btn" id="ckok">Rozumiem</button>';document.body.appendChild(d);d.querySelector('#ckok').addEventListener('click',()=>{try{localStorage.setItem('janas-cookies','1')}catch(e){}d.remove()})};
 
 V.moje=()=>V.moje0()+V.mojeAcc();
@@ -1526,7 +1671,11 @@ V.kontakt=()=>`<div class="kt"><section class="kt-c"><h2>Adres</h2><p>${esc(FIRM
 <section class="kt-map" id="ktmap"><p>Mapa Google wczyta się dopiero po kliknięciu – wtedy Google otrzyma Twój adres IP.</p><button type="button" class="btn sec" data-a="showmap">Pokaż mapę</button></section>`;
 /* ---------- opinie (wklejane za zgodą właściciela; puste = sekcja ukryta) ---------- */
 const OPINIE=[];
-const opinieHtml=()=>OPINIE.length?`<section class="ep-sec" id="opinie"><h2 class="ep-h ep-c">Opinie klientów</h2><div class="op-g">${OPINIE.map(o=>`<figure class="op"><div class="op-s" aria-label="Ocena ${o.r} na 5">${'★'.repeat(o.r)}${'☆'.repeat(5-o.r)}</div><blockquote>${esc(o.t)}</blockquote><figcaption>${esc(o.a)} · opinia z Google</figcaption></figure>`).join('')}</div><p class="ep-c"><a class="lnkb" href="https://www.google.com/maps/search/?api=1&query=JANAS+Glinno+299+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wszystkie opinie w Google</a></p></section>`:'';
+const GOP='https://www.google.com/maps/search/?api=1&query=JANAS+Glinno+299+Nowy+Tomy%C5%9Bl';
+let OI=0;
+const opinieHtml=()=>!OPINIE.length?`<section class="ep-sec" id="opinie"><div class="op-e"><span class="op-q" aria-hidden="true">“</span><div class="op-et"><p class="eb">Opinie klientów</p><h2 class="ep-h">Co mówią o nas klienci?</h2><p class="mu">Przeczytaj, jak klienci oceniają zakupy, doradztwo i dowóz w firmie JANAS. Kupowałeś u nas? Twoja opinia w Google pomoże innym wybrać.</p><div class="ep-btns"><a class="btn" href="${GOP}" target="_blank" rel="noopener">Zobacz opinie w Google</a><a class="btn sec" href="${GOP}" target="_blank" rel="noopener">Wystaw opinię</a></div></div></div></section>`
+:`<section class="ep-sec op-sec bleed" id="opinie" aria-roledescription="karuzela" aria-label="Opinie klientów"><div class="ep-in op-w">${OPINIE.map((o,i)=>`<div class="op-sl${i===OI?' on':''}" ${i===OI?'':'aria-hidden="true"'}><figure class="op-img"><img src="img/of/${o.img||'ogr1'}.jpg" alt="" loading="lazy"></figure><figure class="op-c"><p class="eb">Opinie klientów</p><div class="op-s" aria-label="Ocena ${o.r} na 5">${'★'.repeat(o.r)}${'☆'.repeat(5-o.r)}</div><blockquote>„${esc(o.t)}”</blockquote><figcaption><b>${esc(o.a)}</b>${o.m?' · '+esc(o.m):''}${o.p?`<span>${esc(o.p)}</span>`:''}</figcaption></figure></div>`).join('')}<div class="op-nav"><button type="button" class="ep-arr" data-a="opn" data-d="-1" aria-label="Poprzednia opinia">‹</button><span class="op-n">${String(OI+1).padStart(2,'0')} / ${String(OPINIE.length).padStart(2,'0')}</span><button type="button" class="ep-arr" data-a="opn" data-d="1" aria-label="Następna opinia">›</button><a class="lnkb" href="${GOP}" target="_blank" rel="noopener">Wszystkie opinie w Google</a></div></div></section>`;
+A.opn=d=>{const n=OPINIE.length;if(!n)return;OI=(OI+ +d.d+n)%n;document.querySelectorAll('.op-sl').forEach((e,i)=>{e.classList.toggle('on',i===OI);i===OI?e.removeAttribute('aria-hidden'):e.setAttribute('aria-hidden','true')});const c=document.querySelector('.op-n');if(c)c.textContent=String(OI+1).padStart(2,'0')+' / '+String(n).padStart(2,'0')};
 
 function renderMain(){const n=NAV.find(x=>x[0]===view);if(!n||!can(n[2]))return;if(detail&&prod(detail)){$('#main').innerHTML=detailHtml(prod(detail));return}$('#main').innerHTML=((view==='katalog'||view==='start')&&me.role==='klient'?'':`<h1>${esc(title(n))}</h1>`)+V[view]();showGrp();drawList();if(view==='historia')drawHist();if(view==='zamklient')drawOrders();labelTables()}
 {const _rm=renderMain;renderMain=function(){_rm();pushUrl();requestAnimationFrame(()=>{try{heroInit();fabLift();CNT=false;animInit()}catch(e){}});setTimeout(()=>{try{fabLift();animInit()}catch(e){}},400)}}
