@@ -935,6 +935,10 @@ body[data-g="1"] .top [data-a="notifs"]{display:none}
 @media(prefers-reduced-motion:no-preference){.sw-new{animation:swpop .45s cubic-bezier(.3,1.5,.5,1)}@keyframes swpop{from{transform:scale(.85)}to{transform:none}}}
 @media(max-width:640px){.sw-in{left:8px;bottom:8px;width:40%}.sw-in b{font-size:12px;padding:5px 7px}}
 .sw-in.sm{left:6px;bottom:6px;width:44%;border-radius:6px}.sw-in.sm b{font-size:11px;padding:3px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* pola ilości bez strzałek przeglądarki (są przyciski − i +) */
+input[type=number]{-moz-appearance:textfield;appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}
 </style>
 </head>
 <body>
