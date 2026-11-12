@@ -806,6 +806,31 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
  .ep-sec .ep-h.rv.in::after{transform:scaleX(1)}
  .ab-img img{transition:transform .2s linear;will-change:transform}
 }
+
+/* ---------- poprawki widoku na telefonie ---------- */
+@media(max-width:640px){
+ body[data-role="klient"] #nav{padding:0 10px}
+ .ep-hero>.opn{font-size:13px;padding:6px 13px;gap:7px;max-width:calc(100vw - 32px);white-space:nowrap;border-radius:999px;margin-top:18px}
+ .ep-hero .ep-eb{font-size:11.5px;letter-spacing:.1em}
+ body[data-role="klient"] .callfab{width:52px;height:52px;right:14px}
+ .totop{left:auto;right:17px;bottom:calc(80px + env(safe-area-inset-bottom,0px));width:46px;height:46px}
+ body:has(.det .acts .btn) .totop{bottom:calc(152px + env(safe-area-inset-bottom,0px))}
+ body[data-role="klient"] .callfab{transition:translate .25s ease,opacity .25s,visibility 0s}
+ body.scrl-dn .callfab,body.scrl-dn .totop.on{opacity:0!important;visibility:hidden!important;pointer-events:none;transition:opacity .25s,visibility 0s .25s}
+ .kaf-s .kaf-m{display:none}.kaf-s:last-child .kaf-m{display:inline-flex}
+ .ep-why{gap:22px}
+ .ep-why>div{display:grid;grid-template-columns:40px minmax(0,1fr);column-gap:14px;align-items:start}
+ .ep-why svg{grid-row:span 2;width:38px;height:38px;margin:0}
+ .ep-why h3{font-size:17px;margin:4px 0 4px}
+ .wy-f .two{grid-template-columns:1fr}
+ .crumbs{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;scrollbar-width:none;max-width:100%}
+ .crumbs::-webkit-scrollbar{display:none}
+ .crumbs-row{gap:10px;margin-bottom:12px}
+ .ckbar{padding:12px 14px;gap:10px;font-size:13.5px;line-height:1.45}.ckbar .btn{padding:10px 14px;min-height:0}
+ .ig-hd .ep-h{margin-bottom:12px}
+ .crumbs-row{flex-wrap:nowrap}.crumbs-row>.btn{flex:none;padding:8px 12px;min-height:40px}.crumbs{flex:1 1 auto;min-width:0}
+}
+@media(max-width:700px){.pt-c{font-size:12px}}
 </style>
 </head>
 <body>
@@ -1125,7 +1150,7 @@ const epHome=()=>`<section class="ep-hero bleed" aria-roledescription="karuzela"
 ${tilesHtml()}
 <section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p><ul class="ab-v"><li><b>Doświadczenie</b>Wieloletnia obecność na rynku i praca z wieloma klientami.</li><li><b>Jakość</b>Sprawdzeni producenci i indywidualne podejście do każdego klienta.</li><li><b>Elastyczność</b>Dopasowujemy się do Twoich wymagań i terminów.</li></ul></div></div></section>
 ${inspHtml()}
-<section class="ep-sec" id="naz"><h2 class="ep-h ep-c">Co widzisz na zdjęciu?</h2><div class="hs"><img src="img/of/kost1.jpg" alt="Ścieżka z szarej kostki brukowej, obrzeże i rabata z białych otoczaków" loading="lazy"><button type="button" class="hs-p" style="left:18%;top:86%" data-a="grp" data-g="kostka"><span>Kostka brukowa</span></button><button type="button" class="hs-p" style="left:36%;top:62%" data-a="grp" data-g="akces"><span>Obrzeża</span></button><button type="button" class="hs-p hs-r" style="left:74%;top:52%" data-a="grp" data-g="kruszywa"><span>Otoczaki i grysy</span></button></div><p class="mu ep-c" style="margin-top:12px">Kliknij punkt, aby zobaczyć podobne produkty w sklepie.</p></section>
+<section class="ep-sec" id="naz"><h2 class="ep-h ep-c">Co widzisz na zdjęciu?</h2><div class="hs"><img src="img/of/kost1.jpg" alt="Ścieżka z szarej kostki brukowej, obrzeże i rabata z białych otoczaków" loading="lazy"><button type="button" class="hs-p" style="left:18%;top:86%" data-a="grp" data-g="kostka"><span>Kostka brukowa</span></button><button type="button" class="hs-p" style="left:36%;top:62%" data-a="grp" data-g="akces"><span>Obrzeża</span></button><button type="button" class="hs-p hs-r" style="left:74%;top:52%" data-a="grp" data-g="kruszywa"><span>Otoczaki i grysy</span></button></div><p class="mu ep-c" style="margin-top:12px">Wybierz punkt, aby zobaczyć podobne produkty w sklepie.</p></section>
 <section class="ep-sec" id="dlaczego"><h2 class="ep-h ep-c">Dlaczego JANAS?</h2><div class="ep-why">
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/><path d="M12 2v3"/><circle cx="12" cy="10" r="1.2"/></svg><h3>Ogród wystawowy 24h</h3><p>Materiały zobaczysz ułożone, w świetle dziennym i wieczorem, o każdej porze.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V6"/><path d="M21 21V6"/><path d="M3 9h18"/><path d="M3 17h18"/><path d="M7 9v8M11 9v8M15 9v8M19 9v8"/></svg><h3>Montaż ogrodzeń i bram</h3><p>Zamontujemy ogrodzenie, bramę i automatykę – od doboru po serwis.</p></div>
@@ -1576,7 +1601,7 @@ document.addEventListener('click',e=>{const dd=e.target.closest('.tn-m');if(dd){
 const STEPS=[['Wybierz','W sklepie online albo na żywo w ogrodzie wystawowym w Glinnie, otwartym całą dobę.'],['Zamów','Przez sklep, telefonicznie pod numerem 506 141 028 albo na miejscu w salonie.'],['Potwierdzimy','Sprawdzimy dostępność i ustalimy termin odbioru albo dowozu oraz jego koszt.'],['Odbierz','W Glinnie od poniedziałku do piątku 8:00–16:00 albo z dowozem HDS i rozładunkiem dźwigiem.']];
 const stepsHtml=()=>`<section class="ep-sec ep-pave bleed" id="jak"><div class="ep-in"><p class="eb ep-c">Prosto i bez niespodzianek</p><h2 class="ep-h ep-c">Jak kupić w JANAS?</h2><ol class="jk">${STEPS.map(([t,d],i)=>`<li><span class="jk-n" aria-hidden="true">${i+1}</span><h3>${t}</h3><p>${d}</p></li>`).join('')}</ol></div></section>`;
 const WTEM=['Kostka brukowa i płyty','Ogrodzenia','Bramy i automatyka','Kruszywa i kamienie','Beton architektoniczny','Zadaszenia i ogród','Transport HDS','Inne'];
-const wycenaHtml=()=>`<section class="ep-sec" id="wycena"><div class="wy"><div class="wy-t"><p class="eb">Bezpłatna wycena</p><h2 class="ep-h">Zapytaj o wycenę</h2><p class="mu">Opisz, czego potrzebujesz – przygotujemy ofertę i odezwiemy się w dni robocze. Wolisz porozmawiać? Zadzwoń: <a class="tl" href="tel:+48506141028">506 141 028</a>.</p><p class="mu" style="margin-bottom:6px">Co warto napisać:</p><ul class="wy-l"><li>ilość, np. m² kostki albo metry ogrodzenia,</li><li>miejscowość, jeśli potrzebny jest dowóz,</li><li>wymiary bramy lub wjazdu.</li></ul><p style="margin-top:14px"><a class="btn" href="wycena-3d.html">Policz sam w kreatorze 3D</a></p><p class="mu" style="font-size:13px">Ogrodzenie, kostka, żwir – zobacz projekt w 3D i listę materiałów z ceną.</p></div>
+const wycenaHtml=()=>`<section class="ep-sec" id="wycena"><div class="wy"><div class="wy-t"><p class="eb">Bezpłatna wycena</p><h2 class="ep-h">Zapytaj o wycenę</h2><p class="mu">Opisz, czego potrzebujesz – przygotujemy ofertę i odezwiemy się w dni robocze. Wolisz porozmawiać? Zadzwoń: <a class="tl" href="tel:+48506141028">506 141 028</a>.</p><p class="mu" style="margin-bottom:6px">Co warto napisać:</p><ul class="wy-l"><li>ilość, np. m² kostki albo metry ogrodzenia,</li><li>miejscowość, jeśli potrzebny jest dowóz,</li><li>wymiary bramy lub wjazdu.</li></ul><div class="k3d"${K3D?'':' hidden'}><p style="margin-top:14px"><a class="btn" href="wycena-3d.html">Policz sam w kreatorze 3D</a></p><p class="mu" style="font-size:13px">Ogrodzenie, kostka, żwir – zobacz projekt w 3D i listę materiałów z ceną.</p></div></div>
 <form class="wy-f card" id="wyf" novalidate><div class="two"><label>Imię i nazwisko<input name="n" autocomplete="name" required maxlength="80"></label><label>Telefon<input name="t" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20"></label></div><div class="two"><label>Czego dotyczy<select name="c">${WTEM.map(x=>`<option>${x}</option>`).join('')}</select></label><label>Miejscowość<input name="m" autocomplete="address-level2" maxlength="60"></label></div><label>Opis<textarea name="o" rows="4" maxlength="1200" placeholder="np. 80 m² kostki Prospect 6 cm, kolor grafit, z dowozem"></textarea></label><label class="wy-ok"><input type="checkbox" name="z" required><span>Zgadzam się na kontakt w sprawie wyceny. Zasady przetwarzania danych opisuje <button type="button" class="lnkb" data-a="nav" data-v="prywatnosc">Polityka prywatności</button>.</span></label><button type="submit" class="btn">Wyślij zapytanie</button><p class="mu wy-n">Kliknięcie otworzy Twój program pocztowy z gotową wiadomością do janas@janas.com.pl.</p></form></div></section>`;
 document.addEventListener('submit',e=>{if(e.target.id!=='wyf')return;e.preventDefault();const f=e.target,v=k=>(f.elements[k].value||'').trim();
  if(v('n').length<2){toast('Podaj imię i nazwisko',1);f.elements.n.focus();return}if(v('t').replace(/\D/g,'').length<9){toast('Podaj numer telefonu',1);f.elements.t.focus();return}if(!f.elements.z.checked){toast('Zaznacz zgodę na kontakt',1);f.elements.z.focus();return}
@@ -1591,7 +1616,7 @@ const FAQ=()=>[
  ['Czy muszę zakładać konto, żeby zamówić?','Do zamówienia przez sklep tak – konto zapamięta Twoje dane i historię zamówień. Możesz też zamówić telefonicznie albo na miejscu w Glinnie, bez konta.'],
  ['Czy pomożecie dobrać materiał?','Tak. W Glinnie doradzimy kostkę, ogrodzenie, bramę lub kruszywo do Twojego terenu. Możesz też wysłać zapytanie przez formularz wyceny.']];
 const faqHtml=()=>`<section class="ep-sec" id="faq"><p class="eb ep-c">Strefa wiedzy</p><h2 class="ep-h ep-c">Pytania i odpowiedzi</h2><div class="faq">${FAQ().map(([q,a,l])=>`<details><summary>${q}</summary><p>${a}${l?` <button type="button" class="lnkb" data-a="nav" data-v="${l}">Otwórz Regulamin</button>`:''}</p></details>`).join('')}</div></section>`;
-const crumbs=p=>{const g=GROUPS.find(x=>x.id!=='all'&&(x.cats||[]).includes(p.cat));return`<nav class="crumbs" aria-label="Ścieżka"><button type="button" class="lnkb" data-a="home">Strona główna</button><span aria-hidden="true">›</span>${g?`<button type="button" class="lnkb" data-a="ptn" data-g="${g.id}">${esc(g.label)}</button><span aria-hidden="true">›</span>`:''}${g&&(g.cats||[]).length>1?`<button type="button" class="lnkb" data-a="ptn" data-g="${g.id}" data-c="${esc(p.cat)}">${esc(p.cat)}</button><span aria-hidden="true">›</span>`:''}<span aria-current="page">${esc(p.ser||p.name)}</span></nav>`};
+const crumbs=p=>{const g=GROUPS.find(x=>x.id!=='all'&&(x.cats||[]).includes(p.cat));return`<div class="crumbs" role="navigation" aria-label="Ścieżka"><button type="button" class="lnkb" data-a="home">Strona główna</button><span aria-hidden="true">›</span>${g?`<button type="button" class="lnkb" data-a="ptn" data-g="${g.id}">${esc(g.label)}</button><span aria-hidden="true">›</span>`:''}${g&&(g.cats||[]).length>1?`<button type="button" class="lnkb" data-a="ptn" data-g="${g.id}" data-c="${esc(p.cat)}">${esc(p.cat)}</button><span aria-hidden="true">›</span>`:''}<span aria-current="page">${esc(p.ser||p.name)}</span></div>`};
 const simHtml=p=>{const k=serKey(p),seen=new Set([k]),l=[];for(const x of db.products){if(x.cat!==p.cat)continue;const kk=serKey(x);if(seen.has(kk))continue;seen.add(kk);l.push(db.products.filter(y=>serKey(y)===kk&&y.cat===x.cat));if(l.length>=4)break}return l.length?`<section class="sim"><h2>Podobne produkty</h2><div class="grid">${l.map(cardOf).join('')}</div></section>`:''};
 const topBtn=()=>{let b=document.getElementById('totop');if(!b){b=document.createElement('button');b.id='totop';b.type='button';b.className='totop';b.setAttribute('aria-label','Przewiń do góry');b.innerHTML='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>';b.addEventListener('click',()=>toTop(true));document.body.appendChild(b)}b.classList.toggle('on',scrollY>innerHeight*1.5)};
 addEventListener('scroll',topBtn,{passive:true});
@@ -1609,7 +1634,7 @@ let RVT=0;const revealSafety=()=>{clearInterval(RVT);RVT=setInterval(()=>{const 
 const drawIcons=box=>{const sv=box.querySelector('svg');if(sv)sv.classList.add('draw')};
 let CNT=false;
 const countUp=instant=>{if(CNT)return;const st=document.querySelector('.ep-stats');if(!st)return;CNT=true;st.querySelectorAll('b[data-n]').forEach(b=>{const n=+b.dataset.n,sf=b.dataset.s||'';if(instant||RM()){b.textContent=n+sf;return}const t0=performance.now(),D=1400;const f=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);b.textContent=Math.round(n*e)+sf;if(k<1)requestAnimationFrame(f)};b.textContent='0'+sf;requestAnimationFrame(f);setTimeout(()=>{b.textContent=n+sf},D+400)})};
-const animInit=()=>{try{revealInit();inspInit();parallax();if(document.querySelector('.ep-stats'))setTimeout(()=>countUp(),500)}catch(e){}};
+const animInit=()=>{try{k3dCheck();revealInit();inspInit();parallax();if(document.querySelector('.ep-stats'))setTimeout(()=>countUp(),500)}catch(e){}};
 {const _ca=A.cartAdd;A.cartAdd=d=>{const tot=()=>(db.carts[me&&me.id]||[]).reduce((a,x)=>a+(+x.qty||0),0),b0=tot();_ca(d);if(tot()>b0&&!RM()){const c=document.querySelector('.top .cartb[data-a="nav"][data-v="koszyk"], .top [aria-label="Koszyk"]');if(c){c.classList.remove('bump');void c.offsetWidth;c.classList.add('bump')}}}}
 
 /* ---------- strona główna jak u Wiśniowskiego: duże kafle produktów ---------- */
@@ -1647,6 +1672,11 @@ A.porada=d=>{const x=PORADY[+d.i];if(!x)return;modal(x.t,`<div class="pr-b">${x.
 /* ---------- paralaksa zdjęcia „Poznaj firmę” ---------- */
 const parallax=()=>{if(RM())return;const h=innerHeight;document.querySelectorAll('.ab-img img').forEach(im=>{const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>h)return;const k=(r.top+r.height/2-h/2)/h;im.style.transform=`translateY(${(k*-36).toFixed(1)}px) scale(1.12)`})};
 addEventListener('scroll',()=>requestAnimationFrame(parallax),{passive:true});
+
+/* ---------- telefon: kreator 3D, chowanie przycisków przy przewijaniu w dół ---------- */
+let K3D=false,K3C=0;
+const k3dCheck=()=>{if(K3D||K3C)return;K3C=1;fetch('wycena-3d.html',{method:'HEAD',cache:'no-store'}).then(r=>{if(r.ok){K3D=true;document.querySelectorAll('.k3d').forEach(e=>e.hidden=false)}}).catch(()=>{})};
+{let y0=scrollY;addEventListener('scroll',()=>{const y=scrollY,d=y-y0;if(Math.abs(d)<10)return;const end=innerHeight+y>=document.documentElement.scrollHeight-120;document.body.classList.toggle('scrl-dn',d>0&&y>240&&!end&&innerWidth<=640);y0=y},{passive:true})}
 const cookieBar=()=>{try{if(localStorage.getItem('janas-cookies'))return}catch(e){}if(document.querySelector('.ckbar'))return;const d=document.createElement('div');d.className='ckbar';d.setAttribute('role','region');d.setAttribute('aria-label','Informacja o plikach cookies');d.innerHTML='<p>Używamy tylko informacji niezbędnych do działania sklepu: logowania, koszyka, wybranego motywu i ostatnio oglądanych produktów. Nie śledzimy Cię i nie wyświetlamy reklam. <button type="button" class="lnkb" data-a="nav" data-v="cookies">Polityka cookies</button></p><button type="button" class="btn" id="ckok">Rozumiem</button>';document.body.appendChild(d);d.querySelector('#ckok').addEventListener('click',()=>{try{localStorage.setItem('janas-cookies','1')}catch(e){}d.remove()})};
 
 V.moje=()=>V.moje0()+V.mojeAcc();
