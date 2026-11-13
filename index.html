@@ -1112,6 +1112,58 @@ body[data-role="klient"] .fchips-l{font-weight:500;color:var(--mu);font-size:14p
 @media(max-width:800px){body[data-role="klient"] .fchips{flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;margin-right:-16px!important;padding-right:16px}
 body[data-role="klient"] .fchips::-webkit-scrollbar{display:none}
 body[data-role="klient"] .fchips>*{flex:none}}
+
+/* sklep: drugi wiersz – „Do czego?” po lewej, „Więcej filtrów” i „Tylko dostępne” po prawej */
+@media(min-width:801px){
+ body[data-role="klient"] .cr:has(>.fchips)>.fchips{grid-row:2;grid-column:1;margin:14px 0 0!important;align-self:start}
+ body[data-role="klient"] .cr:has(>.fchips)>.tb2:has(.moref,select){grid-row:2;grid-column:2/-1;margin:14px 0 0!important;justify-content:flex-end;align-self:start;flex-wrap:nowrap}
+ body[data-role="klient"] .cr>.tb2 .moref{position:relative}
+ body[data-role="klient"] .cr>.tb2 .moref-b{position:absolute;right:0;top:calc(100% + 8px);z-index:20;min-width:280px;padding:12px;border:1px solid var(--bd);border-radius:12px;background:var(--card);box-shadow:0 12px 30px rgba(0,0,0,.25);display:grid;gap:8px}
+ body[data-role="klient"] .cr>.tb2 .moref-b select{width:100%;height:42px;border-radius:10px}
+}
+body[data-role="klient"] .cl :is(.fchips .vb,.tb2 .vb,.moref>summary){height:44px;display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+body[data-role="klient"] .cr>.tb2 .vb{height:44px}
+body[data-role="klient"] .cr #fs,body[data-role="klient"] .cr #q{height:46px}
+body[data-role="klient"] #lst{margin-top:26px}
+body[data-role="klient"] #lst>h2.secH:first-child{margin-top:0!important}
+body[data-role="klient"] .gl{padding-top:2px}
+
+/* sklep (laptop): wiersz 1 – szukaj, sortuj, „Tylko dostępne”; wiersz 2 – „Do czego?” i „Więcej filtrów” */
+@media(min-width:801px){
+ body[data-role="klient"] .cl .cr{grid-template-columns:minmax(0,1fr) auto auto auto!important;column-gap:10px}
+ body[data-role="klient"] .cl .cr>.tb2{display:contents!important}
+ body[data-role="klient"] .cl .cr #q{grid-row:1!important;grid-column:1!important}
+ body[data-role="klient"] .cl .cr #fs{grid-row:1!important;grid-column:2!important;width:210px!important}
+ body[data-role="klient"] .cl .cr>.tb2>.vb{grid-row:1;grid-column:3}
+ body[data-role="klient"] .cl .cr>.tb2>[data-a="clr"]{grid-row:1;grid-column:4}
+ body[data-role="klient"] .cl .cr>.fchips{grid-row:2!important;grid-column:1/3!important;margin:14px 0 0!important}
+ body[data-role="klient"] .cl .cr>.tb2>:is(.moref,select){grid-row:2;grid-column:3/-1;justify-self:end;align-self:start;margin-top:14px}
+ body[data-role="klient"] .cl .cr:not(:has(>.fchips))>.tb2>:is(.moref,select){grid-column:1/-1;justify-self:start}
+ body[data-role="klient"] .cl .cr>.tb2>select{height:44px;border-radius:999px!important;padding:0 36px 0 16px}
+}
+
+@media(min-width:801px){body[data-role="klient"] .cl .cr>.fchips{gap:6px}
+body[data-role="klient"] .cl .cr>.fchips .vb{padding:0 14px!important;font-size:14.5px}
+body[data-role="klient"] .cl .cr>.fchips .fchips-l{font-size:13.5px;margin-right:2px}}
+
+@media(min-width:801px){
+ body[data-role="klient"] .cl .cr{grid-template-columns:minmax(0,1fr) auto auto auto auto!important}
+ body[data-role="klient"] .cl .cr>.tb2>:is(.moref,select){grid-row:1!important;grid-column:3!important;justify-self:stretch!important;margin-top:0!important;align-self:stretch}
+ body[data-role="klient"] .cl .cr>.tb2>.vb{grid-column:4}
+ body[data-role="klient"] .cl .cr>.tb2>[data-a="clr"]{grid-column:5}
+ body[data-role="klient"] .cl .cr>.fchips{grid-column:1/-1!important}
+ body[data-role="klient"] .cl .cr #fs{width:222px!important}
+ body[data-role="klient"] .cl .cr>.tb2>.moref>summary{height:46px}
+}
+
+@media(max-width:640px){
+ body[data-role="klient"] .cl .cr:has(.tb2 :is(.moref,select)) #fs{grid-column:1/-1!important;grid-row:2!important}
+ body[data-role="klient"] .cl .cr:has(.tb2 :is(.moref,select))>.tb2{grid-row:3!important;grid-column:1/-1!important;margin-top:8px!important;justify-content:flex-start;flex-wrap:wrap}
+ body[data-role="klient"] .cl .cr>.tb2{flex-wrap:nowrap!important;align-items:flex-start}
+ body[data-role="klient"] .cl .cr>.tb2 .moref{flex:none;display:block}
+ body[data-role="klient"] .cl .cr>.tb2:has(.moref[open]){flex-wrap:wrap!important}
+ body[data-role="klient"] .cl .cr>.tb2 .moref-b{display:grid;gap:8px;margin-top:8px;width:calc(100vw - 32px)}
+}
 </style>
 </head>
 <body>
@@ -1387,7 +1439,7 @@ const tb2=()=>{const cl=me.role==='klient',g=curG(),t=(k,l)=>`<button type="butt
  const more=fs?(rest.length>1?`<details class="moref"${nAct?' open':''}><summary>Więcej filtrów${nAct?` (${nAct})`:''}</summary><div class="moref-b">${fs}</div></details>`:fs):'';
  return`${chips}<div class="tb2">${more}${cl?t('av','Tylko dostępne'):t('low','Niski stan / brak')}<button type="button" class="btn sec sm" data-a="clr">Wyczyść filtry</button></div>`};
 const tb=extra=>{const so=[['kat','Sortuj: domyślnie'],['name','Sortuj: nazwa A–Z'],['pa','Sortuj: cena rosnąco'],['pd','Sortuj: cena malejąco']];if(me.role!=='klient')so.push(['sa','Sortuj: stan rosnąco']);
- return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" aria-label="Szukaj w katalogu" placeholder="Szukaj: nazwa, kolor, grubość…" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
+ return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" aria-label="Szukaj w katalogu" placeholder="${me.role==='klient'?'Szukaj produktu…':'Szukaj: nazwa, kolor, grubość…'}" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
 const dots=p=>{const cs=COLS[p.ck]||[];if(!cs.length)return"";const s=selOf(p);return`<div class="dots">${cs.slice(0,6).map((c,i)=>`<img class="dot${i===s?" on":""}" role="button" tabindex="0" loading="lazy" src="${c[1]}" alt="${esc(c[0])}" title="${esc(c[0])}" data-a="pick" data-id="${p.id}" data-i="${i}">`).join("")}${cs.length>6?`<span class="mu">+${cs.length-6}</span>`:""}</div>`};
 const star=p=>can('cart.use')?`<button type="button" class="star${isFav(p)?' on':''}" data-a="fav" data-id="${p.id}" aria-label="Ulubione">${isFav(p)?'★':'☆'}</button>`:'';
 const plN=(n,a,b,c)=>n+' '+(n===1?a:n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?b:c);
