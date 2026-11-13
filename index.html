@@ -1164,6 +1164,20 @@ body[data-role="klient"] .cl .cr>.fchips .fchips-l{font-size:13.5px;margin-right
  body[data-role="klient"] .cl .cr>.tb2:has(.moref[open]){flex-wrap:wrap!important}
  body[data-role="klient"] .cl .cr>.tb2 .moref-b{display:grid;gap:8px;margin-top:8px;width:calc(100vw - 32px)}
 }
+
+/* „Więcej filtrów” jako okienko (laptop) i panel od dołu ekranu (telefon) */
+body[data-role="klient"] .cl .moref{position:relative}
+body[data-role="klient"] .cl .moref>summary{list-style:none;cursor:pointer}
+body[data-role="klient"] .cl .moref>summary::-webkit-details-marker{display:none}
+body[data-role="klient"] .cl .fchips .moref-b{position:absolute;left:0;top:calc(100% + 8px);z-index:20;min-width:280px;padding:12px;border:1px solid var(--bd);border-radius:12px;background:var(--card);box-shadow:0 12px 30px rgba(0,0,0,.25);display:grid;gap:8px}
+body[data-role="klient"] .cl .moref-b select{width:100%;height:42px;border-radius:10px}
+@media(min-width:801px){
+ body[data-role="klient"] .cl .cr #q{min-width:220px}
+}
+@media(max-width:800px){
+ body[data-role="klient"] .cl .moref-b,body[data-role="klient"] .cl .fchips .moref-b,body[data-role="klient"] .cl .cr>.tb2 .moref-b{position:fixed!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;width:auto!important;min-width:0!important;margin:0!important;z-index:80;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))!important;border-radius:16px 16px 0 0!important;border:1px solid var(--bd);background:var(--card);box-shadow:0 -12px 40px rgba(0,0,0,.4);display:grid;gap:10px}
+ body[data-role="klient"] .cl .moref-b::before{content:"Więcej filtrów";font-weight:600;font-size:17px;margin-bottom:4px}
+}
 </style>
 </head>
 <body>
@@ -1436,8 +1450,8 @@ const tb2=()=>{const cl=me.role==='klient',g=curG(),t=(k,l)=>`<button type="butt
  const f0=(g.fl||[])[0],o0=f0?f0.o():[],chips=f0&&o0.length>1&&o0.length<=10?`<div class="fchips" role="group" aria-label="${esc(f0.l)}"><span class="fchips-l">${esc(f0.l)}</span><button type="button" class="vb${X[f0.k]?'':' on'}" data-a="gf" data-k="${f0.k}" data-v="" aria-pressed="${!X[f0.k]}">Wszystko</button>${o0.map(([v,l])=>`<button type="button" class="vb${X[f0.k]===v?' on':''}" data-a="gf" data-k="${f0.k}" data-v="${esc(v)}" aria-pressed="${X[f0.k]===v}">${esc(l)}</button>`).join('')}</div>`:'';
  const rest=chips?(g.fl||[]).slice(1):(g.fl||[]),nAct=rest.filter(f=>X[f.k]).length;
  const fs=rest.map(f=>{const o=f.o();return o.length>1?`<select data-gf="${f.k}" aria-label="${f.l}"><option value="">${f.l}: wszystkie</option>${o.map(([v,l])=>`<option value="${esc(v)}" ${((F.x||{})[f.k]||'')===v?'selected':''}>${esc(l)}</option>`).join('')}</select>`:''}).join('');
- const more=fs?(rest.length>1?`<details class="moref"${nAct?' open':''}><summary>Więcej filtrów${nAct?` (${nAct})`:''}</summary><div class="moref-b">${fs}</div></details>`:fs):'';
- return`${chips}<div class="tb2">${more}${cl?t('av','Tylko dostępne'):t('low','Niski stan / brak')}<button type="button" class="btn sec sm" data-a="clr">Wyczyść filtry</button></div>`};
+ const more=fs?(rest.length>1?`<details class="moref"><summary>Więcej filtrów${nAct?` (${nAct})`:''}</summary><div class="moref-b">${fs}</div></details>`:fs):'';
+ const inCh=cl&&chips&&more;return`${inCh?chips.slice(0,-6)+more+'</div>':chips}<div class="tb2">${inCh?'':more}${cl?t('av','Tylko dostępne'):t('low','Niski stan / brak')}<button type="button" class="btn sec sm" data-a="clr">Wyczyść filtry</button></div>`};
 const tb=extra=>{const so=[['kat','Sortuj: domyślnie'],['name','Sortuj: nazwa A–Z'],['pa','Sortuj: cena rosnąco'],['pd','Sortuj: cena malejąco']];if(me.role!=='klient')so.push(['sa','Sortuj: stan rosnąco']);
  return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" aria-label="Szukaj w katalogu" placeholder="${me.role==='klient'?'Szukaj produktu…':'Szukaj: nazwa, kolor, grubość…'}" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
 const dots=p=>{const cs=COLS[p.ck]||[];if(!cs.length)return"";const s=selOf(p);return`<div class="dots">${cs.slice(0,6).map((c,i)=>`<img class="dot${i===s?" on":""}" role="button" tabindex="0" loading="lazy" src="${c[1]}" alt="${esc(c[0])}" title="${esc(c[0])}" data-a="pick" data-id="${p.id}" data-i="${i}">`).join("")}${cs.length>6?`<span class="mu">+${cs.length-6}</span>`:""}</div>`};
@@ -1446,7 +1460,7 @@ const plN=(n,a,b,c)=>n+' '+(n===1?a:n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?b:c);
 const facts=g=>{const p=g[0];if(p.gr){const gr=uniq(g.map(x=>x.gr)).sort((a,b)=>num0(a)-num0(b)),nc=(COLS[p.ck]||[]).length;return[gr.join(' / ')+' cm',nc?plN(nc,'kolor','kolory','kolorów'):'',g.length>1?plN(g.length,'wariant','warianty','wariantów'):''].filter(Boolean).join(' · ')}return g.length===1?esc(p.desc):plN(g.length,'wariant','warianty','wariantów')};
 const cardOf=g=>{const p=g[0],one=g.length===1,pr=Math.min(...g.map(x=>x.price)),st=g.some(x=>avail(x)>x.min)?['Dostępny','ok']:g.some(x=>avail(x)>0)?['Ostatnie sztuki','wa']:['Brak','er'];
  return`<div class="card pc" data-a="open" data-id="${p.id}">${star(p)}<div class="pic">${p.icon}${imgMain(p)?`<img src="${esc(imgMain(p))}" alt="" loading="lazy" onerror="this.remove()">`:illPic(p)}${photoOf(p)&&CPK[p.id]?swIn(p,1):''}<h3>${esc(one?p.name:p.ser)}</h3></div>${dots(p)}<p class="mu pf">${facts(g)}</p><div class="row"><b class="pr">${one?ppH(p):'od '+ppH({price:pr,unit:p.unit})}</b><span class="chip ${st[1]}">${st[0]}</span></div><button class="btn sec" data-a="open" data-id="${p.id}">Wybierz opcje</button></div>`};
-const cards=l=>{if(F.sort!=='kat')return`<div class="grid">${l.map(cardOf).join('')}</div>`;let out='',last=null;const cn={};fl2().forEach(g=>{const k=(g[0]||g).cat;cn[k]=(cn[k]||0)+1});l.forEach(g=>{const c=g[0].cat;if(c!==last){if(last!==null)out+='</div>';out+=`<h2 class="secH">${esc(c)} <span class="secN">${cn[c]||''}</span></h2><div class="grid">`;last=c}out+=cardOf(g)});return out+(last!==null?'</div>':'')};
+const cards=l=>{if(F.sort!=='kat'||me.role==='klient')return`<div class="grid">${l.map(cardOf).join('')}</div>`;let out='',last=null;const cn={};fl2().forEach(g=>{const k=(g[0]||g).cat;cn[k]=(cn[k]||0)+1});l.forEach(g=>{const c=g[0].cat;if(c!==last){if(last!==null)out+='</div>';out+=`<h2 class="secH">${esc(c)} <span class="secN">${cn[c]||''}</span></h2><div class="grid">`;last=c}out+=cardOf(g)});return out+(last!==null?'</div>':'')};
 const rcls=p=>p.stock<=0?'out':p.stock<=p.min?'low':'';
 const grpBy=l=>{const m=new Map();l.forEach(p=>{const k=p.ser?p.cat+'|'+p.ser:p.id;(m.get(k)||m.set(k,[]).get(k)).push(p)});return[...m.values()]};
 const fl2=()=>view==='katalog'&&!can('product.write')?grpBy(fl()):fl();
@@ -2070,6 +2084,10 @@ const SHD={opal:'Pellet drzewny, groszek, sól drogowa'};
 const shopHead=()=>{const g=curG(),id=g.id||'all',n=gcount(g),im=SHIMG[id]?'img/of/'+SHIMG[id]+'.jpg':illSvg('shop-'+id,{t:'pel',r:[13,18],c:['#c9a46a','#b98f55','#d6b47c','#bf9a60']});
  const t=id==='all'?'Sklep online':g.label,d=id==='all'?'Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Odbiór w Glinnie albo nasz dowóz.':(KAFD[id]||SHD[id]||'')+(n?' · '+plN(n,'produkt','produkty','produktów'):'');
  return`<div class="shop-h shop-b" id="sklep"><img src="${im}" alt="" class="shop-bi"><div class="shop-bt">${id!=='all'?`<button type="button" class="shop-bk" data-a="grp" data-g="all">← Cały sklep</button>`:''}<h1 class="ep-h ep-shop">${esc(t)}</h1>${d?`<p>${esc(d)}</p>`:''}</div></div>`};
+
+/* zamykanie „Więcej filtrów” kliknięciem obok albo Esc */
+document.addEventListener('click',e=>{document.querySelectorAll('details.moref[open]').forEach(d=>{if(!d.contains(e.target))d.open=false})});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('details.moref[open]').forEach(d=>{d.open=false;const s=d.querySelector('summary');s&&s.focus()})});
 const cookieBar=()=>{try{if(localStorage.getItem('janas-cookies'))return}catch(e){}if(document.querySelector('.ckbar'))return;const d=document.createElement('div');d.className='ckbar';d.setAttribute('role','region');d.setAttribute('aria-label','Informacja o plikach cookies');d.innerHTML='<p>Zapisujemy tylko to, co potrzebne do działania sklepu: logowanie, koszyk, motyw i ostatnio oglądane produkty. Bez śledzenia i reklam. <button type="button" class="lnkb" data-a="nav" data-v="cookies">Polityka cookies</button></p><button type="button" class="btn" id="ckok">Rozumiem</button>';document.body.appendChild(d);d.querySelector('#ckok').addEventListener('click',()=>{try{localStorage.setItem('janas-cookies','1')}catch(e){}d.remove()})};
 
 V.moje=()=>V.moje0()+V.mojeAcc();
