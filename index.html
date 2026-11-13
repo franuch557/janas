@@ -1043,6 +1043,39 @@ body[data-role="klient"] .det .shb{right:46px!important}
  .d-cols .cc,.d-cols .cc img{width:50px;height:50px}
  .d-buy .acts{margin:12px -16px -1px!important}
 }
+
+/* nagłówek sklepu ze zdjęciem */
+.shop-b{position:relative;display:flex;align-items:flex-end;min-height:clamp(200px,24vw,300px);margin:0 0 30px!important;border-radius:10px;overflow:hidden;background:#222;scroll-margin-top:140px}
+.shop-bi{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shop-b::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.66),rgba(0,0,0,.25) 65%,rgba(0,0,0,.1)),linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,0) 50%)}
+.shop-bt{position:relative;z-index:1;padding:clamp(20px,3vw,40px);max-width:640px;color:#fff}
+.shop-b .ep-shop{color:#fff!important;margin:0 0 8px!important;padding:0!important;font-size:clamp(30px,3.6vw,48px)!important;font-weight:500;line-height:1.08}
+.shop-b p{margin:0;color:rgba(255,255,255,.88)!important;font-size:16px;line-height:1.5;display:block!important}
+.shop-bk{background:none;border:0;padding:0 0 10px;color:rgba(255,255,255,.85);font:inherit;font-size:14px;cursor:pointer}.shop-bk:hover{color:#fff;text-decoration:underline}
+/* licznik wyników tylko przy wyszukiwaniu */
+body[data-role="klient"] .cl:has(#q:placeholder-shown) #cnt{display:none}
+h2.secH{font-size:22px!important;font-weight:500!important;border-bottom:0!important;padding-bottom:0!important;margin:44px 0 16px!important}
+h2.secH:first-child{margin-top:4px!important}
+h2.secH .secN{color:var(--mu);font-weight:400;font-size:15px;margin-left:6px}
+@media(max-width:800px){
+ .shop-b{min-height:170px;margin-bottom:18px!important;border-radius:8px;margin-left:-16px!important;margin-right:-16px!important;border-radius:0;scroll-margin-top:110px}
+ .shop-bt{padding:18px 16px}
+ .shop-b .ep-shop{font-size:28px!important}
+ .shop-b p{font-size:14.5px}
+ h2.secH{font-size:20px!important;margin-top:34px!important}
+}
+
+/* jedna sekcja w kategorii: tytuł jest już na zdjęciu */
+body[data-role="klient"] #lst>h2.secH:only-of-type{display:none}
+
+/* telefon: sortowanie i „Tylko dostępne” zawsze w drugim wierszu, pod wyszukiwarką */
+@media(max-width:640px){
+ body[data-role="klient"] .cr #q{grid-row:1}
+ body[data-role="klient"] .cr #fs{grid-row:2}
+ body[data-role="klient"] .cr>.tb2{grid-row:2}
+ body[data-role="klient"] .cr>.tb2 [data-a="clr"]{display:none!important}
+ body[data-role="klient"] .cr>.fchips{margin-top:10px}
+}
 </style>
 </head>
 <body>
@@ -1369,7 +1402,7 @@ ${tilesHtml()}${rvHtml()}${stepsHtml()}<section class="ep-sec" id="dlaczego"><h2
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 17V9h11v8"/><path d="M13 12h4l3 3v2h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M4 9l6-6 3 3"/><path d="M10 3v4"/></svg><h3>Własny transport</h3><p>HDS z dźwigiem rozładuje palety tam, gdzie są potrzebne. Wywrotką (wanną) przywieziemy kruszywa luzem, a firanką większe ładunki.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 4h6v5h-3l-2 2V9h-1z"/></svg><h3>Doradztwo na miejscu</h3><p>W Glinnie pomożemy dobrać kostkę, ogrodzenie lub kruszywo do Twojego terenu.</p></div></div></section><section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p></div></div></section>${inspHtml()}${poradyHtml()}${partnHtml()}${OPINIE.length?opinieHtml():''}${wycenaHtml()}${faqHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a><a class="btn ep-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></div><p class="cta-l"><a href="${FIRMA.ig}" target="_blank" rel="noopener">Instagram</a><a href="${FIRMA.fb}" target="_blank" rel="noopener">Facebook</a><a href="${GOP}" target="_blank" rel="noopener">Opinie w Google</a></p></div></div></section>`;
 V.start=()=>epHome();
-V.katalog=()=>(me.role==='klient'?'<div class="shop-h"><h1 class="ep-h ep-shop" id="sklep">Sklep online</h1><p class="mu">Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Zamów online i odbierz w Glinnie albo zamów nasz dowóz.</p></div>':'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
+V.katalog=()=>(me.role==='klient'?shopHead():'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
 V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w katalogu, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do katalogu</button></div>`};
 V.magazyn=()=>tb();
 const SST={open:['Otwarte','er'],ordered:['Zamówione','wa'],instock:['Jest na stanie','ok'],done:['Zamknięte','ok']},sst=s=>s.st||(s.open===false?'done':'open');
@@ -1942,6 +1975,13 @@ const illOf=p=>{const n=nz(p.name),c=p.cat,ph=f=>({src:'img/of/'+f+'.jpg',pog:1}
  if(/kruszyw/.test(n))return tx({t:'ang',r:[6,12],c:['#8a8a88','#a3a3a0','#6f6f6d','#bdbdb9']});
  return null};
 const illPic=p=>{const i=illOf(p);return i?`<img class="ill" src="${esc(i.src)}" alt="" loading="lazy" onerror="this.remove()">${i.pog?'<span class="ph-pog">Zdjęcie poglądowe</span>':''}`:''};
+
+/* ---------- nagłówek sklepu: zdjęcie jak na stronie głównej, zmienia się z kategorią ---------- */
+const SHIMG={all:'kost2',kostka:'kost1',ogrodzenia:'nowo2',bramy:'brama1',ogrod:'zad3',kruszywa:'krusz1',uslugi:'hds2',akces:'akc1'};
+const SHD={opal:'Pellet drzewny, groszek, sól drogowa'};
+const shopHead=()=>{const g=curG(),id=g.id||'all',n=gcount(g),im=SHIMG[id]?'img/of/'+SHIMG[id]+'.jpg':illSvg('shop-'+id,{t:'pel',r:[13,18],c:['#c9a46a','#b98f55','#d6b47c','#bf9a60']});
+ const t=id==='all'?'Sklep online':g.label,d=id==='all'?'Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Odbiór w Glinnie albo nasz dowóz.':(KAFD[id]||SHD[id]||'')+(n?' · '+plN(n,'produkt','produkty','produktów'):'');
+ return`<div class="shop-h shop-b" id="sklep"><img src="${im}" alt="" class="shop-bi"><div class="shop-bt">${id!=='all'?`<button type="button" class="shop-bk" data-a="grp" data-g="all">← Cały sklep</button>`:''}<h1 class="ep-h ep-shop">${esc(t)}</h1>${d?`<p>${esc(d)}</p>`:''}</div></div>`};
 const cookieBar=()=>{try{if(localStorage.getItem('janas-cookies'))return}catch(e){}if(document.querySelector('.ckbar'))return;const d=document.createElement('div');d.className='ckbar';d.setAttribute('role','region');d.setAttribute('aria-label','Informacja o plikach cookies');d.innerHTML='<p>Zapisujemy tylko to, co potrzebne do działania sklepu: logowanie, koszyk, motyw i ostatnio oglądane produkty. Bez śledzenia i reklam. <button type="button" class="lnkb" data-a="nav" data-v="cookies">Polityka cookies</button></p><button type="button" class="btn" id="ckok">Rozumiem</button>';document.body.appendChild(d);d.querySelector('#ckok').addEventListener('click',()=>{try{localStorage.setItem('janas-cookies','1')}catch(e){}d.remove()})};
 
 V.moje=()=>V.moje0()+V.mojeAcc();
