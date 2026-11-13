@@ -732,10 +732,10 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
 .ig-t{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;overscroll-behavior-x:contain}
 .ig-t::-webkit-scrollbar{display:none}
 .ig-t:focus-visible{outline:3px solid var(--ac);outline-offset:4px}
-.ig-c{flex:0 0 clamp(260px,40vw,560px);margin:0;scroll-snap-align:start}
-.ig-c:first-child{flex-basis:clamp(260px,52vw,720px)}.ig-c:last-child{scroll-snap-align:end}
+.ig-c{flex:0 0 clamp(260px,38vw,520px);margin:0;scroll-snap-align:start}
+.ig-c:last-child{scroll-snap-align:end}
 .ig-b{position:relative;display:block;width:100%;aspect-ratio:4/3;padding:0;border:0;overflow:hidden;cursor:pointer;background:var(--sunk)}
-.ig-c:first-child .ig-b{aspect-ratio:auto;height:calc(clamp(260px,40vw,560px) * .75)}
+
 .ig-b img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}
 .ig-b::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55));opacity:0;transition:opacity .4s}
 .ig-more{position:absolute;left:18px;bottom:16px;z-index:1;color:#fff;font-weight:500;display:inline-flex;gap:10px;align-items:center;opacity:0;transform:translateY(8px);transition:opacity .35s,transform .35s}
@@ -926,6 +926,270 @@ body[data-g="1"] .top [data-a="notifs"]{display:none}
 .wy-ok-msg{padding:8px 0}.wy-ok-msg b:first-child{font-size:20px;display:block;margin-bottom:8px}.wy-ok-msg p{margin:0 0 10px}
 
 .ph-src{font-size:12.5px;margin:6px 0 0}
+
+/* wybrany kolor jako duża próbka na zdjęciu */
+.pic.big{position:relative}
+.sw-in{position:absolute;left:12px;bottom:12px;z-index:2;width:min(38%,220px);background:#fff;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.35);overflow:hidden;display:block}
+.sw-in img{position:static!important;display:block;width:100%!important;height:auto!important;aspect-ratio:4/3;object-fit:cover!important;transform:none!important}
+.sw-in b{display:block;padding:6px 9px;font-size:13px;font-weight:600;color:#1c1f1a;line-height:1.25}
+@media(prefers-reduced-motion:no-preference){.sw-new{animation:swpop .45s cubic-bezier(.3,1.5,.5,1)}@keyframes swpop{from{transform:scale(.85)}to{transform:none}}}
+@media(max-width:640px){.sw-in{left:8px;bottom:8px;width:40%}.sw-in b{font-size:12px;padding:5px 7px}}
+.sw-in.sm{left:6px;bottom:6px;width:44%;border-radius:6px}.sw-in.sm b{font-size:11px;padding:3px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* pola ilości bez strzałek przeglądarki (są przyciski − i +) */
+input[type=number]{-moz-appearance:textfield;appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}
+
+/* ---------- sklep: porządek na liście produktów ---------- */
+/* opis karty w dwóch liniach zamiast uciętego „8…”, cena zawsze na dole karty */
+.pc .pf{-webkit-line-clamp:2!important;line-height:1.4}
+.pc .row{margin-top:auto!important;padding-top:10px}
+.pc .dots{margin-bottom:4px}
+/* „Wyczyść filtry” tylko, gdy jakiś filtr jest włączony */
+body[data-role="klient"] .cl:has(#q:placeholder-shown):not(:has(.vb.on:not([data-v=""]))):not(:has(select[data-gf] option:checked:not([value=""]))) [data-a="clr"]{display:none}
+@media(min-width:801px){body[data-role="klient"] .cl #fs{min-width:0!important;width:210px}}
+#cnt{color:var(--mu)}
+@media(min-width:801px){
+ /* kategorie po lewej nie chowają się pod górnym paskiem */
+ body[data-role="klient"] .gl{top:148px}
+ /* wyszukiwarka, sortowanie i „Tylko dostępne” w jednym wierszu */
+ body[data-role="klient"] .cr{display:grid;grid-template-columns:minmax(0,1fr) auto auto;column-gap:10px;align-items:stretch}
+ body[data-role="klient"] .cr>*{grid-column:1/-1}
+ body[data-role="klient"] .cr>.tb{display:contents}
+ body[data-role="klient"] .cr #q{grid-column:1;grid-row:1;margin:0}
+ body[data-role="klient"] .cr #fs{grid-column:2;grid-row:1;margin:0;min-width:190px}
+ body[data-role="klient"] .cr>.tb2{grid-column:3;grid-row:1;margin:0;flex-wrap:nowrap}
+ body[data-role="klient"] .cr>.tb2 .vb{white-space:nowrap;height:100%}
+ body[data-role="klient"] .cr>.fchips{margin-top:14px}
+ /* przy dodatkowych filtrach przyciski schodzą do osobnego wiersza */
+ body[data-role="klient"] .cr:has(.tb2 :is(.moref,select)) #fs{grid-column:2/-1}
+ body[data-role="klient"] .cr>.tb2:has(.moref,select){grid-column:1/-1;grid-row:auto;margin-top:10px;flex-wrap:wrap}
+ body[data-role="klient"] .cr #cnt{margin:14px 0 0!important}
+ body[data-role="klient"] .cr h2.secH:first-child{margin-top:10px}
+ .shop-h{margin-bottom:26px}
+ .shop-h p{max-width:62ch}
+}
+/* telefon i tablet: kategorie jako zaokrąglone przyciski */
+@media(max-width:800px){
+ .gl{gap:8px!important;margin-right:-16px;padding-right:16px;scrollbar-width:none}
+ .gl::-webkit-scrollbar{display:none}
+ .gb{padding:8px 14px!important;border:1px solid var(--bd)!important;border-radius:999px!important;font-size:14.5px;color:var(--tx)!important}
+ .gb.on{background:var(--tx)!important;border-color:var(--tx)!important;color:var(--bg)!important}
+ .gb.on small{color:var(--bg)!important;opacity:.7}
+ .gb.on span{box-shadow:none!important}
+}
+
+/* produkty bez zdjęcia */
+.pic .ph-pog{position:absolute;left:8px;bottom:8px;z-index:1;font-size:11px;line-height:1;padding:4px 7px;border-radius:999px;background:rgba(0,0,0,.55);color:#fff;letter-spacing:.02em}
+.pic.big .ph-pog{font-size:12.5px;left:12px;bottom:12px}
+
+/* ---------- sklep: karty jak kafle na stronie głównej – duże zdjęcie, nazwa na zdjęciu, cena pod nim ---------- */
+#lst .grid,#ostatnie .grid,.fav-g .grid{gap:30px 18px}
+@media(min-width:1100px){#lst .grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.pc{background:none!important;border:0!important;border-radius:0!important;padding:0!important;box-shadow:none!important;overflow:visible!important;transform:none!important}
+.pc .pic{aspect-ratio:4/5!important;height:auto!important;border-radius:8px!important;overflow:hidden;background:var(--sunk)}
+.pc .pic img{transition:transform .6s ease,filter .2s!important}
+.pc:hover .pic img,.pc:focus-within .pic img{transform:scale(1.04);filter:none!important}
+.pc .pic img.ill{transform:none!important}
+.pc .pic::after{content:""!important;position:absolute;inset:auto 0 0 0!important;height:55%;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.62));opacity:1!important;z-index:1;pointer-events:none;font:inherit!important}
+.pc .pic h3{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;margin:0!important;padding:0!important;color:#fff;font-size:clamp(18px,1.5vw,23px)!important;font-weight:500;line-height:1.2;text-shadow:0 1px 8px rgba(0,0,0,.35);text-decoration:none!important}
+.pc:hover .pic h3{text-decoration:underline!important;text-decoration-thickness:1px!important;text-underline-offset:4px}
+.pc .star{top:12px!important;right:12px!important;z-index:3}
+.pc .ph-pog{top:12px;bottom:auto;left:12px}
+.pc .sw-in.sm{top:12px;bottom:auto;left:12px;width:34%}
+.pc .dots{margin:12px 0 0!important;padding:0!important}
+.pc .pf{margin:6px 0 0!important;padding:0!important;font-size:14px!important}
+.pc .row{margin-top:auto!important;padding:8px 0 0!important}
+.pc .row .pr{font-size:18px}
+.pc .dot{width:24px;height:24px;border-radius:50%}
+@media(max-width:800px){
+ #lst .grid{gap:22px 12px}
+ .pc .pic h3{left:10px;right:10px;bottom:10px;font-size:15.5px!important}
+ .pc .star{top:8px!important;right:8px!important}
+ .pc .ph-pog,.pc .sw-in.sm{top:8px;left:8px}
+ .pc .dots{margin-top:9px!important}
+ .pc .dot{width:22px;height:22px}
+ .pc .row .pr{font-size:16px}
+}
+/* strona produktu: to samo zaokrąglenie zdjęcia */
+.det .pic.big{border-radius:8px;overflow:hidden}
+
+/* ---------- strona produktu: bez ramek, cena wyraźnie, zakup od razu widoczny ---------- */
+@media(min-width:801px){body[data-role="klient"] .det{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:48px}}
+body[data-role="klient"] .det>.card:nth-child(2){background:none!important;border:0!important;box-shadow:none!important;padding:0!important;position:relative}
+body[data-role="klient"] .det h1{font-size:clamp(28px,2.6vw,40px);font-weight:500;line-height:1.1}
+.d-back{border:0!important;background:none!important;padding:6px 0!important;min-height:0!important;color:var(--mu)!important;font-weight:500}
+.d-back:hover{color:var(--tx)!important}
+.d-pr{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:14px 0 6px;padding-bottom:16px;border-bottom:1px solid var(--bd)}
+.d-pr>b{font-size:28px;font-weight:600;letter-spacing:-.01em}
+.d-l{margin:18px 0 8px;color:var(--mu)}.d-l b{color:var(--tx)}
+.d-cols{gap:8px!important}
+.d-cols .cc{width:58px;padding:0!important;border:0!important;background:none!important}
+.d-cols .cc img{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid transparent;outline:1px solid var(--bd);outline-offset:-1px}
+.d-cols .cc.on img{border-color:var(--ac);outline:2px solid var(--ac);outline-offset:2px}
+.d-cols .cc span{display:none}
+.d-buy{margin-top:22px;padding-top:18px;border-top:1px solid var(--bd)}
+.d-buy .acts{margin-top:12px}
+.d-buy .acts .btn{width:100%;padding:15px 20px;font-size:16.5px}
+.d-sum{margin-top:10px}
+.d-sum b{font-size:18px}
+.d-more{margin-top:22px;padding-top:6px;border-top:1px solid var(--bd)}
+.d-more .kv{font-size:14px}
+body[data-role="klient"] .det .chips:not(.d-cols) .vb{border-radius:999px}
+body[data-role="klient"] .det .star{top:2px!important;right:0!important}
+body[data-role="klient"] .det .shb{right:46px!important}
+@media(max-width:800px){
+ body[data-role="klient"] .det{gap:20px}
+ .d-pr>b{font-size:24px}
+ .d-cols .cc,.d-cols .cc img{width:50px;height:50px}
+ .d-buy .acts{margin:12px -16px -1px!important}
+}
+
+/* nagłówek sklepu ze zdjęciem */
+.shop-b{position:relative;display:flex;align-items:flex-end;min-height:clamp(200px,24vw,300px);margin:0 0 30px!important;border-radius:10px;overflow:hidden;background:#222;scroll-margin-top:140px}
+.shop-bi{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shop-b::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.66),rgba(0,0,0,.25) 65%,rgba(0,0,0,.1)),linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,0) 50%)}
+.shop-bt{position:relative;z-index:1;padding:clamp(20px,3vw,40px);max-width:640px;color:#fff}
+.shop-b .ep-shop{color:#fff!important;margin:0 0 8px!important;padding:0!important;font-size:clamp(30px,3.6vw,48px)!important;font-weight:500;line-height:1.08}
+.shop-b p{margin:0;color:rgba(255,255,255,.88)!important;font-size:16px;line-height:1.5;display:block!important}
+.shop-bk{background:none;border:0;padding:0 0 10px;color:rgba(255,255,255,.85);font:inherit;font-size:14px;cursor:pointer}.shop-bk:hover{color:#fff;text-decoration:underline}
+/* licznik wyników tylko przy wyszukiwaniu */
+body[data-role="klient"] .cl:has(#q:placeholder-shown) #cnt{display:none}
+h2.secH{font-size:22px!important;font-weight:500!important;border-bottom:0!important;padding-bottom:0!important;margin:44px 0 16px!important}
+h2.secH:first-child{margin-top:4px!important}
+h2.secH .secN{color:var(--mu);font-weight:400;font-size:15px;margin-left:6px}
+@media(max-width:800px){
+ .shop-b{min-height:170px;margin-bottom:18px!important;border-radius:8px;margin-left:-16px!important;margin-right:-16px!important;border-radius:0;scroll-margin-top:110px}
+ .shop-bt{padding:18px 16px}
+ .shop-b .ep-shop{font-size:28px!important}
+ .shop-b p{font-size:14.5px}
+ h2.secH{font-size:20px!important;margin-top:34px!important}
+}
+
+/* jedna sekcja w kategorii: tytuł jest już na zdjęciu */
+body[data-role="klient"] #lst>h2.secH:only-of-type{display:none}
+
+/* telefon: sortowanie i „Tylko dostępne” zawsze w drugim wierszu, pod wyszukiwarką */
+@media(max-width:640px){
+ body[data-role="klient"] .cr #q{grid-row:1}
+ body[data-role="klient"] .cr #fs{grid-row:2}
+ body[data-role="klient"] .cr>.tb2{grid-row:2}
+ body[data-role="klient"] .cr>.tb2 [data-a="clr"]{display:none!important}
+ body[data-role="klient"] .cr>.fchips{margin-top:10px}
+}
+
+/* ---------- sklep: lista kategorii i filtry w stylu reszty strony ---------- */
+@media(min-width:801px){body[data-role="klient"] .cl{grid-template-columns:232px minmax(0,1fr);gap:40px}}
+body[data-role="klient"] .cl :is(#q,#fs){height:48px;border-radius:12px!important;border:1px solid var(--bd)!important;background-color:var(--card)!important;font-size:15.5px}
+body[data-role="klient"] .cl #q{padding-left:42px!important;background-position:15px 50%!important}
+body[data-role="klient"] .cl #fs{padding:0 36px 0 16px}
+body[data-role="klient"] .cl :is(.vb,.moref>summary){border-radius:999px!important;font-weight:500;font-size:15px;padding:9px 18px!important;border:1px solid var(--bd)!important;background:transparent!important;color:var(--tx)!important;transition:border-color .15s,background .15s}
+body[data-role="klient"] .cl .vb:hover{border-color:var(--mu)!important}
+body[data-role="klient"] .cl .vb.on{background:var(--tx)!important;border-color:var(--tx)!important;color:var(--bg)!important}
+body[data-role="klient"] .cr>.tb2 .vb{height:48px;display:inline-flex;align-items:center;gap:9px}
+body[data-role="klient"] .cr>.tb2 .vb::before{content:"";width:16px;height:16px;border-radius:50%;border:1.5px solid currentColor;opacity:.55;flex:none}
+body[data-role="klient"] .cr>.tb2 .vb.on::before{opacity:1;background:var(--ac);border-color:var(--ac);box-shadow:inset 0 0 0 3px var(--tx)}
+body[data-role="klient"] .cr>.tb2 [data-a="clr"]{color:var(--mu)!important;font-size:14px;text-decoration:underline;text-underline-offset:3px;padding:0 4px!important;align-self:center}
+body[data-role="klient"] .cr>.tb2 [data-a="clr"]:hover{color:var(--tx)!important}
+body[data-role="klient"] .fchips{gap:8px;margin:16px 0 4px!important}
+body[data-role="klient"] .fchips-l{font-weight:500;color:var(--mu);font-size:14px;margin-right:4px}
+/* kategorie po lewej: spokojna lista z zielonym znacznikiem */
+@media(min-width:801px){
+ body[data-role="klient"] .gl::before{content:"Kategorie";display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mu);margin:2px 0 10px;font-weight:500}
+ body[data-role="klient"] .gb{padding:10px 0 10px 16px!important;border-left:2px solid var(--bd)!important;font-size:15.5px;line-height:1.3;color:var(--mu)!important;font-weight:400!important;transition:color .15s,border-color .15s}
+ body[data-role="klient"] .gb:hover{color:var(--tx)!important;border-left-color:var(--mu)!important}
+ body[data-role="klient"] .gb.on{color:var(--tx)!important;font-weight:600!important;border-left-color:var(--ac)!important}
+ body[data-role="klient"] .gb.on span{box-shadow:none!important}
+ body[data-role="klient"] .gb small{font-size:13px;color:var(--mu)!important;font-weight:400}
+}
+@media(max-width:800px){
+ body[data-role="klient"] .cl{gap:12px}
+ body[data-role="klient"] .cl :is(#q,#fs){height:44px}
+ body[data-role="klient"] .cr>.tb2 .vb{height:44px;padding:0 14px!important}
+ body[data-role="klient"] .cl .vb{font-size:14.5px;padding:8px 15px!important}
+}
+
+@media(max-width:800px){body[data-role="klient"] .fchips{flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;margin-right:-16px!important;padding-right:16px}
+body[data-role="klient"] .fchips::-webkit-scrollbar{display:none}
+body[data-role="klient"] .fchips>*{flex:none}}
+
+/* sklep: drugi wiersz – „Do czego?” po lewej, „Więcej filtrów” i „Tylko dostępne” po prawej */
+@media(min-width:801px){
+ body[data-role="klient"] .cr:has(>.fchips)>.fchips{grid-row:2;grid-column:1;margin:14px 0 0!important;align-self:start}
+ body[data-role="klient"] .cr:has(>.fchips)>.tb2:has(.moref,select){grid-row:2;grid-column:2/-1;margin:14px 0 0!important;justify-content:flex-end;align-self:start;flex-wrap:nowrap}
+ body[data-role="klient"] .cr>.tb2 .moref{position:relative}
+ body[data-role="klient"] .cr>.tb2 .moref-b{position:absolute;right:0;top:calc(100% + 8px);z-index:20;min-width:280px;padding:12px;border:1px solid var(--bd);border-radius:12px;background:var(--card);box-shadow:0 12px 30px rgba(0,0,0,.25);display:grid;gap:8px}
+ body[data-role="klient"] .cr>.tb2 .moref-b select{width:100%;height:42px;border-radius:10px}
+}
+body[data-role="klient"] .cl :is(.fchips .vb,.tb2 .vb,.moref>summary){height:44px;display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+body[data-role="klient"] .cr>.tb2 .vb{height:44px}
+body[data-role="klient"] .cr #fs,body[data-role="klient"] .cr #q{height:46px}
+body[data-role="klient"] #lst{margin-top:26px}
+body[data-role="klient"] #lst>h2.secH:first-child{margin-top:0!important}
+body[data-role="klient"] .gl{padding-top:2px}
+
+/* sklep (laptop): wiersz 1 – szukaj, sortuj, „Tylko dostępne”; wiersz 2 – „Do czego?” i „Więcej filtrów” */
+@media(min-width:801px){
+ body[data-role="klient"] .cl .cr{grid-template-columns:minmax(0,1fr) auto auto auto!important;column-gap:10px}
+ body[data-role="klient"] .cl .cr>.tb2{display:contents!important}
+ body[data-role="klient"] .cl .cr #q{grid-row:1!important;grid-column:1!important}
+ body[data-role="klient"] .cl .cr #fs{grid-row:1!important;grid-column:2!important;width:210px!important}
+ body[data-role="klient"] .cl .cr>.tb2>.vb{grid-row:1;grid-column:3}
+ body[data-role="klient"] .cl .cr>.tb2>[data-a="clr"]{grid-row:1;grid-column:4}
+ body[data-role="klient"] .cl .cr>.fchips{grid-row:2!important;grid-column:1/3!important;margin:14px 0 0!important}
+ body[data-role="klient"] .cl .cr>.tb2>:is(.moref,select){grid-row:2;grid-column:3/-1;justify-self:end;align-self:start;margin-top:14px}
+ body[data-role="klient"] .cl .cr:not(:has(>.fchips))>.tb2>:is(.moref,select){grid-column:1/-1;justify-self:start}
+ body[data-role="klient"] .cl .cr>.tb2>select{height:44px;border-radius:999px!important;padding:0 36px 0 16px}
+}
+
+@media(min-width:801px){body[data-role="klient"] .cl .cr>.fchips{gap:6px}
+body[data-role="klient"] .cl .cr>.fchips .vb{padding:0 14px!important;font-size:14.5px}
+body[data-role="klient"] .cl .cr>.fchips .fchips-l{font-size:13.5px;margin-right:2px}}
+
+@media(min-width:801px){
+ body[data-role="klient"] .cl .cr{grid-template-columns:minmax(0,1fr) auto auto auto auto!important}
+ body[data-role="klient"] .cl .cr>.tb2>:is(.moref,select){grid-row:1!important;grid-column:3!important;justify-self:stretch!important;margin-top:0!important;align-self:stretch}
+ body[data-role="klient"] .cl .cr>.tb2>.vb{grid-column:4}
+ body[data-role="klient"] .cl .cr>.tb2>[data-a="clr"]{grid-column:5}
+ body[data-role="klient"] .cl .cr>.fchips{grid-column:1/-1!important}
+ body[data-role="klient"] .cl .cr #fs{width:222px!important}
+ body[data-role="klient"] .cl .cr>.tb2>.moref>summary{height:46px}
+}
+
+@media(max-width:640px){
+ body[data-role="klient"] .cl .cr:has(.tb2 :is(.moref,select)) #fs{grid-column:1/-1!important;grid-row:2!important}
+ body[data-role="klient"] .cl .cr:has(.tb2 :is(.moref,select))>.tb2{grid-row:3!important;grid-column:1/-1!important;margin-top:8px!important;justify-content:flex-start;flex-wrap:wrap}
+ body[data-role="klient"] .cl .cr>.tb2{flex-wrap:nowrap!important;align-items:flex-start}
+ body[data-role="klient"] .cl .cr>.tb2 .moref{flex:none;display:block}
+ body[data-role="klient"] .cl .cr>.tb2:has(.moref[open]){flex-wrap:wrap!important}
+ body[data-role="klient"] .cl .cr>.tb2 .moref-b{display:grid;gap:8px;margin-top:8px;width:calc(100vw - 32px)}
+}
+
+/* „Więcej filtrów” jako okienko (laptop) i panel od dołu ekranu (telefon) */
+body[data-role="klient"] .cl .moref{position:relative}
+body[data-role="klient"] .cl .moref>summary{list-style:none;cursor:pointer}
+body[data-role="klient"] .cl .moref>summary::-webkit-details-marker{display:none}
+body[data-role="klient"] .cl .fchips .moref-b{position:absolute;left:0;top:calc(100% + 8px);z-index:20;min-width:280px;padding:12px;border:1px solid var(--bd);border-radius:12px;background:var(--card);box-shadow:0 12px 30px rgba(0,0,0,.25);display:grid;gap:8px}
+body[data-role="klient"] .cl .moref-b select{width:100%;height:42px;border-radius:10px}
+@media(min-width:801px){
+ body[data-role="klient"] .cl .cr #q{min-width:220px}
+}
+@media(max-width:800px){
+ body[data-role="klient"] .cl .moref-b,body[data-role="klient"] .cl .fchips .moref-b,body[data-role="klient"] .cl .cr>.tb2 .moref-b{position:fixed!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;width:auto!important;min-width:0!important;margin:0!important;z-index:80;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))!important;border-radius:16px 16px 0 0!important;border:1px solid var(--bd);background:var(--card);box-shadow:0 -12px 40px rgba(0,0,0,.4);display:grid;gap:10px}
+ body[data-role="klient"] .cl .moref-b::before{content:"Więcej filtrów";font-weight:600;font-size:17px;margin-bottom:4px}
+}
+
+/* telefon: próbki kolorów na kartach dość duże, żeby trafić palcem */
+@media(max-width:800px){.pc .dots{gap:6px!important}.pc .dot{width:28px!important;height:28px!important}}
+
+/* logo: większy obszar kliknięcia */
+.top a.brand{min-height:44px;padding:0 4px}
+
+/* zielony baner „Porozmawiaj z doradcą” przylega do stopki – bez pustego pasa */
+*:has(>.ep-cta:last-child){padding-bottom:0!important}
+body:has(.ep-cta) .ep-foot{margin-top:0!important}
+/* telefon: dół stopki nie chowa się pod przyciskami „do góry” i „zadzwoń” */
+@media(max-width:640px){.ep-foot{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))!important}}
 </style>
 </head>
 <body>
@@ -1039,7 +1303,9 @@ const IMGA={"41": 40, "47": 46, "49": 48, "105": 104, "119": 118, "123": 122};
 const SEL={},selOf=p=>SEL[p.id]||0,hero=p=>(p.pg&&IMGS[IMGA[p.pg]||p.pg])||"";
 const GSEL={};const imgOf=p=>{if(GSEL[p.id])return GSEL[p.id];if(p.img)return p.img;const c=(COLS[p.ck]||[])[selOf(p)];return c?c[1]:hero(p)};
 const SERIMG={"Prospect®":"img/bbr/kostka-brukowa-prospect.jpg","Prospect® Solo":"img/bbr/kostka-brukowa-prospect-solo.jpg","Promenada®":"img/bbr/kostka-brukowa-promenada.jpg","Promenada® Midi":"img/bbr/kostka-brukowa-promenada-midi.jpg","Promenada® Box":"img/bbr/kostka-brukowa-promenada-box.jpg","Visio®":"img/bbr/kostka-brukowa-visio.jpg","Novator® Solo":"img/bbr/novator-solo.jpg","Novator® Hexagon":"img/bbr/novator-hexagon.jpg","Novator® Akord":"img/bbr/plyty-brukowe-novator-akord.jpg","Novator® City":"img/bbr/novator-city.jpg","Novator® Forte":"img/bbr/novator-forte.jpg","Novator® Piano":"img/bbr/novator-piano-2.jpg","Novator® Largo":"img/bbr/novator-largo.jpg","Symfonia®":"img/bbr/kostka-brukowa-symfonia.jpg","Metrum":"img/bbr/kostka-brukowa-metrum.jpg","Modero":"img/bbr/kostka-brukowa-modero.jpg","Tercet":"img/bbr/kostka-brukowa-tercet.jpg","Vivo":"img/bbr/kostka-brukowa-vivo.jpg","Forum":"img/bbr/kostka-brukowa-forum.jpg","Tetrum®":"img/bbr/kostka-brukowa-tetrum.jpg","Tetra":"img/bbr/kostka-brukowa-tetra.jpg","Romalit®":"img/bbr/plyty-brukowe-romalit.jpg","Parkiet":"img/bbr/plyta-brukowa-parkiet.jpg","Concerto":"img/bbr/kostka-brukowa-concerto.jpg","Logo®":"img/bbr/kostka-brukowa-logo.jpg","Listello®":"img/bbr/listello.jpg","Novator® Hexagon Eco":"img/bbr/novator-hexagon-eco.jpg","Novator® Diagonal Eco":"img/bbr/novator-diagonal-eco.jpg","Novator® Linus Eco":"img/bbr/novator-linus-eco.jpg","Promenada® Eco":"img/bbr/promenada-eco.jpg","Uni-Eco":"img/bbr/uni-eco.jpg","Visio® Eco":"img/bbr/visio-eco.jpg","Novator® Piano Eco":"img/bbr/novator-piano-eco.jpg","Architect®":"img/bbr/architect.jpg","Maestro":"img/bbr/maestro.jpg","Realit®":"img/bbr/realit.jpg","Romantica®":"img/bbr/romantica.jpg","Profit®":"img/bbr/profit.jpg","Planta":"img/bbr/planta.jpg","Novator®":"img/bbr/novator.jpg","Finezja®":"img/bbr/finezja.jpg","Kwarcyt®":"img/bbr/kwarcyt.jpg","Trawertyn":"img/bbr/trawertyn.jpg","Deska Ogrodowa":"img/bbr/deska-ogrodowa.jpg","Drewno Ogrodowe Altus":"img/bbr/drewno-ogrodowe-altus.jpg","Deska Ogrodowa Stare Drewno Rustical":"img/bbr/deska-ogrodowa-stare-drewno.jpg","Deska Ogrodowa Stare Drewno Z Gwoździami":"img/bbr/deska-ogrodowa-stare-drewno.jpg","Parkiet Ogrodowy":"img/bbr/parkiet-ogrodowy.jpg","Kamień Ciosany":"img/bbr/kamien-ciosany.jpg","Trawertyn Kwartet":"img/bbr/trawertyn-kwartet.jpg","BB Geoceramica":"img/bbr/b-b-geoceramica.jpg","Keramo":"img/bbr/keramo.jpg"};
+const CPK={};let CPT=0;
 const photoOf=p=>(p&&p.brand==="Bruk-Bet"&&SERIMG[p.ser])||"",imgMain=p=>photoOf(p)||imgOf(p);
+const swIn=(p,sm)=>{const cs=COLS[p.ck]||[],c=cs[selOf(p)];return c?`<span class="sw-in${sm?' sm':''}${Date.now()-CPT<1500?' sw-new':''}"><img src="${esc(c[1])}" alt=""><b>${esc(c[0])}</b></span>`:''};
 const colOf=p=>((COLS[p.ck]||[])[selOf(p)]||[""])[0];
 function bruk(){return BRUK.map((r,i)=>({pg:+/s\. (\d+)$/.exec(r[4])[1],ck:r[5],ser:r[6],gr:r[7],fmt:r[8],grp:r[9],id:'bb'+i,name:r[0],cat:r[1],price:r[2],unit:r[3],stock:100,min:20,icon:/tarasowe/.test(r[1])?"⬜":"🧱",img:"",desc:r[4],brand:"Bruk-Bet"}))}
 /* Produkty JANAS: ceny i stany przykładowe, do podmiany na prawdziwe. */
@@ -1196,17 +1462,17 @@ const tb2=()=>{const cl=me.role==='klient',g=curG(),t=(k,l)=>`<button type="butt
  const f0=(g.fl||[])[0],o0=f0?f0.o():[],chips=f0&&o0.length>1&&o0.length<=10?`<div class="fchips" role="group" aria-label="${esc(f0.l)}"><span class="fchips-l">${esc(f0.l)}</span><button type="button" class="vb${X[f0.k]?'':' on'}" data-a="gf" data-k="${f0.k}" data-v="" aria-pressed="${!X[f0.k]}">Wszystko</button>${o0.map(([v,l])=>`<button type="button" class="vb${X[f0.k]===v?' on':''}" data-a="gf" data-k="${f0.k}" data-v="${esc(v)}" aria-pressed="${X[f0.k]===v}">${esc(l)}</button>`).join('')}</div>`:'';
  const rest=chips?(g.fl||[]).slice(1):(g.fl||[]),nAct=rest.filter(f=>X[f.k]).length;
  const fs=rest.map(f=>{const o=f.o();return o.length>1?`<select data-gf="${f.k}" aria-label="${f.l}"><option value="">${f.l}: wszystkie</option>${o.map(([v,l])=>`<option value="${esc(v)}" ${((F.x||{})[f.k]||'')===v?'selected':''}>${esc(l)}</option>`).join('')}</select>`:''}).join('');
- const more=fs?(rest.length>1?`<details class="moref"${nAct?' open':''}><summary>Więcej filtrów${nAct?` (${nAct})`:''}</summary><div class="moref-b">${fs}</div></details>`:fs):'';
- return`${chips}<div class="tb2">${more}${cl?t('av','Tylko dostępne'):t('low','Niski stan / brak')}<button type="button" class="btn sec sm" data-a="clr">Wyczyść filtry</button></div>`};
+ const more=fs?(rest.length>1?`<details class="moref"><summary>Więcej filtrów${nAct?` (${nAct})`:''}</summary><div class="moref-b">${fs}</div></details>`:fs):'';
+ const inCh=cl&&chips&&more;return`${inCh?chips.slice(0,-6)+more+'</div>':chips}<div class="tb2">${inCh?'':more}${cl?t('av','Tylko dostępne'):t('low','Niski stan / brak')}<button type="button" class="btn sec sm" data-a="clr">Wyczyść filtry</button></div>`};
 const tb=extra=>{const so=[['kat','Sortuj: domyślnie'],['name','Sortuj: nazwa A–Z'],['pa','Sortuj: cena rosnąco'],['pd','Sortuj: cena malejąco']];if(me.role!=='klient')so.push(['sa','Sortuj: stan rosnąco']);
- return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" aria-label="Szukaj w katalogu" placeholder="Szukaj: nazwa, kolor, grubość…" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
+ return`<div class="cl">${gnav()}<div class="cr"><div class="tb"><input id="q" type="search" aria-label="Szukaj w katalogu" placeholder="${me.role==='klient'?'Szukaj produktu…':'Szukaj: nazwa, kolor, grubość…'}" value="${esc(F.q)}"><select id="fs" aria-label="Sortowanie">${so.map(([v,t])=>`<option value="${v}" ${F.sort===v?'selected':''}>${t}</option>`).join('')}</select>${extra||''}</div>${tb2()}<p class="mu" id="cnt" style="margin:0 0 8px"></p><div id="lst"></div></div></div>`};
 const dots=p=>{const cs=COLS[p.ck]||[];if(!cs.length)return"";const s=selOf(p);return`<div class="dots">${cs.slice(0,6).map((c,i)=>`<img class="dot${i===s?" on":""}" role="button" tabindex="0" loading="lazy" src="${c[1]}" alt="${esc(c[0])}" title="${esc(c[0])}" data-a="pick" data-id="${p.id}" data-i="${i}">`).join("")}${cs.length>6?`<span class="mu">+${cs.length-6}</span>`:""}</div>`};
 const star=p=>can('cart.use')?`<button type="button" class="star${isFav(p)?' on':''}" data-a="fav" data-id="${p.id}" aria-label="Ulubione">${isFav(p)?'★':'☆'}</button>`:'';
 const plN=(n,a,b,c)=>n+' '+(n===1?a:n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?b:c);
 const facts=g=>{const p=g[0];if(p.gr){const gr=uniq(g.map(x=>x.gr)).sort((a,b)=>num0(a)-num0(b)),nc=(COLS[p.ck]||[]).length;return[gr.join(' / ')+' cm',nc?plN(nc,'kolor','kolory','kolorów'):'',g.length>1?plN(g.length,'wariant','warianty','wariantów'):''].filter(Boolean).join(' · ')}return g.length===1?esc(p.desc):plN(g.length,'wariant','warianty','wariantów')};
 const cardOf=g=>{const p=g[0],one=g.length===1,pr=Math.min(...g.map(x=>x.price)),st=g.some(x=>avail(x)>x.min)?['Dostępny','ok']:g.some(x=>avail(x)>0)?['Ostatnie sztuki','wa']:['Brak','er'];
- return`<div class="card pc" data-a="open" data-id="${p.id}">${star(p)}<div class="pic">${p.icon}${imgMain(p)?`<img src="${esc(imgMain(p))}" alt="" loading="lazy" onerror="this.remove()">`:''}</div><h3>${esc(one?p.name:p.ser)}</h3>${dots(p)}<p class="mu pf">${facts(g)}</p><div class="row"><b class="pr">${one?ppH(p):'od '+ppH({price:pr,unit:p.unit})}</b><span class="chip ${st[1]}">${st[0]}</span></div><button class="btn sec" data-a="open" data-id="${p.id}">Wybierz opcje</button></div>`};
-const cards=l=>{if(F.sort!=='kat')return`<div class="grid">${l.map(cardOf).join('')}</div>`;let out='',last=null;const cn={};fl2().forEach(g=>{const k=(g[0]||g).cat;cn[k]=(cn[k]||0)+1});l.forEach(g=>{const c=g[0].cat;if(c!==last){if(last!==null)out+='</div>';out+=`<h2 class="secH">${esc(c)} <span class="secN">${cn[c]||''}</span></h2><div class="grid">`;last=c}out+=cardOf(g)});return out+(last!==null?'</div>':'')};
+ return`<div class="card pc" data-a="open" data-id="${p.id}">${star(p)}<div class="pic">${p.icon}${imgMain(p)?`<img src="${esc(imgMain(p))}" alt="" loading="lazy" onerror="this.remove()">`:illPic(p)}${photoOf(p)&&CPK[p.id]?swIn(p,1):''}<h3>${esc(one?p.name:p.ser)}</h3></div>${dots(p)}<p class="mu pf">${facts(g)}</p><div class="row"><b class="pr">${one?ppH(p):'od '+ppH({price:pr,unit:p.unit})}</b><span class="chip ${st[1]}">${st[0]}</span></div><button class="btn sec" data-a="open" data-id="${p.id}">Wybierz opcje</button></div>`};
+const cards=l=>{if(F.sort!=='kat'||me.role==='klient')return`<div class="grid">${l.map(cardOf).join('')}</div>`;let out='',last=null;const cn={};fl2().forEach(g=>{const k=(g[0]||g).cat;cn[k]=(cn[k]||0)+1});l.forEach(g=>{const c=g[0].cat;if(c!==last){if(last!==null)out+='</div>';out+=`<h2 class="secH">${esc(c)} <span class="secN">${cn[c]||''}</span></h2><div class="grid">`;last=c}out+=cardOf(g)});return out+(last!==null?'</div>':'')};
 const rcls=p=>p.stock<=0?'out':p.stock<=p.min?'low':'';
 const grpBy=l=>{const m=new Map();l.forEach(p=>{const k=p.ser?p.cat+'|'+p.ser:p.id;(m.get(k)||m.set(k,[]).get(k)).push(p)});return[...m.values()]};
 const fl2=()=>view==='katalog'&&!can('product.write')?grpBy(fl()):fl();
@@ -1247,11 +1513,11 @@ const epHome=()=>`<section class="ep-hero bleed" aria-roledescription="karuzela"
 ${tilesHtml()}${rvHtml()}${stepsHtml()}<section class="ep-sec" id="dlaczego"><h2 class="ep-h ep-c">Dlaczego JANAS?</h2><div class="ep-why">
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/><path d="M12 2v3"/><circle cx="12" cy="10" r="1.2"/></svg><h3>Ogród wystawowy 24h</h3><p>Materiały zobaczysz ułożone, w świetle dziennym i wieczorem, o każdej porze.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V6"/><path d="M21 21V6"/><path d="M3 9h18"/><path d="M3 17h18"/><path d="M7 9v8M11 9v8M15 9v8M19 9v8"/></svg><h3>Montaż ogrodzeń i bram</h3><p>Zamontujemy ogrodzenie, bramę i automatykę – od doboru po serwis.</p></div>
-<div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 17V9h11v8"/><path d="M13 12h4l3 3v2h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M4 9l6-6 3 3"/><path d="M10 3v4"/></svg><h3>Transport HDS z dźwigiem</h3><p>Palety rozładujemy na miejscu budowy, tam gdzie są potrzebne.</p></div>
+<div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 17V9h11v8"/><path d="M13 12h4l3 3v2h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M4 9l6-6 3 3"/><path d="M10 3v4"/></svg><h3>Własny transport</h3><p>HDS z dźwigiem rozładuje palety tam, gdzie są potrzebne. Wywrotką (wanną) przywieziemy kruszywa luzem, a firanką większe ładunki.</p></div>
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 4h6v5h-3l-2 2V9h-1z"/></svg><h3>Doradztwo na miejscu</h3><p>W Glinnie pomożemy dobrać kostkę, ogrodzenie lub kruszywo do Twojego terenu.</p></div></div></section><section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p></div></div></section>${inspHtml()}${poradyHtml()}${partnHtml()}${OPINIE.length?opinieHtml():''}${wycenaHtml()}${faqHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a><a class="btn ep-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></div><p class="cta-l"><a href="${FIRMA.ig}" target="_blank" rel="noopener">Instagram</a><a href="${FIRMA.fb}" target="_blank" rel="noopener">Facebook</a><a href="${GOP}" target="_blank" rel="noopener">Opinie w Google</a></p></div></div></section>`;
 V.start=()=>epHome();
-V.katalog=()=>(me.role==='klient'?'<div class="shop-h"><h1 class="ep-h ep-shop" id="sklep">Sklep online</h1><p class="mu">Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Zamów online i odbierz w Glinnie albo zamów dowóz HDS.</p></div>':'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
-V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w katalogu, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do katalogu</button></div>`};
+V.katalog=()=>(me.role==='klient'?shopHead():'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
+V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w sklepie, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do sklepu</button></div>`};
 V.magazyn=()=>tb();
 const SST={open:['Otwarte','er'],ordered:['Zamówione','wa'],instock:['Jest na stanie','ok'],done:['Zamknięte','ok']},sst=s=>s.st||(s.open===false?'done':'open');
 V.braki=()=>{const act=can('product.write')||can('shortage.write'),l=db.shortages.slice().reverse().sort((a,b)=>(sst(a)==='open'?0:1)-(sst(b)==='open'?0:1));
@@ -1456,7 +1722,7 @@ const A={
  reorder(d){guard('cart.use');const o=db.corders.find(x=>x.id===d.id&&x.uid===me.id);if(!o)return;const c=db.carts[me.id]=db.carts[me.id]||[];let n=0;
   o.items.forEach(it=>{const p=it.pid&&prod(it.pid);if(!p||avail(p)<=0)return;let x=c.find(y=>y.pid===p.id&&(y.col||'')===(it.col||''));const have=cartTot(p.id),q=Math.min(it.qty,Math.round((avail(p)-have)*100)/100);if(q<=0)return;if(x)x.qty=Math.round((x.qty+q)*100)/100;else c.push({pid:p.id,qty:q,col:it.col||''});n++});
   save();toast(n?'Dodano do koszyka pozycji: '+n:'Żadna pozycja nie jest teraz dostępna',!n);if(n){view='koszyk';detail=null;render()}},
- pick(d){SEL[d.id]=+d.i;detail?renderMain():drawList()},
+ pick(d){SEL[d.id]=+d.i;CPK[d.id]=1;CPT=Date.now();detail?renderMain():drawList()},
  vsel(d){if(!can('catalog')&&!can('stock.read'))guard('catalog');const p=prod(detail);if(!p)return;let cur=db.products.filter(x=>x.ser===p.ser&&x.cat===p.cat);
   DIMS.forEach(([k])=>{const want=k===d.k?d.v:p[k],f=cur.filter(x=>x[k]===want);if(f.length)cur=f});detail=cur[0].id;renderMain()},
  open(d){if(!can('catalog')&&!can('stock.read'))guard('catalog');if(!prod(d.id))return;if(!detail)LISTY=scrollY;detail=d.id;render();window.scrollTo(0,0)},
@@ -1582,14 +1848,19 @@ const nipOK=n=>{const d=String(n).replace(/\D/g,'');if(d.length!==10)return fals
 const fvHtml=()=>`<label class="pk"><input type="checkbox" data-ch="fv" ${FV?'checked':''}><span>Potrzebuję faktury na firmę</span></label>${FV?`<div class="two"><label class="qb">Nazwa firmy<input id="fvn" maxlength="120" autocomplete="organization" value="${esc(FVN||(FVN=me.fvn||''))}"></label><label class="qb">NIP<input id="fvnip" inputmode="numeric" maxlength="13" value="${esc(FVNIP||(FVNIP=me.nip||''))}" placeholder="10 cyfr"></label></div>`:''}`;
 document.addEventListener('change',e=>{if(e.target.dataset&&e.target.dataset.ch==='fv'){FV=e.target.checked;renderMain()}});
 document.addEventListener('input',e=>{if(e.target.id==='fvn')FVN=e.target.value;if(e.target.id==='fvnip')FVNIP=e.target.value});
-function detailHtml(p){const cl=me.role==='klient';if(cl)rvAdd(p.id);const im=imgMain(p),cs=COLS[p.ck]||[],si=selOf(p),kv=(a,b)=>`<div class="kv"><span>${a}</span><b>${b}</b></div>`;
+
+/* ---------- strona produktu (klient): cena i zakup w jednym miejscu ---------- */
+const dColors=p=>{const cs=COLS[p.ck]||[],si=selOf(p);return cs.length?`<p class="d-l">Kolor: <b>${esc(cs[si][0])}</b></p><div class="chips d-cols">${cs.map((c,i)=>`<button type="button" class="cc${i===si?' on':''}" data-a="pick" data-id="${p.id}" data-i="${i}" title="${esc(c[0])}"><img src="${c[1]}" alt=""><span>${esc(c[0])}</span></button>`).join('')}</div>`:''};
+const dRight=(p,btn)=>`<div class="d-pr"><b>${pp(p)}</b>${chip(p,1)}</div>${sels(p)}${dColors(p)}${p.quote?quoteBox(p):can('cart.use')?`<div class="d-buy"><div class="qb"><label for="dq">Ilość (${esc(p.unit||'szt.')})</label><div class="qs"><button type="button" class="btn sec" data-a="dqs" data-d="-1" aria-label="Mniej">−</button><input id="dq" type="number" min="${isM(p)?0.01:1}" step="${isM(p)?'any':1}" inputmode="decimal" value="1"><button type="button" class="btn sec" data-a="dqs" data-d="1" aria-label="Więcej">+</button></div></div><div class="kv d-sum"><span>Razem</span><b id="dsum">${pln(p.price)}</b></div><div class="acts">${btn}</div><button type="button" class="btn sec" data-a="inqnew" data-id="${p.id}">Zapytaj, czy jest tyle na stanie</button></div>`:''}${placHtml(p)}<div class="d-more">${kv0('Kategoria',esc(p.cat))}${p.faza?kv0('Faza',esc(p.faza)):''}${palHtml(p)}</div>`;
+const kv0=(a,b)=>`<div class="kv"><span>${a}</span><b>${b}</b></div>`;
+function detailHtml(p){const cl=me.role==='klient';if(cl)rvAdd(p.id);const im=photoOf(p)||imgOf(p),cs=COLS[p.ck]||[],si=selOf(p),kv=(a,b)=>`<div class="kv"><span>${a}</span><b>${b}</b></div>`;
  const btn=(can('cart.use')&&!p.quote?`<button class="btn" data-a="cartAdd" data-id="${p.id}" ${avail(p)<=0?'disabled':''}>Do koszyka<span class="bq" id="bq"> · 1 ${esc(p.unit||'szt.')} · ${pln(p.price)}</span></button>`:'')
  +(can('product.write')?`<button class="btn sec" data-a="prod" data-id="${p.id}">Edytuj</button>`:'')
  +(can('stock.write')?['in','out','set'].map(m=>`<button class="btn sec" data-a="stock" data-m="${m}" data-id="${p.id}">${{in:'+ Przyjęcie',out:'− Wydanie',set:'Ustaw stan'}[m]}</button>`).join(''):'')
  +(can('shortage.write')?`<button class="btn dng" data-a="short" data-id="${p.id}">Zgłoś brak</button>`:'')
  +(can('order.create')?`<button class="btn" data-a="order" data-id="${p.id}">Zamów</button>`:'')
  
- return`<div class="crumbs-row"><button class="btn sec" data-a="back">← Wróć</button>${cl?crumbs(p):''}</div><div class="det"><div class="card"><div class="pic big">${p.icon}${im?`<img src="${esc(im)}" alt="${esc((p.ser||p.name)+(photoOf(p)?' – przykładowa aranżacja':''))}" onerror="this.remove()">`:''}</div>${photoOf(p)?'<p class="mu ph-src">Przykładowa aranżacja. Zdjęcie: Bruk-Bet</p>':''}${(p.gal||[]).length>1?`<div class="gal">${p.gal.map(u=>`<button type="button" class="gi${u===im?' on':''}" data-a="gal" data-id="${p.id}" data-u="${u}"><img src="${u}" alt="" loading="lazy"></button>`).join('')}</div>`:''}${cs.length?`<p class="mu" style="margin:10px 0 0">Kolor: <b style="color:var(--tx)">${esc(cs[si][0])}</b></p><div class="chips">${cs.map((c,i)=>`<button type="button" class="cc${i===si?' on':''}" data-a="pick" data-id="${p.id}" data-i="${i}"><img src="${c[1]}" alt=""><span>${esc(c[0])}</span></button>`).join('')}</div>`:''}</div><div class="card">${star(p)}${cl?`<button type="button" class="star shb" data-a="share" data-id="${p.id}" aria-label="Udostępnij produkt" title="Udostępnij"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg></button>`:''}<h1 style="margin-bottom:6px;padding-right:${cl?92:44}px">${esc(p.ser||p.name)}</h1><p class="mu" style="margin-top:0">${esc(p.ser?p.name:p.desc)}</p>${sels(p)}${kv('Kategoria',esc(p.cat))}${p.faza?kv('Faza',esc(p.faza)):''}${kv('Cena',pp(p))}${cl?'':kv('Stan magazynowy',p.stock+(p.unit?' '+p.unit:''))+kv('Stan minimalny',p.min)+kv('Zarezerwowane dla klientów',fmtQ(resv(p)))}${palHtml(p)}${kv('Dostępność',chip(p,cl))}${p.quote?quoteBox(p):can('cart.use')?`<div class="qb"><label for="dq">Ilość (${esc(p.unit||'szt.')})</label><div class="qs"><button type="button" class="btn sec" data-a="dqs" data-d="-1" aria-label="Mniej">−</button><input id="dq" type="number" min="${isM(p)?0.01:1}" step="${isM(p)?'any':1}" inputmode="decimal" value="1"><button type="button" class="btn sec" data-a="dqs" data-d="1" aria-label="Więcej">+</button></div></div><div class="kv"><span>Razem</span><b id="dsum">${pln(p.price)}</b></div><button type="button" class="btn sec" style="margin-top:8px;width:100%" data-a="inqnew" data-id="${p.id}">Zapytaj, czy jest tyle na stanie</button>`:''}${placHtml(p)}<div class="acts" style="justify-content:flex-start;flex-wrap:wrap;margin-top:14px">${btn}</div></div>${cs.length&&hero(p)?`<div class="card arr"><b>Przykładowa aranżacja</b><div class="pic big" style="margin-top:10px"><img src="${hero(p)}" alt=""></div></div>`:''}${relHtml(p)}${realHtml(p)}</div>${cl?simHtml(p):''}`}
+ return`<div class="crumbs-row"><button class="btn sec d-back" data-a="back">← Wróć</button>${cl?crumbs(p):''}</div><div class="det"><div class="card"><div class="pic big">${p.icon}${!im?illPic(p):''}${im?`<img src="${esc(im)}" alt="${esc((p.ser||p.name)+(photoOf(p)?' – przykładowa aranżacja':''))}" onerror="this.remove()">`:''}${photoOf(p)&&cs.length?`<span class="sw-in${Date.now()-CPT<1500?' sw-new':''}" aria-live="polite"><img src="${esc(cs[si][1])}" alt=""><b>${esc(cs[si][0])}</b></span>`:''}</div>${photoOf(p)?'<p class="mu ph-src">Zdjęcie: przykładowa aranżacja (Bruk-Bet). W rogu wybrany kolor.</p>':''}${(p.gal||[]).length>1?`<div class="gal">${p.gal.map(u=>`<button type="button" class="gi${u===im?' on':''}" data-a="gal" data-id="${p.id}" data-u="${u}"><img src="${u}" alt="" loading="lazy"></button>`).join('')}</div>`:''}${cs.length&&!cl?`<p class="mu" style="margin:10px 0 0">Kolor: <b style="color:var(--tx)">${esc(cs[si][0])}</b></p><div class="chips">${cs.map((c,i)=>`<button type="button" class="cc${i===si?' on':''}" data-a="pick" data-id="${p.id}" data-i="${i}"><img src="${c[1]}" alt=""><span>${esc(c[0])}</span></button>`).join('')}</div>`:''}</div><div class="card">${star(p)}${cl?`<button type="button" class="star shb" data-a="share" data-id="${p.id}" aria-label="Udostępnij produkt" title="Udostępnij"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg></button>`:''}<h1 style="margin-bottom:6px;padding-right:${cl?92:44}px">${esc(p.ser||p.name)}</h1><p class="mu" style="margin-top:0">${esc(p.ser?p.name:p.desc)}</p>${cl?dRight(p,btn):`${sels(p)}${kv('Kategoria',esc(p.cat))}${p.faza?kv('Faza',esc(p.faza)):''}${kv('Cena',pp(p))}${cl?'':kv('Stan magazynowy',p.stock+(p.unit?' '+p.unit:''))+kv('Stan minimalny',p.min)+kv('Zarezerwowane dla klientów',fmtQ(resv(p)))}${palHtml(p)}${kv('Dostępność',chip(p,cl))}${p.quote?quoteBox(p):can('cart.use')?`<div class="qb"><label for="dq">Ilość (${esc(p.unit||'szt.')})</label><div class="qs"><button type="button" class="btn sec" data-a="dqs" data-d="-1" aria-label="Mniej">−</button><input id="dq" type="number" min="${isM(p)?0.01:1}" step="${isM(p)?'any':1}" inputmode="decimal" value="1"><button type="button" class="btn sec" data-a="dqs" data-d="1" aria-label="Więcej">+</button></div></div><div class="kv"><span>Razem</span><b id="dsum">${pln(p.price)}</b></div><button type="button" class="btn sec" style="margin-top:8px;width:100%" data-a="inqnew" data-id="${p.id}">Zapytaj, czy jest tyle na stanie</button>`:''}${placHtml(p)}<div class="acts" style="justify-content:flex-start;flex-wrap:wrap;margin-top:14px">${btn}</div>`}</div>${cs.length&&hero(p)?`<div class="card arr"><b>Przykładowa aranżacja</b><div class="pic big" style="margin-top:10px"><img src="${hero(p)}" alt=""></div></div>`:''}${relHtml(p)}${realHtml(p)}</div>${cl?simHtml(p):''}`}
 function labelTables(){document.querySelectorAll('.tw table').forEach(t=>{const hd=[...t.querySelectorAll('th')].map(x=>x.textContent);t.querySelectorAll('tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>{td.dataset.label=hd[i]||'';if(!hd[i]||hd[i]==='Akcje')td.classList.add('ac')}))})}
 function showGrp(){const g=document.querySelector('.gb.on'),l=g&&g.parentElement;if(!l||l.scrollWidth<=l.clientWidth)return;const a=g.getBoundingClientRect(),b=l.getBoundingClientRect();l.scrollLeft+=a.left-b.left-(b.width-a.width)/2}
 document.addEventListener('click',e=>{const a=e.target.closest('[data-jump]');if(!a||!me)return;e.preventDefault();const id=a.getAttribute('href').slice(1);if(id==='sklep'){A.nav({v:'katalog'});return}if(view!=='start'||detail){detail=null;view='start';F={q:'',cat:'',sort:'kat',g:'all',x:{}};render()}const t=document.getElementById(id);if(t)t.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})});
@@ -1650,7 +1921,7 @@ const openPill=()=>{const x=openInfo();return`<p class="opn${x.o?' on':''}"><i a
 const RVK='janas-ostatnie';
 const rvGet=()=>{try{return JSON.parse(ls.get(RVK)||'[]').filter(id=>prod(id))}catch(e){return[]}};
 const rvAdd=id=>{const l=[id,...rvGet().filter(x=>x!==id)].slice(0,8);ls.set(RVK,JSON.stringify(l))};
-const rvHtml=()=>{const l=rvGet().slice(0,4).map(prod);return l.length?`<section class="ep-sec" id="ostatnie"><div class="rv-h"><h2 class="ep-h">Ostatnio oglądane</h2><button type="button" class="lnkb" data-a="rvclr">Wyczyść</button></div><div class="grid">${l.map(p=>cardOf([p])).join('')}</div></section>`:''};
+const rvHtml=()=>{const seen=new Set(),l=[];for(const id of rvGet()){const p=prod(id);if(!p)continue;const k=serKey(p);if(seen.has(k))continue;seen.add(k);l.push([p,...db.products.filter(y=>y!==p&&serKey(y)===k)]);if(l.length>=4)break}return l.length?`<section class="ep-sec" id="ostatnie"><div class="rv-h"><h2 class="ep-h">Ostatnio oglądane</h2><button type="button" class="lnkb" data-a="rvclr">Wyczyść</button></div><div class="grid">${l.map(g=>cardOf(g)).join('')}</div></section>`:''};
 A.rvclr=()=>{ls.del(RVK);render()};
 A.share=d=>{const p=prod(d.id);if(!p)return;const u=location.origin+location.pathname+'?p='+encodeURIComponent(p.id),n=p.ser||p.name,t=n+' – sklep JANAS',e=encodeURIComponent,im=imgMain(p);
  const ic=(path)=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${path}</svg>`;
@@ -1675,7 +1946,7 @@ const fabLift=()=>{const st=document.querySelector('.ep-stats'),f=document.query
 addEventListener('scroll',fabLift,{passive:true});addEventListener('resize',fabLift);
 /* ---------- elementy wzorowane na Euro Płot ---------- */
 const HSL=[
- {img:'kost2',eb:'Bezpieczeństwo i styl · od 2005 roku',h:'Kostka brukowa, kruszywa i&nbsp;ogrodzenia z&nbsp;Glinna',p:'Ogród wystawowy w Glinnie 299 jest otwarty całą dobę. Doradzimy dobór materiałów i przywieziemy je transportem HDS.',b:[['Zobacz ofertę','#oferta'],['Sklep online','#sklep']]},
+ {img:'kost2',eb:'Bezpieczeństwo i styl · od 2005 roku',h:'Kostka brukowa, kruszywa i&nbsp;ogrodzenia z&nbsp;Glinna',p:'Ogród wystawowy w Glinnie 299 jest otwarty całą dobę. Doradzimy dobór materiałów i przywieziemy je własnym transportem.',b:[['Zobacz ofertę','#oferta'],['Sklep online','#sklep']]},
  {img:'nowo1',eb:'Ogrodzenia i bramy',h:'Ogrodzenia, bramy i&nbsp;automatyka w&nbsp;jednym miejscu',p:'Ogrodzenia panelowe, nowoczesne i betonowe, bramy garażowe Hörmann, Wiśniowski i AVO oraz napędy CAME, Nice i Fadini.',b:[['Ogrodzenia','g:ogrodzenia'],['Bramy i automatyka','g:bramy']]},
  {img:'ogr1',eb:'Ogród i taras',h:'Kruszywa, beton architektoniczny i&nbsp;zadaszenia',p:'Grysy i otoczaki, donice i płyty z betonu architektonicznego, zadaszenia tarasów i systemy nawadniania.',b:[['Kruszywa i kamienie','g:kruszywa'],['Ogród i zadaszenia','g:ogrod']]}];
 let HI=0,HT=0;
@@ -1690,9 +1961,9 @@ let HX=null;document.addEventListener('touchstart',e=>{HX=e.target.closest('.ep-
 const tbarHtml=()=>{const o=openInfo();return`<div class="tbar"><div class="tbar-in"><a href="tel:+48506141028"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>506 141 028</a><a href="mailto:janas@janas.com.pl">janas@janas.com.pl</a><span class="tb-o${o.o?' on':''}"><i aria-hidden="true"></i>${o.t}</span><span class="sp"></span><a href="#o-nas" data-jump>O firmie</a><a href="#faq" data-jump>Pytania i odpowiedzi</a><a href="#wycena" data-jump>Wycena</a><a href="?v=kontakt" data-a="nav" data-v="kontakt">Punkt sprzedaży</a></div></div>`};
 const megaHtml=()=>`<div class="tn-dd"><a href="#oferta" data-jump aria-haspopup="true">Oferta <span aria-hidden="true">▾</span></a><div class="tn-m">${GROUPS.filter(g=>g.id!=='all').map(g=>`<div class="tn-c"><button type="button" class="tn-g" data-a="ptn" data-g="${g.id}">${esc(g.label)} <small>${gcount(g)}</small></button>${(g.cats||[]).length>1?(g.cats.map(c=>`<button type="button" class="tn-s" data-a="ptn" data-g="${g.id}" data-c="${esc(c)}">${esc(c)}</button>`).join('')):''}</div>`).join('')}</div></div>`;
 document.addEventListener('click',e=>{const dd=e.target.closest('.tn-m');if(dd){const w=dd.parentElement;w.classList.add('shut');if(document.activeElement)document.activeElement.blur();w.addEventListener('mouseleave',()=>w.classList.remove('shut'),{once:true})}},true);
-const STEPS=[['Wybierz','W sklepie online albo na żywo w ogrodzie wystawowym w Glinnie, otwartym całą dobę.'],['Zamów','Przez sklep, telefonicznie pod numerem 506 141 028 albo na miejscu w salonie.'],['Potwierdzimy','Sprawdzimy dostępność i ustalimy termin odbioru albo dowozu oraz jego koszt.'],['Odbierz','W Glinnie od poniedziałku do piątku 8:00–16:00 albo z dowozem HDS i rozładunkiem dźwigiem.']];
+const STEPS=[['Wybierz','W sklepie online albo na żywo w ogrodzie wystawowym w Glinnie, otwartym całą dobę.'],['Zamów','Przez sklep, telefonicznie pod numerem 506 141 028 albo na miejscu w salonie.'],['Potwierdzimy','Sprawdzimy dostępność i ustalimy termin odbioru albo dowozu oraz jego koszt.'],['Odbierz','W Glinnie od poniedziałku do piątku 8:00–16:00 albo z naszym dowozem: HDS z dźwigiem, wywrotką lub firanką.']];
 const stepsHtml=()=>`<section class="ep-sec ep-pave bleed" id="jak"><div class="ep-in"><p class="eb ep-c">Prosto i bez niespodzianek</p><h2 class="ep-h ep-c">Jak kupić w JANAS?</h2><ol class="jk">${STEPS.map(([t,d],i)=>`<li><span class="jk-n" aria-hidden="true">${i+1}</span><h3>${t}</h3><p>${d}</p></li>`).join('')}</ol></div></section>`;
-const WTEM=['Kostka brukowa i płyty','Ogrodzenia','Bramy i automatyka','Kruszywa i kamienie','Beton architektoniczny','Zadaszenia i ogród','Transport HDS','Inne'];
+const WTEM=['Kostka brukowa i płyty','Ogrodzenia','Bramy i automatyka','Kruszywa i kamienie','Beton architektoniczny','Zadaszenia i ogród','Transport (HDS, wywrotka, firanka)','Inne'];
 const wycenaHtml=()=>`<section class="ep-sec" id="wycena"><div class="wy"><div class="wy-t"><p class="eb">Bezpłatna wycena</p><h2 class="ep-h">Zapytaj o wycenę</h2><p class="mu">Opisz, czego potrzebujesz – przygotujemy ofertę i odezwiemy się w dni robocze. Wolisz porozmawiać? Zadzwoń: <a class="tl" href="tel:+48506141028">506 141 028</a>.</p><p class="mu" style="margin-bottom:6px">Co warto napisać:</p><ul class="wy-l"><li>ilość, np. m² kostki albo metry ogrodzenia,</li><li>miejscowość, jeśli potrzebny jest dowóz,</li><li>wymiary bramy lub wjazdu.</li></ul><div class="k3d"${K3D?'':' hidden'}><p style="margin-top:14px"><a class="btn" href="wycena-3d.html">Policz sam w kreatorze 3D</a></p><p class="mu" style="font-size:13px">Ogrodzenie, kostka, żwir – zobacz projekt w 3D i listę materiałów z ceną.</p></div></div>
 <form class="wy-f card" id="wyf" novalidate><div class="two"><label>Imię i nazwisko<input name="n" autocomplete="name" required maxlength="80"></label><label>Telefon<input name="t" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20"></label></div><div class="two"><label>Czego dotyczy<select name="c">${WTEM.map(x=>`<option>${x}</option>`).join('')}</select></label><label>Miejscowość<input name="m" autocomplete="address-level2" maxlength="60"></label></div><label>Opis<textarea name="o" rows="4" maxlength="1200" placeholder="np. 80 m² kostki Prospect 6 cm, kolor grafit, z dowozem"></textarea></label><label class="wy-ok"><input type="checkbox" name="z" required><span>Zgadzam się na kontakt w sprawie wyceny. Zasady przetwarzania danych opisuje <button type="button" class="lnkb" data-a="nav" data-v="prywatnosc">Polityka prywatności</button>.</span></label><button type="submit" class="btn">Wyślij zapytanie</button><p class="mu wy-n">Oddzwonimy w dni robocze. Wolisz e-mail? Napisz na <a class="lnk" href="mailto:janas@janas.com.pl">janas@janas.com.pl</a>.</p></form></div></section>`;
 document.addEventListener('submit',e=>{if(e.target.id!=='wyf')return;e.preventDefault();const f=e.target,v=k=>(f.elements[k].value||'').trim();
@@ -1706,7 +1977,7 @@ document.addEventListener('submit',e=>{if(e.target.id!=='wyf')return;e.preventDe
 const FAQ=()=>[
  ['Kiedy mogę obejrzeć kostkę i ogrodzenia na żywo?','Ogród wystawowy w Glinnie 299 jest otwarty całą dobę. Sklep i doradztwo działają od poniedziałku do piątku w godzinach 8:00–16:00. W salonie jest też ekspozycja bram i ogrodzeń oraz katalogi produktów na zamówienie.'],
  ['Jak mogę zapłacić?','Płatność odbywa się na miejscu w siedzibie firmy w Glinnie – gotówką, kartą płatniczą lub przelewem.'],
- ['Czy dowozicie materiały?','Tak. Dowozimy transportem HDS z dźwigiem, więc palety rozładujemy w miejscu, które wskażesz. Koszt dowozu ustalamy z Tobą telefonicznie po złożeniu zamówienia.'],
+ ['Czy dowozicie materiały?','Tak, mamy własny transport: samochód HDS z dźwigiem (palety rozładujemy w miejscu, które wskażesz), wywrotkę – wannę (kruszywa luzem) i firankę (większe ładunki). Koszt dowozu ustalamy z Tobą telefonicznie po złożeniu zamówienia.'],
  ['Czy wystawiacie fakturę VAT na firmę?','Tak. W koszyku zaznacz „Potrzebuję faktury na firmę” i podaj NIP. Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce.'],
  ['Czy mogę zrezygnować z zamówienia złożonego online?','Konsument może odstąpić od umowy zawartej na odległość w ciągu 14 dni. Zasady, wyjątki i formularz odstąpienia znajdziesz w Regulaminie sklepu.','regulamin'],
  ['Czy muszę zakładać konto, żeby zamówić?','Do zamówienia przez sklep tak – konto zapamięta Twoje dane i historię zamówień. Możesz też zamówić telefonicznie albo na miejscu w Glinnie, bez konta.'],
@@ -1730,14 +2001,14 @@ let RVT=0;const revealSafety=()=>{clearInterval(RVT);RVT=setInterval(()=>{const 
 const drawIcons=box=>{const sv=box.querySelector('svg');if(sv)sv.classList.add('draw')};
 let CNT=false;
 const countUp=instant=>{if(CNT)return;const st=document.querySelector('.ep-stats');if(!st)return;CNT=true;st.querySelectorAll('b[data-n]').forEach(b=>{const n=+b.dataset.n,sf=b.dataset.s||'';if(instant||RM()){b.textContent=n+sf;return}const t0=performance.now(),D=1400;const f=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);b.textContent=Math.round(n*e)+sf;if(k<1)requestAnimationFrame(f)};b.textContent='0'+sf;requestAnimationFrame(f);setTimeout(()=>{b.textContent=n+sf},D+400)})};
-const animInit=()=>{try{k3dCheck();revealInit();inspInit();}catch(e){}};
+const animInit=()=>{try{k3dCheck();revealInit();inspInit();if(document.querySelector('.ep-stats'))countUp()}catch(e){}};
 {const _ca=A.cartAdd;A.cartAdd=d=>{const tot=()=>(db.carts[me&&me.id]||[]).reduce((a,x)=>a+(+x.qty||0),0),b0=tot();_ca(d);if(tot()>b0&&!RM()){const c=document.querySelector('.top .cartb[data-a="nav"][data-v="koszyk"], .top [aria-label="Koszyk"]');if(c){c.classList.remove('bump');void c.offsetWidth;c.classList.add('bump')}}}}
 
 /* ---------- strona główna jak u Wiśniowskiego: duże kafle produktów ---------- */
 const EPTILE=[['kostka','Kostka i płyty','kost1'],['ogrodzenia','Ogrodzenia','nowo2'],['bramy','Bramy i automatyka','brama1'],['ogrod','Ogród i zadaszenia','zad3']];
-const EPMINI=[['kruszywa','Kruszywa i kamienie','krusz1'],['uslugi','Usługi i transport HDS','hds2'],['akces','Akcesoria','akc1']];
+const EPMINI=[['kruszywa','Kruszywa i kamienie','krusz1'],['uslugi','Usługi i transport','hds2'],['akces','Akcesoria','akc1']];
 const CHEV='<svg width="9" height="15" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M1 1l6.5 6.5L1 14"/></svg>';
-const KAFD={kostka:'Kostka brukowa, płyty tarasowe i ogrodowe',ogrodzenia:'Panelowe 2D i 3D, betonowe, nowoczesne',bramy:'Bramy garażowe, napędy, piloty',ogrod:'Beton architektoniczny, zadaszenia, nawadnianie',kruszywa:'Piasek, żwir, grysy, otoczaki',uslugi:'Transport HDS, miniładowarka, ogrody',akces:'Obrzeża, fugi, geowłóknina, wynajem'};
+const KAFD={kostka:'Kostka brukowa, płyty tarasowe i ogrodowe',ogrodzenia:'Panelowe 2D i 3D, betonowe, nowoczesne',bramy:'Bramy garażowe, napędy, piloty',ogrod:'Beton architektoniczny, zadaszenia, nawadnianie',kruszywa:'Piasek, żwir, grysy, otoczaki',uslugi:'HDS, wywrotka, firanka, miniładowarka',akces:'Obrzeża, fugi, geowłóknina, wynajem'};
 const kafN=g=>KAFD[g]||'Zobacz w sklepie';
 const tileB=([g,l,img],i,sm)=>`<button type="button" class="kaf${sm?' kaf-s':''}" data-a="grp" data-g="${g}" style="--i:${i}"><span class="kaf-img"><img src="img/of/${img}.jpg" alt="" loading="lazy"></span><span class="kaf-t"><span class="kaf-h">${l}</span><span class="kaf-m">${kafN(g)} ${CHEV}</span></span></button>`;
 const tilesHtml=()=>`<section class="ep-sec kaf-sec" id="oferta"><h2 class="ep-h ep-c">Nasze produkty</h2><div class="kaf-g bleed">${EPTILE.map((x,i)=>tileB(x,i)).join('')}${EPMINI.map((x,i)=>tileB(x,i+4,1)).join('')}</div><p class="ep-also ep-c">W sklepie także <button type="button" class="lnkb" data-a="grp" data-g="opal">pelet i opał</button>.</p></section>`;
@@ -1752,10 +2023,11 @@ let IGF='all';
 const igList=()=>INSP.filter(x=>IGF==='all'||x[2]===IGF);
 const igCards=()=>igList().map(([img,l,g],i)=>`<figure class="ig-c"><button type="button" class="ig-b" data-a="grp" data-g="${g}"><img src="img/of/${img}.jpg" alt="${l}" loading="lazy"><span class="ig-more">Zobacz produkty ${CHEV}</span></button><figcaption><span class="ig-i">${String(i+1).padStart(2,'0')}</span>${l}</figcaption></figure>`).join('');
 const inspHtml=()=>`<section class="ep-sec ig" id="realizacje"><div class="ig-hd"><div><p class="eb">Inspiracje</p><h2 class="ep-h">Znajdź pomysł na swój dom i ogród</h2></div><div class="ig-ctl"><span class="ig-n" aria-live="polite">01 / ${String(igList().length).padStart(2,'0')}</span><button type="button" class="ig-a" data-a="igs" data-d="-1" aria-label="Poprzednie zdjęcia">‹</button><button type="button" class="ig-a" data-a="igs" data-d="1" aria-label="Następne zdjęcia">›</button></div></div><div class="ig-f" role="group" aria-label="Filtruj inspiracje">${INSPF.map(([f,l])=>`<button type="button" data-a="igf" data-f="${f}" aria-pressed="${f===IGF}">${l}</button>`).join('')}</div><div class="ig-t" tabindex="0" aria-label="Galeria inspiracji">${igCards()}</div></section>`;
-const igStep=t=>{const c=t.querySelector('.ig-c');return c?c.getBoundingClientRect().width+16:300};
-const igCount=()=>{const t=document.querySelector('.ig-t'),n=document.querySelector('.ig-n');if(!t||!n)return;const k=igList().length,i=t.scrollLeft>=t.scrollWidth-t.clientWidth-4&&t.scrollLeft>0?k:Math.min(k,Math.round(t.scrollLeft/igStep(t))+1);n.textContent=String(i).padStart(2,'0')+' / '+String(k).padStart(2,'0')};
+const igCards2=t=>[...t.querySelectorAll('.ig-c')];
+const igIdx=t=>{const c=igCards2(t);if(!c.length)return 0;const max=t.scrollWidth-t.clientWidth;if(t.scrollLeft>=max-4&&t.scrollLeft>0)return c.length-1;const x0=c[0].offsetLeft;let best=0,bd=1e9;c.forEach((e,i)=>{const d=Math.abs(e.offsetLeft-x0-t.scrollLeft);if(d<bd){bd=d;best=i}});return best};
+const igCount=()=>{const t=document.querySelector('.ig-t'),n=document.querySelector('.ig-n');if(!t||!n)return;const k=igList().length;n.textContent=String(Math.min(k,igIdx(t)+1)).padStart(2,'0')+' / '+String(k).padStart(2,'0')};
 const inspInit=()=>{const t=document.querySelector('.ig-t');if(!t||t.dataset.on)return;t.dataset.on=1;t.addEventListener('scroll',()=>requestAnimationFrame(igCount),{passive:true})};
-A.igs=d=>{const t=document.querySelector('.ig-t');if(!t)return;const max=t.scrollWidth-t.clientWidth;const c=t.scrollLeft;let x=c+ +d.d*igStep(t);if(x>max+4)x=c<max-4?max:0;else if(x<-4)x=c>4?0:max;t.scrollTo({left:x,behavior:RM()?'auto':'smooth'});setTimeout(igCount,450)};
+A.igs=d=>{const t=document.querySelector('.ig-t');if(!t)return;const c=igCards2(t);if(!c.length)return;const max=t.scrollWidth-t.clientWidth,atEnd=t.scrollLeft>=max-4;let i=igIdx(t)+ +d.d;if(+d.d>0&&atEnd)i=0;else if(i<0)i=c.length-1;i=Math.min(i,c.length-1);const x=Math.min(max,c[i].offsetLeft-c[0].offsetLeft);t.scrollTo({left:x,behavior:RM()?'auto':'smooth'});setTimeout(igCount,500)};
 A.igf=d=>{IGF=d.f;const t=document.querySelector('.ig-t');if(!t)return;document.querySelectorAll('.ig-f button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.f===IGF));t.classList.remove('ig-sw');void t.offsetWidth;t.innerHTML=igCards();t.scrollLeft=0;t.classList.add('ig-sw');igCount()};
 
 /* ---------- porady ---------- */
@@ -1780,6 +2052,54 @@ V.wyceny=()=>{const l=(db.wyceny||[]).slice().sort((a,b)=>(b.ts||0)-(a.ts||0)),n
 A.wycst=d=>{guard('order.decide');const x=(db.wyceny||[]).find(i=>i.id===d.id);if(!x)return;x.st=d.s==='done'?'done':'new';if(x.st==='done'){x.by=me.id;x.done=today()}save();render()};
 const wycMail=v=>'mailto:janas@janas.com.pl?subject='+encodeURIComponent('Zapytanie o wycenę – '+v.c)+'&body='+encodeURIComponent(`Dzień dobry,\nproszę o wycenę: ${v.c}.\n\n${v.o||'(brak opisu)'}\n\nMiejscowość: ${v.m||'-'}\nImię i nazwisko: ${v.n}\nTelefon: ${v.t}\n\nWysłano ze strony sklepu JANAS.`);
 const wycDone=(f,v)=>{f.innerHTML=`<div class="wy-ok-msg" role="status"><b>Dziękujemy, ${esc(v.n.split(' ')[0])}!</b><p>Zapytanie dotarło do nas. Oddzwonimy na numer <b>${esc(v.t)}</b> w dni robocze, 8:00–16:00.</p><p class="mu">Pilna sprawa? Zadzwoń: <a class="lnk" href="tel:+48506141028">506 141 028</a></p></div>`;f.scrollIntoView({block:'center'})};
+
+/* ---------- produkty bez zdjęcia: rysunek materiału albo zdjęcie poglądowe z naszej oferty ---------- */
+const illRng=k=>{let h=2166136261;for(const c of k)h=Math.imul(h^c.charCodeAt(0),16777619);return()=>{h=Math.imul(h^(h>>>15),2246822507);h=Math.imul(h^(h>>>13),3266489909);return((h^=h>>>16)>>>0)/4294967296}};
+const ILLC=new Map();
+const illSvg=(k,o)=>{if(ILLC.has(k))return ILLC.get(k);const R=illRng(k),W=400,H=300,pk=a=>a[Math.floor(R()*a.length)],out=[];
+ const sh='<radialGradient id="g" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></radialGradient>';
+ if(o.t==='grain'){for(let i=0;i<2600;i++)out.push(`<circle cx="${(R()*W).toFixed(1)}" cy="${(R()*H).toFixed(1)}" r="${(o.r[0]+R()*(o.r[1]-o.r[0])).toFixed(1)}" fill="${pk(o.c)}"/>`)}
+ else if(o.t==='pave'){const [bw,bh]=o.s,gap=o.gap||2.5,jc=o.jc||'#2b2b2a';out.push(`<rect width="${W}" height="${H}" fill="${jc}"/>`);let y=-4,row=0;while(y<H){let x=o.rand?-R()*bw:(row%2?-bw/2:0);while(x<W){const w=o.rand?bw*(.6+R()*.9):bw;out.push(`<rect x="${(x+gap/2).toFixed(1)}" y="${(y+gap/2).toFixed(1)}" width="${(w-gap).toFixed(1)}" height="${(bh-gap).toFixed(1)}" rx="${o.rx||1.5}" fill="${pk(o.c)}"/>`);x+=w}y+=bh;row++}
+  out.push(`<rect width="${W}" height="${H}" fill="url(#l)"/>`)}
+ else{const [r0,r1]=o.r,st=(r0+r1)*.82;for(let y=-st/2;y<H+st;y+=st*.86)for(let x=-st/2;x<W+st;x+=st){const cx=x+(R()-.5)*st*.5,cy=y+(R()-.5)*st*.5,r=r0+R()*(r1-r0),f=pk(o.c),a=R()*180;
+  if(o.t==='peb')out.push(`<g transform="translate(${cx.toFixed(1)} ${cy.toFixed(1)}) rotate(${a.toFixed(0)})"><ellipse rx="${r.toFixed(1)}" ry="${(r*(.62+R()*.3)).toFixed(1)}" fill="${f}"/><ellipse rx="${r.toFixed(1)}" ry="${(r*.75).toFixed(1)}" fill="url(#g)"/></g>`);
+  else if(o.t==='pel')out.push(`<g transform="translate(${cx.toFixed(1)} ${cy.toFixed(1)}) rotate(${a.toFixed(0)})"><rect x="${(-r).toFixed(1)}" y="-${(r*.32).toFixed(1)}" width="${(2*r).toFixed(1)}" height="${(r*.64).toFixed(1)}" rx="${(r*.3).toFixed(1)}" fill="${f}" stroke="rgba(0,0,0,.22)"/></g>`);
+  else{const n=5+Math.floor(R()*3),pt=[];for(let i=0;i<n;i++){const t=i/n*6.283+R()*.6,rr=r*(.7+R()*.45);pt.push((cx+Math.cos(t)*rr).toFixed(1)+','+(cy+Math.sin(t)*rr).toFixed(1))}out.push(`<polygon points="${pt.join(' ')}" fill="${f}" stroke="rgba(0,0,0,.25)" stroke-width="1"/>`)}}}
+ const v='data:image/svg+xml,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice"><defs>${sh}<linearGradient id="l" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient></defs><rect width="${W}" height="${H}" fill="${o.bg||o.c[0]}"/>${out.join('')}</svg>`);ILLC.set(k,v);return v};
+const PAVC={szary:['#9b9a96','#a6a5a1','#8f8e8a','#b0afab'],grafit:['#4b4d4f','#55575a','#424446','#5e6063'],czerwony:['#8f3d2f','#9b4636','#823628','#a2513f']};
+const illOf=p=>{const n=nz(p.name),c=p.cat,ph=f=>({src:'img/of/'+f+'.jpg',pog:1}),tx=o=>({src:illSvg(p.name,o),pog:0});
+ if(/kostki/.test(nz(c))){const col=PAVC[/grafit/.test(n)?'grafit':/czerwon/.test(n)?'czerwony':'szary'],eco=/eco/.test(n);
+  return tx(/nostalit/.test(n)?{t:'pave',s:[46,34],rand:1,c:col,rx:4}:/holland/.test(n)?{t:'pave',s:[60,30],c:col,gap:eco?7:2.5,jc:eco?'#4d5a3a':0}:{t:'pave',s:[56,46],c:col,gap:eco?7:3,jc:eco?'#4d5a3a':0,rx:3})}
+ if(c==='Ogrodzenia')return ph(/siatk|slupek/.test(n)?'panel2':/system|przesl/.test(n)?'nowo2':/podmur/.test(n)?'nowo3':'panel3');
+ if(c==='Automatyka do bram')return ph(/^pilot/.test(n)?'auto2':'auto1');
+ if(/obrzeze|kraweznik/.test(n))return tx({t:'pave',s:[150,/krawez/.test(n)?40:26],c:PAVC.szary,gap:4,rx:2});
+ if(/geowloknin/.test(n))return tx({t:'grain',r:[.6,1.4],bg:'#e4e3de',c:['#d2d1cb','#f1f0ec','#c6c5bf']});
+ if(c==='Akcesoria do bruku'||c==='Chemia budowlana'||c==='Narzędzia i wynajem')return ph(c==='Chemia budowlana'?'akc2':'akc1');
+ if(/piasek/.test(n))return tx({t:'grain',r:[.8,1.8],bg:'#cdb88f',c:['#bfa67a','#dcc9a0','#b39a6e','#e6d6b2']});
+ if(/ziemia/.test(n))return tx({t:'grain',r:[1,2.6],bg:'#3d2b1f',c:['#4a3627','#2e2017','#5a4331','#231810']});
+ if(/zwir/.test(n))return tx({t:'peb',r:/8–16|8-16/.test(p.name)?[9,15]:[5,9],c:['#a59d8f','#8c8579','#c2b8a6','#77706a','#b4a48c']});
+ if(/otoczak/.test(n))return tx({t:'peb',r:[16,26],c:['#9c958a','#b8ad9b','#7d776e','#c9c0b0','#8a8170']});
+ if(/keramzyt/.test(n))return tx({t:'peb',r:[9,14],c:['#a0522d','#b5653a','#8b4726','#c27448']});
+ if(/pellet|pelet/.test(n))return tx({t:'pel',r:[13,18],c:['#c9a46a','#b98f55','#d6b47c','#bf9a60']});
+ if(/grys/.test(n))return tx({t:'ang',r:[8,13],bg:'#cfcfc9',c:['#f2f2ee','#e4e4df','#d6d6d0','#fafaf7']});
+ if(/groszek/.test(n))return tx({t:'ang',r:[9,14],bg:'#0d0d0d',c:['#1d1d1d','#2a2a2a','#333333','#151515']});
+ if(/sol /.test(n+' '))return tx({t:'ang',r:[3,6],bg:'#c9ced3',c:['#f4f4f4','#e8eaec','#ffffff','#dfe3e6']});
+ if(/lupany/.test(n))return tx({t:'ang',r:[28,40],c:['#8f8f8c','#a7a7a3','#787875','#b9b9b5']});
+ if(/tluczen/.test(n))return tx({t:'ang',r:[16,24],c:['#8a8a88','#a3a3a0','#6f6f6d','#bdbdb9']});
+ if(/kruszyw/.test(n))return tx({t:'ang',r:[6,12],c:['#8a8a88','#a3a3a0','#6f6f6d','#bdbdb9']});
+ return null};
+const illPic=p=>{const i=illOf(p);return i?`<img class="ill" src="${esc(i.src)}" alt="" loading="lazy" onerror="this.remove()">${i.pog?'<span class="ph-pog">Zdjęcie poglądowe</span>':''}`:''};
+
+/* ---------- nagłówek sklepu: zdjęcie jak na stronie głównej, zmienia się z kategorią ---------- */
+const SHIMG={all:'kost2',kostka:'kost1',ogrodzenia:'nowo2',bramy:'brama1',ogrod:'zad3',kruszywa:'krusz1',uslugi:'hds2',akces:'akc1'};
+const SHD={opal:'Pellet drzewny, groszek, sól drogowa'};
+const shopHead=()=>{const g=curG(),id=g.id||'all',n=gcount(g),im=SHIMG[id]?'img/of/'+SHIMG[id]+'.jpg':illSvg('shop-'+id,{t:'pel',r:[13,18],c:['#c9a46a','#b98f55','#d6b47c','#bf9a60']});
+ const t=id==='all'?'Sklep online':g.label,d=id==='all'?'Kostka i płyty, kruszywa, ogrodzenia, bramy i akcesoria. Odbiór w Glinnie albo nasz dowóz.':(KAFD[id]||SHD[id]||'')+(n?' · '+plN(n,'produkt','produkty','produktów'):'');
+ return`<div class="shop-h shop-b" id="sklep"><img src="${im}" alt="" class="shop-bi"><div class="shop-bt">${id!=='all'?`<button type="button" class="shop-bk" data-a="grp" data-g="all">← Cały sklep</button>`:''}<h1 class="ep-h ep-shop">${esc(t)}</h1>${d?`<p>${esc(d)}</p>`:''}</div></div>`};
+
+/* zamykanie „Więcej filtrów” kliknięciem obok albo Esc */
+document.addEventListener('click',e=>{document.querySelectorAll('details.moref[open]').forEach(d=>{if(!d.contains(e.target))d.open=false})});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('details.moref[open]').forEach(d=>{d.open=false;const s=d.querySelector('summary');s&&s.focus()})});
 const cookieBar=()=>{try{if(localStorage.getItem('janas-cookies'))return}catch(e){}if(document.querySelector('.ckbar'))return;const d=document.createElement('div');d.className='ckbar';d.setAttribute('role','region');d.setAttribute('aria-label','Informacja o plikach cookies');d.innerHTML='<p>Zapisujemy tylko to, co potrzebne do działania sklepu: logowanie, koszyk, motyw i ostatnio oglądane produkty. Bez śledzenia i reklam. <button type="button" class="lnkb" data-a="nav" data-v="cookies">Polityka cookies</button></p><button type="button" class="btn" id="ckok">Rozumiem</button>';document.body.appendChild(d);d.querySelector('#ckok').addEventListener('click',()=>{try{localStorage.setItem('janas-cookies','1')}catch(e){}d.remove()})};
 
 V.moje=()=>V.moje0()+V.mojeAcc();
