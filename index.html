@@ -946,7 +946,8 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 .pc .row{margin-top:auto!important;padding-top:10px}
 .pc .dots{margin-bottom:4px}
 /* „Wyczyść filtry” tylko, gdy jakiś filtr jest włączony */
-body[data-role="klient"] .cl:has(#q:placeholder-shown):not(:has(.vb.on:not([data-v=""]))):not(:has(.gb.on:not([data-g="all"]))):not(:has(select[data-gf] option:checked:not([value=""]))) [data-a="clr"]{display:none}
+body[data-role="klient"] .cl:has(#q:placeholder-shown):not(:has(.vb.on:not([data-v=""]))):not(:has(select[data-gf] option:checked:not([value=""]))) [data-a="clr"]{display:none}
+@media(min-width:801px){body[data-role="klient"] .cl #fs{min-width:0!important;width:210px}}
 #cnt{color:var(--mu)}
 @media(min-width:801px){
  /* kategorie po lewej nie chowają się pod górnym paskiem */
@@ -1076,6 +1077,41 @@ body[data-role="klient"] #lst>h2.secH:only-of-type{display:none}
  body[data-role="klient"] .cr>.tb2 [data-a="clr"]{display:none!important}
  body[data-role="klient"] .cr>.fchips{margin-top:10px}
 }
+
+/* ---------- sklep: lista kategorii i filtry w stylu reszty strony ---------- */
+@media(min-width:801px){body[data-role="klient"] .cl{grid-template-columns:232px minmax(0,1fr);gap:40px}}
+body[data-role="klient"] .cl :is(#q,#fs){height:48px;border-radius:12px!important;border:1px solid var(--bd)!important;background-color:var(--card)!important;font-size:15.5px}
+body[data-role="klient"] .cl #q{padding-left:42px!important;background-position:15px 50%!important}
+body[data-role="klient"] .cl #fs{padding:0 36px 0 16px}
+body[data-role="klient"] .cl :is(.vb,.moref>summary){border-radius:999px!important;font-weight:500;font-size:15px;padding:9px 18px!important;border:1px solid var(--bd)!important;background:transparent!important;color:var(--tx)!important;transition:border-color .15s,background .15s}
+body[data-role="klient"] .cl .vb:hover{border-color:var(--mu)!important}
+body[data-role="klient"] .cl .vb.on{background:var(--tx)!important;border-color:var(--tx)!important;color:var(--bg)!important}
+body[data-role="klient"] .cr>.tb2 .vb{height:48px;display:inline-flex;align-items:center;gap:9px}
+body[data-role="klient"] .cr>.tb2 .vb::before{content:"";width:16px;height:16px;border-radius:50%;border:1.5px solid currentColor;opacity:.55;flex:none}
+body[data-role="klient"] .cr>.tb2 .vb.on::before{opacity:1;background:var(--ac);border-color:var(--ac);box-shadow:inset 0 0 0 3px var(--tx)}
+body[data-role="klient"] .cr>.tb2 [data-a="clr"]{color:var(--mu)!important;font-size:14px;text-decoration:underline;text-underline-offset:3px;padding:0 4px!important;align-self:center}
+body[data-role="klient"] .cr>.tb2 [data-a="clr"]:hover{color:var(--tx)!important}
+body[data-role="klient"] .fchips{gap:8px;margin:16px 0 4px!important}
+body[data-role="klient"] .fchips-l{font-weight:500;color:var(--mu);font-size:14px;margin-right:4px}
+/* kategorie po lewej: spokojna lista z zielonym znacznikiem */
+@media(min-width:801px){
+ body[data-role="klient"] .gl::before{content:"Kategorie";display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mu);margin:2px 0 10px;font-weight:500}
+ body[data-role="klient"] .gb{padding:10px 0 10px 16px!important;border-left:2px solid var(--bd)!important;font-size:15.5px;line-height:1.3;color:var(--mu)!important;font-weight:400!important;transition:color .15s,border-color .15s}
+ body[data-role="klient"] .gb:hover{color:var(--tx)!important;border-left-color:var(--mu)!important}
+ body[data-role="klient"] .gb.on{color:var(--tx)!important;font-weight:600!important;border-left-color:var(--ac)!important}
+ body[data-role="klient"] .gb.on span{box-shadow:none!important}
+ body[data-role="klient"] .gb small{font-size:13px;color:var(--mu)!important;font-weight:400}
+}
+@media(max-width:800px){
+ body[data-role="klient"] .cl{gap:12px}
+ body[data-role="klient"] .cl :is(#q,#fs){height:44px}
+ body[data-role="klient"] .cr>.tb2 .vb{height:44px;padding:0 14px!important}
+ body[data-role="klient"] .cl .vb{font-size:14.5px;padding:8px 15px!important}
+}
+
+@media(max-width:800px){body[data-role="klient"] .fchips{flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;margin-right:-16px!important;padding-right:16px}
+body[data-role="klient"] .fchips::-webkit-scrollbar{display:none}
+body[data-role="klient"] .fchips>*{flex:none}}
 </style>
 </head>
 <body>
