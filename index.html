@@ -732,10 +732,10 @@ main section.ep-sec[id]{scroll-margin-top:calc(var(--stick,124px) - 48px + env(s
 .ig-t{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;overscroll-behavior-x:contain}
 .ig-t::-webkit-scrollbar{display:none}
 .ig-t:focus-visible{outline:3px solid var(--ac);outline-offset:4px}
-.ig-c{flex:0 0 clamp(260px,40vw,560px);margin:0;scroll-snap-align:start}
-.ig-c:first-child{flex-basis:clamp(260px,52vw,720px)}.ig-c:last-child{scroll-snap-align:end}
+.ig-c{flex:0 0 clamp(260px,38vw,520px);margin:0;scroll-snap-align:start}
+.ig-c:last-child{scroll-snap-align:end}
 .ig-b{position:relative;display:block;width:100%;aspect-ratio:4/3;padding:0;border:0;overflow:hidden;cursor:pointer;background:var(--sunk)}
-.ig-c:first-child .ig-b{aspect-ratio:auto;height:calc(clamp(260px,40vw,560px) * .75)}
+
 .ig-b img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}
 .ig-b::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55));opacity:0;transition:opacity .4s}
 .ig-more{position:absolute;left:18px;bottom:16px;z-index:1;color:#fff;font-weight:500;display:inline-flex;gap:10px;align-items:center;opacity:0;transform:translateY(8px);transition:opacity .35s,transform .35s}
@@ -1767,10 +1767,11 @@ let IGF='all';
 const igList=()=>INSP.filter(x=>IGF==='all'||x[2]===IGF);
 const igCards=()=>igList().map(([img,l,g],i)=>`<figure class="ig-c"><button type="button" class="ig-b" data-a="grp" data-g="${g}"><img src="img/of/${img}.jpg" alt="${l}" loading="lazy"><span class="ig-more">Zobacz produkty ${CHEV}</span></button><figcaption><span class="ig-i">${String(i+1).padStart(2,'0')}</span>${l}</figcaption></figure>`).join('');
 const inspHtml=()=>`<section class="ep-sec ig" id="realizacje"><div class="ig-hd"><div><p class="eb">Inspiracje</p><h2 class="ep-h">Znajdź pomysł na swój dom i ogród</h2></div><div class="ig-ctl"><span class="ig-n" aria-live="polite">01 / ${String(igList().length).padStart(2,'0')}</span><button type="button" class="ig-a" data-a="igs" data-d="-1" aria-label="Poprzednie zdjęcia">‹</button><button type="button" class="ig-a" data-a="igs" data-d="1" aria-label="Następne zdjęcia">›</button></div></div><div class="ig-f" role="group" aria-label="Filtruj inspiracje">${INSPF.map(([f,l])=>`<button type="button" data-a="igf" data-f="${f}" aria-pressed="${f===IGF}">${l}</button>`).join('')}</div><div class="ig-t" tabindex="0" aria-label="Galeria inspiracji">${igCards()}</div></section>`;
-const igStep=t=>{const c=t.querySelector('.ig-c');return c?c.getBoundingClientRect().width+16:300};
-const igCount=()=>{const t=document.querySelector('.ig-t'),n=document.querySelector('.ig-n');if(!t||!n)return;const k=igList().length,i=t.scrollLeft>=t.scrollWidth-t.clientWidth-4&&t.scrollLeft>0?k:Math.min(k,Math.round(t.scrollLeft/igStep(t))+1);n.textContent=String(i).padStart(2,'0')+' / '+String(k).padStart(2,'0')};
+const igCards2=t=>[...t.querySelectorAll('.ig-c')];
+const igIdx=t=>{const c=igCards2(t);if(!c.length)return 0;const max=t.scrollWidth-t.clientWidth;if(t.scrollLeft>=max-4&&t.scrollLeft>0)return c.length-1;const x0=c[0].offsetLeft;let best=0,bd=1e9;c.forEach((e,i)=>{const d=Math.abs(e.offsetLeft-x0-t.scrollLeft);if(d<bd){bd=d;best=i}});return best};
+const igCount=()=>{const t=document.querySelector('.ig-t'),n=document.querySelector('.ig-n');if(!t||!n)return;const k=igList().length;n.textContent=String(Math.min(k,igIdx(t)+1)).padStart(2,'0')+' / '+String(k).padStart(2,'0')};
 const inspInit=()=>{const t=document.querySelector('.ig-t');if(!t||t.dataset.on)return;t.dataset.on=1;t.addEventListener('scroll',()=>requestAnimationFrame(igCount),{passive:true})};
-A.igs=d=>{const t=document.querySelector('.ig-t');if(!t)return;const max=t.scrollWidth-t.clientWidth;const c=t.scrollLeft;let x=c+ +d.d*igStep(t);if(x>max+4)x=c<max-4?max:0;else if(x<-4)x=c>4?0:max;t.scrollTo({left:x,behavior:RM()?'auto':'smooth'});setTimeout(igCount,450)};
+A.igs=d=>{const t=document.querySelector('.ig-t');if(!t)return;const c=igCards2(t);if(!c.length)return;const max=t.scrollWidth-t.clientWidth,atEnd=t.scrollLeft>=max-4;let i=igIdx(t)+ +d.d;if(+d.d>0&&atEnd)i=0;else if(i<0)i=c.length-1;i=Math.min(i,c.length-1);const x=Math.min(max,c[i].offsetLeft-c[0].offsetLeft);t.scrollTo({left:x,behavior:RM()?'auto':'smooth'});setTimeout(igCount,500)};
 A.igf=d=>{IGF=d.f;const t=document.querySelector('.ig-t');if(!t)return;document.querySelectorAll('.ig-f button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.f===IGF));t.classList.remove('ig-sw');void t.offsetWidth;t.innerHTML=igCards();t.scrollLeft=0;t.classList.add('ig-sw');igCount()};
 
 /* ---------- porady ---------- */
