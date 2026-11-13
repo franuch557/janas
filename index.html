@@ -981,6 +981,37 @@ body[data-role="klient"] .cl:has(#q:placeholder-shown):not(:has(.vb.on:not([data
 /* produkty bez zdjęcia */
 .pic .ph-pog{position:absolute;left:8px;bottom:8px;z-index:1;font-size:11px;line-height:1;padding:4px 7px;border-radius:999px;background:rgba(0,0,0,.55);color:#fff;letter-spacing:.02em}
 .pic.big .ph-pog{font-size:12.5px;left:12px;bottom:12px}
+
+/* ---------- sklep: karty jak kafle na stronie głównej – duże zdjęcie, nazwa na zdjęciu, cena pod nim ---------- */
+#lst .grid,#ostatnie .grid,.fav-g .grid{gap:30px 18px}
+@media(min-width:1100px){#lst .grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.pc{background:none!important;border:0!important;border-radius:0!important;padding:0!important;box-shadow:none!important;overflow:visible!important;transform:none!important}
+.pc .pic{aspect-ratio:4/5!important;height:auto!important;border-radius:8px!important;overflow:hidden;background:var(--sunk)}
+.pc .pic img{transition:transform .6s ease,filter .2s!important}
+.pc:hover .pic img,.pc:focus-within .pic img{transform:scale(1.04);filter:none!important}
+.pc .pic img.ill{transform:none!important}
+.pc .pic::after{content:""!important;position:absolute;inset:auto 0 0 0!important;height:55%;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.62));opacity:1!important;z-index:1;pointer-events:none;font:inherit!important}
+.pc .pic h3{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;margin:0!important;padding:0!important;color:#fff;font-size:clamp(18px,1.5vw,23px)!important;font-weight:500;line-height:1.2;text-shadow:0 1px 8px rgba(0,0,0,.35);text-decoration:none!important}
+.pc:hover .pic h3{text-decoration:underline!important;text-decoration-thickness:1px!important;text-underline-offset:4px}
+.pc .star{top:12px!important;right:12px!important;z-index:3}
+.pc .ph-pog{top:12px;bottom:auto;left:12px}
+.pc .sw-in.sm{top:12px;bottom:auto;left:12px;width:34%}
+.pc .dots{margin:12px 0 0!important;padding:0!important}
+.pc .pf{margin:6px 0 0!important;padding:0!important;font-size:14px!important}
+.pc .row{margin-top:auto!important;padding:8px 0 0!important}
+.pc .row .pr{font-size:18px}
+.pc .dot{width:24px;height:24px;border-radius:50%}
+@media(max-width:800px){
+ #lst .grid{gap:22px 12px}
+ .pc .pic h3{left:10px;right:10px;bottom:10px;font-size:15.5px!important}
+ .pc .star{top:8px!important;right:8px!important}
+ .pc .ph-pog,.pc .sw-in.sm{top:8px;left:8px}
+ .pc .dots{margin-top:9px!important}
+ .pc .dot{width:22px;height:22px}
+ .pc .row .pr{font-size:16px}
+}
+/* strona produktu: to samo zaokrąglenie zdjęcia */
+.det .pic.big{border-radius:8px;overflow:hidden}
 </style>
 </head>
 <body>
@@ -1262,7 +1293,7 @@ const star=p=>can('cart.use')?`<button type="button" class="star${isFav(p)?' on'
 const plN=(n,a,b,c)=>n+' '+(n===1?a:n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?b:c);
 const facts=g=>{const p=g[0];if(p.gr){const gr=uniq(g.map(x=>x.gr)).sort((a,b)=>num0(a)-num0(b)),nc=(COLS[p.ck]||[]).length;return[gr.join(' / ')+' cm',nc?plN(nc,'kolor','kolory','kolorów'):'',g.length>1?plN(g.length,'wariant','warianty','wariantów'):''].filter(Boolean).join(' · ')}return g.length===1?esc(p.desc):plN(g.length,'wariant','warianty','wariantów')};
 const cardOf=g=>{const p=g[0],one=g.length===1,pr=Math.min(...g.map(x=>x.price)),st=g.some(x=>avail(x)>x.min)?['Dostępny','ok']:g.some(x=>avail(x)>0)?['Ostatnie sztuki','wa']:['Brak','er'];
- return`<div class="card pc" data-a="open" data-id="${p.id}">${star(p)}<div class="pic">${p.icon}${imgMain(p)?`<img src="${esc(imgMain(p))}" alt="" loading="lazy" onerror="this.remove()">`:illPic(p)}${photoOf(p)&&CPK[p.id]?swIn(p,1):''}</div><h3>${esc(one?p.name:p.ser)}</h3>${dots(p)}<p class="mu pf">${facts(g)}</p><div class="row"><b class="pr">${one?ppH(p):'od '+ppH({price:pr,unit:p.unit})}</b><span class="chip ${st[1]}">${st[0]}</span></div><button class="btn sec" data-a="open" data-id="${p.id}">Wybierz opcje</button></div>`};
+ return`<div class="card pc" data-a="open" data-id="${p.id}">${star(p)}<div class="pic">${p.icon}${imgMain(p)?`<img src="${esc(imgMain(p))}" alt="" loading="lazy" onerror="this.remove()">`:illPic(p)}${photoOf(p)&&CPK[p.id]?swIn(p,1):''}<h3>${esc(one?p.name:p.ser)}</h3></div>${dots(p)}<p class="mu pf">${facts(g)}</p><div class="row"><b class="pr">${one?ppH(p):'od '+ppH({price:pr,unit:p.unit})}</b><span class="chip ${st[1]}">${st[0]}</span></div><button class="btn sec" data-a="open" data-id="${p.id}">Wybierz opcje</button></div>`};
 const cards=l=>{if(F.sort!=='kat')return`<div class="grid">${l.map(cardOf).join('')}</div>`;let out='',last=null;const cn={};fl2().forEach(g=>{const k=(g[0]||g).cat;cn[k]=(cn[k]||0)+1});l.forEach(g=>{const c=g[0].cat;if(c!==last){if(last!==null)out+='</div>';out+=`<h2 class="secH">${esc(c)} <span class="secN">${cn[c]||''}</span></h2><div class="grid">`;last=c}out+=cardOf(g)});return out+(last!==null?'</div>':'')};
 const rcls=p=>p.stock<=0?'out':p.stock<=p.min?'low':'';
 const grpBy=l=>{const m=new Map();l.forEach(p=>{const k=p.ser?p.cat+'|'+p.ser:p.id;(m.get(k)||m.set(k,[]).get(k)).push(p)});return[...m.values()]};
