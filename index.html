@@ -1178,6 +1178,18 @@ body[data-role="klient"] .cl .moref-b select{width:100%;height:42px;border-radiu
  body[data-role="klient"] .cl .moref-b,body[data-role="klient"] .cl .fchips .moref-b,body[data-role="klient"] .cl .cr>.tb2 .moref-b{position:fixed!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;width:auto!important;min-width:0!important;margin:0!important;z-index:80;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))!important;border-radius:16px 16px 0 0!important;border:1px solid var(--bd);background:var(--card);box-shadow:0 -12px 40px rgba(0,0,0,.4);display:grid;gap:10px}
  body[data-role="klient"] .cl .moref-b::before{content:"Więcej filtrów";font-weight:600;font-size:17px;margin-bottom:4px}
 }
+
+/* telefon: próbki kolorów na kartach dość duże, żeby trafić palcem */
+@media(max-width:800px){.pc .dots{gap:6px!important}.pc .dot{width:28px!important;height:28px!important}}
+
+/* logo: większy obszar kliknięcia */
+.top a.brand{min-height:44px;padding:0 4px}
+
+/* zielony baner „Porozmawiaj z doradcą” przylega do stopki – bez pustego pasa */
+*:has(>.ep-cta:last-child){padding-bottom:0!important}
+body:has(.ep-cta) .ep-foot{margin-top:0!important}
+/* telefon: dół stopki nie chowa się pod przyciskami „do góry” i „zadzwoń” */
+@media(max-width:640px){.ep-foot{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))!important}}
 </style>
 </head>
 <body>
@@ -1505,7 +1517,7 @@ ${tilesHtml()}${rvHtml()}${stepsHtml()}<section class="ep-sec" id="dlaczego"><h2
 <div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 4h6v5h-3l-2 2V9h-1z"/></svg><h3>Doradztwo na miejscu</h3><p>W Glinnie pomożemy dobrać kostkę, ogrodzenie lub kruszywo do Twojego terenu.</p></div></div></section><section class="ep-sec" id="o-nas"><div class="ab-g"><figure class="ab-img"><img src="img/of/nowo1.jpg" alt="Nowoczesne ogrodzenie z bramą przesuwną" loading="lazy"></figure><div class="ab-t"><p class="eb">Poznaj firmę JANAS</p><h2 class="ep-h">Doświadczenie od 2005 roku</h2><p>Obsługujemy klientów indywidualnych i firmy – w regionie i w całej Polsce. Sprzedajemy kostkę brukową i płyty, kruszywa, ogrodzenia, bramy i automatykę, a do tego projektujemy i wykonujemy ogrody.</p><p>W naszym salonie w Glinnie 299 pracownicy doradzą i pomogą wybrać najlepsze rozwiązanie. Na miejscu jest ekspozycja bram i ogrodzeń oraz katalogi produktów na indywidualne zamówienie.</p></div></div></section>${inspHtml()}${poradyHtml()}${partnHtml()}${OPINIE.length?opinieHtml():''}${wycenaHtml()}${faqHtml()}<section class="ep-cta bleed" id="kontakt"><div class="ep-cta-in"><img src="img/of/ogr2.jpg" alt="" loading="lazy"><div class="ep-cta-t">${openPill()}<h2>Porozmawiaj z doradcą</h2><p>Pomożemy dobrać materiały i wycenimy montaż ogrodzenia lub bramy. Dzwoń od poniedziałku do piątku, 8:00–16:00.</p><div class="ep-btns"><button type="button" class="btn ep-ghost" data-a="visit">Umów wizytę</button><a class="btn ep-ghost" href="tel:+48506141028">Zadzwoń: 506 141 028</a><a class="btn ep-ghost" href="mailto:janas@janas.com.pl">Napisz e-mail</a><a class="btn ep-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Glinno+299,+64-300+Nowy+Tomy%C5%9Bl" target="_blank" rel="noopener">Wyznacz trasę</a></div><p class="cta-l"><a href="${FIRMA.ig}" target="_blank" rel="noopener">Instagram</a><a href="${FIRMA.fb}" target="_blank" rel="noopener">Facebook</a><a href="${GOP}" target="_blank" rel="noopener">Opinie w Google</a></p></div></div></section>`;
 V.start=()=>epHome();
 V.katalog=()=>(me.role==='klient'?shopHead():'')+tb(can('product.write')?'<button class="btn" data-a="prod">+ Dodaj produkt</button>':'');
-V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w katalogu, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do katalogu</button></div>`};
+V.ulubione=()=>{const l=grpBy(db.products.filter(isFav));return l.length?`<p class="mu" style="margin:-8px 0 18px">Produkty oznaczone gwiazdką. Kliknij gwiazdkę jeszcze raz, żeby usunąć produkt z tej listy.</p><div class="grid">${l.map(cardOf).join('')}</div>`:`<div class="empty"><p class="mu">Nie masz jeszcze ulubionych. Kliknij ☆ przy produkcie w sklepie, a pojawi się tutaj.</p><button class="btn" data-a="nav" data-v="katalog">Przejdź do sklepu</button></div>`};
 V.magazyn=()=>tb();
 const SST={open:['Otwarte','er'],ordered:['Zamówione','wa'],instock:['Jest na stanie','ok'],done:['Zamknięte','ok']},sst=s=>s.st||(s.open===false?'done':'open');
 V.braki=()=>{const act=can('product.write')||can('shortage.write'),l=db.shortages.slice().reverse().sort((a,b)=>(sst(a)==='open'?0:1)-(sst(b)==='open'?0:1));
@@ -1909,7 +1921,7 @@ const openPill=()=>{const x=openInfo();return`<p class="opn${x.o?' on':''}"><i a
 const RVK='janas-ostatnie';
 const rvGet=()=>{try{return JSON.parse(ls.get(RVK)||'[]').filter(id=>prod(id))}catch(e){return[]}};
 const rvAdd=id=>{const l=[id,...rvGet().filter(x=>x!==id)].slice(0,8);ls.set(RVK,JSON.stringify(l))};
-const rvHtml=()=>{const l=rvGet().slice(0,4).map(prod);return l.length?`<section class="ep-sec" id="ostatnie"><div class="rv-h"><h2 class="ep-h">Ostatnio oglądane</h2><button type="button" class="lnkb" data-a="rvclr">Wyczyść</button></div><div class="grid">${l.map(p=>cardOf([p])).join('')}</div></section>`:''};
+const rvHtml=()=>{const seen=new Set(),l=[];for(const id of rvGet()){const p=prod(id);if(!p)continue;const k=serKey(p);if(seen.has(k))continue;seen.add(k);l.push([p,...db.products.filter(y=>y!==p&&serKey(y)===k)]);if(l.length>=4)break}return l.length?`<section class="ep-sec" id="ostatnie"><div class="rv-h"><h2 class="ep-h">Ostatnio oglądane</h2><button type="button" class="lnkb" data-a="rvclr">Wyczyść</button></div><div class="grid">${l.map(g=>cardOf(g)).join('')}</div></section>`:''};
 A.rvclr=()=>{ls.del(RVK);render()};
 A.share=d=>{const p=prod(d.id);if(!p)return;const u=location.origin+location.pathname+'?p='+encodeURIComponent(p.id),n=p.ser||p.name,t=n+' – sklep JANAS',e=encodeURIComponent,im=imgMain(p);
  const ic=(path)=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${path}</svg>`;
@@ -1989,7 +2001,7 @@ let RVT=0;const revealSafety=()=>{clearInterval(RVT);RVT=setInterval(()=>{const 
 const drawIcons=box=>{const sv=box.querySelector('svg');if(sv)sv.classList.add('draw')};
 let CNT=false;
 const countUp=instant=>{if(CNT)return;const st=document.querySelector('.ep-stats');if(!st)return;CNT=true;st.querySelectorAll('b[data-n]').forEach(b=>{const n=+b.dataset.n,sf=b.dataset.s||'';if(instant||RM()){b.textContent=n+sf;return}const t0=performance.now(),D=1400;const f=t=>{const k=Math.min(1,(t-t0)/D),e=1-Math.pow(1-k,3);b.textContent=Math.round(n*e)+sf;if(k<1)requestAnimationFrame(f)};b.textContent='0'+sf;requestAnimationFrame(f);setTimeout(()=>{b.textContent=n+sf},D+400)})};
-const animInit=()=>{try{k3dCheck();revealInit();inspInit();if(document.querySelector('.ep-stats'))setTimeout(()=>countUp(),400)}catch(e){}};
+const animInit=()=>{try{k3dCheck();revealInit();inspInit();if(document.querySelector('.ep-stats'))countUp()}catch(e){}};
 {const _ca=A.cartAdd;A.cartAdd=d=>{const tot=()=>(db.carts[me&&me.id]||[]).reduce((a,x)=>a+(+x.qty||0),0),b0=tot();_ca(d);if(tot()>b0&&!RM()){const c=document.querySelector('.top .cartb[data-a="nav"][data-v="koszyk"], .top [aria-label="Koszyk"]');if(c){c.classList.remove('bump');void c.offsetWidth;c.classList.add('bump')}}}}
 
 /* ---------- strona główna jak u Wiśniowskiego: duże kafle produktów ---------- */
