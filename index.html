@@ -939,6 +939,44 @@ body[data-g="1"] .top [data-a="notifs"]{display:none}
 /* pola ilości bez strzałek przeglądarki (są przyciski − i +) */
 input[type=number]{-moz-appearance:textfield;appearance:textfield}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}
+
+/* ---------- sklep: porządek na liście produktów ---------- */
+/* opis karty w dwóch liniach zamiast uciętego „8…”, cena zawsze na dole karty */
+.pc .pf{-webkit-line-clamp:2!important;line-height:1.4}
+.pc .row{margin-top:auto!important;padding-top:10px}
+.pc .dots{margin-bottom:4px}
+/* „Wyczyść filtry” tylko, gdy jakiś filtr jest włączony */
+body[data-role="klient"] .cl:has(#q:placeholder-shown):not(:has(.vb.on:not([data-v=""]))):not(:has(.gb.on:not([data-g="all"]))):not(:has(select[data-gf] option:checked:not([value=""]))) [data-a="clr"]{display:none}
+#cnt{color:var(--mu)}
+@media(min-width:801px){
+ /* kategorie po lewej nie chowają się pod górnym paskiem */
+ body[data-role="klient"] .gl{top:148px}
+ /* wyszukiwarka, sortowanie i „Tylko dostępne” w jednym wierszu */
+ body[data-role="klient"] .cr{display:grid;grid-template-columns:minmax(0,1fr) auto auto;column-gap:10px;align-items:stretch}
+ body[data-role="klient"] .cr>*{grid-column:1/-1}
+ body[data-role="klient"] .cr>.tb{display:contents}
+ body[data-role="klient"] .cr #q{grid-column:1;grid-row:1;margin:0}
+ body[data-role="klient"] .cr #fs{grid-column:2;grid-row:1;margin:0;min-width:190px}
+ body[data-role="klient"] .cr>.tb2{grid-column:3;grid-row:1;margin:0;flex-wrap:nowrap}
+ body[data-role="klient"] .cr>.tb2 .vb{white-space:nowrap;height:100%}
+ body[data-role="klient"] .cr>.fchips{margin-top:14px}
+ /* przy dodatkowych filtrach przyciski schodzą do osobnego wiersza */
+ body[data-role="klient"] .cr:has(.tb2 .moref) #fs{grid-column:2/-1}
+ body[data-role="klient"] .cr>.tb2:has(.moref){grid-column:1/-1;grid-row:auto;margin-top:10px;flex-wrap:wrap}
+ body[data-role="klient"] .cr #cnt{margin:14px 0 0!important}
+ body[data-role="klient"] .cr h2.secH:first-child{margin-top:10px}
+ .shop-h{margin-bottom:26px}
+ .shop-h p{max-width:62ch}
+}
+/* telefon i tablet: kategorie jako zaokrąglone przyciski */
+@media(max-width:800px){
+ .gl{gap:8px!important;margin-right:-16px;padding-right:16px;scrollbar-width:none}
+ .gl::-webkit-scrollbar{display:none}
+ .gb{padding:8px 14px!important;border:1px solid var(--bd)!important;border-radius:999px!important;font-size:14.5px;color:var(--tx)!important}
+ .gb.on{background:var(--tx)!important;border-color:var(--tx)!important;color:var(--bg)!important}
+ .gb.on small{color:var(--bg)!important;opacity:.7}
+ .gb.on span{box-shadow:none!important}
+}
 </style>
 </head>
 <body>
