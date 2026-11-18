@@ -1,0 +1,715 @@
+{
+  "version": 1,
+  "note": "Dane arkuszy CKE formuły 2023. Pola null oznaczają brak danych w sprawdzonych źródłach. Uzupełnianie: npm run import-cke -- <katalog z PDF>.",
+  "exams": [
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-P0-100-2305",
+      "family": "matematyka",
+      "level": "podstawowy",
+      "year": 2023,
+      "maxPoints": 46,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2023/Matematyka/poziom_podstawowy/MMAP-P0-100-2305.pdf"
+        ],
+        "zasady": []
+      },
+      "sources": [
+        "Komunikat CKE z 19.08.2022 (zmiany w latach 2023 i 2024): PP 180 min, 46 pkt (fragment w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-P0-100-2405",
+      "family": "matematyka",
+      "level": "podstawowy",
+      "year": 2024,
+      "maxPoints": 46,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2024/Matematyka/poziom_podstawowy/MMAP-P0-100-A-2405-arkusz.pdf"
+        ],
+        "zasady": []
+      },
+      "sources": [
+        "Komunikat CKE z 19.08.2022 (zmiany w latach 2023 i 2024): PP 180 min, 46 pkt (fragment w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-P0-100-2505",
+      "family": "matematyka",
+      "level": "podstawowy",
+      "year": 2025,
+      "maxPoints": 50,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2025/Matematyka/poziom_podstawowy/MMAP-P0-100-A-2505-arkusz.pdf"
+        ],
+        "zasady": []
+      },
+      "sources": [
+        "Informator CKE matematyka (PP/PR) od 2023: 180 min; PR 50 pkt; PP 50 pkt od 2025 (fragment w wyszukiwarce)",
+        "Arkusz 2025 (fragment): 50 pkt, 180 min"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-P0-100-2605",
+      "family": "matematyka",
+      "level": "podstawowy",
+      "year": 2026,
+      "maxPoints": 50,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Matematyka/poziom_podstawowy/MMAP-P0-100-A-2605-arkusz.pdf"
+        ],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Matematyka/poziom_podstawowy/MMAP-P0-100-2605-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE matematyka (PP/PR) od 2023: 180 min; PR 50 pkt; PP 50 pkt od 2025 (fragment w wyszukiwarce) — liczby punktów w arkuszu 2026 nie sprawdzono"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-R0-100-2305",
+      "family": "matematyka",
+      "level": "rozszerzony",
+      "year": 2023,
+      "maxPoints": 50,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2023/Matematyka/poziom_rozszerzony/MMAP-R0-100-2305.pdf"
+        ],
+        "zasady": []
+      },
+      "sources": [
+        "Informator CKE matematyka (PP/PR) od 2023: 180 min; PR 50 pkt; PP 50 pkt od 2025 (fragment w wyszukiwarce)",
+        "Arkusz 2023 (fragment): 50 pkt, 180 min"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-R0-100-2405",
+      "family": "matematyka",
+      "level": "rozszerzony",
+      "year": 2024,
+      "maxPoints": 50,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2024/Matematyka/poziom_rozszerzony/MMAP-R0-100-A-2405-arkusz.pdf"
+        ],
+        "zasady": []
+      },
+      "sources": [
+        "Informator CKE matematyka (PP/PR) od 2023: 180 min; PR 50 pkt; PP 50 pkt od 2025 (fragment w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "częściowy",
+      "tasks": [
+        {
+          "nr": "1",
+          "maxPoints": null,
+          "type": null,
+          "topics": [
+            "potegi"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "2",
+          "maxPoints": null,
+          "type": null,
+          "topics": [
+            "potegi"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "3",
+          "maxPoints": null,
+          "type": null,
+          "topics": [
+            "planimetria",
+            "dowody"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "4",
+          "maxPoints": 3,
+          "type": null,
+          "topics": [
+            "kombinatoryka",
+            "prawdopodobienstwo"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "5",
+          "maxPoints": 4,
+          "type": null,
+          "topics": [
+            "wartosc-bezwzgledna",
+            "rownania"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "6",
+          "maxPoints": 4,
+          "type": null,
+          "topics": [
+            "ciagi"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "7",
+          "maxPoints": null,
+          "type": null,
+          "topics": [
+            "planimetria",
+            "dowody"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "8",
+          "maxPoints": 5,
+          "type": null,
+          "topics": [
+            "geometria-analityczna"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "9",
+          "maxPoints": 5,
+          "type": null,
+          "topics": [
+            "trygonometria"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "10",
+          "maxPoints": 5,
+          "type": null,
+          "topics": [
+            "stereometria"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "11",
+          "maxPoints": 6,
+          "type": null,
+          "topics": [
+            "kwadratowa-parametr"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        },
+        {
+          "nr": "12",
+          "maxPoints": 6,
+          "type": null,
+          "topics": [
+            "pochodne"
+          ],
+          "summary": null,
+          "proof": null,
+          "cases": null,
+          "page": null,
+          "source": "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF"
+        }
+      ],
+      "groups": [
+        {
+          "tasks": [
+            "1",
+            "2"
+          ],
+          "points": 5,
+          "topics": [
+            "potegi"
+          ],
+          "note": "Potęgi i funkcja wykładnicza: 5 pkt łącznie za zad. 1 i 2; podział między zadania nieznany."
+        },
+        {
+          "tasks": [
+            "3",
+            "7"
+          ],
+          "points": 7,
+          "topics": [
+            "planimetria",
+            "dowody"
+          ],
+          "note": "Planimetria i dowody: 7 pkt łącznie za zad. 3 i 7; podział nieznany."
+        }
+      ],
+      "id": "MMAP-R0-100-2505",
+      "family": "matematyka",
+      "level": "rozszerzony",
+      "year": 2025,
+      "maxPoints": 50,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [],
+        "zasady": []
+      },
+      "sources": [
+        "założenia projektu (rozkład punktów podany przez użytkownika); nie porównano z PDF",
+        "Informator CKE matematyka (PP/PR) od 2023: 180 min; PR 50 pkt; PP 50 pkt od 2025 (fragment w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MMAP-R0-100-2605",
+      "family": "matematyka",
+      "level": "rozszerzony",
+      "year": 2026,
+      "maxPoints": 50,
+      "minutes": 180,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Matematyka/poziom_rozszerzony/MMAP-R0-100-A-2605-arkusz.pdf"
+        ],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Matematyka/poziom_rozszerzony/MMAP-R0-100-2605-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE matematyka (PP/PR) od 2023: 180 min; PR 50 pkt; PP 50 pkt od 2025 (fragment w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [
+        {
+          "tasks": [],
+          "points": 25,
+          "topics": [
+            "pol-rozumienie",
+            "pol-jezyk",
+            "pol-historycznoliteracki"
+          ],
+          "note": "Arkusz 1 (części 1 i 2): 25 pkt; podział 10 + 15 widoczny w arkuszu pokazowym 2022."
+        },
+        {
+          "tasks": [],
+          "points": 35,
+          "topics": [
+            "pol-wyp-kompetencje",
+            "pol-wyp-kompozycja",
+            "pol-wyp-jezyk"
+          ],
+          "note": "Arkusz 2 (wypracowanie): 35 pkt według informatora."
+        }
+      ],
+      "id": "MPOP-P1-P2-2305",
+      "family": "polski",
+      "level": "podstawowy",
+      "year": 2023,
+      "maxPoints": 60,
+      "minutes": 240,
+      "urls": {
+        "arkusz": [],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2023/Jezyk_polski/poziom_podstawowy/MPOP-P2-100-2305-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [
+        {
+          "tasks": [],
+          "points": 25,
+          "topics": [
+            "pol-rozumienie",
+            "pol-jezyk",
+            "pol-historycznoliteracki"
+          ],
+          "note": "Arkusz 1 (części 1 i 2): 25 pkt; podział 10 + 15 widoczny w arkuszu pokazowym 2022."
+        },
+        {
+          "tasks": [],
+          "points": 35,
+          "topics": [
+            "pol-wyp-kompetencje",
+            "pol-wyp-kompozycja",
+            "pol-wyp-jezyk"
+          ],
+          "note": "Arkusz 2 (wypracowanie): 35 pkt według informatora."
+        }
+      ],
+      "id": "MPOP-P1-P2-2405",
+      "family": "polski",
+      "level": "podstawowy",
+      "year": 2024,
+      "maxPoints": 60,
+      "minutes": 240,
+      "urls": {
+        "arkusz": [],
+        "zasady": []
+      },
+      "sources": [
+        "Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [
+        {
+          "tasks": [],
+          "points": 25,
+          "topics": [
+            "pol-rozumienie",
+            "pol-jezyk",
+            "pol-historycznoliteracki"
+          ],
+          "note": "Arkusz 1 (części 1 i 2): 25 pkt; podział 10 + 15 widoczny w arkuszu pokazowym 2022."
+        },
+        {
+          "tasks": [],
+          "points": 35,
+          "topics": [
+            "pol-wyp-kompetencje",
+            "pol-wyp-kompozycja",
+            "pol-wyp-jezyk"
+          ],
+          "note": "Arkusz 2 (wypracowanie): 35 pkt według informatora."
+        }
+      ],
+      "id": "MPOP-P1-P2-2505",
+      "family": "polski",
+      "level": "podstawowy",
+      "year": 2025,
+      "maxPoints": 60,
+      "minutes": 240,
+      "urls": {
+        "arkusz": [],
+        "zasady": []
+      },
+      "sources": [
+        "Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [
+        {
+          "tasks": [],
+          "points": 25,
+          "topics": [
+            "pol-rozumienie",
+            "pol-jezyk",
+            "pol-historycznoliteracki"
+          ],
+          "note": "Arkusz 1 (części 1 i 2): 25 pkt; podział 10 + 15 widoczny w arkuszu pokazowym 2022."
+        },
+        {
+          "tasks": [],
+          "points": 35,
+          "topics": [
+            "pol-wyp-kompetencje",
+            "pol-wyp-kompozycja",
+            "pol-wyp-jezyk"
+          ],
+          "note": "Arkusz 2 (wypracowanie): 35 pkt według informatora."
+        }
+      ],
+      "id": "MPOP-P1-P2-2605",
+      "family": "polski",
+      "level": "podstawowy",
+      "year": 2026,
+      "maxPoints": 60,
+      "minutes": 240,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Jezyk_polski/poziom_podstawowy/MPOP-P1-100-A-2605-arkusz.pdf",
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Jezyk_polski/poziom_podstawowy/MPOP-P2-100-A-2605-arkusz.pdf"
+        ],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Jezyk_polski/poziom_podstawowy/MPOP-P1-100-2605-zasady.pdf",
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Jezyk_polski/poziom_podstawowy/MPOP-P2-100-2605-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MJAP-P0-100-2305",
+      "family": "angielski",
+      "level": "podstawowy",
+      "year": 2023,
+      "maxPoints": null,
+      "minutes": null,
+      "urls": {
+        "arkusz": [],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2023/Jezyk_angielski/poziom_podstawowy/MJAP-P0-100-2305-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE j. angielski od 2023: części pisemne (fragment w wyszukiwarce); czas i suma punktów niezweryfikowane"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MJAP-P0-100-2405",
+      "family": "angielski",
+      "level": "podstawowy",
+      "year": 2024,
+      "maxPoints": null,
+      "minutes": null,
+      "urls": {
+        "arkusz": [],
+        "zasady": []
+      },
+      "sources": [
+        "Informator CKE j. angielski od 2023: części pisemne (fragment w wyszukiwarce); czas i suma punktów niezweryfikowane"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "częściowy",
+      "tasks": [
+        {
+          "nr": "2",
+          "maxPoints": 6,
+          "type": null,
+          "topics": [],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        },
+        {
+          "nr": "3",
+          "maxPoints": 4,
+          "type": null,
+          "topics": [],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        },
+        {
+          "nr": "4",
+          "maxPoints": 4,
+          "type": null,
+          "topics": [],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        },
+        {
+          "nr": "5",
+          "maxPoints": 7,
+          "type": null,
+          "topics": [],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        },
+        {
+          "nr": "6",
+          "maxPoints": 5,
+          "type": null,
+          "topics": [],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        },
+        {
+          "nr": "11",
+          "maxPoints": 3,
+          "type": null,
+          "topics": [],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        },
+        {
+          "nr": "12",
+          "maxPoints": 12,
+          "type": "otwarte",
+          "topics": [
+            "ang-pisanie"
+          ],
+          "summary": null,
+          "proof": false,
+          "cases": false,
+          "page": null,
+          "source": "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+        }
+      ],
+      "groups": [],
+      "id": "MJAP-P0-100-2505",
+      "family": "angielski",
+      "level": "podstawowy",
+      "year": 2025,
+      "maxPoints": null,
+      "minutes": null,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/EGZAMIN_MATURALNY/2025/Jezyk_angielski/poziom_podstawowy/MJAP-P0-100-A-2505-arkusz.pdf"
+        ],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2025/zasady_oceniania/MJAP-P0-100-200-660-2505_MJAU-P0-100-2505-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE j. angielski od 2023: części pisemne (fragment w wyszukiwarce); czas i suma punktów niezweryfikowane",
+        "Nagłówki zadań w karcie MJAP-P0-100-A-2505 (fragment w wyszukiwarce)"
+      ]
+    },
+    {
+      "session": "maj",
+      "formula": "2023",
+      "status": "tylko metadane",
+      "tasks": [],
+      "groups": [],
+      "id": "MJAP-P0-100-2605",
+      "family": "angielski",
+      "level": "podstawowy",
+      "year": 2026,
+      "maxPoints": null,
+      "minutes": null,
+      "urls": {
+        "arkusz": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Jezyk_angielski/poziom_podstawowy/MJAP-P0-100-A-2605-arkusz.pdf"
+        ],
+        "zasady": [
+          "https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Arkusze_egzaminacyjne/2026/Jezyk_angielski/poziom_podstawowy/MJAP-P0-100-200-660-2605-zasady.pdf"
+        ]
+      },
+      "sources": [
+        "Informator CKE j. angielski od 2023: części pisemne (fragment w wyszukiwarce); czas i suma punktów niezweryfikowane"
+      ]
+    }
+  ]
+}
