@@ -73,7 +73,7 @@ function Shell() {
             </li>
           </ul>
         </nav>
-        <main id="tresc" className="tresc" tabIndex={-1}>
+        <main id="tresc" className={`tresc${route.view === 'plan' ? ' szeroka' : ''}`} tabIndex={-1}>
           {error && (
             <div className="ramka-bledu" role="alert">
               Błąd: {error} <button type="button" className="maly" onClick={() => setError(null)}>Zamknij</button>

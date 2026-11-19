@@ -77,7 +77,7 @@ for (const f of files.sort()) {
       const old = e.tasks.find((x) => x.nr === task.nr);
       if (old && old.source.startsWith('ręcznie')) continue; // ręcznych poprawek nie nadpisuję
       if (old) Object.assign(old, task); else e.tasks.push(task);
-      crops.push({ examId: e.id, nr: task.nr, file: join(dir, f), height: pages[_crop.page - 1].height, width: pages[_crop.page - 1].width, ..._crop });
+      crops.push({ kind: 'zad', examId: e.id, nr: task.nr, file: join(dir, f), height: pages[_crop.page - 1].height, width: pages[_crop.page - 1].width, ..._crop });
     }
     if (parsed.length) {
       // grupy z łączną punktacją zastępuje dokładna punktacja z arkusza;
@@ -92,6 +92,7 @@ for (const f of files.sort()) {
     // zasady oceniania: tylko porównanie punktacji
     const parsed = tasksFromPages(info, pages);
     for (const t of parsed) {
+      crops.push({ kind: 'odp', examId: e.id, nr: t.nr, file: join(dir, f), height: pages[t._crop.page - 1].height, width: pages[t._crop.page - 1].width, ...t._crop });
       const ex = e.tasks.find((x) => x.nr === t.nr);
       if (ex && ex.maxPoints != null && t.maxPoints != null && ex.maxPoints !== t.maxPoints) {
         e.sources.push(`Rozbieżność: zad. ${t.nr} w arkuszu ${ex.maxPoints} pkt, w zasadach ${t.maxPoints} pkt`);
@@ -109,21 +110,20 @@ if (skipped.length) console.log('Pominięto:\n  ' + skipped.join('\n  '));
 
 if (withImages && crops.length) {
   const out = new URL('../cke-obrazy/', import.meta.url).pathname;
-  mkdirSync(out, { recursive: true });
-  const DPI = 110;
+  const DPI = 96;
   const k = DPI / 72;
   const { zipSync } = await import('fflate');
   const zip = {};
   for (const c of crops) {
     const top = Math.max(0, c.y - 14);
     const bottom = c.nextPage === c.page && c.nextY ? c.nextY - 6 : c.height - 40;
-    const d = join(out, c.examId);
+    const d = join(out, c.kind, c.examId);
     mkdirSync(d, { recursive: true });
     const base = join(d, c.nr);
     try {
-      execFileSync('pdftoppm', ['-png', '-singlefile', '-r', String(DPI), '-f', String(c.page), '-l', String(c.page),
+      execFileSync('pdftoppm', ['-jpeg', '-jpegopt', 'quality=62', '-gray', '-singlefile', '-r', String(DPI), '-f', String(c.page), '-l', String(c.page),
         '-x', '0', '-y', String(Math.round(top * k)), '-W', String(Math.round(c.width * k)), '-H', String(Math.max(40, Math.round((bottom - top) * k))), c.file, base]);
-      zip[`${c.examId}/${c.nr}.png`] = new Uint8Array(readFileSync(`${base}.png`));
+      zip[`${c.kind === 'odp' ? 'odp/' : ''}${c.examId}/${c.nr}.jpg`] = new Uint8Array(readFileSync(`${base}.jpg`));
     } catch {
       console.error('Błąd: nie udało się uruchomić pdftoppm. Zainstaluj poppler (np. brew install poppler) albo pomiń --obrazy.');
       break;
@@ -131,5 +131,6 @@ if (withImages && crops.length) {
   }
   const zipPath = new URL('../cke-obrazy.zip', import.meta.url).pathname;
   writeFileSync(zipPath, zipSync(zip));
-  console.log(`Obrazy zadań: ${Object.keys(zip).length} w ${zipPath}. Zadania wielostronicowe mają obraz tylko pierwszej strony.`);
+  console.log(`Obrazy: ${Object.keys(zip).length} (zadania i odpowiedzi) w ${zipPath}. Zadania wielostronicowe mają obraz tylko pierwszej strony.`);
+  console.log('Wbudowanie obrazów w plik jednoplikowy: npm run embed-images && npm run build:jeden-plik');
 }

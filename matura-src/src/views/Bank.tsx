@@ -6,6 +6,7 @@ import { BOOK_TITLE, topicsForPage } from '../data/book';
 import { blankTask, extractZadaniaInfoLinks, newId, parseZadaniaInfoUrl, ZADANIA_INFO_ATTRIBUTION } from '../store/bank';
 import { putImage, deleteImage } from '../store/images';
 import { removeTask, upsertTask } from '../store/actions';
+import { AnswerToggle } from './Today';
 import type { BankTask, TaskSource, TaskStatus, TaskType } from '../types';
 
 const STATUSES: TaskStatus[] = ['nowe', 'w trakcie', 'zrobione', 'do powtórki'];
@@ -167,6 +168,7 @@ function TaskRow({ task, onChange, onDelete }: { task: BankTask; onChange: (t: B
           <TaskImage imageKey={task.imageKey} alt={`Treść zadania ${task.ref}`} />
           {task.text && <p><MathText text={task.text} /></p>}
           {task.attribution && <small>{task.attribution}</small>}
+          <AnswerToggle imageKey={task.answerImageKey} text={task.answerText} />
           <div className="rzad">
             <Field label="Status">
               <select value={task.status} onChange={(e) => onChange({ ...task, status: e.target.value as TaskStatus })}>
@@ -223,6 +225,10 @@ function AddTask({ subjectId, topicId, family, onDone }: { subjectId: string; to
   const [note, setNote] = useState('');
   const [image, setImage] = useState<Blob | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [answer, setAnswer] = useState<Blob | null>(null);
+  const [answerPreview, setAnswerPreview] = useState<string | null>(null);
+  const [answerText, setAnswerText] = useState('');
+  const [pasteTarget, setPasteTarget] = useState<'zadanie' | 'odpowiedź'>('zadanie');
   const [err, setErr] = useState<string | null>(null);
   const sub = state.settings.subjects.find((s) => s.id === subjectId)!;
   const topics = topicsFor(sub.family, sub.level);
@@ -233,11 +239,17 @@ function AddTask({ subjectId, topicId, family, onDone }: { subjectId: string; to
     if (preview) URL.revokeObjectURL(preview);
     setPreview(URL.createObjectURL(b));
   };
+  const takeAnswer = (b: Blob) => {
+    setAnswer(b);
+    if (answerPreview) URL.revokeObjectURL(answerPreview);
+    setAnswerPreview(URL.createObjectURL(b));
+  };
   const onPaste = (e: ClipboardEvent) => {
     const file = [...e.clipboardData.items].find((i) => i.type.startsWith('image/'))?.getAsFile();
     if (file) {
       e.preventDefault();
-      takeImage(file);
+      if (pasteTarget === 'odpowiedź') takeAnswer(file);
+      else takeImage(file);
     }
   };
 
@@ -271,6 +283,16 @@ function AddTask({ subjectId, topicId, family, onDone }: { subjectId: string; to
     t.maxPoints = maxPoints ? Number(maxPoints) : null;
     t.text = text.trim() || null;
     if (note) t.note = t.note ? `${t.note}\n${note}` : note;
+    t.answerText = answerText.trim() || null;
+    if (answer) {
+      const key = `img/${newId('o')}`;
+      try {
+        await putImage(key, answer);
+        t.answerImageKey = key;
+      } catch {
+        setErr('Nie udało się zapisać obrazu odpowiedzi w przeglądarce.');
+      }
+    }
     if (image) {
       const key = `img/${newId('i')}`;
       try {
@@ -353,10 +375,22 @@ function AddTask({ subjectId, topicId, family, onDone }: { subjectId: string; to
           <input type="number" min={0} value={maxPoints} onChange={(e) => setMaxPoints(e.target.value)} />
         </Field>
       </div>
-      <Field label="Zrzut ekranu zadania: wklej go tutaj (Ctrl+V) albo wybierz plik">
+      <div className="rzad">
+        <span>Ctrl+V wkleja zrzut jako:</span>
+        <label><input type="radio" name="wklej" checked={pasteTarget === 'zadanie'} onChange={() => setPasteTarget('zadanie')} /> treść zadania</label>
+        <label><input type="radio" name="wklej" checked={pasteTarget === 'odpowiedź'} onChange={() => setPasteTarget('odpowiedź')} /> odpowiedź</label>
+      </div>
+      <Field label="Zrzut zadania (albo wybierz plik)">
         <input type="file" accept="image/*" onChange={(e) => { const f = e.target.files?.[0]; if (f) takeImage(f); }} />
       </Field>
-      {preview && <img src={preview} alt="Podgląd zrzutu ekranu" className="obraz-zadania" />}
+      {preview && <img src={preview} alt="Podgląd zadania" className="obraz-zadania" />}
+      <Field label="Zrzut odpowiedzi (albo wybierz plik)">
+        <input type="file" accept="image/*" onChange={(e) => { const f = e.target.files?.[0]; if (f) takeAnswer(f); }} />
+      </Field>
+      {answerPreview && <img src={answerPreview} alt="Podgląd odpowiedzi" className="obraz-zadania" />}
+      <Field label="Odpowiedź tekstem (opcjonalnie)">
+        <input value={answerText} onChange={(e) => setAnswerText(e.target.value)} style={{ width: '100%' }} />
+      </Field>
       <Field label="Treść zadania (opcjonalnie; wzory w $…$)">
         <textarea value={text} onChange={(e) => setText(e.target.value)} />
       </Field>

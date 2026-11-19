@@ -33,7 +33,8 @@ export default function Week() {
         {days.map((d) => {
           const p = byDate.get(d);
           const log = state.dayLog[d];
-          const items = p?.items ?? log?.items ?? [];
+          const items = (p?.items ?? log?.items ?? []).filter((i) => i.kind !== 'brak-zadań');
+          const missing = (p?.items ?? []).filter((i) => i.kind === 'brak-zadań').length;
           const avail = p?.available ?? availableMinutes(d, state.settings).minutes;
           const used = p?.used ?? items.filter((i) => i.kind !== 'korepetycje' && i.kind !== 'zajęcia' && i.kind !== 'brak-zadań').reduce((a, b) => a + b.minutes, 0);
           return (
@@ -44,7 +45,7 @@ export default function Week() {
               <small className="liczby">
                 {used}/{avail} min
               </small>
-              {d < today && !log && <p className="olowek">Brak zapisu.</p>}
+              {d < today && !log && <p className="olowek">–</p>}
               <ul>
                 {items.map((it) => {
                   const done = log?.done[it.key];
@@ -57,7 +58,8 @@ export default function Week() {
                   );
                 })}
               </ul>
-              {p && p.shifted.length > 0 && <small>Przesunięte: {p.shifted.length}</small>}
+              {missing > 0 && <small>Puste tematy: {missing}. </small>}
+              {p && p.shifted.length > 0 && <small>Nie zmieściło się: {p.shifted.length}</small>}
             </div>
           );
         })}

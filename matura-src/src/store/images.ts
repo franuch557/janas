@@ -62,9 +62,10 @@ export async function importImageZip(file: File): Promise<number> {
   const data = unzipSync(new Uint8Array(await file.arrayBuffer()));
   let n = 0;
   for (const [name, bytes] of Object.entries(data)) {
-    const m = /^(?:.*\/)?([A-Z0-9-]+)\/([\d.]+)\.png$/i.exec(name);
+    const m = /^(?:.*\/)?(odp\/)?([A-Z0-9-]+)\/([A-Z0-9.]+)\.(png|jpg|webp)$/i.exec(name);
     if (!m) continue;
-    await putImage(`cke/${m[1]}/${m[2]}`, new Blob([bytes], { type: 'image/png' }));
+    const type = m[4] === 'jpg' ? 'image/jpeg' : `image/${m[4]}`;
+    await putImage(`${m[1] ? 'cke-odp' : 'cke'}/${m[2]}/${m[3]}`, new Blob([bytes], { type }));
     n++;
   }
   return n;

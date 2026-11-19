@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import katex from 'katex';
 import { getImage } from '../store/images';
+import { EMBEDDED_IMAGES } from '@obrazy';
 
 /** Tekst z wzorami w $…$ (KaTeX, lokalnie). */
 export function MathText({ text }: { text: string | null | undefined }) {
@@ -26,6 +27,10 @@ export function TaskImage({ imageKey, alt }: { imageKey: string | null; alt: str
     let revoke: string | null = null;
     let alive = true;
     if (!imageKey) return;
+    if (EMBEDDED_IMAGES[imageKey]) {
+      setUrl(EMBEDDED_IMAGES[imageKey]);
+      return;
+    }
     getImage(imageKey)
       .then((b) => {
         if (b && alive) {

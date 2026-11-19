@@ -31,6 +31,7 @@ export function saveState(s: AppState): string | null {
 /** Uzupełnia brakujące pola po zmianach w aplikacji. */
 export function migrate(input: Partial<AppState>): AppState {
   const base = emptyState();
+  const oldSchema = input.schema ?? 1;
   const s: AppState = { ...base, ...input, schema: SCHEMA } as AppState;
   const def = defaultSettings();
   s.settings = { ...def, ...(input.settings ?? {}) };
@@ -42,6 +43,8 @@ export function migrate(input: Partial<AppState>): AppState {
     if (!Array.isArray(s[k])) (s as unknown as Record<string, unknown>)[k] = [];
   }
   if (!s.dayLog || typeof s.dayLog !== 'object') s.dayLog = {};
+  // wersja 2: nowy wygląd jest jasny; poprzedni domyślny motyw ciemny zamieniam na jasny
+  if (oldSchema < 2 && s.settings.theme === 'ciemny') s.settings.theme = 'jasny';
   return s;
 }
 

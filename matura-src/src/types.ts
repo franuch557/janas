@@ -100,6 +100,9 @@ export interface BankTask {
   note: string;
   /** Klucz obrazu w IndexedDB (zrzut ekranu albo wycinek arkusza). */
   imageKey: string | null;
+  /** Obraz odpowiedzi (wycinek zasad oceniania albo zrzut wklejony przez użytkownika). */
+  answerImageKey?: string | null;
+  answerText?: string | null;
   text: string | null; // treść wklejona przez użytkownika
   attribution: string | null;
   examId: string | null;

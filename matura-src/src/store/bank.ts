@@ -24,6 +24,8 @@ export function blankTask(subjectId: string, source: TaskSource, topicId: string
     reviewStep: 0,
     note: '',
     imageKey: null,
+    answerImageKey: null,
+    answerText: null,
     text: null,
     attribution: null,
     examId: null,
@@ -100,6 +102,7 @@ export function syncCkeTasks(bank: BankTask[], exams: Exam[], subjects: SubjectC
       task.examId = e.id;
       task.minutes = pace && t.maxPoints ? Math.max(2, Math.round(pace * t.maxPoints)) : defaultMinutes;
       task.imageKey = `cke/${e.id}/${t.nr}`;
+      task.answerImageKey = `cke-odp/${e.id}/${t.nr}`;
       added.push(task);
     }
   }

@@ -5,7 +5,7 @@ import { topicName } from '../data/taxonomy';
 import { examLabel, filterExams } from '../logic/exams';
 import { recordMock } from '../store/actions';
 import { newId } from '../store/bank';
-import { ERROR_TYPES } from './Today';
+import { AnswerToggle, ERROR_TYPES } from './Today';
 import type { BankTask, ErrorType, Exam, MockResult, SubjectConfig } from '../types';
 
 interface Slot {
@@ -15,6 +15,7 @@ interface Slot {
   topicId: string | null;
   bankId: string | null;
   imageKey: string | null;
+  answerKey: string | null;
   url: string | null;
   page: number | null;
 }
@@ -40,7 +41,7 @@ export default function Mock({ params }: { params: Record<string, string> }) {
     if (!exam || !minutes) return;
     const slots: Slot[] = exam.tasks.map((t) => {
       const bt = state.bank.find((b) => b.id === `cke:${exam.id}:${t.nr}`);
-      return { key: t.nr, label: `Zadanie ${t.nr}`, max: t.maxPoints, topicId: t.topics[0] ?? null, bankId: bt?.id ?? null, imageKey: bt?.imageKey ?? null, url: exam.urls.arkusz[0] ?? null, page: t.page };
+      return { key: t.nr, label: `Zadanie ${t.nr}`, max: t.maxPoints, topicId: t.topics[0] ?? null, bankId: bt?.id ?? null, imageKey: bt?.imageKey ?? null, answerKey: bt?.answerImageKey ?? `cke-odp/${exam.id}/${t.nr}`, url: exam.urls.arkusz[0] ?? null, page: t.page };
     });
     setRunning({ slots, exam, minutes, startedAt: Date.now() });
   };
@@ -53,7 +54,7 @@ export default function Mock({ params }: { params: Record<string, string> }) {
     while (picked.length < bankCount && [...byTopic.values()].some((v) => v.length)) {
       for (const v of byTopic.values()) if (v.length && picked.length < bankCount) picked.push(v.shift()!);
     }
-    const slots: Slot[] = picked.map((t) => ({ key: t.id, label: `${topicName(t.topicId)} · ${t.source} ${t.ref}`, max: t.maxPoints, topicId: t.topicId, bankId: t.id, imageKey: t.imageKey, url: t.url, page: t.page }));
+    const slots: Slot[] = picked.map((t) => ({ key: t.id, label: `${topicName(t.topicId)} · ${t.source} ${t.ref}`, max: t.maxPoints, topicId: t.topicId, bankId: t.id, imageKey: t.imageKey, answerKey: t.answerImageKey ?? null, url: t.url, page: t.page }));
     setRunning({ slots, exam: null, minutes, startedAt: Date.now() });
   };
   const chosen = current.find((e) => e.id === examId);
@@ -253,6 +254,7 @@ function Running({ sub, run, onEnd }: { sub: SubjectConfig; run: { slots: Slot[]
             {sl.page && <small> · strona {sl.page}</small>}
             {!run.exam && sl.url && <> · <a href={sl.url} target="_blank" rel="noreferrer noopener">źródło</a></>}
             <TaskImage imageKey={sl.imageKey} alt={sl.label} />
+            {finished && <AnswerToggle imageKey={sl.answerKey} text={null} url={run.exam?.urls.zasady[0] ?? null} />}
             {finished && (
               <div className="rzad">
                 <Field label={sl.max != null ? `Punkty (0–${sl.max})` : 'Punkty'}>

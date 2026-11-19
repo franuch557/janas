@@ -133,7 +133,7 @@ export function defaultSettings(): Settings {
     weightMode: 'bazowo',
     manualWeights: {},
     lessonNotesEnabled: false,
-    theme: 'ciemny',
+    theme: 'jasny',
     defaultTaskMinutes: 15,
     diagnosisOnePerDay: true,
     introHidden: false,
@@ -147,7 +147,7 @@ export function defaultSettings(): Settings {
   };
 }
 
-export const SCHEMA = 1;
+export const SCHEMA = 2;
 
 export function emptyState(): AppState {
   return {

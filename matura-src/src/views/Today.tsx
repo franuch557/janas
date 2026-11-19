@@ -30,7 +30,7 @@ export default function Today({ go }: { go: (view: string, params?: Record<strin
     <section aria-labelledby="dzis-h">
       <Header title={fmtLong(today)}>
         {next.length
-          ? next.map((s) => `${s.name}: ${diffDays(s.examDate, today)} dni`).join(' · ')
+          ? `Do pierwszego egzaminu (${next[0].name.toLowerCase()}) zostało ${diffDays(next[0].examDate, today)} dni.`
           : 'Wszystkie egzaminy z planu są za Tobą.'}
       </Header>
 
@@ -103,7 +103,7 @@ function DayView({ day, go }: { day: DayPlan; go: (view: string, params?: Record
   return (
     <>
       <p className="liczby">
-        <strong>{day.used} z {day.available} min</strong> zaplanowane{left > 0 ? `, ${left} min wolne` : ''} · <span className="olowek">{phaseText}</span>
+        Dziś {day.used} z {day.available} min{left > 0 ? `, ${left} min wolne` : ''}. <span className="olowek">{phaseText}.</span>
       </p>
       {day.notes.map((n) => (
         <p key={n}>{n}</p>
@@ -181,19 +181,44 @@ function Intro({ go }: { go: (view: string, params?: Record<string, string>) => 
   );
 }
 
+/** Odpowiedź do zadania: wycinek zasad oceniania, zrzut albo tekst. Ukryta do kliknięcia. */
+export function AnswerToggle({ imageKey, text, url }: { imageKey: string | null | undefined; text: string | null | undefined; url?: string | null }) {
+  const [show, setShow] = useState(false);
+  return (
+    <div>
+      <button type="button" className="maly" aria-expanded={show} onClick={() => setShow(!show)}>
+        {show ? 'Ukryj odpowiedź' : 'Pokaż odpowiedź'}
+      </button>
+      {show && (
+        <div>
+          <TaskImage imageKey={imageKey ?? null} alt="Odpowiedź i zasady oceniania" />
+          {text && <p><MathText text={text} /></p>}
+          {!text && (
+            <small>
+              Jeśli nie widać obrazu odpowiedzi, otwórz zasady oceniania{url ? <> (<a href={url} target="_blank" rel="noreferrer noopener">PDF</a>)</> : ''} albo dodaj odpowiedź w widoku „Zadania z tematu”.
+            </small>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ItemRow({ day, item, go }: { day: DayPlan; item: PlanItem; go: (view: string, params?: Record<string, string>) => void }) {
-  const { state, update } = useApp();
+  const { state, update, exams } = useApp();
   const done = state.dayLog[day.date]?.done[item.key];
   const task = item.taskId ? state.bank.find((t) => t.id === item.taskId) : undefined;
+  const [expanded, setExpanded] = useState(false);
   const [open, setOpen] = useState(false);
   const [minutes, setMinutes] = useState<number | null>(null);
   const [score, setScore] = useState('');
   const [note, setNote] = useState('');
   const [errType, setErrType] = useState<ErrorType | ''>('');
   const [err, setErr] = useState<string | null>(null);
+  const [lesson, setLesson] = useState('');
   const isTask = item.kind === 'zadanie' || item.kind === 'powtórka';
   const toDo = isTask && !done;
-  const [lesson, setLesson] = useState('');
+  const zasady = task?.examId ? exams.find((e) => e.id === task.examId)?.urls.zasady[0] ?? null : null;
 
   const save = () => {
     let result: number | null = null;
@@ -217,21 +242,23 @@ function ItemRow({ day, item, go }: { day: DayPlan; item: PlanItem; go: (view: s
         result = v;
       }
     } else if (isTask) {
-      setErr('Wpisz wynik, żeby zaplanować powtórkę. Gdy nie chcesz oceniać, zostaw zadanie niezaznaczone.');
+      setErr('Wpisz wynik, żeby zaplanować powtórkę.');
       return;
     }
     setErr(null);
     update((s) => recordItem(s, day, item, { result, minutes, note, errorType: errType || null }));
     setOpen(false);
+    setExpanded(false);
   };
 
   const action = () => {
     if (item.kind === 'diagnoza') go('diagnoza', { przedmiot: item.subjectId ?? '' });
     else if (item.kind === 'arkusz') go('arkusze', { przedmiot: item.subjectId ?? '', arkusz: item.examId ?? '' });
-    else if (item.kind === 'brak-zadań') go('zadania', { przedmiot: item.subjectId ?? '', temat: item.topicId ?? '' });
     else if (item.kind === 'podsumowanie') go('postep');
     else if (item.kind === 'przegląd') go('bledy', { przedmiot: item.subjectId ?? '' });
   };
+  const actionLabel =
+    item.kind === 'diagnoza' ? 'Zacznij diagnozę' : item.kind === 'arkusz' ? 'Otwórz arkusz' : item.kind === 'podsumowanie' ? 'Otwórz podsumowanie' : 'Otwórz dziennik błędów';
 
   const saveLesson = () => {
     if (!lesson.trim() || !item.subjectId) return;
@@ -244,76 +271,88 @@ function ItemRow({ day, item, go }: { day: DayPlan; item: PlanItem; go: (view: s
     setLesson('');
   };
 
+  const title = isTask ? `${subjectName(state, item.subjectId)}, ${topicName(item.topicId).toLowerCase()}` : item.label;
+
   return (
     <div className={`zadanie-dnia${done ? ' zrobione' : ''}`}>
       {isTask ? (
         <input
           type="checkbox"
-          aria-label={`Oznacz jako zrobione: ${item.label}`}
+          aria-label={`Zrobione: ${item.label}`}
           checked={!!done}
-          onChange={() => (done ? update((s) => undoItem(s, day.date, item.key)) : setOpen(true))}
+          onChange={() => {
+            if (done) update((s) => undoItem(s, day.date, item.key));
+            else {
+              setExpanded(true);
+              setOpen(true);
+            }
+          }}
         />
       ) : (
         <span aria-hidden="true" />
       )}
       <div>
-        <div className="tytul">
-          {isTask ? `${subjectName(state, item.subjectId)} · ${topicName(item.topicId)}` : item.label}
-        </div>
-        {isTask && <div>{item.label}</div>}
-        <small>{item.reason}</small>
+        {isTask ? (
+          <button type="button" className="tytul" style={{ textDecoration: 'none', textAlign: 'left', padding: 0 }} aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>
+            {title}
+          </button>
+        ) : (
+          <div className="tytul">{title}</div>
+        )}
+        <div className="olowek">{isTask ? item.label : item.reason}</div>
       </div>
       <div className="czas">
-        {item.minutes > 0 ? `${item.minutes} min ` : ''}
-        {toDo && <span className="zakreslacz">{item.kind === 'powtórka' ? 'do powtórki' : 'do zrobienia'}</span>}
-        {done && done.result != null && <span>{Math.round(done.result)}%</span>}
-      </div>
-      <div className="szczegoly">
-        {task && (
+        {item.minutes > 0 ? `${item.minutes} min` : ''}
+        {toDo && (
           <div>
-            {task.url && (
-              <a href={task.url} target="_blank" rel="noreferrer noopener">
-                Otwórz źródło{task.page ? ` (strona ${task.page})` : ''}
-              </a>
-            )}
-            {task.source === 'książka' && <span> Książka, strona {task.page ?? '?'}{task.ref ? `, zadanie ${task.ref}` : ''}.</span>}
-            {task.maxPoints != null && <small> · maks. {task.maxPoints} pkt</small>}
-            <TaskImage imageKey={task.imageKey} alt={`Treść zadania: ${item.label}`} />
-            {task.text && (
-              <p>
-                <MathText text={task.text} />
-              </p>
-            )}
-            {task.attribution && <small>{task.attribution}</small>}
+            <span className="zakreslacz">{item.kind === 'powtórka' ? 'do powtórki' : 'do zrobienia'}</span>
           </div>
         )}
+        {done && done.result != null && <div>{Math.round(done.result)}%</div>}
+      </div>
+      <div className="szczegoly">
         {!isTask && item.kind !== 'korepetycje' && item.kind !== 'zajęcia' && (
-          <button type="button" className="maly" onClick={action}>
-            {item.kind === 'diagnoza' ? 'Przejdź do diagnozy' : item.kind === 'arkusz' ? 'Przejdź do arkusza' : item.kind === 'brak-zadań' ? 'Dodaj zadania' : item.kind === 'podsumowanie' ? 'Otwórz podsumowanie' : 'Otwórz dziennik błędów'}
-          </button>
+          <button type="button" className="maly" onClick={action}>{actionLabel}</button>
         )}
         {item.kind === 'korepetycje' && state.settings.lessonNotesEnabled && (
           <div className="rzad">
             <label className="pole" style={{ flex: '1 1 18rem' }}>
-              <span>Temat lekcji (trafi do banku zadań i zmniejszy angielski w tej części tygodnia)</span>
+              <span>Temat lekcji</span>
               <input value={lesson} onChange={(e) => setLesson(e.target.value)} />
             </label>
             <button type="button" onClick={saveLesson}>Zapisz temat</button>
           </div>
         )}
-        {isTask && !done && (
-          <div className="rzad" style={{ marginTop: '0.4rem' }}>
-            <Stopwatch label={item.label} onStop={(m) => { setMinutes(m); setOpen(true); }} />
-            {minutes != null && <small>zmierzono {minutes} min</small>}
-            {!open && <button type="button" className="maly" onClick={() => setOpen(true)}>Wpisz wynik</button>}
+        {isTask && expanded && task && (
+          <div style={{ marginTop: '0.5rem' }}>
+            <TaskImage imageKey={task.imageKey} alt={`Treść zadania: ${item.label}`} />
+            {task.text && <p><MathText text={task.text} /></p>}
+            {task.attribution && <small>{task.attribution}</small>}
+            {task.source === 'książka' && <p>Książka, strona {task.page ?? '?'}{task.ref ? `, zadanie ${task.ref}` : ''}.</p>}
+            <div className="rzad">
+              {task.url && (
+                <a href={task.url} target="_blank" rel="noreferrer noopener">
+                  {task.source === 'CKE' ? `Arkusz PDF${task.page ? `, strona ${task.page}` : ''}` : 'Otwórz źródło'}
+                </a>
+              )}
+              {task.maxPoints != null && <small>{task.maxPoints} pkt</small>}
+            </div>
+            <AnswerToggle imageKey={task.answerImageKey} text={task.answerText} url={zasady} />
+            {!done && (
+              <div className="rzad" style={{ marginTop: '0.4rem' }}>
+                <Stopwatch label={item.label} onStop={(m) => { setMinutes(m); setOpen(true); }} />
+                {minutes != null && <small>{minutes} min</small>}
+                {!open && <button type="button" className="maly" onClick={() => setOpen(true)}>Wpisz wynik</button>}
+              </div>
+            )}
           </div>
         )}
         {open && !done && (
-          <div className="ramka" style={{ marginTop: '0.5rem' }}>
-            {err && <p className="ramka-bledu" role="alert">Błąd: {err}</p>}
+          <div style={{ marginTop: '0.75rem' }}>
+            {err && <p className="ramka-bledu" role="alert">{err}</p>}
             <div className="rzad">
               <label className="pole">
-                <span>{task?.maxPoints ? `Wynik (pkt, maks. ${task.maxPoints})` : 'Wynik (0–100%)'}</span>
+                <span>{task?.maxPoints ? `Punkty (z ${task.maxPoints})` : 'Wynik w %'}</span>
                 <input inputMode="decimal" value={score} onChange={(e) => setScore(e.target.value)} autoFocus />
               </label>
               <label className="pole">
@@ -321,7 +360,7 @@ function ItemRow({ day, item, go }: { day: DayPlan; item: PlanItem; go: (view: s
                 <input type="number" min={0} value={minutes ?? ''} onChange={(e) => setMinutes(e.target.value === '' ? null : Number(e.target.value))} />
               </label>
               <label className="pole">
-                <span>Typ błędu</span>
+                <span>Błąd</span>
                 <select value={errType} onChange={(e) => setErrType(e.target.value as ErrorType | '')}>
                   <option value="">bez błędu</option>
                   {ERROR_TYPES.map((t) => (
@@ -330,10 +369,12 @@ function ItemRow({ day, item, go }: { day: DayPlan; item: PlanItem; go: (view: s
                 </select>
               </label>
             </div>
-            <label className="pole">
-              <span>Notatka o błędzie</span>
-              <textarea value={note} onChange={(e) => setNote(e.target.value)} />
-            </label>
+            {errType && (
+              <label className="pole">
+                <span>Co poszło nie tak</span>
+                <textarea value={note} onChange={(e) => setNote(e.target.value)} />
+              </label>
+            )}
             <div className="rzad">
               <button type="button" className="glowny" onClick={save}>Zapisz wynik</button>
               <button type="button" onClick={() => setOpen(false)}>Anuluj</button>
