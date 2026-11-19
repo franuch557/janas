@@ -43,6 +43,7 @@ body {
   background-color: var(--kartka);
   color: var(--atrament);
   font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }

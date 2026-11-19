@@ -1,6 +1,6 @@
 import { useMemo, useState, type ClipboardEvent } from 'react';
 import { useApp } from '../store/context';
-import { Field, Header, MathText, TaskImage } from '../components/common';
+import { ConfirmButton, Field, Header, MathText, TaskImage } from '../components/common';
 import { topicName, topicsFor } from '../data/taxonomy';
 import { BOOK_TITLE, topicsForPage } from '../data/book';
 import { blankTask, extractZadaniaInfoLinks, newId, parseZadaniaInfoUrl, ZADANIA_INFO_ATTRIBUTION } from '../store/bank';
@@ -200,9 +200,7 @@ function TaskRow({ task, onChange, onDelete }: { task: BankTask; onChange: (t: B
             <p className="olowek">Historia: {task.history.map((h) => `${h.date} ${h.result}%`).join(', ')}</p>
           )}
           {task.source !== 'CKE' && (
-            <button type="button" onClick={() => { if (confirm('Usunąć to zadanie z banku? Historia wyników zniknie.')) onDelete(); }}>
-              Usuń zadanie
-            </button>
+            <ConfirmButton label="Usuń zadanie" question="Usunąć zadanie? Historia wyników zniknie." yes="Usuń" onConfirm={onDelete} />
           )}
         </div>
       )}

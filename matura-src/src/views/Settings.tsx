@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useApp } from '../store/context';
-import { Field, Header, downloadBlob } from '../components/common';
+import { ConfirmButton, Field, Header, downloadBlob } from '../components/common';
 import { dayName } from '../logic/dates';
 import { exportAll, importAll } from '../store/persist';
 import { importImageZip } from '../store/images';
@@ -20,6 +20,7 @@ export default function Settings() {
   const setEv = (id: string, patch: Partial<FixedEvent>) => set({ events: s.events.map((e) => (e.id === id ? { ...e, ...patch } : e)) });
   const [withImages, setWithImages] = useState(true);
   const [demoResults, setDemoResults] = useState(false);
+  const [pending, setPending] = useState<Awaited<ReturnType<typeof importAll>> | null>(null);
 
   return (
     <section>
@@ -177,10 +178,7 @@ export default function Settings() {
               const f = e.target.files?.[0];
               if (!f) return;
               try {
-                const r = await importAll(await f.text());
-                if (!confirm('Import zastąpi wszystkie obecne dane w tej przeglądarce. Kontynuować?')) return;
-                update(() => r.state);
-                setNotice(`Zaimportowano dane i ${r.images} obrazów.`);
+                setPending(await importAll(await f.text()));
               } catch (err) {
                 setError((err as Error).message);
               }
@@ -208,6 +206,15 @@ export default function Settings() {
           />
         </label>
       </div>
+      {pending && (
+        <div className="ramka" role="region" aria-label="Potwierdzenie importu">
+          <p>Plik jest poprawny: {pending.state.bank.length} zadań, {pending.state.mocks.length} arkuszy, {pending.images} obrazów. Import zastąpi wszystkie obecne dane w tej przeglądarce.</p>
+          <div className="rzad">
+            <button type="button" className="glowny" onClick={() => { update(() => pending.state); setNotice(`Zaimportowano dane i ${pending.images} obrazów.`); setPending(null); }}>Zastąp dane</button>
+            <button type="button" onClick={() => setPending(null)}>Anuluj</button>
+          </div>
+        </div>
+      )}
       <h3>Przykładowe dane</h3>
       <p>Odwołania do stron z zadaniami w książce (ze spisu treści). Opcjonalnie przykładowe wyniki do obejrzenia wykresów; są oznaczone i nie są Twoje.</p>
       <div className="rzad">
@@ -216,14 +223,7 @@ export default function Settings() {
         <button type="button" onClick={() => update(withoutDemo)}>Usuń przykładowe dane</button>
       </div>
       <h3>Reset</h3>
-      <button
-        type="button"
-        onClick={() => {
-          if (confirm('Usunąć wszystkie dane i wrócić do ustawień początkowych? Najpierw zrób eksport, jeśli chcesz je zachować.')) update(() => emptyState());
-        }}
-      >
-        Usuń wszystkie dane
-      </button>
+      <ConfirmButton label="Usuń wszystkie dane" question="Usunąć wszystkie dane? Najpierw zrób eksport, jeśli chcesz je zachować." yes="Usuń wszystko" onConfirm={() => update(() => emptyState())} />
     </section>
   );
 }

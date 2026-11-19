@@ -118,6 +118,24 @@ export function Stopwatch({ onStop, label }: { onStop: (minutes: number) => void
   );
 }
 
+/** Przycisk z potwierdzeniem w miejscu (bez okna przeglądarki). */
+export function ConfirmButton({ label, question, yes, onConfirm, className }: { label: string; question: string; yes: string; onConfirm: () => void; className?: string }) {
+  const [ask, setAsk] = useState(false);
+  if (!ask)
+    return (
+      <button type="button" className={className} onClick={() => setAsk(true)}>
+        {label}
+      </button>
+    );
+  return (
+    <span className="rzad" role="group" aria-label={question}>
+      <span>{question}</span>
+      <button type="button" className="glowny" onClick={() => { setAsk(false); onConfirm(); }}>{yes}</button>
+      <button type="button" onClick={() => setAsk(false)}>Anuluj</button>
+    </span>
+  );
+}
+
 /** Odliczanie (arkusz próbny, diagnoza). */
 export function Countdown({ minutes, startedAt, onEnd }: { minutes: number; startedAt: number; onEnd: () => void }) {
   const [now, setNow] = useState(Date.now());

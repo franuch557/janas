@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "import-cke": "node scripts/import-cke.mjs",
-    "validate": "node scripts/validate-exams.mjs"
+    "validate": "node scripts/validate-exams.mjs",
+    "build:jeden-plik": "tsc --noEmit && vite build --mode jeden-plik && node scripts/single-file.mjs"
   },
   "dependencies": {
     "@fontsource/source-sans-3": "^5.1.0",

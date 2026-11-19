@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useApp } from '../store/context';
-import { Countdown, Field, Header, TaskImage } from '../components/common';
+import { ConfirmButton, Countdown, Field, Header, TaskImage } from '../components/common';
 import { topicName } from '../data/taxonomy';
 import { examLabel, filterExams } from '../logic/exams';
 import { recordMock } from '../store/actions';
@@ -236,7 +236,7 @@ function Running({ sub, run, onEnd }: { sub: SubjectConfig; run: { slots: Slot[]
       {!finished ? (
         <div className="rzad" style={{ justifyContent: 'space-between', marginBottom: '1rem' }}>
           <Countdown minutes={run.minutes} startedAt={run.startedAt} onEnd={finish} />
-          <button type="button" onClick={() => { if (confirm('Zakończyć arkusz przed czasem?')) finish(); }}>Zakończ arkusz</button>
+          <ConfirmButton label="Zakończ arkusz" question="Zakończyć arkusz przed czasem?" yes="Zakończ" onConfirm={finish} />
         </div>
       ) : (
         run.exam?.urls.zasady[0] && <p><a href={run.exam.urls.zasady[0]} target="_blank" rel="noreferrer noopener">Zasady oceniania (PDF CKE)</a></p>
