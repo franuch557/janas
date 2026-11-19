@@ -59,6 +59,8 @@ export default function Today({ go }: { go: (view: string, params?: Record<strin
         </div>
       )}
 
+      {!state.settings.introHidden && <Intro go={go} />}
+
       {!day ? (
         <p className="pusty">Na dziś nie ma planu: wszystkie przedmioty są wyłączone albo egzaminy już się odbyły. Zmień to w Ustawieniach.</p>
       ) : (
@@ -90,48 +92,92 @@ export default function Today({ go }: { go: (view: string, params?: Record<strin
 function DayView({ day, go }: { day: DayPlan; go: (view: string, params?: Record<string, string>) => void }) {
   const { state, update } = useApp();
   const log = state.dayLog[day.date];
-  const phases = [...new Set(Object.entries(day.phase).map(([id, p]) => `${subjectName(state, id)}: ${p}`))];
+  const items = day.items.filter((i) => i.kind !== 'brak-zadań');
+  const missing = day.items.filter((i) => i.kind === 'brak-zadań');
+  const phaseValues = [...new Set(Object.values(day.phase))];
+  const phaseText =
+    phaseValues.length === 1
+      ? `Etap: ${phaseValues[0]}`
+      : Object.entries(day.phase).map(([id, p]) => `${subjectName(state, id)}: ${p}`).join(' · ');
+  const left = day.available - day.used;
   return (
     <>
       <p className="liczby">
-        Dostępne {day.available} min · zaplanowane {day.used} min
-        {log?.frozen ? ' · dzień rozpoczęty, plan zapisany' : ''}
+        <strong>{day.used} z {day.available} min</strong> zaplanowane{left > 0 ? `, ${left} min wolne` : ''} · <span className="olowek">{phaseText}</span>
       </p>
-      <p className="olowek">{phases.join(' · ')}</p>
       {day.notes.map((n) => (
         <p key={n}>{n}</p>
       ))}
-      {!log?.frozen && day.items.length > 0 && (
-        <p>
-          <button type="button" onClick={() => update((s) => freezeDay(s, day))}>
-            Zatwierdź plan dnia
-          </button>{' '}
-          <small>Zatwierdzony dzień nie zmienia się po zmianie ustawień.</small>
-        </p>
-      )}
       <ul className="lista" aria-label="Plan dnia">
-        {day.items.map((it) => (
+        {items.map((it) => (
           <li key={it.key}>
             <ItemRow day={day} item={it} go={go} />
           </li>
         ))}
       </ul>
-      {day.items.length === 0 && <p className="pusty">Na ten dzień nie ma zadań.</p>}
-      {day.shifted.length > 0 && (
-        <>
-          <h2>Przesunięte</h2>
-          <p className="olowek">Te pozycje nie zmieściły się w czasie dnia. Wrócą w kolejnym dniu z wolnym czasem.</p>
-          <ul className="lista">
-            {day.shifted.slice(0, 6).map((s) => (
-              <li key={s.item.key}>
-                {subjectName(state, s.item.subjectId)} · {s.item.label} ({s.item.minutes} min). {s.reason}
+      {items.length === 0 && <p className="pusty">Na ten dzień nie ma zadań.</p>}
+      {missing.length > 0 && (
+        <div className="pusty">
+          <p style={{ marginTop: 0 }}>
+            Planer chciał dać zadania z tematów, dla których bank jest pusty. Dodaj kilka zadań, a pojawią się w planie:
+          </p>
+          <ul>
+            {missing.map((m) => (
+              <li key={m.key}>
+                <button type="button" className="maly" onClick={() => go('zadania', { przedmiot: m.subjectId ?? '', temat: m.topicId ?? '' })}>
+                  Dodaj
+                </button>{' '}
+                {subjectName(state, m.subjectId)}: {topicName(m.topicId)}
               </li>
             ))}
           </ul>
-          {day.shifted.length > 6 && <p className="olowek">… i {day.shifted.length - 6} kolejnych pozycji.</p>}
-        </>
+        </div>
+      )}
+      {!log?.frozen && items.length > 0 && (
+        <p>
+          <button type="button" onClick={() => update((s) => freezeDay(s, day))}>
+            Zatwierdź plan dnia
+          </button>{' '}
+          <small>Po zatwierdzeniu plan na dziś się nie zmieni, nawet gdy zmienisz ustawienia.</small>
+        </p>
+      )}
+      {day.shifted.length > 0 && (
+        <details>
+          <summary>Nie zmieściło się dziś: {day.shifted.length} {day.shifted.length === 1 ? 'pozycja' : 'pozycji'} (wrócą w kolejnych dniach)</summary>
+          <ul className="lista">
+            {day.shifted.slice(0, 8).map((s) => (
+              <li key={s.item.key}>
+                {subjectName(state, s.item.subjectId)} · {s.item.label} ({s.item.minutes} min)
+              </li>
+            ))}
+          </ul>
+        </details>
       )}
     </>
+  );
+}
+
+function Intro({ go }: { go: (view: string, params?: Record<string, string>) => void }) {
+  const { state, update } = useApp();
+  const own = state.bank.filter((t) => t.source !== 'CKE').length;
+  const steps = [
+    { done: state.dayLog && Object.keys(state.dayLog).length > 0 || state.settings.introHidden, text: 'Ustaw, kiedy się uczysz (godziny w każdym dniu).', view: 'ustawienia', btn: 'Ustawienia' },
+    { done: own >= 10, text: `Dodaj zadania: link z zadania.info i zrzut ekranu albo stronę z książki. Masz ${own}.`, view: 'zadania', btn: 'Dodaj zadania' },
+    { done: state.diagnoses.length > 0, text: 'Zrób diagnozę albo samoocenę 1–5 z każdego przedmiotu.', view: 'diagnoza', btn: 'Diagnoza' },
+  ];
+  return (
+    <div className="ramka" role="region" aria-label="Pierwsze kroki">
+      <h2 style={{ marginTop: 0 }}>Pierwsze kroki</h2>
+      <ol style={{ paddingLeft: '1.2rem' }}>
+        {steps.map((s) => (
+          <li key={s.text} style={{ marginBottom: '0.4rem' }}>
+            {s.done ? <s>{s.text}</s> : s.text}{' '}
+            <button type="button" className="maly" onClick={() => go(s.view)}>{s.btn}</button>
+          </li>
+        ))}
+      </ol>
+      <button type="button" className="maly" onClick={() => update((st) => ({ ...st, settings: { ...st.settings, introHidden: true } }))}>Ukryj</button>
+    </div>
   );
 }
 
@@ -212,10 +258,9 @@ function ItemRow({ day, item, go }: { day: DayPlan; item: PlanItem; go: (view: s
       )}
       <div>
         <div className="tytul">
-          {item.subjectId ? `${subjectName(state, item.subjectId)} · ` : ''}
-          {item.topicId ? `${topicName(item.topicId)} · ` : ''}
-          {item.label}
+          {isTask ? `${subjectName(state, item.subjectId)} · ${topicName(item.topicId)}` : item.label}
         </div>
+        {isTask && <div>{item.label}</div>}
         <small>{item.reason}</small>
       </div>
       <div className="czas">

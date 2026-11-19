@@ -11,16 +11,16 @@ import Errors from './views/Errors';
 import Settings from './views/Settings';
 
 const VIEWS = [
-  { id: 'dzis', name: 'Dziś' },
-  { id: 'plan', name: 'Plan' },
+  { id: 'dzis', name: 'Dziś', short: 'Dziś' },
+  { id: 'plan', name: 'Plan', short: 'Plan' },
+  { id: 'zadania', name: 'Zadania z tematu', short: 'Zadania' },
+  { id: 'postep', name: 'Postęp', short: 'Postęp' },
   { id: 'diagnoza', name: 'Diagnoza' },
-  { id: 'zadania', name: 'Zadania z tematu' },
   { id: 'arkusze', name: 'Arkusze próbne' },
-  { id: 'postep', name: 'Postęp' },
   { id: 'bledy', name: 'Dziennik błędów' },
   { id: 'analiza', name: 'Analiza' },
   { id: 'ustawienia', name: 'Ustawienia' },
-];
+] as { id: string; name: string; short?: string }[];
 
 function parseHash(): { view: string; params: Record<string, string> } {
   const h = window.location.hash.replace(/^#\/?/, '');
@@ -32,8 +32,12 @@ function parseHash(): { view: string; params: Record<string, string> } {
 function Shell() {
   const { error, setError, notice, setNotice } = useApp();
   const [route, setRoute] = useState(parseHash);
+  const [more, setMore] = useState(false);
   useEffect(() => {
-    const on = () => setRoute(parseHash());
+    const on = () => {
+      setRoute(parseHash());
+      setMore(false);
+    };
     window.addEventListener('hashchange', on);
     return () => window.removeEventListener('hashchange', on);
   }, []);
@@ -53,12 +57,20 @@ function Shell() {
       <div className="uklad">
         <nav className="nawigacja" aria-label="Widoki">
           <div className="tytul">Matura 2027</div>
-          <ul>
+          <ul className={more ? 'otwarte' : ''}>
             {VIEWS.map((v) => (
-              <li key={v.id}>
-                <a href={`#${v.id}`} aria-current={route.view === v.id ? 'page' : undefined}>{v.name}</a>
+              <li key={v.id} className={v.short ? 'glowne' : 'dodatkowe'}>
+                <a href={`#${v.id}`} aria-current={route.view === v.id ? 'page' : undefined}>
+                  <span className="pelna">{v.name}</span>
+                  {v.short && <span className="krotka">{v.short}</span>}
+                </a>
               </li>
             ))}
+            <li className="wiecej">
+              <button type="button" aria-expanded={more} onClick={() => setMore(!more)}>
+                {more ? 'Zamknij' : 'Więcej'}
+              </button>
+            </li>
           </ul>
         </nav>
         <main id="tresc" className="tresc" tabIndex={-1}>

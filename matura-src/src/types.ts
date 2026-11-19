@@ -249,6 +249,7 @@ export interface Settings {
   theme: 'ciemny' | 'jasny' | 'system';
   defaultTaskMinutes: number;
   diagnosisOnePerDay: boolean;
+  introHidden: boolean;
   recruitment: {
     name: string;
     formula: string;

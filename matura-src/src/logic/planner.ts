@@ -162,7 +162,7 @@ export function buildPlan(input: PlannerInput): DayPlan[] {
         examId: null,
         minutes: e.minutes,
         label: `${e.name}, ${e.start}`,
-        reason: e.countsAsStudy ? 'Stały blok; czas odjęty od nauki tego dnia.' : 'Zajęcia stałe.',
+        reason: e.countsAsStudy ? 'Czas lekcji jest odjęty od nauki tego dnia.' : 'Zajęcia stałe.',
       });
       if (e.subjectId && e.countsAsStudy) lastStudied[e.subjectId] = date;
     }
@@ -239,7 +239,7 @@ export function buildPlan(input: PlannerInput): DayPlan[] {
           examId: null,
           minutes: sub.diagnosisMinutes,
           label: `Diagnoza: ${sub.name}`,
-          reason: 'Przed startem planu: sprawdzenie wiedzy z przedmiotu.',
+          reason: 'Krótki test na start. Na jego podstawie plan wie, od czego zacząć.',
         });
         if (!ok) pendingDiag.unshift(id);
       }
@@ -256,7 +256,7 @@ export function buildPlan(input: PlannerInput): DayPlan[] {
         examId: null,
         minutes: 10,
         label: 'Podsumowanie tygodnia i propozycje zmian wag',
-        reason: 'Niedziela.',
+        reason: 'Co niedzielę: co poszło, co poprawić.',
       });
     }
 
@@ -414,10 +414,10 @@ export function buildPlan(input: PlannerInput): DayPlan[] {
         }
         const reason =
           ph === 'nowe tematy'
-            ? `Faza 1: temat o priorytecie ${prio[topicId].toFixed(3)}.`
+            ? 'Nowy temat. Wybrany, bo daje dużo punktów na maturze albo słabo poszedł w diagnozie.'
             : ph === 'powtórka'
-              ? 'Faza 2: powtórka całości, najsłabsze wyniki najpierw.'
-              : 'Faza 3: przegląd błędów i słabych wyników.';
+              ? 'Powtórka całości: najpierw tematy z najsłabszym wynikiem.'
+              : 'Przegląd błędów przed egzaminem.';
         const item = taskItem(date, cand.task, cand.status === 'do powtórki' ? 'powtórka' : 'zadanie', reason);
         if (!fits(item.minutes)) continue;
         add(item);

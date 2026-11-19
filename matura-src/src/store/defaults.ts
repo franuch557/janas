@@ -136,6 +136,7 @@ export function defaultSettings(): Settings {
     theme: 'ciemny',
     defaultTaskMinutes: 15,
     diagnosisOnePerDay: true,
+    introHidden: false,
     recruitment: {
       name: 'Politechnika Poznańska, Automatyka i Robotyka',
       formula: 'W = 0,5·JP + 0,5·JO + 2,5·(M podst. + M rozsz.) + 2·X',
