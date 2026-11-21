@@ -71,3 +71,28 @@ export function weekStart(s: string): string {
   const wd = weekday(s);
   return addDays(s, wd === 0 ? -6 : 1 - wd);
 }
+
+/** „4 maja”. */
+export function fmtDayMonth(s: string): string {
+  const d = fromISO(s);
+  return `${d.getDate()} ${MONTHS[d.getMonth()]}`;
+}
+
+/** „Piątek, 20 listopada”. */
+export function fmtWeekdayDay(s: string): string {
+  const d = fromISO(s);
+  const name = DAYS[d.getDay()];
+  return `${name[0].toUpperCase()}${name.slice(1)}, ${d.getDate()} ${MONTHS[d.getMonth()]}`;
+}
+
+/** „16–22 listopada” albo „30 listopada – 6 grudnia”. */
+export function fmtRange(a: string, b: string): string {
+  const da = fromISO(a);
+  const db = fromISO(b);
+  if (da.getMonth() === db.getMonth()) return `${da.getDate()}–${db.getDate()} ${MONTHS[db.getMonth()]}`;
+  return `${da.getDate()} ${MONTHS[da.getMonth()]} – ${db.getDate()} ${MONTHS[db.getMonth()]}`;
+}
+
+export function capitalize(s: string): string {
+  return s ? s[0].toUpperCase() + s.slice(1) : s;
+}

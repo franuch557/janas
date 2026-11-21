@@ -2,7 +2,22 @@ import { describe, expect, it } from 'vitest';
 import examsFile from '../data/exams.json';
 import type { ExamsFile } from '../src/types';
 import { availableYears, examPointSum, filterExams, validateExam } from '../src/logic/exams';
-import { exam, examTask } from './helpers';
+import type { Exam, ExamTask } from '../src/types';
+import kryteria from '../data/kryteria.json';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const imgDir = fileURLToPath(new URL('../cke-obrazy/', import.meta.url));
+
+// Dane testowe ze sztucznymi identyfikatorami (lokalnie, żeby test danych nie zależał od src/store).
+function examTask(nr: string, maxPoints: number | null, topics: string[], type: ExamTask['type'] = 'otwarte'): ExamTask {
+  return { nr, maxPoints, type, topics, summary: null, proof: null, cases: null, page: null, source: 'test' };
+}
+function exam(over: Partial<Exam> & { id: string; year: number }): Exam {
+  return { family: 'matematyka', level: 'rozszerzony', session: 'maj', formula: '2023', maxPoints: 10, minutes: 180,
+    urls: { arkusz: [], zasady: [] }, status: 'pełny', tasks: [], groups: [], sources: ['test'], ...over };
+}
 
 const data = examsFile as ExamsFile;
 
@@ -54,6 +69,13 @@ describe('walidacja sumy punktów', () => {
     expect(validateExam(e)).toEqual([]);
   });
 
+  it('tematy do wyboru (alternative) liczą się raz', () => {
+    const a = { ...examTask('A2.1', 35, ['x']), alternative: 'A2.temat' };
+    const b = { ...examTask('A2.2', 35, ['x']), alternative: 'A2.temat' };
+    const e = exam({ id: 'X', year: 2025, maxPoints: 60, tasks: [examTask('A1.1', 25, ['x']), a, b] });
+    expect(examPointSum(e).known).toBe(60);
+  });
+
   it('nieznane punkty zgłasza jako brak danych, nie jako błąd sumy', () => {
     const e = exam({ id: 'X', year: 2024, maxPoints: 9, tasks: [examTask('1', null, ['logarytmy']), examTask('2', 5, ['ciagi'])] });
     const kinds = validateExam(e).map((i) => i.kind);
@@ -65,34 +87,27 @@ describe('walidacja sumy punktów', () => {
 describe('arkusz referencyjny MMAP-R0-100-2505', () => {
   const ref = data.exams.find((e) => e.id === 'MMAP-R0-100-2505')!;
 
-  it('ma 12 zadań, 50 pkt i 180 minut', () => {
-    expect(ref.tasks).toHaveLength(12);
+  it('ma 12 zadań (12.1 i 12.2 to podpunkty zadania 12), 50 pkt i 180 minut', () => {
+    expect(new Set(ref.tasks.map((t) => t.nr.split('.')[0])).size).toBe(12);
     expect(ref.maxPoints).toBe(50);
     expect(ref.minutes).toBe(180);
   });
 
-  it('suma punktów zadań i grup równa się 50', () => {
+  it('suma punktów zadań równa się 50, bez grup', () => {
     const { known, unknownTasks } = examPointSum(ref);
     expect(unknownTasks).toEqual([]);
     expect(known).toBe(50);
+    expect(ref.groups).toEqual([]);
   });
 
-  it('rozkład punktów zgodny z założeniami', () => {
+  it('punktacja zgodna z arkuszem PDF', () => {
     const pts = Object.fromEntries(ref.tasks.map((t) => [t.nr, t.maxPoints]));
-    expect(pts['11']).toBe(6);
-    expect(pts['12']).toBe(6);
-    expect([pts['8'], pts['9'], pts['10']]).toEqual([5, 5, 5]);
-    expect(pts['6']).toBe(4);
-    expect(pts['5']).toBe(4);
-    expect(pts['4']).toBe(3);
-    const g = (a: string, b: string) => ref.groups.find((x) => x.tasks.includes(a) && x.tasks.includes(b))!.points;
-    expect(g('1', '2')).toBe(5);
-    expect(g('3', '7')).toBe(7);
+    expect(pts).toEqual({ '1': 2, '2': 3, '3': 3, '4': 3, '5': 4, '6': 4, '7': 4, '8': 5, '9': 5, '10': 5, '11': 6, '12.1': 2, '12.2': 4 });
   });
 
-  it('tematy zadań zgodne z założeniami', () => {
+  it('tematy zadań zgodne z treścią', () => {
     const top = (nr: string) => ref.tasks.find((t) => t.nr === nr)!.topics;
-    expect(top('12')).toContain('pochodne');
+    expect(top('12.2')).toContain('pochodne');
     expect(top('11')).toContain('kwadratowa-parametr');
     expect(top('8')).toContain('geometria-analityczna');
     expect(top('9')).toContain('trygonometria');
@@ -103,6 +118,72 @@ describe('arkusz referencyjny MMAP-R0-100-2505', () => {
 
   it('nie zgłasza błędu sumy', () => {
     expect(validateExam(ref).filter((i) => i.kind === 'suma')).toEqual([]);
+  });
+});
+
+describe('wszystkie arkusze z importu PDF', () => {
+  const imported = data.exams.filter((e) => e.tasks.length > 0);
+
+  it('jest 16 arkuszy z zadaniami (4 przedmioty × lata 2023–2026)', () => {
+    expect(imported).toHaveLength(16);
+  });
+
+  it('każdy arkusz ma sumę punktów równą maksimum (alternative liczone raz)', () => {
+    for (const e of imported) {
+      const { known, unknownTasks } = examPointSum(e);
+      expect(unknownTasks, e.id).toEqual([]);
+      expect(known, e.id).toBe(e.maxPoints);
+      expect(e.minutes, e.id).toBeGreaterThan(0);
+    }
+  });
+
+  it('każde zadanie zamknięte ma answer z opcjami (poza brakującymi zasadami polskiego 2023)', () => {
+    for (const e of imported) {
+      for (const t of e.tasks.filter((x) => x.type === 'zamknięte')) {
+        if (e.id === 'MPOP-P1-P2-2305' && t.nr.startsWith('A1.')) {
+          expect(t.answer, `${e.id} ${t.nr}`).toBeNull();
+          continue;
+        }
+        expect(t.answer, `${e.id} ${t.nr}`).toBeTruthy();
+        for (const i of t.answer!.items) {
+          expect(i.options.length, `${e.id} ${t.nr}`).toBeGreaterThan(1);
+          expect(i.options, `${e.id} ${t.nr}`).toContain(i.correct);
+        }
+      }
+    }
+  });
+
+  it('angielski ma nagranie i wypowiedź pisemną, polski ma dwa tematy wypracowania', () => {
+    for (const e of imported.filter((x) => x.family === 'angielski')) {
+      expect(e.audio).toBe(`${e.id}.mp3`);
+      expect(e.tasks.find((t) => t.nr === '12')!.essay?.criteria).toBe('ang-pp-2023');
+      for (const nr of ['1', '2', '3']) {
+        const a = e.tasks.find((t) => t.nr === nr)!.audio!;
+        expect(a.start!, `${e.id} ${nr}`).toBeLessThan(a.end!);
+      }
+    }
+    for (const e of imported.filter((x) => x.family === 'polski')) {
+      const essays = e.tasks.filter((t) => t.essay);
+      expect(essays.map((t) => t.nr)).toEqual(['A2.1', 'A2.2']);
+      expect(new Set(essays.map((t) => t.alternative)).size).toBe(1);
+      expect(essays[0].essay).toEqual({ minWords: 300, maxWords: null, criteria: 'pol-2023' });
+      expect(e.parts?.map((p) => p.id)).toEqual(['A1', 'A2']);
+    }
+  });
+
+  it('kryteria wypracowania sumują się do maksimum zadania', () => {
+    const k = kryteria as unknown as Record<string, { max: number; groups: { criteria: { max: number }[] }[] }>;
+    for (const key of ['pol-2023', 'ang-pp-2023']) {
+      const sum = k[key].groups.flatMap((g) => g.criteria).reduce((s, c) => s + c.max, 0);
+      expect(sum).toBe(k[key].max);
+    }
+    expect(k['pol-2023'].max).toBe(35);
+  });
+
+  it.skipIf(!existsSync(imgDir))('każde zadanie ma obraz w cke-obrazy/zad/', () => {
+    for (const e of imported) {
+      for (const t of e.tasks) expect(existsSync(join(imgDir, 'zad', e.id, `${t.nr}.jpg`)), `${e.id} ${t.nr}`).toBe(true);
+    }
   });
 });
 

@@ -1,545 +1,501 @@
-import type {
-  BankTask,
-  DayLogEntry,
-  DayPlan,
-  Exam,
-  FixedEvent,
-  LessonNote,
-  MockResult,
-  Phase,
-  PlanItem,
-  Settings,
-  SubjectConfig,
-  DiagnosisResult,
-} from '../types';
-import { addDays, dateRange, diffDays, hm, weekStart, weekday } from './dates';
-import { INTERVALS, stepFor } from './srs';
-import { filterExams } from './exams';
-import { topicName } from '../data/taxonomy';
+// Planer: plan dzienny od dziś do ostatniego egzaminu.
+//
+// Zasady (z audytu wersji 2):
+// - planuje tylko to, co da się zrobić w aplikacji: zadania z obrazem,
+//   pełne arkusze z pakietem obrazów, diagnozę z wystarczającej liczby zadań;
+// - każdy włączony przedmiot z zadaniami dostaje czas; przedmiot bez zadań
+//   jest zwracany w `skipped`, żeby widok mógł to powiedzieć wprost;
+// - to samo zadanie najwyżej raz na MIN_GAP dni; po nieudanej powtórce
+//   bierze inne zadanie z tego samego tematu;
+// - arkusz próbny nie powtarza się, dopóki są nierozwiązane;
+// - fazy liczone od daty egzaminu każdego przedmiotu; dzień przed egzaminem
+//   blokuje tylko ten przedmiot; arkusz za długi na jeden dzień jest dzielony
+//   na części (polski: arkusz 1 i arkusz 2);
+// - ręczne zmiany (nadpisania dnia) są stosowane przy każdym przeliczeniu.
 
-export interface PlannerInput {
-  settings: Settings;
-  bank: BankTask[];
-  exams: Exam[];
-  diagnoses: DiagnosisResult[];
-  mocks: MockResult[];
-  lessonNotes: LessonNote[];
-  dayLog: Record<string, DayLogEntry>;
-  /** Priorytet tematów: subjectId → topicId → priorytet. */
-  priorities: Record<string, Record<string, number>>;
-  /** Biegłość tematów 0..1 do symulacji wyników przyszłych dni. */
-  mastery: Record<string, Record<string, number | null>>;
-  today: string;
-  until?: string;
-  /** Zadania na liście zaległych, których planer nie rusza. */
-  excludeTaskIds?: string[];
-}
+import { SUBJECTS, type DayOverride, type DayPlan, type PlanItem, type SubjectDef, type SubjectId } from '../model';
+import { addDays, dateRange, diffDays, weekStart, weekday } from './dates';
+import { isDue, nextSrs, NEW_SRS, type SrsState } from './srs';
 
-// ---------- Czas dnia ----------
+export const MIN_GAP = 3;
+export const MAX_SUBJECTS_PER_DAY = 2;
+export const MAX_TASKS_PER_DAY = 6;
+const SIM_PCT = 75;
+const ESSAY_EVERY = 10;
 
-export function eventsOn(date: string, events: FixedEvent[]): FixedEvent[] {
-  const wd = weekday(date);
-  return events.filter((e) => {
-    if (e.skipDates.includes(date)) return false;
-    if (e.date) return e.date === date;
-    return e.weekday === wd;
-  });
-}
+export type Phase = 'nowe tematy' | 'powtórka' | 'arkusze' | 'przegląd' | 'po egzaminie';
 
-function overlap(a1: number, a2: number, b1: number, b2: number): number {
-  return Math.max(0, Math.min(a2, b2) - Math.max(a1, b1));
-}
-
-/**
- * Dostępne minuty nauki: okna dnia tygodnia przycięte do godzin dozwolonych,
- * minus zajęcia. Korepetycje (countsAsStudy) zabierają pełny czas trwania,
- * bo są nauką przedmiotu i obciążają dzień. Pozostałe zajęcia zabierają tylko
- * część wspólną z oknami nauki.
- */
-export function availableMinutes(date: string, s: Settings): { minutes: number; events: FixedEvent[] } {
-  const windows = s.weekWindows[weekday(date)] ?? [];
-  const lo = hm(s.blockedBefore || '00:00');
-  const hi = hm(s.blockedAfter || '24:00');
-  const clipped = windows
-    .map((w) => [Math.max(hm(w.start), lo), Math.min(hm(w.end), hi)] as const)
-    .filter(([a, b]) => b > a);
-  let total = clipped.reduce((sum, [a, b]) => sum + (b - a), 0);
-  const evs = eventsOn(date, s.events);
-  for (const e of evs) {
-    const st = hm(e.start);
-    const en = st + e.minutes;
-    if (e.countsAsStudy) total -= e.minutes;
-    else total -= clipped.reduce((sum, [a, b]) => sum + overlap(a, b, st, en), 0);
-  }
-  return { minutes: Math.max(0, total), events: evs };
-}
-
-// ---------- Fazy ----------
-
-export function phaseFor(sub: SubjectConfig, date: string, s: Settings): Phase {
-  if (date >= sub.examDate) return 'po egzaminie';
-  if (addDays(date, 1) === sub.examDate) return 'przegląd';
-  if (date >= s.mockPhaseStart) return 'arkusze';
-  if (date >= s.newTopicsEnd) return 'powtórka';
+export function phaseFor(examDate: string, date: string): Phase {
+  if (date >= examDate) return 'po egzaminie';
+  const left = diffDays(examDate, date);
+  if (left === 1) return 'przegląd';
+  if (left <= 21) return 'arkusze';
+  if (left <= 70) return 'powtórka';
   return 'nowe tematy';
 }
 
-// ---------- Symulacja ----------
+export interface PlanTask {
+  id: string;
+  subjectId: SubjectId;
+  topics: string[];
+  minutes: number;
+  essay: boolean;
+  /** Ma obraz treści (CKE z pakietem albo zrzut ekranu). */
+  image: boolean;
+}
+
+export interface PlanExam {
+  id: string;
+  subjectId: SubjectId;
+  year: number;
+  /** Części do zaplanowania; [null] = cały arkusz naraz. */
+  parts: { id: string | null; minutes: number }[];
+}
+
+export interface PlannerInput {
+  today: string;
+  until?: string;
+  enabled: Record<SubjectId, boolean>;
+  dayMinutes: number[];
+  tutoring: { enabled: boolean; weekday: number; start: string; minutes: number };
+  overrides: Record<string, DayOverride>;
+  tasks: PlanTask[];
+  exams: PlanExam[];
+  /** Stan powtórek zadań z wyników sprzed dziś. */
+  srs: Map<string, SrsState>;
+  /** Arkusze (`examId|partId`) zakończone przed dziś. */
+  mocksDone: Set<string>;
+  /** Przedmioty z diagnozą zakończoną przed dziś. */
+  diagnosed: Set<SubjectId>;
+  /** Przedmioty, dla których da się złożyć diagnozę, i jej czas. */
+  diagnosisMinutes: Partial<Record<SubjectId, number>>;
+  /** Co zrobiono dziś (wpływa na kolejne dni, nie zmienia dzisiejszej listy). */
+  doneToday?: { tasks: string[]; mocks: string[]; diagnosed: SubjectId[] };
+  /** Priorytety tematów: przedmiot → temat → priorytet. */
+  priorities: Partial<Record<SubjectId, Record<string, number>>>;
+  /** Ostatni dzień nauki przedmiotu przed dziś. */
+  lastStudied?: Partial<Record<SubjectId, string>>;
+}
+
+export interface PlanResult {
+  days: DayPlan[];
+  /** Włączone przedmioty bez żadnego zadania do zaplanowania. */
+  skipped: SubjectId[];
+}
 
 interface SimTask {
-  task: BankTask;
-  status: BankTask['status'];
-  nextReview: string | null;
-  reviewStep: number;
+  task: PlanTask;
+  srs: SrsState;
   lastTouched: string | null;
 }
 
-const MOCK_TEMPLATE_KEY = 'arkusz';
-
-function simApply(t: SimTask, date: string, result: number): void {
-  const step = stepFor(result);
-  const finished = result >= 90 && t.reviewStep === 3 && t.lastTouched != null;
-  t.status = finished ? 'zrobione' : 'do powtórki';
-  t.reviewStep = step;
-  t.nextReview = finished ? null : addDays(date, INTERVALS[step]);
-  t.lastTouched = date;
+export function taskRef(id: string): string {
+  return `t:${id}`;
+}
+export function mockRef(examId: string, partId: string | null): string {
+  return partId ? `a:${examId}:${partId}` : `a:${examId}`;
+}
+export function mockKey(examId: string, partId: string | null): string {
+  return `${examId}|${partId ?? ''}`;
 }
 
-function itemKey(date: string, kind: string, id: string): string {
-  return `${date}|${kind}|${id}`;
-}
-
-/**
- * Plan od dziś do ostatniego egzaminu. Dni przed dziś nie są planowane;
- * dzień zamrożony w dzienniku (rozpoczęty) zostaje taki, jak zapisano.
- */
-export function buildPlan(input: PlannerInput): DayPlan[] {
-  const s = input.settings;
-  const subjects = s.subjects.filter((x) => x.enabled);
-  if (!subjects.length) return [];
-  const lastExam = subjects.map((x) => x.examDate).sort().slice(-1)[0];
+export function buildPlan(input: PlannerInput): PlanResult {
+  const subjects = SUBJECTS.filter((s) => input.enabled[s.id]);
+  const lastExam = subjects.map((s) => s.examDate).sort().slice(-1)[0];
+  if (!subjects.length) return { days: [], skipped: [] };
   const until = input.until ?? lastExam;
-  const excluded = new Set(input.excludeTaskIds ?? []);
 
   const sim = new Map<string, SimTask>();
-  for (const t of input.bank) {
-    sim.set(t.id, { task: t, status: t.status, nextReview: t.nextReview, reviewStep: t.reviewStep, lastTouched: t.lastSolved });
+  for (const t of input.tasks) {
+    if (!t.image || !input.enabled[t.subjectId]) continue;
+    const srs = input.srs.get(t.id) ?? NEW_SRS;
+    sim.set(t.id, { task: t, srs, lastTouched: srs.lastDate });
   }
-
-  const lastStudied: Record<string, string | null> = {};
-  for (const sub of subjects) lastStudied[sub.id] = null;
-  for (const [date, log] of Object.entries(input.dayLog)) {
-    if (date >= input.today) continue;
-    for (const it of log.items) if (it.subjectId && (lastStudied[it.subjectId] ?? '') < date) lastStudied[it.subjectId] = date;
+  const bySubject = new Map<SubjectId, SimTask[]>();
+  for (const st of sim.values()) {
+    const list = bySubject.get(st.task.subjectId) ?? [];
+    list.push(st);
+    bySubject.set(st.task.subjectId, list);
   }
+  const skipped = subjects.filter((s) => !(bySubject.get(s.id) ?? []).length).map((s) => s.id);
 
-  const usedExamIds = new Set(input.mocks.map((m) => m.examId).filter(Boolean) as string[]);
-  const diagnosed = new Set(input.diagnoses.map((d) => d.subjectId));
-  const pendingDiag = subjects
-    .filter((x) => !diagnosed.has(x.id))
-    .sort((a, b) => b.priority - a.priority)
-    .map((x) => x.id);
-  let mockRotation = 0;
-  const mockDayOfWeek = new Map<string, string>(); // weekStart → wybrany dzień
-  const weekTopicCount = new Map<string, Map<string, number>>(); // weekStart → `${sub}:${topic}` → liczba
-  const missingShown = new Set<string>(); // brak zadań: jeden komunikat na temat w tygodniu
+  const mocksUsed = new Set(input.mocksDone);
+  const diagnosed = new Set(input.diagnosed);
+  const lastStudied: Partial<Record<SubjectId, string>> = { ...(input.lastStudied ?? {}) };
+  const lastMockOf: Partial<Record<SubjectId, string>> = {};
+  const lastMockOfExam = new Map<string, string>();
+  let lastMockDate: string | null = null;
+  let pendingPart: { examId: string; subjectId: SubjectId; partId: string | null; minutes: number } | null = null;
+  const lastEssay: Partial<Record<SubjectId, string>> = {};
+  for (const st of sim.values()) {
+    if (st.task.essay && st.lastTouched) {
+      const s = st.task.subjectId;
+      if (!lastEssay[s] || lastEssay[s]! < st.lastTouched) lastEssay[s] = st.lastTouched;
+    }
+  }
+  const mockDayOfWeek = new Map<string, string>();
+  const weekTopic = new Map<string, number>();
 
-  const plans: DayPlan[] = [];
+  const days: DayPlan[] = [];
+
+  // stan zadań sprzed dotknięcia w bieżącym dniu (żeby usunięta ręcznie pozycja nie liczyła się jako zrobiona)
+  let daySnap = new Map<SimTask, { srs: SrsState; lastTouched: string | null }>();
+  const touch = (st: SimTask, date: string) => {
+    if (!daySnap.has(st)) daySnap.set(st, { srs: st.srs, lastTouched: st.lastTouched });
+    // symulacja zakłada poprawę: pierwsze podejście 75%, kolejne 95%,
+    // więc zadanie wraca najwyżej dwa razy (po 7 i 14 dniach) i znika z planu
+    st.srs = nextSrs(st.srs, st.srs.attempts === 0 ? SIM_PCT : 95, date);
+    st.lastTouched = date;
+    if (st.task.essay) lastEssay[st.task.subjectId] = date;
+  };
+  const gapOk = (st: SimTask, date: string) => !st.lastTouched || diffDays(date, st.lastTouched) >= MIN_GAP;
 
   for (const date of dateRange(input.today, until)) {
-    const { minutes: available, events } = availableMinutes(date, s);
-    const phase: Record<string, Phase> = {};
-    for (const sub of subjects) phase[sub.id] = phaseFor(sub, date, s);
-    const day: DayPlan = { date, weekday: weekday(date), available, used: 0, phase, items: [], shifted: [], notes: [] };
-
-    for (const e of events) {
-      day.items.push({
-        key: itemKey(date, 'event', e.id),
-        kind: e.countsAsStudy ? 'korepetycje' : 'zajęcia',
-        subjectId: e.subjectId,
-        topicId: null,
-        taskId: null,
-        examId: null,
-        minutes: e.minutes,
-        label: `${e.name}, ${e.start}`,
-        reason: e.countsAsStudy ? 'Czas lekcji jest odjęty od nauki tego dnia.' : 'Zajęcia stałe.',
-      });
-      if (e.subjectId && e.countsAsStudy) lastStudied[e.subjectId] = date;
-    }
-
-    // Dzień zamrożony: zostaje jak zapisano.
-    const log = input.dayLog[date];
-    if (log?.frozen) {
-      day.items = log.items;
-      day.used = log.items.filter(countsInBudget).reduce((a, b) => a + b.minutes, 0);
-      for (const it of log.items) {
-        if (it.subjectId) lastStudied[it.subjectId] = date;
-        if (it.taskId && sim.has(it.taskId)) {
-          const done = log.done[it.key];
-          const st = sim.get(it.taskId)!;
-          if (done?.result != null) simApply(st, date, done.result);
-          else st.lastTouched = date; // zaplanowane: nie planuj ponownie tego samego dnia
-        }
-      }
-      plans.push(day);
-      continue;
-    }
-
-    const add = (item: PlanItem, mustFit = true): boolean => {
-      if (countsInBudget(item) && day.used + item.minutes > day.available) {
-        if (mustFit) day.shifted.push({ item, reason: `Brak czasu: zostało ${day.available - day.used} min, potrzeba ${item.minutes} min.` });
-        return false;
-      }
+    const wd = weekday(date);
+    const available = Math.max(0, input.dayMinutes[wd] ?? 0);
+    const day: DayPlan = { date, weekday: wd, available, used: 0, items: [], notes: [] };
+    const ov = input.overrides[date];
+    daySnap = new Map();
+    const has = (ref: string) => day.items.some((i) => i.ref === ref);
+    // Pozycje automatyczne liczę bez ręcznych zmian tego dnia: zamiana, usunięcie
+    // albo dodanie zmienia tylko tę jedną pozycję, reszta dnia zostaje ta sama.
+    const push = (item: PlanItem): boolean => {
+      if (has(item.ref)) return false;
       day.items.push(item);
-      if (countsInBudget(item)) day.used += item.minutes;
-      if (item.subjectId) lastStudied[item.subjectId] = date;
+      if (item.kind !== 'korepetycje') {
+        day.used += item.minutes;
+        if (item.subjectId) lastStudied[item.subjectId] = date;
+      }
       return true;
     };
-
-    // Dzień egzaminu i dzień przed egzaminem.
-    const examToday = subjects.filter((x) => x.examDate === date);
-    for (const x of examToday) day.notes.push(`Egzamin: ${x.name}.`);
-    const reviewDay = subjects.filter((x) => phase[x.id] === 'przegląd');
-    if (reviewDay.length || examToday.length) {
-      for (const x of reviewDay) {
-        add({
-          key: itemKey(date, 'przegląd', x.id),
-          kind: 'przegląd',
-          subjectId: x.id,
-          topicId: null,
-          taskId: null,
-          examId: null,
-          minutes: Math.min(45, Math.max(0, day.available - day.used)),
-          label: `${x.name}: przegląd dziennika błędów, wzorów i schematów`,
-          reason: 'Dzień przed egzaminem: bez nowych zadań.',
-        });
+    const finalizeDay = () => {
+      const removed = new Set(ov?.remove ?? []);
+      for (const it of day.items.filter((i) => removed.has(i.ref))) {
+        const st = it.taskId ? sim.get(it.taskId) : undefined;
+        const prev = st ? daySnap.get(st) : undefined;
+        if (st && prev) {
+          st.srs = prev.srs;
+          st.lastTouched = prev.lastTouched;
+        }
+        if (it.kind === 'arkusz' && it.examId) {
+          mocksUsed.delete(mockKey(it.examId, it.partId));
+          if (pendingPart?.examId === it.examId) pendingPart = null;
+        }
+        if (it.kind === 'diagnoza' && it.subjectId && !input.diagnosed.has(it.subjectId)) diagnosed.delete(it.subjectId);
       }
-      if (!reviewDay.length) day.notes.push('Dzień egzaminu: bez zadań z innych przedmiotów.');
-      plans.push(day);
+      day.items = day.items.filter((i) => !removed.has(i.ref));
+      for (const a of ov?.add ?? []) {
+        const same = day.items.find((i) => i.ref === a.ref);
+        if (same) {
+          same.manual = true;
+          continue;
+        }
+        day.items.push({ ...a, manual: true });
+        const st = a.taskId ? sim.get(a.taskId) : undefined;
+        if (st && st.lastTouched !== date) touch(st, date);
+        if (a.kind === 'arkusz' && a.examId) mocksUsed.add(mockKey(a.examId, a.partId));
+        if (a.kind === 'diagnoza' && a.subjectId) diagnosed.add(a.subjectId);
+      }
+      day.used = day.items.filter((i) => i.kind !== 'korepetycje').reduce((x, i) => x + i.minutes, 0);
+      finish(day, ov);
+    };
+    const free = () => day.available - day.used;
+
+    // Korepetycje (stałe zajęcia, poza czasem nauki).
+    const ang = subjects.find((s) => s.id === 'ang-p');
+    if (input.tutoring.enabled && ang && wd === input.tutoring.weekday && date < ang.examDate) {
+      push(item({ ref: `k:${date}`, kind: 'korepetycje', subjectId: 'ang-p', minutes: input.tutoring.minutes, reason: `Korepetycje z angielskiego, ${input.tutoring.start}.` }));
+    }
+
+    const phase = new Map<SubjectId, Phase>(subjects.map((s) => [s.id, phaseFor(s.examDate, date)]));
+    const examToday = subjects.filter((s) => s.examDate === date);
+    for (const s of examToday) day.notes.push(`Egzamin: ${s.name.toLowerCase()}.`);
+
+    // Dzień przed egzaminem: przegląd tylko tego przedmiotu.
+    for (const s of subjects) {
+      if (phase.get(s.id) !== 'przegląd') continue;
+      push(item({ ref: `p:${s.id}:${date}`, kind: 'przegląd', subjectId: s.id, minutes: Math.min(30, Math.max(15, free())), reason: 'Dzień przed egzaminem: przegląd błędów, bez nowych zadań.' }));
+    }
+
+    if (examToday.length) {
+      finalizeDay();
+      days.push(day);
       continue;
     }
 
-    const active = subjects.filter((x) => ['nowe tematy', 'powtórka', 'arkusze'].includes(phase[x.id]));
-    if (!active.length) {
-      plans.push(day);
-      continue;
-    }
+    const active = subjects.filter((s) => {
+      const p = phase.get(s.id)!;
+      return (p === 'nowe tematy' || p === 'powtórka' || p === 'arkusze') && (bySubject.get(s.id) ?? []).length > 0;
+    });
+    const busy = new Set<SubjectId>(day.items.filter((i) => i.kind === 'arkusz' || i.kind === 'diagnoza').map((i) => i.subjectId!) as SubjectId[]);
 
-    // Diagnozy na starcie.
-    if (pendingDiag.length) {
-      const todayDiag = s.diagnosisOnePerDay ? pendingDiag.splice(0, 1) : pendingDiag.splice(0);
-      for (const id of todayDiag) {
-        const sub = subjects.find((x) => x.id === id)!;
-        const ok = add({
-          key: itemKey(date, 'diagnoza', id),
-          kind: 'diagnoza',
-          subjectId: id,
-          topicId: null,
-          taskId: null,
-          examId: null,
-          minutes: sub.diagnosisMinutes,
-          label: `Diagnoza: ${sub.name}`,
-          reason: 'Krótki test na start. Na jego podstawie plan wie, od czego zacząć.',
-        });
-        if (!ok) pendingDiag.unshift(id);
+    // Diagnoza: jedna dziennie, od przedmiotu o największej ważności.
+    if (available > 0 && !day.items.some((i) => i.kind === 'diagnoza')) {
+      const pend = active
+        .filter((s) => !diagnosed.has(s.id) && input.diagnosisMinutes[s.id] != null)
+        .sort((a, b) => b.priority - a.priority)[0];
+      if (pend) {
+        const ok = push(item({ ref: `d:${pend.id}`, kind: 'diagnoza', subjectId: pend.id, minutes: input.diagnosisMinutes[pend.id]!, reason: 'Diagnoza na start: na jej podstawie plan wie, od czego zacząć.' }));
+        if (ok) {
+          diagnosed.add(pend.id);
+          busy.add(pend.id);
+        }
       }
     }
 
-    // Niedziela: podsumowanie tygodnia.
-    if (day.weekday === 0) {
-      add({
-        key: itemKey(date, 'podsumowanie', 'tydzień'),
-        kind: 'podsumowanie',
-        subjectId: null,
-        topicId: null,
-        taskId: null,
-        examId: null,
-        minutes: 10,
-        label: 'Podsumowanie tygodnia i propozycje zmian wag',
-        reason: 'Co niedzielę: co poszło, co poprawić.',
-      });
-    }
-
-    // Arkusze próbne.
-    const mockCandidates = active.filter((x) => x.mockMinutes != null);
-    const inMockPhase = active.filter((x) => phase[x.id] === 'arkusze' && x.mockMinutes != null);
-    let mockToday = false;
-    if (inMockPhase.length) {
-      mockToday = diffDays(date, s.mockPhaseStart) % 2 === 0;
-    } else if (mockCandidates.length) {
-      const ws = weekStart(date);
-      if (!mockDayOfWeek.has(ws)) {
-        let best = date;
-        let bestMin = -1;
-        for (let i = 0; i < 7; i++) {
-          const d = addDays(ws, i);
-          if (d < input.today) continue;
-          const m = availableMinutes(d, s).minutes;
-          if (m >= bestMin) {
-            best = d;
-            bestMin = m;
+    // Arkusz próbny.
+    if (available > 0 && !day.items.some((i) => i.kind === 'arkusz' || i.kind === 'diagnoza')) {
+      let placed: PlanItem | null = null;
+      if (pendingPart && !['powtórka', 'arkusze'].includes(phase.get(pendingPart.subjectId) ?? '')) pendingPart = null;
+      if (pendingPart) {
+        placed = item({
+          ref: mockRef(pendingPart.examId, pendingPart.partId),
+          kind: 'arkusz',
+          subjectId: pendingPart.subjectId,
+          examId: pendingPart.examId,
+          partId: pendingPart.partId,
+          minutes: pendingPart.minutes,
+          reason: 'Druga część arkusza próbnego.',
+        });
+        if (push(placed)) {
+          mocksUsed.add(mockKey(pendingPart.examId, pendingPart.partId));
+          busy.add(pendingPart.subjectId);
+          lastMockDate = date;
+          pendingPart = null;
+        }
+      } else {
+        const ws = weekStart(date);
+        if (!mockDayOfWeek.has(ws)) {
+          let best = date;
+          let bestMin = -1;
+          for (let i = 0; i < 7; i++) {
+            const d = addDays(ws, i);
+            if (d < input.today) continue;
+            // dzień z korepetycjami ma mniej siły na arkusz: przy remisie wygrywa inny dzień
+            const m = (input.dayMinutes[weekday(d)] ?? 0) - (input.tutoring.enabled && weekday(d) === input.tutoring.weekday ? 0.5 : 0);
+            if (m > bestMin) {
+              best = d;
+              bestMin = m;
+            }
+          }
+          mockDayOfWeek.set(ws, best);
+        }
+        const cands = active
+          .filter((s) => {
+            const p = phase.get(s.id);
+            if (p === 'arkusze') return !lastMockDate || diffDays(date, lastMockDate) >= 2;
+            if (p === 'powtórka') return mockDayOfWeek.get(ws) === date;
+            return false;
+          })
+          .map((s) => ({ s, exam: pickExam(input.exams, s.id, mocksUsed) ?? (phase.get(s.id) === 'arkusze' ? oldestExam(input.exams, s.id, lastMockOfExam) : null) }))
+          .filter((x) => x.exam)
+          .sort((a, b) => (lastMockOf[a.s.id] ?? '') .localeCompare(lastMockOf[b.s.id] ?? '') || b.s.priority - a.s.priority);
+        const c = cands[0];
+        if (c && c.exam) {
+          const unused = c.exam.parts.filter((p) => !mocksUsed.has(mockKey(c.exam!.id, p.id)));
+          // wszystkie arkusze rozwiązane: w ostatnich tygodniach wraca najdawniej robiony
+          const parts = unused.length ? unused : c.exam.parts;
+          lastMockOfExam.set(c.exam.id, date);
+          const first = parts[0];
+          placed = item({
+            ref: mockRef(c.exam.id, first.id),
+            kind: 'arkusz',
+            subjectId: c.s.id,
+            examId: c.exam.id,
+            partId: first.id,
+            minutes: first.minutes,
+            reason: phase.get(c.s.id) === 'arkusze' ? 'Ostatnie tygodnie: arkusz co kilka dni.' : 'Arkusz próbny w tym tygodniu, w warunkach egzaminu.',
+          });
+          if (push(placed)) {
+            mocksUsed.add(mockKey(c.exam.id, first.id));
+            busy.add(c.s.id);
+            lastMockDate = date;
+            lastMockOf[c.s.id] = date;
+            const next = parts[1];
+            if (next) pendingPart = { examId: c.exam.id, subjectId: c.s.id, partId: next.id, minutes: next.minutes };
+            if (first.minutes > available) day.notes.push(`Arkusz trwa ${first.minutes} min, dłużej niż zwykły czas nauki tego dnia.`);
           }
         }
-        mockDayOfWeek.set(ws, best);
-      }
-      mockToday = mockDayOfWeek.get(ws) === date && pendingDiag.length === 0 && !day.items.some((i) => i.kind === 'diagnoza');
-    }
-    if (mockToday) {
-      const pool = inMockPhase.length ? inMockPhase : mockCandidates;
-      let placed = false;
-      for (let k = 0; k < pool.length && !placed; k++) {
-        const sub = pool[(mockRotation + k) % pool.length];
-        const free = day.available - day.used;
-        if ((sub.mockMinutes ?? 0) > free) {
-          day.notes.push(`Arkusz ${sub.name} (${sub.mockMinutes} min) nie mieści się w ${free} min tego dnia.`);
-          continue;
-        }
-        const exam = pickExam(input.exams, s, sub, usedExamIds);
-        if (exam) usedExamIds.add(exam.id);
-        add({
-          key: itemKey(date, MOCK_TEMPLATE_KEY, sub.id),
-          kind: 'arkusz',
-          subjectId: sub.id,
-          topicId: null,
-          taskId: null,
-          examId: exam?.id ?? null,
-          minutes: sub.mockMinutes ?? 0,
-          label: exam ? `Arkusz próbny: ${sub.name}, CKE ${exam.year}` : `Arkusz próbny: ${sub.name}, zestaw z banku`,
-          reason: inMockPhase.length ? 'Faza 3: arkusz co dwa dni.' : 'Arkusz próbny w tym tygodniu, w warunkach egzaminacyjnych.',
-        });
-        mockRotation = (mockRotation + k + 1) % Math.max(1, pool.length);
-        placed = true;
       }
     }
 
-    // Wybór przedmiotów dnia.
-    const lessonDates = new Set(input.lessonNotes.map((n) => n.date));
-    const scored = active
-      .filter((x) => !day.items.some((i) => i.subjectId === x.id && (i.kind === 'diagnoza' || i.kind === 'arkusz')))
-      .map((x) => {
-        const last = lastStudied[x.id];
+    // Wybór przedmiotów dnia: priorytet × przerwa od ostatniej nauki.
+    const slots = Math.max(0, MAX_SUBJECTS_PER_DAY - busy.size);
+    const chosen = active
+      .filter((s) => !busy.has(s.id))
+      .map((s) => {
+        const last = lastStudied[s.id];
         const gap = last ? Math.max(0, diffDays(date, last)) : 7;
-        let score = x.priority * (1 + gap);
-        // przedmiot bez otwartych zadań w banku wybieram na końcu
-        const open = [...sim.values()].some((t) => t.task.subjectId === x.id && t.status !== 'zrobione' && !excluded.has(t.task.id));
-        if (!open) score *= 0.01;
-        // Notatka z korepetycji w tej części tygodnia zmniejsza ilość zadań z tego przedmiotu.
-        const nearLesson = [-1, 0, 1].some((d) => lessonDates.has(addDays(date, d)) && input.lessonNotes.some((n) => n.date === addDays(date, d) && n.subjectId === x.id));
-        if (nearLesson) score *= 0.5;
-        return { sub: x, score, nearLesson };
+        return { s, score: s.priority * (1 + gap) };
       })
-      .sort((a, b) => b.score - a.score);
-    const slots = Math.max(0, s.maxSubjectsPerDay - day.items.filter((i) => i.kind === 'diagnoza' || i.kind === 'arkusz').length);
-    const chosen = scored.slice(0, slots);
-    const free = day.available - day.used;
-    const prioSum = chosen.reduce((a, c) => a + c.sub.priority * (c.nearLesson ? 0.5 : 1), 0) || 1;
-    let taskCount = day.items.filter((i) => i.kind === 'zadanie' || i.kind === 'powtórka').length;
+      .sort((a, b) => b.score - a.score || b.s.priority - a.s.priority)
+      .slice(0, slots)
+      .map((x) => x.s);
+    const freeStart = free();
+    const prioSum = chosen.reduce((a, s) => a + s.priority, 0) || 1;
+    const countTasks = () => day.items.filter((i) => i.taskId).length;
 
-    const ws = weekStart(date);
-    if (!weekTopicCount.has(ws)) weekTopicCount.set(ws, new Map());
-    const wtc = weekTopicCount.get(ws)!;
-
-    for (const { sub, nearLesson } of chosen) {
-      const budget = Math.floor((free * sub.priority * (nearLesson ? 0.5 : 1)) / prioSum);
+    for (const s of chosen) {
+      if (free() <= 0) break;
+      const budget = Math.max(Math.min(free(), 10), Math.floor((freeStart * s.priority) / prioSum));
       let spent = 0;
-      const ph = phase[sub.id];
-      const tasks = [...sim.values()].filter(
-        (t) => t.task.subjectId === sub.id && !excluded.has(t.task.id) && t.lastTouched !== date,
-      );
-      const fits = (m: number) => spent + m <= budget && day.used + m <= day.available && taskCount < s.maxTasksPerDay;
+      const pool = (bySubject.get(s.id) ?? []).filter((st) => !has(taskRef(st.task.id)));
+      const fits = (m: number) => spent + m <= budget && day.used + m <= day.available && countTasks() < MAX_TASKS_PER_DAY;
+      const place = (st: SimTask, kind: 'zadanie' | 'powtórka' | 'wypracowanie', reason: string) => {
+        const it = item({ ref: taskRef(st.task.id), kind, subjectId: s.id, topicId: st.task.topics[0] ?? null, taskId: st.task.id, minutes: st.task.minutes, reason });
+        if (!push(it)) return false;
+        spent += st.task.minutes;
+        touch(st, date);
+        const wk = `${weekStart(date)}:${s.id}:${st.task.topics[0]}`;
+        weekTopic.set(wk, (weekTopic.get(wk) ?? 0) + 1);
+        return true;
+      };
+      const ph = phase.get(s.id)!;
 
-      // 1. Powtórki, które przypadają na dziś.
-      const due = tasks
-        .filter((t) => t.status === 'do powtórki' && t.nextReview != null && t.nextReview <= date)
-        .sort((a, b) => (a.nextReview! < b.nextReview! ? -1 : 1));
-      for (const t of due) {
-        const item = taskItem(date, t.task, 'powtórka', `Powtórka po ${INTERVALS[t.reviewStep] ?? 1} dn., ostatni wynik ${t.task.result ?? '–'}%.`);
-        if (!fits(item.minutes)) {
-          day.shifted.push({ item, reason: 'Brak czasu w tym dniu; powtórka wróci w kolejnym dniu z wolnym czasem.' });
-          continue;
+      // 1. Wypracowanie co ESSAY_EVERY dni (polski i angielski).
+      if (s.family !== 'matematyka') {
+        const last = lastEssay[s.id];
+        if (!last || diffDays(date, last) >= ESSAY_EVERY) {
+          const essay = pool
+            .filter((st) => st.task.essay && gapOk(st, date))
+            .sort((a, b) => (a.lastTouched ?? '').localeCompare(b.lastTouched ?? ''))[0];
+          if (essay && essay.task.minutes <= free() && countTasks() < MAX_TASKS_PER_DAY) {
+            place(essay, 'wypracowanie', s.family === 'polski' ? 'Wypracowanie co półtora tygodnia.' : 'Wypowiedź pisemna co półtora tygodnia.');
+          }
         }
-        add(item);
-        spent += item.minutes;
-        taskCount++;
-        t.lastTouched = date;
-        simApply(t, date, simResult(input, sub.id, t.task.topicId));
       }
 
-      // 2. Nowe zadania albo zadania do powtórki całości, według priorytetu tematów.
-      const prio = input.priorities[sub.id] ?? {};
+      // 2. Powtórki z terminem na dziś.
+      const due = pool.filter((st) => !st.task.essay && isDue(st.srs, date)).sort((a, b) => (a.srs.nextReview! < b.srs.nextReview! ? -1 : 1));
+      for (const st of due) {
+        if (!fits(st.task.minutes)) continue;
+        if ((st.srs.lastPct ?? 0) < 50) {
+          // nieudana powtórka: inne zadanie z tego samego tematu
+          const alt = pool.find((o) => o !== st && !o.task.essay && o.srs.status === 'nowe' && o.task.topics[0] === st.task.topics[0] && gapOk(o, date) && fits(o.task.minutes));
+          if (alt) {
+            if (place(alt, 'powtórka', 'Powtórka tematu innym zadaniem, bo ostatnio poszło słabo.')) {
+              st.srs = { ...st.srs, nextReview: addDays(date, MIN_GAP) };
+              continue;
+            }
+          }
+        }
+        if (!gapOk(st, date)) continue;
+        place(st, 'powtórka', `Powtórka zadania, ostatni wynik ${st.srs.lastPct ?? 0}%.`);
+      }
+
+      // 3. Zadania według priorytetu tematów.
+      const prio = input.priorities[s.id] ?? {};
       const topicOrder = Object.keys(prio)
         .map((topicId) => {
-          const key = `${sub.id}:${topicId}`;
-          const seen = wtc.get(key) ?? 0;
+          const seen = weekTopic.get(`${weekStart(date)}:${s.id}:${topicId}`) ?? 0;
           let p = prio[topicId] / (1 + seen);
           if (ph === 'powtórka') {
-            const touched = tasks.some((t) => t.task.topicId === topicId && t.lastTouched && diffDays(date, t.lastTouched) < 7);
-            if (!touched) p *= 3; // każdy temat co najmniej raz w tygodniu
+            const recent = pool.some((st) => st.task.topics[0] === topicId && st.lastTouched && diffDays(date, st.lastTouched) < 7);
+            if (!recent) p *= 3; // każdy temat co najmniej raz w tygodniu
           }
           return { topicId, p };
         })
         .sort((a, b) => b.p - a.p);
-
-      let missing = 0;
-      for (const { topicId } of topicOrder) {
-        if (!fits(1)) break;
-        const pool = tasks.filter((t) => t.task.topicId === topicId && t.lastTouched !== date);
-        let cand: SimTask | undefined;
-        if (ph === 'nowe tematy') {
-          cand = pool.find((t) => t.status === 'nowe' || t.status === 'w trakcie');
-        } else {
-          // powtórka całości i faza arkuszy: najpierw zadania z najsłabszym wynikiem
-          cand =
-            pool.filter((t) => t.status === 'do powtórki').sort((a, b) => (a.task.result ?? 0) - (b.task.result ?? 0))[0] ??
-            pool.find((t) => t.status === 'nowe' || t.status === 'w trakcie');
+      const extraTopics = [...new Set(pool.map((st) => st.task.topics[0]).filter((t) => t && !(t in prio)))];
+      for (const t of extraTopics) topicOrder.push({ topicId: t, p: 0 });
+      for (let round = 0; round < 2; round++) {
+        for (const { topicId } of topicOrder) {
+          if (!fits(2)) break;
+          const inTopic = pool.filter((st) => !st.task.essay && st.task.topics[0] === topicId && !has(taskRef(st.task.id)) && gapOk(st, date) && st.srs.status !== 'zrobione');
+          const cand =
+            ph === 'nowe tematy'
+              ? inTopic.find((st) => st.srs.status === 'nowe' && fits(st.task.minutes))
+              : inTopic.filter((st) => st.srs.status === 'do powtórki' && fits(st.task.minutes)).sort((a, b) => (a.srs.lastPct ?? 0) - (b.srs.lastPct ?? 0))[0] ??
+                inTopic.find((st) => st.srs.status === 'nowe' && fits(st.task.minutes));
+          if (!cand) continue;
+          const reason =
+            ph === 'nowe tematy'
+              ? 'Temat, który daje dużo punktów na maturze albo słabo poszedł.'
+              : ph === 'powtórka'
+                ? 'Powtórka całości: najpierw tematy z najsłabszym wynikiem.'
+                : 'Ostatnie tygodnie: zadania z tematów do poprawy.';
+          place(cand, cand.srs.status === 'do powtórki' ? 'powtórka' : 'zadanie', reason);
         }
-        if (!cand) {
-          const mk = `${weekStart(date)}:${sub.id}:${topicId}`;
-          if (missing < 2 && !missingShown.has(mk) && !pool.some((t) => t.status !== 'zrobione')) {
-            missingShown.add(mk);
-            day.items.push({
-              key: itemKey(date, 'brak', `${sub.id}:${topicId}`),
-              kind: 'brak-zadań',
-              subjectId: sub.id,
-              topicId,
-              taskId: null,
-              examId: null,
-              minutes: 0,
-              label: `Brak zadań w banku z tematu „${topicName(topicId)}”`,
-              reason: 'Dodaj zadania z tego tematu w widoku „Zadania z tematu”.',
-            });
-            missing++;
-          }
-          continue;
-        }
-        const reason =
-          ph === 'nowe tematy'
-            ? 'Nowy temat. Wybrany, bo daje dużo punktów na maturze albo słabo poszedł w diagnozie.'
-            : ph === 'powtórka'
-              ? 'Powtórka całości: najpierw tematy z najsłabszym wynikiem.'
-              : 'Przegląd błędów przed egzaminem.';
-        const item = taskItem(date, cand.task, cand.status === 'do powtórki' ? 'powtórka' : 'zadanie', reason);
-        if (!fits(item.minutes)) continue;
-        add(item);
-        spent += item.minutes;
-        taskCount++;
-        cand.lastTouched = date;
-        wtc.set(`${sub.id}:${topicId}`, (wtc.get(`${sub.id}:${topicId}`) ?? 0) + 1);
-        simApply(cand, date, simResult(input, sub.id, topicId));
       }
 
-      // 3. Faza 3: wzory i schematy co drugi dzień.
-      if (ph === 'arkusze' && diffDays(date, s.mockPhaseStart) % 2 === 1) {
-        const what = sub.family === 'matematyka' ? 'wzory z karty CKE' : sub.family === 'polski' ? 'schemat wypracowania' : 'schemat wypowiedzi pisemnej';
-        add(
-          {
-            key: itemKey(date, 'przegląd', `${sub.id}:schematy`),
-            kind: 'przegląd',
-            subjectId: sub.id,
-            topicId: null,
-            taskId: null,
-            examId: null,
-            minutes: 15,
-            label: `${sub.name}: ${what}`,
-            reason: 'Faza 3: wzory i schematy zapisów.',
-          },
-          false,
-        );
+      // 4. Pula przedmiotu wyczerpana: wracają zadania zrobione najdawniej (najpierw słabsze).
+      if (spent === 0) {
+        const done = pool
+          .filter((st) => !st.task.essay && st.srs.status === 'zrobione' && gapOk(st, date) && !has(taskRef(st.task.id)))
+          .sort((x, y) => (x.lastTouched ?? '').localeCompare(y.lastTouched ?? '') || (x.srs.lastPct ?? 0) - (y.srs.lastPct ?? 0));
+        for (const st of done) {
+          if (!fits(st.task.minutes)) continue;
+          place(st, 'powtórka', 'Powtórka zadania zrobionego dawno temu.');
+        }
       }
     }
 
-    plans.push(day);
+    finalizeDay();
+    days.push(day);
+
+    // Dzisiejsze wykonania wpływają na kolejne dni.
+    if (date === input.today && input.doneToday) {
+      for (const id of input.doneToday.tasks) {
+        const st = sim.get(id);
+        if (st && st.lastTouched !== date) touch(st, date);
+      }
+      for (const m of input.doneToday.mocks) mocksUsed.add(m);
+      for (const s of input.doneToday.diagnosed) diagnosed.add(s);
+    }
   }
-  return plans;
+  return { days, skipped };
 }
 
-function countsInBudget(i: PlanItem): boolean {
-  return i.kind !== 'korepetycje' && i.kind !== 'zajęcia' && i.kind !== 'brak-zadań';
+function finish(day: DayPlan, ov: DayOverride | undefined) {
+  if (ov?.order?.length) {
+    const pos = new Map(ov.order.map((r, i) => [r, i]));
+    day.items.sort((a, b) => (pos.get(a.ref) ?? 999) - (pos.get(b.ref) ?? 999));
+  }
 }
 
-function taskItem(date: string, t: BankTask, kind: 'zadanie' | 'powtórka', reason: string): PlanItem {
-  return {
-    key: itemKey(date, kind, t.id),
-    kind,
-    subjectId: t.subjectId,
-    topicId: t.topicId,
-    taskId: t.id,
-    examId: t.examId,
-    minutes: Math.max(1, t.minutes),
-    label: taskLabel(t),
-    reason,
-  };
+function item(p: Partial<PlanItem> & Pick<PlanItem, 'ref' | 'kind' | 'minutes' | 'reason'>): PlanItem {
+  return { subjectId: null, topicId: null, taskId: null, examId: null, partId: null, manual: false, ...p };
 }
 
-export function taskLabel(t: BankTask): string {
-  if (t.source === 'CKE') return `CKE ${t.ref}`;
-  if (t.source === 'książka') return `Książka s. ${t.page ?? '?'}${t.ref ? `, zad. ${t.ref}` : ''}`;
-  if (t.source === 'zadania.info') return `zadania.info ${t.ref || ''}`.trim();
-  return t.ref || 'Zadanie własne';
+/** Arkusz robiony najdawniej (gdy wszystkie są już rozwiązane). */
+function oldestExam(exams: PlanExam[], subjectId: SubjectId, last: Map<string, string>): PlanExam | null {
+  return exams.filter((e) => e.subjectId === subjectId).sort((a, b) => (last.get(a.id) ?? '').localeCompare(last.get(b.id) ?? '') || a.year - b.year)[0] ?? null;
 }
 
-function simResult(input: PlannerInput, subjectId: string, topicId: string): number {
-  const m = input.mastery[subjectId]?.[topicId];
-  return m == null ? 70 : Math.round(m * 100);
-}
-
-function pickExam(exams: Exam[], s: Settings, sub: SubjectConfig, used: Set<string>): Exam | null {
-  const { current } = filterExams(exams, {
-    family: sub.family,
-    level: sub.level,
-    yearFrom: s.yearFrom,
-    yearTo: s.yearTo,
-    includeOldFormula: false,
-    excluded: s.excludedExams,
-  });
-  // najpierw arkusze z listą zadań (da się je rozwiązać w aplikacji), potem nierozwiązane, potem najnowsze
-  const score = (e: Exam) => (e.tasks.length ? 2 : 0) + (used.has(e.id) ? 0 : 1);
-  return [...current].sort((a, b) => score(b) - score(a) || b.year - a.year)[0] ?? null;
-}
-
-// ---------- Podsumowanie tygodnia ----------
-
-export interface WeightSuggestion {
-  id: string;
-  subjectId: string;
-  topicId: string;
-  reason: string;
+/** Nierozwiązany arkusz przedmiotu: najpierw starsze (najnowsze zostają na koniec). */
+export function pickExam(exams: PlanExam[], subjectId: SubjectId, used: Set<string>): PlanExam | null {
+  const open = exams.filter((e) => e.subjectId === subjectId && e.parts.some((p) => !used.has(mockKey(e.id, p.id))));
+  return open.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id))[0] ?? null;
 }
 
 /**
- * Propozycje zmiany wag w niedzielę: temat bez rozwiązanego zadania od 14 dni
- * (licząc od pierwszego dnia nauki) albo ze spadkiem wyniku.
+ * Propozycje zamiany: zadania z tego samego tematu (albo z innych tematów
+ * przedmiotu), których nie ma w planie dnia i które nie były robione przez
+ * ostatnie MIN_GAP dni. Kolejność: nowe, potem najsłabszy wynik.
  */
-export function weeklySuggestions(
+export function suggestTasks(
+  tasks: PlanTask[],
+  srs: Map<string, SrsState>,
+  subjectId: SubjectId,
+  topicId: string | null,
+  exclude: Set<string>,
   date: string,
-  startedAt: string,
-  subjects: SubjectConfig[],
-  bank: BankTask[],
-  topicIds: Record<string, string[]>,
-  dropped: (subjectId: string, topicId: string) => boolean,
-): WeightSuggestion[] {
-  const out: WeightSuggestion[] = [];
-  if (diffDays(date, startedAt) < 14) return out;
-  for (const sub of subjects) {
-    if (!sub.enabled) continue;
-    for (const topicId of topicIds[sub.id] ?? []) {
-      const solved = bank
-        .filter((t) => t.subjectId === sub.id && t.topicId === topicId)
-        .flatMap((t) => t.history.map((h) => h.date))
-        .filter((d) => d <= date)
-        .sort();
-      const last = solved[solved.length - 1];
-      if (!last || diffDays(date, last) >= 14) {
-        out.push({
-          id: `${date}:${sub.id}:${topicId}:brak`,
-          subjectId: sub.id,
-          topicId,
-          reason: last ? `Ostatnie rozwiązane zadanie: ${last}.` : 'Brak rozwiązanych zadań z tego tematu.',
-        });
-      } else if (dropped(sub.id, topicId)) {
-        out.push({ id: `${date}:${sub.id}:${topicId}:spadek`, subjectId: sub.id, topicId, reason: 'Wynik spadł w ostatnich zadaniach.' });
-      }
-    }
-  }
-  return out;
+  n = 3,
+): PlanTask[] {
+  const ok = tasks.filter((t) => {
+    if (!t.image || t.subjectId !== subjectId || exclude.has(t.id) || t.essay) return false;
+    if (topicId && t.topics[0] !== topicId) return false;
+    const s = srs.get(t.id);
+    if (s?.status === 'zrobione') return false;
+    return !s?.lastDate || diffDays(date, s.lastDate) >= MIN_GAP;
+  });
+  const rank = (t: PlanTask) => {
+    const s = srs.get(t.id);
+    return s ? 1 + (s.lastPct ?? 0) / 100 : 0;
+  };
+  return ok.sort((a, b) => rank(a) - rank(b) || a.minutes - b.minutes || a.id.localeCompare(b.id)).slice(0, n);
+}
+
+export function subjectsWithPhase(date: string, enabled: Record<SubjectId, boolean>): { s: SubjectDef; phase: Phase }[] {
+  return SUBJECTS.filter((s) => enabled[s.id]).map((s) => ({ s, phase: phaseFor(s.examDate, date) }));
 }

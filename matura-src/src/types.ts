@@ -33,8 +33,20 @@ export interface Topic {
 
 // ---------- Arkusze CKE (data/exams.json) ----------
 
+/**
+ * Odpowiedź zadania zamkniętego (docs/kontrakt-danych.md). Każda pozycja to jedno pole wyboru
+ * na karcie odpowiedzi; `correct` pochodzi wyłącznie z zasad oceniania CKE (wersja A arkusza
+ * wariantu 100), null = nie odczytano.
+ */
+export interface ClosedAnswer {
+  items: { id: string; label: string | null; options: string[]; correct: string | null }[];
+  /** 'each' – 1 pkt za pozycję; 'all' – maxPoints tylko za komplet; mapa: liczba poprawnych → punkty. */
+  scoring: 'each' | 'all' | Record<string, number>;
+}
+
 export interface ExamTask {
-  nr: string; // „5” albo „6.1”
+  nr: string; // „5”, „6.1”; polski: „A1.5” (arkusz 1), „A2.1” (arkusz 2, temat 1); angielski: „5.1-5.3”
+  /** Po imporcie zawsze liczba; null tylko w danych bez importu PDF. */
   maxPoints: number | null;
   type: TaskType | null;
   topics: string[];
@@ -42,7 +54,12 @@ export interface ExamTask {
   proof: boolean | null;
   cases: boolean | null;
   page: number | null;
-  source: string;
+  source: string; // „ręcznie: …” = poprawione ręcznie, skrypt nie nadpisuje
+  answer?: ClosedAnswer | null; // tylko zamknięte; null = nie odczytano (opis w exams-issues.md)
+  context?: string | null; // klucz wspólnego materiału w ctx/ pakietu arkusza
+  audio?: { start: number | null; end: number | null } | null; // angielski, słuchanie; sekundy w mp3 arkusza
+  alternative?: string | null; // zadania do wyboru mają ten sam klucz; liczy się jedno
+  essay?: { minWords: number | null; maxWords: number | null; criteria: string } | null;
 }
 
 /** Grupa zadań, dla której znana jest tylko łączna punktacja. */
@@ -67,6 +84,10 @@ export interface Exam {
   tasks: ExamTask[];
   groups: ExamGroup[];
   sources: string[];
+  /** Nazwa pliku mp3 w pakiecie (`<id>.mp3`), tylko angielski. */
+  audio?: string | null;
+  /** Części egzaminu (polski: arkusz 1 i 2). minutes = null, gdy CKE podaje tylko łączny czas. */
+  parts?: { id: string; name: string; minutes: number | null; maxPoints?: number | null; tasks: string[] }[];
 }
 
 export interface ExamsFile {

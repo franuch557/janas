@@ -1,4 +1,12 @@
-import type { Exam, Topic, WeightMode } from '../types';
+import type { Topic, WeightMode } from '../types';
+
+/** Minimum danych arkusza potrzebne do wag (pasuje do Exam i CkeExam). */
+export interface WeightExam {
+  id: string;
+  year: number;
+  tasks: { nr: string; maxPoints: number | null; topics: string[]; type: string | null; alternative?: string | null }[];
+  groups?: { tasks: string[]; points: number; topics: string[] }[];
+}
 
 export interface TopicStat {
   topicId: string;
@@ -23,29 +31,33 @@ interface Contribution {
   isTask: boolean;
 }
 
-function contributions(exams: Exam[]): Contribution[] {
+function contributions(exams: WeightExam[]): Contribution[] {
   const out: Contribution[] = [];
   for (const e of exams) {
-    const grouped = new Set(e.groups.flatMap((g) => g.tasks));
-    for (const g of e.groups) {
+    const groups = e.groups ?? [];
+    const grouped = new Set(groups.flatMap((g) => g.tasks));
+    // zadania do wyboru (ten sam klucz alternative) liczą się razem jak jedno
+    const altSize = new Map<string, number>();
+    for (const t of e.tasks) if (t.alternative) altSize.set(t.alternative, (altSize.get(t.alternative) ?? 0) + 1);
+    for (const g of groups) {
       if (g.topics.length === 0) continue;
       const each = g.points / g.topics.length;
       for (const topicId of g.topics) out.push({ examId: e.id, year: e.year, topicId, points: each, type: 'nieznany', isTask: false });
     }
     for (const t of e.tasks) {
       if (grouped.has(t.nr) || t.maxPoints == null || t.topics.length === 0) continue;
-      const each = t.maxPoints / t.topics.length;
-      for (const topicId of t.topics)
-        out.push({ examId: e.id, year: e.year, topicId, points: each, type: t.type ?? 'nieznany', isTask: true });
+      const each = t.maxPoints / t.topics.length / (t.alternative ? altSize.get(t.alternative) ?? 1 : 1);
+      const type: Contribution['type'] = t.type === 'zamknięte' || t.type === 'otwarte' ? t.type : 'nieznany';
+      for (const topicId of t.topics) out.push({ examId: e.id, year: e.year, topicId, points: each, type, isTask: true });
     }
   }
   return out;
 }
 
 /** Statystyki tematów z arkuszy w zakresie. Punkty zadania z kilkoma tematami dzielę po równo. */
-export function topicStats(allExams: Exam[], topics: Topic[]): TopicStat[] {
+export function topicStats(allExams: WeightExam[], topics: Topic[]): TopicStat[] {
   // arkusze bez listy zadań i grup nie wchodzą do średnich ani do trendu
-  const exams = allExams.filter((e) => e.tasks.length > 0 || e.groups.length > 0);
+  const exams = allExams.filter((e) => e.tasks.length > 0 || (e.groups ?? []).length > 0);
   const contrib = contributions(exams);
   const total = contrib.reduce((s, c) => s + c.points, 0);
   const years = [...new Set(exams.map((e) => e.year))].sort((a, b) => a - b);

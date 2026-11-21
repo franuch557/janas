@@ -1,10 +1,11 @@
-# Matura 2027: plan nauki
+# Matura 2027: aplikacja do nauki
 
-Aplikacja webowa po polsku do przygotowania do matury 2027 z matematyki
-(poziom podstawowy i rozszerzony), języka polskiego i języka angielskiego.
-Sprawdza wiedzę diagnozą, codziennie podaje konkretne zadania z banku,
-planuje powtórki i arkusze próbne oraz pokazuje postęp. Działa bez konta,
-dane są tylko w przeglądarce.
+Aplikacja po polsku do przygotowania do matury 2027: matematyka podstawowa
+(5 maja), matematyka rozszerzona (11 maja), język polski podstawowy (4 maja)
+i język angielski podstawowy (6 maja). Uczeń rozwiązuje prawdziwe zadania
+z arkuszy CKE 2023–2026 jako obrazy, zamknięte sprawdzają się same, otwarte
+porównuje z obrazem z zasad oceniania. Plan dnia proponuje aplikacja, a uczeń
+może go zmieniać. Działa jako artefakt claude.ai z synchronizacją telefon–komputer.
 
 ## Uruchomienie
 
@@ -13,165 +14,150 @@ Wymagany Node.js 20 lub nowszy.
 ```bash
 cd matura-src
 npm install
-npm run dev        # http://localhost:5173
-npm test           # testy logiki (Vitest)
-npm run build      # wersja do publikacji w katalogu ../matura
+npm run cke:pakiet        # obrazy zadań i nagrania do public/cke/ (z cke-obrazy/ i cke-pdf/)
+npm run dev               # http://localhost:5173
+npm test                  # testy logiki (Vitest)
+npx tsc --noEmit          # sprawdzenie typów
+npm run build:jeden-plik  # artefakt: dist-jeden-plik/matura2027.html
 ```
 
-`npm run build` zapisuje stronę do katalogu `matura/` w głównym katalogu
-repozytorium, z adresem bazowym `/janas/matura/`. Po scaleniu z gałęzią
-`main` GitHub Pages pokaże ją pod `https://franuch557.github.io/janas/matura/`.
-Strona nie ładuje nic z zewnątrz: fonty (Source Serif 4, Source Sans 3)
-i KaTeX są w buildzie. Po pierwszym wczytaniu działa także bez internetu,
-dopóki przeglądarka trzyma pliki w pamięci podręcznej (nie ma service workera).
+Bez pakietu `public/cke/` aplikacja działa, ale pokazuje „Ładowanie zadań…”,
+a przy błędzie sieci baner z przyciskiem „Spróbuj ponownie”. Zadanie bez
+obrazu nie trafia do planu ani do banku.
 
-Do sprawdzania planu na inny dzień: `http://localhost:5173/?dzis=2027-04-05`.
+Plan na inny dzień: `http://localhost:5173/?dzis=2027-04-05`.
 
-Przykładowe dane: Ustawienia → Przykładowe dane. To odwołania do stron
-z zadaniami w książce „Jak zdać maturę. Matematyka rozszerzona 2027”
-(ze spisu treści) i opcjonalnie przykładowe wyniki do obejrzenia wykresów.
-Wszystkie mają identyfikator `demo-…` i usuwa je jeden przycisk.
+Testy w przeglądarce: `E2E_SKIP_BUILD=1 node tools/e2e-z-serwerem.mjs` (uruchamia
+serwer Vite na porcie 5191 i zamyka go po testach; samo `npm run e2e` wymaga
+działającego serwera na tym porcie, inaczej proces pierwszego pliku się nie kończy).
+
+Zrzuty ekranu (Playwright, 390 px i 1280 px, jasny i ciemny):
+`node tools/zrzuty.mjs <katalog> [filtr]`. Skrypt sam uruchamia serwer Vite
+i wstrzykuje stan ucznia do localStorage.
 
 ## Widoki
 
-| Widok | Co robi |
+Nawigacja: Start, Plan, Zadania, Arkusze, Postęp (dolny pasek na telefonie,
+pasek boczny od 720 px) i Ustawienia. Zadanie, arkusz, diagnoza i wypracowanie
+otwierają się w trybie skupienia bez nawigacji.
+
+| Widok (adres) | Co robi |
 |---|---|
-| Dziś | Zadania dnia z checkboxem, stoper (start, pauza, stop), wynik w punktach albo procentach, typ błędu i notatka. Wynik aktualizuje bank, wagi i powtórki. |
-| Plan | Tydzień jako siedem kolumn. Dni minione pokazują zapis, przyszłe są przeliczane. |
-| Diagnoza | Test z zadań z banku albo samoocena 1–5. Historia diagnoz. |
-| Zadania z tematu | Przedmiot → temat → lista z filtrami. Dodawanie zadań, zrzuty ekranu, import linków. |
-| Arkusze próbne | Arkusz CKE z bazy albo zestaw z banku. Odliczanie, punkty, rozbicie na tematy, zadania do powtórki. |
-| Postęp | Prognoza z zakresem niepewności, wykres wyników, mapa tematów, punkty rekrutacyjne, propozycje zmian wag. |
-| Dziennik błędów | Wpisy z typem błędu. Dwa błędy koncepcyjne w temacie w 30 dni podnoszą jego priorytet. |
-| Analiza | Punkty tematów z arkuszy w zakresie lat, trend, średnie, wagi i wagi ręczne. |
-| Ustawienia | Daty, przedmioty, tydzień, zajęcia, korepetycje, limity, motyw, rekrutacja, eksport i import. |
+| Start (`#start`) | Dni do każdego egzaminu, taśma dni, seria, prognoza (po diagnozie), plan na dziś z „Zacznij naukę”, zamianą, przeniesieniem na jutro i usunięciem z cofnięciem. Baner przypomnienia po ustawionej godzinie. |
+| Plan (`#plan`) | Tydzień: lista dni na telefonie, siatka 7 kolumn na komputerze. Tryb edycji: wyżej, niżej, zamień, na jutro, usuń, dodaj zadanie, „Przelicz plan od dziś”. |
+| Zadania (`#zadania`, `#zadania-mat-r-logarytmy`) | Przedmiot → temat → lista z filtrami, wyszukiwanie po temacie, roku i numerze, „Ćwicz ten temat”, „Dodaj do planu”, „Dodaj zadanie” (link i zrzut ekranu z zadania.info). |
+| Zadanie (`#zadanie-<id>`) | Kartka z obrazem CKE (powiększanie), karta odpowiedzi A–D / P/F z automatycznym sprawdzeniem według `answer.scoring`, „Pokaż odpowiedź” z obrazem z zasad oceniania, samoocena 0..max dla otwartych, stoper, odtwarzacz nagrania. |
+| Arkusze (`#arkusze`, `#arkusz-<id>`) | Pełne arkusze CKE: odliczanie, spis zadań, oznaczanie do powrotu, zapis postępu, po zakończeniu samoocena otwartych i wynik „X z Y, ocenione A z B”, czas z sekundami. Polski: dwie części. |
+| Diagnoza (`#diagnoza-mat-p`) | 6–12 zadań CKE z różnych tematów, ok. 30 min, ekran arkusza z odliczaniem, wynik na temat. |
+| Wypracowanie (`#wypracowanie-<id>`) | Temat z obrazu CKE, pole pisania, licznik słów jak CKE z minimum z danych, autozapis co 5 s, stoper, samoocena według `data/kryteria.json`. |
+| Postęp (`#postep`) | Seria, liczba zadań, czas nauki, wykres prognozy, tematy, do powtórki, historia arkuszy, diagnoz i wypracowań, szacunek punktów rekrutacyjnych. |
+| Ustawienia (`#ustawienia`) | Przedmioty, minuty nauki w każdym dniu, daty egzaminów, korepetycje (sobota 15:15–16:15), przypomnienie (domyślnie 18:00), motyw, rozmiar tekstu, synchronizacja, kopia, usunięcie danych. |
+| Pierwsze uruchomienie (`#powitanie`) | Cztery kroki: przedmioty, czas nauki (domyślnie 45 min pn–pt, 90 min w weekend), przypomnienie, diagnoza. |
 
 ## Jak działa plan
 
-- **Czas dnia**: okna godzin dla każdego dnia tygodnia, przycięte do godzin
-  dozwolonych (domyślnie 6:00–22:00). Korepetycje (sobota 15:15, 60 min)
-  odejmują pełny czas trwania. Inne zajęcia odejmują część wspólną z oknem.
-- **Fazy** (osobno dla każdego przedmiotu): do 31 marca nowe tematy, od 1 do 30
-  kwietnia powtórka całości (każdy temat co najmniej raz w tygodniu, najpierw
-  najsłabsze wyniki), od 1 maja arkusz co dwa dni i przegląd błędów, wzorów
-  i schematów. Dzień przed egzaminem tylko przegląd. Daty są w ustawieniach.
-- **Diagnozy** na start: po jednej dziennie, od przedmiotu o największej ważności.
-- **Arkusz próbny** w fazach 1 i 2 raz w tygodniu, w dniu z największą ilością
-  czasu, przedmioty po kolei. Arkusz, który się nie mieści, jest opisany w notatce dnia.
-- **Zadania dnia**: najpierw powtórki z terminem na dziś, potem tematy według
-  priorytetu. Suma minut nie przekracza czasu dnia; to, co się nie mieści,
-  jest w sekcji „Przesunięte”.
-- **Priorytet tematu** = waga z arkuszy × (1,5 − biegłość) × (1 + błędy
-  koncepcyjne). Biegłość to średnia trzech ostatnich wyników. Waga ręczna
-  zastępuje wyliczoną.
-- **Powtórki**: odstęp 1, 3, 7 albo 14 dni zależnie od wyniku (< 50%, 50–69%,
-  70–89%, ≥ 90%). Zadanie z wynikiem ≥ 90% po powtórce 14-dniowej jest zrobione.
-- **Przeliczanie**: każda zmiana ustawień przelicza plan od dziś. Dzień,
-  w którym zapisano wynik albo kliknięto „Zatwierdź plan dnia”, zostaje bez zmian.
-- **Opuszczony dzień**: domyślnie plan przelicza się sam (niezrobione zadania
-  wracają). Do wyboru lista zaległych albo pytanie za każdym razem.
-- **Notatka z korepetycji** (opcja w ustawieniach) trafia do banku i zmniejsza
-  ilość angielskiego w dniach od piątku do niedzieli.
+Kod: `src/logic/planner.ts`, testy: `tests/planner.test.ts`.
 
-## Struktura danych
+- **Fazy** każdego przedmiotu liczone od daty jego egzaminu: nowe tematy do
+  70 dni przed egzaminem, potem powtórka całości z arkuszem raz w tygodniu,
+  od 21 dni przed egzaminem arkusz co kilka dni, dzień przed egzaminem przegląd
+  tylko tego przedmiotu. W dniu egzaminu nie ma innych zadań.
+- **Tylko to, co da się zrobić**: zadania z obrazem, pełne arkusze z pakietem,
+  diagnoza, gdy da się złożyć co najmniej 6 zadań. Przedmiot bez zadań aplikacja
+  nazywa wprost („Polski: brak zadań, plan go pomija”).
+- **Bez powtarzania**: to samo zadanie najwyżej co 3 dni; po słabym wyniku
+  powtórka tematu innym zadaniem; arkusz nie wraca, dopóki są nierozwiązane.
+  Polski arkusz jest dzielony na arkusz 1 i arkusz 2 w osobne dni.
+- **Priorytet tematu** = waga z punktów CKE × (1,5 − biegłość) × (1 + premia za
+  powtarzające się słabe wyniki). Biegłość to punkty z sześciu ostatnich wyników.
+- **Powtórki** co 1, 3, 7 albo 14 dni zależnie od wyniku.
+- **Ręczne zmiany** (usuń, dodaj, zamień, na jutro, kolejność) są nadpisaniami
+  dnia (`stan.overrides`); planer stosuje je przy każdym przeliczeniu jako
+  edycję gotowego dnia: pozycje automatyczne liczą się bez nadpisań, więc
+  zamiana zmienia tylko jedną pozycję, a usunięcie niczego nie dokłada.
+- **Wyczerpana pula**: gdy przedmiot nie ma nowych zadań, wracają zadania
+  zrobione najdawniej; w ostatnich tygodniach może wrócić najdawniej robiony arkusz.
+  Dzisiejsza lista liczy się ze stanu sprzed dziś, więc nie zmienia się
+  w trakcie dnia; wykonane pozycje odhaczają się po zdarzeniach z dzisiejszą datą.
+- **Prognoza** pojawia się po diagnozie albo przy co najmniej 8 wynikach
+  z tematów o łącznej wadze 40%.
 
-Stan aplikacji to jeden obiekt JSON w `localStorage` pod kluczem
-`matura2027-stan` (typ `AppState` w `src/types.ts`). Obrazy zadań są w
-IndexedDB (`matura2027-obrazy`), bo nie mieszczą się w `localStorage`.
+## Zapis i synchronizacja
 
-| Pole | Zawartość |
-|---|---|
-| `settings` | przedmioty z datami i celami, daty faz, zakres lat, okna tygodnia, zajęcia, limity, tryb wag, wagi ręczne, motyw, rekrutacja |
-| `bank` | zadania: przedmiot, źródło, adres lub strona, identyfikator, temat, typ, trudność, czas wzorcowy, status, data i wynik, termin powtórki, notatka, obraz, historia wyników |
-| `diagnoses` | diagnozy (test albo samoocena) z wynikiem na temat; wszystkie zostają w historii |
-| `dayLog` | zapisane dni: lista pozycji i wyniki; dzień zamrożony nie zmienia się |
-| `mocks` | arkusze próbne z punktami za zadania |
-| `errors` | dziennik błędów |
-| `lessonNotes`, `backlog`, `missedHandled`, `weightSuggestionsSeen` | notatki z korepetycji, zaległe zadania, obsłużone dni, pominięte propozycje wag |
+Szczegóły: `docs/kontrakt-danych.md`, kod: `src/store/`.
 
-### `data/exams.json`
+- Artefakt deklaruje `capabilities: { db: {}, user: {}, downloads: {} }` (`downloads` służy
+  tylko do „Eksportuj kopię”; bez niej przycisku nie ma). Dokumenty ucznia
+  są w `data/users/<id>/`: `stan`, `wyniki-RRRR-MM` (zdarzenia), `sesja-<id>`
+  (trwający arkusz, diagnoza, wypracowanie), `wypracowania`, `obraz-<id>`
+  (zrzuty ekranu, JPEG ≤ 150 KB). Każdy dokument ≤ 256 KiB (wyniki dzielone
+  na części, gdy miesiąc jest duży).
+- Jedna subskrypcja `onSnapshot` na kolekcję ucznia (bez obrazów). Zapis tylko
+  po zmianie, jeden naraz na dokument, po krótkiej przerwie; przed pierwszą
+  odpowiedzią serwera nic nie jest zapisywane. Po 10 s bez odpowiedzi
+  aplikacja pokazuje stan offline.
+- Wynik zadania to zdarzenie z id; cofnięcie to osobne zdarzenie. Wyniki zadań
+  z arkusza mają pole `sev` (zdarzenie zakończenia), więc ponowne zakończenie
+  („Oceń pozostałe”) cofa tylko stary komplet. Scalanie: zdarzenia po id, sesje
+  według `updatedAt`, a `stan` po polach (`fieldAt`): ustawienia według czasu
+  zmiany pola, nadpisania planu według dnia (pole `at`, usunięty dzień zostaje
+  pustym wpisem), zadania własne jako suma po id, `resetAt` jako maksimum. „Usuń wszystkie dane”
+  zapisuje `resetAt`, więc stare wyniki nie wracają z drugiego urządzenia.
+- Decyzja o ekranie powitania zapada dopiero po pierwszej odpowiedzi serwera
+  (albo po 10 s / bez chmury), żeby drugie urządzenie dostało stan z pierwszego.
+- Błędy zapisu: utrata dostępu (`revoked`, `not_granted`) przełącza na zapis
+  lokalny do końca wizyty; dokument odrzucony (`invalid_argument`, `quota_exceeded`)
+  nie jest ponawiany do „Spróbuj ponownie”; `resource_exhausted` – ponowienie
+  z rosnącą przerwą.
+- Zrzuty ekranu zadań własnych: localStorage, a gdy pełny – IndexedDB; pełna
+  pamięć przeglądarki pokazuje baner.
+- Kopia w `localStorage` (`matura2027-v3`) zawsze; poza artefaktem (`db` = null)
+  to jedyny zapis. Każdy dostęp do `localStorage` jest w try/catch.
+- Wskaźnik w nagłówku i pasku bocznym: chmura („Zapisano 2 min temu”),
+  urządzenie (zapis lokalny), chmura w czerwieni i baner przy błędzie.
 
-Każdy arkusz: `id` (kod CKE), `family`, `level`, `year`, `session`,
-`formula`, `maxPoints`, `minutes`, `urls` (arkusz, zasady), `status`
-(`pełny`, `częściowy`, `tylko metadane`), `tasks`, `groups`, `sources`.
-Każde zadanie: `nr` (np. `6.1`; w polskim `A1.5` i `A2.1` dla arkuszy 1 i 2),
-`maxPoints`, `type` (`zamknięte`, `otwarte`), `topics`, `summary` (początek
-polecenia), `proof`, `cases`, `page`, `source`. `groups` to zadania, dla
-których znana jest tylko łączna punktacja. `null` znaczy: brak danych
-w sprawdzonym źródle. `data/exams-issues.md` zawiera rozbieżności i braki
-(`npm run validate`).
+## Artefakt claude.ai
 
-Taksonomia tematów: `src/data/taxonomy.ts`. Spis treści książki z przypisaniem
-tematów do stron: `src/data/book.ts`.
+`npm run build:jeden-plik` buduje `dist-jeden-plik/matura2027.html`: jeden plik
+z JS, CSS, fontem Atkinson Hyperlegible Next (data URI) i danymi
+`exams.json` i `kryteria.json`. Plik nie ma `<!doctype>`, `<html>`, `<head>`
+ani `<body>`: zaczyna się od `<title>Matura 2027</title>` i
+`<meta name="claude:viewport-fit-sides" content="cover">`.
 
-## Import arkuszy CKE
+Lista pakietów z `public/cke/` jest wbudowywana przy budowaniu (wtyczka
+`virtual:cke-manifest` w `vite.config.ts`), więc aplikacja nie sprawdza każdego
+arkusza osobnym żądaniem; w pamięci trzyma najwyżej 3 pakiety.
 
-W tej sesji pobieranie z cke.gov.pl zostało zablokowane, a `robots.txt`
-serwisu CKE zabrania automatycznego przeglądania. Dlatego `exams.json`
-zawiera tylko metadane (lata 2023–2026, maksima punktów, czasy, adresy
-plików, które widziałem) i rozkład punktów arkusza rozszerzonego 2025
-z założeń projektu. Pełne dane powstają z plików PDF, które pobierasz sam:
+Obrazy zadań i nagrania nie są w pliku. Aplikacja pobiera je adresem względnym
+`cke/<examId>.json` i `cke/<examId>.mp3`, więc pliki z `public/cke/` trzeba
+opublikować obok strony (w artefakcie jako `files` pod ścieżkami `cke/…`).
+Routing wyłącznie przez `location.hash` (`#start`, `#zadanie-MMAP-R0-100-2505-n6-1`),
+bez `alert`, `confirm`, `print`; dźwięk tylko po kliknięciu.
 
-1. Otwórz stronę „Arkusze” formuły 2023 na cke.gov.pl i pobierz dla każdego
-   roku arkusz i zasady oceniania w wariancie 100, np.
-   `MMAP-R0-100-A-2505-arkusz.pdf` i `MMAP-R0-100-2505-zasady.pdf`.
-   Adresy plików z 2026 r. są w `scripts/cke-2026-adresy.txt`.
-   Nie zmieniaj nazw plików.
-2. Zapisz je w jednym katalogu, np. `matura-src/cke-pdf/` (jest w `.gitignore`).
-3. Uruchom:
-   ```bash
-   npm run import-cke -- cke-pdf
-   npm run import-cke -- cke-pdf --obrazy   # także wycinki zadań (wymaga pdftoppm z pakietu poppler)
-   ```
-4. Skrypt dopisze zadania z punktacją z nagłówków „Zadanie N. (0–k)”, typ,
-   dowód, tematy z listy słów kluczowych, początek polecenia i numer strony.
-   Tematy i „rozważenie przypadków” rozpoznaje automatycznie: sprawdź je
-   i popraw w `exams.json`. Żeby skrypt nie nadpisał poprawki, zacznij pole
-   `source` zadania od słowa `ręcznie`.
-5. Sprawdź `data/exams-issues.md`, a potem uruchom `npm test` (test
-   referencyjny arkusza 2025 nadal musi przechodzić) i `npm run build`.
-6. Z opcją `--obrazy` powstaje `cke-obrazy.zip`. Zaimportuj go w aplikacji:
-   Ustawienia → Dane → Obrazy arkuszy CKE. Obrazy nie trafiają do
-   repozytorium, bo strona jest publiczna, a nie sprawdziłem zasad
-   ponownego publikowania fragmentów arkuszy.
+`npm run build` buduje też zwykłą stronę do `../matura/` (GitHub Pages).
 
-## Dodawanie zadań
+## Dodawanie zadań z zadania.info
 
-Aplikacja nie tworzy treści zadań ani odpowiedzi.
+Aplikacja niczego nie pobiera z zadania.info. W banku „Dodaj zadanie”: wklejony
+link (numer zadania z adresu), zrzut ekranu (Ctrl+V albo wybór pliku), treść
+z dopiskiem „Materiał pobrany z portalu zadania.info”. Zadanie bez zrzutu
+i bez treści się nie zapisze; do planu trafiają tylko zadania ze zrzutem.
 
-- **zadania.info.** Regulamin serwisu (z 3 lipca 2025) zabrania pobierania
-  zawartości bazy, a `robots.txt` wyklucza boty AI z całego serwisu. Dlatego
-  aplikacja nic stamtąd nie pobiera. Możesz:
-  - wkleić adres zadania (Zadania z tematu → Dodaj zadanie). Numer zadania
-    aplikacja odczyta z adresu;
-  - wkleić zrzut ekranu (Ctrl+V w formularzu albo wybór pliku);
-  - wkleić listę adresów albo wybrać zapisaną w przeglądarce stronę działu
-    (plik HTML). Aplikacja odczyta tylko adresy, które są w tekście;
-  - wkleić treść zadania. Aplikacja dopisze „Materiał pobrany z portalu
-    zadania.info”, bo treści zadań są na licencji CC BY-SA 4.0.
-- **Książka.** Wybierz źródło „książka” i wpisz numer strony. Aplikacja pokaże
-  dział i podrozdział ze spisu treści i zaproponuje temat.
-- **Własne.** Dowolny opis, adres, zrzut ekranu albo treść (wzory w `$…$`).
-
-## Eksport i import danych
-
-Ustawienia → Dane → Eksportuj do pliku zapisuje cały stan, opcjonalnie
-z obrazami, do pliku `matura2027-RRRR-MM-DD.json`. Import zastępuje wszystkie
-dane w przeglądarce. Telefon i komputer mają osobne dane, więc przenoś je
-tym plikiem.
-
-## Struktura katalogów
+## Struktura
 
 ```
 matura-src/
-  data/exams.json, data/exams-issues.md   dane arkuszy i rozbieżności
-  scripts/                                import PDF, walidacja, generator metadanych
-  src/logic/                              planer, wagi, diagnoza, powtórki, prognoza (bez React)
-  src/store/                              stan, zapis, bank, obrazy, akcje
-  src/views/, src/components/             widoki i wykresy SVG
-  tests/                                  testy Vitest
-  docs/plan-wizualny.md                   paleta, typografia, zarys widoków
-  docs/niezweryfikowane.md                lista rzeczy niesprawdzonych
-../research/aplikacje.md                  analiza istniejących narzędzi (etap 1)
-../matura/                                zbudowana strona (npm run build)
+  data/exams.json, data/kryteria.json  arkusze CKE i kryteria (agent danych)
+  public/cke/                          pakiet obrazów i nagrań (npm run cke:pakiet, poza repozytorium)
+  scripts/                             import PDF, pakiet, walidacja
+  tools/jeden-plik.mjs                 składanie pliku artefaktu
+  tools/zrzuty.mjs                     zrzuty ekranu Playwrightem
+  src/model.ts                         typy stanu ucznia, zdarzeń, sesji, planu
+  src/logic/                           planer, wagi, powtórki, biegłość, diagnoza,
+                                       sprawdzanie i wynik arkusza, sesje, formaty
+  src/store/                           katalog, stan, scalanie, synchronizacja db, localStorage
+  src/ui/                              komponenty: kartka CKE, karta A–D, odtwarzacz, router
+  src/views/                           ekrany
+  tests/                               testy Vitest
+  docs/projekt-v3.md                   projekt wyglądu
 ```

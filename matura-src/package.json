@@ -10,24 +10,27 @@
     "test": "vitest run",
     "import-cke": "node scripts/import-cke.mjs",
     "validate": "node scripts/validate-exams.mjs",
-    "build:jeden-plik": "tsc --noEmit && vite build --mode jeden-plik && node scripts/single-file.mjs",
-    "embed-images": "node scripts/embed-images.mjs"
+    "build:jeden-plik": "tsc --noEmit && vite build --mode jeden-plik && node tools/jeden-plik.mjs",
+    "embed-images": "node scripts/embed-images.mjs",
+    "cke:pakiet": "node scripts/cke-pakiet.mjs",
+    "e2e": "node --test --test-concurrency=1 --test-timeout=600000 tests-e2e/*.e2e.mjs"
   },
   "dependencies": {
-    "@fontsource/source-sans-3": "^5.1.0",
-    "@fontsource/source-serif-4": "^5.1.0",
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
     "fflate": "^0.8.2",
     "katex": "^0.16.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@napi-rs/canvas": "^0.1.70",
     "@types/katex": "^0.16.7",
     "@types/node": "^20.17.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
-    "pdfjs-dist": "^4.8.69",
+    "pdfjs-dist": "^5.3.31",
+    "playwright": "1.49.1",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
     "vitest": "^2.1.8"

@@ -1,0 +1,42 @@
+[
+ {
+  "examId": "MMAP-P0-100-2305",
+  "text": "Zadanie 11: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
+ },
+ {
+  "examId": "MMAP-P0-100-2405",
+  "text": "Zadanie 18: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
+ },
+ {
+  "examId": "MPOP-P1-P2-2305",
+  "text": "Brak zasad oceniania dla arkusza MPOP-P1-100-2305.pdf: odpowiedzi zadań zamkniętych = null."
+ },
+ {
+  "examId": "MPOP-P1-P2-2305",
+  "text": "Zadanie A1.4: brak zasad oceniania: odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2305",
+  "text": "Zadanie A1.11: brak zasad oceniania: odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2305",
+  "text": "Zadanie A1.16.1: brak zasad oceniania: odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2305",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2405",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2505",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2605",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ }
+]

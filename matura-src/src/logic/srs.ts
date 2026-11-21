@@ -1,4 +1,3 @@
-import type { BankTask } from '../types';
 import { addDays } from './dates';
 
 /** Odstępy powtórek w dniach. */
@@ -19,26 +18,43 @@ export function stepFor(result: number): number {
   return INTERVALS.indexOf(intervalFor(result) as (typeof INTERVALS)[number]);
 }
 
+export type SrsStatus = 'nowe' | 'do powtórki' | 'zrobione';
+
+export interface SrsState {
+  status: SrsStatus;
+  step: number;
+  nextReview: string | null;
+  lastDate: string | null;
+  lastPct: number | null;
+  attempts: number;
+}
+
+export const NEW_SRS: SrsState = { status: 'nowe', step: 0, nextReview: null, lastDate: null, lastPct: null, attempts: 0 };
+
 /**
- * Zapis wyniku zadania. Zadanie z wynikiem od 90% po powtórce z odstępem
- * 14 dni uznaję za zrobione i nie planuję go dalej.
+ * Stan powtórki po kolejnym wyniku. Wynik od 90% po powtórce z odstępem
+ * 14 dni kończy zadanie: nie wraca już do planu.
  */
-export function applyResult(task: BankTask, result: number, date: string, minutes: number | null): BankTask {
-  const r = Math.max(0, Math.min(100, Math.round(result)));
-  const wasLongReview = task.reviewStep === 3 && task.history.length > 0;
-  const finished = r >= 90 && wasLongReview;
+export function nextSrs(prev: SrsState, pct: number, date: string): SrsState {
+  const r = Math.max(0, Math.min(100, Math.round(pct)));
+  const finished = r >= 90 && prev.step === 3 && prev.attempts > 0;
   const step = stepFor(r);
   return {
-    ...task,
-    result: r,
-    lastSolved: date,
     status: finished ? 'zrobione' : 'do powtórki',
-    reviewStep: step,
+    step,
     nextReview: finished ? null : addDays(date, INTERVALS[step]),
-    history: [...task.history, { date, result: r, minutes }],
+    lastDate: date,
+    lastPct: r,
+    attempts: prev.attempts + 1,
   };
 }
 
-export function isDue(task: BankTask, date: string): boolean {
-  return task.status === 'do powtórki' && task.nextReview != null && task.nextReview <= date;
+export function srsFromHistory(history: { d: string; pct: number }[]): SrsState {
+  let s = NEW_SRS;
+  for (const h of history) s = nextSrs(s, h.pct, h.d);
+  return s;
+}
+
+export function isDue(s: SrsState, date: string): boolean {
+  return s.status === 'do powtórki' && s.nextReview != null && s.nextReview <= date;
 }

@@ -1,0 +1,206 @@
+{
+ "_opis": "Kryteria samooceny odczytane z zasad oceniania CKE 2025 i 2026 (MPOP-P2-100-2505/2605-zasady.pdf, MJAP-P0-100-200-660-2505/2605-zasady.pdf). Opisy to krótkie streszczenia, nie cytaty; pełne brzmienie w zasadach oceniania.",
+ "pol-2023": {
+  "name": "Wypracowanie – język polski, poziom podstawowy (formuła 2023)",
+  "max": 35,
+  "source": "MPOP-P2-100-2505-zasady.pdf, MPOP-P2-100-2605-zasady.pdf (struktura kryteriów taka sama w obu latach)",
+  "notes": [
+   "0 pkt w kryterium 1 oznacza 0 pkt we wszystkich pozostałych kryteriach.",
+   "0 pkt w kryterium 2 (po odjęciu punktów za błędy rzeczowe) oznacza 0 pkt w kryteriach 3 i 4.",
+   "Praca krótsza niż 300 wyrazów jest oceniana tylko w kryteriach 1 i 2."
+  ],
+  "groups": [
+   {
+    "name": "1. Spełnienie formalnych warunków polecenia",
+    "criteria": [
+     {
+      "id": "formalne",
+      "name": "Spełnienie formalnych warunków polecenia",
+      "max": 1,
+      "values": [
+       0,
+       1
+      ],
+      "description": "Brak błędu kardynalnego, odwołanie do lektury obowiązkowej z listy, praca przynajmniej częściowo na temat i przynajmniej częściowo argumentacyjna."
+     }
+    ]
+   },
+   {
+    "name": "2. Kompetencje literackie i kulturowe",
+    "criteria": [
+     {
+      "id": "kompetencje",
+      "name": "Kompetencje literackie i kulturowe",
+      "max": 16,
+      "values": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16
+      ],
+      "description": "Funkcjonalne wykorzystanie lektury obowiązkowej, innego utworu literackiego i dwóch kontekstów; poziom argumentacji i erudycja. Za każdy błąd rzeczowy odejmuje się 1 pkt."
+     }
+    ]
+   },
+   {
+    "name": "3. Kompozycja wypowiedzi: struktura, spójność i styl",
+    "criteria": [
+     {
+      "id": "struktura",
+      "name": "3a. Struktura wypowiedzi",
+      "max": 3,
+      "values": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "description": "Podział na wstęp, część zasadniczą i zakończenie oraz struktura akapitów."
+     },
+     {
+      "id": "spojnosc",
+      "name": "3b. Spójność wypowiedzi",
+      "max": 3,
+      "values": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "description": "Logika i uporządkowanie wywodu w akapitach i między nimi, spójność wstępu z częścią zasadniczą."
+     },
+     {
+      "id": "styl",
+      "name": "3c. Styl wypowiedzi",
+      "max": 1,
+      "values": [
+       0,
+       1
+      ],
+      "description": "Styl stosowny do formy pisanej i sytuacji komunikacyjnej, jednorodny albo funkcjonalnie zróżnicowany."
+     }
+    ]
+   },
+   {
+    "name": "4. Język wypowiedzi",
+    "criteria": [
+     {
+      "id": "jezyk",
+      "name": "4a. Zakres i poprawność środków językowych",
+      "max": 7,
+      "values": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7
+      ],
+      "description": "Zakres składni i leksyki (szeroki, zadowalający, wąski) zestawiony z liczbą błędów językowych w tabeli zasad."
+     },
+     {
+      "id": "ortografia",
+      "name": "4b. Poprawność ortograficzna",
+      "max": 2,
+      "values": [
+       0,
+       1,
+       2
+      ],
+      "description": "Liczba błędów ortograficznych."
+     },
+     {
+      "id": "interpunkcja",
+      "name": "4c. Poprawność interpunkcyjna",
+      "max": 2,
+      "values": [
+       0,
+       1,
+       2
+      ],
+      "description": "Liczba błędów interpunkcyjnych."
+     }
+    ]
+   }
+  ]
+ },
+ "ang-pp-2023": {
+  "name": "Wypowiedź pisemna – język angielski, poziom podstawowy (formuła 2023)",
+  "max": 12,
+  "source": "MJAP-P0-100-200-660-2505_MJAU-P0-100-2505-zasady.pdf, MJAP-P0-100-200-660-2605-zasady.pdf; punktacja kryteriów także w poleceniu zadania 12 arkusza",
+  "notes": [
+   "0 pkt w kryterium treści oznacza 0 pkt we wszystkich pozostałych kryteriach.",
+   "Długość wypowiedzi podaje polecenie (2023–2024: 80–130 wyrazów, 2025–2026: 100–150 wyrazów)."
+  ],
+  "groups": [
+   {
+    "name": "Kryteria",
+    "criteria": [
+     {
+      "id": "tresc",
+      "name": "Treść",
+      "max": 5,
+      "values": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5
+      ],
+      "description": "Do ilu z czterech podpunktów polecenia zdający się odniósł i ile z nich rozwinął (tabela w zasadach)."
+     },
+     {
+      "id": "spojnosc",
+      "name": "Spójność i logika wypowiedzi",
+      "max": 2,
+      "values": [
+       0,
+       1,
+       2
+      ],
+      "description": "Czy tekst jest klarowny i funkcjonuje jako całość; usterki w spójności i niejasne fragmenty obniżają ocenę."
+     },
+     {
+      "id": "zakres",
+      "name": "Zakres środków językowych",
+      "max": 3,
+      "values": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "description": "Zróżnicowanie słownictwa i struktur gramatycznych (od bardzo ograniczonego do szerokiego zakresu)."
+     },
+     {
+      "id": "poprawnosc",
+      "name": "Poprawność środków językowych",
+      "max": 2,
+      "values": [
+       0,
+       1,
+       2
+      ],
+      "description": "Liczba błędów językowych i ich wpływ na komunikację w stosunku do długości tekstu."
+     }
+    ]
+   }
+  ]
+ }
+}

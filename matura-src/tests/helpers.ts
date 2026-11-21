@@ -1,9 +1,37 @@
 // Dane testowe. Zadania mają sztuczne identyfikatory i nie udają prawdziwych zadań.
-import type { BankTask, Exam, ExamTask } from '../src/types';
-import { blankTask } from '../src/store/bank';
+import type { Exam, ExamTask } from '../src/types';
+import type { PlanTask } from '../src/logic/planner';
+import type { CkeTask } from '../src/logic/cke';
+import type { SubjectId } from '../src/model';
 
-export function task(over: Partial<BankTask> & { id: string; subjectId: string; topicId: string }): BankTask {
-  return { ...blankTask(over.subjectId, 'własne', over.topicId, 15), ...over };
+/** Zadanie do planera (z obrazem, chyba że podano inaczej). */
+export function planTask(id: string, subjectId: SubjectId, topic: string, over: Partial<PlanTask> = {}): PlanTask {
+  return { id, subjectId, topics: [topic], minutes: 10, essay: false, image: true, ...over };
+}
+
+/** Zadanie z katalogu CKE w postaci aplikacji. */
+export function ckeTask(id: string, over: Partial<CkeTask> = {}): CkeTask {
+  return {
+    id,
+    examId: 'E',
+    subjectId: 'mat-p',
+    nr: id,
+    maxPoints: 1,
+    type: 'otwarte',
+    auto: false,
+    answer: null,
+    topics: ['logarytmy'],
+    summary: null,
+    context: null,
+    audio: null,
+    alternative: null,
+    essay: null,
+    partId: null,
+    minutes: 4,
+    year: 2024,
+    session: 'maj',
+    ...over,
+  };
 }
 
 export function examTask(nr: string, maxPoints: number | null, topics: string[], type: ExamTask['type'] = 'otwarte'): ExamTask {

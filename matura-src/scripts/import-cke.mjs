@@ -1,136 +1,211 @@
 // Import arkuszy CKE z lokalnego katalogu PDF do data/exams.json.
 //
-// Użycie:  npm run import-cke -- <katalog z PDF> [--obrazy]
+// Użycie:  npm run import-cke -- <katalog z PDF> [--obrazy] [--tylko <examId>]
 //
-// Pliki muszą mieć oryginalne nazwy CKE, np. MMAP-R0-100-A-2505-arkusz.pdf,
-// MMAP-R0-100-2505-zasady.pdf. Importuję tylko wariant 100 (arkusze dostosowane
-// pomijam i wypisuję). Z opcją --obrazy skrypt wycina obraz każdego zadania
-// programem pdftoppm (pakiet poppler) i pakuje je do cke-obrazy.zip, który
-// importujesz w aplikacji: Ustawienia → Dane → Obrazy arkuszy.
-import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+// Pliki muszą mieć oryginalne nazwy CKE (np. MMAP-R0-100-A-2505-arkusz.pdf, MMAP-P0-100-2305.pdf,
+// MMAP-R0-100-2505-zasady.pdf, MJAP-P0-100-200-660-2505_MJAU-P0-100-2505-zasady.pdf, nagrania mp3).
+// Importuję tylko wariant 100 (arkusze dostosowane pomijam i wypisuję).
+//
+// Z opcją --obrazy skrypt wycina obraz każdego zadania (cke-obrazy/zad/<examId>/<nr>.jpg),
+// odpowiedzi z zasad oceniania (cke-obrazy/odp/…) i wspólnych materiałów (cke-obrazy/ctx/…).
+// Renderuje pdfjs-dist + @napi-rs/canvas, bez programów zewnętrznych. Pakiet dla aplikacji
+// tworzy potem `npm run cke:pakiet`.
+//
+// Poprawki ręczne: zadanie, którego pole `source` zaczyna się od „ręcznie”, zachowuje tematy
+// i opis. Tematy przejrzane ręcznie są w data/tematy-recznie.json, a struktury odpowiedzi
+// zamkniętych, których skrypt nie rozpoznaje sam, w data/odpowiedzi-recznie.json.
+import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
-import { execFileSync } from 'node:child_process';
-import { parseFileName, tasksFromPages, findMeta } from './cke-parse.mjs';
-import { issuesMarkdown } from './validate-exams.mjs';
+import { fileURLToPath } from 'node:url';
+import { parseFileName, planSheet, planRules, findMeta, isClosed, needsProof, needsCases, guessTopics, summarize } from './cke-parse.mjs';
+import { buildAnswer } from './cke-answers.mjs';
+import { issuesMarkdown, imagesLookup } from './validate-exams.mjs';
 
 const args = process.argv.slice(2);
-const dir = args.find((a) => !a.startsWith('--'));
+const dir = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--tylko');
 const withImages = args.includes('--obrazy');
+const only = args.includes('--tylko') ? args[args.indexOf('--tylko') + 1] : null;
 if (!dir || !existsSync(dir)) {
-  console.error('Błąd: podaj katalog z plikami PDF, np. npm run import-cke -- ~/Pobrane/cke');
+  console.error('Błąd: podaj katalog z plikami PDF, np. npm run import-cke -- cke-pdf');
   process.exit(1);
 }
 
-const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
+const { loadPdf, renderGray, cutFragment, composeJpeg } = await import('./cke-pdf.mjs');
+const { whiteouts } = await import('./cke-parse.mjs');
 
-async function readPages(file) {
-  const doc = await pdfjs.getDocument({ data: new Uint8Array(readFileSync(file)), useSystemFonts: true }).promise;
-  const pages = [];
-  for (let i = 1; i <= doc.numPages; i++) {
-    const page = await doc.getPage(i);
-    const vp = page.getViewport({ scale: 1 });
-    const content = await page.getTextContent();
-    // grupowanie elementów w linie po współrzędnej y
-    const rows = new Map();
-    for (const it of content.items) {
-      if (!('str' in it) || !it.str.trim()) continue;
-      const y = Math.round(vp.height - it.transform[5]);
-      const key = [...rows.keys()].find((k) => Math.abs(k - y) <= 2) ?? y;
-      if (!rows.has(key)) rows.set(key, []);
-      rows.get(key).push({ x: it.transform[4], s: it.str });
-    }
-    const lines = [...rows.entries()]
-      .sort((a, b) => a[0] - b[0])
-      .map(([y, parts]) => ({ y, text: parts.sort((a, b) => a.x - b.x).map((p) => p.s).join(' ').replace(/\s+/g, ' ').trim() }));
-    pages.push({ page: i, height: vp.height, width: vp.width, lines });
-  }
-  return pages;
-}
-
-const examsPath = new URL('../data/exams.json', import.meta.url);
+const root = fileURLToPath(new URL('../', import.meta.url));
+const examsPath = join(root, 'data/exams.json');
 const data = JSON.parse(readFileSync(examsPath, 'utf8'));
-const files = readdirSync(dir).filter((f) => f.toLowerCase().endsWith('.pdf'));
-const skipped = [];
-const imported = [];
-const crops = [];
+const readJson = (p, d) => (existsSync(join(root, p)) ? JSON.parse(readFileSync(join(root, p), 'utf8')) : d);
+const manualTopics = readJson('data/tematy-recznie.json', {});
+const manualAnswers = readJson('data/odpowiedzi-recznie.json', {});
+const audioTimes = readJson('data/audio-czasy.json', {});
 
-for (const f of files.sort()) {
+// ---------- pliki ----------
+const groups = new Map();
+const skipped = [];
+for (const f of readdirSync(dir).sort()) {
+  if (!/\.(pdf|mp3)$/i.test(f)) continue;
   const info = parseFileName(f);
   if (!info) { skipped.push(`${f}: nieznana nazwa pliku`); continue; }
   if (info.adapted) { skipped.push(`${f}: arkusz dostosowany (wariant ${info.variant})`); continue; }
-  if (info.year < 2023) { skipped.push(`${f}: rok ${info.year} przed formułą 2023 (import starej formuły nie jest obsługiwany)`); continue; }
-  const pages = await readPages(join(dir, f));
-  let e = data.exams.find((x) => x.id === info.examId);
+  if (info.year < 2023) { skipped.push(`${f}: rok ${info.year} przed formułą 2023`); continue; }
+  if (only && info.examId !== only) continue;
+  if (!groups.has(info.examId)) groups.set(info.examId, { info, arkusz: [], zasady: [], transkrypcja: [], nagranie: [] });
+  groups.get(info.examId)[info.kind].push({ file: join(dir, f), name: f, info });
+}
+
+const issues = []; // { examId, text }
+const report = [];
+const imgOut = join(root, 'cke-obrazy');
+let imgCount = 0;
+
+const sortNr = (a, b) => a.nr.localeCompare(b.nr, 'pl', { numeric: true });
+
+for (const [examId, g] of groups) {
+  const { info } = g;
+  let e = data.exams.find((x) => x.id === examId);
   if (!e) {
-    e = { id: info.examId, family: info.family, level: info.level, year: info.year, session: info.session ?? 'maj', formula: '2023',
+    e = { id: examId, family: info.family, level: info.level, year: info.year, session: info.session ?? 'maj', formula: '2023',
       maxPoints: null, minutes: null, urls: { arkusz: [], zasady: [] }, status: 'tylko metadane', tasks: [], groups: [], sources: [] };
     data.exams.push(e);
   }
-  const src = `PDF ${f} (import lokalny)`;
-  if (info.kind === 'arkusz') {
-    const meta = findMeta(pages);
-    if (meta.minutes && info.family !== 'polski') e.minutes = meta.minutes;
-    if (meta.maxPoints && info.family !== 'polski') e.maxPoints = meta.maxPoints;
-    const parsed = tasksFromPages(info, pages);
-    for (const t of parsed) {
-      const { _crop, ...task } = t;
-      const old = e.tasks.find((x) => x.nr === task.nr);
-      if (old && old.source.startsWith('ręcznie')) continue; // ręcznych poprawek nie nadpisuję
-      if (old) Object.assign(old, task); else e.tasks.push(task);
-      crops.push({ kind: 'zad', examId: e.id, nr: task.nr, file: join(dir, f), height: pages[_crop.page - 1].height, width: pages[_crop.page - 1].width, ..._crop });
-    }
-    if (parsed.length) {
-      // grupy z łączną punktacją zastępuje dokładna punktacja z arkusza;
-      // w polskim arkusz 1 zastępuje grupę testów, arkusz 2 grupę wypracowania
-      const marker = info.part === 2 ? 'pol-wyp-kompetencje' : 'pol-rozumienie';
-      e.groups = info.family === 'polski' ? e.groups.filter((g) => !g.topics.includes(marker)) : [];
-      e.status = e.groups.length ? 'częściowy' : 'pełny';
-    }
-    e.tasks.sort((a, b) => a.nr.localeCompare(b.nr, 'pl', { numeric: true }));
-    imported.push(`${f}: ${parsed.length} zadań${meta.maxPoints ? `, maks. ${meta.maxPoints} pkt` : ''}${meta.minutes ? `, ${meta.minutes} min` : ''}`);
-  } else {
-    // zasady oceniania: tylko porównanie punktacji
-    const parsed = tasksFromPages(info, pages);
-    for (const t of parsed) {
-      crops.push({ kind: 'odp', examId: e.id, nr: t.nr, file: join(dir, f), height: pages[t._crop.page - 1].height, width: pages[t._crop.page - 1].width, ...t._crop });
-      const ex = e.tasks.find((x) => x.nr === t.nr);
-      if (ex && ex.maxPoints != null && t.maxPoints != null && ex.maxPoints !== t.maxPoints) {
-        e.sources.push(`Rozbieżność: zad. ${t.nr} w arkuszu ${ex.maxPoints} pkt, w zasadach ${t.maxPoints} pkt`);
+  const issue = (text) => issues.push({ examId, text });
+  if (!g.arkusz.length) { issue('Brak PDF arkusza w katalogu importu.'); continue; }
+  const sheets = [];
+  for (const a of g.arkusz.sort((x, y) => x.info.part - y.info.part)) sheets.push({ ...a, pdf: await loadPdf(a.file) });
+  const rules = [];
+  for (const z of g.zasady.sort((x, y) => x.info.part - y.info.part)) rules.push({ ...z, pdf: await loadPdf(z.file) });
+
+  // ---------- metadane ----------
+  const metas = sheets.map((s) => findMeta(s.pdf.pages));
+  const maxPts = metas.every((m) => m.maxPoints != null) ? metas.reduce((t, m) => t + m.maxPoints, 0) : null;
+  if (maxPts != null) e.maxPoints = maxPts;
+  const minutes = metas[0].minutes;
+  if (minutes != null) e.minutes = minutes;
+
+  // ---------- zadania ----------
+  const old = new Map(e.tasks.map((t) => [t.nr, t]));
+  const tasks = [];
+  const images = []; // { kind, key, sheet|rule, frags }
+  const parts = [];
+  for (const s of sheets) {
+    const plan = planSheet(s.info, s.pdf.pages);
+    const rulesDoc = info.family === 'polski' ? rules.find((r) => r.info.part === s.info.part) : rules[0];
+    const rPlan = rulesDoc ? planRules(rulesDoc.info, rulesDoc.pdf.pages) : [];
+    if (!rulesDoc) issue(`Brak zasad oceniania dla arkusza ${s.name}: odpowiedzi zadań zamkniętych = null.`);
+    for (const c of plan.contexts) images.push({ kind: 'ctx', key: c.key, src: s, frags: c.frags });
+    const partTasks = [];
+    for (const t of plan.tasks) {
+      const body = t.text.replace(/^Zadanie[^\n]*\n?/, '');
+      const full = [t.stem, t.text].filter(Boolean).join('\n');
+      const r = info.family === 'angielski' ? rPlan.find((x) => x.main === Number(t.sheetNr)) : rPlan.find((x) => x.nr === t.sheetNr);
+      if (rulesDoc && !r) issue(`Zadanie ${t.nr}: nie znalazłem go w zasadach oceniania.`);
+      if (r && r.points != null && r.points !== t.maxPoints && info.family !== 'angielski' && !t.alternative) issue(`Zadanie ${t.nr}: w arkuszu ${t.maxPoints} pkt, w zasadach ${r.points} pkt.`);
+      const ans = t.essay ? { type: 'otwarte', answer: null } : buildAnswer({ info, examId, task: t, body, rule: r, manual: manualAnswers[examId]?.[t.nr] });
+      for (const w of ans.issues ?? []) issue(`Zadanie ${t.nr}: ${w}`);
+      const prev = old.get(t.nr);
+      const mt = manualTopics[examId]?.[t.nr];
+      const topics = mt?.topics ?? (prev?.source?.startsWith('ręcznie') ? prev.topics : guessTopics(info.family, full, { level: info.level, part: s.info.part, section: t.section, points: t.maxPoints }));
+      const task = {
+        nr: t.nr,
+        maxPoints: t.maxPoints,
+        type: ans.type ?? (isClosed(body) ? 'zamknięte' : 'otwarte'),
+        topics,
+        summary: summarize(info.family === 'polski' && s.info.part === 2 ? t.text.replace(/^Temat\s*\d+\s*\.?\s*/, '') : body),
+        proof: info.family === 'matematyka' ? (mt?.proof ?? needsProof(full)) : null,
+        cases: info.family === 'matematyka' ? (mt?.cases ?? needsCases(full)) : null,
+        page: t.page,
+        source: mt ? `ręcznie: ${mt.note ?? 'tematy sprawdzone z treścią zadania'}; reszta z PDF ${examId}` : prev?.source?.startsWith('ręcznie') ? prev.source : `import z PDF ${examId}; tematy rozpoznane automatycznie, do sprawdzenia`,
+        answer: ans.answer ?? null,
+        context: t.context ?? null,
+        audio: null,
+        alternative: t.alternative ?? null,
+        essay: t.essay ?? null,
+      };
+      if (info.family === 'angielski' && /Usłyszysz/.test(t.text)) {
+        const at = audioTimes[examId]?.[t.nr];
+        task.audio = { start: at?.start ?? null, end: at?.end ?? null };
+      }
+      tasks.push(task);
+      partTasks.push(task.nr);
+      images.push({ kind: 'zad', key: t.nr, src: s, frags: t.frags });
+      if (r && rulesDoc) {
+        let frags = r.frags;
+        if (info.family === 'angielski' && t.itemIds) {
+          // część zamknięta: tabela odpowiedzi; część otwarta: uszczegółowienia
+          const closed = t.itemIds.some((id) => r.closedIds.includes(id));
+          frags = closed ? r.frags : r.openFrags.length ? r.openFrags : r.frags;
+          if (t.essay) frags = r.frags;
+        }
+        if (t.alternative && r.temats?.length) frags = r.temats[Number(t.nr.split('.').pop()) - 1]?.frags ?? frags;
+        images.push({ kind: 'odp', key: t.nr, src: rulesDoc, frags });
       }
     }
-    imported.push(`${f}: zasady oceniania, porównano ${parsed.length} zadań`);
-  }
-  if (!e.sources.includes(src)) e.sources.push(src);
-}
-
-writeFileSync(examsPath, JSON.stringify(data, null, 2) + '\n');
-writeFileSync(new URL('../data/exams-issues.md', import.meta.url), issuesMarkdown(data));
-console.log('Zaimportowano:\n  ' + (imported.join('\n  ') || 'nic'));
-if (skipped.length) console.log('Pominięto:\n  ' + skipped.join('\n  '));
-
-if (withImages && crops.length) {
-  const out = new URL('../cke-obrazy/', import.meta.url).pathname;
-  const DPI = 96;
-  const k = DPI / 72;
-  const { zipSync } = await import('fflate');
-  const zip = {};
-  for (const c of crops) {
-    const top = Math.max(0, c.y - 14);
-    const bottom = c.nextPage === c.page && c.nextY ? c.nextY - 6 : c.height - 40;
-    const d = join(out, c.kind, c.examId);
-    mkdirSync(d, { recursive: true });
-    const base = join(d, c.nr);
-    try {
-      execFileSync('pdftoppm', ['-jpeg', '-jpegopt', 'quality=62', '-gray', '-singlefile', '-r', String(DPI), '-f', String(c.page), '-l', String(c.page),
-        '-x', '0', '-y', String(Math.round(top * k)), '-W', String(Math.round(c.width * k)), '-H', String(Math.max(40, Math.round((bottom - top) * k))), c.file, base]);
-      zip[`${c.kind === 'odp' ? 'odp/' : ''}${c.examId}/${c.nr}.jpg`] = new Uint8Array(readFileSync(`${base}.jpg`));
-    } catch {
-      console.error('Błąd: nie udało się uruchomić pdftoppm. Zainstaluj poppler (np. brew install poppler) albo pomiń --obrazy.');
-      break;
+    if (info.family === 'polski') {
+      parts.push({ id: `A${s.info.part}`, name: s.info.part === 1 ? 'Arkusz 1. (testy)' : 'Arkusz 2. (wypracowanie)', minutes: metas[0].jointTime ? null : metas[sheets.indexOf(s)].minutes, maxPoints: metas[sheets.indexOf(s)].maxPoints, tasks: partTasks });
     }
   }
-  const zipPath = new URL('../cke-obrazy.zip', import.meta.url).pathname;
-  writeFileSync(zipPath, zipSync(zip));
-  console.log(`Obrazy: ${Object.keys(zip).length} (zadania i odpowiedzi) w ${zipPath}. Zadania wielostronicowe mają obraz tylko pierwszej strony.`);
-  console.log('Wbudowanie obrazów w plik jednoplikowy: npm run embed-images && npm run build:jeden-plik');
+  tasks.sort(sortNr);
+  e.tasks = tasks;
+  e.groups = [];
+  e.status = 'pełny';
+  e.audio = info.family === 'angielski' ? (g.nagranie.length ? `${examId}.mp3` : null) : null;
+  if (info.family === 'angielski' && !g.nagranie.length) issue('Brak nagrania mp3 w katalogu importu.');
+  if (info.family === 'polski') {
+    e.parts = parts;
+    if (metas[0].jointTime) issue(`Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje ${minutes} min łącznie na testy i wypracowanie (parts[].minutes = null).`);
+  } else delete e.parts;
+  for (const s of [...sheets, ...rules]) {
+    const src = `PDF ${s.name} (import lokalny)`;
+    if (!e.sources.includes(src)) e.sources.push(src);
+  }
+  e.sources = e.sources.filter((x) => !/^Rozbieżność/.test(x));
+  const closed = tasks.filter((t) => t.type === 'zamknięte');
+  const known = closed.filter((t) => t.answer && t.answer.items.every((i) => i.correct != null)).length;
+  report.push(`${examId}: ${tasks.length} zadań, ${e.maxPoints} pkt, ${e.minutes} min; zamknięte ${closed.length}, odpowiedzi odczytane ${known}`);
+
+  // ---------- obrazy ----------
+  if (withImages) {
+    for (const kind of ['zad', 'odp', 'ctx']) rmSync(join(imgOut, kind, examId), { recursive: true, force: true });
+    const cache = new Map();
+    const pageImg = async (src, page, family) => {
+      const k = `${src.file}#${page}`;
+      if (!cache.has(k)) {
+        if (cache.size > 6) cache.delete(cache.keys().next().value);
+        const p = src.pdf.pages[page - 1];
+        const col = (await import('./cke-parse.mjs')).columnFor(family, p);
+        cache.set(k, await renderGray(src.pdf.doc, page, 1000 / (col[1] - col[0])));
+      }
+      return cache.get(k);
+    };
+    for (const im of images.sort((a, b) => (a.src.file < b.src.file ? -1 : 1))) {
+      const frs = [];
+      for (const f of im.frags) {
+        const r = await pageImg(im.src, f.page, info.family);
+        const white = whiteouts(im.src.pdf.pages[f.page - 1], info.family);
+        frs.push(cutFragment(r, { ...f, white }));
+      }
+      const jpg = await composeJpeg(frs);
+      if (!jpg) { issue(`Obraz ${im.kind}/${im.key}: pusty wycinek.`); continue; }
+      const d = join(imgOut, im.kind, examId);
+      mkdirSync(d, { recursive: true });
+      writeFileSync(join(d, `${im.key}.jpg`), jpg);
+      imgCount++;
+    }
+  }
+  for (const s of [...sheets, ...rules]) await s.pdf.doc.destroy();
 }
+
+data.version = 3;
+writeFileSync(examsPath, JSON.stringify(data, null, 2) + '\n');
+// uwagi z importu: zastępuję wpisy importowanych arkuszy, pozostałe zostawiam
+const notesPath = join(root, 'data/exams-import-uwagi.json');
+const prevNotes = existsSync(notesPath) ? JSON.parse(readFileSync(notesPath, 'utf8')) : [];
+const notes = [...prevNotes.filter((n) => !groups.has(n.examId)), ...issues];
+writeFileSync(notesPath, JSON.stringify(notes, null, 1) + '\n');
+writeFileSync(join(root, 'data/exams-issues.md'), issuesMarkdown(data, notes, await imagesLookup(new URL('../', import.meta.url))));
+console.log('Zaimportowano:\n  ' + (report.join('\n  ') || 'nic'));
+if (skipped.length) console.log('Pominięto:\n  ' + skipped.join('\n  '));
+if (withImages) console.log(`Obrazy: ${imgCount} plików w ${imgOut} (zad/, odp/, ctx/). Pakiet dla aplikacji: npm run cke:pakiet`);
+process.exit(0);

@@ -1,0 +1,1770 @@
+{
+ "_opis": "Tematy przejrzane ręcznie z treścią zadań (npm run import-cke stosuje je i oznacza source „ręcznie: …”). Tylko id z src/data/taxonomy.ts. Statystyka (średnia, mediana, diagramy) przypisana do „prawdopodobienstwo” (w taksonomii brak osobnego tematu); funkcja liniowa i odczyt wykresów – do „geometria-analityczna”.",
+ "MMAP-P0-100-2305": {
+  "1": {
+   "topics": [
+    "wartosc-bezwzgledna",
+    "rownania"
+   ]
+  },
+  "2": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "3": {
+   "topics": [
+    "dowody",
+    "wielomiany"
+   ]
+  },
+  "4": {
+   "topics": [
+    "logarytmy"
+   ]
+  },
+  "5": {
+   "topics": [
+    "wielomiany"
+   ]
+  },
+  "6": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "7": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "8": {
+   "topics": [
+    "wymierne",
+    "rownania"
+   ]
+  },
+  "9": {
+   "topics": [
+    "wielomiany",
+    "rownania"
+   ]
+  },
+  "10": {
+   "topics": [
+    "rownania",
+    "geometria-analityczna"
+   ]
+  },
+  "11": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "12.1": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "12.2": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "12.3": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "13": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "14": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "15": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "16": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "17": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "18": {
+   "topics": [
+    "trygonometria",
+    "geometria-analityczna"
+   ]
+  },
+  "19": {
+   "topics": [
+    "trygonometria"
+   ]
+  },
+  "20": {
+   "topics": [
+    "planimetria",
+    "trygonometria"
+   ]
+  },
+  "21": {
+   "topics": [
+    "okrag"
+   ]
+  },
+  "22": {
+   "topics": [
+    "podobienstwo"
+   ]
+  },
+  "23": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "24": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "25": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "26": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "27": {
+   "topics": [
+    "stereometria"
+   ]
+  },
+  "28": {
+   "topics": [
+    "kombinatoryka"
+   ]
+  },
+  "29": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "30": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "31.1": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "31.2": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  }
+ },
+ "MMAP-P0-100-2405": {
+  "1": {
+   "topics": [
+    "wartosc-bezwzgledna",
+    "rownania"
+   ]
+  },
+  "2": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "3": {
+   "topics": [
+    "dowody"
+   ]
+  },
+  "4": {
+   "topics": [
+    "logarytmy"
+   ]
+  },
+  "5": {
+   "topics": [
+    "wielomiany"
+   ]
+  },
+  "6": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "7": {
+   "topics": [
+    "wymierne",
+    "rownania"
+   ]
+  },
+  "8": {
+   "topics": [
+    "wielomiany"
+   ]
+  },
+  "9": {
+   "topics": [
+    "wielomiany",
+    "rownania"
+   ]
+  },
+  "10": {
+   "topics": [
+    "procenty",
+    "rownania"
+   ]
+  },
+  "11": {
+   "topics": [
+    "rownania",
+    "geometria-analityczna"
+   ]
+  },
+  "12": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "13": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "14.1": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "14.2": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "14.3": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "14.4": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "15": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "16": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "17": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "18": {
+   "topics": [
+    "trygonometria"
+   ]
+  },
+  "19": {
+   "topics": [
+    "trygonometria"
+   ]
+  },
+  "20": {
+   "topics": [
+    "planimetria"
+   ]
+  },
+  "21": {
+   "topics": [
+    "planimetria",
+    "trygonometria"
+   ]
+  },
+  "22": {
+   "topics": [
+    "okrag"
+   ]
+  },
+  "23": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "24": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "25.1": {
+   "topics": [
+    "stereometria"
+   ]
+  },
+  "25.2": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "26": {
+   "topics": [
+    "stereometria",
+    "podobienstwo"
+   ]
+  },
+  "27": {
+   "topics": [
+    "kombinatoryka"
+   ]
+  },
+  "28": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "29": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "30": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "31": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  }
+ },
+ "MMAP-P0-100-2505": {
+  "1": {
+   "topics": [
+    "potegi",
+    "wielomiany"
+   ]
+  },
+  "2": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "3": {
+   "topics": [
+    "logarytmy"
+   ]
+  },
+  "4": {
+   "topics": [
+    "wielomiany"
+   ]
+  },
+  "5": {
+   "topics": [
+    "dowody"
+   ]
+  },
+  "6": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "7": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "8": {
+   "topics": [
+    "wymierne"
+   ]
+  },
+  "9": {
+   "topics": [
+    "procenty",
+    "rownania"
+   ]
+  },
+  "10": {
+   "topics": [
+    "kwadratowa-parametr",
+    "rownania"
+   ]
+  },
+  "11": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "12.1": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "12.2": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "12.3": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "13": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "14.1": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "14.2": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "15": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "16": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "17": {
+   "topics": [
+    "trygonometria"
+   ]
+  },
+  "18.1": {
+   "topics": [
+    "planimetria"
+   ]
+  },
+  "18.2": {
+   "topics": [
+    "trygonometria",
+    "planimetria"
+   ]
+  },
+  "19": {
+   "topics": [
+    "okrag"
+   ]
+  },
+  "20": {
+   "topics": [
+    "podobienstwo"
+   ]
+  },
+  "21": {
+   "topics": [
+    "planimetria",
+    "trygonometria"
+   ]
+  },
+  "22": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "23": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "24": {
+   "topics": [
+    "okrag",
+    "geometria-analityczna"
+   ]
+  },
+  "25": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "26": {
+   "topics": [
+    "stereometria"
+   ]
+  },
+  "27": {
+   "topics": [
+    "kombinatoryka"
+   ]
+  },
+  "28": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "29": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "30": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "31": {
+   "topics": [
+    "stereometria",
+    "kwadratowa-parametr"
+   ]
+  }
+ },
+ "MMAP-P0-100-2605": {
+  "1": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "2": {
+   "topics": [
+    "procenty"
+   ]
+  },
+  "3": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "4": {
+   "topics": [
+    "logarytmy"
+   ]
+  },
+  "5": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "6": {
+   "topics": [
+    "wielomiany"
+   ]
+  },
+  "7": {
+   "topics": [
+    "dowody"
+   ]
+  },
+  "8": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "9": {
+   "topics": [
+    "rownania"
+   ]
+  },
+  "10": {
+   "topics": [
+    "kwadratowa-parametr",
+    "rownania"
+   ]
+  },
+  "11": {
+   "topics": [
+    "procenty",
+    "rownania"
+   ]
+  },
+  "12.1": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "12.2": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "13.1": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "13.2": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "14": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "15": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "16": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "17": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "18": {
+   "topics": [
+    "trygonometria",
+    "planimetria"
+   ]
+  },
+  "19": {
+   "topics": [
+    "okrag"
+   ]
+  },
+  "20": {
+   "topics": [
+    "planimetria"
+   ]
+  },
+  "21": {
+   "topics": [
+    "planimetria",
+    "dowody"
+   ]
+  },
+  "22": {
+   "topics": [
+    "okrag",
+    "planimetria"
+   ]
+  },
+  "23": {
+   "topics": [
+    "trygonometria"
+   ]
+  },
+  "24.1": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "24.2": {
+   "topics": [
+    "okrag",
+    "geometria-analityczna"
+   ]
+  },
+  "25": {
+   "topics": [
+    "okrag",
+    "geometria-analityczna"
+   ]
+  },
+  "26": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "27": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "28": {
+   "topics": [
+    "stereometria"
+   ]
+  },
+  "29": {
+   "topics": [
+    "kombinatoryka"
+   ]
+  },
+  "30": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "31": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "32": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "33.1": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "33.2": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  }
+ },
+ "MMAP-R0-100-2305": {
+  "1": {
+   "topics": [
+    "potegi",
+    "procenty"
+   ]
+  },
+  "2": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "3": {
+   "topics": [
+    "pochodne",
+    "wymierne"
+   ]
+  },
+  "4": {
+   "topics": [
+    "rownania",
+    "dowody"
+   ]
+  },
+  "5": {
+   "topics": [
+    "planimetria",
+    "dowody"
+   ]
+  },
+  "6": {
+   "topics": [
+    "trygonometria",
+    "rownania"
+   ]
+  },
+  "7": {
+   "topics": [
+    "stereometria"
+   ]
+  },
+  "8": {
+   "topics": [
+    "trygonometria",
+    "okrag",
+    "planimetria"
+   ]
+  },
+  "9": {
+   "topics": [
+    "wartosc-bezwzgledna",
+    "rownania"
+   ]
+  },
+  "10": {
+   "topics": [
+    "ciagi",
+    "granice-ciagow"
+   ]
+  },
+  "11": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "12.1": {
+   "topics": [
+    "logarytmy",
+    "dowody"
+   ]
+  },
+  "12.2": {
+   "topics": [
+    "pochodne",
+    "logarytmy"
+   ]
+  },
+  "13": {
+   "topics": [
+    "geometria-analityczna",
+    "okrag"
+   ]
+  }
+ },
+ "MMAP-R0-100-2405": {
+  "1": {
+   "topics": [
+    "potegi"
+   ]
+  },
+  "2": {
+   "topics": [
+    "granice-ciagow"
+   ]
+  },
+  "3": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "4": {
+   "topics": [
+    "pochodne",
+    "wymierne"
+   ]
+  },
+  "5": {
+   "topics": [
+    "logarytmy",
+    "dowody"
+   ]
+  },
+  "6": {
+   "topics": [
+    "kombinatoryka"
+   ]
+  },
+  "7": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "8": {
+   "topics": [
+    "planimetria",
+    "trygonometria",
+    "dowody"
+   ]
+  },
+  "9": {
+   "topics": [
+    "planimetria"
+   ]
+  },
+  "10": {
+   "topics": [
+    "trygonometria",
+    "rownania"
+   ]
+  },
+  "11": {
+   "topics": [
+    "geometria-analityczna",
+    "okrag"
+   ]
+  },
+  "12": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "13.1": {
+   "topics": [
+    "stereometria",
+    "dowody"
+   ]
+  },
+  "13.2": {
+   "topics": [
+    "pochodne",
+    "stereometria"
+   ]
+  }
+ },
+ "MMAP-R0-100-2505": {
+  "1": {
+   "topics": [
+    "potegi",
+    "procenty"
+   ]
+  },
+  "2": {
+   "topics": [
+    "dowody",
+    "rownania"
+   ]
+  },
+  "3": {
+   "topics": [
+    "planimetria",
+    "trygonometria"
+   ]
+  },
+  "4": {
+   "topics": [
+    "prawdopodobienstwo"
+   ]
+  },
+  "5": {
+   "topics": [
+    "wartosc-bezwzgledna",
+    "rownania"
+   ]
+  },
+  "6": {
+   "topics": [
+    "ciagi",
+    "granice-ciagow"
+   ]
+  },
+  "7": {
+   "topics": [
+    "planimetria",
+    "podobienstwo"
+   ]
+  },
+  "8": {
+   "topics": [
+    "geometria-analityczna",
+    "okrag"
+   ]
+  },
+  "9": {
+   "topics": [
+    "trygonometria",
+    "rownania"
+   ]
+  },
+  "10": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "11": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "12.1": {
+   "topics": [
+    "stereometria",
+    "dowody"
+   ]
+  },
+  "12.2": {
+   "topics": [
+    "pochodne",
+    "stereometria"
+   ]
+  }
+ },
+ "MMAP-R0-100-2605": {
+  "1": {
+   "topics": [
+    "granice-ciagow"
+   ]
+  },
+  "2": {
+   "topics": [
+    "prawdopodobienstwo",
+    "kombinatoryka"
+   ]
+  },
+  "3": {
+   "topics": [
+    "dowody",
+    "rownania"
+   ]
+  },
+  "4": {
+   "topics": [
+    "planimetria",
+    "dowody"
+   ]
+  },
+  "5": {
+   "topics": [
+    "wartosc-bezwzgledna",
+    "rownania"
+   ]
+  },
+  "6": {
+   "topics": [
+    "ciagi"
+   ]
+  },
+  "7": {
+   "topics": [
+    "trygonometria",
+    "rownania"
+   ]
+  },
+  "8": {
+   "topics": [
+    "stereometria",
+    "trygonometria"
+   ]
+  },
+  "9": {
+   "topics": [
+    "geometria-analityczna"
+   ]
+  },
+  "10": {
+   "topics": [
+    "kwadratowa-parametr"
+   ]
+  },
+  "11": {
+   "topics": [
+    "okrag",
+    "planimetria",
+    "trygonometria"
+   ]
+  },
+  "12.1": {
+   "topics": [
+    "planimetria",
+    "okrag",
+    "dowody"
+   ]
+  },
+  "12.2": {
+   "topics": [
+    "pochodne",
+    "planimetria"
+   ]
+  }
+ },
+ "MPOP-P1-P2-2305": {
+  "A1.1": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.2": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.3": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.4": {
+   "topics": [
+    "pol-jezyk"
+   ]
+  },
+  "A1.5": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.6": {
+   "topics": [
+    "pol-rozumienie",
+    "pol-jezyk"
+   ]
+  },
+  "A1.7": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.8": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.9": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.10": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.11": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.12.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.12.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.13": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.14": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.15": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.16.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.16.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.17": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A2.1": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  },
+  "A2.2": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  }
+ },
+ "MPOP-P1-P2-2405": {
+  "A1.1": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.2": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.3": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.4": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.5": {
+   "topics": [
+    "pol-jezyk"
+   ]
+  },
+  "A1.6": {
+   "topics": [
+    "pol-rozumienie",
+    "pol-jezyk"
+   ]
+  },
+  "A1.7": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.8": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.9": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.10": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.11.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.11.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.12": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.13": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.14": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.15": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.16": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A2.1": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  },
+  "A2.2": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  }
+ },
+ "MPOP-P1-P2-2505": {
+  "A1.1": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.2": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.3": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.4": {
+   "topics": [
+    "pol-jezyk"
+   ]
+  },
+  "A1.5": {
+   "topics": [
+    "pol-rozumienie",
+    "pol-jezyk"
+   ]
+  },
+  "A1.6": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.7.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.7.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.8.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.8.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.9": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.10.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.10.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.11": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.12": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.13": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.14": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A2.1": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  },
+  "A2.2": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  }
+ },
+ "MPOP-P1-P2-2605": {
+  "A1.1": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.2": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.3": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.4": {
+   "topics": [
+    "pol-rozumienie"
+   ]
+  },
+  "A1.5": {
+   "topics": [
+    "pol-jezyk"
+   ]
+  },
+  "A1.6": {
+   "topics": [
+    "pol-rozumienie",
+    "pol-jezyk"
+   ]
+  },
+  "A1.7": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.8": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.9": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.10": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.11.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.11.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.12.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.12.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.13.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.13.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.14": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.15.1": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.15.2": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A1.16": {
+   "topics": [
+    "pol-historycznoliteracki"
+   ]
+  },
+  "A2.1": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  },
+  "A2.2": {
+   "topics": [
+    "pol-wyp-kompetencje",
+    "pol-wyp-kompozycja",
+    "pol-wyp-jezyk"
+   ]
+  }
+ },
+ "MJAP-P0-100-2305": {
+  "1": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "2": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "3": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "4": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.1-5.3": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.4-5.7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "6": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "8": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "9": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "10": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "11": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "12": {
+   "topics": [
+    "ang-pisanie"
+   ]
+  }
+ },
+ "MJAP-P0-100-2405": {
+  "1": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "2": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "3": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "4": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.1-5.3": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.4-5.7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "6": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "8": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "9": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "10": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "11": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "12": {
+   "topics": [
+    "ang-pisanie"
+   ]
+  }
+ },
+ "MJAP-P0-100-2505": {
+  "1": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "2": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "3": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "4": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.1-5.3": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.4-5.7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "6": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "8": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "9": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "10": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "11": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "12": {
+   "topics": [
+    "ang-pisanie"
+   ]
+  }
+ },
+ "MJAP-P0-100-2605": {
+  "1": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "2": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "3": {
+   "topics": [
+    "ang-sluchanie"
+   ]
+  },
+  "4": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.1-5.3": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "5.4-5.7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "6": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "7": {
+   "topics": [
+    "ang-czytanie"
+   ]
+  },
+  "8": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "9": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "10": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "11": {
+   "topics": [
+    "ang-srodki"
+   ]
+  },
+  "12": {
+   "topics": [
+    "ang-pisanie"
+   ]
+  }
+ }
+}

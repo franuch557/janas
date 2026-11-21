@@ -1,31 +1,39 @@
 # Czego nie udało się zweryfikować
 
-Stan na 18 listopada 2026.
+Stan na 21 listopada 2026.
 
 ## Dane arkuszy CKE
 
-- **Treść, punktacja i tematy zadań z lat 2023–2026.** Pobieranie PDF z cke.gov.pl
-  zostało zablokowane w tej sesji, a `robots.txt` CKE zabrania automatycznego
-  przeglądania serwisu. `exams.json` ma tylko metadane. Pełne dane trzeba
-  zaimportować skryptem z pobranych samodzielnie plików (README).
-- **Arkusz referencyjny MMAP-R0-100-2505.** Rozkład punktów pochodzi z założeń
-  projektu, nie z PDF. Podział punktów w parach zad. 1–2 (5 pkt) i 3–7 (7 pkt)
-  jest nieznany. Typy zadań (zamknięte, otwarte) są nieznane. Adresu PDF nie widziałem.
-- **Matematyka podstawowa 2026: 50 pkt.** Wartość z informatora; arkusza 2026 nie sprawdziłem.
-  Arkusze 2023 i 2024 mają 46 pkt (komunikat CKE i arkusze), 2025 ma 50 pkt.
-- **Matematyka rozszerzona 2024 i 2026: 50 pkt, 180 min.** Wartości z informatora.
-- **Język polski: 60 pkt.** Suma 25 pkt (arkusz 1, widoczne w arkuszach 2024 i 2026)
-  i 35 pkt (wypracowanie, informator). Fragment informatora mówił o „70 pkt i 50%”;
-  ta rozbieżność nie jest wyjaśniona. Kryteria wypracowania 16 + 7 + 11 = 34 pkt;
-  brakuje 1 pkt, którego kryterium nie sprawdziłem.
-- **Język angielski, poziom podstawowy: czas arkusza i maksimum punktów.** Brak w
-  sprawdzonych fragmentach. Znane są tylko maksima zadań 2–6, 11 i 12 z karty
-  odpowiedzi 2025. Czas arkusza próbnego z angielskiego trzeba wpisać w ustawieniach.
-- **Kryteria wypowiedzi pisemnej z angielskiego.** Widoczne nazwy: treść, spójność
-  i logika, poprawność. Czwarte kryterium (zakres środków językowych) i maksima
-  punktów są niesprawdzone; użytkownik wpisuje je z zasad oceniania.
-- **Wariant arkusza.** Importuję tylko wariant 100. Nie sprawdziłem, czy wszystkie
-  lata mają wariant 100 dla każdego przedmiotu.
+Stan po imporcie z plików PDF/MP3 CKE (`cke-pdf/`, 47 plików, wariant 100, maj 2023–2026).
+Zadania, punktacja, czasy i maksima pochodzą z arkuszy, odpowiedzi zamknięte z zasad
+oceniania (kolumna „Wersja A”). Szczegóły i lista braków: `data/exams-issues.md`.
+
+- **Polski 2023, arkusz 1: brak zasad oceniania** (`MPOP-P1-100-2305-zasady.pdf` nie było
+  w katalogu). Zadania zamknięte A1.4, A1.11 i A1.16.1 mają `answer: null`; nie ma też
+  obrazów odpowiedzi dla zadań A1.x z 2023 r.
+- **Polski: czas arkuszy 1 i 2.** Strony tytułowe wszystkich lat podają 240 min łącznie
+  na testy i wypracowanie, bez osobnego czasu arkuszy. `parts[].minutes` = null.
+- **Zadania „wybierz dwie odpowiedzi” bez kolejności** (mat. PP 2023 zad. 11, 2024 zad. 18):
+  dwie pozycje z literami zapisanymi alfabetycznie; aplikacja porównuje pozycje po kolei.
+- **Angielski, zadanie 5:** dzielę na „5.1-5.3” (zamknięte) i „5.4-5.7” (otwarte), wspólne
+  teksty A–D są w `ctx/5`. Teksty innych zadań czytania są w obrazie zadania, nie w ctx.
+- **Angielski, obrazy odpowiedzi:** tabela zadań zamkniętych bez kolumn wymagań
+  (kolumna numerów + odpowiedzi). Dla zadań otwartych, których odpowiedzi są wpisane
+  w tabelę wymagań (np. 2024 zad. 10), obraz zawiera całą tabelę, także wymagania.
+  Odpowiedź do zadania 12 to uszczegółowienia oceny treści dla tematu; ogólne kryteria
+  są w `data/kryteria.json`.
+- **Matematyka, obrazy odpowiedzi:** pomijam sekcje dla osób z dyskalkulią
+  („Kryteria uwzględniające specyficzne trudności…”, „Ocena prac osób ze stwierdzoną
+  dyskalkulią”).
+- **Tematy:** przejrzane ręcznie z treścią każdego zadania (`data/tematy-recznie.json`),
+  ale taksonomia nie ma tematów „statystyka” ani „funkcje (ogólnie/liniowa)”: statystykę
+  przypisałem do „prawdopodobienstwo”, funkcję liniową i odczyt wykresów do
+  „geometria-analityczna”.
+- **Czasy nagrań (`audio.start/end`)** ustalone automatycznie: cisza (ffmpeg silencedetect)
+  + rozpoznanie zapowiedzi „Zadanie …” (whisper, model small). Przedział obejmuje zapowiedź,
+  czas na zapoznanie się z zadaniem i oba odtworzenia. Granic nie odsłuchałem w całości.
+- **Adresy PDF w `urls`** są tylko tam, gdzie były wcześniej; import z plików lokalnych
+  ich nie uzupełnia.
 
 ## Taksonomia
 
@@ -33,7 +41,7 @@ Stan na 18 listopada 2026.
   (części arkusza, kryteria). Pełnych informatorów nie przeczytałem.
 - Oznaczenie „Granice ciągów” i „Pochodne i optymalizacja” jako tylko poziom
   rozszerzony wynika z podstawy programowej, nie z analizy arkuszy.
-- Automatyczne tematy w skrypcie importu to słowa kluczowe, nie ocena treści.
+- Automatyczne tematy w skrypcie importu to słowa kluczowe; w danych zastąpiłem je ręcznym przeglądem (`data/tematy-recznie.json`).
 
 ## Książka
 
