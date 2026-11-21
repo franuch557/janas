@@ -137,13 +137,9 @@ describe('wszystkie arkusze z importu PDF', () => {
     }
   });
 
-  it('każde zadanie zamknięte ma answer z opcjami (poza brakującymi zasadami polskiego 2023)', () => {
+  it('każde zadanie zamknięte ma answer z opcjami', () => {
     for (const e of imported) {
       for (const t of e.tasks.filter((x) => x.type === 'zamknięte')) {
-        if (e.id === 'MPOP-P1-P2-2305' && t.nr.startsWith('A1.')) {
-          expect(t.answer, `${e.id} ${t.nr}`).toBeNull();
-          continue;
-        }
         expect(t.answer, `${e.id} ${t.nr}`).toBeTruthy();
         for (const i of t.answer!.items) {
           expect(i.options.length, `${e.id} ${t.nr}`).toBeGreaterThan(1);

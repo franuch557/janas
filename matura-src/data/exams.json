@@ -5568,7 +5568,29 @@
           "cases": null,
           "page": 7,
           "source": "ręcznie: tematy sprawdzone z treścią zadania; reszta z PDF MPOP-P1-P2-2305",
-          "answer": null,
+          "answer": {
+            "items": [
+              {
+                "id": "A1.4.1",
+                "label": "1",
+                "options": [
+                  "P",
+                  "F"
+                ],
+                "correct": "P"
+              },
+              {
+                "id": "A1.4.2",
+                "label": "2",
+                "options": [
+                  "P",
+                  "F"
+                ],
+                "correct": "P"
+              }
+            ],
+            "scoring": "all"
+          },
           "context": "A1-teksty",
           "audio": null,
           "alternative": null,
@@ -5695,7 +5717,29 @@
           "cases": null,
           "page": 13,
           "source": "ręcznie: tematy sprawdzone z treścią zadania; reszta z PDF MPOP-P1-P2-2305",
-          "answer": null,
+          "answer": {
+            "items": [
+              {
+                "id": "A1.11.1",
+                "label": "1",
+                "options": [
+                  "P",
+                  "F"
+                ],
+                "correct": "P"
+              },
+              {
+                "id": "A1.11.2",
+                "label": "2",
+                "options": [
+                  "P",
+                  "F"
+                ],
+                "correct": "P"
+              }
+            ],
+            "scoring": "all"
+          },
           "context": null,
           "audio": null,
           "alternative": null,
@@ -5740,7 +5784,7 @@
         {
           "nr": "A1.13",
           "maxPoints": 1,
-          "type": "otwarte",
+          "type": "zamknięte",
           "topics": [
             "pol-historycznoliteracki"
           ],
@@ -5749,7 +5793,31 @@
           "cases": null,
           "page": 15,
           "source": "ręcznie: tematy sprawdzone z treścią zadania; reszta z PDF MPOP-P1-P2-2305",
-          "answer": null,
+          "answer": {
+            "items": [
+              {
+                "id": "A1.13.A",
+                "label": "A. Pozytywizm",
+                "options": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "correct": "1"
+              },
+              {
+                "id": "A1.13.B",
+                "label": "B. Młoda Polska",
+                "options": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "correct": "3"
+              }
+            ],
+            "scoring": "all"
+          },
           "context": null,
           "audio": null,
           "alternative": null,
@@ -5803,7 +5871,22 @@
           "cases": null,
           "page": 19,
           "source": "ręcznie: tematy sprawdzone z treścią zadania; reszta z PDF MPOP-P1-P2-2305",
-          "answer": null,
+          "answer": {
+            "items": [
+              {
+                "id": "A1.16.1",
+                "label": null,
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "correct": "B"
+              }
+            ],
+            "scoring": "each"
+          },
           "context": "A1.16",
           "audio": null,
           "alternative": null,
@@ -5911,7 +5994,8 @@
         "Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce)",
         "PDF MPOP-P1-100-2305.pdf (import lokalny)",
         "PDF MPOP-P2-100-2305.pdf (import lokalny)",
-        "PDF MPOP-P2-100-2305-zasady.pdf (import lokalny)"
+        "PDF MPOP-P2-100-2305-zasady.pdf (import lokalny)",
+        "PDF MPOP-P1-100-2305-zasady.pdf (import lokalny)"
       ],
       "audio": null,
       "parts": [

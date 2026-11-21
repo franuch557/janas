@@ -1,0 +1,12 @@
+{
+  "MPOP-P1-P2-2305": {
+    "A1.13": {
+      "items": [
+        { "id": "A1.13.A", "label": "A. Pozytywizm", "options": ["1", "2", "3"], "correct": "1" },
+        { "id": "A1.13.B", "label": "B. Młoda Polska", "options": ["1", "2", "3"], "correct": "3" }
+      ],
+      "scoring": "all",
+      "issue": null
+    }
+  }
+}

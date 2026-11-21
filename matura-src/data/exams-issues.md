@@ -63,20 +63,13 @@ Walidacja: bez rozbieżności.
 
 ## MPOP-P1-P2-2305 (polski, podstawowy, 2023) – status: pełny
 
-- Zadanie A1.4 (zamknięte): brak odpowiedzi (answer = null).
-- Zadanie A1.11 (zamknięte): brak odpowiedzi (answer = null).
-- Zadanie A1.16.1 (zamknięte): brak odpowiedzi (answer = null).
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:
 
-- Brak zasad oceniania dla arkusza MPOP-P1-100-2305.pdf: odpowiedzi zadań zamkniętych = null.
-- Zadanie A1.4: brak zasad oceniania: odpowiedź = null
-- Zadanie A1.11: brak zasad oceniania: odpowiedź = null
-- Zadanie A1.16.1: brak zasad oceniania: odpowiedź = null
 - Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
 
-Źródła: Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce); PDF MPOP-P1-100-2305.pdf (import lokalny); PDF MPOP-P2-100-2305.pdf (import lokalny); PDF MPOP-P2-100-2305-zasady.pdf (import lokalny)
+Źródła: Informator CKE j. polski PP: arkusz 1 (część 1 i 2) + arkusz 2 (wypracowanie), 240 min łącznie, wypracowanie 35 pkt; arkusze 2024 i 2026: arkusz 1 = 25 pkt (fragmenty w wyszukiwarce); PDF MPOP-P1-100-2305.pdf (import lokalny); PDF MPOP-P2-100-2305.pdf (import lokalny); PDF MPOP-P2-100-2305-zasady.pdf (import lokalny); PDF MPOP-P1-100-2305-zasady.pdf (import lokalny)
 
 ## MPOP-P1-P2-2405 (polski, podstawowy, 2024) – status: pełny
 
