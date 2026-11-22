@@ -73,6 +73,8 @@ export function useAi(): { available: boolean; maxImages: number } {
 }
 
 export async function dataUrlToBlob(url: string): Promise<Blob> {
+  // obraz jako plik (strona GitHub Pages: obrazy w cke/img/…)
+  if (!url.startsWith('data:')) return (await fetch(url)).blob();
   const [head, body] = url.split(',');
   const mime = /data:([^;]+)/.exec(head)?.[1] ?? 'image/jpeg';
   const bin = atob(body);

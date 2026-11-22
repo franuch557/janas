@@ -24,9 +24,10 @@ export type Route =
   | { name: 'cwiczenie'; subject: SubjectId; topic: string }
   | { name: 'sprawdzian' }
   | { name: 'bledy' }
-  | { name: 'dziesiec-minut' };
+  | { name: 'dziesiec-minut' }
+  | { name: 'tramwaj' };
 
-export const FOCUS_ROUTES = new Set(['zadanie', 'arkusz', 'diagnoza', 'wypracowanie', 'powitanie', 'piec-minut', 'cwiczenie', 'sprawdzian', 'dziesiec-minut']);
+export const FOCUS_ROUTES = new Set(['zadanie', 'arkusz', 'diagnoza', 'wypracowanie', 'powitanie', 'piec-minut', 'cwiczenie', 'sprawdzian', 'dziesiec-minut', 'tramwaj']);
 
 function subjectPrefix(rest: string): { subject: SubjectId | null; tail: string } {
   for (const id of SUBJECT_IDS) {
@@ -49,6 +50,7 @@ export function parseHash(hash: string): Route {
   if (h === 'sprawdzian') return { name: 'sprawdzian' };
   if (h === 'bledy') return { name: 'bledy' };
   if (h === 'dziesiec-minut') return { name: 'dziesiec-minut' };
+  if (h === 'tramwaj') return { name: 'tramwaj' };
   if (h.startsWith('cwiczenie-')) {
     const { subject, tail } = subjectPrefix(h.slice(10));
     if (subject && tail) return { name: 'cwiczenie', subject, topic: tail };

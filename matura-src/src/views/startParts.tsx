@@ -40,6 +40,9 @@ export function DailyGoalCard() {
         <p className="small muted">Dziś dzień wolny w planie.</p>
       )}
       <div className="row" style={{ flexWrap: 'wrap' }}>
+        <button type="button" className="btn btn-secondary btn-sm" onClick={() => go({ name: 'tramwaj' })}>
+          W tramwaju
+        </button>
         <button type="button" className={`btn ${quizDone ? 'btn-secondary' : 'btn-primary'} btn-sm`} onClick={() => go({ name: 'sprawdzian' })}>
           {quizDone ? 'Sprawdzian mieszany' : 'Sprawdzian tygodnia'}
         </button>

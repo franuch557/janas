@@ -2696,3 +2696,53 @@ label.btn.disabled {
   background: var(--zle-tlo);
   border-color: var(--zle);
 }
+
+/* ---------- Tryb „W tramwaju”: duże przyciski ---------- */
+
+.commute .btn.big {
+  min-height: 56px;
+  font-size: 1.125rem;
+  padding: 0 var(--o-5);
+}
+
+.commute .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--o-2);
+}
+
+.commute .chip.big {
+  min-height: 52px;
+  min-width: 96px;
+  padding: 0 var(--o-4);
+  border-radius: var(--r-btn);
+  border: 1.5px solid var(--obrys-pola);
+  background: var(--powierzchnia);
+  color: var(--tekst);
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.commute .chip.big[aria-checked='true'] {
+  background: var(--atrament-tlo);
+  border: 2px solid var(--atrament);
+  color: var(--atrament);
+}
+
+.commute .commute-bar {
+  flex-wrap: wrap;
+}
+
+.commute .opt,
+.commute .answer-card button {
+  min-height: 52px;
+}
+
+.quote {
+  margin: 0;
+  padding: var(--o-2) var(--o-3);
+  border-left: 3px solid var(--linia);
+  background: var(--powierzchnia-2);
+  border-radius: var(--r-tag);
+}

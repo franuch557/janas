@@ -3,6 +3,7 @@
 // samoocena otwartych po zakończeniu i wynik punktowy.
 
 import { RubricGrader } from './rubricParts';
+import { OfflineExplain } from './explainParts';
 import { AutoGrader, useAutoKind } from './autoGrade';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Session } from '../model';
@@ -510,6 +511,7 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
                 <SelfGrade max={t.maxPoints} value={a.self ?? null} onChange={(v) => grade(v)} />
               </>
             )}
+            <OfflineExplain key={`oe-${t.id}`} t={t} />
             <button type="button" className="btn btn-primary only-desk" onClick={next} disabled={!canNext}>
               {i >= list.length - 1 ? 'Pokaż wynik' : 'Dalej'}
             </button>

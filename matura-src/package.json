@@ -10,7 +10,7 @@
     "test": "vitest run",
     "import-cke": "node scripts/import-cke.mjs",
     "validate": "node scripts/validate-exams.mjs",
-    "build:pages": "tsc --noEmit && vite build --mode pages",
+    "build:pages": "tsc --noEmit && vite build --mode pages && node tools/pakiety-na-pliki.mjs",
     "pages:publish": "node tools/pages-publish.mjs",
     "build:jeden-plik": "tsc --noEmit && vite build --mode jeden-plik && node tools/jeden-plik.mjs",
     "embed-images": "node scripts/embed-images.mjs",

@@ -201,6 +201,22 @@ Priorytety działów uwzględniają tier-listy matemaks.pl 2027 (`src/logic/tier
 jako mnożnik i etapy (S+ i S → A → B → C i D); następny etap dostaje pełną wagę po opanowaniu
 poprzedniego na 60%.
 
+### Ładowanie obrazów na stronie
+
+`npm run build:pages` po zbudowaniu dzieli pakiety (`tools/pakiety-na-pliki.mjs`): obrazy z base64
+idą do `cke/img/<arkusz>/<zad|odp|ctx>/<klucz>.webp`, a `cke/<arkusz>.json` ma same ścieżki (ok. 1–5 KB).
+Otwarcie zadania pobiera jeden obraz (zwykle 10–300 KB) zamiast całego pakietu (do 8 MB).
+`npm run pages:publish` wysyła najpierw obrazy partiami do ok. 40 MB, potem resztę strony.
+Serwer deweloperski i artefakt dalej używają pakietów base64 z `public/cke/`.
+
+### Tryby
+
+- **W tramwaju** (`#tramwaj`, `src/views/Commute.tsx`): jedno szybkie zadanie (zamknięte do 4 min,
+  otwarte za 1–2 pkt, warianty), losowanie z przedmiotu i tematu, „Sprawdź” albo „Pokaż klucz”.
+- **Wyjaśnienia z materiałów CKE** (`src/views/explainParts.tsx`, `scripts/wyjasnienia.mts`):
+  matematyka – wzorcowe rozwiązanie, polski – przykładowe odpowiedzi CKE, angielski – odpowiedzi
+  akceptowane i błędne. Bez modelu i bez API.
+
 ### Metody nauki
 
 - **Warianty zadań** (`src/logic/variants.ts`, ekran `#cwiczenie-<przedmiot>-<temat>`): 22 typy zadań

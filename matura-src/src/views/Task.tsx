@@ -1,4 +1,5 @@
 import { RubricGrader } from './rubricParts';
+import { OfflineExplain } from './explainParts';
 import { HintSteps, useHintSteps } from './hintParts';
 import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
 import { useEffect, useRef, useState } from 'react';
@@ -366,6 +367,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
               </div>
             ) : null}
             {!t.auto || checked ? <Explain key={t.id} t={t} /> : null}
+            {checked || revealed ? <OfflineExplain key={`oe-${t.id}`} t={t} /> : null}
             <CardsFromTask t={t} />
             {done ? (
               <div className="row">

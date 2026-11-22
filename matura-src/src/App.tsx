@@ -1,4 +1,5 @@
 import { PracticeView } from './views/Practice';
+import { CommuteView } from './views/Commute';
 import { MistakesView, QuizView } from './views/Quiz';
 import { useEffect, useRef } from 'react';
 import { useStore } from './store/AppStore';
@@ -253,6 +254,9 @@ export default function App() {
       break;
     case 'sprawdzian':
       view = <QuizView />;
+      break;
+    case 'tramwaj':
+      view = <CommuteView />;
       break;
     case 'bledy':
       view = <MistakesView />;
