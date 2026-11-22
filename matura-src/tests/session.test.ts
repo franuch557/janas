@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { elapsed, newSession, parseSession, pause, remaining, restoreAfterReload, resume, serializeSession, setAnswer } from '../src/logic/session';
-import { parseLocal } from '../src/store/local';
+import { EMPTY_AI, parseLocal } from '../src/store/local';
 import { defaultStan, type LocalData } from '../src/model';
 
 const base = () =>
@@ -41,7 +41,7 @@ describe('zapis i wznowienie postępu arkusza', () => {
   it('„odświeżenie strony”: stan z localStorage odtwarza trwającą sesję', () => {
     let s = resume(base(), 10_000);
     s = setAnswer(s, 'a', { choice: { '1': 'C' } }, 15_000);
-    const data: LocalData = { stan: defaultStan('2026-11-21'), events: [], sessions: { [s.id]: s }, essays: [] };
+    const data: LocalData = { stan: defaultStan('2026-11-21'), events: [], sessions: { [s.id]: s }, essays: [], ...EMPTY_AI() };
     const restored = parseLocal(JSON.stringify(data), '2026-11-21');
     const r = restored.sessions['arkusz-1'];
     expect(r.status).toBe('trwa');

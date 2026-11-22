@@ -69,6 +69,13 @@ Kryteria samooceny wypracowania i wypowiedzi pisemnej, odczytane z zasad ocenian
   każdy plik ≤ 12 MB;
 - `<examId>.mp3`: nagranie arkusza angielskiego, mono, ok. 48 kb/s, ≤ 12 MB.
 
+- `wzory.json` = `{ "zrodlo": "<nazwa PDF>", "strony": ["data:image/jpeg;base64,…", …] }`: karta
+  „Wybrane wzory matematyczne” CKE, tylko gdy jej PDF (nazwa zawiera „wzory”) jest w `cke-pdf/`;
+  w przeciwnym razie pliku nie ma i widok musi to obsłużyć.
+
+`odp[nr]` jest zawsze jednym obrazem (data URL). W matematyce obraz odpowiedzi zawiera zasady
+oceniania i pierwszy sposób przykładowego rozwiązania (bez „Sposób II…”), szerokość 900 px.
+
 Aplikacja pobiera je względnym adresem `cke/<examId>.json` i `cke/<examId>.mp3`
 (działa w `npm run dev` i w artefakcie, gdzie te pliki są publikowane obok strony).
 Każde zadanie w `exams.json` ma obraz w `zad`. Zadanie z zasadami ma obraz w `odp`.
@@ -85,3 +92,15 @@ Artefakt deklaruje `capabilities: { db: {}, user: {} }`. Dane prywatne w
 
 Kopia w `localStorage` (`matura2027-v3`) zawsze; gdy `db` niedostępne, jedyny zapis.
 Scalanie: zdarzenia łączone po id, dokumenty `stan` i `sesja-*` według pola `updatedAt`.
+
+## 5. `data/ustny/pytania-jawne.json` (matura ustna z polskiego)
+
+Tworzy `npm run ustny:import`, gdy w `cke-pdf/` jest PDF CKE z wykazem pytań jawnych (nazwa
+zawiera „pytania” albo „jawne”):
+
+```json
+{ "zrodlo": "<nazwa PDF>", "rok": 2027, "pytania": [ { "nr": 1, "lektura": "…" , "lekturaId": null, "tresc": "…" } ] }
+```
+
+`lektura` = nagłówek grupy z wykazu (null, gdy wykaz go nie ma); `lekturaId` uzupełnia się ręcznie.
+

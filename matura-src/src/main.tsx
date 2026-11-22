@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import '@fontsource-variable/atkinson-hyperlegible-next/wght.css';
+import 'katex/dist/katex.min.css';
 import './styles/app.css';
 import App from './App';
 import { AppStore } from './store/AppStore';

@@ -1,0 +1,126 @@
+{
+  "id": "skapiec",
+  "metryczka": {
+    "autor": "Molier (Jean-Baptiste Poquelin)",
+    "tytul": "Skąpiec",
+    "rok": "1668",
+    "gatunek": "komedia (charakterów i intrygi)",
+    "epoka": "Barok",
+    "rodzaj": "dramat"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Akt I – tajemnice dzieci Harpagona",
+      "tekst": "Eliza, córka bogatego skąpca Harpagona, kocha Walerego, który – by być blisko niej – zatrudnił się u jej ojca jako intendent i schlebia mu na każdym kroku. Jej brat Kleant kocha ubogą Mariannę. Harpagon trzęsie się nad szkatułą z pieniędzmi zakopaną w ogrodzie i podejrzewa wszystkich, nawet przeszukuje Strzałkę, służącego Kleanta. Ogłasza, że sam poślubi Mariannę, Kleanta ożeni z bogatą wdową, a Elizę wyda za starszego, zamożnego Anzelma, bo ten chce ją wziąć „bez posagu”. Walery, by nie zdradzić się, przytakuje mu."
+    },
+    {
+      "tytul": "Akt II – lichwa i swatka",
+      "tekst": "Kleant potrzebuje pieniędzy i przez pośrednika szuka pożyczki na lichwiarski procent. Okazuje się, że lichwiarzem jest jego własny ojciec – dochodzi do awantury. Swatka Frozyna pochlebia Harpagonowi, zapewniając, że Marianna woli starszych mężczyzn, i próbuje wyłudzić od niego zapłatę – bezskutecznie."
+    },
+    {
+      "tytul": "Akt III – kolacja",
+      "tekst": "Harpagon przygotowuje kolację dla narzeczonej, oszczędzając na wszystkim. Kucharz i stangret w jednej osobie, Jakub, mówi mu otwarcie, że ludzie śmieją się z jego skąpstwa, za co dostaje kijem; kłóci się też z Walerym. Marianna przychodzi i rozpoznaje w Kleancie młodzieńca, którego pokochała. Kleant zdejmuje ojcu z palca diamentowy pierścień i wręcza go Mariannie „w imieniu ojca”, który nie może zaprotestować."
+    },
+    {
+      "tytul": "Akt IV – kradzież szkatuły",
+      "tekst": "Harpagon podstępem wydobywa od syna wyznanie, że kocha Mariannę; ojciec i syn kłócą się, a Harpagon przeklina Kleanta. Tymczasem Strzałka wykopuje szkatułę. Harpagon odkrywa kradzież i w słynnym monologu wpada w szał rozpaczy: podejrzewa wszystkich, chce wieszać cały świat, a nawet chwyta się za własne ramię jak złodzieja."
+    },
+    {
+      "tytul": "Akt V – rozwiązanie",
+      "tekst": "Komisarz prowadzi śledztwo. Jakub, by się zemścić, oskarża Walerego. Walery, sądząc, że chodzi o jego zaręczyny z Elizą, przyznaje się do „winy” – powstaje komiczne nieporozumienie. Przybywa Anzelm i wychodzi na jaw, że jest on ojcem Walerego i Marianny, rozdzielonych przed laty przez katastrofę morską. Kleant oddaje szkatułę w zamian za zgodę na ślub z Marianną. Anzelm pokrywa wszystkie koszty obu ślubów, a Harpagon zostaje szczęśliwy ze swoją szkatułą."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Harpagon",
+      "opis": "Skąpiec – chciwy, podejrzliwy, egoistyczny, gotów poświęcić szczęście dzieci dla pieniędzy; postać komiczna, a zarazem odpychająca."
+    },
+    {
+      "imie": "Kleant",
+      "opis": "Syn Harpagona, zakochany w Mariannie; buntuje się przeciw ojcu."
+    },
+    {
+      "imie": "Eliza",
+      "opis": "Córka Harpagona, ukochana Walerego."
+    },
+    {
+      "imie": "Walery",
+      "opis": "Zakochany w Elizie, udaje pochlebcę Harpagona; syn Anzelma."
+    },
+    {
+      "imie": "Marianna",
+      "opis": "Uboga, dobra dziewczyna, ukochana Kleanta; córka Anzelma."
+    },
+    {
+      "imie": "Anzelm",
+      "opis": "Szlachetny bogacz, odnaleziony ojciec Walerego i Marianny."
+    },
+    {
+      "imie": "Frozyna",
+      "opis": "Sprytna swatka."
+    },
+    {
+      "imie": "Jakub",
+      "opis": "Kucharz i stangret, szczery i mściwy."
+    },
+    {
+      "imie": "Strzałka",
+      "opis": "Sprytny służący Kleanta, który kradnie szkatułę."
+    }
+  ],
+  "problematyka": [
+    "skąpstwo i chciwość jako namiętność niszcząca człowieka i rodzinę",
+    "pieniądz ważniejszy niż miłość i więzi rodzinne",
+    "konflikt pokoleń: ojciec przeciw dzieciom",
+    "obłuda i pochlebstwo",
+    "komizm jako narzędzie krytyki wad"
+  ],
+  "motywy": [
+    {
+      "motyw": "skąpiec",
+      "opis": "Harpagon – literacki typ chciwca."
+    },
+    {
+      "motyw": "pieniądz",
+      "opis": "szkatuła jako „ukochana” bohatera."
+    },
+    {
+      "motyw": "ojciec i dzieci",
+      "opis": "konflikt pokoleń."
+    },
+    {
+      "motyw": "miłość młodych",
+      "opis": "przeszkody stawiane przez rodziców."
+    },
+    {
+      "motyw": "qui pro quo",
+      "opis": "nieporozumienie jako źródło komizmu."
+    }
+  ],
+  "konteksty": [
+    "Komedia klasycystyczna: zasada trzech jedności, komizm postaci, sytuacji i słowa.",
+    "Źródłem jest komedia Plauta „Aulularia” (Garnek).",
+    "Bolesław Prus, „Lalka” – świat pieniądza w XIX w.",
+    "Aleksander Fredro – polska komedia charakterów („Zemsta”, „Śluby panieńskie”).",
+    "Barok i klasycyzm: różne nurty XVII w."
+  ],
+  "cytaty": [
+    {
+      "tekst": "po to się je, aby żyć, nie zaś po to żyje, aby jeść",
+      "kontekst": "Walery przytacza sentencję starożytnego filozofa podczas przygotowań do kolacji (akt III, przekł. T. Boya-Żeleńskiego)."
+    },
+    {
+      "tekst": "Bez posagu!",
+      "kontekst": "Harpagon zachwycony propozycją Anzelma – refren komiczny aktu I."
+    }
+  ],
+  "doWypracowania": [
+    "Pieniądz w życiu człowieka – Skąpiec, Lalka.",
+    "Konflikt pokoleń – Harpagon i dzieci, „Tango”.",
+    "Namiętność, która niszczy – skąpstwo, ambicja (Makbet).",
+    "Śmiech jako sposób krytyki – komedia Moliera, satyra Krasickiego.",
+    "Pytanie ustne: Jakie rodzaje komizmu występują w „Skąpcu”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Na Wolnych Lekturach przekład Tadeusza Boya-Żeleńskiego (imiona: Harpagon, Kleant, Eliza, Walery, Marianna, Anzelm, Frozyna, Strzałka, Jakub). Molier to klasycyzm francuski XVII w.; w szkole utwór omawia się w epoce baroku."
+}

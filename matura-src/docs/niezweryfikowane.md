@@ -8,30 +8,32 @@ Stan po imporcie z plików PDF/MP3 CKE (`cke-pdf/`, 47 plików, wariant 100, maj
 Zadania, punktacja, czasy i maksima pochodzą z arkuszy, odpowiedzi zamknięte z zasad
 oceniania (kolumna „Wersja A”). Szczegóły i lista braków: `data/exams-issues.md`.
 
-- **Polski 2023, arkusz 1: brak zasad oceniania** (`MPOP-P1-100-2305-zasady.pdf` nie było
-  w katalogu). Zadania zamknięte A1.4, A1.11 i A1.16.1 mają `answer: null`; nie ma też
-  obrazów odpowiedzi dla zadań A1.x z 2023 r.
+- **Polski 2023, arkusz 1:** zasady oceniania dodane później; odpowiedź A1.13 jest w
+  `data/odpowiedzi-recznie.json` (przyporządkowanie w tabeli).
 - **Polski: czas arkuszy 1 i 2.** Strony tytułowe wszystkich lat podają 240 min łącznie
   na testy i wypracowanie, bez osobnego czasu arkuszy. `parts[].minutes` = null.
 - **Zadania „wybierz dwie odpowiedzi” bez kolejności** (mat. PP 2023 zad. 11, 2024 zad. 18):
   dwie pozycje z literami zapisanymi alfabetycznie; aplikacja porównuje pozycje po kolei.
 - **Angielski, zadanie 5:** dzielę na „5.1-5.3” (zamknięte) i „5.4-5.7” (otwarte), wspólne
   teksty A–D są w `ctx/5`. Teksty innych zadań czytania są w obrazie zadania, nie w ctx.
-- **Angielski, obrazy odpowiedzi:** tabela zadań zamkniętych bez kolumn wymagań
-  (kolumna numerów + odpowiedzi). Dla zadań otwartych, których odpowiedzi są wpisane
-  w tabelę wymagań (np. 2024 zad. 10), obraz zawiera całą tabelę, także wymagania.
+- **Angielski, obrazy odpowiedzi:** z tabel zasad wycinam tylko kolumnę numerów i kolumnę
+  „Poprawna odpowiedź” (granice kolumn z pionowych linii tabeli), także w zadaniach otwartych;
+  dalej są uszczegółowienia i przykłady odpowiedzi. Pomijam uwagi dla zdających z dysleksją.
   Odpowiedź do zadania 12 to uszczegółowienia oceny treści dla tematu; ogólne kryteria
   są w `data/kryteria.json`.
-- **Matematyka, obrazy odpowiedzi:** pomijam sekcje dla osób z dyskalkulią
+- **Matematyka, obrazy odpowiedzi:** zasady oceniania i tylko pierwszy sposób przykładowego
+  rozwiązania (kolejne sposoby pomijam, żeby pakiet R0 mieścił się w ok. 6 MB); szerokość
+  obrazów odpowiedzi 900 px, jakość 55. Pomijam też sekcje dla osób z dyskalkulią
   („Kryteria uwzględniające specyficzne trudności…”, „Ocena prac osób ze stwierdzoną
   dyskalkulią”).
 - **Tematy:** przejrzane ręcznie z treścią każdego zadania (`data/tematy-recznie.json`),
   ale taksonomia nie ma tematów „statystyka” ani „funkcje (ogólnie/liniowa)”: statystykę
   przypisałem do „prawdopodobienstwo”, funkcję liniową i odczyt wykresów do
   „geometria-analityczna”.
-- **Czasy nagrań (`audio.start/end`)** ustalone automatycznie: cisza (ffmpeg silencedetect)
-  + rozpoznanie zapowiedzi „Zadanie …” (whisper, model small). Przedział obejmuje zapowiedź,
-  czas na zapoznanie się z zadaniem i oba odtworzenia. Granic nie odsłuchałem w całości.
+- **Czasy nagrań (`audio.start/end`)**: ffmpeg silencedetect + whisper (model small);
+  granice sprawdzone transkrypcją ze znacznikami słów w oknach ±20 s. Start tuż przed zapowiedzią
+  „Zadanie N.”, koniec tuż przed następną zapowiedzią (zad. 3: przed „Czas przeznaczony…minął”).
+  Przedział obejmuje czas na zapoznanie się z zadaniem i oba odtworzenia. Dokładność ok. ±0,5 s.
 - **Adresy PDF w `urls`** są tylko tam, gdzie były wcześniej; import z plików lokalnych
   ich nie uzupełnia.
 

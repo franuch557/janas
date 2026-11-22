@@ -5,6 +5,7 @@ import { SUBJECTS, type DayPlan, type LocalData, type PlanItem, type ResultEvent
 import { examMinutes, examPartIds, taskLabel, type CkeExam, type CkeTask } from '../logic/cke';
 import { activeEvents, streak, studyDays, studySeconds, taskRecords, type ActiveEvents, type TaskRecord } from '../logic/events';
 import { forecast, isDiagnosed, masteryMap, weakBoost, type Forecast, type TopicMastery } from '../logic/mastery';
+import { memoryBoost } from '../logic/memory';
 import { computeWeights, topicPriority, topicStats } from '../logic/weights';
 import { buildPlan, mockKey, type PlanExam, type PlanResult, type PlanTask } from '../logic/planner';
 import { selectDiagnosis, DIAGNOSIS_MINUTES, type DiagnosisSelection } from '../logic/diagnosis';
@@ -80,7 +81,7 @@ export function userTaskToApp(u: UserTask): AppTask {
 }
 
 /** Wszystko poza stanem sesji (sesje zmieniają się przy każdym kliknięciu odpowiedzi). */
-export function derive(data: Pick<LocalData, 'stan' | 'events'>, exams: CkeExam[], packs: Record<string, PackState>, today: string): Omit<Derived, 'inProgress'> {
+export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'cards'>, exams: CkeExam[], packs: Record<string, PackState>, today: string): Omit<Derived, 'inProgress'> {
   const stan = data.stan;
   const examById = new Map(exams.map((e) => [e.id, e]));
   const tasks = new Map<string, AppTask>();
@@ -114,7 +115,7 @@ export function derive(data: Pick<LocalData, 'stan' | 'events'>, exams: CkeExam[
     const m = masteryMap(active.results, s.id, topics.map((t) => t.id));
     mastery[s.id] = m;
     const p: Record<string, number> = {};
-    for (const t of topics) p[t.id] = topicPriority(w[t.id] ?? 0, m[t.id]?.value ?? null, weakBoost(active.results, s.id, t.id, today), undefined);
+    for (const t of topics) p[t.id] = topicPriority(w[t.id] ?? 0, m[t.id]?.value ?? null, weakBoost(active.results, s.id, t.id, today) + memoryBoost(data.memory, s.id, t.id), undefined);
     priorities[s.id] = p;
     if (isDiagnosed(active.sessions, s.id)) diagnosed.add(s.id);
     fc[s.id] = forecast(w, m, diagnosed.has(s.id));
@@ -166,6 +167,7 @@ export function derive(data: Pick<LocalData, 'stan' | 'events'>, exams: CkeExam[
     doneToday,
     priorities,
     lastStudied,
+    cardsDue: (date) => data.cards.filter((c) => !c.deleted && (date === today ? c.due <= date || c.reviewedOn === date : c.due === date)).length,
   });
 
   const resultsByDay = new Map<string, ResultEvent[]>();

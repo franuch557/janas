@@ -89,6 +89,7 @@ export async function renderGray(doc, pageNo, scale) {
   return { gray, w, h, scale };
 }
 
+const WHITE = Number(process.env.CKE_WHITE ?? 232);
 const DARK = 150; // piksel „ciemny”: tekst, rysunek. Kratka na rozwiązanie jest jaśniejsza (≥ 180).
 
 /**
@@ -100,7 +101,8 @@ const DARK = 150; // piksel „ciemny”: tekst, rysunek. Kratka na rozwiązanie
 export function cutFragment(r, frag, opts = {}) {
   const gap = opts.gap ?? 16;
   const s = r.scale;
-  const cols = frag.cols ?? [[frag.x0, frag.x1]];
+  let cols = frag.cols ?? [[frag.x0, frag.x1]];
+  if (frag.split) cols = splitByRules(r, frag) ?? cols;
   const y0 = Math.max(0, Math.floor(frag.y0 * s));
   const y1 = Math.min(r.h, Math.ceil(frag.y1 * s));
   if (y1 - y0 < 4) return null;
@@ -149,6 +151,34 @@ export function cutFragment(r, frag, opts = {}) {
   return { w, h: rows.length, data: out };
 }
 
+/**
+ * Tabela zasad angielskiego: szukam pionowych linii tabeli (kolumny pikseli ciemne na ≥ 60%
+ * wysokości) i wycinam kolumnę numerów (do linii za numerem) oraz kolumnę odpowiedzi (od linii
+ * przed nagłówkiem „Poprawna odpowiedź”). Zwraca kolumny w punktach albo null.
+ */
+function splitByRules(r, frag) {
+  const s = r.scale;
+  const y0 = Math.max(0, Math.floor(frag.y0 * s));
+  const y1 = Math.min(r.h, Math.ceil(frag.y1 * s));
+  const xa = Math.max(0, Math.floor(frag.x0 * s));
+  const xb = Math.min(r.w, Math.ceil(frag.x1 * s));
+  const hh = y1 - y0;
+  if (hh < 20) return null;
+  const v = [];
+  for (let x = xa; x < xb; x++) {
+    let c = 0;
+    for (let y = y0; y < y1; y++) if (r.gray[y * r.w + x] < 170) c++;
+    if (c > hh * 0.6) v.push(x / s);
+  }
+  // sklejam sąsiednie piksele w jedną linię
+  const lines = [];
+  for (const x of v) { const l = lines[lines.length - 1]; if (l && x - l.x1 < 2) l.x1 = x; else lines.push({ x0: x, x1: x }); }
+  const after = lines.find((l) => l.x0 > frag.split.numX1 - 2);
+  const before = lines.filter((l) => l.x1 < frag.split.ansX + 2).pop();
+  if (!after || !before || before.x0 <= after.x1 + 5) return null;
+  return [[frag.x0, after.x1 + 1.5], [before.x0 - 1.5, frag.x1]];
+}
+
 /** Składa fragmenty pionowo (odstęp `sep` px) w jeden obraz JPEG o szerokości `width` px. */
 export async function composeJpeg(fragments, { width = 1000, quality = 60, sep = 18 } = {}) {
   const { createCanvas } = await import('@napi-rs/canvas');
@@ -168,7 +198,8 @@ export async function composeJpeg(fragments, { width = 1000, quality = 60, sep =
     for (let y = 0; y < fh; y++) {
       const sy = Math.min(f.h - 1, Math.floor(y / k));
       for (let x = 0; x < Math.min(W, Math.round(f.w * k)); x++) {
-        const v = f.data[sy * f.w + Math.min(f.w - 1, Math.floor(x / k))];
+        let v = f.data[sy * f.w + Math.min(f.w - 1, Math.floor(x / k))];
+        if (v > WHITE) v = 255; // szum antyaliasingu na białym tle tylko powiększa JPEG
         const j = ((oy + y) * W + x) * 4;
         id.data[j] = id.data[j + 1] = id.data[j + 2] = v;
       }

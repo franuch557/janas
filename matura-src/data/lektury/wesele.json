@@ -1,0 +1,130 @@
+{
+  "id": "wesele",
+  "metryczka": {
+    "autor": "Stanisław Wyspiański",
+    "tytul": "Wesele",
+    "rok": "1901 (premiera w Krakowie i wydanie)",
+    "gatunek": "dramat symboliczny (narodowy)",
+    "epoka": "Młoda Polska",
+    "rodzaj": "dramat"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Akt I – realistyczny obraz wesela",
+      "tekst": "Listopadowa noc 1900 r., Bronowice pod Krakowem, chata Gospodarza. Odbywa się wesele poety (Pana Młodego) z chłopką (Panną Młodą). Goście z miasta i ze wsi rozmawiają w parach. Dziennikarz zbywa Czepca, który interesuje się polityką, i zachwyca się spokojem wsi, nie chcąc słyszeć o niepokojach świata. Pan Młody zachwyca się wiejską sielanką i prostotą żony, choć słabo rozumie jej świat. Poeta flirtuje z Rachelą, córką Żyda karczmarza, która nastrojona poetycko radzi zaprosić na wesele chochoła (słomiane okrycie krzewu róży) – i Pan Młody go zaprasza. Gospodarz chwali chłopów jako siłę narodu."
+    },
+    {
+      "tytul": "Akt II – zjawy",
+      "tekst": "Chochoł przychodzi i wywołuje osoby dramatu – zjawy ukazujące się poszczególnym bohaterom i odsłaniające ich lęki i marzenia: Marysi zmarły narzeczony (Widmo), Dziennikarzowi błazen Stańczyk, który zarzuca mu bezczynność, Poecie Rycerz Czarny (Zawisza) – symbol dawnej siły, Panu Młodemu Hetman Branicki – zdrajca, Dziadowi Upiór Jakuba Szeli, przypominający rzeź galicyjską 1846 r. Gospodarzowi ukazuje się Wernyhora: daje mu złoty róg i polecenie, by o świcie zebrał ludzi z całej okolicy i czekał na znak do walki o niepodległość. Gospodarz przekazuje róg Jaśkowi i każe mu objechać wsie."
+    },
+    {
+      "tytul": "Akt III – oczekiwanie i chocholi taniec",
+      "tekst": "Goście są zmęczeni. Gospodarz zapomina o poleceniu Wernyhory i zasypia. Czepiec i chłopi z kosami zbierają się gotowi do walki, ale inteligencja nie potrafi przewodzić. O świcie wszyscy nasłuchują tętentu, którego nie ma. Jasiek wraca bez rogu – zgubił go, schylając się po pawie pióra ze swojej czapki. Chochoł gra na skrzypkach, a weselnicy, jakby uśpieni, tańczą w kole senny, chocholi taniec. Jasiek, zrozumiawszy, co stracił, słyszy tylko słowa Chochoła o zgubionym złotym rogu."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Gospodarz",
+      "opis": "Malarz osiadły na wsi (pierwowzór: Włodzimierz Tetmajer), wierzy w chłopów; dostaje od Wernyhory złoty róg, ale zawodzi."
+    },
+    {
+      "imie": "Pan Młody",
+      "opis": "Poeta z miasta (pierwowzór: Lucjan Rydel), zauroczony wsią i chłopomanią."
+    },
+    {
+      "imie": "Panna Młoda",
+      "opis": "Wiejska dziewczyna, prosta i pełna wdzięku."
+    },
+    {
+      "imie": "Poeta",
+      "opis": "Artysta-dekadent (pierwowzór: Kazimierz Przerwa-Tetmajer), marzy o wielkich czynach, ale nic nie robi."
+    },
+    {
+      "imie": "Dziennikarz",
+      "opis": "Redaktor konserwatywnej gazety, pesymista; widzi bezsens polskich zrywów."
+    },
+    {
+      "imie": "Czepiec",
+      "opis": "Wójt, pełen energii chłop, gotów do walki."
+    },
+    {
+      "imie": "Rachela",
+      "opis": "Córka karczmarza, romantyczna, oczytana; inicjatorka zaproszenia chochoła."
+    },
+    {
+      "imie": "Jasiek",
+      "opis": "Drużba, któremu powierzono złoty róg i który go gubi."
+    },
+    {
+      "imie": "Chochoł",
+      "opis": "Symbol uśpienia, marazmu, ale też uśpionej nadziei."
+    },
+    {
+      "imie": "Wernyhora, Stańczyk, Rycerz, Hetman, Upiór",
+      "opis": "Postaci fantastyczne – głosy historii i sumienia."
+    }
+  ],
+  "problematyka": [
+    "niemożność czynu narodowego i bierność społeczeństwa",
+    "konflikt i niezrozumienie między inteligencją a chłopami (chłopomania)",
+    "pamięć historyczna: zdrada, rzeź galicyjska, stracone szanse",
+    "krytyka romantycznych mitów i marzeń bez działania",
+    "sztuka i rola artysty w narodzie"
+  ],
+  "motywy": [
+    {
+      "motyw": "wesele",
+      "opis": "metafora społeczeństwa polskiego."
+    },
+    {
+      "motyw": "złoty róg",
+      "opis": "szansa na odzyskanie wolności."
+    },
+    {
+      "motyw": "czapka z piór",
+      "opis": "przedkładanie pozoru i własnego interesu nad sprawę narodową."
+    },
+    {
+      "motyw": "chochoł",
+      "opis": "uśpienie, marazm."
+    },
+    {
+      "motyw": "taniec",
+      "opis": "chocholi taniec jako obraz niemocy."
+    },
+    {
+      "motyw": "zjawy",
+      "opis": "przeszłość wracająca w snach."
+    }
+  ],
+  "konteksty": [
+    "Rzeczywiste wesele Lucjana Rydla z Jadwigą Mikołajczykówną (20 listopada 1900 r.) – wielu bohaterów ma pierwowzory.",
+    "Historia: zabory, rabacja galicyjska 1846 r. (Szela), Targowica (Branicki).",
+    "Młoda Polska: symbolizm, chłopomania, krytyka społeczeństwa.",
+    "Romantyzm: „Dziady” – zjawy, rozliczenie z narodem; Wernyhora – legendarny wieszcz ukraiński z literatury romantycznej.",
+    "Film Andrzeja Wajdy „Wesele” (1972); Wojciech Smarzowski, „Wesele” (2004) – współczesne nawiązanie."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Niech na całym świecie wojna, / byle polska wieś zaciszna,",
+      "kontekst": "Dziennikarz w akcie I – obojętność inteligencji na sprawy świata."
+    },
+    {
+      "tekst": "chłop potęgą jest i basta.",
+      "kontekst": "Gospodarz w akcie I – idealizacja chłopów."
+    },
+    {
+      "tekst": "Miałeś, chamie, złoty róg,",
+      "kontekst": "Chochoł w finale – piosenka o zaprzepaszczonej szansie."
+    }
+  ],
+  "doWypracowania": [
+    "Polacy wobec szansy na wolność – „Wesele”, „Dziady” cz. III.",
+    "Inteligencja i lud – „Wesele”, „Chłopi”, „Przedwiośnie”.",
+    "Funkcja fantastyki w dramacie.",
+    "Symbol w literaturze – złoty róg, chochoł.",
+    "Pytanie ustne: Jaki obraz społeczeństwa polskiego przedstawia „Wesele”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": null
+}

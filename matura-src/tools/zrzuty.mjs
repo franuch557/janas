@@ -6,6 +6,7 @@ import { createServer } from 'vite';
 import { chromium } from 'playwright';
 import { readFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+import { sampleScript } from '../tests-e2e/fake-sample.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const out = process.argv[2] ?? 'zrzuty';
@@ -49,6 +50,7 @@ const browser = await chromium.launch();
 async function shot(name, width, scheme, fn, opts = {}) {
   if (only && !name.includes(only)) return;
   const ctx = await browser.newContext({ viewport: { width, height: width < 700 ? 844 : 860 }, deviceScaleFactor: width < 700 ? 2 : 1, colorScheme: scheme, locale: 'pl-PL' });
+  if (opts.sample) await ctx.addInitScript(sampleScript);
   const page = await ctx.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(String(e)));
@@ -127,6 +129,49 @@ const scenarios = [
     await p.locator('#essay').fill('Nadzieja bywa w literaturze siłą, która pozwala przetrwać. W „Dżumie” Alberta Camus doktor Rieux walczy z chorobą, choć nie wie, czy zwycięży. '.repeat(8));
   }, { full: false }],
   ['postep', async (p) => { await go('#postep')(p); }],
+  ['claude-ocena', async (p) => {
+    await go('#zadanie-MMAP-R0-100-2505-n1')(p);
+    await p.waitForTimeout(1200);
+    await p.getByLabel('Twój wynik lub kluczowe kroki').fill('k = 1,25, więc wzrost o 25%');
+    await p.getByRole('button', { name: 'Sprawdź z kluczem' }).click();
+    await p.getByText(/Częściowo: 1 z 2 pkt/).waitFor();
+  }, { sample: true }],
+  ['claude-wyjasnienie', async (p) => {
+    await go('#zadanie-MMAP-P0-100-2505-n1')(p);
+    await p.waitForTimeout(1200);
+    await p.getByRole('radio', { name: 'A' }).first().click();
+    await p.getByRole('button', { name: 'Sprawdź' }).first().click();
+    await p.getByRole('button', { name: 'Wyjaśnij' }).click();
+    await p.getByText('Podpowiedź', { exact: true }).waitFor();
+    await p.getByRole('button', { name: 'Pokaż pełne rozwiązanie' }).click();
+    await p.getByText('Pełne rozwiązanie', { exact: true }).waitFor();
+  }, { sample: true }],
+  ['claude-wypracowanie', async (p) => {
+    await go('#wypracowanie-MPOP-P1-P2-2505-nA2-1')(p);
+    await p.locator('#essay').fill('Nadzieja pomaga przetrwać trudne chwile. '.repeat(40));
+    const tab = p.getByRole('radiogroup', { name: 'Widok' });
+    if (await tab.isVisible().catch(() => false)) await tab.getByRole('radio', { name: 'Ocena', exact: true }).click();
+    else await p.getByRole('button', { name: 'Oceń tekst' }).click();
+    await p.getByRole('button', { name: 'Oceń z Claude’em' }).click();
+    await p.getByText('Wskazówki').waitFor();
+  }, { sample: true, full: false }],
+  ['fiszki', async (p) => {
+    await go('#zadanie-MJAP-P0-100-2505-n4')(p);
+    await p.getByRole('button', { name: 'Utwórz fiszki z tego zadania' }).click();
+    await p.getByText(/Dodano fiszki/).waitFor();
+    await go('#fiszki')(p);
+  }, { sample: true }],
+  ['fiszki-powtorka', async (p) => {
+    await go('#zadanie-MJAP-P0-100-2505-n4')(p);
+    await p.getByRole('button', { name: 'Utwórz fiszki z tego zadania' }).click();
+    await p.getByText(/Dodano fiszki/).waitFor();
+    await go('#fiszki')(p);
+    await p.getByRole('button', { name: /^Powtórz/ }).click();
+    await p.getByRole('button', { name: 'Pokaż odpowiedź' }).click();
+  }, { sample: true }],
+  ['piec-minut', async (p) => { await go('#piec-minut')(p); await p.waitForTimeout(1500); }, { full: false }],
+  ['lektury', async (p) => { await go('#lektury')(p); }],
+  ['ustny', async (p) => { await go('#ustny')(p); }],
   ['ustawienia', async (p) => { await go('#ustawienia')(p); }],
 ];
 

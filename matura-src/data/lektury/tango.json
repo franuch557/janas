@@ -1,0 +1,101 @@
+{
+  "id": "tango",
+  "metryczka": {
+    "autor": "Sławomir Mrożek",
+    "tytul": "Tango",
+    "rok": "1964 (publikacja), 1965 (prapremiera polska)",
+    "gatunek": "dramat (groteska, tragifarsa)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "dramat"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Akt I – dom bez zasad",
+      "tekst": "Mieszkanie rodziny Stomilów pełne jest bałaganu: stoi katafalk, wózek dziecięcy, porzucona suknia ślubna. Ojciec Stomil to artysta-eksperymentator, który w młodości walczył z konwenansami; matka Eleonora romansuje z prymitywnym Edkiem, a babcia Eugenia gra z nim w karty. Wuj Eugeniusz to stary, bezradny przedstawiciel dawnego świata. Ich syn Artur, student medycyny, buntuje się przeciw temu, że wszystko wolno: chce przywrócić porządek, zasady i formę. Z kuzynką Alą postanawia wziąć tradycyjny ślub."
+    },
+    {
+      "tytul": "Akt II – zamach na rodzinę",
+      "tekst": "Artur z pomocą Eugeniusza przeprowadza „zamach stanu”: zmusza rodzinę do porządku, każe ubrać się odświętnie i przygotować ślub. Próbuje skłonić ojca, by z honoru zastrzelił Edka za romans z żoną, ale Stomil traktuje zdradę jako coś obojętnego i nie potrafi działać. Artur rozumie, że sama forma jest pusta."
+    },
+    {
+      "tytul": "Akt III – idea władzy i śmierć Artura",
+      "tekst": "Pijany Artur ogłasza, że jedyną ideą, która może uporządkować świat, jest władza oparta na sile i śmierci. Wtedy Ala wyznaje, że zdradziła go z Edkiem. Załamany Artur grozi Edkowi, ale ten jednym ciosem go zabija. Władzę przejmuje Edek; Eugeniusz natychmiast mu się podporządkowuje. Nad ciałem Artura Edek tańczy z Eugeniuszem tango „La Cumparsita”."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Artur",
+      "opis": "Młody idealista, buntownik przeciw brakowi zasad; chce narzucić porządek, lecz przegrywa z siłą."
+    },
+    {
+      "imie": "Stomil",
+      "opis": "Ojciec, awangardowy artysta, symbol pokolenia, które zburzyło dawne normy."
+    },
+    {
+      "imie": "Eleonora",
+      "opis": "Matka, wyzwolona, romansuje z Edkiem."
+    },
+    {
+      "imie": "Eugenia",
+      "opis": "Babcia, ekscentryczna, gra w karty z Edkiem; umiera na katafalku."
+    },
+    {
+      "imie": "Eugeniusz",
+      "opis": "Wuj, stary konserwatysta, w końcu oportunista wobec Edka."
+    },
+    {
+      "imie": "Ala",
+      "opis": "Kuzynka i narzeczona Artura, kierująca się kaprysem."
+    },
+    {
+      "imie": "Edek",
+      "opis": "Prymityw i cham, który przejmuje władzę – symbol przemocy i siły bez idei."
+    }
+  ],
+  "problematyka": [
+    "konflikt pokoleń i bunt młodych",
+    "kryzys wartości i form w kulturze współczesnej",
+    "mechanizm przejmowania władzy przez siłę",
+    "inteligencja wobec prymitywizmu i przemocy",
+    "parodia rodziny i tradycji"
+  ],
+  "motywy": [
+    {
+      "motyw": "tango",
+      "opis": "taniec dawniej buntowniczy, w finale – taniec zwycięskiego chama."
+    },
+    {
+      "motyw": "dom",
+      "opis": "rodzina jako model społeczeństwa."
+    },
+    {
+      "motyw": "forma i chaos",
+      "opis": "porządek a jego rozpad."
+    },
+    {
+      "motyw": "władza",
+      "opis": "przejęcie przez Edka."
+    },
+    {
+      "motyw": "katafalk",
+      "opis": "symbol martwych wartości."
+    }
+  ],
+  "konteksty": [
+    "Teatr absurdu (Ionesco, Beckett) i groteska.",
+    "Totalitaryzm: Edek jako obraz władzy przemocy (stalinizm, faszyzm).",
+    "Witold Gombrowicz, „Ferdydurke” – forma.",
+    "William Szekspir, „Hamlet” – Artur jako „Hamlet” XX w.",
+    "Marek Nowakowski, „Górą »Edek«” – Edek jako typ człowieka triumfującego po 1989 r."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Konflikt pokoleń – „Tango”, „Oda do młodości”, „Skąpiec”.",
+    "Mechanizmy władzy – Edek, Makbet.",
+    "Kryzys wartości w świecie współczesnym.",
+    "Groteska jako sposób opisu rzeczywistości.",
+    "Pytanie ustne: Kim jest Edek i dlaczego wygrywa?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu."
+}

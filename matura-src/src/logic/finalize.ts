@@ -27,7 +27,7 @@ export function finalizeEvents(
     const r = score.perTask[t.id];
     if (!r || !r.counted || !r.graded) continue;
     const a = s.answers[t.id];
-    out.push({ id: newId('w'), k: 'w', at: now + 1, d: today, task: t.id, subj: t.subjectId, topics: t.topics, pts: r.pts, max: r.max, sec: 0, src, choice: a?.choice, session: s.id, sev: sevId });
+    out.push({ id: newId('w'), k: 'w', at: now + 1, d: today, task: t.id, subj: t.subjectId, topics: t.topics, pts: r.pts, max: r.max, sec: 0, src, choice: a?.choice, session: s.id, sev: sevId, ...(t.auto ? {} : { by: a?.by ?? 'samoocena', ...(a?.feedback ? { feedback: a.feedback } : {}) }) });
   }
   out.push({
     id: sevId,

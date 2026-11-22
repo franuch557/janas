@@ -1,0 +1,70 @@
+{
+  "id": "staff-wiersze",
+  "metryczka": {
+    "autor": "Leopold Staff",
+    "tytul": "Wybrane wiersze",
+    "rok": "od 1901 (debiut „Sny o potędze”) do lat 50. XX w.",
+    "gatunek": "liryka (refleksyjna, filozoficzna)",
+    "epoka": "Młoda Polska",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Kowal” (tom „Sny o potędze”, 1901)",
+      "tekst": "Podmiot liryczny przedstawia się jako kowal, który w ogniu i pod ciosami młota wykuwa z własnego serca coś twardego i mocnego. Praca nad sobą wymaga trudu i cierpienia, ale pozwala stać się silnym, gotowym do walki z przeciwnościami. To wiersz programowy – odpowiedź na dekadencki pesymizm, inspirowany nietzscheańską ideą tworzenia samego siebie."
+    },
+    {
+      "tytul": "„Deszcz jesienny”",
+      "tekst": "Monotonny jesienny deszcz dzwoni o szyby, a podmiot przywołuje smutne, senne wizje: korowód postaci, które coś utraciły, szlochające, błąkające się w szarości. Refreniczna budowa i dźwiękowa instrumentacja (powtórzenia, aliteracje) oddają nastrój melancholii, rozpaczy i znużenia – typowy dla dekadentyzmu, ale wyrażony z wielką muzycznością."
+    },
+    {
+      "tytul": "Późna twórczość (np. „Wysokie drzewa”, tom z 1932 r.)",
+      "tekst": "W późniejszych wierszach Staff wyraża postawę spokojnej kontemplacji świata, zachwytu nad codziennością i przyrodą, pogodzenia się z przemijaniem. Poeta nazywany bywa „poetą trzech pokoleń”, bo jego twórczość ewoluowała od młodopolskiego symbolizmu, przez klasycyzm, do prostoty poezji powojennej."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "W „Kowalu” – człowiek silnej woli, kształtujący siebie; w „Deszczu jesiennym” – melancholik; w późnej poezji – mędrzec pogodzony ze światem."
+    }
+  ],
+  "problematyka": [
+    "praca nad sobą i siła woli",
+    "melancholia i nastrój dekadencki",
+    "harmonia, umiar i zachwyt nad światem",
+    "przemijanie"
+  ],
+  "motywy": [
+    {
+      "motyw": "kowal",
+      "opis": "człowiek wykuwający własny charakter."
+    },
+    {
+      "motyw": "serce jako metal",
+      "opis": "hartowanie się w cierpieniu."
+    },
+    {
+      "motyw": "deszcz i jesień",
+      "opis": "smutek, monotonia."
+    },
+    {
+      "motyw": "drzewa i przyroda",
+      "opis": "kontemplacja."
+    }
+  ],
+  "konteksty": [
+    "Fryderyk Nietzsche – idea nadczłowieka i woli mocy.",
+    "Kazimierz Przerwa-Tetmajer – dekadencki pesymizm, z którym polemizuje „Kowal”.",
+    "Horacy – umiar i spokój ducha w późnej poezji Staffa.",
+    "Młoda Polska: symbolizm i impresjonizm."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Człowiek jako twórca samego siebie – „Kowal”.",
+    "Nastrój w poezji – „Deszcz jesienny”, Tetmajer.",
+    "Postawy wobec świata i cierpienia na przełomie wieków.",
+    "Pytanie ustne: Jak „Kowal” odpowiada na dekadentyzm?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Staff zmarł w 1957 r., więc jego utwory nie są jeszcze w domenie publicznej (wejdą w 2028 r.) – brak cytatów i linku. Twórczość obejmuje Młodą Polskę, dwudziestolecie i okres powojenny; podstawa nie wskazuje tytułów. Przypisanie „Deszczu jesiennego” do tomu „Dzień duszy” (1903) – do sprawdzenia."
+}

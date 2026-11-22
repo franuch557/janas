@@ -1,0 +1,114 @@
+{
+  "id": "dzuma",
+  "metryczka": {
+    "autor": "Albert Camus",
+    "tytul": "Dżuma",
+    "rok": "1947",
+    "gatunek": "powieść-parabola (kronika)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Część I – nadejście zarazy",
+      "tekst": "Oran w Algierii, rok 194… Doktor Bernard Rieux znajduje na schodach martwego szczura; wkrótce szczury giną tysiącami, a potem zaczynają umierać ludzie (pierwszy – dozorca Michel). Rieux wysyła chorą żonę na leczenie poza miasto. Lekarze rozpoznają dżumę, ale władze długo zwlekają z decyzjami. Gdy liczba zgonów rośnie, ogłoszona zostaje epidemia, a miasto zamknięte."
+    },
+    {
+      "tytul": "Część II – miasto zamknięte",
+      "tekst": "Mieszkańcy przeżywają rozłąkę z bliskimi i poczucie uwięzienia. Dziennikarz Rambert, który przypadkiem utknął w Oranie, próbuje nielegalnie uciec do ukochanej w Paryżu. Jezuita ojciec Paneloux w kazaniu ogłasza, że dżuma jest karą za grzechy. Jean Tarrou organizuje ochotnicze formacje sanitarne; przyłącza się urzędnik Grand, który nocami w nieskończoność poprawia pierwsze zdanie swojej powieści. Rambert w końcu rezygnuje z ucieczki i zostaje, by pomagać – uznaje, że wstydem byłoby być szczęśliwym samemu."
+    },
+    {
+      "tytul": "Część III – szczyt epidemii",
+      "tekst": "Upalne lato: zmarłych jest tak wielu, że chowa się ich w zbiorowych dołach, a potem pali. Ludzie przyzwyczajają się do nieszczęścia, popadają w apatię. Rośnie przestępczość i handel na czarnym rynku."
+    },
+    {
+      "tytul": "Część IV – śmierć dziecka",
+      "tekst": "Synek sędziego Othona umiera w męczarniach mimo podania nowej surowicy doktora Castela. Rieux, poruszony, mówi Paneloux, że nigdy nie zaakceptuje świata, w którym cierpią dzieci. Paneloux w drugim kazaniu wzywa, by przyjąć wszystko albo wszystko odrzucić; wkrótce sam umiera (choroba nie daje jednoznacznych objawów dżumy). Tarrou opowiada Rieux swoje życie: jako syn prokuratora zbuntował się przeciw karze śmierci i chce być „świętym bez Boga”. Obaj kąpią się w morzu – chwila przyjaźni."
+    },
+    {
+      "tytul": "Część V – koniec epidemii",
+      "tekst": "Zimą epidemia słabnie. Jako jedna z ostatnich ofiar umiera Tarrou. Rieux otrzymuje telegram o śmierci żony. Cottard, który podczas epidemii czuł się dobrze, bo zaraza odsunęła groźbę kary za jego dawne przestępstwo, po jej końcu wpada w szał, strzela do ludzi i zostaje aresztowany. Bramy miasta zostają otwarte, ludzie świętują. Rieux ujawnia, że to on jest autorem kroniki, i przypomina, że bakcyl dżumy nigdy nie znika – może powrócić."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Bernard Rieux",
+      "opis": "Lekarz i narrator; uczciwie wykonuje swój obowiązek, walczy ze złem bez wiary w Boga i bez heroicznego patosu."
+    },
+    {
+      "imie": "Jean Tarrou",
+      "opis": "Przybysz, kronikarz zdarzeń, organizator oddziałów sanitarnych; szuka sposobu, by być „świętym bez Boga”."
+    },
+    {
+      "imie": "Raymond Rambert",
+      "opis": "Dziennikarz, który z egoistycznej chęci ucieczki przechodzi do solidarności."
+    },
+    {
+      "imie": "ojciec Paneloux",
+      "opis": "Jezuita, którego wiara zostaje wystawiona na próbę przez śmierć dziecka."
+    },
+    {
+      "imie": "Joseph Grand",
+      "opis": "Skromny urzędnik, cichy bohater codziennej pracy."
+    },
+    {
+      "imie": "Cottard",
+      "opis": "Człowiek, który korzysta na nieszczęściu innych."
+    },
+    {
+      "imie": "sędzia Othon i jego synek",
+      "opis": "Postacie, przez które pokazano cierpienie niewinnych."
+    }
+  ],
+  "problematyka": [
+    "postawy człowieka wobec zła: walka, ucieczka, bierność, wykorzystywanie sytuacji",
+    "solidarność i odpowiedzialność za innych",
+    "sens cierpienia niewinnych i spór z Bogiem",
+    "absurd świata i bunt przeciw niemu",
+    "zło jako coś, co zawsze może powrócić"
+  ],
+  "motywy": [
+    {
+      "motyw": "zaraza",
+      "opis": "symbol zła, także totalitaryzmu i wojny."
+    },
+    {
+      "motyw": "miasto zamknięte",
+      "opis": "uwięzienie, izolacja."
+    },
+    {
+      "motyw": "lekarz",
+      "opis": "człowiek walczący z chorobą i śmiercią."
+    },
+    {
+      "motyw": "śmierć dziecka",
+      "opis": "najcięższy argument w sporze z Bogiem."
+    },
+    {
+      "motyw": "szczury",
+      "opis": "zwiastun nieszczęścia."
+    },
+    {
+      "motyw": "kronika",
+      "opis": "świadectwo."
+    }
+  ],
+  "konteksty": [
+    "Powieść-parabola: dżumę odczytuje się jako alegorię okupacji hitlerowskiej i każdego totalitaryzmu.",
+    "Filozofia egzystencjalna i absurd (Camus, „Mit Syzyfa”).",
+    "Księga Hioba i Dostojewski – problem cierpienia niewinnych.",
+    "Hanna Krall, „Zdążyć przed Panem Bogiem” – lekarz ratujący życie.",
+    "Epidemia COVID-19 – powrót zainteresowania powieścią."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Postawy wobec zła – „Dżuma”, „Inny świat”, „Rok 1984”.",
+    "Solidarność i obowiązek – Rieux, Tarrou, Rambert.",
+    "Cierpienie niewinnych i sens świata.",
+    "Czy można być dobrym bez Boga?",
+    "Parabola w literaturze.",
+    "Pytanie ustne: Dlaczego „Dżumę” nazywa się powieścią-parabolą?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu."
+}

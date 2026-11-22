@@ -7,13 +7,13 @@
 // Nagranie arkusza angielskiego jest kompresowane ffmpegiem do public/cke/<examId>.mp3
 // (mono, 48 kb/s). Brak obrazu zadania z data/exams.json przerywa skrypt błędem.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync, rmSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { parseFileName } from './cke-parse.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const srcDir = join(root, process.argv[2] ?? 'cke-pdf');
+const srcDir = resolve(root, process.argv[2] ?? 'cke-pdf');
 const imgDir = join(root, 'cke-obrazy');
 const out = join(root, 'public/cke');
 const LIMIT = 12 * 1024 * 1024;
@@ -72,6 +72,23 @@ for (const { e, pack } of packs) {
   }
   lines.push(line);
 }
+// karta „Wybrane wzory matematyczne” (jeśli jest w katalogu): strony jako obrazy → wzory.json
+const wzory = existsSync(srcDir) ? readdirSync(srcDir).find((f) => /\.pdf$/i.test(f) && /wzory/i.test(f)) : null;
+if (wzory) {
+  const { loadPdf, renderGray, composeJpeg } = await import('./cke-pdf.mjs');
+  const { doc, pages } = await loadPdf(join(srcDir, wzory));
+  const strony = [];
+  for (const p of pages) {
+    const r = await renderGray(doc, p.page, 1000 / p.width);
+    const jpg = await composeJpeg([{ w: r.w, h: r.h, data: r.gray }], { width: 1000, quality: 60 });
+    strony.push(`data:image/jpeg;base64,${jpg.toString('base64')}`);
+  }
+  await doc.destroy();
+  const json = JSON.stringify({ zrodlo: wzory, strony });
+  writeFileSync(join(out, 'wzory.json'), json);
+  total += Buffer.byteLength(json);
+  lines.push(`wzory.json: ${(Buffer.byteLength(json) / 1048576).toFixed(2)} MB (${strony.length} stron z ${wzory})`);
+} else lines.push('wzory.json: pominięty (brak pliku z „wzory” w nazwie w katalogu PDF)');
 console.log(lines.join('\n'));
 console.log(`Razem public/cke/: ${(total / 1048576).toFixed(1)} MB w ${readdirSync(out).length} plikach.`);
 if (errors.length) {

@@ -1,0 +1,113 @@
+{
+  "id": "ferdydurke",
+  "metryczka": {
+    "autor": "Witold Gombrowicz",
+    "tytul": "Ferdydurke (fragmenty)",
+    "rok": "1937 (wyd. z datą 1938)",
+    "gatunek": "powieść groteskowa (filozoficzna)",
+    "epoka": "Dwudziestolecie międzywojenne",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Porwanie w młodość",
+      "tekst": "Trzydziestoletni Józio Kowalski budzi się z lękiem, że nie jest w pełni dojrzały – czuje się „rozbity” na niedojrzałe kawałki. Odwiedza go profesor Pimko, belfer i filolog, który traktuje go jak ucznia, „upupia” go (narzuca mu pupę – infantylną formę) i zaprowadza do szkoły dyrektora Piórkowskiego."
+    },
+    {
+      "tytul": "Szkoła",
+      "tekst": "Józio staje się uczniem. Na lekcji polskiego nauczyciel powtarza, że Słowacki wielkim poetą był, bo zachwyca – a uczeń Gałkiewicz rozpaczliwie pyta, jak ma zachwycać, skoro nie zachwyca. Lekcja łaciny jest równie absurdalna. Uczniowie dzielą się na obóz niewinnych, idealistycznych chłopców (Syfon) i obóz brutalnych „realistów” (Miętus). Dochodzi do groteskowego pojedynku na miny: przeciwnicy stroją coraz bardziej wykrzywione twarze, a w końcu przemocą narzucają sobie nawzajem formy."
+    },
+    {
+      "tytul": "Młodziakowie",
+      "tekst": "Pimko umieszcza Józia na stancji u nowoczesnej rodziny Młodziaków – inżyniera, inżynierowej i ich córki Zuty, nowoczesnej pensjonarki. Józio zakochuje się w Zucie, ale i nienawidzi jej nowoczesności. Rozbija tę formę intrygą: wysyła liściki, które sprawiają, że nocą w pokoju Zuty zjawiają się profesor Pimko i jej młody adorator Kopyrda – dochodzi do kompromitacji i bijatyki całego domu. Józio ucieka z Miętusem."
+    },
+    {
+      "tytul": "Dwór ziemiański",
+      "tekst": "Miętus marzy o „spoufaleniu się” z parobkiem, więc trafiają do dworu wujostwa Hurleckich. Józio poznaje świat sztywnej ziemiańskiej hierarchii. Miętus brata się z parobkiem Walkiem, co wywołuje skandal i bunt służby; porządek dworu się rozpada. Józio ucieka, porywając kuzynkę Zosię, choć wie, że od formy nie da się uciec – można tylko wpaść w inną."
+    },
+    {
+      "tytul": "Wstawki",
+      "tekst": "Powieść przerywają dwa opowiadania-przypowieści: „Filidor dzieckiem podszyty” i „Filibert dzieckiem podszyty”, z przedmowami, w których narrator wykłada swoje poglądy na formę i sztukę."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Józio Kowalski",
+      "opis": "Narrator, trzydziestoletni pisarz wtłoczony w rolę ucznia; walczy z formą, choć nie potrafi się od niej uwolnić."
+    },
+    {
+      "imie": "profesor Pimko",
+      "opis": "Belfer, filolog, symbol szkolnej, skostniałej formy."
+    },
+    {
+      "imie": "Syfon",
+      "opis": "Uczeń, idealista dbający o niewinność."
+    },
+    {
+      "imie": "Miętus",
+      "opis": "Uczeń buntownik, wulgarny, tęskniący za autentycznością (parobek)."
+    },
+    {
+      "imie": "Zuta Młodziakówna",
+      "opis": "Nowoczesna pensjonarka, symbol nowoczesności."
+    },
+    {
+      "imie": "Młodziakowie (inżynierostwo)",
+      "opis": "Rodzina podporządkowana modzie na nowoczesność."
+    },
+    {
+      "imie": "Hurleccy, Zosia",
+      "opis": "Ziemiańska rodzina i kuzynka Józia."
+    },
+    {
+      "imie": "Walek",
+      "opis": "Parobek, z którym brata się Miętus."
+    }
+  ],
+  "problematyka": [
+    "forma – narzucane człowiekowi role i schematy zachowań",
+    "niedojrzałość i wtłaczanie w stereotyp („pupa”, „gęba”)",
+    "krytyka szkoły, nowoczesności i ziemiańskiego tradycjonalizmu",
+    "relacje międzyludzkie jako wzajemne narzucanie form",
+    "parodia szkolnego kultu wieszczów"
+  ],
+  "motywy": [
+    {
+      "motyw": "gęba i pupa",
+      "opis": "symbol narzuconej formy i infantylizacji."
+    },
+    {
+      "motyw": "szkoła",
+      "opis": "instytucja upupiająca."
+    },
+    {
+      "motyw": "pojedynek na miny",
+      "opis": "groteskowa walka o formę."
+    },
+    {
+      "motyw": "młodość",
+      "opis": "niedojrzałość jako siła i słabość."
+    },
+    {
+      "motyw": "ucieczka",
+      "opis": "próba wyrwania się z formy."
+    }
+  ],
+  "konteksty": [
+    "Groteska i absurd w literaturze dwudziestolecia (Witkacy, Schulz).",
+    "Filozofia egzystencjalna – człowiek tworzony przez innych.",
+    "Sławomir Mrożek, „Tango” – forma i jej rozpad.",
+    "Romantyzm: parodia czci dla Słowackiego.",
+    "Mickiewicz, „Oda do młodości” – inne ujęcie młodości."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Człowiek wobec narzuconych ról społecznych – „Ferdydurke”, „Tango”.",
+    "Obraz szkoły w literaturze.",
+    "Groteska jako sposób przedstawiania świata.",
+    "Dojrzałość i niedojrzałość.",
+    "Pytanie ustne: Czym jest forma według Gombrowicza?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim (autor zm. 1969) – brak cytatów i linku. Podstawa nie wskazuje fragmentów; najczęściej omawia się część szkolną (lekcja polskiego, pojedynek na miny). Streszczenie obejmuje całość w skrócie."
+}

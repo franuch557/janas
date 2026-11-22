@@ -47,7 +47,8 @@ export type PlanKind =
   | 'diagnoza'
   | 'wypracowanie'
   | 'przegląd'
-  | 'korepetycje';
+  | 'korepetycje'
+  | 'fiszki';
 
 /** Pozycja planu. `ref` jest tożsamością pozycji (nadpisania, odhaczanie). */
 export interface PlanItem {
@@ -121,6 +122,8 @@ export interface Stan {
   notifiedOn: string | null;
   /** Czas usunięcia wszystkich danych: starsze zdarzenia z innych urządzeń są pomijane. */
   resetAt: number;
+  /** Oczekiwany wynik przedmiotu dodatkowego do rekrutacji (egzamin zawodowy), w %. */
+  extraPct: number;
   /** Czas ostatniej zmiany każdego pola ustawień (scalanie po polach). */
   fieldAt?: Record<string, number>;
 }
@@ -143,6 +146,7 @@ export function defaultStan(today: string): Stan {
     userTasks: [],
     notifiedOn: null,
     resetAt: 0,
+    extraPct: 70,
   };
 }
 
@@ -166,6 +170,10 @@ export interface ResultEvent {
   session?: string;
   /** Zdarzenie wyniku arkusza, do którego należy ten wynik (kaskada cofania). */
   sev?: string;
+  /** Kto ocenił zadanie otwarte. */
+  by?: 'claude' | 'samoocena';
+  /** Uzasadnienie oceny Claude'a. */
+  feedback?: string;
 }
 
 export interface UndoEvent {
@@ -215,6 +223,9 @@ export interface SessionAnswer {
   self?: number | null;
   text?: string;
   criteria?: Record<string, number>;
+  /** Kto ocenił (samoocena albo Claude) i uzasadnienie oceny Claude'a. */
+  by?: 'claude' | 'samoocena';
+  feedback?: string;
 }
 
 export interface Session {
@@ -258,6 +269,68 @@ export interface Essay {
   date: string;
   sec: number;
   updatedAt: number;
+  by?: 'claude' | 'samoocena';
+}
+
+// ---------- Funkcje z Claude'em (dokumenty wyjasnienia-*, pamiec, fiszki, raporty, ustny) ----------
+
+export interface ChatTurn {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+export interface Explanation {
+  taskId: string;
+  hint: string | null;
+  full: string | null;
+  chat: ChatTurn[];
+  at: number;
+}
+
+export type MistakeType = 'rachunkowy' | 'koncepcyjny' | 'zapis' | 'brak kroku' | 'inne';
+
+/** Notatka o trudności ucznia (pamięć). */
+export interface MemoryNote {
+  id: string;
+  subj: SubjectId;
+  topic: string | null;
+  type: MistakeType;
+  note: string;
+  count: number;
+  at: number;
+  deleted?: boolean;
+}
+
+export interface Flashcard {
+  id: string;
+  subj: SubjectId;
+  /** Skąd fiszka: id zadania, „slabe”, id lektury. */
+  deck: string;
+  deckName: string;
+  front: string;
+  back: string;
+  example: string | null;
+  step: number;
+  due: string;
+  reviews: number;
+  /** Dzień ostatniej powtórki. */
+  reviewedOn?: string;
+  at: number;
+  deleted?: boolean;
+}
+
+export interface WeeklyNote {
+  week: string;
+  seen: boolean;
+  summary: string | null;
+  at: number;
+}
+
+export interface OralNote {
+  nr: string;
+  text: string;
+  plan: { teza: string; argumenty: string[]; kontekst: string; zakonczenie: string } | null;
+  at: number;
 }
 
 export interface LocalData {
@@ -265,4 +338,9 @@ export interface LocalData {
   events: AppEvent[];
   sessions: Record<string, Session>;
   essays: Essay[];
+  explanations: Record<string, Explanation>;
+  memory: MemoryNote[];
+  cards: Flashcard[];
+  reports: Record<string, WeeklyNote>;
+  oral: Record<string, OralNote>;
 }

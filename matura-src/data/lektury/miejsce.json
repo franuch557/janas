@@ -1,0 +1,83 @@
+{
+  "id": "miejsce",
+  "metryczka": {
+    "autor": "Andrzej Stasiuk",
+    "tytul": "Miejsce (z tomu „Opowieści galicyjskie”)",
+    "rok": "1995 (tom „Opowieści galicyjskie”; samo opowiadanie drukowane wcześniej w prasie, ok. 1993)",
+    "gatunek": "opowiadanie",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Puste miejsce",
+      "tekst": "Narrator, mieszkaniec wsi w Beskidzie Niskim, wspomina rozbiórkę starej drewnianej cerkwi. Robotnicy uwinęli się szybko: rozebrali świątynię na części i wywieźli do muzeum, gdzie ma zostać złożona na nowo. Po cerkwi został tylko prostokąt szarej, gliniastej ziemi, który z czasem zarasta trawą. Narrator oprowadza po tym miejscu przyjezdnego turystę, który pyta, co tu było."
+    },
+    {
+      "tytul": "Wyobrażona budowa",
+      "tekst": "Ponieważ nikt nie pamięta początków, narrator wyobraża sobie, jak przed wiekami budowano cerkiew: zimą w odległym lesie ścinano najpotężniejsze drzewa, ludzie i konie z trudem wlekli bale przez śnieg, z modrzewia ciosano podwaliny, cieśle składali zrąb, a jesienią przybijano ostatnie gonty. Budowa była trudem prawie sakralnym – wyjęciem kawałka świata i przeniesieniem go w inny wymiar."
+    },
+    {
+      "tytul": "Ślady i pamięć",
+      "tekst": "W trawie narrator znajduje pokruszone gonty i gwoździe i zastanawia się, kto je wykuł. Myśli o ludziach, którzy się tu modlili, a których już nie ma, i o tym, że samo miejsce pozostało święte, choć budynek zniknął. Nie ma pewności, czy wszystko, co sobie wyobraził, było prawdą – ale opowieść wypełnia lukę po tym, co zostało wymazane."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "narrator",
+      "opis": "Przybysz osiadły w Beskidzie Niskim, wrażliwy na przeszłość, który poprzez wyobraźnię odtwarza historię miejsca."
+    },
+    {
+      "imie": "turysta",
+      "opis": "Obcy, który pyta o to, czego już nie widać."
+    },
+    {
+      "imie": "dawni budowniczowie i wierni",
+      "opis": "Nieobecni bohaterowie – ludność łemkowska."
+    }
+  ],
+  "problematyka": [
+    "pamięć miejsca i ślady nieobecnych",
+    "sacrum w krajobrazie",
+    "przemijanie i znikanie kultury (Łemkowie)",
+    "rola wyobraźni i opowieści w odtwarzaniu przeszłości",
+    "czas – mityczny i historyczny"
+  ],
+  "motywy": [
+    {
+      "motyw": "cerkiew",
+      "opis": "świątynia jako centrum świata."
+    },
+    {
+      "motyw": "puste miejsce",
+      "opis": "nieobecność, która domaga się opowieści."
+    },
+    {
+      "motyw": "drewno",
+      "opis": "materia życia i budowy."
+    },
+    {
+      "motyw": "ślady",
+      "opis": "gonty, gwoździe."
+    },
+    {
+      "motyw": "prowincja",
+      "opis": "Galicja jako mityczna kraina."
+    }
+  ],
+  "konteksty": [
+    "Historia: wysiedlenia Łemków po II wojnie światowej (1945–1947, akcja „Wisła” 1947).",
+    "Wielokulturowe pogranicze Galicji.",
+    "Mircea Eliade – sacrum i miejsce święte.",
+    "Józef Czechowicz – arkadia prowincji; Olga Tokarczuk, „Prawiek i inne czasy” – mityczna przestrzeń."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Miejsce i jego pamięć – czy przestrzeń ma swoją historię?",
+    "Ślady przeszłości w literaturze.",
+    "Sacrum w świecie współczesnym.",
+    "Pytanie ustne: Co pozostaje po zniszczonej świątyni?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Lektura dodana do kanonu w 2024 r. Opowiadanie nawiązuje do rzeczywistej łemkowskiej cerkwi ze wsi Czarne, przeniesionej do skansenu w Nowym Sączu – tę informację podano za artykułem naukowym; w samym utworze mowa ogólnie o przeniesieniu „do muzeum”."
+}

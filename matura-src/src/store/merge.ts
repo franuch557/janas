@@ -1,7 +1,10 @@
 // Podział stanu na dokumenty bazy i scalanie danych z dwóch urządzeń.
 // Zdarzenia łączę po id; stan, sesje i wypracowania według updatedAt.
 
-import type { AppEvent, DayOverride, Essay, LocalData, Session, Stan, UserTask } from '../model';
+import type { AppEvent, DayOverride, Essay, Explanation, Flashcard, LocalData, MemoryNote, OralNote, Session, Stan, UserTask, WeeklyNote } from '../model';
+import { mergeNotes } from '../logic/memory';
+import { mergeCards } from '../logic/flashcards';
+import { trimToBytes } from '../logic/ai';
 import { chunkEvents, mergeEvents } from '../logic/events';
 import { newerSession, parseSession } from '../logic/session';
 import { addDays } from '../logic/dates';
@@ -34,7 +37,41 @@ export function toDocs(data: LocalData, today: string): Docs {
     (doc.items as Essay[]).push(e);
     size += n;
   }
+  // wyjaśnienia: dokument na arkusz, najstarsze odpadają, gdy dokument rośnie
+  const byExam = new Map<string, Explanation[]>();
+  for (const e of Object.values(data.explanations)) {
+    const k = explanationDoc(e.taskId);
+    (byExam.get(k) ?? byExam.set(k, []).get(k)!).push(e);
+  }
+  for (const [k, list] of byExam) {
+    const items = trimToBytes(list, 200_000, (l) => ({ typ: 'wyjasnienia', items: l }));
+    docs[k] = { typ: 'wyjasnienia', items: items.sort((a, b) => (a.taskId < b.taskId ? -1 : 1)) };
+  }
+  if (data.memory.length) docs.pamiec = { typ: 'pamiec', notes: trimToBytes(data.memory, 200_000, (l) => ({ typ: 'pamiec', notes: l })) };
+  if (data.cards.length) {
+    const sorted = [...data.cards].sort((a, b) => (a.id < b.id ? -1 : 1));
+    let part = 1;
+    let size = 0;
+    for (const c of sorted) {
+      const n = JSON.stringify(c).length + 1;
+      if (size + n > 200_000 && size > 0) {
+        part++;
+        size = 0;
+      }
+      const key = part === 1 ? 'fiszki' : `fiszki-${part}`;
+      ((docs[key] ??= { typ: 'fiszki', cards: [] as Flashcard[] }).cards as Flashcard[]).push(c);
+      size += n;
+    }
+  }
+  if (Object.keys(data.reports).length) docs.raporty = { typ: 'raporty', items: Object.values(data.reports).sort((a, b) => a.week.localeCompare(b.week)).slice(-60) };
+  if (Object.keys(data.oral).length) docs.ustny = { typ: 'ustny', items: trimToBytes(Object.values(data.oral), 200_000, (l) => ({ typ: 'ustny', items: l })) };
   return docs;
+}
+
+/** Dokument wyjaśnień zadania: `wyjasnienia-<examId>` (zadania własne: `wyjasnienia-wlasne`). */
+export function explanationDoc(taskId: string): string {
+  const i = taskId.lastIndexOf('-n');
+  return i > 0 && !taskId.startsWith('u-') ? `wyjasnienia-${taskId.slice(0, i)}` : 'wyjasnienia-wlasne';
 }
 
 /** Odczyt dokumentów z bazy do postaci stanu (pola mogą być niepełne). */
@@ -54,6 +91,23 @@ export function fromDocs(docs: Docs, today: string): Partial<LocalData> {
   out.events = events;
   out.sessions = sessions;
   out.essays = essays;
+  const explanations: Record<string, Explanation> = {};
+  const memory: MemoryNote[] = [];
+  const cards: Flashcard[] = [];
+  const reports: Record<string, WeeklyNote> = {};
+  const oral: Record<string, OralNote> = {};
+  for (const [id, body] of Object.entries(docs)) {
+    if (id.startsWith('wyjasnienia-') && Array.isArray(body.items)) for (const e of body.items as Explanation[]) if (e?.taskId) explanations[e.taskId] = e;
+    if (id === 'pamiec' && Array.isArray(body.notes)) memory.push(...(body.notes as MemoryNote[]));
+    if (id.startsWith('fiszki') && Array.isArray(body.cards)) cards.push(...(body.cards as Flashcard[]));
+    if (id === 'raporty' && Array.isArray(body.items)) for (const r of body.items as WeeklyNote[]) if (r?.week) reports[r.week] = r;
+    if (id === 'ustny' && Array.isArray(body.items)) for (const o of body.items as OralNote[]) if (o?.nr) oral[o.nr] = o;
+  }
+  out.explanations = explanations;
+  out.memory = memory;
+  out.cards = cards;
+  out.reports = reports;
+  out.oral = oral;
   return out;
 }
 
@@ -67,7 +121,7 @@ export function mergeEssays(a: Essay[], b: Essay[]): Essay[] {
 }
 
 /** Pola ustawień scalane osobno: wygrywa nowsza zmiana danego pola. */
-export const STAN_FIELDS = ['onboarded', 'startedAt', 'enabled', 'dayMinutes', 'tutoring', 'reminder', 'theme', 'textSize', 'reported', 'notifiedOn'] as const;
+export const STAN_FIELDS = ['onboarded', 'startedAt', 'enabled', 'dayMinutes', 'tutoring', 'reminder', 'theme', 'textSize', 'reported', 'notifiedOn', 'extraPct'] as const;
 type Field = (typeof STAN_FIELDS)[number];
 
 /** JSON z posortowanymi kluczami (porównania niezależne od kolejności pól). */
@@ -144,6 +198,7 @@ export function mergeStan(a: Stan, b: Stan): Stan {
     userTasks: [...tasks.values()].sort((x, y) => (x.id < y.id ? -1 : 1)),
     notifiedOn: out.notifiedOn ?? null,
     resetAt,
+    extraPct: typeof out.extraPct === 'number' ? out.extraPct : 70,
     fieldAt,
   };
 }
@@ -173,7 +228,19 @@ export function mergeData(local: LocalData, remote: Partial<LocalData>): LocalDa
     events: mergeEvents(local.events, remote.events ?? []).filter((e) => e.at >= r),
     sessions: Object.fromEntries(Object.entries(sessions).filter(([, s]) => s.updatedAt >= r)),
     essays: mergeEssays(local.essays, remote.essays ?? []).filter((e) => (e.updatedAt ?? 0) >= r),
+    explanations: Object.fromEntries(Object.entries(newerMap(local.explanations, remote.explanations ?? {})).filter(([, e]) => e.at >= r)),
+    memory: mergeNotes(local.memory, remote.memory ?? []).filter((n) => n.at >= r),
+    cards: mergeCards(local.cards, remote.cards ?? []).filter((c) => c.at >= r),
+    reports: Object.fromEntries(Object.entries(newerMap(local.reports, remote.reports ?? {})).filter(([, e]) => e.at >= r)),
+    oral: Object.fromEntries(Object.entries(newerMap(local.oral, remote.oral ?? {})).filter(([, e]) => e.at >= r)),
   };
+}
+
+/** Scalanie map według pola `at` (nowsza wersja wygrywa). */
+export function newerMap<T extends { at: number }>(a: Record<string, T>, b: Record<string, T>): Record<string, T> {
+  const out: Record<string, T> = { ...a };
+  for (const [k, v] of Object.entries(b)) if (!out[k] || v.at > out[k].at) out[k] = v;
+  return out;
 }
 
 export function docSize(body: Record<string, unknown>): number {

@@ -1,0 +1,117 @@
+{
+  "id": "przedwiosnie",
+  "metryczka": {
+    "autor": "Stefan Żeromski",
+    "tytul": "Przedwiośnie",
+    "rok": "1924 (wyd. z datą 1925)",
+    "gatunek": "powieść (polityczna, społeczna; powieść inicjacyjna)",
+    "epoka": "Dwudziestolecie międzywojenne",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Część I – Szklane domy",
+      "tekst": "Baku nad Morzem Kaspijskim. Cezary Baryka, syn polskiego urzędnika Seweryna i Jadwigi, dorasta w dostatku; ojca powołano do armii rosyjskiej. Wybucha rewolucja – Cezary zachwyca się nią, porzuca szkołę i lekceważy matkę. Matka, zmuszona do ciężkiej pracy, umiera. W czasie walk Ormian z Tatarami (1918) Cezary jest zmuszony do wywożenia i grzebania zwłok – widok martwej, pięknej młodej kobiety zostaje mu w pamięci. Wraca ojciec i opowiada synowi o Polsce, w której wynalazca nazywany „kuzynem Baryką” zbudował „szklane domy” – czyste, tanie, zdrowe – dzięki którym kraj stał się nowoczesny i sprawiedliwy. Podczas wyczerpującej podróży do Polski ojciec umiera. Cezary przekracza granicę."
+    },
+    {
+      "tytul": "Część II – Nawłoć",
+      "tekst": "W Warszawie Cezary nie znajduje szklanych domów – zamiast nich nędzę i brud. Zaczyna studia medyczne, pomaga mu znajomy matki Szymon Gajowiec. Jako ochotnik walczy w wojnie z bolszewikami w 1920 r., gdzie zaprzyjaźnia się z Hipolitem Wielosławskim. Spędza lato w majątku Wielosławskich w Nawłoci, wśród ziemiańskiej beztroski: zabaw, przejażdżek, uczt, przy których bieda czworaków jest prawie niezauważalna. Flirtuje z Karoliną (Karusią) Szarłatowiczówną i wdaje się w namiętny romans z Laurą Kościeniecką, narzeczoną starszego Barwickiego. Karolina zostaje otruta strychniną; podejrzaną zakochaną w Cezarym Wandę Okszyńską aresztowano, ale z braku dowodów ją wypuszczono. Romans z Laurą kończy się zerwaniem i upokorzeniem – Barwicki uderza Cezarego w twarz. Cezary opuszcza Nawłoć."
+    },
+    {
+      "tytul": "Część III – Wiatr od Kurdystanu",
+      "tekst": "W Warszawie Cezary obserwuje życie robotników i biedoty. Dyskutuje z dwiema wizjami przyszłości Polski: komunistą Antonim Lulkiem, który wzywa do rewolucji, i Gajowcem, zwolennikiem stopniowych reform w niepodległym państwie. Okazuje się, że Gajowiec dawniej kochał matkę Cezarego. Cezary nie przyjmuje w pełni żadnej racji. W ostatniej scenie w manifestacji robotniczej idącej pod Belweder Cezary wysuwa się z szeregu i idzie samotnie na czele tłumu wprost na kordon żołnierzy. Zakończenie pozostaje otwarte."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Cezary Baryka",
+      "opis": "Młody człowiek poszukujący własnej drogi i idei; emocjonalny, zbuntowany, krytyczny wobec rzeczywistości – bohater powieści inicjacyjnej."
+    },
+    {
+      "imie": "Seweryn Baryka",
+      "opis": "Ojciec Cezarego, patriota i marzyciel, twórca mitu szklanych domów."
+    },
+    {
+      "imie": "Jadwiga Baryka",
+      "opis": "Matka, kochająca i bezradna wobec rewolucji."
+    },
+    {
+      "imie": "Szymon Gajowiec",
+      "opis": "Wysoki urzędnik, zwolennik ewolucyjnych reform i budowy państwa."
+    },
+    {
+      "imie": "Antoni Lulek",
+      "opis": "Komunista, rzecznik rewolucji."
+    },
+    {
+      "imie": "Hipolit Wielosławski",
+      "opis": "Przyjaciel z wojska, ziemianin z Nawłoci."
+    },
+    {
+      "imie": "Laura Kościeniecka",
+      "opis": "Piękna wdowa, kochanka Cezarego, kobieta z wyższych sfer."
+    },
+    {
+      "imie": "Karolina Szarłatowiczówna",
+      "opis": "Delikatna dziewczyna z Nawłoci, ofiara zbrodni."
+    },
+    {
+      "imie": "Wanda Okszyńska",
+      "opis": "Zakochana w Cezarym młoda dziewczyna, podejrzana o otrucie Karoliny."
+    }
+  ],
+  "problematyka": [
+    "wizje i rzeczywistość odrodzonej Polski: reforma czy rewolucja?",
+    "mit (szklane domy) a nędza rzeczywistości",
+    "kontrast klas społecznych: ziemiaństwo, robotnicy, chłopi",
+    "dojrzewanie i poszukiwanie tożsamości",
+    "ocena rewolucji i przemocy"
+  ],
+  "motywy": [
+    {
+      "motyw": "szklane domy",
+      "opis": "utopia nowoczesnej Polski."
+    },
+    {
+      "motyw": "przedwiośnie",
+      "opis": "czas niepewności i nadziei, zapowiedź przemian."
+    },
+    {
+      "motyw": "dwór",
+      "opis": "Nawłoć jako obraz ziemiańskiej sielanki."
+    },
+    {
+      "motyw": "rewolucja",
+      "opis": "Baku i Warszawa."
+    },
+    {
+      "motyw": "ojciec i syn",
+      "opis": "przekazanie marzenia."
+    },
+    {
+      "motyw": "droga/podróż",
+      "opis": "z Baku do Polski."
+    }
+  ],
+  "konteksty": [
+    "Historia: rewolucja w Rosji (1917), walki w Baku (1918), wojna polsko-bolszewicka (1920), początki II RP.",
+    "Literatura dwudziestolecia: dyskusja o kształcie państwa.",
+    "Prus, „Lalka” – rozczarowanie ideałami; Wyspiański, „Wesele” – krytyka społeczeństwa.",
+    "„Przedwiośnie” wywołało ostrą dyskusję publicystyczną zaraz po wydaniu."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Baryka wyszedł z szeregów robotników i parł oddzielnie, wprost na ten szary mur żołnierzy — na czele zbiedzonego tłumu.",
+      "kontekst": "Ostatnie zdanie powieści – otwarte zakończenie."
+    }
+  ],
+  "doWypracowania": [
+    "Mit a rzeczywistość – szklane domy.",
+    "Rewolucja w literaturze – „Przedwiośnie”, „Rok 1984”.",
+    "Bohater poszukujący swojej drogi – Cezary Baryka.",
+    "Obraz polskiego społeczeństwa – Przedwiośnie, Lalka, Wesele.",
+    "Pytanie ustne: Jaką wizję Polski przedstawiają Gajowiec i Lulek?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": null
+}

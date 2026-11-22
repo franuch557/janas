@@ -1,0 +1,109 @@
+{
+  "id": "rok-1984",
+  "metryczka": {
+    "autor": "George Orwell (Eric Arthur Blair)",
+    "tytul": "Rok 1984",
+    "rok": "1949",
+    "gatunek": "powieść antyutopijna (dystopia)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Część I – świat Wielkiego Brata",
+      "tekst": "Londyn, główne miasto Pasa Startowego Jeden, prowincji superpaństwa Oceania, rządzonego przez Partię i jej przywódcę Wielkiego Brata. Winston Smith, członek Partii Zewnętrznej, pracuje w Ministerstwie Prawdy, gdzie poprawia stare gazety tak, by przeszłość zgadzała się z bieżącą linią władzy. Wszędzie wiszą teleekrany, które nadają i podglądają; Policja Myśli ściga nawet nieprawomyślne myśli. Codziennie odbywają się Dwie Minuty Nienawiści wymierzone w wroga Emmanuela Goldsteina. Hasła Partii głoszą, że wojna jest pokojem, wolność niewolą, a ignorancja siłą. Winston w tajemnicy zaczyna prowadzić pamiętnik, co jest przestępstwem."
+    },
+    {
+      "tytul": "Część II – miłość i bunt",
+      "tekst": "Młoda Julia, pozornie gorliwa działaczka, wsuwa mu liścik z wyznaniem miłości. Zaczynają się potajemnie spotykać, najpierw na wsi, potem w wynajętym pokoju nad sklepem starego pana Charringtona. Winston wierzy, że O'Brien, członek Partii Wewnętrznej, należy do tajnego Bractwa. O'Brien przyjmuje ich do „spisku” i daje Winstonowi księgę przypisywaną Goldsteinowi, wyjaśniającą mechanizmy władzy. Podczas jej lektury kochankowie zostają aresztowani – pan Charrington okazuje się agentem Policji Myśli."
+    },
+    {
+      "tytul": "Część III – Ministerstwo Miłości",
+      "tekst": "Winston jest torturowany. O'Brien wyjaśnia mu, że Partia nie dąży do niczego poza władzą dla samej władzy, i łamie go tak, że Winston gotów jest uznać, że dwa plus dwa to pięć, jeśli tak każe Partia. W pokoju 101, gdzie więzień staje przed swoim największym lękiem, Winston, przerażony klatką ze szczurami, wydaje Julię, żądając, by to ją poddano karze. Po uwolnieniu, złamany, spotyka Julię – nie czują już do siebie nic. W kawiarni, słuchając komunikatu o zwycięstwie, Winston uświadamia sobie, że kocha Wielkiego Brata."
+    },
+    {
+      "tytul": "Dodatek",
+      "tekst": "Powieść zamyka aneks o zasadach nowomowy – języka tworzonego przez Partię po to, by uniemożliwić myśli niezgodne z ideologią."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Winston Smith",
+      "opis": "Urzędnik Ministerstwa Prawdy, samotny buntownik przeciw systemowi, który w końcu zostaje złamany."
+    },
+    {
+      "imie": "Julia",
+      "opis": "Kochanka Winstona; buntuje się raczej z potrzeby życia i przyjemności niż z ideowych pobudek."
+    },
+    {
+      "imie": "O'Brien",
+      "opis": "Członek Partii Wewnętrznej, prowokator i oprawca Winstona; rzecznik logiki totalitaryzmu."
+    },
+    {
+      "imie": "Wielki Brat",
+      "opis": "Twarz władzy, wszechobecny, być może nieistniejący przywódca."
+    },
+    {
+      "imie": "Emmanuel Goldstein",
+      "opis": "Wróg ludu, symbol potrzebny do podtrzymywania nienawiści."
+    },
+    {
+      "imie": "pan Charrington",
+      "opis": "Pozornie miły sklepikarz, w rzeczywistości agent Policji Myśli."
+    },
+    {
+      "imie": "Syme, Parsons",
+      "opis": "Współpracownicy Winstona – filolog nowomowy, który znika, i gorliwy aktywista, którego donosi własna córka."
+    }
+  ],
+  "problematyka": [
+    "mechanizmy państwa totalitarnego: kontrola, propaganda, terror, inwigilacja",
+    "manipulacja językiem i historią (nowomowa, dwójmyślenie, fałszowanie przeszłości)",
+    "zniszczenie jednostki, miłości i prawdy",
+    "granice ludzkiej wytrzymałości i godności",
+    "władza dla samej władzy"
+  ],
+  "motywy": [
+    {
+      "motyw": "Wielki Brat",
+      "opis": "symbol wszechobecnej inwigilacji."
+    },
+    {
+      "motyw": "teleekran",
+      "opis": "narzędzie kontroli."
+    },
+    {
+      "motyw": "pamiętnik",
+      "opis": "akt buntu, ocalenie pamięci."
+    },
+    {
+      "motyw": "miłość jako bunt",
+      "opis": "Winston i Julia."
+    },
+    {
+      "motyw": "zdrada",
+      "opis": "pokój 101."
+    },
+    {
+      "motyw": "język",
+      "opis": "nowomowa jako broń władzy."
+    }
+  ],
+  "konteksty": [
+    "Totalitaryzmy XX w.: stalinizm i nazizm; Orwell walczył w Hiszpanii i rozczarował się komunizmem.",
+    "Antyutopia jako gatunek – Aldous Huxley, „Nowy wspaniały świat” (lektura uzupełniająca).",
+    "Gustaw Herling-Grudziński, „Inny świat” – rzeczywisty system sowiecki.",
+    "Zbigniew Herbert, „Potęga smaku” – opór wobec języka propagandy.",
+    "Współczesność: inwigilacja cyfrowa, programy typu „Big Brother”, fake newsy."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Człowiek w państwie totalitarnym – Orwell, Herling, Borowski.",
+    "Język jako narzędzie władzy – nowomowa.",
+    "Czy można pokonać system? – klęska Winstona.",
+    "Miłość wobec przemocy.",
+    "Pytanie ustne: Jakie mechanizmy władzy totalitarnej przedstawia Orwell?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Polskie przekłady są chronione – brak cytatów i linku (na Wolnych Lekturach powieści brak)."
+}

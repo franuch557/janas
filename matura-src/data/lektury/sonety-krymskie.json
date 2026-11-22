@@ -1,0 +1,96 @@
+{
+  "id": "sonety-krymskie",
+  "metryczka": {
+    "autor": "Adam Mickiewicz",
+    "tytul": "Sonety krymskie (wybrane sonety)",
+    "rok": "1826",
+    "gatunek": "sonet (cykl 18 sonetów)",
+    "epoka": "Romantyzm",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Kontekst cyklu",
+      "tekst": "Mickiewicz, zesłany w głąb Rosji po procesie filomatów, odbył w 1825 r. podróż na Krym. Cykl jest zapisem przeżyć pielgrzyma: zachwytu egzotyczną przyrodą Wschodu, refleksji nad przemijaniem i tęsknoty za Litwą."
+    },
+    {
+      "tytul": "„Stepy akermańskie”",
+      "tekst": "Podróżny porównuje jazdę wozem przez step do żeglugi po oceanie: trawy falują jak morze, krzewy burzanu wyglądają jak koralowe wyspy. Zapada zmrok, nie widać drogi; w oddali błyszczy Dniestr i światło Akermanu. W ogromnej ciszy wędrowiec słyszy najdrobniejsze dźwięki – ciągnące żurawie, motyla, węża w trawie – i tak bardzo nasłuchuje, że mógłby usłyszeć głos z Litwy. Ale nikt go nie woła – zostaje samotność i tęsknota."
+    },
+    {
+      "tytul": "„Burza”",
+      "tekst": "Na statku podczas sztormu panuje chaos: zerwane żagle, złamany ster, krzyki ludzi. Śmierć zbliża się jak żołnierz szturmujący mury. Jedni mdleją, inni żegnają się z przyjaciółmi, inni modlą się. Jeden podróżny siedzi w milczeniu i myśli, że szczęśliwy jest ten, kto traci przytomność, umie się modlić albo ma się z kim pożegnać – on sam jest samotny i nie potrafi się modlić."
+    },
+    {
+      "tytul": "„Ajudah”",
+      "tekst": "Poeta, wsparty o skałę góry Ajudah, przygląda się falom, które rozbijają się o brzeg i cofają, zostawiając muszle, perły i korale. Porównuje to do namiętności w sercu młodego poety: gdy chwyci on za lutnię, burza uczuć odpływa, a zostają po niej nieśmiertelne pieśni, z których przyszłe wieki uplotą mu wieniec."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Pielgrzym (podmiot liryczny)",
+      "opis": "Romantyczny wędrowiec-wygnaniec, samotny, wrażliwy na piękno natury i tęskniący za ojczyzną."
+    }
+  ],
+  "problematyka": [
+    "tęsknota za ojczyzną i samotność wygnańca",
+    "fascynacja orientem i potęgą natury",
+    "człowiek wobec żywiołu i śmierci",
+    "rola poezji i natchnienia"
+  ],
+  "motywy": [
+    {
+      "motyw": "podróż/pielgrzymka",
+      "opis": "wędrówka jako metafora życia."
+    },
+    {
+      "motyw": "orientalizm",
+      "opis": "egzotyczny Wschód."
+    },
+    {
+      "motyw": "step jak ocean",
+      "opis": "rozbudowana metafora."
+    },
+    {
+      "motyw": "burza",
+      "opis": "żywioł i bliskość śmierci."
+    },
+    {
+      "motyw": "samotność",
+      "opis": "brak bliskich i wspólnoty."
+    },
+    {
+      "motyw": "poeta",
+      "opis": "natchnienie i nieśmiertelność poezji („Ajudah”)."
+    }
+  ],
+  "konteksty": [
+    "Biografia: proces filomatów i zesłanie Mickiewicza do Rosji (1824–1829).",
+    "Sonet: forma o włoskim rodowodzie (Petrarka); budowa: 2 strofy opisowe + 2 refleksyjne.",
+    "George Byron i romantyczny orientalizm.",
+    "Horacy, „Exegi monumentum” – nieśmiertelność poety (Ajudah).",
+    "Juliusz Słowacki, „Hymn (Smutno mi, Boże!)” – tęsknota wygnańca."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Wpłynąłem na suchego przestwór oceanu,",
+      "kontekst": "„Stepy akermańskie” – pierwszy wers, metafora stepu jako morza."
+    },
+    {
+      "tekst": "W takiéj ciszy — tak ucho natężam ciekawie, / Że słyszałbym głos z Litwy. — Jedźmy, nikt nie woła!",
+      "kontekst": "„Stepy akermańskie” – puenta tęsknoty."
+    },
+    {
+      "tekst": "Albo modlić się umié, lub ma z kim się żegnać.",
+      "kontekst": "„Burza” – samotność podróżnego wobec śmierci."
+    }
+  ],
+  "doWypracowania": [
+    "Tęsknota za ojczyzną – Sonety krymskie, Norwid „Moja piosnka [II]”.",
+    "Człowiek wobec natury – zachwyt i lęk.",
+    "Samotność w literaturze romantycznej.",
+    "Pytanie ustne: Jak w „Sonetach krymskich” wyrażona jest postawa romantycznego wędrowca?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa: „wybrane sonety z cyklu Sonety krymskie” – nie wskazuje, które. Opisano trzy często omawiane."
+}

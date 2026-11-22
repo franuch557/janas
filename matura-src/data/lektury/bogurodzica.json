@@ -1,0 +1,83 @@
+{
+  "id": "bogurodzica",
+  "metryczka": {
+    "autor": "autor nieznany",
+    "tytul": "Bogurodzica",
+    "rok": "XIII–XIV w. (najstarszy zapis z 1407/1408 r.)",
+    "gatunek": "pieśń religijna (modlitwa, hymn)",
+    "epoka": "Średniowiecze",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Zwrotka pierwsza – do Maryi",
+      "tekst": "Podmiot zbiorowy (my – wspólnota wiernych) zwraca się do Maryi, Matki Boga, wybranej przez Boga i sławionej, z prośbą, by uprosiła u Syna łaskę dla ludzi i zesłała ją na nich. Zwrotkę zamyka wezwanie Kyrieleison (Panie, zmiłuj się)."
+    },
+    {
+      "tytul": "Zwrotka druga – do Chrystusa",
+      "tekst": "Modlący się zwracają się do Jezusa przez wstawiennictwo Jana Chrzciciela. Proszą o „zbożny pobyt” na ziemi (pobożne, dostatnie życie) i o „rajski przebyt” po śmierci (zbawienie). Kompozycja przedstawia hierarchię: lud prosi świętych pośredników, a oni Boga (scena deesis)."
+    },
+    {
+      "tytul": "Dalsze zwrotki",
+      "tekst": "Późniejsze, dopisane zwrotki mówią o zmartwychwstaniu Chrystusa i wybawieniu Adama, czyli całej ludzkości, z mocy grzechu i śmierci."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny zbiorowy",
+      "opis": "Wspólnota wiernych (my), modląca się w imieniu wszystkich ludzi."
+    },
+    {
+      "imie": "Maryja (Bogurodzica)",
+      "opis": "Pośredniczka między ludźmi a Bogiem."
+    },
+    {
+      "imie": "Jan Chrzciciel",
+      "opis": "Święty pośrednik, „Krzciciel”."
+    },
+    {
+      "imie": "Chrystus",
+      "opis": "Adresat próśb, Zbawiciel."
+    }
+  ],
+  "problematyka": [
+    "pośrednictwo świętych w modlitwie (deesis)",
+    "teocentryzm: życie doczesne jako droga do zbawienia",
+    "religijna wspólnota narodu",
+    "najstarszy zabytek polskiej poezji – początki literackiej polszczyzny"
+  ],
+  "motywy": [
+    {
+      "motyw": "Matka Boża",
+      "opis": "Maryja jako orędowniczka ludzi."
+    },
+    {
+      "motyw": "deesis",
+      "opis": "Chrystus z Maryją i Janem Chrzcicielem – motyw ikonograficzny przeniesiony do poezji."
+    },
+    {
+      "motyw": "modlitwa",
+      "opis": "prośby o dobra doczesne i wieczne."
+    }
+  ],
+  "konteksty": [
+    "Według Jana Długosza rycerstwo polskie śpiewało „Bogurodzicę” przed bitwą pod Grunwaldem (1410) – pieśń pełniła rolę hymnu rycerskiego (carmen patrium).",
+    "Henryk Sienkiewicz, „Krzyżacy” – scena śpiewania pieśni pod Grunwaldem.",
+    "Cechy języka staropolskiego: archaizmy („zyszczy”, „spuści”, „bożycze”), paralelizm składniowy, rymy, refren.",
+    "Średniowieczna sztuka: przedstawienia deesis w ikonach i malarstwie."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Bogurodzica dziewica, Bogiem sławiena Maryja,",
+      "kontekst": "Pierwszy wers – apostrofa do Maryi."
+    }
+  ],
+  "doWypracowania": [
+    "Średniowieczna wizja świata i człowieka – teocentryzm.",
+    "Literatura jako wyraz tożsamości narodowej – rola „Bogurodzicy” w dziejach.",
+    "Wizerunek Matki Bożej: „Bogurodzica” i „Lament świętokrzyski” (Maryja-orędowniczka a Matka Bolesna).",
+    "Pytanie ustne: Dlaczego „Bogurodzica” jest ważna dla polskiej kultury?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Data powstania i autorstwo są sporne (dawne przypisywanie św. Wojciechowi uznaje się za legendę)."
+}

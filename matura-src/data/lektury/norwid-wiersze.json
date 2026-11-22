@@ -1,0 +1,93 @@
+{
+  "id": "norwid-wiersze",
+  "metryczka": {
+    "autor": "Cyprian Kamil Norwid",
+    "tytul": "Wybrane wiersze",
+    "rok": "lata 40.–60. XIX w. (m.in. „Bema pamięci żałobny rapsod” 1851, „Moja piosnka [II]” 1854, tom „Vade-mecum” ok. 1866)",
+    "gatunek": "liryka (rapsod, liryka refleksyjna, filozoficzna)",
+    "epoka": "Romantyzm",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Moja piosnka [II]”",
+      "tekst": "Poeta-emigrant wyznaje tęsknotę za krajem, w którym z szacunku dla darów nieba podnosi się z ziemi okruszynę chleba, nie niszczy się bocianich gniazd, a ludzie pozdrawiają się słowami „Bądź pochwalony!”. Tęskni też za krajem ludzi prostych i szczerych, w którym „tak” znaczy „tak”, a „nie” znaczy „nie”, bez cieni i obłudy. Ojczyzna to dla niego wspólnota wartości, gestów i obyczajów."
+    },
+    {
+      "tytul": "„Bema pamięci żałobny rapsod”",
+      "tekst": "Wizja pogrzebu generała Józefa Bema – bohatera walk o wolność (powstanie listopadowe, Wiosna Ludów na Węgrzech). Kondukt przypomina dawny pogrzeb wojownika: proporce, pochodnie, płaczki, koń bohatera. Pochód idzie przez wieki aż do bram miast, które muszą runąć przed jego ideą. Utwór kończy przekonanie, że trzeba iść dalej śladem bohatera, a idee walki o wolność nie umierają."
+    },
+    {
+      "tytul": "„Coś ty Atenom zrobił, Sokratesie”",
+      "tekst": "Poeta wylicza wielkich ludzi, których za życia odrzucono, a po śmierci uczczono pomnikami: Sokratesa, Dantego, Kolumba, Kościuszkę, Napoleona, Mickiewicza. Pyta o niesprawiedliwość potomnych, którzy doceniają wielkość dopiero po czasie."
+    },
+    {
+      "tytul": "„W Weronie”",
+      "tekst": "Nad grobem Romea i Julii, pod zrujnowanym murem, na grób spadają krople deszczu. Ludzie mówią, że to deszcz, a dla poety to łzy nieba nad zmarłymi kochankami – zderzenie spojrzenia poetyckiego z prozaicznym."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Samotny poeta-emigrant, myśliciel, krytyczny wobec współczesności."
+    },
+    {
+      "imie": "generał Józef Bem",
+      "opis": "Bohater narodowy, symbol walki o wolność."
+    }
+  ],
+  "problematyka": [
+    "ojczyzna jako wspólnota wartości",
+    "niezrozumienie wielkich ludzi przez współczesnych",
+    "sens walki o wolność i pamięć o bohaterach",
+    "piękno, sztuka i prawda",
+    "krytyka powierzchowności i obłudy"
+  ],
+  "motywy": [
+    {
+      "motyw": "tęsknota za ojczyzną",
+      "opis": "emigracja."
+    },
+    {
+      "motyw": "pogrzeb bohatera",
+      "opis": "rapsod żałobny."
+    },
+    {
+      "motyw": "niedoceniony geniusz",
+      "opis": "Sokrates, Dante, Mickiewicz."
+    },
+    {
+      "motyw": "chleb i gest szacunku",
+      "opis": "proste wartości."
+    },
+    {
+      "motyw": "łzy nieba",
+      "opis": "„W Weronie”."
+    }
+  ],
+  "konteksty": [
+    "Wielka Emigracja; biografia Norwida – samotność, bieda, niezrozumienie.",
+    "Styl Norwida: ironia, przemilczenie, neologizmy, intelektualizm – zapowiedź poezji XX w.",
+    "Adam Mickiewicz, „Sonety krymskie”, Słowacki, „Hymn” – inne ujęcia tęsknoty.",
+    "William Szekspir, „Romeo i Julia” – kontekst „W Weronie”.",
+    "Odkrycie Norwida przez Zenona Przesmyckiego (Miriama) w okresie Młodej Polski."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Do kraju tego, gdzie kruszynę chleba / Podnoszą z ziemi przez uszanowanie",
+      "kontekst": "„Moja piosnka [II]” – początek wiersza."
+    },
+    {
+      "tekst": "— Czemu, cieniu, odjeżdżasz, ręce złamawszy na pancerz,",
+      "kontekst": "„Bema pamięci żałobny rapsod” – pierwszy wers."
+    }
+  ],
+  "doWypracowania": [
+    "Czym jest ojczyzna? – Norwid, Mickiewicz, Krasicki.",
+    "Wielki człowiek niedoceniony przez współczesnych.",
+    "Pamięć o bohaterach narodowych.",
+    "Pytanie ustne: Dlaczego Norwida nazywa się poetą wyprzedzającym epokę?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Norwida przypisuje się zwykle do późnego romantyzmu, choć jego twórczość wyprzedza epokę (prekursor modernizmu). Podstawa nie wskazuje tytułów; „Fortepian Szopena” jest obowiązkowy tylko w zakresie rozszerzonym. Na Wolnych Lekturach „Moja piosnka [II]” ma adres moja-piosnka."
+}

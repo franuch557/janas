@@ -1,0 +1,121 @@
+{
+  "id": "makbet",
+  "metryczka": {
+    "autor": "William Szekspir",
+    "tytul": "Makbet",
+    "rok": "ok. 1606",
+    "gatunek": "tragedia (dramat elżbietański)",
+    "epoka": "Renesans (odrodzenie)",
+    "rodzaj": "dramat"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Akt I – przepowiednia",
+      "tekst": "Na wrzosowisku trzy czarownice spotykają wracających z bitwy wodzów Makbeta i Banka. Witają Makbeta jako tana Glamis, tana Kawdoru i przyszłego króla, a Bankowi przepowiadają, że będzie ojcem królów. Wkrótce Makbet dowiaduje się, że król Duncan nadał mu tytuł tana Kawdoru (poprzedni został stracony za zdradę). Duncan ogłasza następcą swojego syna Malkolma. Lady Makbet po lekturze listu od męża postanawia, że Makbet musi zostać królem. Gdy król przybywa na nocleg do ich zamku, namawia wahającego się męża do zbrodni, zarzucając mu tchórzostwo."
+    },
+    {
+      "tytul": "Akt II – zabójstwo Duncana",
+      "tekst": "Makbet ma wizję sztyletu, a potem zabija śpiącego króla. Wstrząśnięty nie potrafi wrócić na miejsce zbrodni – to Lady Makbet podrzuca sztylety i plami krwią odurzonych strażników. Rano Makduf odkrywa zbrodnię; Makbet zabija strażników, by nie mogli zeznawać. Synowie Duncana uciekają (Malkolm do Anglii), co rzuca na nich podejrzenie. Makbet zostaje królem."
+    },
+    {
+      "tytul": "Akt III – zbrodnie się mnożą",
+      "tekst": "Makbet boi się przepowiedni o potomkach Banka, więc nasyła na niego morderców. Banko ginie, ale jego syn Fleance ucieka. Podczas uczty Makbet widzi ducha Banka na swoim miejscu i wpada w przerażenie; Lady Makbet tłumaczy gościom, że to dawna przypadłość męża."
+    },
+    {
+      "tytul": "Akt IV – nowe przepowiednie i rzeź",
+      "tekst": "Makbet idzie do czarownic. Zjawy ostrzegają go przed Makdufem, ale też zapewniają, że nie zaszkodzi mu nikt zrodzony z kobiety i że nie zostanie pokonany, dopóki las birnamski nie podejdzie pod zamek Dunsinane. Widzi też korowód królów z rodu Banka. Gdy dowiaduje się o ucieczce Makdufa do Anglii, każe wymordować jego żonę i dzieci. W Anglii Malkolm sprawdza lojalność Makdufa; przychodzi wieść o rzezi jego rodziny. Makduf przysięga zemstę i z Malkolmem oraz wojskiem angielskim rusza na Szkocję."
+    },
+    {
+      "tytul": "Akt V – upadek",
+      "tekst": "Lady Makbet lunatykuje i próbuje zmyć z rąk niewidzialną krew; wkrótce umiera (prawdopodobnie odbiera sobie życie). Makbet przyjmuje wiadomość o jej śmierci z pustką – życie wydaje mu się bezsensownym przedstawieniem. Żołnierze Malkolma maskują się gałęziami z lasu Birnam, więc „las idzie” na Dunsinane. W walce Makduf wyjawia, że nie urodził się w zwykły sposób (wydobyto go z łona matki przed czasem), i zabija Makbeta. Malkolm zostaje królem."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Makbet",
+      "opis": "Dzielny wódz, którego ambicja, podsycona przepowiednią i żoną, prowadzi do zbrodni; z każdą kolejną zbrodnią staje się coraz bardziej okrutny i samotny."
+    },
+    {
+      "imie": "Lady Makbet",
+      "opis": "Ambitna, silna, bezwzględna inicjatorka zbrodni; z czasem łamie ją poczucie winy (szaleństwo, lunatyzm)."
+    },
+    {
+      "imie": "Duncan",
+      "opis": "Dobry, ufny król Szkocji, ofiara Makbeta."
+    },
+    {
+      "imie": "Banko",
+      "opis": "Towarzysz Makbeta; również słyszy przepowiednię, ale nie ulega pokusie zbrodni."
+    },
+    {
+      "imie": "Makduf",
+      "opis": "Szlachcic, który przejrzał Makbeta; traci rodzinę i staje się mścicielem."
+    },
+    {
+      "imie": "Malkolm",
+      "opis": "Syn Duncana, prawowity następca."
+    },
+    {
+      "imie": "trzy czarownice (wiedźmy)",
+      "opis": "Siły nadprzyrodzone, które budzą w Makbecie pragnienie władzy; ich słowa są dwuznaczne."
+    }
+  ],
+  "problematyka": [
+    "ambicja i żądza władzy jako siła niszcząca",
+    "mechanizm zła: jedna zbrodnia pociąga następne",
+    "wina, sumienie i kara",
+    "fatum a wolna wola – czy przepowiednia zmusza do zbrodni?",
+    "relacja małżeńska oparta na wspólnej winie",
+    "władza zdobyta przemocą jako tyrania"
+  ],
+  "motywy": [
+    {
+      "motyw": "krew",
+      "opis": "symbol winy, której nie da się zmyć."
+    },
+    {
+      "motyw": "przepowiednia",
+      "opis": "dwuznaczne słowa wiedźm."
+    },
+    {
+      "motyw": "sen i bezsenność",
+      "opis": "zbrodniarz traci spokój i sen."
+    },
+    {
+      "motyw": "szaleństwo",
+      "opis": "obłęd Lady Makbet."
+    },
+    {
+      "motyw": "teatr świata",
+      "opis": "życie jako przemijający cień i przedstawienie bez sensu."
+    },
+    {
+      "motyw": "upiór",
+      "opis": "duch Banka jako znak wyrzutów sumienia."
+    }
+  ],
+  "konteksty": [
+    "Teatr elżbietański: brak jedności czasu i miejsca, łączenie tragizmu z elementami komicznymi (scena odźwiernego), sceny fantastyczne.",
+    "Źródłem fabuły są kroniki Holinsheda; postać historycznego Makbeta (XI w.) różni się od dramatu.",
+    "Niccolò Machiavelli, „Książę” – refleksja o skutecznej i bezwzględnej władzy.",
+    "Juliusz Słowacki, „Balladyna” – podobny mechanizm zbrodni i władzy.",
+    "Sofokles, „Antygona” – inny typ winy władcy (Kreon).",
+    "Barok: motyw theatrum mundi i marności świata."
+  ],
+  "cytaty": [
+    {
+      "tekst": "To życie tylko cieniem jest przelotnym,",
+      "kontekst": "Makbet po wieści o śmierci żony – refleksja nad bezsensem życia (przekł. L. Ulricha)."
+    }
+  ],
+  "doWypracowania": [
+    "Władza i jej wpływ na człowieka – Makbet, Kreon, Edek z „Tanga”.",
+    "Zło rodzi zło – mechanizm zbrodni.",
+    "Wyrzuty sumienia i kara – Makbet, Lady Makbet, Raskolnikow.",
+    "Kobieta silna i bezwzględna – Lady Makbet.",
+    "Czy człowiek jest zdeterminowany przez los? – przepowiednie w „Makbecie”.",
+    "Pytanie ustne: Jaką rolę w „Makbecie” pełnią elementy fantastyczne?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Na Wolnych Lekturach przekład Leona Ulricha (domena publiczna); cytat z tego przekładu. W szkole często używa się innych przekładów (np. J. Paszkowskiego, S. Barańczaka), w których brzmienie jest inne. Szekspir to renesans angielski (formalnie przełom renesansu i baroku)."
+}

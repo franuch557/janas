@@ -1,0 +1,92 @@
+{
+  "id": "podroze-z-herodotem",
+  "metryczka": {
+    "autor": "Ryszard Kapuściński",
+    "tytul": "Podróże z Herodotem (fragmenty)",
+    "rok": "2004",
+    "gatunek": "reportaż (z elementami eseju i autobiografii)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "epika (literatura faktu)"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Pierwsza podróż i księga",
+      "tekst": "Kapuściński wspomina, jak w latach 50. jako młody reporter marzył o „przekroczeniu granicy”. Redakcja wysyła go do Indii; przed wyjazdem otrzymuje od redaktor naczelnej świeżo wydane po polsku „Dzieje” Herodota. Książka staje się jego towarzyszem podróży."
+    },
+    {
+      "tytul": "Indie i Chiny",
+      "tekst": "W Indiach przeżywa szok kulturowy i barierę językową; uczy się angielskiego, czytając powieść Hemingwaya. Odkrywa, jak trudno zrozumieć obcą kulturę. W Chinach doświadcza świata zamkniętego, kontrolowanego przez władzę, poznaje filozofię Konfucjusza i Wielki Mur."
+    },
+    {
+      "tytul": "Afryka i inne miejsca",
+      "tekst": "Kolejne podróże prowadzą go m.in. do Afryki, gdzie obserwuje upadek kolonializmu, zamachy stanu i wojny. Swoje doświadczenia zestawia z opowieściami Herodota."
+    },
+    {
+      "tytul": "Opowieści Herodota",
+      "tekst": "Kapuściński opowiada na nowo historie z „Dziejów”: o królu Krezusie i rozmowie z Solonem o szczęściu, o Cyrusie i jego śmierci w wojnie z Masagetami, o szaleństwie Kambyzesa, o wyprawie Dariusza na Scytów, którzy stosowali taktykę spalonej ziemi, o Kserksesie każącym chłostać morze i o wojnach grecko-perskich (Termopile, Salamina)."
+    },
+    {
+      "tytul": "Herodot jako pierwszy reporter",
+      "tekst": "Autor przedstawia Herodota jako pierwszego reportera i globalistę: człowieka ciekawego Innych, który podróżował, wypytywał, słuchał, porównywał relacje i chciał ocalić pamięć o ludzkich czynach. To także refleksja nad własnym zawodem i nad tym, jak poznawać innych bez uprzedzeń."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "narrator (Ryszard Kapuściński)",
+      "opis": "Reporter, podróżnik, czytelnik Herodota; ciekawy świata, pokorny wobec obcych kultur."
+    },
+    {
+      "imie": "Herodot",
+      "opis": "Grecki historyk z V w. p.n.e., „ojciec historii”, przewodnik i alter ego narratora."
+    },
+    {
+      "imie": "władcy z „Dziejów” (Krezus, Cyrus, Kambyzes, Dariusz, Kserkses)",
+      "opis": "Bohaterowie opowieści o władzy, pysze i przemijaniu."
+    }
+  ],
+  "problematyka": [
+    "spotkanie z Innym i poznawanie obcych kultur",
+    "pamięć i historia – po co ją zapisywać",
+    "władza, pycha i jej klęska",
+    "zawód reportera i jego etyka",
+    "podróż jako sposób poznania świata i siebie"
+  ],
+  "motywy": [
+    {
+      "motyw": "podróż",
+      "opis": "przekraczanie granic."
+    },
+    {
+      "motyw": "księga",
+      "opis": "Herodot jako towarzysz."
+    },
+    {
+      "motyw": "Inny",
+      "opis": "obcy, którego trzeba zrozumieć."
+    },
+    {
+      "motyw": "władca",
+      "opis": "pycha i upadek."
+    },
+    {
+      "motyw": "pamięć",
+      "opis": "ocalanie przeszłości."
+    }
+  ],
+  "konteksty": [
+    "Herodot, „Dzieje” – źródło opowieści.",
+    "Reportaż polski (Krall, Kapuściński) – literatura faktu.",
+    "Szekspir, „Makbet” – pycha i upadek władców.",
+    "Olga Tokarczuk, „Profesor Andrews w Warszawie” – obcy w nieznanym kraju.",
+    "Globalizacja i dekolonizacja w XX w."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Spotkanie z obcą kulturą – Kapuściński, Tokarczuk.",
+    "Podróż jako doświadczenie przemiany.",
+    "Władza i pycha – Kserkses, Makbet, Kreon.",
+    "Pytanie ustne: Dlaczego Kapuściński nazywa Herodota pierwszym reporterem?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje, które fragmenty. Szczegóły dotyczące kolejności podróży i osób (np. redaktor Ireny Tarłowskiej) podano z pamięci – do sprawdzenia w tekście."
+}

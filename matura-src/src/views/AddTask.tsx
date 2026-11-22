@@ -7,7 +7,7 @@ import { Segmented, Sheet } from '../ui/common';
 import { Icon } from '../ui/icons';
 
 /** Zmniejsza obraz do JPEG ≤ 150 KB (dłuższy bok najwyżej 1400 px). */
-export async function compressImage(file: Blob, maxBytes = 150_000): Promise<string> {
+export async function compressImage(file: Blob, maxBytes = 150_000, maxSide = 1400): Promise<string> {
   const url = URL.createObjectURL(file);
   try {
     const img = await new Promise<HTMLImageElement>((res, rej) => {
@@ -18,7 +18,7 @@ export async function compressImage(file: Blob, maxBytes = 150_000): Promise<str
     });
     let w = img.naturalWidth;
     let h = img.naturalHeight;
-    let scale = Math.min(1, 1400 / Math.max(w, h));
+    let scale = Math.min(1, maxSide / Math.max(w, h));
     for (let attempt = 0; attempt < 8; attempt++) {
       const c = document.createElement('canvas');
       c.width = Math.max(1, Math.round(w * scale));

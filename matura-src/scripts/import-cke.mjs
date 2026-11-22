@@ -58,6 +58,8 @@ for (const f of readdirSync(dir).sort()) {
 const issues = []; // { examId, text }
 const report = [];
 const imgOut = join(root, 'cke-obrazy');
+const ODP_WIDTH = Number(process.env.ODP_WIDTH ?? 900);
+const ODP_QUALITY = Number(process.env.ODP_QUALITY ?? 55);
 let imgCount = 0;
 
 const sortNr = (a, b) => a.nr.localeCompare(b.nr, 'pl', { numeric: true });
@@ -175,7 +177,9 @@ for (const [examId, g] of groups) {
         if (cache.size > 6) cache.delete(cache.keys().next().value);
         const p = src.pdf.pages[page - 1];
         const col = (await import('./cke-parse.mjs')).columnFor(family, p);
-        cache.set(k, await renderGray(src.pdf.doc, page, 1000 / (col[1] - col[0])));
+        // obrazy odpowiedzi (zasady oceniania) węższe: 900 px, żeby pakiety mieściły się w limicie
+        const width = src.info.kind === 'zasady' ? ODP_WIDTH : 1000;
+        cache.set(k, await renderGray(src.pdf.doc, page, width / (col[1] - col[0])));
       }
       return cache.get(k);
     };
@@ -186,7 +190,7 @@ for (const [examId, g] of groups) {
         const white = whiteouts(im.src.pdf.pages[f.page - 1], info.family);
         frs.push(cutFragment(r, { ...f, white }));
       }
-      const jpg = await composeJpeg(frs);
+      const jpg = im.kind === 'odp' ? await composeJpeg(frs, { width: ODP_WIDTH, quality: ODP_QUALITY, sep: 14 }) : await composeJpeg(frs);
       if (!jpg) { issue(`Obraz ${im.kind}/${im.key}: pusty wycinek.`); continue; }
       const d = join(imgOut, im.kind, examId);
       mkdirSync(d, { recursive: true });

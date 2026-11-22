@@ -86,8 +86,8 @@ Kod: `src/logic/planner.ts`, testy: `tests/planner.test.ts`.
 
 Szczegóły: `docs/kontrakt-danych.md`, kod: `src/store/`.
 
-- Artefakt deklaruje `capabilities: { db: {}, user: {}, downloads: {} }` (`downloads` służy
-  tylko do „Eksportuj kopię”; bez niej przycisku nie ma). Dokumenty ucznia
+- Artefakt deklaruje `capabilities: { db: {}, user: {}, downloads: true, sample: { images: true } }`
+  (`downloads` – „Eksportuj kopię”; `sample` – funkcje z Claude'em, opis niżej). Dokumenty ucznia
   są w `data/users/<id>/`: `stan`, `wyniki-RRRR-MM` (zdarzenia), `sesja-<id>`
   (trwający arkusz, diagnoza, wypracowanie), `wypracowania`, `obraz-<id>`
   (zrzuty ekranu, JPEG ≤ 150 KB). Każdy dokument ≤ 256 KiB (wyniki dzielone
@@ -115,6 +115,42 @@ Szczegóły: `docs/kontrakt-danych.md`, kod: `src/store/`.
   to jedyny zapis. Każdy dostęp do `localStorage` jest w try/catch.
 - Wskaźnik w nagłówku i pasku bocznym: chmura („Zapisano 2 min temu”),
   urządzenie (zapis lokalny), chmura w czerwieni i baner przy błędzie.
+
+## Funkcje z Claude'em (capability `sample`)
+
+Działają tylko, gdy `window.claude.use('sample')` zwraca funkcję, a wywołania nie są
+odrzucane jako `not_granted` (wtedy funkcje znikają do końca wizyty i zostaje
+samoocena). Każde wywołanie idzie wyłącznie po kliknięciu, z „Myślę…” i przyciskiem
+Stop (osobny AbortController), błędy mają polskie komunikaty, bez ponawiania.
+Obrazy zadań i kluczy z pakietu są wysyłane jako Blob w `options.images`
+(najwyżej `limits().images.maxCount`). Prompty i odczyt odpowiedzi: `src/logic/ai.ts`.
+
+- **Sprawdź z kluczem** (zadanie otwarte): wpisany wynik / kroki albo zdjęcie z kartki
+  (JPEG do 1600 px); odpowiedź JSON {points, max, verdict, feedback, mistakes} jest
+  przycinana do zakresu; pod oceną zawsze obraz z zasad oceniania; uczeń może
+  zmienić punkty. Zdarzenie wyniku ma `by: 'claude' | 'samoocena'` i `feedback`.
+  W arkuszu: na ekranie samooceny po zakończeniu, także „Sprawdź wszystkie z Claude'em”
+  (zadania z wpisanym wynikiem).
+- **Wyjaśnij**: podpowiedź → pełne rozwiązanie → „Dopytaj” (cache: false, ostatnie tury);
+  wzory w $…$ renderuje KaTeX (CSS i fonty w pliku artefaktu). Zapis w dokumentach
+  `wyjasnienia-<examId>` (≤ 256 KiB, najstarsze odpadają).
+- **Pamięć** (`pamiec`): notatki o błędach według tematu (z ocen, błędnych zamkniętych
+  i dopytań), najwyżej 40 na przedmiot; trafiają do promptów i podnoszą priorytet
+  tematu z błędami koncepcyjnymi. Postęp → „Co mi sprawia trudność”.
+- **Ocena wypracowania / wypowiedzi pisemnej** według `data/kryteria.json` (polski: model
+  `complex`); wartości dopasowane do dozwolonych, uczeń może je zmienić.
+- **Fiszki** (`fiszki`, widok `#fiszki`): z zadania z angielskiego, z „tego, co mi słabo
+  idzie”, z lektury; powtórki 1/3/7/14 dni; pozycja „Fiszki” w planie dnia.
+- **5 minut** (`#piec-minut`): 3 krótkie zamknięte z najsłabszych tematów + 3 fiszki.
+- **Twój tydzień**: na Starcie w niedzielę i do środy; „Podsumowanie od Claude'a”
+  (cache 24 h); historia w Postępie (`raporty`).
+- **Karta wzorów**: przycisk „Wzory” przy matematyce, gdy pakiet ma `cke/wzory.json`.
+- **Lektury** (`#lektury`, dane `data/lektury/`) i **Ustny polski** (`#ustny`, dane
+  `data/ustny/pytania-jawne.json`): gdy plików brak, sekcje pokazują jedno zdanie.
+- **Rekrutacja**: szacunek W = 0,5·JP + 0,5·JO + 2,5·M + 2·X, X = egzamin zawodowy
+  (ustawienia, domyślnie 70%).
+
+Testy w przeglądarce z atrapą `sample`: `tests-e2e/fake-sample.mjs`, `tests-e2e/09-claude.e2e.mjs`.
 
 ## Artefakt claude.ai
 

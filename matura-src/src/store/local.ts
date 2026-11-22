@@ -43,9 +43,15 @@ export function lsKeys(): string[] {
   }
 }
 
+/** Puste dane funkcji z Claude'em (wyjaśnienia, pamięć, fiszki, raporty, ustny). */
+export const EMPTY_AI = (): Pick<LocalData, 'explanations' | 'memory' | 'cards' | 'reports' | 'oral'> => ({ explanations: {}, memory: [], cards: [], reports: {}, oral: {} });
+
 export function emptyData(today: string): LocalData {
-  return { stan: defaultStan(today), events: [], sessions: {}, essays: [] };
+  return { stan: defaultStan(today), events: [], sessions: {}, essays: [], ...EMPTY_AI() };
 }
+
+const objOr = <T,>(x: unknown, d: T): T => (x && typeof x === 'object' && !Array.isArray(x) ? (x as T) : d);
+const arrOr = <T,>(x: unknown): T[] => (Array.isArray(x) ? (x as T[]) : []);
 
 /** Uzupełnia brakujące pola stanu wartościami domyślnymi (starsze zapisy). */
 export function fixStan(raw: unknown, today: string): Stan {
@@ -64,6 +70,7 @@ export function fixStan(raw: unknown, today: string): Stan {
     overrides: s.overrides && typeof s.overrides === 'object' ? s.overrides : {},
     reported: Array.isArray(s.reported) ? s.reported : [],
     userTasks: Array.isArray(s.userTasks) ? s.userTasks : [],
+    extraPct: Number.isFinite(Number(s.extraPct)) ? Math.max(0, Math.min(100, Number(s.extraPct))) : 70,
     updatedAt: Number(s.updatedAt) || 0,
   };
 }
@@ -82,6 +89,11 @@ export function parseLocal(raw: string | null, today: string): LocalData {
       events: mergeEvents(Array.isArray(o.events) ? o.events : []),
       sessions,
       essays: Array.isArray(o.essays) ? o.essays : [],
+      explanations: objOr(o.explanations, {}),
+      memory: arrOr(o.memory),
+      cards: arrOr(o.cards),
+      reports: objOr(o.reports, {}),
+      oral: objOr(o.oral, {}),
     };
   } catch {
     return emptyData(today);

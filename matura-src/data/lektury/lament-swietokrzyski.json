@@ -1,0 +1,83 @@
+{
+  "id": "lament-swietokrzyski",
+  "metryczka": {
+    "autor": "autor nieznany",
+    "tytul": "Lament świętokrzyski (Żale Matki Boskiej pod krzyżem)",
+    "rok": "XV w. (ok. 1470)",
+    "gatunek": "lament, planctus (pieśń żałobna)",
+    "epoka": "Średniowiecze",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Zwrócenie się do ludzi",
+      "tekst": "Maryja jako podmiot liryczny prosi wszystkich – braci, starych i młodych – by wysłuchali jej skargi. Opowiada o „krwawych godach”, czyli o męce swojego jedynego Syna w Wielki Piątek."
+    },
+    {
+      "tytul": "Rozmowa z Synem",
+      "tekst": "Matka zwraca się do ukrzyżowanego Jezusa, prosi, by przemówił do niej choć słowo, by ją pocieszył. Pragnęłaby mu ulżyć – podtrzymać głowę, otrzeć krew, podać napój – ale jest bezsilna."
+    },
+    {
+      "tytul": "Do archanioła Gabriela",
+      "tekst": "Maryja przypomina zwiastowanie: anioł obiecywał jej wielką radość, a teraz spotyka ją ogromny smutek."
+    },
+    {
+      "tytul": "Do matek",
+      "tekst": "Na koniec prosi wszystkie matki, by modliły się o to, aby nigdy nie musiały patrzeć na śmierć swoich dzieci."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Maryja",
+      "opis": "Matka Boleściwa; przedstawiona po ludzku – jako cierpiąca, bezradna matka, nie tylko jako postać święta."
+    },
+    {
+      "imie": "Jezus",
+      "opis": "Ukrzyżowany Syn, adresat skargi."
+    }
+  ],
+  "problematyka": [
+    "ból matki po stracie dziecka",
+    "uczłowieczenie postaci świętej (Maryja jako zwykła matka)",
+    "pasyjność średniowiecznej religijności – kontemplacja męki Chrystusa",
+    "potrzeba współczucia i wspólnoty w cierpieniu"
+  ],
+  "motywy": [
+    {
+      "motyw": "Mater Dolorosa (Matka Boleściwa)",
+      "opis": "Maryja cierpiąca pod krzyżem."
+    },
+    {
+      "motyw": "Stabat Mater",
+      "opis": "matka stojąca pod krzyżem – motyw sztuki i muzyki."
+    },
+    {
+      "motyw": "pasja",
+      "opis": "męka Chrystusa."
+    },
+    {
+      "motyw": "macierzyństwo",
+      "opis": "miłość matki silniejsza niż wszystko."
+    }
+  ],
+  "konteksty": [
+    "Średniowieczna hymnografia: „Stabat Mater dolorosa” (sekwencja łacińska przypisywana Jacopone da Todi).",
+    "Sztuka: piety (np. „Pieta” Michała Anioła), gotyckie przedstawienia Matki Bolesnej.",
+    "Jan Kochanowski, „Treny” – ból rodzica po stracie dziecka.",
+    "Kontrast z „Bogurodzicą”: tam Maryja-królowa i orędowniczka, tu cierpiąca matka.",
+    "Krzysztof Kamil Baczyński, „Elegia o… [chłopcu polskim]” – motyw matki żegnającej syna."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Posłuchajcie, bracia miła, / Kcęć wam skorżyć krwawą głowę;",
+      "kontekst": "Otwarcie lamentu – Maryja zwraca się do słuchaczy."
+    }
+  ],
+  "doWypracowania": [
+    "Motyw matki cierpiącej po stracie dziecka (Lament, Treny, Baczyński).",
+    "Różne wizerunki Maryi w literaturze średniowiecza.",
+    "Cierpienie i współczucie – literatura jako wyraz bólu."
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa wymienia utwór jako fragmenty; zwykle omawia się cały, krótki tekst. Rękopis pochodził z klasztoru na Świętym Krzyżu i zaginął w czasie II wojny światowej."
+}

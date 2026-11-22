@@ -1,0 +1,104 @@
+{
+  "id": "potop",
+  "metryczka": {
+    "autor": "Henryk Sienkiewicz",
+    "tytul": "Potop (fragmenty)",
+    "rok": "1884–1886 (druk w odcinkach), wyd. książkowe 1886",
+    "gatunek": "powieść historyczna (część II Trylogii)",
+    "epoka": "Pozytywizm",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Laudańszczyzna – Kmicic i Oleńka",
+      "tekst": "Rok 1655, Litwa. Zgodnie z testamentem dziadka Aleksandra Billewiczówna (Oleńka) ma poślubić chorążego orszańskiego Andrzeja Kmicica. Kmicic jest dzielny, ale porywczy; jego hulaszczy kompani zostają wybici przez okoliczną szlachtę laudańską. Kmicic w odwecie pali zaścianek Wołmontowicze i porywa Oleńkę. Odbija ją pułkownik Michał Wołodyjowski, który pokonuje Kmicica w pojedynku, ale go oszczędza."
+    },
+    {
+      "tytul": "Kiejdany – służba u Radziwiłła",
+      "tekst": "Kmicic przysięga wierność hetmanowi Januszowi Radziwiłłowi, nie wiedząc o jego planach. Radziwiłł zawiera ugodę ze Szwedami (ugoda kiejdańska), zdradzając króla Jana Kazimierza. Związany przysięgą Kmicic zostaje przy hetmanie, przez co Oleńka i szlachta uważają go za zdrajcę. Gdy podsłuchuje rozmowę, z której wynika, że Radziwiłłowie dbają o własną władzę, porywa księcia Bogusława Radziwiłła, ale ten ucieka i rani go."
+    },
+    {
+      "tytul": "Przemiana – Babinicz i Jasna Góra",
+      "tekst": "Kmicic postanawia odkupić winy. Pod przybranym nazwiskiem Babinicz walczy za króla. Bierze udział w obronie Jasnej Góry, kierowanej przez przeora Augustyna Kordeckiego: wysadza ogromne szwedzkie działo (kolubrynę), trafia do niewoli, cudem uchodzi z życiem. Potem ratuje życie Janowi Kazimierzowi w czasie powrotu króla do kraju i walczy pod Stefanem Czarnieckim."
+    },
+    {
+      "tytul": "Wojna i powrót do Oleńki",
+      "tekst": "Kraj podnosi się przeciw Szwedom. Oleńka przebywa w Taurogach u Bogusława Radziwiłła, który bezskutecznie zabiega o jej względy. Kmicic-Babinicz walczy z Bogusławem i Szwedami, wiele razy okazując męstwo. Ranny wraca na Laudę. W kościele w Upicie odczytany zostaje list króla, który ogłasza, że Babinicz to Kmicic, i przedstawia jego zasługi. Szlachta i Oleńka przebaczają mu; para bierze ślub."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Andrzej Kmicic",
+      "opis": "Porywczy, odważny rycerz, który z awanturnika i (pozornego) zdrajcy staje się bohaterem narodowym – postać dynamiczna, przechodzi przemianę."
+    },
+    {
+      "imie": "Aleksandra Billewiczówna (Oleńka)",
+      "opis": "Szlachcianka stawiająca honor i ojczyznę ponad uczucie; wierna i surowa w ocenie."
+    },
+    {
+      "imie": "Michał Wołodyjowski",
+      "opis": "Mistrz szabli, wzór rycerza i patrioty."
+    },
+    {
+      "imie": "Jan Onufry Zagłoba",
+      "opis": "Szlachcic-gawędziarz, sprytny i komiczny."
+    },
+    {
+      "imie": "Janusz i Bogusław Radziwiłłowie",
+      "opis": "Magnaci-zdrajcy, kierujący się ambicją."
+    },
+    {
+      "imie": "przeor Augustyn Kordecki",
+      "opis": "Duchowy przywódca obrony Jasnej Góry."
+    },
+    {
+      "imie": "Jan Kazimierz",
+      "opis": "Król Polski."
+    }
+  ],
+  "problematyka": [
+    "patriotyzm i zdrada w czasie najazdu",
+    "przemiana i odkupienie win",
+    "honor szlachecki i wierność przysiędze",
+    "religia jako siła narodowa (Jasna Góra)",
+    "literatura „ku pokrzepieniu serc” w czasach zaborów"
+  ],
+  "motywy": [
+    {
+      "motyw": "przemiana bohatera",
+      "opis": "Kmicic – Babinicz."
+    },
+    {
+      "motyw": "zdrada",
+      "opis": "Radziwiłłowie."
+    },
+    {
+      "motyw": "obrona twierdzy",
+      "opis": "Jasna Góra jako symbol."
+    },
+    {
+      "motyw": "miłość wystawiona na próbę",
+      "opis": "Kmicic i Oleńka."
+    },
+    {
+      "motyw": "rycerz",
+      "opis": "etos szlachecki."
+    }
+  ],
+  "konteksty": [
+    "Historia: potop szwedzki (1655–1660), obrona Jasnej Góry (1655), ugoda w Kiejdanach.",
+    "Pozytywizm: Sienkiewicz pisał, by podtrzymać ducha narodu po upadku powstania styczniowego.",
+    "Wzorce epopei: Homer – heroizm, sceny batalistyczne.",
+    "„Pieśń o Rolandzie” – rycerski ideał.",
+    "Witold Gombrowicz, „Trans-Atlantyk” i krytyka sienkiewiczowskiego mitu (kontekst)."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Przemiana bohatera literackiego – Kmicic (z Raskolnikowem, Konradem).",
+    "Zdrada i patriotyzm w literaturze.",
+    "Literatura ku pokrzepieniu serc.",
+    "Honor i wierność danemu słowu."
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje, które fragmenty. Często wybiera się: początkowe dzieje Kmicica i Oleńki, scenę w Kiejdanach (ugoda z Radziwiłłem), obronę Jasnej Góry (wysadzenie kolubryny przez Kmicica) i zakończenie (list królewski oczyszczający Kmicica). Streszczenie całości jest uproszczone."
+}

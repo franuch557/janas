@@ -1,0 +1,132 @@
+{
+  "id": "lalka",
+  "metryczka": {
+    "autor": "Bolesław Prus (Aleksander Głowacki)",
+    "tytul": "Lalka",
+    "rok": "1887–1889 (druk w „Kurierze Codziennym”), wyd. książkowe 1890",
+    "gatunek": "powieść realistyczna (społeczno-obyczajowa)",
+    "epoka": "Pozytywizm",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Tom I, rozdz. I–IV – sklep i powrót Wokulskiego",
+      "tekst": "Warszawa, początek 1878 r. Stary subiekt Ignacy Rzecki prowadzi galanteryjny sklep J. Mincla i S. Wokulskiego. W swoim pamiętniku wspomina młodość, Napoleona i udział w Wiośnie Ludów na Węgrzech (1848–1849). Stanisław Wokulski wraca z wojny rosyjsko-tureckiej, na której jako dostawca dla armii zarobił ogromny majątek. Plotkuje się o nim w mieście. Rzecki przypomina jego przeszłość: był subiektem w winiarni Hopfera, uczył się nocami, studiował w Szkole Przygotowawczej, wziął udział w powstaniu styczniowym, został zesłany na Syberię, a po powrocie ożenił się z dużo starszą wdową Małgorzatą Minclową, by wyjść z nędzy. Po jej śmierci odziedziczył sklep."
+    },
+    {
+      "tytul": "Tom I, rozdz. V–IX – Izabela, Powiśle i nowe interesy",
+      "tekst": "Wokulski od czasu, gdy zobaczył w teatrze Izabelę Łęcką, jest w niej zakochany i to dla niej zdobywał majątek. Arystokratyczny ród Łęckich jest zrujnowany: ojciec, Tomasz Łęcki, ma długi, a jego kamienica pójdzie na licytację. Izabela żyje w świecie salonów, gardzi „kupcami” i marzy o życiu bez trosk. Wokulski potajemnie skupuje weksle Łęckiego, kupuje jego srebrny serwis i pomaga mu bez jego wiedzy. Podczas samotnej wędrówki po Powiślu (rozdział „Medytacje”) widzi nędzę ludu warszawskiego i rozmyśla o swoim życiu. Pomaga biednym – furmanowi Wysockiemu, któremu daje pracę, a jego bratu załatwia posadę dróżnika w Skierniewicach, oraz młodemu Węgiełkowi."
+    },
+    {
+      "tytul": "Tom I, rozdz. X–XX – wejście do „wielkiego świata”",
+      "tekst": "Wokulski stopniowo zbliża się do Łęckich. Daje hojną składkę podczas wielkanocnej kwesty u Grobu Pańskiego, w której uczestniczy Izabela, i zyskuje przychylność hrabiny Karolowej. Pomaga prostytutce Mariannie wydostać się z domu publicznego. Kupuje na licytacji kamienicę Łęckich (płacąc więcej, niż jest warta), zakłada spółkę do handlu ze Wschodem. Kupuje konia wyścigowego; dochodzi też do pojedynku z baronem Krzeszowskim (baron zostaje ranny). Wokulski poznaje młodego wynalazcę Juliana Ochockiego i zaczyna marzyć o nauce. Rzecki obserwuje zmiany w swoim pryncypale z niepokojem, a w swoim pamiętniku wraca do wspomnień o młodości i rodzinie Minclów."
+    },
+    {
+      "tytul": "Tom II – Paryż, Zasławek, sprawa lalki",
+      "tekst": "Wokulski wyjeżdża w interesach do Paryża. Tam poznaje uczonego Geista, który pracuje nad metalem lżejszym od powietrza; Wokulski waha się, czy nie poświęcić się nauce, ale wraca do Warszawy dla Izabeli. Rzecki próbuje swatać go z panią Heleną Stawską, której mąż zaginął. Zamieszkująca w kamienicy Wokulskiego baronowa Krzeszowska oskarża Stawską o kradzież lalki należącej do jej zmarłej córki; w sądzie okazuje się, że lalka została kupiona w sklepie Wokulskiego, i Stawska zostaje uniewinniona (od tego epizodu pochodzi tytuł). Wokulski bywa w majątku prezesowej Zasławskiej, gdzie spotyka Izabelę i jej kuzyna Kazimierza Starskiego, z którym Izabela flirtuje. W końcu oświadcza się i zostaje przyjęty."
+    },
+    {
+      "tytul": "Tom II – katastrofa i otwarte zakończenie",
+      "tekst": "Podczas podróży pociągiem do Krakowa Izabela i Starski rozmawiają po angielsku, sądząc, że Wokulski ich nie rozumie, i drwią z niego. Wokulski wysiada w Skierniewicach i rzuca się na tory; ratuje go dróżnik Wysocki. Wokulski zrywa z Izabelą, porzuca interesy, sprzedaje sklep Henrykowi Szlangbaumowi i znika. Rzecki, osamotniony i rozczarowany, umiera. Izabela po zerwaniu zapowiada wstąpienie do klasztoru. Ochocki opowiada, że Wokulski był widziany w Dąbrowie, gdzie kupował dynamit, a niedługo potem wysadzono ruiny zamku w Zasławiu. Ostatni rozdział, zatytułowany „…?…”, nie rozstrzyga, czy Wokulski zginął, czy wyjechał (np. do Geista)."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Stanisław Wokulski",
+      "opis": "Kupiec, były powstaniec i zesłaniec, człowiek czynu i marzyciel; łączy cechy romantyka i pozytywisty. Jego tragedią jest miłość do kobiety, która go nie rozumie."
+    },
+    {
+      "imie": "Izabela Łęcka",
+      "opis": "Piękna arystokratka, wychowana w świecie pozorów; próżna, chłodna, niezdolna do docenienia Wokulskiego. Dla niego jest ideałem, w rzeczywistości jest jak tytułowa „lalka”."
+    },
+    {
+      "imie": "Ignacy Rzecki",
+      "opis": "Stary subiekt, idealista, wierny bonapartysta, autor „Pamiętnika starego subiekta”; ufa w postęp i wielkie idee polityczne."
+    },
+    {
+      "imie": "Tomasz Łęcki",
+      "opis": "Zubożały arystokrata, ojciec Izabeli, nieudolny w interesach."
+    },
+    {
+      "imie": "Julian Ochocki",
+      "opis": "Młody wynalazca, kuzyn Izabeli, marzy o maszynie latającej – idealista nauki."
+    },
+    {
+      "imie": "Kazimierz Starski",
+      "opis": "Lekkoduch i bawidamek, kuzyn Izabeli; jego flirt z nią niszczy Wokulskiego."
+    },
+    {
+      "imie": "pani Stawska i baronowa Krzeszowska",
+      "opis": "Uboga, szlachetna kobieta oraz zgorzkniała, kłótliwa arystokratka – strony procesu o lalkę."
+    },
+    {
+      "imie": "Geist",
+      "opis": "Paryski uczony-wynalazca, symbol nauki pracującej dla przyszłości."
+    },
+    {
+      "imie": "Henryk Szlangbaum",
+      "opis": "Żydowski subiekt, później właściciel sklepu; zmaga się z antysemityzmem."
+    },
+    {
+      "imie": "prezesowa Zasławska",
+      "opis": "Mądra, życzliwa Wokulskiemu arystokratka – przykład szlachetnej, rozumnej arystokracji."
+    }
+  ],
+  "problematyka": [
+    "rozpad społeczeństwa warszawskiego: arystokracja, mieszczaństwo, Żydzi, biedota",
+    "kryzys ideałów romantycznych i pozytywistycznych",
+    "miłość jako namiętność niszcząca",
+    "pieniądz i awans społeczny",
+    "nauka i postęp jako szansa na przyszłość",
+    "samotność jednostki wybitnej w świecie przeciętności"
+  ],
+  "motywy": [
+    {
+      "motyw": "lalka",
+      "opis": "Izabela jako piękna, pusta lalka; proces o lalkę jako symbol pozorów."
+    },
+    {
+      "motyw": "miasto",
+      "opis": "Warszawa jako pełnoprawny bohater powieści."
+    },
+    {
+      "motyw": "miłość nieszczęśliwa",
+      "opis": "Wokulski i Izabela."
+    },
+    {
+      "motyw": "pamiętnik",
+      "opis": "wspomnienia Rzeckiego – druga perspektywa narracji."
+    },
+    {
+      "motyw": "podróż",
+      "opis": "Paryż jako miasto przyszłości."
+    },
+    {
+      "motyw": "samobójstwo",
+      "opis": "próba Wokulskiego w Skierniewicach."
+    }
+  ],
+  "konteksty": [
+    "Pozytywizm: praca organiczna, praca u podstaw, scjentyzm, asymilacja Żydów; „Lalka” pokazuje, że te hasła się nie sprawdzają.",
+    "Realizm XIX w.: wszechwiedzący narrator, szczegółowy opis środowisk (Balzac, Dickens, Flaubert).",
+    "Historia: powstanie styczniowe i represje, wojna rosyjsko-turecka 1877–1878, Wiosna Ludów (w pamiętniku Rzeckiego).",
+    "Romantyzm: Wokulski czyta Mickiewicza, jego miłość przypomina miłość romantycznego kochanka (Gustaw z IV cz. „Dziadów”).",
+    "Molier, „Skąpiec”; Dostojewski, „Zbrodnia i kara” – pieniądz i jego wpływ na człowieka."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Stopiło się w nim dwu ludzi: romantyk sprzed roku sześćdziesiątego i pozytywista z siedemdziesiątego.",
+      "kontekst": "Doktor Szuman o Wokulskim – najkrótsza charakterystyka bohatera."
+    }
+  ],
+  "doWypracowania": [
+    "Miłość, która niszczy – Wokulski (z Makbetem, Werterem).",
+    "Romantyk czy pozytywista? – postać Wokulskiego.",
+    "Obraz społeczeństwa w literaturze – „Lalka”, „Przedwiośnie”, „Wesele”.",
+    "Idealizm i jego klęska – Rzecki, Wokulski, Ochocki.",
+    "Miasto jako przestrzeń literacka – Warszawa w „Lalce”.",
+    "Pytanie ustne: Dlaczego powieść nosi tytuł „Lalka”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Kolejność niektórych epizodów tomu II (np. sprawy Stawskiej, pobyt w Zasławku) warto sprawdzić z tekstem. Zakończenie powieści jest celowo otwarte – nie wiadomo na pewno, co stało się z Wokulskim."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "slowacki-wiersze",
+  "metryczka": {
+    "autor": "Juliusz Słowacki",
+    "tytul": "Wybrane wiersze, w tym „Testament mój”",
+    "rok": "„Testament mój” – 1840; inne wiersze z lat 30.–40. XIX w.",
+    "gatunek": "liryka (wiersz-testament, liryka refleksyjna i patriotyczna)",
+    "epoka": "Romantyzm",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Testament mój”",
+      "tekst": "Poeta żegna się z przyjaciółmi i rodakami. Mówi, że żył z nimi i dzielił ich cierpienia, a teraz odchodzi bez spadkobierców swego talentu i nazwiska. Prosi, by przekazali w pamięci, że poświęcił młodość ojczyźnie i był wierny jej sprawie do końca – jak żeglarz, który nie opuścił tonącego okrętu. Prosi, by nie tracili nadziei, nieśli przed narodem kaganiec oświaty i w razie potrzeby szli na śmierć jak kamienie rzucane przez Boga na szaniec. Liczy, że po śmierci jego siła pozostanie z nimi i kiedyś przemieni „zjadaczy chleba” w aniołów."
+    },
+    {
+      "tytul": "„Grób Agamemnona”",
+      "tekst": "Stojąc w grobowcu Agamemnona w Mykenach, poeta rozmyśla o greckim bohaterstwie (Termopile) i porównuje je z Polską. Gorzko krytykuje szlachtę: Polska była „pawiem i papugą narodów”, naśladującą innych, przywiązaną do pozorów i kontusza, przez co stała się służebnicą obcych. Wzywa do zrzucenia starej, szlacheckiej „koszuli” i odrodzenia narodu."
+    },
+    {
+      "tytul": "„Hymn” („Smutno mi, Boże!”)",
+      "tekst": "Podczas podróży morskiej, o zachodzie słońca, poeta zwraca się do Boga z wyznaniem smutku i samotności. Piękno morza i nieba kontrastuje z jego tęsknotą za domem i bliskimi. Refren wyraża bezradność wygnańca."
+    },
+    {
+      "tytul": "„Rozłączenie”",
+      "tekst": "List poetycki do ukochanej (Aleksandry Bécu) – samotność, rozłąka, wyobrażenie miejsc, których bliska osoba nie zobaczy, i tęsknota."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Poeta-wygnaniec, patriota, świadomy swojej misji i samotności; ironiczny wobec współczesnych."
+    }
+  ],
+  "problematyka": [
+    "rola poety i jego spuścizna",
+    "patriotyzm, poświęcenie i obowiązek wobec ojczyzny",
+    "krytyka narodu i szlachty",
+    "samotność emigranta",
+    "nieśmiertelność dzięki pamięci i sztuce"
+  ],
+  "motywy": [
+    {
+      "motyw": "testament",
+      "opis": "pożegnanie i przekazanie wartości."
+    },
+    {
+      "motyw": "exegi monumentum / non omnis moriar",
+      "opis": "trwanie po śmierci."
+    },
+    {
+      "motyw": "okręt",
+      "opis": "ojczyzna jako tonący okręt."
+    },
+    {
+      "motyw": "kamienie rzucane na szaniec",
+      "opis": "ofiara z życia."
+    },
+    {
+      "motyw": "paw i papuga",
+      "opis": "próżność i naśladownictwo."
+    },
+    {
+      "motyw": "tęsknota",
+      "opis": "samotny wędrowiec."
+    }
+  ],
+  "konteksty": [
+    "Wielka Emigracja po upadku powstania listopadowego; spór Słowackiego z Mickiewiczem.",
+    "Horacy, Pieśń III, 30 – motyw pomnika poezji.",
+    "Aleksander Kamiński, „Kamienie na szaniec” – tytuł zaczerpnięty z „Testamentu mojego”.",
+    "Jan Kochanowski, Pieśń V ks. II – wcześniejsza krytyka rodaków.",
+    "Zbigniew Herbert, „Przesłanie Pana Cogito” – XX-wieczny testament moralny."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Żyłem z wami, cierpiałem i płakałem z wami;",
+      "kontekst": "„Testament mój” – pierwszy wers."
+    },
+    {
+      "tekst": "Aż was, zjadacze chleba — w aniołów przerobi.",
+      "kontekst": "„Testament mój” – ostatni wers."
+    },
+    {
+      "tekst": "Pawiem narodów byłaś i papugą;",
+      "kontekst": "„Grób Agamemnona” – krytyka Polski szlacheckiej."
+    }
+  ],
+  "doWypracowania": [
+    "Testament poety – Słowacki, Horacy, Herbert.",
+    "Krytyka narodu w literaturze (Słowacki, Kochanowski, Wyspiański).",
+    "Poświęcenie dla ojczyzny – czy zawsze jest konieczne?",
+    "Pytanie ustne: Jakie wartości poeta przekazuje w „Testamencie moim”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Obowiązkowy jest „Testament mój”; pozostałe wiersze wybiera nauczyciel. Link prowadzi do strony autora; „Testament mój”: wolnelektury.pl/katalog/lektura/testament-moj/. „Grób Agamemnona” to fragment poematu „Podróż do Ziemi Świętej z Neapolu”."
+}

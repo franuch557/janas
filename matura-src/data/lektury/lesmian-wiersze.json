@@ -1,0 +1,97 @@
+{
+  "id": "lesmian-wiersze",
+  "metryczka": {
+    "autor": "Bolesław Leśmian",
+    "tytul": "Wybrane wiersze",
+    "rok": "tomy: „Łąka” (1920), „Napój cienisty” (1936), „Dziejba leśna” (1938)",
+    "gatunek": "liryka (ballada, erotyk, liryka filozoficzna)",
+    "epoka": "Dwudziestolecie międzywojenne",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Dziewczyna” (Napój cienisty)",
+      "tekst": "Dwunastu braci słyszy zza muru płacz dziewczyny i choć nigdy jej nie widzieli, zakochują się w jej głosie. Postanawiają rozbić mur młotami. Kolejno umierają, ale ich cienie pracują dalej, a gdy i one znikają, młoty same biją w mur. W końcu mur pada – i okazuje się, że za nim nie ma nic: był tylko głos. Wiersz stawia pytanie o sens dążenia do ideału i o świat, w którym marzenie okazuje się pustką, ale też podziwia wysiłek, który nie ustaje."
+    },
+    {
+      "tytul": "„Dusiołek” (Łąka)",
+      "tekst": "Chłop Bajdała ze szkapą i wołem zasypia przy drodze. Z rowu wychodzi brzydki stworek, Dusiołek, siada mu na piersi i dusi go we śnie. Bajdała budzi się, ma pretensje do szkapy i wołu, że go nie obronili, a w końcu do Boga – po co stworzył coś tak paskudnego. Ballada łączy humor, ludową fantastykę i poważne pytanie o istnienie zła (teodyceę)."
+    },
+    {
+      "tytul": "„W malinowym chruśniaku” (cykl erotyków z tomu „Łąka”)",
+      "tekst": "Kochankowie ukryci w malinowych zaroślach zrywają owoce; maliny stają się narzędziem pierwszej, zdziwionej pieszczoty. Przyroda (bąk, pajęczyny, żuk, upał, zapach malin) uczestniczy w miłości. Cykl jest zmysłowy i subtelny, a miłość pokazana jako część natury."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "dwunastu braci",
+      "opis": "Symbol ludzkiego dążenia do ideału, wysiłku ponad śmierć."
+    },
+    {
+      "imie": "Bajdała",
+      "opis": "Prosty chłop, który pyta Boga o sens zła."
+    },
+    {
+      "imie": "kochankowie z malinowego chruśniaka",
+      "opis": "Zmysłowa para złączona z przyrodą."
+    }
+  ],
+  "problematyka": [
+    "granica między bytem a niebytem",
+    "dążenie do ideału i jego pustka",
+    "istnienie zła na świecie",
+    "miłość zmysłowa jako część natury",
+    "ludowa fantastyka i baśniowość"
+  ],
+  "motywy": [
+    {
+      "motyw": "mur",
+      "opis": "granica, przeszkoda."
+    },
+    {
+      "motyw": "głos",
+      "opis": "ideał nieistniejący."
+    },
+    {
+      "motyw": "zmora/dusiołek",
+      "opis": "zło z ludowych wierzeń."
+    },
+    {
+      "motyw": "natura",
+      "opis": "żywa, współuczestnicząca."
+    },
+    {
+      "motyw": "miłość erotyczna",
+      "opis": "maliny jako symbol."
+    }
+  ],
+  "konteksty": [
+    "Filozofia Henriego Bergsona (intuicja, pęd życiowy) – wpływ na Leśmiana.",
+    "Neologizmy Leśmiana (np. „zaprzepaszczony”, „zmorą”, „nicość”) – twórczy język.",
+    "Mickiewicz, „Ballady i romanse” – tradycja ballady.",
+    "Księga Hioba – pytanie o zło (Dusiołek).",
+    "Barok i Morsztyn – inne oblicze erotyki."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Dwunastu braci, wierząc w sny, zbadało mur od marzeń strony,",
+      "kontekst": "„Dziewczyna” – pierwszy wers."
+    },
+    {
+      "tekst": "Lecz poza murem — nic i nic! Ni żywej duszy, ni Dziewczyny!",
+      "kontekst": "„Dziewczyna” – odkrycie pustki za murem."
+    },
+    {
+      "tekst": "W malinowym chruśniaku, przed ciekawych wzrokiem",
+      "kontekst": "„W malinowym chruśniaku” – pierwszy wers."
+    }
+  ],
+  "doWypracowania": [
+    "Dążenie do ideału – czy ma sens? („Dziewczyna”).",
+    "Zło w świecie – „Dusiołek”, Hiob, „Dżuma”.",
+    "Miłość w poezji – Leśmian, Pawlikowska-Jasnorzewska, Morsztyn.",
+    "Pytanie ustne: Na czym polega oryginalność języka Leśmiana?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje tytułów. Opisano najczęściej omawiane: „Dziewczyna”, „Dusiołek”, cykl „W malinowym chruśniaku”."
+}

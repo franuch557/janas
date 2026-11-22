@@ -1,0 +1,87 @@
+{
+  "id": "tuwim-wiersze",
+  "metryczka": {
+    "autor": "Julian Tuwim",
+    "tytul": "Wybrane wiersze",
+    "rok": "1918–1949 (m.in. „Do prostego człowieka” – 1929, „Bal w operze” – 1936)",
+    "gatunek": "liryka (satyra, liryka obywatelska, wiersz programowy)",
+    "epoka": "Dwudziestolecie międzywojenne",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Do prostego człowieka”",
+      "tekst": "Poeta zwraca się do zwykłego człowieka z każdego kraju: gdy znów pojawią się plakaty wzywające do wojny, gdy przemawiać będą o ojczyźnie, chwale i granicach, gdy duchowni pobłogosławią karabiny, a tłum obrzuci żołnierzy kwiatami – niech wie, że to kłamstwo. Wojny wywołują bogacze i politycy dla ropy, pieniędzy i ceł. Wzywa, by rzucić karabin i nie przelewać własnej krwi za cudze interesy. Wiersz wywołał skandal jako pacyfistyczny."
+    },
+    {
+      "tytul": "„Mieszkańcy”",
+      "tekst": "Satyra na mieszczan: poeta opisuje „straszne mieszkania”, w których „straszni mieszczanie” żyją bezmyślnie, rozmawiają o niczym, jedzą, plotkują, wszystko mają poukładane i oceniają świat szablonami. Wiersz krytykuje filisterstwo, pustotę i duchową martwotę."
+    },
+    {
+      "tytul": "„Bal w operze”",
+      "tekst": "Poemat satyryczny, poprzedzony mottami z Apokalipsy: groteskowy, wulgarny obraz balu elit władzy i pieniądza, które bawią się w operze, podczas gdy kraj cierpi. Tuwim obnaża korupcję, rozpasanie i pogardę rządzących dla zwykłych ludzi; utwór długo blokowała cenzura."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "„prosty człowiek”",
+      "opis": "Adresat, zwykły obywatel manipulowany przez propagandę."
+    },
+    {
+      "imie": "mieszczanie",
+      "opis": "Bohater zbiorowy satyry."
+    },
+    {
+      "imie": "elity z „Balu w operze”",
+      "opis": "Karykatura władzy i pieniądza."
+    }
+  ],
+  "problematyka": [
+    "pacyfizm i krytyka propagandy wojennej",
+    "krytyka mieszczaństwa i bezmyślności",
+    "satyra polityczna na elity władzy",
+    "poezja codzienności i języka potocznego"
+  ],
+  "motywy": [
+    {
+      "motyw": "wojna",
+      "opis": "jako interes możnych."
+    },
+    {
+      "motyw": "mieszczanin",
+      "opis": "filister, człowiek bez wyobraźni."
+    },
+    {
+      "motyw": "apokalipsa",
+      "opis": "motta w „Balu w operze”."
+    },
+    {
+      "motyw": "prosty człowiek",
+      "opis": "bohater poezji Skamandra."
+    }
+  ],
+  "konteksty": [
+    "Grupa poetycka Skamander: poezja codzienności, język potoczny, witalizm.",
+    "Ruchy pacyfistyczne po I wojnie światowej.",
+    "Księga Apokalipsy – motta „Balu w operze”.",
+    "Krasicki – satyra jako krytyka obyczajów."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Rżnij karabinem w bruk ulicy!",
+      "kontekst": "„Do prostego człowieka” – wezwanie do odmowy udziału w wojnie."
+    },
+    {
+      "tekst": "Twoja jest krew, a ich jest nafta!",
+      "kontekst": "„Do prostego człowieka” – wojna jako interes bogatych."
+    }
+  ],
+  "doWypracowania": [
+    "Wojna w literaturze – patriotyzm czy pacyfizm? (Tuwim, Krasicki, Baczyński).",
+    "Satyra na społeczeństwo – Tuwim, Krasicki.",
+    "Manipulacja i propaganda – Tuwim, „Rok 1984”.",
+    "Pytanie ustne: Przeciw czemu protestuje Tuwim w „Do prostego człowieka”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje tytułów. Tuwim zmarł w 1953 r., więc jego utwory są w domenie publicznej od 2024 r. „Mieszkańcy” nie są dostępni na Wolnych Lekturach (stan z XI 2026); data i tom tego wiersza – do sprawdzenia."
+}

@@ -1,0 +1,113 @@
+{
+  "id": "poezja-baroku",
+  "metryczka": {
+    "autor": "m.in. Mikołaj Sęp Szarzyński, Daniel Naborowski, Jan Andrzej Morsztyn",
+    "tytul": "Wybrane wiersze poetów epoki baroku",
+    "rok": "koniec XVI – XVII w.",
+    "gatunek": "sonet, epigramat, liryka religijna i miłosna",
+    "epoka": "Barok",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Sęp Szarzyński, Sonet I „O krótkości i niepewności na świecie żywota człowieczego”",
+      "tekst": "Czas pędzi jak obłoki, a śmierć idzie tuż za człowiekiem. Podmiot z wiekiem coraz wyraźniej widzi swoje błędy i żałuje młodzieńczych porywów. Władza, przyjemności i bogactwa odciągają człowieka od prawdziwego szczęścia, którym jest Bóg. Szczęśliwy jest ten, kto zaufa Bogu."
+    },
+    {
+      "tytul": "Sęp Szarzyński, Sonet IV „O wojnie naszej, którą wiedziemy z szatanem, światem i ciałem”",
+      "tekst": "Życie człowieka to nieustanna walka duchowa z trzema wrogami: szatanem, światem (jego marnościami) i ciałem, które pragnie przyjemności. Człowiek jest słaby i „rozdwojony w sobie”, więc sam nie wygra – nadzieja jest tylko w Bogu, który może go postawić przy sobie i zapewnić zwycięstwo."
+    },
+    {
+      "tytul": "Sęp Szarzyński, Sonet V „O nietrwałej miłości rzeczy świata tego”",
+      "tekst": "Podmiot rozważa paradoks: trudno nie kochać, ale kochanie rzeczy ziemskich (złota, władzy, sławy, piękna) przynosi tylko nędzną pociechę, bo wszystko to się psuje. Miłość jest naturą człowieka, lecz dusza zostaje oszukana, jeśli nie kieruje jej ku Bogu – wiecznemu pięknu."
+    },
+    {
+      "tytul": "Daniel Naborowski, „Krótkość żywota” i „Marność”",
+      "tekst": "„Krótkość żywota” to wyliczenie obrazów nietrwałości: życie jest jak dźwięk, cień, dym, wiatr, błysk, punkt; ledwie się zaczyna, a już mija – dla wielu kołyska stała się grobem. „Marność” stwierdza, że świat hołduje marności, ale radzi kochać i żartować pobożnie i uczciwie, a nade wszystko bać się Boga – wtedy śmierć nie jest straszna."
+    },
+    {
+      "tytul": "Jan Andrzej Morsztyn, „Do trupa”",
+      "tekst": "Sonet zbudowany na zaskakującym porównaniu (koncepcie): zakochany porównuje się do leżącego zmarłego. Obaj są „zabici” – trup strzałą śmierci, on strzałą miłości. Różnica jest taka, że zmarły nic nie czuje i rozsypie się w proch, a kochanek cierpi i nie może się nawet obrócić w popiół, bo stał się wiecznym żywiołem własnego ognia."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny Sępa Szarzyńskiego",
+      "opis": "Człowiek niespokojny, świadomy grzechu i słabości, szukający oparcia w Bogu."
+    },
+    {
+      "imie": "podmiot liryczny Naborowskiego",
+      "opis": "Moralista rozważający krótkość życia."
+    },
+    {
+      "imie": "podmiot liryczny Morsztyna",
+      "opis": "Wyrafinowany, dworski kochanek, bawiący się paradoksem."
+    }
+  ],
+  "problematyka": [
+    "przemijanie i marność świata (vanitas)",
+    "niepokój egzystencjalny i religijny człowieka baroku",
+    "walka duchowa: dusza przeciw ciału",
+    "miłość jako cierpienie i gra intelektualna",
+    "Bóg jako jedyna trwała wartość"
+  ],
+  "motywy": [
+    {
+      "motyw": "vanitas",
+      "opis": "marność dóbr ziemskich."
+    },
+    {
+      "motyw": "memento mori",
+      "opis": "śmierć idąca tuż za człowiekiem."
+    },
+    {
+      "motyw": "psychomachia",
+      "opis": "walka o duszę człowieka."
+    },
+    {
+      "motyw": "czas",
+      "opis": "nieuchronnie uciekający."
+    },
+    {
+      "motyw": "miłość-cierpienie",
+      "opis": "u Morsztyna miłość zabija jak śmierć."
+    },
+    {
+      "motyw": "koncept",
+      "opis": "zaskakujące zestawienia, paradoksy, antytezy."
+    }
+  ],
+  "konteksty": [
+    "Cechy poezji barokowej: konceptyzm, antytezy, paradoksy, wyliczenia, inwersja, zaskakujące metafory.",
+    "Kontrreformacja i niepokój religijny XVI/XVII w.",
+    "Księga Koheleta – biblijne źródło motywu marności.",
+    "Horacy i Kochanowski – kontrast z renesansową harmonią i spokojem.",
+    "Malarstwo: martwe natury typu vanitas (czaszka, klepsydra, zgaszona świeca)."
+  ],
+  "cytaty": [
+    {
+      "tekst": "I nie miłować ciężko, i miłować / Nędzna pociecha,",
+      "kontekst": "Sęp Szarzyński, Sonet V – paradoks miłości do rzeczy ziemskich."
+    },
+    {
+      "tekst": "Pokój — szczęśliwość; ale bojowanie / Byt nasz podniebny:",
+      "kontekst": "Sęp Szarzyński, Sonet IV – życie jako walka duchowa."
+    },
+    {
+      "tekst": "Dźwięk, cień, dym, wiatr, błysk, głos, punkt, żywot ludzki słynie.",
+      "kontekst": "Naborowski, „Krótkość żywota” – wyliczenie obrazów nietrwałości."
+    },
+    {
+      "tekst": "Leżysz zabity i jam też zabity,",
+      "kontekst": "Morsztyn, „Do trupa” – początek konceptu."
+    }
+  ],
+  "doWypracowania": [
+    "Przemijanie i marność w literaturze (barok, Kohelet, Horacy).",
+    "Człowiek rozdarty między ciałem a duszą.",
+    "Różne oblicza miłości – Morsztyn, Pawlikowska-Jasnorzewska, Leśmian.",
+    "Pytanie ustne: Jakie środki stylistyczne są typowe dla poezji baroku?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje ani autorów, ani tytułów („wybrane wiersze poetów epoki baroku”). Opisano utwory najczęściej omawiane. Mikołaj Sęp Szarzyński żył w XVI w. (zm. 1581), ale uważa się go za prekursora baroku. Link prowadzi do strony Sępa Szarzyńskiego na Wolnych Lekturach; wiersze Naborowskiego i Morsztyna też tam są."
+}

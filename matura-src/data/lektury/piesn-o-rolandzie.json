@@ -1,0 +1,104 @@
+{
+  "id": "piesn-o-rolandzie",
+  "metryczka": {
+    "autor": "autor nieznany (w zakończeniu pojawia się imię Turold)",
+    "tytul": "Pieśń o Rolandzie",
+    "rok": "ok. 1100 (rękopis oksfordzki)",
+    "gatunek": "chanson de geste (pieśń o czynach rycerskich), epos",
+    "epoka": "Średniowiecze",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Zdrada Ganelona",
+      "tekst": "Karol Wielki od siedmiu lat walczy w Hiszpanii; nie zdobył tylko Saragossy, w której rządzi saraceński król Marsyl. Marsyl podstępnie proponuje pokój i przyjęcie chrztu. Roland proponuje na posła do Saracenów swojego ojczyma Ganelona. Ganelon czuje się zagrożony i urażony, więc zdradza: umawia się z Marsylem, że Saraceni napadną na tylną straż wojsk Karola, którą dowodzić będzie Roland."
+    },
+    {
+      "tytul": "Bitwa w wąwozie Roncevaux",
+      "tekst": "Gdy główne wojsko przechodzi przez Pireneje, ogromna armia pogan atakuje straż tylną. Rozważny przyjaciel Rolanda, Oliwier, trzykrotnie prosi, by zadął w róg (Olifant) i wezwał Karola. Roland odmawia, bo uważa to za hańbę. Frankowie walczą bohatersko, wspierani przez arcybiskupa Turpina, ale giną niemal wszyscy. Dopiero wtedy Roland dmie w róg tak mocno, że pękają mu skronie."
+    },
+    {
+      "tytul": "Śmierć Rolanda",
+      "tekst": "Śmiertelnie wyczerpany Roland kładzie się pod sosną, twarzą w stronę wrogów, na znak, że umiera jako zwycięzca. Próbuje skruszyć swój miecz Durendal o skałę, aby nie dostał się w ręce pogan, ale miecz się nie łamie. Spowiada się, wyciąga do Boga rękawicę na znak hołdu lennego, a aniołowie zabierają jego duszę do nieba."
+    },
+    {
+      "tytul": "Zemsta Karola i sąd nad zdrajcą",
+      "tekst": "Karol wraca na pole bitwy, opłakuje poległych i dzięki cudowi (Bóg zatrzymuje słońce) dopada uciekających pogan. Pokonuje też armię emira Baliganta i zdobywa Saragossę. Narzeczona Rolanda, Alda (Aude), umiera na wieść o jego śmierci. Ganelon zostaje osądzony; w pojedynku sądowym jego obrońca przegrywa, a zdrajca zostaje rozerwany przez konie."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Roland",
+      "opis": "Siostrzeniec Karola, wzór rycerza: odważny, wierny Bogu i władcy, ale dumny aż do lekkomyślności."
+    },
+    {
+      "imie": "Oliwier",
+      "opis": "Przyjaciel Rolanda, rozważny i rozsądny."
+    },
+    {
+      "imie": "Karol Wielki",
+      "opis": "Cesarz, idealny władca chrześcijański, otoczony cudami."
+    },
+    {
+      "imie": "Ganelon",
+      "opis": "Zdrajca, kierujący się urazą i chęcią zemsty."
+    },
+    {
+      "imie": "arcybiskup Turpin",
+      "opis": "Duchowny i wojownik, błogosławi walczących."
+    },
+    {
+      "imie": "Marsyl",
+      "opis": "Saraceński król Saragossy."
+    }
+  ],
+  "problematyka": [
+    "ideał rycerza średniowiecznego: honor, wierność, wiara",
+    "walka chrześcijan z poganami jako walka dobra ze złem",
+    "zdrada i jej kara",
+    "przyjaźń i odpowiedzialność za innych (czy duma Rolanda była winą?)"
+  ],
+  "motywy": [
+    {
+      "motyw": "rycerz",
+      "opis": "Roland jako wzorzec osobowy epoki."
+    },
+    {
+      "motyw": "śmierć bohaterska",
+      "opis": "rytuał godnego umierania rycerza."
+    },
+    {
+      "motyw": "miecz Durendal i róg",
+      "opis": "symbole rycerskiej godności."
+    },
+    {
+      "motyw": "zdrada",
+      "opis": "Ganelon."
+    },
+    {
+      "motyw": "przyjaźń",
+      "opis": "Roland i Oliwier."
+    }
+  ],
+  "konteksty": [
+    "Podstawą historyczną jest klęska straży tylnej Karola Wielkiego w Pirenejach w 778 r. (w rzeczywistości napastnikami byli Baskowie, nie Saraceni).",
+    "Wzorce osobowe średniowiecza: rycerz (Roland), asceta (Aleksy), władca (Karol).",
+    "Hiperbolizacja i stałe formuły jako cechy eposu.",
+    "Henryk Sienkiewicz, „Potop” – rycerski etos w nowym wydaniu (Kmicic, Wołodyjowski).",
+    "Krzysztof Kamil Baczyński – etos żołnierza-poety w czasie wojny."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Roland jest mężny, a Oliwier roztropny;",
+      "kontekst": "Narrator porównuje dwóch przyjaciół (przekł. T. Boya-Żeleńskiego)."
+    }
+  ],
+  "doWypracowania": [
+    "Ideał rycerza w literaturze (Roland, bohaterowie „Potopu”).",
+    "Duma i honor – zaleta czy wada? (Roland, Achilles).",
+    "Zdrada w literaturze (Ganelon, Makbet).",
+    "Bohaterska śmierć – średniowieczny rytuał umierania."
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje, które fragmenty; najczęściej: zdrada Ganelona, bitwa w Roncevaux, spór o róg, śmierć Rolanda. Na Wolnych Lekturach przekład prozą Tadeusza Boya-Żeleńskiego."
+}

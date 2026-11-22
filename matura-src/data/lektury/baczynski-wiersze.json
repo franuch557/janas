@@ -1,0 +1,94 @@
+{
+  "id": "baczynski-wiersze",
+  "metryczka": {
+    "autor": "Krzysztof Kamil Baczyński",
+    "tytul": "Wybrane wiersze",
+    "rok": "1940–1944",
+    "gatunek": "liryka (katastroficzna, patriotyczna, liryka pokolenia)",
+    "epoka": "Literatura wojny i okupacji",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Pokolenie” („Wiatr drzewa spienia…”)",
+      "tekst": "Obraz dojrzałej, pełnej owoców ziemi zostaje skażony grozą: z drzew zwisa ucięta głowa, pod ziemią leżą skręcone ciała. Pokolenie młodych żyje w strachu, z wilczymi twarzami, w jamach jak troglodyci. Powtarzające się zdanie „Nas nauczono” pokazuje, że wojna odebrała im litość, sumienie i miłość. Na końcu wizja: staną do walki na wozach, czołgach i rumowiskach, nie wiedząc, czy zostaną zapamiętani jak bohaterowie Iliady, czy postawi się im – choćby z litości – krzyż nad grobem."
+    },
+    {
+      "tytul": "„Elegia o… [chłopcu polskim]”",
+      "tekst": "Liryczny monolog matki (lub zbiorowego głosu) do syna: odebrano mu sny i dzieciństwo, jego oczy „wyhaftowano” krwią, wychowano go w ciemności i strachu, a ziemię ojczystą poznał, walcząc. W końcu wyszedł nocą z bronią i zginął, przeżegnawszy jeszcze ziemię. Wiersz kończy pytanie, czy zabiła go kula, czy pękło mu serce. Ton pieszczotliwy („syneczku”) kontrastuje z okrucieństwem wojny."
+    },
+    {
+      "tytul": "„Historia”",
+      "tekst": "Poeta widzi w krajobrazie ślady dawnych bitew – arkebuzy, kanonierów, puste miejsca po rycerzach – i odczuwa ciężar historii, która powtarza się w jego pokoleniu."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "pokolenie Kolumbów",
+      "opis": "Młodzież urodzona ok. 1920 r., która dorastała w wojnie i musiała walczyć i zabijać."
+    },
+    {
+      "imie": "chłopiec polski",
+      "opis": "Młody żołnierz, ofiara wojny."
+    },
+    {
+      "imie": "matka",
+      "opis": "Głos opłakujący syna."
+    }
+  ],
+  "problematyka": [
+    "tragizm pokolenia wojennego: konieczność zabijania i utrata wartości",
+    "katastrofizm – świat jako miejsce zagłady",
+    "patriotyzm i ofiara",
+    "przemiana człowieka pod wpływem wojny",
+    "miłość i śmierć"
+  ],
+  "motywy": [
+    {
+      "motyw": "apokalipsa",
+      "opis": "wojna jako koniec świata."
+    },
+    {
+      "motyw": "matka i syn",
+      "opis": "Elegia."
+    },
+    {
+      "motyw": "natura skażona śmiercią",
+      "opis": "ziemia pełna ciał."
+    },
+    {
+      "motyw": "pokolenie",
+      "opis": "zbiorowy podmiot „my”."
+    },
+    {
+      "motyw": "ofiara",
+      "opis": "młodzi ginący za ojczyznę."
+    }
+  ],
+  "konteksty": [
+    "Baczyński zginął 4 sierpnia 1944 r. w powstaniu warszawskim jako żołnierz AK (batalion „Parasol”).",
+    "Pokolenie Kolumbów (nazwa od powieści Romana Bratnego).",
+    "Juliusz Słowacki – inspiracja romantyczna; „Testament mój” – kamienie rzucane na szaniec.",
+    "Józef Czechowicz – katastrofizm przedwojenny.",
+    "Tadeusz Różewicz, „Ocalony” – inny sposób mówienia o wojnie."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Nas nauczono. Nie ma litości.",
+      "kontekst": "„Pokolenie” – refren mówiący o zniszczeniu wartości."
+    },
+    {
+      "tekst": "Oddzielili cię, syneczku, od snów, co jak motyl drżą,",
+      "kontekst": "„Elegia o… [chłopcu polskim]” – pierwszy wers."
+    }
+  ],
+  "doWypracowania": [
+    "Pokolenie wobec wojny – Baczyński, Borowski, Różewicz.",
+    "Wojna a wartości – czy można zachować człowieczeństwo?",
+    "Matka i dziecko w literaturze wojennej.",
+    "Patriotyzm i ofiara – Baczyński, Słowacki, Krasicki.",
+    "Pytanie ustne: Jaki obraz pokolenia wyłania się z wierszy Baczyńskiego?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje tytułów. Baczyński zginął w 1944 r., jego utwory są w domenie publicznej od 2015 r."
+}

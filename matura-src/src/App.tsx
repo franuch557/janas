@@ -15,8 +15,11 @@ import { ProgressView } from './views/Progress';
 import { SettingsView } from './views/Settings';
 import { Onboarding } from './views/Onboarding';
 import { useReminder } from './views/reminder';
+import { FlashcardsView } from './views/Flashcards';
+import { QuickMode } from './views/QuickMode';
+import { BookView, BooksView, OralQuestionView, OralView } from './views/Books';
 
-const TITLES: Record<string, string> = { plan: 'Plan', zadania: 'Zadania', arkusze: 'Arkusze', postep: 'Postęp', ustawienia: 'Ustawienia' };
+const TITLES: Record<string, string> = { plan: 'Plan', zadania: 'Zadania', arkusze: 'Arkusze', postep: 'Postęp', ustawienia: 'Ustawienia', fiszki: 'Fiszki', lektury: 'Lektury', lektura: 'Lektury', ustny: 'Ustny polski', 'ustny-pytanie': 'Ustny polski' };
 
 const NAV = [
   { name: 'start', label: 'Start', icon: 'start' },
@@ -61,7 +64,7 @@ export function SyncButton() {
 function Shell({ route, children }: { route: Route; children: React.ReactNode }) {
   const { d, toasts, dismissToast } = useStore();
   const sync = useSyncInfo();
-  const active = route.name === 'zadania' || route.name === 'zadanie' ? 'zadania' : route.name;
+  const active = ['zadania', 'zadanie', 'fiszki', 'lektury', 'lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'zadania' : route.name;
   const focus = FOCUS_ROUTES.has(route.name);
   const toastsEl = (
     <div className={`toasts${focus ? ' focus-mode' : ''}`} aria-live="polite">
@@ -231,6 +234,24 @@ export default function App() {
       break;
     case 'ustawienia':
       view = <SettingsView />;
+      break;
+    case 'fiszki':
+      view = <FlashcardsView />;
+      break;
+    case 'piec-minut':
+      view = <QuickMode />;
+      break;
+    case 'lektury':
+      view = <BooksView />;
+      break;
+    case 'lektura':
+      view = <BookView key={route.id} id={route.id} />;
+      break;
+    case 'ustny':
+      view = <OralView />;
+      break;
+    case 'ustny-pytanie':
+      view = <OralQuestionView key={route.nr} nr={route.nr} />;
       break;
     default:
       view = <StartView />;

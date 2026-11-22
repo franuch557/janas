@@ -1,0 +1,83 @@
+{
+  "id": "pawlikowska-wiersze",
+  "metryczka": {
+    "autor": "Maria Pawlikowska-Jasnorzewska",
+    "tytul": "Wybrane wiersze",
+    "rok": "1922–1945 (m.in. tom „Pocałunki”, 1926)",
+    "gatunek": "liryka (miniatura liryczna, erotyk)",
+    "epoka": "Dwudziestolecie międzywojenne",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Miłość”",
+      "tekst": "Kobieta mówi, że nie widziała ukochanego od miesiąca i pozornie nic się nie stało: jest tylko trochę bledsza, bardziej śpiąca i milcząca. Puenta zaskakuje: okazuje się, że można żyć bez powietrza – miłość była dla niej jak oddech."
+    },
+    {
+      "tytul": "„Fotografia”",
+      "tekst": "Gdy miało się szczęście, które się nie powtarza – czyjeś ciało i cały świat – a zostaje po nim tylko zdjęcie, to jest bardzo mało. Miniatura o przemijaniu miłości."
+    },
+    {
+      "tytul": "„Nike”",
+      "tekst": "Miłość porównana do posągu Nike z Samotraki: choć zabita, wciąż biegnie z zapałem, wyciągając odcięte ramiona – trwa mimo zranienia."
+    },
+    {
+      "tytul": "„Pocałunki” jako zbiór",
+      "tekst": "Krótkie, lekkie formy, nawiązujące do japońskiego haiku i tanki, z zaskakującą puentą; mówią o miłości, kobiecości, przemijaniu i lęku przed starością."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Kobieta zakochana, wrażliwa, ironiczna wobec siebie, świadoma przemijania."
+    }
+  ],
+  "problematyka": [
+    "miłość jako sens życia i źródło cierpienia",
+    "kobiecość i kobiecy punkt widzenia w poezji",
+    "przemijanie, starość, ulotność szczęścia",
+    "lekkość formy i powaga treści"
+  ],
+  "motywy": [
+    {
+      "motyw": "miłość",
+      "opis": "rozłąka, tęsknota, wierność."
+    },
+    {
+      "motyw": "fotografia",
+      "opis": "ślad przeszłości."
+    },
+    {
+      "motyw": "Nike z Samotraki",
+      "opis": "zraniona, ale nieustająca miłość."
+    },
+    {
+      "motyw": "puenta",
+      "opis": "zaskakujące zakończenie."
+    }
+  ],
+  "konteksty": [
+    "Skamander (bliskość grupy), poezja kobieca dwudziestolecia.",
+    "Haiku i tanka – inspiracja miniaturą.",
+    "Morsztyn, Leśmian, Poświatowska – inne ujęcia miłości.",
+    "Rzeźba Nike z Samotraki (Luwr)."
+  ],
+  "cytaty": [
+    {
+      "tekst": "lecz widać można żyć bez powietrza!",
+      "kontekst": "„Miłość” – puenta wiersza."
+    },
+    {
+      "tekst": "a zostanie tylko fotografia, / to — to jest bardzo mało…",
+      "kontekst": "„Fotografia” – zakończenie."
+    }
+  ],
+  "doWypracowania": [
+    "Miłość w poezji XX w. (Pawlikowska, Leśmian, Poświatowska).",
+    "Kobieta w literaturze – głos kobiecy.",
+    "Przemijanie szczęścia.",
+    "Pytanie ustne: Na czym polega siła poetyckiej miniatury?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje tytułów. Opisano miniatury z tomu „Pocałunki” (1926)."
+}

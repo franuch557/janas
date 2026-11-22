@@ -1,0 +1,97 @@
+{
+  "id": "krasicki-satyry",
+  "metryczka": {
+    "autor": "Ignacy Krasicki",
+    "tytul": "Satyry (wybrana satyra)",
+    "rok": "Satyry, część pierwsza – 1779",
+    "gatunek": "satyra",
+    "epoka": "Oświecenie",
+    "rodzaj": "liryka (z elementami epiki i dialogu)"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Do króla”",
+      "tekst": "Satyra skierowana do Stanisława Augusta Poniatowskiego. Pozornie mówca wylicza „wady” króla, w rzeczywistości ośmiesza szlachtę, która mu je zarzuca. Król jest „winny” tego, że nie pochodzi z królewskiego rodu, że jest Polakiem, a nie cudzoziemcem, że był wcześniej szlachcicem równym innym, że był młody, gdy wstąpił na tron, że jest dobry i łagodny zamiast budzić strach, i że kocha książki i uczonych. Ironia pokazuje zawiść, pychę i ciemnotę szlachty."
+    },
+    {
+      "tytul": "„Pijaństwo”",
+      "tekst": "Rozmowa dwóch szlachciców. Jeden skarży się na ból głowy: na imieninach żony pił do rana, następnego dnia „na kaca” znowu pił z kompanami, a przy obiedzie, rozprawiając z zapałem o dobru ojczyzny i reformach, opróżnili wiele butelek; skończyło się kłótnią o króla Jana i ciosem butelką w głowę. Klnie pijaństwo, a jego rozmówca wygłasza długą pochwałę trzeźwości i umiaru. Na koniec pierwszy żegna się i mówi, że idzie… napić się wódki. Puenta ośmiesza nałóg i pustotę moralnych deklaracji."
+    },
+    {
+      "tytul": "„Żona modna”",
+      "tekst": "Pan Piotr opowiada przyjacielowi o swoim małżeństwie. Ożenił się dla posagu (czterech wsi) z panną wychowaną w mieście, zapatrzoną w modę francuską. Już intercyza zawierała jej wygórowane żądania (pobyty w stolicy, własny powóz, osobne apartamenty). W podróży do domu żona wiozła psy, kota, ptaki i mysz na łańcuszku, wyśmiewała jego prostotę, a po przyjeździe przebudowała dworek i ogród według mody, lekceważyła starą służbę i urządzała kosztowne bale. Podczas jednego z nich od fajerwerków spłonęła stodoła. W końcu przenieśli się do miasta, a pan Piotr przyznaje, że sam jest sobie winien."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "król Stanisław August (adresat „Do króla”)",
+      "opis": "Władca światły, mecenas kultury, krytykowany przez nieprzychylną szlachtę."
+    },
+    {
+      "imie": "szlachcic-pijak i jego rozmówca",
+      "opis": "Typy szlacheckie: pijak deklarujący poprawę i moralizator."
+    },
+    {
+      "imie": "pan Piotr",
+      "opis": "Szlachcic, który ożenił się dla majątku i stał się ofiarą modnej żony."
+    },
+    {
+      "imie": "żona modna",
+      "opis": "Karykatura kobiety ślepo naśladującej obce mody, rozrzutnej i egoistycznej."
+    }
+  ],
+  "problematyka": [
+    "krytyka wad szlachty: pijaństwa, pychy, zawiści, ciemnoty",
+    "małżeństwo z rozsądku i interesowność",
+    "ślepe naśladowanie obcych mód (cudzoziemszczyzna)",
+    "rozdźwięk między słowami a czynami",
+    "dydaktyzm: literatura ma uczyć i poprawiać obyczaje"
+  ],
+  "motywy": [
+    {
+      "motyw": "satyra obyczajowa",
+      "opis": "ośmieszanie wad społecznych."
+    },
+    {
+      "motyw": "ironia",
+      "opis": "mówienie odwrotnie, niż się myśli („Do króla”)."
+    },
+    {
+      "motyw": "pijaństwo",
+      "opis": "wada narodowa szlachty."
+    },
+    {
+      "motyw": "moda francuska",
+      "opis": "zagrożenie dla polskiej tradycji i majątku."
+    },
+    {
+      "motyw": "puenta",
+      "opis": "zaskakujące zakończenie („Pijaństwo”)."
+    }
+  ],
+  "konteksty": [
+    "Oświecenie: wiara w rozum i wychowanie, literatura dydaktyczna, reformy Stanisława Augusta (Szkoła Rycerska, Komisja Edukacji Narodowej).",
+    "„Monitor” i inne czasopisma krytykujące obyczaje szlachty.",
+    "Jan Kochanowski, Pieśń V ks. II – wcześniejsza krytyka rodaków.",
+    "Julian Ursyn Niemcewicz, „Powrót posła” (lektura uzupełniająca) – modni kosmopolici kontra patrioci.",
+    "Molier, „Skąpiec” – komizm jako narzędzie krytyki."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Satyra prawdę mówi, względów się wyrzeka.",
+      "kontekst": "„Do króla” – definicja satyry według Krasickiego."
+    },
+    {
+      "tekst": "„Bądź zdrów!” „Gdzież idziesz?” „Napiję się wódki”.",
+      "kontekst": "Puenta „Pijaństwa”."
+    }
+  ],
+  "doWypracowania": [
+    "Satyra jako sposób naprawy świata.",
+    "Obraz polskiej szlachty w literaturze (Krasicki, Kochanowski, Pasek, Mickiewicz).",
+    "Ironia w literaturze – jak działa?",
+    "Pytanie ustne: Jakie wady szlachty krytykuje Krasicki?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa wymaga jednej, wybranej satyry, bez wskazania tytułu. Opisano trzy najczęściej omawiane: „Do króla”, „Pijaństwo”, „Żona modna”."
+}

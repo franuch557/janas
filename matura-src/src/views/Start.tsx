@@ -7,6 +7,7 @@ import { Banner, Empty, Progress } from '../ui/common';
 import { go } from '../ui/router';
 import { useReminderDue } from './reminder';
 import { AddSheet, flowFor, openItem, PlanCard, SwapSheet } from './planParts';
+import { WeeklyCard } from './Weekly';
 
 export function SyncBanner() {
   const { sync, retrySync, storageFull, cloud } = useStore();
@@ -174,6 +175,7 @@ export function StartView() {
       <div className="start-grid">
         <Summary diagInPlan={items.some((i) => i.kind === 'diagnoza')} />
         <section className="stack" aria-labelledby="na-dzis">
+          <WeeklyCard />
           <div className="row-between">
             <h2 id="na-dzis">Na dziś</h2>
             {work.length ? (
@@ -202,9 +204,14 @@ export function StartView() {
             <>
               <Progress value={doneCount} max={work.length} label={`Plan na dziś, ${doneCount} z ${work.length}`} />
               {firstOpen ? (
-                <button type="button" className="btn btn-primary btn-phone-block" onClick={start}>
-                  Zacznij naukę
-                </button>
+                <div className="row">
+                  <button type="button" className="btn btn-primary btn-phone-block" onClick={start}>
+                    Zacznij naukę
+                  </button>
+                  <button type="button" className="btn btn-secondary btn-phone-block" onClick={() => go('#piec-minut')}>
+                    5 minut
+                  </button>
+                </div>
               ) : (
                 <p style={{ fontWeight: 650 }}>
                   Plan na dziś zrobiony. <span style={{ color: 'var(--seria)' }}>Seria: {dni(d.streak)}.</span>

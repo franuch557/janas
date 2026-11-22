@@ -73,6 +73,9 @@ export function pageLimits(page) {
   for (const l of page.lines) {
     if (l.y > page.height - 70 && (FOOTER.test(l.n) || /Strona\d+z\d+/.test(l.n))) bottom = Math.min(bottom, l.top - 4);
   }
+  // logo CKE nad stopką (obraz, nie tekst): tnę 26 pt nad stopką, chyba że niżej jest jeszcze tekst
+  const lastText = Math.max(0, ...page.lines.filter((l) => l.bottom <= bottom && !FOOTER.test(l.n)).map((l) => l.bottom));
+  if (bottom < page.height - 20) bottom = Math.min(bottom, Math.max(lastText + 6, bottom - 22));
   // przypis z podstawą programową („Rozporządzenie Ministra…”) na dole strony zasad
   const fn = page.lines.find((l) => l.y > page.height * 0.7 && /^\d?Rozporządzenie/.test(l.n));
   if (fn) {
@@ -346,13 +349,21 @@ export function planRules(info, pages) {
   const heads = findHeads(pages, fam, { subHeads: fam !== 'angielski' });
   const out = [];
   // sekcje dla osób z dyskalkulią / specyficznymi trudnościami nie należą do obrazu odpowiedzi
-  const extraStops = pages.flatMap((p) => p.lines.filter((l) => /^(Kryteriauwzględniającespecyficznetrudności|Ocenapracosóbzestwierdzoną)/.test(l.n)).map((l) => ({ page: p.page, y: l.top - 3 })));
+  const extraStops = pages.flatMap((p) => p.lines.filter((l) => /^(Kryteriauwzględniającespecyficznetrudności|Ocenapracosóbzestwierdzoną|Uwagidotycząceocenianiapraczdającychzespecyficznymi|Przykładoweakceptowaneodpowiedzidozadania\d+\.wpracachzdających|Wypowiedźpisemna$)/.test(l.n)).map((l) => ({ page: p.page, y: l.top - 3 })));
   heads.forEach((h, i) => {
     const from = { page: h.page, y: h.top - 6 };
     const nh = heads[i + 1];
     let to = nh ? { page: nh.page, y: nh.top - 6 } : null;
     const stop = extraStops.find((s) => (s.page > from.page || (s.page === from.page && s.y > from.y)) && (!to || s.page < to.page || (s.page === to.page && s.y < to.y)));
     if (stop) to = stop;
+    // matematyka: z przykładowych rozwiązań zostawiam sposób I (kolejne sposoby powiększają pakiet
+    // kilkukrotnie; zasady punktacji dla wszystkich sposobów są przed rozwiązaniami)
+    if (fam === 'matematyka') {
+      const ls = linesBetween(pages, from, to);
+      const ex = ls.findIndex((l) => /^Przykładow[ea](pełne)?rozwiązani/.test(l.n));
+      const alt = ex >= 0 ? ls.slice(ex + 1).find((l) => /^SposóbII($|[^I])/.test(l.n)) : null;
+      if (alt) to = { page: alt.page, y: alt.top - 4 };
+    }
     const lines = linesBetween(pages, from, to);
     const headLine = lines[0];
     const rest = lines.slice(1);
@@ -442,7 +453,10 @@ function englishRules(h, pages, from, to, lines) {
   const answers = {};
   const rowRe = /^(\d+)\.(\d+)\.?$/;
   const tableRows = [];
+  // tabela „Przykłady odpowiedzi…” pod tabelą wymagań nie należy do tabeli odpowiedzi
+  const stopAt = lines.find((l, k) => k > 0 && /^Przykład/.test(l.n));
   for (const l of lines) {
+    if (stopAt && (l.page > stopAt.page || (l.page === stopAt.page && l.y >= stopAt.y))) break;
     const first = l.items[0]?.s.trim().replace(/\s+/g, '');
     if (!first || !rowRe.test(first) || Number(rowRe.exec(first)[1]) !== h.main) continue;
     if (l.items[0].x > (columnFor('angielski', pages[l.page - 1])[0] + 50)) continue;
@@ -462,23 +476,35 @@ function englishRules(h, pages, from, to, lines) {
   const headLine = lines[0];
   frags.push(...span(pages, from, { page: headLine.page, y: headLine.bottom + 2 }, 'angielski'));
   cursor = { page: headLine.page, y: headLine.bottom + 2 };
+  const openTables = [];
   for (const t of tables) {
     const hasAns = t.rows.some((r) => answers[r.items[0].s.trim().replace(/\.$/, '')]);
-    if (hasAns) {
-      const p = pages[t.page - 1];
-      const col = columnFor('angielski', p);
-      const ansX = Math.min(...t.ansXs) - 12;
-      const zad = lines.filter((l) => l.page === t.page && l.y < t.rows[0].y && t.rows[0].y - l.y < 75).flatMap((l) => l.items).filter((it) => /^Zadanie$/.test(it.s.trim()));
+    const p = pages[t.page - 1];
+    const col = columnFor('angielski', p);
+    const inTable = lines.filter((l) => l.page === t.page && l.top >= t.top - 1 && l.bottom <= t.bottom + 1);
+    const headItems = inTable.flatMap((l) => l.items).filter((it) => /^(Poprawna|Wersja|odpowiedź)/.test(it.s.trim()));
+    if (hasAns || headItems.length) {
+      // kolumny: numery zadań | (wymagania – pomijam) | poprawna odpowiedź
+      const ansHead = headItems.length ? Math.min(...headItems.map((it) => it.x)) : Math.min(...t.ansXs);
+      const ansX = Math.min(ansHead, ...t.ansXs) - 12;
+      const zad = inTable.flatMap((l) => l.items).filter((it) => /^Zadanie$/.test(it.s.trim()));
       const numX1 = Math.max(...t.rows.map((r) => r.items[0].x1), ...zad.map((it) => it.x1)) + 6;
-      // nagłówek tabeli: linie od nagłówka zadania do pierwszego wiersza
-      frags.push({ page: t.page, y0: t.top, y1: t.bottom, x0: col[0], x1: col[1], cols: [[col[0], numX1], [ansX, col[1]]] });
+      const rowIds = new Set(t.rows.map((r) => r.items[0]));
+      const req = inTable.flatMap((l) => l.items).filter((it) => !rowIds.has(it) && !zad.includes(it) && it.x > numX1 - 8 && it.x < ansX);
+      const c1 = req.length ? Math.max(numX1, Math.min(...req.map((it) => it.x)) - 3) : numX1;
+      const c2 = req.length ? Math.min(ansX + 10, Math.max(ansX - 30, Math.max(...req.map((it) => it.x1)) + 3)) : ansX;
+      const frag = { page: t.page, y0: t.top, y1: t.bottom, x0: col[0], x1: col[1], cols: [[col[0], c1], [c2, col[1]]],
+        split: { numX1: Math.max(...t.rows.map((r) => r.items[0].x1)), ansX: headItems.length ? Math.min(...headItems.map((it) => it.x)) : ansX + 12 } };
+      if (hasAns) frags.push(frag); else openTables.push(frag);
     }
     cursor = { page: t.page, y: t.bottom };
   }
   // reszta (uszczegółowienia, przykłady odpowiedzi) po ostatniej tabeli
-  const restStart = lines.find((l) => l.y > 58 && (l.page > cursor.page || (l.page === cursor.page && l.top >= cursor.y)) && /^(Uszczegółowienia|Zasadyoceniania|Zadanie\d+\.\d+|Kluczowe|Odpowiedź|Przykładowe|Uwaga)/.test(l.n));
-  // bez uszczegółowień (odpowiedzi wpisane w tabeli wymagań): cały fragment zasad zadania
-  const openPart = restStart ? span(pages, pt(restStart), to, 'angielski') : span(pages, from, to, 'angielski');
+  const restStart = lines.find((l) => l.y > 58 && (l.page > cursor.page || (l.page === cursor.page && l.top >= cursor.y)) && /^(Uszczegółowienia|Zasadyoceniania|Zadanie\d+\.\d+|Kluczowe|Odpowiedź|Przykład|Uwaga)/.test(l.n));
+  // część otwarta: kolumna odpowiedzi z tabeli wymagań (jeśli jest) + uszczegółowienia i przykłady
+  const headFr = span(pages, from, { page: headLine.page, y: headLine.bottom + 2 }, 'angielski');
+  const rest = restStart ? span(pages, pt(restStart), to, 'angielski') : [];
+  const openPart = openTables.length || rest.length ? [...(openTables.length ? headFr : []), ...openTables, ...rest] : span(pages, from, to, 'angielski');
   // wypowiedź pisemna: uszczegółowienia oceny treści dla tematu (drugi nagłówek „Zadanie 12.”)
   // do ogólnych kryteriów („Spójność i logika wypowiedzi”), które są w data/kryteria.json
   const again = lines.filter((l, k) => k > 0 && new RegExp(`^Zadanie${h.main}\\.$`).test(l.n)).pop();
@@ -488,13 +514,19 @@ function englishRules(h, pages, from, to, lines) {
   return { answers, frags, openFrags: openPart, closedIds, text: lines.map((l) => l.text).join('\n') };
 }
 
+// strona (z wysokością) dla linii z linesBetween – wystarcza do pageLimits
+const pagesOf = (lines, page) => ({ page, height: 842, lines: lines.filter((l) => l.page === page) });
+
 function groupTables(lines, rows) {
   // tabela: ciąg wierszy na jednej stronie; górna granica = linia „Zadanie”/„Podstawa” nad pierwszym wierszem
   const out = [];
   for (const r of rows) {
     let t = out[out.length - 1];
-    if (!t || t.page !== r.page || r.y - t.lastY > 90) {
-      const above = lines.filter((l) => l.page === r.page && l.y < r.y && r.y - l.y < 75 && !/^Zadanie\d/.test(l.n) && /(Zadanie|Podstawa|Wersja|Poprawna|odpowiedź|^AB$|Wymagani)/.test(l.n));
+    const newHeader = t && t.page === r.page && lines.some((l) => l.page === r.page && l.y > t.lastY && l.y < r.y && l.items.some((it) => /^Zadanie$/.test(it.s.trim())));
+    if (!t || t.page !== r.page || r.y - t.lastY > 90 || newHeader) {
+      // nagłówek tabeli nad pierwszym wierszem (do 200 pt; wiersze bywają wysokie), ale poniżej nagłówka zadania
+      const headY = Math.max(58, ...lines.filter((l) => l.page === r.page && l.y < r.y && /^Zadanie\d/.test(l.n)).map((l) => l.y), ...(t && t.page === r.page ? [t.lastY] : []));
+      const above = lines.filter((l) => l.page === r.page && l.y < r.y && l.y > headY && r.y - l.y < 200 && !/^\d+pkt|^Akceptowane/.test(l.n) && /(Zadanie|Podstawa|Wersja|Poprawna|odpowiedź|^AB$|Wymagani)/.test(l.n));
       t = { page: r.page, top: Math.min(r.top, ...above.map((l) => l.top)) - 4, bottom: r.bottom, lastY: r.y, rows: [], ansXs: [] };
       const ah = above.flatMap((l) => l.items).filter((it) => /^(Poprawna|Wersja|odpowiedź)/.test(it.s.trim()));
       t.ansXs.push(...ah.map((it) => it.x));
@@ -509,8 +541,14 @@ function groupTables(lines, rows) {
   }
   for (const t of out) {
     // dolna granica tabeli: ostatnia linia tekstu wymagań pod ostatnim wierszem (do 30 pt)
-    const below = lines.filter((l) => l.page === t.page && l.y > t.lastY && l.y - t.lastY < 30 && !/^(Uszczegółowienia|Zasady|Zadanie)/.test(l.n));
+    // dolna granica: do następnej sekcji (przykłady, uszczegółowienia, kolejne zadanie) albo końca tekstu strony
+    const lim = pageLimits(pagesOf(lines, t.page));
+    const after = lines.filter((l) => l.page === t.page && l.y > t.lastY && l.bottom < lim.bottom);
+    const sec = after.find((l) => /^(Przykład|Uszczegółowienia|Zasadyoceniania|Zadanie|Uwagi|Kluczowe|Wypowiedź|Odpowiedź|Rozumienie|Znajomość)/.test(l.n));
+    const below = sec ? after.filter((l) => l.y < sec.y) : after;
     if (below.length) t.bottom = Math.max(t.bottom, ...below.map((l) => l.bottom + 6));
+    // ramka następnej tabeli zaczyna się nad tekstem jej nagłówka
+    if (sec) t.bottom = Math.max(t.rows[t.rows.length - 1].bottom + 6, Math.min(t.bottom, sec.top - (/^Zadanie$|^Zadanie[A-ZŻP]/.test(sec.n) || sec.items[0].s.trim() === 'Zadanie' ? 24 : 4)));
     t.bottom += 6; // dolna krawędź tabeli
     if (!t.ansXs.length) t.ansXs.push(400);
   }

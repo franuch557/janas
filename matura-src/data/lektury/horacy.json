@@ -1,0 +1,103 @@
+{
+  "id": "horacy",
+  "metryczka": {
+    "autor": "Horacy (Quintus Horatius Flaccus)",
+    "tytul": "Wybrane utwory (pieśni)",
+    "rok": "I w. p.n.e. (Pieśni ok. 23–13 p.n.e.)",
+    "gatunek": "pieśń (oda), także satyra i list poetycki",
+    "epoka": "Antyk",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Exegi monumentum (Pieśń III, 30)",
+      "tekst": "Poeta stwierdza, że wzniósł sobie pomnik trwalszy niż ze spiżu i wyższy niż piramidy, którego nie zniszczy ani deszcz, ani wiatr, ani upływ lat. Nie umrze cały – jego poezja przetrwa. Będzie sławiony jako ten, kto pierwszy przeniósł pieśń grecką (eolską) na rytmy łacińskie. Prosi muzę Melpomenę o wieniec laurowy. To wzór motywu non omnis moriar."
+    },
+    {
+      "tytul": "Do Leukonoe (Pieśń I, 11)",
+      "tekst": "Poeta radzi Leukonoe, by nie próbowała poznać przyszłości ani daty śmierci przez wróżby. Lepiej przyjąć to, co przyniesie los, bo czas ucieka nawet wtedy, gdy rozmawiamy. Trzeba korzystać z dnia dzisiejszego – stąd słynne „carpe diem”."
+    },
+    {
+      "tytul": "Do Deliusza (Pieśń II, 3)",
+      "tekst": "Poeta zachęca do zachowania równowagi ducha w nieszczęściu i w szczęściu, bo każdy kiedyś umrze. Warto cieszyć się chwilą, odpoczynkiem i winem w cieniu drzew, bo bogactwa i tak przejmą spadkobiercy, a wszystkich czeka ta sama droga do świata zmarłych."
+    },
+    {
+      "tytul": "Do Licyniusza (Pieśń II, 10)",
+      "tekst": "Pochwała „złotego środka” (aurea mediocritas): kto unika skrajności, nie cierpi nędzy, ale też nie budzi zazdrości. Najwyższe drzewa i wieże najbardziej narażone są na wiatr i pioruny. W złym losie trzeba mieć nadzieję, a w dobrym – ostrożność."
+    },
+    {
+      "tytul": "Do Postumusa (Pieśń II, 14)",
+      "tekst": "Smutna refleksja nad przemijaniem: lata uciekają, a pobożność nie powstrzyma starości ani śmierci. Każdy opuści dom, ziemię i bliskich, a zgromadzone dobra roztrwoni dziedzic."
+    },
+    {
+      "tytul": "Do Taliarcha (Pieśń I, 9)",
+      "tekst": "Zimowy krajobraz (góra Soracte pod śniegiem) jest tłem zaproszenia do biesiady: trzeba dołożyć drew do ognia, nalać wina, resztę zostawić bogom i cieszyć się młodością, póki trwa."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny (poeta)",
+      "opis": "Mędrzec-epikurejczyk i stoik zarazem, doradca przyjaciół, świadomy wartości własnej poezji."
+    },
+    {
+      "imie": "adresaci pieśni (Leukonoe, Deliusz, Licyniusz, Postumus, Taliarch)",
+      "opis": "Przyjaciele lub postaci, do których poeta kieruje rady."
+    }
+  ],
+  "problematyka": [
+    "przemijanie i nieuchronność śmierci",
+    "jak żyć szczęśliwie – filozofia epikurejska (korzystanie z chwili) i stoicka (spokój ducha)",
+    "umiar i złoty środek",
+    "nieśmiertelność poety dzięki twórczości"
+  ],
+  "motywy": [
+    {
+      "motyw": "carpe diem",
+      "opis": "chwytaj dzień – korzystaj z teraźniejszości."
+    },
+    {
+      "motyw": "non omnis moriar",
+      "opis": "nie wszystek umrę – sztuka zapewnia nieśmiertelność."
+    },
+    {
+      "motyw": "aurea mediocritas",
+      "opis": "złoty środek, umiar w życiu."
+    },
+    {
+      "motyw": "exegi monumentum",
+      "opis": "poezja jako pomnik trwalszy od spiżu."
+    },
+    {
+      "motyw": "biesiada",
+      "opis": "wino i przyjaźń jako sposób na przemijanie."
+    }
+  ],
+  "konteksty": [
+    "Filozofia: epikureizm (szczęście jako brak cierpienia i rozsądna przyjemność) i stoicyzm (cnota, spokój wobec losu).",
+    "Jan Kochanowski – pieśni horacjańskie (np. Pieśń IX ks. I), parafrazy Horacego.",
+    "Motyw exegi monumentum: Juliusz Słowacki, „Testament mój”; Wisława Szymborska, „Radość pisania”.",
+    "Odrodzenie zainteresowania antykiem w renesansie (humanizm)."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Carpe diem, quam minimum credula postero.",
+      "kontekst": "Pieśń I, 11 (Do Leukonoe): chwytaj dzień, jak najmniej ufając przyszłości."
+    },
+    {
+      "tekst": "Exegi monumentum aere perennius",
+      "kontekst": "Pieśń III, 30: „Wzniosłem pomnik trwalszy niż ze spiżu”."
+    },
+    {
+      "tekst": "Non omnis moriar",
+      "kontekst": "Pieśń III, 30: „Nie wszystek umrę”."
+    }
+  ],
+  "doWypracowania": [
+    "Jak żyć, by być szczęśliwym? – Horacy i Kochanowski.",
+    "Sztuka jako sposób na nieśmiertelność – Horacy, Słowacki, Szymborska.",
+    "Przemijanie w literaturze różnych epok.",
+    "Pytanie ustne: Na czym polega horacjańska postawa życiowa?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje konkretnych utworów. Opisano pieśni najczęściej omawiane w szkole; warto sprawdzić z nauczycielem, które obowiązują w danej klasie. Cytaty podano w oryginale łacińskim."
+}

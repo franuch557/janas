@@ -1,0 +1,90 @@
+{
+  "id": "profesor-andrews",
+  "metryczka": {
+    "autor": "Olga Tokarczuk",
+    "tytul": "Profesor Andrews w Warszawie (z tomu „Gra na wielu bębenkach”)",
+    "rok": "2001 (tom „Gra na wielu bębenkach”)",
+    "gatunek": "opowiadanie",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Przylot",
+      "tekst": "Angielski profesor psychologii Andrews, przedstawiciel nowoczesnej szkoły psychoterapii, przylatuje do Warszawy w grudniu 1981 r., by wygłosić wykład. Jest pełen optymizmu: wyobraża sobie Polskę jako kraj inteligentnych ludzi, zainteresowanych ideami jego szkoły. W samolocie wspomina sen o wronie, który interpretuje jako zapowiedź czegoś dobrego. Na lotnisku wita go przewodniczka Gosha i zawozi do mieszkania na ostatnim piętrze szarego bloku."
+    },
+    {
+      "tytul": "13 grudnia",
+      "tekst": "Następnego ranka Andrews budzi się sam. Telefon nie działa, a na ulicach widzi czołgi i żołnierzy. Nie zna języka, nie ma mapy, nie wie, że ogłoszono stan wojenny. Błąka się po zaśnieżonym, szarym mieście w poszukiwaniu działającego telefonu, gubi się, przypadkiem trafia z powrotem do bloku. Jego wykład się nie odbywa."
+    },
+    {
+      "tytul": "Błądzenie",
+      "tekst": "Profesor jest coraz bardziej głodny i zmarznięty. Je w barze mlecznym, w osiedlowym sklepie kupuje tylko chleb i ocet, przez okratowaną witrynę ogląda pełne półki Peweksu. Przygląda się kolejkom ludzi po karpie, a nawet sam kupuje choinkę, by być jak inni. Zaczyna podejrzewać, że ma epizod psychotyczny – jego teorie psychologiczne nie pomagają zrozumieć tego, co się dzieje."
+    },
+    {
+      "tytul": "Ocalenie",
+      "tekst": "Z opresji ratuje go zwykły człowiek, zaradny mieszkaniec bloku, który zabiera go do domu: na stole kiełbasa i wódka, w wannie pływa żywy karp. Patrząc w oko ryby, Andrews przeżywa coś na kształt mistycznego doświadczenia. Mężczyzna odwozi go do ambasady. Żegnają się zdaniem, którego profesor nauczył się od sprzedawców karpi (pytaniem, czy rybę zabić na miejscu)."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "profesor Andrews",
+      "opis": "Brytyjski psycholog, pewny swojej teorii świata; w obcym, absurdalnym miejscu przeżywa upokorzenie, lęk i przemianę."
+    },
+    {
+      "imie": "Gosha",
+      "opis": "Przewodniczka, która zostawia go w mieszkaniu i znika (nie może się z nim skontaktować)."
+    },
+    {
+      "imie": "mężczyzna z bloku",
+      "opis": "Prosty, zaradny człowiek, który okazuje profesorowi bezinteresowną pomoc."
+    }
+  ],
+  "problematyka": [
+    "stan wojenny widziany oczami obcokrajowca",
+    "bezsilność wiedzy i teorii wobec rzeczywistości",
+    "obcość, samotność, brak porozumienia",
+    "absurd życia w PRL",
+    "zwykła ludzka solidarność"
+  ],
+  "motywy": [
+    {
+      "motyw": "obcy",
+      "opis": "cudzoziemiec w niezrozumiałym świecie."
+    },
+    {
+      "motyw": "labirynt",
+      "opis": "miasto bez mapy."
+    },
+    {
+      "motyw": "wrona",
+      "opis": "aluzja do WRON (Wojskowej Rady Ocalenia Narodowego)."
+    },
+    {
+      "motyw": "karp",
+      "opis": "absurdalny symbol polskich świąt i kolejek."
+    },
+    {
+      "motyw": "sen",
+      "opis": "błędna interpretacja rzeczywistości."
+    }
+  ],
+  "konteksty": [
+    "Historia: wprowadzenie stanu wojennego 13 grudnia 1981 r.",
+    "Psychologia głębi (C. G. Jung) – Tokarczuk studiowała psychologię.",
+    "Dante, „Boska Komedia” – wędrówka przez piekło (motyw zauważony przez badaczy).",
+    "George Orwell, „Rok 1984” – świat zamknięty i kontrolowany.",
+    "Zbigniew Herbert, „Raport z oblężonego miasta” – stan wojenny w poezji.",
+    "Olga Tokarczuk – Nagroda Nobla za 2018 r."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Obcy w nieznanym świecie – Andrews, Pielgrzym z „Sonetów krymskich”.",
+    "Czy teoria pomaga zrozumieć świat?",
+    "Obraz PRL w literaturze.",
+    "Bezinteresowna pomoc – solidarność zwykłych ludzi.",
+    "Pytanie ustne: Jak Tokarczuk pokazuje stan wojenny?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Lektura dodana do kanonu w 2024 r. Przebieg wydarzeń odtworzono na podstawie analiz (m.in. artykułu A. Larenty) – warto porównać z tekstem."
+}

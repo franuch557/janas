@@ -53,6 +53,8 @@ interface Store {
   undo: (eventId: string, toast?: string) => void;
   tick: (ref: string) => void;
   putSession: (s: Session) => void;
+  /** Dowolna zmiana danych (wyjaśnienia, pamięć, fiszki, raporty, ustny). */
+  updateData: (fn: (d: LocalData) => LocalData) => void;
   /** Zmiana sesji na aktualnym stanie (bez nadpisywania nowszej wersji). */
   updateSession: (id: string, fn: (s: Session) => Session) => void;
   /** Zmiana stanu zapisana od razu w localStorage (zamykanie karty). */
@@ -136,7 +138,7 @@ export function AppStore({ children }: { children: ReactNode }) {
   }, []);
   useEffect(() => probe(true), [probe]);
 
-  const base = useMemo(() => derive({ stan: data.stan, events: data.events }, EXAMS, packs, today), [data.stan, data.events, packs, today]);
+  const base = useMemo(() => derive({ stan: data.stan, events: data.events, memory: data.memory, cards: data.cards }, EXAMS, packs, today), [data.stan, data.events, data.memory, data.cards, packs, today]);
   const d = useMemo<Derived>(() => ({ ...base, inProgress: makeInProgress(data.sessions) }), [base, data.sessions]);
 
   const toastId = useRef(1);
@@ -189,6 +191,8 @@ export function AppStore({ children }: { children: ReactNode }) {
   const putSession = useCallback((s: Session) => {
     setData((cur) => ({ ...cur, sessions: { ...cur.sessions, [s.id]: s } }));
   }, []);
+
+  const updateData = useCallback((fn: (d: LocalData) => LocalData) => setData(fn), []);
 
   const updateSession = useCallback((id: string, fn: (s: Session) => Session) => {
     setData((cur) => {
@@ -291,6 +295,7 @@ export function AppStore({ children }: { children: ReactNode }) {
     undo,
     tick,
     putSession,
+    updateData,
     updateSession,
     commitNow,
     putEssay,

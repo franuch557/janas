@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { mergeData, mergeStan, stableStringify, stampStan } from '../src/store/merge';
+import { EMPTY_AI } from '../src/store/local';
 import { defaultStan, type AppEvent, type LocalData, type Stan } from '../src/model';
 import { newSession, pauseIfRunning, resume, setAnswer } from '../src/logic/session';
 import { finalizeEvents } from '../src/logic/finalize';
@@ -57,7 +58,7 @@ describe('scalanie stanu po polach', () => {
 
   it('mergeData: zdarzenia sprzed usunięcia danych nie wracają', () => {
     const ev: AppEvent = { id: 'w1', k: 'w', at: 500, d: '2026-11-23', task: 'T', subj: 'mat-p', topics: [], pts: 1, max: 1, sec: 1, src: 'zadanie' };
-    const local: LocalData = { stan: base(), events: [ev], sessions: {}, essays: [] };
+    const local: LocalData = { stan: base(), events: [ev], sessions: {}, essays: [], ...EMPTY_AI() };
     const remote: Partial<LocalData> = { stan: { ...defaultStan('2026-11-23'), updatedAt: 2000, resetAt: 1000 }, events: [] };
     expect(mergeData(local, remote).events).toEqual([]);
   });

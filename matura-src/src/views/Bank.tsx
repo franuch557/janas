@@ -10,6 +10,7 @@ import { Empty, IconButton, MoreMenu, Progress, Segmented, Sheet, SubjectTag, Ta
 import { Icon } from '../ui/icons';
 import { go } from '../ui/router';
 import { AddTaskSheet } from './AddTask';
+import { dueCards } from '../logic/flashcards';
 import { shortTopic, taskPlanItem, typeText, usePlanEdit } from './planParts';
 import { PacksBanner } from './Start';
 
@@ -95,6 +96,7 @@ export function BankView({ subject, topic }: { subject: SubjectId | null; topic:
   const [adding, setAdding] = useState(false);
   const [pick, setPick] = useState<AppTask | null>(null);
 
+  const dueN = dueCards(data.cards, today).length;
   const subjects = [...SUBJECTS].sort((a, b) => Number(data.stan.enabled[b.id]) - Number(data.stan.enabled[a.id]));
   const sub = subjectDef(subject);
   const activeSubject = sub ?? (wide ? subjects[0] : undefined);
@@ -151,6 +153,21 @@ export function BankView({ subject, topic }: { subject: SubjectId | null; topic:
 
   const subjectsPane = (
     <div className="stack">
+      <div className="extra-links">
+        <button type="button" className="btn btn-secondary" onClick={() => go('#fiszki')}>
+          Fiszki{dueN ? ` (${dueN})` : ''}
+        </button>
+        {data.stan.enabled['pol-p'] ? (
+          <>
+            <button type="button" className="btn btn-secondary" onClick={() => go('#lektury')}>
+              Lektury
+            </button>
+            <button type="button" className="btn btn-secondary" onClick={() => go('#ustny')}>
+              Ustny polski
+            </button>
+          </>
+        ) : null}
+      </div>
       {subjects.map((s) => {
         const list = d.available[s.id];
         const doneN = list.filter((t) => d.records.has(t.id)).length;

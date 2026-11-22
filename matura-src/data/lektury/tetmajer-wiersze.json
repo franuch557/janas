@@ -1,0 +1,87 @@
+{
+  "id": "tetmajer-wiersze",
+  "metryczka": {
+    "autor": "Kazimierz Przerwa-Tetmajer",
+    "tytul": "Wybrane wiersze",
+    "rok": "lata 1891–1900 (cykl „Poezje”, seria I–II i dalsze)",
+    "gatunek": "liryka (refleksyjna, erotyk, liryka krajobrazowa)",
+    "epoka": "Młoda Polska",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Koniec wieku XIX”",
+      "tekst": "Wiersz jest serią pytań o to, jaką postawę może przyjąć człowiek schyłku wieku: przekleństwo, ironię, wzgardę, rozpacz, walkę, rezygnację, wiarę w życie przyszłe, użycie (hedonizm). Każda zostaje odrzucona krótkim kontrargumentem – np. walka jest bezsensowna jak opór mrówki wobec pędzącego pociągu. Na koniec pada pytanie, czym człowiek końca wieku ma się bronić przed złem, skoro żadna z dawnych wiar mu nie wystarcza – a ten w milczeniu zwiesza głowę. To manifest dekadentyzmu."
+    },
+    {
+      "tytul": "„Hymn do Nirwany”",
+      "tekst": "Podmiot, cierpiący i zniesmaczony ludzką podłością, wzywa Nirwanę – stan wygaśnięcia wszelkich pragnień i świadomości (z filozofii buddyjskiej, przefiltrowanej przez Schopenhauera). Prosi, by przyniosła mu zapomnienie, uwolniła od myśli i pamięci. Forma przypomina modlitwę (parafraza „Ojcze nasz”), a refren „Nirwano!” powtarza się po każdym wersie."
+    },
+    {
+      "tytul": "„Lubię, kiedy kobieta…”",
+      "tekst": "Erotyk opisujący chwilę miłosnego uniesienia: podmiot zachwyca się kobietą omdlewającą w jego objęciach, jej zamkniętymi oczami, bladością i drżeniem. Miłość zmysłowa jest tu sposobem ucieczki od cierpienia i nudy istnienia."
+    },
+    {
+      "tytul": "„Melodia mgieł nocnych (Nad Czarnym Stawem Gąsienicowym)”",
+      "tekst": "Impresjonistyczny obraz tatrzańskiej nocy: mgły, przedstawione jak delikatne istoty, unoszą się nad stawem w świetle księżyca, tańczą i kołyszą się. Wiersz oddaje nastrój, ruch i światło, z dużą muzycznością."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Dekadent schyłku wieku – zmęczony, zniechęcony, szukający ucieczki w nirwanie, miłości i sztuce; wrażliwy na piękno natury."
+    }
+  ],
+  "problematyka": [
+    "dekadentyzm: poczucie końca, kryzys wartości i wiary",
+    "pesymizm i bezradność człowieka",
+    "ucieczka od cierpienia: nirwana, erotyka, sztuka, natura",
+    "piękno przyrody tatrzańskiej"
+  ],
+  "motywy": [
+    {
+      "motyw": "koniec wieku (fin de siècle)",
+      "opis": "schyłek cywilizacji."
+    },
+    {
+      "motyw": "nirwana",
+      "opis": "pragnienie niebytu."
+    },
+    {
+      "motyw": "kobieta i miłość zmysłowa",
+      "opis": "erotyk."
+    },
+    {
+      "motyw": "góry",
+      "opis": "Tatry jako przestrzeń piękna i ukojenia."
+    },
+    {
+      "motyw": "mgła",
+      "opis": "impresjonistyczny nastrój."
+    }
+  ],
+  "konteksty": [
+    "Filozofia Artura Schopenhauera (pesymizm, wola życia jako źródło cierpienia) i buddyzm.",
+    "Młoda Polska: dekadentyzm, impresjonizm, symbolizm.",
+    "Stanisław Wyspiański, „Wesele” – postać Poety wzorowana na Tetmajerze.",
+    "Leopold Staff – inna, bardziej optymistyczna odpowiedź na kryzys („Kowal”)."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Walka?… Ale czyż mrówka rzucona na szyny / może walczyć z pociągiem, nadchodzącym w pędzie,",
+      "kontekst": "„Koniec wieku XIX” – odrzucenie walki jako postawy."
+    },
+    {
+      "tekst": "Lubię, kiedy kobieta omdlewa w objęciu,",
+      "kontekst": "„Lubię, kiedy kobieta…” – pierwszy wers erotyku."
+    }
+  ],
+  "doWypracowania": [
+    "Kryzys wartości w literaturze przełomu wieków.",
+    "Postawy człowieka wobec cierpienia – dekadentyzm, stoicyzm, bunt.",
+    "Natura jako ukojenie.",
+    "Pytanie ustne: Na czym polega dekadentyzm na przykładzie „Końca wieku XIX”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje tytułów. Opisano najczęściej omawiane: „Koniec wieku XIX”, „Hymn do Nirwany”, „Lubię, kiedy kobieta…”, „Melodia mgieł nocnych”."
+}

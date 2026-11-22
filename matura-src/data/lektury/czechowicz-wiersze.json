@@ -1,0 +1,70 @@
+{
+  "id": "czechowicz-wiersze",
+  "metryczka": {
+    "autor": "Józef Czechowicz",
+    "tytul": "Wybrane wiersze",
+    "rok": "1927–1939 (tomy m.in. „Kamień” 1927, „Ballada z tamtej strony” 1932, „nuta człowiecza” 1939)",
+    "gatunek": "liryka (awangardowa, katastroficzna)",
+    "epoka": "Dwudziestolecie międzywojenne",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„na wsi” (tom „Kamień”, 1927)",
+      "tekst": "Obraz wiejskiego popołudnia i wieczoru zbudowany z synestezji: siano pachnie snem, słońce dzwoni w rzece, krowy wracają przeżuwać zmierzch, księżyc pierze srebrne chusty, świerszcze grają w stogach. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy."
+    },
+    {
+      "tytul": "„żal” (tom „nuta człowiecza”, 1939)",
+      "tekst": "Wiersz napisany tuż przed wojną: podmiot, siwiejący, chodzi uliczkami i widzi znaki nadchodzącej katastrofy – rozbite szyby synagog, płomienie, ryk głodnych ludów. Przewiduje, że zginie wielokrotnie w różnych ludziach – w oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu – i pyta, czy rzeka zdąży oczyścić się z bratniej krwi, zanim odbudują się stolice. To proroctwo zagłady (katastrofizm)."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Wrażliwy obserwator świata, piewca prowincji i jednocześnie wizjoner katastrofy."
+    }
+  ],
+  "problematyka": [
+    "wieś i prowincja jako arkadia",
+    "katastrofizm – przeczucie wojny i zagłady",
+    "dzieciństwo jako utracony raj",
+    "nowoczesny język poetycki"
+  ],
+  "motywy": [
+    {
+      "motyw": "arkadia",
+      "opis": "wiejska sielanka."
+    },
+    {
+      "motyw": "synestezja",
+      "opis": "łączenie wrażeń zmysłowych."
+    },
+    {
+      "motyw": "zagłada",
+      "opis": "pożoga, wojna."
+    },
+    {
+      "motyw": "sen",
+      "opis": "ukojenie i schronienie."
+    }
+  ],
+  "konteksty": [
+    "Awangarda lubelska i Druga Awangarda (katastrofizm: Miłosz, grupa Żagary).",
+    "Czechowicz zginął w Lublinie podczas bombardowania we wrześniu 1939 r. – jego katastroficzne wizje się spełniły.",
+    "Baczyński – kontynuacja katastrofizmu w poezji wojennej.",
+    "Kochanowski, „Pieśń świętojańska o Sobótce” – tradycja sielanki wiejskiej."
+  ],
+  "cytaty": [
+    {
+      "tekst": "siano pachnie snem",
+      "kontekst": "„na wsi” – pierwszy wers, przykład synestezji."
+    }
+  ],
+  "doWypracowania": [
+    "Arkadia w literaturze – wieś, dzieciństwo.",
+    "Przeczucie katastrofy w poezji przed II wojną światową.",
+    "Pytanie ustne: Czym jest katastrofizm w poezji Czechowicza?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Podstawa nie wskazuje tytułów. Opisano „na wsi” i „żal” jako typowe dla dwóch nurtów twórczości (sielankowy i katastroficzny)."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "milosz-wiersze",
+  "metryczka": {
+    "autor": "Czesław Miłosz",
+    "tytul": "Wybrane wiersze",
+    "rok": "1943–1971 (m.in. „Campo di Fiori” 1943, „Piosenka o końcu świata” 1944, tom „Ocalenie” 1945, „Który skrzywdziłeś” 1950, „Dar” 1971)",
+    "gatunek": "liryka (refleksyjna, moralna, historiozoficzna)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Campo di Fiori”",
+      "tekst": "Poeta wspomina rzymski plac Campo di Fiori, na którym spalono Giordana Bruna, a tłum zaraz po egzekucji wrócił do zwykłych zajęć. Ten obraz łączy z Warszawą wiosny 1943 r.: obok płonącego getta kręciła się karuzela, a bawiący się ludzie byli obojętni na śmierć Żydów. Pisze o samotności ginących i o tym, że poezja powinna ocalić pamięć o nich."
+    },
+    {
+      "tytul": "„Piosenka o końcu świata”",
+      "tekst": "Koniec świata nadchodzi w zwykły, piękny dzień: pszczoły krążą, rybacy naprawiają sieci, ludzie spacerują – nikt nie wierzy, że to koniec, bo nie ma apokaliptycznych znaków. Jedynie siwy staruszek, który mógłby być prorokiem, zajęty jest ogrodem i mówi, że innego końca świata nie będzie. Wiersz polemizuje z biblijną wizją Apokalipsy."
+    },
+    {
+      "tytul": "„Który skrzywdziłeś”",
+      "tekst": "Wiersz skierowany do tyrana, który krzywdzi prostego człowieka i otacza się pochlebcami: niech nie czuje się bezpieczny, bo poeta pamięta i zapisze jego czyny. Lepsza byłaby dla niego hańba i kara niż pamięć utrwalona słowem. Fragment wiersza umieszczono na pomniku Poległych Stoczniowców w Gdańsku (1980)."
+    },
+    {
+      "tytul": "„Przedmowa” (tom „Ocalenie”)",
+      "tekst": "Poeta zwraca się do zmarłego przyjaciela, którego nie zdołał ocalić. Zastanawia się, czym jest poezja, która nie ratuje narodów ani ludzi; odrzuca poezję pustych słów i zobowiązuje się do pisania prawdy."
+    },
+    {
+      "tytul": "„Dar”",
+      "tekst": "Opis jednego szczęśliwego dnia: poeta pracuje w ogrodzie, nikomu nie zazdrości, nie wstydzi się przeszłości, nie odczuwa bólu, patrzy na morze i żagle. To wiersz pogodzenia ze światem i wdzięczności za istnienie."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Świadek historii, moralista, a zarazem człowiek szukający harmonii ze światem."
+    }
+  ],
+  "problematyka": [
+    "obojętność wobec cierpienia innych",
+    "rola poezji i poety jako świadka i strażnika pamięci",
+    "koniec świata w codzienności",
+    "władza, krzywda i odpowiedzialność moralna",
+    "szczęście i pogodzenie ze światem"
+  ],
+  "motywy": [
+    {
+      "motyw": "obojętny tłum",
+      "opis": "karuzela przy murach getta."
+    },
+    {
+      "motyw": "apokalipsa",
+      "opis": "koniec świata w zwykły dzień."
+    },
+    {
+      "motyw": "poeta-świadek",
+      "opis": "pamięć o krzywdzie."
+    },
+    {
+      "motyw": "ogród",
+      "opis": "harmonia i szczęście."
+    },
+    {
+      "motyw": "Giordano Bruno",
+      "opis": "samotność ginących."
+    }
+  ],
+  "konteksty": [
+    "Miłosz otrzymał Nagrodę Nobla w 1980 r.",
+    "Historia: Zagłada i powstanie w getcie (1943), stalinizm, Grudzień 1970 i Sierpień 1980.",
+    "Apokalipsa św. Jana – polemika w „Piosence o końcu świata”.",
+    "Hanna Krall, „Zdążyć przed Panem Bogiem” – getto warszawskie.",
+    "Horacy i Kochanowski – motyw szczęśliwego życia („Dar”)."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Obojętność wobec zła – „Campo di Fiori”.",
+    "Poeta jako sumienie narodu – Miłosz, Herbert.",
+    "Wizje końca świata.",
+    "Szczęście w literaturze – „Dar”, Horacy.",
+    "Pytanie ustne: Jaką rolę przypisuje poezji Miłosz?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje tytułów (w zakresie rozszerzonym dodatkowo „Traktat moralny”). Daty utworów – według powszechnie podawanych; warto sprawdzić w wydaniu."
+}

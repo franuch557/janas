@@ -1,0 +1,97 @@
+{
+  "id": "prosze-panstwa-do-gazu",
+  "metryczka": {
+    "autor": "Tadeusz Borowski",
+    "tytul": "Proszę państwa do gazu",
+    "rok": "1946 (w tomie „Byliśmy w Oświęcimiu”), 1948 (w tomie „Pożegnanie z Marią”)",
+    "gatunek": "opowiadanie (behawiorystyczne)",
+    "epoka": "Literatura wojny i okupacji",
+    "rodzaj": "epika"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Upalny dzień w obozie",
+      "tekst": "Auschwitz-Birkenau, upalne lato. Więźniowie po odwszawianiu chodzą nago. Narrator, Tadek, więzień-Polak, żyje stosunkowo dobrze dzięki paczkom z domu i handlowi rzeczami z transportów. Od kilku dni nie ma transportów, a więc i „zaopatrzenia”. Jego znajomy Francuz Henri z komanda „Kanada” (rozładowującego pociągi) zabiera go na rampę, gdy przychodzi wiadomość o nowym pociągu."
+    },
+    {
+      "tytul": "Rampa",
+      "tekst": "Przyjeżdża transport Żydów z Sosnowca i Będzina. Więźniowie z „Kanady” wyciągają ludzi z wagonów, odbierają im bagaże, okłamują ich, że nic złego się nie stanie – takie jest prawo obozu. Z wagonów wyrzuca się zwłoki zaduszonych w podróży, także dzieci. Esesmani pilnują porządku, część ludzi trafia na ciężarówki jadące do komór gazowych. Młoda matka wypiera się własnego dziecka, by ocaleć – rosyjski więzień, marynarz Andrej, brutalnie wrzuca ją razem z dzieckiem na samochód. Jedna z dziewcząt, piękna i spokojna, świadomie wybiera auto jadące do gazu."
+    },
+    {
+      "tytul": "Reakcja narratora",
+      "tekst": "Tadek jest wyczerpany, ogarnia go mdłość i wściekłość – ale kieruje ją przeciw ofiarom, przez które musi tu być, a nie przeciw oprawcom. Rozmawia o tym z Henrim, który traktuje to jako coś naturalnego w obozie. Narrator ma wrażenie, że to wszystko się nie dzieje naprawdę, i zbiera mu się na wymioty."
+    },
+    {
+      "tytul": "Zakończenie",
+      "tekst": "Pod wieczór przychodzi drugi transport i praca trwa do nocy. Rzeczy pomordowanych zostają w obozie, będą z nich żyć więźniowie i cywile. Obóz będzie długo mówić o „dobrym, bogatym” transporcie z Sosnowca i Będzina. Nad ranem z krematoriów unoszą się słupy dymu – zapowiada się kolejny pogodny, upalny dzień."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Tadek (narrator)",
+      "opis": "Polski więzień, który przystosował się do obozu; relacjonuje bez komentarza, co pokazuje jego moralne zlagrowanie."
+    },
+    {
+      "imie": "Henri",
+      "opis": "Francuz z komanda „Kanada”, cyniczny i praktyczny."
+    },
+    {
+      "imie": "Andrej",
+      "opis": "Więzień, rosyjski marynarz, brutalny i pijany."
+    },
+    {
+      "imie": "ofiary z transportu",
+      "opis": "Żydzi z Sosnowca i Będzina: matka wypierająca się dziecka, dziewczyna wybierająca śmierć i inni."
+    },
+    {
+      "imie": "esesmani",
+      "opis": "Oprawcy, sprawnie organizujący zagładę."
+    }
+  ],
+  "problematyka": [
+    "zlagrowanie – przemiana człowieka w obozie",
+    "rozpad wartości moralnych i obojętność wobec śmierci",
+    "Zagłada Żydów jako przemysł śmierci",
+    "współodpowiedzialność ofiar systemu (współudział więźniów)",
+    "granice ludzkiej godności"
+  ],
+  "motywy": [
+    {
+      "motyw": "obóz koncentracyjny",
+      "opis": "„świat” z własnymi prawami."
+    },
+    {
+      "motyw": "matka i dziecko",
+      "opis": "zerwana więź w obliczu śmierci."
+    },
+    {
+      "motyw": "rampa",
+      "opis": "miejsce selekcji."
+    },
+    {
+      "motyw": "upał",
+      "opis": "obraz codzienności zagłady."
+    },
+    {
+      "motyw": "rzeczy",
+      "opis": "dobra ofiar jako źródło przeżycia innych."
+    }
+  ],
+  "konteksty": [
+    "Borowski był więźniem Auschwitz i Dachau; narrator Tadek jest jego porte-parole.",
+    "Narracja behawiorystyczna: suchy opis zachowań bez komentarza moralnego.",
+    "Gustaw Herling-Grudziński, „Inny świat” – łagier jako drugi system totalitarny.",
+    "Hanna Krall, „Zdążyć przed Panem Bogiem” – getto i Zagłada.",
+    "Kontrowersje wokół „nihilizmu” Borowskiego po wojnie (krytyka m.in. Zofii Kossak)."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Człowiek w sytuacji granicznej – Borowski, Herling-Grudziński.",
+    "Zlagrowanie i utrata człowieczeństwa.",
+    "Czy można ocenić ofiary systemu totalitarnego?",
+    "Matka i dziecko w literaturze – zerwana więź.",
+    "Pytanie ustne: Dlaczego narracja Borowskiego budzi niepokój czytelnika?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Borowski zmarł w 1951 r. (domena publiczna od 2022 r.). Mimo to zrezygnowano z cytatów ze względu na charakter tekstu – streszczenie podaje fakty własnymi słowami. Podstawa w zakresie podstawowym wymienia tylko to opowiadanie (nie „Ludzi, którzy szli”)."
+}

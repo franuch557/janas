@@ -1,0 +1,101 @@
+{
+  "id": "zdazyc-przed-panem-bogiem",
+  "metryczka": {
+    "autor": "Hanna Krall",
+    "tytul": "Zdążyć przed Panem Bogiem",
+    "rok": "1977",
+    "gatunek": "reportaż (wywiad-rzeka)",
+    "epoka": "Literatura wojny i okupacji",
+    "rodzaj": "epika (literatura faktu)"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Rozmowa z Markiem Edelmanem",
+      "tekst": "Reportaż jest zapisem rozmów Hanny Krall z Markiem Edelmanem – ostatnim żyjącym przywódcą powstania w getcie warszawskim (1943), a w latach 70. kardiologiem w Łodzi. Narracja przeplata dwie płaszczyzny czasowe: wojnę w getcie i współczesne operacje serca."
+    },
+    {
+      "tytul": "Getto i Umschlagplatz",
+      "tekst": "Edelman opowiada o życiu w getcie, głodzie i wywózkach do Treblinki. Pracował jako goniec w szpitalu przy Umschlagplatzu – placu, z którego odjeżdżały pociągi do obozu zagłady – i wyprowadzał stamtąd niektórych ludzi, ratując im życie. Wspomina prezesa Judenratu Adama Czerniakowa, który odebrał sobie życie, gdy Niemcy zażądali dostarczania ludzi do wywózek, oraz historię Poli Lifszyc, która dobrowolnie poszła na Umschlagplatz za swoją matką."
+    },
+    {
+      "tytul": "Powstanie",
+      "tekst": "Opowiada o Żydowskiej Organizacji Bojowej i jej komendancie Mordechaju Anielewiczu, o kwietniowym powstaniu 1943 r., walkach w płonących domach, o śmierci przywódców w bunkrze przy ul. Miłej 18 i o wyjściu ocalałych kanałami. Edelman odbiera heroizm patetycznym opisom: podkreśla, że wybrali sposób umierania, a godne życie i godna śmierć w getcie miały wiele form."
+    },
+    {
+      "tytul": "Szpital",
+      "tekst": "We współczesnej części Edelman wraz z kardiochirurgami (m.in. prof. Janem Mollem) ryzykuje pionierskie operacje, by ratować chorych. Swoją pracę lekarza opisuje jako „zdążanie przed Panem Bogiem” – osłanianie płomienia życia, zanim zgaśnie. Tak jak w getcie, stawką jest każde pojedyncze życie."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Marek Edelman",
+      "opis": "Bohater reportażu: uczestnik powstania, lekarz; skromny, ironiczny, niechętny patosowi."
+    },
+    {
+      "imie": "Hanna Krall",
+      "opis": "Reporterka, która pyta i porządkuje wspomnienia."
+    },
+    {
+      "imie": "Mordechaj Anielewicz",
+      "opis": "Młody komendant ŻOB."
+    },
+    {
+      "imie": "Adam Czerniaków",
+      "opis": "Prezes Judenratu."
+    },
+    {
+      "imie": "Pola Lifszyc",
+      "opis": "Dziewczyna, która poszła na śmierć z matką."
+    },
+    {
+      "imie": "prof. Jan Moll i pacjenci",
+      "opis": "Lekarz i chorzy z czasów współczesnych."
+    }
+  ],
+  "problematyka": [
+    "Zagłada Żydów i pamięć o niej",
+    "heroizm bez patosu – wybór godnej śmierci",
+    "wartość pojedynczego życia",
+    "lekarz jako ten, kto walczy ze śmiercią",
+    "odpowiedzialność za innych"
+  ],
+  "motywy": [
+    {
+      "motyw": "getto",
+      "opis": "zamknięty świat skazanych."
+    },
+    {
+      "motyw": "Umschlagplatz",
+      "opis": "miejsce wywózek."
+    },
+    {
+      "motyw": "świeca/płomień",
+      "opis": "życie, które trzeba osłonić."
+    },
+    {
+      "motyw": "lekarz",
+      "opis": "„zdążanie przed Bogiem”."
+    },
+    {
+      "motyw": "bohaterstwo codzienne",
+      "opis": "postawy mieszkańców getta."
+    }
+  ],
+  "konteksty": [
+    "Historia: getto warszawskie (1940–1943), Wielka Akcja 1942, powstanie w getcie (19 IV – V 1943).",
+    "Reportaż jako gatunek – szkoła polskiego reportażu (Kapuściński, Krall).",
+    "Tadeusz Borowski – Zagłada z perspektywy obozu.",
+    "Albert Camus, „Dżuma” – lekarz jako ten, kto walczy ze złem (Rieux).",
+    "Czesław Miłosz, „Campo di Fiori” – świadek zagłady getta."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Heroizm – czym jest? (Edelman, Antygona, Rieux).",
+    "Wartość życia jednostki.",
+    "Literatura faktu jako świadectwo Zagłady.",
+    "Lekarz w literaturze – Edelman, Rieux.",
+    "Pytanie ustne: Co znaczy tytuł „Zdążyć przed Panem Bogiem”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – brak cytatów i linku. Książka powstała w 1977 r., ale dotyczy Zagłady, dlatego umieszczono ją w literaturze wojny i okupacji."
+}

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { activeEvents, chunkEvents, mergeEvents, streak, studyDays, taskRecords } from '../src/logic/events';
 import { mergeData } from '../src/store/merge';
+import { EMPTY_AI } from '../src/store/local';
 import { defaultStan, type AppEvent, type ResultEvent, type LocalData } from '../src/model';
 
 function res(id: string, d: string, pts: number, max = 2, over: Partial<ResultEvent> = {}): ResultEvent {
@@ -94,7 +95,7 @@ describe('seria dni nauki', () => {
 });
 
 describe('scalanie stanu z dwóch urządzeń', () => {
-  const mk = (updatedAt: number, events: AppEvent[]): LocalData => ({ stan: { ...defaultStan('2026-11-21'), updatedAt }, events, sessions: {}, essays: [] });
+  const mk = (updatedAt: number, events: AppEvent[]): LocalData => ({ stan: { ...defaultStan('2026-11-21'), updatedAt }, events, sessions: {}, essays: [], ...EMPTY_AI() });
   it('stan według updatedAt, zdarzenia sumą', () => {
     const local = mk(5, [res('w1', '2026-11-20', 1)]);
     const remote = mk(9, [res('w2', '2026-11-21', 1)]);

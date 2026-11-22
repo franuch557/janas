@@ -1,0 +1,79 @@
+{
+  "id": "rozewicz-wiersze",
+  "metryczka": {
+    "autor": "Tadeusz Różewicz",
+    "tytul": "Wybrane wiersze",
+    "rok": "1947–2000 (m.in. tom „Niepokój” 1947, „Czerwona rękawiczka” 1948)",
+    "gatunek": "liryka (poezja ściśnięta, wiersz wolny)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Ocalony”",
+      "tekst": "Dwudziestoczteroletni podmiot przeżył wojnę, choć był „prowadzony na rzeź”. Mówi, że słowa straciły znaczenie: człowiek i zwierzę, miłość i nienawiść, cnota i występek znaczą dla niego to samo – widział, jak zabija się ludzi. Szuka nauczyciela i mistrza, który przywróci mu wzrok, słuch i mowę, nazwie na nowo rzeczy i pojęcia, oddzieli światło od ciemności."
+    },
+    {
+      "tytul": "„Lament”",
+      "tekst": "Młody poeta zwraca się do kapłanów, nauczycieli, sędziów i artystów: choć ma dwadzieścia lat, nie jest młody – wojna zrobiła z niego człowieka okaleczonego, który widział i robił straszne rzeczy. Prosi o zrozumienie i pomoc."
+    },
+    {
+      "tytul": "„Warkoczyk”",
+      "tekst": "Opis ekspozycji w muzeum w Oświęcimiu: wśród ton włosów ściętych kobietom przed śmiercią leży warkoczyk dziewczynki, z którego śmiali się kiedyś koledzy w szkole. Jeden szczegół mówi o Zagładzie więcej niż liczby."
+    },
+    {
+      "tytul": "„W środku życia”",
+      "tekst": "Po „końcu świata” podmiot uczy się życia od nowa: nazywa przedmioty i ludzi (stół, chleb, człowiek), odkrywa podstawowe prawdy – że człowieka trzeba kochać, a życie jest najważniejsze."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Ocalały z wojny młody człowiek, który utracił wiarę w wartości i język, a teraz próbuje je odbudować."
+    }
+  ],
+  "problematyka": [
+    "kryzys wartości i języka po wojnie i Zagładzie",
+    "tragizm pokolenia ocalonych",
+    "poszukiwanie nowego ładu moralnego",
+    "pamięć o ofiarach"
+  ],
+  "motywy": [
+    {
+      "motyw": "ocalony",
+      "opis": "człowiek, który przeżył, ale jest okaleczony wewnętrznie."
+    },
+    {
+      "motyw": "rzeź",
+      "opis": "wojna jako ubój ludzi."
+    },
+    {
+      "motyw": "nauczyciel i mistrz",
+      "opis": "poszukiwanie autorytetu."
+    },
+    {
+      "motyw": "warkoczyk",
+      "opis": "jednostkowy ślad ofiary."
+    },
+    {
+      "motyw": "nazywanie świata",
+      "opis": "odbudowa języka."
+    }
+  ],
+  "konteksty": [
+    "Różewicz był żołnierzem AK; jego brat Janusz, także poeta, zginął z rąk gestapo.",
+    "Theodor Adorno – pytanie o możliwość pisania poezji po Auschwitz.",
+    "Krzysztof Kamil Baczyński – inny głos tego samego pokolenia.",
+    "Tadeusz Borowski – zlagrowanie i rozpad wartości.",
+    "Biblia, Księga Rodzaju – oddzielanie światła od ciemności."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Wojna a wartości – Różewicz, Baczyński, Borowski.",
+    "Ocalony – czy można normalnie żyć po wojnie?",
+    "Pamięć o Zagładzie – „Warkoczyk”, „Campo di Fiori”, Krall.",
+    "Pytanie ustne: Dlaczego podmiot „Ocalonego” szuka nauczyciela i mistrza?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje tytułów. Różewicz pisał głównie po wojnie o doświadczeniu wojny, dlatego bywa omawiany także w literaturze wojny i okupacji."
+}

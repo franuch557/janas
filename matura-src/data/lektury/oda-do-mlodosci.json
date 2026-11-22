@@ -1,0 +1,96 @@
+{
+  "id": "oda-do-mlodosci",
+  "metryczka": {
+    "autor": "Adam Mickiewicz",
+    "tytul": "Oda do młodości",
+    "rok": "1820 (napisana w Kownie; długo krążyła w odpisach z powodu cenzury)",
+    "gatunek": "oda",
+    "epoka": "Romantyzm",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Krytyka starego świata",
+      "tekst": "Na początku pada ostra ocena: ludzie bez serc i ducha to „szkielety”. Podmiot prosi młodość o skrzydła, by wzlecieć ponad martwy świat w krainę zapału i nadziei. Starsi, przygięci do ziemi, widzą tylko tyle, ile ogarną tępe oczy."
+    },
+    {
+      "tytul": "Obraz egoisty",
+      "tekst": "Z góry widać ziemię spowitą mgłą i trupią wodą, a po niej pływa „płaz w skorupie” – samolub, który sam sobie jest sterem i okrętem; nikt nie wie, jak żył, i nikt nie zauważa, gdy ginie, rozbijając się o skałę."
+    },
+    {
+      "tytul": "Wezwanie do wspólnoty",
+      "tekst": "Młodość daje radość, gdy dzieli się ją z innymi. Podmiot wzywa młodych przyjaciół, by działali razem; szczęśliwy jest nawet ten, kto padnie, jeśli swoim ciałem dał innym szczebel do sławy. Trzeba przełamywać przemoc i słabość od młodości – jak mitologiczny Herkules, który już w kołysce udusił węże."
+    },
+    {
+      "tytul": "Wizja nowego świata",
+      "tekst": "Młodzi mają objąć ziemię wspólnym łańcuchem, skupić myśli i duchy w jednym ognisku i pchnąć świat z posad na nowe tory. Tak jak Bóg jednym słowem stworzył porządek z chaosu, tak miłość i przyjaźń stworzą nowy świat ducha. Utwór kończy powitanie „jutrzenki swobody”, za którą wzejdzie słońce zbawienia."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny",
+      "opis": "Młody entuzjasta, rzecznik pokolenia, wzywający do wspólnego czynu."
+    },
+    {
+      "imie": "młodzi przyjaciele",
+      "opis": "Adresaci – pokolenie, które ma przemienić świat (kontekst filomatów)."
+    }
+  ],
+  "problematyka": [
+    "młodość jako siła zdolna zmienić świat",
+    "krytyka egoizmu i bierności starszego pokolenia",
+    "wspólnota, przyjaźń i poświęcenie dla innych",
+    "wiara w odnowę świata i wolność"
+  ],
+  "motywy": [
+    {
+      "motyw": "młodość",
+      "opis": "siła, zapał, odwaga."
+    },
+    {
+      "motyw": "lot",
+      "opis": "wzniesienie się ponad przeciętność."
+    },
+    {
+      "motyw": "płaz w skorupie",
+      "opis": "egoista."
+    },
+    {
+      "motyw": "Herkules",
+      "opis": "symbol siły młodości od kołyski."
+    },
+    {
+      "motyw": "jutrzenka swobody",
+      "opis": "zapowiedź wolności."
+    },
+    {
+      "motyw": "stworzenie świata",
+      "opis": "porównanie do biblijnego „Stań się!”."
+    }
+  ],
+  "konteksty": [
+    "Towarzystwo Filomatów w Wilnie – ideały przyjaźni, nauki i patriotyzmu.",
+    "Klasycyzm: forma ody, odwołania mitologiczne; romantyzm: entuzjazm i bunt.",
+    "Księga Rodzaju – stworzenie świata z chaosu.",
+    "Mitologia (Parandowski) – Herkules dławiący węże.",
+    "„Dziady” cz. III – losy młodzieży filomackiej i filareckiej."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Bez serc, bez ducha, — to szkieletów ludy!",
+      "kontekst": "Pierwszy wers – krytyka bezdusznego świata."
+    },
+    {
+      "tekst": "Witaj jutrzenko swobody,",
+      "kontekst": "Zakończenie – powitanie wolności."
+    }
+  ],
+  "doWypracowania": [
+    "Młodość jako wartość i siła w literaturze (Oda, Ferdydurke – kontrast).",
+    "Jednostka a wspólnota – egoizm i solidarność.",
+    "Bunt pokoleń – Oda do młodości, „Tango”.",
+    "Pytanie ustne: Jaki program przedstawia Mickiewicz w „Odzie do młodości”?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór łączy elementy klasycystyczne (forma ody, mitologia) z romantycznymi (entuzjazm, kult młodości) – bywa nazywany utworem przełomu."
+}

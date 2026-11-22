@@ -1,0 +1,106 @@
+{
+  "id": "mickiewicz-ballady",
+  "metryczka": {
+    "autor": "Adam Mickiewicz",
+    "tytul": "Ballady i romanse (wybrane ballady, w tym „Romantyczność”)",
+    "rok": "1822 (tom „Poezje”, t. I)",
+    "gatunek": "ballada",
+    "epoka": "Romantyzm",
+    "rodzaj": "liryka (gatunek synkretyczny: liryka, epika, dramat)"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Romantyczność”",
+      "tekst": "Utwór poprzedza motto z „Hamleta” o widzeniu „oczyma duszy”. W biały dzień w miasteczku dziewczyna, Karusia, rozmawia ze zmarłym ukochanym Jasieńkiem, którego widzi tylko ona: skarży się, prosi, by został, a o świcie duch znika. Zbiera się prosty lud, który wierzy w jej przeżycie i modli się za duszę zmarłego. Pojawia się starzec – mędrzec z „szkiełkiem i okiem” – który twierdzi, że dziewczyna majaczy, a ludzie są ciemni. Narrator staje po stronie ludu i dziewczyny: uczucie i wiara mówią mu więcej niż naukowe obserwacje. Kończy wezwaniem, by mieć serce i patrzeć w serce. Ballada jest manifestem polskiego romantyzmu."
+    },
+    {
+      "tytul": "„Świtezianka”",
+      "tekst": "Młody strzelec spotyka nad jeziorem Świteź tajemniczą dziewczynę i wyznaje jej miłość. Ona prosi o przysięgę wierności i ostrzega przed karą za jej złamanie. Gdy odchodzi, z wody wynurza się piękna nimfa i kusi strzelca; ten zapomina o przysiędze i rzuca się za nią w fale. Okazuje się, że kusicielką była ta sama dziewczyna. Za zdradę spotyka go kara: otchłań pochłania oboje, a odtąd przy księżycu ona pląsa po jeziorze, a on jęczy pod modrzewiem."
+    },
+    {
+      "tytul": "„Lilije”",
+      "tekst": "Pani zabija męża, który wrócił z wojny, i zakopuje go w gaju, sadząc na grobie lilie. Pustelnik, do którego idzie po radę, mówi, że jeśli ukryje zbrodnię, mąż nie wróci. Przyjeżdżają bracia zabitego i obaj zakochują się w bratowej. Pani każe im uwić dla niej wianek; obaj zrywają lilie z grobu. W dniu ślubu w kościele bracia kłócą się o wianek, aż zjawia się duch zamordowanego, upomina się o żonę i braci i zabiera ich „na tamten świat”. Świątynia zapada się pod ziemię, a w tym miejscu wyrastają lilie."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Karusia",
+      "opis": "Dziewczyna kochająca zmarłego Jasieńka; uosobienie romantycznej wiary w uczucie i świat duchowy."
+    },
+    {
+      "imie": "Starzec",
+      "opis": "Mędrzec-racjonalista (bywa łączony z oświeceniowym uczonym), wierzący tylko w to, co można zbadać."
+    },
+    {
+      "imie": "narrator „Romantyczności”",
+      "opis": "Poeta, który opowiada się po stronie ludu i uczucia."
+    },
+    {
+      "imie": "strzelec i Świtezianka",
+      "opis": "Kochanek, który łamie przysięgę, i dziewczyna-rusałka wymierzająca karę."
+    },
+    {
+      "imie": "Pani (Lilije)",
+      "opis": "Zbrodniarka, która nie unika kary."
+    }
+  ],
+  "problematyka": [
+    "spór romantyków z klasykami: uczucie i wiara przeciw rozumowi i nauce",
+    "istnienie świata duchowego i kontakt żywych ze zmarłymi",
+    "ludowa moralność: wina i nieuchronna kara",
+    "wierność i zdrada w miłości",
+    "lud jako strażnik prawdy i tradycji"
+  ],
+  "motywy": [
+    {
+      "motyw": "szkiełko i oko",
+      "opis": "racjonalizm i empiryzm."
+    },
+    {
+      "motyw": "czucie i wiara",
+      "opis": "romantyczne poznanie."
+    },
+    {
+      "motyw": "duch zmarłego",
+      "opis": "Jasieńko, mąż z „Lilij”."
+    },
+    {
+      "motyw": "przysięga",
+      "opis": "jej złamanie wywołuje karę („Świtezianka”)."
+    },
+    {
+      "motyw": "zbrodnia i kara",
+      "opis": "„Lilije”."
+    },
+    {
+      "motyw": "natura",
+      "opis": "jezioro Świteź, gaj – świat tajemniczy i żywy."
+    }
+  ],
+  "konteksty": [
+    "„Ballady i romanse” (1822) uważa się za początek romantyzmu w Polsce.",
+    "Spór klasyków z romantykami (m.in. z Janem Śniadeckim) w latach 20. XIX w.",
+    "Ludowość i fantastyka – wpływ niemieckich romantyków (Herder, Schiller, Goethe).",
+    "William Szekspir, „Hamlet” – źródło motta.",
+    "„Dziady” cz. II – ludowy obrzęd i wiara w duchy; Bolesław Leśmian – nowoczesne ballady."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Czucie i wiara silniej mówi do mnie / Niż mędrca szkiełko i oko.",
+      "kontekst": "„Romantyczność” – deklaracja narratora, manifest romantyzmu."
+    },
+    {
+      "tekst": "Miej serce i patrzaj w serce!",
+      "kontekst": "„Romantyczność” – ostatnie słowa narratora do starca."
+    }
+  ],
+  "doWypracowania": [
+    "Rozum czy uczucie? – spór oświecenia z romantyzmem.",
+    "Świat ludowy w literaturze – „Ballady i romanse”, „Wesele”, „Chłopi”.",
+    "Wina i kara w literaturze (Lilije, Makbet, Zbrodnia i kara).",
+    "Miłość silniejsza niż śmierć – „Romantyczność”.",
+    "Pytanie ustne: Dlaczego „Romantyczność” uważa się za manifest romantyzmu?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Obowiązkowa jest „Romantyczność”; pozostałe ballady wybiera nauczyciel. Opisano też „Świteziankę” i „Lilije” jako często omawiane."
+}

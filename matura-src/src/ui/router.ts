@@ -14,9 +14,15 @@ export type Route =
   | { name: 'wypracowanie'; id: string }
   | { name: 'postep'; subject: SubjectId | null }
   | { name: 'ustawienia' }
-  | { name: 'powitanie' };
+  | { name: 'powitanie' }
+  | { name: 'fiszki' }
+  | { name: 'piec-minut' }
+  | { name: 'lektury' }
+  | { name: 'lektura'; id: string }
+  | { name: 'ustny' }
+  | { name: 'ustny-pytanie'; nr: string };
 
-export const FOCUS_ROUTES = new Set(['zadanie', 'arkusz', 'diagnoza', 'wypracowanie', 'powitanie']);
+export const FOCUS_ROUTES = new Set(['zadanie', 'arkusz', 'diagnoza', 'wypracowanie', 'powitanie', 'piec-minut']);
 
 function subjectPrefix(rest: string): { subject: SubjectId | null; tail: string } {
   for (const id of SUBJECT_IDS) {
@@ -33,6 +39,12 @@ export function parseHash(hash: string): Route {
   if (h === 'arkusze') return { name: 'arkusze' };
   if (h === 'ustawienia') return { name: 'ustawienia' };
   if (h === 'powitanie') return { name: 'powitanie' };
+  if (h === 'fiszki') return { name: 'fiszki' };
+  if (h === 'piec-minut') return { name: 'piec-minut' };
+  if (h === 'lektury') return { name: 'lektury' };
+  if (h.startsWith('lektura-')) return { name: 'lektura', id: h.slice(8) };
+  if (h === 'ustny') return { name: 'ustny' };
+  if (h.startsWith('ustny-')) return { name: 'ustny-pytanie', nr: h.slice(6) };
   if (h === 'zadania') return { name: 'zadania', subject: null, topic: null };
   if (h.startsWith('zadania-')) {
     const { subject, tail } = subjectPrefix(h.slice(8));
@@ -68,6 +80,10 @@ export function hrefOf(r: Route): string {
       return `#arkusz-${r.examId}${r.partId ? `-czesc-${r.partId}` : ''}`;
     case 'postep':
       return `#postep${r.subject ? `-${r.subject}` : ''}`;
+    case 'lektura':
+      return `#lektura-${r.id}`;
+    case 'ustny-pytanie':
+      return `#ustny-${r.nr}`;
     default:
       return `#${r.name}`;
   }

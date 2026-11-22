@@ -16,6 +16,7 @@
 import { SUBJECTS, type DayOverride, type DayPlan, type PlanItem, type SubjectDef, type SubjectId } from '../model';
 import { addDays, dateRange, diffDays, weekStart, weekday } from './dates';
 import { isDue, nextSrs, NEW_SRS, type SrsState } from './srs';
+import { cardsMinutes } from './flashcards';
 
 export const MIN_GAP = 3;
 export const MAX_SUBJECTS_PER_DAY = 2;
@@ -75,6 +76,8 @@ export interface PlannerInput {
   priorities: Partial<Record<SubjectId, Record<string, number>>>;
   /** Ostatni dzień nauki przedmiotu przed dziś. */
   lastStudied?: Partial<Record<SubjectId, string>>;
+  /** Liczba fiszek do powtórki danego dnia (pozycja „Fiszki”, 5–10 min). */
+  cardsDue?: (date: string) => number;
 }
 
 export interface PlanResult {
@@ -206,6 +209,10 @@ export function buildPlan(input: PlannerInput): PlanResult {
     if (input.tutoring.enabled && ang && wd === input.tutoring.weekday && date < ang.examDate) {
       push(item({ ref: `k:${date}`, kind: 'korepetycje', subjectId: 'ang-p', minutes: input.tutoring.minutes, reason: `Korepetycje z angielskiego, ${input.tutoring.start}.` }));
     }
+
+    // Fiszki do powtórki: krótka pozycja na początku dnia.
+    const nCards = input.cardsDue?.(date) ?? 0;
+    if (nCards > 0 && available > 0) push(item({ ref: `f:${date}`, kind: 'fiszki', minutes: cardsMinutes(nCards), reason: `Fiszki do powtórki: ${nCards}.` }));
 
     const phase = new Map<SubjectId, Phase>(subjects.map((s) => [s.id, phaseFor(s.examDate, date)]));
     const examToday = subjects.filter((s) => s.examDate === date);

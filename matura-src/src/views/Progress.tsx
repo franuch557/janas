@@ -8,7 +8,9 @@ import { dni, fmtHours, fmtNum, plural, slow, zadan } from '../logic/format';
 import { pct } from '../logic/scoring';
 import { taskRef } from '../logic/planner';
 import { examLabel, partName } from '../logic/cke';
-import { Empty, Progress, Segmented, Tag } from '../ui/common';
+import { Empty, IconButton, Progress, Segmented, Tag } from '../ui/common';
+import { activeNotes } from '../logic/memory';
+import { ReportHistory } from './Weekly';
 import { go } from '../ui/router';
 import { shortTopic } from './planParts';
 
@@ -72,7 +74,7 @@ function ForecastChart({ points, subject }: { points: Point[]; subject: SubjectI
 }
 
 export function ProgressView({ subject }: { subject: SubjectId | null }) {
-  const { d, data, today, setFlow } = useStore();
+  const { d, data, today, setFlow, updateData } = useStore();
   const enabled = SUBJECTS.filter((s) => data.stan.enabled[s.id]);
   const busiest = [...enabled].sort((a, b) => d.active.results.filter((r) => r.subj === b.id).length - d.active.results.filter((r) => r.subj === a.id).length)[0];
   const [sel, setSel] = useState<SubjectId>(subject ?? busiest?.id ?? 'mat-p');
@@ -122,7 +124,10 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
   const pol = d.forecast['pol-p'].pct;
   const ang = d.forecast['ang-p'].pct;
   const matR = d.forecast['mat-r'].pct;
-  const recruit = pol != null && ang != null && matR != null ? Math.round(0.5 * pol + 0.5 * ang + 2.5 * matR) : null;
+  // szacunek: W = 0,5·JP + 0,5·JO + 2,5·M + 2·X, X = egzamin zawodowy (oczekiwany wynik z ustawień)
+  const extra = data.stan.extraPct ?? 70;
+  const recruit = pol != null && ang != null && matR != null ? Math.round(0.5 * pol + 0.5 * ang + 2.5 * matR + 2 * extra) : null;
+  const notes = activeNotes(data.memory, sel);
 
   return (
     <div className="page wide">
@@ -281,13 +286,36 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
             <h3>Cel: Politechnika Poznańska, Automatyka i Robotyka</h3>
             {recruit != null ? (
               <p>
-                Szacunek z prognozy: ok. <b className="tnum">{recruit}</b> pkt z 350 możliwych bez przedmiotu dodatkowego. To tylko przybliżenie z twoich wyników.
+                Ok. <b className="tnum">{recruit}</b> pkt z 550 możliwych (prognoza i egzamin zawodowy {extra}%).
               </p>
             ) : (
               <p className="muted">Szacunek punktów pojawi się, gdy będzie prognoza z polskiego, angielskiego i matematyki rozszerzonej.</p>
             )}
-            <p className="small muted">Do egzaminu z {sub.genitive}: {dni(Math.max(0, diffDays(sub.examDate, today)))}.</p>
+            <p className="small muted">Szacunek, wzór sprawdź na stronie uczelni. Do egzaminu z {sub.genitive}: {dni(Math.max(0, diffDays(sub.examDate, today)))}.</p>
           </section>
+          <section className="stack">
+            <h2>Co mi sprawia trudność</h2>
+            {notes.length ? (
+              <div className="card flush list">
+                {notes.slice(0, 20).map((n) => (
+                  <div className="li static" key={n.id}>
+                    <span className="grow">
+                      <span>{n.note}</span>
+                      <br />
+                      <span className="small muted">
+                        {n.topic ? shortTopic(n.topic) : 'ogólnie'}, {n.type}
+                        {n.count > 1 ? `, ${n.count}×` : ''}
+                      </span>
+                    </span>
+                    <IconButton icon="kosz" label="Usuń wpis" onClick={() => updateData((x) => ({ ...x, memory: x.memory.map((m) => (m.id === n.id ? { ...m, deleted: true, at: Date.now() } : m)) }))} />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="muted">Tu pojawią się błędy, które powtarzają się w zadaniach.</p>
+            )}
+          </section>
+          <ReportHistory />
         </div>
       </div>
     </div>

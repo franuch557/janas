@@ -1,0 +1,153 @@
+{
+  "id": "dziady-cz-3",
+  "metryczka": {
+    "autor": "Adam Mickiewicz",
+    "tytul": "Dziady cz. III",
+    "rok": "1832 (napisane w Dreźnie, wyd. w Paryżu)",
+    "gatunek": "dramat romantyczny",
+    "epoka": "Romantyzm",
+    "rodzaj": "dramat"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Prolog",
+      "tekst": "Wilno, cela więzienna w klasztorze bazylianów. Więzień (Gustaw) śpi, nad nim czuwają anioły i złe duchy. Po przebudzeniu zapisuje na ścianie po łacinie, że umarł Gustaw, a narodził się Konrad – kochanek staje się bojownikiem o wolność narodu."
+    },
+    {
+      "tytul": "Scena I – więźniowie",
+      "tekst": "W Wigilię Bożego Narodzenia uwięzieni studenci (filomaci i filareci) spotykają się w celi Konrada. Opowiadają o śledztwach Nowosilcowa, o wywożeniu kolegów na Sybir, o torturach. Jan Sobolewski relacjonuje, jak widział wywożenie kolegów kibitkami (m.in. Janczewskiego i zmaltretowanego Wasilewskiego). Żegota opowiada bajkę o ziarnie, które diabeł zakopał, a które i tak wyda plon – cierpienie ma sens w planie Boga. Konrad śpiewa pieśń zemsty na wrogach."
+    },
+    {
+      "tytul": "Scena II – Wielka Improwizacja",
+      "tekst": "Samotny Konrad w natchnionym monologu wywyższa się jako poeta-geniusz, który kocha cały naród i cierpi za miliony. Domaga się od Boga „rządu dusz”, by uszczęśliwić naród. Gdy Bóg milczy, Konrad oskarża Go, że nie jest miłością, lecz tylko mądrością, i jest bliski nazwania Boga carem świata – to bluźnierstwo dopowiada diabeł. Konrad pada zemdlony."
+    },
+    {
+      "tytul": "Scena III – Egzorcyzmy",
+      "tekst": "Pokorny bernardyn ksiądz Piotr modli się i wypędza z Konrada złego ducha, który przez niego przemawiał. Pycha zostaje pokonana pokorą."
+    },
+    {
+      "tytul": "Sceny IV–V – Ewa i widzenie księdza Piotra",
+      "tekst": "Pod Lwowem młoda Ewa modli się za Polskę i za nieznanego poetę (Konrada); we śnie otrzymuje od Matki Bożej kwiaty. Ksiądz Piotr ma widzenie: naród polski jest jak Chrystus – męczony, ukrzyżowany przez carów (Herod, Piłat), ale zmartwychwstanie. Pojawia się zapowiedź tajemniczego wybawiciela, „namiestnika wolności”, o imieniu czterdzieści i cztery. To wykład mesjanizmu."
+    },
+    {
+      "tytul": "Scena VI – Sen Senatora",
+      "tekst": "Nowosilcow we śnie raz zostaje wyróżniony przez cara, raz popada w niełaskę; diabły zabawiają się jego strachem przed utratą łask."
+    },
+    {
+      "tytul": "Scena VII – Salon warszawski",
+      "tekst": "Towarzystwo dzieli się na dwie grupy: arystokratów i urzędników przy stoliku (obojętnych na losy narodu, mówiących po francusku) oraz młodych patriotów przy drzwiach. Adolf opowiada o cierpieniach Cichowskiego. Piotr Wysocki porównuje naród do lawy: na wierzchu zimna i twarda skorupa, wewnątrz ogień."
+    },
+    {
+      "tytul": "Scena VIII – Pan Senator",
+      "tekst": "U Nowosilcowa trwa bal i przesłuchania. Ślepa matka, pani Rollisonowa, błaga o łaskę dla torturowanego syna; Senator obłudnie obiecuje pomoc. Później dowiaduje się, że syna wyrzucono z okna więzienia – ksiądz Piotr zapewnia ją, że chłopak jest ranny, ale żyje. Ksiądz Piotr przepowiada doktorowi (Bécu) rychłą śmierć; doktor ginie od pioruna. Konrad zostaje wywieziony z Wilna."
+    },
+    {
+      "tytul": "Scena IX – Noc dziadów",
+      "tekst": "Na cmentarzu Guślarz i Kobieta odprawiają obrzęd dziadów; duch ukochanego Kobiety nie przychodzi, bo – jak mówi Guślarz – zmienił on imię. O świcie widzą kilkadziesiąt wozów pędzących z Wilna na północ (zesłańcy); w jednym Kobieta rozpoznaje ukochanego. Jego pierś jest zraniona, a na czole ma ranę, którą sam sobie zadał – scena wiąże Konrada z Gustawem z wcześniejszych części „Dziadów”."
+    },
+    {
+      "tytul": "Ustęp",
+      "tekst": "Cykl wierszy o Rosji: droga przez bezkresne, puste przestrzenie, Petersburg zbudowany na bagnach i krzywdzie ludzi, pomnik Piotra Wielkiego, parada wojska. Kończy go wiersz „Do przyjaciół Moskali” – wyraz szacunku dla rosyjskich przyjaciół-dekabrystów i przestroga przed służbą carowi."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Konrad",
+      "opis": "Więzień-poeta, romantyczny bohater: samotny, pyszny, gotów cierpieć za naród, buntownik przeciw Bogu; przechodzi przemianę z kochanka (Gustawa) w patriotę."
+    },
+    {
+      "imie": "ksiądz Piotr",
+      "opis": "Pokorny zakonnik, mistyk; przeciwieństwo Konrada – zbawienie przez pokorę i modlitwę."
+    },
+    {
+      "imie": "Senator (Nowosilcow)",
+      "opis": "Carski urzędnik, okrutny, cyniczny i tchórzliwy; prześladuje młodzież."
+    },
+    {
+      "imie": "Tomasz, Żegota, Sobolewski, Frejend i inni więźniowie",
+      "opis": "Młodzież wileńska, ofiary represji (postaci wzorowane na rzeczywistych)."
+    },
+    {
+      "imie": "Ewa",
+      "opis": "Młoda, pobożna dziewczyna modląca się za ojczyznę."
+    },
+    {
+      "imie": "pani Rollisonowa",
+      "opis": "Ślepa matka walcząca o życie syna."
+    },
+    {
+      "imie": "Doktor (Bécu)",
+      "opis": "Sługa Senatora, ukarany śmiercią."
+    }
+  ],
+  "problematyka": [
+    "martyrologia narodu polskiego pod zaborem rosyjskim",
+    "mesjanizm: Polska jako Chrystus narodów, sens cierpienia",
+    "bunt jednostki przeciw Bogu (prometeizm) i grzech pychy",
+    "poeta jako przywódca narodu",
+    "podział społeczeństwa: patrioci a obojętni i kolaboranci",
+    "walka dobra ze złem o duszę człowieka"
+  ],
+  "motywy": [
+    {
+      "motyw": "więzienie",
+      "opis": "cela jako miejsce przemiany."
+    },
+    {
+      "motyw": "prometeizm",
+      "opis": "Konrad cierpiący za ludzkość."
+    },
+    {
+      "motyw": "mesjanizm",
+      "opis": "widzenie księdza Piotra."
+    },
+    {
+      "motyw": "walka o duszę",
+      "opis": "anioły i diabły."
+    },
+    {
+      "motyw": "matka cierpiąca",
+      "opis": "pani Rollisonowa."
+    },
+    {
+      "motyw": "sen i widzenie",
+      "opis": "Ewa, ksiądz Piotr, Senator."
+    },
+    {
+      "motyw": "Rosja",
+      "opis": "obraz despotyzmu w „Ustępie”."
+    }
+  ],
+  "konteksty": [
+    "Historia: proces filomatów i filaretów (1823–1824), upadek powstania listopadowego (1831).",
+    "Dramat romantyczny: luźna kompozycja, fantastyka, mieszanie gatunków i stylów, odejście od trzech jedności.",
+    "Mit Prometeusza (Parandowski); Księga Hioba – spór z Bogiem.",
+    "Juliusz Słowacki, „Kordian” (rozszerzony) – polemika z mesjanizmem.",
+    "Stanisław Wyspiański, „Wesele” – postać Konrada w „Wyzwoleniu” i dyskusja z romantyczną tradycją.",
+    "Inscenizacja Kazimierza Dejmka (1968) i jej zdjęcie przez władze PRL – wydarzenia marcowe."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Ja kocham cały naród!",
+      "kontekst": "Konrad w Wielkiej Improwizacji – miłość do narodu jako źródło buntu."
+    },
+    {
+      "tekst": "Nazywam się Milijon — bo za milijony / Kocham i cierpię katusze.",
+      "kontekst": "Wielka Improwizacja – Konrad utożsamia się z cierpiącym narodem."
+    },
+    {
+      "tekst": "A imię jego będzie czterdzieści i cztery.",
+      "kontekst": "Widzenie księdza Piotra – zapowiedź wybawiciela narodu."
+    }
+  ],
+  "doWypracowania": [
+    "Bunt wobec Boga – Konrad (z Hiobem, Prometeuszem).",
+    "Cierpienie narodu i jego sens – mesjanizm.",
+    "Jednostka wybitna a wspólnota narodowa.",
+    "Walka dobra ze złem o duszę człowieka.",
+    "Postawy Polaków wobec zaborcy (salon warszawski).",
+    "Pytanie ustne: Kim jest Konrad – bohaterem czy grzesznikiem?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Do dramatu należy też „Ustęp” (cykl wierszy, m.in. „Droga do Rosji”, „Pomnik Piotra Wielkiego”, „Do przyjaciół Moskali”) – w szkole omawiany wybiórczo."
+}

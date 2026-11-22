@@ -151,6 +151,33 @@ export function SettingsView() {
       </section>
 
       <section className="stack">
+        <h2>Rekrutacja</h2>
+        <div className="card flush list">
+          <div className="li static" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 8 }}>
+            <span style={{ fontWeight: 600 }}>Politechnika Poznańska, Automatyka i Robotyka</span>
+            <label htmlFor="extra-pct" className="label">
+              Egzamin zawodowy: oczekiwany wynik w %
+            </label>
+            <input
+              id="extra-pct"
+              className="input"
+              style={{ maxWidth: 140 }}
+              type="number"
+              inputMode="numeric"
+              min={0}
+              max={100}
+              value={s.extraPct ?? 70}
+              onChange={(e) => {
+                const v = Math.max(0, Math.min(100, Math.round(Number(e.target.value) || 0)));
+                set((st) => ({ ...st, extraPct: v }));
+              }}
+            />
+            <span className="hint">Przedmiot dodatkowy do szacunku punktów. Wzór sprawdź na stronie uczelni.</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="stack">
         <h2>Przypomnienie</h2>
         <div className="card flush list">
           <div className="li static" style={{ flexDirection: 'column', alignItems: 'stretch' }}>

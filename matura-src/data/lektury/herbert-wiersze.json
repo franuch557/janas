@@ -1,0 +1,96 @@
+{
+  "id": "herbert-wiersze",
+  "metryczka": {
+    "autor": "Zbigniew Herbert",
+    "tytul": "Wybrane wiersze",
+    "rok": "1956–1983 (m.in. tom „Studium przedmiotu” 1961, „Pan Cogito” 1974, „Raport z oblężonego miasta” 1983)",
+    "gatunek": "liryka (refleksyjna, moralna, liryka maski)",
+    "epoka": "Literatura po 1945 r. (współczesność)",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "„Przesłanie Pana Cogito”",
+      "tekst": "Wiersz-testament w formie rad: idź wyprostowany, bo ocalałeś nie po to, by żyć, lecz by dawać świadectwo; bądź odważny, gdy rozum zawodzi; strzeż się oschłości serca, ale nie wyzbywaj się pogardy dla szpiclów i katów; nie przebaczaj w imieniu tych, których zdradzono; bądź wierny. Podmiot przywołuje mitycznych i literackich bohaterów (Gilgamesz, Hektor, Roland), którzy przegrali, lecz pozostali wierni."
+    },
+    {
+      "tytul": "„Tren Fortynbrasa”",
+      "tekst": "Fortynbras, nowy władca, mówi nad ciałem Hamleta. Docenia go, ale też wytyka mu, że żył w świecie wielkich idei i nie umiał żyć zwyczajnie. Sam zapowiada pragmatyczne rządy: porządek, sprawy miasta, kanalizacja. Wiersz zderza dwie postawy: idealizm i realizm władzy."
+    },
+    {
+      "tytul": "„Potęga smaku”",
+      "tekst": "Podmiot twierdzi, że opór wobec władzy totalitarnej nie wymagał wielkiego charakteru, lecz smaku: język propagandy był brzydki, prymitywny, a rządzący nieciekawi. Estetyka okazuje się podstawą etyki – nie można przyjąć kłamstwa, które razi brzydotą."
+    },
+    {
+      "tytul": "„Raport z oblężonego miasta”",
+      "tekst": "Kronikarz oblężonego Miasta notuje zwięźle wydarzenia: kolejne najeźdźców, nędzę, zdrady i tych, którzy trwają. Mówi, że jeśli Miasto padnie, a ocaleje jeden, to on będzie niósł Miasto w sobie. Wiersz odczytywano jako komentarz do stanu wojennego, ale ma wymiar uniwersalny."
+    },
+    {
+      "tytul": "„Apollo i Marsjasz”",
+      "tekst": "Opis kary, jaką Apollo wymierza Marsjaszowi, który wyzwał go na pojedynek muzyczny – obdzieranie ze skóry. Krzyk cierpiącego Marsjasza jest prawdziwą, nową sztuką, przeciwstawioną chłodnej doskonałości Apolla. Wiersz pyta o relację sztuki i cierpienia."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Pan Cogito",
+      "opis": "Alter ego poety – myślący inteligent, ironiczny, wierny wartościom."
+    },
+    {
+      "imie": "Fortynbras i Hamlet",
+      "opis": "Pragmatyk władzy i idealista."
+    },
+    {
+      "imie": "kronikarz oblężonego miasta",
+      "opis": "Świadek, który trwa."
+    },
+    {
+      "imie": "Apollo i Marsjasz",
+      "opis": "Bóg doskonałości i cierpiący człowiek."
+    }
+  ],
+  "problematyka": [
+    "wierność wartościom mimo klęski",
+    "odpowiedzialność świadka historii",
+    "opór wobec totalitaryzmu",
+    "idealizm a pragmatyzm",
+    "sztuka a cierpienie"
+  ],
+  "motywy": [
+    {
+      "motyw": "postawa wyprostowana",
+      "opis": "godność."
+    },
+    {
+      "motyw": "testament",
+      "opis": "przesłanie dla potomnych."
+    },
+    {
+      "motyw": "oblężone miasto",
+      "opis": "trwanie."
+    },
+    {
+      "motyw": "mit przetworzony",
+      "opis": "Apollo i Marsjasz."
+    },
+    {
+      "motyw": "Hamlet",
+      "opis": "intelektualista wobec władzy."
+    }
+  ],
+  "konteksty": [
+    "Liryka maski i nawiązania do antyku oraz Szekspira („Hamlet”).",
+    "Historia PRL: stalinizm, stan wojenny 1981–1983.",
+    "Juliusz Słowacki, „Testament mój” – tradycja testamentu poetyckiego.",
+    "„Pieśń o Rolandzie”, „Iliada” – bohaterowie przywołani w „Przesłaniu”.",
+    "Mitologia (Parandowski) – Apollo i Marsjasz."
+  ],
+  "cytaty": [],
+  "doWypracowania": [
+    "Wierność wartościom – Herbert, Antygona.",
+    "Testament poetycki – Herbert, Słowacki.",
+    "Postawy wobec totalitaryzmu – „Potęga smaku”, „Rok 1984”.",
+    "Pytanie ustne: Jakie wartości propaguje Pan Cogito?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje tytułów."
+}

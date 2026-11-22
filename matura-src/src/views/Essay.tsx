@@ -18,6 +18,7 @@ import { Icon } from '../ui/icons';
 import { go, goBack } from '../ui/router';
 import { CriteriaForm, criteriaComplete, criteriaSum, WordCounter } from './sessionParts';
 import { Focus } from './Exams';
+import { EssayGrader } from './aiParts';
 
 /** Czas zalecany: ten sam, który plan rezerwuje na wypracowanie. */
 function recommendedMinutes(t: AppTask): number {
@@ -60,6 +61,7 @@ function Editor({ s }: { s: Session }) {
   const alts = s.taskIds.map((x) => d.tasks.get(x)).filter(Boolean) as AppTask[];
   const [text, setText] = useState(s.answers[chosenId]?.text ?? '');
   const [criteria, setCriteria] = useState<Record<string, number>>(s.answers[chosenId]?.criteria ?? {});
+  const [claudeVals, setClaudeVals] = useState<Record<string, number> | null>(null);
   const sref = useRef(s);
   sref.current = s;
   const sid = s.id;
@@ -114,9 +116,10 @@ function Editor({ s }: { s: Session }) {
   const saveGrade = () => {
     const cur = pause(setAnswer(sref.current, chosenId, { text, criteria, self: sum }, Date.now()), Date.now());
     const sec = Math.round(elapsed(cur, Date.now()) / 1000);
-    const essay: Essay = { id: newId('e'), taskId: chosenId, subjectId: t.subjectId, text, words, criteria, points: sum, max, date: today, sec, updatedAt: Date.now() };
+    const by = claudeVals && JSON.stringify(claudeVals) === JSON.stringify(criteria) ? 'claude' : 'samoocena';
+    const essay: Essay = { id: newId('e'), taskId: chosenId, subjectId: t.subjectId, text, words, criteria, points: sum, max, date: today, sec, updatedAt: Date.now(), by };
     putEssay(essay);
-    saveResult({ task: chosenId, subj: t.subjectId, topics: t.topics, pts: sum, max: t.maxPoints, sec, src: 'wypracowanie' }, { toast: `Zapisano ocenę: ${String(sum).replace('.', ',')} z ${max} pkt.` });
+    saveResult({ task: chosenId, subj: t.subjectId, topics: t.topics, pts: sum, max: t.maxPoints, sec, src: 'wypracowanie', by }, { toast: `Zapisano ocenę: ${String(sum).replace('.', ',')} z ${max} pkt.` });
     updateSession(sid, () => ({ ...cur, status: 'koniec', runningSince: null, finishedAt: Date.now(), updatedAt: Date.now() }));
     goBack();
   };
@@ -153,6 +156,16 @@ function Editor({ s }: { s: Session }) {
   );
   const gradeCol = (
     <div className="stack">
+      <EssayGrader
+        t={t}
+        text={text}
+        set={set}
+        onGraded={(g) => {
+          const v = { ...criteria, ...g.values };
+          setCriteria(v);
+          setClaudeVals(v);
+        }}
+      />
       <CriteriaForm set={set} values={criteria} onChange={setCriteria} fallbackMax={t.maxPoints} />
       <button type="button" className="btn btn-primary btn-phone-block" onClick={saveGrade} disabled={!complete || words === 0}>
         Zapisz ocenę

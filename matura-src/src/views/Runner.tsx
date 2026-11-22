@@ -18,12 +18,17 @@ import { suggestTasks } from '../logic/planner';
 import { AnswerCard, SelfGrade } from '../ui/AnswerCard';
 import { AudioPlayer } from '../ui/AudioPlayer';
 import { ContextSheet, TaskSheet } from '../ui/TaskImage';
+import { FormulasButton } from '../ui/Formulas';
 import { displayNr } from '../logic/cke';
 import { Confirm, Sheet, SubjectTag, Switch, Tag, useMedia, useNow } from '../ui/common';
 import { Icon } from '../ui/icons';
 import { go, goBack } from '../ui/router';
 import { CriteriaForm, criteriaComplete, criteriaSum, WordCounter } from './sessionParts';
 import { shortTopic, taskPlanItem, typeText, usePlanEdit } from './planParts';
+import { EssayGrader, OpenGrader, taskImageUrls } from './aiParts';
+import { AiStatus, imagesFor, useAi, useAiCall } from '../ui/ai';
+import { gradePrompt, parseGrade } from '../logic/ai';
+import { memoryHint } from '../logic/memory';
 
 export function readPulse(id: string): number | null {
   try {
@@ -118,6 +123,7 @@ export function Runner({ sessionId, title }: { sessionId: string; title: string 
 
 function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; title: string; onFinish: () => void }) {
   const { updateSession, commitNow, d } = useStore();
+  const ai = useAi();
   const wide = useMedia('(min-width: 1080px)');
   const now = useNow(1000);
   const [spis, setSpis] = useState(false);
@@ -169,6 +175,7 @@ function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; 
             {fmtClock(ms, ms >= 3600_000)}
             {left != null ? <span className="small muted" style={{ fontWeight: 400 }}>&nbsp;do końca</span> : null}
           </span>
+          <span className="only-desk"><FormulasButton subject={s.subjectId} /></span>
           <button type="button" className="btn btn-secondary btn-sm" onClick={() => setSpis(true)}>
             Spis
           </button>
@@ -213,6 +220,9 @@ function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; 
               <span className="small muted">
                 {t.label}, {typeText(t)}
               </span>
+              <span className="only-phone">
+                <FormulasButton subject={s.subjectId} />
+              </span>
             </div>
             {t.context && wide ? <ContextSheet task={t} collapsible={false} /> : <TaskSheet task={t} level={sub.level} showContext={false} />}
             {t.context && !wide ? <ContextSheet task={t} collapsible /> : null}
@@ -224,10 +234,13 @@ function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; 
             ) : t.essay ? (
               <MockEssay key={t.id} t={t} text={a.text ?? ''} onSave={(text) => answerFor(t.id)({ text })} onSaveNow={(text) => saveNow(t.id, text)} />
             ) : (
-              <label className="switch-row card" style={{ padding: '4px 16px' }}>
-                <span style={{ fontWeight: 600 }}>Zrobione na kartce</span>
-                <Switch checked={!!a.paper} onChange={(v) => answer({ paper: v })} label="Zrobione na kartce" />
-              </label>
+              <>
+                <label className="switch-row card" style={{ padding: '4px 16px' }}>
+                  <span style={{ fontWeight: 600 }}>Zrobione na kartce</span>
+                  <Switch checked={!!a.paper} onChange={(v) => answer({ paper: v })} label="Zrobione na kartce" />
+                </label>
+                {ai.available ? <OpenAnswerField key={t.id} value={a.text ?? ''} onSave={(text) => answerFor(t.id)({ text })} onSaveNow={(text) => saveNow(t.id, text)} /> : null}
+              </>
             )}
             {t.alternative ? <p className="small muted">Zadanie do wyboru: liczy się jedno z zadań oznaczonych jako alternatywne.</p> : null}
             <div>
@@ -372,6 +385,19 @@ export function useAutosave(text: string, onSave: (t: string) => void, onSaveNow
   return savedFlag;
 }
 
+/** Wynik lub kluczowe kroki zadania otwartego (do sprawdzenia przez Claude'a po zakończeniu). */
+function OpenAnswerField({ value, onSave, onSaveNow }: { value: string; onSave: (s: string) => void; onSaveNow: (s: string) => void }) {
+  const [v, setV] = useState(value);
+  useAutosave(v, onSave, onSaveNow, value);
+  return (
+    <div className="field">
+      <label htmlFor="mock-open">Wynik lub kluczowe kroki (opcjonalnie)</label>
+      <textarea id="mock-open" className="textarea" value={v} onChange={(e) => setV(e.target.value)} maxLength={4000} />
+      <span className="hint">Po zakończeniu Claude sprawdzi to z kluczem.</span>
+    </div>
+  );
+}
+
 function MockEssay({ t, text, onSave, onSaveNow }: { t: AppTask; text: string; onSave: (s: string) => void; onSaveNow: (s: string) => void }) {
   const [v, setV] = useState(text);
   const saved = useAutosave(v, onSave, onSaveNow, text);
@@ -396,8 +422,8 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
   const set = t?.essay ? criteriaFor(t.essay.criteria, subjectDef(t.subjectId)!.family) : null;
   const sub = subjectDef(s.subjectId)!;
   const put = (patch: Partial<Session>) => putSession({ ...s, ...patch, updatedAt: Date.now() });
-  const grade = (self: number, criteria?: Record<string, number>) =>
-    updateSession(s.id, (x) => setAnswer(x, t.id, criteria ? { self, criteria } : { self }, Date.now()));
+  const grade = (self: number, criteria?: Record<string, number>, by: 'claude' | 'samoocena' = 'samoocena', feedback?: string) =>
+    updateSession(s.id, (x) => setAnswer(x, t.id, { self, by, ...(criteria ? { criteria } : {}), ...(feedback != null ? { feedback } : {}) }, Date.now()));
   const canNext = a.self != null && (!t?.essay || criteriaComplete(set, a.criteria ?? {}));
   const next = () => {
     if (!canNext) return;
@@ -432,6 +458,7 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
             </p>
           ) : null}
           <p className="muted">Porównaj swoje rozwiązanie z zasadami oceniania i przyznaj punkty.</p>
+          <BulkGrader s={s} list={list} />
         </div>
         <div className="solve">
           <div className="stack">
@@ -452,9 +479,31 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
           <div className="side stack">
             <TaskSheet task={t} kind="odp" />
             {t.essay ? (
-              <CriteriaForm set={set} values={a.criteria ?? {}} onChange={(v) => grade(Math.min(t.maxPoints, criteriaSum(set, v)), v)} fallbackMax={t.maxPoints} />
+              <>
+                <EssayGrader
+                  key={t.id}
+                  t={t}
+                  text={a.text ?? ''}
+                  set={set}
+                  onGraded={(g) => {
+                    const v = { ...(a.criteria ?? {}), ...g.values };
+                    grade(Math.min(t.maxPoints, criteriaSum(set, v)), v, 'claude', g.tips.join(' '));
+                  }}
+                />
+                <CriteriaForm set={set} values={a.criteria ?? {}} onChange={(v) => grade(Math.min(t.maxPoints, criteriaSum(set, v)), v)} fallbackMax={t.maxPoints} />
+              </>
             ) : (
-              <SelfGrade max={t.maxPoints} value={a.self ?? null} onChange={(v) => grade(v)} />
+              <>
+                {a.by === 'claude' && a.feedback ? (
+                  <div className="verdict częściowo" role="status">
+                    <strong>Ocena Claude’a: {a.self} z {t.maxPoints} pkt</strong>
+                    <span>{a.feedback}</span>
+                  </div>
+                ) : (
+                  <OpenGrader key={t.id} t={t} initialText={a.text ?? ''} onGraded={(r) => grade(r.points, undefined, 'claude', r.feedback)} />
+                )}
+                <SelfGrade max={t.maxPoints} value={a.self ?? null} onChange={(v) => grade(v)} />
+              </>
             )}
             <button type="button" className="btn btn-primary only-desk" onClick={next} disabled={!canNext}>
               {i >= list.length - 1 ? 'Pokaż wynik' : 'Dalej'}
@@ -469,6 +518,43 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
           </button>
         </div>
       </div>
+    </div>
+  );
+}
+
+/** „Sprawdź wszystkie z Claude'em”: po kolei zadania otwarte z wpisanym wynikiem. */
+function BulkGrader({ s, list }: { s: Session; list: AppTask[] }) {
+  const { updateSession, data } = useStore();
+  const ai = useAi();
+  const call = useAiCall();
+  const [progress, setProgress] = useState<{ cur: number; all: number } | null>(null);
+  const todo = list.filter((t) => !t.essay && (s.answers[t.id]?.text ?? '').trim() && s.answers[t.id]?.self == null);
+  if (!ai.available || !todo.length) return null;
+  const runAll = async () => {
+    for (let k = 0; k < todo.length; k++) {
+      const t = todo[k];
+      setProgress({ cur: k + 1, all: todo.length });
+      const urls = await taskImageUrls(t, true);
+      const r = await call.run(async (fn, o) => {
+        const images = await imagesFor([urls.zad, urls.ctx, urls.odp]);
+        const raw = await fn.json(
+          gradePrompt({ subject: subjectDef(t.subjectId)!.name.toLowerCase(), label: t.label, max: t.maxPoints, answer: (s.answers[t.id]?.text ?? '').trim(), hasPhoto: false, hasKey: !!urls.odp, memory: memoryHint(data.memory, t.subjectId, t.topics[0] ?? null) }),
+          { signal: o.signal, images, cache: false },
+        );
+        return parseGrade(raw, t.maxPoints);
+      });
+      if (!r) break;
+      updateSession(s.id, (x) => setAnswer(x, t.id, { self: r.points, by: 'claude', feedback: r.feedback }, Date.now()));
+    }
+    setProgress(null);
+  };
+  return (
+    <div className="stack-2">
+      <button type="button" className="btn btn-secondary" onClick={() => void runAll()} disabled={call.busy}>
+        Sprawdź wszystkie z Claude’em ({todo.length})
+      </button>
+      {progress ? <span className="small muted">Sprawdzam {progress.cur} z {progress.all}…</span> : null}
+      <AiStatus call={call} />
     </div>
   );
 }

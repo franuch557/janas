@@ -7,11 +7,14 @@ import { fmtClock } from '../logic/format';
 import { AnswerCard, checkMessage, SelfGrade } from '../ui/AnswerCard';
 import { AudioPlayer } from '../ui/AudioPlayer';
 import { ContextSheet, TaskSheet } from '../ui/TaskImage';
+import { FormulasButton } from '../ui/Formulas';
 import { displayNr } from '../logic/cke';
 import { Empty, MoreMenu, SubjectTag, Tag, useMedia, useNow } from '../ui/common';
 import { Icon } from '../ui/icons';
 import { go, goBack } from '../ui/router';
 import { nextInFlow, openItem, shortTopic, SwapSheet, typeText, usePlanEdit } from './planParts';
+import { CardsFromTask, Explain, OpenGrader, useMemoryWriter, Verdict } from './aiParts';
+import type { GradeResult } from '../logic/ai';
 import type { AppTask } from '../store/derived';
 
 /** Stoper zadania: rusza przy otwarciu, dotknięcie wstrzymuje. */
@@ -93,6 +96,8 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
   const [checked, setChecked] = useState(!!prevToday);
   const [revealed, setRevealed] = useState(!!t.user);
   const [self, setSelf] = useState<number | null>(prevToday && !t.auto ? prevToday.pts : null);
+  const [grade, setGrade] = useState<GradeResult | null>(null);
+  const remember = useMemoryWriter();
   const [note, setNote] = useState('');
   const [noteOpen, setNoteOpen] = useState(false);
   const [savedId, setSavedId] = useState<string | null>(prevToday?.id ?? null);
@@ -110,6 +115,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     if (!t.answer || !allChosen || checked) return;
     const r = scoreClosed(t.answer, choice, t.maxPoints);
     setChecked(true);
+    if (r.points < t.maxPoints) remember([{ subj: t.subjectId, topic: t.topics[0] ?? null, type: 'inne', note: `błędna odpowiedź w zadaniu zamkniętym (${shortTopic(t.topics[0])})` }]);
     const id = saveResult(
       { task: t.id, subj: t.subjectId, topics: t.topics, pts: r.points, max: t.maxPoints, sec: sw.seconds(), src: 'zadanie', choice },
       { toast: false },
@@ -119,7 +125,19 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
   const saveSelf = () => {
     if (self == null) return;
     setChecked(true);
-    const id = saveResult({ task: t.id, subj: t.subjectId, topics: t.topics, pts: self, max: t.maxPoints, sec: sw.seconds(), src: 'zadanie', note: note.trim() || undefined });
+    const byClaude = grade != null && self === grade.points;
+    const id = saveResult({
+      task: t.id,
+      subj: t.subjectId,
+      topics: t.topics,
+      pts: self,
+      max: t.maxPoints,
+      sec: sw.seconds(),
+      src: 'zadanie',
+      note: note.trim() || undefined,
+      by: byClaude ? 'claude' : 'samoocena',
+      feedback: grade ? grade.feedback : undefined,
+    });
     setSavedId(id);
   };
   const next = () => {
@@ -135,6 +153,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     setSavedId(null);
     setChoice({});
     setSelf(null);
+    setGrade(null);
     setRevealed(false);
     sw.reset();
   };
@@ -143,6 +162,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     if (savedId && !d.active.results.some((r) => r.id === savedId)) {
       setChecked(false);
       setSavedId(null);
+      setGrade(null);
       if (t.auto) setChoice({});
       sw.reset();
     }
@@ -215,6 +235,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
             <Icon name="zamknij" />
           </button>
           <span className="where tnum">{where}</span>
+          <span className="only-desk"><FormulasButton subject={t.subjectId} /></span>
           <TimerBadge ms={sw.ms} paused={sw.paused} over={over} onClick={sw.toggle} />
           <MoreMenu items={menu} />
         </div>
@@ -228,6 +249,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
               <span className="small muted">
                 {t.label}, {typeText(t)}
               </span>
+              <FormulasButton subject={t.subjectId} />
             </div>
             {t.context && wide ? <ContextSheet task={t} collapsible={false} /> : <TaskSheet task={t} level={sub.level} showContext={false} />}
             {t.context && !wide ? <ContextSheet task={t} collapsible /> : null}
@@ -272,6 +294,17 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                 )}
               </>
             )}
+            {!t.auto && !checked && !grade ? (
+              <OpenGrader
+                t={t}
+                onGraded={(r) => {
+                  setGrade(r);
+                  setSelf(r.points);
+                  setRevealed(true);
+                }}
+              />
+            ) : null}
+            {grade ? <Verdict r={grade} /> : null}
             {revealed && !t.user ? (
               <div className="reveal">
                 <TaskSheet task={t} kind="odp" />
@@ -296,6 +329,8 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                 ) : null}
               </div>
             ) : null}
+            {!t.auto || checked ? <Explain key={t.id} t={t} /> : null}
+            <CardsFromTask t={t} />
             {done ? (
               <div className="row">
                 <button type="button" className="btn btn-secondary" onClick={again}>

@@ -45,6 +45,7 @@ export function itemTitle(it: PlanItem, d: Derived): string {
   if (it.kind === 'diagnoza') return `Diagnoza: ${sub?.name.toLowerCase() ?? ''}`;
   if (it.kind === 'przegląd') return 'Przegląd błędów przed egzaminem';
   if (it.kind === 'korepetycje') return 'Korepetycje z angielskiego';
+  if (it.kind === 'fiszki') return 'Fiszki do powtórki';
   return 'Zadanie';
 }
 
@@ -64,6 +65,7 @@ export function itemType(it: PlanItem, d: Derived): string | null {
     return t ? typeText(t) : null;
   }
   if (it.kind === 'korepetycje') return it.reason.replace('Korepetycje z angielskiego, ', 'godz. ').replace(/\.$/, '');
+  if (it.kind === 'fiszki') return it.reason.replace(/\.$/, '');
   return null;
 }
 
@@ -78,6 +80,7 @@ export function openItem(it: PlanItem, d: Derived) {
   if (it.kind === 'arkusz' && it.examId) return go({ name: 'arkusz', examId: it.examId, partId: it.partId });
   if (it.kind === 'diagnoza' && it.subjectId) return go({ name: 'diagnoza', subject: it.subjectId });
   if (it.kind === 'przegląd') return go({ name: 'postep', subject: it.subjectId });
+  if (it.kind === 'fiszki') return go('#fiszki');
 }
 
 /** Pozycje do przejścia „Zacznij naukę” / „Dalej”: niezrobione zadania dnia. */
@@ -324,7 +327,7 @@ export function PlanCard({ date, item, onSwap, editable = true }: { date: string
     { label: 'Usuń z planu', run: () => edit.remove(date, item), danger: true },
   ];
   const actionLabel =
-    item.kind === 'arkusz' ? 'Zacznij arkusz' : item.kind === 'diagnoza' ? 'Zacznij diagnozę' : item.kind === 'wypracowanie' ? 'Pisz' : 'Rozwiąż';
+    item.kind === 'arkusz' ? 'Zacznij arkusz' : item.kind === 'diagnoza' ? 'Zacznij diagnozę' : item.kind === 'wypracowanie' ? 'Pisz' : item.kind === 'fiszki' ? 'Powtórz fiszki' : 'Rozwiąż';
   return (
     <div className={`card task-card${tickable ? '' : ' click'}${done ? ' done' : doing ? ' doing' : ''}`} onClick={tickable ? undefined : open}>
       <div className="meta">

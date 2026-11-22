@@ -1,0 +1,98 @@
+{
+  "id": "kochanowski-treny",
+  "metryczka": {
+    "autor": "Jan Kochanowski",
+    "tytul": "Treny (Tren IX, X, XI)",
+    "rok": "1580",
+    "gatunek": "tren (pieśń żałobna); cykl 19 trenów",
+    "epoka": "Renesans (odrodzenie)",
+    "rodzaj": "liryka"
+  },
+  "streszczenie": [
+    {
+      "tytul": "Kontekst cyklu",
+      "tekst": "Treny są poświęcone zmarłej w wieku około dwóch i pół roku córce poety, Urszulce. Cykl pokazuje drogę od rozpaczy, przez kryzys wiary w rozum i porządek świata, do pocieszenia (Tren XIX, w którym matka poety przychodzi do niego we śnie z Urszulką)."
+    },
+    {
+      "tytul": "Tren IX („Kupić by cię, mądrości, za drogie pieniądze…”)",
+      "tekst": "Poeta zwraca się do mądrości (filozofii stoickiej), która miała uwolnić człowieka od smutków i lęku, uczyć jednakowego spokoju w szczęściu i nieszczęściu, nie bać się śmierci, mierzyć bogactwo potrzebami. Wyznaje, że całe życie starał się dojść do jej progów, a teraz – po śmierci córki – został zrzucony z ostatnich stopni i stał się taki jak inni ludzie. To wyraz kryzysu stoickiej postawy: filozofia nie pomaga w prawdziwym cierpieniu."
+    },
+    {
+      "tytul": "Tren X („Orszulo moja wdzięczna, gdzieś mi się podziała?”)",
+      "tekst": "Ojciec szuka córki w różnych zaświatach: czy jest w niebie wśród aniołków, w raju, na Wyspach Szczęśliwych, czy przeprawia ją Charon, czy zamieniła się w słowika, czy jest w czyśćcu. Pyta, czy w ogóle istnieje („jeśliś jest”), i prosi, by mu się ukazała – choćby we śnie, jako cień lub mara. To wyraz zwątpienia w pewność wiary i życia pozagrobowego."
+    },
+    {
+      "tytul": "Tren XI („Fraszka cnota”)",
+      "tekst": "Poeta przywołuje słowa Brutusa, który po klęsce uznał cnotę za nic niewartą. Stwierdza, że pobożność i dobroć nikogo nie chronią przed nieszczęściem, a światem rządzi jakaś nieznana, ślepa siła, która dosięga dobrych i złych. Ludzki rozum jest bezsilny wobec tajemnic Boga. Na koniec pyta własną żałość, czy chce mu odebrać i radość, i rozum. Tren wyraża najgłębszy kryzys światopoglądowy cyklu."
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "podmiot liryczny (ojciec, Kochanowski)",
+      "opis": "Humanista, poeta i filozof, który w obliczu śmierci dziecka traci wiarę w moc rozumu i harmonię świata."
+    },
+    {
+      "imie": "Urszulka",
+      "opis": "Zmarła córka; przedstawiona jako dziecko pełne wdzięku, nadzieja rodziny."
+    }
+  ],
+  "problematyka": [
+    "doświadczenie śmierci dziecka i żałoby",
+    "kryzys renesansowego światopoglądu: zwątpienie w rozum, cnotę, porządek świata",
+    "krytyka filozofii stoickiej",
+    "pytanie o istnienie i kształt życia pozagrobowego",
+    "bezradność człowieka wobec tajemnicy Boga"
+  ],
+  "motywy": [
+    {
+      "motyw": "żałoba ojca",
+      "opis": "ból po stracie dziecka."
+    },
+    {
+      "motyw": "mądrość (filozofia)",
+      "opis": "apostrofa do mądrości, która zawiodła."
+    },
+    {
+      "motyw": "zaświaty",
+      "opis": "chrześcijańskie i antyczne wyobrażenia po śmierci."
+    },
+    {
+      "motyw": "Fortuna/ślepy los",
+      "opis": "nieznany wróg mieszający ludzkie sprawy."
+    },
+    {
+      "motyw": "Brutus",
+      "opis": "przykład zawiedzionej wiary w cnotę."
+    }
+  ],
+  "konteksty": [
+    "Tren jako gatunek antyczny (epicedium) – zwykle poświęcony osobom wybitnym; Kochanowski poświęcił go dziecku, co było nowatorskie.",
+    "Pieśń IX ks. I – kontrast: wiara w stoicki spokój, która w Trenach się załamuje.",
+    "Księga Hioba – pytanie o sens cierpienia niewinnych.",
+    "„Lament świętokrzyski” – ból rodzica po stracie dziecka.",
+    "Barok: niepokój i zwątpienie (Sęp Szarzyński)."
+  ],
+  "cytaty": [
+    {
+      "tekst": "Kupić by cię, mądrości, za drogie pieniądze,",
+      "kontekst": "Tren IX – początek apostrofy do mądrości."
+    },
+    {
+      "tekst": "Orszulo moja wdzięczna, gdzieś mi sie podziała?",
+      "kontekst": "Tren X – pytanie ojca o los córki po śmierci."
+    },
+    {
+      "tekst": "«Fraszka cnota», powiedział Brutus porażony.",
+      "kontekst": "Tren XI – zwątpienie w wartość cnoty."
+    }
+  ],
+  "doWypracowania": [
+    "Cierpienie po stracie bliskiej osoby – Treny, Lament świętokrzyski.",
+    "Kryzys wartości – kiedy filozofia zawodzi? (Treny IX i XI).",
+    "Człowiek wobec Boga – pytania bez odpowiedzi (Treny, Hiob, Dziady cz. III).",
+    "Jak literatura wyraża żałobę?",
+    "Pytanie ustne: Na czym polega kryzys światopoglądowy w Trenach?"
+  ],
+  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
+  "uwagi": "W zakresie podstawowym obowiązują treny IX, X i XI; całość cyklu – w rozszerzonym. Warto znać ogólny kontekst cyklu (śmierć Urszulki, kryzys światopoglądowy, Tren XIX – sen o matce)."
+}

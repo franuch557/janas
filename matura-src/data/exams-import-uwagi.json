@@ -8,6 +8,10 @@
   "text": "Zadanie 18: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
  },
  {
+  "examId": "MPOP-P1-P2-2305",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
   "examId": "MPOP-P1-P2-2405",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  },
@@ -17,10 +21,6 @@
  },
  {
   "examId": "MPOP-P1-P2-2605",
-  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
- },
- {
-  "examId": "MPOP-P1-P2-2305",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  }
 ]
