@@ -5,7 +5,7 @@
 // Wynik budowania (dist-pages/matura-2027) idzie jako nowy commit na wierzch gałęzi main repo strony,
 // więc wysyłane są tylko zmienione pliki (cała strona naraz przekracza limit czasu GitHuba).
 import { execFileSync } from 'node:child_process';
-import { existsSync, writeFileSync, rmSync, readdirSync, statSync } from 'node:fs';
+import { existsSync, writeFileSync, rmSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -22,33 +22,45 @@ git('init', '-q', '-b', 'main');
 let base = true;
 try {
   git('fetch', '-q', '--depth', '1', REPO, 'main');
-  git('reset', '-q', '--soft', 'FETCH_HEAD');
+  git('reset', '-q', 'FETCH_HEAD'); // indeks = stan strony na serwerze, status pokaże tylko zmiany
 } catch {
   base = false; // repo strony jest puste: pierwszy commit
 }
-// obrazy (cke/img) wysyłam najpierw, partiami do ok. 40 MB: jeden duży push przekracza limit czasu
+// duże pliki wysyłam najpierw, partiami do ok. 20 MB: jeden duży push przekracza limit czasu
 // GitHuba, a strona w tym czasie dalej działa na poprzednich plikach (nowe pliki niczego nie psują)
 const PUSH = ['-c', 'http.postBuffer=524288000', 'push', '-q'];
-const imgRoot = join(dir, 'cke', 'img');
-if (base && existsSync(imgRoot)) {
-  const dirSize = (p) => readdirSync(p, { withFileTypes: true }).reduce((a, e) => a + (e.isDirectory() ? dirSize(join(p, e.name)) : statSync(join(p, e.name)).size), 0);
-  const changed = (rel) => execFileSync('git', ['status', '--porcelain', '--', rel], { cwd: dir }).toString().trim().length > 0;
+// GitHub czasem zrywa wysyłkę (HTTP 408): do 3 prób
+const push = (...extra) => {
+  for (let i = 1; ; i++) {
+    try {
+      git(...PUSH, ...extra, REPO, 'main');
+      return;
+    } catch (e) {
+      if (i >= 3) throw e;
+      console.log(`Wysyłka nie wyszła, próba ${i + 1} z 3…`);
+    }
+  }
+};
+if (base) {
+  // zmienione pliki; strona (index.html, kod w assets, indeksy cke/*.json) idzie na końcu,
+  // a wcześniej duże pliki (obrazy, nagrania, silnik modelu) partiami
+  const status = execFileSync('git', ['status', '--porcelain', '-uall', '-z'], { cwd: dir }).toString().split('\0').filter(Boolean);
+  const paths = status.map((l) => l.slice(3)).filter((p) => existsSync(join(dir, p)));
+  const late = (p) => p === 'index.html' || /^assets\/.*\.(js|css)$/.test(p) || /^cke\/[^/]+\.json$/.test(p);
   let acc = 0;
   let part = 0;
   const flush = () => {
     if (!acc) return;
     part++;
-    git('commit', '-q', '-m', `Obrazy zadań, część ${part}`);
-    git(...PUSH, REPO, 'main');
-    console.log(`Wysłano obrazy, część ${part} (${(acc / 1e6).toFixed(0)} MB).`);
+    git('commit', '-q', '-m', `Pliki strony, część ${part}`);
+    push();
+    console.log(`Wysłano część ${part} (${(acc / 1e6).toFixed(0)} MB).`);
     acc = 0;
   };
-  for (const e of readdirSync(imgRoot)) {
-    const rel = join('cke', 'img', e);
-    if (!changed(rel)) continue;
-    git('add', '-A', '--', rel);
-    acc += dirSize(join(dir, rel));
-    if (acc > 40e6) flush();
+  for (const p of paths.filter((x) => !late(x))) {
+    git('add', '--', p);
+    acc += statSync(join(dir, p)).size;
+    if (acc > 20e6) flush();
   }
   flush();
 }
@@ -58,6 +70,6 @@ try {
 } catch {
   console.log('Bez zmian od ostatniej publikacji.');
 }
-git('-c', 'http.postBuffer=524288000', 'push', '-q', ...(base ? [] : ['--force']), REPO, 'main');
+push(...(base ? [] : ['--force']));
 rmSync(join(dir, '.git'), { recursive: true, force: true });
 console.log('Wypchnięto. Strona: https://franuch557.github.io/matura-2027/');
