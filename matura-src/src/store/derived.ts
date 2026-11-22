@@ -7,7 +7,12 @@ import { activeEvents, streak, studyDays, studySeconds, taskRecords, type Active
 import { forecast, isDiagnosed, masteryMap, weakBoost, type Forecast, type TopicMastery } from '../logic/mastery';
 import { memoryBoost } from '../logic/memory';
 import { computeWeights, topicPriority, topicStats } from '../logic/weights';
-import { currentStage, tierFactor } from '../logic/tiers';
+import { currentStage, targetFactor, tierFactor } from '../logic/tiers';
+import { GENERATORS } from '../logic/variants';
+
+/** Tematy z wariantami zadań (dla planu). */
+const PRACTICE_TOPICS: Partial<Record<SubjectId, string[]>> = {};
+for (const g of GENERATORS) (PRACTICE_TOPICS[g.subjectId] ??= []).includes(g.topic) || PRACTICE_TOPICS[g.subjectId]!.push(g.topic);
 import { buildPlan, mockKey, type PlanExam, type PlanResult, type PlanTask } from '../logic/planner';
 import { selectDiagnosis, DIAGNOSIS_MINUTES, type DiagnosisSelection } from '../logic/diagnosis';
 import { topicsFor } from '../data/taxonomy';
@@ -120,7 +125,7 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
     const p: Record<string, number> = {};
     // matematyka: kolejność działów z tier-list matemaks.pl (etapy, następny po opanowaniu poprzedniego)
     const stage = currentStage(s.id, m);
-    for (const t of topics) p[t.id] = topicPriority(w[t.id] ?? 0, m[t.id]?.value ?? null, weakBoost(active.results, s.id, t.id, today) + memoryBoost(data.memory, s.id, t.id), undefined) * tierFactor(s.id, t.id, stage);
+    for (const t of topics) p[t.id] = topicPriority(w[t.id] ?? 0, m[t.id]?.value ?? null, weakBoost(active.results, s.id, t.id, today) + memoryBoost(data.memory, s.id, t.id), undefined) * tierFactor(s.id, t.id, stage) * targetFactor(s.id, t.id, stan.targets?.[s.id]);
     priorities[s.id] = p;
     if (isDiagnosed(active.sessions, s.id)) diagnosed.add(s.id);
     fc[s.id] = forecast(w, m, diagnosed.has(s.id));
@@ -162,6 +167,7 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
     enabled: stan.enabled,
     dayMinutes: stan.dayMinutes,
     lessons: stan.lessons,
+    practice: PRACTICE_TOPICS,
     overrides: stan.overrides,
     tasks: plannable,
     exams: planExams,
@@ -193,6 +199,10 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
       const ids = new Set([it.taskId]);
       if (t?.alternative) for (const o of tasks.values()) if (o.examId === t.examId && o.alternative === t.alternative) ids.add(o.id);
       const r = (resultsByDay.get(date) ?? []).filter((x) => ids.has(x.task)).slice(-1)[0];
+      return r ? { pts: r.pts, max: r.max, at: r.at, eventId: r.id } : null;
+    }
+    if (it.kind === 'ćwiczenie') {
+      const r = (resultsByDay.get(date) ?? []).filter((x) => x.src === 'ćwiczenie' && x.subj === it.subjectId && x.topics.includes(it.topicId ?? '')).slice(-1)[0];
       return r ? { pts: r.pts, max: r.max, at: r.at, eventId: r.id } : null;
     }
     if (it.kind === 'arkusz') {

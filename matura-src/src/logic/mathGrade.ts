@@ -60,7 +60,7 @@ function mathTail(s: string): string {
   const out: string[] = [];
   for (let i = words.length - 1; i >= 0; i--) {
     const w = words[i];
-    if (!/^[\dA-Za-zα-ω√π()|+\-−*/^.,⋅·²³]+$/.test(w)) break;
+    if (!/^[\dA-Za-zα-ω√π()|+\-−*/^.,⋅·²³']+$/.test(w)) break;
     if (/^[A-Za-ząćęłńóśźż]{3,}[,.]?$/.test(w)) break;
     out.unshift(w);
   }
@@ -132,7 +132,7 @@ export function factsOf(alt: string): Fact[] {
         }
       }
       if (v != null) {
-        const label = /^(?:\|[A-Za-z]{1,3}\||[A-Za-z](?:_?\d)?|[A-Z]?\([A-Za-z]\)|[A-Za-z]\(\d+\))$/.test(lhs.replace(/\s+/g, '')) ? lhs.replace(/\s+/g, '') : undefined;
+        const label = /^(?:\|[A-Za-z]{1,3}\||[A-Za-z](?:_?\d{1,2})?|[A-Z]?\([A-Za-z]\)|[A-Za-z]'?\(-?\d+\))$/.test(lhs.replace(/\s+/g, '')) ? lhs.replace(/\s+/g, '') : undefined;
         out.push({ kind: 'value', values: [v], text: piece.replace(/=\s*[.,]\s*(\d+)$/, `= ${den ? `${lone[lone.length - 1]}/${den[1]}` : ''}`), weak: isWeak([v]), label });
         continue;
       }
@@ -179,7 +179,7 @@ export function workOf(text: string): Work {
   for (const line of norm.split(/\n|;|\s{2,}|,\s+(?=\D)|\s+(?:oraz|i|więc|zatem|stąd|czyli)\s+/)) {
     const chain = line.split(/=|≈/).map((x) => stripUnits(x.trim()));
     const name = mathTail(chain[0] ?? '').replace(/\s+/g, '');
-    if (chain.length >= 2 && /^(?:\|[A-Za-z]{1,3}\||[A-Za-z](?:_?\d)?|[A-Z]?\([A-Za-z]\)|[A-Za-z]\(\d+\))$/.test(name)) {
+    if (chain.length >= 2 && /^(?:\|[A-Za-z]{1,3}\||[A-Za-z](?:_?\d{1,2})?|[A-Z]?\([A-Za-z]\)|[A-Za-z]'?\(-?\d+\))$/.test(name)) {
       const v = constValue(chain[chain.length - 1]);
       if (v != null) labeled.set(name, [...(labeled.get(name) ?? []), v]);
     }
@@ -295,9 +295,10 @@ const CONCLUSION = /co należało|c\.?\s?n\.?\s?[dw]\.?|zatem|więc|stąd|dlateg
 /** Ocena według klucza aplikacji: odpowiedź krótka, poziomy, dowód (pełne punkty po krokach z klucza i wniosku). */
 export function gradeTask(key: MathKey, max: number, text: string, params: MathParams = DEFAULT_MATH_PARAMS): MathGrade | null {
   const hasTopFacts = key.levels.some((l) => l.points === max && l.alts.some((a) => factsOf(a).length));
-  if (key.answers?.length && !hasTopFacts) {
+  if (key.answers?.length) {
     const g = gradeAnswers(key.answers, max, text);
-    if (g) return g;
+    // klucz odpowiedzi rozstrzyga, gdy poziomy nie mają faktów albo odpowiedź jest pełna
+    if (g && (!hasTopFacts || g.points === max)) return g;
   }
   const g = gradeMath(key.levels, max, text, params);
   if (!g || !key.proof || hasTopFacts) return g;

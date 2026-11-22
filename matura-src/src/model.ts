@@ -48,7 +48,8 @@ export type PlanKind =
   | 'wypracowanie'
   | 'przegląd'
   | 'korepetycje'
-  | 'fiszki';
+  | 'fiszki'
+  | 'ćwiczenie';
 
 /** Pozycja planu. `ref` jest tożsamością pozycji (nadpisania, odhaczanie). */
 export interface PlanItem {
@@ -124,6 +125,8 @@ export interface Stan {
   /** Starsze pole (jedne korepetycje z angielskiego); od wersji z kontami: `lessons`. */
   tutoring: { enabled: boolean; weekday: number; start: string; minutes: number };
   lessons: Lesson[];
+  /** Cel w procentach dla przedmiotu (matematyka: 30, 60, 85, 100 jak w planie matemaks). */
+  targets: Partial<Record<SubjectId, number>>;
   reminder: { enabled: boolean; time: string };
   theme: 'system' | 'jasny' | 'ciemny';
   textSize: 'normalny' | 'duży';
@@ -151,6 +154,7 @@ export function defaultStan(today: string): Stan {
     dayMinutes: [90, 45, 45, 45, 45, 45, 90],
     tutoring: { enabled: false, weekday: 6, start: '15:15', minutes: 60 },
     lessons: [],
+    targets: {},
     reminder: { enabled: true, time: '18:00' },
     theme: 'system',
     textSize: 'normalny',
@@ -176,7 +180,10 @@ export interface ResultEvent {
   pts: number;
   max: number;
   sec: number;
-  src: 'zadanie' | 'arkusz' | 'diagnoza' | 'wypracowanie';
+  /** „sprawdzian” – sprawdzian mieszany (poziom „opanowany”); „ćwiczenie” – wariant zadania z programu. */
+  src: 'zadanie' | 'arkusz' | 'diagnoza' | 'wypracowanie' | 'sprawdzian' | 'ćwiczenie';
+  /** Ile podpowiedzi uczeń odsłonił (zmniejsza wkład wyniku w biegłość). */
+  hints?: number;
   /** Wybrane odpowiedzi w zadaniu zamkniętym. */
   choice?: Record<string, string>;
   note?: string;

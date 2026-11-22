@@ -1,3 +1,4 @@
+import { LearnSession } from './learnParts';
 import { ocrImages } from '../logic/ocr';
 import { useEffect, useMemo, useState } from 'react';
 import { SUBJECTS, subjectDef, type Flashcard, type SubjectId } from '../model';
@@ -368,6 +369,7 @@ export function FlashcardsView() {
   const enabled = SUBJECTS.filter((s) => data.stan.enabled[s.id]);
   const [subject, setSubject] = useState<SubjectId>(enabled[0]?.id ?? 'ang-p');
   const [reviewing, setReviewing] = useState<Flashcard[] | null>(null);
+  const [learnMode, setLearnMode] = useState(false);
   const [doneN, setDoneN] = useState<number | null>(null);
   const [drafts, setDrafts] = useState<{ list: CardDraft[]; name: string } | null>(null);
   const [browse, setBrowse] = useState<string | null>(null);
@@ -400,10 +402,10 @@ export function FlashcardsView() {
         <div className="row">
           <IconButton icon="wstecz" label="Zakończ powtórkę" onClick={() => setReviewing(null)} />
           <h1 className="grow" style={{ fontSize: '1.25rem' }}>
-            Powtórka fiszek
+            {learnMode ? 'Ucz się: wybór, potem wpisywanie' : 'Powtórka fiszek'}
           </h1>
         </div>
-        <CardReview cards={reviewing} onDone={finish} />
+        {learnMode ? <LearnSession cards={reviewing} onDone={finish} /> : <CardReview cards={reviewing} onDone={finish} />}
       </div>
     );
   }
@@ -420,9 +422,14 @@ export function FlashcardsView() {
             Powtórki: {dueReview}, nowe: {due.length - dueReview} (najwyżej {NEW_PER_DAY} nowych dziennie). Karty, których nie pamiętasz, wracają częściej, a te, które znasz, coraz rzadziej.
           </p>
           {due.length ? (
-            <button type="button" className="btn btn-primary btn-phone-block" onClick={() => setReviewing(due.slice(0, 50))}>
-              Ucz się ({Math.min(50, due.length)})
-            </button>
+            <div className="row" style={{ flexWrap: 'wrap' }}>
+              <button type="button" className="btn btn-primary btn-phone-block" onClick={() => (setLearnMode(false), setReviewing(due.slice(0, 50)))}>
+                Powtórka ({Math.min(50, due.length)})
+              </button>
+              <button type="button" className="btn btn-secondary btn-phone-block" onClick={() => (setLearnMode(true), setReviewing(due.slice(0, 20)))}>
+                Ucz się: wybór → wpisywanie ({Math.min(20, due.length)})
+              </button>
+            </div>
           ) : (
             <p className="muted">Na dziś wszystko powtórzone.</p>
           )}

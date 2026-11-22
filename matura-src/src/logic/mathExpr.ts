@@ -53,7 +53,8 @@ function tokens(s: string): string[] | null {
       i += fn[0].length;
       continue;
     }
-    const v = /^[A-Za-zα-ωΑ-Ω](?:_?\d)?/.exec(s.slice(i));
+    // nazwa zmiennej: x, a1, f' (pochodna)
+    const v = /^[A-Za-zα-ωΑ-Ω](?:_?\d)?'?/.exec(s.slice(i));
     if (v && v[0] !== 'π') {
       out.push(v[0].replace('_', ''));
       i += v[0].length;

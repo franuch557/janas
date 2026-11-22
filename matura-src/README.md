@@ -201,6 +201,23 @@ Priorytety działów uwzględniają tier-listy matemaks.pl 2027 (`src/logic/tier
 jako mnożnik i etapy (S+ i S → A → B → C i D); następny etap dostaje pełną wagę po opanowaniu
 poprzedniego na 60%.
 
+### Metody nauki
+
+- **Warianty zadań** (`src/logic/variants.ts`, ekran `#cwiczenie-<przedmiot>-<temat>`): 22 typy zadań
+  z działów S+ i S (podstawa i rozszerzenie) z losowanymi danymi, kluczem w formacie CKE i krokami
+  rozwiązania. Plan daje „ćwiczenie”, gdy zadania CKE z tematu się skończą (raz dziennie na przedmiot).
+- **Przykład → luki → samodzielnie**: pierwszy wariant typu to pełne rozwiązanie, drugi z lukami
+  w krokach, kolejne samodzielnie z podpowiedziami krok po kroku.
+- **Podpowiedzi do zadań CKE** (`src/views/hintParts.tsx`): kolejne kroki wzorcowego rozwiązania CKE;
+  każda podpowiedź obniża wkład wyniku w biegłość (−20%, najwyżej −60%, pole `hints` wyniku).
+- **Poziomy opanowania** (`src/logic/levels.ts`): nowy → poznany → ćwiczony → opanowany; „opanowany”
+  po bezbłędnym zadaniu z tematu w sprawdzianie mieszanym (`#sprawdzian`, wyniki `src: 'sprawdzian'`).
+- **Cel dnia i zamrożenie serii** (`streakInfo` w `src/logic/events.ts`): jeden opuszczony dzień
+  w środku serii nie przerywa jej, najwyżej raz na 7 dni nauki. Tryb „Mam 10 minut” (`#dziesiec-minut`).
+- **Fiszki „Ucz się”** (`src/logic/learn.ts`): wybór z 4 odpowiedzi, potem wpisywanie z pamięci.
+- **Cel procentowy** (`targets` w stanie, `targetTopics` w `src/logic/tiers.ts`): działy spoza celu ×0,3.
+- **Zeszyt błędów** (`#bledy`): zadania z wynikiem poniżej maksimum, z „Podobne zadanie” (wariant).
+
 ### Ocena bez Claude'a
 
 - zadania zamknięte: klucz CKE;

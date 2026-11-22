@@ -2679,3 +2679,20 @@ label.btn.disabled {
 .checklist li.todo svg {
   color: var(--zle);
 }
+
+.steps {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: var(--o-2);
+}
+
+.level.choice.ok {
+  background: var(--dobrze-tlo);
+  border-color: var(--dobrze);
+}
+
+.level.choice.bad {
+  background: var(--zle-tlo);
+  border-color: var(--zle);
+}

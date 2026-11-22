@@ -44,8 +44,9 @@ export function itemTitle(it: PlanItem, d: Derived): string {
   }
   if (it.kind === 'diagnoza') return `Diagnoza: ${sub?.name.toLowerCase() ?? ''}`;
   if (it.kind === 'przegląd') return 'Przegląd błędów przed egzaminem';
-  if (it.kind === 'korepetycje') return 'Korepetycje z angielskiego';
+  if (it.kind === 'korepetycje') return `Korepetycje: ${sub?.name.toLowerCase() ?? ''}`;
   if (it.kind === 'fiszki') return 'Fiszki do powtórki';
+  if (it.kind === 'ćwiczenie') return `Ćwiczenie: ${shortTopic(it.topicId ?? '')}`;
   return 'Zadanie';
 }
 
@@ -64,7 +65,8 @@ export function itemType(it: PlanItem, d: Derived): string | null {
     const t = d.tasks.get(it.taskId);
     return t ? typeText(t) : null;
   }
-  if (it.kind === 'korepetycje') return it.reason.replace('Korepetycje z angielskiego, ', 'godz. ').replace(/\.$/, '');
+  if (it.kind === 'korepetycje') return it.reason.replace(/^Korepetycje: [^,]*, /, 'godz. ').replace(/\.$/, '');
+  if (it.kind === 'ćwiczenie') return 'wariant zadania z innymi liczbami';
   if (it.kind === 'fiszki') return it.reason.replace(/\.$/, '');
   return null;
 }
@@ -81,6 +83,7 @@ export function openItem(it: PlanItem, d: Derived) {
   if (it.kind === 'diagnoza' && it.subjectId) return go({ name: 'diagnoza', subject: it.subjectId });
   if (it.kind === 'przegląd') return go({ name: 'postep', subject: it.subjectId });
   if (it.kind === 'fiszki') return go('#fiszki');
+  if (it.kind === 'ćwiczenie' && it.subjectId && it.topicId) return go({ name: 'cwiczenie', subject: it.subjectId, topic: it.topicId });
 }
 
 /** Pozycje do przejścia „Zacznij naukę” / „Dalej”: niezrobione zadania dnia. */
@@ -327,7 +330,7 @@ export function PlanCard({ date, item, onSwap, editable = true }: { date: string
     { label: 'Usuń z planu', run: () => edit.remove(date, item), danger: true },
   ];
   const actionLabel =
-    item.kind === 'arkusz' ? 'Zacznij arkusz' : item.kind === 'diagnoza' ? 'Zacznij diagnozę' : item.kind === 'wypracowanie' ? 'Pisz' : item.kind === 'fiszki' ? 'Powtórz fiszki' : 'Rozwiąż';
+    item.kind === 'arkusz' ? 'Zacznij arkusz' : item.kind === 'diagnoza' ? 'Zacznij diagnozę' : item.kind === 'wypracowanie' ? 'Pisz' : item.kind === 'fiszki' ? 'Powtórz fiszki' : item.kind === 'ćwiczenie' ? 'Ćwicz' : 'Rozwiąż';
   return (
     <div className={`card task-card${tickable ? '' : ' click'}${done ? ' done' : doing ? ' doing' : ''}`} onClick={tickable ? undefined : open}>
       <div className="meta">

@@ -92,3 +92,29 @@ export function tierFactor(subject: string, topic: string, stage: number): numbe
   if (tier == null) return 1;
   return TIER_FACTOR[tier] * (STAGE_OF[tier] > stage ? LOCKED : 1);
 }
+
+// ---------- cel procentowy (plan matemaks: „na 30%”, „na 60%”, „na 85%”, „na 100%”) ----------
+
+/** Działy potrzebne do celu: podstawa według etapów listy lekcji matemaks, rozszerzenie: S+ i S na 60–70%. */
+const TARGET_P: [number, string[]][] = [
+  [30, ['potegi', 'logarytmy', 'wartosc-bezwzgledna', 'wielomiany', 'rownania', 'wymierne']],
+  [60, ['ciagi', 'okrag', 'geometria-analityczna', 'prawdopodobienstwo', 'kwadratowa-parametr']],
+  [85, ['trygonometria', 'planimetria', 'podobienstwo', 'stereometria']],
+  [100, ['procenty', 'kombinatoryka', 'dowody']],
+];
+
+export const TARGET_OPTIONS: Record<string, number[]> = { 'mat-p': [30, 60, 85, 100], 'mat-r': [70, 100], 'pol-p': [30, 50, 70, 90], 'ang-p': [30, 50, 70, 90] };
+
+/** Działy, które obejmuje cel (null = wszystkie albo przedmiot bez podziału). */
+export function targetTopics(subject: string, target: number | undefined): string[] | null {
+  if (target == null || target >= 100) return null;
+  if (subject === 'mat-p') return TARGET_P.filter(([t]) => t <= Math.max(30, target)).flatMap(([, xs]) => xs);
+  if (subject === 'mat-r' && target <= 70) return Object.entries(TIERS['mat-r']).filter(([, v]) => v === 'S+' || v === 'S').map(([k]) => k);
+  return null;
+}
+
+/** Działy spoza celu dostają mniejszą wagę (×0,3), ale nie znikają z planu. */
+export function targetFactor(subject: string, topic: string, target: number | undefined): number {
+  const xs = targetTopics(subject, target);
+  return !xs || xs.includes(topic) ? 1 : 0.3;
+}

@@ -8,6 +8,7 @@ import { go } from '../ui/router';
 import { useReminderDue } from './reminder';
 import { AddSheet, flowFor, openItem, PlanCard, SwapSheet } from './planParts';
 import { WeeklyCard } from './Weekly';
+import { DailyGoalCard } from './startParts';
 
 export function SyncBanner() {
   const { sync, retrySync, storageFull, cloud } = useStore();
@@ -175,6 +176,7 @@ export function StartView() {
       <div className="start-grid">
         <Summary diagInPlan={items.some((i) => i.kind === 'diagnoza')} />
         <section className="stack" aria-labelledby="na-dzis">
+          <DailyGoalCard />
           <WeeklyCard />
           <div className="row-between">
             <h2 id="na-dzis">Na dziś</h2>

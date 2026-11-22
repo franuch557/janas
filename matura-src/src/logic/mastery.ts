@@ -17,7 +17,8 @@ export function topicMastery(results: ResultEvent[], subjectId: SubjectId, topic
   const mine = results.filter((r) => r.subj === subjectId && r.topics.includes(topicId) && r.max > 0 && (!until || r.d <= until));
   if (!mine.length) return { value: null, results: 0 };
   const last = [...mine].sort((a, b) => a.at - b.at).slice(-6);
-  const p = last.reduce((s, r) => s + r.pts / r.topics.length, 0);
+  // wynik z podpowiedziami liczy się słabiej: każda podpowiedź −20% (najwyżej −60%)
+  const p = last.reduce((s, r) => s + ((r.pts / r.topics.length) * (1 - 0.2 * Math.min(3, r.hints ?? 0))), 0);
   const m = last.reduce((s, r) => s + r.max / r.topics.length, 0);
   return { value: m > 0 ? p / m : null, results: mine.length };
 }

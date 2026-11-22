@@ -1,4 +1,5 @@
 import { RubricGrader } from './rubricParts';
+import { HintSteps, useHintSteps } from './hintParts';
 import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
 import { useEffect, useRef, useState } from 'react';
 import { subjectDef } from '../model';
@@ -107,6 +108,8 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
   const [plays, setPlays] = useState(0);
   const sw = useStopwatch(!checked);
   const autoKind = useAutoKind(t);
+  const hintSteps = useHintSteps(t);
+  const [hints, setHints] = useState(0);
   const [autoRes, setAutoRes] = useState<AutoResult | null>(null);
   const live = useRef<HTMLDivElement>(null);
   const sub = subjectDef(t.subjectId)!;
@@ -121,7 +124,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     setChecked(true);
     if (r.points < t.maxPoints) remember([{ subj: t.subjectId, topic: t.topics[0] ?? null, type: 'inne', note: `błędna odpowiedź w zadaniu zamkniętym (${shortTopic(t.topics[0])})` }]);
     const id = saveResult(
-      { task: t.id, subj: t.subjectId, topics: t.topics, pts: r.points, max: t.maxPoints, sec: sw.seconds(), src: 'zadanie', choice },
+      { task: t.id, subj: t.subjectId, topics: t.topics, pts: r.points, max: t.maxPoints, sec: sw.seconds(), src: 'zadanie', choice, ...(hints ? { hints } : {}) },
       { toast: false },
     );
     setSavedId(id);
@@ -139,6 +142,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
       max: t.maxPoints,
       sec: sw.seconds(),
       src: 'zadanie',
+      ...(hints ? { hints } : {}),
       note: note.trim() || undefined,
       by: byClaude ? 'claude' : byAuto ? 'automat' : 'samoocena',
       feedback: byClaude && grade ? grade.feedback : byAuto ? autoRes!.feedback : undefined,
@@ -160,6 +164,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     setSelf(null);
     setGrade(null);
     setAutoRes(null);
+    setHints(0);
     setRevealed(false);
     sw.reset();
   };
@@ -311,6 +316,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
               />
             ) : null}
             {grade ? <Verdict r={grade} /> : null}
+            {hintSteps && !checked && !revealed ? <HintSteps steps={hintSteps} shown={hints} onShow={() => setHints((h) => h + 1)} /> : null}
             {autoKind && !grade && !checked ? (
               <AutoGrader
                 key={`auto-${t.id}`}

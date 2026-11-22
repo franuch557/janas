@@ -129,7 +129,7 @@ bothDevices(test, '14d. Fiszki i tryb 5 minut', async (t, device, use) => {
   await page.goto(url('#fiszki'));
   await waitReady(page);
   await checkScreen(page, 'fiszki');
-  await page.getByRole('button', { name: /^Ucz się \(\d+\)$/ }).click();
+  await page.getByRole("button", { name: /^Powtórka \(\d+\)$/ }).click();
   // „Nie umiem” odkłada kartę w tej samej sesji: pętla do końca kolejki
   let shown = 0;
   for (let i = 0; i < 40 && (await page.getByRole('button', { name: 'Pokaż odpowiedź' }).count()); i++) {

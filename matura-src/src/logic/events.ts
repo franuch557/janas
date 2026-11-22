@@ -72,15 +72,36 @@ export function studyDays(a: ActiveEvents): Set<string> {
   return s;
 }
 
-/** Seria: kolejne dni z nauką kończące się dziś (albo wczoraj, jeśli dziś jeszcze nic). */
+/**
+ * Seria: kolejne dni z nauką kończące się dziś (albo wczoraj, jeśli dziś jeszcze nic).
+ * Zamrożenie serii (jak w Duolingo): jeden opuszczony dzień w środku serii nie przerywa jej,
+ * najwyżej raz na 7 dni nauki. Opuszczony dzień nie liczy się do serii.
+ */
 export function streak(days: Set<string>, today: string): number {
+  return streakInfo(days, today).days;
+}
+
+export function streakInfo(days: Set<string>, today: string): { days: number; frozen: string[] } {
   let d = days.has(today) ? today : addDays(today, -1);
   let n = 0;
-  while (days.has(d)) {
-    n++;
-    d = addDays(d, -1);
+  let lastFreeze = -Infinity;
+  const frozen: string[] = [];
+  for (;;) {
+    if (days.has(d)) {
+      n++;
+      d = addDays(d, -1);
+      continue;
+    }
+    const prev = addDays(d, -1);
+    if (n > 0 && days.has(prev) && n - lastFreeze >= 7) {
+      lastFreeze = n;
+      frozen.push(d);
+      d = prev;
+      continue;
+    }
+    break;
   }
-  return n;
+  return { days: n, frozen };
 }
 
 /** Czas nauki w sekundach. Zadania z arkusza liczą się w czasie arkusza. */

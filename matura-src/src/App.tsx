@@ -1,3 +1,5 @@
+import { PracticeView } from './views/Practice';
+import { MistakesView, QuizView } from './views/Quiz';
 import { useEffect, useRef } from 'react';
 import { useStore } from './store/AppStore';
 import { FOCUS_ROUTES, go, useRoute, type Route } from './ui/router';
@@ -241,7 +243,19 @@ export default function App() {
       view = <FlashcardsView />;
       break;
     case 'piec-minut':
-      view = <QuickMode />;
+      view = <QuickMode key="5" minutes={5} />;
+      break;
+    case 'dziesiec-minut':
+      view = <QuickMode key="10" minutes={10} />;
+      break;
+    case 'cwiczenie':
+      view = <PracticeView key={`${route.subject}-${route.topic}`} subject={route.subject} topic={route.topic} />;
+      break;
+    case 'sprawdzian':
+      view = <QuizView />;
+      break;
+    case 'bledy':
+      view = <MistakesView />;
       break;
     case 'lektury':
       view = <BooksView />;

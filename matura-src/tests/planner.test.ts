@@ -83,6 +83,17 @@ describe('plan', () => {
     expect(mat(withL)).toBeLessThan(mat(without));
   });
 
+  it('ćwiczenie z wariantem, gdy zadania CKE z tematu się skończą (najwyżej jedno dziennie na przedmiot)', () => {
+    const topics = Object.keys(prio()['mat-p'] ?? {});
+    const { days } = buildPlan(input({ until: '2027-02-28', practice: { 'mat-p': topics } }));
+    const ex = days.flatMap((d) => d.items.filter((i) => i.kind === 'ćwiczenie').map((i) => ({ d: d.date, s: i.subjectId })));
+    expect(ex.length).toBeGreaterThan(0);
+    const perDay = new Map<string, number>();
+    for (const e of ex) perDay.set(`${e.d}|${e.s}`, (perDay.get(`${e.d}|${e.s}`) ?? 0) + 1);
+    expect(Math.max(...perDay.values())).toBe(1);
+    expect(buildPlan(input({ until: '2027-02-28' })).days.some((d) => d.items.some((i) => i.kind === 'ćwiczenie'))).toBe(false);
+  });
+
   it('suma minut mieści się w czasie dnia (poza dniami arkusza)', () => {
     const { days } = buildPlan(input({ until: '2027-05-11' }));
     for (const d of days) if (!d.items.some((i) => i.kind === 'arkusz')) expect(d.used).toBeLessThanOrEqual(d.available);

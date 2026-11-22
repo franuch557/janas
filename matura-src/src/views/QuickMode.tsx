@@ -1,4 +1,4 @@
-// Tryb „5 minut”: 3 szybkie zadania zamknięte z najsłabszych tematów i 3 fiszki.
+// Tryb „5 minut” i „10 minut”: szybkie zadania zamknięte z najsłabszych tematów (3 albo 6) i fiszki.
 
 import { useMemo, useState } from 'react';
 import { subjectDef } from '../model';
@@ -14,15 +14,14 @@ import { goBack } from '../ui/router';
 import { CardReview, fiszek } from './Flashcards';
 import { zadan } from '../logic/format';
 
-const LIMIT = 5 * 60_000;
-
-export function QuickMode() {
+export function QuickMode({ minutes = 5 }: { minutes?: 5 | 10 }) {
+  const LIMIT = minutes * 60_000;
   const { d, data, today, saveResult } = useStore();
   const [start] = useState(Date.now());
   const now = useNow(1000);
   // zestaw losuję raz na wejście (wyniki zmieniają się w trakcie)
   const tasks = useMemo(
-    () => pickQuickTasks(Object.values(d.available).flat().filter((t) => data.stan.enabled[t.subjectId] && !t.user), d.srsBefore, (s, tp) => d.mastery[s as keyof typeof d.mastery]?.[tp]?.value ?? null, today),
+    () => pickQuickTasks(Object.values(d.available).flat().filter((t) => data.stan.enabled[t.subjectId] && !t.user), d.srsBefore, (s, tp) => d.mastery[s as keyof typeof d.mastery]?.[tp]?.value ?? null, today, minutes === 10 ? 6 : 3),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   );
@@ -59,7 +58,7 @@ export function QuickMode() {
           <button type="button" className="btn btn-icon" aria-label="Zamknij" title="Zamknij" onClick={goBack}>
             <Icon name="zamknij" />
           </button>
-          <span className="where">5 minut</span>
+          <span className="where">{minutes} minut</span>
           <span className="timer" role="timer" aria-label="Czas do końca">
             <Icon name="zegar" size={20} />
             {fmtClock(left)}

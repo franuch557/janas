@@ -58,7 +58,8 @@ function evaluate(p: MathParams) {
 
 let best: { p: MathParams; r: ReturnType<typeof evaluate> } | null = null;
 for (const coverage of [0.5, 0.6, 0.67, 0.75, 0.85, 1])
-  for (const minWork of [1, 2, 3, 4])
+  // minWork najwyżej 2: karzę tylko sam wynik bez żadnych kroków (krótkie poprawne rozwiązania są w porządku)
+  for (const minWork of [1, 2])
     for (const bareCap of [0, 1]) {
       const p = { coverage, minWork, bareCap };
       const r = evaluate(p);
@@ -82,5 +83,23 @@ for (const e of exams) {
   }
 }
 writeFileSync('src/data/klucze-matematyka.json', JSON.stringify(runtime) + '\n');
+// podpowiedzi krok po kroku: wzorcowe rozwiązanie CKE podzielone na kroki (najwyżej 6)
+const hints: Record<string, string[]> = {};
+for (const e of exams) {
+  if (e.family !== 'matematyka') continue;
+  for (const t of e.tasks) {
+    const sol = keys[e.id]?.[t.nr]?.solution;
+    if (!sol) continue;
+    const lines = sol.split('\n').map((l) => l.trim()).filter((l) => l && !/^Sposób/.test(l)).slice(0, 40);
+    if (lines.length < 2) continue;
+    const k = Math.min(6, lines.length);
+    const per = Math.ceil(lines.length / k);
+    const steps: string[] = [];
+    for (let i = 0; i < lines.length; i += per) steps.push(lines.slice(i, i + per).join('\n'));
+    hints[taskIdFor(e.id, t.nr)] = steps;
+  }
+}
+writeFileSync('src/data/rozwiazania-matematyka.json', JSON.stringify(hints) + '\n');
+console.log(`Podpowiedzi krok po kroku: ${Object.keys(hints).length} zadań`);
 console.log(`Zadania z oceną automatyczną w aplikacji: ${Object.keys(runtime).length}`);
 writeFileSync('src/data/ocena-matematyka.json', JSON.stringify({ params: best!.p, wynik: { zadania: best!.r.checkable, wzorcowe: best!.r.pos, polowa: best!.r.half, cudze: best!.r.neg, samWynik: best!.r.bare } }, null, 1) + '\n');

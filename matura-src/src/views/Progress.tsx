@@ -13,6 +13,11 @@ import { activeNotes } from '../logic/memory';
 import { ReportHistory } from './Weekly';
 import { go } from '../ui/router';
 import { shortTopic } from './planParts';
+import { topicLevel } from '../logic/levels';
+import { TARGET_OPTIONS, targetTopics } from '../logic/tiers';
+import { generatorsFor } from '../logic/variants';
+
+const LEVEL_TONE = { nowy: undefined, poznany: 'ink', 'ćwiczony': 'warn', opanowany: 'ok' } as const;
 
 interface Point {
   date: string;
@@ -171,14 +176,18 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
               </div>
             )}
           </section>
+          <TargetCard subject={sel} forecastPct={fc.pct} />
           <section className="stack">
             <h2>Tematy</h2>
+            <p className="small muted">Poziom: nowy → poznany → ćwiczony → opanowany. „Opanowany” daje dopiero bezbłędne zadanie z tematu w sprawdzianie mieszanym.</p>
             <div className="card flush list">
               {topicRows.map(({ t, m }) => (
                 <button type="button" className="li" key={t.id} onClick={() => go({ name: 'zadania', subject: sel, topic: t.id })}>
                   <div className="grow stack-2" style={{ gap: 4 }}>
                     <div className="row-between">
-                      <span style={{ fontWeight: 600 }}>{shortTopic(t.id)}</span>
+                      <span style={{ fontWeight: 600 }}>
+                        {shortTopic(t.id)} <Tag tone={LEVEL_TONE[topicLevel(d.active.results, sel, t.id, m?.value ?? null, today)]}>{topicLevel(d.active.results, sel, t.id, m?.value ?? null, today)}</Tag>
+                      </span>
                       <span className="small tnum" style={{ whiteSpace: 'nowrap' }}>{m?.value != null ? `${Math.round(m.value * 100)}%` : 'nie badano'}</span>
                     </div>
                     {m?.value != null ? (
@@ -302,5 +311,57 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
         </div>
       </div>
     </div>
+  );
+}
+
+/** Cel procentowy przedmiotu: prognoza względem celu i działy, które obejmuje cel (plan matemaks). */
+function TargetCard({ subject, forecastPct }: { subject: SubjectId; forecastPct: number | null }) {
+  const { data, d, updateStan, today } = useStore();
+  const opts = TARGET_OPTIONS[subject] ?? [30, 50, 70, 90];
+  const target = data.stan.targets?.[subject];
+  const topics = targetTopics(subject, target);
+  const pending = topics?.filter((t) => topicLevel(d.active.results, subject, t, d.mastery[subject][t]?.value ?? null, today) !== 'opanowany') ?? [];
+  return (
+    <section className="card stack-2" aria-label="Cel">
+      <div className="row-between">
+        <h2>Cel</h2>
+        {target != null && forecastPct != null ? (
+          <span className={`tnum ${forecastPct >= target ? 'ok-text' : ''}`} style={{ fontWeight: 650 }}>
+            prognoza {forecastPct}% / cel {target}%
+          </span>
+        ) : null}
+      </div>
+      <Segmented
+        label="Cel w procentach"
+        options={[0, ...opts]}
+        value={target ?? 0}
+        onChange={(v) => updateStan((st) => ({ ...st, targets: { ...(st.targets ?? {}), [subject]: v === 0 ? undefined : v } }))}
+        render={(v) => (v === 0 ? 'bez celu' : `${v}%`)}
+      />
+      {topics ? (
+        <>
+          <p className="small muted">
+            Do tego celu wystarczą działy: {topics.map((t) => shortTopic(t)).join(', ')}. Plan skupia się na nich, reszta pojawia się rzadziej.
+          </p>
+          {pending.length ? (
+            <div className="row" style={{ flexWrap: 'wrap' }}>
+              {pending.slice(0, 6).map((t) =>
+                generatorsFor(subject, t).length ? (
+                  <button key={t} type="button" className="btn btn-secondary btn-sm" onClick={() => go({ name: 'cwiczenie', subject, topic: t })}>
+                    Ćwicz: {shortTopic(t)}
+                  </button>
+                ) : null,
+              )}
+            </div>
+          ) : (
+            <p className="small ok-text">Wszystkie działy do celu są opanowane.</p>
+          )}
+        </>
+      ) : target != null ? (
+        <p className="small muted">Plan obejmuje wszystkie działy.</p>
+      ) : (
+        <p className="small muted">Wybierz cel, żeby plan skupił się na działach, które go dają (dla matematyki według planu matemaks).</p>
+      )}
+    </section>
   );
 }

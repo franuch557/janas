@@ -63,6 +63,8 @@ export interface PlannerInput {
   dayMinutes: number[];
   /** Stałe zajęcia z przedmiotów (korepetycje), poza czasem nauki. */
   lessons: Lesson[];
+  /** Tematy z wariantami zadań (generatory): gdy zadań CKE z tematu brak, plan daje ćwiczenie. */
+  practice?: Partial<Record<SubjectId, string[]>>;
   overrides: Record<string, DayOverride>;
   tasks: PlanTask[];
   exams: PlanExam[];
@@ -422,7 +424,14 @@ export function buildPlan(input: PlannerInput): PlanResult {
               ? inTopic.find((st) => st.srs.status === 'nowe' && fits(st.task.minutes))
               : inTopic.filter((st) => st.srs.status === 'do powtórki' && fits(st.task.minutes)).sort((a, b) => (a.srs.lastPct ?? 0) - (b.srs.lastPct ?? 0))[0] ??
                 inTopic.find((st) => st.srs.status === 'nowe' && fits(st.task.minutes));
-          if (!cand) continue;
+          if (!cand) {
+            // zadań CKE z tematu brak: wariant z innymi liczbami (raz dziennie na przedmiot)
+            const ref = `c:${s.id}:${topicId}:${date}`;
+            if (round === 0 && input.practice?.[s.id]?.includes(topicId) && !day.items.some((i) => i.kind === 'ćwiczenie' && i.subjectId === s.id) && fits(8)) {
+              if (push(item({ ref, kind: 'ćwiczenie', subjectId: s.id, topicId, minutes: 8, reason: 'Ćwiczenie: ten sam typ zadania z innymi liczbami (zadania CKE z tego tematu już przerobione).' }))) spent += 8;
+            }
+            continue;
+          }
           const reason =
             ph === 'nowe tematy'
               ? 'Temat, który daje dużo punktów na maturze albo słabo poszedł.'

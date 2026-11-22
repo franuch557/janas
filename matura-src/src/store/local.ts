@@ -85,6 +85,7 @@ export function fixStan(raw: unknown, today: string): Stan {
     enabled: { ...d.enabled, ...(s.enabled ?? {}) },
     dayMinutes: Array.isArray(s.dayMinutes) && s.dayMinutes.length === 7 ? s.dayMinutes.map((x) => Number(x) || 0) : d.dayMinutes,
     tutoring: { ...d.tutoring, ...(s.tutoring ?? {}) },
+    targets: s.targets && typeof s.targets === 'object' ? Object.fromEntries(Object.entries(s.targets).filter(([, v]) => Number.isFinite(Number(v))).map(([k, v]) => [k, Math.max(0, Math.min(100, Number(v)))])) : {},
     lessons: Array.isArray(s.lessons) ? s.lessons.filter(validLesson) : lessonsFromTutoring(s.tutoring),
     reminder: { ...d.reminder, ...(s.reminder ?? {}) },
     overrides: s.overrides && typeof s.overrides === 'object' ? s.overrides : {},

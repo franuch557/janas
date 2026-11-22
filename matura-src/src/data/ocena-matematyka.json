@@ -1,14 +1,14 @@
 {
  "params": {
   "coverage": 0.85,
-  "minWork": 4,
+  "minWork": 2,
   "bareCap": 0
  },
  "wynik": {
   "zadania": 258,
-  "wzorcowe": 0.6472868217054264,
-  "polowa": 0.9263565891472868,
+  "wzorcowe": 0.6550387596899225,
+  "polowa": 0.9186046511627907,
   "cudze": 0.9418604651162791,
-  "samWynik": 0.9675675675675676
+  "samWynik": 0.5621621621621622
  }
 }
