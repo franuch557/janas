@@ -31,7 +31,7 @@ export function filterExams(exams: Exam[], f: ExamFilter): { current: Exam[]; ol
 
 /** Lata dostępne w bazie dla przedmiotu i poziomu. */
 export function availableYears(exams: Exam[], family: Family, level: Level): number[] {
-  return [...new Set(exams.filter((e) => e.family === family && e.level === level).map((e) => e.year))].sort();
+  return [...new Set(exams.filter((e) => e.family === family && e.level === level && e.session !== 'zbiór').map((e) => e.year))].sort();
 }
 
 export interface ExamIssue {

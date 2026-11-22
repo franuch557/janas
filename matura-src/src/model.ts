@@ -315,6 +315,14 @@ export interface Flashcard {
   reviews: number;
   /** Dzień ostatniej powtórki. */
   reviewedOn?: string;
+  /** Dzień pierwszej nauki (limit nowych kart na dzień). */
+  firstOn?: string;
+  /** Współczynnik łatwości SM-2 (domyślnie 2,5). */
+  ease?: number;
+  /** Bieżący odstęp w dniach; 0 = nowa albo w nauce. */
+  ivl?: number;
+  /** Liczba pomyłek po nauczeniu. */
+  lapses?: number;
   at: number;
   deleted?: boolean;
 }

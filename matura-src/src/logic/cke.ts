@@ -212,7 +212,8 @@ export function normalizeExams(raw: unknown): CkeExam[] {
       audio: str(e.audio),
       parts,
       tasks,
-      complete: !missingAudio && tasks.length > 0 && allPointed && maxPoints != null && sum === maxPoints,
+      // zbiór zadań nie jest arkuszem próbnym
+      complete: session !== 'zbiór' && !missingAudio && tasks.length > 0 && allPointed && maxPoints != null && sum === maxPoints,
     });
   }
   return out.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
@@ -220,7 +221,13 @@ export function normalizeExams(raw: unknown): CkeExam[] {
 
 const MONTHS_NOM: Record<string, string> = { marzec: 'marzec (próbna)', maj: 'maj', czerwiec: 'czerwiec', 'sierpień': 'sierpień' };
 
-export function examLabel(e: { year: number; session: string }): string {
+/** Nazwa źródła zadania spoza arkuszy: zbiór zadań CKE (2022) albo informator CKE (2024). */
+export function bookLabel(id: string): string {
+  return id.startsWith('INF-') ? 'Informator CKE' : 'Zbiór zadań CKE';
+}
+
+export function examLabel(e: { year: number; session: string; id?: string; examId?: string }): string {
+  if (e.session === 'zbiór') return bookLabel(e.id ?? e.examId ?? '');
   return `CKE ${e.year}, ${MONTHS_NOM[e.session] ?? e.session}`;
 }
 

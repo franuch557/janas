@@ -139,6 +139,29 @@ export function parseCards(raw: unknown, max = 20): CardDraft[] {
   return out;
 }
 
+export function cardsFromPhotoPrompt(subject: string, n: number): string {
+  return `[typ: fiszki-zdjecie]\n${n > 1 ? `Na ${n} zdjęciach są` : 'Na zdjęciu są'} notatki ucznia albo strona podręcznika (przedmiot: ${subject}). Odczytaj z nich pary do fiszek tak jak w Quizlecie: lista słówek z tłumaczeniem, pojęcie z definicją, wzór z nazwą, data z wydarzeniem, pytanie z odpowiedzią. Przepisz to, co jest na zdjęciu, nie wymyślaj nowych treści i nie tłumacz sam, chyba że tłumaczenia brak przy słówku angielskim (wtedy dodaj krótkie polskie znaczenie). Pomiń nieczytelne fragmenty. Najwyżej 60 fiszek.\n\nOdpowiedz wyłącznie tablicą JSON: [{"front": "pojęcie / słowo / pytanie", "back": "znaczenie / definicja / odpowiedź", "example": null}]. Wzory w $…$.`;
+}
+
+/** Tekst wklejony przez ucznia: linia „przód – tył” (także tabulator, „ : ”, „ = ”, „ - ”). */
+export function parseCardText(text: string, max = 300): CardDraft[] {
+  const out: CardDraft[] = [];
+  const seen = new Set<string>();
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line) continue;
+    const m = /^(.+?)(?:\t+|\s+[–—-]\s+|\s*[:=]\s+|\s+[:=]\s*)(.+)$/.exec(line);
+    if (!m) continue;
+    const front = m[1].trim().slice(0, 200);
+    const back = m[2].trim().slice(0, 400);
+    if (!front || !back || seen.has(front.toLowerCase())) continue;
+    seen.add(front.toLowerCase());
+    out.push({ front, back, example: null });
+    if (out.length >= max) break;
+  }
+  return out;
+}
+
 export function cardsFromTaskPrompt(label: string): string {
   return `[typ: fiszki-zadanie]\nObraz: zadanie z arkusza CKE z języka angielskiego (${label}) z tekstem lub transkrypcją. Wybierz 10–15 słówek i zwrotów przydatnych na maturze podstawowej. Odpowiedz wyłącznie tablicą JSON: [{"front": "słowo lub zwrot po angielsku", "back": "znaczenie po polsku", "example": "krótkie przykładowe zdanie po angielsku"}].`;
 }
@@ -170,6 +193,10 @@ export function parseOralPlan(raw: unknown): OralPlan | null {
 
 export function oralPrompt(question: string, lektura: string | null, material: string): string {
   return `[typ: ustny]\nMatura ustna z języka polskiego. Pytanie jawne: „${question}”${lektura ? ` (lektura: ${lektura})` : ''}.\n${material ? `Opracowanie lektury:\n${material.slice(0, 8000)}\n` : ''}Przygotuj plan wypowiedzi na 5 minut: teza, 2 argumenty z lektury, kontekst, zakończenie. Po polsku, zwięźle. Odpowiedz wyłącznie obiektem JSON: {"teza": "…", "argumenty": ["…", "…"], "kontekst": "…", "zakonczenie": "…"}.`;
+}
+
+export function oral2Prompt(polecenie: string, typ: string, note: string, hasKey: boolean): string {
+  return `[typ: ustny-zadanie2]\nMatura ustna z języka polskiego, zadanie 2 (niejawne, materiał ${typ}). Na obrazie ${hasKey ? 'pierwszym jest materiał z zadania, na drugim przykładowa realizacja CKE' : 'jest materiał z zadania'}.\nPolecenie: „${polecenie}”\n\n${note.trim() ? `Plan wypowiedzi ucznia:\n${note.slice(0, 4000)}\n\nOceń plan krótko: czy ma tezę odpowiadającą na pytanie, czy odwołuje się do materiału i do drugiego tekstu kultury, czego brakuje. Potem daj 2–3 konkretne wskazówki.` : 'Uczeń nie ma jeszcze planu. Podpowiedz, jak zacząć: możliwa teza, co zauważyć w materiale, jakie dwa teksty kultury pasują (lektury szkolne).'} Po polsku, zwięźle, bez wstępów, najwyżej 180 słów.`;
 }
 
 // ---------- Kody błędów ----------

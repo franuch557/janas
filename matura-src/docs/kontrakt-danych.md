@@ -104,3 +104,44 @@ zawiera „pytania” albo „jawne”):
 
 `lektura` = nagłówek grupy z wykazu (null, gdy wykaz go nie ma); `lekturaId` uzupełnia się ręcznie.
 
+
+## 6. Zbiory zadań i informatory CKE (`session: "zbiór"`)
+
+`npm run zbiory:import` dopisuje do `data/exams.json` cztery wpisy z sesją `"zbiór"`:
+`ZBIOR-MMAP-P0`, `ZBIOR-MMAP-R0` (zbiory zadań CKE z 2022 r., rok 2022) oraz `INF-MMAP-P0`,
+`INF-MMAP-R0` (informatory CKE od 2024/2025, rok 2024). Pliki w `cke-pdf/`:
+`zbior-zadan-matematyka-pp.pdf`, `zbior-zadan-matematyka-pr.pdf`,
+`informator-matematyka-pp-2024.pdf`, `informator-matematyka-pr-2024.pdf`.
+
+- `minutes: null`, zadania mają ten sam format co w arkuszach (obrazy w `cke-obrazy/zad|odp/<id>/`).
+- Aplikacja: `complete = false` (nie są arkuszami próbnymi), nie wchodzą do wag tematów ani do
+  listy lat, ale trafiają do banku zadań, planu i diagnozy. Etykieta: „Zbiór zadań CKE” albo
+  „Informator CKE” (`bookLabel` w `src/logic/cke.ts`).
+- Tematy: dział zbioru (I–XIII) + słowa kluczowe; na poziomie podstawowym „Optymalizacja” = funkcja kwadratowa.
+- Klucze zamkniętych, których skrypt nie rozpisuje, są w `data/odpowiedzi-recznie.json`.
+
+## 7. Zadanie 2 z matury ustnej (`data/ustny/zadanie2.json`)
+
+`npm run ustny:zadanie2` (plik `cke-pdf/polski-ustny-zadanie-2-zbior.pdf`, materiał dodatkowy CKE):
+
+```json
+{ "zrodlo": "…", "zadania": [ { "id": "2.7", "czesc": 2, "typ": "ikoniczny", "pytanie": "…?", "polecenie": "… Omów zagadnienie …", "strony": [68], "realizacje": [69, 70], "obraz": true, "realizacja": true } ] }
+```
+
+Obrazy (materiał i przykładowe realizacje) trafiają do `cke-obrazy/ustny/{zad,odp}/<id>.jpg`,
+a `npm run cke:pakiet` składa z nich `public/cke/ustny-zadanie2.json` = `{ "zad": { id: dataURL }, "odp": { … } }`.
+Notatki ucznia do zadania 2 są w dokumencie stanu pod kluczem `oral["z2-<id>"]`.
+
+## 8. Format obrazów w pakiecie
+
+Od wersji 3.3 `npm run cke:pakiet` koduje obrazy jako WebP (jakość 55, `WEBP_Q`), co daje ok. 25% mniej
+niż JPEG. Obraz dłuższy niż 16 383 px albo taki, przy którym WebP nie jest mniejszy, zostaje w JPEG.
+`WEBP=0` wyłącza konwersję. Aplikacja przyjmuje oba formaty (data URL).
+
+## 9. Fiszki (powtórki jak w Anki)
+
+Fiszka (`Flashcard` w `src/model.ts`) ma pola SM-2: `ease` (łatwość, start 2,5, min. 1,3), `ivl` (odstęp w
+dniach, 0 = nowa albo w nauce), `lapses` (pomyłki), `firstOn` (dzień pierwszej nauki). Oceny: Nie umiem
+(karta wraca w tej samej sesji, łatwość −0,2), Trudne (×1,2, −0,15), Dobrze (×łatwość), Łatwe (×łatwość×1,3, +0,15).
+Najwyżej 20 nowych kart dziennie. Karta z co najmniej 4 pomyłkami jest „trudna”. Starsze karty (tylko `step`)
+dostają odstęp z `INTERVALS[step]`.

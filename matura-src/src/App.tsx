@@ -26,6 +26,8 @@ const NAV = [
   { name: 'plan', label: 'Plan', icon: 'plan' },
   { name: 'zadania', label: 'Zadania', icon: 'zadania' },
   { name: 'arkusze', label: 'Arkusze', icon: 'arkusze' },
+  { name: 'fiszki', label: 'Fiszki', icon: 'fiszki' },
+  { name: 'lektury', label: 'Lektury', icon: 'lektury' },
   { name: 'postep', label: 'Postęp', icon: 'postep' },
 ] as const;
 
@@ -64,7 +66,7 @@ export function SyncButton() {
 function Shell({ route, children }: { route: Route; children: React.ReactNode }) {
   const { d, toasts, dismissToast } = useStore();
   const sync = useSyncInfo();
-  const active = ['zadania', 'zadanie', 'fiszki', 'lektury', 'lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'zadania' : route.name;
+  const active = route.name === 'zadanie' ? 'zadania' : ['lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'lektury' : route.name;
   const focus = FOCUS_ROUTES.has(route.name);
   const toastsEl = (
     <div className={`toasts${focus ? ' focus-mode' : ''}`} aria-live="polite">

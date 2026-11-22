@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { errorText, hidesFeature, parseCards, parseEssayGrade, parseGrade, parseOralPlan, snapValue, trimToBytes } from '../src/logic/ai';
-import { dueCards, reviewCard } from '../src/logic/flashcards';
+import { errorText, hidesFeature, parseCards, parseCardText, parseEssayGrade, parseGrade, parseOralPlan, snapValue, trimToBytes } from '../src/logic/ai';
+import { cardState, dueCards, gradeCard, ivlLabel, newLeft } from '../src/logic/flashcards';
 import { addNotes, memoryBoost, memoryHint, mergeNotes, MEMORY_PER_SUBJECT } from '../src/logic/memory';
 import { pickQuickTasks } from '../src/logic/quick';
 import { reportWeekFor, weeklyReport } from '../src/logic/weekly';
@@ -58,25 +58,59 @@ describe('fiszki i plan odpowiedzi', () => {
   });
 });
 
-describe('powtórki fiszek', () => {
+describe('powtórki fiszek (SM-2 jak w Anki)', () => {
   const card = (over: Partial<Flashcard> = {}): Flashcard => ({ id: 'c', subj: 'ang-p', deck: 'd', deckName: 'D', front: 'f', back: 'b', example: null, step: 0, due: '2026-11-22', reviews: 0, at: 0, ...over });
-  it('„Umiem” 1 → 3 → 7 → 14 dni, „Nie umiem” na jutro', () => {
-    let c = reviewCard(card(), true, '2026-11-22', 1);
-    expect(c.due).toBe('2026-11-23');
-    c = reviewCard(c, true, '2026-11-23', 2);
-    expect(c.due).toBe('2026-11-26');
-    c = reviewCard(c, true, '2026-11-26', 3);
-    expect(c.due).toBe('2026-12-03');
-    c = reviewCard(c, true, '2026-12-03', 4);
-    expect(c.due).toBe('2026-12-17');
-    c = reviewCard(c, true, '2026-12-17', 5);
-    expect(c.due).toBe('2026-12-31');
-    c = reviewCard(c, false, '2026-12-31', 6);
-    expect(c.due).toBe('2027-01-01');
-    expect(c.step).toBe(0);
+  it('„Dobrze” wydłuża odstęp: 1 → 3 → 8 → 20 dni', () => {
+    let c = gradeCard(card(), 'good', '2026-11-22', 1);
+    expect(c.ivl).toBe(1);
+    expect(c.firstOn).toBe('2026-11-22');
+    c = gradeCard(c, 'good', '2026-11-23', 2);
+    expect(c.ivl).toBe(3);
+    c = gradeCard(c, 'good', '2026-11-26', 3);
+    expect(c.ivl).toBe(8);
+    c = gradeCard(c, 'good', '2026-12-04', 4);
+    expect(c.ivl).toBe(20);
+    expect(c.due).toBe('2026-12-24');
   });
-  it('do powtórki tylko karty z terminem, bez usuniętych', () => {
-    expect(dueCards([card({ id: 'a' }), card({ id: 'b', due: '2026-12-01' }), card({ id: 'c', deleted: true })], '2026-11-22').map((c) => c.id)).toEqual(['a']);
+  it('„Nie umiem” wraca dziś, obniża łatwość i liczy pomyłkę; potem karta wraca częściej', () => {
+    let c = gradeCard(card({ reviews: 3, ivl: 10, ease: 2.5 }), 'again', '2026-11-22', 1);
+    expect(c.due).toBe('2026-11-22');
+    expect(c.ivl).toBe(0);
+    expect(c.ease).toBe(2.3);
+    expect(c.lapses).toBe(1);
+    c = gradeCard(c, 'good', '2026-11-22', 2);
+    expect(c.ivl).toBe(1);
+    const easy = gradeCard(card({ reviews: 3, ivl: 10, ease: 2.5 }), 'easy', '2026-11-22', 1);
+    const hard = gradeCard(card({ reviews: 3, ivl: 10, ease: 2.5 }), 'hard', '2026-11-22', 1);
+    expect(easy.ivl).toBeGreaterThan(25);
+    expect(hard.ivl).toBe(12);
+    expect(hard.ease).toBe(2.35);
+  });
+  it('łatwość nie spada poniżej 1,3', () => {
+    let c = card({ reviews: 1, ivl: 5, ease: 1.35 });
+    c = gradeCard(c, 'again', '2026-11-22', 1);
+    expect(c.ease).toBe(1.3);
+  });
+  it('stara karta (pole step) przechodzi na nowy algorytm', () => {
+    expect(cardState(card({ reviews: 2, step: 2 })).ivl).toBe(7);
+    expect(ivlLabel(0)).toBe('teraz');
+    expect(ivlLabel(21)).toBe('3 tyg.');
+  });
+  it('na dziś: najpierw powtórki, potem nowe z limitem, bez usuniętych', () => {
+    const list = [card({ id: 'n1', at: 1 }), card({ id: 'n2', at: 2 }), card({ id: 'r', reviews: 2, ivl: 3, due: '2026-11-20' }), card({ id: 'b', due: '2026-12-01' }), card({ id: 'x', deleted: true })];
+    expect(dueCards(list, '2026-11-22').map((c) => c.id)).toEqual(['r', 'n1', 'n2']);
+    expect(dueCards(list, '2026-11-22', 1).map((c) => c.id)).toEqual(['r', 'n1']);
+  });
+  it('limit nowych kart liczy karty poznane dziś', () => {
+    const list = [card({ id: 'a', reviews: 1, firstOn: '2026-11-22' }), card({ id: 'b', reviews: 1, firstOn: '2026-11-21' })];
+    expect(newLeft(list, '2026-11-22', 20)).toBe(19);
+  });
+  it('tekst „przód – tył” na fiszki', () => {
+    expect(parseCardText('to accomplish – osiągnąć\nsin 30°: 1/2\nbez separatora\nwhale\twieloryb')).toEqual([
+      { front: 'to accomplish', back: 'osiągnąć', example: null },
+      { front: 'sin 30°', back: '1/2', example: null },
+      { front: 'whale', back: 'wieloryb', example: null },
+    ]);
   });
 });
 

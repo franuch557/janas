@@ -3,6 +3,7 @@
 
 const lekturyMods = import.meta.glob('../../data/lektury/*.json', { eager: true, import: 'default' }) as Record<string, unknown>;
 const ustnyMods = import.meta.glob('../../data/ustny/pytania-jawne.json', { eager: true, import: 'default' }) as Record<string, unknown>;
+const zad2Mods = import.meta.glob('../../data/ustny/zadanie2.json', { eager: true, import: 'default' }) as Record<string, unknown>;
 
 type Obj = Record<string, unknown>;
 const isObj = (x: unknown): x is Obj => typeof x === 'object' && x !== null && !Array.isArray(x);
@@ -116,3 +117,42 @@ export const ORAL: { zrodlo: string; rok: string; pytania: OralQuestion[] } | nu
         .filter((q) => q.nr && q.tresc),
     }
   : null;
+
+// ---------- Zadanie 2 (niejawne) z matury ustnej: zbiór przykładowych zadań CKE ----------
+
+export interface OralTask2 {
+  id: string;
+  czesc: number;
+  typ: string;
+  pytanie: string;
+  polecenie: string;
+}
+
+const zad2Raw = Object.values(zad2Mods)[0];
+export const ORAL2: { zrodlo: string; zadania: OralTask2[] } | null = isObj(zad2Raw)
+  ? {
+      zrodlo: s(zad2Raw.zrodlo),
+      zadania: arr(zad2Raw.zadania)
+        .filter(isObj)
+        .map((z) => ({ id: s(z.id).replace(/[^0-9.]/g, ''), czesc: Number(z.czesc) || 1, typ: s(z.typ), pytanie: s(z.pytanie), polecenie: s(z.polecenie) }))
+        .filter((z) => z.id && z.polecenie),
+    }
+  : null;
+
+let pack2: Promise<{ zad: Record<string, string>; odp: Record<string, string> } | null> | null = null;
+/** Obrazy zadań 2 (cke/ustny-zadanie2.json); null, gdy pakietu nie ma. */
+export function loadOral2Pack() {
+  if (!pack2)
+    pack2 = fetch('cke/ustny-zadanie2.json')
+      .then(async (r) => {
+        if (!r.ok || !(r.headers.get('content-type') ?? '').includes('json')) return null;
+        const j = (await r.json()) as unknown;
+        if (!isObj(j) || !isObj(j.zad)) return null;
+        return { zad: j.zad as Record<string, string>, odp: (isObj(j.odp) ? j.odp : {}) as Record<string, string> };
+      })
+      .catch(() => {
+        pack2 = null;
+        return null;
+      });
+  return pack2;
+}

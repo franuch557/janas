@@ -2,8 +2,614 @@
   "MPOP-P1-P2-2305": {
     "A1.13": {
       "items": [
-        { "id": "A1.13.A", "label": "A. Pozytywizm", "options": ["1", "2", "3"], "correct": "1" },
-        { "id": "A1.13.B", "label": "B. Młoda Polska", "options": ["1", "2", "3"], "correct": "3" }
+        {
+          "id": "A1.13.A",
+          "label": "A. Pozytywizm",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correct": "1"
+        },
+        {
+          "id": "A1.13.B",
+          "label": "B. Młoda Polska",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "correct": "3"
+        }
+      ],
+      "scoring": "all",
+      "issue": null
+    }
+  },
+  "MMAP-P0-100-2506": {
+    "12": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "14.2": {
+      "tokens": [
+        "FP"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "15.2": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    }
+  },
+  "MMAP-P0-100-2508": {
+    "3": {
+      "tokens": [
+        "C"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "14.2": {
+      "tokens": [
+        "FF"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "15": {
+      "tokens": [
+        "C"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "17": {
+      "tokens": [
+        "B"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "19": {
+      "tokens": [
+        "D"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "21.1": {
+      "tokens": [
+        "D"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "22.1": {
+      "tokens": [
+        "B"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "25": {
+      "tokens": [
+        "PP"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    }
+  },
+  "MMAP-P0-100-2603": {
+    "10": {
+      "tokens": [
+        "FP"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "29": {
+      "tokens": [
+        "D"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "32.2": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    }
+  },
+  "MMAP-P0-100-2606": {
+    "11": {
+      "tokens": [
+        "C"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "14.2": {
+      "tokens": [
+        "PP"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "21": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "29": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    }
+  },
+  "MMAP-P0-100-2608": {
+    "8": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "14.2": {
+      "tokens": [
+        "D"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "17": {
+      "tokens": [
+        "C"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "22.2": {
+      "tokens": [
+        "A"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "25": {
+      "tokens": [
+        "D"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    },
+    "27": {
+      "tokens": [
+        "D"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    }
+  },
+  "MPOP-P1-P2-2308": {
+    "A1.4": {
+      "tokens": [
+        "PP"
+      ],
+      "zrodlo": "odczyt ręczny z obrazu zasad oceniania"
+    }
+  },
+  "MPOP-P1-P2-2406": {
+    "A1.9.1": {
+      "items": [
+        {
+          "id": "A1.9.1.1",
+          "label": "litera 1 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "A"
+        },
+        {
+          "id": "A1.9.1.2",
+          "label": "litera 2 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "C"
+        },
+        {
+          "id": "A1.9.1.3",
+          "label": "litera 3 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "D"
+        }
+      ],
+      "scoring": {
+        "3": 2,
+        "2": 1
+      },
+      "issue": "wybór 3 liter z A–E bez kolejności: pozycje zapisane alfabetycznie"
+    }
+  },
+  "MPOP-P1-P2-2508": {
+    "A1.14": {
+      "items": [
+        {
+          "id": "A1.14.1",
+          "label": "litera 1 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "B"
+        },
+        {
+          "id": "A1.14.2",
+          "label": "litera 2 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "D"
+        }
+      ],
+      "scoring": "all",
+      "issue": "wybór 2 liter z A–E bez kolejności: pozycje zapisane alfabetycznie"
+    }
+  },
+  "MPOP-P1-P2-2606": {
+    "A1.13": {
+      "items": [
+        {
+          "id": "A1.13.A",
+          "label": "A. Młoda Polska",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": "3"
+        },
+        {
+          "id": "A1.13.B",
+          "label": "B. Dwudziestolecie międzywojenne",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": "1"
+        }
+      ],
+      "scoring": "each",
+      "issue": null
+    }
+  },
+  "MPOP-P1-P2-2608": {
+    "A1.5": {
+      "items": [
+        {
+          "id": "A1.5.1",
+          "label": "litera 1 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "A"
+        },
+        {
+          "id": "A1.5.2",
+          "label": "litera 2 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "correct": "E"
+        }
+      ],
+      "scoring": "all",
+      "issue": "wybór 2 liter z A–E bez kolejności: pozycje zapisane alfabetycznie"
+    }
+  },
+  "MJAP-P0-100-2408": {
+    "4": {
+      "items": [
+        {
+          "id": "4.1",
+          "label": "4.1",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "F"
+        },
+        {
+          "id": "4.2",
+          "label": "4.2",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "C"
+        },
+        {
+          "id": "4.3",
+          "label": "4.3",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "A"
+        },
+        {
+          "id": "4.4",
+          "label": "4.4",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "E"
+        }
+      ],
+      "scoring": "each",
+      "issue": null
+    },
+    "5": {
+      "type": "otwarte",
+      "issue": "5.1–5.3 wybór, 5.4–5.7 luki: całe zadanie sprawdzane jak otwarte"
+    }
+  },
+  "ZBIOR-MMAP-P0": {
+    "8": {
+      "items": [
+        {
+          "id": "8.1",
+          "label": "litera 1 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "B"
+        },
+        {
+          "id": "8.2",
+          "label": "litera 2 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "E"
+        }
+      ],
+      "scoring": "each",
+      "issue": "wybór 2 liter z A–F bez kolejności: pozycje zapisane alfabetycznie"
+    },
+    "53": {
+      "items": [
+        {
+          "id": "53.1",
+          "label": "1",
+          "options": [
+            "P",
+            "F"
+          ],
+          "correct": "P"
+        },
+        {
+          "id": "53.2",
+          "label": "2",
+          "options": [
+            "P",
+            "F"
+          ],
+          "correct": "F"
+        },
+        {
+          "id": "53.3",
+          "label": "3",
+          "options": [
+            "P",
+            "F"
+          ],
+          "correct": "P"
+        }
+      ],
+      "scoring": {
+        "3": 2,
+        "2": 1
+      },
+      "issue": null
+    },
+    "60": {
+      "items": [
+        {
+          "id": "60.1",
+          "label": "kule rozróżnialne, pojemniki rozróżnialne",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "E"
+        },
+        {
+          "id": "60.2",
+          "label": "kule rozróżnialne, pojemniki nierozróżnialne",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "C"
+        },
+        {
+          "id": "60.3",
+          "label": "kule nierozróżnialne, pojemniki rozróżnialne",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "A"
+        },
+        {
+          "id": "60.4",
+          "label": "kule nierozróżnialne, pojemniki nierozróżnialne",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "D"
+        }
+      ],
+      "scoring": {
+        "4": 2,
+        "3": 1,
+        "2": 1
+      },
+      "issue": null
+    }
+  },
+  "INF-MMAP-P0": {
+    "2": {
+      "items": [
+        {
+          "id": "2.1",
+          "label": "1. (A–D)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "C"
+        },
+        {
+          "id": "2.2",
+          "label": "2. (E–H)",
+          "options": [
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "correct": "E"
+        }
+      ],
+      "scoring": "each",
+      "issue": null
+    },
+    "29": {
+      "items": [
+        {
+          "id": "29.1",
+          "label": "29.1. y = g(x)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "D"
+        },
+        {
+          "id": "29.2",
+          "label": "29.2. y = h(x)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "F"
+        }
+      ],
+      "scoring": "each",
+      "issue": null
+    },
+    "51": {
+      "items": [
+        {
+          "id": "51.1",
+          "label": "1. (A–D)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": "A"
+        },
+        {
+          "id": "51.2",
+          "label": "2. (E–G)",
+          "options": [
+            "E",
+            "F",
+            "G"
+          ],
+          "correct": "F"
+        }
       ],
       "scoring": "all",
       "issue": null

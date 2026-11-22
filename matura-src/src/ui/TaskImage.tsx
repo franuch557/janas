@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { loadPack } from '../store/catalog';
-import { displayNr, type CkePack } from '../logic/cke';
+import { bookLabel, displayNr, type CkePack } from '../logic/cke';
 import type { AppTask } from '../store/derived';
 import { useStore } from '../store/AppStore';
 import { Icon } from './icons';
@@ -32,6 +32,7 @@ export function captionFor(t: AppTask, kind: 'zad' | 'odp', level?: 'podstawowy'
   if (t.user) return t.user.source === 'zadania.info' ? `${ZADANIA_INFO_NOTE}${t.user.ref ? `, zadanie ${t.user.ref}` : ''}` : 'Zadanie dodane przez ciebie';
   const n = displayNr(t.nr);
   const what = n.startsWith('temat') ? `wypracowanie, ${n}` : `zadanie ${n}`;
+  if (t.session === 'zbiór') return `${bookLabel(t.examId)} ${t.year}${kind === 'odp' ? ', zasady oceniania' : level ? `, ${LEVEL[level]}` : ''}, ${what}`;
   if (kind === 'odp') return `Zasady oceniania CKE, ${t.session} ${t.year}, ${what}`;
   return `Arkusz CKE, ${t.session} ${t.year}${level ? `, ${LEVEL[level]}` : ''}, ${what}`;
 }
@@ -72,7 +73,7 @@ function Viewer({ src, alt, onClose }: { src: string; alt: string; onClose: () =
   );
 }
 
-function Sheetimg({ src, alt }: { src: string; alt: string }) {
+export function Sheetimg({ src, alt }: { src: string; alt: string }) {
   const [open, setOpen] = useState(false);
   return (
     <>

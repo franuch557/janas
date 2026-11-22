@@ -33,6 +33,8 @@ export function sampleScript() {
       case 'fiszki-slabe':
       case 'fiszki-lektura':
         return { json: Array.from({ length: 12 }, (_, i) => ({ front: `słowo ${i + 1}`, back: `znaczenie ${i + 1}`, example: `Example ${i + 1}.` })) };
+      case 'fiszki-zdjecie':
+        return { json: Array.from({ length: 5 }, (_, i) => ({ front: `pojęcie ${i + 1}`, back: `definicja ${i + 1}`, example: null })) };
       case 'tydzien':
         return { text: 'Dobry tydzień. Popracuj nad ciągami.' };
       case 'ustny':

@@ -78,6 +78,25 @@ for (const theme of ['jasny', 'ciemny']) {
     await visit(page, '#diagnoza-mat-p', `${theme}-diagnoza-wynik-lub-intro`);
     await visit(page, `#wypracowanie-${tid('MJAP-P0-100-2405', '12')}`, `${theme}-wypowiedz-ang`);
     await visit(page, `#wypracowanie-${tid('MPOP-P1-P2-2405', 'A2.1')}`, `${theme}-wypracowanie`);
+    await visit(page, `#zadanie-${tid('ZBIOR-MMAP-P0', '25.2')}`, `${theme}-zadanie-zbior`, async () => {
+      await imagesLoaded(page);
+      sc.ok((await page.locator('text=/Zbiór zadań CKE/ >> visible=true').count()) > 0, 'zadanie ze zbioru CKE podpisane');
+    });
+    await visit(page, `#zadanie-${tid('INF-MMAP-P0', '29')}`, `${theme}-zadanie-informator`, async () => {
+      await imagesLoaded(page);
+      sc.ok((await page.locator('.abcd [role="radiogroup"]').count()) === 2, 'informator: dwie pozycje odpowiedzi');
+    });
+    await visit(page, '#fiszki', `${theme}-fiszki`);
+    await visit(page, '#lektury', `${theme}-lektury`);
+    await visit(page, '#ustny', `${theme}-ustny`, async () => {
+      await page.getByRole('radio', { name: /Zadanie 2: zbiór CKE/ }).click();
+    });
+    await visit(page, '#ustny-z2-2.7', `${theme}-ustny-zadanie2`, async () => {
+      await page.locator('.kartka img').first().waitFor({ timeout: 8000 });
+      await clickVisible(page, 'Pokaż przykładową realizację CKE');
+      await page.getByRole('heading', { name: 'Przykładowa realizacja CKE' }).waitFor();
+    });
+    sc.ok((await page.locator('.sidebar .navitem, .bottomnav .navitem').filter({ hasText: 'Lektury' }).first().getAttribute('aria-current')) === 'page', 'ustny podświetla „Lektury” w menu');
     await visit(page, '#postep', `${theme}-postep`);
     await visit(page, '#postep-mat-p', `${theme}-postep-mat-p`);
     await visit(page, '#ustawienia', `${theme}-ustawienia`);

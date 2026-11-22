@@ -125,11 +125,26 @@ export function cutFragment(r, frag, opts = {}) {
     for (let y = Math.max(0, ay); y < Math.min(hh, by); y++) img.fill(255, y * w + Math.max(0, ax), y * w + Math.min(w, Math.max(0, bx)));
   }
   const dark = new Uint8Array(hh);
+  const greyRow = new Uint8Array(hh);
   for (let y = 0; y < hh; y++) {
     let c = 0;
     const row = y * w;
-    for (let x = 0; x < w; x++) if (img[row + x] < DARK && ++c >= 2) break;
+    let grey = 0;
+    for (let x = 0; x < w; x++) {
+      if (img[row + x] < DARK && ++c >= 2) break;
+      if (img[row + x] < 235) grey++;
+    }
     dark[y] = c >= 2 ? 1 : 0;
+    greyRow[y] = grey > w * 0.3 ? 1 : 0;
+  }
+  // szary pasek nagłówka z białym tekstem (informatory CKE) też jest treścią: co najmniej 8 szarych
+  // wierszy z rzędu (pojedyncze szare linie do pisania odpowiedzi pomijam)
+  for (let y = 0; y < hh; ) {
+    if (!greyRow[y]) { y++; continue; }
+    let e = y;
+    while (e < hh && greyRow[e]) e++;
+    if (e - y >= 8) for (let k = y; k < e; k++) dark[k] = 1;
+    y = e;
   }
   let first = dark.indexOf(1);
   if (first < 0) return null;

@@ -75,7 +75,7 @@ export interface Exam {
   family: Family;
   level: Level;
   year: number;
-  session: 'marzec' | 'maj' | 'czerwiec' | 'sierpień';
+  session: 'marzec' | 'maj' | 'czerwiec' | 'sierpień' | 'zbiór';
   formula: '2023' | '2015';
   maxPoints: number | null;
   minutes: number | null;

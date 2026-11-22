@@ -55,6 +55,11 @@ export function scoringFrom(lines, nItems, maxPoints) {
  */
 export function buildAnswer({ info, task, body, rule, manual }) {
   const issues = [];
+  if (manual?.tokens) {
+    // ręcznie odczytane rozwiązanie (np. z obrazu zasad, gdy PDF nie ma warstwy tekstu); strukturę buduje skrypt
+    rule = { ...(rule ?? {}), tokens: manual.tokens, scoring: manual.scoring ?? rule?.scoring };
+    manual = null;
+  }
   if (manual) {
     if (manual.type === 'otwarte') return { type: 'otwarte', answer: null, issues };
     return { type: 'zamknięte', answer: { items: manual.items, scoring: manual.scoring }, issues: manual.issue ? [manual.issue] : [] };

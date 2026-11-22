@@ -129,16 +129,37 @@ bothDevices(test, '14d. Fiszki i tryb 5 minut', async (t, device, use) => {
   await page.goto(url('#fiszki'));
   await waitReady(page);
   await checkScreen(page, 'fiszki');
-  await page.getByRole('button', { name: /^Powtórz \(\d+\)$/ }).click();
-  for (let i = 0; i < 12; i++) {
+  await page.getByRole('button', { name: /^Ucz się \(\d+\)$/ }).click();
+  // „Nie umiem” odkłada kartę w tej samej sesji: pętla do końca kolejki
+  let shown = 0;
+  for (let i = 0; i < 40 && (await page.getByRole('button', { name: 'Pokaż odpowiedź' }).count()); i++) {
     await page.getByRole('button', { name: 'Pokaż odpowiedź' }).click();
     if (i === 0) await checkScreen(page, 'fiszki-odpowiedz');
-    await page.getByRole('button', { name: i % 3 ? 'Umiem' : 'Nie umiem', exact: true }).click();
+    const again = i < 12 && i % 3 === 0;
+    await page.getByRole('button', { name: again ? /^Nie umiem/ : /^Dobrze/ }).click();
+    shown++;
   }
-  await page.getByText(/Gotowe\. Powtórzono: 12 fiszek\./).waitFor();
+  sc.ok(shown === 16, `karty po „Nie umiem” wróciły w tej sesji (pokazano ${shown})`);
+  await page.getByText(/Gotowe\. Nauczone dziś w tej sesji: 12 fiszek\./).waitFor();
   await sleep(400);
   let st = await lsState(page);
-  sc.ok(st.cards.length === 12 && st.cards.every((c) => c.reviews === 1), 'fiszki powtórzone');
+  sc.ok(st.cards.length === 12 && st.cards.every((c) => c.ivl === 1 && c.due === '2026-11-24'), 'fiszki zaplanowane na jutro');
+  sc.ok(st.cards.filter((c) => c.reviews === 2).length === 4, 'cztery karty powtórzone dwa razy');
+  // fiszki ze zdjęcia i z tekstu
+  await page.locator('input[aria-label="Zdjęcie notatek do fiszek"]').setInputFiles({ name: 'notatki.png', mimeType: 'image/png', buffer: PNG });
+  await page.getByRole('button', { name: 'Odczytaj fiszki' }).click();
+  await page.getByRole('dialog').getByText('Nowe fiszki: 5').waitFor({ timeout: 8000 });
+  await checkScreen(page, 'fiszki-ze-zdjecia');
+  await page.getByRole('button', { name: 'Usuń fiszkę 5' }).click();
+  await page.getByRole('button', { name: 'Zapisz 4 fiszki' }).click();
+  await page.getByLabel('Jedna fiszka w linii: przód – tył').fill('whale – wieloryb\nto run out of – skończyć się');
+  await page.getByRole('button', { name: 'Sprawdź 2 fiszki' }).click();
+  await page.getByRole('button', { name: 'Zapisz 2 fiszki' }).click();
+  await sleep(400);
+  st = await lsState(page);
+  sc.ok(st.cards.filter((c) => !c.deleted).length === 18, `fiszki ze zdjęcia i tekstu zapisane (${st.cards.length})`);
+  const calls = await page.evaluate(() => window.__sampleCalls);
+  sc.ok(calls.some((c) => c.typ === 'fiszki-zdjecie' && c.images === 1), 'zdjęcie wysłane do Claude’a');
   sc.ok(st.events.some((e) => e.k === 'o' && e.ref === 'f:2026-11-23'), 'pozycja „Fiszki” w planie odhaczona');
   // tryb 5 minut
   await page.goto(url('#start'));
@@ -162,7 +183,7 @@ bothDevices(test, '14d. Fiszki i tryb 5 minut', async (t, device, use) => {
   // fiszki w trybie 5 minut (karty z jutrzejszym terminem też się nadają)
   for (let i = 0; i < 3 && (await page.getByRole('button', { name: 'Pokaż odpowiedź' }).count()); i++) {
     await page.getByRole('button', { name: 'Pokaż odpowiedź' }).click();
-    await page.getByRole('button', { name: 'Umiem', exact: true }).click();
+    await page.getByRole('button', { name: /^Dobrze/ }).click();
   }
   await page.getByRole('button', { name: 'Zakończ', exact: true }).waitFor({ timeout: 5000 });
   await checkScreen(page, 'piec-minut-koniec');

@@ -4,6 +4,7 @@ import type { ExamsFile } from '../src/types';
 import { availableYears, examPointSum, filterExams, validateExam } from '../src/logic/exams';
 import type { Exam, ExamTask } from '../src/types';
 import kryteria from '../data/kryteria.json';
+import { examLabel, normalizeExams } from '../src/logic/cke';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -134,7 +135,7 @@ describe('wszystkie arkusze z importu PDF', () => {
       const { known, unknownTasks } = examPointSum(e);
       expect(unknownTasks, e.id).toEqual([]);
       expect(known, e.id).toBe(e.maxPoints);
-      expect(e.minutes, e.id).toBeGreaterThan(0);
+      if (e.session !== 'zbiór') expect(e.minutes, e.id).toBeGreaterThan(0);
     }
   });
 
@@ -195,12 +196,37 @@ describe('wszystkie arkusze z importu PDF', () => {
   });
 });
 
+describe('zbiory zadań i informatory CKE', () => {
+  const books = data.exams.filter((e) => e.session === 'zbiór');
+  it('są cztery (zbiór i informator, podstawa i rozszerzenie), każde zadanie ma temat i punkty', () => {
+    expect(books.map((e) => e.id).sort()).toEqual(['INF-MMAP-P0', 'INF-MMAP-R0', 'ZBIOR-MMAP-P0', 'ZBIOR-MMAP-R0']);
+    for (const e of books) for (const t of e.tasks) {
+      expect(t.topics.length, `${e.id} ${t.nr}`).toBeGreaterThan(0);
+      expect(t.maxPoints, `${e.id} ${t.nr}`).toBeGreaterThan(0);
+    }
+  });
+  it('każde zadanie zamknięte ma klucz z opcji', () => {
+    for (const e of books) for (const t of e.tasks.filter((x) => x.type === 'zamknięte')) {
+      expect(t.answer, `${e.id} ${t.nr}`).toBeTruthy();
+      for (const i of t.answer!.items) expect(i.options, `${e.id} ${t.nr}`).toContain(i.correct);
+    }
+  });
+  it('nie są arkuszami próbnymi i nie zmieniają lat arkuszy', () => {
+    expect(availableYears(data.exams, 'matematyka', 'podstawowy')).not.toContain(2022);
+    const n = normalizeExams(data).filter((e) => e.session === 'zbiór');
+    expect(n).toHaveLength(4);
+    expect(n.every((e) => !e.complete)).toBe(true);
+    expect(examLabel({ year: 2024, session: 'zbiór', id: 'INF-MMAP-P0' })).toBe('Informator CKE');
+    expect(examLabel({ year: 2022, session: 'zbiór', examId: 'ZBIOR-MMAP-R0' })).toBe('Zbiór zadań CKE');
+  });
+});
+
 describe('plik exams.json', () => {
   it('każdy arkusz ma wymagane pola', () => {
     for (const e of data.exams) {
       expect(['matematyka', 'polski', 'angielski']).toContain(e.family);
       expect(['podstawowy', 'rozszerzony']).toContain(e.level);
-      expect(e.year).toBeGreaterThanOrEqual(2023);
+      expect(e.year).toBeGreaterThanOrEqual(e.session === 'zbiór' ? 2022 : 2023);
       expect(e.formula).toBe('2023');
       expect(Array.isArray(e.tasks)).toBe(true);
       expect(e.sources.length).toBeGreaterThan(0);

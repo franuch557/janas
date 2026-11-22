@@ -55,6 +55,7 @@ export function parseFileName(name) {
 
 /** Kolumna treści (pt). Matematyka i polski: bez okienek punktacji na marginesach. */
 export function columnFor(family, page) {
+  if (page?.col) return page.col; // własny układ strony (informatory CKE: rysunki do prawego marginesu)
   if (family !== 'angielski') return [62, 534];
   // angielski: margines zmienia się na stronach parzystych i nieparzystych (57 albo 85 pt)
   const xs = page.lines.map((l) => l.x0).filter((x) => x > 45 && x < 110);

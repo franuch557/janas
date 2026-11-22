@@ -25,17 +25,38 @@ if (!existsSync(imgDir)) {
 }
 const errors = [];
 const exams = data.exams.filter((e) => e.tasks.length);
-const read = (kind, id) => {
+// obrazy w pakiecie jako WebP (ok. 25% mniejsze od JPEG przy tej samej czytelności tekstu);
+// WEBP=0 zostawia JPEG
+const WEBP = process.env.WEBP !== '0';
+const WEBP_Q = Number(process.env.WEBP_Q ?? 55);
+const { loadImage, createCanvas } = await import('@napi-rs/canvas');
+async function toDataUrl(buf) {
+  if (!WEBP) return `data:image/jpeg;base64,${buf.toString('base64')}`;
+  const img = await loadImage(buf);
+  // WebP ma limit 16383 px na bok: bardzo długie obrazy zostają w JPEG
+  if (img.width > 16383 || img.height > 16383) return `data:image/jpeg;base64,${buf.toString('base64')}`;
+  const c = createCanvas(img.width, img.height);
+  c.getContext('2d').drawImage(img, 0, 0);
+  let w;
+  try {
+    w = await c.encode('webp', WEBP_Q);
+  } catch {
+    return `data:image/jpeg;base64,${buf.toString('base64')}`;
+  }
+  return w.length < buf.length ? `data:image/webp;base64,${w.toString('base64')}` : `data:image/jpeg;base64,${buf.toString('base64')}`;
+}
+const read = async (kind, id) => {
   const d = join(imgDir, kind, id);
   if (!existsSync(d)) return {};
-  return Object.fromEntries(readdirSync(d).filter((f) => f.endsWith('.jpg')).sort((a, b) => a.localeCompare(b, 'pl', { numeric: true }))
-    .map((f) => [f.slice(0, -4), `data:image/jpeg;base64,${readFileSync(join(d, f)).toString('base64')}`]));
+  const out = {};
+  for (const f of readdirSync(d).filter((x) => x.endsWith('.jpg')).sort((a, b) => a.localeCompare(b, 'pl', { numeric: true }))) out[f.slice(0, -4)] = await toDataUrl(readFileSync(join(d, f)));
+  return out;
 };
 
 // najpierw sprawdzenie kompletności, żeby nie zostawić połowicznego pakietu
 const packs = [];
 for (const e of exams) {
-  const pack = { zad: read('zad', e.id), odp: read('odp', e.id), ctx: read('ctx', e.id) };
+  const pack = { zad: await read('zad', e.id), odp: await read('odp', e.id), ctx: await read('ctx', e.id) };
   for (const t of e.tasks) {
     if (!pack.zad[t.nr]) errors.push(`${e.id}: zadanie ${t.nr} nie ma obrazu cke-obrazy/zad/${e.id}/${t.nr}.jpg`);
     if (t.context && !pack.ctx[t.context]) errors.push(`${e.id}: zadanie ${t.nr} wskazuje brakujący materiał ctx/${t.context}.jpg`);
@@ -72,6 +93,21 @@ for (const { e, pack } of packs) {
   }
   lines.push(line);
 }
+// zadania 2 z matury ustnej (npm run ustny:zadanie2): materiał i przykładowe realizacje
+const ustnyDir = join(imgDir, 'ustny');
+if (existsSync(join(ustnyDir, 'zad'))) {
+  const pick = async (k) => {
+    const d = join(ustnyDir, k);
+    const o = {};
+    if (existsSync(d)) for (const f of readdirSync(d).filter((x) => x.endsWith('.jpg'))) o[f.slice(0, -4)] = await toDataUrl(readFileSync(join(d, f)));
+    return o;
+  };
+  const json = JSON.stringify({ zad: await pick('zad'), odp: await pick('odp') });
+  writeFileSync(join(out, 'ustny-zadanie2.json'), json);
+  total += Buffer.byteLength(json);
+  if (Buffer.byteLength(json) > LIMIT) errors.push(`ustny-zadanie2.json ma ${(Buffer.byteLength(json) / 1048576).toFixed(1)} MB (limit 12 MB)`);
+  lines.push(`ustny-zadanie2.json: ${(Buffer.byteLength(json) / 1048576).toFixed(2)} MB`);
+}
 // karta „Wybrane wzory matematyczne” (jeśli jest w katalogu): strony jako obrazy → wzory.json
 const wzory = existsSync(srcDir) ? readdirSync(srcDir).find((f) => /\.pdf$/i.test(f) && /wzory/i.test(f)) : null;
 if (wzory) {
@@ -81,7 +117,7 @@ if (wzory) {
   for (const p of pages) {
     const r = await renderGray(doc, p.page, 1000 / p.width);
     const jpg = await composeJpeg([{ w: r.w, h: r.h, data: r.gray }], { width: 1000, quality: 60 });
-    strony.push(`data:image/jpeg;base64,${jpg.toString('base64')}`);
+    strony.push(await toDataUrl(jpg));
   }
   await doc.destroy();
   const json = JSON.stringify({ zrodlo: wzory, strony });

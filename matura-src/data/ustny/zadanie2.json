@@ -1,0 +1,472 @@
+{
+ "zrodlo": "CKE, materiał dodatkowy „Zadanie 2. w części ustnej egzaminu maturalnego. Literatura. Sztuka. Język”",
+ "zadania": [
+  {
+   "id": "1.1",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Jakie recepty na szczęśliwe życie można znaleźć w tekstach kultury?",
+   "polecenie": "Jakie recepty na szczęśliwe życie można znaleźć w tekstach kultury? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    10
+   ],
+   "realizacje": [
+    11,
+    12
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.2",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Czy opisy przyrody zamieszczone w tekstach kultury mogą być odzwierciedleniem przeżyć wewnętrznych bohaterów?",
+   "polecenie": "Czy opisy przyrody zamieszczone w tekstach kultury mogą być odzwierciedleniem przeżyć wewnętrznych bohaterów? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    13
+   ],
+   "realizacje": [
+    14,
+    15,
+    16
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.3",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Czemu służą ukazywane w kulturze obrazy idealnego świata?",
+   "polecenie": "Czemu służą ukazywane w kulturze obrazy idealnego świata? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    17
+   ],
+   "realizacje": [
+    18,
+    19,
+    20
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.4",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Czy dzieła artystyczne powinny pełnić funkcję perswazyjną?",
+   "polecenie": "Czy dzieła artystyczne powinny pełnić funkcję perswazyjną? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    21
+   ],
+   "realizacje": [
+    22,
+    23,
+    24
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.5",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Czy sztuka powinna naśladować, czy też kreować rzeczywistość?",
+   "polecenie": "Czy sztuka powinna naśladować, czy też kreować rzeczywistość? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    25
+   ],
+   "realizacje": [
+    26,
+    27
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.6",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "W jaki sposób w tekstach kultury przedstawiane bywa dzieciństwo?",
+   "polecenie": "W jaki sposób w tekstach kultury przedstawiane bywa dzieciństwo? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    28
+   ],
+   "realizacje": [
+    29,
+    30
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.7",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Różne obrazy ojczyzny w kulturze.",
+   "polecenie": "Różne obrazy ojczyzny w kulturze. Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    31
+   ],
+   "realizacje": [
+    32,
+    33
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.8",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Jaką rolę w życiu człowieka może pełnić poezja?",
+   "polecenie": "Jaką rolę w życiu człowieka może pełnić poezja? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    34
+   ],
+   "realizacje": [
+    35,
+    36
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.9",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Jak w tekstach kultury ukazywane są wartości utracone?",
+   "polecenie": "Jak w tekstach kultury ukazywane są wartości utracone? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    37
+   ],
+   "realizacje": [
+    38,
+    39
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.10",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Modele patriotyzmu w kulturze polskiej.",
+   "polecenie": "Modele patriotyzmu w kulturze polskiej. Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    40
+   ],
+   "realizacje": [
+    41,
+    42
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.11",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Jakie postawy mogą przyjmować ludzie wobec wojny?",
+   "polecenie": "Jakie postawy mogą przyjmować ludzie wobec wojny? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    43
+   ],
+   "realizacje": [
+    44,
+    45
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "1.12",
+   "czesc": 1,
+   "typ": "literacki",
+   "pytanie": "Jak wydarzenia związane z utratą niepodległości mogą wpływać na postawy poszczególnych ludzi?",
+   "polecenie": "Jak wydarzenia związane z utratą niepodległości mogą wpływać na postawy poszczególnych ludzi? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego.",
+   "strony": [
+    46
+   ],
+   "realizacje": [
+    47,
+    48
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.1",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Nietrwałość istnienia jako temat tekstów kultury.",
+   "polecenie": "Nietrwałość istnienia jako temat tekstów kultury. Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    50
+   ],
+   "realizacje": [
+    51,
+    52
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.2",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "W jaki sposób w tekstach kultury może być odzwierciedlona rzeczywistość otaczająca twórcę?",
+   "polecenie": "W jaki sposób w tekstach kultury może być odzwierciedlona rzeczywistość otaczająca twórcę? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    53
+   ],
+   "realizacje": [
+    54,
+    55
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.3",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czy teksty kultury mogą zachęcać człowieka do czynienia dobra?",
+   "polecenie": "Czy teksty kultury mogą zachęcać człowieka do czynienia dobra? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    56
+   ],
+   "realizacje": [
+    57,
+    58
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.4",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Jakie rozumienie patriotyzmu przedstawiają teksty kultury różnych epok?",
+   "polecenie": "Jakie rozumienie patriotyzmu przedstawiają teksty kultury różnych epok? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    59
+   ],
+   "realizacje": [
+    60,
+    61
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.5",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Wizje miasta w sztuce i literaturze.",
+   "polecenie": "Wizje miasta w sztuce i literaturze. Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    62
+   ],
+   "realizacje": [
+    63,
+    64
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.6",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czy praca może być interesującym motywem tekstu kultury?",
+   "polecenie": "Czy praca może być interesującym motywem tekstu kultury? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    65
+   ],
+   "realizacje": [
+    66,
+    67
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.7",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czemu służą przedstawienia przyrody w tekstach kultury?",
+   "polecenie": "Czemu służą przedstawienia przyrody w tekstach kultury? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    68
+   ],
+   "realizacje": [
+    69,
+    70
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.8",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "W jaki sposób w tekstach kultury może być przedstawiane piękno zwykłych rzeczy?",
+   "polecenie": "W jaki sposób w tekstach kultury może być przedstawiane piękno zwykłych rzeczy? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    71
+   ],
+   "realizacje": [
+    72,
+    73
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.9",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czemu może służyć deformacja rzeczywistości dokonywana w tekstach kultury?",
+   "polecenie": "Czemu może służyć deformacja rzeczywistości dokonywana w tekstach kultury? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    74
+   ],
+   "realizacje": [
+    75,
+    76
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.10",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czy człowiek może w pełni poznać samego siebie?",
+   "polecenie": "Czy człowiek może w pełni poznać samego siebie? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    77
+   ],
+   "realizacje": [
+    78,
+    79
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.11",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Jaką rolę w życiu człowieka odgrywają książki?",
+   "polecenie": "Jaką rolę w życiu człowieka odgrywają książki? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    80
+   ],
+   "realizacje": [
+    81,
+    82
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.12",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czym może być dla człowieka samotność?",
+   "polecenie": "Czym może być dla człowieka samotność? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    83
+   ],
+   "realizacje": [
+    84,
+    85
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "2.13",
+   "czesc": 2,
+   "typ": "ikoniczny",
+   "pytanie": "Czy powinnością tekstów kultury jest wychowywanie społeczeństwa?",
+   "polecenie": "Czy powinnością tekstów kultury jest wychowywanie społeczeństwa? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego utworu literackiego.",
+   "strony": [
+    86
+   ],
+   "realizacje": [
+    87,
+    88
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "3.1",
+   "czesc": 3,
+   "typ": "językowy",
+   "pytanie": "Jakimi środkami językowymi można wyrażać uczucia?",
+   "polecenie": "Jakimi środkami językowymi można wyrażać uczucia? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego, albo własnych doświadczeń komunikacyjnych.",
+   "strony": [
+    90
+   ],
+   "realizacje": [
+    91,
+    92
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "3.2",
+   "czesc": 3,
+   "typ": "językowy",
+   "pytanie": "Czy pragnienie bliskości z drugim człowiekiem jest rzeczywiście obce elektronicznym formom komunikacji?",
+   "polecenie": "Czy pragnienie bliskości z drugim człowiekiem jest rzeczywiście obce elektronicznym formom komunikacji? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego, albo własnych doświadczeń komunikacyjnych.",
+   "strony": [
+    93
+   ],
+   "realizacje": [
+    94,
+    95
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "3.3",
+   "czesc": 3,
+   "typ": "językowy",
+   "pytanie": "Dlaczego literaturze nie wystarcza język literacki?",
+   "polecenie": "Dlaczego literaturze nie wystarcza język literacki? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego, albo własnych doświadczeń komunikacyjnych.",
+   "strony": [
+    96
+   ],
+   "realizacje": [
+    97,
+    98
+   ],
+   "obraz": true,
+   "realizacja": true
+  },
+  {
+   "id": "3.4",
+   "czesc": 3,
+   "typ": "językowy",
+   "pytanie": "Jak za pomocą środków językowych można oddać grozę wojny?",
+   "polecenie": "Jak za pomocą środków językowych można oddać grozę wojny? Omów zagadnienie na podstawie zamieszczonego poniżej materiału oraz wybranego tekstu kultury albo utworu literackiego, albo własnych doświadczeń komunikacyjnych.",
+   "strony": [
+    99
+   ],
+   "realizacje": [
+    100,
+    101
+   ],
+   "obraz": true,
+   "realizacja": true
+  }
+ ]
+}

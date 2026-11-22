@@ -154,18 +154,15 @@ export function BankView({ subject, topic }: { subject: SubjectId | null; topic:
   const subjectsPane = (
     <div className="stack">
       <div className="extra-links">
-        <button type="button" className="btn btn-secondary" onClick={() => go('#fiszki')}>
-          Fiszki{dueN ? ` (${dueN})` : ''}
-        </button>
+        {dueN ? (
+          <button type="button" className="btn btn-secondary" onClick={() => go('#fiszki')}>
+            Fiszki na dziś: {dueN}
+          </button>
+        ) : null}
         {data.stan.enabled['pol-p'] ? (
-          <>
-            <button type="button" className="btn btn-secondary" onClick={() => go('#lektury')}>
-              Lektury
-            </button>
-            <button type="button" className="btn btn-secondary" onClick={() => go('#ustny')}>
-              Ustny polski
-            </button>
-          </>
+          <button type="button" className="btn btn-secondary" onClick={() => go('#ustny')}>
+            Ustny polski
+          </button>
         ) : null}
       </div>
       {subjects.map((s) => {
