@@ -1,14 +1,198 @@
 [
  {
+  "examId": "MJAP-P0-100-2306",
+  "text": "Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2306",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2308",
+  "text": "Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2308",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2406",
+  "text": "Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2406",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2408",
+  "text": "Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2408",
+  "text": "Zadanie 4: odczytano 3 z 4 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2408",
+  "text": "Zadanie 5: odczytano 3 z 7 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2408",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2506",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2508",
+  "text": "Zadanie 2: odczytano 5 z 6 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MJAP-P0-100-2508",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2606",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
+  "examId": "MJAP-P0-100-2608",
+  "text": "Brak nagrania mp3 w katalogu importu."
+ },
+ {
   "examId": "MMAP-P0-100-2305",
   "text": "Zadanie 11: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
+ },
+ {
+  "examId": "MMAP-P0-100-2308",
+  "text": "Zadanie 15: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
  },
  {
   "examId": "MMAP-P0-100-2405",
   "text": "Zadanie 18: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
  },
  {
+  "examId": "MMAP-P0-100-2408",
+  "text": "Zadanie 4: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
+ },
+ {
+  "examId": "MMAP-P0-100-2506",
+  "text": "Zadanie 12: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2506",
+  "text": "Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2506",
+  "text": "Zadanie 15.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 3: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 15: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 17: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 19: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 21.1: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 22.1: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2508",
+  "text": "Zadanie 25: zadanie zamknięte, ale rozwiązania „WiPP” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2603",
+  "text": "Zadanie 10: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2603",
+  "text": "Zadanie 29: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2603",
+  "text": "Zadanie 32.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2606",
+  "text": "Zadanie 11: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2606",
+  "text": "Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2606",
+  "text": "Zadanie 21: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2606",
+  "text": "Zadanie 29: zadanie zamknięte, ale rozwiązania „WiA” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2608",
+  "text": "Zadanie 8: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2608",
+  "text": "Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2608",
+  "text": "Zadanie 17: zadanie zamknięte, ale rozwiązania „ęCWi” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2608",
+  "text": "Zadanie 22.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2608",
+  "text": "Zadanie 25: zadanie zamknięte, ale rozwiązania „WiD” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2608",
+  "text": "Zadanie 27: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
   "examId": "MPOP-P1-P2-2305",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2306",
+  "text": "Zadanie A1.1: nie odczytałem zasad punktacji (2 pkt – zaznaczenie odpowiedzi FPF.; 1 pkt – poprawne zaznaczenie odpowiedzi w odniesieniu do dwóch zdań.; 0 pkt – poprawne zaznaczenie odpowiedzi w odniesieniu do jednego zdania lub odpowiedź niepoprawna albo brak odpowiedzi.)"
+ },
+ {
+  "examId": "MPOP-P1-P2-2306",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2308",
+  "text": "Zadanie A1.4: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2308",
+  "text": "Zadanie A1.11: nie odczytałem zasad punktacji (2 pkt – zaznaczenie odpowiedzi C oraz poprawne wyjaśnienie.; 1 pkt – zaznaczenie odpowiedzi C ALBO poprawne wyjaśnienie, zawierające odpowiedź stylizacja biblijna.; 0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.)"
+ },
+ {
+  "examId": "MPOP-P1-P2-2308",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  },
  {
@@ -16,11 +200,51 @@
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  },
  {
+  "examId": "MPOP-P1-P2-2406",
+  "text": "Zadanie A1.9.1: rozwiązanie „ACD” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2406",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2408",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
   "examId": "MPOP-P1-P2-2505",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  },
  {
+  "examId": "MPOP-P1-P2-2506",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2508",
+  "text": "Zadanie A1.14: rozwiązanie „BD” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2508",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
   "examId": "MPOP-P1-P2-2605",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2606",
+  "text": "Zadanie A1.13: rozwiązanie „A3,B1” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2606",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MPOP-P1-P2-2608",
+  "text": "Zadanie A1.5: rozwiązanie „AE” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2608",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  }
 ]

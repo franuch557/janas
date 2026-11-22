@@ -124,8 +124,9 @@ describe('arkusz referencyjny MMAP-R0-100-2505', () => {
 describe('wszystkie arkusze z importu PDF', () => {
   const imported = data.exams.filter((e) => e.tasks.length > 0);
 
-  it('jest 16 arkuszy z zadaniami (4 przedmioty × lata 2023–2026)', () => {
-    expect(imported).toHaveLength(16);
+  it('jest 16 arkuszy z sesji majowej (4 przedmioty × lata 2023–2026) i arkusze z innych sesji', () => {
+    expect(imported.filter((e) => e.session === 'maj')).toHaveLength(16);
+    expect(imported.length).toBeGreaterThanOrEqual(16);
   });
 
   it('każdy arkusz ma sumę punktów równą maksimum (alternative liczone raz)', () => {
@@ -137,8 +138,8 @@ describe('wszystkie arkusze z importu PDF', () => {
     }
   });
 
-  it('każde zadanie zamknięte ma answer z opcjami', () => {
-    for (const e of imported) {
+  it('każde zadanie zamknięte z sesji majowej ma answer z opcjami', () => {
+    for (const e of imported.filter((x) => x.session === 'maj')) {
       for (const t of e.tasks.filter((x) => x.type === 'zamknięte')) {
         expect(t.answer, `${e.id} ${t.nr}`).toBeTruthy();
         for (const i of t.answer!.items) {
@@ -149,8 +150,19 @@ describe('wszystkie arkusze z importu PDF', () => {
     }
   });
 
+  it('odpowiedzi z innych sesji: poprawne opcje albo brak (null), nigdy zgadywanie', () => {
+    for (const e of imported.filter((x) => x.session !== 'maj')) {
+      for (const t of e.tasks.filter((x) => x.type === 'zamknięte' && x.answer)) {
+        for (const i of t.answer!.items) {
+          expect(i.options.length, `${e.id} ${t.nr}`).toBeGreaterThan(1);
+          if (i.correct != null) expect(i.options, `${e.id} ${t.nr}`).toContain(i.correct);
+        }
+      }
+    }
+  });
+
   it('angielski ma nagranie i wypowiedź pisemną, polski ma dwa tematy wypracowania', () => {
-    for (const e of imported.filter((x) => x.family === 'angielski')) {
+    for (const e of imported.filter((x) => x.family === 'angielski' && x.session === 'maj')) {
       expect(e.audio).toBe(`${e.id}.mp3`);
       expect(e.tasks.find((t) => t.nr === '12')!.essay?.criteria).toBe('ang-pp-2023');
       for (const nr of ['1', '2', '3']) {

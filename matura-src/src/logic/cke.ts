@@ -148,6 +148,7 @@ export function normalizeExams(raw: unknown): CkeExam[] {
     const rawParts = Array.isArray(e.parts) ? e.parts.filter(isObj) : [];
     const tasks: CkeTask[] = [];
     let allPointed = true;
+    let missingAudio = false;
     for (const t of Array.isArray(e.tasks) ? e.tasks : []) {
       if (!isObj(t) || typeof t.nr !== 'string') continue;
       const mp = num(t.maxPoints);
@@ -164,6 +165,11 @@ export function normalizeExams(raw: unknown): CkeExam[] {
       let mins = Math.max(2, Math.round(pace * mp));
       if (essay) mins = sub.family === 'polski' ? 90 : 30;
       const audioRaw = isObj(t.audio) ? { start: num(t.audio.start), end: num(t.audio.end) } : null;
+      // zadanie ze słuchania bez nagrania w pakiecie: pomijam (arkusz nie jest wtedy pełny)
+      if (audioRaw && !str(e.audio)) {
+        missingAudio = true;
+        continue;
+      }
       tasks.push({
         id: taskIdFor(e.id, t.nr),
         examId: e.id,
@@ -206,13 +212,13 @@ export function normalizeExams(raw: unknown): CkeExam[] {
       audio: str(e.audio),
       parts,
       tasks,
-      complete: tasks.length > 0 && allPointed && maxPoints != null && sum === maxPoints,
+      complete: !missingAudio && tasks.length > 0 && allPointed && maxPoints != null && sum === maxPoints,
     });
   }
   return out.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
 }
 
-const MONTHS_NOM: Record<string, string> = { maj: 'maj', czerwiec: 'czerwiec', 'sierpień': 'sierpień' };
+const MONTHS_NOM: Record<string, string> = { marzec: 'marzec (próbna)', maj: 'maj', czerwiec: 'czerwiec', 'sierpień': 'sierpień' };
 
 export function examLabel(e: { year: number; session: string }): string {
   return `CKE ${e.year}, ${MONTHS_NOM[e.session] ?? e.session}`;

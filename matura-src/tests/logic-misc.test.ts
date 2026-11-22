@@ -150,3 +150,20 @@ describe('odmiana i liczby po polsku', () => {
     expect(fmtNum(2.5)).toBe('2,5');
   });
 });
+
+describe('arkusz angielskiego bez nagrania', () => {
+  const raw = (audio: string | null) => ({ exams: [{ id: 'MJAP-P0-100-2406', family: 'angielski', level: 'podstawowy', year: 2024, session: 'czerwiec', maxPoints: 2, minutes: 120, audio, tasks: [
+    { nr: '1', maxPoints: 1, type: 'otwarte', topics: ['ang-sluchanie'], audio: { start: 30, end: 300 } },
+    { nr: '4', maxPoints: 1, type: 'otwarte', topics: ['ang-czytanie'], audio: null },
+  ] }] });
+  it('pomija zadania ze słuchania i nie jest pełnym arkuszem', () => {
+    const [e] = normalizeExams(raw(null));
+    expect(e.tasks.map((t) => t.nr)).toEqual(['4']);
+    expect(e.complete).toBe(false);
+  });
+  it('z nagraniem jest pełny', () => {
+    const [e] = normalizeExams(raw('MJAP-P0-100-2406.mp3'));
+    expect(e.tasks).toHaveLength(2);
+    expect(e.complete).toBe(true);
+  });
+});

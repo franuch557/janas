@@ -1,0 +1,462 @@
+{
+ "zrodlo": "polski-ustny-pytania-jawne-2026-2028.pdf",
+ "rok": "2026–2028",
+ "pytania": [
+  {
+   "nr": 1,
+   "lektura": "Biblia (fragmenty)",
+   "lekturaId": "biblia",
+   "tresc": "Motyw cierpienia niezawinionego. Omów zagadnienie na podstawie znanych Ci fragmentów Księgi Hioba. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 2,
+   "lektura": "Biblia (fragmenty)",
+   "lekturaId": "biblia",
+   "tresc": "Człowiek wobec niestałości świata. Omów zagadnienie na podstawie znanych Ci fragmentów Księgi Koheleta. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 3,
+   "lektura": "Biblia (fragmenty)",
+   "lekturaId": "biblia",
+   "tresc": "Wizja końca świata. Omów zagadnienie na podstawie znanych Ci fragmentów Apokalipsy św. Jana. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 4,
+   "lektura": "Jan Parandowski, Mitologia (cz. I Grecja)",
+   "lekturaId": "mitologia",
+   "tresc": "Poświęcenie się w imię wyższych wartości. Omów zagadnienie na podstawie Mitologii (cz. I Grecja) Jana Parandowskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 5,
+   "lektura": "Jan Parandowski, Mitologia (cz. I Grecja)",
+   "lekturaId": "mitologia",
+   "tresc": "Problematyka winy i kary. Omów zagadnienie na podstawie Mitologii (cz. I Grecja) Jana Parandowskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 6,
+   "lektura": "Jan Parandowski, Mitologia (cz. I Grecja)",
+   "lekturaId": "mitologia",
+   "tresc": "Miłość silniejsza niż śmierć. Omów zagadnienie na podstawie Mitologii (cz. I Grecja) Jana Parandowskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 7,
+   "lektura": "Homer, Iliada (fragmenty)",
+   "lekturaId": "iliada",
+   "tresc": "Heroizm jako postawa człowieka w zmaganiu się z losem. Omów zagadnienie na podstawie znanych Ci fragmentów Iliady Homera. W swojej odpowiedzi uwzględnij również wybrany kontekst. Dz.U. z 2024 r. poz. 750, z późn. zm. Dz.U. z 2024 r. poz. 302, z późn. zm. Szczegółowy opis części ustnej egzaminu maturalnego z języka polskiego od roku szkolnego 2024/2025 jest dostępny w Informatorze o egzaminie maturalnym z języka polskiego jako przedmiotu obowiązkowego od roku szkolnego 2024/2025, zamieszczonym na stronie internetowej CKE. Niniejsza lista zadań jawnych określa wyłącznie zakres wiadomości i umiejętności sprawdzanych w pierwszym zadaniu w zestawie egzaminacyjnym, który zdający będzie losował podczas części ustnej egzaminu maturalnego z języka polskiego w 2026 r., w 2027 r. oraz w 2028 r. Ta lista nie wyczerpuje jednak tematyki omawianej w zakresie każdej z lektur obowiązkowych ani nie stanowi wytycznych dla nauczycieli określających wyłączną tematykę, która powinna być poruszana podczas zajęć. Znajomość problematyki lektur obowiązkowych będzie sprawdzana również w części pisemnej egzaminu maturalnego z języka polskiego, także w zakresie, którego nie obejmuje niniejszy Komunikat."
+  },
+  {
+   "nr": 8,
+   "lektura": "Sofokles, Antygona",
+   "lekturaId": "antygona",
+   "tresc": "Prawa boskie a prawa ludzkie. Omów zagadnienie na podstawie Antygony Sofoklesa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 9,
+   "lektura": "Sofokles, Antygona",
+   "lekturaId": "antygona",
+   "tresc": "Człowiek wobec przeznaczenia. Omów zagadnienie na podstawie Antygony Sofoklesa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 10,
+   "lektura": "Lament świętokrzyski (fragmenty)",
+   "lekturaId": "lament-swietokrzyski",
+   "tresc": "Motyw cierpiącej matki. Omów zagadnienie na podstawie znanych Ci fragmentów Lamentu świętokrzyskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 11,
+   "lektura": "Rozmowa Mistrza Polikarpa ze Śmiercią (fragmenty)",
+   "lekturaId": "rozmowa-mistrza-polikarpa",
+   "tresc": "Motyw tańca śmierci. Omów zagadnienie na podstawie znanych Ci fragmentów Rozmowy Mistrza Polikarpa ze Śmiercią. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 12,
+   "lektura": "Pieśń o Rolandzie (fragmenty)",
+   "lekturaId": "piesn-o-rolandzie",
+   "tresc": "Średniowieczny wzorzec rycerza. Omów zagadnienie na podstawie znanych Ci fragmentów Pieśni o Rolandzie. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 13,
+   "lektura": "William Szekspir, Makbet",
+   "lekturaId": "makbet",
+   "tresc": "Moralna odpowiedzialność za czyny. Omów zagadnienie na podstawie Makbeta Williama Szekspira. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 14,
+   "lektura": "William Szekspir, Makbet",
+   "lekturaId": "makbet",
+   "tresc": "Czy człowiek decyduje o własnym losie? Omów zagadnienie na podstawie Makbeta Williama Szekspira. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 15,
+   "lektura": "William Szekspir, Makbet",
+   "lekturaId": "makbet",
+   "tresc": "Jaki wpływ na człowieka ma sprawowanie przez niego władzy? Omów zagadnienie na podstawie Makbeta Williama Szekspira. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 16,
+   "lektura": "Molier, Skąpiec",
+   "lekturaId": "skapiec",
+   "tresc": "Czy dobra materialne czynią człowieka szczęśliwym? Omów zagadnienie na podstawie Skąpca Moliera. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 17,
+   "lektura": "Molier, Skąpiec",
+   "lekturaId": "skapiec",
+   "tresc": "Przyczyny nieporozumień między rodzicami a dziećmi. Omów zagadnienie na podstawie Skąpca Moliera. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 18,
+   "lektura": "Ignacy Krasicki, wybrana satyra",
+   "lekturaId": "krasicki-satyry",
+   "tresc": "Wady ludzkie w krzywym zwierciadle satyry. Omów zagadnienie na podstawie znanej Ci satyry Ignacego Krasickiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 19,
+   "lektura": "Adam Mickiewicz, Romantyczność oraz wybrane ballady",
+   "lekturaId": "mickiewicz-ballady",
+   "tresc": "Świat ducha a świat rozumu. Omów zagadnienie na podstawie Romantyczności Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 20,
+   "lektura": "Adam Mickiewicz, Romantyczność oraz wybrane ballady",
+   "lekturaId": "mickiewicz-ballady",
+   "tresc": "Na czym polega ludowa sprawiedliwość? Omów zagadnienie na podstawie znanych Ci ballad Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 21,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Losy młodzieży polskiej pod zaborami. Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 22,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Mesjanizm jako romantyczna idea poświęcenia. Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 23,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Postawy społeczeństwa polskiego wobec zaborcy. Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 24,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Różne postawy człowieka wobec Boga. Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 25,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Jakie prawdy o człowieku ujawniają jego sny albo widzenia? Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 26,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "W jakim celu twórca nawiązuje do motywów biblijnych? Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 27,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Walka dobra ze złem o duszę ludzką. Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 28,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Czym dla człowieka może być wolność? Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 29,
+   "lektura": "Adam Mickiewicz, Dziady część III",
+   "lekturaId": "dziady-cz-3",
+   "tresc": "Motyw samotności. Omów zagadnienie na podstawie Dziadów części III Adama Mickiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 30,
+   "lektura": "Bolesław Prus, Lalka",
+   "lekturaId": "lalka",
+   "tresc": "Miłość – siła destrukcyjna czy motywująca do działania? Omów zagadnienie na podstawie Lalki Bolesława Prusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 31,
+   "lektura": "Bolesław Prus, Lalka",
+   "lekturaId": "lalka",
+   "tresc": "Praca jako pasja człowieka. Omów zagadnienie na podstawie Lalki Bolesława Prusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 32,
+   "lektura": "Bolesław Prus, Lalka",
+   "lekturaId": "lalka",
+   "tresc": "Jaką rolę w relacjach międzyludzkich odgrywają majątek i pochodzenie? Omów zagadnienie na podstawie Lalki Bolesława Prusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 33,
+   "lektura": "Bolesław Prus, Lalka",
+   "lekturaId": "lalka",
+   "tresc": "Konfrontacja marzeń z rzeczywistością. Omów zagadnienie na podstawie Lalki Bolesława Prusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 34,
+   "lektura": "Bolesław Prus, Lalka",
+   "lekturaId": "lalka",
+   "tresc": "Miasto – przestrzeń przyjazna czy wroga człowiekowi? Omów zagadnienie na podstawie Lalki Bolesława Prusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 35,
+   "lektura": "Bolesław Prus, Lalka",
+   "lekturaId": "lalka",
+   "tresc": "Czym dla człowieka mogą być wspomnienia? Omów zagadnienie na podstawie Lalki Bolesława Prusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 36,
+   "lektura": "Henryk Sienkiewicz, Potop (fragmenty)",
+   "lekturaId": "potop",
+   "tresc": "Postawy odwagi i tchórzostwa. Omów zagadnienie na podstawie znanych Ci fragmentów Potopu Henryka Sienkiewicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 37,
+   "lektura": "Fiodor Dostojewski, Zbrodnia i kara",
+   "lekturaId": "zbrodnia-i-kara",
+   "tresc": "Walka człowieka ze swoimi słabościami. Omów zagadnienie na podstawie Zbrodni i kary Fiodora Dostojewskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 38,
+   "lektura": "Fiodor Dostojewski, Zbrodnia i kara",
+   "lekturaId": "zbrodnia-i-kara",
+   "tresc": "Motyw winy i kary. Omów zagadnienie na podstawie Zbrodni i kary Fiodora Dostojewskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 39,
+   "lektura": "Fiodor Dostojewski, Zbrodnia i kara",
+   "lekturaId": "zbrodnia-i-kara",
+   "tresc": "Ile człowiek jest gotów poświęcić dla innych? Omów zagadnienie na podstawie Zbrodni i kary Fiodora Dostojewskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 40,
+   "lektura": "Fiodor Dostojewski, Zbrodnia i kara",
+   "lekturaId": "zbrodnia-i-kara",
+   "tresc": "Co może determinować ludzkie postępowanie? Omów zagadnienie na podstawie Zbrodni i kary Fiodora Dostojewskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 41,
+   "lektura": "Fiodor Dostojewski, Zbrodnia i kara",
+   "lekturaId": "zbrodnia-i-kara",
+   "tresc": "Motyw przemiany bohatera. Omów zagadnienie na podstawie Zbrodni i kary Fiodora Dostojewskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 42,
+   "lektura": "Stanisław Wyspiański, Wesele",
+   "lekturaId": "wesele",
+   "tresc": "Co utrudnia porozumienie między przedstawicielami różnych grup społecznych? Omów zagadnienie na podstawie Wesela Stanisława Wyspiańskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 43,
+   "lektura": "Stanisław Wyspiański, Wesele",
+   "lekturaId": "wesele",
+   "tresc": "Rola chłopów i inteligencji w sprawie niepodległościowej. Omów zagadnienie na podstawie Wesela Stanisława Wyspiańskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 44,
+   "lektura": "Stanisław Wyspiański, Wesele",
+   "lekturaId": "wesele",
+   "tresc": "Sen o Polsce czy sąd nad Polską? Omów zagadnienie na podstawie Wesela Stanisława Wyspiańskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 45,
+   "lektura": "Stanisław Wyspiański, Wesele",
+   "lekturaId": "wesele",
+   "tresc": "Symboliczne znaczenie widm i zjaw. Omów zagadnienie na podstawie Wesela Stanisława Wyspiańskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 46,
+   "lektura": "Stanisław Wyspiański, Wesele",
+   "lekturaId": "wesele",
+   "tresc": "Motyw tańca. Omów zagadnienie na podstawie Wesela Stanisława Wyspiańskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 47,
+   "lektura": "Władysław Stanisław Reymont, Chłopi (fragmenty)",
+   "lekturaId": "chlopi",
+   "tresc": "Obyczaj i tradycja w życiu społeczeństwa. Omów zagadnienie na podstawie znanych Ci fragmentów Chłopów Władysława Stanisława Reymonta. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 48,
+   "lektura": "Stefan Żeromski, Przedwiośnie",
+   "lekturaId": "przedwiosnie",
+   "tresc": "Jakie znaczenie ma tytuł dla odczytania sensu utworu? Omów zagadnienie na podstawie Przedwiośnia Stefana Żeromskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 49,
+   "lektura": "Stefan Żeromski, Przedwiośnie",
+   "lekturaId": "przedwiosnie",
+   "tresc": "Wojna i rewolucja jako źródła doświadczeń człowieka. Omów zagadnienie na podstawie Przedwiośnia Stefana Żeromskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 50,
+   "lektura": "Stefan Żeromski, Przedwiośnie",
+   "lekturaId": "przedwiosnie",
+   "tresc": "Różne wizje odbudowy Polski po odzyskaniu niepodległości. Omów zagadnienie na podstawie Przedwiośnia Stefana Żeromskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 51,
+   "lektura": "Stefan Żeromski, Przedwiośnie",
+   "lekturaId": "przedwiosnie",
+   "tresc": "Młodość jako czas kształtowania własnej tożsamości. Omów zagadnienie na podstawie Przedwiośnia Stefana Żeromskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 52,
+   "lektura": "Stefan Żeromski, Przedwiośnie",
+   "lekturaId": "przedwiosnie",
+   "tresc": "Rola autorytetu w życiu człowieka. Omów zagadnienie na podstawie Przedwiośnia Stefana Żeromskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 53,
+   "lektura": "Stefan Żeromski, Przedwiośnie",
+   "lekturaId": "przedwiosnie",
+   "tresc": "Utopijny i realny obraz rzeczywistości. Omów zagadnienie na podstawie Przedwiośnia Stefana Żeromskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 54,
+   "lektura": "Witold Gombrowicz, Ferdydurke (fragmenty)",
+   "lekturaId": "ferdydurke",
+   "tresc": "Groteskowy obraz świata. Omów zagadnienie na podstawie znanych Ci fragmentów Ferdydurke Witolda Gombrowicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 55,
+   "lektura": "Witold Gombrowicz, Ferdydurke (fragmenty)",
+   "lekturaId": "ferdydurke",
+   "tresc": "Człowiek wobec presji otoczenia. Omów zagadnienie na podstawie znanych Ci fragmentów Ferdydurke Witolda Gombrowicza. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 56,
+   "lektura": "Tadeusz Borowski, Proszę państwa do gazu",
+   "lekturaId": "prosze-panstwa-do-gazu",
+   "tresc": "„Człowiek zlagrowany” jako ofiara zbrodniczego systemu. Omów zagadnienie na podstawie utworu Proszę państwa do gazu Tadeusza Borowskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 57,
+   "lektura": "Gustaw Herling-Grudziński, Inny świat (fragmenty)",
+   "lekturaId": "inny-swiat",
+   "tresc": "Jakie znaczenie ma tytuł dla odczytania sensu utworu? Omów zagadnienie na podstawie znanych Ci fragmentów Innego świata Gustawa Herlinga-Grudzińskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 58,
+   "lektura": "Gustaw Herling-Grudziński, Inny świat (fragmenty)",
+   "lekturaId": "inny-swiat",
+   "tresc": "Konsekwencje zniewolenia człowieka. Omów zagadnienie na podstawie znanych Ci fragmentów Innego świata Gustawa Herlinga-Grudzińskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 59,
+   "lektura": "Hanna Krall, Zdążyć przed Panem Bogiem",
+   "lekturaId": "zdazyc-przed-panem-bogiem",
+   "tresc": "Czy możliwe jest zachowanie godności w skrajnych sytuacjach? Omów zagadnienie na podstawie Zdążyć przed Panem Bogiem Hanny Krall. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 60,
+   "lektura": "Hanna Krall, Zdążyć przed Panem Bogiem",
+   "lekturaId": "zdazyc-przed-panem-bogiem",
+   "tresc": "Zagłada z perspektywy świadka i uczestnika wydarzeń w getcie. Omów zagadnienie na podstawie Zdążyć przed Panem Bogiem Hanny Krall. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 61,
+   "lektura": "Hanna Krall, Zdążyć przed Panem Bogiem",
+   "lekturaId": "zdazyc-przed-panem-bogiem",
+   "tresc": "Walka o życie z perspektywy wojennej i powojennej. Omów zagadnienie na podstawie Zdążyć przed Panem Bogiem Hanny Krall. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 62,
+   "lektura": "Albert Camus, Dżuma",
+   "lekturaId": "dzuma",
+   "tresc": "Co skłania człowieka do poświęceń? Omów zagadnienie na podstawie Dżumy Alberta Camusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 63,
+   "lektura": "Albert Camus, Dżuma",
+   "lekturaId": "dzuma",
+   "tresc": "Człowiek wobec cierpienia i śmierci. Omów zagadnienie na podstawie Dżumy Alberta Camusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 64,
+   "lektura": "Albert Camus, Dżuma",
+   "lekturaId": "dzuma",
+   "tresc": "Czy możliwa jest przyjaźń w sytuacjach skrajnych? Omów zagadnienie na podstawie Dżumy Alberta Camusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 65,
+   "lektura": "Albert Camus, Dżuma",
+   "lekturaId": "dzuma",
+   "tresc": "Jakie postawy przyjmuje człowiek wobec zła? Omów zagadnienie na podstawie Dżumy Alberta Camusa. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 66,
+   "lektura": "George Orwell, Rok 1984",
+   "lekturaId": "rok-1984",
+   "tresc": "Czy możliwe jest zbudowanie doskonałego państwa? Omów zagadnienie na podstawie utworu Rok 1984 George’a Orwella. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 67,
+   "lektura": "George Orwell, Rok 1984",
+   "lekturaId": "rok-1984",
+   "tresc": "Jak zachować wolność w państwie totalitarnym? Omów zagadnienie na podstawie utworu Rok 1984 George’a Orwella. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 68,
+   "lektura": "George Orwell, Rok 1984",
+   "lekturaId": "rok-1984",
+   "tresc": "Znaczenie propagandy w państwie totalitarnym. Omów zagadnienie na podstawie utworu Rok 1984 George’a Orwella. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 69,
+   "lektura": "George Orwell, Rok 1984",
+   "lekturaId": "rok-1984",
+   "tresc": "Nowomowa jako sposób na ograniczenie wolności człowieka. Omów zagadnienie na podstawie utworu Rok 1984 George’a Orwella. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 70,
+   "lektura": "Sławomir Mrożek, Tango",
+   "lekturaId": "tango",
+   "tresc": "Bunt przeciwko porządkowi społecznemu. Omów zagadnienie na podstawie Tanga Sławomira Mrożka. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 71,
+   "lektura": "Sławomir Mrożek, Tango",
+   "lekturaId": "tango",
+   "tresc": "Konflikt pokoleń. Omów zagadnienie na podstawie Tanga Sławomira Mrożka. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 72,
+   "lektura": "Sławomir Mrożek, Tango",
+   "lekturaId": "tango",
+   "tresc": "Normy społeczne – ograniczają człowieka czy porządkują życie? Omów zagadnienie na podstawie Tanga Sławomira Mrożka. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 73,
+   "lektura": "Marek Nowakowski, Górą „Edek”",
+   "lekturaId": "gora-edek",
+   "tresc": "W jakim celu autor nawiązuje w swoim tekście do innego tekstu? Omów zagadnienie na podstawie utworu Górą „Edek” Marka Nowakowskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 74,
+   "lektura": "Andrzej Stasiuk, Miejsce",
+   "lekturaId": "miejsce",
+   "tresc": "Miejsca ważne w życiu człowieka. Omów zagadnienie na podstawie Miejsca Andrzeja Stasiuka. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 75,
+   "lektura": "Olga Tokarczuk, Profesor Andrews w Warszawie",
+   "lekturaId": "profesor-andrews",
+   "tresc": "Stan wojenny z perspektywy obcokrajowca. Omów zagadnienie na podstawie utworu Profesor Andrews w Warszawie Olgi Tokarczuk. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  },
+  {
+   "nr": 76,
+   "lektura": "Ryszard Kapuściński, Podróże z Herodotem (fragmenty)",
+   "lekturaId": "podroze-z-herodotem",
+   "tresc": "Czym dla człowieka może być podróżowanie? Omów zagadnienie na podstawie znanych Ci fragmentów Podróży z Herodotem Ryszarda Kapuścińskiego. W swojej odpowiedzi uwzględnij również wybrany kontekst."
+  }
+ ]
+}

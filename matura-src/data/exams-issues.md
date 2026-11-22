@@ -124,3 +124,403 @@ Walidacja: bez rozbieżności.
 Walidacja: bez rozbieżności.
 
 Źródła: Informator CKE j. angielski od 2023: części pisemne (fragment w wyszukiwarce); czas i suma punktów niezweryfikowane; PDF MJAP-P0-100-A-2605-arkusz.pdf (import lokalny); PDF MJAP-P0-100-200-660-2605-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2306 (angielski, podstawowy, 2023) – status: pełny
+
+- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 9 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2306-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2306-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2308 (angielski, podstawowy, 2023) – status: pełny
+
+- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2308-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2308-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2406 (angielski, podstawowy, 2024) – status: pełny
+
+- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 9 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2406-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2406-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2408 (angielski, podstawowy, 2024) – status: pełny
+
+- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 4 (zamknięte): nieodczytane pozycje 4.3.
+- Zadanie 5 (zamknięte): nieodczytane pozycje 5.4, 5.5, 5.6, 5.7.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 2: odczytano 4 z 5 odpowiedzi; brakujące = null
+- Zadanie 4: odczytano 3 z 4 odpowiedzi; brakujące = null
+- Zadanie 5: odczytano 3 z 7 odpowiedzi; brakujące = null
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2408-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2408-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2506 (angielski, podstawowy, 2025) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2506-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2506-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2508 (angielski, podstawowy, 2025) – status: pełny
+
+- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 2: odczytano 5 z 6 odpowiedzi; brakujące = null
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2508-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2508-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2606 (angielski, podstawowy, 2026) – status: pełny
+
+- Zadanie 9 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2606-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2606-zasady.pdf (import lokalny)
+
+## MJAP-P0-100-2608 (angielski, podstawowy, 2026) – status: pełny
+
+- Zadanie 9 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Brak nagrania mp3 w katalogu importu.
+
+Źródła: PDF MJAP-P0-100-A-2608-arkusz.pdf (import lokalny); PDF MJAP-P0-100-2608-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2308 (matematyka, podstawowy, 2023) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 6 nie ma przypisanego tematu.
+- Zadanie 7 nie ma przypisanego tematu.
+- Zadanie 11 nie ma przypisanego tematu.
+- Zadanie 12 nie ma przypisanego tematu.
+- Zadanie 15 nie ma przypisanego tematu.
+- Zadanie 21 nie ma przypisanego tematu.
+- Zadanie 23 nie ma przypisanego tematu.
+- Zadanie 30 nie ma przypisanego tematu.
+- Zadanie 32 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 15: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie
+
+Źródła: PDF MMAP-P0-100-A-2308-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2308-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2406 (matematyka, podstawowy, 2024) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 13 nie ma przypisanego tematu.
+- Zadanie 22 nie ma przypisanego tematu.
+- Zadanie 29 nie ma przypisanego tematu.
+- Zadanie 32 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-A-2406-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2406-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2408 (matematyka, podstawowy, 2024) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 11.1 nie ma przypisanego tematu.
+- Zadanie 11.2 nie ma przypisanego tematu.
+- Zadanie 11.3 nie ma przypisanego tematu.
+- Zadanie 27 nie ma przypisanego tematu.
+- Zadanie 30 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 4: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie
+
+Źródła: PDF MMAP-P0-100-A-2408-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2408-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2506 (matematyka, podstawowy, 2025) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 11 nie ma przypisanego tematu.
+- Zadanie 12 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 14.2 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 15.2 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 26 nie ma przypisanego tematu.
+- Zadanie 28 nie ma przypisanego tematu.
+- Zadanie 31 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 12: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 15.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+
+Źródła: PDF MMAP-P0-100-A-2506-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2506-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2508 (matematyka, podstawowy, 2025) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 3 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 6 nie ma przypisanego tematu.
+- Zadanie 11 nie ma przypisanego tematu.
+- Zadanie 13 nie ma przypisanego tematu.
+- Zadanie 14.2 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 15 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 17 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 19 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 21.1 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 22.1 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 25 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 27 nie ma przypisanego tematu.
+- Zadanie 28 nie ma przypisanego tematu.
+- Zadanie 31 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 3: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 15: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 17: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 19: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 21.1: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 22.1: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 25: zadanie zamknięte, ale rozwiązania „WiPP” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+
+Źródła: PDF MMAP-P0-100-A-2508-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2508-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2603 (matematyka, podstawowy, 2026) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 6 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 10 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 13 nie ma przypisanego tematu.
+- Zadanie 22 nie ma przypisanego tematu.
+- Zadanie 28 nie ma przypisanego tematu.
+- Zadanie 29 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 30 nie ma przypisanego tematu.
+- Zadanie 32.2 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 10: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 29: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 32.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+
+Źródła: PDF MMAP-P0-100-A-2603-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2603-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2606 (matematyka, podstawowy, 2026) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 11 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 14.2 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 19 nie ma przypisanego tematu.
+- Zadanie 21 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 26 nie ma przypisanego tematu.
+- Zadanie 27 nie ma przypisanego tematu.
+- Zadanie 28 nie ma przypisanego tematu.
+- Zadanie 29 nie ma przypisanego tematu.
+- Zadanie 29 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 30 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 11: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 21: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 29: zadanie zamknięte, ale rozwiązania „WiA” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+
+Źródła: PDF MMAP-P0-100-A-2606-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2606-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2608 (matematyka, podstawowy, 2026) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 8 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 10 nie ma przypisanego tematu.
+- Zadanie 14.2 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 17 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 22.2 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 25 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 27 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 30 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 8: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 14.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 17: zadanie zamknięte, ale rozwiązania „ęCWi” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 22.2: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 25: zadanie zamknięte, ale rozwiązania „WiD” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 27: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+
+Źródła: PDF MMAP-P0-100-A-2608-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2608-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2306 (matematyka, rozszerzony, 2023) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-A-2306-arkusz.pdf (import lokalny); PDF MMAP-R0-100-2306-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2406 (matematyka, rozszerzony, 2024) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-A-2406-arkusz.pdf (import lokalny); PDF MMAP-R0-100-2406-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2506 (matematyka, rozszerzony, 2025) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-A-2506-arkusz.pdf (import lokalny); PDF MMAP-R0-100-2506-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2606 (matematyka, rozszerzony, 2026) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-A-2606-arkusz.pdf (import lokalny); PDF MMAP-R0-100-2606-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2306 (polski, podstawowy, 2023) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.1: nie odczytałem zasad punktacji (2 pkt – zaznaczenie odpowiedzi FPF.; 1 pkt – poprawne zaznaczenie odpowiedzi w odniesieniu do dwóch zdań.; 0 pkt – poprawne zaznaczenie odpowiedzi w odniesieniu do jednego zdania lub odpowiedź niepoprawna albo brak odpowiedzi.)
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2306-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2306-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2306-zasady.pdf (import lokalny); PDF MPOP-P2-100-2306-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2308 (polski, podstawowy, 2023) – status: pełny
+
+- Zadanie A1.4 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.4: zadanie zamknięte, ale rozwiązania „—” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie A1.11: nie odczytałem zasad punktacji (2 pkt – zaznaczenie odpowiedzi C oraz poprawne wyjaśnienie.; 1 pkt – zaznaczenie odpowiedzi C ALBO poprawne wyjaśnienie, zawierające odpowiedź stylizacja biblijna.; 0 pkt – odpowiedź niepoprawna lub niepełna albo brak odpowiedzi.)
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2308-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2308-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2308-zasady.pdf (import lokalny); PDF MPOP-P2-100-2308-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2406 (polski, podstawowy, 2024) – status: pełny
+
+- Zadanie A1.9.1 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.9.1: rozwiązanie „ACD” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2406-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2406-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2406-zasady.pdf (import lokalny); PDF MPOP-P2-100-2406-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2408 (polski, podstawowy, 2024) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2408-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2408-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2408-zasady.pdf (import lokalny); PDF MPOP-P2-100-2408-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2506 (polski, podstawowy, 2025) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2506-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2506-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2506-zasady.pdf (import lokalny); PDF MPOP-P2-100-2506-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2508 (polski, podstawowy, 2025) – status: pełny
+
+- Zadanie A1.14 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.14: rozwiązanie „BD” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2508-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2508-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2508-zasady.pdf (import lokalny); PDF MPOP-P2-100-2508-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2606 (polski, podstawowy, 2026) – status: pełny
+
+- Zadanie A1.13 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.13: rozwiązanie „A3,B1” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2606-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2606-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2606-zasady.pdf (import lokalny); PDF MPOP-P2-100-2606-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2608 (polski, podstawowy, 2026) – status: pełny
+
+- Zadanie A1.5 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.5: rozwiązanie „AE” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-A-2608-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2608-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2608-zasady.pdf (import lokalny); PDF MPOP-P2-100-2608-zasady.pdf (import lokalny)

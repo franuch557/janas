@@ -4,7 +4,7 @@
 // spacje („Z adanie 4 . (0 – 1)”, „202 5”), dlatego nagłówki dopasowuję po usunięciu spacji.
 
 const FAMILY = { MMAP: 'matematyka', MPOP: 'polski', MJAP: 'angielski', MJA: 'angielski' };
-const MONTH = { '05': 'maj', '06': 'czerwiec', '08': 'sierpień' };
+const MONTH = { '03': 'marzec', '05': 'maj', '06': 'czerwiec', '08': 'sierpień' };
 
 /** Linia z tekstu (testy): { text, y } → pełna linia z polami top/bottom/n/items. */
 export function mkLine(text, y, x = 71, h = 11) {

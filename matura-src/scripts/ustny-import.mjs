@@ -4,7 +4,7 @@
 // Szuka PDF, którego nazwa zawiera „pytania” albo „jawne”. Gdy go nie ma, kończy bez zmian.
 // Format: { zrodlo, rok, pytania: [{ nr, lektura, lekturaId: null, tresc }] } – treść z PDF,
 // bez zmian merytorycznych; lekturaId uzupełnia się ręcznie (id lektury w aplikacji).
-import { readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parsePytania, yearOf } from './ustny-parse.mjs';
@@ -24,7 +24,10 @@ const lines = pages.flatMap((p) => {
   return p.lines.filter((l) => l.top >= lim.top && l.bottom <= lim.bottom + 2).map((l) => l.text);
 });
 const pytania = parsePytania(lines);
-const out = { zrodlo: file, rok: yearOf(file, lines.slice(0, 20).join(' ')), pytania };
+const mapPath = join(root, 'data/ustny/lektury-mapa.json');
+const mapa = existsSync(mapPath) ? JSON.parse(readFileSync(mapPath, 'utf8')) : null;
+if (mapa) for (const p of pytania) p.lekturaId = mapa.mapa?.[p.lektura] ?? null;
+const out = { zrodlo: file, rok: mapa?.rok ?? yearOf(file, lines.slice(0, 20).join(' ')), pytania };
 mkdirSync(join(root, 'data/ustny'), { recursive: true });
 writeFileSync(join(root, 'data/ustny/pytania-jawne.json'), JSON.stringify(out, null, 1) + '\n');
 console.log(`Zapisano data/ustny/pytania-jawne.json: ${pytania.length} pytań z ${file}, lektury: ${new Set(pytania.map((p) => p.lektura)).size}.`);
