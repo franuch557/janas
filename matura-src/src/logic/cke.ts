@@ -27,6 +27,12 @@ export interface EssayInfo {
   criteria: string;
 }
 
+/** Punktacja zadania otwartego z zasad CKE (poziomy od najwyższego) i wynik końcowy z klucza. */
+export interface Rubric {
+  levels: { points: number; text: string }[];
+  result: string | null;
+}
+
 export interface CkeTask {
   id: string;
   examId: string;
@@ -43,6 +49,7 @@ export interface CkeTask {
   audio: { start: number | null; end: number | null } | null;
   alternative: string | null;
   essay: EssayInfo | null;
+  rubric: Rubric | null;
   partId: string | null;
   minutes: number;
   year: number;
@@ -103,6 +110,17 @@ function readAnswer(x: unknown): ClosedAnswer | null {
   const same = items.length > 1 && items.every((i) => i.options.join() === items[0].options.join());
   const unordered = same && items.every((i) => /alfabetycznie/i.test(i.label ?? ''));
   return unordered ? { items, scoring, unordered } : { items, scoring };
+}
+
+function readRubric(x: unknown, max: number): Rubric | null {
+  if (!isObj(x) || !Array.isArray(x.levels)) return null;
+  const levels = x.levels
+    .filter(isObj)
+    .map((l) => ({ points: num(l.points) ?? -1, text: str(l.text) ?? '' }))
+    .filter((l) => l.points >= 0 && l.points <= max && l.text)
+    .sort((a, b) => b.points - a.points);
+  if (levels.length < 2 || levels[0].points !== max) return null;
+  return { levels, result: str(x.result) };
 }
 
 function readEssay(x: unknown): EssayInfo | null {
@@ -186,6 +204,7 @@ export function normalizeExams(raw: unknown): CkeExam[] {
         audio: audioRaw,
         alternative: str(t.alternative),
         essay,
+        rubric: auto || essay ? null : readRubric(t.rubric, mp),
         partId,
         minutes: mins,
         year,

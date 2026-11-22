@@ -450,3 +450,31 @@ Uwagi z importu:
 - Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
 
 Źródła: PDF MPOP-P1-100-A-2608-arkusz.pdf (import lokalny); PDF MPOP-P2-100-A-2608-arkusz.pdf (import lokalny); PDF MPOP-P1-100-2608-zasady.pdf (import lokalny); PDF MPOP-P2-100-2608-zasady.pdf (import lokalny)
+
+## ZBIOR-MMAP-P0 (matematyka, podstawowy, 2022) – status: pełny
+
+- Brak czasu trwania arkusza w sprawdzonych źródłach.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: Zbiór zadań CKE z matematyki, poziom podstawowy (7 października 2022 r.); PDF zbior-zadan-matematyka-pp.pdf (import lokalny)
+
+## ZBIOR-MMAP-R0 (matematyka, rozszerzony, 2022) – status: pełny
+
+- Brak czasu trwania arkusza w sprawdzonych źródłach.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: Zbiór zadań CKE z matematyki, poziom rozszerzony (2022 r.); PDF zbior-zadan-matematyka-pr.pdf (import lokalny)
+
+## INF-MMAP-P0 (matematyka, podstawowy, 2024) – status: pełny
+
+- Brak czasu trwania arkusza w sprawdzonych źródłach.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: Informator CKE o egzaminie maturalnym z matematyki, poziom podstawowy (od roku szkolnego 2024/2025); PDF informator-matematyka-pp-2024.pdf (import lokalny)
+
+## INF-MMAP-R0 (matematyka, rozszerzony, 2024) – status: pełny
+
+- Brak czasu trwania arkusza w sprawdzonych źródłach.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: Informator CKE o egzaminie maturalnym z matematyki, poziom rozszerzony (od roku szkolnego 2024/2025); PDF informator-matematyka-pr-2024.pdf (import lokalny)

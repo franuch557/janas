@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { planSheet, planRules, linesBetween, isClosed, needsProof, needsCases, guessTopics, summarize, whiteouts, columnFor } from './cke-parse.mjs';
-import { buildAnswer } from './cke-answers.mjs';
+import { rubricFrom, buildAnswer } from './cke-answers.mjs';
 import { loadPdf, renderGray, cutFragment, composeJpeg } from './cke-pdf.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -129,6 +129,7 @@ for (const z of ZBIORY) {
       context: null,
       audio: null,
       alternative: null,
+      rubric: rubricFrom(ans, r, t),
       essay: null,
     });
     images.push({ kind: 'zad', key: t.nr, pages: taskPages, frags: t.frags, width: 1000 });

@@ -145,3 +145,17 @@ dniach, 0 = nowa albo w nauce), `lapses` (pomyłki), `firstOn` (dzień pierwszej
 (karta wraca w tej samej sesji, łatwość −0,2), Trudne (×1,2, −0,15), Dobrze (×łatwość), Łatwe (×łatwość×1,3, +0,15).
 Najwyżej 20 nowych kart dziennie. Karta z co najmniej 4 pomyłkami jest „trudna”. Starsze karty (tylko `step`)
 dostają odstęp z `INTERVALS[step]`.
+
+## 10. Punktacja zadań otwartych (`rubric`)
+
+Zadanie otwarte (bez `essay`) może mieć `rubric` z zasad oceniania CKE:
+
+```json
+"rubric": { "levels": [{ "points": 2, "text": "… obliczenie różnicy ciągu: r = −2." }, { "points": 1, "text": "…" }, { "points": 0, "text": "…" }], "result": "r = −2" }
+```
+
+- `levels` od najwyższego; pierwszy ma `points` równe `maxPoints`, ostatni 0
+  (gdy zasady nie mają poziomu 0, skrypt dopisuje ogólny).
+- Tekst z warstwy tekstowej PDF (NFKC), bez indeksów górnych i ułamków: dokładny zapis jest na obrazie zasad.
+- `result`: tekst po ostatnim dwukropku najwyższego poziomu, gdy zawiera liczbę; inaczej null.
+- Tworzą je `import-cke` i `zbiory:import` (`rubricFrom` w `scripts/cke-answers.mjs`).

@@ -60,6 +60,8 @@ export interface ExamTask {
   audio?: { start: number | null; end: number | null } | null; // angielski, słuchanie; sekundy w mp3 arkusza
   alternative?: string | null; // zadania do wyboru mają ten sam klucz; liczy się jedno
   essay?: { minWords: number | null; maxWords: number | null; criteria: string } | null;
+  /** Zadania otwarte: poziomy punktacji z zasad CKE i wynik z klucza (ocena bez Claude'a). */
+  rubric?: { levels: { points: number; text: string }[]; result: string | null } | null;
 }
 
 /** Grupa zadań, dla której znana jest tylko łączna punktacja. */

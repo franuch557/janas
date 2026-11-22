@@ -71,6 +71,7 @@ export function userTaskToApp(u: UserTask): AppTask {
     audio: null,
     alternative: null,
     essay: null,
+    rubric: null,
     partId: null,
     minutes: Math.max(5, u.maxPoints * 4),
     year: 0,

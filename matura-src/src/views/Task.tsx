@@ -1,3 +1,4 @@
+import { RubricGrader } from './rubricParts';
 import { useEffect, useRef, useState } from 'react';
 import { subjectDef } from '../model';
 import { useStore } from '../store/AppStore';
@@ -305,6 +306,18 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
               />
             ) : null}
             {grade ? <Verdict r={grade} /> : null}
+            {!t.auto && t.rubric && !grade ? (
+              <RubricGrader
+                id={t.id}
+                rubric={t.rubric}
+                value={self}
+                disabled={checked}
+                onChange={(p) => {
+                  setSelf(p);
+                  setRevealed(true);
+                }}
+              />
+            ) : null}
             {revealed && !t.user ? (
               <div className="reveal">
                 <TaskSheet task={t} kind="odp" />

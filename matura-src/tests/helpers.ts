@@ -26,6 +26,7 @@ export function ckeTask(id: string, over: Partial<CkeTask> = {}): CkeTask {
     audio: null,
     alternative: null,
     essay: null,
+    rubric: null,
     partId: null,
     minutes: 4,
     year: 2024,

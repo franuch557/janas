@@ -18,7 +18,7 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync, rmSync
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFileName, planSheet, planRules, findMeta, isClosed, needsProof, needsCases, guessTopics, summarize } from './cke-parse.mjs';
-import { buildAnswer } from './cke-answers.mjs';
+import { rubricFrom, buildAnswer } from './cke-answers.mjs';
 import { issuesMarkdown, imagesLookup } from './validate-exams.mjs';
 
 const args = process.argv.slice(2);
@@ -123,6 +123,7 @@ for (const [examId, g] of groups) {
         context: t.context ?? null,
         audio: null,
         alternative: t.alternative ?? null,
+        rubric: rubricFrom(ans, r, t),
         essay: t.essay ?? null,
       };
       if (info.family === 'angielski' && /Usłyszysz/.test(t.text)) {

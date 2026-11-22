@@ -170,7 +170,31 @@ opublikować obok strony (w artefakcie jako `files` pod ścieżkami `cke/…`).
 Routing wyłącznie przez `location.hash` (`#start`, `#zadanie-MMAP-R0-100-2505-n6-1`),
 bez `alert`, `confirm`, `print`; dźwięk tylko po kliknięciu.
 
-`npm run build` buduje też zwykłą stronę do `../matura/` (GitHub Pages).
+`npm run build` buduje też zwykłą stronę do `../matura/` (bez obrazów CKE).
+
+## Strona na GitHub Pages (z obrazami CKE)
+
+```
+npm run cke:pakiet      # public/cke/ (obrazy i nagrania)
+npm run build:pages     # dist-pages/matura-2027/
+npm run pages:publish   # wypycha stronę do franuch557/matura-2027 (main)
+```
+
+Adres: https://franuch557.github.io/matura-2027/. Strona ma obrazy i nagrania CKE,
+więc jest w osobnym repo, a nie w repo z kodem. Poza artefaktem nie ma Claude'a,
+więc strona ocenia sama:
+
+- zadania zamknięte: klucz CKE, jak w artefakcie;
+- zadania otwarte: poziomy punktacji z zasad oceniania CKE (`rubric` w `exams.json`),
+  uczeń wybiera najwyższy spełniony poziom, a strona porównuje liczby z jego wyniku
+  z wynikiem z klucza (`src/logic/rubric.ts`);
+- fiszki ze zdjęcia: OCR w przeglądarce (tesseract.js, polski i angielski; skrypt
+  i dane języków z cdn.jsdelivr.net), dwie kolumny rozpoznawane po przerwie w linii
+  (`src/logic/ocr.ts`);
+- plan wypowiedzi ustnej: lista kontrolna według kryteriów CKE (`src/logic/oralCheck.ts`);
+- wypracowanie: samoocena według kryteriów i licznik słów, jak dotąd.
+
+Wyniki są zapisywane w przeglądarce (bez chmury). Kopię robi „Eksportuj kopię” w ustawieniach.
 
 ## Dodawanie zadań z zadania.info
 

@@ -159,3 +159,28 @@ function englishAnswer(task, body, rule, issues) {
     issues,
   };
 }
+
+/**
+ * Punktacja zadania otwartego z zasad oceniania („3 pkt – …”, „2 pkt – …”) do oceny bez Claude'a:
+ * { levels: [{ points, text }], result } albo null. `result` to wynik z najwyższego poziomu
+ * (tekst po ostatnim dwukropku, gdy jest w nim liczba), do porównania z odpowiedzią ucznia.
+ */
+export function rubricFrom(ans, rule, task) {
+  if (task.essay || ans?.type !== 'otwarte' || !rule?.scoring?.length) return null;
+  const clean = (s) => s.normalize('NFKC').replace(/\s+/g, ' ').replace(/\s+([,.;:)])/g, '$1').trim();
+  const seen = new Set();
+  const levels = [];
+  for (const l of rule.scoring) {
+    if (seen.has(l.points) || l.points > task.maxPoints) continue;
+    seen.add(l.points);
+    levels.push({ points: l.points, text: clean(l.text).slice(0, 420) });
+  }
+  levels.sort((a, b) => b.points - a.points);
+  if (!levels.length || levels[0].points !== task.maxPoints) return null;
+  if (!levels.some((l) => l.points === 0)) levels.push({ points: 0, text: 'rozwiązanie niespełniające żadnego z powyższych warunków albo brak rozwiązania.' });
+  const top = levels[0].text;
+  const i = top.lastIndexOf(':');
+  let result = i >= 0 ? top.slice(i + 1).replace(/[.;,]\s*$/, '').trim() : null;
+  if (!result || !/\d/.test(result) || result.length > 80) result = null;
+  return { levels, result };
+}

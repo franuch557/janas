@@ -2611,3 +2611,71 @@ label.btn.disabled {
   opacity: 0.5;
   pointer-events: none;
 }
+
+/* ---------- Ocena według zasad CKE (bez Claude'a) ---------- */
+
+.levels {
+  display: grid;
+  gap: var(--o-2);
+}
+
+.level {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: var(--o-3);
+  align-items: start;
+  text-align: left;
+  min-height: 48px;
+  padding: var(--o-3);
+  border-radius: var(--r-btn);
+  border: 1.5px solid var(--obrys-pola);
+  background: var(--powierzchnia);
+  color: var(--tekst);
+  font: inherit;
+  cursor: pointer;
+}
+
+.level:hover {
+  background: var(--powierzchnia-2);
+}
+
+.level[aria-checked='true'] {
+  background: var(--atrament-tlo);
+  border: 2px solid var(--atrament);
+}
+
+.level:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ok-text {
+  color: var(--dobrze-tekst);
+}
+
+.bad-text {
+  color: var(--zle-tekst);
+}
+
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--o-2);
+}
+
+.checklist li {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: var(--o-2);
+  align-items: start;
+}
+
+.checklist li.ok svg {
+  color: var(--dobrze);
+}
+
+.checklist li.todo svg {
+  color: var(--zle);
+}

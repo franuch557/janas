@@ -1,5 +1,6 @@
 // Lektury i matura ustna z polskiego.
 
+import { checkOralPlan } from '../logic/oralCheck';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { newId, useStore } from '../store/AppStore';
 import { BOOKS, bookById, bookText, EPOCHS, loadOral2Pack, ORAL, ORAL2, type BookEntry } from '../store/books';
@@ -9,6 +10,7 @@ import { AiStatus, imagesFor, useAi, useAiCall } from '../ui/ai';
 import { Sheetimg } from '../ui/TaskImage';
 import { MathText } from '../ui/MathText';
 import { Empty, IconButton, Segmented, useNow } from '../ui/common';
+import { Icon } from '../ui/icons';
 import { go } from '../ui/router';
 import { fiszek } from './Flashcards';
 
@@ -360,13 +362,14 @@ function Oral2View({ id }: { id: string }) {
       </div>
       <p className="small muted">{TYP2[z.typ] ?? z.typ}</p>
       <p style={{ fontSize: '1.125rem' }}>{z.polecenie}</p>
-      {zad ? <Sheetimg src={zad} alt={`Materiał do zadania ${z.id}`} /> : pack === undefined ? <p className="muted">Ładowanie materiału…</p> : <p className="muted">Materiał (obraz) jest dostępny w wersji aplikacji opublikowanej jako artefakt.</p>}
+      {zad ? <Sheetimg src={zad} alt={`Materiał do zadania ${z.id}`} /> : pack === undefined ? <p className="muted">Ładowanie materiału…</p> : <p className="muted">Nie udało się wczytać materiału. Sprawdź połączenie i otwórz zadanie ponownie.</p>}
       <Stopwatch label="Przygotowanie (oba zadania)" minutes={15} />
       <Stopwatch label="Wypowiedź" minutes={5} />
       <div className="field">
         <label htmlFor="o2note">Mój plan wypowiedzi</label>
         <textarea id="o2note" className="textarea" style={{ minHeight: 160 }} value={text} onChange={(e) => setText(e.target.value)} maxLength={6000} placeholder="Teza, co widać w materiale, drugi tekst kultury, wniosek" />
       </div>
+      <PlanChecklist text={text} kind="z2" />
       {ai.available ? (
         <section className="card ai-box">
           <button type="button" className="btn btn-secondary" onClick={() => void ask()} disabled={call.busy}>
@@ -389,6 +392,32 @@ function Oral2View({ id }: { id: string }) {
         )
       ) : null}
     </div>
+  );
+}
+
+/** Lista kontrolna planu według kryteriów CKE (działa bez Claude'a). */
+function PlanChecklist({ text, kind, lektura }: { text: string; kind: 'jawne' | 'z2'; lektura?: string | null }) {
+  const items = useMemo(() => checkOralPlan(text, kind, BOOKS.map((b) => b.tytul), lektura), [text, kind, lektura]);
+  if (!text.trim()) return null;
+  const ok = items.filter((i) => i.ok).length;
+  return (
+    <section className="card stack-2" aria-live="polite">
+      <h3>
+        Sprawdzenie planu: <span className="tnum">{ok} z {items.length}</span>
+      </h3>
+      <ul className="checklist">
+        {items.map((i) => (
+          <li key={i.label} className={i.ok ? 'ok' : 'todo'}>
+            <Icon name={i.ok ? 'ok' : 'zle'} size={20} />
+            <span>
+              <strong>{i.label}</strong>
+              {i.ok ? null : <span className="small muted"> {i.tip}</span>}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p className="small muted">Lista sprawdza, czy plan ma elementy wymagane przez CKE. Treść ocenisz sam, porównując z przykładową realizacją.</p>
+    </section>
   );
 }
 
@@ -492,6 +521,7 @@ function OralQuestion({ nr }: { nr: string }) {
         <label htmlFor="onote">Moja notatka</label>
         <textarea id="onote" className="textarea" style={{ minHeight: 160 }} value={text} onChange={(e) => setText(e.target.value)} maxLength={6000} />
       </div>
+      <PlanChecklist text={text} kind="jawne" lektura={entry?.tytul ?? p.lektura} />
     </div>
   );
 }

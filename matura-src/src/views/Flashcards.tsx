@@ -1,3 +1,4 @@
+import { ocrImages } from '../logic/ocr';
 import { useEffect, useMemo, useState } from 'react';
 import { SUBJECTS, subjectDef, type Flashcard, type SubjectId } from '../model';
 import { newId, useStore } from '../store/AppStore';
@@ -128,9 +129,25 @@ function PhotoCards({ subject, onDrafts }: { subject: SubjectId; onDrafts: (d: C
   const call = useAiCall();
   const [photos, setPhotos] = useState<string[]>([]);
   const [err, setErr] = useState<string | null>(null);
-  const max = Math.max(1, Math.min(5, ai.maxImages || 1));
+  // bez Claude'a: OCR w przeglądarce, odczytany tekst do poprawienia przed zapisem
+  const [ocr, setOcr] = useState<{ busy: boolean; progress: number; text: string | null }>({ busy: false, progress: 0, text: null });
+  const max = ai.available ? Math.max(1, Math.min(5, ai.maxImages || 1)) : 5;
+  const sub = subjectDef(subject)!;
+  const name = () => `Ze zdjęcia: ${sub.short}, ${new Date().toLocaleDateString('pl-PL')}`;
+  const readOcr = async () => {
+    setErr(null);
+    setOcr({ busy: true, progress: 0, text: null });
+    try {
+      const text = await ocrImages(photos, (p) => setOcr((o) => ({ ...o, progress: p })));
+      setOcr({ busy: false, progress: 1, text });
+      if (!parseCardText(text).length) setErr('Nie znalazłem par. Popraw tekst: jedna fiszka w linii, przód i tył oddziel myślnikiem.');
+    } catch {
+      setOcr({ busy: false, progress: 0, text: null });
+      setErr('Nie udało się odczytać zdjęcia. Sprawdź połączenie z internetem albo wklej tekst poniżej.');
+    }
+  };
   const read = async () => {
-    const sub = subjectDef(subject)!;
+    if (!ai.available) return readOcr();
     const images = await imagesFor(photos);
     if (!images.length) {
       setErr('Claude nie przyjmuje teraz zdjęć. Wklej tekst poniżej.');
@@ -142,13 +159,14 @@ function PhotoCards({ subject, onDrafts }: { subject: SubjectId; onDrafts: (d: C
       setErr('Na zdjęciu nie znalazłem par do fiszek. Zrób wyraźniejsze zdjęcie z bliska.');
       return;
     }
-    onDrafts(cards, `Ze zdjęcia: ${sub.short}, ${new Date().toLocaleDateString('pl-PL')}`);
+    onDrafts(cards, name());
     setPhotos([]);
   };
+  const ocrDrafts = ocr.text != null ? parseCardText(ocr.text) : [];
   return (
     <div className="card stack-2">
       <h3>Ze zdjęcia</h3>
-      <p className="small muted">Zrób zdjęcie listy słówek, notatek albo tabeli. Claude odczyta pary pojęcie – znaczenie, a ty sprawdzisz je przed zapisem.</p>
+      <p className="small muted">Zrób zdjęcie listy słówek, notatek albo tabeli. {ai.available ? 'Claude odczyta' : 'Strona odczyta'} pary pojęcie – znaczenie, a ty sprawdzisz je przed zapisem.</p>
       <div className="row">
         <label className={`btn btn-secondary${photos.length >= max ? ' disabled' : ''}`}>
           <Icon name="plus" size={20} /> {photos.length ? 'Dodaj kolejne zdjęcie' : 'Zrób lub wybierz zdjęcie'}
@@ -188,10 +206,31 @@ function PhotoCards({ subject, onDrafts }: { subject: SubjectId; onDrafts: (d: C
         </div>
       ) : null}
       {err ? <p className="error">{err}</p> : null}
-      <button type="button" className="btn btn-primary" disabled={!photos.length || call.busy} onClick={() => void read()}>
-        Odczytaj fiszki
+      <button type="button" className="btn btn-primary" disabled={!photos.length || call.busy || ocr.busy} onClick={() => void read()}>
+        {ocr.busy ? `Odczytuję… ${Math.round(ocr.progress * 100)}%` : 'Odczytaj fiszki'}
       </button>
-      <AiStatus call={call} />
+      {ocr.text != null ? (
+        <div className="stack-2">
+          <div className="field">
+            <label htmlFor="fc-ocr">Odczytany tekst: popraw błędy, jedna fiszka w linii</label>
+            <textarea id="fc-ocr" className="textarea" value={ocr.text} onChange={(e) => setOcr((o) => ({ ...o, text: e.target.value }))} maxLength={20000} />
+          </div>
+          <button
+            type="button"
+            className="btn btn-secondary"
+            disabled={!ocrDrafts.length}
+            onClick={() => {
+              onDrafts(ocrDrafts, name());
+              setPhotos([]);
+              setOcr({ busy: false, progress: 0, text: null });
+              setErr(null);
+            }}
+          >
+            Sprawdź fiszki ({ocrDrafts.length})
+          </button>
+        </div>
+      ) : null}
+      {ai.available ? <AiStatus call={call} /> : null}
     </div>
   );
 }
@@ -397,7 +436,7 @@ export function FlashcardsView() {
       <section className="stack">
         <h2>Dodaj fiszki</h2>
         <Segmented label="Przedmiot" options={enabled.map((s) => s.id)} value={subject} onChange={setSubject} render={(v) => subjectDef(v)!.short} />
-        {ai.available ? <PhotoCards subject={subject} onDrafts={onDrafts} /> : null}
+        <PhotoCards subject={subject} onDrafts={onDrafts} />
         <TextCards onDrafts={onDrafts} />
         {ai.available ? <WeakCards subject={subject} onDrafts={onDrafts} /> : null}
       </section>

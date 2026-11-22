@@ -10,10 +10,12 @@
     "test": "vitest run",
     "import-cke": "node scripts/import-cke.mjs",
     "validate": "node scripts/validate-exams.mjs",
+    "build:pages": "tsc --noEmit && vite build --mode pages",
+    "pages:publish": "node tools/pages-publish.mjs",
     "build:jeden-plik": "tsc --noEmit && vite build --mode jeden-plik && node tools/jeden-plik.mjs",
     "embed-images": "node scripts/embed-images.mjs",
     "cke:pakiet": "node scripts/cke-pakiet.mjs",
-    "e2e": "node --test --test-concurrency=1 --test-timeout=600000 tests-e2e/*.e2e.mjs",
+    "e2e": "node --test --test-force-exit --test-concurrency=1 --test-timeout=600000 tests-e2e/*.e2e.mjs",
     "ustny:import": "node scripts/ustny-import.mjs",
     "zbiory:import": "node scripts/zbiory-import.mjs",
     "ustny:zadanie2": "node scripts/ustny-zadanie2.mjs"
@@ -23,7 +25,8 @@
     "fflate": "^0.8.2",
     "katex": "^0.16.11",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tesseract.js": "^6.0.1"
   },
   "devDependencies": {
     "@napi-rs/canvas": "^0.1.70",

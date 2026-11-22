@@ -61,8 +61,21 @@ export function SettingsView() {
       alive = false;
     };
   }, []);
+  // poza artefaktem (strona na GitHub Pages) zwykłe pobranie pliku
+  const standalone = !(window as unknown as { claude?: unknown }).claude;
   const exportData = async () => {
-    if (!downloads) return;
+    if (!downloads) {
+      if (!standalone) return;
+      const url = URL.createObjectURL(new Blob([JSON.stringify(data)], { type: 'application/json' }));
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `matura2027-kopia-${today}.json`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 10_000);
+      return;
+    }
     try {
       await downloads.save({ filename: `matura2027-kopia-${today}.json`, data: JSON.stringify(data) });
     } catch (e) {
@@ -239,7 +252,7 @@ export function SettingsView() {
               </button>
             ) : null}
           </div>
-          {downloads ? (
+          {downloads || standalone ? (
             <button type="button" className="li" onClick={() => void exportData()}>
               <span className="grow" style={{ fontWeight: 600 }}>
                 Eksportuj kopię

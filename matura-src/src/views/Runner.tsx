@@ -2,6 +2,7 @@
 // oznaczanie do powrotu, zapis postępu w sesji (przetrwa odświeżenie),
 // samoocena otwartych po zakończeniu i wynik punktowy.
 
+import { RubricGrader } from './rubricParts';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Session } from '../model';
 import { subjectDef } from '../model';
@@ -239,7 +240,7 @@ function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; 
                   <span style={{ fontWeight: 600 }}>Zrobione na kartce</span>
                   <Switch checked={!!a.paper} onChange={(v) => answer({ paper: v })} label="Zrobione na kartce" />
                 </label>
-                {ai.available ? <OpenAnswerField key={t.id} value={a.text ?? ''} onSave={(text) => answerFor(t.id)({ text })} onSaveNow={(text) => saveNow(t.id, text)} /> : null}
+                {ai.available || t.rubric?.result ? <OpenAnswerField key={t.id} value={a.text ?? ''} onSave={(text) => answerFor(t.id)({ text })} onSaveNow={(text) => saveNow(t.id, text)} /> : null}
               </>
             )}
             {t.alternative ? <p className="small muted">Zadanie do wyboru: liczy się jedno z zadań oznaczonych jako alternatywne.</p> : null}
@@ -393,7 +394,7 @@ function OpenAnswerField({ value, onSave, onSaveNow }: { value: string; onSave: 
     <div className="field">
       <label htmlFor="mock-open">Wynik lub kluczowe kroki (opcjonalnie)</label>
       <textarea id="mock-open" className="textarea" value={v} onChange={(e) => setV(e.target.value)} maxLength={4000} />
-      <span className="hint">Po zakończeniu Claude sprawdzi to z kluczem.</span>
+      <span className="hint">Po zakończeniu porównasz to z kluczem CKE.</span>
     </div>
   );
 }
@@ -502,6 +503,7 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
                 ) : (
                   <OpenGrader key={t.id} t={t} initialText={a.text ?? ''} onGraded={(r) => grade(r.points, undefined, 'claude', r.feedback)} />
                 )}
+                {t.rubric && a.by !== 'claude' ? <RubricGrader key={`r-${t.id}`} id={t.id} rubric={t.rubric} value={a.self ?? null} initialText={a.text ?? ''} onChange={(v) => grade(v)} /> : null}
                 <SelfGrade max={t.maxPoints} value={a.self ?? null} onChange={(v) => grade(v)} />
               </>
             )}

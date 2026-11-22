@@ -22,13 +22,19 @@ function ckeManifest(): Plugin {
 
 // Tryby budowania:
 // - npm run build: strona na GitHub Pages (https://franuch557.github.io/janas/matura/)
+// - npm run build:pages: osobne repo GitHub Pages z obrazami CKE (https://franuch557.github.io/matura-2027/),
+//   wynik w dist-pages/matura-2027/ (wypychany przez tools/pages-publish.mjs)
 // - npm run build:jeden-plik: jeden plik HTML dla artefaktu claude.ai (skrypt, style,
 //   font i dane w środku); obrazy zadań i nagrania są w cke/ obok strony.
 export default defineConfig(({ command, mode }) => {
   const single = mode === 'jeden-plik';
+  const pages = mode === 'pages';
   return {
     plugins: [react(), ckeManifest()],
-    base: single ? './' : command === 'build' ? '/janas/matura/' : '/',
+    // zbudowane strony (dist-*) mają setki MB obrazów: serwer deweloperski ich nie przegląda
+    optimizeDeps: { entries: ['index.html'] },
+    server: { watch: { ignored: ['**/dist-pages/**', '**/dist-jeden-plik/**', '**/cke-obrazy/**', '**/cke-pdf/**'] } },
+    base: single ? './' : pages ? '/matura-2027/' : command === 'build' ? '/janas/matura/' : '/',
     build: single
       ? {
           outDir: 'dist-jeden-plik',
@@ -38,7 +44,9 @@ export default defineConfig(({ command, mode }) => {
           copyPublicDir: false,
           rollupOptions: { output: { inlineDynamicImports: true } },
         }
-      : { outDir: '../matura', emptyOutDir: true },
+      : pages
+        ? { outDir: 'dist-pages/matura-2027', emptyOutDir: true }
+        : { outDir: '../matura', emptyOutDir: true },
     test: { include: ['tests/**/*.test.ts'] },
   };
 });
