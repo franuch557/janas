@@ -1,4 +1,5 @@
 import { RubricGrader } from './rubricParts';
+import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
 import { useEffect, useRef, useState } from 'react';
 import { subjectDef } from '../model';
 import { useStore } from '../store/AppStore';
@@ -105,6 +106,8 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
   const [swap, setSwap] = useState(false);
   const [plays, setPlays] = useState(0);
   const sw = useStopwatch(!checked);
+  const autoKind = useAutoKind(t);
+  const [autoRes, setAutoRes] = useState<AutoResult | null>(null);
   const live = useRef<HTMLDivElement>(null);
   const sub = subjectDef(t.subjectId)!;
   const pos = flow ? flow.refs.indexOf(ref) : -1;
@@ -127,6 +130,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     if (self == null) return;
     setChecked(true);
     const byClaude = grade != null && self === grade.points;
+    const byAuto = !byClaude && autoRes != null && self === autoRes.points;
     const id = saveResult({
       task: t.id,
       subj: t.subjectId,
@@ -136,8 +140,8 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
       sec: sw.seconds(),
       src: 'zadanie',
       note: note.trim() || undefined,
-      by: byClaude ? 'claude' : 'samoocena',
-      feedback: grade ? grade.feedback : undefined,
+      by: byClaude ? 'claude' : byAuto ? 'automat' : 'samoocena',
+      feedback: byClaude && grade ? grade.feedback : byAuto ? autoRes!.feedback : undefined,
     });
     setSavedId(id);
   };
@@ -155,6 +159,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
     setChoice({});
     setSelf(null);
     setGrade(null);
+    setAutoRes(null);
     setRevealed(false);
     sw.reset();
   };
@@ -306,6 +311,18 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
               />
             ) : null}
             {grade ? <Verdict r={grade} /> : null}
+            {autoKind && !grade && !checked ? (
+              <AutoGrader
+                key={`auto-${t.id}`}
+                t={t}
+                kind={autoKind}
+                onGraded={(r) => {
+                  setAutoRes(r);
+                  setSelf(r.points);
+                  setRevealed(true);
+                }}
+              />
+            ) : null}
             {!t.auto && t.rubric && !grade ? (
               <RubricGrader
                 id={t.id}

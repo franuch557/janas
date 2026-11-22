@@ -387,7 +387,7 @@ export function planRules(info, pages) {
       const crit = rest.find((l) => /^1\.Spełnienieformalnychwarunków/.test(l.n));
       ts.forEach((t, k) => temats.push({ k: k + 1, frags: span(pages, pt(t), ts[k + 1] ? pt(ts[k + 1]) : crit ? pt(crit) : to, fam) }));
     }
-    out.push({ nr: h.nr, main: h.main, points: h.points, frags, temats, tokens: solutionTokens(rest), scoring, text: rest.map((l) => l.text).join('\n') });
+    out.push({ nr: h.nr, main: h.main, points: h.points, frags, temats, tokens: solutionTokens(rest), scoring, text: rest.map((l) => l.text).join('\n'), mtext: fam === 'matematyka' ? mathLines(rest).join('\n') : null });
   });
   return out;
 }
@@ -644,4 +644,74 @@ export function tasksFromPages(info, pages) {
       source: `import z PDF ${info.examId}; tematy i typ rozpoznane automatycznie, do sprawdzenia`,
     };
   });
+}
+
+/**
+ * Tekst linii z odtworzonym zapisem matematycznym (do kluczy oceny automatycznej):
+ * pdf.js daje wykładniki i ułamki jako osobne „linie” nad i pod linią bazową.
+ * - wykładnik: mniejszy element tuż nad linią, zaraz za elementem bazowym → „x^(2)”;
+ * - ułamek: grupa nad linią i grupa pod nią, nachodzące na siebie w poziomie → „(a)/(b)”.
+ * Zwraca tablicę napisów (jedna na linię, bez linii zużytych jako wykładniki i ułamki).
+ */
+export function mathLines(lines) {
+  const L = lines.map((l) => ({ page: l.page, y: l.y, h: l.h, its: l.items.map((i) => ({ ...i, used: false })) }));
+  const clusters = (line, H) => {
+    const its = line.its.filter((i) => !i.used).sort((a, b) => a.x - b.x);
+    const out = [];
+    for (const it of its) {
+      const c = out[out.length - 1];
+      if (c && it.x - c.x1 < 0.45 * H) {
+        c.items.push(it);
+        c.x1 = Math.max(c.x1, it.x1);
+      } else out.push({ x: it.x, x1: it.x1, items: [it] });
+    }
+    return out.map((c) => ({ ...c, s: c.items.map((i) => i.s).join('').trim(), h: Math.max(...c.items.map((i) => i.h)) }));
+  };
+  for (let i = 0; i < L.length; i++) {
+    const base = L[i];
+    const H = base.h || 10;
+    const P = L[i - 1]?.page === base.page ? L[i - 1] : null;
+    const Q = L[i + 1]?.page === base.page ? L[i + 1] : null;
+    const above = P ? base.y - P.y : Infinity;
+    const below = Q ? Q.y - base.y : Infinity;
+    // wykładniki
+    if (P && above > 0.15 * H && above < 0.75 * H) {
+      for (const c of clusters(P, H)) {
+        if (c.h > 0.85 * H || !/^[\d\-−+nkmx()]+$/.test(c.s)) continue;
+        const b = base.its.filter((x) => !x.used && Math.abs(c.x - x.x1) < 0.5 * H).sort((a, z) => Math.abs(c.x - a.x1) - Math.abs(c.x - z.x1))[0];
+        if (!b) continue;
+        b.sup = `${b.sup ?? ''}${c.s}`;
+        c.items.forEach((x) => (x.used = true));
+      }
+    }
+    // ułamki
+    if (P && Q && above > 0.25 * H && above < 1.1 * H && below > 0.25 * H && below < 1.1 * H) {
+      const dens = clusters(Q, H);
+      const mathy = (c) => c.s.length <= 30 && !/[A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ]{4,}/.test(c.s);
+      // nad i pod kreską ułamkową linia bazowa ma przerwę
+      const free = (c) => !base.its.some((x) => !x.used && x.x < c.x1 - 0.5 && c.x < x.x1 - 0.5);
+      for (const n of clusters(P, H)) {
+        if (n.items.some((x) => x.used) || !mathy(n) || !free(n)) continue;
+        const d = dens.find((x) => !x.items.some((y) => y.used) && mathy(x) && n.x < x.x1 && x.x < n.x1);
+        if (!d) continue;
+        n.items.forEach((x) => (x.used = true));
+        d.items.forEach((x) => (x.used = true));
+        const wrap = (s) => (/^[\w√π.,−-]+$/.test(s) ? s : `(${s})`);
+        base.its.push({ x: Math.min(n.x, d.x), x1: Math.max(n.x1, d.x1), h: H, s: ` ${wrap(n.s)}/${wrap(d.s)} `, used: false });
+      }
+    }
+  }
+  const out = [];
+  for (const l of L) {
+    const its = l.its.filter((i) => !i.used).sort((a, b) => a.x - b.x);
+    if (!its.length) continue;
+    let text = '';
+    its.forEach((p, k) => {
+      const prev = its[k - 1];
+      const gap = prev ? p.x - prev.x1 : 0;
+      text += (!prev ? '' : /\s$/.test(prev.s) || /^\s/.test(p.s) || gap > Math.min(p.h, prev.h) * 0.2 ? ' ' : '') + p.s + (p.sup ? `^${/^\d+$/.test(p.sup) ? p.sup : `(${p.sup})`}` : '');
+    });
+    out.push(text.replace(/\s+/g, ' ').trim());
+  }
+  return out;
 }

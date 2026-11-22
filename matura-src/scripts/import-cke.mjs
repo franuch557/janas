@@ -18,7 +18,8 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync, rmSync
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFileName, planSheet, planRules, findMeta, isClosed, needsProof, needsCases, guessTopics, summarize } from './cke-parse.mjs';
-import { rubricFrom, buildAnswer } from './cke-answers.mjs';
+import { rubricFrom, buildAnswer, keyDetails, saveKeys } from './cke-answers.mjs';
+const keysOut = {};
 import { issuesMarkdown, imagesLookup } from './validate-exams.mjs';
 
 const args = process.argv.slice(2);
@@ -130,6 +131,7 @@ for (const [examId, g] of groups) {
         const at = audioTimes[examId]?.[t.nr];
         task.audio = { start: at?.start ?? null, end: at?.end ?? null };
       }
+      if (r && task.type === 'otwarte' && !task.essay) (keysOut[examId] ??= {})[t.nr] = keyDetails(r.mtext ?? r.text, t.maxPoints);
       tasks.push(task);
       partTasks.push(task.nr);
       images.push({ kind: 'zad', key: t.nr, src: s, frags: t.frags });
@@ -204,6 +206,7 @@ for (const [examId, g] of groups) {
 
 data.version = 3;
 writeFileSync(examsPath, JSON.stringify(data, null, 2) + '\n');
+await saveKeys(root, keysOut);
 // uwagi z importu: zastępuję wpisy importowanych arkuszy, pozostałe zostawiam
 const notesPath = join(root, 'data/exams-import-uwagi.json');
 const prevNotes = existsSync(notesPath) ? JSON.parse(readFileSync(notesPath, 'utf8')) : [];

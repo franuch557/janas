@@ -39,7 +39,7 @@ function input(over: Partial<PlannerInput> = {}): PlannerInput {
     until: '2026-12-31',
     enabled: st.enabled,
     dayMinutes: st.dayMinutes,
-    tutoring: st.tutoring,
+    lessons: [{ id: 'k1', subj: 'ang-p', weekday: 6, start: '15:15', minutes: 60 }],
     overrides: {},
     tasks: bank(),
     exams: exams(),
@@ -71,6 +71,16 @@ describe('plan', () => {
     const sat = days.find((d) => d.date === '2026-11-28')!;
     expect(sat.available).toBe(90);
     expect(sat.items.some((i) => i.kind === 'korepetycje')).toBe(true);
+  });
+
+  it('korepetycje z matematyki: liczą się jako nauka, tego dnia mniej zadań z matematyki', () => {
+    const until = '2027-01-31';
+    const tue = (days: ReturnType<typeof buildPlan>['days']) => days.filter((d) => d.weekday === 2);
+    const mat = (days: ReturnType<typeof buildPlan>['days']) => tue(days).flatMap((d) => d.items.filter((i) => i.taskId && i.subjectId === 'mat-p')).length;
+    const without = buildPlan(input({ until, lessons: [] })).days;
+    const withL = buildPlan(input({ until, lessons: [{ id: 'k2', subj: 'mat-p', weekday: 2, start: '16:00', minutes: 60 }] })).days;
+    expect(tue(withL).every((d) => d.items.some((i) => i.kind === 'korepetycje' && i.subjectId === 'mat-p'))).toBe(true);
+    expect(mat(withL)).toBeLessThan(mat(without));
   });
 
   it('suma minut mieści się w czasie dnia (poza dniami arkusza)', () => {

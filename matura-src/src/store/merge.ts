@@ -121,7 +121,7 @@ export function mergeEssays(a: Essay[], b: Essay[]): Essay[] {
 }
 
 /** Pola ustawień scalane osobno: wygrywa nowsza zmiana danego pola. */
-export const STAN_FIELDS = ['onboarded', 'startedAt', 'enabled', 'dayMinutes', 'tutoring', 'reminder', 'theme', 'textSize', 'reported', 'notifiedOn', 'extraPct'] as const;
+export const STAN_FIELDS = ['onboarded', 'startedAt', 'enabled', 'dayMinutes', 'tutoring', 'lessons', 'reminder', 'theme', 'textSize', 'reported', 'notifiedOn', 'extraPct'] as const;
 type Field = (typeof STAN_FIELDS)[number];
 
 /** JSON z posortowanymi kluczami (porównania niezależne od kolejności pól). */
@@ -190,6 +190,7 @@ export function mergeStan(a: Stan, b: Stan): Stan {
     enabled: out.enabled!,
     dayMinutes: out.dayMinutes!,
     tutoring: out.tutoring!,
+    lessons: out.lessons ?? [],
     reminder: out.reminder!,
     theme: out.theme!,
     textSize: out.textSize!,

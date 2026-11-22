@@ -181,20 +181,38 @@ npm run pages:publish   # wypycha stronę do franuch557/matura-2027 (main)
 ```
 
 Adres: https://franuch557.github.io/matura-2027/. Strona ma obrazy i nagrania CKE,
-więc jest w osobnym repo, a nie w repo z kodem. Poza artefaktem nie ma Claude'a,
-więc strona ocenia sama:
+więc jest w osobnym repo, a nie w repo z kodem.
 
-- zadania zamknięte: klucz CKE, jak w artefakcie;
-- zadania otwarte: poziomy punktacji z zasad oceniania CKE (`rubric` w `exams.json`),
-  uczeń wybiera najwyższy spełniony poziom, a strona porównuje liczby z jego wyniku
-  z wynikiem z klucza (`src/logic/rubric.ts`);
-- fiszki ze zdjęcia: OCR w przeglądarce (tesseract.js, polski i angielski; skrypt
-  i dane języków z cdn.jsdelivr.net), dwie kolumny rozpoznawane po przerwie w linii
-  (`src/logic/ocr.ts`);
-- plan wypowiedzi ustnej: lista kontrolna według kryteriów CKE (`src/logic/oralCheck.ts`);
-- wypracowanie: samoocena według kryteriów i licznik słów, jak dotąd.
+### Konta (Supabase, projekt `matura-2027`)
 
-Wyniki są zapisywane w przeglądarce (bez chmury). Kopię robi „Eksportuj kopię” w ustawieniach.
+- Logowanie nazwą użytkownika i hasłem (`src/views/Login.tsx`, `src/store/supabase.ts`).
+  Supabase Auth wymaga e-maila, więc nazwa jest zapisana jako `<nazwa>@konto.matura2027.app`;
+  konto tworzy funkcja `rejestracja` (od razu potwierdzone, bez wysyłania poczty).
+  Hasła nie da się odzyskać e-mailem; zmiana hasła jest w Ustawieniach → Konto.
+- Dane konta: tabela `docs (user_id, id, typ, data jsonb)` z RLS (każdy widzi tylko swoje),
+  te same dokumenty co capability `db` artefaktu (`supaDb` w `src/store/supabase.ts`, używa go `Sync`).
+  Zmiany z innego urządzenia przychodzą przez Realtime.
+- Kopia lokalna jest osobna dla każdego konta (`setStorageScope`).
+- Logowanie działa tylko w buildzie `pages`; serwer deweloperski i testy działają bez kont.
+
+### Ocena bez Claude'a
+
+- zadania zamknięte: klucz CKE;
+- matematyka, zadania otwarte (`src/logic/mathGrade.ts`, `mathExpr.ts`): z każdego poziomu
+  punktacji i wariantu „ALBO” biorę wyniki pośrednie i równania; w rozwiązaniu ucznia szukam
+  tych samych wartości (liczonych numerycznie: √52 = 2√13) i równań równoważnych
+  (4x + 6y = 36 ≡ 2x + 3y = 18). Najwyższy pokryty poziom = punkty. Sam wynik bez rozwiązania
+  nie daje maksimum. Progi: `npx tsx scripts/trenuj-ocene.mts` (na wzorcowych rozwiązaniach CKE).
+- polski, zadania otwarte (`src/logic/textGrade.ts`): sens odpowiedzi porównany z przykładowymi
+  odpowiedziami CKE modelem `paraphrase-multilingual-MiniLM-L12-v2` w przeglądarce (ok. 118 MB,
+  pobierany raz z Hugging Face). Wektory przykładów i progi: `npx tsx scripts/trenuj-polski.mts`.
+- zadania bez klucza do automatycznego sprawdzenia (dowody, angielski otwarty, część zbiorów):
+  poziomy punktacji CKE do wyboru (`rubric`) i porównanie wyniku z kluczem (`src/logic/rubric.ts`);
+- fiszki ze zdjęcia: OCR w przeglądarce (tesseract.js) (`src/logic/ocr.ts`);
+- plan wypowiedzi ustnej: lista kontrolna według kryteriów CKE (`src/logic/oralCheck.ts`).
+
+Dane kluczy: `data/klucze.json` (z importu: poziomy z wariantami, wzorcowe rozwiązania,
+przykładowe odpowiedzi; ułamki i potęgi odtworzone z położenia znaków w PDF, `mathLines`).
 
 ## Dodawanie zadań z zadania.info
 

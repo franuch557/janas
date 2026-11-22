@@ -3,6 +3,7 @@
 // samoocena otwartych po zakończeniu i wynik punktowy.
 
 import { RubricGrader } from './rubricParts';
+import { AutoGrader, useAutoKind } from './autoGrade';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Session } from '../model';
 import { subjectDef } from '../model';
@@ -420,10 +421,11 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
   const i = Math.min(s.gradeIndex, list.length - 1);
   const t = list[i];
   const a = s.answers[t?.id ?? ''] ?? {};
+  const autoKind = useAutoKind(t);
   const set = t?.essay ? criteriaFor(t.essay.criteria, subjectDef(t.subjectId)!.family) : null;
   const sub = subjectDef(s.subjectId)!;
   const put = (patch: Partial<Session>) => putSession({ ...s, ...patch, updatedAt: Date.now() });
-  const grade = (self: number, criteria?: Record<string, number>, by: 'claude' | 'samoocena' = 'samoocena', feedback?: string) =>
+  const grade = (self: number, criteria?: Record<string, number>, by: 'claude' | 'samoocena' | 'automat' = 'samoocena', feedback?: string) =>
     updateSession(s.id, (x) => setAnswer(x, t.id, { self, by, ...(criteria ? { criteria } : {}), ...(feedback != null ? { feedback } : {}) }, Date.now()));
   const canNext = a.self != null && (!t?.essay || criteriaComplete(set, a.criteria ?? {}));
   const next = () => {
@@ -503,6 +505,7 @@ function Grading({ s, tasks, title, onDone }: { s: Session; tasks: AppTask[]; ti
                 ) : (
                   <OpenGrader key={t.id} t={t} initialText={a.text ?? ''} onGraded={(r) => grade(r.points, undefined, 'claude', r.feedback)} />
                 )}
+                {autoKind && a.by !== 'claude' ? <AutoGrader key={`a-${t.id}`} t={t} kind={autoKind} initialText={a.text ?? ''} onGraded={(r) => grade(r.points, undefined, 'automat', r.feedback)} /> : null}
                 {t.rubric && a.by !== 'claude' ? <RubricGrader key={`r-${t.id}`} id={t.id} rubric={t.rubric} value={a.self ?? null} initialText={a.text ?? ''} onChange={(v) => grade(v)} /> : null}
                 <SelfGrade max={t.maxPoints} value={a.self ?? null} onChange={(v) => grade(v)} />
               </>

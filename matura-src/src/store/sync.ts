@@ -9,6 +9,7 @@
 //   wyników z innego urządzenia; po 10 s bez odpowiedzi pokazuję stan offline.
 
 import type { LocalData } from '../model';
+import { supaDb } from './supabase';
 import { docSize, DOC_LIMIT, fromDocs, stableStringify, toDocs, type Docs } from './merge';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -52,6 +53,8 @@ async function use<T>(name: string): Promise<T | null> {
 }
 
 export class Sync {
+  /** Identyfikator zalogowanego konta na stronie (ustawiany przed startem aplikacji). */
+  static account: string | null = null;
   private db: Db | null = null;
   private uid: string | null = null;
   private unsub: (() => void) | null = null;
@@ -94,13 +97,18 @@ export class Sync {
   }
 
   async start(): Promise<void> {
-    const db = await use<Db>('db');
+    let db = await use<Db>('db');
     const user = await use<UserCap>('user');
     let uid: string | null = null;
     try {
       uid = user ? await user.id() : null;
     } catch {
       uid = null;
+    }
+    // strona z logowaniem: dokumenty konta w Supabase (ten sam interfejs co `db` artefaktu)
+    if ((!db || !uid) && Sync.account) {
+      db = supaDb(Sync.account) as unknown as Db;
+      uid = Sync.account;
     }
     if (this.stopped) return;
     if (!db || !uid) {

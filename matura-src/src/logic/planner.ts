@@ -13,10 +13,13 @@
 //   na części (polski: arkusz 1 i arkusz 2);
 // - ręczne zmiany (nadpisania dnia) są stosowane przy każdym przeliczeniu.
 
-import { SUBJECTS, type DayOverride, type DayPlan, type PlanItem, type SubjectDef, type SubjectId } from '../model';
+import { SUBJECTS, type DayOverride, type DayPlan, type Lesson, type PlanItem, type SubjectDef, type SubjectId } from '../model';
 import { addDays, dateRange, diffDays, weekStart, weekday } from './dates';
 import { isDue, nextSrs, NEW_SRS, type SrsState } from './srs';
 import { cardsMinutes } from './flashcards';
+
+/** Waga przedmiotu w dniu jego korepetycji (zajęcia są już nauką tego przedmiotu). */
+const LESSON_WEIGHT = 0.6;
 
 export const MIN_GAP = 3;
 export const MAX_SUBJECTS_PER_DAY = 2;
@@ -58,7 +61,8 @@ export interface PlannerInput {
   until?: string;
   enabled: Record<SubjectId, boolean>;
   dayMinutes: number[];
-  tutoring: { enabled: boolean; weekday: number; start: string; minutes: number };
+  /** Stałe zajęcia z przedmiotów (korepetycje), poza czasem nauki. */
+  lessons: Lesson[];
   overrides: Record<string, DayOverride>;
   tasks: PlanTask[];
   exams: PlanExam[];
@@ -165,10 +169,8 @@ export function buildPlan(input: PlannerInput): PlanResult {
     const push = (item: PlanItem): boolean => {
       if (has(item.ref)) return false;
       day.items.push(item);
-      if (item.kind !== 'korepetycje') {
-        day.used += item.minutes;
-        if (item.subjectId) lastStudied[item.subjectId] = date;
-      }
+      if (item.kind !== 'korepetycje') day.used += item.minutes;
+      if (item.subjectId) lastStudied[item.subjectId] = date;
       return true;
     };
     const finalizeDay = () => {
@@ -204,10 +206,14 @@ export function buildPlan(input: PlannerInput): PlanResult {
     };
     const free = () => day.available - day.used;
 
-    // Korepetycje (stałe zajęcia, poza czasem nauki).
-    const ang = subjects.find((s) => s.id === 'ang-p');
-    if (input.tutoring.enabled && ang && wd === input.tutoring.weekday && date < ang.examDate) {
-      push(item({ ref: `k:${date}`, kind: 'korepetycje', subjectId: 'ang-p', minutes: input.tutoring.minutes, reason: `Korepetycje z angielskiego, ${input.tutoring.start}.` }));
+    // Korepetycje (stałe zajęcia, poza czasem nauki): liczą się jako nauka przedmiotu,
+    // więc tego dnia plan daje z niego mniej zadań.
+    const lessonSubj = new Set<SubjectId>();
+    for (const l of input.lessons) {
+      const s = subjects.find((x) => x.id === l.subj);
+      if (!s || l.weekday !== wd || date >= s.examDate) continue;
+      lessonSubj.add(l.subj);
+      push(item({ ref: `k:${l.id}:${date}`, kind: 'korepetycje', subjectId: l.subj, minutes: l.minutes, reason: `Korepetycje: ${s.name.toLowerCase()}, ${l.start}.` }));
     }
 
     // Fiszki do powtórki: krótka pozycja na początku dnia.
@@ -279,7 +285,7 @@ export function buildPlan(input: PlannerInput): PlanResult {
             const d = addDays(ws, i);
             if (d < input.today) continue;
             // dzień z korepetycjami ma mniej siły na arkusz: przy remisie wygrywa inny dzień
-            const m = (input.dayMinutes[weekday(d)] ?? 0) - (input.tutoring.enabled && weekday(d) === input.tutoring.weekday ? 0.5 : 0);
+            const m = (input.dayMinutes[weekday(d)] ?? 0) - 0.5 * input.lessons.filter((l) => l.weekday === weekday(d)).length;
             if (m > bestMin) {
               best = d;
               bestMin = m;
@@ -333,7 +339,9 @@ export function buildPlan(input: PlannerInput): PlanResult {
       .map((s) => {
         const last = lastStudied[s.id];
         const gap = last ? Math.max(0, diffDays(date, last)) : 7;
-        return { s, score: s.priority * (1 + gap) };
+        // przedmiot z korepetycjami tego dnia: mniejsza waga (zajęcia są już nauką)
+        const p = lessonSubj.has(s.id) ? s.priority * LESSON_WEIGHT : s.priority;
+        return { s: { ...s, priority: p }, score: p * (1 + gap) };
       })
       .sort((a, b) => b.score - a.score || b.s.priority - a.s.priority)
       .slice(0, slots)

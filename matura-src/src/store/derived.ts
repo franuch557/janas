@@ -158,7 +158,7 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
     today,
     enabled: stan.enabled,
     dayMinutes: stan.dayMinutes,
-    tutoring: stan.tutoring,
+    lessons: stan.lessons,
     overrides: stan.overrides,
     tasks: plannable,
     exams: planExams,

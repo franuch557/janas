@@ -102,6 +102,16 @@ export interface UserTask {
   at?: number;
 }
 
+/** Stałe zajęcia z przedmiotu (korepetycje): plan liczy je jako naukę tego przedmiotu. */
+export interface Lesson {
+  id: string;
+  subj: SubjectId;
+  /** Dzień tygodnia, 0 = niedziela. */
+  weekday: number;
+  start: string;
+  minutes: number;
+}
+
 export interface Stan {
   typ: 'stan';
   v: 3;
@@ -111,7 +121,9 @@ export interface Stan {
   enabled: Record<SubjectId, boolean>;
   /** Minuty nauki w dniu tygodnia, indeks 0 = niedziela. */
   dayMinutes: number[];
+  /** Starsze pole (jedne korepetycje z angielskiego); od wersji z kontami: `lessons`. */
   tutoring: { enabled: boolean; weekday: number; start: string; minutes: number };
+  lessons: Lesson[];
   reminder: { enabled: boolean; time: string };
   theme: 'system' | 'jasny' | 'ciemny';
   textSize: 'normalny' | 'duży';
@@ -137,7 +149,8 @@ export function defaultStan(today: string): Stan {
     startedAt: today,
     enabled: { 'mat-p': true, 'mat-r': true, 'pol-p': true, 'ang-p': true },
     dayMinutes: [90, 45, 45, 45, 45, 45, 90],
-    tutoring: { enabled: true, weekday: 6, start: '15:15', minutes: 60 },
+    tutoring: { enabled: false, weekday: 6, start: '15:15', minutes: 60 },
+    lessons: [],
     reminder: { enabled: true, time: '18:00' },
     theme: 'system',
     textSize: 'normalny',
@@ -171,7 +184,7 @@ export interface ResultEvent {
   /** Zdarzenie wyniku arkusza, do którego należy ten wynik (kaskada cofania). */
   sev?: string;
   /** Kto ocenił zadanie otwarte. */
-  by?: 'claude' | 'samoocena';
+  by?: 'claude' | 'samoocena' | 'automat';
   /** Uzasadnienie oceny Claude'a. */
   feedback?: string;
 }
@@ -224,7 +237,7 @@ export interface SessionAnswer {
   text?: string;
   criteria?: Record<string, number>;
   /** Kto ocenił (samoocena albo Claude) i uzasadnienie oceny Claude'a. */
-  by?: 'claude' | 'samoocena';
+  by?: 'claude' | 'samoocena' | 'automat';
   feedback?: string;
 }
 
@@ -269,7 +282,7 @@ export interface Essay {
   date: string;
   sec: number;
   updatedAt: number;
-  by?: 'claude' | 'samoocena';
+  by?: 'claude' | 'samoocena' | 'automat';
 }
 
 // ---------- Funkcje z Claude'em (dokumenty wyjasnienia-*, pamiec, fiszki, raporty, ustny) ----------

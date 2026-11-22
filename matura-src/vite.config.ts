@@ -31,6 +31,15 @@ export default defineConfig(({ command, mode }) => {
   const pages = mode === 'pages';
   return {
     plugins: [react(), ckeManifest()],
+    // artefakt: bez Supabase i silnika modelu (dane w capability `db`, ocena przez Claude'a)
+    resolve: single
+      ? {
+          alias: {
+            '@supabase/supabase-js': fileURLToPath(new URL('./src/stubs/supabase-js.ts', import.meta.url)),
+            '@huggingface/transformers': fileURLToPath(new URL('./src/stubs/transformers.ts', import.meta.url)),
+          },
+        }
+      : undefined,
     // zbudowane strony (dist-*) mają setki MB obrazów: serwer deweloperski ich nie przegląda
     optimizeDeps: { entries: ['index.html'] },
     server: { watch: { ignored: ['**/dist-pages/**', '**/dist-jeden-plik/**', '**/cke-obrazy/**', '**/cke-pdf/**'] } },

@@ -11,7 +11,8 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { planSheet, planRules, linesBetween, isClosed, needsProof, needsCases, guessTopics, summarize, whiteouts, columnFor } from './cke-parse.mjs';
-import { rubricFrom, buildAnswer } from './cke-answers.mjs';
+import { rubricFrom, buildAnswer, keyDetails, saveKeys } from './cke-answers.mjs';
+const keysOut = {};
 import { loadPdf, renderGray, cutFragment, composeJpeg } from './cke-pdf.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -115,6 +116,7 @@ for (const z of ZBIORY) {
     if (z.level === 'podstawowy') topics = topics.map((x) => (x === 'pochodne' ? 'kwadratowa-parametr' : x)).filter((x) => x !== 'granice-ciagow');
     topics = [...new Set(topics)];
     if (!topics.length) topics = guessed.length ? guessed : ['rownania'];
+    if (r && (ans.type ?? (isClosed(body) ? 'zamknięte' : 'otwarte')) === 'otwarte') (keysOut[z.id] ??= {})[t.nr] = keyDetails(r.mtext ?? r.text, t.maxPoints);
     tasks.push({
       nr: t.nr,
       maxPoints: t.maxPoints,
@@ -175,5 +177,6 @@ for (const z of ZBIORY) {
 }
 
 writeFileSync(examsPath, JSON.stringify(data, null, 2) + '\n');
+await saveKeys(root, keysOut);
 console.log(report.join('\n'));
 if (issues.length) console.log(`Uwagi (${issues.length}):\n  ${issues.join('\n  ')}`);

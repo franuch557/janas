@@ -184,3 +184,88 @@ export function rubricFrom(ans, rule, task) {
   if (!result || !/\d/.test(result) || result.length > 80) result = null;
   return { levels, result };
 }
+
+/**
+ * Szczegóły klucza z tekstu zasad oceniania (do automatycznej oceny):
+ * - levels: [{ points, alts: [tekst] }] – poziomy punktacji z wariantami „ALBO”;
+ * - solution: przykładowe pełne rozwiązanie (matematyka, sposób I);
+ * - examples: [{ points, text }] – przykładowe odpowiedzi ocenione przez CKE (polski).
+ */
+export function keyDetails(ruleText, maxPoints) {
+  const lines = (ruleText ?? '').normalize('NFKC').split('\n').map((l) => l.replace(/\s+/g, ' ').trim());
+  const noise = (l) => !l || /^Strona \d+ z \d+$/.test(l) || /^Egzamin maturalny z /.test(l) || /^Zasady oceniania rozwiązań zadań$/.test(l);
+  const levels = [];
+  let i = lines.findIndex((l) => /^Zasady oceniania$/.test(l));
+  if (i >= 0) {
+    let cur = null;
+    for (i = i + 1; i < lines.length; i++) {
+      const l = lines[i];
+      if (noise(l)) continue;
+      if (/^(Uwag[ai]|Przykładow|Zadanie \d)/.test(l)) break;
+      const m = /^(\d+)\s*pkt\s*[–—-]\s*(.*)$/.exec(l);
+      if (m) {
+        cur = { points: Number(m[1]), alts: [m[2]] };
+        levels.push(cur);
+        continue;
+      }
+      if (!cur) continue;
+      if (/^ALBO$/.test(l)) {
+        cur.alts.push('');
+        continue;
+      }
+      const t = l.replace(/^[–—-]\s+/, '');
+      cur.alts[cur.alts.length - 1] = `${cur.alts[cur.alts.length - 1]} ${t}`.trim();
+    }
+  }
+  for (const lv of levels) lv.alts = lv.alts.map((a) => a.replace(/[,;]\s*$/, '').trim()).filter(Boolean);
+  let solution = null;
+  const s = lines.findIndex((l) => /^Przykładow[ea] (pełne )?rozwiązani[ea]$/.test(l));
+  if (s >= 0) {
+    solution = lines.slice(s + 1).filter((l) => !noise(l) && !/^Sposób I$/.test(l)).join('\n').trim() || null;
+  }
+  const examples = [];
+  let pts = null;
+  let buf = null;
+  const flush = () => {
+    if (buf && pts != null) {
+      const t = buf.replace(/\s+/g, ' ').trim();
+      if (t.length >= 3) examples.push({ points: pts, text: t });
+    }
+    buf = null;
+  };
+  for (const l of lines) {
+    if (noise(l)) continue;
+    const h = /^Przykładow[ea] (?:odpowiedzi|odpowiedź|rozwiązani[ea])(?: ocenion[ea] na (\d+) pkt)?/.exec(l);
+    if (h) {
+      flush();
+      pts = h[1] != null ? Number(h[1]) : maxPoints;
+      buf = '';
+      continue;
+    }
+    if (pts == null) continue;
+    if (/^(Uwag[ai]|Zasady oceniania|Wymagani|Zadanie \d)/.test(l)) {
+      flush();
+      pts = null;
+      continue;
+    }
+    if (/^[•●]/.test(l)) {
+      flush();
+      buf = l.replace(/^[•●]\s*/, '');
+      continue;
+    }
+    buf = buf == null ? l : `${buf} ${l}`;
+  }
+  flush();
+  return { levels, solution, examples };
+}
+
+/** Dopisuje szczegóły kluczy arkuszy do data/klucze.json (wpisy innych arkuszy zostają). */
+export async function saveKeys(rootDir, byExam) {
+  const { readFileSync, writeFileSync, existsSync } = await import('node:fs');
+  const { join } = await import('node:path');
+  const p = join(rootDir, 'data/klucze.json');
+  const cur = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : {};
+  for (const [id, v] of Object.entries(byExam)) cur[id] = v;
+  const sorted = Object.fromEntries(Object.keys(cur).sort().map((k) => [k, cur[k]]));
+  writeFileSync(p, JSON.stringify(sorted) + '\n');
+}
