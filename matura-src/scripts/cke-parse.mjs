@@ -370,7 +370,7 @@ export function planRules(info, pages) {
     const rest = lines.slice(1);
     const scoring = scoringLines(rest);
     if (fam === 'angielski') {
-      out.push({ nr: h.nr, main: h.main, points: h.points, ...englishRules(h, pages, from, to, lines), scoring });
+      out.push({ nr: h.nr, main: h.main, points: h.points, ...englishRules(h, pages, from, to, lines), scoring, openKey: englishOpenKey(lines, h.main) });
       return;
     }
     // pomijam tabelę „Wymagania określone w podstawie programowej” (od nagłówka wymagań do „Zasady oceniania”)
@@ -714,4 +714,109 @@ export function mathLines(lines) {
     out.push(text.replace(/\s+/g, ' ').trim());
   }
   return out;
+}
+
+/**
+ * Klucz zadania otwartego z angielskiego z tabel zasad: dla każdej pozycji (11.1, 11.2…)
+ * poprawne odpowiedzi z kolumny „Poprawna odpowiedź” i przykłady błędnych z tabeli
+ * „Przykłady odpowiedzi niepoprawnych (0 pkt)”. Tekst w komórce jest wyśrodkowany w pionie,
+ * więc linie dzielę na grupy tak, żeby środek grupy był najbliżej numeru jej wiersza.
+ * Zwraca [{ id, ok: [tekst], bad: [tekst] }] albo null.
+ */
+export function englishOpenKey(lines, main) {
+  const rowRe = new RegExp(`^${main}\\.(\\d+)\\.?$`);
+  const idOf = (l) => {
+    const s = l.items[0]?.s.trim().replace(/\s+/g, '');
+    return s && rowRe.test(s) ? s.replace(/\.$/, '') : null;
+  };
+  const badStart = lines.findIndex((l) => /niepoprawn\w*odpowiedzi\(0pkt\)|Przykład\w*odpowiedzi\w*niepoprawn/.test(l.n));
+  const parts = [lines.slice(0, badStart < 0 ? lines.length : badStart), badStart < 0 ? [] : lines.slice(badStart + 1)];
+  const table = (ls, colX, minY) => {
+    const seen = new Set();
+    const ids = ls.map((l, k) => ({ l, k, id: idOf(l) })).filter((x) => x.id && !seen.has(x.id) && seen.add(x.id));
+    if (!ids.length) return {};
+    const idX1 = Math.max(...ids.map((x) => x.l.items[0].x1));
+    const x0 = colX ?? idX1 + 4;
+    // linie kolumny odpowiedzi (od pierwszego wiersza do końca tabeli)
+    const top = Math.max(ids[0].l.y - 160, minY ?? -Infinity);
+    const rows = ls
+      .filter((l) => l.y > top && l.page === ids[0].l.page && !/^Strona\d/.test(l.n))
+      .map((l) => ({ y: l.y, s: l.items.filter((it) => it.x >= x0 - 3 && !(idOf(l) && it === l.items[0])).map((it) => it.s).join(' ').replace(/\s+/g, ' ').trim() }))
+      .filter((r) => r.s.length > 1 && !/^(Poprawna|odpowied|Wymagani|Zadanie|Strona|Przykład)/.test(r.s));
+    const Y = ids.map((x) => x.l.y);
+    const n = rows.length, m = Y.length;
+    if (!n) return {};
+    // DP: podział linii na m kolejnych grup, koszt = |środek grupy − y numeru wiersza|
+    const INF = 1e9;
+    const cost = (a, b, k) => Math.abs((rows[a].y + rows[b].y) / 2 - Y[k]);
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(INF));
+    const cut = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(-1));
+    dp[0][0] = 0;
+    for (let k = 1; k <= m; k++)
+      for (let j = k; j <= n; j++)
+        for (let i = k - 1; i < j; i++) {
+          if (dp[k - 1][i] >= INF) continue;
+          const c = dp[k - 1][i] + cost(i, j - 1, k - 1);
+          if (c < dp[k][j]) {
+            dp[k][j] = c;
+            cut[k][j] = i;
+          }
+        }
+    if (dp[m][n] >= INF) return {};
+    const out = {};
+    let j = n;
+    for (let k = m; k >= 1; k--) {
+      const i = cut[k][j];
+      out[ids[k - 1].id] = rows.slice(i, j).map((r) => r.s);
+      j = i;
+    }
+    return out;
+  };
+  const headLine = parts[0].find((l) => l.items.some((it) => /^Poprawna/.test(it.s.trim())));
+  const head = headLine?.items.find((it) => /^Poprawna/.test(it.s.trim()));
+  // kolumna odpowiedzi zaczyna się trochę przed nagłówkiem (nagłówek jest wyśrodkowany)
+  const ok = table(parts[0], head ? head.x - 60 : null, headLine ? headLine.y : null);
+  const bad = table(parts[1], null, parts[1][0]?.y - 1);
+  const ids = Object.keys(ok);
+  if (!ids.length) return null;
+  // komórka: linie łączę (kontynuacje po przecinku), warianty dzielę przecinkami i średnikami
+  const split = (arr) =>
+    arr
+      .join('\n')
+      .replace(/,\s*\n/g, ', ')
+      .split(/\n|,\s+|;\s*/)
+      .map((x) => x.replace(/\s+/g, ' ').trim())
+      .filter((x) => x && x.length < 80);
+  return ids.sort((a, b) => a.localeCompare(b, 'pl', { numeric: true })).map((id) => ({ id, ok: split(ok[id]), bad: split(bad[id] ?? []) }));
+}
+
+/**
+ * Klucz pozycji z angielskiego w układzie „sekcja na pozycję” (Zadanie 5.4.): odpowiedź oczekiwana,
+ * przykładowe akceptowane (lewa kolumna) i przykładowe niepoprawne. Komentarze w prawej kolumnie pomijam.
+ */
+export function englishSection(all, id) {
+  const head = new RegExp(`^Zadanie${id.replace('.', '\\.')}\\.?$`);
+  const i = all.findIndex((l) => head.test(l.n));
+  if (i < 0) return null;
+  const ok = [];
+  const bad = [];
+  let mode = null;
+  for (const l of all.slice(i + 1)) {
+    if (/^Zadanie\d/.test(l.n) && !/^Zadanie$/.test(l.n)) break;
+    if (/oczekiwan/.test(l.n) || (/akceptowan/.test(l.n) && /Przykład/.test(l.n))) {
+      mode = /nieakceptowan|niepoprawn/.test(l.n) ? 'bad' : 'ok';
+      continue;
+    }
+    if (/Przykład\w*niepoprawn|niepoprawn\w*odpowiedzi/.test(l.n)) {
+      mode = 'bad';
+      continue;
+    }
+    if (!mode || /^(Strona|Zasady|Akceptowane|merytorycznie|Oczekiwana)/.test(l.n)) continue;
+    const left = l.items.filter((it) => it.x < 300).map((it) => it.s).join(' ').replace(/\s+/g, ' ').trim();
+    const list = mode === 'ok' ? ok : bad;
+    // kontynuacja wariantów po „/” na końcu linii
+    if (list.length && /\/\s*$/.test(list[list.length - 1]) && left) list[list.length - 1] = `${list[list.length - 1]} ${left}`;
+    else if (left.length > 1 && left.length < 80) list.push(left);
+  }
+  return ok.length ? { id, ok, bad } : null;
 }

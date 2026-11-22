@@ -7,6 +7,7 @@ import { activeEvents, streak, studyDays, studySeconds, taskRecords, type Active
 import { forecast, isDiagnosed, masteryMap, weakBoost, type Forecast, type TopicMastery } from '../logic/mastery';
 import { memoryBoost } from '../logic/memory';
 import { computeWeights, topicPriority, topicStats } from '../logic/weights';
+import { currentStage, tierFactor } from '../logic/tiers';
 import { buildPlan, mockKey, type PlanExam, type PlanResult, type PlanTask } from '../logic/planner';
 import { selectDiagnosis, DIAGNOSIS_MINUTES, type DiagnosisSelection } from '../logic/diagnosis';
 import { topicsFor } from '../data/taxonomy';
@@ -117,7 +118,9 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
     const m = masteryMap(active.results, s.id, topics.map((t) => t.id));
     mastery[s.id] = m;
     const p: Record<string, number> = {};
-    for (const t of topics) p[t.id] = topicPriority(w[t.id] ?? 0, m[t.id]?.value ?? null, weakBoost(active.results, s.id, t.id, today) + memoryBoost(data.memory, s.id, t.id), undefined);
+    // matematyka: kolejność działów z tier-list matemaks.pl (etapy, następny po opanowaniu poprzedniego)
+    const stage = currentStage(s.id, m);
+    for (const t of topics) p[t.id] = topicPriority(w[t.id] ?? 0, m[t.id]?.value ?? null, weakBoost(active.results, s.id, t.id, today) + memoryBoost(data.memory, s.id, t.id), undefined) * tierFactor(s.id, t.id, stage);
     priorities[s.id] = p;
     if (isDiagnosed(active.sessions, s.id)) diagnosed.add(s.id);
     fc[s.id] = forecast(w, m, diagnosed.has(s.id));

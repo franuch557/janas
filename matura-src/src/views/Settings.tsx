@@ -1,9 +1,10 @@
 import { AccountSection } from './accountParts';
+import { LessonsEditor } from './lessonsParts';
 import { useEffect, useRef, useState } from 'react';
-import { SUBJECTS, type Lesson, type LocalData, type Stan } from '../model';
-import { newId, useStore } from '../store/AppStore';
+import { SUBJECTS, type LocalData, type Stan } from '../model';
+import { useStore } from '../store/AppStore';
 import { parseLocal } from '../store/local';
-import { capitalize, dayName, fmtDayMonth, fmtHM, hm } from '../logic/dates';
+import { capitalize, dayName, fmtDayMonth } from '../logic/dates';
 import { Banner, Confirm, Segmented, Switch, TimeSelect } from '../ui/common';
 import { useSyncInfo } from '../App';
 import { Icon } from '../ui/icons';
@@ -145,75 +146,7 @@ export function SettingsView() {
           <div className="li static" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 8 }}>
             <span style={{ fontWeight: 600 }}>Korepetycje</span>
             <span className="small muted">Plan liczy je jako naukę przedmiotu: tego dnia daje z niego mniej zadań.</span>
-            {s.lessons.map((l) => {
-              const upd = (p: Partial<Lesson>) => set((st) => ({ ...st, lessons: st.lessons.map((x) => (x.id === l.id ? { ...x, ...p } : x)) }));
-              return (
-                <div className="row lesson-row" key={l.id}>
-                  <select className="select" style={{ width: 'auto' }} aria-label="Przedmiot korepetycji" value={l.subj} onChange={(e) => upd({ subj: e.target.value as Lesson['subj'] })}>
-                    {SUBJECTS.map((x) => (
-                      <option key={x.id} value={x.id}>
-                        {x.name}
-                      </option>
-                    ))}
-                  </select>
-                  <select className="select" style={{ width: 'auto' }} aria-label="Dzień korepetycji" value={l.weekday} onChange={(e) => upd({ weekday: Number(e.target.value) })}>
-                    {ORDER.map((wd) => (
-                      <option key={wd} value={wd}>
-                        {capitalize(dayName(wd))}
-                      </option>
-                    ))}
-                  </select>
-                  <TimeSelect id={`les-${l.id}`} label="Godzina korepetycji" value={l.start} onChange={(v) => upd({ start: v })} />
-                  <select className="select" style={{ width: 'auto' }} aria-label="Czas korepetycji" value={l.minutes} onChange={(e) => upd({ minutes: Number(e.target.value) })}>
-                    {[45, 60, 90, 120].map((m) => (
-                      <option key={m} value={m}>
-                        {m} min
-                      </option>
-                    ))}
-                  </select>
-                  <span className="muted tnum">do {fmtHM(hm(l.start) + l.minutes)}</span>
-                  <button type="button" className="btn btn-quiet btn-sm" onClick={() => set((st) => ({ ...st, lessons: st.lessons.filter((x) => x.id !== l.id) }))}>
-                    Usuń
-                  </button>
-                </div>
-              );
-            })}
-            <div>
-              <button
-                type="button"
-                className="btn btn-secondary btn-sm"
-                onClick={() => set((st) => ({ ...st, lessons: [...st.lessons, { id: newId('k'), subj: SUBJECTS.find((x) => st.enabled[x.id])?.id ?? 'mat-p', weekday: 2, start: '16:00', minutes: 60 }] }))}
-              >
-                Dodaj korepetycje
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="stack">
-        <h2>Rekrutacja</h2>
-        <div className="card flush list">
-          <div className="li static" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 8 }}>
-            <span style={{ fontWeight: 600 }}>Politechnika Poznańska, Automatyka i Robotyka</span>
-            <label htmlFor="extra-pct" className="label">
-              Egzamin zawodowy: oczekiwany wynik w %
-            </label>
-            <input
-              id="extra-pct"
-              className="input"
-              style={{ maxWidth: 140 }}
-              type="number"
-              inputMode="numeric"
-              min={0}
-              max={100}
-              value={s.extraPct ?? 70}
-              onChange={(e) => {
-                const v = Math.max(0, Math.min(100, Math.round(Number(e.target.value) || 0)));
-                set((st) => ({ ...st, extraPct: v }));
-              }}
-            />
-            <span className="hint">Przedmiot dodatkowy do szacunku punktów. Wzór sprawdź na stronie uczelni.</span>
+            <LessonsEditor stan={s} set={set} />
           </div>
         </div>
       </section>

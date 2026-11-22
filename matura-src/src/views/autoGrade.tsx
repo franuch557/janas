@@ -4,27 +4,33 @@
 
 import { useEffect, useState } from 'react';
 import type { AppTask } from '../store/derived';
-import { gradeMath, type KeyLevel, type MathParams } from '../logic/mathGrade';
+import { gradeTask, type MathKey, type MathParams } from '../logic/mathGrade';
+import { gradeEnglish, type EnglishItem } from '../logic/englishGrade';
 import { embedTexts, gradeText, unpackVec, type TextExample, type TextParams } from '../logic/textGrade';
 
-type MathKeys = Record<string, KeyLevel[]>;
+type MathKeys = Record<string, MathKey>;
 type TextKeys = Record<string, [number, string][]>;
 let mathKeys: Promise<{ keys: MathKeys; params: MathParams }> | null = null;
 let textKeys: Promise<{ keys: TextKeys; params: TextParams }> | null = null;
 const loadMath = () =>
   (mathKeys ??= Promise.all([import('../data/klucze-matematyka.json'), import('../data/ocena-matematyka.json')]).then(([k, p]) => ({ keys: k.default as unknown as MathKeys, params: p.default.params })));
+let engKeys: Promise<Record<string, EnglishItem[]>> | null = null;
+const loadEng = () => (engKeys ??= import('../data/klucze-angielski.json').then((k) => k.default as unknown as Record<string, EnglishItem[]>));
 const loadText = () =>
   (textKeys ??= Promise.all([import('../data/wzorce-polski.json'), import('../data/ocena-polski.json')]).then(([k, p]) => ({ keys: k.default as unknown as TextKeys, params: p.default.params })));
 
 /** Czy zadanie ma klucz do oceny automatycznej. */
-export function useAutoKind(t: AppTask | undefined): 'mat' | 'pol' | null {
-  const [kind, setKind] = useState<'mat' | 'pol' | null>(null);
+export type AutoKind = 'mat' | 'pol' | 'ang';
+
+export function useAutoKind(t: AppTask | undefined): AutoKind | null {
+  const [kind, setKind] = useState<AutoKind | null>(null);
   useEffect(() => {
     let alive = true;
     setKind(null);
     if (!t || t.auto || t.essay || t.user) return;
     if (t.subjectId === 'mat-p' || t.subjectId === 'mat-r') void loadMath().then((m) => alive && setKind(m.keys[t.id] ? 'mat' : null));
     // w artefakcie polski ocenia Claude (silnika modelu nie ma w wersji jednoplikowej)
+    else if (t.subjectId === 'ang-p') void loadEng().then((k) => alive && setKind(k[t.id] ? 'ang' : null));
     else if (t.subjectId === 'pol-p' && import.meta.env.MODE !== 'jeden-plik') void loadText().then((m) => alive && setKind(m.keys[t.id] ? 'pol' : null));
     return () => {
       alive = false;
@@ -39,16 +45,28 @@ export interface AutoResult {
   feedback: string;
 }
 
-export async function autoGrade(t: AppTask, kind: 'mat' | 'pol', text: string, onProgress?: (p: number) => void): Promise<AutoResult | null> {
+export async function autoGrade(t: AppTask, kind: AutoKind, text: string, onProgress?: (p: number) => void): Promise<AutoResult | null> {
   if (kind === 'mat') {
     const { keys, params } = await loadMath();
-    const g = gradeMath(keys[t.id] ?? [], t.maxPoints, text, params);
+    const k = keys[t.id];
+    const g = k ? gradeTask(k, t.maxPoints, text, params) : null;
     if (!g || !g.confident) return null;
     const parts = [
       g.found.length ? `Zgadza się z kluczem: ${g.found.join('; ')}.` : 'Nie znalazłem w rozwiązaniu wyników z klucza.',
       g.missing.length && g.points < t.maxPoints ? `Do pełnej punktacji brakuje: ${g.missing.join('; ')}.` : '',
     ];
     return { points: g.points, feedback: parts.filter(Boolean).join(' ') };
+  }
+  if (kind === 'ang') {
+    const items = (await loadEng())[t.id] ?? [];
+    const g = gradeEnglish(items, text);
+    if (!g) return null;
+    const label = { dobrze: 'dobrze', źle: 'źle', niepewne: 'nie ma w kluczu, sprawdź sam' } as const;
+    const lines = g.items.map((x) => `${x.id}: ${x.answer || '(brak)'} – ${label[x.verdict]}`);
+    return {
+      points: g.points,
+      feedback: `${lines.join('; ')}.${g.confident ? '' : ' CKE uznaje też inne poprawne odpowiedzi spoza klucza: jeśli twoja jest poprawna, dodaj punkt.'}`,
+    };
   }
   const { keys, params } = await loadText();
   const ex: TextExample[] = (keys[t.id] ?? []).map(([points, v]) => ({ points, vec: unpackVec(v) }));
@@ -66,7 +84,7 @@ export async function autoGrade(t: AppTask, kind: 'mat' | 'pol', text: string, o
   };
 }
 
-export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { t: AppTask; kind: 'mat' | 'pol'; initialText?: string; onGraded: (r: AutoResult) => void; disabled?: boolean }) {
+export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { t: AppTask; kind: AutoKind; initialText?: string; onGraded: (r: AutoResult) => void; disabled?: boolean }) {
   const [text, setText] = useState(initialText);
   const [busy, setBusy] = useState(false);
   const [progress, setProgress] = useState<number | null>(null);
@@ -93,7 +111,7 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
     <div className="card stack-2">
       <h3>Sprawdź automatycznie</h3>
       <div className="field">
-        <label htmlFor={`auto-${t.id}`}>{kind === 'mat' ? 'Twoje rozwiązanie: obliczenia i wynik' : 'Twoja odpowiedź'}</label>
+        <label htmlFor={`auto-${t.id}`}>{kind === 'mat' ? 'Twoje rozwiązanie: obliczenia i wynik' : kind === 'ang' ? 'Twoje odpowiedzi: jedna w linii, po kolei' : 'Twoja odpowiedź'}</label>
         <textarea
           id={`auto-${t.id}`}
           className="textarea"
@@ -101,12 +119,14 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
           onChange={(e) => setText(e.target.value)}
           maxLength={4000}
           disabled={disabled}
-          placeholder={kind === 'mat' ? 'np.\nC = (14, 8)\n|BC| = √(16 + 36) = 2√13' : 'Napisz odpowiedź pełnymi zdaniami.'}
+          placeholder={kind === 'mat' ? 'np.\nC = (14, 8)\n|BC| = √(16 + 36) = 2√13' : kind === 'ang' ? 'np.\nhaven’t changed since\nfor them to book\nmind if I' : 'Napisz odpowiedź pełnymi zdaniami.'}
         />
         <span className="hint">
           {kind === 'mat'
             ? 'Pisz kolejne kroki w osobnych liniach. Pierwiastek: √ albo sqrt(), potęga: ^, ułamek: /.'
-            : 'Ocena porównuje sens odpowiedzi z przykładowymi odpowiedziami CKE. Za pierwszym razem strona pobiera model oceny (ok. 118 MB).'}
+            : kind === 'ang'
+              ? 'Liczy się poprawna forma i pisownia, tak jak na maturze. Skróty (haven’t / have not) są równoważne.'
+              : 'Ocena porównuje sens odpowiedzi z przykładowymi odpowiedziami CKE. Za pierwszym razem strona pobiera model oceny (ok. 118 MB).'}
         </span>
       </div>
       <button type="button" className="btn btn-primary" disabled={busy || disabled || !text.trim()} onClick={() => void run()}>

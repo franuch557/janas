@@ -195,6 +195,12 @@ więc jest w osobnym repo, a nie w repo z kodem.
 - Kopia lokalna jest osobna dla każdego konta (`setStorageScope`).
 - Logowanie działa tylko w buildzie `pages`; serwer deweloperski i testy działają bez kont.
 
+### Plan matematyki
+
+Priorytety działów uwzględniają tier-listy matemaks.pl 2027 (`src/logic/tiers.ts`): tier S+…D
+jako mnożnik i etapy (S+ i S → A → B → C i D); następny etap dostaje pełną wagę po opanowaniu
+poprzedniego na 60%.
+
 ### Ocena bez Claude'a
 
 - zadania zamknięte: klucz CKE;
@@ -206,7 +212,13 @@ więc jest w osobnym repo, a nie w repo z kodem.
 - polski, zadania otwarte (`src/logic/textGrade.ts`): sens odpowiedzi porównany z przykładowymi
   odpowiedziami CKE modelem `paraphrase-multilingual-MiniLM-L12-v2` w przeglądarce (ok. 118 MB,
   pobierany raz z Hugging Face). Wektory przykładów i progi: `npx tsx scripts/trenuj-polski.mts`.
-- zadania bez klucza do automatycznego sprawdzenia (dowody, angielski otwarty, część zbiorów):
+- matematyka: także krótkie odpowiedzi z pola „Rozwiązanie” (przedziały z rodzajem nawiasu, liczby,
+  uzupełnienia zdań) i dowody (postać „do postaci …” z klucza, porównana tożsamościowo i z tym
+  samym działaniem głównym; maksimum po wszystkich krokach i wniosku);
+- angielski, zadania otwarte (`src/logic/englishGrade.ts`, klucze `scripts/klucze-angielski.mts`):
+  poprawne i błędne odpowiedzi z tabel zasad, warianty „a/b”, „(a/an)”, skróty równoważne;
+  odpowiedź spoza klucza jest „niepewna” (CKE uznaje też inne poprawne);
+- zadania bez klucza do automatycznego sprawdzenia (część dowodów i zbiorów, 3 zadania z angielskiego):
   poziomy punktacji CKE do wyboru (`rubric`) i porównanie wyniku z kluczem (`src/logic/rubric.ts`);
 - fiszki ze zdjęcia: OCR w przeglądarce (tesseract.js) (`src/logic/ocr.ts`);
 - plan wypowiedzi ustnej: lista kontrolna według kryteriów CKE (`src/logic/oralCheck.ts`).

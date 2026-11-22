@@ -18,7 +18,7 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync, rmSync
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFileName, planSheet, planRules, findMeta, isClosed, needsProof, needsCases, guessTopics, summarize } from './cke-parse.mjs';
-import { rubricFrom, buildAnswer, keyDetails, saveKeys } from './cke-answers.mjs';
+import { rubricFrom, buildAnswer, keyDetails, saveKeys, englishItems } from './cke-answers.mjs';
 const keysOut = {};
 import { issuesMarkdown, imagesLookup } from './validate-exams.mjs';
 
@@ -32,6 +32,7 @@ if (!dir || !existsSync(dir)) {
 }
 
 const { loadPdf, renderGray, cutFragment, composeJpeg } = await import('./cke-pdf.mjs');
+const { englishSection } = await import('./cke-parse.mjs');
 const { whiteouts } = await import('./cke-parse.mjs');
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -131,7 +132,11 @@ for (const [examId, g] of groups) {
         const at = audioTimes[examId]?.[t.nr];
         task.audio = { start: at?.start ?? null, end: at?.end ?? null };
       }
-      if (r && task.type === 'otwarte' && !task.essay) (keysOut[examId] ??= {})[t.nr] = keyDetails(r.mtext ?? r.text, t.maxPoints);
+      if (r && task.type === 'otwarte' && !task.essay) {
+        const kd = keyDetails(r.mtext ?? r.text, t.maxPoints);
+        if (info.family === 'angielski') kd.english = englishItems(r.openKey, t, (id) => englishSection(rulesDoc.pdf.pages.flatMap((p) => p.lines), id));
+        (keysOut[examId] ??= {})[t.nr] = kd;
+      }
       tasks.push(task);
       partTasks.push(task.nr);
       images.push({ kind: 'zad', key: t.nr, src: s, frags: t.frags });

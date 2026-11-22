@@ -1,3 +1,4 @@
+import { LessonsEditor } from './lessonsParts';
 import { useState } from 'react';
 import { SUBJECTS, type SubjectId } from '../model';
 import { useStore } from '../store/AppStore';
@@ -71,7 +72,14 @@ export function Onboarding() {
               <Segmented label="Weekend" options={OPTS} value={weekend} onChange={(v) => updateStan((st) => ({ ...st, dayMinutes: st.dayMinutes.map((m, i) => (i === 0 || i === 6 ? v : m)) }))} />
             </div>
             <p>{weekHours(s.dayMinutes)}</p>
-            {s.enabled['ang-p'] ? <p className="muted small">Korepetycje z angielskiego w sobotę 15:15–16:15 są w planie osobno.</p> : null}
+            <div className="stack-2">
+              <span className="label">Korepetycje (jeśli chodzisz)</span>
+              <div className="card flush">
+                <div className="li static" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 8 }}>
+                  <LessonsEditor stan={s} set={updateStan} />
+                </div>
+              </div>
+            </div>
           </>
         ) : step === 3 ? (
           <>

@@ -4,7 +4,7 @@ import { useStore } from '../store/AppStore';
 import { topicsFor } from '../data/taxonomy';
 import { addDays, diffDays, fmtDayMonth, weekStart } from '../logic/dates';
 import { forecast, masteryMap } from '../logic/mastery';
-import { dni, fmtHours, fmtNum, plural, slow, zadan } from '../logic/format';
+import { fmtHours, fmtNum, plural, slow, zadan } from '../logic/format';
 import { pct } from '../logic/scoring';
 import { taskRef } from '../logic/planner';
 import { examLabel, partName } from '../logic/cke';
@@ -121,12 +121,6 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
     go({ name: 'zadanie', id: list[0].id });
   };
 
-  const pol = d.forecast['pol-p'].pct;
-  const ang = d.forecast['ang-p'].pct;
-  const matR = d.forecast['mat-r'].pct;
-  // szacunek: W = 0,5·JP + 0,5·JO + 2,5·M + 2·X, X = egzamin zawodowy (oczekiwany wynik z ustawień)
-  const extra = data.stan.extraPct ?? 70;
-  const recruit = pol != null && ang != null && matR != null ? Math.round(0.5 * pol + 0.5 * ang + 2.5 * matR + 2 * extra) : null;
   const notes = activeNotes(data.memory, sel);
 
   return (
@@ -281,17 +275,6 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
                 </button>
               </div>
             ) : null}
-          </section>
-          <section className="card stack-2">
-            <h3>Cel: Politechnika Poznańska, Automatyka i Robotyka</h3>
-            {recruit != null ? (
-              <p>
-                Ok. <b className="tnum">{recruit}</b> pkt z 550 możliwych (prognoza i egzamin zawodowy {extra}%).
-              </p>
-            ) : (
-              <p className="muted">Szacunek punktów pojawi się, gdy będzie prognoza z polskiego, angielskiego i matematyki rozszerzonej.</p>
-            )}
-            <p className="small muted">Szacunek, wzór sprawdź na stronie uczelni. Do egzaminu z {sub.genitive}: {dni(Math.max(0, diffDays(sub.examDate, today)))}.</p>
           </section>
           <section className="stack">
             <h2>Co mi sprawia trudność</h2>

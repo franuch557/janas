@@ -4,7 +4,7 @@
 // szukam tych samych wartości (liczonych numerycznie) i równań równoważnych.
 // Parametry progów są dobrane na wzorcowych rozwiązaniach CKE (scripts/trenuj-ocene.mts).
 
-import { close, constValue, equivalent, normalizeMath, parseEquation, type Equation } from './mathExpr';
+import { close, constValue, equivalent, evalExpr, normalizeMath, parseEquation, parseExpr, varsOf, type Equation } from './mathExpr';
 
 export interface MathParams {
   /** Część faktów wariantu, które muszą się zgadzać. */
@@ -16,7 +16,40 @@ export interface MathParams {
 }
 export const DEFAULT_MATH_PARAMS: MathParams = { coverage: 0.75, minWork: 2, bareCap: 1 };
 
-export type Fact = { kind: 'value'; values: number[]; text: string; weak: boolean; label?: string } | { kind: 'pair'; values: number[]; text: string } | { kind: 'eq'; eq: Equation; text: string };
+export interface Interval {
+  lo: number;
+  hi: number;
+  loC: boolean;
+  hiC: boolean;
+}
+type Expr = NonNullable<ReturnType<typeof parseExpr>>;
+export type Fact =
+  | { kind: 'value'; values: number[]; text: string; weak: boolean; label?: string }
+  | { kind: 'pair'; values: number[]; text: string }
+  | { kind: 'eq'; eq: Equation; text: string }
+  | { kind: 'interval'; ivs: Interval[]; text: string }
+  | { kind: 'expr'; expr: Expr; vars: string[]; text: string };
+
+const INTERVAL = /([[(⟨<])\s*([^,;[\]()⟨⟩<>]+?)\s*[,;]\s*([^,;[\]()⟨⟩<>]+?)\s*([\])⟩>])/g;
+const endpoint = (s: string): number | null => {
+  const t = s.replace(/\s+/g, '').replace(/[−–]/g, '-');
+  if (/^-∞$/.test(t)) return -Infinity;
+  if (/^\+?∞$/.test(t)) return Infinity;
+  return constValue(t);
+};
+/** Przedziały z zapisu: [−2,4], (−∞, 3), ⟨1; 5) (jeden albo suma ∪). */
+export function intervalsIn(s: string): Interval[] {
+  const out: Interval[] = [];
+  for (const m of s.matchAll(INTERVAL)) {
+    const lo = endpoint(m[2]);
+    const hi = endpoint(m[3]);
+    if (lo == null || hi == null || !(lo < hi)) continue;
+    out.push({ lo, hi, loC: m[1] === '[' || m[1] === '⟨', hiC: m[4] === ']' || m[4] === '⟩' });
+  }
+  return out;
+}
+const sameIv = (a: Interval, b: Interval) => (a.lo === b.lo || close(a.lo, b.lo)) && (a.hi === b.hi || close(a.hi, b.hi)) && (a.loC === b.loC || !Number.isFinite(a.lo)) && (a.hiC === b.hiC || !Number.isFinite(a.hi));
+const looksInterval = (s: string) => /[[\]⟨⟩∞]/.test(s);
 
 /** Jednostki na końcu wyniku („4,5 m”, „12 cm²”, „30°”) nie są częścią wartości. */
 const stripUnits = (s: string) => s.replace(/\s*\((?:mm|cm|dm|km|m|j)\^?[23²³]?\s*\)\s*$/i, '').replace(/\s*(?:mm|cm|dm|km|m|kg|g|zł|h|min|s|l|ha|j)(?:\^?[23²³])?\s*$/i, '').replace(/\s*[°%]\s*$/, '');
@@ -61,9 +94,21 @@ export function factsOf(alt: string): Fact[] {
   // ułamek rozbity w PDF: licznik trafia wcześniej do zdania („zdarzenia A 6 i … P(A) = . 64”)
   const lone = [...(colon >= 0 ? alt.slice(0, colon) : '').matchAll(/(?:^|\s)(\d+)(?=\s)/g)].map((m) => m[1]);
   const out: Fact[] = [];
+  // dowody i przekształcenia: „przekształcenie wyrażenia … do postaci 4n(n + 1)”
+  for (const m of alt.matchAll(/do postaci\s+(.+?)(?=\s+(?:oraz|i|lub|albo|,|gdzie)\s|[,;]\s|\.?$)/g)) {
+    const e = parseExpr(m[1].replace(/\s*\.$/, ''));
+    if (e && varsOf(e).size) out.push({ kind: 'expr', expr: e, vars: [...varsOf(e)], text: `postać ${m[1].trim()}` });
+  }
   for (let piece of part.split(/\s+(?:oraz|i|lub|albo)\s+|;|,\s+(?=[^,]*=)/)) {
     piece = piece.replace(/[.,]\s*$/, '').trim();
-    if (!piece || !/\d/.test(piece)) continue;
+    if (!piece || !/[\d∞]/.test(piece)) continue;
+    if (looksInterval(piece)) {
+      const ivs = intervalsIn(piece);
+      if (ivs.length) {
+        out.push({ kind: 'interval', ivs, text: piece });
+        continue;
+      }
+    }
     const pairs = pairsIn(piece);
     const sides = piece.split('=').map((x) => x.trim());
     if (sides.length >= 2) {
@@ -115,6 +160,9 @@ export interface Work {
   labeled: Map<string, number[]>;
   pairs: number[][];
   equations: Equation[];
+  intervals: Interval[];
+  /** Wyrażenia ze zmiennymi (każde ogniwo łańcucha), do porównania postaci w dowodach. */
+  exprs: Expr[];
 }
 
 /** Wartości i równania z rozwiązania ucznia (każdy wiersz, każde ogniwo łańcucha „a = b = c”). */
@@ -122,9 +170,12 @@ export function workOf(text: string): Work {
   const values: number[] = [];
   const labeled = new Map<string, number[]>();
   const equations: Equation[] = [];
+  const intervals = intervalsIn(text);
+  const exprs: Expr[] = [];
   const pairs = pairsIn(text);
   for (const p of pairs) values.push(...p);
-  const norm = normalizeMath(text.replace(PAIR, ' '));
+  // nawiasy przedziałów i par nie są częścią wyrażeń; nawiasy zwykłe w wyrażeniach zostają
+  const norm = normalizeMath(text.replace(INTERVAL, (m) => (/[[\]⟨⟩∞]/.test(m) ? ' ' : m)).replace(/\(\s*-?[\d.,√]+\s*[,;]\s*-?[\d.,√]+\s*\)/g, ' '));
   for (const line of norm.split(/\n|;|\s{2,}|,\s+(?=\D)|\s+(?:oraz|i|więc|zatem|stąd|czyli)\s+/)) {
     const chain = line.split(/=|≈/).map((x) => stripUnits(x.trim()));
     const name = mathTail(chain[0] ?? '').replace(/\s+/g, '');
@@ -135,6 +186,8 @@ export function workOf(text: string): Work {
     for (const c of chain) {
       const v = constValue(c);
       if (v != null) values.push(v);
+      const ex = parseExpr(mathTail(c));
+      if (ex && varsOf(ex).size) exprs.push(ex);
       // liczby i krótkie wyrażenia w środku zdania
       for (const m of c.matchAll(/-?[\d√π(][\d√π().+\-*/^ ]*/g)) {
         // współczynnik przy zmiennej („3y”) albo wykładnik nie jest wynikiem
@@ -149,7 +202,7 @@ export function workOf(text: string): Work {
       if (eq) equations.push(eq);
     }
   }
-  return { values, labeled, pairs, equations };
+  return { values, labeled, pairs, equations, intervals, exprs };
 }
 
 /** 0 – brak, 1 – sama liczba (słaby dowód przy małych liczbach), 2 – pewne trafienie. */
@@ -160,10 +213,101 @@ export function factHit(f: Fact, w: Work): 0 | 1 | 2 {
     return f.weak ? 1 : 2;
   }
   if (f.kind === 'pair') return w.pairs.some((p) => close(p[0], f.values[0]) && close(p[1], f.values[1])) ? 2 : 0;
+  if (f.kind === 'interval') return f.ivs.every((iv) => w.intervals.some((x) => sameIv(iv, x))) ? 2 : 0;
+  if (f.kind === 'expr') return w.exprs.some((e) => sameExpr(f.expr, f.vars, e)) ? 2 : 0;
   return w.equations.some((e) => equivalent(f.eq, e)) ? 2 : 0;
 }
 
 export const factFound = (f: Fact, w: Work) => factHit(f, w) > 0;
+
+// deterministyczne punkty (jak w mathExpr): wyrażenia równe tożsamościowo
+const PTS = [0.37, 1.83, -2.41, 3.17, 0.71];
+/** Główne działanie wyrażenia (iloczyn, suma, potęga…): „do postaci iloczynu” wymaga iloczynu. */
+const topOp = (e: Expr): string => (e.t === 'b' ? (e.op === '-' ? '+' : e.op === '/' ? '*' : e.op) : e.t === 'u' && e.op === '-' ? topOp(e.a) : e.t);
+function sameExpr(k: Expr, kv: string[], s: Expr): boolean {
+  if (topOp(k) !== topOp(s)) return false;
+  const sv = [...varsOf(s)];
+  if (!sv.every((v) => kv.includes(v))) return false;
+  let used = 0;
+  for (let i = 0; i < PTS.length; i++) {
+    const env: Record<string, number> = {};
+    kv.forEach((v, j) => (env[v] = PTS[(i + j * 2) % PTS.length] + j * 0.11));
+    const a = evalExpr(k, env);
+    const b = evalExpr(s, env);
+    if (!Number.isFinite(a) || !Number.isFinite(b)) continue;
+    if (!close(a, b)) return false;
+    used++;
+  }
+  return used >= 3;
+}
+
+/** Klucz zadania w aplikacji: poziomy z wariantami, odpowiedź z pola „Rozwiązanie”, dowód. */
+export interface MathKey {
+  levels: KeyLevel[];
+  answers?: string[];
+  proof?: boolean;
+}
+
+/** Fakty pozycji odpowiedzi („1. Dziedziną funkcji f jest przedział [−4,4).”) albo tekst do porównania. */
+function itemFacts(item: string): { facts: Fact[]; word: string | null } {
+  const t = item.replace(/^\d+\.\s*/, '').trim();
+  const facts = factsOf(t);
+  if (facts.length) return { facts, word: null };
+  const w = t.replace(/[.;,]$/, '').trim();
+  return { facts: [], word: w.length && w.length <= 40 ? w.toLowerCase() : null };
+}
+
+/** Odpowiedź krótka: każda pozycja to 1 pkt (gdy pozycji jest tyle co punktów) albo komplet = maksimum. */
+export function gradeAnswers(answers: string[], max: number, text: string): MathGrade | null {
+  if (!text.trim() || !answers.length) return null;
+  const lines = text.split(/\n+/).map((l) => l.trim()).filter(Boolean);
+  const numbered = (n: number) => lines.find((l) => new RegExp(`^${n}[.)]\\s*`).test(l));
+  const found: string[] = [];
+  const missing: string[] = [];
+  let ok = 0;
+  let checkable = 0;
+  answers.forEach((a, i) => {
+    const { facts, word } = itemFacts(a);
+    if (!facts.length && !word) return;
+    checkable++;
+    const cand = answers.length > 1 ? [numbered(i + 1) ?? lines[i] ?? ''] : [text];
+    const hit = cand.some((c) => {
+      if (facts.length) {
+        const w = workOf(c.replace(/^\d+[.)]\s*/, ''));
+        return facts.every((f) => factHit(f, w) > 0);
+      }
+      const n = c.replace(/^\d+[.)]\s*/, '').toLowerCase();
+      return n === word || n.includes(word!);
+    });
+    if (hit) {
+      ok++;
+      found.push(a.replace(/^\d+\.\s*/, ''));
+    } else missing.push(a.replace(/^\d+\.\s*/, ''));
+  });
+  if (!checkable) return null;
+  const each = answers.length === max && max > 1;
+  const points = each ? ok : ok === checkable ? max : 0;
+  return { points, max, found, missing, confident: checkable === answers.length };
+}
+
+const CONCLUSION = /co należało|c\.?\s?n\.?\s?[dw]\.?|zatem|więc|stąd|dlatego|czyli|wobec tego|to kończy dowód/i;
+
+/** Ocena według klucza aplikacji: odpowiedź krótka, poziomy, dowód (pełne punkty po krokach z klucza i wniosku). */
+export function gradeTask(key: MathKey, max: number, text: string, params: MathParams = DEFAULT_MATH_PARAMS): MathGrade | null {
+  const hasTopFacts = key.levels.some((l) => l.points === max && l.alts.some((a) => factsOf(a).length));
+  if (key.answers?.length && !hasTopFacts) {
+    const g = gradeAnswers(key.answers, max, text);
+    if (g) return g;
+  }
+  const g = gradeMath(key.levels, max, text, params);
+  if (!g || !key.proof || hasTopFacts) return g;
+  // dowód: najwyższy poziom to „pełne rozumowanie” bez wzoru; po wszystkich krokach z klucza
+  // i wniosku na końcu daję maksimum
+  const checkLevels = key.levels.filter((l) => l.points > 0 && l.alts.some((a) => factsOf(a).length));
+  const topCheck = Math.max(0, ...checkLevels.map((l) => l.points));
+  if (g.confident && g.points === topCheck && topCheck > 0 && topCheck < max && CONCLUSION.test(text)) return { ...g, points: max };
+  return g;
+}
 
 export interface MathGrade {
   points: number;

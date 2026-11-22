@@ -6,42 +6,47 @@
 // Wybiera parametry z najlepszym wynikiem i zapisuje je do src/data/ocena-matematyka.json.
 // Użycie: npx tsx scripts/trenuj-ocene.mts
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { factsOf, gradeMath, type MathParams } from '../src/logic/mathGrade';
+import { factsOf, gradeTask, type MathKey, type MathParams } from '../src/logic/mathGrade';
 import { taskIdFor } from '../src/logic/cke';
 
-type Key = { levels: { points: number; alts: string[] }[]; solution: string | null; examples: { points: number; text: string }[] };
+type Key = { levels: { points: number; alts: string[] }[]; solution: string | null; examples: { points: number; text: string }[]; answer?: string[] };
 const keys = JSON.parse(readFileSync('data/klucze.json', 'utf8')) as Record<string, Record<string, Key>>;
 const exams = JSON.parse(readFileSync('data/exams.json', 'utf8')).exams as { id: string; family: string; tasks: { nr: string; maxPoints: number; proof: boolean | null }[] }[];
 
-const items: { id: string; max: number; key: Key }[] = [];
+const appKey = (k: Key, proof: boolean | null): MathKey => ({
+  levels: k.levels.map((l) => ({ points: l.points, alts: l.alts.filter((a) => factsOf(a).length) })).filter((l) => l.alts.length || l.points === 0),
+  ...(k.answer?.length ? { answers: k.answer } : {}),
+  ...(proof ? { proof: true } : {}),
+});
+const items: { id: string; max: number; key: Key; app: MathKey }[] = [];
 for (const e of exams) {
   if (e.family !== 'matematyka') continue;
   for (const t of e.tasks) {
     const k = keys[e.id]?.[t.nr];
-    if (!k?.solution || !k.levels.length || t.proof) continue;
-    items.push({ id: `${e.id}/${t.nr}`, max: t.maxPoints, key: k });
+    if (!k?.solution || !k.levels.length) continue;
+    items.push({ id: `${e.id}/${t.nr}`, max: t.maxPoints, key: k, app: appKey(k, t.proof) });
   }
 }
 
 function evaluate(p: MathParams) {
   let pos = 0, half = 0, neg = 0, checkable = 0, bare = 0, bareN = 0;
   items.forEach((it, i) => {
-    const full = gradeMath(it.key.levels, it.max, it.key.solution!, p);
+    const full = gradeTask(it.app, it.max, it.key.solution!, p);
     if (!full?.confident) return;
     checkable++;
     if (full.points === it.max) pos++;
     const lines = it.key.solution!.split('\n');
-    const h = gradeMath(it.key.levels, it.max, lines.slice(0, Math.max(1, Math.floor(lines.length / 2))).join('\n'), p);
+    const h = gradeTask(it.app, it.max, lines.slice(0, Math.max(1, Math.floor(lines.length / 2))).join('\n'), p);
     if (h && h.points < it.max) half++;
     const other = items[(i + 7) % items.length];
-    const n = gradeMath(it.key.levels, it.max, other.key.solution!, p);
+    const n = gradeTask(it.app, it.max, other.key.solution!, p);
     if (n && n.points === 0) neg++;
     if (it.max > 1) {
       const top = it.key.levels.find((l) => l.points === it.max);
       const last = (top?.alts ?? []).map((a) => factsOf(a)).find((f) => f.length)?.at(-1);
       if (last) {
         bareN++;
-        const b = gradeMath(it.key.levels, it.max, last.text, p);
+        const b = gradeTask(it.app, it.max, last.text, p);
         if (b && b.points < it.max) bare++;
       }
     }
@@ -64,15 +69,16 @@ console.log(`Zadania z rozwiązaniem CKE: ${items.length}, z faktami do sprawdze
 console.log(`Parametry: ${JSON.stringify(best!.p)}`);
 console.log(`Wzorcowe rozwiązanie = maksimum: ${pct(best!.r.pos)}; połowa rozwiązania < maksimum: ${pct(best!.r.half)}; cudze rozwiązanie = 0 pkt: ${pct(best!.r.neg)}; sam wynik < maksimum: ${pct(best!.r.bare)}`);
 mkdirSync('src/data', { recursive: true });
-// poziomy z wariantami dla aplikacji (tylko zadania z faktami do sprawdzenia, bez dowodów)
-const runtime: Record<string, { points: number; alts: string[] }[]> = {};
+// klucze dla aplikacji: poziomy z faktami, odpowiedzi z pola „Rozwiązanie”, znacznik dowodu
+const runtime: Record<string, MathKey> = {};
 for (const e of exams) {
   if (e.family !== 'matematyka') continue;
   for (const t of e.tasks) {
     const k = keys[e.id]?.[t.nr];
-    if (!k?.levels.length || t.proof) continue;
-    const levels = k.levels.map((l) => ({ points: l.points, alts: l.alts.filter((a) => factsOf(a).length) })).filter((l) => l.alts.length);
-    if (levels.some((l) => l.points === t.maxPoints)) runtime[taskIdFor(e.id, t.nr)] = levels;
+    if (!k) continue;
+    const app = appKey(k, t.proof);
+    const checkable = app.levels.some((l) => l.points > 0 && l.alts.length) || !!app.answers?.length;
+    if (checkable) runtime[taskIdFor(e.id, t.nr)] = app;
   }
 }
 writeFileSync('src/data/klucze-matematyka.json', JSON.stringify(runtime) + '\n');

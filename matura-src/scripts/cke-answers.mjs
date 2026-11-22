@@ -256,7 +256,19 @@ export function keyDetails(ruleText, maxPoints) {
     buf = buf == null ? l : `${buf} ${l}`;
   }
   flush();
-  return { levels, solution, examples };
+  // pole „Rozwiązanie” (zadania z krótką odpowiedzią): kolejne linie do następnej sekcji
+  const answer = [];
+  const ri = lines.findIndex((l) => /^Rozwiązanie$/.test(l));
+  if (ri >= 0) {
+    for (const l of lines.slice(ri + 1)) {
+      if (noise(l)) continue;
+      if (/^(Uwag[ai]|Przykładow|Zadanie \d|Wymagani|Zasady oceniania|Schemat)/.test(l)) break;
+      if (/^\d+\.\s/.test(l) || !answer.length) answer.push(l);
+      else answer[answer.length - 1] += ` ${l}`;
+      if (answer.length > 8) break;
+    }
+  }
+  return { levels, solution, examples, answer };
 }
 
 /** Dopisuje szczegóły kluczy arkuszy do data/klucze.json (wpisy innych arkuszy zostają). */
@@ -268,4 +280,27 @@ export async function saveKeys(rootDir, byExam) {
   for (const [id, v] of Object.entries(byExam)) cur[id] = v;
   const sorted = Object.fromEntries(Object.keys(cur).sort().map((k) => [k, cur[k]]));
   writeFileSync(p, JSON.stringify(sorted) + '\n');
+}
+
+/**
+ * Pozycje klucza angielskiego dla zadania otwartego (np. „10” → 10.1–10.3, „5.4-5.7” → 5.4–5.7).
+ * Przyjmuję tylko pozycje, które wyglądają jak odpowiedzi po angielsku (bez polskich liter,
+ * bez liter odpowiedzi A–H); gdy któraś pozycja jest niepewna, zwracam null (samoocena).
+ */
+export function englishItems(openKey, task, section) {
+  const m = /^(\d+)\.(\d+)-\1\.(\d+)$/.exec(task.nr);
+  const want = m ? Array.from({ length: Number(m[3]) - Number(m[2]) + 1 }, (_, i) => `${m[1]}.${Number(m[2]) + i}`) : (openKey ?? []).map((x) => x.id).filter((id) => id.split('.')[0] === task.nr);
+  const ids = want.length ? want : Array.from({ length: task.maxPoints }, (_, i) => `${task.nr}.${i + 1}`);
+  const items = ids.map((id) => {
+    const t = openKey?.find((x) => x.id === id);
+    const clean = (x) => (x ? { ...x, ok: x.ok.filter(english), bad: x.bad.filter(english) } : x);
+    const a = clean(t);
+    return a && a.ok.length && t.ok.every(english) ? a : clean(section?.(id)) ?? a;
+  });
+  function english(t) {
+    return /^[(A-Za-z][A-Za-z’'\/ .,!?()-]*$/.test(t) && !/^[A-H]( [A-H])?$/.test(t) && !/^(Wersja|Egzamin|Zasady|Uwagi)/.test(t) && !/\b(odpowied|akceptowan|wyraz|zadani)/.test(t);
+  }
+  if (!items.length || items.some((x) => !x || !x.ok.length)) return null;
+  if (items.length !== task.maxPoints) return null;
+  return items.map((x) => ({ id: x.id, ok: x.ok, bad: x.bad.filter(english) }));
 }
