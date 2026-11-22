@@ -2,8 +2,8 @@
 // Strona ma obrazy zadań i nagrania CKE, więc nie trafia do repo z kodem.
 //
 // Użycie: npm run build:pages && npm run pages:publish
-// Wynik budowania (dist-pages/matura-2027) jest wypychany jako jeden commit (--force):
-// to tylko zbudowana strona, historia nie jest potrzebna.
+// Wynik budowania (dist-pages/matura-2027) idzie jako nowy commit na wierzch gałęzi main repo strony,
+// więc wysyłane są tylko zmienione pliki (cała strona naraz przekracza limit czasu GitHuba).
 import { execFileSync } from 'node:child_process';
 import { existsSync, writeFileSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
@@ -19,8 +19,19 @@ const git = (...a) => execFileSync('git', a, { cwd: dir, stdio: 'inherit' });
 writeFileSync(join(dir, '.nojekyll'), '');
 rmSync(join(dir, '.git'), { recursive: true, force: true });
 git('init', '-q', '-b', 'main');
+let base = true;
+try {
+  git('fetch', '-q', '--depth', '1', REPO, 'main');
+  git('reset', '-q', '--soft', 'FETCH_HEAD');
+} catch {
+  base = false; // repo strony jest puste: pierwszy commit
+}
 git('add', '-A');
-git('commit', '-q', '-m', `Strona Matura 2027 (${new Date().toISOString().slice(0, 10)})`);
-git('push', '-q', '--force', REPO, 'main');
+try {
+  git('commit', '-q', '-m', `Strona Matura 2027 (${new Date().toISOString().slice(0, 10)})`);
+} catch {
+  console.log('Bez zmian od ostatniej publikacji.');
+}
+git('-c', 'http.postBuffer=524288000', 'push', '-q', ...(base ? [] : ['--force']), REPO, 'main');
 rmSync(join(dir, '.git'), { recursive: true, force: true });
 console.log('Wypchnięto. Strona: https://franuch557.github.io/matura-2027/');
