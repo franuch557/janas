@@ -6,13 +6,36 @@
 
 export const TEXT_MODEL = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2';
 
+// model i przedrostek tekstu wybiera trening (src/data/ocena-polski.json): e5 wymaga „query: ”
+let current = { model: TEXT_MODEL, prefix: '' };
+export function setTextModel(model: string, prefix = '') {
+  if (model === current.model && prefix === current.prefix) return;
+  current = { model, prefix };
+  extractor = null;
+}
+
 export interface TextParams {
   /** Poniżej tego podobieństwa do najbliższego przykładu: 0 pkt. */
   tau: number;
   /** Między tau a full: punkty najbliższego przykładu minus 1 (odpowiedź tylko częściowo zbieżna). */
   full: number;
+  /** Odpowiedź musi być bliżej przykładów niż samego polecenia o co najmniej qm (przepisane polecenie = 0). */
+  qm?: number;
+  /** Gdy przykład z innego zadania jest bliżej o więcej niż om: odpowiedź nie na temat = 0. */
+  om?: number;
 }
 export const DEFAULT_TEXT_PARAMS: TextParams = { tau: 0.55, full: 0.7 };
+
+/** Cechy odpowiedzi (liczone raz, progi dobiera trening). */
+export interface TextFeatures {
+  best: number;
+  nearest: number;
+  nearPoints: number;
+  /** Podobieństwo do polecenia (null, gdy brak wektora polecenia). */
+  qsim: number | null;
+  /** Największe podobieństwo do przykładów z innych zadań (null, gdy brak). */
+  osim: number | null;
+}
 
 export interface TextExample {
   points: number;
@@ -38,7 +61,7 @@ export function cosine(a: Float32Array, b: Float32Array): number {
   return d / (Math.sqrt(na * nb) || 1);
 }
 
-export function gradeText(vec: Float32Array, examples: TextExample[], max: number, p: TextParams = DEFAULT_TEXT_PARAMS): TextGrade | null {
+export function textFeatures(vec: Float32Array, examples: TextExample[], ctx: { q?: Float32Array | null; others?: Float32Array[] } = {}): TextFeatures | null {
   if (!examples.length) return null;
   let best = -1, idx = 0;
   examples.forEach((e, i) => {
@@ -48,11 +71,27 @@ export function gradeText(vec: Float32Array, examples: TextExample[], max: numbe
       idx = i;
     }
   });
-  const near = examples[idx].points;
+  let osim: number | null = null;
+  for (const o of ctx.others ?? []) {
+    const s = cosine(vec, o);
+    if (osim == null || s > osim) osim = s;
+  }
+  return { best, nearest: idx, nearPoints: examples[idx].points, qsim: ctx.q ? cosine(vec, ctx.q) : null, osim };
+}
+
+export function decideText(f: TextFeatures, max: number, p: TextParams): number {
+  if (p.qm != null && f.qsim != null && f.best - f.qsim < p.qm) return 0;
+  if (p.om != null && f.osim != null && f.osim - f.best > p.om) return 0;
   let points = 0;
-  if (best >= p.full) points = near;
-  else if (best >= p.tau) points = Math.max(near > 0 ? 1 : 0, near - 1);
-  return { points: Math.min(max, points), max, similarity: best, nearest: idx };
+  if (f.best >= p.full) points = f.nearPoints;
+  else if (f.best >= p.tau) points = Math.max(f.nearPoints > 0 ? 1 : 0, f.nearPoints - 1);
+  return Math.min(max, points);
+}
+
+export function gradeText(vec: Float32Array, examples: TextExample[], max: number, p: TextParams = DEFAULT_TEXT_PARAMS, ctx: { q?: Float32Array | null; others?: Float32Array[] } = {}): TextGrade | null {
+  const f = textFeatures(vec, examples, ctx);
+  if (!f) return null;
+  return { points: decideText(f, max, p), max, similarity: f.best, nearest: f.nearest };
 }
 
 // ---------- Zapis wektorów przykładów (int8, base64) ----------
@@ -87,7 +126,7 @@ export function loadTextModel(onProgress?: (p: number) => void): Promise<Extract
     extractor = (async () => {
       const { pipeline } = await import('@huggingface/transformers');
       const seen: Record<string, [number, number]> = {};
-      const p = await pipeline('feature-extraction', TEXT_MODEL, {
+      const p = await pipeline('feature-extraction', current.model, {
         dtype: 'q8',
         progress_callback: (e: { status: string; file?: string; loaded?: number; total?: number }) => {
           if (e.status === 'progress' && e.file && e.total) {
@@ -106,6 +145,6 @@ export function loadTextModel(onProgress?: (p: number) => void): Promise<Extract
 
 export async function embedTexts(texts: string[], onProgress?: (p: number) => void): Promise<Float32Array[]> {
   const ex = await loadTextModel(onProgress);
-  const out = await ex(texts, { pooling: 'mean', normalize: true });
+  const out = await ex(texts.map((t) => current.prefix + t), { pooling: 'mean', normalize: true });
   return out.tolist().map((r) => Float32Array.from(r));
 }

@@ -52,7 +52,7 @@ const sameIv = (a: Interval, b: Interval) => (a.lo === b.lo || close(a.lo, b.lo)
 const looksInterval = (s: string) => /[[\]⟨⟩∞]/.test(s);
 
 /** Jednostki na końcu wyniku („4,5 m”, „12 cm²”, „30°”) nie są częścią wartości. */
-const stripUnits = (s: string) => s.replace(/\s*\((?:mm|cm|dm|km|m|j)\^?[23²³]?\s*\)\s*$/i, '').replace(/\s*(?:mm|cm|dm|km|m|kg|g|zł|h|min|s|l|ha|j)(?:\^?[23²³])?\s*$/i, '').replace(/\s*[°%]\s*$/, '');
+const stripUnits = (s: string) => s.replace(/\s*\((?:mm|cm|dm|km|m|j)\^?[23²³]?\s*\)\s*$/i, '').replace(/\s*(?:mm|cm|dm|km|m|kg|g|zł|h|min|s|l|ha|j)(?:\^?[23²³])?\s*$/i, '').replace(/\s*(?:°\s*C|°|%|stopni\w*|zł|złotych|km\/h|m\/s)\s*\.?$/i, '');
 
 /** Matematyczny koniec tekstu: „…długością siatki, 4x + 6y” → „4x + 6y”. */
 function mathTail(s: string): string {
@@ -246,6 +246,8 @@ export interface MathKey {
   levels: KeyLevel[];
   answers?: string[];
   proof?: boolean;
+  /** Wynik końcowy ze wzorcowego rozwiązania CKE (gdy opis najwyższego poziomu ma rozbity wzór). */
+  final?: string[];
 }
 
 /** Fakty pozycji odpowiedzi („1. Dziedziną funkcji f jest przedział [−4,4).”) albo tekst do porównania. */
@@ -301,6 +303,17 @@ export function gradeTask(key: MathKey, max: number, text: string, params: MathP
     if (g && (!hasTopFacts || g.points === max)) return g;
   }
   const g = gradeMath(key.levels, max, text, params);
+  // najwyższy poziom bez wzoru do sprawdzenia: wynik końcowy z rozwiązania CKE
+  if (g && !hasTopFacts && !key.proof && key.final?.length && g.points < max) {
+    const w = workOf(text);
+    const facts = key.final.flatMap((l) => factsOf(l));
+    const hits = facts.map((f) => factHit(f, w));
+    const work = Math.max(workBeyond(w, facts), mathLineCount(text) - 1);
+    if (facts.length && hits.every((h) => h > 0) && hits.some((h) => h === 2) && (max === 1 || work >= params.minWork)) {
+      return { points: max, max, found: facts.map((f) => f.text), missing: [], confident: true };
+    }
+    if (facts.length && !g.found.length) return { ...g, missing: facts.filter((_, i) => !hits[i]).map((f) => f.text) };
+  }
   if (!g || !key.proof || hasTopFacts) return g;
   // dowód: najwyższy poziom to „pełne rozumowanie” bez wzoru; po wszystkich krokach z klucza
   // i wniosku na końcu daję maksimum
@@ -318,6 +331,18 @@ export interface MathGrade {
   missing: string[];
   /** false: klucz nie ma faktów do sprawdzenia albo rozwiązanie jest puste: potrzebna samoocena. */
   confident: boolean;
+}
+
+
+/** Wiersze z obliczeniami (z cyfrą): rozwiązanie w kilku wierszach to nie „sam wynik”. */
+export const mathLineCount = (text: string) => text.split(/\n+/).filter((l) => /\d/.test(l)).length;
+
+/** Ile kroków ma rozwiązanie poza samym wynikiem: liczby i równania, których nie ma w faktach wyniku. */
+export function workBeyond(w: Work, result: Fact[]): number {
+  const vals = result.flatMap((f) => (f.kind === 'value' || f.kind === 'pair' ? f.values : f.kind === 'interval' ? f.ivs.flatMap((i) => [i.lo, i.hi]) : []));
+  const own = new Set(w.values.filter((v) => !vals.some((x) => close(x, v))).map((v) => v.toPrecision(8)));
+  const eqs = w.equations.filter((e) => !result.some((f) => f.kind === 'eq' && equivalent(f.eq, e)));
+  return own.size + eqs.length;
 }
 
 /** Ocena rozwiązania: najwyższy poziom, którego któryś wariant ma pokryte fakty. */
@@ -344,8 +369,9 @@ export function gradeMath(levels: KeyLevel[], max: number, answer: string, param
   if (!checkable) return { points: 0, max, found: [], missing: [], confident: false };
   if (!best) return { points: 0, max, found: [], missing: topMissing, confident: true };
   let points = best.points;
-  // sam wynik bez rozwiązania: CKE zwykle przyznaje najwyżej 1 pkt
-  const work = new Set(w.values.map((v) => v.toPrecision(8))).size + w.equations.length;
+  // sam wynik bez rozwiązania: CKE zwykle przyznaje najwyżej 1 pkt (liczę kroki poza wynikiem)
+  const topFacts = sorted.filter((l) => l.points === max).flatMap((l) => l.alts.flatMap((a) => factsOf(a)));
+  const work = Math.max(workBeyond(w, topFacts), mathLineCount(answer) - 1);
   if (points === max && max > 1 && work < params.minWork) points = Math.min(points, params.bareCap);
   return { points, max, found: best.found, missing: points < max ? topMissing : best.missing, confident: true };
 }

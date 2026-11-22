@@ -243,13 +243,25 @@ Serwer deweloperski i artefakt dalej używają pakietów base64 z `public/cke/`.
   (4x + 6y = 36 ≡ 2x + 3y = 18). Najwyższy pokryty poziom = punkty. Sam wynik bez rozwiązania
   nie daje maksimum. Progi: `npx tsx scripts/trenuj-ocene.mts` (na wzorcowych rozwiązaniach CKE).
 - polski, zadania otwarte (`src/logic/textGrade.ts`): sens odpowiedzi porównany z przykładowymi
-  odpowiedziami CKE modelem `paraphrase-multilingual-MiniLM-L12-v2` w przeglądarce (ok. 118 MB,
-  pobierany raz z Hugging Face). Wektory przykładów i progi: `npx tsx scripts/trenuj-polski.mts`.
+  odpowiedziami CKE modelem `multilingual-e5-small` w przeglądarce (ok. 118 MB, pobierany raz
+  z Hugging Face; model i przedrostek „query: ” w `src/data/ocena-polski.json`). Odpowiedź bliższa
+  poleceniu niż przykładom (przepisane polecenie) dostaje 0 pkt. Trening:
+  `MODEL=Xenova/multilingual-e5-small PREFIX='query: ' npx tsx scripts/trenuj-polski.mts`
+  (sprawdzenie „bez jednego”; odpowiedzi z innych zadań i ucięte polecenia jako przypadki na 0 pkt).
+  Wynik: te same punkty co CKE 84%, różnica ≤ 1 pkt 96%, odpowiedź z innego zadania = 0 pkt 98%,
+  przepisane polecenie = 0 pkt 100%. Przykłady CKE to prawie same odpowiedzi za pełne punkty,
+  więc trudno ocenić rozpoznawanie odpowiedzi na temat, ale błędnych.
+- matematyka, wynik: 351 z 388 zadań otwartych; wzorcowe rozwiązanie CKE = maksimum 76%, połowa
+  rozwiązania < maksimum 90%, rozwiązanie innego zadania = 0 pkt 93%, sam wynik < maksimum 97%.
+  Poziomy ze wszystkich bloków „Zasady oceniania (dla sposobu …)”; gdy opis najwyższego poziomu ma
+  rozbity wzór, wynik końcowy z ostatnich wierszy rozwiązania CKE (`final`). Za „sam wynik” uznaję
+  rozwiązanie bez kroków poza wynikiem i w jednym wierszu (`workBeyond`, `mathLineCount`).
 - matematyka: także krótkie odpowiedzi z pola „Rozwiązanie” (przedziały z rodzajem nawiasu, liczby,
   uzupełnienia zdań) i dowody (postać „do postaci …” z klucza, porównana tożsamościowo i z tym
   samym działaniem głównym; maksimum po wszystkich krokach i wniosku);
 - angielski, zadania otwarte (`src/logic/englishGrade.ts`, klucze `scripts/klucze-angielski.mts`):
-  poprawne i błędne odpowiedzi z tabel zasad, warianty „a/b”, „(a/an)”, skróty równoważne;
+  poprawne i błędne odpowiedzi z tabel zasad (41 z 42 zadań, także odpowiedzi po polsku w zadaniach
+  z przekazywaniem informacji), warianty „a/b”, „(a/an)”, skróty równoważne;
   odpowiedź spoza klucza jest „niepewna” (CKE uznaje też inne poprawne);
 - zadania bez klucza do automatycznego sprawdzenia (część dowodów i zbiorów, 3 zadania z angielskiego):
   poziomy punktacji CKE do wyboru (`rubric`) i porównanie wyniku z kluczem (`src/logic/rubric.ts`);

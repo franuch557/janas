@@ -13,11 +13,27 @@ type Key = { levels: { points: number; alts: string[] }[]; solution: string | nu
 const keys = JSON.parse(readFileSync('data/klucze.json', 'utf8')) as Record<string, Record<string, Key>>;
 const exams = JSON.parse(readFileSync('data/exams.json', 'utf8')).exams as { id: string; family: string; tasks: { nr: string; maxPoints: number; proof: boolean | null }[] }[];
 
-const appKey = (k: Key, proof: boolean | null): MathKey => ({
-  levels: k.levels.map((l) => ({ points: l.points, alts: l.alts.filter((a) => factsOf(a).length) })).filter((l) => l.alts.length || l.points === 0),
-  ...(k.answer?.length ? { answers: k.answer } : {}),
-  ...(proof ? { proof: true } : {}),
-});
+/** Wynik końcowy z ostatnich wierszy wzorcowego rozwiązania („Zatem m ∈ (2, 9/4)”, „x = 5, y = 20”). */
+function finalOf(solution: string | null): string[] {
+  if (!solution) return [];
+  const lines = solution.split('\n').map((l) => l.trim()).filter(Boolean);
+  const out: string[] = [];
+  for (let i = lines.length - 1; i >= 0 && out.length < 2 && i >= lines.length - 4; i--) {
+    const l = lines[i].replace(/^(Zatem|Stąd|Odpowiedź|Odp\.|Wynik|Czyli)[:,]?\s*/i, '');
+    if (/\d/.test(l) && /[=∈]/.test(l) && factsOf(l).length) out.unshift(l);
+  }
+  return out;
+}
+const appKey = (k: Key, proof: boolean | null): MathKey => {
+  const levels = k.levels.map((l) => ({ points: l.points, alts: l.alts.filter((a) => factsOf(a).length) })).filter((l) => l.alts.length || l.points === 0);
+  const final = proof ? [] : finalOf(k.solution);
+  return {
+    levels,
+    ...(k.answer?.length ? { answers: k.answer } : {}),
+    ...(proof ? { proof: true } : {}),
+    ...(final.length ? { final } : {}),
+  };
+};
 const items: { id: string; max: number; key: Key; app: MathKey }[] = [];
 for (const e of exams) {
   if (e.family !== 'matematyka') continue;
@@ -78,7 +94,7 @@ for (const e of exams) {
     const k = keys[e.id]?.[t.nr];
     if (!k) continue;
     const app = appKey(k, t.proof);
-    const checkable = app.levels.some((l) => l.points > 0 && l.alts.length) || !!app.answers?.length;
+    const checkable = app.levels.some((l) => l.points > 0 && l.alts.length) || !!app.answers?.length || !!app.final?.length;
     if (checkable) runtime[taskIdFor(e.id, t.nr)] = app;
   }
 }

@@ -139,3 +139,30 @@ describe('tier-lista matemaks w priorytetach', () => {
     expect(currentStage('mat-p', good)).toBe(2);
   });
 });
+
+import { decideText } from '../src/logic/textGrade';
+import mathKeysFull from '../src/data/klucze-matematyka.json';
+
+describe('rozwój oceny (noc)', () => {
+  it('matematyka: wynik końcowy z rozwiązania CKE, gdy opis poziomu ma rozbity wzór; sam wynik nie wystarcza', () => {
+    const key = { levels: [{ points: 2, alts: [] }, { points: 1, alts: ['obliczenie: a = 2'] }, { points: 0, alts: [] }], final: ['m ∈ (2, 9/4)'] };
+    expect(gradeTask(key, 2, 'a = 2\n4m − 8 < 1\nm ∈ (2; 9/4)')!.points).toBe(2);
+    expect(gradeTask(key, 2, 'm ∈ (2, 9/4)')!.points).toBeLessThan(2);
+    expect(gradeTask(key, 2, 'a = 2\nm ∈ (2, 3)')!.points).toBe(1);
+  });
+  it('matematyka: ponad 340 zadań otwartych z kluczem', () => {
+    expect(Object.keys(mathKeysFull).length).toBeGreaterThan(340);
+  });
+  it('polski: przepisane polecenie (bliżej polecenia niż przykładów) = 0 pkt', () => {
+    const f = { best: 0.9, nearest: 0, nearPoints: 2, qsim: 0.95, osim: null };
+    expect(decideText(f, 2, { tau: 0.8, full: 0.85, qm: 0 })).toBe(0);
+    expect(decideText({ ...f, qsim: 0.8 }, 2, { tau: 0.8, full: 0.85, qm: 0 })).toBe(2);
+    expect(decideText({ ...f, best: 0.82, qsim: 0.7 }, 2, { tau: 0.8, full: 0.85, qm: 0 })).toBe(1);
+  });
+  it('angielski: odpowiedzi po polsku w zadaniach z przekazywaniem informacji', () => {
+    const items = [{ id: '5.4', ok: ['pierwszej pomocy (przedmedycznej)', 'udzielania pierwszej pomocy'], bad: ['first aid'] }];
+    expect(gradeEnglish(items, 'pierwszej pomocy')!.items[0].verdict).toBe('dobrze');
+    expect(gradeEnglish(items, 'Udzielania pierwszej pomocy.')!.items[0].verdict).toBe('dobrze');
+    expect(gradeEnglish(items, 'first aid')!.items[0].verdict).toBe('źle');
+  });
+});

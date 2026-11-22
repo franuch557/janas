@@ -1,13 +1,16 @@
 {
+ "model": "Xenova/multilingual-e5-small",
+ "prefix": "query: ",
  "params": {
-  "tau": 0.6,
-  "full": 0.6
+  "tau": 0.875,
+  "full": 0.875,
+  "qm": 0
  },
  "wynik": {
   "przyklady": 413,
-  "dokladnie": 0.7070217917675545,
-  "roznica1": 0.8837772397094431,
-  "cudze": 0.9932432432432432,
-  "polecenie": 0.722972972972973
+  "dokladnie": 0.8353510895883777,
+  "roznica1": 0.9588377723970944,
+  "cudze": 0.9797297297297297,
+  "polecenie": 1
  }
 }

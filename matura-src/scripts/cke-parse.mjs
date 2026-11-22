@@ -812,7 +812,15 @@ export function englishSection(all, id) {
       continue;
     }
     if (!mode || /^(Strona|Zasady|Akceptowane|merytorycznie|Oczekiwana)/.test(l.n)) continue;
-    const left = l.items.filter((it) => it.x < 300).map((it) => it.s).join(' ').replace(/\s+/g, ' ').trim();
+    // kawałki wyrazów (pdf.js dzieli je przy polskich literach) łączę bez spacji, gdy odstęp jest mały
+    const its = l.items.filter((it) => it.x < 300);
+    let left = '';
+    its.forEach((it, k) => {
+      const prev = its[k - 1];
+      const gap = prev ? it.x - prev.x1 : 0;
+      left += (!prev ? '' : /\s$/.test(prev.s) || /^\s/.test(it.s) || gap > Math.min(it.h, prev.h) * 0.2 ? ' ' : '') + it.s;
+    });
+    left = left.replace(/\s+/g, ' ').trim();
     const list = mode === 'ok' ? ok : bad;
     // kontynuacja wariantów po „/” na końcu linii
     if (list.length && /\/\s*$/.test(list[list.length - 1]) && left) list[list.length - 1] = `${list[list.length - 1]} ${left}`;

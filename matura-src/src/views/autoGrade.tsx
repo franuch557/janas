@@ -6,10 +6,10 @@ import { useEffect, useState } from 'react';
 import type { AppTask } from '../store/derived';
 import { gradeTask, type MathKey, type MathParams } from '../logic/mathGrade';
 import { gradeEnglish, type EnglishItem } from '../logic/englishGrade';
-import { embedTexts, gradeText, unpackVec, type TextExample, type TextParams } from '../logic/textGrade';
+import { embedTexts, gradeText, setTextModel, unpackVec, type TextExample, type TextParams } from '../logic/textGrade';
 
 type MathKeys = Record<string, MathKey>;
-type TextKeys = Record<string, [number, string][]>;
+type TextKeys = Record<string, { q: string | null; ex: [number, string][] }>;
 let mathKeys: Promise<{ keys: MathKeys; params: MathParams }> | null = null;
 let textKeys: Promise<{ keys: TextKeys; params: TextParams }> | null = null;
 const loadMath = () =>
@@ -17,7 +17,11 @@ const loadMath = () =>
 let engKeys: Promise<Record<string, EnglishItem[]>> | null = null;
 const loadEng = () => (engKeys ??= import('../data/klucze-angielski.json').then((k) => k.default as unknown as Record<string, EnglishItem[]>));
 const loadText = () =>
-  (textKeys ??= Promise.all([import('../data/wzorce-polski.json'), import('../data/ocena-polski.json')]).then(([k, p]) => ({ keys: k.default as unknown as TextKeys, params: p.default.params })));
+  (textKeys ??= Promise.all([import('../data/wzorce-polski.json'), import('../data/ocena-polski.json')]).then(([k, p]) => {
+    const conf = p.default as { model?: string; prefix?: string; params: TextParams };
+    if (conf.model) setTextModel(conf.model, conf.prefix ?? '');
+    return { keys: k.default as unknown as TextKeys, params: conf.params };
+  }));
 
 /** Czy zadanie ma klucz do oceny automatycznej. */
 export type AutoKind = 'mat' | 'pol' | 'ang';
@@ -69,18 +73,20 @@ export async function autoGrade(t: AppTask, kind: AutoKind, text: string, onProg
     };
   }
   const { keys, params } = await loadText();
-  const ex: TextExample[] = (keys[t.id] ?? []).map(([points, v]) => ({ points, vec: unpackVec(v) }));
+  const k = keys[t.id];
+  const ex: TextExample[] = (k?.ex ?? []).map(([points, v]) => ({ points, vec: unpackVec(v) }));
   const [vec] = await embedTexts([text.slice(0, 1500)], onProgress);
-  const g = gradeText(vec, ex, t.maxPoints, params);
+  // polecenie (przepisane polecenie = 0 pkt) i przykłady innych zadań (odpowiedź nie na temat)
+  const others = params.om != null ? Object.entries(keys).flatMap(([id, x]) => (id === t.id ? [] : x.ex.map(([, v]) => unpackVec(v)))) : [];
+  const g = gradeText(vec, ex, t.maxPoints, params, { q: k?.q ? unpackVec(k.q) : null, others });
   if (!g) return null;
-  const sim = Math.round(g.similarity * 100);
   const near = ex[g.nearest].points;
   return {
     points: g.points,
     feedback:
       g.points > 0
-        ? `Sens odpowiedzi jest zbieżny z przykładową odpowiedzią CKE za ${near} pkt (podobieństwo ${sim}%). Sprawdź jeszcze z zasadami oceniania, czy nie brakuje elementu.`
-        : `Odpowiedź nie pasuje do przykładowych odpowiedzi CKE (podobieństwo ${sim}%). Porównaj ją z zasadami oceniania.`,
+        ? `Sens odpowiedzi jest zbieżny z przykładową odpowiedzią CKE za ${near} pkt. Sprawdź jeszcze z zasadami oceniania, czy nie brakuje elementu.`
+        : `Odpowiedź nie pasuje do przykładowych odpowiedzi CKE. Porównaj ją z zasadami oceniania.`,
   };
 }
 

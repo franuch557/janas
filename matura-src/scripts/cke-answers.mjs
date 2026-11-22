@@ -194,18 +194,23 @@ export function rubricFrom(ans, rule, task) {
 export function keyDetails(ruleText, maxPoints) {
   const lines = (ruleText ?? '').normalize('NFKC').split('\n').map((l) => l.replace(/\s+/g, ' ').trim());
   const noise = (l) => !l || /^Strona \d+ z \d+$/.test(l) || /^Egzamin maturalny z /.test(l) || /^Zasady oceniania rozwiązań zadań$/.test(l);
-  const levels = [];
-  let i = lines.findIndex((l) => /^Zasady oceniania$/.test(l));
-  if (i >= 0) {
+  // poziomy ze wszystkich bloków „Zasady oceniania” (także „(dla sposobu I i II)”, „(dla sposobu III)”):
+  // warianty z różnych sposobów rozwiązania łączę w jeden poziom o tej samej liczbie punktów
+  const byPts = new Map();
+  const head = (l) => /^Zasady oceniania( \(.*\))?:?$/.test(l) || /^Schemat (punktowania|oceniania)/.test(l);
+  for (let i = 0; i < lines.length; i++) {
+    if (!head(lines[i])) continue;
     let cur = null;
-    for (i = i + 1; i < lines.length; i++) {
-      const l = lines[i];
+    for (let j = i + 1; j < lines.length; j++) {
+      const l = lines[j];
       if (noise(l)) continue;
-      if (/^(Uwag[ai]|Przykładow|Zadanie \d)/.test(l)) break;
+      if (head(l) || /^(Uwag[ai]|Przykładow|Zadanie \d|Rozwiązanie$)/.test(l)) break;
       const m = /^(\d+)\s*pkt\s*[–—-]\s*(.*)$/.exec(l);
       if (m) {
-        cur = { points: Number(m[1]), alts: [m[2]] };
-        levels.push(cur);
+        const p = Number(m[1]);
+        cur = byPts.get(p) ?? { points: p, alts: [] };
+        byPts.set(p, cur);
+        cur.alts.push(m[2]);
         continue;
       }
       if (!cur) continue;
@@ -217,6 +222,7 @@ export function keyDetails(ruleText, maxPoints) {
       cur.alts[cur.alts.length - 1] = `${cur.alts[cur.alts.length - 1]} ${t}`.trim();
     }
   }
+  const levels = [...byPts.values()].sort((x, y) => y.points - x.points);
   for (const lv of levels) lv.alts = lv.alts.map((a) => a.replace(/[,;]\s*$/, '').trim()).filter(Boolean);
   let solution = null;
   const s = lines.findIndex((l) => /^Przykładow[ea] (pełne )?rozwiązani[ea]$/.test(l));
@@ -298,7 +304,8 @@ export function englishItems(openKey, task, section) {
     return a && a.ok.length && t.ok.every(english) ? a : clean(section?.(id)) ?? a;
   });
   function english(t) {
-    return /^[(A-Za-z][A-Za-z’'\/ .,!?()-]*$/.test(t) && !/^[A-H]( [A-H])?$/.test(t) && !/^(Wersja|Egzamin|Zasady|Uwagi)/.test(t) && !/\b(odpowied|akceptowan|wyraz|zadani)/.test(t);
+    // odpowiedź po angielsku albo po polsku (zadania z przekazywaniem informacji), bez komentarzy egzaminatora
+    return /^[(A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż0-9][A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż0-9’'\/ .,!?()-]*$/.test(t) && !/^[A-H]( [A-H])?$/.test(t) && !/^(Wersja|Egzamin|Zasady|Uwagi|Więcej)/.test(t) && !/(odpowied|akceptowan|wyraz|zadani|arkusz|tekst|fragment)/i.test(t);
   }
   if (!items.length || items.some((x) => !x || !x.ok.length)) return null;
   if (items.length !== task.maxPoints) return null;
