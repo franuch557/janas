@@ -50,11 +50,12 @@ export function nextSrs(prev: SrsState, pct: number, date: string): SrsState {
 }
 
 /**
- * Wynik użyty do odstępu, gdy uczeń ocenił trudność w sesji powtórek: ocena ogranicza
- * wynik z góry („trudne” przy pełnych punktach nie daje dwutygodniowej przerwy).
+ * Wynik użyty do odstępu, gdy uczeń ocenił trudność w sesji powtórek: o odstępie decyduje
+ * ocena (nie umiem – 1 dzień, trudne – 3 dni, dobrze – 7 dni, łatwe – 14 dni), a słaby wynik
+ * (poniżej 50%) ogranicza ją do 3 dni – „łatwe” przy błędnej odpowiedzi nie daje długiej przerwy.
  */
-export const RATE_CAP: Record<1 | 2 | 3 | 4, number> = { 1: 20, 2: 55, 3: 80, 4: 100 };
-export const effectivePct = (pct: number, rate?: 1 | 2 | 3 | 4) => (rate ? Math.min(pct, RATE_CAP[rate]) : pct);
+export const RATE_PCT: Record<1 | 2 | 3 | 4, number> = { 1: 30, 2: 60, 3: 80, 4: 95 };
+export const effectivePct = (pct: number, rate?: 1 | 2 | 3 | 4) => (rate ? Math.min(RATE_PCT[rate], pct < 50 ? 60 : 100) : pct);
 
 export function srsFromHistory(history: { d: string; pct: number; rate?: 1 | 2 | 3 | 4 }[]): SrsState {
   let s = NEW_SRS;
