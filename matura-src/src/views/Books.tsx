@@ -42,7 +42,7 @@ export function BooksView() {
     <div className="page lk-page">
       <header className="lk-head">
         <div className="grow">
-          <h1>Lektury</h1>
+          <h1 className="ptitle">Lektury</h1>
           <p className="muted">
             {BOOKS.length} opracowań w {EPOCHS.length} epokach
           </p>

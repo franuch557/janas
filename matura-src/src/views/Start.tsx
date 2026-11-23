@@ -90,7 +90,7 @@ function Summary({ diagInPlan }: { diagInPlan: boolean }) {
   return (
     <section className="card summary" aria-label="Podsumowanie">
       {next ? (
-        <div>
+        <div className="countdown">
           <div className="big">{dni(diffDays(next.examDate, today))}</div>
           <div className="muted">
             do pierwszego egzaminu, {next.name.toLowerCase()} {fmtDayMonth(next.examDate)}
@@ -101,7 +101,7 @@ function Summary({ diagInPlan }: { diagInPlan: boolean }) {
         <h2>Egzaminy za tobą</h2>
       )}
       <Tape />
-      <span style={{ color: 'var(--seria)', fontWeight: 650 }}>{d.streak > 0 ? `Seria: ${dni(d.streak)}` : 'Zacznij serię dziś'}</span>
+      <span className="streak-line">{d.streak > 0 ? `Seria: ${dni(d.streak)}` : 'Zacznij serię dziś'}</span>
       <h3>Prognoza</h3>
       {withFc.length ? (
         <div className="stack-2">

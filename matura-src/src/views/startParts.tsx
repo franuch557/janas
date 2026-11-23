@@ -39,7 +39,7 @@ export function DailyGoalCard() {
       ) : (
         <p className="small muted">Dziś dzień wolny w planie.</p>
       )}
-      <div className="row" style={{ flexWrap: 'wrap' }}>
+      <div className="row goal-actions">
         <button type="button" className="btn btn-secondary btn-sm" onClick={() => go({ name: 'tramwaj' })}>
           W tramwaju
         </button>
