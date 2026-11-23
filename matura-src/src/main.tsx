@@ -2,6 +2,7 @@ import { StrictMode, useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import type { Session } from '@supabase/supabase-js';
 import '@fontsource-variable/atkinson-hyperlegible-next/wght.css';
+import '@fontsource-variable/bricolage-grotesque/standard.css';
 import 'katex/dist/katex.min.css';
 import './styles/app.css';
 import App from './App';

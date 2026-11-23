@@ -174,8 +174,8 @@ export function BankView({ subject, topic }: { subject: SubjectId | null; topic:
           <button
             key={s.id}
             type="button"
-            className="card click"
-            style={{ textAlign: 'left', borderColor: current && wide ? 'var(--atrament)' : undefined, background: current && wide ? 'var(--atrament-tlo)' : undefined }}
+            className={`card click subj-card${current && wide ? ' on' : ''}`}
+            style={{ textAlign: 'left', ['--sc' as string]: `var(--s-${s.id})` }}
             onClick={() => go({ name: 'zadania', subject: s.id, topic: null })}
             aria-current={current ? 'true' : undefined}
           >

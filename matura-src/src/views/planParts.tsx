@@ -332,7 +332,7 @@ export function PlanCard({ date, item, onSwap, editable = true }: { date: string
   const actionLabel =
     item.kind === 'arkusz' ? 'Zacznij arkusz' : item.kind === 'diagnoza' ? 'Zacznij diagnozę' : item.kind === 'wypracowanie' ? 'Pisz' : item.kind === 'fiszki' ? 'Powtórz fiszki' : item.kind === 'ćwiczenie' ? 'Ćwicz' : 'Rozwiąż';
   return (
-    <div className={`card task-card plan-card${tickable ? '' : ' click'}${done ? ' done' : doing ? ' doing' : ''}`} onClick={tickable ? undefined : open}>
+    <div className={`card task-card plan-card${tickable ? '' : ' click'}${done ? ' done' : doing ? ' doing' : ''}`} style={item.subjectId ? { ['--sc' as string]: `var(--s-${item.subjectId})` } : undefined} onClick={tickable ? undefined : open}>
       <div className="meta">
         <SubjectTag id={item.subjectId} />
         {src ? <span className="small muted">{src}</span> : null}

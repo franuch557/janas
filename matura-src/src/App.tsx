@@ -105,7 +105,10 @@ function Shell({ route, children }: { route: Route; children: React.ReactNode })
         Przejdź do treści
       </a>
       <nav className="sidebar" aria-label="Nawigacja główna">
-        <div className="brand">Matura 2027</div>
+        <div className="brand">
+          <span className="brand-mark" aria-hidden="true" />
+          Matura 2027
+        </div>
         {NAV.map((n) => (
           <a key={n.name} href={`#${n.name}`} className="navitem" aria-current={active === n.name ? 'page' : undefined}>
             <span className="pill">
@@ -130,6 +133,7 @@ function Shell({ route, children }: { route: Route; children: React.ReactNode })
       </nav>
       <div>
         <header className="topbar">
+          <span className="brand-mark" aria-hidden="true" />
           <span className="title" aria-hidden={route.name !== 'start' ? true : undefined}>
             {TITLES[route.name] ?? 'Matura 2027'}
           </span>

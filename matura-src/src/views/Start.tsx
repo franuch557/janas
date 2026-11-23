@@ -57,7 +57,7 @@ function Tape() {
   return (
     <div className="stack-2">
       <button type="button" className="tape-btn" onClick={() => setInfo((x) => !x)} aria-expanded={info} aria-label={text}>
-        <span className="tape-grid" style={{ gridTemplateColumns: `repeat(${weeks.length}, 8px)` }} aria-hidden="true">
+        <span className="tape-grid" style={{ ['--weeks' as string]: weeks.length }} aria-hidden="true">
           {weeks.flatMap((w) =>
             w.map((day) => {
               const ex = examOn.get(day);
@@ -87,11 +87,16 @@ function Summary({ diagInPlan }: { diagInPlan: boolean }) {
   const toDiag = enabled.find((s) => !d.diagnosed.has(s.id) && d.diagnosis[s.id].enough);
   const rest = upcoming.slice(1).map((s) => Number(s.examDate.slice(8)));
   const restText = rest.length ? `; potem ${rest.length > 1 ? `${rest.slice(0, -1).join(', ')} i ${rest[rest.length - 1]}` : rest[0]} maja` : '';
+  const left = next ? dni(diffDays(next.examDate, today)) : '';
+  const cut = left.indexOf(' ');
   return (
     <section className="card summary" aria-label="Podsumowanie">
+      <div className="sum-main">
       {next ? (
         <div className="countdown">
-          <div className="big">{dni(diffDays(next.examDate, today))}</div>
+          <div className="big">
+            <span className="n">{left.slice(0, cut)}</span> <span className="u">{left.slice(cut + 1)}</span>
+          </div>
           <div className="muted">
             do pierwszego egzaminu, {next.name.toLowerCase()} {fmtDayMonth(next.examDate)}
             {restText}
@@ -102,6 +107,8 @@ function Summary({ diagInPlan }: { diagInPlan: boolean }) {
       )}
       <Tape />
       <span className="streak-line">{d.streak > 0 ? `Seria: ${dni(d.streak)}` : 'Zacznij serię dziś'}</span>
+      </div>
+      <div className="sum-fc">
       <h3>Prognoza</h3>
       {withFc.length ? (
         <div className="stack-2">
@@ -136,6 +143,7 @@ function Summary({ diagInPlan }: { diagInPlan: boolean }) {
           ) : null}
         </div>
       )}
+      </div>
     </section>
   );
 }
@@ -173,11 +181,9 @@ export function StartView() {
           </Banner>
         ) : null}
       </div>
+      <Summary diagInPlan={items.some((i) => i.kind === 'diagnoza')} />
       <div className="start-grid">
-        <Summary diagInPlan={items.some((i) => i.kind === 'diagnoza')} />
-        <section className="stack" aria-labelledby="na-dzis">
-          <DailyGoalCard />
-          <WeeklyCard />
+        <section className="stack start-today" aria-labelledby="na-dzis">
           <div className="row-between">
             <h2 id="na-dzis">Na dziś</h2>
             {work.length ? (
@@ -235,6 +241,10 @@ export function StartView() {
             </div>
           ) : null}
         </section>
+        <div className="stack start-side">
+          <DailyGoalCard />
+          <WeeklyCard />
+        </div>
       </div>
       {swap ? <SwapSheet date={today} item={swap} onClose={() => setSwap(null)} /> : null}
       {adding ? <AddSheet date={today} onClose={() => setAdding(false)} /> : null}
