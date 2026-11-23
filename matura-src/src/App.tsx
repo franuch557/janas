@@ -1,3 +1,4 @@
+import { MemoryMapView, ReviewView } from './views/Review';
 import { PracticeView } from './views/Practice';
 import { CommuteView } from './views/Commute';
 import { MistakesView, QuizView } from './views/Quiz';
@@ -69,7 +70,7 @@ export function SyncButton() {
 function Shell({ route, children }: { route: Route; children: React.ReactNode }) {
   const { d, toasts, dismissToast } = useStore();
   const sync = useSyncInfo();
-  const active = route.name === 'zadanie' ? 'zadania' : ['lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'lektury' : route.name;
+  const active = route.name === 'zadanie' ? 'zadania' : ['lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'lektury' : route.name === 'mapa-pamieci' ? 'postep' : route.name;
   const focus = FOCUS_ROUTES.has(route.name);
   const toastsEl = (
     <div className={`toasts${focus ? ' focus-mode' : ''}`} aria-live="polite">
@@ -264,6 +265,12 @@ export default function App() {
       break;
     case 'bledy':
       view = <MistakesView />;
+      break;
+    case 'powtorki':
+      view = <ReviewView key={`${route.subject}-${route.topic}`} subject={route.subject} topic={route.topic} />;
+      break;
+    case 'mapa-pamieci':
+      view = <MemoryMapView />;
       break;
     case 'lektury':
       view = <BooksView />;

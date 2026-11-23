@@ -49,9 +49,16 @@ export function nextSrs(prev: SrsState, pct: number, date: string): SrsState {
   };
 }
 
-export function srsFromHistory(history: { d: string; pct: number }[]): SrsState {
+/**
+ * Wynik użyty do odstępu, gdy uczeń ocenił trudność w sesji powtórek: ocena ogranicza
+ * wynik z góry („trudne” przy pełnych punktach nie daje dwutygodniowej przerwy).
+ */
+export const RATE_CAP: Record<1 | 2 | 3 | 4, number> = { 1: 20, 2: 55, 3: 80, 4: 100 };
+export const effectivePct = (pct: number, rate?: 1 | 2 | 3 | 4) => (rate ? Math.min(pct, RATE_CAP[rate]) : pct);
+
+export function srsFromHistory(history: { d: string; pct: number; rate?: 1 | 2 | 3 | 4 }[]): SrsState {
   let s = NEW_SRS;
-  for (const h of history) s = nextSrs(s, h.pct, h.d);
+  for (const h of history) s = nextSrs(s, effectivePct(h.pct, h.rate), h.d);
   return s;
 }
 

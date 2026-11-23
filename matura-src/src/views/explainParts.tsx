@@ -17,7 +17,7 @@ const load = (name: 'mat' | 'pol' | 'ang') => {
   return cache.get(name)!;
 };
 
-function useExplain(t: AppTask): Data | null {
+export function useExplain(t: AppTask): Data | null {
   const [d, setD] = useState<Data | null>(null);
   useEffect(() => {
     let alive = true;

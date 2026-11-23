@@ -43,7 +43,7 @@ export function activeEvents(events: AppEvent[]): ActiveEvents {
 }
 
 export interface TaskRecord {
-  history: { d: string; pts: number; max: number; pct: number; at: number; id: string; note?: string }[];
+  history: { d: string; pts: number; max: number; pct: number; at: number; id: string; note?: string; rate?: 1 | 2 | 3 | 4 }[];
   srs: SrsState;
 }
 
@@ -52,7 +52,7 @@ export function taskRecords(results: ResultEvent[], before?: string): Map<string
   for (const r of results) {
     if (before && r.d >= before) continue;
     const list = hist.get(r.task) ?? [];
-    list.push({ d: r.d, pts: r.pts, max: r.max, pct: r.max > 0 ? Math.round((r.pts / r.max) * 100) : 0, at: r.at, id: r.id, note: r.note });
+    list.push({ d: r.d, pts: r.pts, max: r.max, pct: r.max > 0 ? Math.round((r.pts / r.max) * 100) : 0, at: r.at, id: r.id, note: r.note, ...(r.rate ? { rate: r.rate } : {}) });
     hist.set(r.task, list);
   }
   const out = new Map<string, TaskRecord>();

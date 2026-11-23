@@ -130,7 +130,12 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
 
   return (
     <div className="page wide">
-      <h1 className="ptitle">Postęp</h1>
+      <div className="row-between">
+        <h1 className="ptitle">Postęp</h1>
+        <button type="button" className="btn btn-secondary" onClick={() => go('#mapa-pamieci')}>
+          Mapa pamięci
+        </button>
+      </div>
       {tasksDone === 0 && history.length === 0 ? (
         <Empty secondary text="Tu zobaczysz serię, liczbę zadań i czas nauki po pierwszym zadaniu." action={{ label: 'Zacznij naukę', run: () => go('#start') }} />
       ) : (

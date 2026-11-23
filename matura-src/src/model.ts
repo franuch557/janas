@@ -194,6 +194,8 @@ export interface ResultEvent {
   by?: 'claude' | 'samoocena' | 'automat';
   /** Uzasadnienie oceny Claude'a. */
   feedback?: string;
+  /** Ocena trudności w sesji powtórek: 1 nie umiem, 2 trudne, 3 dobrze, 4 łatwe. */
+  rate?: 1 | 2 | 3 | 4;
 }
 
 export interface UndoEvent {

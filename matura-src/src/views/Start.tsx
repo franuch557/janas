@@ -9,6 +9,7 @@ import { useReminderDue } from './reminder';
 import { AddSheet, flowFor, openItem, PlanCard, SwapSheet } from './planParts';
 import { WeeklyCard } from './Weekly';
 import { DailyGoalCard } from './startParts';
+import { ReviewCard } from './Review';
 
 export function SyncBanner() {
   const { sync, retrySync, storageFull, cloud } = useStore();
@@ -182,6 +183,7 @@ export function StartView() {
         ) : null}
       </div>
       <Summary diagInPlan={items.some((i) => i.kind === 'diagnoza')} />
+      <ReviewCard />
       <div className="start-grid">
         <section className="stack start-today" aria-labelledby="na-dzis">
           <div className="row-between">
