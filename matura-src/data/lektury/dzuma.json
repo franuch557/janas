@@ -58,7 +58,7 @@
         {
           "typ": "punkt",
           "etykieta": "Postawy",
-          "tekst": "bohaterowie reagują różnie: Rieux, lekarz, walczy z chorobą; Tarrou organizuje pomoc; Cottard korzysta z chaosu; Grand pisze powieść, która nigdy nie zostaje ukończona; Rambert chce uciec do ukochanej."
+          "tekst": "bohaterowie reagują różnie: Rieux, lekarz, walczy z chorobą; Tarrou organizuje pomoc; Cottard korzysta z chaosu; Grand pisze powieść, która nigdy nie zostaje ukończona; Rambert chce uciec do ukochanej w Paryżu, ale w końcu zostaje i pomaga w walce z epidemią."
         },
         {
           "typ": "punkt",
@@ -67,8 +67,13 @@
         },
         {
           "typ": "punkt",
+          "etykieta": "Ofiary",
+          "tekst": "na oczach Rieux i Paneloux umiera w męczarniach syn sędziego Othona, co wstrząsa księdzem; Paneloux sam choruje i umiera. Pod koniec epidemii umiera Tarrou, a Rieux dowiaduje się o śmierci żony, która leczyła się poza miastem."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Zakończenie",
-          "tekst": "epidemia wygasa. Rieux, ukrywając rękopis, zauważa, że dżuma nigdy nie znika; może powrócić."
+          "tekst": "po około dziesięciu miesiącach epidemia wygasa, bramy miasta zostają otwarte. Cottard, który bał się powrotu do normalności, strzela do ludzi i zostaje aresztowany. Rieux ujawnia, że to on jest narratorem kroniki; wie, że bakcyl dżumy nie umiera nigdy i może znów obudzić szczury."
         },
         {
           "typ": "akapit",
@@ -106,7 +111,7 @@
         {
           "typ": "punkt",
           "etykieta": "Raymond Rambert",
-          "tekst": "dziennikarz, który chce uciec do żony. Rola: symbol decyzji między osobistym szczęściem a solidarnością."
+          "tekst": "paryski dziennikarz, który chce uciec do ukochanej, ale zostaje, uznając, że wstydem byłoby być szczęśliwym samemu. Rola: symbol decyzji między osobistym szczęściem a solidarnością."
         },
         {
           "typ": "punkt",

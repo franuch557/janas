@@ -35,29 +35,30 @@
 - **Epoka:** dwudziestolecie międzywojenne.
 - **Data publikacji:** 1924 r. (Warszawa).
 - **Rodzaj i gatunek:** powieść społeczno-polityczna, powieść edukacyjna (Bildungsroman).
-- **Czas i miejsce akcji:** 1918–1919 (czas odzyskania niepodległości), Rosja (Syberia i Moskwa, rewolucja), potem Warszawa i Polska.
+- **Czas i miejsce akcji:** lata 1905–1920; Baku (Azerbejdżan) i podróż przez Rosję, potem Polska: Warszawa, dworek Nawłoć, Chłodek, front wojny polsko-bolszewickiej.
+- **Kompozycja:** trzy części – „Szklane domy”, „Nawłoć”, „Wiatr od wschodu”.
 - **Geneza:** Żeromski opisuje losy młodego człowieka w zmieniającej się Polsce po odzyskaniu niepodległości. Tytuł odnosi się do przejściowego okresu między zimą (zniewolenie) a wiosną (wolność).
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: powieść ma wiele wątków i wielu bohaterów. Poniżej główne etapy. Szczegółowy przebieg sprawdź w wydaniu.*
-
-- **Dzieciństwo i Rosja:** Cezary Baryka dorasta w Rosji, wśród rewolucjonistów i żołnierzy. Jego ojciec, Seweryn Baryka, jest przedstawicielem dawnej szlachty i sprawia kłopoty rodzinie.
-- **Wyprawa do Polski:** Cezary wyjeżdża do Polski z Rosji (przez Syberię i Moskwę), by odnaleźć miejsce dla siebie i poznać ojczyznę. Przeżywa trudy podróży, głód, zimno.
-- **Warszawa:** w niepodległej Polsce Cezary poznaje odrodzone państwo, jego problemy społeczne, politykę i elity. Spotyka Laurę, córkę arystokratki, oraz przedstawicieli różnych obozów politycznych.
-- **Konflikty:** Cezary widzi kontrasty między bogactwem a biedą, między idealistami a cynikami. Zderza się z postawami: narodowców, socjalistów, konserwatystów.
-- **Zakończenie:** Cezary zaczyna widzieć, że odrodzenie Polski wymaga pracy i ofiary; powieść kończy się obrazem rozczarowania i nadziei, zostawiając pytanie o przyszłość.
-
-*Do sprawdzenia: nazwiska i role bohaterów drugoplanowych oraz dokładna kolejność wydarzeń.*
+- **Część I – „Szklane domy” (Baku):** Cezary Baryka, syn Polaków, dorasta w Baku jako rozpieszczony jedynak. Ojciec, Seweryn, zostaje powołany do armii rosyjskiej w czasie I wojny światowej. W czasie rewolucji Cezary zachłystuje się nowymi ideami, matka umiera z wycieńczenia. Rzezie ormiańsko-tatarskie (azerskie) w Baku pokazują okrucieństwo rewolucji. Wraca ojciec i postanawia zabrać syna do Polski. W drodze opowiada mu o Polsce szklanych domów – nowoczesnych, czystych i tanich, budowanych z płynnego szkła. Seweryn umiera po drodze.
+- **Przyjazd do Polski:** Cezary trafia do Warszawy i widzi biedne, brudne miasteczka przy granicy – żadnych szklanych domów. Opiekuje się nim Szymon Gajowiec, przyjaciel ojca, urzędnik państwowy.
+- **Wojna 1920 r.:** Cezary wstępuje do wojska i walczy z bolszewikami; zaprzyjaźnia się z Hipolitem Wielosławskim.
+- **Część II – „Nawłoć”:** w dworku Wielosławskich Cezary poznaje życie ziemiańskie: zabawy, bale, lenistwo, a obok – nędzę chłopów i parobków. Kocha go Karolina, a on zakochuje się w Laurze Kościenieckiej, narzeczonej bogatego Barwickiego. Romans kończy się zerwaniem; zazdrosna Wanda otruwa Karolinę.
+- **Część III – „Wiatr od wschodu”:** w Warszawie Cezary rozmawia z Gajowcem (zwolennikiem reform i stopniowej pracy) i z komunistą Antonim Lulkiem (zwolennikiem rewolucji wzorem rosyjskim). Odwiedza też nędzne dzielnice robotnicze. Na zebraniu komunistów sprzeciwia się Lulkowi, mówiąc o cenie rewolucji, którą widział w Baku.
+- **Zakończenie:** Cezary dołącza do robotniczej demonstracji, która idzie na Belweder – siedzibę władzy. Idzie na czele tłumu, ale osobno. Nie wiadomo, czy wybrał rewolucję.
 
 **Znaczenie kluczowych wydarzeń:** podróż i pobyt w Warszawie pokazują, że niepodległość to nie koniec problemów, lecz początek trudnej pracy nad państwem.
 
 ### C. Bohaterowie
 
 - **Cezary Baryka** – młody człowiek wychowany w Rosji. Cechy: idealizm, dociekliwość, rozczarowanie. Decyzje: wyjazd do Polski, poszukiwanie swojego miejsca. Zmienia się: od młodzieńczego zapału do dojrzałej refleksji. Wymowa: postawa młodego pokolenia wobec odrodzonej Polski.
-- **Seweryn Baryka** – ojciec Cezarego. Rola: przedstawiciel dawnej szlachty, uwikłany w konflikty rodzinne i społeczne.
-- **Laura** – córka arystokratki. Rola: symbol świata elit, w którym Cezary szuka sensu.
-- **Przedstawiciele obozów politycznych** – narodowcy, socjaliści, konserwatyści. Rola: pokazują różnorodność postaw.
+- **Seweryn Baryka** – ojciec Cezarego, inżynier, patriota; twórca mitu „szklanych domów”, umiera w drodze do Polski.
+- **Szymon Gajowiec** – urzędnik i ideowiec, zwolennik stopniowych reform w niepodległej Polsce.
+- **Antoni Lulek** – komunista, zwolennik rewolucji na wzór rosyjski.
+- **Hipolit Wielosławski** – przyjaciel z wojska, właściciel Nawłoci, ziemianin.
+- **Laura Kościeniecka** – piękna, bogata ziemianka z Leńca, kochanka Cezarego.
+- **Karolina Szarłatowiczówna** – łagodna rezydentka w Nawłoci, zakochana w Cezarym; zostaje otruta.
 
 ### D. Problematyka i interpretacja
 
@@ -105,7 +106,7 @@
 ### I. Najważniejsze informacje do zapamiętania
 
 - Żeromski, *Przedwiośnie*, 1924 r.
-- Bohaterowie: Cezary Baryka, Seweryn Baryka, Laura.
+- Bohaterowie: Cezary Baryka, Seweryn Baryka, Gajowiec, Lulek, Hipolit, Laura, Karolina.
 - Motywy: ojczyzna, młode pokolenie, rozczarowanie, ofiara.
 - Przesłanie: niepodległość wymaga pracy i uczciwości.
 
@@ -117,8 +118,8 @@
 3. Co oznacza tytuł?
 4. W jakim roku wydano powieść?
 5. Kim jest Seweryn Baryka?
-6. Kto jest córką arystokratki?
-7. Jakie obozy polityczne pojawiają się w powieści?
+6. W kim zakochuje się Cezary w Nawłoci?
+7. Kto reprezentuje reformy, a kto rewolucję?
 8. Jaki czas historyczny jest tłem?
 9. Jaki gatunek reprezentuje utwór?
 10. Jaki motyw dominuje?
@@ -132,19 +133,19 @@
 
 **Klucz odpowiedzi:**
 1. Cezary Baryka.
-2. Z Rosji.
+2. Z Baku (Rosja), przez Rosję do Polski.
 3. Okres przejściowy między zimą a wiosną.
 4. 1924.
 5. Ojciec Cezarego.
-6. Laura.
-7. Narodowcy, socjaliści, konserwatyści.
-8. Odzyskanie niepodległości.
+6. W Laurze Kościenieckiej.
+7. Gajowiec – reformy, Lulek – rewolucję.
+8. Lata 1905–1920: rewolucja w Rosji, odzyskanie niepodległości, wojna 1920 r.
 9. Powieść społeczno-polityczna.
 10. Ojczyzna i odpowiedzialność.
 11. Symbolizuje przejście od zniewolenia do wolności.
 12. Nie, niepodległość wymaga pracy.
 13. Z idealisty staje się bardziej refleksyjny.
-14. Przez opisy Warszawy i różnych środowisk.
+14. Przez zestawienie dworu w Nawłoci z nędzą chłopów i robotniczych dzielnic Warszawy.
 15. Częściowo: nadzieja jest obecna, ale towarzyszy jej ostrzeżenie.
 
 ---
@@ -153,33 +154,28 @@
 
 ### A. Informacje podstawowe
 
-- **Autor:** Stanisław Ignacy Witkiewicz (Witkacy, 1885–1939), dramaturg, malarz, filozof, twórca teatru absurdu w Polsce.
+- **Autor:** Stanisław Ignacy Witkiewicz (Witkacy, 1885–1939), dramaturg, malarz, filozof; twórca teorii Czystej Formy, prekursor teatru absurdu.
 - **Epoka:** dwudziestolecie międzywojenne.
-- **Data powstania:** 1934 r. Pierwsza publikacja została opóźniona (w literaturze podawany rok 1957 – sprawdź w wydaniu).
-- **Rodzaj i gatunek:** dramat (dramat absurdalny, groteska, sztuka w trzech aktach).
+- **Data powstania:** 1927–1934 r.; wydanie i prapremiera dopiero po wojnie (prapremiera 1957 r., Teatr Wybrzeże w Sopocie).
+- **Rodzaj i gatunek:** dramat; groteska – podtytuł „Naukowa sztuka ze śpiewkami w trzech aktach”.
 - **Czas i miejsce akcji:** nieokreślony, fantastyczna przestrzeń, w której szewcy przejmują władzę.
 - **Geneza:** utwór jest satyrą na rewolucję społeczną, totalitaryzm i konformizm; Witkacy wyraża obawy przed przymusem ideologicznym i utratą indywidualności.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: dramat jest groteskowy i zawiera wiele wątków. Poniżej ogólny przebieg. Szczegóły sprawdź w wydaniu.*
-
-- **Początek:** szewc Sajetan Tempe i jego otoczenie żyją w przekonaniu o zbliżającej się rewolucji. Pojawiają się ideologiczne hasła, które mają wyzwolić szewców.
-- **Rewolucja:** szewcy przejmują władzę, głoszą nowy porządek, w którym liczy się tylko praca w określonym zawodzie. Wprowadzają przymus i ograniczenia wolności.
-- **Konflikt:** pojawiają się postacie ukazujące absurd nowego porządku; ich działania prowadzą do chaosu i odebrania wolności jednostkom.
-- **Zakończenie:** groteskowe zakończenie ukazuje bezsens ideologii i upadek nowego porządku.
-
-*Do sprawdzenia: role poszczególnych postaci i przebieg poszczególnych scen.*
+- **Akt I:** w warsztacie szewc Sajetan Tempe i dwaj czeladnicy pracują i filozofują o bezsensie życia i nadchodzącym upadku cywilizacji. Przychodzą do nich Księżna Irina Wsiewołodowna Zbereźnicka-Podberezka (arystokratka, uosobienie erotyzmu i dekadencji) oraz prokurator Robert Scurvy, przedstawiciel władzy, zakochany w Księżnej.
+- **Akt II – rewolucja szewców:** szewcy przestają pracować i robią przewrót. Władzę przejmuje Sajetan, a dawni panowie zostają upokorzeni – Scurvy siedzi w psiej budzie na łańcuchu.
+- **Akt III – rewolucja technokratów:** nowa władza szewców okazuje się równie bezsensowna. Pojawia się Hiper-Robociarz i dwaj Towarzysze (X i Abramowski) – technokraci, którzy przejmują władzę. Sajetan ginie, a ludzie stają się bezwolnymi trybami w maszynie. Świat zmierza do zautomatyzowanego społeczeństwa bez indywidualności.
 
 **Znaczenie kluczowych wydarzeń:** rewolucja szewców ukazuje, że władza oparta na ideologii prowadzi do absurdu i przymusu.
 
 ### C. Bohaterowie
 
-- **Sajetan Tempe** – szewc, lider rewolucji. Cechy: zapał, ideologiczność, absurdalność. Rola: uosobienie władzy opartej na hasłach.
-- **Czeladnik** – uczestnik rewolucji. Rola: symbol konformizmu.
-- **Szewcowa** i inne postacie – tło absurdu.
-
-*Uwaga: nazwy i role postaci wymagają weryfikacji w wydaniu.*
+- **Sajetan Tempe** – majster szewski, filozofujący przywódca rewolucji szewców; wierzy, że obali stary porządek, ale sam staje się dyktatorem i zostaje zmieciony.
+- **Czeladnicy (I i II)** – pomocnicy Sajetana, prości ludzie, którzy uczestniczą w przewrocie.
+- **Księżna Irina** – arystokratka, uosobienie dekadencji i kobiecego demonizmu.
+- **Prokurator Robert Scurvy** – przedstawiciel dawnej władzy, upokorzony po przewrocie.
+- **Hiper-Robociarz, Towarzysze X i Abramowski** – technokraci, nowa elita bezdusznej władzy.
 
 ### D. Problematyka i interpretacja
 
@@ -222,7 +218,7 @@
 ### I. Najważniejsze informacje do zapamiętania
 
 - Witkiewicz, *Szewcy*, powstanie 1934 r. (pierwsza publikacja później).
-- Bohaterowie: Sajetan Tempe, czeladnik, szewcowa.
+- Bohaterowie: Sajetan Tempe, czeladnicy, Księżna Irina, Scurvy, Hiper-Robociarz, Towarzysze.
 - Motywy: władza, konformizm, absurd.
 - Przesłanie: ideologia odbierająca wolność prowadzi do absurdu.
 
@@ -233,7 +229,7 @@
 2. Jaki gatunek reprezentuje utwór?
 3. Kto przejmuje władzę?
 4. Jak nazywa się lider rewolucji?
-5. W którym roku wydano dramat?
+5. Kiedy powstał dramat?
 6. Jaki motyw dominuje?
 7. Jaki styl literacki reprezentuje utwór?
 8. Co jest tematem satyry?
@@ -252,12 +248,12 @@
 2. Dramat, groteska.
 3. Szewcy.
 4. Sajetan Tempe.
-5. 1934.
+5. W latach 1927–1934.
 6. Władza i ideologia.
 7. Groteska, absurd.
 8. Rewolucja i totalitaryzm.
-9. Groteskowo, ujawnia absurd.
-10. Teatr absurdu.
+9. Władzę przejmują technokraci, ludzie stają się trybami maszyny.
+10. Teatr Czystej Formy (prekursor teatru absurdu).
 11. Bo odbiera wolność i zdrowy rozsądek.
 12. Nie, krytyka obejmuje różne totalitaryzmy.
 13. Podkreśla absurd i bezsens.

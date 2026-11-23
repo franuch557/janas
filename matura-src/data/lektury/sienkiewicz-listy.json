@@ -18,6 +18,11 @@
         },
         {
           "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1876–1878, w odcinkach w „Gazecie Polskiej”."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
           "tekst": "reportaż podróżniczy, listy z podróży."
         },

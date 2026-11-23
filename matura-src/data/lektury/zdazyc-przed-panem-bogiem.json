@@ -9,7 +9,7 @@
         {
           "typ": "punkt",
           "etykieta": "Autorka",
-          "tekst": "Hanna Krall (ur. 1937), polska reporterka i pisarka."
+          "tekst": "Hanna Krall (ur. 1935), polska reporterka i pisarka."
         },
         {
           "typ": "punkt",
@@ -24,12 +24,12 @@
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "reportaż literacki, wywiad-rzeka."
+          "tekst": "reportaż literacki oparty na rozmowach (wywiad z elementami reportażu)."
         },
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Warszawa, getto warszawskie (1943), powstanie w getcie; relacja z lat 40."
+          "tekst": "dwa plany – getto warszawskie (1940–1943, powstanie w kwietniu 1943 r.) oraz lata 70. w Łodzi, gdzie Edelman pracuje jako kardiolog."
         },
         {
           "typ": "punkt",
@@ -42,23 +42,24 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: fragmenty wymagane przez CKE do potwierdzenia. Poniżej ogólna charakterystyka.*"
+          "typ": "punkt",
+          "etykieta": "Getto",
+          "tekst": "Edelman, jedyny żyjący członek dowództwa Żydowskiej Organizacji Bojowej (zastępca Mordechaja Anielewicza), opowiada o życiu w getcie, głodzie i wywózkach z Umschlagplatzu, gdzie jako goniec szpitalny stał i wyciągał z tłumu ludzi skazanych na śmierć. Wspomina Polę Lifszyc, która dobrowolnie poszła z matką do wagonu."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Książka oparta na rozmowach z Markiem Edelmanem, który opowiada o powstaniu w getcie warszawskim, o swoich decyzjach i o ludziach, z którymi walczył."
+          "etykieta": "Powstanie",
+          "tekst": "mówi bez patosu: powstańcy wiedzieli, że przegrają, ale chcieli wybrać, jak umrzeć – nie biernie, w komorze gazowej, lecz z bronią w ręku. Opowiada o śmierci Anielewicza w bunkrze przy Miłej 18 i o wyjściu kanałami."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Krall zachowuje dokumentalną precyzję i jednocześnie pokazuje emocje i moralne dylematy."
+          "etykieta": "Szpital w Łodzi",
+          "tekst": "drugi plan to praca Edelmana jako kardiologa i operacje prof. Jana Molla, który jako jeden z pierwszych w Polsce przeprowadzał operacje na otwartym sercu. Ratowanie chorych jest dla Edelmana dalszym ciągiem walki o życie."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Tekst porusza pytania o odpowiedzialność, pamięć i sens ratowania życia."
+          "etykieta": "Tytuł",
+          "tekst": "Edelman mówi, że Pan Bóg chce zgasić świeczkę, a on musi szybko osłonić płomień – zdążyć przed Panem Bogiem."
         }
       ]
     },
@@ -68,7 +69,17 @@
         {
           "typ": "punkt",
           "etykieta": "Marek Edelman",
-          "tekst": "jeden z przywódców powstania w getcie. Cechy: odwaga, skromność, pamięć. Rola: świadek i bohater relacji."
+          "tekst": "jeden z przywódców powstania w getcie (zastępca Anielewicza), po wojnie kardiolog w Łodzi. Cechy: odwaga, skromność, ironia, niechęć do patosu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mordechaj Anielewicz",
+          "tekst": "przywódca ŻOB, zginął w bunkrze przy Miłej 18."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Prof. Jan Moll",
+          "tekst": "kardiochirurg, z którym Edelman ratuje pacjentów."
         },
         {
           "typ": "punkt",

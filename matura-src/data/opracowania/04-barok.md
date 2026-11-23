@@ -33,20 +33,19 @@
 
 - **Autor:** Jan Chryzostom Pasek (ok. 1636–1701), szlachcic herbu Gozdawa z Mazowsza, uczestnik wielu wojen XVII w.
 - **Epoka:** barok.
-- **Data powstania:** druga połowa XVII w. (pisane po 1690 r. według większości źródeł; pierwsze wydanie w XIX w.).
+- **Data powstania:** druga połowa XVII w. (spisane ok. 1690–1695 r.; rękopis odnaleziony w XIX w., pierwsze wydanie 1836 r.).
 - **Rodzaj i gatunek:** pamiętnik, autobiografia szlachecka, proza pamiętnikarska.
-- **Czas i miejsce akcji:** XVII w.; wojny: potop szwedzki, wojny z Kozakami i Turcją, wyprawy na Ukrainę i Litwę.
+- **Czas i miejsce akcji:** lata 1655–1688; Dania, Litwa i Białoruś (wojna z Moskwą), potem Krakowskie.
 - **Geneza:** pamiętnik powstał jako rodzaj świadectwa własnych czynów i zarazem wzorca szlacheckiego życia. Autor spisał wspomnienia z lat walk i życia rodzinnego.
 
 ### B. Szczegółowe streszczenie
 
 *Uwaga: fragmenty wymagane przez CKE sprawdź w wykazie. Poniżej ogólny przebieg pamiętnika.*
 
-- **Młodość:** Pasek opisuje swoje dzieciństwo i pierwsze wojenne doświadczenia. Wstępuje do wojska, a jego życie kształtuje się wokół służby.
-- **Wojny:** autor opisuje kampanie, m.in. wojny ze Szwedami i Kozakami. Pokazuje realia wojny: marsze, potyczki, trudy, niebezpieczeństwo.
-- **Przygody:** pamiętnik zawiera anegdoty o odwadze, zuchwałości i obyczajach szlacheckich, często z humorem i dystansem do siebie.
-- **Życie codzienne:** autor opisuje obyczaje szlacheckie, gościnność, zabawy i życie rodzinne.
-- **Zakończenie:** Pasek kończy swoją opowieść refleksją nad własnym życiem i służbą.
+- **Część pierwsza – lata wojenne (1655–1666):** Pasek opisuje służbę w chorągwi Stefana Czarnieckiego. Najsłynniejsze fragmenty to wyprawa do Danii (1658–1659), gdzie wojsko polskie walczyło ze Szwedami jako sojusznik Duńczyków: Pasek z humorem opisuje kraj, obyczaje Duńczyków, zdobycie wyspy Als i własne bohaterskie czyny. Potem uczestniczy w wojnie z Moskwą na Litwie (m.in. bitwy pod Połonką i nad Basią w 1660 r.). Wspomina też konfederację wojskową i rokosz Lubomirskiego.
+- **Przygody i anegdoty:** autor chętnie opisuje pojedynki, zwady, uczty i swoje „bohaterstwa”, często koloryzując i chwaląc się. Pokazuje sarmacką pewność siebie, pobożność i pogardę dla cudzoziemców.
+- **Część druga – życie ziemiańskie (1667–1688):** Pasek żeni się z zamożną wdową Anną Łącką i osiada na wsi w okolicach Krakowa. Opisuje gospodarowanie, procesy sądowe z sąsiadami, udział w sejmikach i elekcjach, a także słynną oswojoną wydrę, którą podarował królowi Janowi III Sobieskiemu.
+- **Charakter zapisu:** pamiętnik nie jest uporządkowaną autobiografią, lecz gawędą – opowieścią szlachcica, który mówi do słuchaczy, z wtrąceniami po łacinie (makaronizmami).
 
 **Znaczenie kluczowych wydarzeń:** wojna i służba pokazują realia XVII-wiecznej Rzeczypospolitej; osobiste przygody składają się na obraz szlachcica.
 
@@ -128,7 +127,7 @@
 1. Szlachcic i żołnierz.
 2. Pamiętnik.
 3. W drugiej połowie XVII w.
-4. Ze Szwedami, Kozakami, Turcją.
+4. Ze Szwedami (wyprawa do Danii) i z Moskwą.
 5. Wojna.
 6. Gościnność, zabawy, honor.
 7. Szabla.
@@ -150,7 +149,7 @@
 - **Autor:** Molier (Jean-Baptiste Poquelin, 1622–1673), francuski dramaturg.
 - **Epoka:** barok (francuski klasycyzm XVII w.); zob. sekcja 0.
 - **Data powstania:** 1668 r.
-- **Rodzaj i gatunek:** komedia charakteru w pięciu aktach, wierszem (białym wierszem – aleksandrynem).
+- **Rodzaj i gatunek:** dramat; komedia charakterów w pięciu aktach, napisana prozą.
 - **Czas i miejsce akcji:** Paryż, XVII w., dom Harpagona.
 - **Geneza:** komedia oparta na tradycji komedii charakterów i wzorach z *Aulularii* Plauta.
 
@@ -158,11 +157,12 @@
 
 *Uwaga: przed użyciem sprawdź przebieg scen w wydaniu źródłowym; poniżej główna linia fabuły.*
 
-- **Początek:** Harpagon, bogaty i skąpy ojciec, ukrywa w ogrodzie kasetkę z pieniędzmi. Jego dzieci, Kleant i Elżbieta, mają swoje miłości, których on nie akceptuje.
-- **Kradzież:** służący La Flèche kradnie kasetkę. Harpagon wpada w rozpacz, podejrzewa wszystkich.
-- **Plany matrymonialne:** Harpagon chce poślubić Marianę, ukochaną syna. Kleant jest w długach i nie może liczyć na wsparcie ojca.
+- **Początek:** Harpagon, bogaty i skąpy ojciec, ukrywa w ogrodzie szkatułkę z pieniędzmi. Jego dzieci, Kleant i Elżbieta, mają swoje miłości, których on nie akceptuje.
+- **Lichwa:** Kleant potrzebuje pieniędzy i przez pośrednika szuka pożyczki na lichwiarski procent. Okazuje się, że lichwiarzem jest jego własny ojciec.
+- **Kradzież:** La Flèche, służący Kleanta, kradnie szkatułkę. Harpagon wpada w rozpacz (słynny monolog, w którym podejrzewa wszystkich, nawet samego siebie) i każe aresztować całe miasto.
+- **Plany matrymonialne:** Harpagon chce poślubić młodą Marianę, ukochaną syna, a córkę Elżbietę wydać za bogatego starca Anzelma, bo ten weźmie ją „bez posagu”.
 - **Intrygi:** Frozyna, swatka, pomaga w planach. Pojawiają się oszustwa i konflikty między domownikami.
-- **Rozwiązanie:** okazuje się, że Anzelm jest ojcem Walera i Mariany. Małżeństwa młodych zostają zawarte, a Harpagon odzyskuje kasetkę, ale traci pozycję w rodzinie.
+- **Rozwiązanie:** okazuje się, że Anzelm jest zaginionym ojcem Walera i Mariany. Harpagon zgadza się na śluby Kleanta z Marianą i Elżbiety z Walerem, gdy dostaje z powrotem szkatułkę, a Anzelm bierze na siebie wszystkie koszty. Harpagon zostaje sam ze swoimi pieniędzmi.
 
 **Znaczenie kluczowych wydarzeń:** skąpstwo Harpagona prowadzi do konfliktów z dziećmi i domownikami; komedia ośmiesza ten charakter.
 
@@ -171,10 +171,10 @@
 - **Harpagon** – bogaty skąpiec. Cechy: skąpstwo, podejrzliwość, egoizm. Decyzje: ukrywanie pieniędzy, plany małżeństwa z Marianą. Zmienia się: od podejrzliwości do upokorzenia. Wymowa: skąpstwo jako wada prowadząca do ośmieszenia.
 - **Kleant** – syn Harpagona. Cechy: lekkomyślność, miłość. Rola: kontrast dla ojca.
 - **Elżbieta** – córka Harpagona. Rola: miłość do Walera.
-- **Waler** – służący Harpagona, ukochany Elżbiety.
+- **Waler** – ukochany Elżbiety; by być blisko niej, służy u Harpagona jako zarządca domu i schlebia mu.
 - **Mariana** – ukochana Kleanta, obiekt planów Harpagona.
-- **La Flèche** – służący, który kradnie kasetkę.
-- **Frozyna** – swatka.
+- **La Flèche** – sprytny służący Kleanta, który kradnie szkatułkę.
+- **Frozyna** – swatka, która chce zarobić na pośredniczeniu w małżeństwie Harpagona z Marianą.
 
 ### D. Problematyka i interpretacja
 
@@ -187,13 +187,13 @@
 ### E. Motywy literackie
 
 1. **Pieniądz** – skąpstwo. *Wykorzystanie:* zestawienie z *Lalką* (kapitał i jego wartość).
-2. **Miłość** – młodych bohaterów. *Wykorzystanie:* zestawienie z *Makbetem* (władza a miłość) lub z *Odą do młodości*.
+2. **Miłość** – młodych bohaterów. *Wykorzystanie:* zestawienie z *Lalką* (miłość a pieniądz).
 3. **Konflikt pokoleń** – ojciec i dzieci. *Wykorzystanie:* zestawienie z *Antygoną* (konflikt władcy i potomstwa).
 4. **Ośmieszenie wady** – komizm charakteru. *Wykorzystanie:* porównanie z *Zemstą* Fredry (komedia obyczajowa).
 
 ### F. Symbole i ważne elementy
 
-- **Kasetka** – symbol pieniądza i jego władzy.
+- **Szkatułka** – symbol pieniądza i jego władzy nad człowiekiem.
 - **Ogród** – miejsce ukrycia skarbu.
 - **Maska komizmu** – symbol ośmieszenia wady.
 
@@ -228,12 +228,12 @@
 **Pytania sprawdzające:**
 1. Kto jest głównym bohaterem?
 2. Co ukrywa Harpagon w ogrodzie?
-3. Kto kradnie kasetkę?
+3. Kto kradnie szkatułkę?
 4. Kogo chce poślubić Harpagon?
 5. Jaki gatunek reprezentuje utwór?
 6. Kim jest Frozyna?
 7. Kto jest ukochaną Kleanta?
-8. Jak kończy się sprawa kasetki?
+8. Jak kończy się sprawa szkatułki?
 9. Kim jest Anzelm?
 10. Gdzie rozgrywa się akcja?
 
@@ -246,13 +246,13 @@
 
 **Klucz odpowiedzi:**
 1. Harpagon.
-2. Kasetkę z pieniędzmi.
+2. Szkatułkę z pieniędzmi.
 3. La Flèche.
 4. Marianę.
 5. Komedia.
 6. Swatka.
 7. Mariana.
-8. Harpagon odzyskuje kasetkę, ale traci pozycję.
+8. Harpagon odzyskuje szkatułkę i zostaje z nią sam.
 9. Ojciec Walera i Mariany.
 10. Paryż.
 11. Jest chciwy i podejrzliwy.
@@ -273,7 +273,7 @@ Barok (w Polsce ok. 1600–1740) to epoka przeciwieństw i kontrastów, ekspresj
 
 - **1655–1660** – potop szwedzki.
 - **1668** – premiera *Skąpca* Moliera.
-- **1683** – odsieczy wiedeńska, zwycięstwo nad Turkami.
+- **1683** – odsiecz wiedeńska, zwycięstwo nad Turkami.
 - **XVII w.** – wojny z Kozakami, Turcją i Rosją, kryzys Rzeczypospolitej.
 
 ### Filozofia i światopogląd epoki

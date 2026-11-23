@@ -55,7 +55,7 @@ Sofokles oparł fabułę na greckim micie o rodzie Labdakidów. Tytuł pochodzi 
 * **Rodzaj i gatunek literacki:** Epika; epos bohaterski (heroiczny)
 
 ### Plan wydarzeń / Streszczenie (kluczowe fragmenty maturalne)
-1. **Inwokacja (Księga I):** Poeta zwraca się do muzy Kaliope z prośbą o natchnienie, zapowiadając główny temat utworu – gniew Achillesa, który przyniósł Achajom niezliczone klęski.
+1. **Inwokacja (Księga I):** Poeta zwraca się do bogini (Muzy) z prośbą o natchnienie – „Gniew, bogini, opiewaj…”, zapowiadając główny temat utworu – gniew Achillesa, który przyniósł Achajom niezliczone klęski.
 2. **Pożegnanie Hektora z Andromachą (Księga VI):** Hektor spotyka się na murach Troi z żoną Andromachą i synkiem Astyanaksem. Żona błaga go, by nie wracał na pole bitwy, obawiając się o los swój i dziecka. Hektor odrzuca prośbę, stawiając honor i obronę ojczyzny ponad życie rodzinne.
 3. **Pojedynek Achillesa z Hektorem (Księga XXII):** Achilles, chcąc pomścić śmierć swojego przyjaciela Patroklosa, staje do walki z Hektorem. Hektor, opuszczony przez bogów, ginie z ręki Achillesa, który następnie bezcześci jego zwłoki, przywiązując je do rydwanu i włócząc wokół murów Troi.
 4. **Wykupienie zwłok Hektora przez Priama (Księga XXIV):** Stary król Troi, Priam, udaje się nocą do obozu Achajów. Pada na kolana przed zabójcą swojego syna i błaga o wydanie ciała Hektora. Achilles, poruszony widokiem cierpiącego ojca (który przypomina mu jego własnego ojca, Peleusa), zgadza się wydać ciało i ogłasza dwunastodniowy rozejm na czas pogrzebu.
@@ -76,7 +76,7 @@ Sofokles oparł fabułę na greckim micie o rodzie Labdakidów. Tytuł pochodzi 
 Homer ukazuje wojnę z dwóch perspektyw: jako arenę wielkich czynów heroicznych, ale także jako źródło niewyobrażalnego ludzkiego cierpienia. Epos porusza kwestię ingerencji bogów w losy śmiertelników oraz granic okrucieństwa i zemsty, które zostają przezwyciężone dopiero przez empatię i wspólnotę ludzkiego losu.
 
 ### Konteksty
-* **Literacki (cechy eposu homeryckiego):** Rozbudowane porównania homeryckie, stałe epitety (np. „prędkonogi Achilles”, „hektor hełmomigający”), retardacja (opóźnianie akcji), obecność bogów (świat przedstawiony dwupłaszczyznowy), obiektywny i wszechwiedzący narrator.
+* **Literacki (cechy eposu homeryckiego):** Rozbudowane porównania homeryckie, stałe epitety (np. „prędkonogi Achilles”, „Hektor w hełmie błyszczącym”), retardacja (opóźnianie akcji), obecność bogów (świat przedstawiony dwupłaszczyznowy), obiektywny i wszechwiedzący narrator.
 * **Mitologiczny:** Wojna trojańska wywołana porwaniem Heleny przez Parysa oraz sporem bogiń o jabłko niezgody.
 
 ### Geneza i znaczenie tytułu

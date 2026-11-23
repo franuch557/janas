@@ -18,23 +18,23 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Data powstania",
-          "tekst": "1832 r. (Paryż)."
+          "etykieta": "Data powstania i wydania",
+          "tekst": "1832 r. – napisana w Dreźnie, wydana w Paryżu."
         },
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "dramat romantyczny; część III to dramat o charakterze politycznym i prorockim."
+          "tekst": "dramat romantyczny (otwarty, fragmentaryczny, łączący sceny realistyczne i fantastyczne, z udziałem sił nadprzyrodzonych)."
         },
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Petersburg, więzienie carskie, lata 20. XIX w."
+          "tekst": "lata 1823–1824 (proces filomatów i filaretów); Wilno – klasztor bazylianów zamieniony na więzienie, dom Senatora; Warszawa (salon); dom pod Lwowem; w „Ustępie” – droga do Rosji i Petersburg."
         },
         {
           "typ": "punkt",
           "etykieta": "Geneza",
-          "tekst": "utwór powstał po upadku powstania listopadowego; krytyka caratu i wizja mesjanizmu."
+          "tekst": "utwór powstał w Dreźnie w 1832 r., po upadku powstania listopadowego. Inspiracją był proces filomatów i filaretów w Wilnie, prowadzony przez senatora Nikołaja Nowosilcowa; Mickiewicz był wśród oskarżonych. Dramat dedykował przyjaciołom, „spółuczniom, spółwięźniom, spółwygnańcom”."
         }
       ]
     },
@@ -42,32 +42,58 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
+          "typ": "punkt",
+          "etykieta": "Prolog",
+          "tekst": "więzień w celi klasztoru bazylianów przechodzi przemianę: zapisuje na ścianie „Gustaw zmarł, narodził się Konrad” – nieszczęśliwy kochanek staje się bojownikiem o wolność ojczyzny. Nad więźniem toczą walkę duchy dobre i złe."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena I (więzienna, Wigilia)",
+          "tekst": "więźniowie spotykają się w celi Konrada. Opowiadają o śledztwie i wywózkach (Sobolewski widział kibitki z młodzieżą wiezioną na Sybir, Janczewskiego i katowanego Wasilewskiego). Śpiewają; Konrad śpiewa pieśń zemsty."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena II – Wielka Improwizacja",
+          "tekst": "samotny Konrad czuje się poetą równym Bogu. Kocha naród i domaga się od Boga „rządu dusz”, by uczynić go szczęśliwym. Gdy Bóg milczy, oskarża Go, że jest okrutny i nie kocha świata. Przed ostatecznym bluźnierstwem (nazwaniem Boga carem) traci przytomność – słowa kończy za niego diabeł."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena III – egzorcyzmy",
+          "tekst": "ksiądz Piotr, pokorny bernardyn, wypędza z Konrada złego ducha."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena IV",
+          "tekst": "w domu pod Lwowem młoda Ewa modli się za więźniów; ma widzenie, w którym zostaje nagrodzona za pokorę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena V – Widzenie księdza Piotra",
+          "tekst": "pokorny ksiądz otrzymuje to, czego żądał pyszny Konrad: widzenie przyszłości Polski. Polska jest jak Chrystus – ukrzyżowana przez zaborców, zmartwychwstanie. Pojawia się zbawca narodu: „a imię jego czterdzieści i cztery”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sceny VI–VIII – Senator",
+          "tekst": "Senator Nowosilcow śpi i ma sen, w którym diabły go dręczą. W domu Senatora trwa bal, a w tym samym czasie prowadzi się śledztwo. Pani Rollisonowa, niewidoma matka uwięzionego syna, prosi Senatora o litość; syn zostaje wyrzucony przez okno więzienia. Doktor Pelikan, współpracownik Senatora, ginie rażony piorunem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena VII – Salon warszawski",
+          "tekst": "arystokracja mówi po francusku i obojętnie słucha o cierpieniach patriotów; młodzież przy drzwiach (Adolf, Wysocki) rozumie dramat narodu. Opowiadanie Adolfa o Cichowskim, który po latach więzienia wrócił zniszczony."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena IX – Noc Dziadów",
+          "tekst": "Guślarz i Kobieta na cmentarzu widzą przejeżdżającego Konrada wiezionego na zesłanie; ma na czole ranę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ustęp",
+          "tekst": "Mickiewicz opisuje drogę do Rosji, Petersburg, pomnik Piotra Wielkiego, przegląd wojska, a w wierszu „Do przyjaciół Moskali” zwraca się do rosyjskich przyjaciół."
+        },
+        {
           "typ": "akapit",
-          "tekst": "*Do sprawdzenia: zakres wymagany przez CKE (kilka tematów, zob. zestawienia). Poniżej główne sceny.*"
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Więzienie",
-          "tekst": "Konrad, bohater pozbawiony imienia (w tekście pojawia się jako Konrad), przebywa w więzieniu w Petersburgu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wielka Improwizacja",
-          "tekst": "Konrad, w sytuacji buntu i rozpaczy, wzywa Boga i wyraża swoje pragnienie zbawienia narodu. Mówi o cierpieniu Polski i o swojej roli jako wieszcza."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Rozmowa z carem i urzędnikami",
-          "tekst": "pokazuje bezduszność władzy i jej wykorzystywanie ludzi."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "Konrad, przekonany o swojej misji, zostaje w cierpieniu, a dramat kończy się obrazem zbawienia narodu."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "**Znaczenie:** Wielka Improwizacja to centralny fragment, w którym Konrad ujawnia wizję mesjanizmu i misji poety."
+          "tekst": "**Znaczenie kluczowych wydarzeń:** pycha Konrada (Wielka Improwizacja) zostaje przeciwstawiona pokorze księdza Piotra – to pokornemu Bóg objawia przyszłość narodu."
         }
       ]
     },
@@ -77,17 +103,37 @@
         {
           "typ": "punkt",
           "etykieta": "Konrad",
-          "tekst": "więzień, wieszcz. Cechy: bunt, pycha, wiara w misję. Decyzje: wyzwanie Boga, przyjęcie cierpienia. Zmienia się: od buntu do przyjęcia misji. Wymowa: poeta jako przywódca narodu."
+          "tekst": "poeta, więzień, dawny Gustaw. Kocha naród i cierpi za niego; pyszny buntownik, który rzuca wyzwanie Bogu. Typ bohatera romantycznego (prometeizm)."
         },
         {
           "typ": "punkt",
-          "etykieta": "Car",
-          "tekst": "symbol władzy zaborczej. Rola: przeciwnik Konrada."
+          "etykieta": "Ksiądz Piotr",
+          "tekst": "pokorny zakonnik bernardyn; egzorcysta Konrada; ma widzenie przyszłości Polski. Wzór pokory."
         },
         {
           "typ": "punkt",
-          "etykieta": "Urzędnicy",
-          "tekst": "symbol bezduszności systemu."
+          "etykieta": "Senator Nowosilcow",
+          "tekst": "carski urzędnik prowadzący śledztwo; okrutny, cyniczny, tchórzliwy. Symbol zła zaborczej władzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Więźniowie",
+          "tekst": "(Tomasz, Feliks Kołakowski, Jan Sobolewski, Frejend i inni) – młodzi patrioci, filomaci i filareci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pani Rollisonowa",
+          "tekst": "matka uwięzionego syna, symbol cierpienia rodzin."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ewa",
+          "tekst": "pobożna dziewczyna, modląca się za więźniów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Doktor Pelikan, Bajkow, Botwinko",
+          "tekst": "współpracownicy Senatora, kolaboranci."
         }
       ]
     },

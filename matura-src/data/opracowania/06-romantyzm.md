@@ -41,116 +41,114 @@
 
 - **Autor:** Adam Mickiewicz (1798–1855), najwybitniejszy poeta polskiego romantyzmu.
 - **Epoka:** romantyzm.
-- **Data powstania:** 1823–1832 (wydanie 1823, Wilno; ostateczna wersja w 1832 r.; pierwsze wydanie części II w 1823 r.).
-- **Rodzaj i gatunek:** dramat romantyczny (dramat wieszcza), cz. II – rytualna scena obrzędu dziadów z ks. Piotrem i Gustawem.
-- **Czas i miejsce akcji:** Litwa, noc z 31 października na 1 listopada (Zaduszki), kaplica filomatów, więzienie w Wilnie, lata 20. XIX w.
-- **Geneza:** prześladowania filomatów i filaretów przez władze carskie; cykl *Dziadów* jest wyrazem bólu, buntu i religijności.
+- **Data wydania:** 1823 r., Wilno – razem z częścią IV w tomie II „Poezji” (tzw. „Dziady wileńsko-kowieńskie”).
+- **Rodzaj i gatunek:** dramat romantyczny (dramat obrzędowy, z elementami liryki i ballady); fragmentaryczny, otwarty.
+- **Czas i miejsce akcji:** noc Dziadów (jesienne święto zmarłych), kaplica na cmentarzu na Litwie (Białorusi).
+- **Geneza:** obrzęd Dziadów obchodzony na Litwie i Białorusi – przywoływanie dusz zmarłych i ofiarowywanie im jadła i napoju. Mickiewicz poznał go z ludowych opowieści; w przedmowie pisze, że obrzęd przetrwał z czasów pogańskich.
 
 ### B. Szczegółowe streszczenie
 
-*Cz. II jest dramatem składającym się z kilku scen. Poniżej przebieg wydarzeń najczęściej omawianych w szkole.*
+- **Rozpoczęcie obrzędu:** Guślarz z Starcem i chórem wieśniaków zamyka kaplicę i wzywa duchy. Kolejne zjawy dostają to, czego potrzebują, by zaznać spokoju.
+- **Duchy lekkie – Józio i Rózia:** aniołki, dzieci, które za życia znały tylko radość. Nie mogą wejść do nieba, bo nie zaznały goryczy. Proszą o dwa ziarnka gorczycy. Morał: „Kto nie doznał goryczy ni razu, / Ten nie dozna słodyczy w niebie”.
+- **Duch ciężki – Widmo Złego Pana:** okrutny dziedzic, który głodził i krzywdził poddanych. Ptaki nocne (Kruk, Sowa) – dusze jego ofiar – nie pozwalają mu przyjąć jedzenia. Jest skazany na wieczną tułaczkę. Morał: „Bo kto nie był ni razu człowiekiem, / Temu człowiek nic nie pomoże”.
+- **Duch pośredni – Zosia, pasterka:** piękna dziewczyna, która za życia odrzucała miłość i żyła tylko dla siebie. Teraz unosi się w powietrzu i nie może dotknąć ziemi. Prosi, by przyciągnęli ją ku ziemi młodzi chłopcy. Morał: „Kto nie dotknął ziemi ni razu, / Ten nigdy nie może być w niebie”.
+- **Widmo milczące:** na koniec pojawia się zjawa, która nie odpowiada na zaklęcia i podchodzi do jednej z wieśniaczek (Pasterki). Widmo ma krwawą ranę na sercu. Obrzęd przerywa się bez wyjaśnienia – to zapowiedź Gustawa z IV części.
 
-- **Obrzęd dziadów:** w kaplicy na cmentarzu sprawuje obrzęd Ksiądz (ks. Piotr), wywołując duchy zmarłych. Przychodzi lud wiejski, który przynosi ofiary.
-- **Widzenie Gustawa:** młody Gustaw, skazany za miłość do Maryli, pojawia się w celi. Przeżywa cierpienie, ból, samotność; prosi o modlitwę.
-- **Ksiądz i Gustaw:** ksiądz rozmawia z Gustawem; ukazuje się mu wizja cierpienia Polski i konfliktu między ludźmi.
-- **Scena w więzieniu (Widzenie Gustawa):** Gustaw wspomina miłość do Maryli i zostaje poddany próbie, przeżywa wizję zbrodni i moralnych dylematów.
-- **Zakończenie:** duchy odchodzą, a obrzęd dobiega końca; Gustaw zostaje w cierpieniu.
-
-*Do sprawdzenia:* kolejność scen i przypisanie konkretnych wizji do Gustawa oraz ks. Piotra.
-
-**Znaczenie kluczowych wydarzeń:** obrzęd jest pretekstem do przedstawienia cierpienia zbiorowego (Polski) i indywidualnego (Gustawa).
+**Znaczenie kluczowych wydarzeń:** każde widmo ilustruje jedną zasadę ludowej moralności. Razem tworzą obraz porządku moralnego, w którym człowiek musi zaznać cierpienia, być człowiekiem dla innych i kochać.
 
 ### C. Bohaterowie
 
-- **Ksiądz (ks. Piotr)** – duchowny prowadzący obrzęd. Cechy: powaga, religijność, odpowiedzialność. Decyzje: sprawowanie obrzędu, wywoływanie duchów. Rola: pośrednik między światem żywych a zmarłych.
-- **Gustaw** – młody uwięziony bohater, alter ego Mickiewicza. Cechy: wrażliwość, cierpienie, bunt. Decyzje: wyznanie miłości, prośba o modlitwę. Zmienia się: od buntu do pokory. Wymowa: cierpienie jednostki jako symbol cierpienia narodu.
-- **Duchy** – zmarli, cierpiący za życia. Rola: przypomnienie o winie i cierpieniu.
-- **Lud wiejski** – uczestnicy obrzędu. Rola: wspólnota i wiara ludowa.
+- **Guślarz** – prowadzi obrzęd, zna zaklęcia, pośredniczy między żywymi i zmarłymi.
+- **Starzec i chór wieśniaków** – wspólnota ludowa uczestnicząca w obrzędzie; mówią głosem ludowej mądrości.
+- **Józio i Rózia** – dzieci, duchy lekkie: winne tylko tego, że nie zaznały cierpienia.
+- **Widmo Złego Pana** – duch ciężki, okrutny dziedzic; ukarany za brak człowieczeństwa.
+- **Zosia** – duch pośredni, pasterka, która nie kochała nikogo.
+- **Widmo milczące** – zagadkowa zjawa, zapowiedź nieszczęśliwego kochanka Gustawa.
 
 ### D. Problematyka i interpretacja
 
-- **Główny problem:** cierpienie jednostki i narodu, sprzeciw wobec niesprawiedliwości, wiara i nadzieja.
-- **Konflikty:** jednostka wobec władzy zaborczej, człowiek wobec losu, wiara wobec rozpaczy.
-- **Wartości:** patriotyzm, wiara, miłość, solidarność.
-- **Przesłanie:** cierpienie ma sens, gdy łączy się z wiarą i nadzieją na wyzwolenie.
-- **Wymowa zakończenia:** pozostawienie bohatera w cierpieniu jako symbol narodu.
+- **Główny problem:** ludowa moralność i sprawiedliwość po śmierci; związek świata żywych i umarłych.
+- **Konflikty:** wina a kara; egoizm a człowieczeństwo.
+- **Wartości:** współczucie, człowieczeństwo, miłość, pełnia ludzkiego doświadczenia (także cierpienia).
+- **Przesłanie:** po śmierci obowiązuje sprawiedliwość ludowa – kara za zło wyrządzone ludziom i nagroda za pełne, ludzkie życie.
+- **Wymowa zakończenia:** pojawienie się milczącego widma otwiera dramat na dalsze części i zostawia tajemnicę.
 
 ### E. Motywy literackie
 
-1. **Cierpienie** – Gustaw. *Wykorzystanie:* zestawienie z *Księgą Hioba* (cierpienie i sens).
-2. **Bunt** – wobec niesprawiedliwości. *Wykorzystanie:* zestawienie z *Antygoną* (sprzeciw wobec władzy).
-3. **Ojczyzna** – cierpienie narodu. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim* (cierpienie zbiorowe).
-4. **Miłość** – do Maryli. *Wykorzystanie:* zestawienie z *Makbetem* (miłość a zbrodnia).
+1. **Zaświaty i duchy** – obrzęd Dziadów. *Wykorzystanie:* zestawienie z *Romantycznością* (świat niewidzialny) i *Mitologią* (świat zmarłych).
+2. **Wina i kara** – Widmo Złego Pana. *Wykorzystanie:* zestawienie z *Makbetem* i *Zbrodnią i karą*.
+3. **Cierpienie** – gorczyca dla aniołków. *Wykorzystanie:* zestawienie z *Księgą Hioba*.
+4. **Ludowość** – wiara i mądrość ludu. *Wykorzystanie:* zestawienie z balladami Mickiewicza i *Weselem* Wyspiańskiego.
 
 ### F. Symbole i ważne elementy
 
-- **Kaplica i cmentarz** – miejsce łączące świat żywych i zmarłych.
-- **Duchy** – symbol winy i cierpienia.
-- **Cela** – symbol niewoli.
+- **Ziarnka gorczycy** – symbol goryczy, którą trzeba poznać.
+- **Kruk i Sowa** – dusze krzywdzonych chłopów.
+- **Kaplica zamknięta w nocy** – miejsce spotkania dwóch światów.
 
 ### G. Konteksty
 
-- **Historyczny:** zabory, prześladowania patriotów (procesy filomatów w 1823 r.).
-- **Religijny:** tradycja ludowa, obrzęd Zaduszek, katolicyzm.
-- **Filozoficzny:** mesjanizm romantyczny.
+- **Kulturowy:** pogański obrzęd Dziadów, kult przodków; Mickiewicz wydał go jako „widowisko” ludowe.
+- **Literacki:** romantyczna fascynacja ludowością (ballady), dramat otwarty, mieszanie rodzajów.
+- **Społeczny:** krzywda chłopów pańszczyźnianych (Widmo Złego Pana).
 
 ### H. Wykorzystanie lektury na maturze
 
 **Tematy:**
-- Czy cierpienie jednostki ma sens w służbie narodowi?
-- Bunt wobec niesprawiedliwości.
+- Ludowa sprawiedliwość w literaturze romantyzmu.
+- Świat zmarłych i jego związek ze światem żywych.
 
 **Argumenty:**
-- Gustaw pokazuje, że cierpienie jednostki staje się symbolem cierpienia narodu.
+- Widmo Złego Pana pokazuje, że kto nie był człowiekiem dla innych, nie dostanie pomocy po śmierci.
+- Aniołki pokazują, że cierpienie jest częścią pełni życia.
 
 **Zestawienia:**
-- *Dziady* cz. II – *Lament świętokrzyski* (cierpienie zbiorowe).
-- *Dziady* cz. II – *Antygona* (sprzeciw wobec władzy).
+- *Dziady* cz. II – *Romantyczność* (świat niewidzialny i wiara ludu).
+- *Dziady* cz. II – *Dziady* cz. III (scena „Noc Dziadów”).
 
 ### I. Najważniejsze informacje do zapamiętania
 
-- Dramat romantyczny, 1823–1832.
-- Bohaterowie: ksiądz, Gustaw, duchy, lud.
-- Motywy: cierpienie, bunt, ojczyzna, wiara.
-- Przesłanie: cierpienie w wierze ma sens.
+- 1823 r., Wilno; dramat obrzędowy.
+- Postacie: Guślarz, Starzec, chór; duchy lekkie (Józio i Rózia), ciężki (Zły Pan), pośredni (Zosia), widmo milczące.
+- Trzy morały o goryczy, człowieczeństwie i miłości.
 
 ### J. Sprawdź swoją wiedzę
 
 **Pytania sprawdzające:**
-1. Jaki obrzęd jest przedstawiony?
-2. Kim jest Gustaw?
-3. Kto prowadzi obrzęd?
-4. Kiedy rozgrywa się akcja?
-5. Gdzie rozgrywa się akcja?
-6. Jaki motyw dominuje?
-7. Kim są duchy?
-8. Jaką rolę pełni lud?
-9. Kto jest adresatem miłości Gustawa?
-10. Jak nazywa się gatunek?
+1. Kto prowadzi obrzęd Dziadów?
+2. Gdzie odbywa się obrzęd?
+3. Czego potrzebują Józio i Rózia?
+4. Dlaczego Zły Pan nie może przyjąć jedzenia?
+5. Kim są Kruk i Sowa?
+6. Jaką winę ma Zosia?
+7. Czego potrzebuje Zosia?
+8. Kto pojawia się na końcu?
+9. Kiedy wydano utwór?
+10. Do jakiej grupy duchów należy Zły Pan?
 
 **Pytania interpretacyjne:**
-1. Dlaczego Gustaw jest symbolem narodu?
-2. Jak obrzęd łączy świat żywych i zmarłych?
-3. Czy bunt Gustawa jest uzasadniony? Uzasadnij.
-4. Jaką funkcję pełni wiara w utworze?
-5. Dlaczego Mickiewicz wybiera dramat do przedstawienia cierpienia?
+1. Jakie zasady moralne przedstawia obrzęd?
+2. Dlaczego cierpienie jest potrzebne do zbawienia?
+3. Co mówi utwór o krzywdzie chłopów?
+4. Jaką funkcję pełni widmo milczące?
+5. Jak *Dziady* cz. II wyrażają program romantyzmu?
 
 **Klucz odpowiedzi:**
-1. Obrzęd dziadów.
-2. Młody uwięziony bohater.
-3. Ksiądz.
-4. Noc z 31 października na 1 listopada.
-5. Litwa, kaplica i cela.
-6. Cierpienie.
-7. Zmarli.
-8. Uczestniczy i łączy się z obrzędem.
-9. Maryla.
-10. Dramat romantyczny.
-11. Jego cierpienie odzwierciedla los narodu.
-12. Łączy świat żywych i zmarłych.
-13. Uzasadniony, bo niesprawiedliwość wywołuje bunt.
-14. Daje nadzieję i sens cierpienia.
-15. Dramat pozwala pokazać cierpienie w sposób obrazowy i zbiorowy.
+1. Guślarz.
+2. W kaplicy na cmentarzu.
+3. Dwóch ziarnek gorczycy.
+4. Ptaki – dusze jego ofiar – wyrywają mu je.
+5. Dusze chłopów, których skrzywdził.
+6. Nie kochała nikogo, żyła tylko dla siebie.
+7. Aby młodzi przyciągnęli ją ku ziemi.
+8. Widmo milczące z raną na sercu.
+9. W 1823 r.
+10. Do duchów ciężkich.
+11. Trzeba poznać cierpienie, być człowiekiem dla innych i kochać.
+12. Bo bez goryczy nie można docenić szczęścia.
+13. Pan, który krzywdzi poddanych, ponosi wieczną karę.
+14. Zapowiada Gustawa i łączy części dramatu.
+15. Ludowość, fantastyka, wiara w świat niewidzialny i ludową moralność.
 
 ---
 
@@ -160,27 +158,35 @@
 
 - **Autor:** Adam Mickiewicz.
 - **Epoka:** romantyzm.
-- **Data powstania:** 1832 r. (Paryż).
-- **Rodzaj i gatunek:** dramat romantyczny; część III to dramat o charakterze politycznym i prorockim.
-- **Czas i miejsce akcji:** Petersburg, więzienie carskie, lata 20. XIX w.
-- **Geneza:** utwór powstał po upadku powstania listopadowego; krytyka caratu i wizja mesjanizmu.
+- **Data powstania i wydania:** 1832 r. – napisana w Dreźnie, wydana w Paryżu.
+- **Rodzaj i gatunek:** dramat romantyczny (otwarty, fragmentaryczny, łączący sceny realistyczne i fantastyczne, z udziałem sił nadprzyrodzonych).
+- **Czas i miejsce akcji:** lata 1823–1824 (proces filomatów i filaretów); Wilno – klasztor bazylianów zamieniony na więzienie, dom Senatora; Warszawa (salon); dom pod Lwowem; w „Ustępie” – droga do Rosji i Petersburg.
+- **Geneza:** utwór powstał w Dreźnie w 1832 r., po upadku powstania listopadowego. Inspiracją był proces filomatów i filaretów w Wilnie, prowadzony przez senatora Nikołaja Nowosilcowa; Mickiewicz był wśród oskarżonych. Dramat dedykował przyjaciołom, „spółuczniom, spółwięźniom, spółwygnańcom”.
 
 ### B. Szczegółowe streszczenie
 
-*Do sprawdzenia: zakres wymagany przez CKE (kilka tematów, zob. zestawienia). Poniżej główne sceny.*
+- **Prolog:** więzień w celi klasztoru bazylianów przechodzi przemianę: zapisuje na ścianie „Gustaw zmarł, narodził się Konrad” – nieszczęśliwy kochanek staje się bojownikiem o wolność ojczyzny. Nad więźniem toczą walkę duchy dobre i złe.
+- **Scena I (więzienna, Wigilia):** więźniowie spotykają się w celi Konrada. Opowiadają o śledztwie i wywózkach (Sobolewski widział kibitki z młodzieżą wiezioną na Sybir, Janczewskiego i katowanego Wasilewskiego). Śpiewają; Konrad śpiewa pieśń zemsty.
+- **Scena II – Wielka Improwizacja:** samotny Konrad czuje się poetą równym Bogu. Kocha naród i domaga się od Boga „rządu dusz”, by uczynić go szczęśliwym. Gdy Bóg milczy, oskarża Go, że jest okrutny i nie kocha świata. Przed ostatecznym bluźnierstwem (nazwaniem Boga carem) traci przytomność – słowa kończy za niego diabeł.
+- **Scena III – egzorcyzmy:** ksiądz Piotr, pokorny bernardyn, wypędza z Konrada złego ducha.
+- **Scena IV:** w domu pod Lwowem młoda Ewa modli się za więźniów; ma widzenie, w którym zostaje nagrodzona za pokorę.
+- **Scena V – Widzenie księdza Piotra:** pokorny ksiądz otrzymuje to, czego żądał pyszny Konrad: widzenie przyszłości Polski. Polska jest jak Chrystus – ukrzyżowana przez zaborców, zmartwychwstanie. Pojawia się zbawca narodu: „a imię jego czterdzieści i cztery”.
+- **Sceny VI–VIII – Senator:** Senator Nowosilcow śpi i ma sen, w którym diabły go dręczą. W domu Senatora trwa bal, a w tym samym czasie prowadzi się śledztwo. Pani Rollisonowa, niewidoma matka uwięzionego syna, prosi Senatora o litość; syn zostaje wyrzucony przez okno więzienia. Doktor Pelikan, współpracownik Senatora, ginie rażony piorunem.
+- **Scena VII – Salon warszawski:** arystokracja mówi po francusku i obojętnie słucha o cierpieniach patriotów; młodzież przy drzwiach (Adolf, Wysocki) rozumie dramat narodu. Opowiadanie Adolfa o Cichowskim, który po latach więzienia wrócił zniszczony.
+- **Scena IX – Noc Dziadów:** Guślarz i Kobieta na cmentarzu widzą przejeżdżającego Konrada wiezionego na zesłanie; ma na czole ranę.
+- **Ustęp:** Mickiewicz opisuje drogę do Rosji, Petersburg, pomnik Piotra Wielkiego, przegląd wojska, a w wierszu „Do przyjaciół Moskali” zwraca się do rosyjskich przyjaciół.
 
-- **Więzienie:** Konrad, bohater pozbawiony imienia (w tekście pojawia się jako Konrad), przebywa w więzieniu w Petersburgu.
-- **Wielka Improwizacja:** Konrad, w sytuacji buntu i rozpaczy, wzywa Boga i wyraża swoje pragnienie zbawienia narodu. Mówi o cierpieniu Polski i o swojej roli jako wieszcza.
-- **Rozmowa z carem i urzędnikami:** pokazuje bezduszność władzy i jej wykorzystywanie ludzi.
-- **Zakończenie:** Konrad, przekonany o swojej misji, zostaje w cierpieniu, a dramat kończy się obrazem zbawienia narodu.
-
-**Znaczenie:** Wielka Improwizacja to centralny fragment, w którym Konrad ujawnia wizję mesjanizmu i misji poety.
+**Znaczenie kluczowych wydarzeń:** pycha Konrada (Wielka Improwizacja) zostaje przeciwstawiona pokorze księdza Piotra – to pokornemu Bóg objawia przyszłość narodu.
 
 ### C. Bohaterowie
 
-- **Konrad** – więzień, wieszcz. Cechy: bunt, pycha, wiara w misję. Decyzje: wyzwanie Boga, przyjęcie cierpienia. Zmienia się: od buntu do przyjęcia misji. Wymowa: poeta jako przywódca narodu.
-- **Car** – symbol władzy zaborczej. Rola: przeciwnik Konrada.
-- **Urzędnicy** – symbol bezduszności systemu.
+- **Konrad** – poeta, więzień, dawny Gustaw. Kocha naród i cierpi za niego; pyszny buntownik, który rzuca wyzwanie Bogu. Typ bohatera romantycznego (prometeizm).
+- **Ksiądz Piotr** – pokorny zakonnik bernardyn; egzorcysta Konrada; ma widzenie przyszłości Polski. Wzór pokory.
+- **Senator Nowosilcow** – carski urzędnik prowadzący śledztwo; okrutny, cyniczny, tchórzliwy. Symbol zła zaborczej władzy.
+- **Więźniowie** (Tomasz, Feliks Kołakowski, Jan Sobolewski, Frejend i inni) – młodzi patrioci, filomaci i filareci.
+- **Pani Rollisonowa** – matka uwięzionego syna, symbol cierpienia rodzin.
+- **Ewa** – pobożna dziewczyna, modląca się za więźniów.
+- **Doktor Pelikan, Bajkow, Botwinko** – współpracownicy Senatora, kolaboranci.
 
 ### D. Problematyka i interpretacja
 
@@ -276,29 +282,34 @@
 - **Epoka:** romantyzm.
 - **Data publikacji:** 1834 r. (Paryż).
 - **Rodzaj i gatunek:** epopeja narodowa, poemat w 12 księgach, napisany w polskim wierszu (trzynastozgłoskowiec, czyli wiersz z cezurą).
-- **Czas i miejsce akcji:** 1811–1812, Litwa (dwór Soplicowo), Nowogródczyzna; zarys wydarzeń kończy się przed wojną z Rosją.
+- **Czas i miejsce akcji:** pięć dni w 1811 r. i epilog wiosną 1812 r. (przemarsz wojsk Napoleona na Moskwę); Litwa, okolice Nowogródka – Soplicowo, zamek Horeszków, Dobrzyn.
+- **Pełny tytuł:** *Pan Tadeusz, czyli ostatni zajazd na Litwie. Historia szlachecka z roku 1811 i 1812 we dwunastu księgach wierszem*.
 - **Geneza:** Mickiewicz tworzy epopeję z tęsknoty za ojczyzną, z perspektywy emigracji.
 
 ### B. Szczegółowe streszczenie
 
 *Uwaga: poemat jest długi (12 ksiąg); poniżej główne wątki. Szczegółowy przebieg księga po księdze sprawdź w wydaniu.*
 
-- **Wprowadzenie:** poeta zwraca się do Litwy, przywołując obraz ojczyzny.
-- **Konflikt rodów:** dwa rody, Sopliców i Horeszków, mają spór o zamek i majątek. Zemsta Gerwazego wobec Jacka Soplicy (ks. Robaka), który w przeszłości zabił Horeszkę, przeplata się z losami rodów.
-- **Miłość Tadeusza i Zosi:** młodzi bohaterowie, Tadeusz Soplica i Zosia, łączą się uczuciem, ale konflikt rodzinny utrudnia ich związek.
-- **Polowanie:** scena polowania na niedźwiedzia ukazuje obyczaje szlacheckie.
-- **Powrót Jacka Soplicy:** ojciec Tadeusza zostaje ujawniony jako Jacek Soplica, który w przeszłości zabił Horeszkę, co ujawnia tajemnice rodu.
-- **Zakończenie:** wojna z Rosją (1812) wybucha, a bohaterowie włączają się w walkę o ojczyznę.
+- **Inwokacja i przyjazd Tadeusza (ks. I–II):** poeta zwraca się do Litwy („Litwo! Ojczyzno moja!”). Młody Tadeusz wraca ze szkół do Soplicowa, dworu swojego stryja Sędziego. Poznaje Telimenę i jej wychowanicę Zosię. Sędzia prowadzi z Hrabią, krewnym Horeszków, proces o stary zamek.
+- **Dawna zbrodnia:** klucznik Horeszków Gerwazy opowiada Hrabiemu, że przed laty Jacek Soplica zastrzelił Stolnika Horeszkę w chwili, gdy zamek bronił się przed Moskalami – bo Stolnik odmówił mu ręki córki Ewy. Gerwazy przysiągł zemstę Soplicom.
+- **Polowanie i uczta (ks. IV–V):** podczas polowania na niedźwiedzia ksiądz Robak ratuje Tadeusza i Hrabiego, zabijając zwierzę strzałem. Wojski gra na rogu. Na uczcie w zamku dochodzi do kłótni Sędziego z Hrabią.
+- **Zajazd (ks. VI–VIII):** Gerwazy z szlachtą z Dobrzyna, poduszczoną przez Hrabiego, najeżdża Soplicowo. Wkraczają wojska rosyjskie (Moskale) i aresztują szlachtę.
+- **Bitwa z Moskalami (ks. IX):** szlachta jednoczy się z Soplicami przeciw Rosjanom pod dowództwem księdza Robaka; zwyciężają, ale Robak zostaje ciężko ranny, a Tadeusz i Hrabia muszą uciekać do Księstwa Warszawskiego.
+- **Spowiedź Jacka (ks. X):** umierający ksiądz Robak wyznaje Gerwazemu, że jest Jackiem Soplicą, ojcem Tadeusza. Po zabójstwie Stolnika pokutował, był żołnierzem i emisariuszem przygotowującym powstanie na Litwie. Gerwazy mu przebacza.
+- **Epilog (ks. XI–XII):** wiosną 1812 r. do Soplicowa przybywają wojska polskie (gen. Dąbrowski, Kniaziewicz). Tadeusz zaręcza się z Zosią (wnuczką Stolnika) – rody się godzą. Tadeusz zapowiada uwolnienie chłopów. Jankiel gra na cymbałach koncert o dziejach Polski, a ucztę kończy polonez.
 
 **Znaczenie kluczowych wydarzeń:** konflikt rodów i miłość młodych są osią; polowanie i uczta to obrazy obyczajów szlacheckich; wojna jest finałem jednoczącym naród.
 
 ### C. Bohaterowie
 
 - **Tadeusz Soplica** – młody szlachcic. Cechy: młodzieńczość, ideał patrioty, porywczość. Decyzje: włączenie się w wojnę. Zmienia się: od młodego chłopca do żołnierza. Wymowa: młodość w służbie ojczyźnie.
-- **Zosia** – ukochana Tadeusza. Cechy: delikatność, miłość. Rola: symbol niewinności i miłości.
-- **Jacek Soplica (ksiądz Robak)** – ojciec Tadeusza. Cechy: skrucha, pokuta. Rola: postać z tajemnicą; jego pokuta ukazuje drogę do odkupienia.
-- **Gerwazy** – dworzanin, zaufany Sopliców. Cechy: przywiązanie do tradycji, zemsta. Rola: symbol obyczajów szlacheckich.
-- **Hrabia** – szlachcic, który wprowadza atmosferę dworu. Rola: symbol szlacheckiej gościnności.
+- **Zosia** – wnuczka Stolnika Horeszki, wychowanica Telimeny; jej zaręczyny z Tadeuszem godzą zwaśnione rody.
+- **Jacek Soplica (ksiądz Robak)** – ojciec Tadeusza, dawny warchoł i zabójca Stolnika; jako bernardyn i emisariusz odpokutowuje winę służbą ojczyźnie.
+- **Gerwazy Rębajło** – klucznik Horeszków, wierny dawnemu panu; żyje pamięcią o krzywdzie i zemstą na Soplicach, w końcu przebacza Jackowi.
+- **Hrabia** – daleki krewny Horeszków, romantyczny marzyciel zapatrzony w zagraniczne mody; spór z Sędzią o zamek.
+- **Sędzia Soplica** – stryj Tadeusza, gospodarz Soplicowa, strażnik tradycji i obyczaju szlacheckiego.
+- **Telimena** – kokietka, krewna Sopliców, opiekunka Zosi.
+- **Jankiel** – Żyd, karczmarz i patriota, mistrz gry na cymbałach.
 
 ### D. Problematyka i interpretacja
 
@@ -401,8 +412,8 @@
 
 ### B. Szczegółowe streszczenie
 
-- ***Oda do młodości:*** poeta wzywa młodzież do odwagi, idealizmu i poświęcenia dla ojczyzny. Młodość jest źródłem wiary w wielkie idee.
-- ***Romantyczność:*** podmiot opowiada o tym, jak wierzy w widzenie zjawy ukochanej, mimo rozumowego sceptycyzmu. Wiara w uczucie ponad rozum jest manifestem romantyzmu.
+- ***Oda do młodości:*** poeta przeciwstawia skostniały świat starych („Bez serc, bez ducha, to szkieletów ludy”) młodzieży, która wspólnie, ramię przy ramieniu, może „z posad bryłę świata” ruszyć. Wzywa do wspólnego czynu, poświęcenia i braterstwa; kończy się powitaniem „jutrzenki swobody”. Forma klasycystyczna (oda), treść już romantyczna.
+- ***Romantyczność:*** w miasteczku dziewczyna Karusia (Karusieńka) w biały dzień rozmawia ze zmarłym ukochanym Jasieńkiem, którego nikt poza nią nie widzi. Zebrany lud wierzy jej i modli się. Starzec ze „szkiełkiem i okiem” (uczony, rozum) wyśmiewa to jako zabobon. Narrator staje po stronie ludu: „Czucie i wiara silniej mówi do mnie / Niż mędrca szkiełko i oko”; wzywa: „Miej serce i patrzaj w serce!”. To manifest romantyzmu i polemika z racjonalistą Janem Śniadeckim.
 - ***Ballady* (wybrane):** utwory oparte na ludowych wierzeniach, z elementami nadprzyrodzonymi, dramatycznymi zdarzeniami i moralnymi wnioskami.
 - ***Sonety krymskie:*** podróż po Krymie opisuje piękno natury, zachwyt nad morzem, tęsknotę za ojczyzną.
 
@@ -412,7 +423,7 @@
 
 - **Podmiot liryczny** – młody poeta w *Odzie*, zakochany w *Romantyczności*, podróżnik w *Sonetach*. Rola: wyraża przeżycia romantyczne.
 - **Młodzież** (w *Odzie*) – adresat idealistycznego wezwania.
-- **Zjawa ukochanej** (w *Romantyczności*) – symbol wiary w uczucie.
+- **Karusia i zmarły Jasieńko** (w *Romantyczności*) – dziewczyna, która widzi ducha ukochanego; **Starzec** – racjonalista ze „szkiełkiem i okiem”.
 
 ### D. Problematyka i interpretacja
 
@@ -424,7 +435,7 @@
 
 ### E. Motywy literackie
 
-1. **Młodość** – idealizm. *Wykorzystanie:* zestawienie z *Odą* Krasickiego (rozum) i *Kohelet* (przemijanie).
+1. **Młodość** – idealizm. *Wykorzystanie:* zestawienie z *Dziadami* cz. III (młodzi więźniowie) i wierszami Baczyńskiego (pokolenie Kolumbów).
 2. **Wiara** – w uczucie. *Wykorzystanie:* zestawienie z *Bogurodzicą* (wiara w siłę modlitwy).
 3. **Natura** – zachwyt. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (natura Litwy).
 4. **Przemijanie** – *Kohelet* jako kontrast.
@@ -505,20 +516,20 @@
 
 - **Autor:** Juliusz Słowacki (1809–1849), poeta romantyczny.
 - **Epoka:** romantyzm.
-- **Data powstania:** 1834 r. (Paryż), publikacja 1839 r.
+- **Data powstania:** 1834 r. (w Szwajcarii, w Genewie), wydanie 1839 r. w Paryżu.
 - **Rodzaj i gatunek:** dramat romantyczny (tragedia, z elementami baśni i ballady).
-- **Czas i miejsce akcji:** legendarne czasy pradawne, Grecja/Słowiańszczyzna, las i zamek; akcja nie ma dokładnej dat.
+- **Czas i miejsce akcji:** legendarne, przedchrześcijańskie czasy Polski (za panowania Popiela), okolice jeziora Gopło: chata wdowy, las, zamek Kirkora, Gniezno.
 - **Geneza:** inspirowany ludowymi baśniami i legendami, wzorowany na *Makbecie* Szekspira (motyw zbrodni i ambicji).
 
 ### B. Szczegółowe streszczenie
 
 *Do sprawdzenia: szczegóły przebiegu wymagane przez CKE. Poniżej ogólny schemat.*
 
-- **Początek:** siostry Balladyna i Alina pochodzą z biednej rodziny. Balladyna, ambitna i zazdrosna, pragnie władzy i bogactwa.
-- **Zbrodnia:** Balladyna zabija Alinę, aby przejąć jej pozycję i ukochanego.
-- **Dalsze zbrodnie:** kolejne morderstwa, w tym zabójstwo kolejnych osób związanych z jej karierą, prowadzą do przejęcia władzy.
-- **Królowa:** Balladyna zostaje królową, ale jej poczucie winy i strach narastają.
-- **Zakończenie:** Balladyna zostaje ukarana: ginie od pioruna (w wersji tradycyjnej interpretacji – jako kara losu).
+- **Ekspozycja:** nad Gopłem nimfa Goplana zakochuje się w prostym chłopie Grabcu i wraz z duchami Skierką i Chochlikiem miesza w losach ludzi. Rycerz Kirkor za radą Pustelnika (wygnanego króla Popiela III) szuka żony wśród ubogich i przychodzi do chaty wdowy, która ma dwie córki: Balladynę i Alinę.
+- **Konkurs na maliny i zbrodnia:** matka nie może wybrać, która córka ma poślubić Kirkora, więc ogłasza, że zostanie nią ta, która przyniesie więcej malin. Gdy Alina ma pełny dzbanek, Balladyna zabija ją nożem w lesie. Na czole Balladyny pojawia się krwawa plama.
+- **Żona Kirkora:** Balladyna poślubia Kirkora, wypędza z zamku matkę. Zabija Pustelnika, który zna jej tajemnicę, oraz Grabca, by zdobyć koronę, którą miał na głowie. Z pomocą Kostryna zdobywa władzę, a potem otruwa i jego.
+- **Królowa:** Kirkor ginie w bitwie. Balladyna zostaje królową w Gnieźnie. Pierwszego dnia rządów sądzi trzy sprawy – zabójstwo Aliny, Pustelnika i porzucenie matki – i za każdą z nich wydaje wyrok śmierci, czyli sądzi samą siebie.
+- **Zakończenie:** gdy wydaje trzeci wyrok, trafia ją piorun.
 
 **Znaczenie:** zbrodnia rodzi kolejne zbrodnie; ambicja prowadzi do zguby; kara nadchodzi z góry.
 
@@ -526,8 +537,11 @@
 
 - **Balladyna** – siostra Aliny. Cechy: ambicja, zazdrość, okrucieństwo. Decyzje: zabójstwa. Zmienia się: od biednej dziewczyny do królowej. Wymowa: ambicja niszczy.
 - **Alina** – siostra Balladyny. Cechy: dobroć, niewinność. Rola: ofiara zbrodni.
-- **Kirkor** – rycerz, obiekt uczuć. Rola: symbol władzy i miłości.
-- **Pustelnik** – postać duchowa, komentator losu. Rola: symbol kary i moralnego porządku.
+- **Kirkor** – szlachetny rycerz, idealista szukający żony wśród prostych ludzi; walczy z uzurpatorem Popielem IV.
+- **Matka-wdowa** – kocha córki, wypędzona przez Balladynę z zamku.
+- **Goplana, Skierka i Chochlik** – istoty fantastyczne, które kierują przypadkiem i komplikują losy ludzi.
+- **Grabiec** – chłop, kochanek Goplany, zamieniony w króla kier.
+- **Pustelnik** – wygnany król Popiel III; doradza Kirkorowi, zna prawdę o zbrodni Balladyny, zostaje przez nią zabity.
 
 ### D. Problematyka i interpretacja
 
@@ -620,116 +634,118 @@
 
 ### A. Informacje podstawowe
 
-- **Autor:** Aleksander Fredro (1793–1876), polski komediopisarz.
-- **Epoka:** romantyzm (kontekst: komedia obyczajowa; zob. uwagi w sekcji 0).
-- **Data powstania:** napisana w 1833–1834 r.; prapremiera w 1838 r. (sprawdź miejsce i datę w źródle).
-- **Rodzaj i gatunek:** komedia (w pięciu aktach, wierszem).
-- **Czas i miejsce akcji:** XIX w., dwór szlachecki (dwór Cetnera i Milczka), Polska.
-- **Geneza:** komedia obyczajowa, wzorowana na tradycji komedii charakterów; ukazuje spór dwóch rodów.
+- **Autor:** Aleksander Fredro (1793–1876), największy polski komediopisarz.
+- **Epoka:** romantyzm (chronologicznie); sam utwór to komedia obyczajowa i charakterów, daleka od romantycznej poetyki.
+- **Data powstania:** 1833 r.; prapremiera 1834 r. we Lwowie; druk 1838 r.
+- **Rodzaj i gatunek:** dramat; komedia charakterów i intrygi w czterech aktach, wierszem (ośmiozgłoskowiec).
+- **Czas i miejsce akcji:** przełom XVIII i XIX w.; zamek w Odrzykoniu podzielony murem na dwie części – Cześnika i Rejenta.
+- **Geneza:** Fredro oparł fabułę na dokumentach o prawdziwym sporze o zamek Kamieniec w Odrzykoniu, które znalazł w posagu żony.
 
 ### B. Szczegółowe streszczenie
 
-*Do sprawdzenia: szczegóły scen. Poniżej ogólny przebieg.*
+- **Spór o mur:** Cześnik Maciej Raptusiewicz i Rejent Milczek mieszkają w jednym zamku i od lat są skłóceni. Kością niezgody jest mur graniczny, który Rejent chce naprawić, a Cześnik – zburzyć.
+- **Swaty:** stary Cześnik chce się ożenić z bogatą wdową, Podstoliną Hanną, i wysyła z oświadczynami tchórzliwego Papkina. Jego bratanica (synowica) Klara potajemnie kocha Wacława, syna Rejenta.
+- **Papkin u Rejenta:** Cześnik wysyła Papkina, by przegonił murarzy Rejenta, a potem z wyzwaniem na pojedynek. Wacław potajemnie spotyka się z Klarą w zamku Cześnika.
+- **Intrygi:** Rejent chce ożenić syna z bogatą Podstoliną, która okazuje się dawną znajomą Wacława, i Podstolina zrywa z Cześnikiem. Wściekły Cześnik szuka zemsty. Gdy Wacław wpada w jego ręce, Cześnik – by pokrzyżować plany Rejenta – każe mu natychmiast poślubić Klarę. Ślub odbywa się w zamku Cześnika.
+- **Papkin i „trucizna”:** Papkin, przekonany, że wypił zatrute wino, dyktuje komiczny testament.
+- **Rozwiązanie:** Rejent przybywa, gdy jest już po ślubie. Obaj sąsiedzi się godzą. Komedia kończy się słowami: „Zgoda! zgoda! – A Bóg wtedy rękę poda”.
 
-- **Początek:** dwaj szlachcice, Cetnerowie (Cetner) i Milczek, prowadzą wieloletni spór o miedzę i zniewagi.
-- **Zakochani:** Wacław, syn Cetnera, i Klara, córka Milczka, łączą się uczuciem. Konflikt rodowy utrudnia ich związek.
-- **Intrygi:** pojawiają się próby pojednania i zemsty; Papkin, komiczny szlachcic-chwalca, bierze udział w intrygach.
-- **Rozwiązanie:** po licznych zabawnych zdarzeniach rody godzą się, a młodzi biorą ślub.
-
-**Znaczenie:** komedia ośmiesza spór rodów i zemstę jako wadę; zgoda i miłość zwyciężają.
+**Znaczenie:** zemsta, w której Cześnik chce zaszkodzić Rejentowi, obraca się w szczęśliwe zakończenie – zakochani się pobierają, a spór się kończy.
 
 ### C. Bohaterowie
 
-- **Cetner** – szlachcic, ojciec Wacława. Cechy: uparty, dumny. Rola: uosobienie sporu.
-- **Milczek** – szlachcic, ojciec Klary. Cechy: uparty, honorowy. Rola: przeciwnik Cetnera.
-- **Wacław** – syn Cetnera, zakochany w Klarze. Rola: symbol pojednania.
-- **Klara** – córka Milczka. Rola: symbol miłości i zgody.
-- **Papkin** – komiczny szlachcic, chwalca, tchórz. Rola: ośmieszenie wad.
+- **Cześnik Maciej Raptusiewicz** – porywczy, gwałtowny, ale szczery i dobroduszny szlachcic; stary żołnierz; ma kłopoty z pisaniem listów.
+- **Rejent Milczek** – obłudny, przebiegły i cichy; zawsze mówi „Niech się dzieje wola nieba”; mści się zgodnie z prawem.
+- **Wacław** – syn Rejenta, zakochany w Klarze.
+- **Klara** – synowica (bratanica) Cześnika, sprytna i odważna.
+- **Podstolina Hanna** – bogata wdowa, która chce dobrze wyjść za mąż.
+- **Józef Papkin** – rezydent, „lew Północy”, chwalipięta, tchórz i pochlebca.
+- **Dyndalski** – stary marszałek dworu Cześnika, któremu ten dyktuje listy.
 
 ### D. Problematyka i interpretacja
 
-- **Główny problem:** spór rodów, zemsta, miłość, zgoda.
-- **Konflikty:** Cetner z Milczkiem (zemsta), młodzi z rodzicami (miłość vs spór).
-- **Wartości:** zgoda, miłość, rozsądek.
-- **Przesłanie:** zemsta jest absurdalna; zgoda i miłość są ważniejsze.
-- **Wymowa zakończenia:** pojednanie i ślub.
+- **Główny problem:** spór sąsiedzki i zemsta jako przywara szlachecka.
+- **Konflikty:** Cześnik z Rejentem (mur i dawne urazy); miłość młodych wobec sporu ojców.
+- **Wartości:** zgoda, miłość, szczerość.
+- **Przesłanie:** zemsta jest śmieszna i obraca się przeciw mściwym; zgoda jest lepsza od sporu.
+- **Wymowa zakończenia:** pojednanie i małżeństwo młodych.
 
 ### E. Motywy literackie
 
-1. **Zemsta** – spór rodów. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (spór Sopliców i Horeszków).
-2. **Miłość** – Wacław i Klara. *Wykorzystanie:* zestawienie z *Balladyną* (miłość a ambicja).
-3. **Zgoda** – pojednanie. *Wykorzystanie:* zestawienie z *Iliadą* (pojednanie wrogów).
-4. **Ośmieszenie wady** – Papkin. *Wykorzystanie:* zestawienie z *Skąpcem* (komizm charakteru).
+1. **Spór sąsiedzki** – mur graniczny. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (spór o zamek).
+2. **Miłość** – Wacław i Klara. *Wykorzystanie:* zestawienie ze *Skąpcem* (miłość młodych mimo przeszkód).
+3. **Zemsta** – Cześnik i Rejent. *Wykorzystanie:* zestawienie z *Iliadą* (gniew Achillesa).
+4. **Ośmieszenie wad** – Papkin, Rejent. *Wykorzystanie:* zestawienie ze *Skąpcem* (komizm charakteru).
 
 ### F. Symbole i ważne elementy
 
-- **Miedza** – symbol sporu.
-- **Pojedynek** – symbol zemsty.
-- **Ślub** – symbol zgody.
+- **Mur** – symbol podziału i sporu.
+- **Ślub** – symbol pojednania.
+- **„Niech się dzieje wola nieba”** – maska obłudy Rejenta.
 
 ### G. Konteksty
 
-- **Historyczny:** szlachta XIX w., obyczaje dworskie.
-- **Literacki:** komedia charakterów i obyczajów.
-- **Społeczny:** krytyka sporów rodowych i zemsty.
+- **Historyczny:** szlachta polska na przełomie XVIII i XIX w., sądowe spory sąsiedzkie.
+- **Literacki:** komedia charakterów (wzór Moliera), komedia intrygi.
+- **Biograficzny:** prawdziwy spór o zamek w Odrzykoniu.
 
 ### H. Wykorzystanie lektury na maturze
 
 **Tematy:**
-- Zemsta jako źródło absurdu.
-- Miłość jako siła pojednania.
+- Zemsta jako źródło komizmu.
+- Spór i pojednanie w literaturze.
 
 **Argumenty:**
-- *Zemsta* pokazuje, że spór rodów niszczy wspólnotę, a zgoda ją przywraca.
+- Cześnik, chcąc zemścić się na Rejencie, doprowadza do ślubu Wacława z Klarą – zemsta kończy spór.
 
 **Zestawienia:**
-- *Zemsta* – *Pan Tadeusz* (spór rodów).
-- *Zemsta* – *Skąpiec* (komedia).
+- *Zemsta* – *Pan Tadeusz* (spór o zamek i zgoda).
+- *Zemsta* – *Skąpiec* (komedia charakterów).
 
 ### I. Najważniejsze informacje do zapamiętania
 
-- Fredro, *Zemsta*, 1834 r., komedia.
-- Bohaterowie: Cetner, Milczek, Wacław, Klara, Papkin.
-- Motywy: zemsta, miłość, zgoda.
+- Fredro, *Zemsta*, 1833 r. (prapremiera 1834, Lwów), komedia w 4 aktach.
+- Bohaterowie: Cześnik, Rejent, Wacław, Klara, Podstolina, Papkin, Dyndalski.
+- Motywy: spór, zemsta, miłość, zgoda.
 - Przesłanie: zgoda zwycięża nad zemstą.
 
 ### J. Sprawdź swoją wiedzę
 
 **Pytania sprawdzające:**
-1. Jaki gatunek reprezentuje utwór?
-2. Kto prowadzi spór z Milczkiem?
-3. Kim jest Wacław?
-4. Kim jest Klara?
+1. Kto jest w sporze?
+2. O co toczy się spór?
+3. Kogo kocha Klara?
+4. Z kim chce się ożenić Cześnik?
 5. Kim jest Papkin?
-6. Jaki motyw dominuje?
-7. Jak kończy się komedia?
-8. Jaki symbol sporu pojawia się w tekście?
-9. Kiedy wystawiono komedię?
-10. Co łączy rody?
+6. Jakie powiedzenie powtarza Rejent?
+7. Gdzie toczy się akcja?
+8. Jaki gatunek reprezentuje utwór?
+9. Czyim synem jest Wacław?
+10. Jak kończy się komedia?
 
 **Pytania interpretacyjne:**
-1. Dlaczego zemsta jest w komedii ośmieszona?
+1. Dlaczego zemsta Cześnika obraca się w dobre zakończenie?
 2. Czy miłość może zakończyć spór? Uzasadnij.
-3. Jak Papkin wzmacnia komizm?
-4. Czy spór rodów ma wymiar symboliczny? Uzasadnij.
-5. Jak *Zemsta* odnosi się do obyczajów szlacheckich?
+3. Czym różnią się Cześnik i Rejent?
+4. Jaką funkcję pełni Papkin?
+5. Co Fredro ośmiesza w szlachcie?
 
 **Klucz odpowiedzi:**
-1. Komedia.
-2. Cetner.
-3. Syn Cetnera.
-4. Córka Milczka.
-5. Komiczny chwalca i tchórz.
-6. Zemsta i zgoda.
-7. Pojednaniem i ślubem.
-8. Miedza.
-9. W 1834 r.
-10. Wspólne sąsiedztwo i dawny spór.
-11. Pokazuje absurd wrogości.
-12. Tak, miłość przełamuje spór.
-13. Ośmiesza tchórzostwo i chełpliwość.
-14. Tak, spór o miedzę jest metaforą zaściankowości.
-15. Krytykuje obyczaje szlacheckie.
+1. Cześnik Raptusiewicz i Rejent Milczek.
+2. O mur graniczny w zamku.
+3. Wacława, syna Rejenta.
+4. Z Podstoliną.
+5. Rezydent Cześnika, chwalipięta i tchórz.
+6. „Niech się dzieje wola nieba”.
+7. W zamku w Odrzykoniu.
+8. Komedia.
+9. Rejenta Milczka.
+10. Zgodą i ślubem Wacława z Klarą.
+11. Bo Cześnik, chcąc pokrzyżować plany Rejenta, żeni Wacława z Klarą, którą ten kocha.
+12. Tak – ślub dzieci kończy spór ojców.
+13. Cześnik jest gwałtowny, ale szczery; Rejent cichy i obłudny.
+14. Jest źródłem komizmu i parodią szlacheckiego zawadiaki.
+15. Pieniactwo, mściwość, pychę i obłudę.
 
 ---
 

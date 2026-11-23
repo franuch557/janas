@@ -19,7 +19,7 @@
         {
           "typ": "punkt",
           "etykieta": "Data powstania",
-          "tekst": "1984 r. (sztuka napisana w czasie emigracji autora w Nowym Jorku; sprawdź datę premiery w źródle)."
+          "tekst": "1992 r. (sztuka napisana na emigracji w Nowym Jorku; prapremiera 1993 r. w Waszyngtonie)."
         },
         {
           "typ": "punkt",
@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Nowy Jork, lata 80. XX w.; akcja dotyczy emigrantów i ich codzienności."
+          "tekst": "Nowy Jork, początek lat 90. XX w.; Tompkins Square Park na Manhattanie, w którym mieszkają bezdomni."
         },
         {
           "typ": "punkt",
@@ -42,32 +42,29 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: sztuka ma kilka scen i postaci. Poniżej ogólny zarys.*"
+          "typ": "punkt",
+          "etykieta": "Park",
+          "tekst": "w Tompkins Square Park mieszkają bezdomni emigranci: Polak Pchełka i rosyjski Żyd Sasza. Policjant pełni rolę chóru – zwraca się do widzów i komentuje zdarzenia."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "W Nowym Jorku spotykają się emigranci z Polski, którzy mierzą się z trudnościami życia w obcym kraju."
+          "etykieta": "Prośba Anity",
+          "tekst": "Portorykanka Anita, także bezdomna, opowiada, że zmarł jej ukochany Paulie i został pochowany w zbiorowym grobie dla bezdomnych na wyspie Hart Island. Chce go godnie pochować w parku, by mieć przy kim się pomodlić – jak Antygona."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Motyw Antygony przenosi się na współczesną sytuację: bohaterka, jak w micie, zmaga się z zakazami i presją otoczenia, tym razem związanymi z życiem emigranckim."
+          "etykieta": "Wyprawa po ciało",
+          "tekst": "Pchełka i Sasza za pieniądze Anity wyruszają po zwłoki. Przynoszą ciało, ale prawdopodobnie nie Pauliego – to przypadkowy, nieznany zmarły (John Smith)."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Dialogi ukazują konflikt między nostalgią za ojczyzną a potrzebą adaptacji."
+          "etykieta": "Pogrzeb",
+          "tekst": "Anita urządza pogrzeb w parku. Bezdomni są wspólnotą tylko przez chwilę."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zakończenie pokazuje, że wartości z antycznego dramatu wciąż mają znaczenie, choć forma jest współczesna."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: przebieg scen i role postaci.*"
+          "etykieta": "Zakończenie",
+          "tekst": "Anita wiesza się na drzewie w parku. Policjant zamyka historię, a park zostaje „uporządkowany” przez władze miasta."
         }
       ]
     },
@@ -76,13 +73,23 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Antygona (współczesna)",
-          "tekst": "emigrantka, której postawa przypomina antyczną bohaterkę. Cechy: upór, wierność wartościom. Rola: kontynuacja motywu z Sofoklesa."
+          "etykieta": "Anita",
+          "tekst": "bezdomna Portorykanka, współczesna Antygona: chce pochować ukochanego Pauliego mimo zakazu i obojętności miasta."
         },
         {
           "typ": "punkt",
-          "etykieta": "Postacie emigrantów",
-          "tekst": "reprezentują różne postawy wobec obcego kraju. Rola: tło i kontrast."
+          "etykieta": "Pchełka",
+          "tekst": "polski emigrant, alkoholik, marzyciel, który wciąż wierzy, że wróci do kraju; dobry, ale słaby."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sasza",
+          "tekst": "rosyjski Żyd, inteligent, ironiczny i cyniczny towarzysz Pchełki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Policjant",
+          "tekst": "pełni funkcję chóru antycznego i narratora, mówi do widowni."
         }
       ]
     },
@@ -92,22 +99,27 @@
         {
           "typ": "punkt",
           "etykieta": "Główny problem",
-          "tekst": "emigracja, tożsamość, wierność wartościom, konflikt między prawem a sumieniem w nowej rzeczywistości."
+          "tekst": "los bezdomnych emigrantów, wykluczenie i samotność w wielkim mieście; prawo do godnego pochówku."
         },
         {
           "typ": "punkt",
           "etykieta": "Konflikty",
-          "tekst": "emigrant z obcym krajem; wierność tradycji wobec adaptacji."
+          "tekst": "potrzeba godności (Anita) wobec obojętności miasta i urzędów; marzenia emigrantów wobec rzeczywistości."
         },
         {
           "typ": "punkt",
           "etykieta": "Wartości",
-          "tekst": "wierność, godność, tożsamość."
+          "tekst": "miłość, wierność zmarłym, solidarność, godność człowieka."
         },
         {
           "typ": "punkt",
           "etykieta": "Przesłanie",
-          "tekst": "mit antyczny pozostaje aktualny; wartości można zachować także na emigracji."
+          "tekst": "współczesna Antygona nie walczy z królem, lecz z obojętnością – jej gest jest tragiczny i groteskowy zarazem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "samobójstwo Anity i „porządkowanie” parku pokazują, że świat nie zauważa ludzi z marginesu."
         }
       ]
     },
@@ -117,20 +129,26 @@
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Emigracja",
-          "tekst": "obcy kraj. *Wykorzystanie:* zestawienie z *Listami z podróży do Ameryki* Sienkiewicza."
+          "etykieta": "Pochówek zmarłego",
+          "tekst": "Anita i Paulie. *Wykorzystanie:* zestawienie z *Antygoną* Sofoklesa (Polinejkes) i *Iliadą* (Priam wykupuje ciało Hektora)."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Wierność wartościom",
-          "tekst": "Antygona. *Wykorzystanie:* zestawienie z *Antygoną* Sofoklesa (oryginał)."
+          "etykieta": "Emigracja i bezdomność",
+          "tekst": "Pchełka, Sasza. *Wykorzystanie:* zestawienie z *Innym światem* (wykorzenienie) i *Profesorem Andrewsem w Warszawie* (obcość)."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Tożsamość",
-          "tekst": "pytanie o to, kim jest człowiek poza ojczyzną."
+          "etykieta": "Tragizm i groteska",
+          "tekst": "mieszanie śmiechu i rozpaczy. *Wykorzystanie:* zestawienie z *Tangiem* Mrożka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Miłość",
+          "tekst": "wierność Anity zmarłemu. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim* (żałoba)."
         }
       ]
     },
@@ -139,13 +157,18 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Nowy Jork",
-          "tekst": "symbol obcości i nowego życia."
+          "etykieta": "Tompkins Square Park",
+          "tekst": "„dom” wykluczonych, scena tragedii."
         },
         {
           "typ": "punkt",
-          "etykieta": "Antyczny mit",
-          "tekst": "symbol trwałości wartości."
+          "etykieta": "Ciało nieznanego zmarłego",
+          "tekst": "symbol anonimowości ludzi z marginesu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Policjant-chór",
+          "tekst": "głos porządku i obojętnego społeczeństwa."
         }
       ]
     },
@@ -154,18 +177,18 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Historyczny",
-          "tekst": "emigracja z PRL w latach 80., stan wojenny."
+          "etykieta": "Literacki",
+          "tekst": "nawiązanie do *Antygony* Sofoklesa (motyw pochówku, chór); tragifarsa."
         },
         {
           "typ": "punkt",
-          "etykieta": "Literacki",
-          "tekst": "adaptacja mitu antycznego, dramat współczesny."
+          "etykieta": "Społeczny",
+          "tekst": "bezdomność w Nowym Jorku, akcje „porządkowania” parku Tompkins Square w latach 1988–1991."
         },
         {
           "typ": "punkt",
           "etykieta": "Biograficzny",
-          "tekst": "doświadczenie emigracji Głowackiego."
+          "tekst": "Głowacki od 1981 r. żył na emigracji w Nowym Jorku."
         }
       ]
     },
@@ -179,12 +202,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Czy mit antyczny jest aktualny w XX w.?"
+          "tekst": "Czy można być Antygoną w świecie współczesnym?"
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Tożsamość emigranta."
+          "tekst": "Wykluczenie i samotność człowieka w wielkim mieście."
         },
         {
           "typ": "akapit",
@@ -193,7 +216,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Głowacki pokazuje, że wierność wartościom może przetrwać zmianę kontekstu."
+          "tekst": "Anita, jak Antygona, ryzykuje wszystko, by pochować ukochanego – ale jej czyn nikogo nie obchodzi, a ciało prawdopodobnie nie jest Pauliego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pchełka i Sasza pokazują los emigrantów, którzy w Ameryce nie znaleźli niczego poza bezdomnością."
         },
         {
           "typ": "akapit",
@@ -202,12 +230,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Antygona w Nowym Jorku* – *Antygona* Sofoklesa (oryginał i adaptacja)."
+          "tekst": "*Antygona w Nowym Jorku* – *Antygona* Sofoklesa (pochówek i wierność zmarłym)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Antygona w Nowym Jorku* – *Listy z podróży do Ameryki* (emigracja)."
+          "tekst": "*Antygona w Nowym Jorku* – *Iliada* (ciało Hektora)."
         }
       ]
     },
@@ -217,17 +245,22 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Głowacki, *Antygona w Nowym Jorku*, 1984 r."
+          "tekst": "Głowacki, *Antygona w Nowym Jorku*, 1992 r. (prapremiera 1993)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Motyw: adaptacja mitu Antygony."
+          "tekst": "Bohaterowie: Anita, Pchełka, Sasza, Policjant (chór)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Przesłanie: wartości przetrwają w nowym kontekście."
+          "tekst": "Miejsce: park Tompkins Square w Nowym Jorku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: pochówek, bezdomność, emigracja, groteska."
         }
       ]
     },
@@ -242,61 +275,61 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Jaki mit jest punktem wyjścia?"
+          "tekst": "Gdzie rozgrywa się akcja?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Gdzie rozgrywa się akcja?"
+          "tekst": "Kim jest Anita?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Kim są bohaterowie?"
+          "tekst": "Kogo chce pochować Anita?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Jaki gatunek reprezentuje utwór?"
+          "tekst": "Kim są Pchełka i Sasza?"
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Jaki temat dominuje?"
+          "tekst": "Jaką rolę pełni Policjant?"
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Kto napisał sztukę?"
+          "tekst": "Gdzie pochowano Pauliego?"
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Jaki kontekst historyczny?"
+          "tekst": "Czyje ciało przynoszą bohaterowie?"
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Co łączy sztukę z antyczną tragedią?"
+          "tekst": "Jak kończy się sztuka?"
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Jaki problem porusza utwór?"
+          "tekst": "Kto jest autorem?"
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Jak kończy się sztuka?"
+          "tekst": "Do jakiej tragedii antycznej nawiązuje utwór?"
         },
         {
           "typ": "akapit",
@@ -306,25 +339,25 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Dlaczego Głowacki przenosi mit do Nowego Jorku?"
+          "tekst": "Co łączy Anitę z Antygoną Sofoklesa, a co je różni?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Czy wierność wartościom jest możliwa na emigracji? Uzasadnij."
+          "tekst": "Dlaczego Głowacki łączy tragizm z komizmem?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Jak adaptacja zmienia sens mitu?"
+          "tekst": "Jak sztuka pokazuje los emigrantów?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Jak emigracja wpływa na tożsamość?"
+          "tekst": "Jaką funkcję pełni Policjant?"
         },
         {
           "typ": "punkt",
@@ -340,91 +373,91 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Antygona Sofoklesa."
+          "tekst": "W Tompkins Square Park w Nowym Jorku."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Nowy Jork."
+          "tekst": "Bezdomna Portorykanka."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Emigranci."
+          "tekst": "Swojego ukochanego Pauliego."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Dramat współczesny."
+          "tekst": "Bezdomni emigranci: Polak i rosyjski Żyd."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Emigracja i wierność."
+          "tekst": "Chóru i narratora."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Janusz Głowacki."
+          "tekst": "W zbiorowym grobie na wyspie Hart Island."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Emigracja z PRL."
+          "tekst": "Najprawdopodobniej przypadkowego, nieznanego zmarłego."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Motyw Antygony."
+          "tekst": "Anita wiesza się w parku."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Tożsamość i wierność."
+          "tekst": "Janusz Głowacki."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Wartości przetrwają."
+          "tekst": "Do *Antygony* Sofoklesa."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Bo emigracja stawia podobne pytania o wierność."
+          "tekst": "Obie chcą pochować ukochaną osobę wbrew przeszkodom; Anita walczy z obojętnością, nie z królem."
         },
         {
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Tak, wartości mogą przetrwać."
+          "tekst": "Groteska podkreśla absurd i nędzę losu bohaterów."
         },
         {
           "typ": "punkt",
           "nr": 13,
           "etykieta": "",
-          "tekst": "Zmienia kontekst, ale zachowuje pytanie o sumienie."
+          "tekst": "Emigracja to dla nich bezdomność i utrata złudzeń."
         },
         {
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Emigracja zmusza do redefinicji tożsamości."
+          "tekst": "Komentuje akcję jak chór i reprezentuje obojętny porządek."
         },
         {
           "typ": "punkt",
           "nr": 15,
           "etykieta": "",
-          "tekst": "Tak, pytania o wierność są uniwersalne."
+          "tekst": "Tak – pokazuje potrzebę godności każdego człowieka."
         }
       ]
     }

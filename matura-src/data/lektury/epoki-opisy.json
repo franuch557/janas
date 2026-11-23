@@ -200,7 +200,7 @@
           {
             "typ": "punkt",
             "etykieta": "1683",
-            "tekst": "odsieczy wiedeńska, zwycięstwo nad Turkami."
+            "tekst": "odsiecz wiedeńska, zwycięstwo nad Turkami."
           },
           {
             "typ": "punkt",
@@ -344,7 +344,7 @@
         "bloki": [
           {
             "typ": "akapit",
-            "tekst": "Oświecenie w Polsce obejmuje około 1730–1800. Epoka wierzy w rozum, postęp i reformy. Literatura pełni funkcję wychowawczą i krytyczną, a Krasicki jest jej najwybitniejszym przedstawicielem w Polsce."
+            "tekst": "Oświecenie w Polsce trwało od ok. 1740 r. (reformy Stanisława Konarskiego), a w pełni od 1764 r. (początek panowania Stanisława Augusta), do ok. 1822 r. Epoka wierzy w rozum, postęp i reformy. Literatura pełni funkcję wychowawczą i krytyczną, a Krasicki jest jej najwybitniejszym przedstawicielem w Polsce."
           }
         ]
       },
@@ -358,8 +358,13 @@
           },
           {
             "typ": "punkt",
-            "etykieta": "1765–1795",
+            "etykieta": "1764–1795",
             "tekst": "panowanie Stanisława Augusta Poniatowskiego i reformy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1772",
+            "tekst": "pierwszy rozbiór Polski."
           },
           {
             "typ": "punkt",
@@ -1593,7 +1598,7 @@
           {
             "typ": "punkt",
             "etykieta": "Mała apokalipsa",
-            "tekst": "**Dżuma**: zaniku wartości i opór wobec zła."
+            "tekst": "**Dżuma**: zanik wartości i opór wobec zła."
           }
         ]
       }

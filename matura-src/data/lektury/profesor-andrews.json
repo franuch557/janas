@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Warszawa, czasy współczesne (koniec XX w.); wątki historyczne i pamięć o wojnie."
+          "tekst": "Warszawa, grudzień 1981 r. – dzień wprowadzenia stanu wojennego (13 grudnia) i kolejne dni."
         },
         {
           "typ": "punkt",
@@ -42,32 +42,24 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: opowiadanie jest krótkie; poniżej ogólny zarys. Sprawdź szczegóły w tekście.*"
+          "typ": "punkt",
+          "etykieta": "Przylot",
+          "tekst": "Angielski profesor psychologii Andrews, przedstawiciel nowoczesnej szkoły psychoterapii, przylatuje do Warszawy w grudniu 1981 r., by wygłosić wykład. Jest pełen optymizmu: wyobraża sobie Polskę jako kraj inteligentnych ludzi, zainteresowanych ideami jego szkoły. W samolocie wspomina sen o wronie, który interpretuje jako zapowiedź czegoś dobrego. Na lotnisku wita go przewodniczka Gosha i zawozi do mieszkania na ostatnim piętrze szarego bloku."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Profesor Andrews, postać ze świata akademickiego, przybywa do Warszawy."
+          "etykieta": "13 grudnia",
+          "tekst": "Następnego ranka Andrews budzi się sam. Telefon nie działa, a na ulicach widzi czołgi i żołnierzy. Nie zna języka, nie ma mapy, nie wie, że ogłoszono stan wojenny. Błąka się po zaśnieżonym, szarym mieście w poszukiwaniu działającego telefonu, gubi się, przypadkiem trafia z powrotem do bloku. Jego wykład się nie odbywa."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pobyt w mieście uruchamia u niego wspomnienia i refleksje nad historią i pamięcią."
+          "etykieta": "Błądzenie",
+          "tekst": "Profesor jest coraz bardziej głodny i zmarznięty. Je w barze mlecznym, w osiedlowym sklepie kupuje tylko chleb i ocet, przez okratowaną witrynę ogląda pełne półki Peweksu. Przygląda się kolejkom ludzi po karpie, a nawet sam kupuje choinkę, by być jak inni. Zaczyna podejrzewać, że ma epizod psychotyczny – jego teorie psychologiczne nie pomagają zrozumieć tego, co się dzieje."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pojawia się motyw przeszłości, która wpływa na teraźniejszość."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Opowiadanie kończy się refleksją o tożsamości i tym, jak miasto przechowuje ślady przeszłości."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: szczegółowe sceny, role postaci i kontekst historyczny.*"
+          "etykieta": "Ocalenie",
+          "tekst": "Z opresji ratuje go zwykły człowiek, zaradny mieszkaniec bloku, który zabiera go do domu: na stole kiełbasa i wódka, w wannie pływa żywy karp. Patrząc w oko ryby, Andrews przeżywa coś na kształt mistycznego doświadczenia. Mężczyzna odwozi go do ambasady. Żegnają się zdaniem, którego profesor nauczył się od sprzedawców karpi (pytaniem, czy rybę zabić na miejscu)."
         }
       ]
     },
@@ -77,12 +69,17 @@
         {
           "typ": "punkt",
           "etykieta": "Profesor Andrews",
-          "tekst": "postać akademicka, obcokrajowiec. Rola: pośrednik między obcym a miastem; pretekst do refleksji."
+          "tekst": "angielski psycholog, optymista, który przyjeżdża wygłosić wykład i nagle zostaje sam w obcym mieście, bez języka i kontaktu ze światem."
         },
         {
           "typ": "punkt",
-          "etykieta": "Warszawa",
-          "tekst": "miasto jako bohater zbiorowy, nośnik pamięci."
+          "etykieta": "Gosha",
+          "tekst": "przewodniczka, która przywozi go do mieszkania i znika."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Warszawa w stanie wojennym",
+          "tekst": "zimna, ciemna i obca przestrzeń."
         }
       ]
     },
@@ -92,12 +89,27 @@
         {
           "typ": "punkt",
           "etykieta": "Główny problem",
-          "tekst": "pamięć historyczna, tożsamość miasta, relacja przeszłości z teraźniejszością."
+          "tekst": "obcość i bezradność człowieka wobec historii, która nagle burzy jego świat; granice wiedzy i języka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "optymistyczna teoria psychologii a chaos rzeczywistości; jednostka wobec przemocy państwa, której nie rozumie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "kontakt z drugim człowiekiem, empatia, pokora wobec nieznanego."
         },
         {
           "typ": "punkt",
           "etykieta": "Przesłanie",
-          "tekst": "historia jest obecna w codzienności; pamięć kształtuje tożsamość."
+          "tekst": "wiedza i dobre intencje nie wystarczą, gdy nie rozumie się świata, w który się trafiło; obcy widzi stan wojenny jak absurdalny koszmar."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "ocalenie przychodzi przypadkiem; doświadczenie pozostawia bohatera zmienionego."
         }
       ]
     },
@@ -107,20 +119,26 @@
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Pamięć",
-          "tekst": "przeszłość w teraźniejszości. *Wykorzystanie:* zestawienie z *Dziadami* cz. II (pamięć o zmarłych)."
+          "etykieta": "Obcy w obcym świecie",
+          "tekst": "Andrews w Warszawie. *Wykorzystanie:* zestawienie z *Innym światem* (człowiek wrzucony w nieznany system) i *Antygoną w Nowym Jorku* (obcość emigranta)."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Obcość",
-          "tekst": "spojrzenie z zewnątrz. *Wykorzystanie:* zestawienie z *Listami z podróży* Sienkiewicza."
+          "etykieta": "Zniewolenie",
+          "tekst": "stan wojenny. *Wykorzystanie:* zestawienie z *Rokiem 1984* (państwo kontrolujące obywateli)."
         },
         {
           "typ": "punkt",
           "nr": 3,
+          "etykieta": "Komunikacja i język",
+          "tekst": "brak wspólnego języka. *Wykorzystanie:* zestawienie z *Podróżami z Herodotem* (poznawanie obcych kultur)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
           "etykieta": "Miasto",
-          "tekst": "Warszawa jako przestrzeń pamięci. *Wykorzystanie:* zestawienie z *Małą apokalipsą* Konwickiego."
+          "tekst": "zimna, ciemna Warszawa. *Wykorzystanie:* zestawienie z *Małą apokalipsą* (rozpadające się miasto PRL)."
         }
       ]
     },
@@ -129,13 +147,18 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Miasto",
-          "tekst": "symbol pamięci."
+          "etykieta": "Zima i ciemność",
+          "tekst": "symbol zniewolenia i zagubienia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Profesor",
-          "tekst": "symbol wiedzy i obcości."
+          "etykieta": "Przerwane telefony",
+          "tekst": "symbol odcięcia od świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wrona ze snu",
+          "tekst": "zapowiedź, którą bohater błędnie odczytuje jako dobry znak."
         }
       ]
     },
@@ -145,17 +168,17 @@
         {
           "typ": "punkt",
           "etykieta": "Historyczny",
-          "tekst": "Warszawa po 1989 r., pamięć II wojny światowej."
+          "tekst": "stan wojenny w Polsce (13 grudnia 1981 r.): przerwane telefony, godzina milicyjna, czołgi na ulicach."
         },
         {
           "typ": "punkt",
           "etykieta": "Literacki",
-          "tekst": "proza współczesna, opowiadanie jako forma."
+          "tekst": "proza Tokarczuk – łączenie realizmu z elementami snu i absurdu; spojrzenie obcego na Polskę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Biograficzny",
-          "tekst": "Tokarczuk jako autorka pisząca o pamięci i tożsamości."
+          "etykieta": "Psychologiczny",
+          "tekst": "bohater-psycholog zderza się z sytuacją graniczną, której jego teorie nie opisują."
         }
       ]
     },
@@ -169,12 +192,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Pamięć historyczna miasta."
+          "tekst": "Człowiek wobec historii, której nie rozumie."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Obcy w swoim mieście."
+          "tekst": "Obcość i samotność w nieznanym świecie."
         },
         {
           "typ": "akapit",
@@ -183,7 +206,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Tokarczuk pokazuje, że przeszłość nie jest zamknięta i wpływa na teraźniejszość."
+          "tekst": "Andrews, przekonany o własnej wiedzy, w jednej chwili traci wszystko, co dawało mu poczucie bezpieczeństwa: język, kontakt, plan dnia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Stan wojenny widziany oczami cudzoziemca jest absurdalny i przerażający."
         },
         {
           "typ": "akapit",
@@ -192,12 +220,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Profesor Andrews* – *Mała apokalipsa* (miasto i pamięć)."
+          "tekst": "*Profesor Andrews w Warszawie* – *Rok 1984* (zniewolenie)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Profesor Andrews* – *Listy z podróży* (spojrzenie z zewnątrz)."
+          "tekst": "*Profesor Andrews w Warszawie* – *Inny świat* (obcy wobec systemu)."
         }
       ]
     },
@@ -207,22 +235,22 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Tokarczuk, *Profesor Andrews w Warszawie*, 2001 r."
+          "tekst": "Tokarczuk, opowiadanie z tomu *Gra na wielu bębenkach* (2001)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bohater: profesor Andrews."
+          "tekst": "Akcja: Warszawa, 13 grudnia 1981 r. – stan wojenny."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Motywy: pamięć, obcość, miasto."
+          "tekst": "Bohater: angielski psycholog, który zostaje sam w obcym mieście."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Przesłanie: przeszłość kształtuje teraźniejszość."
+          "tekst": "Motywy: obcość, zniewolenie, brak komunikacji, miasto."
         }
       ]
     },
@@ -237,19 +265,19 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Jak nazywa się bohater?"
+          "tekst": "Kim z zawodu jest Andrews?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Gdzie rozgrywa się akcja?"
+          "tekst": "Po co przyjeżdża do Warszawy?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Jaki gatunek reprezentuje utwór?"
+          "tekst": "W jakim momencie historycznym rozgrywa się akcja?"
         },
         {
           "typ": "punkt",
@@ -261,25 +289,25 @@
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Jaki motyw dominuje?"
+          "tekst": "Kto wita go na lotnisku?"
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Kim jest bohater z punktu widzenia zawodu?"
+          "tekst": "Dlaczego Andrews zostaje sam?"
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Co wywołuje refleksję?"
+          "tekst": "Co jest dla niego największą przeszkodą w mieście?"
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Jaki kontekst historyczny?"
+          "tekst": "Jaki sen ma w samolocie?"
         },
         {
           "typ": "punkt",
@@ -301,25 +329,25 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Dlaczego obcokrajowiec jest dobrym pośrednikiem w refleksji nad miastem?"
+          "tekst": "Dlaczego Tokarczuk pokazuje stan wojenny oczami cudzoziemca?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Jak przeszłość wpływa na teraźniejszość w opowiadaniu?"
+          "tekst": "Co mówi opowiadanie o granicach wiedzy?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Czy pamięć może być przeszkodą? Uzasadnij."
+          "tekst": "Jak zmienia się Andrews?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Jak Tokarczuk łączy historię z codziennością?"
+          "tekst": "Jaką rolę odgrywa język?"
         },
         {
           "typ": "punkt",
@@ -335,19 +363,19 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Profesor Andrews."
+          "tekst": "Psychologiem."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Warszawa."
+          "tekst": "Wygłosić wykład o swojej szkole psychoterapii."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Opowiadanie."
+          "tekst": "13 grudnia 1981 r. – wprowadzenie stanu wojennego."
         },
         {
           "typ": "punkt",
@@ -359,25 +387,25 @@
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Pamięć i tożsamość."
+          "tekst": "Przewodniczka Gosha."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Profesor, akademik."
+          "tekst": "Gosha znika, telefony nie działają, nikt nie przychodzi."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Pobyt w mieście."
+          "tekst": "Nie zna języka i nie rozumie, co się dzieje."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Historia i pamięć wojny."
+          "tekst": "Sen o wronie."
         },
         {
           "typ": "punkt",
@@ -389,37 +417,37 @@
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Refleksją nad tożsamością."
+          "tekst": "Bohater zostaje ocalony i może wrócić do domu (szczegóły sprawdź w tekście)."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Ma dystans i spojrzenie z zewnątrz."
+          "tekst": "Obcy widzi absurd sytuacji wyraźniej niż ci, którzy w niej żyją."
         },
         {
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Historia jest obecna w codzienności."
+          "tekst": "Teorie psychologa okazują się bezradne wobec rzeczywistości."
         },
         {
           "typ": "punkt",
           "nr": 13,
           "etykieta": "",
-          "tekst": "Może, jeśli prowadzi do zamknięcia się w przeszłości."
+          "tekst": "Od pewnego siebie optymisty do zagubionego człowieka."
         },
         {
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Przez obserwację codzienności i historii."
+          "tekst": "Brak języka odcina go od ludzi i od zrozumienia świata."
         },
         {
           "typ": "punkt",
           "nr": 15,
           "etykieta": "",
-          "tekst": "Pokazuje, że przeszłość kształtuje tożsamość."
+          "tekst": "Ocalenie jest przypadkowe; doświadczenie pozostaje."
         }
       ]
     }

@@ -33,44 +33,28 @@
 - **Epoka:** Młoda Polska.
 - **Data publikacji:** 1901 r. (Kraków); prapremiera w 1901 r. w Krakowie, w reżyserii autora.
 - **Rodzaj i gatunek:** dramat (dramat romantyczno-symboliczny), utwór o formie łączącej realizm z symbolem; w trzech aktach.
-- **Czas i miejsce akcji:** Kraków, podkrakowska wieś, jesień (ok. 1900 r.); wesele w domu gospodarza wiejskiego.
-- **Geneza:** inspirowane prawdziwym weselem poety Lucjana Rydla z Jadwigą Mikołajczykówną (w dramacie postaci mają inne, fikcyjne rysy), które odbyło się w Bronowicach. Utwór jest komentarzem do stanu narodu i jego tożsamości na przełomie wieków.
+- **Czas i miejsce akcji:** jedna noc listopadowa 1900 r.; Bronowice pod Krakowem, izba w domu Gospodarza (malarza Włodzimierza Tetmajera).
+- **Geneza:** inspirowane prawdziwym weselem poety Lucjana Rydla z Jadwigą Mikołajczykówną (prawie wszystkie postacie mają pierwowzory wśród gości), które odbyło się w Bronowicach. Utwór jest komentarzem do stanu narodu i jego tożsamości na przełomie wieków.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: dramat jest złożony, z wieloma postaciami i scenami symbolicznymi. Poniżej przebieg akcji w trzech aktach. Szczegóły scen sprawdź w wydaniu.*
-
-**Akt I – wesele:**
-- Goście (inteligencja krakowska i chłopi) bawią się na weselu poety z wiejską dziewczyną. Atmosfera jest radosna, ale napięta.
-- Poeta jest zakochany w Jadwidze, która jest panną młodą. Rozmowy gości ujawniają ich postawy wobec narodu, historii i tożsamości.
-- Pojawia się Dziennikarz, który komentuje sytuację społeczną, oraz Gospodarz, który zarządza przebiegiem wesela.
-- Wątki: krytyka inteligencji, pytanie o rolę chłopów w narodzie, polskie mity i symbole.
-
-**Akt II – sen/zjawy:**
-- Część bohaterów zapada w sen lub wizję, w której pojawiają się postacie historyczne i symboliczne (m.in. Stańczyk, Wernyhora).
-- Wizje dotyczą wielkich postaci i wydarzeń z historii Polski, a także pytań o przeszłość i przyszłość.
-- Pojawia się symbol Złotego rogu, który ma wezwać do walki.
-
-**Akt III – przebudzenie:**
-- Bohaterowie wracają do rzeczywistości. Wesele dobiega końca, a w wizji nie ma odpowiedzi na pytania o losy narodu.
-- Chochoł (symbol bierności) zostaje w tle, a zakończenie pokazuje niemożność zjednoczenia się narodu.
-
-*Do sprawdzenia: dokładny przebieg wizji, role postaci historycznych i przypisanie scen do aktów.*
+**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią, Panna Młoda pyta, gdzie jest Polska – „A to Polska właśnie” jest w sercu. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie.
+**Akt II – fantastyczny:** przychodzą zjawy, każda do osoby, której sumienie porusza: Widmo (zmarły narzeczony) do Marysi; Stańczyk do Dziennikarza (wręcza mu kaduceusz – symbol bezsilnego słowa); Rycerz Czarny (Zawisza) do Poety; Hetman (Branicki, zdrajca) do Pana Młodego; Upiór (Jakub Szela, przywódca rabacji 1846) do Dziada. Wernyhora, lirnik-prorok, daje Gospodarzowi złoty róg: o świcie trzeba zadąć, by zebrać naród do walki. Gospodarz przekazuje róg Jaśkowi i każe mu objechać okolicę.
+**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła.
 
 **Znaczenie kluczowych wydarzeń:** wesele jest pretekstem do rozmowy o tożsamości narodowej, a sen i przebudzenie pokazują bezsilność wobec historii.
 
 ### C. Bohaterowie
 
-- **Poeta** (Lucjan Rydel w pierwowzorze) – inteligent, zakochany w wiejskiej dziewczynie. Cechy: rozdarcie, pragnienie zjednoczenia z ludem. Rola: reprezentuje inteligencję szukającą kontaktu z narodem.
-- **Panna młoda** (Jadwiga) – chłopka. Rola: symbol ludu i tożsamości narodowej.
-- **Gospodarz** – chłop, gospodarz wesela. Rola: symbol wsi i jej tradycji.
-- **Dziennikarz** – komentator. Rola: głos krytyki społecznej.
-- **Chochoł** – symbol bierności i przywiązania do tradycji. Rola: ukazuje niemożność działania.
-- **Stańczyk** – postać historyczna, dworzanin króla, symbol mądrości i ironii. W wizji.
-- **Wernyhora** – postać wizyjna, prorok. Rola: przekaz przeszłości.
-- **Rachela** – wizjonerka, symbol nadziei.
-
-*Uwaga: role niektórych postaci zostały uproszczone; sprawdź ich pełny opis w wydaniu.*
+- **Pan Młody** (pierwowzór: Lucjan Rydel) – poeta z miasta, który żeni się z chłopką; zachwyca się wsią, ale idealizuje ją i nie rozumie.
+- **Panna Młoda** (Jadwiga Mikołajczykówna) – prosta dziewczyna ze wsi, marząca o świecie z bajki.
+- **Gospodarz** (Włodzimierz Tetmajer) – malarz, inteligent żonaty z chłopką; dostaje od Wernyhory złoty róg i zawodzi.
+- **Poeta** (Kazimierz Przerwa-Tetmajer) – dekadent, znudzony, marzy o wielkiej sztuce.
+- **Dziennikarz** (Rudolf Starzewski, redaktor „Czasu”) – konserwatysta, sceptyk wobec walki o niepodległość.
+- **Czepiec** – chłop, gotowy do walki, z dumą o wsi.
+- **Rachela** – córka karczmarza, wrażliwa, zakochana w poezji; zaprasza Chochoła.
+- **Jasiek** – drużba, który gubi złoty róg dla czapki z pawich piór.
+- **Zjawy:** Chochoł (bierność, uśpienie narodu), Stańczyk (błazen królewski, sumienie narodu), Rycerz Czarny (dawna chwała), Hetman (zdrada), Upiór – Szela (rabacja, krzywda chłopów), Wernyhora (proroctwo odrodzenia Polski).
 
 ### D. Problematyka i interpretacja
 

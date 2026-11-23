@@ -9,7 +9,7 @@
         {
           "typ": "punkt",
           "etykieta": "Autor",
-          "tekst": "Jan Chryzostom Pasek (ok. 1636–1701), szlachcic herbu Pilawa z Mazowsza, uczestnik wielu wojen XVII w."
+          "tekst": "Jan Chryzostom Pasek (ok. 1636–1701), szlachcic herbu Gozdawa z Mazowsza, uczestnik wielu wojen XVII w."
         },
         {
           "typ": "punkt",
@@ -19,7 +19,7 @@
         {
           "typ": "punkt",
           "etykieta": "Data powstania",
-          "tekst": "druga połowa XVII w. (pisane po 1690 r. według większości źródeł; pierwsze wydanie w XIX w.)."
+          "tekst": "druga połowa XVII w. (spisane ok. 1690–1695 r.; rękopis odnaleziony w XIX w., pierwsze wydanie 1836 r.)."
         },
         {
           "typ": "punkt",
@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "XVII w.; wojny: potop szwedzki, wojny z Kozakami i Turcją, wyprawy na Ukrainę i Litwę."
+          "tekst": "lata 1655–1688; Dania, Litwa i Białoruś (wojna z Moskwą), potem Krakowskie."
         },
         {
           "typ": "punkt",
@@ -47,28 +47,23 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Młodość",
-          "tekst": "Pasek opisuje swoje dzieciństwo i pierwsze wojenne doświadczenia. Wstępuje do wojska, a jego życie kształtuje się wokół służby."
+          "etykieta": "Część pierwsza – lata wojenne (1655–1666)",
+          "tekst": "Pasek opisuje służbę w chorągwi Stefana Czarnieckiego. Najsłynniejsze fragmenty to wyprawa do Danii (1658–1659), gdzie wojsko polskie walczyło ze Szwedami jako sojusznik Duńczyków: Pasek z humorem opisuje kraj, obyczaje Duńczyków, zdobycie wyspy Als i własne bohaterskie czyny. Potem uczestniczy w wojnie z Moskwą na Litwie (m.in. bitwy pod Połonką i nad Basią w 1660 r.). Wspomina też konfederację wojskową i rokosz Lubomirskiego."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wojny",
-          "tekst": "autor opisuje kampanie, m.in. wojny ze Szwedami i Kozakami. Pokazuje realia wojny: marsze, potyczki, trudy, niebezpieczeństwo."
+          "etykieta": "Przygody i anegdoty",
+          "tekst": "autor chętnie opisuje pojedynki, zwady, uczty i swoje „bohaterstwa”, często koloryzując i chwaląc się. Pokazuje sarmacką pewność siebie, pobożność i pogardę dla cudzoziemców."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przygody",
-          "tekst": "pamiętnik zawiera anegdoty o odwadze, zuchwałości i obyczajach szlacheckich, często z humorem i dystansem do siebie."
+          "etykieta": "Część druga – życie ziemiańskie (1667–1688)",
+          "tekst": "Pasek żeni się z zamożną wdową Anną Łącką i osiada na wsi w okolicach Krakowa. Opisuje gospodarowanie, procesy sądowe z sąsiadami, udział w sejmikach i elekcjach, a także słynną oswojoną wydrę, którą podarował królowi Janowi III Sobieskiemu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Życie codzienne",
-          "tekst": "autor opisuje obyczaje szlacheckie, gościnność, zabawy i życie rodzinne."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "Pasek kończy swoją opowieść refleksją nad własnym życiem i służbą."
+          "etykieta": "Charakter zapisu",
+          "tekst": "pamiętnik nie jest uporządkowaną autobiografią, lecz gawędą – opowieścią szlachcica, który mówi do słuchaczy, z wtrąceniami po łacinie (makaronizmami)."
         },
         {
           "typ": "akapit",
@@ -389,7 +384,7 @@
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Ze Szwedami, Kozakami, Turcją."
+          "tekst": "Ze Szwedami (wyprawa do Danii) i z Moskwą."
         },
         {
           "typ": "punkt",

@@ -18,23 +18,23 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Data publikacji",
-          "tekst": "1578 r. (Kraków)."
+          "etykieta": "Data wystawienia i wydania",
+          "tekst": "1578 r. – prapremiera 12 stycznia 1578 r. w Jazdowie pod Warszawą, na weselu kanclerza Jana Zamoyskiego z Krystyną Radziwiłłówną; druk w tym samym roku."
         },
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "tragedia (dramat renesansowy), inspirowany antyczną tradycją."
+          "tekst": "dramat; tragedia renesansowa wzorowana na tragedii antycznej (chór, zasada trzech jedności, decorum), napisana wierszem bezrymowym (trzynastozgłoskowiec), z rymowanymi pieśniami chóru."
         },
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "mityczna Troja, czas wojny trojańskiej (akcja w Troi i w obozie greckim)."
+          "tekst": "Troja, jeden dzień przed wybuchem wojny trojańskiej (zasada jedności czasu, miejsca i akcji)."
         },
         {
           "typ": "punkt",
           "etykieta": "Geneza",
-          "tekst": "utwór pierwszy w literaturze polskiej, który nawiązuje do wzorów antycznej tragedii; pierwsza polska tragedia renesansowa w języku polskim."
+          "tekst": "pierwsza oryginalna polska tragedia. Kochanowski wziął wątek z mitu trojańskiego (poselstwo Menelaosa i Odyseusza do Troi wspomina „Iliada”, ks. III), ale problem polityczny dotyczy Rzeczypospolitej szlacheckiej."
         }
       ]
     },
@@ -42,32 +42,38 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: sprawdź w wydaniu źródłowym dokładny przebieg scen, bo poniższe streszczenie opisuje ogólny schemat.*"
+          "typ": "punkt",
+          "etykieta": "Monolog Aleksandra (Parysa)",
+          "tekst": "królewicz wie, że posłowie greccy przybyli po Helenę. Liczy na poparcie przekupionego przez siebie Iketaona."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wstęp",
-          "tekst": "poselstwo greckie przybywa do Troi, aby domagać się wydania Heleny i zadośćuczynienia za porwanie."
+          "etykieta": "Helena i Pani Stara",
+          "tekst": "Helena boi się, że zostanie wydana; nie jest pewna, czy wolałaby zostać, czy wrócić do Grecji."
         },
         {
           "typ": "punkt",
-          "etykieta": "Rozmowa z Priamem",
-          "tekst": "król Priam i jego doradcy zastanawiają się nad żądaniami. Przeważa stanowisko odmowy."
+          "etykieta": "Rada trojańska",
+          "tekst": "Priam nie podejmuje decyzji sam, tylko oddaje sprawę radzie. Antenor (rozważny, szlachetny) radzi oddać Helenę, by uniknąć wojny i zachować sprawiedliwość. Iketaon (demagog) przekonuje, że oddanie Heleny przyniesie Troi wstyd. Większość, uległa Aleksandrowi, głosuje za zatrzymaniem Heleny."
         },
         {
           "typ": "punkt",
           "etykieta": "Odprawa posłów",
-          "tekst": "Trojanie odsyłają Greków, zapowiadając wojnę. Posłowie opuszczają miasto."
+          "tekst": "Antenor przekazuje decyzję. Ulisses (Odyseusz) wygłasza słynną przestrogę: „O nierządne królestwo i zginienia bliskie, / Gdzie ani prawa ważą, ani sprawiedliwość / Ma miejsca, ale wszytko złotem kupić trzeba!”. Menelaus zapowiada zemstę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Chór",
-          "tekst": "komentuje wydarzenia, przypomina o konsekwencjach pychy i wojny."
+          "etykieta": "Proroctwo Kasandry",
+          "tekst": "Kasandra w natchnieniu przepowiada upadek Troi, śmierć Hektora i Priama; nikt jej nie wierzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "Rotmistrz przyprowadza pojmanego Greka – wojska greckie już lądują. Antenor radzi Priamowi przygotować obronę miasta; tragedia kończy się w chwili wybuchu wojny."
         },
         {
           "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** odprawa posłów jest momentem nieuchronnego wybuchu wojny. Trojanie odrzucają pokojowe rozwiązanie, co prowadzi do katastrofy."
+          "tekst": "**Znaczenie kluczowych wydarzeń:** wojna nie wynika z losu, lecz z decyzji ludzi – prywatny interes Aleksandra i przekupstwo wygrały z dobrem państwa."
         }
       ]
     },
@@ -76,18 +82,43 @@
       "bloki": [
         {
           "typ": "punkt",
+          "etykieta": "Aleksander (Parys)",
+          "tekst": "syn Priama, porywacz Heleny. Stawia własną namiętność ponad dobro państwa; przekupuje doradców. Wymowa: egoizm władzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Antenor",
+          "tekst": "doradca królewski, mądry i uczciwy obywatel. Przedkłada sprawiedliwość i dobro Troi nad prywatę. Wzór obywatela."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Iketaon",
+          "tekst": "młody, przekupiony mówca, demagog. Wymowa: zepsucie obrad publicznych."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Priam",
-          "tekst": "król Troi. Cechy: władczość, lęk przed utratą honoru. Decyzje: odrzucenie żądań Greków. Wymowa: władza, która nie chce ustąpić."
+          "tekst": "król Troi, słaby i niezdecydowany; nie bierze odpowiedzialności, zrzuca decyzję na radę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Posłowie greccy",
-          "tekst": "reprezentują żądania Achajów. Rola: symbol dyplomacji i jej porażki."
+          "etykieta": "Ulisses i Menelaus",
+          "tekst": "posłowie greccy. Ulisses: rozważny dyplomata, autor przestrogi dla Troi."
         },
         {
           "typ": "punkt",
-          "etykieta": "Chór",
-          "tekst": "komentator wydarzeń, wyraża wartości moralne i ostrzega przed skutkami wojny."
+          "etykieta": "Kasandra",
+          "tekst": "córka Priama, prorokini, której nikt nie wierzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Helena",
+          "tekst": "przyczyna sporu, bierna wobec decyzji mężczyzn."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chór panien trojańskich",
+          "tekst": "komentuje wydarzenia, przypomina o odpowiedzialności rządzących."
         }
       ]
     },
@@ -97,27 +128,27 @@
         {
           "typ": "punkt",
           "etykieta": "Główny problem",
-          "tekst": "wojna, honor, dyplomacja, konsekwencje decyzji politycznych."
+          "tekst": "odpowiedzialność obywateli i władcy za państwo; prywata, przekupstwo i demagogia jako źródło klęski."
         },
         {
           "typ": "punkt",
           "etykieta": "Konflikty",
-          "tekst": "Grecy z Trojanami; władcy z doradcami; honor z rozsądkiem."
+          "tekst": "dobro publiczne (Antenor) a prywatny interes (Aleksander, Iketaon); rozsądek a namiętność."
         },
         {
           "typ": "punkt",
           "etykieta": "Wartości",
-          "tekst": "honor, mądrość, umiar, odpowiedzialność władcy."
+          "tekst": "sprawiedliwość, uczciwość, wychowanie młodzieży („Wy, którzy pospolitą rzeczą władacie” – pieśń chóru o obowiązkach rządzących)."
         },
         {
           "typ": "punkt",
           "etykieta": "Przesłanie",
-          "tekst": "odrzucenie pokoju prowadzi do wojny; władcy odpowiadają za los państwa."
+          "tekst": "państwo, w którym decyduje prywata i złoto, czeka zguba – przestroga dla Rzeczypospolitej szlacheckiej."
         },
         {
           "typ": "punkt",
           "etykieta": "Wymowa zakończenia",
-          "tekst": "zapowiedź katastrofy wojennej."
+          "tekst": "katastrofa jest już nieuchronna; wojna zaczyna się w chwili zakończenia dramatu."
         }
       ]
     },
@@ -128,19 +159,25 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "Wojna",
-          "tekst": "konflikt zbrojny. *Wykorzystanie:* zestawienie z *Iliadą* (konsekwencje wojny)."
+          "tekst": "jej przyczyna w ludzkich decyzjach. *Wykorzystanie:* zestawienie z *Iliadą* (ta sama wojna, jej skutki)."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Honor",
-          "tekst": "obrona godności. *Wykorzystanie:* zestawienie z *Pieśnią o Rolandzie* (honor rycerski)."
+          "etykieta": "Władza i odpowiedzialność",
+          "tekst": "słaby król, przekupna rada. *Wykorzystanie:* zestawienie z *Antygoną* i *Makbetem* (władca i jego wybory)."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Władza",
-          "tekst": "decyzje władców. *Wykorzystanie:* zestawienie z *Antygoną* (władza i jej granice)."
+          "etykieta": "Obywatel i państwo",
+          "tekst": "Antenor jako wzór. *Wykorzystanie:* zestawienie z *Hymnem do miłości ojczyzny* Krasickiego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Przepowiednia",
+          "tekst": "Kasandra. *Wykorzystanie:* zestawienie z wiedźmami z *Makbeta*."
         }
       ]
     },
@@ -150,17 +187,22 @@
         {
           "typ": "punkt",
           "etykieta": "Helena",
-          "tekst": "symbol przyczyny wojny."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Posłowie",
-          "tekst": "symbol dyplomacji."
+          "tekst": "przyczyna wojny, symbol prywatnej namiętności przedłożonej nad dobro wspólne."
         },
         {
           "typ": "punkt",
           "etykieta": "Troja",
-          "tekst": "symbol obrony i upadku."
+          "tekst": "alegoria Rzeczypospolitej szlacheckiej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Złoto (przekupstwo)",
+          "tekst": "symbol zepsucia polityki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kasandra",
+          "tekst": "symbol prawdy, której nikt nie chce słuchać."
         }
       ]
     },
@@ -170,17 +212,17 @@
         {
           "typ": "punkt",
           "etykieta": "Historyczny",
-          "tekst": "Rzeczpospolita renesansowa, relacje dyplomatyczne, wojny z Moskwą i Turcją w XVI w."
+          "tekst": "Rzeczpospolita po pierwszych wolnych elekcjach, wojna z Moskwą o Inflanty (Stefan Batory); obrady sejmu jako pierwowzór rady trojańskiej."
         },
         {
           "typ": "punkt",
           "etykieta": "Literacki",
-          "tekst": "wzór antycznej tragedii i Homera; odrodzenie tradycji grecko-rzymskiej."
+          "tekst": "wzór tragedii antycznej (Sofokles, Eurypides) i Homera; pierwsza polska tragedia."
         },
         {
           "typ": "punkt",
           "etykieta": "Polityczny",
-          "tekst": "refleksja nad odpowiedzialnością władców."
+          "tekst": "krytyka prywaty, przekupstwa i demagogii; zestawienie z kazaniami Piotra Skargi."
         }
       ]
     },
@@ -194,12 +236,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Czy wojna jest nieunikniona? – na podstawie *Odprawy*."
+          "tekst": "Odpowiedzialność za państwo – na podstawie *Odprawy posłów greckich*."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Odpowiedzialność władców za decyzje państwa."
+          "tekst": "Dobro wspólne a prywatny interes."
         },
         {
           "typ": "akapit",
@@ -208,7 +250,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Priam odrzuca pokój, co prowadzi do wojny; pokazuje to konsekwencje pychy."
+          "tekst": "Rada trojańska ulega Aleksandrowi i przekupionemu Iketaonowi, odrzuca rozsądną radę Antenora – i ściąga na Troję wojnę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Słowa Ulissesa o „nierządnym królestwie” są przestrogą dla każdego państwa, w którym rządzi prywata."
         },
         {
           "typ": "akapit",
@@ -223,6 +270,11 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "*Odprawa* – *Antygona* (władza i jej granice)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Odprawa* – *Przedwiośnie* (diagnoza państwa i jego słabości)."
         }
       ]
     },
@@ -232,22 +284,22 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Tragedia Kochanowskiego, 1578 r."
+          "tekst": "Pierwsza polska tragedia, 1578 r., wystawiona na weselu Jana Zamoyskiego."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bohaterowie: Priam, posłowie greccy, chór."
+          "tekst": "Bohaterowie: Aleksander, Antenor, Iketaon, Priam, Ulisses, Menelaus, Helena, Kasandra, chór."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Motywy: wojna, honor, władza."
+          "tekst": "Motywy: wojna, władza, obywatel i państwo, przepowiednia."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Przesłanie: odrzucenie pokoju prowadzi do katastrofy."
+          "tekst": "Przesłanie: państwo, w którym rządzi prywata i przekupstwo, czeka zguba."
         }
       ]
     },
@@ -262,7 +314,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Kto przybywa do Troi?"
+          "tekst": "Kto przybywa do Troi jako posłowie?"
         },
         {
           "typ": "punkt",
@@ -274,49 +326,49 @@
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Jak reagują Trojanie?"
+          "tekst": "Kto podejmuje decyzję w sprawie Heleny?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Jaki gatunek reprezentuje utwór?"
+          "tekst": "Kto radzi oddać Helenę?"
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Jaką rolę pełni chór?"
+          "tekst": "Kto przekonuje, by ją zatrzymać?"
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Kim jest Priam?"
+          "tekst": "Kto przepowiada upadek Troi?"
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Jaki motyw dominuje?"
+          "tekst": "Jaki gatunek reprezentuje utwór?"
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Jaki jest finał?"
+          "tekst": "Przy jakiej okazji wystawiono utwór po raz pierwszy?"
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Z jakiej tradycji wywodzi się utwór?"
+          "tekst": "Jaką rolę pełni chór?"
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Co jest przyczyną wojny?"
+          "tekst": "Czym kończy się tragedia?"
         },
         {
           "typ": "akapit",
@@ -326,7 +378,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Dlaczego Trojanie odrzucają żądania Greków?"
+          "tekst": "Dlaczego rada trojańska odrzuca żądania Greków?"
         },
         {
           "typ": "punkt",
@@ -338,19 +390,19 @@
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Jak chór komentuje wydarzenia?"
+          "tekst": "Jak oceniasz postawę Priama?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Czy utwór ma wymiar polityczny? Uzasadnij."
+          "tekst": "Co łączy Troję z Rzecząpospolitą szlachecką?"
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Jak *Odprawa* odnosi się do antycznego wzorca?"
+          "tekst": "Jak *Odprawa* nawiązuje do antycznego wzorca tragedii?"
         },
         {
           "typ": "akapit",
@@ -360,91 +412,91 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Posłowie greccy."
+          "tekst": "Ulisses (Odyseusz) i Menelaus."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Wydania Heleny i zadośćuczynienia."
+          "tekst": "Wydania Heleny."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Odsyłają posłów."
+          "tekst": "Rada trojańska – Priam oddaje jej decyzję."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Tragedia."
+          "tekst": "Antenor."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Komentuje i ostrzega."
+          "tekst": "Iketaon, przekupiony przez Aleksandra."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Król Troi."
+          "tekst": "Kasandra."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Wojna i honor."
+          "tekst": "Tragedia (renesansowa, wzorowana na antycznej)."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Zapowiedź wojny."
+          "tekst": "Na weselu Jana Zamoyskiego z Krystyną Radziwiłłówną (1578)."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Z tradycji antycznej."
+          "tekst": "Komentuje wydarzenia i poucza o odpowiedzialności rządzących."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Porwanie Heleny."
+          "tekst": "Wiadomością o lądowaniu wojsk greckich – początkiem wojny."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Bo utrzymanie honoru jest ważniejsze dla władców."
+          "tekst": "Bo większość ulega Aleksandrowi i demagogii Iketaona, a nie racjom Antenora."
         },
         {
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Tak, wynika z decyzji ludzi, nie tylko losu."
+          "tekst": "Nie – wynikała z decyzji ludzi; oddanie Heleny mogło jej zapobiec."
         },
         {
           "typ": "punkt",
           "nr": 13,
           "etykieta": "",
-          "tekst": "Ostrzega przed konsekwencjami pychy."
+          "tekst": "Negatywnie: jest słaby, unika odpowiedzialności."
         },
         {
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Tak, dotyczy odpowiedzialności władcy."
+          "tekst": "Prywata, przekupstwo i słabość władzy – Troja to alegoria Rzeczypospolitej."
         },
         {
           "typ": "punkt",
           "nr": 15,
           "etykieta": "",
-          "tekst": "Nawiązuje do tradycji Homera, ale ma wymiar renesansowy."
+          "tekst": "Chór, trzy jedności, decorum, temat mitologiczny – ale problem współczesny autorowi."
         }
       ]
     }

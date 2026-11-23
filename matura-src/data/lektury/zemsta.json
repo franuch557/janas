@@ -9,32 +9,32 @@
         {
           "typ": "punkt",
           "etykieta": "Autor",
-          "tekst": "Aleksander Fredro (1793–1876), polski komediopisarz."
+          "tekst": "Aleksander Fredro (1793–1876), największy polski komediopisarz."
         },
         {
           "typ": "punkt",
           "etykieta": "Epoka",
-          "tekst": "romantyzm (kontekst: komedia obyczajowa; zob. uwagi w sekcji 0)."
+          "tekst": "romantyzm (chronologicznie); sam utwór to komedia obyczajowa i charakterów, daleka od romantycznej poetyki."
         },
         {
           "typ": "punkt",
           "etykieta": "Data powstania",
-          "tekst": "napisana w 1833–1834 r.; prapremiera w 1838 r. (sprawdź miejsce i datę w źródle)."
+          "tekst": "1833 r.; prapremiera 1834 r. we Lwowie; druk 1838 r."
         },
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "komedia (w pięciu aktach, wierszem)."
+          "tekst": "dramat; komedia charakterów i intrygi w czterech aktach, wierszem (ośmiozgłoskowiec)."
         },
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "XIX w., dwór szlachecki (dwór Cetnera i Milczka), Polska."
+          "tekst": "przełom XVIII i XIX w.; zamek w Odrzykoniu podzielony murem na dwie części – Cześnika i Rejenta."
         },
         {
           "typ": "punkt",
           "etykieta": "Geneza",
-          "tekst": "komedia obyczajowa, wzorowana na tradycji komedii charakterów; ukazuje spór dwóch rodów."
+          "tekst": "Fredro oparł fabułę na dokumentach o prawdziwym sporze o zamek Kamieniec w Odrzykoniu, które znalazł w posagu żony."
         }
       ]
     },
@@ -42,32 +42,38 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: szczegóły scen. Poniżej ogólny przebieg.*"
+          "typ": "punkt",
+          "etykieta": "Spór o mur",
+          "tekst": "Cześnik Maciej Raptusiewicz i Rejent Milczek mieszkają w jednym zamku i od lat są skłóceni. Kością niezgody jest mur graniczny, który Rejent chce naprawić, a Cześnik – zburzyć."
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "dwaj szlachcice, Cetnerowie (Cetner) i Milczek, prowadzą wieloletni spór o miedzę i zniewagi."
+          "etykieta": "Swaty",
+          "tekst": "stary Cześnik chce się ożenić z bogatą wdową, Podstoliną Hanną, i wysyła z oświadczynami tchórzliwego Papkina. Jego bratanica (synowica) Klara potajemnie kocha Wacława, syna Rejenta."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zakochani",
-          "tekst": "Wacław, syn Cetnera, i Klara, córka Milczka, łączą się uczuciem. Konflikt rodowy utrudnia ich związek."
+          "etykieta": "Papkin u Rejenta",
+          "tekst": "Cześnik wysyła Papkina, by przegonił murarzy Rejenta, a potem z wyzwaniem na pojedynek. Wacław potajemnie spotyka się z Klarą w zamku Cześnika."
         },
         {
           "typ": "punkt",
           "etykieta": "Intrygi",
-          "tekst": "pojawiają się próby pojednania i zemsty; Papkin, komiczny szlachcic-chwalca, bierze udział w intrygach."
+          "tekst": "Rejent chce ożenić syna z bogatą Podstoliną, która okazuje się dawną znajomą Wacława, i Podstolina zrywa z Cześnikiem. Wściekły Cześnik szuka zemsty. Gdy Wacław wpada w jego ręce, Cześnik – by pokrzyżować plany Rejenta – każe mu natychmiast poślubić Klarę. Ślub odbywa się w zamku Cześnika."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Papkin i „trucizna”",
+          "tekst": "Papkin, przekonany, że wypił zatrute wino, dyktuje komiczny testament."
         },
         {
           "typ": "punkt",
           "etykieta": "Rozwiązanie",
-          "tekst": "po licznych zabawnych zdarzeniach rody godzą się, a młodzi biorą ślub."
+          "tekst": "Rejent przybywa, gdy jest już po ślubie. Obaj sąsiedzi się godzą. Komedia kończy się słowami: „Zgoda! zgoda! – A Bóg wtedy rękę poda”."
         },
         {
           "typ": "akapit",
-          "tekst": "**Znaczenie:** komedia ośmiesza spór rodów i zemstę jako wadę; zgoda i miłość zwyciężają."
+          "tekst": "**Znaczenie:** zemsta, w której Cześnik chce zaszkodzić Rejentowi, obraca się w szczęśliwe zakończenie – zakochani się pobierają, a spór się kończy."
         }
       ]
     },
@@ -76,28 +82,38 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Cetner",
-          "tekst": "szlachcic, ojciec Wacława. Cechy: uparty, dumny. Rola: uosobienie sporu."
+          "etykieta": "Cześnik Maciej Raptusiewicz",
+          "tekst": "porywczy, gwałtowny, ale szczery i dobroduszny szlachcic; stary żołnierz; ma kłopoty z pisaniem listów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Milczek",
-          "tekst": "szlachcic, ojciec Klary. Cechy: uparty, honorowy. Rola: przeciwnik Cetnera."
+          "etykieta": "Rejent Milczek",
+          "tekst": "obłudny, przebiegły i cichy; zawsze mówi „Niech się dzieje wola nieba”; mści się zgodnie z prawem."
         },
         {
           "typ": "punkt",
           "etykieta": "Wacław",
-          "tekst": "syn Cetnera, zakochany w Klarze. Rola: symbol pojednania."
+          "tekst": "syn Rejenta, zakochany w Klarze."
         },
         {
           "typ": "punkt",
           "etykieta": "Klara",
-          "tekst": "córka Milczka. Rola: symbol miłości i zgody."
+          "tekst": "synowica (bratanica) Cześnika, sprytna i odważna."
         },
         {
           "typ": "punkt",
-          "etykieta": "Papkin",
-          "tekst": "komiczny szlachcic, chwalca, tchórz. Rola: ośmieszenie wad."
+          "etykieta": "Podstolina Hanna",
+          "tekst": "bogata wdowa, która chce dobrze wyjść za mąż."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Józef Papkin",
+          "tekst": "rezydent, „lew Północy”, chwalipięta, tchórz i pochlebca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dyndalski",
+          "tekst": "stary marszałek dworu Cześnika, któremu ten dyktuje listy."
         }
       ]
     },
@@ -107,27 +123,27 @@
         {
           "typ": "punkt",
           "etykieta": "Główny problem",
-          "tekst": "spór rodów, zemsta, miłość, zgoda."
+          "tekst": "spór sąsiedzki i zemsta jako przywara szlachecka."
         },
         {
           "typ": "punkt",
           "etykieta": "Konflikty",
-          "tekst": "Cetner z Milczkiem (zemsta), młodzi z rodzicami (miłość vs spór)."
+          "tekst": "Cześnik z Rejentem (mur i dawne urazy); miłość młodych wobec sporu ojców."
         },
         {
           "typ": "punkt",
           "etykieta": "Wartości",
-          "tekst": "zgoda, miłość, rozsądek."
+          "tekst": "zgoda, miłość, szczerość."
         },
         {
           "typ": "punkt",
           "etykieta": "Przesłanie",
-          "tekst": "zemsta jest absurdalna; zgoda i miłość są ważniejsze."
+          "tekst": "zemsta jest śmieszna i obraca się przeciw mściwym; zgoda jest lepsza od sporu."
         },
         {
           "typ": "punkt",
           "etykieta": "Wymowa zakończenia",
-          "tekst": "pojednanie i ślub."
+          "tekst": "pojednanie i małżeństwo młodych."
         }
       ]
     },
@@ -137,26 +153,26 @@
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Zemsta",
-          "tekst": "spór rodów. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (spór Sopliców i Horeszków)."
+          "etykieta": "Spór sąsiedzki",
+          "tekst": "mur graniczny. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (spór o zamek)."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "Miłość",
-          "tekst": "Wacław i Klara. *Wykorzystanie:* zestawienie z *Balladyną* (miłość a ambicja)."
+          "tekst": "Wacław i Klara. *Wykorzystanie:* zestawienie ze *Skąpcem* (miłość młodych mimo przeszkód)."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Zgoda",
-          "tekst": "pojednanie. *Wykorzystanie:* zestawienie z *Iliadą* (pojednanie wrogów)."
+          "etykieta": "Zemsta",
+          "tekst": "Cześnik i Rejent. *Wykorzystanie:* zestawienie z *Iliadą* (gniew Achillesa)."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Ośmieszenie wady",
-          "tekst": "Papkin. *Wykorzystanie:* zestawienie z *Skąpcem* (komizm charakteru)."
+          "etykieta": "Ośmieszenie wad",
+          "tekst": "Papkin, Rejent. *Wykorzystanie:* zestawienie ze *Skąpcem* (komizm charakteru)."
         }
       ]
     },
@@ -165,18 +181,18 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Miedza",
-          "tekst": "symbol sporu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Pojedynek",
-          "tekst": "symbol zemsty."
+          "etykieta": "Mur",
+          "tekst": "symbol podziału i sporu."
         },
         {
           "typ": "punkt",
           "etykieta": "Ślub",
-          "tekst": "symbol zgody."
+          "tekst": "symbol pojednania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "„Niech się dzieje wola nieba”",
+          "tekst": "maska obłudy Rejenta."
         }
       ]
     },
@@ -186,17 +202,17 @@
         {
           "typ": "punkt",
           "etykieta": "Historyczny",
-          "tekst": "szlachta XIX w., obyczaje dworskie."
+          "tekst": "szlachta polska na przełomie XVIII i XIX w., sądowe spory sąsiedzkie."
         },
         {
           "typ": "punkt",
           "etykieta": "Literacki",
-          "tekst": "komedia charakterów i obyczajów."
+          "tekst": "komedia charakterów (wzór Moliera), komedia intrygi."
         },
         {
           "typ": "punkt",
-          "etykieta": "Społeczny",
-          "tekst": "krytyka sporów rodowych i zemsty."
+          "etykieta": "Biograficzny",
+          "tekst": "prawdziwy spór o zamek w Odrzykoniu."
         }
       ]
     },
@@ -210,12 +226,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Zemsta jako źródło absurdu."
+          "tekst": "Zemsta jako źródło komizmu."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Miłość jako siła pojednania."
+          "tekst": "Spór i pojednanie w literaturze."
         },
         {
           "typ": "akapit",
@@ -224,7 +240,7 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Zemsta* pokazuje, że spór rodów niszczy wspólnotę, a zgoda ją przywraca."
+          "tekst": "Cześnik, chcąc zemścić się na Rejencie, doprowadza do ślubu Wacława z Klarą – zemsta kończy spór."
         },
         {
           "typ": "akapit",
@@ -233,12 +249,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Zemsta* – *Pan Tadeusz* (spór rodów)."
+          "tekst": "*Zemsta* – *Pan Tadeusz* (spór o zamek i zgoda)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Zemsta* – *Skąpiec* (komedia)."
+          "tekst": "*Zemsta* – *Skąpiec* (komedia charakterów)."
         }
       ]
     },
@@ -248,17 +264,17 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Fredro, *Zemsta*, 1834 r., komedia."
+          "tekst": "Fredro, *Zemsta*, 1833 r. (prapremiera 1834, Lwów), komedia w 4 aktach."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bohaterowie: Cetner, Milczek, Wacław, Klara, Papkin."
+          "tekst": "Bohaterowie: Cześnik, Rejent, Wacław, Klara, Podstolina, Papkin, Dyndalski."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Motywy: zemsta, miłość, zgoda."
+          "tekst": "Motywy: spór, zemsta, miłość, zgoda."
         },
         {
           "typ": "punkt",
@@ -278,25 +294,25 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Jaki gatunek reprezentuje utwór?"
+          "tekst": "Kto jest w sporze?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Kto prowadzi spór z Milczkiem?"
+          "tekst": "O co toczy się spór?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Kim jest Wacław?"
+          "tekst": "Kogo kocha Klara?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Kim jest Klara?"
+          "tekst": "Z kim chce się ożenić Cześnik?"
         },
         {
           "typ": "punkt",
@@ -308,31 +324,31 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Jaki motyw dominuje?"
+          "tekst": "Jakie powiedzenie powtarza Rejent?"
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Jak kończy się komedia?"
+          "tekst": "Gdzie toczy się akcja?"
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Jaki symbol sporu pojawia się w tekście?"
+          "tekst": "Jaki gatunek reprezentuje utwór?"
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Kiedy wystawiono komedię?"
+          "tekst": "Czyim synem jest Wacław?"
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Co łączy rody?"
+          "tekst": "Jak kończy się komedia?"
         },
         {
           "typ": "akapit",
@@ -342,7 +358,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Dlaczego zemsta jest w komedii ośmieszona?"
+          "tekst": "Dlaczego zemsta Cześnika obraca się w dobre zakończenie?"
         },
         {
           "typ": "punkt",
@@ -354,19 +370,19 @@
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Jak Papkin wzmacnia komizm?"
+          "tekst": "Czym różnią się Cześnik i Rejent?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Czy spór rodów ma wymiar symboliczny? Uzasadnij."
+          "tekst": "Jaką funkcję pełni Papkin?"
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Jak *Zemsta* odnosi się do obyczajów szlacheckich?"
+          "tekst": "Co Fredro ośmiesza w szlachcie?"
         },
         {
           "typ": "akapit",
@@ -376,91 +392,91 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Komedia."
+          "tekst": "Cześnik Raptusiewicz i Rejent Milczek."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Cetner."
+          "tekst": "O mur graniczny w zamku."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Syn Cetnera."
+          "tekst": "Wacława, syna Rejenta."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Córka Milczka."
+          "tekst": "Z Podstoliną."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Komiczny chwalca i tchórz."
+          "tekst": "Rezydent Cześnika, chwalipięta i tchórz."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Zemsta i zgoda."
+          "tekst": "„Niech się dzieje wola nieba”."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Pojednaniem i ślubem."
+          "tekst": "W zamku w Odrzykoniu."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Miedza."
+          "tekst": "Komedia."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "W 1834 r."
+          "tekst": "Rejenta Milczka."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Wspólne sąsiedztwo i dawny spór."
+          "tekst": "Zgodą i ślubem Wacława z Klarą."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Pokazuje absurd wrogości."
+          "tekst": "Bo Cześnik, chcąc pokrzyżować plany Rejenta, żeni Wacława z Klarą, którą ten kocha."
         },
         {
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Tak, miłość przełamuje spór."
+          "tekst": "Tak – ślub dzieci kończy spór ojców."
         },
         {
           "typ": "punkt",
           "nr": 13,
           "etykieta": "",
-          "tekst": "Ośmiesza tchórzostwo i chełpliwość."
+          "tekst": "Cześnik jest gwałtowny, ale szczery; Rejent cichy i obłudny."
         },
         {
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Tak, spór o miedzę jest metaforą zaściankowości."
+          "tekst": "Jest źródłem komizmu i parodią szlacheckiego zawadiaki."
         },
         {
           "typ": "punkt",
           "nr": 15,
           "etykieta": "",
-          "tekst": "Krytykuje obyczaje szlacheckie."
+          "tekst": "Pieniactwo, mściwość, pychę i obłudę."
         }
       ]
     }

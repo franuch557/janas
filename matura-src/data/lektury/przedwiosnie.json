@@ -29,7 +29,12 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "1918–1919 (czas odzyskania niepodległości), Rosja (Syberia i Moskwa, rewolucja), potem Warszawa i Polska."
+          "tekst": "lata 1905–1920; Baku (Azerbejdżan) i podróż przez Rosję, potem Polska: Warszawa, dworek Nawłoć, Chłodek, front wojny polsko-bolszewickiej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kompozycja",
+          "tekst": "trzy części – „Szklane domy”, „Nawłoć”, „Wiatr od wschodu”."
         },
         {
           "typ": "punkt",
@@ -42,37 +47,34 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: powieść ma wiele wątków i wielu bohaterów. Poniżej główne etapy. Szczegółowy przebieg sprawdź w wydaniu.*"
+          "typ": "punkt",
+          "etykieta": "Część I – „Szklane domy” (Baku)",
+          "tekst": "Cezary Baryka, syn Polaków, dorasta w Baku jako rozpieszczony jedynak. Ojciec, Seweryn, zostaje powołany do armii rosyjskiej w czasie I wojny światowej. W czasie rewolucji Cezary zachłystuje się nowymi ideami, matka umiera z wycieńczenia. Rzezie ormiańsko-tatarskie (azerskie) w Baku pokazują okrucieństwo rewolucji. Wraca ojciec i postanawia zabrać syna do Polski. W drodze opowiada mu o Polsce szklanych domów – nowoczesnych, czystych i tanich, budowanych z płynnego szkła. Seweryn umiera po drodze."
         },
         {
           "typ": "punkt",
-          "etykieta": "Dzieciństwo i Rosja",
-          "tekst": "Cezary Baryka dorasta w Rosji, wśród rewolucjonistów i żołnierzy. Jego ojciec, Seweryn Baryka, jest przedstawicielem dawnej szlachty i sprawia kłopoty rodzinie."
+          "etykieta": "Przyjazd do Polski",
+          "tekst": "Cezary trafia do Warszawy i widzi biedne, brudne miasteczka przy granicy – żadnych szklanych domów. Opiekuje się nim Szymon Gajowiec, przyjaciel ojca, urzędnik państwowy."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wyprawa do Polski",
-          "tekst": "Cezary wyjeżdża do Polski z Rosji (przez Syberię i Moskwę), by odnaleźć miejsce dla siebie i poznać ojczyznę. Przeżywa trudy podróży, głód, zimno."
+          "etykieta": "Wojna 1920 r.",
+          "tekst": "Cezary wstępuje do wojska i walczy z bolszewikami; zaprzyjaźnia się z Hipolitem Wielosławskim."
         },
         {
           "typ": "punkt",
-          "etykieta": "Warszawa",
-          "tekst": "w niepodległej Polsce Cezary poznaje odrodzone państwo, jego problemy społeczne, politykę i elity. Spotyka Laurę, córkę arystokratki, oraz przedstawicieli różnych obozów politycznych."
+          "etykieta": "Część II – „Nawłoć”",
+          "tekst": "w dworku Wielosławskich Cezary poznaje życie ziemiańskie: zabawy, bale, lenistwo, a obok – nędzę chłopów i parobków. Kocha go Karolina, a on zakochuje się w Laurze Kościenieckiej, narzeczonej bogatego Barwickiego. Romans kończy się zerwaniem; zazdrosna Wanda otruwa Karolinę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "Cezary widzi kontrasty między bogactwem a biedą, między idealistami a cynikami. Zderza się z postawami: narodowców, socjalistów, konserwatystów."
+          "etykieta": "Część III – „Wiatr od wschodu”",
+          "tekst": "w Warszawie Cezary rozmawia z Gajowcem (zwolennikiem reform i stopniowej pracy) i z komunistą Antonim Lulkiem (zwolennikiem rewolucji wzorem rosyjskim). Odwiedza też nędzne dzielnice robotnicze. Na zebraniu komunistów sprzeciwia się Lulkowi, mówiąc o cenie rewolucji, którą widział w Baku."
         },
         {
           "typ": "punkt",
           "etykieta": "Zakończenie",
-          "tekst": "Cezary zaczyna widzieć, że odrodzenie Polski wymaga pracy i ofiary; powieść kończy się obrazem rozczarowania i nadziei, zostawiając pytanie o przyszłość."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: nazwiska i role bohaterów drugoplanowych oraz dokładna kolejność wydarzeń.*"
+          "tekst": "Cezary dołącza do robotniczej demonstracji, która idzie na Belweder – siedzibę władzy. Idzie na czele tłumu, ale osobno. Nie wiadomo, czy wybrał rewolucję."
         },
         {
           "typ": "akapit",
@@ -91,17 +93,32 @@
         {
           "typ": "punkt",
           "etykieta": "Seweryn Baryka",
-          "tekst": "ojciec Cezarego. Rola: przedstawiciel dawnej szlachty, uwikłany w konflikty rodzinne i społeczne."
+          "tekst": "ojciec Cezarego, inżynier, patriota; twórca mitu „szklanych domów”, umiera w drodze do Polski."
         },
         {
           "typ": "punkt",
-          "etykieta": "Laura",
-          "tekst": "córka arystokratki. Rola: symbol świata elit, w którym Cezary szuka sensu."
+          "etykieta": "Szymon Gajowiec",
+          "tekst": "urzędnik i ideowiec, zwolennik stopniowych reform w niepodległej Polsce."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przedstawiciele obozów politycznych",
-          "tekst": "narodowcy, socjaliści, konserwatyści. Rola: pokazują różnorodność postaw."
+          "etykieta": "Antoni Lulek",
+          "tekst": "komunista, zwolennik rewolucji na wzór rosyjski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hipolit Wielosławski",
+          "tekst": "przyjaciel z wojska, właściciel Nawłoci, ziemianin."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Laura Kościeniecka",
+          "tekst": "piękna, bogata ziemianka z Leńca, kochanka Cezarego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Karolina Szarłatowiczówna",
+          "tekst": "łagodna rezydentka w Nawłoci, zakochana w Cezarym; zostaje otruta."
         }
       ]
     },
@@ -272,7 +289,7 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bohaterowie: Cezary Baryka, Seweryn Baryka, Laura."
+          "tekst": "Bohaterowie: Cezary Baryka, Seweryn Baryka, Gajowiec, Lulek, Hipolit, Laura, Karolina."
         },
         {
           "typ": "punkt",
@@ -327,13 +344,13 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Kto jest córką arystokratki?"
+          "tekst": "W kim zakochuje się Cezary w Nawłoci?"
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Jakie obozy polityczne pojawiają się w powieści?"
+          "tekst": "Kto reprezentuje reformy, a kto rewolucję?"
         },
         {
           "typ": "punkt",
@@ -401,7 +418,7 @@
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Z Rosji."
+          "tekst": "Z Baku (Rosja), przez Rosję do Polski."
         },
         {
           "typ": "punkt",
@@ -425,19 +442,19 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Laura."
+          "tekst": "W Laurze Kościenieckiej."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Narodowcy, socjaliści, konserwatyści."
+          "tekst": "Gajowiec – reformy, Lulek – rewolucję."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Odzyskanie niepodległości."
+          "tekst": "Lata 1905–1920: rewolucja w Rosji, odzyskanie niepodległości, wojna 1920 r."
         },
         {
           "typ": "punkt",
@@ -473,7 +490,7 @@
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Przez opisy Warszawy i różnych środowisk."
+          "tekst": "Przez zestawienie dworu w Nawłoci z nędzą chłopów i robotniczych dzielnic Warszawy."
         },
         {
           "typ": "punkt",

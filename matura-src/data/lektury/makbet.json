@@ -54,17 +54,17 @@
         {
           "typ": "punkt",
           "etykieta": "Paranoja i kolejne zbrodnie",
-          "tekst": "Makbet obawia się Banka i zabija go. Następnie każe zamordować rodzinę Macduffa."
+          "tekst": "Makbet obawia się Banka i każe go zabić (syn Banka, Fleance, ucieka). Na uczcie widzi ducha Banka. Następnie każe zamordować żonę i dzieci Macduffa."
         },
         {
           "typ": "punkt",
           "etykieta": "Lady Makbet",
-          "tekst": "jej poczucie winy prowadzi do obłędu i samobójstwa, a wątek snu wędrującego ukazuje jej zmagania z wyrzutami sumienia."
+          "tekst": "jej poczucie winy prowadzi do obłędu – lunatykuje i próbuje zmyć z rąk niewidzialną krew. Umiera poza sceną; Malcolm mówi, że odebrała sobie życie."
         },
         {
           "typ": "punkt",
           "etykieta": "Finał",
-          "tekst": "wojska nadciągają z lasu Birnam, Macduff, który nie urodził się w sposób naturalny, zabija Makbeta. Malcolm zostaje królem."
+          "tekst": "żołnierze Malcolma, osłonięci gałęziami z lasu Birnam, podchodzą pod zamek Dunsinane – spełnia się przepowiednia, że Makbet nie zginie, dopóki las Birnam nie ruszy na niego. Macduff, który „nie został zrodzony z niewiasty” (wydobyto go z łona matki przed porodem), zabija Makbeta. Malcolm, syn Dunkana, zostaje królem."
         },
         {
           "typ": "akapit",
@@ -139,13 +139,13 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "Ambicja",
-          "tekst": "Makbet, Lady Makbet. *Wykorzystanie:* zestawienie z *Odą do młodości* (ambicja i jej koszty)."
+          "tekst": "Makbet, Lady Makbet. *Wykorzystanie:* zestawienie z *Lalką* (ambicja Wokulskiego) i *Zbrodnią i karą* (Raskolnikow i jego teoria)."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "Zbrodnia i wyrzuty sumienia",
-          "tekst": "Makbet. *Wykorzystanie:* zestawienie z *Konradem Wallenrodem* (konflikt sumienia)."
+          "tekst": "Makbet. *Wykorzystanie:* zestawienie ze *Zbrodnią i karą* (zbrodnia i kara sumienia)."
         },
         {
           "typ": "punkt",
@@ -254,7 +254,7 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Makbet* – *Konrad Wallenrod* (konflikt sumienia)."
+          "tekst": "*Makbet* – *Zbrodnia i kara* (zbrodnia i wyrzuty sumienia)."
         },
         {
           "typ": "punkt",

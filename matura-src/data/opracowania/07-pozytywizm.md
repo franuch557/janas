@@ -34,29 +34,27 @@
 
 - **Autor:** Bolesław Prus (właściwie Aleksander Głowacki, 1847–1912), polski powieściopisarz pozytywistyczny.
 - **Epoka:** pozytywizm.
-- **Data publikacji:** 1887–1889 (w odcinkach w „Kurierze Warszawskim”, w 1890 r. jako książka).
+- **Data publikacji:** 1887–1889 (w odcinkach w „Kurierze Codziennym”, w 1890 r. jako książka).
 - **Rodzaj i gatunek:** powieść realistyczna, powieść społeczno-obyczajowa, powieść psychologiczna.
-- **Czas i miejsce akcji:** Warszawa, lata 1878–1879 (po powstaniu styczniowym); akcja obejmuje także podróż Wokulskiego do Bułgarii i Paryża.
+- **Czas i miejsce akcji:** głównie Warszawa, lata 1878–1879; także Paryż, Zasławek i Skierniewice. W „Pamiętniku starego subiekta” – wspomnienia z lat 1837–1878 (m.in. Wiosna Ludów na Węgrzech). Majątek Wokulski zdobył wcześniej w Bułgarii, jako dostawca dla armii w wojnie rosyjsko-tureckiej (1877–1878).
+- **Narracja:** dwutorowa – narrator trzecioosobowy, wszechwiedzący, oraz pierwszoosobowy „Pamiętnik starego subiekta” Ignacego Rzeckiego.
 - **Geneza:** Prus ukazuje przemiany społeczne Warszawy po powstaniu styczniowym, konflikt starej arystokracji z nowym mieszczaństwem i ideę pracy organicznej.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: powieść jest długa; poniżej przebieg najważniejszych wątków. Sekwencje scen sprawdź w wydaniu.*
-
-- **Wprowadzenie:** Ignacy Rzecki, subiekt w sklepie Wokulskiego, prowadzi narrację. Wspomina dawne czasy i zainteresowanie Wokulskim.
-- **Stanisław Wokulski:** kupiec, były uczestnik powstania styczniowego, zakochuje się w Izabeli Łęckiej, arystokratce, z którą spotyka się dzięki wydarzeniom w teatrze i salonach.
-- **Relacja z Izabelą:** Wokulski zabiega o jej względy, ale Izabela, zafascynowana bogactwem i arystokracją, nie odwzajemnia uczuć w pełni. Jej ojciec, Tomasz Łęcki, jest zadłużony.
-- **Kariera Wokulskiego:** Wokulski zdobywa majątek, podróżuje, zajmuje się wynalazkami i handlem na szeroką skalę. Chce zrobić karierę, by zbliżyć się do Izabeli.
-- **Konflikt i rozczarowanie:** Izabela pozostaje obojętna, a jej środowisko odrzuca Wokulskiego jako człowieka z nizin społecznych.
-- **Zakończenie:** Wokulski, rozczarowany, znika. Powieść zostawia zakończenie otwarte, sugerując jego samotność i możliwą śmierć.
+- **Tom I, rozdz. I–IV – sklep i powrót Wokulskiego:** Warszawa, początek 1878 r. Stary subiekt Ignacy Rzecki prowadzi galanteryjny sklep J. Mincla i S. Wokulskiego. W swoim pamiętniku wspomina młodość, Napoleona i udział w Wiośnie Ludów na Węgrzech (1848–1849). Stanisław Wokulski wraca z wojny rosyjsko-tureckiej, na której jako dostawca dla armii zarobił ogromny majątek. Plotkuje się o nim w mieście. Rzecki przypomina jego przeszłość: był subiektem w winiarni Hopfera, uczył się nocami, studiował w Szkole Przygotowawczej, wziął udział w powstaniu styczniowym, został zesłany na Syberię, a po powrocie ożenił się z dużo starszą wdową Małgorzatą Minclową, by wyjść z nędzy. Po jej śmierci odziedziczył sklep.
+- **Tom I, rozdz. V–IX – Izabela, Powiśle i nowe interesy:** Wokulski od czasu, gdy zobaczył w teatrze Izabelę Łęcką, jest w niej zakochany i to dla niej zdobywał majątek. Arystokratyczny ród Łęckich jest zrujnowany: ojciec, Tomasz Łęcki, ma długi, a jego kamienica pójdzie na licytację. Izabela żyje w świecie salonów, gardzi „kupcami” i marzy o życiu bez trosk. Wokulski potajemnie skupuje weksle Łęckiego, kupuje jego srebrny serwis i pomaga mu bez jego wiedzy. Podczas samotnej wędrówki po Powiślu (rozdział „Medytacje”) widzi nędzę ludu warszawskiego i rozmyśla o swoim życiu. Pomaga biednym – furmanowi Wysockiemu, któremu daje pracę, a jego bratu załatwia posadę dróżnika w Skierniewicach, oraz młodemu Węgiełkowi.
+- **Tom I, rozdz. X–XX – wejście do „wielkiego świata”:** Wokulski stopniowo zbliża się do Łęckich. Daje hojną składkę podczas wielkanocnej kwesty u Grobu Pańskiego, w której uczestniczy Izabela, i zyskuje przychylność hrabiny Karolowej. Pomaga prostytutce Mariannie wydostać się z domu publicznego. Kupuje na licytacji kamienicę Łęckich (płacąc więcej, niż jest warta), zakłada spółkę do handlu ze Wschodem. Kupuje konia wyścigowego; dochodzi też do pojedynku z baronem Krzeszowskim (baron zostaje ranny). Wokulski poznaje młodego wynalazcę Juliana Ochockiego i zaczyna marzyć o nauce. Rzecki obserwuje zmiany w swoim pryncypale z niepokojem, a w swoim pamiętniku wraca do wspomnień o młodości i rodzinie Minclów.
+- **Tom II – Paryż, Zasławek, sprawa lalki:** Wokulski wyjeżdża w interesach do Paryża. Tam poznaje uczonego Geista, który pracuje nad metalem lżejszym od powietrza; Wokulski waha się, czy nie poświęcić się nauce, ale wraca do Warszawy dla Izabeli. Rzecki próbuje swatać go z panią Heleną Stawską, której mąż zaginął. Zamieszkująca w kamienicy Wokulskiego baronowa Krzeszowska oskarża Stawską o kradzież lalki należącej do jej zmarłej córki; w sądzie okazuje się, że lalka została kupiona w sklepie Wokulskiego, i Stawska zostaje uniewinniona (od tego epizodu pochodzi tytuł). Wokulski bywa w majątku prezesowej Zasławskiej, gdzie spotyka Izabelę i jej kuzyna Kazimierza Starskiego, z którym Izabela flirtuje. W końcu oświadcza się i zostaje przyjęty.
+- **Tom II – katastrofa i otwarte zakończenie:** Podczas podróży pociągiem do Krakowa Izabela i Starski rozmawiają po angielsku, sądząc, że Wokulski ich nie rozumie, i drwią z niego. Wokulski wysiada w Skierniewicach i rzuca się na tory; ratuje go dróżnik Wysocki. Wokulski zrywa z Izabelą, porzuca interesy, sprzedaje sklep Henrykowi Szlangbaumowi i znika. Rzecki, osamotniony i rozczarowany, umiera. Izabela po zerwaniu zapowiada wstąpienie do klasztoru. Ochocki opowiada, że Wokulski był widziany w Dąbrowie, gdzie kupował dynamit, a niedługo potem wysadzono ruiny zamku w Zasławiu. Ostatni rozdział, zatytułowany „…?…”, nie rozstrzyga, czy Wokulski zginął, czy wyjechał (np. do Geista).
 
 **Znaczenie kluczowych wydarzeń:** losy Wokulskiego pokazują konflikt między pracą, ambicją a uczuciem oraz zderzenie dwóch światów: mieszczaństwa i arystokracji.
 
 ### C. Bohaterowie
 
-- **Stanisław Wokulski** – kupiec, człowiek pracy. Cechy: inteligencja, samodyscyplina, romantyczna miłość, dystans wobec arystokracji. Decyzje: zakup sklepu, podróże, inwestycje. Zmienia się: od pracowitego kupca do zrezygnowanego człowieka. Wymowa: pozytywistyczny ideał pracy i jego granice.
+- **Stanisław Wokulski** – kupiec, człowiek pracy. Cechy: inteligencja, samodyscyplina, romantyczna miłość, dystans wobec arystokracji. Decyzje: zdobycie majątku na wojnie, spółka do handlu ze Wschodem, starania o Izabelę, wyjazd do Paryża. Zmienia się: od pracowitego kupca do zrezygnowanego człowieka. Wymowa: pozytywistyczny ideał pracy i jego granice.
 - **Izabela Łęcka** – arystokratka. Cechy: próżność, egoizm, fascynacja luksusem, ale i wrażliwość. Decyzje: odrzucenie Wokulskiego. Zmienia się: od obojętności do rozczarowania. Wymowa: arystokracja jako świat pozoru.
-- **Ignacy Rzecki** – subiekt i narrator. Cechy: lojalność, przywiązanie do Wokulskiego, konserwatyzm. Rola: pośrednik między czytelnikiem a bohaterem.
+- **Ignacy Rzecki** – stary subiekt, autor „Pamiętnika starego subiekta”. Cechy: lojalność, przywiązanie do Wokulskiego, idealizm, wiara w Napoleonidów. Rola: drugi narrator, człowiek romantycznej epoki.
 - **Tomasz Łęcki** – ojciec Izabeli, zadłużony arystokrata. Rola: symbol upadku starego świata.
 - **Julian Ochocki** – młody wynalazca. Rola: symbol nowoczesności i postępu.
 
@@ -159,6 +157,7 @@
 
 - **Autor:** Bolesław Prus.
 - **Epoka:** pozytywizm.
+- **Data publikacji:** 1874–1911, głównie w „Kurierze Warszawskim” i „Kurierze Codziennym”.
 - **Rodzaj i gatunek:** felietony (publicystyka, kroniki tygodniowe w prasie).
 - **Czas i miejsce akcji:** Warszawa, XIX w.; kroniki odnoszą się do bieżących wydarzeń.
 - **Geneza:** cykl felietonów, w których Prus komentował życie społeczne, obyczaje i problemy miasta.
@@ -233,6 +232,7 @@
 
 - **Autor:** Henryk Sienkiewicz (1846–1916), pisarz pozytywistyczny, noblista (1905).
 - **Epoka:** pozytywizm.
+- **Data publikacji:** 1876–1878, w odcinkach w „Gazecie Polskiej”.
 - **Rodzaj i gatunek:** reportaż podróżniczy, listy z podróży.
 - **Czas i miejsce akcji:** podróż Sienkiewicza do Stanów Zjednoczonych w latach 1876–1878.
 - **Geneza:** listy publikowane w prasie, opisujące amerykańskie realia i wrażenia autora.

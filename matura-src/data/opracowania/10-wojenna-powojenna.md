@@ -46,9 +46,10 @@
 
 - **Początek:** w Oranie pojawiają się martwe szczury, a potem zaczynają umierać ludzie. Władze początkowo zwlekają z reakcją.
 - **Epidemia:** miasto zostaje odcięte od świata, a mieszkańcy tracą kontakt z bliskimi. Dżuma rozprzestrzenia się, a życie codzienne ulega przemianom.
-- **Postawy:** bohaterowie reagują różnie: Rieux, lekarz, walczy z chorobą; Tarrou organizuje pomoc; Cottard korzysta z chaosu; Grand pisze powieść, która nigdy nie zostaje ukończona; Rambert chce uciec do ukochanej.
+- **Postawy:** bohaterowie reagują różnie: Rieux, lekarz, walczy z chorobą; Tarrou organizuje pomoc; Cottard korzysta z chaosu; Grand pisze powieść, która nigdy nie zostaje ukończona; Rambert chce uciec do ukochanej w Paryżu, ale w końcu zostaje i pomaga w walce z epidemią.
 - **Walka:** Rieux i jego współpracownicy, mimo beznadziei, prowadzą walkę z chorobą. Tarrou tworzy oddziały sanitarne.
-- **Zakończenie:** epidemia wygasa. Rieux, ukrywając rękopis, zauważa, że dżuma nigdy nie znika; może powrócić.
+- **Ofiary:** na oczach Rieux i Paneloux umiera w męczarniach syn sędziego Othona, co wstrząsa księdzem; Paneloux sam choruje i umiera. Pod koniec epidemii umiera Tarrou, a Rieux dowiaduje się o śmierci żony, która leczyła się poza miastem.
+- **Zakończenie:** po około dziesięciu miesiącach epidemia wygasa, bramy miasta zostają otwarte. Cottard, który bał się powrotu do normalności, strzela do ludzi i zostaje aresztowany. Rieux ujawnia, że to on jest narratorem kroniki; wie, że bakcyl dżumy nie umiera nigdy i może znów obudzić szczury.
 
 *Do sprawdzenia: szczegółowa chronologia i role drugoplanowych postaci.*
 
@@ -60,7 +61,7 @@
 - **Jean Tarrou** – przyjaciel Rieux, organizator oddziałów sanitarnych. Cechy: idealizm, refleksja, empatia. Rola: symbol świadomego zaangażowania.
 - **Cottard** – człowiek, który zyskuje na chaosie. Rola: symbol oportunizmu.
 - **Joseph Grand** – urzędnik, który marzy o napisaniu idealnego zdania. Rola: symbol zwykłego człowieka wobec beznadziei.
-- **Raymond Rambert** – dziennikarz, który chce uciec do żony. Rola: symbol decyzji między osobistym szczęściem a solidarnością.
+- **Raymond Rambert** – paryski dziennikarz, który chce uciec do ukochanej, ale zostaje, uznając, że wstydem byłoby być szczęśliwym samemu. Rola: symbol decyzji między osobistym szczęściem a solidarnością.
 - **Ojciec Paneloux** – ksiądz, który interpretuje epidemię jako karę Bożą. Rola: symbol postawy religijnej.
 
 ### D. Problematyka i interpretacja
@@ -161,7 +162,7 @@
 - **Epoka:** literatura powojenna.
 - **Data publikacji:** 1949 r. (Wielka Brytania).
 - **Rodzaj i gatunek:** powieść antyutopijna, dystopia polityczna.
-- **Czas i miejsce akcji:** rok 1984, Oceania (państwo totalitarne), Londyn (miasto Airstrip One).
+- **Czas i miejsce akcji:** rok 1984 (według Partii), Londyn – główne miasto Pasa Startowego Jeden, prowincji totalitarnej Oceanii.
 - **Geneza:** Orwell opisuje świat rządzony przez totalitarne państwo, inspirowany doświadczeniami nazizmu, stalinizmu i propagandy.
 
 ### B. Szczegółowe streszczenie
@@ -171,9 +172,9 @@
 - **Początek:** Winston Smith, pracownik Ministerstwa Prawdy, przepisuje historię tak, by była zgodna z aktualną propagandą Partii.
 - **Bunt:** Winston zaczyna prowadzić dziennik, co jest przestępstwem. Nawiązuje związek z Julią, która również sprzeciwia się systemowi.
 - **Ruch oporu:** Winston i Julia poznają O’Briena, który pozornie jest członkiem ruchu oporu.
-- **Aresztowanie:** O’Brien zdradza ich. Winston zostaje uwięziony i poddany torturom w Ministerstwie Miłości.
-- **Pokój 101:** Winston zostaje zmuszony do zdradzenia Julii, a następnie do pokochania Wielkiego Brata.
-- **Zakończenie:** Winston akceptuje system, czując, że pokonał swoją wolę.
+- **Aresztowanie:** Winston i Julia zostają aresztowani w pokoju nad sklepem pana Charringtona, który okazuje się agentem Policji Myśli. O’Brien to w rzeczywistości funkcjonariusz Partii. Winston jest torturowany w Ministerstwie Miłości.
+- **Pokój 101:** w obliczu swojego największego lęku – klatki ze szczurami – Winston zdradza Julię.
+- **Zakończenie:** złamany Winston siedzi w kawiarni Pod Kasztanem, spotyka obojętną Julię i w końcu „kocha Wielkiego Brata”.
 
 *Do sprawdzenia: szczegóły scen z Ministerstwa Miłości i funkcje postaci.*
 
@@ -280,24 +281,25 @@
 
 ### A. Informacje podstawowe
 
-- **Autorka:** Hanna Krall (ur. 1937), polska reporterka i pisarka.
+- **Autorka:** Hanna Krall (ur. 1935), polska reporterka i pisarka.
 - **Epoka:** literatura powojenna.
 - **Data publikacji:** 1977 r.
-- **Rodzaj i gatunek:** reportaż literacki, wywiad-rzeka.
-- **Czas i miejsce akcji:** Warszawa, getto warszawskie (1943), powstanie w getcie; relacja z lat 40.
+- **Rodzaj i gatunek:** reportaż literacki oparty na rozmowach (wywiad z elementami reportażu).
+- **Czas i miejsce akcji:** dwa plany – getto warszawskie (1940–1943, powstanie w kwietniu 1943 r.) oraz lata 70. w Łodzi, gdzie Edelman pracuje jako kardiolog.
 - **Geneza:** Krall przeprowadziła rozmowy z Markiem Edelmanem, jednym z przywódców powstania w getcie warszawskim.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: fragmenty wymagane przez CKE do potwierdzenia. Poniżej ogólna charakterystyka.*
-
-- Książka oparta na rozmowach z Markiem Edelmanem, który opowiada o powstaniu w getcie warszawskim, o swoich decyzjach i o ludziach, z którymi walczył.
-- Krall zachowuje dokumentalną precyzję i jednocześnie pokazuje emocje i moralne dylematy.
-- Tekst porusza pytania o odpowiedzialność, pamięć i sens ratowania życia.
+- **Getto:** Edelman, jedyny żyjący członek dowództwa Żydowskiej Organizacji Bojowej (zastępca Mordechaja Anielewicza), opowiada o życiu w getcie, głodzie i wywózkach z Umschlagplatzu, gdzie jako goniec szpitalny stał i wyciągał z tłumu ludzi skazanych na śmierć. Wspomina Polę Lifszyc, która dobrowolnie poszła z matką do wagonu.
+- **Powstanie:** mówi bez patosu: powstańcy wiedzieli, że przegrają, ale chcieli wybrać, jak umrzeć – nie biernie, w komorze gazowej, lecz z bronią w ręku. Opowiada o śmierci Anielewicza w bunkrze przy Miłej 18 i o wyjściu kanałami.
+- **Szpital w Łodzi:** drugi plan to praca Edelmana jako kardiologa i operacje prof. Jana Molla, który jako jeden z pierwszych w Polsce przeprowadzał operacje na otwartym sercu. Ratowanie chorych jest dla Edelmana dalszym ciągiem walki o życie.
+- **Tytuł:** Edelman mówi, że Pan Bóg chce zgasić świeczkę, a on musi szybko osłonić płomień – zdążyć przed Panem Bogiem.
 
 ### C. Bohaterowie
 
-- **Marek Edelman** – jeden z przywódców powstania w getcie. Cechy: odwaga, skromność, pamięć. Rola: świadek i bohater relacji.
+- **Marek Edelman** – jeden z przywódców powstania w getcie (zastępca Anielewicza), po wojnie kardiolog w Łodzi. Cechy: odwaga, skromność, ironia, niechęć do patosu.
+- **Mordechaj Anielewicz** – przywódca ŻOB, zginął w bunkrze przy Miłej 18.
+- **Prof. Jan Moll** – kardiochirurg, z którym Edelman ratuje pacjentów.
 - **Narratorka (Hanna Krall)** – reporterka, pytająca i interpretująca.
 
 ### D. Problematyka i interpretacja

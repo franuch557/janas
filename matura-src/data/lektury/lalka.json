@@ -19,7 +19,7 @@
         {
           "typ": "punkt",
           "etykieta": "Data publikacji",
-          "tekst": "1887–1889 (w odcinkach w „Kurierze Warszawskim”, w 1890 r. jako książka)."
+          "tekst": "1887–1889 (w odcinkach w „Kurierze Codziennym”, w 1890 r. jako książka)."
         },
         {
           "typ": "punkt",
@@ -29,7 +29,12 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Warszawa, lata 1878–1879 (po powstaniu styczniowym); akcja obejmuje także podróż Wokulskiego do Bułgarii i Paryża."
+          "tekst": "głównie Warszawa, lata 1878–1879; także Paryż, Zasławek i Skierniewice. W „Pamiętniku starego subiekta” – wspomnienia z lat 1837–1878 (m.in. Wiosna Ludów na Węgrzech). Majątek Wokulski zdobył wcześniej w Bułgarii, jako dostawca dla armii w wojnie rosyjsko-tureckiej (1877–1878)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Narracja",
+          "tekst": "dwutorowa – narrator trzecioosobowy, wszechwiedzący, oraz pierwszoosobowy „Pamiętnik starego subiekta” Ignacego Rzeckiego."
         },
         {
           "typ": "punkt",
@@ -42,38 +47,29 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: powieść jest długa; poniżej przebieg najważniejszych wątków. Sekwencje scen sprawdź w wydaniu.*"
+          "typ": "punkt",
+          "etykieta": "Tom I, rozdz. I–IV – sklep i powrót Wokulskiego",
+          "tekst": "Warszawa, początek 1878 r. Stary subiekt Ignacy Rzecki prowadzi galanteryjny sklep J. Mincla i S. Wokulskiego. W swoim pamiętniku wspomina młodość, Napoleona i udział w Wiośnie Ludów na Węgrzech (1848–1849). Stanisław Wokulski wraca z wojny rosyjsko-tureckiej, na której jako dostawca dla armii zarobił ogromny majątek. Plotkuje się o nim w mieście. Rzecki przypomina jego przeszłość: był subiektem w winiarni Hopfera, uczył się nocami, studiował w Szkole Przygotowawczej, wziął udział w powstaniu styczniowym, został zesłany na Syberię, a po powrocie ożenił się z dużo starszą wdową Małgorzatą Minclową, by wyjść z nędzy. Po jej śmierci odziedziczył sklep."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wprowadzenie",
-          "tekst": "Ignacy Rzecki, subiekt w sklepie Wokulskiego, prowadzi narrację. Wspomina dawne czasy i zainteresowanie Wokulskim."
+          "etykieta": "Tom I, rozdz. V–IX – Izabela, Powiśle i nowe interesy",
+          "tekst": "Wokulski od czasu, gdy zobaczył w teatrze Izabelę Łęcką, jest w niej zakochany i to dla niej zdobywał majątek. Arystokratyczny ród Łęckich jest zrujnowany: ojciec, Tomasz Łęcki, ma długi, a jego kamienica pójdzie na licytację. Izabela żyje w świecie salonów, gardzi „kupcami” i marzy o życiu bez trosk. Wokulski potajemnie skupuje weksle Łęckiego, kupuje jego srebrny serwis i pomaga mu bez jego wiedzy. Podczas samotnej wędrówki po Powiślu (rozdział „Medytacje”) widzi nędzę ludu warszawskiego i rozmyśla o swoim życiu. Pomaga biednym – furmanowi Wysockiemu, któremu daje pracę, a jego bratu załatwia posadę dróżnika w Skierniewicach, oraz młodemu Węgiełkowi."
         },
         {
           "typ": "punkt",
-          "etykieta": "Stanisław Wokulski",
-          "tekst": "kupiec, były uczestnik powstania styczniowego, zakochuje się w Izabeli Łęckiej, arystokratce, z którą spotyka się dzięki wydarzeniom w teatrze i salonach."
+          "etykieta": "Tom I, rozdz. X–XX – wejście do „wielkiego świata”",
+          "tekst": "Wokulski stopniowo zbliża się do Łęckich. Daje hojną składkę podczas wielkanocnej kwesty u Grobu Pańskiego, w której uczestniczy Izabela, i zyskuje przychylność hrabiny Karolowej. Pomaga prostytutce Mariannie wydostać się z domu publicznego. Kupuje na licytacji kamienicę Łęckich (płacąc więcej, niż jest warta), zakłada spółkę do handlu ze Wschodem. Kupuje konia wyścigowego; dochodzi też do pojedynku z baronem Krzeszowskim (baron zostaje ranny). Wokulski poznaje młodego wynalazcę Juliana Ochockiego i zaczyna marzyć o nauce. Rzecki obserwuje zmiany w swoim pryncypale z niepokojem, a w swoim pamiętniku wraca do wspomnień o młodości i rodzinie Minclów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Relacja z Izabelą",
-          "tekst": "Wokulski zabiega o jej względy, ale Izabela, zafascynowana bogactwem i arystokracją, nie odwzajemnia uczuć w pełni. Jej ojciec, Tomasz Łęcki, jest zadłużony."
+          "etykieta": "Tom II – Paryż, Zasławek, sprawa lalki",
+          "tekst": "Wokulski wyjeżdża w interesach do Paryża. Tam poznaje uczonego Geista, który pracuje nad metalem lżejszym od powietrza; Wokulski waha się, czy nie poświęcić się nauce, ale wraca do Warszawy dla Izabeli. Rzecki próbuje swatać go z panią Heleną Stawską, której mąż zaginął. Zamieszkująca w kamienicy Wokulskiego baronowa Krzeszowska oskarża Stawską o kradzież lalki należącej do jej zmarłej córki; w sądzie okazuje się, że lalka została kupiona w sklepie Wokulskiego, i Stawska zostaje uniewinniona (od tego epizodu pochodzi tytuł). Wokulski bywa w majątku prezesowej Zasławskiej, gdzie spotyka Izabelę i jej kuzyna Kazimierza Starskiego, z którym Izabela flirtuje. W końcu oświadcza się i zostaje przyjęty."
         },
         {
           "typ": "punkt",
-          "etykieta": "Kariera Wokulskiego",
-          "tekst": "Wokulski zdobywa majątek, podróżuje, zajmuje się wynalazkami i handlem na szeroką skalę. Chce zrobić karierę, by zbliżyć się do Izabeli."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Konflikt i rozczarowanie",
-          "tekst": "Izabela pozostaje obojętna, a jej środowisko odrzuca Wokulskiego jako człowieka z nizin społecznych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "Wokulski, rozczarowany, znika. Powieść zostawia zakończenie otwarte, sugerując jego samotność i możliwą śmierć."
+          "etykieta": "Tom II – katastrofa i otwarte zakończenie",
+          "tekst": "Podczas podróży pociągiem do Krakowa Izabela i Starski rozmawiają po angielsku, sądząc, że Wokulski ich nie rozumie, i drwią z niego. Wokulski wysiada w Skierniewicach i rzuca się na tory; ratuje go dróżnik Wysocki. Wokulski zrywa z Izabelą, porzuca interesy, sprzedaje sklep Henrykowi Szlangbaumowi i znika. Rzecki, osamotniony i rozczarowany, umiera. Izabela po zerwaniu zapowiada wstąpienie do klasztoru. Ochocki opowiada, że Wokulski był widziany w Dąbrowie, gdzie kupował dynamit, a niedługo potem wysadzono ruiny zamku w Zasławiu. Ostatni rozdział, zatytułowany „…?…”, nie rozstrzyga, czy Wokulski zginął, czy wyjechał (np. do Geista)."
         },
         {
           "typ": "akapit",
@@ -87,7 +83,7 @@
         {
           "typ": "punkt",
           "etykieta": "Stanisław Wokulski",
-          "tekst": "kupiec, człowiek pracy. Cechy: inteligencja, samodyscyplina, romantyczna miłość, dystans wobec arystokracji. Decyzje: zakup sklepu, podróże, inwestycje. Zmienia się: od pracowitego kupca do zrezygnowanego człowieka. Wymowa: pozytywistyczny ideał pracy i jego granice."
+          "tekst": "kupiec, człowiek pracy. Cechy: inteligencja, samodyscyplina, romantyczna miłość, dystans wobec arystokracji. Decyzje: zdobycie majątku na wojnie, spółka do handlu ze Wschodem, starania o Izabelę, wyjazd do Paryża. Zmienia się: od pracowitego kupca do zrezygnowanego człowieka. Wymowa: pozytywistyczny ideał pracy i jego granice."
         },
         {
           "typ": "punkt",
@@ -97,7 +93,7 @@
         {
           "typ": "punkt",
           "etykieta": "Ignacy Rzecki",
-          "tekst": "subiekt i narrator. Cechy: lojalność, przywiązanie do Wokulskiego, konserwatyzm. Rola: pośrednik między czytelnikiem a bohaterem."
+          "tekst": "stary subiekt, autor „Pamiętnika starego subiekta”. Cechy: lojalność, przywiązanie do Wokulskiego, idealizm, wiara w Napoleonidów. Rola: drugi narrator, człowiek romantycznej epoki."
         },
         {
           "typ": "punkt",

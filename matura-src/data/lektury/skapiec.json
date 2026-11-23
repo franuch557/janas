@@ -24,7 +24,7 @@
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "komedia charakteru w pięciu aktach, wierszem (białym wierszem – aleksandrynem)."
+          "tekst": "dramat; komedia charakterów w pięciu aktach, napisana prozą."
         },
         {
           "typ": "punkt",
@@ -48,17 +48,22 @@
         {
           "typ": "punkt",
           "etykieta": "Początek",
-          "tekst": "Harpagon, bogaty i skąpy ojciec, ukrywa w ogrodzie kasetkę z pieniędzmi. Jego dzieci, Kleant i Elżbieta, mają swoje miłości, których on nie akceptuje."
+          "tekst": "Harpagon, bogaty i skąpy ojciec, ukrywa w ogrodzie szkatułkę z pieniędzmi. Jego dzieci, Kleant i Elżbieta, mają swoje miłości, których on nie akceptuje."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lichwa",
+          "tekst": "Kleant potrzebuje pieniędzy i przez pośrednika szuka pożyczki na lichwiarski procent. Okazuje się, że lichwiarzem jest jego własny ojciec."
         },
         {
           "typ": "punkt",
           "etykieta": "Kradzież",
-          "tekst": "służący La Flèche kradnie kasetkę. Harpagon wpada w rozpacz, podejrzewa wszystkich."
+          "tekst": "La Flèche, służący Kleanta, kradnie szkatułkę. Harpagon wpada w rozpacz (słynny monolog, w którym podejrzewa wszystkich, nawet samego siebie) i każe aresztować całe miasto."
         },
         {
           "typ": "punkt",
           "etykieta": "Plany matrymonialne",
-          "tekst": "Harpagon chce poślubić Marianę, ukochaną syna. Kleant jest w długach i nie może liczyć na wsparcie ojca."
+          "tekst": "Harpagon chce poślubić młodą Marianę, ukochaną syna, a córkę Elżbietę wydać za bogatego starca Anzelma, bo ten weźmie ją „bez posagu”."
         },
         {
           "typ": "punkt",
@@ -68,7 +73,7 @@
         {
           "typ": "punkt",
           "etykieta": "Rozwiązanie",
-          "tekst": "okazuje się, że Anzelm jest ojcem Walera i Mariany. Małżeństwa młodych zostają zawarte, a Harpagon odzyskuje kasetkę, ale traci pozycję w rodzinie."
+          "tekst": "okazuje się, że Anzelm jest zaginionym ojcem Walera i Mariany. Harpagon zgadza się na śluby Kleanta z Marianą i Elżbiety z Walerem, gdy dostaje z powrotem szkatułkę, a Anzelm bierze na siebie wszystkie koszty. Harpagon zostaje sam ze swoimi pieniędzmi."
         },
         {
           "typ": "akapit",
@@ -97,7 +102,7 @@
         {
           "typ": "punkt",
           "etykieta": "Waler",
-          "tekst": "służący Harpagona, ukochany Elżbiety."
+          "tekst": "ukochany Elżbiety; by być blisko niej, służy u Harpagona jako zarządca domu i schlebia mu."
         },
         {
           "typ": "punkt",
@@ -107,12 +112,12 @@
         {
           "typ": "punkt",
           "etykieta": "La Flèche",
-          "tekst": "służący, który kradnie kasetkę."
+          "tekst": "sprytny służący Kleanta, który kradnie szkatułkę."
         },
         {
           "typ": "punkt",
           "etykieta": "Frozyna",
-          "tekst": "swatka."
+          "tekst": "swatka, która chce zarobić na pośredniczeniu w małżeństwie Harpagona z Marianą."
         }
       ]
     },
@@ -159,7 +164,7 @@
           "typ": "punkt",
           "nr": 2,
           "etykieta": "Miłość",
-          "tekst": "młodych bohaterów. *Wykorzystanie:* zestawienie z *Makbetem* (władza a miłość) lub z *Odą do młodości*."
+          "tekst": "młodych bohaterów. *Wykorzystanie:* zestawienie z *Lalką* (miłość a pieniądz)."
         },
         {
           "typ": "punkt",
@@ -180,8 +185,8 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Kasetka",
-          "tekst": "symbol pieniądza i jego władzy."
+          "etykieta": "Szkatułka",
+          "tekst": "symbol pieniądza i jego władzy nad człowiekiem."
         },
         {
           "typ": "punkt",
@@ -305,7 +310,7 @@
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Kto kradnie kasetkę?"
+          "tekst": "Kto kradnie szkatułkę?"
         },
         {
           "typ": "punkt",
@@ -335,7 +340,7 @@
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Jak kończy się sprawa kasetki?"
+          "tekst": "Jak kończy się sprawa szkatułki?"
         },
         {
           "typ": "punkt",
@@ -397,7 +402,7 @@
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Kasetkę z pieniędzmi."
+          "tekst": "Szkatułkę z pieniędzmi."
         },
         {
           "typ": "punkt",
@@ -433,7 +438,7 @@
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Harpagon odzyskuje kasetkę, ale traci pozycję."
+          "tekst": "Harpagon odzyskuje szkatułkę i zostaje z nią sam."
         },
         {
           "typ": "punkt",

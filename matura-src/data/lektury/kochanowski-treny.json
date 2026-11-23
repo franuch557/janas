@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "utwór nie ma akcji w sensie fabularnym; poeta przeżywa żałobę po śmierci córki Urszulki, zmarłej w 1579 r. w wieku około 2,5 roku. Miejsce: czasy autorskie, Czarnolas i Kraków."
+          "tekst": "utwór nie ma akcji w sensie fabularnym; poeta przeżywa żałobę po śmierci córki Urszulki, zmarłej w 1579 r. w wieku około 2,5 roku (Czarnolas)."
         },
         {
           "typ": "punkt",
@@ -62,8 +62,13 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Tren XIX",
-          "tekst": "ostatni utwór cyklu, w którym żałoba zostaje zamknięta."
+          "etykieta": "Treny IX–XI (kryzys)",
+          "tekst": "ojciec wątpi w mądrość filozofów (IX), w istnienie życia pozagrobowego (X, „Orszulo moja wdzięczna, gdzieś mi się podziała?”) i w sens cnoty (XI, „Fraszka cnota!”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Tren XIX albo Sen",
+          "tekst": "ostatni utwór cyklu. We śnie przychodzi do poety zmarła matka z Urszulką na ręku i pociesza go: córka jest szczęśliwa w niebie, a człowiek powinien „ludzkie przygody ludzkie znosić”. Żałoba zostaje zamknięta."
         },
         {
           "typ": "akapit",

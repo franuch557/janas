@@ -18,23 +18,23 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Data powstania",
-          "tekst": "1823–1832 (wydanie 1823, Wilno; ostateczna wersja w 1832 r.; pierwsze wydanie części II w 1823 r.)."
+          "etykieta": "Data wydania",
+          "tekst": "1823 r., Wilno – razem z częścią IV w tomie II „Poezji” (tzw. „Dziady wileńsko-kowieńskie”)."
         },
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "dramat romantyczny (dramat wieszcza), cz. II – rytualna scena obrzędu dziadów z ks. Piotrem i Gustawem."
+          "tekst": "dramat romantyczny (dramat obrzędowy, z elementami liryki i ballady); fragmentaryczny, otwarty."
         },
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Litwa, noc z 31 października na 1 listopada (Zaduszki), kaplica filomatów, więzienie w Wilnie, lata 20. XIX w."
+          "tekst": "noc Dziadów (jesienne święto zmarłych), kaplica na cmentarzu na Litwie (Białorusi)."
         },
         {
           "typ": "punkt",
           "etykieta": "Geneza",
-          "tekst": "prześladowania filomatów i filaretów przez władze carskie; cykl *Dziadów* jest wyrazem bólu, buntu i religijności."
+          "tekst": "obrzęd Dziadów obchodzony na Litwie i Białorusi – przywoływanie dusz zmarłych i ofiarowywanie im jadła i napoju. Mickiewicz poznał go z ludowych opowieści; w przedmowie pisze, że obrzęd przetrwał z czasów pogańskich."
         }
       ]
     },
@@ -42,41 +42,33 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Cz. II jest dramatem składającym się z kilku scen. Poniżej przebieg wydarzeń najczęściej omawianych w szkole.*"
+          "typ": "punkt",
+          "etykieta": "Rozpoczęcie obrzędu",
+          "tekst": "Guślarz z Starcem i chórem wieśniaków zamyka kaplicę i wzywa duchy. Kolejne zjawy dostają to, czego potrzebują, by zaznać spokoju."
         },
         {
           "typ": "punkt",
-          "etykieta": "Obrzęd dziadów",
-          "tekst": "w kaplicy na cmentarzu sprawuje obrzęd Ksiądz (ks. Piotr), wywołując duchy zmarłych. Przychodzi lud wiejski, który przynosi ofiary."
+          "etykieta": "Duchy lekkie – Józio i Rózia",
+          "tekst": "aniołki, dzieci, które za życia znały tylko radość. Nie mogą wejść do nieba, bo nie zaznały goryczy. Proszą o dwa ziarnka gorczycy. Morał: „Kto nie doznał goryczy ni razu, / Ten nie dozna słodyczy w niebie”."
         },
         {
           "typ": "punkt",
-          "etykieta": "Widzenie Gustawa",
-          "tekst": "młody Gustaw, skazany za miłość do Maryli, pojawia się w celi. Przeżywa cierpienie, ból, samotność; prosi o modlitwę."
+          "etykieta": "Duch ciężki – Widmo Złego Pana",
+          "tekst": "okrutny dziedzic, który głodził i krzywdził poddanych. Ptaki nocne (Kruk, Sowa) – dusze jego ofiar – nie pozwalają mu przyjąć jedzenia. Jest skazany na wieczną tułaczkę. Morał: „Bo kto nie był ni razu człowiekiem, / Temu człowiek nic nie pomoże”."
         },
         {
           "typ": "punkt",
-          "etykieta": "Ksiądz i Gustaw",
-          "tekst": "ksiądz rozmawia z Gustawem; ukazuje się mu wizja cierpienia Polski i konfliktu między ludźmi."
+          "etykieta": "Duch pośredni – Zosia, pasterka",
+          "tekst": "piękna dziewczyna, która za życia odrzucała miłość i żyła tylko dla siebie. Teraz unosi się w powietrzu i nie może dotknąć ziemi. Prosi, by przyciągnęli ją ku ziemi młodzi chłopcy. Morał: „Kto nie dotknął ziemi ni razu, / Ten nigdy nie może być w niebie”."
         },
         {
           "typ": "punkt",
-          "etykieta": "Scena w więzieniu (Widzenie Gustawa)",
-          "tekst": "Gustaw wspomina miłość do Maryli i zostaje poddany próbie, przeżywa wizję zbrodni i moralnych dylematów."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "duchy odchodzą, a obrzęd dobiega końca; Gustaw zostaje w cierpieniu."
+          "etykieta": "Widmo milczące",
+          "tekst": "na koniec pojawia się zjawa, która nie odpowiada na zaklęcia i podchodzi do jednej z wieśniaczek (Pasterki). Widmo ma krwawą ranę na sercu. Obrzęd przerywa się bez wyjaśnienia – to zapowiedź Gustawa z IV części."
         },
         {
           "typ": "akapit",
-          "tekst": "*Do sprawdzenia:* kolejność scen i przypisanie konkretnych wizji do Gustawa oraz ks. Piotra."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** obrzęd jest pretekstem do przedstawienia cierpienia zbiorowego (Polski) i indywidualnego (Gustawa)."
+          "tekst": "**Znaczenie kluczowych wydarzeń:** każde widmo ilustruje jedną zasadę ludowej moralności. Razem tworzą obraz porządku moralnego, w którym człowiek musi zaznać cierpienia, być człowiekiem dla innych i kochać."
         }
       ]
     },
@@ -85,23 +77,33 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Ksiądz (ks. Piotr)",
-          "tekst": "duchowny prowadzący obrzęd. Cechy: powaga, religijność, odpowiedzialność. Decyzje: sprawowanie obrzędu, wywoływanie duchów. Rola: pośrednik między światem żywych a zmarłych."
+          "etykieta": "Guślarz",
+          "tekst": "prowadzi obrzęd, zna zaklęcia, pośredniczy między żywymi i zmarłymi."
         },
         {
           "typ": "punkt",
-          "etykieta": "Gustaw",
-          "tekst": "młody uwięziony bohater, alter ego Mickiewicza. Cechy: wrażliwość, cierpienie, bunt. Decyzje: wyznanie miłości, prośba o modlitwę. Zmienia się: od buntu do pokory. Wymowa: cierpienie jednostki jako symbol cierpienia narodu."
+          "etykieta": "Starzec i chór wieśniaków",
+          "tekst": "wspólnota ludowa uczestnicząca w obrzędzie; mówią głosem ludowej mądrości."
         },
         {
           "typ": "punkt",
-          "etykieta": "Duchy",
-          "tekst": "zmarli, cierpiący za życia. Rola: przypomnienie o winie i cierpieniu."
+          "etykieta": "Józio i Rózia",
+          "tekst": "dzieci, duchy lekkie: winne tylko tego, że nie zaznały cierpienia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Lud wiejski",
-          "tekst": "uczestnicy obrzędu. Rola: wspólnota i wiara ludowa."
+          "etykieta": "Widmo Złego Pana",
+          "tekst": "duch ciężki, okrutny dziedzic; ukarany za brak człowieczeństwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zosia",
+          "tekst": "duch pośredni, pasterka, która nie kochała nikogo."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Widmo milczące",
+          "tekst": "zagadkowa zjawa, zapowiedź nieszczęśliwego kochanka Gustawa."
         }
       ]
     },
@@ -111,27 +113,27 @@
         {
           "typ": "punkt",
           "etykieta": "Główny problem",
-          "tekst": "cierpienie jednostki i narodu, sprzeciw wobec niesprawiedliwości, wiara i nadzieja."
+          "tekst": "ludowa moralność i sprawiedliwość po śmierci; związek świata żywych i umarłych."
         },
         {
           "typ": "punkt",
           "etykieta": "Konflikty",
-          "tekst": "jednostka wobec władzy zaborczej, człowiek wobec losu, wiara wobec rozpaczy."
+          "tekst": "wina a kara; egoizm a człowieczeństwo."
         },
         {
           "typ": "punkt",
           "etykieta": "Wartości",
-          "tekst": "patriotyzm, wiara, miłość, solidarność."
+          "tekst": "współczucie, człowieczeństwo, miłość, pełnia ludzkiego doświadczenia (także cierpienia)."
         },
         {
           "typ": "punkt",
           "etykieta": "Przesłanie",
-          "tekst": "cierpienie ma sens, gdy łączy się z wiarą i nadzieją na wyzwolenie."
+          "tekst": "po śmierci obowiązuje sprawiedliwość ludowa – kara za zło wyrządzone ludziom i nagroda za pełne, ludzkie życie."
         },
         {
           "typ": "punkt",
           "etykieta": "Wymowa zakończenia",
-          "tekst": "pozostawienie bohatera w cierpieniu jako symbol narodu."
+          "tekst": "pojawienie się milczącego widma otwiera dramat na dalsze części i zostawia tajemnicę."
         }
       ]
     },
@@ -141,26 +143,26 @@
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Cierpienie",
-          "tekst": "Gustaw. *Wykorzystanie:* zestawienie z *Księgą Hioba* (cierpienie i sens)."
+          "etykieta": "Zaświaty i duchy",
+          "tekst": "obrzęd Dziadów. *Wykorzystanie:* zestawienie z *Romantycznością* (świat niewidzialny) i *Mitologią* (świat zmarłych)."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Bunt",
-          "tekst": "wobec niesprawiedliwości. *Wykorzystanie:* zestawienie z *Antygoną* (sprzeciw wobec władzy)."
+          "etykieta": "Wina i kara",
+          "tekst": "Widmo Złego Pana. *Wykorzystanie:* zestawienie z *Makbetem* i *Zbrodnią i karą*."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Ojczyzna",
-          "tekst": "cierpienie narodu. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim* (cierpienie zbiorowe)."
+          "etykieta": "Cierpienie",
+          "tekst": "gorczyca dla aniołków. *Wykorzystanie:* zestawienie z *Księgą Hioba*."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Miłość",
-          "tekst": "do Maryli. *Wykorzystanie:* zestawienie z *Makbetem* (miłość a zbrodnia)."
+          "etykieta": "Ludowość",
+          "tekst": "wiara i mądrość ludu. *Wykorzystanie:* zestawienie z balladami Mickiewicza i *Weselem* Wyspiańskiego."
         }
       ]
     },
@@ -169,18 +171,18 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Kaplica i cmentarz",
-          "tekst": "miejsce łączące świat żywych i zmarłych."
+          "etykieta": "Ziarnka gorczycy",
+          "tekst": "symbol goryczy, którą trzeba poznać."
         },
         {
           "typ": "punkt",
-          "etykieta": "Duchy",
-          "tekst": "symbol winy i cierpienia."
+          "etykieta": "Kruk i Sowa",
+          "tekst": "dusze krzywdzonych chłopów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Cela",
-          "tekst": "symbol niewoli."
+          "etykieta": "Kaplica zamknięta w nocy",
+          "tekst": "miejsce spotkania dwóch światów."
         }
       ]
     },
@@ -189,18 +191,18 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Historyczny",
-          "tekst": "zabory, prześladowania patriotów (procesy filomatów w 1823 r.)."
+          "etykieta": "Kulturowy",
+          "tekst": "pogański obrzęd Dziadów, kult przodków; Mickiewicz wydał go jako „widowisko” ludowe."
         },
         {
           "typ": "punkt",
-          "etykieta": "Religijny",
-          "tekst": "tradycja ludowa, obrzęd Zaduszek, katolicyzm."
+          "etykieta": "Literacki",
+          "tekst": "romantyczna fascynacja ludowością (ballady), dramat otwarty, mieszanie rodzajów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Filozoficzny",
-          "tekst": "mesjanizm romantyczny."
+          "etykieta": "Społeczny",
+          "tekst": "krzywda chłopów pańszczyźnianych (Widmo Złego Pana)."
         }
       ]
     },
@@ -214,12 +216,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Czy cierpienie jednostki ma sens w służbie narodowi?"
+          "tekst": "Ludowa sprawiedliwość w literaturze romantyzmu."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bunt wobec niesprawiedliwości."
+          "tekst": "Świat zmarłych i jego związek ze światem żywych."
         },
         {
           "typ": "akapit",
@@ -228,7 +230,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Gustaw pokazuje, że cierpienie jednostki staje się symbolem cierpienia narodu."
+          "tekst": "Widmo Złego Pana pokazuje, że kto nie był człowiekiem dla innych, nie dostanie pomocy po śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Aniołki pokazują, że cierpienie jest częścią pełni życia."
         },
         {
           "typ": "akapit",
@@ -237,12 +244,12 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Dziady* cz. II – *Lament świętokrzyski* (cierpienie zbiorowe)."
+          "tekst": "*Dziady* cz. II – *Romantyczność* (świat niewidzialny i wiara ludu)."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Dziady* cz. II – *Antygona* (sprzeciw wobec władzy)."
+          "tekst": "*Dziady* cz. II – *Dziady* cz. III (scena „Noc Dziadów”)."
         }
       ]
     },
@@ -252,22 +259,17 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Dramat romantyczny, 1823–1832."
+          "tekst": "1823 r., Wilno; dramat obrzędowy."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bohaterowie: ksiądz, Gustaw, duchy, lud."
+          "tekst": "Postacie: Guślarz, Starzec, chór; duchy lekkie (Józio i Rózia), ciężki (Zły Pan), pośredni (Zosia), widmo milczące."
         },
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Motywy: cierpienie, bunt, ojczyzna, wiara."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przesłanie: cierpienie w wierze ma sens."
+          "tekst": "Trzy morały o goryczy, człowieczeństwie i miłości."
         }
       ]
     },
@@ -282,61 +284,61 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Jaki obrzęd jest przedstawiony?"
+          "tekst": "Kto prowadzi obrzęd Dziadów?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Kim jest Gustaw?"
+          "tekst": "Gdzie odbywa się obrzęd?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Kto prowadzi obrzęd?"
+          "tekst": "Czego potrzebują Józio i Rózia?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Kiedy rozgrywa się akcja?"
+          "tekst": "Dlaczego Zły Pan nie może przyjąć jedzenia?"
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Gdzie rozgrywa się akcja?"
+          "tekst": "Kim są Kruk i Sowa?"
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Jaki motyw dominuje?"
+          "tekst": "Jaką winę ma Zosia?"
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Kim są duchy?"
+          "tekst": "Czego potrzebuje Zosia?"
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Jaką rolę pełni lud?"
+          "tekst": "Kto pojawia się na końcu?"
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Kto jest adresatem miłości Gustawa?"
+          "tekst": "Kiedy wydano utwór?"
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Jak nazywa się gatunek?"
+          "tekst": "Do jakiej grupy duchów należy Zły Pan?"
         },
         {
           "typ": "akapit",
@@ -346,31 +348,31 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Dlaczego Gustaw jest symbolem narodu?"
+          "tekst": "Jakie zasady moralne przedstawia obrzęd?"
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Jak obrzęd łączy świat żywych i zmarłych?"
+          "tekst": "Dlaczego cierpienie jest potrzebne do zbawienia?"
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Czy bunt Gustawa jest uzasadniony? Uzasadnij."
+          "tekst": "Co mówi utwór o krzywdzie chłopów?"
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Jaką funkcję pełni wiara w utworze?"
+          "tekst": "Jaką funkcję pełni widmo milczące?"
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Dlaczego Mickiewicz wybiera dramat do przedstawienia cierpienia?"
+          "tekst": "Jak *Dziady* cz. II wyrażają program romantyzmu?"
         },
         {
           "typ": "akapit",
@@ -380,91 +382,91 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Obrzęd dziadów."
+          "tekst": "Guślarz."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Młody uwięziony bohater."
+          "tekst": "W kaplicy na cmentarzu."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Ksiądz."
+          "tekst": "Dwóch ziarnek gorczycy."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Noc z 31 października na 1 listopada."
+          "tekst": "Ptaki – dusze jego ofiar – wyrywają mu je."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Litwa, kaplica i cela."
+          "tekst": "Dusze chłopów, których skrzywdził."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Cierpienie."
+          "tekst": "Nie kochała nikogo, żyła tylko dla siebie."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Zmarli."
+          "tekst": "Aby młodzi przyciągnęli ją ku ziemi."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Uczestniczy i łączy się z obrzędem."
+          "tekst": "Widmo milczące z raną na sercu."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Maryla."
+          "tekst": "W 1823 r."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Dramat romantyczny."
+          "tekst": "Do duchów ciężkich."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Jego cierpienie odzwierciedla los narodu."
+          "tekst": "Trzeba poznać cierpienie, być człowiekiem dla innych i kochać."
         },
         {
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Łączy świat żywych i zmarłych."
+          "tekst": "Bo bez goryczy nie można docenić szczęścia."
         },
         {
           "typ": "punkt",
           "nr": 13,
           "etykieta": "",
-          "tekst": "Uzasadniony, bo niesprawiedliwość wywołuje bunt."
+          "tekst": "Pan, który krzywdzi poddanych, ponosi wieczną karę."
         },
         {
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Daje nadzieję i sens cierpienia."
+          "tekst": "Zapowiada Gustawa i łączy części dramatu."
         },
         {
           "typ": "punkt",
           "nr": 15,
           "etykieta": "",
-          "tekst": "Dramat pozwala pokazać cierpienie w sposób obrazowy i zbiorowy."
+          "tekst": "Ludowość, fantastyka, wiara w świat niewidzialny i ludową moralność."
         }
       ]
     }

@@ -428,6 +428,29 @@
           "tekst": "Pokazuje, że wady niszczą państwo."
         }
       ]
+    },
+    {
+      "tytul": "Omówienie najczęściej wybieranych satyr",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "„Do króla”",
+          "tekst": "Satyra skierowana do Stanisława Augusta Poniatowskiego. Pozornie mówca wylicza „wady” króla, w rzeczywistości ośmiesza szlachtę, która mu je zarzuca. Król jest „winny” tego, że nie pochodzi z królewskiego rodu, że jest Polakiem, a nie cudzoziemcem, że był wcześniej szlachcicem równym innym, że był młody, gdy wstąpił na tron, że jest dobry i łagodny zamiast budzić strach, i że kocha książki i uczonych. Ironia pokazuje zawiść, pychę i ciemnotę szlachty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "„Pijaństwo”",
+          "tekst": "Rozmowa dwóch szlachciców. Jeden skarży się na ból głowy: na imieninach żony pił do rana, następnego dnia „na kaca” znowu pił z kompanami, a przy obiedzie, rozprawiając z zapałem o dobru ojczyzny i reformach, opróżnili wiele butelek; skończyło się kłótnią o króla Jana i ciosem butelką w głowę. Klnie pijaństwo, a jego rozmówca wygłasza długą pochwałę trzeźwości i umiaru. Na koniec pierwszy żegna się i mówi, że idzie… napić się wódki. Puenta ośmiesza nałóg i pustotę moralnych deklaracji."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "„Żona modna”",
+          "tekst": "Pan Piotr opowiada przyjacielowi o swoim małżeństwie. Ożenił się dla posagu (czterech wsi) z panną wychowaną w mieście, zapatrzoną w modę francuską. Już intercyza zawierała jej wygórowane żądania (pobyty w stolicy, własny powóz, osobne apartamenty). W podróży do domu żona wiozła psy, kota, ptaki i mysz na łańcuszku, wyśmiewała jego prostotę, a po przyjeździe przebudowała dworek i ogród według mody, lekceważyła starą służbę i urządzała kosztowne bale. Podczas jednego z nich od fajerwerków spłonęła stodoła. W końcu przenieśli się do miasta, a pan Piotr przyznaje, że sam jest sobie winien."
+        }
+      ]
     }
   ]
 }

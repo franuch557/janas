@@ -29,12 +29,12 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Kraków, podkrakowska wieś, jesień (ok. 1900 r.); wesele w domu gospodarza wiejskiego."
+          "tekst": "jedna noc listopadowa 1900 r.; Bronowice pod Krakowem, izba w domu Gospodarza (malarza Włodzimierza Tetmajera)."
         },
         {
           "typ": "punkt",
           "etykieta": "Geneza",
-          "tekst": "inspirowane prawdziwym weselem poety Lucjana Rydla z Jadwigą Mikołajczykówną (w dramacie postaci mają inne, fikcyjne rysy), które odbyło się w Bronowicach. Utwór jest komentarzem do stanu narodu i jego tożsamości na przełomie wieków."
+          "tekst": "inspirowane prawdziwym weselem poety Lucjana Rydla z Jadwigą Mikołajczykówną (prawie wszystkie postacie mają pierwowzory wśród gości), które odbyło się w Bronowicach. Utwór jest komentarzem do stanu narodu i jego tożsamości na przełomie wieków."
         }
       ]
     },
@@ -43,68 +43,15 @@
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: dramat jest złożony, z wieloma postaciami i scenami symbolicznymi. Poniżej przebieg akcji w trzech aktach. Szczegóły scen sprawdź w wydaniu.*"
+          "tekst": "**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią, Panna Młoda pyta, gdzie jest Polska – „A to Polska właśnie” jest w sercu. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie."
         },
         {
           "typ": "akapit",
-          "tekst": "**Akt I – wesele:**"
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Goście (inteligencja krakowska i chłopi) bawią się na weselu poety z wiejską dziewczyną. Atmosfera jest radosna, ale napięta."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Poeta jest zakochany w Jadwidze, która jest panną młodą. Rozmowy gości ujawniają ich postawy wobec narodu, historii i tożsamości."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pojawia się Dziennikarz, który komentuje sytuację społeczną, oraz Gospodarz, który zarządza przebiegiem wesela."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wątki: krytyka inteligencji, pytanie o rolę chłopów w narodzie, polskie mity i symbole."
+          "tekst": "**Akt II – fantastyczny:** przychodzą zjawy, każda do osoby, której sumienie porusza: Widmo (zmarły narzeczony) do Marysi; Stańczyk do Dziennikarza (wręcza mu kaduceusz – symbol bezsilnego słowa); Rycerz Czarny (Zawisza) do Poety; Hetman (Branicki, zdrajca) do Pana Młodego; Upiór (Jakub Szela, przywódca rabacji 1846) do Dziada. Wernyhora, lirnik-prorok, daje Gospodarzowi złoty róg: o świcie trzeba zadąć, by zebrać naród do walki. Gospodarz przekazuje róg Jaśkowi i każe mu objechać okolicę."
         },
         {
           "typ": "akapit",
-          "tekst": "**Akt II – sen/zjawy:**"
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Część bohaterów zapada w sen lub wizję, w której pojawiają się postacie historyczne i symboliczne (m.in. Stańczyk, Wernyhora)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wizje dotyczą wielkich postaci i wydarzeń z historii Polski, a także pytań o przeszłość i przyszłość."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pojawia się symbol Złotego rogu, który ma wezwać do walki."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "**Akt III – przebudzenie:**"
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Bohaterowie wracają do rzeczywistości. Wesele dobiega końca, a w wizji nie ma odpowiedzi na pytania o losy narodu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Chochoł (symbol bierności) zostaje w tle, a zakończenie pokazuje niemożność zjednoczenia się narodu."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: dokładny przebieg wizji, role postaci historycznych i przypisanie scen do aktów.*"
+          "tekst": "**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła."
         },
         {
           "typ": "akapit",
@@ -117,47 +64,48 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Poeta",
-          "tekst": "(Lucjan Rydel w pierwowzorze) – inteligent, zakochany w wiejskiej dziewczynie. Cechy: rozdarcie, pragnienie zjednoczenia z ludem. Rola: reprezentuje inteligencję szukającą kontaktu z narodem."
+          "etykieta": "Pan Młody",
+          "tekst": "(pierwowzór: Lucjan Rydel) – poeta z miasta, który żeni się z chłopką; zachwyca się wsią, ale idealizuje ją i nie rozumie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Panna młoda",
-          "tekst": "(Jadwiga) – chłopka. Rola: symbol ludu i tożsamości narodowej."
+          "etykieta": "Panna Młoda",
+          "tekst": "(Jadwiga Mikołajczykówna) – prosta dziewczyna ze wsi, marząca o świecie z bajki."
         },
         {
           "typ": "punkt",
           "etykieta": "Gospodarz",
-          "tekst": "chłop, gospodarz wesela. Rola: symbol wsi i jej tradycji."
+          "tekst": "(Włodzimierz Tetmajer) – malarz, inteligent żonaty z chłopką; dostaje od Wernyhory złoty róg i zawodzi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Poeta",
+          "tekst": "(Kazimierz Przerwa-Tetmajer) – dekadent, znudzony, marzy o wielkiej sztuce."
         },
         {
           "typ": "punkt",
           "etykieta": "Dziennikarz",
-          "tekst": "komentator. Rola: głos krytyki społecznej."
+          "tekst": "(Rudolf Starzewski, redaktor „Czasu”) – konserwatysta, sceptyk wobec walki o niepodległość."
         },
         {
           "typ": "punkt",
-          "etykieta": "Chochoł",
-          "tekst": "symbol bierności i przywiązania do tradycji. Rola: ukazuje niemożność działania."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Stańczyk",
-          "tekst": "postać historyczna, dworzanin króla, symbol mądrości i ironii. W wizji."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wernyhora",
-          "tekst": "postać wizyjna, prorok. Rola: przekaz przeszłości."
+          "etykieta": "Czepiec",
+          "tekst": "chłop, gotowy do walki, z dumą o wsi."
         },
         {
           "typ": "punkt",
           "etykieta": "Rachela",
-          "tekst": "wizjonerka, symbol nadziei."
+          "tekst": "córka karczmarza, wrażliwa, zakochana w poezji; zaprasza Chochoła."
         },
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: role niektórych postaci zostały uproszczone; sprawdź ich pełny opis w wydaniu.*"
+          "typ": "punkt",
+          "etykieta": "Jasiek",
+          "tekst": "drużba, który gubi złoty róg dla czapki z pawich piór."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zjawy",
+          "tekst": "Chochoł (bierność, uśpienie narodu), Stańczyk (błazen królewski, sumienie narodu), Rycerz Czarny (dawna chwała), Hetman (zdrada), Upiór – Szela (rabacja, krzywda chłopów), Wernyhora (proroctwo odrodzenia Polski)."
         }
       ]
     },

@@ -19,7 +19,7 @@
         {
           "typ": "punkt",
           "etykieta": "Data powstania",
-          "tekst": "1834 r. (Paryż), publikacja 1839 r."
+          "tekst": "1834 r. (w Szwajcarii, w Genewie), wydanie 1839 r. w Paryżu."
         },
         {
           "typ": "punkt",
@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "legendarne czasy pradawne, Grecja/Słowiańszczyzna, las i zamek; akcja nie ma dokładnej dat."
+          "tekst": "legendarne, przedchrześcijańskie czasy Polski (za panowania Popiela), okolice jeziora Gopło: chata wdowy, las, zamek Kirkora, Gniezno."
         },
         {
           "typ": "punkt",
@@ -47,28 +47,28 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "siostry Balladyna i Alina pochodzą z biednej rodziny. Balladyna, ambitna i zazdrosna, pragnie władzy i bogactwa."
+          "etykieta": "Ekspozycja",
+          "tekst": "nad Gopłem nimfa Goplana zakochuje się w prostym chłopie Grabcu i wraz z duchami Skierką i Chochlikiem miesza w losach ludzi. Rycerz Kirkor za radą Pustelnika (wygnanego króla Popiela III) szuka żony wśród ubogich i przychodzi do chaty wdowy, która ma dwie córki: Balladynę i Alinę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zbrodnia",
-          "tekst": "Balladyna zabija Alinę, aby przejąć jej pozycję i ukochanego."
+          "etykieta": "Konkurs na maliny i zbrodnia",
+          "tekst": "matka nie może wybrać, która córka ma poślubić Kirkora, więc ogłasza, że zostanie nią ta, która przyniesie więcej malin. Gdy Alina ma pełny dzbanek, Balladyna zabija ją nożem w lesie. Na czole Balladyny pojawia się krwawa plama."
         },
         {
           "typ": "punkt",
-          "etykieta": "Dalsze zbrodnie",
-          "tekst": "kolejne morderstwa, w tym zabójstwo kolejnych osób związanych z jej karierą, prowadzą do przejęcia władzy."
+          "etykieta": "Żona Kirkora",
+          "tekst": "Balladyna poślubia Kirkora, wypędza z zamku matkę. Zabija Pustelnika, który zna jej tajemnicę, oraz Grabca, by zdobyć koronę, którą miał na głowie. Z pomocą Kostryna zdobywa władzę, a potem otruwa i jego."
         },
         {
           "typ": "punkt",
           "etykieta": "Królowa",
-          "tekst": "Balladyna zostaje królową, ale jej poczucie winy i strach narastają."
+          "tekst": "Kirkor ginie w bitwie. Balladyna zostaje królową w Gnieźnie. Pierwszego dnia rządów sądzi trzy sprawy – zabójstwo Aliny, Pustelnika i porzucenie matki – i za każdą z nich wydaje wyrok śmierci, czyli sądzi samą siebie."
         },
         {
           "typ": "punkt",
           "etykieta": "Zakończenie",
-          "tekst": "Balladyna zostaje ukarana: ginie od pioruna (w wersji tradycyjnej interpretacji – jako kara losu)."
+          "tekst": "gdy wydaje trzeci wyrok, trafia ją piorun."
         },
         {
           "typ": "akapit",
@@ -92,12 +92,27 @@
         {
           "typ": "punkt",
           "etykieta": "Kirkor",
-          "tekst": "rycerz, obiekt uczuć. Rola: symbol władzy i miłości."
+          "tekst": "szlachetny rycerz, idealista szukający żony wśród prostych ludzi; walczy z uzurpatorem Popielem IV."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Matka-wdowa",
+          "tekst": "kocha córki, wypędzona przez Balladynę z zamku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Goplana, Skierka i Chochlik",
+          "tekst": "istoty fantastyczne, które kierują przypadkiem i komplikują losy ludzi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Grabiec",
+          "tekst": "chłop, kochanek Goplany, zamieniony w króla kier."
         },
         {
           "typ": "punkt",
           "etykieta": "Pustelnik",
-          "tekst": "postać duchowa, komentator losu. Rola: symbol kary i moralnego porządku."
+          "tekst": "wygnany król Popiel III; doradza Kirkorowi, zna prawdę o zbrodni Balladyny, zostaje przez nią zabity."
         }
       ]
     },

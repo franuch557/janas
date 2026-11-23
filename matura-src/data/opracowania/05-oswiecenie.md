@@ -35,7 +35,7 @@
 
 - **Autor:** Ignacy Krasicki (1735–1801), biskup warmiński, najwybitniejszy poeta polskiego oświecenia, arcybiskup gnieźnieński.
 - **Epoka:** oświecenie.
-- **Data publikacji:** pierwsze wydanie 1779 r. (zbiór *Bajki i przypowieści*); kolejne wydania w latach 1780–1800.
+- **Data publikacji:** 1779 r. – zbiór *Bajki i przypowieści*; drugi zbiór, *Bajki nowe*, wydano pośmiertnie w 1802 r.
 - **Rodzaj i gatunek:** bajka (krótki utwór alegoryczny, zwykle wierszowany, z morałem).
 - **Czas i miejsce akcji:** bajki nie mają konkretnego czasu i miejsca; akcja dzieje się w świecie zwierząt i ludzi, często w krajobrazie wiejskim lub dworskim.
 - **Geneza:** Krasicki nawiązuje do tradycji Ezopa i La Fontaine'a, przekształcając ją w krytykę obyczajów polskiego społeczeństwa XVIII w.
@@ -48,6 +48,13 @@
 - **Typowe sytuacje:** pycha władców, chciwość, obłuda, głupota, naiwność.
 - **Funkcja morału:** każdą bajkę zamyka wniosek moralny, często ironiczny lub gorzki.
 - **Znaczenie:** bajki Krasickiego są satyrą obyczajową i zarazem dydaktyczną lekcją.
+- **Przykłady najczęściej omawiane:**
+  - *Wstęp do bajek* – świat, w którym „był sobie dziad i baba” i młodzieniec „był statecznym”: same nieprawdopodobieństwa pokazują, że uczciwość i umiar to rzadkość.
+  - *Jagnię i wilcy* – wilki szukają pretekstu, by zjeść jagnię; morał: kto chce kogoś zgubić, zawsze znajdzie przyczynę – mocniejszy ma rację.
+  - *Kruk i lis* – lis pochlebstwem wyłudza od kruka ser; przestroga przed pochlebcami.
+  - *Ptaszki w klatce* – młody czyżyk nie rozumie, dlaczego stary płacze w wygodnej klatce: stary pamięta wolność (odczytywane jako aluzja do niewoli politycznej).
+  - *Szczur i kot* – szczur pyszni się, że to dla niego palą kadzidło, i ginie w łapach kota; morał o pysze.
+  - *Malarze* – lepiej zarabia malarz, który pochlebia klientom, niż ten, który maluje prawdę.
 
 ### C. Bohaterowie
 
@@ -375,12 +382,13 @@
 
 ### Charakterystyka epoki
 
-Oświecenie w Polsce obejmuje około 1730–1800. Epoka wierzy w rozum, postęp i reformy. Literatura pełni funkcję wychowawczą i krytyczną, a Krasicki jest jej najwybitniejszym przedstawicielem w Polsce.
+Oświecenie w Polsce trwało od ok. 1740 r. (reformy Stanisława Konarskiego), a w pełni od 1764 r. (początek panowania Stanisława Augusta), do ok. 1822 r. Epoka wierzy w rozum, postęp i reformy. Literatura pełni funkcję wychowawczą i krytyczną, a Krasicki jest jej najwybitniejszym przedstawicielem w Polsce.
 
 ### Najważniejsze wydarzenia historyczne
 
 - **1755** – trzęsienie ziemi w Lizbonie.
-- **1765–1795** – panowanie Stanisława Augusta Poniatowskiego i reformy.
+- **1764–1795** – panowanie Stanisława Augusta Poniatowskiego i reformy.
+- **1772** – pierwszy rozbiór Polski.
 - **1773** – powstanie Komisji Edukacji Narodowej, pierwszego świeckiego ministerstwa edukacji w Europie.
 - **1791** – Konstytucja 3 maja.
 - **1795** – trzeci rozbiór Polski.

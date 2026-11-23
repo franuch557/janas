@@ -37,7 +37,7 @@
 - **Epoka:** renesans.
 - **Data publikacji:** 1580 r. (Kraków).
 - **Rodzaj i gatunek:** liryka, cykl elegii (żałobnych pieśni), 19 trenów.
-- **Czas i miejsce akcji:** utwór nie ma akcji w sensie fabularnym; poeta przeżywa żałobę po śmierci córki Urszulki, zmarłej w 1579 r. w wieku około 2,5 roku. Miejsce: czasy autorskie, Czarnolas i Kraków.
+- **Czas i miejsce akcji:** utwór nie ma akcji w sensie fabularnym; poeta przeżywa żałobę po śmierci córki Urszulki, zmarłej w 1579 r. w wieku około 2,5 roku (Czarnolas).
 - **Geneza:** cykl powstał po śmierci córki poety. Stanowi osobisty dokument żałoby i jednocześnie artystyczną refleksję nad przemijaniem.
 
 ### B. Szczegółowe streszczenie
@@ -47,7 +47,8 @@
 - **Początek cyklu (Tren I–III):** podmiot mówi o swoim bólu i żalu, poszukuje słów na wyrażenie straty. Pojawiają się pytania o sens cierpienia i o to, dlaczego zmarło dziecko.
 - **Środek cyklu:** poeta wspomina córkę, przywołuje jej obecność w domu, obraz dziecka i codzienność, która się zmieniła. Pojawia się motyw Boga i wiary jako źródła pocieszenia.
 - **Końcowe treny:** poeta dochodzi do pogodzenia się z losem. Zaakceptowanie straty nie oznacza jednak, że ból znika.
-- **Tren XIX:** ostatni utwór cyklu, w którym żałoba zostaje zamknięta.
+- **Treny IX–XI (kryzys):** ojciec wątpi w mądrość filozofów (IX), w istnienie życia pozagrobowego (X, „Orszulo moja wdzięczna, gdzieś mi się podziała?”) i w sens cnoty (XI, „Fraszka cnota!”).
+- **Tren XIX albo Sen:** ostatni utwór cyklu. We śnie przychodzi do poety zmarła matka z Urszulką na ręku i pociesza go: córka jest szczęśliwa w niebie, a człowiek powinien „ludzkie przygody ludzkie znosić”. Żałoba zostaje zamknięta.
 
 **Znaczenie kluczowych wydarzeń:** cykl pokazuje przejście od rozpaczy do pogodzenia się z losem i opisuje etapy żałoby w sposób poetycki.
 
@@ -153,111 +154,120 @@
 
 - **Autor:** Jan Kochanowski.
 - **Epoka:** renesans.
-- **Data publikacji:** 1578 r. (Kraków).
-- **Rodzaj i gatunek:** tragedia (dramat renesansowy), inspirowany antyczną tradycją.
-- **Czas i miejsce akcji:** mityczna Troja, czas wojny trojańskiej (akcja w Troi i w obozie greckim).
-- **Geneza:** utwór pierwszy w literaturze polskiej, który nawiązuje do wzorów antycznej tragedii; pierwsza polska tragedia renesansowa w języku polskim.
+- **Data wystawienia i wydania:** 1578 r. – prapremiera 12 stycznia 1578 r. w Jazdowie pod Warszawą, na weselu kanclerza Jana Zamoyskiego z Krystyną Radziwiłłówną; druk w tym samym roku.
+- **Rodzaj i gatunek:** dramat; tragedia renesansowa wzorowana na tragedii antycznej (chór, zasada trzech jedności, decorum), napisana wierszem bezrymowym (trzynastozgłoskowiec), z rymowanymi pieśniami chóru.
+- **Czas i miejsce akcji:** Troja, jeden dzień przed wybuchem wojny trojańskiej (zasada jedności czasu, miejsca i akcji).
+- **Geneza:** pierwsza oryginalna polska tragedia. Kochanowski wziął wątek z mitu trojańskiego (poselstwo Menelaosa i Odyseusza do Troi wspomina „Iliada”, ks. III), ale problem polityczny dotyczy Rzeczypospolitej szlacheckiej.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: sprawdź w wydaniu źródłowym dokładny przebieg scen, bo poniższe streszczenie opisuje ogólny schemat.*
+- **Monolog Aleksandra (Parysa):** królewicz wie, że posłowie greccy przybyli po Helenę. Liczy na poparcie przekupionego przez siebie Iketaona.
+- **Helena i Pani Stara:** Helena boi się, że zostanie wydana; nie jest pewna, czy wolałaby zostać, czy wrócić do Grecji.
+- **Rada trojańska:** Priam nie podejmuje decyzji sam, tylko oddaje sprawę radzie. Antenor (rozważny, szlachetny) radzi oddać Helenę, by uniknąć wojny i zachować sprawiedliwość. Iketaon (demagog) przekonuje, że oddanie Heleny przyniesie Troi wstyd. Większość, uległa Aleksandrowi, głosuje za zatrzymaniem Heleny.
+- **Odprawa posłów:** Antenor przekazuje decyzję. Ulisses (Odyseusz) wygłasza słynną przestrogę: „O nierządne królestwo i zginienia bliskie, / Gdzie ani prawa ważą, ani sprawiedliwość / Ma miejsca, ale wszytko złotem kupić trzeba!”. Menelaus zapowiada zemstę.
+- **Proroctwo Kasandry:** Kasandra w natchnieniu przepowiada upadek Troi, śmierć Hektora i Priama; nikt jej nie wierzy.
+- **Zakończenie:** Rotmistrz przyprowadza pojmanego Greka – wojska greckie już lądują. Antenor radzi Priamowi przygotować obronę miasta; tragedia kończy się w chwili wybuchu wojny.
 
-- **Wstęp:** poselstwo greckie przybywa do Troi, aby domagać się wydania Heleny i zadośćuczynienia za porwanie.
-- **Rozmowa z Priamem:** król Priam i jego doradcy zastanawiają się nad żądaniami. Przeważa stanowisko odmowy.
-- **Odprawa posłów:** Trojanie odsyłają Greków, zapowiadając wojnę. Posłowie opuszczają miasto.
-- **Chór:** komentuje wydarzenia, przypomina o konsekwencjach pychy i wojny.
-
-**Znaczenie kluczowych wydarzeń:** odprawa posłów jest momentem nieuchronnego wybuchu wojny. Trojanie odrzucają pokojowe rozwiązanie, co prowadzi do katastrofy.
+**Znaczenie kluczowych wydarzeń:** wojna nie wynika z losu, lecz z decyzji ludzi – prywatny interes Aleksandra i przekupstwo wygrały z dobrem państwa.
 
 ### C. Bohaterowie
 
-- **Priam** – król Troi. Cechy: władczość, lęk przed utratą honoru. Decyzje: odrzucenie żądań Greków. Wymowa: władza, która nie chce ustąpić.
-- **Posłowie greccy** – reprezentują żądania Achajów. Rola: symbol dyplomacji i jej porażki.
-- **Chór** – komentator wydarzeń, wyraża wartości moralne i ostrzega przed skutkami wojny.
+- **Aleksander (Parys)** – syn Priama, porywacz Heleny. Stawia własną namiętność ponad dobro państwa; przekupuje doradców. Wymowa: egoizm władzy.
+- **Antenor** – doradca królewski, mądry i uczciwy obywatel. Przedkłada sprawiedliwość i dobro Troi nad prywatę. Wzór obywatela.
+- **Iketaon** – młody, przekupiony mówca, demagog. Wymowa: zepsucie obrad publicznych.
+- **Priam** – król Troi, słaby i niezdecydowany; nie bierze odpowiedzialności, zrzuca decyzję na radę.
+- **Ulisses i Menelaus** – posłowie greccy. Ulisses: rozważny dyplomata, autor przestrogi dla Troi.
+- **Kasandra** – córka Priama, prorokini, której nikt nie wierzy.
+- **Helena** – przyczyna sporu, bierna wobec decyzji mężczyzn.
+- **Chór panien trojańskich** – komentuje wydarzenia, przypomina o odpowiedzialności rządzących.
 
 ### D. Problematyka i interpretacja
 
-- **Główny problem:** wojna, honor, dyplomacja, konsekwencje decyzji politycznych.
-- **Konflikty:** Grecy z Trojanami; władcy z doradcami; honor z rozsądkiem.
-- **Wartości:** honor, mądrość, umiar, odpowiedzialność władcy.
-- **Przesłanie:** odrzucenie pokoju prowadzi do wojny; władcy odpowiadają za los państwa.
-- **Wymowa zakończenia:** zapowiedź katastrofy wojennej.
+- **Główny problem:** odpowiedzialność obywateli i władcy za państwo; prywata, przekupstwo i demagogia jako źródło klęski.
+- **Konflikty:** dobro publiczne (Antenor) a prywatny interes (Aleksander, Iketaon); rozsądek a namiętność.
+- **Wartości:** sprawiedliwość, uczciwość, wychowanie młodzieży („Wy, którzy pospolitą rzeczą władacie” – pieśń chóru o obowiązkach rządzących).
+- **Przesłanie:** państwo, w którym decyduje prywata i złoto, czeka zguba – przestroga dla Rzeczypospolitej szlacheckiej.
+- **Wymowa zakończenia:** katastrofa jest już nieuchronna; wojna zaczyna się w chwili zakończenia dramatu.
 
 ### E. Motywy literackie
 
-1. **Wojna** – konflikt zbrojny. *Wykorzystanie:* zestawienie z *Iliadą* (konsekwencje wojny).
-2. **Honor** – obrona godności. *Wykorzystanie:* zestawienie z *Pieśnią o Rolandzie* (honor rycerski).
-3. **Władza** – decyzje władców. *Wykorzystanie:* zestawienie z *Antygoną* (władza i jej granice).
+1. **Wojna** – jej przyczyna w ludzkich decyzjach. *Wykorzystanie:* zestawienie z *Iliadą* (ta sama wojna, jej skutki).
+2. **Władza i odpowiedzialność** – słaby król, przekupna rada. *Wykorzystanie:* zestawienie z *Antygoną* i *Makbetem* (władca i jego wybory).
+3. **Obywatel i państwo** – Antenor jako wzór. *Wykorzystanie:* zestawienie z *Hymnem do miłości ojczyzny* Krasickiego.
+4. **Przepowiednia** – Kasandra. *Wykorzystanie:* zestawienie z wiedźmami z *Makbeta*.
 
 ### F. Symbole i ważne elementy
 
-- **Helena** – symbol przyczyny wojny.
-- **Posłowie** – symbol dyplomacji.
-- **Troja** – symbol obrony i upadku.
+- **Helena** – przyczyna wojny, symbol prywatnej namiętności przedłożonej nad dobro wspólne.
+- **Troja** – alegoria Rzeczypospolitej szlacheckiej.
+- **Złoto (przekupstwo)** – symbol zepsucia polityki.
+- **Kasandra** – symbol prawdy, której nikt nie chce słuchać.
 
 ### G. Konteksty
 
-- **Historyczny:** Rzeczpospolita renesansowa, relacje dyplomatyczne, wojny z Moskwą i Turcją w XVI w.
-- **Literacki:** wzór antycznej tragedii i Homera; odrodzenie tradycji grecko-rzymskiej.
-- **Polityczny:** refleksja nad odpowiedzialnością władców.
+- **Historyczny:** Rzeczpospolita po pierwszych wolnych elekcjach, wojna z Moskwą o Inflanty (Stefan Batory); obrady sejmu jako pierwowzór rady trojańskiej.
+- **Literacki:** wzór tragedii antycznej (Sofokles, Eurypides) i Homera; pierwsza polska tragedia.
+- **Polityczny:** krytyka prywaty, przekupstwa i demagogii; zestawienie z kazaniami Piotra Skargi.
 
 ### H. Wykorzystanie lektury na maturze
 
 **Tematy:**
-- Czy wojna jest nieunikniona? – na podstawie *Odprawy*.
-- Odpowiedzialność władców za decyzje państwa.
+- Odpowiedzialność za państwo – na podstawie *Odprawy posłów greckich*.
+- Dobro wspólne a prywatny interes.
 
 **Argumenty:**
-- Priam odrzuca pokój, co prowadzi do wojny; pokazuje to konsekwencje pychy.
+- Rada trojańska ulega Aleksandrowi i przekupionemu Iketaonowi, odrzuca rozsądną radę Antenora – i ściąga na Troję wojnę.
+- Słowa Ulissesa o „nierządnym królestwie” są przestrogą dla każdego państwa, w którym rządzi prywata.
 
 **Zestawienia:**
 - *Odprawa* – *Iliada* (wojna trojańska).
 - *Odprawa* – *Antygona* (władza i jej granice).
+- *Odprawa* – *Przedwiośnie* (diagnoza państwa i jego słabości).
 
 ### I. Najważniejsze informacje do zapamiętania
 
-- Tragedia Kochanowskiego, 1578 r.
-- Bohaterowie: Priam, posłowie greccy, chór.
-- Motywy: wojna, honor, władza.
-- Przesłanie: odrzucenie pokoju prowadzi do katastrofy.
+- Pierwsza polska tragedia, 1578 r., wystawiona na weselu Jana Zamoyskiego.
+- Bohaterowie: Aleksander, Antenor, Iketaon, Priam, Ulisses, Menelaus, Helena, Kasandra, chór.
+- Motywy: wojna, władza, obywatel i państwo, przepowiednia.
+- Przesłanie: państwo, w którym rządzi prywata i przekupstwo, czeka zguba.
 
 ### J. Sprawdź swoją wiedzę
 
 **Pytania sprawdzające:**
-1. Kto przybywa do Troi?
+1. Kto przybywa do Troi jako posłowie?
 2. Czego żądają Grecy?
-3. Jak reagują Trojanie?
-4. Jaki gatunek reprezentuje utwór?
-5. Jaką rolę pełni chór?
-6. Kim jest Priam?
-7. Jaki motyw dominuje?
-8. Jaki jest finał?
-9. Z jakiej tradycji wywodzi się utwór?
-10. Co jest przyczyną wojny?
+3. Kto podejmuje decyzję w sprawie Heleny?
+4. Kto radzi oddać Helenę?
+5. Kto przekonuje, by ją zatrzymać?
+6. Kto przepowiada upadek Troi?
+7. Jaki gatunek reprezentuje utwór?
+8. Przy jakiej okazji wystawiono utwór po raz pierwszy?
+9. Jaką rolę pełni chór?
+10. Czym kończy się tragedia?
 
 **Pytania interpretacyjne:**
-1. Dlaczego Trojanie odrzucają żądania Greków?
+1. Dlaczego rada trojańska odrzuca żądania Greków?
 2. Czy wojna była nieuchronna? Uzasadnij.
-3. Jak chór komentuje wydarzenia?
-4. Czy utwór ma wymiar polityczny? Uzasadnij.
-5. Jak *Odprawa* odnosi się do antycznego wzorca?
+3. Jak oceniasz postawę Priama?
+4. Co łączy Troję z Rzecząpospolitą szlachecką?
+5. Jak *Odprawa* nawiązuje do antycznego wzorca tragedii?
 
 **Klucz odpowiedzi:**
-1. Posłowie greccy.
-2. Wydania Heleny i zadośćuczynienia.
-3. Odsyłają posłów.
-4. Tragedia.
-5. Komentuje i ostrzega.
-6. Król Troi.
-7. Wojna i honor.
-8. Zapowiedź wojny.
-9. Z tradycji antycznej.
-10. Porwanie Heleny.
-11. Bo utrzymanie honoru jest ważniejsze dla władców.
-12. Tak, wynika z decyzji ludzi, nie tylko losu.
-13. Ostrzega przed konsekwencjami pychy.
-14. Tak, dotyczy odpowiedzialności władcy.
-15. Nawiązuje do tradycji Homera, ale ma wymiar renesansowy.
+1. Ulisses (Odyseusz) i Menelaus.
+2. Wydania Heleny.
+3. Rada trojańska – Priam oddaje jej decyzję.
+4. Antenor.
+5. Iketaon, przekupiony przez Aleksandra.
+6. Kasandra.
+7. Tragedia (renesansowa, wzorowana na antycznej).
+8. Na weselu Jana Zamoyskiego z Krystyną Radziwiłłówną (1578).
+9. Komentuje wydarzenia i poucza o odpowiedzialności rządzących.
+10. Wiadomością o lądowaniu wojsk greckich – początkiem wojny.
+11. Bo większość ulega Aleksandrowi i demagogii Iketaona, a nie racjom Antenora.
+12. Nie – wynikała z decyzji ludzi; oddanie Heleny mogło jej zapobiec.
+13. Negatywnie: jest słaby, unika odpowiedzialności.
+14. Prywata, przekupstwo i słabość władzy – Troja to alegoria Rzeczypospolitej.
+15. Chór, trzy jedności, decorum, temat mitologiczny – ale problem współczesny autorowi.
 
 ---
 
@@ -276,9 +286,9 @@
 
 - **Początek:** trzy wiedźmy przepowiadają Makbetowi, że zostanie królem. Przepowiednia dla Banka mówi, że jego potomkowie będą władać.
 - **Zbrodnia:** Makbet, pod wpływem żony i własnych ambicji, zabija króla Dunkana. Zostaje królem.
-- **Paranoja i kolejne zbrodnie:** Makbet obawia się Banka i zabija go. Następnie każe zamordować rodzinę Macduffa.
-- **Lady Makbet:** jej poczucie winy prowadzi do obłędu i samobójstwa, a wątek snu wędrującego ukazuje jej zmagania z wyrzutami sumienia.
-- **Finał:** wojska nadciągają z lasu Birnam, Macduff, który nie urodził się w sposób naturalny, zabija Makbeta. Malcolm zostaje królem.
+- **Paranoja i kolejne zbrodnie:** Makbet obawia się Banka i każe go zabić (syn Banka, Fleance, ucieka). Na uczcie widzi ducha Banka. Następnie każe zamordować żonę i dzieci Macduffa.
+- **Lady Makbet:** jej poczucie winy prowadzi do obłędu – lunatykuje i próbuje zmyć z rąk niewidzialną krew. Umiera poza sceną; Malcolm mówi, że odebrała sobie życie.
+- **Finał:** żołnierze Malcolma, osłonięci gałęziami z lasu Birnam, podchodzą pod zamek Dunsinane – spełnia się przepowiednia, że Makbet nie zginie, dopóki las Birnam nie ruszy na niego. Macduff, który „nie został zrodzony z niewiasty” (wydobyto go z łona matki przed porodem), zabija Makbeta. Malcolm, syn Dunkana, zostaje królem.
 
 **Znaczenie kluczowych wydarzeń:** zbrodnia rodzi kolejne zbrodnie; władza zdobyta przemocą nie daje spokoju.
 
@@ -300,8 +310,8 @@
 
 ### E. Motywy literackie
 
-1. **Ambicja** – Makbet, Lady Makbet. *Wykorzystanie:* zestawienie z *Odą do młodości* (ambicja i jej koszty).
-2. **Zbrodnia i wyrzuty sumienia** – Makbet. *Wykorzystanie:* zestawienie z *Konradem Wallenrodem* (konflikt sumienia).
+1. **Ambicja** – Makbet, Lady Makbet. *Wykorzystanie:* zestawienie z *Lalką* (ambicja Wokulskiego) i *Zbrodnią i karą* (Raskolnikow i jego teoria).
+2. **Zbrodnia i wyrzuty sumienia** – Makbet. *Wykorzystanie:* zestawienie ze *Zbrodnią i karą* (zbrodnia i kara sumienia).
 3. **Przeznaczenie** – wiedźmy. *Wykorzystanie:* zestawienie z *Mitologią* (przeznaczenie).
 4. **Władza** – króla i tyrana. *Wykorzystanie:* zestawienie z *Antygoną* (władza a sumienie).
 
@@ -331,7 +341,7 @@
 
 **Zestawienia:**
 - *Makbet* – *Dziady* cz. III (zbrodnia i władza).
-- *Makbet* – *Konrad Wallenrod* (konflikt sumienia).
+- *Makbet* – *Zbrodnia i kara* (zbrodnia i wyrzuty sumienia).
 - *Makbet* – *Mitologia* (przeznaczenie).
 
 ### I. Najważniejsze informacje do zapamiętania

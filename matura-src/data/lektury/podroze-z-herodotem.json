@@ -42,23 +42,29 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Fragmenty wymagane przez CKE do potwierdzenia. Poniżej ogólna charakterystyka.*"
+          "typ": "punkt",
+          "etykieta": "Pierwsza podróż i księga",
+          "tekst": "Kapuściński wspomina, jak w latach 50. jako młody reporter marzył o „przekroczeniu granicy”. Redakcja wysyła go do Indii; przed wyjazdem otrzymuje od redaktor naczelnej świeżo wydane po polsku „Dzieje” Herodota. Książka staje się jego towarzyszem podróży."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Kapuściński opisuje swoje podróże i spotkania z ludźmi różnych kultur."
+          "etykieta": "Indie i Chiny",
+          "tekst": "W Indiach przeżywa szok kulturowy i barierę językową; uczy się angielskiego, czytając powieść Hemingwaya. Odkrywa, jak trudno zrozumieć obcą kulturę. W Chinach doświadcza świata zamkniętego, kontrolowanego przez władzę, poznaje filozofię Konfucjusza i Wielki Mur."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Porównuje swoje obserwacje z opisami Herodota, pokazując, że podróż jest również sposobem poznawania siebie."
+          "etykieta": "Afryka i inne miejsca",
+          "tekst": "Kolejne podróże prowadzą go m.in. do Afryki, gdzie obserwuje upadek kolonializmu, zamachy stanu i wojny. Swoje doświadczenia zestawia z opowieściami Herodota."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Tekst łączy reportaż z refleksją nad sensem podróży i pisania o świecie."
+          "etykieta": "Opowieści Herodota",
+          "tekst": "Kapuściński opowiada na nowo historie z „Dziejów”: o królu Krezusie i rozmowie z Solonem o szczęściu, o Cyrusie i jego śmierci w wojnie z Masagetami, o szaleństwie Kambyzesa, o wyprawie Dariusza na Scytów, którzy stosowali taktykę spalonej ziemi, o Kserksesie każącym chłostać morze i o wojnach grecko-perskich (Termopile, Salamina)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Herodot jako pierwszy reporter",
+          "tekst": "Autor przedstawia Herodota jako pierwszego reportera i globalistę: człowieka ciekawego Innych, który podróżował, wypytywał, słuchał, porównywał relacje i chciał ocalić pamięć o ludzkich czynach. To także refleksja nad własnym zawodem i nad tym, jak poznawać innych bez uprzedzeń."
         }
       ]
     },

@@ -9,7 +9,7 @@
         {
           "typ": "punkt",
           "etykieta": "Autor",
-          "tekst": "Stanisław Ignacy Witkiewicz (Witkacy, 1885–1939), dramaturg, malarz, filozof, twórca teatru absurdu w Polsce."
+          "tekst": "Stanisław Ignacy Witkiewicz (Witkacy, 1885–1939), dramaturg, malarz, filozof; twórca teorii Czystej Formy, prekursor teatru absurdu."
         },
         {
           "typ": "punkt",
@@ -19,12 +19,12 @@
         {
           "typ": "punkt",
           "etykieta": "Data powstania",
-          "tekst": "1934 r. Pierwsza publikacja została opóźniona (w literaturze podawany rok 1957 – sprawdź w wydaniu)."
+          "tekst": "1927–1934 r.; wydanie i prapremiera dopiero po wojnie (prapremiera 1957 r., Teatr Wybrzeże w Sopocie)."
         },
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "dramat (dramat absurdalny, groteska, sztuka w trzech aktach)."
+          "tekst": "dramat; groteska – podtytuł „Naukowa sztuka ze śpiewkami w trzech aktach”."
         },
         {
           "typ": "punkt",
@@ -42,32 +42,19 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: dramat jest groteskowy i zawiera wiele wątków. Poniżej ogólny przebieg. Szczegóły sprawdź w wydaniu.*"
+          "typ": "punkt",
+          "etykieta": "Akt I",
+          "tekst": "w warsztacie szewc Sajetan Tempe i dwaj czeladnicy pracują i filozofują o bezsensie życia i nadchodzącym upadku cywilizacji. Przychodzą do nich Księżna Irina Wsiewołodowna Zbereźnicka-Podberezka (arystokratka, uosobienie erotyzmu i dekadencji) oraz prokurator Robert Scurvy, przedstawiciel władzy, zakochany w Księżnej."
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "szewc Sajetan Tempe i jego otoczenie żyją w przekonaniu o zbliżającej się rewolucji. Pojawiają się ideologiczne hasła, które mają wyzwolić szewców."
+          "etykieta": "Akt II – rewolucja szewców",
+          "tekst": "szewcy przestają pracować i robią przewrót. Władzę przejmuje Sajetan, a dawni panowie zostają upokorzeni – Scurvy siedzi w psiej budzie na łańcuchu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Rewolucja",
-          "tekst": "szewcy przejmują władzę, głoszą nowy porządek, w którym liczy się tylko praca w określonym zawodzie. Wprowadzają przymus i ograniczenia wolności."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Konflikt",
-          "tekst": "pojawiają się postacie ukazujące absurd nowego porządku; ich działania prowadzą do chaosu i odebrania wolności jednostkom."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "groteskowe zakończenie ukazuje bezsens ideologii i upadek nowego porządku."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: role poszczególnych postaci i przebieg poszczególnych scen.*"
+          "etykieta": "Akt III – rewolucja technokratów",
+          "tekst": "nowa władza szewców okazuje się równie bezsensowna. Pojawia się Hiper-Robociarz i dwaj Towarzysze (X i Abramowski) – technokraci, którzy przejmują władzę. Sajetan ginie, a ludzie stają się bezwolnymi trybami w maszynie. Świat zmierza do zautomatyzowanego społeczeństwa bez indywidualności."
         },
         {
           "typ": "akapit",
@@ -81,21 +68,27 @@
         {
           "typ": "punkt",
           "etykieta": "Sajetan Tempe",
-          "tekst": "szewc, lider rewolucji. Cechy: zapał, ideologiczność, absurdalność. Rola: uosobienie władzy opartej na hasłach."
+          "tekst": "majster szewski, filozofujący przywódca rewolucji szewców; wierzy, że obali stary porządek, ale sam staje się dyktatorem i zostaje zmieciony."
         },
         {
           "typ": "punkt",
-          "etykieta": "Czeladnik",
-          "tekst": "uczestnik rewolucji. Rola: symbol konformizmu."
+          "etykieta": "Czeladnicy (I i II)",
+          "tekst": "pomocnicy Sajetana, prości ludzie, którzy uczestniczą w przewrocie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Szewcowa",
-          "tekst": "i inne postacie – tło absurdu."
+          "etykieta": "Księżna Irina",
+          "tekst": "arystokratka, uosobienie dekadencji i kobiecego demonizmu."
         },
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: nazwy i role postaci wymagają weryfikacji w wydaniu.*"
+          "typ": "punkt",
+          "etykieta": "Prokurator Robert Scurvy",
+          "tekst": "przedstawiciel dawnej władzy, upokorzony po przewrocie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hiper-Robociarz, Towarzysze X i Abramowski",
+          "tekst": "technokraci, nowa elita bezdusznej władzy."
         }
       ]
     },
@@ -240,7 +233,7 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "Bohaterowie: Sajetan Tempe, czeladnik, szewcowa."
+          "tekst": "Bohaterowie: Sajetan Tempe, czeladnicy, Księżna Irina, Scurvy, Hiper-Robociarz, Towarzysze."
         },
         {
           "typ": "punkt",
@@ -289,7 +282,7 @@
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "W którym roku wydano dramat?"
+          "tekst": "Kiedy powstał dramat?"
         },
         {
           "typ": "punkt",
@@ -387,7 +380,7 @@
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "1934."
+          "tekst": "W latach 1927–1934."
         },
         {
           "typ": "punkt",
@@ -411,13 +404,13 @@
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Groteskowo, ujawnia absurd."
+          "tekst": "Władzę przejmują technokraci, ludzie stają się trybami maszyny."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Teatr absurdu."
+          "tekst": "Teatr Czystej Formy (prekursor teatru absurdu)."
         },
         {
           "typ": "punkt",

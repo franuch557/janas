@@ -37,35 +37,33 @@
 
 - **Autor:** Tadeusz Konwicki (1926–2015), polski prozaik, reżyser i scenarzysta.
 - **Epoka:** literatura współczesna.
-- **Data publikacji:** 1979 r. (pierwsze wydanie w drugim obiegu; sprawdź datę i miejsce wydania w źródle).
+- **Data publikacji:** 1979 r., poza cenzurą – w podziemnym wydawnictwie NOWA (drugi obieg).
 - **Rodzaj i gatunek:** powieść refleksyjna, powieść o przemianach kultury i ideologii; powieść z elementami satyry.
-- **Czas i miejsce akcji:** Warszawa, lata 70. XX w. (PRL); akcja obejmuje codzienne spacery bohatera po mieście.
+- **Czas i miejsce akcji:** jeden dzień w Warszawie w PRL (koniec lat 70.), w dniu uroczystości z udziałem przywódców ZSRR; czas jest umowny, daty się mieszają.
 - **Geneza:** Konwicki opisuje Warszawę jako przestrzeń, w której zanika dawna kultura, a jednocześnie pojawia się chaos i pustka.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: powieść ma formę luźnych refleksji i obserwacji, nie ciągłej fabuły. Poniżej główne wątki.*
-
-- Narrator, pisarz w średnim wieku, wędruje po Warszawie i obserwuje miasto oraz jego mieszkańców.
-- Przywołuje wspomnienia, rozmowy, obrazy z przeszłości i teraźniejszości.
-- Pojawia się motyw apokalipsy jako stopniowego rozpadu świata i wartości, a nie gwałtownej katastrofy.
-- Powieść kończy się refleksją o losie człowieka w świecie, który traci sens i pamięć.
-
-*Do sprawdzenia: konkretne sceny i motywy wymagane przez CKE.*
+- **Propozycja:** do narratora – starzejącego się pisarza, który kiedyś wierzył w komunizm – przychodzą znajomi z opozycji, Rysio i Hubert. Proponują mu, by tego wieczoru dokonał samospalenia przed gmachem KC PZPR (Pałacem Kultury) w czasie uroczystości z udziałem przywódców ZSRR – jako protest przeciw zniewoleniu.
+- **Wędrówka po Warszawie:** narrator dostaje kanister z benzyną i przez cały dzień wędruje po rozpadającym się mieście: brakuje prądu, sklepy są puste, pomniki i budynki się sypią, nikt nie wie dokładnie, jaki jest rok. Spotyka dawnych znajomych, literatów, działaczy, mieszkańców – każdy ma inne racje.
+- **Nadia i bezpieka:** poznaje młodą Rosjankę Nadię i przeżywa z nią krótką miłość. Zostaje zatrzymany i przesłuchany przez funkcjonariuszy, którzy wiedzą o planie. Ma wrażenie, że wszystko jest prowokacją, a opozycja i władza grają tę samą grę.
+- **Zakończenie:** wieczorem narrator idzie z kanistrem w stronę Pałacu Kultury. Powieść kończy się przed decyzją – nie wiadomo, czy dokona samospalenia.
 
 **Znaczenie:** obraz miasta jako przestrzeni pamięci i zaniku wartości.
 
 ### C. Bohaterowie
 
-- **Narrator (pisarz)** – obserwator, refleksyjny. Cechy: melancholia, ironia, przywiązanie do przeszłości. Rola: pośrednik między czytelnikiem a miastem.
-- **Mieszkańcy Warszawy** – postacie spotykane na ulicach. Rola: symbol zwykłego życia w PRL.
+- **Narrator (pisarz)** – starzejący się pisarz, dawny komunista, rozczarowany i zmęczony; wybiera między śmiercią w proteście a dalszym życiem w kłamstwie.
+- **Rysio i Hubert** – działacze opozycji, którzy proponują mu samospalenie.
+- **Nadia** – młoda Rosjanka, z którą narrator przeżywa krótką miłość.
+- **Funkcjonariusze bezpieki** – przedstawiciele władzy, która wszystko wie i wszystkim manipuluje.
 
 ### D. Problematyka i interpretacja
 
-- **Główny problem:** pamięć, przemijanie, zanik wartości, pustka w świecie współczesnym.
+- **Główny problem:** zniewolenie w PRL, sens protestu i ofiary, rozpad wartości i zakłamanie.
 - **Konflikty:** jednostka wobec zmieniającej się rzeczywistości; pamięć wobec zapomnienia.
 - **Wartości:** pamięć, godność, tradycja.
-- **Przesłanie:** apokalipsa nie jest wydarzeniem jednorazowym, ale procesem; wymaga refleksji i pamięci.
+- **Przesłanie:** apokalipsa nie jest wydarzeniem jednorazowym, ale procesem – powolnym rozpadem państwa, języka i ludzi w systemie zniewolenia; pytanie o sens ofiary w świecie, w którym wszystko może być prowokacją.
 - **Wymowa zakończenia:** melancholijna refleksja nad losem człowieka.
 
 ### E. Motywy literackie
@@ -127,18 +125,18 @@
 5. Jak *Mała apokalipsa* odnosi się do tradycji biblijnej?
 
 **Klucz odpowiedzi:**
-1. Pisarz.
+1. Starzejący się pisarz, dawny komunista.
 2. Warszawa.
 3. Powieść refleksyjna.
-4. Apokalipsa i pamięć.
-5. Spaceruje i obserwuje.
-6. PRL.
-7. Luźne refleksje.
-8. Zanikającą kulturę.
-9. Melancholijnie.
+4. Rozpad świata PRL i zniewolenie.
+5. Dostaje propozycję samospalenia i z kanistrem wędruje przez cały dzień po Warszawie.
+6. PRL końca lat 70., dzień wizyty przywódców ZSRR.
+7. Powieść-wędrówka z luźnymi epizodami i refleksjami narratora.
+8. Rozpad państwa i życia w PRL.
+9. Otwarcie – narrator idzie pod Pałac Kultury, nie wiadomo, czy się podpali.
 10. Proces rozpadu, nie katastrofa.
 11. Bo nie jest wydarzeniem gwałtownym.
-12. Pamięć ratuje przed zapomnieniem.
+12. Wspomnienia narratora pokazują, jak zakłamanie zniszczyło miasto i ludzi.
 13. Tak, pokazuje zanik wartości.
 14. Wzmacnia obraz codzienności.
 15. Odwołuje się do apokaliptycznego obrazu, ale zmienia jego sens.
@@ -153,105 +151,109 @@
 - **Epoka:** literatura współczesna.
 - **Data powstania:** 1992 r. (sztuka napisana na emigracji w Nowym Jorku; prapremiera 1993 r. w Waszyngtonie).
 - **Rodzaj i gatunek:** dramat współczesny, adaptacja antycznej tragedii.
-- **Czas i miejsce akcji:** Nowy Jork, lata 80. XX w.; akcja dotyczy emigrantów i ich codzienności.
+- **Czas i miejsce akcji:** Nowy Jork, początek lat 90. XX w.; Tompkins Square Park na Manhattanie, w którym mieszkają bezdomni.
 - **Geneza:** Głowacki przenosi motyw Antygony do współczesnego świata, pokazując losy emigrantów w obcym mieście.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: sztuka ma kilka scen i postaci. Poniżej ogólny zarys.*
-
-- W Nowym Jorku spotykają się emigranci z Polski, którzy mierzą się z trudnościami życia w obcym kraju.
-- Motyw Antygony przenosi się na współczesną sytuację: bohaterka, jak w micie, zmaga się z zakazami i presją otoczenia, tym razem związanymi z życiem emigranckim.
-- Dialogi ukazują konflikt między nostalgią za ojczyzną a potrzebą adaptacji.
-- Zakończenie pokazuje, że wartości z antycznego dramatu wciąż mają znaczenie, choć forma jest współczesna.
-
-*Do sprawdzenia: przebieg scen i role postaci.*
+- **Park:** w Tompkins Square Park mieszkają bezdomni emigranci: Polak Pchełka i rosyjski Żyd Sasza. Policjant pełni rolę chóru – zwraca się do widzów i komentuje zdarzenia.
+- **Prośba Anity:** Portorykanka Anita, także bezdomna, opowiada, że zmarł jej ukochany Paulie i został pochowany w zbiorowym grobie dla bezdomnych na wyspie Hart Island. Chce go godnie pochować w parku, by mieć przy kim się pomodlić – jak Antygona.
+- **Wyprawa po ciało:** Pchełka i Sasza za pieniądze Anity wyruszają po zwłoki. Przynoszą ciało, ale prawdopodobnie nie Pauliego – to przypadkowy, nieznany zmarły (John Smith).
+- **Pogrzeb:** Anita urządza pogrzeb w parku. Bezdomni są wspólnotą tylko przez chwilę.
+- **Zakończenie:** Anita wiesza się na drzewie w parku. Policjant zamyka historię, a park zostaje „uporządkowany” przez władze miasta.
 
 ### C. Bohaterowie
 
-- **Antygona (współczesna)** – emigrantka, której postawa przypomina antyczną bohaterkę. Cechy: upór, wierność wartościom. Rola: kontynuacja motywu z Sofoklesa.
-- **Postacie emigrantów** – reprezentują różne postawy wobec obcego kraju. Rola: tło i kontrast.
+- **Anita** – bezdomna Portorykanka, współczesna Antygona: chce pochować ukochanego Pauliego mimo zakazu i obojętności miasta.
+- **Pchełka** – polski emigrant, alkoholik, marzyciel, który wciąż wierzy, że wróci do kraju; dobry, ale słaby.
+- **Sasza** – rosyjski Żyd, inteligent, ironiczny i cyniczny towarzysz Pchełki.
+- **Policjant** – pełni funkcję chóru antycznego i narratora, mówi do widowni.
 
 ### D. Problematyka i interpretacja
 
-- **Główny problem:** emigracja, tożsamość, wierność wartościom, konflikt między prawem a sumieniem w nowej rzeczywistości.
-- **Konflikty:** emigrant z obcym krajem; wierność tradycji wobec adaptacji.
-- **Wartości:** wierność, godność, tożsamość.
-- **Przesłanie:** mit antyczny pozostaje aktualny; wartości można zachować także na emigracji.
+- **Główny problem:** los bezdomnych emigrantów, wykluczenie i samotność w wielkim mieście; prawo do godnego pochówku.
+- **Konflikty:** potrzeba godności (Anita) wobec obojętności miasta i urzędów; marzenia emigrantów wobec rzeczywistości.
+- **Wartości:** miłość, wierność zmarłym, solidarność, godność człowieka.
+- **Przesłanie:** współczesna Antygona nie walczy z królem, lecz z obojętnością – jej gest jest tragiczny i groteskowy zarazem.
+- **Wymowa zakończenia:** samobójstwo Anity i „porządkowanie” parku pokazują, że świat nie zauważa ludzi z marginesu.
 
 ### E. Motywy literackie
 
-1. **Emigracja** – obcy kraj. *Wykorzystanie:* zestawienie z *Listami z podróży do Ameryki* Sienkiewicza.
-2. **Wierność wartościom** – Antygona. *Wykorzystanie:* zestawienie z *Antygoną* Sofoklesa (oryginał).
-3. **Tożsamość** – pytanie o to, kim jest człowiek poza ojczyzną.
+1. **Pochówek zmarłego** – Anita i Paulie. *Wykorzystanie:* zestawienie z *Antygoną* Sofoklesa (Polinejkes) i *Iliadą* (Priam wykupuje ciało Hektora).
+2. **Emigracja i bezdomność** – Pchełka, Sasza. *Wykorzystanie:* zestawienie z *Innym światem* (wykorzenienie) i *Profesorem Andrewsem w Warszawie* (obcość).
+3. **Tragizm i groteska** – mieszanie śmiechu i rozpaczy. *Wykorzystanie:* zestawienie z *Tangiem* Mrożka.
+4. **Miłość** – wierność Anity zmarłemu. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim* (żałoba).
 
 ### F. Symbole i ważne elementy
 
-- **Nowy Jork** – symbol obcości i nowego życia.
-- **Antyczny mit** – symbol trwałości wartości.
+- **Tompkins Square Park** – „dom” wykluczonych, scena tragedii.
+- **Ciało nieznanego zmarłego** – symbol anonimowości ludzi z marginesu.
+- **Policjant-chór** – głos porządku i obojętnego społeczeństwa.
 
 ### G. Konteksty
 
-- **Historyczny:** emigracja z PRL w latach 80., stan wojenny.
-- **Literacki:** adaptacja mitu antycznego, dramat współczesny.
-- **Biograficzny:** doświadczenie emigracji Głowackiego.
+- **Literacki:** nawiązanie do *Antygony* Sofoklesa (motyw pochówku, chór); tragifarsa.
+- **Społeczny:** bezdomność w Nowym Jorku, akcje „porządkowania” parku Tompkins Square w latach 1988–1991.
+- **Biograficzny:** Głowacki od 1981 r. żył na emigracji w Nowym Jorku.
 
 ### H. Wykorzystanie lektury na maturze
 
 **Tematy:**
-- Czy mit antyczny jest aktualny w XX w.?
-- Tożsamość emigranta.
+- Czy można być Antygoną w świecie współczesnym?
+- Wykluczenie i samotność człowieka w wielkim mieście.
 
 **Argumenty:**
-- Głowacki pokazuje, że wierność wartościom może przetrwać zmianę kontekstu.
+- Anita, jak Antygona, ryzykuje wszystko, by pochować ukochanego – ale jej czyn nikogo nie obchodzi, a ciało prawdopodobnie nie jest Pauliego.
+- Pchełka i Sasza pokazują los emigrantów, którzy w Ameryce nie znaleźli niczego poza bezdomnością.
 
 **Zestawienia:**
-- *Antygona w Nowym Jorku* – *Antygona* Sofoklesa (oryginał i adaptacja).
-- *Antygona w Nowym Jorku* – *Listy z podróży do Ameryki* (emigracja).
+- *Antygona w Nowym Jorku* – *Antygona* Sofoklesa (pochówek i wierność zmarłym).
+- *Antygona w Nowym Jorku* – *Iliada* (ciało Hektora).
 
 ### I. Najważniejsze informacje do zapamiętania
 
-- Głowacki, *Antygona w Nowym Jorku*, 1992 r.
-- Motyw: adaptacja mitu Antygony.
-- Przesłanie: wartości przetrwają w nowym kontekście.
+- Głowacki, *Antygona w Nowym Jorku*, 1992 r. (prapremiera 1993).
+- Bohaterowie: Anita, Pchełka, Sasza, Policjant (chór).
+- Miejsce: park Tompkins Square w Nowym Jorku.
+- Motywy: pochówek, bezdomność, emigracja, groteska.
 
 ### J. Sprawdź swoją wiedzę
 
 **Pytania sprawdzające:**
-1. Jaki mit jest punktem wyjścia?
-2. Gdzie rozgrywa się akcja?
-3. Kim są bohaterowie?
-4. Jaki gatunek reprezentuje utwór?
-5. Jaki temat dominuje?
-6. Kto napisał sztukę?
-7. Jaki kontekst historyczny?
-8. Co łączy sztukę z antyczną tragedią?
-9. Jaki problem porusza utwór?
-10. Jak kończy się sztuka?
+1. Gdzie rozgrywa się akcja?
+2. Kim jest Anita?
+3. Kogo chce pochować Anita?
+4. Kim są Pchełka i Sasza?
+5. Jaką rolę pełni Policjant?
+6. Gdzie pochowano Pauliego?
+7. Czyje ciało przynoszą bohaterowie?
+8. Jak kończy się sztuka?
+9. Kto jest autorem?
+10. Do jakiej tragedii antycznej nawiązuje utwór?
 
 **Pytania interpretacyjne:**
-1. Dlaczego Głowacki przenosi mit do Nowego Jorku?
-2. Czy wierność wartościom jest możliwa na emigracji? Uzasadnij.
-3. Jak adaptacja zmienia sens mitu?
-4. Jak emigracja wpływa na tożsamość?
+1. Co łączy Anitę z Antygoną Sofoklesa, a co je różni?
+2. Dlaczego Głowacki łączy tragizm z komizmem?
+3. Jak sztuka pokazuje los emigrantów?
+4. Jaką funkcję pełni Policjant?
 5. Czy sztuka ma wymiar uniwersalny? Uzasadnij.
 
 **Klucz odpowiedzi:**
-1. Antygona Sofoklesa.
-2. Nowy Jork.
-3. Emigranci.
-4. Dramat współczesny.
-5. Emigracja i wierność.
-6. Janusz Głowacki.
-7. Emigracja z PRL.
-8. Motyw Antygony.
-9. Tożsamość i wierność.
-10. Wartości przetrwają.
-11. Bo emigracja stawia podobne pytania o wierność.
-12. Tak, wartości mogą przetrwać.
-13. Zmienia kontekst, ale zachowuje pytanie o sumienie.
-14. Emigracja zmusza do redefinicji tożsamości.
-15. Tak, pytania o wierność są uniwersalne.
+1. W Tompkins Square Park w Nowym Jorku.
+2. Bezdomna Portorykanka.
+3. Swojego ukochanego Pauliego.
+4. Bezdomni emigranci: Polak i rosyjski Żyd.
+5. Chóru i narratora.
+6. W zbiorowym grobie na wyspie Hart Island.
+7. Najprawdopodobniej przypadkowego, nieznanego zmarłego.
+8. Anita wiesza się w parku.
+9. Janusz Głowacki.
+10. Do *Antygony* Sofoklesa.
+11. Obie chcą pochować ukochaną osobę wbrew przeszkodom; Anita walczy z obojętnością, nie z królem.
+12. Groteska podkreśla absurd i nędzę losu bohaterów.
+13. Emigracja to dla nich bezdomność i utrata złudzeń.
+14. Komentuje akcję jak chór i reprezentuje obojętny porządek.
+15. Tak – pokazuje potrzebę godności każdego człowieka.
 
 ---
 
@@ -263,104 +265,107 @@
 - **Epoka:** literatura współczesna.
 - **Data publikacji:** 2001 r. (tom *Gra na wielu bębenkach*).
 - **Rodzaj i gatunek:** opowiadanie (nowela) z tomu opowiadań.
-- **Czas i miejsce akcji:** Warszawa, czasy współczesne (koniec XX w.); wątki historyczne i pamięć o wojnie.
+- **Czas i miejsce akcji:** Warszawa, grudzień 1981 r. – dzień wprowadzenia stanu wojennego (13 grudnia) i kolejne dni.
 - **Geneza:** opowiadanie z tomu, w którym Tokarczuk łączy wątki historyczne, pamięć i tożsamość.
 
 ### B. Szczegółowe streszczenie
 
-*Uwaga: opowiadanie jest krótkie; poniżej ogólny zarys. Sprawdź szczegóły w tekście.*
-
-- Profesor Andrews, postać ze świata akademickiego, przybywa do Warszawy.
-- Pobyt w mieście uruchamia u niego wspomnienia i refleksje nad historią i pamięcią.
-- Pojawia się motyw przeszłości, która wpływa na teraźniejszość.
-- Opowiadanie kończy się refleksją o tożsamości i tym, jak miasto przechowuje ślady przeszłości.
-
-*Do sprawdzenia: szczegółowe sceny, role postaci i kontekst historyczny.*
+- **Przylot:** Angielski profesor psychologii Andrews, przedstawiciel nowoczesnej szkoły psychoterapii, przylatuje do Warszawy w grudniu 1981 r., by wygłosić wykład. Jest pełen optymizmu: wyobraża sobie Polskę jako kraj inteligentnych ludzi, zainteresowanych ideami jego szkoły. W samolocie wspomina sen o wronie, który interpretuje jako zapowiedź czegoś dobrego. Na lotnisku wita go przewodniczka Gosha i zawozi do mieszkania na ostatnim piętrze szarego bloku.
+- **13 grudnia:** Następnego ranka Andrews budzi się sam. Telefon nie działa, a na ulicach widzi czołgi i żołnierzy. Nie zna języka, nie ma mapy, nie wie, że ogłoszono stan wojenny. Błąka się po zaśnieżonym, szarym mieście w poszukiwaniu działającego telefonu, gubi się, przypadkiem trafia z powrotem do bloku. Jego wykład się nie odbywa.
+- **Błądzenie:** Profesor jest coraz bardziej głodny i zmarznięty. Je w barze mlecznym, w osiedlowym sklepie kupuje tylko chleb i ocet, przez okratowaną witrynę ogląda pełne półki Peweksu. Przygląda się kolejkom ludzi po karpie, a nawet sam kupuje choinkę, by być jak inni. Zaczyna podejrzewać, że ma epizod psychotyczny – jego teorie psychologiczne nie pomagają zrozumieć tego, co się dzieje.
+- **Ocalenie:** Z opresji ratuje go zwykły człowiek, zaradny mieszkaniec bloku, który zabiera go do domu: na stole kiełbasa i wódka, w wannie pływa żywy karp. Patrząc w oko ryby, Andrews przeżywa coś na kształt mistycznego doświadczenia. Mężczyzna odwozi go do ambasady. Żegnają się zdaniem, którego profesor nauczył się od sprzedawców karpi (pytaniem, czy rybę zabić na miejscu).
 
 ### C. Bohaterowie
 
-- **Profesor Andrews** – postać akademicka, obcokrajowiec. Rola: pośrednik między obcym a miastem; pretekst do refleksji.
-- **Warszawa** – miasto jako bohater zbiorowy, nośnik pamięci.
+- **Profesor Andrews** – angielski psycholog, optymista, który przyjeżdża wygłosić wykład i nagle zostaje sam w obcym mieście, bez języka i kontaktu ze światem.
+- **Gosha** – przewodniczka, która przywozi go do mieszkania i znika.
+- **Warszawa w stanie wojennym** – zimna, ciemna i obca przestrzeń.
 
 ### D. Problematyka i interpretacja
 
-- **Główny problem:** pamięć historyczna, tożsamość miasta, relacja przeszłości z teraźniejszością.
-- **Przesłanie:** historia jest obecna w codzienności; pamięć kształtuje tożsamość.
+- **Główny problem:** obcość i bezradność człowieka wobec historii, która nagle burzy jego świat; granice wiedzy i języka.
+- **Konflikty:** optymistyczna teoria psychologii a chaos rzeczywistości; jednostka wobec przemocy państwa, której nie rozumie.
+- **Wartości:** kontakt z drugim człowiekiem, empatia, pokora wobec nieznanego.
+- **Przesłanie:** wiedza i dobre intencje nie wystarczą, gdy nie rozumie się świata, w który się trafiło; obcy widzi stan wojenny jak absurdalny koszmar.
+- **Wymowa zakończenia:** ocalenie przychodzi przypadkiem; doświadczenie pozostawia bohatera zmienionego.
 
 ### E. Motywy literackie
 
-1. **Pamięć** – przeszłość w teraźniejszości. *Wykorzystanie:* zestawienie z *Dziadami* cz. II (pamięć o zmarłych).
-2. **Obcość** – spojrzenie z zewnątrz. *Wykorzystanie:* zestawienie z *Listami z podróży* Sienkiewicza.
-3. **Miasto** – Warszawa jako przestrzeń pamięci. *Wykorzystanie:* zestawienie z *Małą apokalipsą* Konwickiego.
+1. **Obcy w obcym świecie** – Andrews w Warszawie. *Wykorzystanie:* zestawienie z *Innym światem* (człowiek wrzucony w nieznany system) i *Antygoną w Nowym Jorku* (obcość emigranta).
+2. **Zniewolenie** – stan wojenny. *Wykorzystanie:* zestawienie z *Rokiem 1984* (państwo kontrolujące obywateli).
+3. **Komunikacja i język** – brak wspólnego języka. *Wykorzystanie:* zestawienie z *Podróżami z Herodotem* (poznawanie obcych kultur).
+4. **Miasto** – zimna, ciemna Warszawa. *Wykorzystanie:* zestawienie z *Małą apokalipsą* (rozpadające się miasto PRL).
 
 ### F. Symbole i ważne elementy
 
-- **Miasto** – symbol pamięci.
-- **Profesor** – symbol wiedzy i obcości.
+- **Zima i ciemność** – symbol zniewolenia i zagubienia.
+- **Przerwane telefony** – symbol odcięcia od świata.
+- **Wrona ze snu** – zapowiedź, którą bohater błędnie odczytuje jako dobry znak.
 
 ### G. Konteksty
 
-- **Historyczny:** Warszawa po 1989 r., pamięć II wojny światowej.
-- **Literacki:** proza współczesna, opowiadanie jako forma.
-- **Biograficzny:** Tokarczuk jako autorka pisząca o pamięci i tożsamości.
+- **Historyczny:** stan wojenny w Polsce (13 grudnia 1981 r.): przerwane telefony, godzina milicyjna, czołgi na ulicach.
+- **Literacki:** proza Tokarczuk – łączenie realizmu z elementami snu i absurdu; spojrzenie obcego na Polskę.
+- **Psychologiczny:** bohater-psycholog zderza się z sytuacją graniczną, której jego teorie nie opisują.
 
 ### H. Wykorzystanie lektury na maturze
 
 **Tematy:**
-- Pamięć historyczna miasta.
-- Obcy w swoim mieście.
+- Człowiek wobec historii, której nie rozumie.
+- Obcość i samotność w nieznanym świecie.
 
 **Argumenty:**
-- Tokarczuk pokazuje, że przeszłość nie jest zamknięta i wpływa na teraźniejszość.
+- Andrews, przekonany o własnej wiedzy, w jednej chwili traci wszystko, co dawało mu poczucie bezpieczeństwa: język, kontakt, plan dnia.
+- Stan wojenny widziany oczami cudzoziemca jest absurdalny i przerażający.
 
 **Zestawienia:**
-- *Profesor Andrews* – *Mała apokalipsa* (miasto i pamięć).
-- *Profesor Andrews* – *Listy z podróży* (spojrzenie z zewnątrz).
+- *Profesor Andrews w Warszawie* – *Rok 1984* (zniewolenie).
+- *Profesor Andrews w Warszawie* – *Inny świat* (obcy wobec systemu).
 
 ### I. Najważniejsze informacje do zapamiętania
 
-- Tokarczuk, *Profesor Andrews w Warszawie*, 2001 r.
-- Bohater: profesor Andrews.
-- Motywy: pamięć, obcość, miasto.
-- Przesłanie: przeszłość kształtuje teraźniejszość.
+- Tokarczuk, opowiadanie z tomu *Gra na wielu bębenkach* (2001).
+- Akcja: Warszawa, 13 grudnia 1981 r. – stan wojenny.
+- Bohater: angielski psycholog, który zostaje sam w obcym mieście.
+- Motywy: obcość, zniewolenie, brak komunikacji, miasto.
 
 ### J. Sprawdź swoją wiedzę
 
 **Pytania sprawdzające:**
-1. Jak nazywa się bohater?
-2. Gdzie rozgrywa się akcja?
-3. Jaki gatunek reprezentuje utwór?
+1. Kim z zawodu jest Andrews?
+2. Po co przyjeżdża do Warszawy?
+3. W jakim momencie historycznym rozgrywa się akcja?
 4. Z jakiego tomu pochodzi opowiadanie?
-5. Jaki motyw dominuje?
-6. Kim jest bohater z punktu widzenia zawodu?
-7. Co wywołuje refleksję?
-8. Jaki kontekst historyczny?
+5. Kto wita go na lotnisku?
+6. Dlaczego Andrews zostaje sam?
+7. Co jest dla niego największą przeszkodą w mieście?
+8. Jaki sen ma w samolocie?
 9. Kto jest autorką?
 10. Jak kończy się opowiadanie?
 
 **Pytania interpretacyjne:**
-1. Dlaczego obcokrajowiec jest dobrym pośrednikiem w refleksji nad miastem?
-2. Jak przeszłość wpływa na teraźniejszość w opowiadaniu?
-3. Czy pamięć może być przeszkodą? Uzasadnij.
-4. Jak Tokarczuk łączy historię z codziennością?
+1. Dlaczego Tokarczuk pokazuje stan wojenny oczami cudzoziemca?
+2. Co mówi opowiadanie o granicach wiedzy?
+3. Jak zmienia się Andrews?
+4. Jaką rolę odgrywa język?
 5. Jaką wymowę ma zakończenie?
 
 **Klucz odpowiedzi:**
-1. Profesor Andrews.
-2. Warszawa.
-3. Opowiadanie.
+1. Psychologiem.
+2. Wygłosić wykład o swojej szkole psychoterapii.
+3. 13 grudnia 1981 r. – wprowadzenie stanu wojennego.
 4. *Gra na wielu bębenkach*.
-5. Pamięć i tożsamość.
-6. Profesor, akademik.
-7. Pobyt w mieście.
-8. Historia i pamięć wojny.
+5. Przewodniczka Gosha.
+6. Gosha znika, telefony nie działają, nikt nie przychodzi.
+7. Nie zna języka i nie rozumie, co się dzieje.
+8. Sen o wronie.
 9. Olga Tokarczuk.
-10. Refleksją nad tożsamością.
-11. Ma dystans i spojrzenie z zewnątrz.
-12. Historia jest obecna w codzienności.
-13. Może, jeśli prowadzi do zamknięcia się w przeszłości.
-14. Przez obserwację codzienności i historii.
-15. Pokazuje, że przeszłość kształtuje tożsamość.
+10. Bohater zostaje ocalony i może wrócić do domu (szczegóły sprawdź w tekście).
+11. Obcy widzi absurd sytuacji wyraźniej niż ci, którzy w niej żyją.
+12. Teorie psychologa okazują się bezradne wobec rzeczywistości.
+13. Od pewnego siebie optymisty do zagubionego człowieka.
+14. Brak języka odcina go od ludzi i od zrozumienia świata.
+15. Ocalenie jest przypadkowe; doświadczenie pozostaje.
 
 ---
 
@@ -377,11 +382,11 @@
 
 ### B. Szczegółowe streszczenie
 
-*Fragmenty wymagane przez CKE do potwierdzenia. Poniżej ogólna charakterystyka.*
-
-- Kapuściński opisuje swoje podróże i spotkania z ludźmi różnych kultur.
-- Porównuje swoje obserwacje z opisami Herodota, pokazując, że podróż jest również sposobem poznawania siebie.
-- Tekst łączy reportaż z refleksją nad sensem podróży i pisania o świecie.
+- **Pierwsza podróż i księga:** Kapuściński wspomina, jak w latach 50. jako młody reporter marzył o „przekroczeniu granicy”. Redakcja wysyła go do Indii; przed wyjazdem otrzymuje od redaktor naczelnej świeżo wydane po polsku „Dzieje” Herodota. Książka staje się jego towarzyszem podróży.
+- **Indie i Chiny:** W Indiach przeżywa szok kulturowy i barierę językową; uczy się angielskiego, czytając powieść Hemingwaya. Odkrywa, jak trudno zrozumieć obcą kulturę. W Chinach doświadcza świata zamkniętego, kontrolowanego przez władzę, poznaje filozofię Konfucjusza i Wielki Mur.
+- **Afryka i inne miejsca:** Kolejne podróże prowadzą go m.in. do Afryki, gdzie obserwuje upadek kolonializmu, zamachy stanu i wojny. Swoje doświadczenia zestawia z opowieściami Herodota.
+- **Opowieści Herodota:** Kapuściński opowiada na nowo historie z „Dziejów”: o królu Krezusie i rozmowie z Solonem o szczęściu, o Cyrusie i jego śmierci w wojnie z Masagetami, o szaleństwie Kambyzesa, o wyprawie Dariusza na Scytów, którzy stosowali taktykę spalonej ziemi, o Kserksesie każącym chłostać morze i o wojnach grecko-perskich (Termopile, Salamina).
+- **Herodot jako pierwszy reporter:** Autor przedstawia Herodota jako pierwszego reportera i globalistę: człowieka ciekawego Innych, który podróżował, wypytywał, słuchał, porównywał relacje i chciał ocalić pamięć o ludzkich czynach. To także refleksja nad własnym zawodem i nad tym, jak poznawać innych bez uprzedzeń.
 
 ### C. Bohaterowie
 
@@ -522,4 +527,4 @@ Literatura współczesna w tym repetytorium obejmuje utwory po 1970 r. (w tym na
 - **Mała apokalipsa** – **Profesor Andrews**: pamięć i miasto.
 - **Antygona w Nowym Jorku** – **Antygona** (Sofokles): adaptacja mitu.
 - **Podróże z Herodotem** – **Listy z podróży do Ameryki**: spojrzenie na obcy świat.
-- **Mała apokalipsa** – **Dżuma**: zaniku wartości i opór wobec zła.
+- **Mała apokalipsa** – **Dżuma**: zanik wartości i opór wobec zła.

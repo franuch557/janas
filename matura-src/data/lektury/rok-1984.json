@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "rok 1984, Oceania (państwo totalitarne), Londyn (miasto Airstrip One)."
+          "tekst": "rok 1984 (według Partii), Londyn – główne miasto Pasa Startowego Jeden, prowincji totalitarnej Oceanii."
         },
         {
           "typ": "punkt",
@@ -63,17 +63,17 @@
         {
           "typ": "punkt",
           "etykieta": "Aresztowanie",
-          "tekst": "O’Brien zdradza ich. Winston zostaje uwięziony i poddany torturom w Ministerstwie Miłości."
+          "tekst": "Winston i Julia zostają aresztowani w pokoju nad sklepem pana Charringtona, który okazuje się agentem Policji Myśli. O’Brien to w rzeczywistości funkcjonariusz Partii. Winston jest torturowany w Ministerstwie Miłości."
         },
         {
           "typ": "punkt",
           "etykieta": "Pokój 101",
-          "tekst": "Winston zostaje zmuszony do zdradzenia Julii, a następnie do pokochania Wielkiego Brata."
+          "tekst": "w obliczu swojego największego lęku – klatki ze szczurami – Winston zdradza Julię."
         },
         {
           "typ": "punkt",
           "etykieta": "Zakończenie",
-          "tekst": "Winston akceptuje system, czując, że pokonał swoją wolę."
+          "tekst": "złamany Winston siedzi w kawiarni Pod Kasztanem, spotyka obojętną Julię i w końcu „kocha Wielkiego Brata”."
         },
         {
           "typ": "akapit",

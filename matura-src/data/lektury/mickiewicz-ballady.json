@@ -44,12 +44,12 @@
         {
           "typ": "punkt",
           "etykieta": "*Oda do młodości",
-          "tekst": "* poeta wzywa młodzież do odwagi, idealizmu i poświęcenia dla ojczyzny. Młodość jest źródłem wiary w wielkie idee."
+          "tekst": "* poeta przeciwstawia skostniały świat starych („Bez serc, bez ducha, to szkieletów ludy”) młodzieży, która wspólnie, ramię przy ramieniu, może „z posad bryłę świata” ruszyć. Wzywa do wspólnego czynu, poświęcenia i braterstwa; kończy się powitaniem „jutrzenki swobody”. Forma klasycystyczna (oda), treść już romantyczna."
         },
         {
           "typ": "punkt",
           "etykieta": "*Romantyczność",
-          "tekst": "* podmiot opowiada o tym, jak wierzy w widzenie zjawy ukochanej, mimo rozumowego sceptycyzmu. Wiara w uczucie ponad rozum jest manifestem romantyzmu."
+          "tekst": "* w miasteczku dziewczyna Karusia (Karusieńka) w biały dzień rozmawia ze zmarłym ukochanym Jasieńkiem, którego nikt poza nią nie widzi. Zebrany lud wierzy jej i modli się. Starzec ze „szkiełkiem i okiem” (uczony, rozum) wyśmiewa to jako zabobon. Narrator staje po stronie ludu: „Czucie i wiara silniej mówi do mnie / Niż mędrca szkiełko i oko”; wzywa: „Miej serce i patrzaj w serce!”. To manifest romantyzmu i polemika z racjonalistą Janem Śniadeckim."
         },
         {
           "typ": "punkt",
@@ -82,8 +82,8 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Zjawa ukochanej",
-          "tekst": "(w *Romantyczności*) – symbol wiary w uczucie."
+          "etykieta": "Karusia i zmarły Jasieńko",
+          "tekst": "(w *Romantyczności*) – dziewczyna, która widzi ducha ukochanego; **Starzec** – racjonalista ze „szkiełkiem i okiem”."
         }
       ]
     },
@@ -124,7 +124,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "Młodość",
-          "tekst": "idealizm. *Wykorzystanie:* zestawienie z *Odą* Krasickiego (rozum) i *Kohelet* (przemijanie)."
+          "tekst": "idealizm. *Wykorzystanie:* zestawienie z *Dziadami* cz. III (młodzi więźniowie) i wierszami Baczyńskiego (pokolenie Kolumbów)."
         },
         {
           "typ": "punkt",

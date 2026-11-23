@@ -19,7 +19,7 @@
         {
           "typ": "punkt",
           "etykieta": "Data publikacji",
-          "tekst": "1979 r. (pierwsze wydanie w drugim obiegu; sprawdź datę i miejsce wydania w źródle)."
+          "tekst": "1979 r., poza cenzurą – w podziemnym wydawnictwie NOWA (drugi obieg)."
         },
         {
           "typ": "punkt",
@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "Warszawa, lata 70. XX w. (PRL); akcja obejmuje codzienne spacery bohatera po mieście."
+          "tekst": "jeden dzień w Warszawie w PRL (koniec lat 70.), w dniu uroczystości z udziałem przywódców ZSRR; czas jest umowny, daty się mieszają."
         },
         {
           "typ": "punkt",
@@ -42,32 +42,24 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Uwaga: powieść ma formę luźnych refleksji i obserwacji, nie ciągłej fabuły. Poniżej główne wątki.*"
+          "typ": "punkt",
+          "etykieta": "Propozycja",
+          "tekst": "do narratora – starzejącego się pisarza, który kiedyś wierzył w komunizm – przychodzą znajomi z opozycji, Rysio i Hubert. Proponują mu, by tego wieczoru dokonał samospalenia przed gmachem KC PZPR (Pałacem Kultury) w czasie uroczystości z udziałem przywódców ZSRR – jako protest przeciw zniewoleniu."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Narrator, pisarz w średnim wieku, wędruje po Warszawie i obserwuje miasto oraz jego mieszkańców."
+          "etykieta": "Wędrówka po Warszawie",
+          "tekst": "narrator dostaje kanister z benzyną i przez cały dzień wędruje po rozpadającym się mieście: brakuje prądu, sklepy są puste, pomniki i budynki się sypią, nikt nie wie dokładnie, jaki jest rok. Spotyka dawnych znajomych, literatów, działaczy, mieszkańców – każdy ma inne racje."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przywołuje wspomnienia, rozmowy, obrazy z przeszłości i teraźniejszości."
+          "etykieta": "Nadia i bezpieka",
+          "tekst": "poznaje młodą Rosjankę Nadię i przeżywa z nią krótką miłość. Zostaje zatrzymany i przesłuchany przez funkcjonariuszy, którzy wiedzą o planie. Ma wrażenie, że wszystko jest prowokacją, a opozycja i władza grają tę samą grę."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pojawia się motyw apokalipsy jako stopniowego rozpadu świata i wartości, a nie gwałtownej katastrofy."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Powieść kończy się refleksją o losie człowieka w świecie, który traci sens i pamięć."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: konkretne sceny i motywy wymagane przez CKE.*"
+          "etykieta": "Zakończenie",
+          "tekst": "wieczorem narrator idzie z kanistrem w stronę Pałacu Kultury. Powieść kończy się przed decyzją – nie wiadomo, czy dokona samospalenia."
         },
         {
           "typ": "akapit",
@@ -81,12 +73,22 @@
         {
           "typ": "punkt",
           "etykieta": "Narrator (pisarz)",
-          "tekst": "obserwator, refleksyjny. Cechy: melancholia, ironia, przywiązanie do przeszłości. Rola: pośrednik między czytelnikiem a miastem."
+          "tekst": "starzejący się pisarz, dawny komunista, rozczarowany i zmęczony; wybiera między śmiercią w proteście a dalszym życiem w kłamstwie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Mieszkańcy Warszawy",
-          "tekst": "postacie spotykane na ulicach. Rola: symbol zwykłego życia w PRL."
+          "etykieta": "Rysio i Hubert",
+          "tekst": "działacze opozycji, którzy proponują mu samospalenie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Nadia",
+          "tekst": "młoda Rosjanka, z którą narrator przeżywa krótką miłość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Funkcjonariusze bezpieki",
+          "tekst": "przedstawiciele władzy, która wszystko wie i wszystkim manipuluje."
         }
       ]
     },
@@ -96,7 +98,7 @@
         {
           "typ": "punkt",
           "etykieta": "Główny problem",
-          "tekst": "pamięć, przemijanie, zanik wartości, pustka w świecie współczesnym."
+          "tekst": "zniewolenie w PRL, sens protestu i ofiary, rozpad wartości i zakłamanie."
         },
         {
           "typ": "punkt",
@@ -111,7 +113,7 @@
         {
           "typ": "punkt",
           "etykieta": "Przesłanie",
-          "tekst": "apokalipsa nie jest wydarzeniem jednorazowym, ale procesem; wymaga refleksji i pamięci."
+          "tekst": "apokalipsa nie jest wydarzeniem jednorazowym, ale procesem – powolnym rozpadem państwa, języka i ludzi w systemie zniewolenia; pytanie o sens ofiary w świecie, w którym wszystko może być prowokacją."
         },
         {
           "typ": "punkt",
@@ -354,7 +356,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Pisarz."
+          "tekst": "Starzejący się pisarz, dawny komunista."
         },
         {
           "typ": "punkt",
@@ -372,37 +374,37 @@
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Apokalipsa i pamięć."
+          "tekst": "Rozpad świata PRL i zniewolenie."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Spaceruje i obserwuje."
+          "tekst": "Dostaje propozycję samospalenia i z kanistrem wędruje przez cały dzień po Warszawie."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "PRL."
+          "tekst": "PRL końca lat 70., dzień wizyty przywódców ZSRR."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Luźne refleksje."
+          "tekst": "Powieść-wędrówka z luźnymi epizodami i refleksjami narratora."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Zanikającą kulturę."
+          "tekst": "Rozpad państwa i życia w PRL."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Melancholijnie."
+          "tekst": "Otwarcie – narrator idzie pod Pałac Kultury, nie wiadomo, czy się podpali."
         },
         {
           "typ": "punkt",
@@ -420,7 +422,7 @@
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Pamięć ratuje przed zapomnieniem."
+          "tekst": "Wspomnienia narratora pokazują, jak zakłamanie zniszczyło miasto i ludzi."
         },
         {
           "typ": "punkt",
