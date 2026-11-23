@@ -1,77 +1,159 @@
 {
   "id": "gora-edek",
-  "metryczka": {
-    "autor": "Marek Nowakowski",
-    "tytul": "Górą „Edek” (z tomu „Prawo prerii”)",
-    "rok": "1999 (tom „Prawo prerii”)",
-    "gatunek": "opowiadanie",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-10-wspolczesnosc.md",
+  "sekcje": [
     {
-      "tytul": "Scena na ulicy",
-      "tekst": "Narrator przypadkowo obserwuje zdarzenie w zatłoczonym centrum miasta: na wąskiej ulicy kierowcy krążą w poszukiwaniu wolnego miejsca parkingowego. Niewysoki, drobny młody mężczyzna w okularach, wyglądający na inteligenta, próbuje zaparkować swojego małego fiata, ale manewruje niezręcznie."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Marek Nowakowski"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1999 (tom „Prawo prerii”)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Literatura po 1945 r. (współczesność)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika; opowiadanie"
+        }
+      ]
     },
     {
-      "tytul": "Starcie",
-      "tekst": "Tuż za nim staje luksusowy ford, z którego kierowcą jest wysoki, tęgi mężczyzna w skórzanej kurtce. Ford blokuje malucha. Młody kierowca trąbi i protestuje, dołączają inni kierowcy, ale „Edek” pozostaje niewzruszony. W końcu kierowca malucha ustępuje, a ford sprawnie zajmuje miejsce."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Scena na ulicy",
+          "tekst": "Narrator przypadkowo obserwuje zdarzenie w zatłoczonym centrum miasta: na wąskiej ulicy kierowcy krążą w poszukiwaniu wolnego miejsca parkingowego. Niewysoki, drobny młody mężczyzna w okularach, wyglądający na inteligenta, próbuje zaparkować swojego małego fiata, ale manewruje niezręcznie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Starcie",
+          "tekst": "Tuż za nim staje luksusowy ford, z którego kierowcą jest wysoki, tęgi mężczyzna w skórzanej kurtce. Ford blokuje malucha. Młody kierowca trąbi i protestuje, dołączają inni kierowcy, ale „Edek” pozostaje niewzruszony. W końcu kierowca malucha ustępuje, a ford sprawnie zajmuje miejsce."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Finał",
+          "tekst": "Młodzieniec wysiada i próbuje coś powiedzieć, ale mężczyzna w skórzanej kurtce zachowuje się tak, jakby go nie widział. Znika w bramie pełnej tabliczek firm i przedstawicielstw handlowych, gotów do kolejnych interesów. Narrator nazywa go „Edkiem” – na wzór bohatera „Tanga” Mrożka."
+        }
+      ]
     },
     {
-      "tytul": "Finał",
-      "tekst": "Młodzieniec wysiada i próbuje coś powiedzieć, ale mężczyzna w skórzanej kurtce zachowuje się tak, jakby go nie widział. Znika w bramie pełnej tabliczek firm i przedstawicielstw handlowych, gotów do kolejnych interesów. Narrator nazywa go „Edkiem” – na wzór bohatera „Tanga” Mrożka."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "„Edek”",
+          "tekst": "Pewny siebie, bezwzględny człowiek sukcesu lat 90.; ignoruje innych i stosuje prawo silniejszego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kierowca malucha",
+          "tekst": "Młody inteligent, słabszy, bezradny wobec brutalnej siły."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Narrator",
+          "tekst": "Obserwator, który ze zwykłego zdarzenia wyprowadza diagnozę społeczną."
+        }
+      ]
+    },
+    {
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Samochód",
+          "tekst": "Symbol statusu (ford kontra maluch)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Edek",
+          "tekst": "Typ człowieka zaczerpnięty z „Tanga”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miasto",
+          "tekst": "Przestrzeń rywalizacji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Brama z szyldami firm",
+          "tekst": "Świat nowego biznesu."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Polska po transformacji ustrojowej – kapitalizm, pogoń za pieniądzem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Prawo silniejszego zastępujące uprzejmość i zasady."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przegrana inteligencji wobec przebojowego prymitywizmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zmiana obyczajów i hierarchii społecznej."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Sławomir Mrożek, „Tango” – Edek, który przejmuje władzę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Transformacja ustrojowa po 1989 r. – nowa klasa przedsiębiorców."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krytyk Przemysław Czapliński zwracał uwagę, że Nowakowski piętnuje raczej stary polski charakter niż sam nowy ustrój."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ignacy Krasicki – satyra na obyczaje."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Opowiadanie pochodzi z tomu „Prawo prerii” Marka Nowakowskiego (podawany rok: 1999 – do sprawdzenia w wydaniu). Nowakowski pisał o świecie ulicy i przemian po 1989 r. Tytuł jest okrzykiem triumfu: wygrywa „Edek”, czyli siła i bezczelność, a nie racja – nawiązanie do Edka z „Tanga” Mrożka, symbolu zwycięskiego prostactwa."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "„Edek”",
-      "opis": "Pewny siebie, bezwzględny człowiek sukcesu lat 90.; ignoruje innych i stosuje prawo silniejszego."
-    },
-    {
-      "imie": "kierowca malucha",
-      "opis": "Młody inteligent, słabszy, bezradny wobec brutalnej siły."
-    },
-    {
-      "imie": "narrator",
-      "opis": "Obserwator, który ze zwykłego zdarzenia wyprowadza diagnozę społeczną."
-    }
-  ],
-  "problematyka": [
-    "Polska po transformacji ustrojowej – kapitalizm, pogoń za pieniądzem",
-    "prawo silniejszego zastępujące uprzejmość i zasady",
-    "przegrana inteligencji wobec przebojowego prymitywizmu",
-    "zmiana obyczajów i hierarchii społecznej"
-  ],
-  "motywy": [
-    {
-      "motyw": "samochód",
-      "opis": "symbol statusu (ford kontra maluch)."
-    },
-    {
-      "motyw": "Edek",
-      "opis": "typ człowieka zaczerpnięty z „Tanga”."
-    },
-    {
-      "motyw": "miasto",
-      "opis": "przestrzeń rywalizacji."
-    },
-    {
-      "motyw": "brama z szyldami firm",
-      "opis": "świat nowego biznesu."
-    }
-  ],
-  "konteksty": [
-    "Sławomir Mrożek, „Tango” – Edek, który przejmuje władzę.",
-    "Transformacja ustrojowa po 1989 r. – nowa klasa przedsiębiorców.",
-    "Krytyk Przemysław Czapliński zwracał uwagę, że Nowakowski piętnuje raczej stary polski charakter niż sam nowy ustrój.",
-    "Ignacy Krasicki – satyra na obyczaje."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Kto wygrywa w świecie bez zasad? – „Tango” i „Górą »Edek«”.",
-    "Obraz Polski po 1989 r. w literaturze.",
-    "Pytanie ustne: Dlaczego bohater opowiadania nosi imię Edek?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Lektura dodana do kanonu w 2024 r. Rok wydania tomu „Prawo prerii” podano za materiałami ZPE/prasowymi – do potwierdzenia w wydaniu."
+  ]
 }

@@ -1,84 +1,181 @@
 {
   "id": "szymborska-wiersze",
-  "metryczka": {
-    "autor": "Wisława Szymborska",
-    "tytul": "Wybrane wiersze",
-    "rok": "1957–2002 (m.in. „Nic dwa razy” 1957, tom „Wielka liczba” 1976, tom „Koniec i początek” 1993)",
-    "gatunek": "liryka (refleksyjna, filozoficzna, ironiczna)",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-10-wspolczesnosc.md",
+  "sekcje": [
     {
-      "tytul": "„Nic dwa razy”",
-      "tekst": "Nic nie dzieje się dwa razy: żaden dzień się nie powtórzy, żadna noc nie będzie taka sama, każde spotkanie jest jedyne. Wiersz mówi o niepowtarzalności chwili i ulotności uczuć, zachęcając do zgody na przemijanie."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Wisława Szymborska"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1957–2002 (m.in. „Nic dwa razy” 1957, tom „Wielka liczba” 1976, tom „Koniec i początek” 1993)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Literatura po 1945 r. (współczesność)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; liryka (refleksyjna, filozoficzna, ironiczna)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "wybrane wiersze"
+        }
+      ]
     },
     {
-      "tytul": "„Kot w pustym mieszkaniu”",
-      "tekst": "Śmierć bliskiej osoby pokazana z perspektywy kota, który nie rozumie, dlaczego właściciel nie wraca. Kot obchodzi mieszkanie, czeka, planuje, jak „ukarze” zmarłego za nieobecność. Prostota i pozorny humor potęgują smutek żałoby."
+      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "„Nic dwa razy”",
+          "tekst": "Nic nie dzieje się dwa razy: żaden dzień się nie powtórzy, żadna noc nie będzie taka sama, każde spotkanie jest jedyne. Wiersz mówi o niepowtarzalności chwili i ulotności uczuć, zachęcając do zgody na przemijanie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "„Kot w pustym mieszkaniu”",
+          "tekst": "Śmierć bliskiej osoby pokazana z perspektywy kota, który nie rozumie, dlaczego właściciel nie wraca. Kot obchodzi mieszkanie, czeka, planuje, jak „ukarze” zmarłego za nieobecność. Prostota i pozorny humor potęgują smutek żałoby."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "„Koniec i początek”",
+          "tekst": "Po każdej wojnie ktoś musi posprzątać: uprzątnąć gruz, naprawić domy, wstawić szyby. To zajęcie mało widowiskowe i zapomniane. Z czasem ci, którzy pamiętają, co się stało, ustępują miejsca tym, którzy wiedzą mało lub nic, a na zarośniętych polach bitew ktoś leży i patrzy w chmury."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "„Pochwała złego o sobie mniemania”",
+          "tekst": "Zwierzęta – myszołów, szakal, szarańcza, wieloryb – nie mają sobie nic do zarzucenia, nie znają wyrzutów sumienia. Tylko człowiek potrafi mieć złe mniemanie o sobie – co jest jego cechą wyróżniającą i powodem do (ironicznej) pochwały."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "„Głos w sprawie pornografii”",
+          "tekst": "Ironiczny monolog obrońcy moralności, który za największą rozpustę uznaje… myślenie. Wiersz ośmiesza cenzurę i władzę, która boi się wolnej myśli."
+        }
+      ]
     },
     {
-      "tytul": "„Koniec i początek”",
-      "tekst": "Po każdej wojnie ktoś musi posprzątać: uprzątnąć gruz, naprawić domy, wstawić szyby. To zajęcie mało widowiskowe i zapomniane. Z czasem ci, którzy pamiętają, co się stało, ustępują miejsca tym, którzy wiedzą mało lub nic, a na zarośniętych polach bitew ktoś leży i patrzy w chmury."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny",
+          "tekst": "Ironiczny, uważny obserwator świata, zadziwiony istnieniem."
+        }
+      ]
     },
     {
-      "tytul": "„Pochwała złego o sobie mniemania”",
-      "tekst": "Zwierzęta – myszołów, szakal, szarańcza, wieloryb – nie mają sobie nic do zarzucenia, nie znają wyrzutów sumienia. Tylko człowiek potrafi mieć złe mniemanie o sobie – co jest jego cechą wyróżniającą i powodem do (ironicznej) pochwały."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Chwila",
+          "tekst": "Niepowtarzalność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kot",
+          "tekst": "Perspektywa zwierzęcia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sprzątanie po wojnie",
+          "tekst": "Codzienność po katastrofie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zdziwienie światem",
+          "tekst": "Postawa filozoficzna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ironia",
+          "tekst": "Sposób mówienia o poważnych sprawach."
+        }
+      ]
     },
     {
-      "tytul": "„Głos w sprawie pornografii”",
-      "tekst": "Ironiczny monolog obrońcy moralności, który za największą rozpustę uznaje… myślenie. Wiersz ośmiesza cenzurę i władzę, która boi się wolnej myśli."
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Niepowtarzalność chwili i przemijanie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wyjątkowość człowieka na tle przyrody."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pamięć i zapomnienie po wojnie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Żałoba i śmierć w codzienności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wolność myśli wobec władzy."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Szymborska otrzymała Nagrodę Nobla w 1996 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Filozofia Heraklita („wszystko płynie”) – „Nic dwa razy”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Horacy – przemijanie; Kochanowski, Treny – żałoba."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Literatura wojny (Baczyński, Borowski) a „Koniec i początek” – świat po wojnie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Orwell, „Rok 1984” – władza bojąca się myśli."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Szymborska otrzymała Nagrodę Nobla w 1996 r. Jej wiersze to krótkie, ironiczne refleksje filozoficzne o przypadku, czasie i ludzkiej egzystencji. Tytuły są zwykle proste i zaskakujące („Kot w pustym mieszkaniu”, „Koniec i początek”) – wskazują codzienną sytuację, z której poetka wyprowadza ogólną myśl."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "podmiot liryczny",
-      "opis": "Ironiczny, uważny obserwator świata, zadziwiony istnieniem."
-    }
-  ],
-  "problematyka": [
-    "niepowtarzalność chwili i przemijanie",
-    "wyjątkowość człowieka na tle przyrody",
-    "pamięć i zapomnienie po wojnie",
-    "żałoba i śmierć w codzienności",
-    "wolność myśli wobec władzy"
-  ],
-  "motywy": [
-    {
-      "motyw": "chwila",
-      "opis": "niepowtarzalność."
-    },
-    {
-      "motyw": "kot",
-      "opis": "perspektywa zwierzęcia."
-    },
-    {
-      "motyw": "sprzątanie po wojnie",
-      "opis": "codzienność po katastrofie."
-    },
-    {
-      "motyw": "zdziwienie światem",
-      "opis": "postawa filozoficzna."
-    },
-    {
-      "motyw": "ironia",
-      "opis": "sposób mówienia o poważnych sprawach."
-    }
-  ],
-  "konteksty": [
-    "Szymborska otrzymała Nagrodę Nobla w 1996 r.",
-    "Filozofia Heraklita („wszystko płynie”) – „Nic dwa razy”.",
-    "Horacy – przemijanie; Kochanowski, Treny – żałoba.",
-    "Literatura wojny (Baczyński, Borowski) a „Koniec i początek” – świat po wojnie.",
-    "Orwell, „Rok 1984” – władza bojąca się myśli."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Przemijanie i niepowtarzalność.",
-    "Żałoba w literaturze – Szymborska, Kochanowski.",
-    "Pamięć po wojnie – „Koniec i początek”.",
-    "Pytanie ustne: Jaką rolę odgrywa ironia w poezji Szymborskiej?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje tytułów."
+  ]
 }

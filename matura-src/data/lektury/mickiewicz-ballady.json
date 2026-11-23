@@ -1,106 +1,444 @@
 {
   "id": "mickiewicz-ballady",
-  "metryczka": {
-    "autor": "Adam Mickiewicz",
-    "tytul": "Ballady i romanse (wybrane ballady, w tym „Romantyczność”)",
-    "rok": "1822 (tom „Poezje”, t. I)",
-    "gatunek": "ballada",
-    "epoka": "Romantyzm",
-    "rodzaj": "liryka (gatunek synkretyczny: liryka, epika, dramat)"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "06-romantyzm.md",
+  "sekcje": [
     {
-      "tytul": "„Romantyczność”",
-      "tekst": "Utwór poprzedza motto z „Hamleta” o widzeniu „oczyma duszy”. W biały dzień w miasteczku dziewczyna, Karusia, rozmawia ze zmarłym ukochanym Jasieńkiem, którego widzi tylko ona: skarży się, prosi, by został, a o świcie duch znika. Zbiera się prosty lud, który wierzy w jej przeżycie i modli się za duszę zmarłego. Pojawia się starzec – mędrzec z „szkiełkiem i okiem” – który twierdzi, że dziewczyna majaczy, a ludzie są ciemni. Narrator staje po stronie ludu i dziewczyny: uczucie i wiara mówią mu więcej niż naukowe obserwacje. Kończy wezwaniem, by mieć serce i patrzeć w serce. Ballada jest manifestem polskiego romantyzmu."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Adam Mickiewicz."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "romantyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "*Oda do młodości* – 1820 r.; *Romantyczność* – 1822 r. (w tomie *Ballady i romanse*); *Sonety krymskie* – 1826 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "oda (*Oda do młodości*), ballada (*Romantyczność* i inne ballady), sonet (*Sonety krymskie*)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "utwory liryczne bez konkretnej akcji; *Sonety krymskie* – Krym, podróż."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "programowe utwory romantyzmu; *Romantyczność* jest manifestem nowej poetyki."
+        }
+      ]
     },
     {
-      "tytul": "„Świtezianka”",
-      "tekst": "Młody strzelec spotyka nad jeziorem Świteź tajemniczą dziewczynę i wyznaje jej miłość. Ona prosi o przysięgę wierności i ostrzega przed karą za jej złamanie. Gdy odchodzi, z wody wynurza się piękna nimfa i kusi strzelca; ten zapomina o przysiędze i rzuca się za nią w fale. Okazuje się, że kusicielką była ta sama dziewczyna. Za zdradę spotyka go kara: otchłań pochłania oboje, a odtąd przy księżycu ona pląsa po jeziorze, a on jęczy pod modrzewiem."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "*Oda do młodości",
+          "tekst": "* poeta wzywa młodzież do odwagi, idealizmu i poświęcenia dla ojczyzny. Młodość jest źródłem wiary w wielkie idee."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "*Romantyczność",
+          "tekst": "* podmiot opowiada o tym, jak wierzy w widzenie zjawy ukochanej, mimo rozumowego sceptycyzmu. Wiara w uczucie ponad rozum jest manifestem romantyzmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "*Ballady* (wybrane)",
+          "tekst": "utwory oparte na ludowych wierzeniach, z elementami nadprzyrodzonymi, dramatycznymi zdarzeniami i moralnymi wnioskami."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "*Sonety krymskie",
+          "tekst": "* podróż po Krymie opisuje piękno natury, zachwyt nad morzem, tęsknotę za ojczyzną."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: dokładny wybór ballad i sonetów wymagany przez CKE.*"
+        }
+      ]
     },
     {
-      "tytul": "„Lilije”",
-      "tekst": "Pani zabija męża, który wrócił z wojny, i zakopuje go w gaju, sadząc na grobie lilie. Pustelnik, do którego idzie po radę, mówi, że jeśli ukryje zbrodnię, mąż nie wróci. Przyjeżdżają bracia zabitego i obaj zakochują się w bratowej. Pani każe im uwić dla niej wianek; obaj zrywają lilie z grobu. W dniu ślubu w kościele bracia kłócą się o wianek, aż zjawia się duch zamordowanego, upomina się o żonę i braci i zabiera ich „na tamten świat”. Świątynia zapada się pod ziemię, a w tym miejscu wyrastają lilie."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny",
+          "tekst": "młody poeta w *Odzie*, zakochany w *Romantyczności*, podróżnik w *Sonetach*. Rola: wyraża przeżycia romantyczne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Młodzież",
+          "tekst": "(w *Odzie*) – adresat idealistycznego wezwania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zjawa ukochanej",
+          "tekst": "(w *Romantyczności*) – symbol wiary w uczucie."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "wiara, uczucie, idealizm, ojczyzna, natura."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "rozum wobec uczucia; młodość wobec realności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "idealizm, odwaga, wiara, miłość, patriotyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "wiara w uczucie i w wielkie idee jest źródłem sensu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończeń",
+          "tekst": "wezwanie do działania (*Oda*), manifest wiary (*Romantyczność*)."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Młodość",
+          "tekst": "idealizm. *Wykorzystanie:* zestawienie z *Odą* Krasickiego (rozum) i *Kohelet* (przemijanie)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Wiara",
+          "tekst": "w uczucie. *Wykorzystanie:* zestawienie z *Bogurodzicą* (wiara w siłę modlitwy)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Natura",
+          "tekst": "zachwyt. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (natura Litwy)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Przemijanie",
+          "tekst": "*Kohelet* jako kontrast."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Zjawa",
+          "tekst": "(*Romantyczność*) – symbol uczucia i wiary."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Morze",
+          "tekst": "(*Sonety*) – symbol wolności i tęsknoty."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "powstania narodowe, zabory, młodzież w konspiracji (filomaci)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "idealizm, emocjonalizm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "manifest romantyzmu; wpływ ballad niemieckich."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy uczucie jest ważniejsze niż rozum?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Młodość jako czas idealizmu."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Romantyczność* pokazuje, że wiara w uczucie może być silniejsza niż rozum."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Oda* – *Kohelet* (przemijanie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Romantyczność* – *Bogurodzica* (wiara)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Oda do młodości* (1820), *Romantyczność* (1822), *Sonety krymskie* (1826)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: młodość, wiara, uczucie, natura."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: wiara w uczucie i idee."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje *Oda do młodości*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Komu poeta adresuje wezwanie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co widzi podmiot w *Romantyczności*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak nazywa się gatunek *Romantyczności*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja *Sonetów*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki symbol pojawia się w *Sonetach*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaką wartość promuje *Oda*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Co wyraża podmiot w ballad?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W którym roku powstała *Oda*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje w utworach?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego wiara w uczucie jest ważna dla romantyków?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak *Oda* łączy młodość z patriotyzmem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy *Romantyczność* odrzuca rozum? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak natura w *Sonetach* odzwierciedla tęsknotę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Dlaczego ballady zawierają elementy nadprzyrodzone?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Oda."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Młodzieży."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Zjawę ukochanej."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Ballada."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Krym."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Morze."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Idealizm i odwagę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Wiarę w nadprzyrodzoność."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "1820."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Młodość, wiara, uczucie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Uczucie ponad sceptycyzm."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Młodzież powinna działać dla ojczyzny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Nie, uznaje rozum, ale stawia uczucie wyżej."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Natura staje się lustrem tęsknoty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Bo łączą ludowe wierzenia z romantyczną wrażliwością."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Karusia",
-      "opis": "Dziewczyna kochająca zmarłego Jasieńka; uosobienie romantycznej wiary w uczucie i świat duchowy."
-    },
-    {
-      "imie": "Starzec",
-      "opis": "Mędrzec-racjonalista (bywa łączony z oświeceniowym uczonym), wierzący tylko w to, co można zbadać."
-    },
-    {
-      "imie": "narrator „Romantyczności”",
-      "opis": "Poeta, który opowiada się po stronie ludu i uczucia."
-    },
-    {
-      "imie": "strzelec i Świtezianka",
-      "opis": "Kochanek, który łamie przysięgę, i dziewczyna-rusałka wymierzająca karę."
-    },
-    {
-      "imie": "Pani (Lilije)",
-      "opis": "Zbrodniarka, która nie unika kary."
-    }
-  ],
-  "problematyka": [
-    "spór romantyków z klasykami: uczucie i wiara przeciw rozumowi i nauce",
-    "istnienie świata duchowego i kontakt żywych ze zmarłymi",
-    "ludowa moralność: wina i nieuchronna kara",
-    "wierność i zdrada w miłości",
-    "lud jako strażnik prawdy i tradycji"
-  ],
-  "motywy": [
-    {
-      "motyw": "szkiełko i oko",
-      "opis": "racjonalizm i empiryzm."
-    },
-    {
-      "motyw": "czucie i wiara",
-      "opis": "romantyczne poznanie."
-    },
-    {
-      "motyw": "duch zmarłego",
-      "opis": "Jasieńko, mąż z „Lilij”."
-    },
-    {
-      "motyw": "przysięga",
-      "opis": "jej złamanie wywołuje karę („Świtezianka”)."
-    },
-    {
-      "motyw": "zbrodnia i kara",
-      "opis": "„Lilije”."
-    },
-    {
-      "motyw": "natura",
-      "opis": "jezioro Świteź, gaj – świat tajemniczy i żywy."
-    }
-  ],
-  "konteksty": [
-    "„Ballady i romanse” (1822) uważa się za początek romantyzmu w Polsce.",
-    "Spór klasyków z romantykami (m.in. z Janem Śniadeckim) w latach 20. XIX w.",
-    "Ludowość i fantastyka – wpływ niemieckich romantyków (Herder, Schiller, Goethe).",
-    "William Szekspir, „Hamlet” – źródło motta.",
-    "„Dziady” cz. II – ludowy obrzęd i wiara w duchy; Bolesław Leśmian – nowoczesne ballady."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Czucie i wiara silniej mówi do mnie / Niż mędrca szkiełko i oko.",
-      "kontekst": "„Romantyczność” – deklaracja narratora, manifest romantyzmu."
-    },
-    {
-      "tekst": "Miej serce i patrzaj w serce!",
-      "kontekst": "„Romantyczność” – ostatnie słowa narratora do starca."
-    }
-  ],
-  "doWypracowania": [
-    "Rozum czy uczucie? – spór oświecenia z romantyzmem.",
-    "Świat ludowy w literaturze – „Ballady i romanse”, „Wesele”, „Chłopi”.",
-    "Wina i kara w literaturze (Lilije, Makbet, Zbrodnia i kara).",
-    "Miłość silniejsza niż śmierć – „Romantyczność”.",
-    "Pytanie ustne: Dlaczego „Romantyczność” uważa się za manifest romantyzmu?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Obowiązkowa jest „Romantyczność”; pozostałe ballady wybiera nauczyciel. Opisano też „Świteziankę” i „Lilije” jako często omawiane."
+  ]
 }

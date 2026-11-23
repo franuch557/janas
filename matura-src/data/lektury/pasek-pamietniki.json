@@ -1,0 +1,463 @@
+{
+  "id": "pasek-pamietniki",
+  "zrodlo": "czat",
+  "plik": "04-barok.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Jan Chryzostom Pasek (ok. 1636–1701), szlachcic herbu Pilawa z Mazowsza, uczestnik wielu wojen XVII w."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "barok."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "druga połowa XVII w. (pisane po 1690 r. według większości źródeł; pierwsze wydanie w XIX w.)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "pamiętnik, autobiografia szlachecka, proza pamiętnikarska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "XVII w.; wojny: potop szwedzki, wojny z Kozakami i Turcją, wyprawy na Ukrainę i Litwę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "pamiętnik powstał jako rodzaj świadectwa własnych czynów i zarazem wzorca szlacheckiego życia. Autor spisał wspomnienia z lat walk i życia rodzinnego."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: fragmenty wymagane przez CKE sprawdź w wykazie. Poniżej ogólny przebieg pamiętnika.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Młodość",
+          "tekst": "Pasek opisuje swoje dzieciństwo i pierwsze wojenne doświadczenia. Wstępuje do wojska, a jego życie kształtuje się wokół służby."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wojny",
+          "tekst": "autor opisuje kampanie, m.in. wojny ze Szwedami i Kozakami. Pokazuje realia wojny: marsze, potyczki, trudy, niebezpieczeństwo."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przygody",
+          "tekst": "pamiętnik zawiera anegdoty o odwadze, zuchwałości i obyczajach szlacheckich, często z humorem i dystansem do siebie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Życie codzienne",
+          "tekst": "autor opisuje obyczaje szlacheckie, gościnność, zabawy i życie rodzinne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "Pasek kończy swoją opowieść refleksją nad własnym życiem i służbą."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** wojna i służba pokazują realia XVII-wiecznej Rzeczypospolitej; osobiste przygody składają się na obraz szlachcica."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Pasek (narrator i bohater)",
+          "tekst": "szlachcic, żołnierz. Cechy: odwaga, zuchwałość, dystans do siebie, przywiązanie do obyczajów. Decyzje: wybór służby wojskowej, udział w kampaniach. Zmienia się: od młodego żołnierza do dojrzałego szlachcica. Wymowa: wzór szlacheckiego życia i jego realiów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Postacie drugoplanowe",
+          "tekst": "dowódcy, towarzysze broni, wrogowie. Rola: tło wydarzeń."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "los człowieka w czasie wojny; szlachecki ideał honoru i służby."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "człowiek wobec wojny; szlachcic wobec swoich obowiązków i pragnień."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "odwaga, honor, wierność ojczyźnie, gościnność, wspólnota szlachecka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "pamiętnik pokazuje, że służba wojskowa jest obowiązkiem, ale także źródłem przygód i doświadczeń."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "refleksja nad przeszłością i własnym życiem."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Wojna",
+          "tekst": "kampanie, walki. *Wykorzystanie:* zestawienie z *Pieśnią o Rolandzie* (honor rycerski) i *Iliadą* (wojna)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Honor",
+          "tekst": "szlachecka godność. *Wykorzystanie:* zestawienie z *Odprawą posłów greckich* (honor i władza)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Ojczyzna",
+          "tekst": "służba państwu. *Wykorzystanie:* zestawienie z *Dziadami* cz. III lub *Panem Tadeuszem* (patriotyzm)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Przygoda",
+          "tekst": "anegdoty i zuchwałość. *Wykorzystanie:* porównanie z *Zemstą* (obyczaje szlacheckie)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Szabla i koń",
+          "tekst": "symbol szlacheckiej służby."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dwór i gościnność",
+          "tekst": "symbol szlacheckich obyczajów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Podróż",
+          "tekst": "symbol życia pełnego przygód."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Rzeczpospolita XVII w., potop szwedzki (1655–1660), wojny z Kozakami i Turcją."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "życie autora jako żołnierza i szlachcica; pamiętnik jako świadectwo osobiste."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Społeczny",
+          "tekst": "obyczaje szlacheckie, kultura sarmacka."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wojna jako doświadczenie człowieka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Szlachecki ideał honoru w XVII w."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pasek pokazuje, że wojna była zarówno obowiązkiem, jak i źródłem przygód."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pamiętnik ukazuje sarmacki obraz świata szlacheckiego."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Pamiętniki* – *Pan Tadeusz* (obyczaje szlacheckie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Pamiętniki* – *Pieśń o Rolandzie* (ideał rycerski)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pamiętnik szlachecki, XVII w."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohater: Pasek, szlachcic i żołnierz."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: wojna, honor, ojczyzna, przygoda."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: obraz szlacheckiego życia i wojny."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kim był Jan Chryzostom Pasek?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "W jakim wieku pisany był pamiętnik?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jakie wojny opisuje autor?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jakie obyczaje szlacheckie są obecne?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaki symbol pojawia się w tekście?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Co łączy pamiętnik z wojną?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni humor?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki jest główny bohater?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego pamiętnik jest ważnym źródłem wiedzy o XVII w.?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak Pasek przedstawia wojnę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy szlachecki ideał honoru jest realny? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak humor wpływa na odbiór tekstu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak pamiętnik łączy osobiste z historycznym?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Szlachcic i żołnierz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Pamiętnik."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "W drugiej połowie XVII w."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Ze Szwedami, Kozakami, Turcją."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Wojna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Gościnność, zabawy, honor."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Szabla."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Życie wojskowe."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Dystans do siebie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Pasek."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Opisuje realia epoki z perspektywy uczestnika."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Z realizmem i dystansem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Częściowo: ideał był wzorem, realia bywały trudniejsze."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Nadaje lekkość, ale nie zmniejsza wagi wydarzeń."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Pokazuje życie jednostki w kontekście dziejów państwa."
+        }
+      ]
+    }
+  ]
+}

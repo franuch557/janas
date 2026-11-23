@@ -1,66 +1,132 @@
 {
   "id": "hymn-do-milosci-ojczyzny",
-  "metryczka": {
-    "autor": "Ignacy Krasicki",
-    "tytul": "Hymn do miłości ojczyzny",
-    "rok": "1774 (wydany w poemacie „Myszeida”, 1775)",
-    "gatunek": "hymn",
-    "epoka": "Oświecenie",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-04-oswiecenie.md",
+  "sekcje": [
     {
-      "tytul": "Treść",
-      "tekst": "Krótki utwór (jedna strofa, osiem wersów) jest apostrofą do miłości ojczyzny, nazwanej świętą. Czują ją tylko ludzie szlachetni. Dla niej nawet trucizna smakuje, więzy i kajdany nie przynoszą hańby, a kalectwo i blizny odniesione w walce są powodem do chwały. Miłość ojczyzny daje prawdziwą radość. Jeśli można ojczyźnie pomóc, nie żal żyć w nędzy ani umrzeć."
-    }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "podmiot liryczny",
-      "opis": "Patriota, który wyraża uczucia wspólne wszystkim „umysłom poczciwym”."
-    }
-  ],
-  "problematyka": [
-    "patriotyzm jako najwyższa wartość",
-    "poświęcenie dla ojczyzny aż do śmierci",
-    "ofiara i cierpienie jako źródło godności"
-  ],
-  "motywy": [
-    {
-      "motyw": "ojczyzna",
-      "opis": "personifikowana miłość ojczyzny jako adresatka."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Ignacy Krasicki"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1774 (wydany w poemacie „Myszeida”, 1775)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Oświecenie"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; hymn"
+        }
+      ]
     },
     {
-      "motyw": "ofiara",
-      "opis": "gotowość na nędzę i śmierć."
+      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Treść",
+          "tekst": "Krótki utwór (jedna strofa, osiem wersów) jest apostrofą do miłości ojczyzny, nazwanej świętą. Czują ją tylko ludzie szlachetni. Dla niej nawet trucizna smakuje, więzy i kajdany nie przynoszą hańby, a kalectwo i blizny odniesione w walce są powodem do chwały. Miłość ojczyzny daje prawdziwą radość. Jeśli można ojczyźnie pomóc, nie żal żyć w nędzy ani umrzeć."
+        }
+      ]
     },
     {
-      "motyw": "paradoks",
-      "opis": "trucizna smakuje, kalectwo zdobi."
-    }
-  ],
-  "konteksty": [
-    "Oświecenie: wychowanie obywatelskie, Komisja Edukacji Narodowej.",
-    "I rozbiór Polski (1772) – tło historyczne.",
-    "Horacy: „Dulce et decorum est pro patria mori” (Pieśń III, 2).",
-    "Romantyzm: „Dziady” cz. III, „Oda do młodości” – patriotyzm czynu i ofiary.",
-    "Baczyński – patriotyzm pokolenia wojennego, ofiara z życia."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Święta miłości kochanej ojczyzny, / Czują cię tylko umysły poczciwe!",
-      "kontekst": "Początek hymnu – apostrofa do miłości ojczyzny."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny",
+          "tekst": "Patriota, który wyraża uczucia wspólne wszystkim „umysłom poczciwym”."
+        }
+      ]
     },
     {
-      "tekst": "Nie żal żyć w nędzy, nie żal i umierać.",
-      "kontekst": "Ostatni wers – gotowość na poświęcenie."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ojczyzna",
+          "tekst": "Personifikowana miłość ojczyzny jako adresatka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ofiara",
+          "tekst": "Gotowość na nędzę i śmierć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Paradoks",
+          "tekst": "Trucizna smakuje, kalectwo zdobi."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Patriotyzm jako najwyższa wartość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Poświęcenie dla ojczyzny aż do śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ofiara i cierpienie jako źródło godności."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Oświecenie",
+          "tekst": "wychowanie obywatelskie, Komisja Edukacji Narodowej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "I rozbiór Polski (1772) – tło historyczne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Horacy",
+          "tekst": "„Dulce et decorum est pro patria mori” (Pieśń III, 2)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Romantyzm",
+          "tekst": "„Dziady” cz. III, „Oda do młodości” – patriotyzm czynu i ofiary."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Baczyński – patriotyzm pokolenia wojennego, ofiara z życia."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Krasicki napisał „Hymn” w 1774 r., wkrótce po pierwszym rozbiorze Polski (1772), dla uczniów Szkoły Rycerskiej. Potem włączył go do poematu „Myszeida” (pieśń IX). Tytuł nazywa gatunek (hymn – uroczysta pieśń pochwalna, dawniej o bogach) i jego temat: miłość ojczyzny zajmuje tu miejsce zarezerwowane wcześniej dla sacrum."
+        }
+      ]
     }
-  ],
-  "doWypracowania": [
-    "Patriotyzm w różnych epokach – Krasicki, Mickiewicz, Baczyński.",
-    "Czy warto poświęcić życie dla ojczyzny?",
-    "Pytanie ustne: Jak Krasicki rozumie miłość ojczyzny?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór znany ze szkoły podstawowej, w liceum również obowiązkowy. Okoliczności powstania (związek ze Szkołą Rycerską) bywają różnie przedstawiane – nie przesądzono ich tutaj."
+  ]
 }

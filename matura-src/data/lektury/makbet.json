@@ -1,121 +1,489 @@
 {
   "id": "makbet",
-  "metryczka": {
-    "autor": "William Szekspir",
-    "tytul": "Makbet",
-    "rok": "ok. 1606",
-    "gatunek": "tragedia (dramat elżbietański)",
-    "epoka": "Renesans (odrodzenie)",
-    "rodzaj": "dramat"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "03-renesans.md",
+  "sekcje": [
     {
-      "tytul": "Akt I – przepowiednia",
-      "tekst": "Na wrzosowisku trzy czarownice spotykają wracających z bitwy wodzów Makbeta i Banka. Witają Makbeta jako tana Glamis, tana Kawdoru i przyszłego króla, a Bankowi przepowiadają, że będzie ojcem królów. Wkrótce Makbet dowiaduje się, że król Duncan nadał mu tytuł tana Kawdoru (poprzedni został stracony za zdradę). Duncan ogłasza następcą swojego syna Malkolma. Lady Makbet po lekturze listu od męża postanawia, że Makbet musi zostać królem. Gdy król przybywa na nocleg do ich zamku, namawia wahającego się męża do zbrodni, zarzucając mu tchórzostwo."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "William Szekspir (1564–1616), angielski dramaturg."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "renesans (elżbietański); uwaga na klasyfikację, zob. sekcja 0."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "ok. 1606 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "dramat, tragedia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "średniowieczna Szkocja, XI w., zamki i pola bitew."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "tragedia oparta na kronikach szkockich (Holinshed), wzmocniona wątkiem prawdziwym o władcy zamordowanym przez następcę."
+        }
+      ]
     },
     {
-      "tytul": "Akt II – zabójstwo Duncana",
-      "tekst": "Makbet ma wizję sztyletu, a potem zabija śpiącego króla. Wstrząśnięty nie potrafi wrócić na miejsce zbrodni – to Lady Makbet podrzuca sztylety i plami krwią odurzonych strażników. Rano Makduf odkrywa zbrodnię; Makbet zabija strażników, by nie mogli zeznawać. Synowie Duncana uciekają (Malkolm do Anglii), co rzuca na nich podejrzenie. Makbet zostaje królem."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "trzy wiedźmy przepowiadają Makbetowi, że zostanie królem. Przepowiednia dla Banka mówi, że jego potomkowie będą władać."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zbrodnia",
+          "tekst": "Makbet, pod wpływem żony i własnych ambicji, zabija króla Dunkana. Zostaje królem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Paranoja i kolejne zbrodnie",
+          "tekst": "Makbet obawia się Banka i zabija go. Następnie każe zamordować rodzinę Macduffa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lady Makbet",
+          "tekst": "jej poczucie winy prowadzi do obłędu i samobójstwa, a wątek snu wędrującego ukazuje jej zmagania z wyrzutami sumienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Finał",
+          "tekst": "wojska nadciągają z lasu Birnam, Macduff, który nie urodził się w sposób naturalny, zabija Makbeta. Malcolm zostaje królem."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** zbrodnia rodzi kolejne zbrodnie; władza zdobyta przemocą nie daje spokoju."
+        }
+      ]
     },
     {
-      "tytul": "Akt III – zbrodnie się mnożą",
-      "tekst": "Makbet boi się przepowiedni o potomkach Banka, więc nasyła na niego morderców. Banko ginie, ale jego syn Fleance ucieka. Podczas uczty Makbet widzi ducha Banka na swoim miejscu i wpada w przerażenie; Lady Makbet tłumaczy gościom, że to dawna przypadłość męża."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Makbet",
+          "tekst": "generał, potem król. Cechy: ambicja, lęk, zmienność. Decyzje: zabójstwo Dunkana, Banka i rodziny Macduffa. Zmienia się: od wahania do tyranii. Wymowa: władza zdobyta zbrodnią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lady Makbet",
+          "tekst": "żona. Cechy: ambicja, determinacja, potem obłęd. Decyzje: namawia męża do zbrodni. Zmienia się: od siły do rozpaczy. Wymowa: cena ambicji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Banko",
+          "tekst": "generał, przyjaciel Makbeta. Rola: symbol moralności, zamordowany przez Makbeta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Macduff",
+          "tekst": "szlachcic. Rola: symbol sprawiedliwości, zabija Makbeta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wiedźmy",
+          "tekst": "przepowiadają przyszłość. Rola: symbol przeznaczenia i pokusy."
+        }
+      ]
     },
     {
-      "tytul": "Akt IV – nowe przepowiednie i rzeź",
-      "tekst": "Makbet idzie do czarownic. Zjawy ostrzegają go przed Makdufem, ale też zapewniają, że nie zaszkodzi mu nikt zrodzony z kobiety i że nie zostanie pokonany, dopóki las birnamski nie podejdzie pod zamek Dunsinane. Widzi też korowód królów z rodu Banka. Gdy dowiaduje się o ucieczce Makdufa do Anglii, każe wymordować jego żonę i dzieci. W Anglii Malkolm sprawdza lojalność Makdufa; przychodzi wieść o rzezi jego rodziny. Makduf przysięga zemstę i z Malkolmem oraz wojskiem angielskim rusza na Szkocję."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "ambicja, zbrodnia, władza, sumienie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Makbet z sumieniem, Makbet z Bankiem i Macduffem, Lady Makbet z własnym poczuciem winy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "lojalność, sumienie, sprawiedliwość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "władza zdobyta zbrodnią niszczy tego, kto ją zdobył."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "przywrócenie porządku przez sprawiedliwego następcę."
+        }
+      ]
     },
     {
-      "tytul": "Akt V – upadek",
-      "tekst": "Lady Makbet lunatykuje i próbuje zmyć z rąk niewidzialną krew; wkrótce umiera (prawdopodobnie odbiera sobie życie). Makbet przyjmuje wiadomość o jej śmierci z pustką – życie wydaje mu się bezsensownym przedstawieniem. Żołnierze Malkolma maskują się gałęziami z lasu Birnam, więc „las idzie” na Dunsinane. W walce Makduf wyjawia, że nie urodził się w zwykły sposób (wydobyto go z łona matki przed czasem), i zabija Makbeta. Malkolm zostaje królem."
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Ambicja",
+          "tekst": "Makbet, Lady Makbet. *Wykorzystanie:* zestawienie z *Odą do młodości* (ambicja i jej koszty)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Zbrodnia i wyrzuty sumienia",
+          "tekst": "Makbet. *Wykorzystanie:* zestawienie z *Konradem Wallenrodem* (konflikt sumienia)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Przeznaczenie",
+          "tekst": "wiedźmy. *Wykorzystanie:* zestawienie z *Mitologią* (przeznaczenie)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Władza",
+          "tekst": "króla i tyrana. *Wykorzystanie:* zestawienie z *Antygoną* (władza a sumienie)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Krew",
+          "tekst": "symbol winy, która nie daje się zmyć (plamy na rękach Lady Makbet)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wiedźmy",
+          "tekst": "symbol przeznaczenia i pokusy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Las Birnam",
+          "tekst": "symbol nadchodzącej sprawiedliwości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sen",
+          "tekst": "symbol wyrzutów sumienia."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Anglia za Jakuba I, zainteresowanie szkocką historią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "dramat elżbietański, tradycja tragedii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "pytanie o wolną wolę a przeznaczenie."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy ambicja niszczy człowieka?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zbrodnia i jej konsekwencje."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy przeznaczenie ogranicza wolność człowieka?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Makbet pokazuje, że władza zdobyta zbrodnią nie daje spokoju."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Lady Makbet ukazuje cenę ambicji."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Makbet* – *Dziady* cz. III (zbrodnia i władza)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Makbet* – *Konrad Wallenrod* (konflikt sumienia)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Makbet* – *Mitologia* (przeznaczenie)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Szekspir, *Makbet*, ok. 1606 r., tragedia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Makbet, Lady Makbet, Banko, Macduff, wiedźmy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: ambicja, zbrodnia, przeznaczenie, sumienie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: władza zdobyta zbrodnią niszczy."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto przepowiada Makbetowi władzę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kogo zabija Makbet na początku?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kogo zabija Makbet z obawy przed przepowiednią?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak umiera Lady Makbet?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto zabija Makbeta?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Gdzie wojska nadciągają?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki symbol pojawia się w tekście?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kto zostaje królem na końcu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełnią wiedźmy?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Makbet pod wpływem przepowiedni dopuszcza się zbrodni?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak sumienie zmienia Lady Makbet?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy przeznaczenie determinuje działania bohaterów? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak zbrodnia wpływa na relacje między postaciami?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaką wymowę ma finał?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Wiedźmy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dunkana."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Banka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Popełnia samobójstwo (w utworze umiera poza sceną, wątek obłędu i wyrzutów sumienia)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Macduff."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Z lasu Birnam."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Tragedia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Krew."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Malcolm."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Przepowiadają przyszłość."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Ambicja i wpływ żony."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Pojawia się obłęd i wyrzuty sumienia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Częściowo: przeznaczenie wskazuje drogę, ale wybory należą do bohaterów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Zbrodnia rodzi kolejne zbrodnie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Przywrócenie sprawiedliwości i konsekwencje zbrodni."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Makbet",
-      "opis": "Dzielny wódz, którego ambicja, podsycona przepowiednią i żoną, prowadzi do zbrodni; z każdą kolejną zbrodnią staje się coraz bardziej okrutny i samotny."
-    },
-    {
-      "imie": "Lady Makbet",
-      "opis": "Ambitna, silna, bezwzględna inicjatorka zbrodni; z czasem łamie ją poczucie winy (szaleństwo, lunatyzm)."
-    },
-    {
-      "imie": "Duncan",
-      "opis": "Dobry, ufny król Szkocji, ofiara Makbeta."
-    },
-    {
-      "imie": "Banko",
-      "opis": "Towarzysz Makbeta; również słyszy przepowiednię, ale nie ulega pokusie zbrodni."
-    },
-    {
-      "imie": "Makduf",
-      "opis": "Szlachcic, który przejrzał Makbeta; traci rodzinę i staje się mścicielem."
-    },
-    {
-      "imie": "Malkolm",
-      "opis": "Syn Duncana, prawowity następca."
-    },
-    {
-      "imie": "trzy czarownice (wiedźmy)",
-      "opis": "Siły nadprzyrodzone, które budzą w Makbecie pragnienie władzy; ich słowa są dwuznaczne."
-    }
-  ],
-  "problematyka": [
-    "ambicja i żądza władzy jako siła niszcząca",
-    "mechanizm zła: jedna zbrodnia pociąga następne",
-    "wina, sumienie i kara",
-    "fatum a wolna wola – czy przepowiednia zmusza do zbrodni?",
-    "relacja małżeńska oparta na wspólnej winie",
-    "władza zdobyta przemocą jako tyrania"
-  ],
-  "motywy": [
-    {
-      "motyw": "krew",
-      "opis": "symbol winy, której nie da się zmyć."
-    },
-    {
-      "motyw": "przepowiednia",
-      "opis": "dwuznaczne słowa wiedźm."
-    },
-    {
-      "motyw": "sen i bezsenność",
-      "opis": "zbrodniarz traci spokój i sen."
-    },
-    {
-      "motyw": "szaleństwo",
-      "opis": "obłęd Lady Makbet."
-    },
-    {
-      "motyw": "teatr świata",
-      "opis": "życie jako przemijający cień i przedstawienie bez sensu."
-    },
-    {
-      "motyw": "upiór",
-      "opis": "duch Banka jako znak wyrzutów sumienia."
-    }
-  ],
-  "konteksty": [
-    "Teatr elżbietański: brak jedności czasu i miejsca, łączenie tragizmu z elementami komicznymi (scena odźwiernego), sceny fantastyczne.",
-    "Źródłem fabuły są kroniki Holinsheda; postać historycznego Makbeta (XI w.) różni się od dramatu.",
-    "Niccolò Machiavelli, „Książę” – refleksja o skutecznej i bezwzględnej władzy.",
-    "Juliusz Słowacki, „Balladyna” – podobny mechanizm zbrodni i władzy.",
-    "Sofokles, „Antygona” – inny typ winy władcy (Kreon).",
-    "Barok: motyw theatrum mundi i marności świata."
-  ],
-  "cytaty": [
-    {
-      "tekst": "To życie tylko cieniem jest przelotnym,",
-      "kontekst": "Makbet po wieści o śmierci żony – refleksja nad bezsensem życia (przekł. L. Ulricha)."
-    }
-  ],
-  "doWypracowania": [
-    "Władza i jej wpływ na człowieka – Makbet, Kreon, Edek z „Tanga”.",
-    "Zło rodzi zło – mechanizm zbrodni.",
-    "Wyrzuty sumienia i kara – Makbet, Lady Makbet, Raskolnikow.",
-    "Kobieta silna i bezwzględna – Lady Makbet.",
-    "Czy człowiek jest zdeterminowany przez los? – przepowiednie w „Makbecie”.",
-    "Pytanie ustne: Jaką rolę w „Makbecie” pełnią elementy fantastyczne?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Na Wolnych Lekturach przekład Leona Ulricha (domena publiczna); cytat z tego przekładu. W szkole często używa się innych przekładów (np. J. Paszkowskiego, S. Barańczaka), w których brzmienie jest inne. Szekspir to renesans angielski (formalnie przełom renesansu i baroku)."
+  ]
 }

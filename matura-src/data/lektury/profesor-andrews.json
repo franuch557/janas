@@ -1,90 +1,427 @@
 {
   "id": "profesor-andrews",
-  "metryczka": {
-    "autor": "Olga Tokarczuk",
-    "tytul": "Profesor Andrews w Warszawie (z tomu „Gra na wielu bębenkach”)",
-    "rok": "2001 (tom „Gra na wielu bębenkach”)",
-    "gatunek": "opowiadanie",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "11-wspolczesna.md",
+  "sekcje": [
     {
-      "tytul": "Przylot",
-      "tekst": "Angielski profesor psychologii Andrews, przedstawiciel nowoczesnej szkoły psychoterapii, przylatuje do Warszawy w grudniu 1981 r., by wygłosić wykład. Jest pełen optymizmu: wyobraża sobie Polskę jako kraj inteligentnych ludzi, zainteresowanych ideami jego szkoły. W samolocie wspomina sen o wronie, który interpretuje jako zapowiedź czegoś dobrego. Na lotnisku wita go przewodniczka Gosha i zawozi do mieszkania na ostatnim piętrze szarego bloku."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autorka",
+          "tekst": "Olga Tokarczuk (ur. 1962), polska pisarka, laureatka Nagrody Nobla (2018)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "literatura współczesna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "2001 r. (tom *Gra na wielu bębenkach*)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "opowiadanie (nowela) z tomu opowiadań."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Warszawa, czasy współczesne (koniec XX w.); wątki historyczne i pamięć o wojnie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "opowiadanie z tomu, w którym Tokarczuk łączy wątki historyczne, pamięć i tożsamość."
+        }
+      ]
     },
     {
-      "tytul": "13 grudnia",
-      "tekst": "Następnego ranka Andrews budzi się sam. Telefon nie działa, a na ulicach widzi czołgi i żołnierzy. Nie zna języka, nie ma mapy, nie wie, że ogłoszono stan wojenny. Błąka się po zaśnieżonym, szarym mieście w poszukiwaniu działającego telefonu, gubi się, przypadkiem trafia z powrotem do bloku. Jego wykład się nie odbywa."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: opowiadanie jest krótkie; poniżej ogólny zarys. Sprawdź szczegóły w tekście.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Profesor Andrews, postać ze świata akademickiego, przybywa do Warszawy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pobyt w mieście uruchamia u niego wspomnienia i refleksje nad historią i pamięcią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pojawia się motyw przeszłości, która wpływa na teraźniejszość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Opowiadanie kończy się refleksją o tożsamości i tym, jak miasto przechowuje ślady przeszłości."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: szczegółowe sceny, role postaci i kontekst historyczny.*"
+        }
+      ]
     },
     {
-      "tytul": "Błądzenie",
-      "tekst": "Profesor jest coraz bardziej głodny i zmarznięty. Je w barze mlecznym, w osiedlowym sklepie kupuje tylko chleb i ocet, przez okratowaną witrynę ogląda pełne półki Peweksu. Przygląda się kolejkom ludzi po karpie, a nawet sam kupuje choinkę, by być jak inni. Zaczyna podejrzewać, że ma epizod psychotyczny – jego teorie psychologiczne nie pomagają zrozumieć tego, co się dzieje."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Profesor Andrews",
+          "tekst": "postać akademicka, obcokrajowiec. Rola: pośrednik między obcym a miastem; pretekst do refleksji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Warszawa",
+          "tekst": "miasto jako bohater zbiorowy, nośnik pamięci."
+        }
+      ]
     },
     {
-      "tytul": "Ocalenie",
-      "tekst": "Z opresji ratuje go zwykły człowiek, zaradny mieszkaniec bloku, który zabiera go do domu: na stole kiełbasa i wódka, w wannie pływa żywy karp. Patrząc w oko ryby, Andrews przeżywa coś na kształt mistycznego doświadczenia. Mężczyzna odwozi go do ambasady. Żegnają się zdaniem, którego profesor nauczył się od sprzedawców karpi (pytaniem, czy rybę zabić na miejscu)."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "pamięć historyczna, tożsamość miasta, relacja przeszłości z teraźniejszością."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "historia jest obecna w codzienności; pamięć kształtuje tożsamość."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Pamięć",
+          "tekst": "przeszłość w teraźniejszości. *Wykorzystanie:* zestawienie z *Dziadami* cz. II (pamięć o zmarłych)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Obcość",
+          "tekst": "spojrzenie z zewnątrz. *Wykorzystanie:* zestawienie z *Listami z podróży* Sienkiewicza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Miasto",
+          "tekst": "Warszawa jako przestrzeń pamięci. *Wykorzystanie:* zestawienie z *Małą apokalipsą* Konwickiego."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Miasto",
+          "tekst": "symbol pamięci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Profesor",
+          "tekst": "symbol wiedzy i obcości."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Warszawa po 1989 r., pamięć II wojny światowej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "proza współczesna, opowiadanie jako forma."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "Tokarczuk jako autorka pisząca o pamięci i tożsamości."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pamięć historyczna miasta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Obcy w swoim mieście."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tokarczuk pokazuje, że przeszłość nie jest zamknięta i wpływa na teraźniejszość."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Profesor Andrews* – *Mała apokalipsa* (miasto i pamięć)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Profesor Andrews* – *Listy z podróży* (spojrzenie z zewnątrz)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tokarczuk, *Profesor Andrews w Warszawie*, 2001 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohater: profesor Andrews."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: pamięć, obcość, miasto."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: przeszłość kształtuje teraźniejszość."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak nazywa się bohater?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Z jakiego tomu pochodzi opowiadanie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest bohater z punktu widzenia zawodu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co wywołuje refleksję?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki kontekst historyczny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kto jest autorką?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jak kończy się opowiadanie?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego obcokrajowiec jest dobrym pośrednikiem w refleksji nad miastem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak przeszłość wpływa na teraźniejszość w opowiadaniu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy pamięć może być przeszkodą? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak Tokarczuk łączy historię z codziennością?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaką wymowę ma zakończenie?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Profesor Andrews."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Warszawa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Opowiadanie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "*Gra na wielu bębenkach*."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Pamięć i tożsamość."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Profesor, akademik."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pobyt w mieście."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Historia i pamięć wojny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Olga Tokarczuk."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Refleksją nad tożsamością."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Ma dystans i spojrzenie z zewnątrz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Historia jest obecna w codzienności."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Może, jeśli prowadzi do zamknięcia się w przeszłości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Przez obserwację codzienności i historii."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Pokazuje, że przeszłość kształtuje tożsamość."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "profesor Andrews",
-      "opis": "Brytyjski psycholog, pewny swojej teorii świata; w obcym, absurdalnym miejscu przeżywa upokorzenie, lęk i przemianę."
-    },
-    {
-      "imie": "Gosha",
-      "opis": "Przewodniczka, która zostawia go w mieszkaniu i znika (nie może się z nim skontaktować)."
-    },
-    {
-      "imie": "mężczyzna z bloku",
-      "opis": "Prosty, zaradny człowiek, który okazuje profesorowi bezinteresowną pomoc."
-    }
-  ],
-  "problematyka": [
-    "stan wojenny widziany oczami obcokrajowca",
-    "bezsilność wiedzy i teorii wobec rzeczywistości",
-    "obcość, samotność, brak porozumienia",
-    "absurd życia w PRL",
-    "zwykła ludzka solidarność"
-  ],
-  "motywy": [
-    {
-      "motyw": "obcy",
-      "opis": "cudzoziemiec w niezrozumiałym świecie."
-    },
-    {
-      "motyw": "labirynt",
-      "opis": "miasto bez mapy."
-    },
-    {
-      "motyw": "wrona",
-      "opis": "aluzja do WRON (Wojskowej Rady Ocalenia Narodowego)."
-    },
-    {
-      "motyw": "karp",
-      "opis": "absurdalny symbol polskich świąt i kolejek."
-    },
-    {
-      "motyw": "sen",
-      "opis": "błędna interpretacja rzeczywistości."
-    }
-  ],
-  "konteksty": [
-    "Historia: wprowadzenie stanu wojennego 13 grudnia 1981 r.",
-    "Psychologia głębi (C. G. Jung) – Tokarczuk studiowała psychologię.",
-    "Dante, „Boska Komedia” – wędrówka przez piekło (motyw zauważony przez badaczy).",
-    "George Orwell, „Rok 1984” – świat zamknięty i kontrolowany.",
-    "Zbigniew Herbert, „Raport z oblężonego miasta” – stan wojenny w poezji.",
-    "Olga Tokarczuk – Nagroda Nobla za 2018 r."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Obcy w nieznanym świecie – Andrews, Pielgrzym z „Sonetów krymskich”.",
-    "Czy teoria pomaga zrozumieć świat?",
-    "Obraz PRL w literaturze.",
-    "Bezinteresowna pomoc – solidarność zwykłych ludzi.",
-    "Pytanie ustne: Jak Tokarczuk pokazuje stan wojenny?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Lektura dodana do kanonu w 2024 r. Przebieg wydarzeń odtworzono na podstawie analiz (m.in. artykułu A. Larenty) – warto porównać z tekstem."
+  ]
 }

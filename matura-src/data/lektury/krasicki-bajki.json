@@ -1,0 +1,464 @@
+{
+  "id": "krasicki-bajki",
+  "zrodlo": "czat",
+  "plik": "05-oswiecenie.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Ignacy Krasicki (1735–1801), biskup warmiński, najwybitniejszy poeta polskiego oświecenia, arcybiskup gnieźnieński."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "oświecenie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "pierwsze wydanie 1779 r. (zbiór *Bajki i przypowieści*); kolejne wydania w latach 1780–1800."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "bajka (krótki utwór alegoryczny, zwykle wierszowany, z morałem)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "bajki nie mają konkretnego czasu i miejsca; akcja dzieje się w świecie zwierząt i ludzi, często w krajobrazie wiejskim lub dworskim."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Krasicki nawiązuje do tradycji Ezopa i La Fontaine'a, przekształcając ją w krytykę obyczajów polskiego społeczeństwa XVIII w."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: bajki są krótkie, dlatego zamiast streszczenia całego zbioru poniżej omówienie schematu i wybranych przykładów. Konkretne tytuły wymagane przez CKE sprawdź w wykazie.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Schemat bajki",
+          "tekst": "krótka opowieść o zwierzętach lub ludziach, w której zdarzenie prowadzi do puenty i morału."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Typowe sytuacje",
+          "tekst": "pycha władców, chciwość, obłuda, głupota, naiwność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Funkcja morału",
+          "tekst": "każdą bajkę zamyka wniosek moralny, często ironiczny lub gorzki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Znaczenie",
+          "tekst": "bajki Krasickiego są satyrą obyczajową i zarazem dydaktyczną lekcją."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Zwierzęta",
+          "tekst": "reprezentują typy ludzkie (lis – spryt i obłuda, wilk – siła i chciwość, osioł – głupota). Rola: alegoria postaw społecznych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ludzie",
+          "tekst": "w bajkach pojawiają się postacie typowe dla społeczeństwa XVIII w. (władcy, dworzanie, mieszczanie, chłopi). Rola: krytyka społeczna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Narrator",
+          "tekst": "moralizujący, ironiczny, dystansujący się od opisywanych wad."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "wady ludzkie i społeczne, krytyka obyczajów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "pycha wobec pokory, chciwość wobec umiaru, obłuda wobec szczerości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "rozsądek, umiar, uczciwość, sprawiedliwość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "człowiek powinien kierować się rozumem; wady prowadzą do zguby."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończeń",
+          "tekst": "morał, często gorzki, pokazujący słabość ludzkiej natury."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Rozum",
+          "tekst": "wartość rozsądku wobec emocji. *Wykorzystanie:* zestawienie z *Mitologią* (Syzyf jako przykład bezsensownego trudu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Pycha i chciwość",
+          "tekst": "wady władców i poddanych. *Wykorzystanie:* zestawienie z *Makbetem* (ambicja jako zguba) i *Skąpcem* (chciwość)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Obłuda",
+          "tekst": "pozory i rzeczywistość. *Wykorzystanie:* zestawienie z *Makbetem* (pozór i prawda)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Władza",
+          "tekst": "krytyka władców. *Wykorzystanie:* zestawienie z *Antygoną* (władca, który nie słucha rad)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Zwierzęta",
+          "tekst": "symbol ludzkich wad."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Morał",
+          "tekst": "symbol ironicznej lekcji."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Rzeczpospolita XVIII w., czasy Stanisława Augusta Poniatowskiego, kryzys państwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "racjonalizm, wiara w rozum i postęp."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "tradycja Ezopa i La Fontaine'a."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Społeczny",
+          "tekst": "krytyka szlachty i dworu, obyczajowość XVIII w."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Rozum jako wartość człowieka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wady społeczne i ich krytyka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy władza może być sprawiedliwa?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bajki Krasickiego pokazują, że wady łatwo ujawniają się w zachowaniu, nawet u zwierząt."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Bajki* – *Skąpiec* (wady człowieka)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Bajki* – *Makbet* (ambicja)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Bajki* – *Antygona* (władza)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krasicki, *Bajki i przypowieści*, 1779 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Forma: bajka z morałem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: rozum, pycha, chciwość, obłuda, władza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: rozum i umiar są drogą do szczęścia."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kim był Ignacy Krasicki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W którym roku wydano *Bajki*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentują utwory?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaką funkcję pełni morał?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czym są zwierzęta w bajkach?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jakie wady są krytykowane?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Z jakiej tradycji wywodzą się bajki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni narrator?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jakie wartości propaguje Krasicki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Czy bajki mają konkretną akcję i miejsce?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego zwierzęta są dobrym narzędziem krytyki społecznej?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak morał wpływa na odbiór bajki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy wiara w rozum jest realistyczna w XVIII w.? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak Krasicki łączy ironię i dydaktyzm?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaką wymowę ma krytyka władzy?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Biskup, poeta oświecenia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W 1779 r."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Bajka z morałem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Wnioskuje moralnie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Alegorie ludzkich wad."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Pycha, chciwość, obłuda, głupota."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Z Ezopa i La Fontaine'a."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Moralizuje i ironizuje."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Rozum, umiar, uczciwość."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Nie, są uniwersalne."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Zwierzęta pozwalają krytykować bez bezpośredniego oskarżania."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Morał zamyka i podsumowuje sens opowieści."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Częściowo: wiara w rozum była ideałem epoki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Ironia łagodzi przesłanie, a dydaktyzm je wzmacnia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Krytyka pokazuje słabości władzy, ale nie burzy jej ideału."
+        }
+      ]
+    }
+  ]
+}

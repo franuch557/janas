@@ -1,96 +1,196 @@
 {
   "id": "herbert-wiersze",
-  "metryczka": {
-    "autor": "Zbigniew Herbert",
-    "tytul": "Wybrane wiersze",
-    "rok": "1956–1983 (m.in. tom „Studium przedmiotu” 1961, „Pan Cogito” 1974, „Raport z oblężonego miasta” 1983)",
-    "gatunek": "liryka (refleksyjna, moralna, liryka maski)",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-10-wspolczesnosc.md",
+  "sekcje": [
     {
-      "tytul": "„Przesłanie Pana Cogito”",
-      "tekst": "Wiersz-testament w formie rad: idź wyprostowany, bo ocalałeś nie po to, by żyć, lecz by dawać świadectwo; bądź odważny, gdy rozum zawodzi; strzeż się oschłości serca, ale nie wyzbywaj się pogardy dla szpiclów i katów; nie przebaczaj w imieniu tych, których zdradzono; bądź wierny. Podmiot przywołuje mitycznych i literackich bohaterów (Gilgamesz, Hektor, Roland), którzy przegrali, lecz pozostali wierni."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Zbigniew Herbert"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1956–1983 (m.in. tom „Studium przedmiotu” 1961, „Pan Cogito” 1974, „Raport z oblężonego miasta” 1983)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Literatura po 1945 r. (współczesność)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; liryka (refleksyjna, moralna, liryka maski)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "wybrane wiersze"
+        }
+      ]
     },
     {
-      "tytul": "„Tren Fortynbrasa”",
-      "tekst": "Fortynbras, nowy władca, mówi nad ciałem Hamleta. Docenia go, ale też wytyka mu, że żył w świecie wielkich idei i nie umiał żyć zwyczajnie. Sam zapowiada pragmatyczne rządy: porządek, sprawy miasta, kanalizacja. Wiersz zderza dwie postawy: idealizm i realizm władzy."
+      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "„Przesłanie Pana Cogito”",
+          "tekst": "Wiersz-testament w formie rad: idź wyprostowany, bo ocalałeś nie po to, by żyć, lecz by dawać świadectwo; bądź odważny, gdy rozum zawodzi; strzeż się oschłości serca, ale nie wyzbywaj się pogardy dla szpiclów i katów; nie przebaczaj w imieniu tych, których zdradzono; bądź wierny. Podmiot przywołuje mitycznych i literackich bohaterów (Gilgamesz, Hektor, Roland), którzy przegrali, lecz pozostali wierni."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "„Tren Fortynbrasa”",
+          "tekst": "Fortynbras, nowy władca, mówi nad ciałem Hamleta. Docenia go, ale też wytyka mu, że żył w świecie wielkich idei i nie umiał żyć zwyczajnie. Sam zapowiada pragmatyczne rządy: porządek, sprawy miasta, kanalizacja. Wiersz zderza dwie postawy: idealizm i realizm władzy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "„Potęga smaku”",
+          "tekst": "Podmiot twierdzi, że opór wobec władzy totalitarnej nie wymagał wielkiego charakteru, lecz smaku: język propagandy był brzydki, prymitywny, a rządzący nieciekawi. Estetyka okazuje się podstawą etyki – nie można przyjąć kłamstwa, które razi brzydotą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "„Raport z oblężonego miasta”",
+          "tekst": "Kronikarz oblężonego Miasta notuje zwięźle wydarzenia: kolejne najeźdźców, nędzę, zdrady i tych, którzy trwają. Mówi, że jeśli Miasto padnie, a ocaleje jeden, to on będzie niósł Miasto w sobie. Wiersz odczytywano jako komentarz do stanu wojennego, ale ma wymiar uniwersalny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "„Apollo i Marsjasz”",
+          "tekst": "Opis kary, jaką Apollo wymierza Marsjaszowi, który wyzwał go na pojedynek muzyczny – obdzieranie ze skóry. Krzyk cierpiącego Marsjasza jest prawdziwą, nową sztuką, przeciwstawioną chłodnej doskonałości Apolla. Wiersz pyta o relację sztuki i cierpienia."
+        }
+      ]
     },
     {
-      "tytul": "„Potęga smaku”",
-      "tekst": "Podmiot twierdzi, że opór wobec władzy totalitarnej nie wymagał wielkiego charakteru, lecz smaku: język propagandy był brzydki, prymitywny, a rządzący nieciekawi. Estetyka okazuje się podstawą etyki – nie można przyjąć kłamstwa, które razi brzydotą."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Pan Cogito",
+          "tekst": "Alter ego poety – myślący inteligent, ironiczny, wierny wartościom."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Fortynbras i Hamlet",
+          "tekst": "Pragmatyk władzy i idealista."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kronikarz oblężonego miasta",
+          "tekst": "Świadek, który trwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Apollo i Marsjasz",
+          "tekst": "Bóg doskonałości i cierpiący człowiek."
+        }
+      ]
     },
     {
-      "tytul": "„Raport z oblężonego miasta”",
-      "tekst": "Kronikarz oblężonego Miasta notuje zwięźle wydarzenia: kolejne najeźdźców, nędzę, zdrady i tych, którzy trwają. Mówi, że jeśli Miasto padnie, a ocaleje jeden, to on będzie niósł Miasto w sobie. Wiersz odczytywano jako komentarz do stanu wojennego, ale ma wymiar uniwersalny."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Postawa wyprostowana",
+          "tekst": "Godność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Testament",
+          "tekst": "Przesłanie dla potomnych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Oblężone miasto",
+          "tekst": "Trwanie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mit przetworzony",
+          "tekst": "Apollo i Marsjasz."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hamlet",
+          "tekst": "Intelektualista wobec władzy."
+        }
+      ]
     },
     {
-      "tytul": "„Apollo i Marsjasz”",
-      "tekst": "Opis kary, jaką Apollo wymierza Marsjaszowi, który wyzwał go na pojedynek muzyczny – obdzieranie ze skóry. Krzyk cierpiącego Marsjasza jest prawdziwą, nową sztuką, przeciwstawioną chłodnej doskonałości Apolla. Wiersz pyta o relację sztuki i cierpienia."
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wierność wartościom mimo klęski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odpowiedzialność świadka historii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Opór wobec totalitaryzmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Idealizm a pragmatyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Sztuka a cierpienie."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Liryka maski i nawiązania do antyku oraz Szekspira („Hamlet”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Historia PRL",
+          "tekst": "stalinizm, stan wojenny 1981–1983."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Juliusz Słowacki, „Testament mój” – tradycja testamentu poetyckiego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "„Pieśń o Rolandzie”, „Iliada” – bohaterowie przywołani w „Przesłaniu”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Mitologia (Parandowski) – Apollo i Marsjasz."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Herbert stworzył postać Pana Cogito w tomie „Pan Cogito” (1974); „Przesłanie Pana Cogito” zamyka ten tom. Imię nawiązuje do zdania Kartezjusza *Cogito, ergo sum* („Myślę, więc jestem”) – Pan Cogito to człowiek myślący, który ocenia świat i wybiera wierność wartościom mimo przegranej."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Pan Cogito",
-      "opis": "Alter ego poety – myślący inteligent, ironiczny, wierny wartościom."
-    },
-    {
-      "imie": "Fortynbras i Hamlet",
-      "opis": "Pragmatyk władzy i idealista."
-    },
-    {
-      "imie": "kronikarz oblężonego miasta",
-      "opis": "Świadek, który trwa."
-    },
-    {
-      "imie": "Apollo i Marsjasz",
-      "opis": "Bóg doskonałości i cierpiący człowiek."
-    }
-  ],
-  "problematyka": [
-    "wierność wartościom mimo klęski",
-    "odpowiedzialność świadka historii",
-    "opór wobec totalitaryzmu",
-    "idealizm a pragmatyzm",
-    "sztuka a cierpienie"
-  ],
-  "motywy": [
-    {
-      "motyw": "postawa wyprostowana",
-      "opis": "godność."
-    },
-    {
-      "motyw": "testament",
-      "opis": "przesłanie dla potomnych."
-    },
-    {
-      "motyw": "oblężone miasto",
-      "opis": "trwanie."
-    },
-    {
-      "motyw": "mit przetworzony",
-      "opis": "Apollo i Marsjasz."
-    },
-    {
-      "motyw": "Hamlet",
-      "opis": "intelektualista wobec władzy."
-    }
-  ],
-  "konteksty": [
-    "Liryka maski i nawiązania do antyku oraz Szekspira („Hamlet”).",
-    "Historia PRL: stalinizm, stan wojenny 1981–1983.",
-    "Juliusz Słowacki, „Testament mój” – tradycja testamentu poetyckiego.",
-    "„Pieśń o Rolandzie”, „Iliada” – bohaterowie przywołani w „Przesłaniu”.",
-    "Mitologia (Parandowski) – Apollo i Marsjasz."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Wierność wartościom – Herbert, Antygona.",
-    "Testament poetycki – Herbert, Słowacki.",
-    "Postawy wobec totalitaryzmu – „Potęga smaku”, „Rok 1984”.",
-    "Pytanie ustne: Jakie wartości propaguje Pan Cogito?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje tytułów."
+  ]
 }

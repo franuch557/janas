@@ -1,0 +1,472 @@
+{
+  "id": "dziady-cz-2",
+  "zrodlo": "czat",
+  "plik": "06-romantyzm.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Adam Mickiewicz (1798–1855), najwybitniejszy poeta polskiego romantyzmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "romantyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "1823–1832 (wydanie 1823, Wilno; ostateczna wersja w 1832 r.; pierwsze wydanie części II w 1823 r.)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "dramat romantyczny (dramat wieszcza), cz. II – rytualna scena obrzędu dziadów z ks. Piotrem i Gustawem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Litwa, noc z 31 października na 1 listopada (Zaduszki), kaplica filomatów, więzienie w Wilnie, lata 20. XIX w."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "prześladowania filomatów i filaretów przez władze carskie; cykl *Dziadów* jest wyrazem bólu, buntu i religijności."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Cz. II jest dramatem składającym się z kilku scen. Poniżej przebieg wydarzeń najczęściej omawianych w szkole.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Obrzęd dziadów",
+          "tekst": "w kaplicy na cmentarzu sprawuje obrzęd Ksiądz (ks. Piotr), wywołując duchy zmarłych. Przychodzi lud wiejski, który przynosi ofiary."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Widzenie Gustawa",
+          "tekst": "młody Gustaw, skazany za miłość do Maryli, pojawia się w celi. Przeżywa cierpienie, ból, samotność; prosi o modlitwę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ksiądz i Gustaw",
+          "tekst": "ksiądz rozmawia z Gustawem; ukazuje się mu wizja cierpienia Polski i konfliktu między ludźmi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Scena w więzieniu (Widzenie Gustawa)",
+          "tekst": "Gustaw wspomina miłość do Maryli i zostaje poddany próbie, przeżywa wizję zbrodni i moralnych dylematów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "duchy odchodzą, a obrzęd dobiega końca; Gustaw zostaje w cierpieniu."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia:* kolejność scen i przypisanie konkretnych wizji do Gustawa oraz ks. Piotra."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** obrzęd jest pretekstem do przedstawienia cierpienia zbiorowego (Polski) i indywidualnego (Gustawa)."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ksiądz (ks. Piotr)",
+          "tekst": "duchowny prowadzący obrzęd. Cechy: powaga, religijność, odpowiedzialność. Decyzje: sprawowanie obrzędu, wywoływanie duchów. Rola: pośrednik między światem żywych a zmarłych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gustaw",
+          "tekst": "młody uwięziony bohater, alter ego Mickiewicza. Cechy: wrażliwość, cierpienie, bunt. Decyzje: wyznanie miłości, prośba o modlitwę. Zmienia się: od buntu do pokory. Wymowa: cierpienie jednostki jako symbol cierpienia narodu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Duchy",
+          "tekst": "zmarli, cierpiący za życia. Rola: przypomnienie o winie i cierpieniu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lud wiejski",
+          "tekst": "uczestnicy obrzędu. Rola: wspólnota i wiara ludowa."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "cierpienie jednostki i narodu, sprzeciw wobec niesprawiedliwości, wiara i nadzieja."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "jednostka wobec władzy zaborczej, człowiek wobec losu, wiara wobec rozpaczy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "patriotyzm, wiara, miłość, solidarność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "cierpienie ma sens, gdy łączy się z wiarą i nadzieją na wyzwolenie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "pozostawienie bohatera w cierpieniu jako symbol narodu."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Cierpienie",
+          "tekst": "Gustaw. *Wykorzystanie:* zestawienie z *Księgą Hioba* (cierpienie i sens)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Bunt",
+          "tekst": "wobec niesprawiedliwości. *Wykorzystanie:* zestawienie z *Antygoną* (sprzeciw wobec władzy)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Ojczyzna",
+          "tekst": "cierpienie narodu. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim* (cierpienie zbiorowe)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Miłość",
+          "tekst": "do Maryli. *Wykorzystanie:* zestawienie z *Makbetem* (miłość a zbrodnia)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Kaplica i cmentarz",
+          "tekst": "miejsce łączące świat żywych i zmarłych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Duchy",
+          "tekst": "symbol winy i cierpienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cela",
+          "tekst": "symbol niewoli."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "zabory, prześladowania patriotów (procesy filomatów w 1823 r.)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Religijny",
+          "tekst": "tradycja ludowa, obrzęd Zaduszek, katolicyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "mesjanizm romantyczny."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy cierpienie jednostki ma sens w służbie narodowi?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bunt wobec niesprawiedliwości."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Gustaw pokazuje, że cierpienie jednostki staje się symbolem cierpienia narodu."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Dziady* cz. II – *Lament świętokrzyski* (cierpienie zbiorowe)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Dziady* cz. II – *Antygona* (sprzeciw wobec władzy)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Dramat romantyczny, 1823–1832."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: ksiądz, Gustaw, duchy, lud."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: cierpienie, bunt, ojczyzna, wiara."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: cierpienie w wierze ma sens."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki obrzęd jest przedstawiony?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kim jest Gustaw?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kto prowadzi obrzęd?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kiedy rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Kim są duchy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni lud?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kto jest adresatem miłości Gustawa?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jak nazywa się gatunek?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Gustaw jest symbolem narodu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak obrzęd łączy świat żywych i zmarłych?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy bunt Gustawa jest uzasadniony? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaką funkcję pełni wiara w utworze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Dlaczego Mickiewicz wybiera dramat do przedstawienia cierpienia?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Obrzęd dziadów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Młody uwięziony bohater."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Ksiądz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Noc z 31 października na 1 listopada."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Litwa, kaplica i cela."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Cierpienie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Zmarli."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Uczestniczy i łączy się z obrzędem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Maryla."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Dramat romantyczny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Jego cierpienie odzwierciedla los narodu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Łączy świat żywych i zmarłych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Uzasadniony, bo niesprawiedliwość wywołuje bunt."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Daje nadzieję i sens cierpienia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Dramat pozwala pokazać cierpienie w sposób obrazowy i zbiorowy."
+        }
+      ]
+    }
+  ]
+}

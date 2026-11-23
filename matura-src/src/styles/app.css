@@ -2746,3 +2746,47 @@ label.btn.disabled {
   background: var(--powierzchnia-2);
   border-radius: var(--r-tag);
 }
+
+/* opracowania lektur */
+.book-section > summary {
+  cursor: pointer;
+  list-style: none;
+  min-height: 32px;
+}
+.book-section > summary::-webkit-details-marker {
+  display: none;
+}
+.book-section > summary h2 {
+  display: inline;
+  font-size: 1.125rem;
+}
+.book-section > summary::before {
+  content: '▸ ';
+  color: var(--tekst-2);
+}
+.book-section[open] > summary::before {
+  content: '▾ ';
+}
+.book-section {
+  scroll-margin-top: 80px;
+}
+.book-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9375rem;
+}
+.book-table th,
+.book-table td {
+  border: 1px solid var(--linia);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.book-table th {
+  background: var(--powierzchnia-2);
+}
+a.chip {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}

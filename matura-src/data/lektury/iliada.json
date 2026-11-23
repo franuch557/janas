@@ -1,127 +1,144 @@
 {
   "id": "iliada",
-  "metryczka": {
-    "autor": "Homer",
-    "tytul": "Iliada",
-    "rok": "ok. VIII w. p.n.e. (według tradycji)",
-    "gatunek": "epos (epopeja bohaterska)",
-    "epoka": "Antyk",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "01-antyk-i-sredniowiecze.md",
+  "sekcje": [
     {
-      "tytul": "Czas i temat",
-      "tekst": "Akcja obejmuje kilkadziesiąt dni dziesiątego roku wojny Greków (Achajów) z Troją. Tematem jest gniew Achillesa i jego tragiczne skutki. Utwór liczy 24 pieśni."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Homer"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "VIII w. p.n.e."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Antyk (Starożytna Grecja)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika; epos bohaterski (heroiczny)"
+        }
+      ]
     },
     {
-      "tytul": "Pieśń I – spór o brankę",
-      "tekst": "Kapłan Apollina Chryzes prosi o zwrot córki Chryzeidy, branki Agamemnona. Agamemnon odmawia, więc Apollo zsyła na obóz zarazę. Agamemnon w końcu oddaje Chryzeidę, ale w zamian zabiera Achillesowi jego brankę Bryzeidę. Upokorzony Achilles wycofuje się z walki, a jego matka, nimfa Tetyda, prosi Zeusa, by Trojanie zwyciężali, dopóki Grecy nie oddadzą synowi czci."
+      "tytul": "Plan wydarzeń / Streszczenie (kluczowe fragmenty maturalne)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Inwokacja (Księga I)",
+          "tekst": "Poeta zwraca się do muzy Kaliope z prośbą o natchnienie, zapowiadając główny temat utworu – gniew Achillesa, który przyniósł Achajom niezliczone klęski."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Pożegnanie Hektora z Andromachą (Księga VI)",
+          "tekst": "Hektor spotyka się na murach Troi z żoną Andromachą i synkiem Astyanaksem. Żona błaga go, by nie wracał na pole bitwy, obawiając się o los swój i dziecka. Hektor odrzuca prośbę, stawiając honor i obronę ojczyzny ponad życie rodzinne."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Pojedynek Achillesa z Hektorem (Księga XXII)",
+          "tekst": "Achilles, chcąc pomścić śmierć swojego przyjaciela Patroklosa, staje do walki z Hektorem. Hektor, opuszczony przez bogów, ginie z ręki Achillesa, który następnie bezcześci jego zwłoki, przywiązując je do rydwanu i włócząc wokół murów Troi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Wykupienie zwłok Hektora przez Priama (Księga XXIV)",
+          "tekst": "Stary król Troi, Priam, udaje się nocą do obozu Achajów. Pada na kolana przed zabójcą swojego syna i błaga o wydanie ciała Hektora. Achilles, poruszony widokiem cierpiącego ojca (który przypomina mu jego własnego ojca, Peleusa), zgadza się wydać ciało i ogłasza dwunastodniowy rozejm na czas pogrzebu."
+        }
+      ]
     },
     {
-      "tytul": "Pieśni II–IX – przewaga Trojan",
-      "tekst": "Wojna toczy się dalej; Parys pojedynkuje się z Menelaosem (ocala go Afrodyta). W pieśni VI Hektor żegna się z żoną Andromachą i synkiem Astianaksem – dziecko boi się błyszczącego hełmu ojca, Hektor wie, że Troja może upaść, ale wybiera obowiązek. Trojanie spychają Greków do okrętów. Poselstwo do Achillesa (pieśń IX) z przeprosinami i darami kończy się odmową."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Achilles",
+          "tekst": "Najdzielniejszy wojownik grecki (achajski), syn Peleusa i bogini Tetydy. Porywczy, dumny, kierujący się żądzą sławy i zemsty, ale zdolny również do głębokiego współczucia i refleksji nad ludzkim losem (scena z Priamem)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hektor",
+          "tekst": "Najstarszy syn króla Priama, wódz wojsk trojańskich. Wzór patrioty, kochającego męża i ojca. Walczy w obronie ojczyzny mimo świadomości nieuchronnej klęski i własnej śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Priam",
+          "tekst": "Król Troi. Zrozpaczony ojciec, który dla godnego pochówku syna potrafi ukorzyć się przed największym wrogiem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Andromacha",
+          "tekst": "Żona Hektora, uosobienie miłości małżeńskiej i troski o rodzinę."
+        }
+      ]
     },
     {
-      "tytul": "Pieśni XVI–XIX – śmierć Patroklosa",
-      "tekst": "Przyjaciel Achillesa Patroklos w jego zbroi odpiera Trojan, ale ginie z ręki Hektora (wspomaganego przez Apollina). Rozpacz Achillesa zmienia jego gniew: teraz pragnie zemsty. Hefajstos wykuwa mu nową zbroję i tarczę, na której przedstawiony jest cały świat (miasto w pokoju i na wojnie, prace rolników, taniec). Achilles godzi się z Agamemnonem i wraca do walki."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Wojna i heroizm",
+          "tekst": "Walka jako próba charakteru, dążenie do nieśmiertelnej sławy (*kleos*) kosztem krótkiego życia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Honor i patriotyzm",
+          "tekst": "Postawa Hektora przedkładającego obowiązek wobec ojczyzny nad własne szczęście."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cierpienie i śmierć",
+          "tekst": "Okrutny wymiar wojny, ból rodziców tracących dzieci (Priam)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przebaczenie i człowieczeństwo",
+          "tekst": "Przełamanie nienawiści w spotkaniu Achillesa i Priama."
+        }
+      ]
     },
     {
-      "tytul": "Pieśni XX–XXII – zemsta",
-      "tekst": "Achilles sieje spustoszenie wśród Trojan. Pod murami Troi stawia mu czoła Hektor; ucieka trzykrotnie wokół murów, a gdy staje do walki, ginie. Achilles bezcześci jego ciało, wlokąc je za rydwanem."
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Homer ukazuje wojnę z dwóch perspektyw: jako arenę wielkich czynów heroicznych, ale także jako źródło niewyobrażalnego ludzkiego cierpienia. Epos porusza kwestię ingerencji bogów w losy śmiertelników oraz granic okrucieństwa i zemsty, które zostają przezwyciężone dopiero przez empatię i wspólnotę ludzkiego losu."
+        }
+      ]
     },
     {
-      "tytul": "Pieśni XXIII–XXIV – pogrzeb i pojednanie",
-      "tekst": "Grecy wyprawiają pogrzeb Patroklosa i igrzyska. Stary król Priam nocą, pod opieką Hermesa, przychodzi do namiotu Achillesa i błaga o wydanie ciała syna, przypominając mu jego własnego ojca. Achilles wzruszony oddaje zwłoki i ogłasza rozejm. Utwór kończy pogrzeb Hektora."
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki (cechy eposu homeryckiego)",
+          "tekst": "Rozbudowane porównania homeryckie, stałe epitety (np. „prędkonogi Achilles”, „hektor hełmomigający”), retardacja (opóźnianie akcji), obecność bogów (świat przedstawiony dwupłaszczyznowy), obiektywny i wszechwiedzący narrator."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mitologiczny",
+          "tekst": "Wojna trojańska wywołana porwaniem Heleny przez Parysa oraz sporem bogiń o jabłko niezgody."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł *Iliada* pochodzi od greckiej nazwy Troi – **Ilion** (pieśń o Ilionie). Utwór opisuje zaledwie kilkadziesiąt dni z dziesiątego, ostatniego roku wojny trojańskiej, koncentrując się wokół gniewu Achillesa i jego konsekwencji."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Achilles",
-      "opis": "Najdzielniejszy z Greków, syn Peleusa i Tetydy; porywczy, dumny, zdolny jednak do litości wobec Priama."
-    },
-    {
-      "imie": "Agamemnon",
-      "opis": "Wódz Greków, król Myken; pyszny i zachłanny, wywołuje konflikt z Achillesem."
-    },
-    {
-      "imie": "Hektor",
-      "opis": "Syn Priama, obrońca Troi; odpowiedzialny, kochający mąż i ojciec, wzór patriotyzmu."
-    },
-    {
-      "imie": "Patroklos",
-      "opis": "Przyjaciel Achillesa, jego śmierć zmienia bieg wojny."
-    },
-    {
-      "imie": "Priam",
-      "opis": "Sędziwy król Troi, ojciec Hektora; jego prośba to jedna z najbardziej poruszających scen eposu."
-    },
-    {
-      "imie": "Andromacha",
-      "opis": "Żona Hektora, symbol kobiecego cierpienia w czasie wojny."
-    },
-    {
-      "imie": "Odyseusz, Ajas, Nestor, Menelaos",
-      "opis": "Inni wodzowie greccy."
-    },
-    {
-      "imie": "bogowie (Zeus, Hera, Atena, Apollo, Afrodyta, Tetyda)",
-      "opis": "Ingerują w wojnę, wspierając swoje strony."
-    }
-  ],
-  "problematyka": [
-    "gniew, honor i duma wojownika",
-    "wojna jako źródło sławy i cierpienia",
-    "przyjaźń i zemsta",
-    "los (fatum) a wola bogów",
-    "litość i wspólnota ludzkiego losu (Priam i Achilles)",
-    "obowiązek wobec ojczyzny i rodziny"
-  ],
-  "motywy": [
-    {
-      "motyw": "wojna",
-      "opis": "brutalne opisy walk obok refleksji nad jej sensem."
-    },
-    {
-      "motyw": "pożegnanie z rodziną",
-      "opis": "Hektor i Andromacha."
-    },
-    {
-      "motyw": "przyjaźń",
-      "opis": "Achilles i Patroklos."
-    },
-    {
-      "motyw": "profanacja zwłok i pogrzeb",
-      "opis": "wleczenie ciała Hektora, prośba Priama – zbieżność z „Antygoną”."
-    },
-    {
-      "motyw": "ojciec i syn",
-      "opis": "Priam błagający o ciało syna."
-    },
-    {
-      "motyw": "tarcza Achillesa",
-      "opis": "obraz świata w miniaturze (ekfraza)."
-    }
-  ],
-  "konteksty": [
-    "Cechy stylu eposu: inwokacja, porównanie homeryckie, stałe epitety, retardacja, udział bogów w akcji.",
-    "Jan Parandowski, „Mitologia” – tło wojny trojańskiej.",
-    "Jan Kochanowski, „Odprawa posłów greckich” (lektura uzupełniająca) – epizod sprzed wojny.",
-    "Sofokles, „Antygona” – prawo do pochówku jako wartość nienaruszalna.",
-    "Literatura wojenna XX w. – kontrast: heroizm eposu a odheroizowana wojna u Borowskiego i Baczyńskiego."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Gniew Achilla, bogini, głoś, obfity w szkody,",
-      "kontekst": "Inwokacja otwierająca epos (przekład F. K. Dmochowskiego)."
-    }
-  ],
-  "doWypracowania": [
-    "Wojna – heroizm czy tragedia? (Iliada a literatura XX w.).",
-    "Gniew i jego skutki – Achilles.",
-    "Ojciec i syn – Priam i Hektor, Priam i Achilles.",
-    "Patriotyzm i obowiązek – Hektor.",
-    "Szacunek dla zmarłych – Iliada i Antygona."
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Podstawa nie wskazuje, które fragmenty są obowiązkowe. Najczęściej omawia się: inwokację i spór Achillesa z Agamemnonem (pieśń I), pożegnanie Hektora z Andromachą (VI), śmierć Patroklosa (XVI), tarczę Achillesa (XVIII), pojedynek Achillesa z Hektorem (XXII) i spotkanie Priama z Achillesem (XXIV). Tekst na Wolnych Lekturach: przekład F. K. Dmochowskiego."
+  ]
 }

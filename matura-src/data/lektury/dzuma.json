@@ -1,114 +1,497 @@
 {
   "id": "dzuma",
-  "metryczka": {
-    "autor": "Albert Camus",
-    "tytul": "Dżuma",
-    "rok": "1947",
-    "gatunek": "powieść-parabola (kronika)",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "10-wojenna-powojenna.md",
+  "sekcje": [
     {
-      "tytul": "Część I – nadejście zarazy",
-      "tekst": "Oran w Algierii, rok 194… Doktor Bernard Rieux znajduje na schodach martwego szczura; wkrótce szczury giną tysiącami, a potem zaczynają umierać ludzie (pierwszy – dozorca Michel). Rieux wysyła chorą żonę na leczenie poza miasto. Lekarze rozpoznają dżumę, ale władze długo zwlekają z decyzjami. Gdy liczba zgonów rośnie, ogłoszona zostaje epidemia, a miasto zamknięte."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Albert Camus (1913–1960), francuski pisarz i filozof, laureat Nagrody Nobla (1957)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "literatura wojenna i powojenna (powieść z 1947 r.)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1947 r. (Francja)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "powieść alegoryczna, kronika epidemii; powieść filozoficzna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "algierskie miasto Oran, lata 40. XX w. (epidemia dżumy); akcja rozgrywa się w ciągu kilku miesięcy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Camus pisze o dżumie jako metaforze okupacji hitlerowskiej i ogólnie zła; utwór odnosi się do doświadczeń wojny i ruchu oporu."
+        }
+      ]
     },
     {
-      "tytul": "Część II – miasto zamknięte",
-      "tekst": "Mieszkańcy przeżywają rozłąkę z bliskimi i poczucie uwięzienia. Dziennikarz Rambert, który przypadkiem utknął w Oranie, próbuje nielegalnie uciec do ukochanej w Paryżu. Jezuita ojciec Paneloux w kazaniu ogłasza, że dżuma jest karą za grzechy. Jean Tarrou organizuje ochotnicze formacje sanitarne; przyłącza się urzędnik Grand, który nocami w nieskończoność poprawia pierwsze zdanie swojej powieści. Rambert w końcu rezygnuje z ucieczki i zostaje, by pomagać – uznaje, że wstydem byłoby być szczęśliwym samemu."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: powieść jest długa, z wieloma postaciami i wątkami. Poniżej główne etapy.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "w Oranie pojawiają się martwe szczury, a potem zaczynają umierać ludzie. Władze początkowo zwlekają z reakcją."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epidemia",
+          "tekst": "miasto zostaje odcięte od świata, a mieszkańcy tracą kontakt z bliskimi. Dżuma rozprzestrzenia się, a życie codzienne ulega przemianom."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Postawy",
+          "tekst": "bohaterowie reagują różnie: Rieux, lekarz, walczy z chorobą; Tarrou organizuje pomoc; Cottard korzysta z chaosu; Grand pisze powieść, która nigdy nie zostaje ukończona; Rambert chce uciec do ukochanej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Walka",
+          "tekst": "Rieux i jego współpracownicy, mimo beznadziei, prowadzą walkę z chorobą. Tarrou tworzy oddziały sanitarne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "epidemia wygasa. Rieux, ukrywając rękopis, zauważa, że dżuma nigdy nie znika; może powrócić."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: szczegółowa chronologia i role drugoplanowych postaci.*"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** epidemia jest sprawdzianem postaw ludzkich; pokazuje, że walka ze złem wymaga zaangażowania, mimo że zło może powrócić."
+        }
+      ]
     },
     {
-      "tytul": "Część III – szczyt epidemii",
-      "tekst": "Upalne lato: zmarłych jest tak wielu, że chowa się ich w zbiorowych dołach, a potem pali. Ludzie przyzwyczajają się do nieszczęścia, popadają w apatię. Rośnie przestępczość i handel na czarnym rynku."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Bernard Rieux",
+          "tekst": "lekarz i narrator. Cechy: odpowiedzialność, skromność, wytrwałość. Decyzje: walka z dżumą, pomoc chorym. Zmienia się: od zwykłego lekarza do świadomego obrońcy wartości. Wymowa: człowiek zaangażowany w dobro."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jean Tarrou",
+          "tekst": "przyjaciel Rieux, organizator oddziałów sanitarnych. Cechy: idealizm, refleksja, empatia. Rola: symbol świadomego zaangażowania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cottard",
+          "tekst": "człowiek, który zyskuje na chaosie. Rola: symbol oportunizmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Joseph Grand",
+          "tekst": "urzędnik, który marzy o napisaniu idealnego zdania. Rola: symbol zwykłego człowieka wobec beznadziei."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Raymond Rambert",
+          "tekst": "dziennikarz, który chce uciec do żony. Rola: symbol decyzji między osobistym szczęściem a solidarnością."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ojciec Paneloux",
+          "tekst": "ksiądz, który interpretuje epidemię jako karę Bożą. Rola: symbol postawy religijnej."
+        }
+      ]
     },
     {
-      "tytul": "Część IV – śmierć dziecka",
-      "tekst": "Synek sędziego Othona umiera w męczarniach mimo podania nowej surowicy doktora Castela. Rieux, poruszony, mówi Paneloux, że nigdy nie zaakceptuje świata, w którym cierpią dzieci. Paneloux w drugim kazaniu wzywa, by przyjąć wszystko albo wszystko odrzucić; wkrótce sam umiera (choroba nie daje jednoznacznych objawów dżumy). Tarrou opowiada Rieux swoje życie: jako syn prokuratora zbuntował się przeciw karze śmierci i chce być „świętym bez Boga”. Obaj kąpią się w morzu – chwila przyjaźni."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "zło w świecie, odpowiedzialność człowieka, solidarność wobec cierpienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "człowiek z dżumą; jednostka wobec wspólnoty; osobiste szczęście wobec obowiązku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "solidarność, odwaga, humanizm, odpowiedzialność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "zło jest stałą częścią świata, ale człowiek może mu przeciwstawiać solidarność i dobro."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "dżuma może powrócić; obowiązkiem człowieka jest nieustanna gotowość do walki."
+        }
+      ]
     },
     {
-      "tytul": "Część V – koniec epidemii",
-      "tekst": "Zimą epidemia słabnie. Jako jedna z ostatnich ofiar umiera Tarrou. Rieux otrzymuje telegram o śmierci żony. Cottard, który podczas epidemii czuł się dobrze, bo zaraza odsunęła groźbę kary za jego dawne przestępstwo, po jej końcu wpada w szał, strzela do ludzi i zostaje aresztowany. Bramy miasta zostają otwarte, ludzie świętują. Rieux ujawnia, że to on jest autorem kroniki, i przypomina, że bakcyl dżumy nigdy nie znika – może powrócić."
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Cierpienie",
+          "tekst": "epidemia. *Wykorzystanie:* zestawienie z *Księgą Hioba* (cierpienie i sens) i *Lamentem świętokrzyskim* (cierpienie zbiorowe)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Solidarność",
+          "tekst": "pomoc innym. *Wykorzystanie:* zestawienie z *Iliadą* (współczucie Priama i Achillesa) i *Dziadami* cz. II (wspólnota cierpiących)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Obowiązek",
+          "tekst": "walka z zagrożeniem. *Wykorzystanie:* zestawienie z *Antygoną* (wierność wartościom) i *Pieśnią o Rolandzie* (honor)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Śmierć",
+          "tekst": "masowa. *Wykorzystanie:* zestawienie z *Rozmową Mistrza Polikarpa ze Śmiercią* (śmierć jako wyrównanie)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Dżuma",
+          "tekst": "symbol zła, okupacji, zagrożenia, które może powrócić."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Szczury",
+          "tekst": "symbol nadchodzącego zła."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miasto zamknięte",
+          "tekst": "symbol izolacji i wspólnoty."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "II wojna światowa, okupacja, ruch oporu (Camus był zaangażowany w Ruch Oporu we Francji)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "egzystencjalizm i absurd; postawa solidarności wobec absurdu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "powieść alegoryczna, kronika; nawiązania do *Dekamerona* Boccaccia i tradycji opisów zarazy."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy solidarność jest sposobem przeciwstawienia się złu?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odpowiedzialność człowieka za innych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy zło może zostać pokonane na zawsze?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Rieux pokazuje, że walka z dżumą wymaga zaangażowania, mimo że nie gwarantuje zwycięstwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Cottard ukazuje, że chaos może być wykorzystany przez oportunistów."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Dżuma* – *Rok 1984* (zło w systemie totalitarnym)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Dżuma* – *Zdążyć przed Panem Bogiem* (postawa wobec zła)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Dżuma* – *Antygona* (obowiązek wobec wspólnoty)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Camus, *Dżuma*, 1947 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Rieux, Tarrou, Cottard, Grand, Rambert, Paneloux."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: cierpienie, solidarność, obowiązek, śmierć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: walka ze złem wymaga solidarności, a zło może powrócić."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto jest narratorem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co pojawia się na początku epidemii?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kim jest Tarrou?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto zyskuje na chaosie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jak kończy się epidemia?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co symbolizuje dżuma?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaką postawę reprezentuje Rambert?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kim jest Paneloux?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki jest główny motyw?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego dżuma jest symbolem okupacji?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy solidarność może pokonać zło? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak postawy bohaterów pokazują różne wybory moralne?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Dlaczego zakończenie jest niepokojące?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak Camus łączy zło z odpowiedzialnością?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Oran."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Rieux."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Martwe szczury."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Organizator oddziałów sanitarnych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Cottard."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Wygasa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Zło i okupację."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Chce uciec do żony."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Ksiądz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Solidarność."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo odnosi się do okupacji i zła."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Tak, pokazuje, że walka jest możliwa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Różne postawy ujawniają wybory moralne."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Dżuma może powrócić."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Obowiązek walki ze złem ponosi każdy."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Bernard Rieux",
-      "opis": "Lekarz i narrator; uczciwie wykonuje swój obowiązek, walczy ze złem bez wiary w Boga i bez heroicznego patosu."
-    },
-    {
-      "imie": "Jean Tarrou",
-      "opis": "Przybysz, kronikarz zdarzeń, organizator oddziałów sanitarnych; szuka sposobu, by być „świętym bez Boga”."
-    },
-    {
-      "imie": "Raymond Rambert",
-      "opis": "Dziennikarz, który z egoistycznej chęci ucieczki przechodzi do solidarności."
-    },
-    {
-      "imie": "ojciec Paneloux",
-      "opis": "Jezuita, którego wiara zostaje wystawiona na próbę przez śmierć dziecka."
-    },
-    {
-      "imie": "Joseph Grand",
-      "opis": "Skromny urzędnik, cichy bohater codziennej pracy."
-    },
-    {
-      "imie": "Cottard",
-      "opis": "Człowiek, który korzysta na nieszczęściu innych."
-    },
-    {
-      "imie": "sędzia Othon i jego synek",
-      "opis": "Postacie, przez które pokazano cierpienie niewinnych."
-    }
-  ],
-  "problematyka": [
-    "postawy człowieka wobec zła: walka, ucieczka, bierność, wykorzystywanie sytuacji",
-    "solidarność i odpowiedzialność za innych",
-    "sens cierpienia niewinnych i spór z Bogiem",
-    "absurd świata i bunt przeciw niemu",
-    "zło jako coś, co zawsze może powrócić"
-  ],
-  "motywy": [
-    {
-      "motyw": "zaraza",
-      "opis": "symbol zła, także totalitaryzmu i wojny."
-    },
-    {
-      "motyw": "miasto zamknięte",
-      "opis": "uwięzienie, izolacja."
-    },
-    {
-      "motyw": "lekarz",
-      "opis": "człowiek walczący z chorobą i śmiercią."
-    },
-    {
-      "motyw": "śmierć dziecka",
-      "opis": "najcięższy argument w sporze z Bogiem."
-    },
-    {
-      "motyw": "szczury",
-      "opis": "zwiastun nieszczęścia."
-    },
-    {
-      "motyw": "kronika",
-      "opis": "świadectwo."
-    }
-  ],
-  "konteksty": [
-    "Powieść-parabola: dżumę odczytuje się jako alegorię okupacji hitlerowskiej i każdego totalitaryzmu.",
-    "Filozofia egzystencjalna i absurd (Camus, „Mit Syzyfa”).",
-    "Księga Hioba i Dostojewski – problem cierpienia niewinnych.",
-    "Hanna Krall, „Zdążyć przed Panem Bogiem” – lekarz ratujący życie.",
-    "Epidemia COVID-19 – powrót zainteresowania powieścią."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Postawy wobec zła – „Dżuma”, „Inny świat”, „Rok 1984”.",
-    "Solidarność i obowiązek – Rieux, Tarrou, Rambert.",
-    "Cierpienie niewinnych i sens świata.",
-    "Czy można być dobrym bez Boga?",
-    "Parabola w literaturze.",
-    "Pytanie ustne: Dlaczego „Dżumę” nazywa się powieścią-parabolą?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu."
+  ]
 }

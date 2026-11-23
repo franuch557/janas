@@ -23,17 +23,23 @@ export interface BookEntry {
   pelnyTekst: string | null;
 }
 
+/** Blok sekcji opracowania: akapit, punkt listy (z etykietą i numerem) albo tabela. Tekst w prostym markdownie (**, *). */
+export type BookBlock =
+  | { typ: 'akapit'; tekst: string }
+  | { typ: 'punkt'; etykieta: string; tekst: string; nr?: number }
+  | { typ: 'tabela'; wiersze: string[][] };
+
+export interface BookSection {
+  tytul: string;
+  bloki: BookBlock[];
+}
+
+/** Opracowanie lektury (data/opracowania/*.md → scripts/opracowania-import.mjs). */
 export interface Book {
   id: string;
-  metryczka: Record<string, string>;
-  streszczenie: { tytul: string; tekst: string }[];
-  bohaterowie: { imie: string; opis: string }[];
-  problematyka: string[];
-  motywy: { motyw: string; opis: string }[];
-  konteksty: string[];
-  cytaty: { tekst: string; kontekst: string }[];
-  doWypracowania: string[];
+  /** 'czat' – opracowanie z plików czatu, 'zastepcze' – uzupełnienie brakującej lektury */
   zrodlo: string;
+  sekcje: BookSection[];
 }
 
 export interface OralQuestion {
@@ -73,37 +79,53 @@ export const EPOCHS: { id: string; nazwa: string; lata: string }[] = isObj(index
       .map((e) => ({ id: s(e.id), nazwa: s(e.nazwa), lata: s(e.lata) }))
   : [];
 
+function sections(x: unknown): BookSection[] {
+  return arr(x)
+    .filter(isObj)
+    .map((sec) => ({
+      tytul: s(sec.tytul),
+      bloki: arr(sec.bloki)
+        .filter(isObj)
+        .map((b): BookBlock | null =>
+          b.typ === 'tabela'
+            ? { typ: 'tabela', wiersze: arr(b.wiersze).map((r) => arr(r).map(s)) }
+            : b.typ === 'punkt'
+              ? { typ: 'punkt', etykieta: s(b.etykieta), tekst: s(b.tekst), ...(typeof b.nr === 'number' ? { nr: b.nr } : {}) }
+              : b.typ === 'akapit'
+                ? { typ: 'akapit', tekst: s(b.tekst) }
+                : null,
+        )
+        .filter((b): b is BookBlock => b != null),
+    }))
+    .filter((sec) => sec.tytul && sec.bloki.length);
+}
+
 export function bookById(id: string): Book | null {
   const raw = file(id);
   if (!isObj(raw)) return null;
-  const meta: Record<string, string> = {};
-  if (isObj(raw.metryczka)) for (const [k, v] of Object.entries(raw.metryczka)) if (v != null && v !== '') meta[k] = s(v);
-  return {
-    id,
-    metryczka: meta,
-    streszczenie: arr(raw.streszczenie).filter(isObj).map((x) => ({ tytul: s(x.tytul), tekst: s(x.tekst) })),
-    bohaterowie: arr(raw.bohaterowie).filter(isObj).map((x) => ({ imie: s(x.imie), opis: s(x.opis) })),
-    problematyka: arr(raw.problematyka).map(s).filter(Boolean),
-    motywy: arr(raw.motywy).filter(isObj).map((x) => ({ motyw: s(x.motyw), opis: s(x.opis) })),
-    konteksty: arr(raw.konteksty).map(s).filter(Boolean),
-    cytaty: arr(raw.cytaty).filter(isObj).map((x) => ({ tekst: s(x.tekst), kontekst: s(x.kontekst) })),
-    doWypracowania: arr(raw.doWypracowania).map(s).filter(Boolean),
-    zrodlo: s(raw.zrodlo),
-  };
+  const sekcje = sections(raw.sekcje);
+  return sekcje.length ? { id, zrodlo: s(raw.zrodlo), sekcje } : null;
 }
 
-/** Opracowanie jako zwykły tekst (do promptów: fiszki, plan odpowiedzi). */
+/** Charakterystyka epoki (z plików czatu), jeśli jest. */
+export function epochOverview(epokaId: string): BookSection[] {
+  const raw = file('epoki-opisy');
+  return isObj(raw) && isObj(raw[epokaId]) ? sections((raw[epokaId] as Obj).sekcje) : [];
+}
+
+const plain = (t: string) => t.replace(/\*\*|\*/g, '');
+
+const blockText = (b: BookBlock) =>
+  b.typ === 'tabela' ? b.wiersze.map((r) => r.join(' | ')).join('\n') : plain(b.typ === 'punkt' && b.etykieta ? `${b.etykieta}: ${b.tekst}` : b.tekst);
+
+/** Opracowanie jako zwykły tekst (do promptów: fiszki, plan odpowiedzi). Bez pytań sprawdzających. */
 export function bookText(b: Book, e?: BookEntry): string {
   return [
     e ? `${e.tytul}, ${e.autor} (${e.epoka})` : '',
-    b.streszczenie.map((x) => `${x.tytul}: ${x.tekst}`).join('\n'),
-    b.bohaterowie.length ? `Bohaterowie: ${b.bohaterowie.map((x) => `${x.imie} – ${x.opis}`).join('; ')}` : '',
-    b.problematyka.length ? `Problematyka: ${b.problematyka.join('; ')}` : '',
-    b.motywy.length ? `Motywy: ${b.motywy.map((x) => `${x.motyw} – ${x.opis}`).join('; ')}` : '',
-    b.konteksty.length ? `Konteksty: ${b.konteksty.join('; ')}` : '',
+    ...b.sekcje.filter((x) => !/sprawdź swoją wiedzę/i.test(x.tytul)).map((x) => [`${x.tytul}:`, ...x.bloki.map(blockText)].join('\n')),
   ]
     .filter(Boolean)
-    .join('\n');
+    .join('\n\n');
 }
 
 const ustnyRaw = Object.values(ustnyMods)[0];

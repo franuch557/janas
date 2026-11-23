@@ -1,0 +1,452 @@
+{
+  "id": "odprawa-poslow-greckich",
+  "zrodlo": "czat",
+  "plik": "03-renesans.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Jan Kochanowski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "renesans."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1578 r. (Kraków)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "tragedia (dramat renesansowy), inspirowany antyczną tradycją."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "mityczna Troja, czas wojny trojańskiej (akcja w Troi i w obozie greckim)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "utwór pierwszy w literaturze polskiej, który nawiązuje do wzorów antycznej tragedii; pierwsza polska tragedia renesansowa w języku polskim."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: sprawdź w wydaniu źródłowym dokładny przebieg scen, bo poniższe streszczenie opisuje ogólny schemat.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wstęp",
+          "tekst": "poselstwo greckie przybywa do Troi, aby domagać się wydania Heleny i zadośćuczynienia za porwanie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rozmowa z Priamem",
+          "tekst": "król Priam i jego doradcy zastanawiają się nad żądaniami. Przeważa stanowisko odmowy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Odprawa posłów",
+          "tekst": "Trojanie odsyłają Greków, zapowiadając wojnę. Posłowie opuszczają miasto."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chór",
+          "tekst": "komentuje wydarzenia, przypomina o konsekwencjach pychy i wojny."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** odprawa posłów jest momentem nieuchronnego wybuchu wojny. Trojanie odrzucają pokojowe rozwiązanie, co prowadzi do katastrofy."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Priam",
+          "tekst": "król Troi. Cechy: władczość, lęk przed utratą honoru. Decyzje: odrzucenie żądań Greków. Wymowa: władza, która nie chce ustąpić."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Posłowie greccy",
+          "tekst": "reprezentują żądania Achajów. Rola: symbol dyplomacji i jej porażki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chór",
+          "tekst": "komentator wydarzeń, wyraża wartości moralne i ostrzega przed skutkami wojny."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "wojna, honor, dyplomacja, konsekwencje decyzji politycznych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Grecy z Trojanami; władcy z doradcami; honor z rozsądkiem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "honor, mądrość, umiar, odpowiedzialność władcy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "odrzucenie pokoju prowadzi do wojny; władcy odpowiadają za los państwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "zapowiedź katastrofy wojennej."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Wojna",
+          "tekst": "konflikt zbrojny. *Wykorzystanie:* zestawienie z *Iliadą* (konsekwencje wojny)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Honor",
+          "tekst": "obrona godności. *Wykorzystanie:* zestawienie z *Pieśnią o Rolandzie* (honor rycerski)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Władza",
+          "tekst": "decyzje władców. *Wykorzystanie:* zestawienie z *Antygoną* (władza i jej granice)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Helena",
+          "tekst": "symbol przyczyny wojny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Posłowie",
+          "tekst": "symbol dyplomacji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Troja",
+          "tekst": "symbol obrony i upadku."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Rzeczpospolita renesansowa, relacje dyplomatyczne, wojny z Moskwą i Turcją w XVI w."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "wzór antycznej tragedii i Homera; odrodzenie tradycji grecko-rzymskiej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Polityczny",
+          "tekst": "refleksja nad odpowiedzialnością władców."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy wojna jest nieunikniona? – na podstawie *Odprawy*."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odpowiedzialność władców za decyzje państwa."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Priam odrzuca pokój, co prowadzi do wojny; pokazuje to konsekwencje pychy."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Odprawa* – *Iliada* (wojna trojańska)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Odprawa* – *Antygona* (władza i jej granice)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tragedia Kochanowskiego, 1578 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Priam, posłowie greccy, chór."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: wojna, honor, władza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: odrzucenie pokoju prowadzi do katastrofy."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto przybywa do Troi?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czego żądają Grecy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak reagują Trojanie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni chór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest Priam?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki jest finał?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Z jakiej tradycji wywodzi się utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Co jest przyczyną wojny?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Trojanie odrzucają żądania Greków?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy wojna była nieuchronna? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak chór komentuje wydarzenia?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czy utwór ma wymiar polityczny? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak *Odprawa* odnosi się do antycznego wzorca?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Posłowie greccy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Wydania Heleny i zadośćuczynienia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Odsyłają posłów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Tragedia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Komentuje i ostrzega."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Król Troi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Wojna i honor."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Zapowiedź wojny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Z tradycji antycznej."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Porwanie Heleny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo utrzymanie honoru jest ważniejsze dla władców."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Tak, wynika z decyzji ludzi, nie tylko losu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Ostrzega przed konsekwencjami pychy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Tak, dotyczy odpowiedzialności władcy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Nawiązuje do tradycji Homera, ale ma wymiar renesansowy."
+        }
+      ]
+    }
+  ]
+}

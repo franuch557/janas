@@ -1,9 +1,9 @@
 // Lektury i matura ustna z polskiego.
 
 import { checkOralPlan } from '../logic/oralCheck';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { newId, useStore } from '../store/AppStore';
-import { BOOKS, bookById, bookText, EPOCHS, loadOral2Pack, ORAL, ORAL2, type BookEntry } from '../store/books';
+import { BOOKS, bookById, bookText, EPOCHS, epochOverview, loadOral2Pack, ORAL, ORAL2, type BookBlock, type BookEntry, type BookSection } from '../store/books';
 import { cardsFromBookPrompt, oral2Prompt, oralPrompt, parseCards, parseOralPlan } from '../logic/ai';
 import { fmtClock } from '../logic/format';
 import { AiStatus, imagesFor, useAi, useAiCall } from '../ui/ai';
@@ -66,6 +66,7 @@ export function BooksView() {
                   {e.nazwa}
                   {e.lata ? <span className="small muted"> ({e.lata})</span> : null}
                 </h2>
+                <EpochOverview id={e.id} />
                 <div className="card flush list">
                   {books.map((b) => (
                     <button type="button" className="li" key={b.id} onClick={() => go({ name: 'lektura', id: b.id })}>
@@ -76,6 +77,12 @@ export function BooksView() {
                           {b.autor}
                           {b.czesciowo ? `, ${b.czesciowo}` : ''}
                         </span>
+                        {!b.obowiazkowa ? (
+                          <>
+                            <br />
+                            <span className="tag">spoza listy obowiązkowej</span>
+                          </>
+                        ) : null}
                       </span>
                     </button>
                   ))}
@@ -111,6 +118,123 @@ function BookCards({ entry, text }: { entry: BookEntry; text: string }) {
   );
 }
 
+/** Prosty markdown w linii: **pogrubienie** i *kursywa*. */
+function Md({ text }: { text: string }) {
+  const out: ReactNode[] = [];
+  const re = /\*\*(.+?)\*\*|\*(.+?)\*/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text))) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push(m[1] != null ? <strong key={m.index}>{m[1]}</strong> : <em key={m.index}>{m[2]}</em>);
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return <>{out}</>;
+}
+
+function Item({ b }: { b: Extract<BookBlock, { typ: 'punkt' }> }) {
+  return (
+    <li>
+      {b.etykieta ? (
+        <>
+          <strong>
+            <Md text={b.etykieta} />
+          </strong>
+          {b.tekst ? ': ' : ''}
+        </>
+      ) : null}
+      <Md text={b.tekst} />
+    </li>
+  );
+}
+
+/** Bloki sekcji: kolejne punkty łączę w listę (numerowaną, gdy mają numery). */
+function Blocks({ blocks }: { blocks: BookBlock[] }) {
+  const out: ReactNode[] = [];
+  for (let i = 0; i < blocks.length; ) {
+    const b = blocks[i];
+    if (b.typ === 'punkt') {
+      const run: Extract<BookBlock, { typ: 'punkt' }>[] = [];
+      while (i < blocks.length && blocks[i].typ === 'punkt') run.push(blocks[i++] as Extract<BookBlock, { typ: 'punkt' }>);
+      const items = run.map((x, k) => <Item key={k} b={x} />);
+      out.push(run[0].nr != null ? <ol key={i} className="topic-list" start={run[0].nr}>{items}</ol> : <ul key={i} className="topic-list">{items}</ul>);
+      continue;
+    }
+    if (b.typ === 'tabela') {
+      const [head, ...rows] = b.wiersze;
+      out.push(
+        <div key={i} style={{ overflowX: 'auto' }}>
+          <table className="book-table">
+            <thead>
+              <tr>{head.map((c, k) => <th key={k}><Md text={c} /></th>)}</tr>
+            </thead>
+            <tbody>
+              {rows.map((r, k) => (
+                <tr key={k}>{r.map((c, n) => <td key={n}><Md text={c} /></td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>,
+      );
+    } else out.push(<p key={i}><Md text={b.tekst} /></p>);
+    i++;
+  }
+  return <>{out}</>;
+}
+
+/** „Sprawdź swoją wiedzę”: klucz odpowiedzi ukryty do kliknięcia. */
+function QuizSection({ blocks }: { blocks: BookBlock[] }) {
+  const [show, setShow] = useState(false);
+  const k = blocks.findIndex((b) => b.typ === 'akapit' && /klucz odpowiedzi/i.test(b.tekst));
+  if (k < 0) return <Blocks blocks={blocks} />;
+  return (
+    <>
+      <Blocks blocks={blocks.slice(0, k)} />
+      <button type="button" className="btn btn-secondary" onClick={() => setShow((x) => !x)} aria-expanded={show}>
+        {show ? 'Ukryj klucz odpowiedzi' : 'Pokaż klucz odpowiedzi'}
+      </button>
+      {show ? <Blocks blocks={blocks.slice(k)} /> : null}
+    </>
+  );
+}
+
+const anchor = (i: number) => `sekcja-${i}`;
+const isOpen = (t: string) => !/sprawdź swoją wiedzę|najważniejsze informacje/i.test(t);
+
+function Sections({ sekcje }: { sekcje: BookSection[] }) {
+  return (
+    <>
+      {sekcje.map((sec, i) => (
+        <details key={i} id={anchor(i)} className="card stack-2 book-section" open={isOpen(sec.tytul)}>
+          <summary>
+            <h2>{sec.tytul}</h2>
+          </summary>
+          {/sprawdź swoją wiedzę/i.test(sec.tytul) ? <QuizSection blocks={sec.bloki} /> : <Blocks blocks={sec.bloki} />}
+        </details>
+      ))}
+    </>
+  );
+}
+
+function EpochOverview({ id }: { id: string }) {
+  const sekcje = useMemo(() => epochOverview(id), [id]);
+  if (!sekcje.length) return null;
+  return (
+    <details className="card book-epoch">
+      <summary style={{ fontWeight: 650, cursor: 'pointer', minHeight: 32 }}>Charakterystyka epoki</summary>
+      <div className="stack-2" style={{ marginTop: 8 }}>
+        {sekcje.map((sec, i) => (
+          <section key={i} className="stack-2">
+            <h3>{sec.tytul}</h3>
+            <Blocks blocks={sec.bloki} />
+          </section>
+        ))}
+      </div>
+    </details>
+  );
+}
+
 export function BookView({ id }: { id: string }) {
   const entry = BOOKS.find((b) => b.id === id);
   const book = useMemo(() => bookById(id), [id]);
@@ -129,18 +253,12 @@ export function BookView({ id }: { id: string }) {
           <strong>{entry.autor}</strong>
           {entry.rok ? `, ${entry.rok}` : ''}
         </p>
-        <p className="muted">
-          {[entry.gatunek, entry.epoka, entry.czesciowo].filter(Boolean).join(', ')}
-        </p>
-        {book
-          ? Object.entries(book.metryczka)
-              .filter(([k]) => !['autor', 'tytul', 'rok', 'gatunek', 'epoka'].includes(k))
-              .map(([k, v]) => (
-                <p key={k} className="small">
-                  {k}: {v}
-                </p>
-              ))
-          : null}
+        <p className="muted">{[entry.gatunek, entry.epoka, entry.czesciowo].filter(Boolean).join(', ')}</p>
+        {!entry.obowiazkowa ? (
+          <p className="small">
+            <span className="tag warn">spoza listy obowiązkowej</span> Nie ma jej w wykazie lektur obowiązkowych zakresu podstawowego (rozporządzenie z 28.06.2024).
+          </p>
+        ) : null}
         {entry.pelnyTekst ? (
           <a href={entry.pelnyTekst} target="_blank" rel="noopener noreferrer">
             Pełny tekst (wolnelektury.pl)
@@ -151,74 +269,22 @@ export function BookView({ id }: { id: string }) {
         <p className="muted">Opracowanie tej lektury pojawi się wkrótce.</p>
       ) : (
         <>
+          <nav className="chips" aria-label="Sekcje opracowania">
+            {book.sekcje.map((sec, i) => (
+              <a key={i} className="chip" href={`#lektura-${id}`} onClick={(ev) => { ev.preventDefault(); const el = document.getElementById(anchor(i)); if (el instanceof HTMLDetailsElement) el.open = true; el?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>
+                {sec.tytul}
+              </a>
+            ))}
+            {questions.length ? (
+              <a className="chip" href={`#lektura-${id}`} onClick={(ev) => { ev.preventDefault(); document.getElementById('pytania-jawne')?.scrollIntoView({ behavior: 'smooth' }); }}>
+                Pytania jawne
+              </a>
+            ) : null}
+          </nav>
           <BookCards entry={entry} text={bookText(book, entry)} />
-          {book.streszczenie.length ? (
-            <section className="stack">
-              <h2>Streszczenie</h2>
-              {book.streszczenie.map((p, i) => (
-                <details key={i} className="card" open={i === 0}>
-                  <summary style={{ fontWeight: 650, cursor: 'pointer', minHeight: 32 }}>{p.tytul}</summary>
-                  <p style={{ whiteSpace: 'pre-wrap', marginTop: 8 }}>{p.tekst}</p>
-                </details>
-              ))}
-            </section>
-          ) : null}
-          {book.bohaterowie.length ? (
-            <section className="stack">
-              <h2>Bohaterowie</h2>
-              <div className="card flush list">
-                {book.bohaterowie.map((b, i) => (
-                  <div className="li static" key={i} style={{ flexDirection: 'column', alignItems: 'flex-start', gap: 4 }}>
-                    <strong>{b.imie}</strong>
-                    <span className="small">{b.opis}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-          ) : null}
-          {book.problematyka.length ? (
-            <section className="stack-2">
-              <h2>Problematyka</h2>
-              <ul className="topic-list">{book.problematyka.map((x, i) => <li key={i}>{x}</li>)}</ul>
-            </section>
-          ) : null}
-          {book.motywy.length ? (
-            <section className="stack-2">
-              <h2>Motywy</h2>
-              <ul className="topic-list">
-                {book.motywy.map((m, i) => (
-                  <li key={i}>
-                    <strong>{m.motyw}</strong>: {m.opis}
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ) : null}
-          {book.konteksty.length ? (
-            <section className="stack-2">
-              <h2>Konteksty</h2>
-              <ul className="topic-list">{book.konteksty.map((x, i) => <li key={i}>{x}</li>)}</ul>
-            </section>
-          ) : null}
-          {book.cytaty.length ? (
-            <section className="stack-2">
-              <h2>Cytaty</h2>
-              {book.cytaty.map((c, i) => (
-                <blockquote key={i} className="card" style={{ margin: 0 }}>
-                  <p>„{c.tekst}”</p>
-                  {c.kontekst ? <p className="small muted">{c.kontekst}</p> : null}
-                </blockquote>
-              ))}
-            </section>
-          ) : null}
-          {book.doWypracowania.length ? (
-            <section className="stack-2">
-              <h2>Do wypracowania</h2>
-              <ul className="topic-list">{book.doWypracowania.map((x, i) => <li key={i}>{x}</li>)}</ul>
-            </section>
-          ) : null}
+          <Sections sekcje={book.sekcje} />
           {questions.length ? (
-            <section className="stack-2">
+            <section className="stack-2" id="pytania-jawne">
               <h2>Pytania jawne</h2>
               <div className="card flush list">
                 {questions.map((p) => (
@@ -229,7 +295,7 @@ export function BookView({ id }: { id: string }) {
               </div>
             </section>
           ) : null}
-          {book.zrodlo ? <p className="small muted">Źródło: {book.zrodlo}</p> : null}
+          {book.zrodlo === 'zastepcze' ? <p className="small muted">Opracowanie własne aplikacji (tej lektury nie ma w plikach opracowań) – do sprawdzenia z tekstem lektury.</p> : null}
         </>
       )}
     </div>

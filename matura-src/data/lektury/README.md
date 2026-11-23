@@ -121,5 +121,6 @@ Razem: 52 pozycji.
 
 ## Format plików
 
-- `index.json`: `{"lektury":[{id, tytul, autor, epoka, epokaId, rok, gatunek, obowiazkowa, czesciowo, pelnyTekst, uwagi}], "epoki":[{id, nazwa, lata}]}` – epoki w kolejności chronologicznej.
-- `<id>.json`: `{id, metryczka:{autor, tytul, rok, gatunek, epoka, rodzaj}, streszczenie:[{tytul, tekst}], bohaterowie:[{imie, opis}], problematyka:[...], motywy:[{motyw, opis}], konteksty:[...], cytaty:[{tekst, kontekst}], doWypracowania:[...], zrodlo, uwagi}`.
+- `index.json`: `{"lektury":[{id, tytul, autor, epoka, epokaId, rok, gatunek, obowiazkowa, czesciowo, pelnyTekst, uwagi}], "epoki":[{id, nazwa, lata}]}` – epoki w kolejności chronologicznej. `obowiazkowa: false` = lektura z plików opracowań spoza wykazu z 2024 r.
+- `<id>.json` i `epoki-opisy.json` są **generowane** z `data/opracowania/*.md` przez `scripts/opracowania-import.mjs` (nie edytuj ich ręcznie): `{id, zrodlo: 'czat'|'zastepcze', plik, sekcje:[{tytul, bloki:[{typ:'akapit',tekst}|{typ:'punkt',etykieta,tekst,nr?}|{typ:'tabela',wiersze}]}]}`.
+- Od 23.11.2026 dawne opracowania (streszczenie, cytaty, „do wypracowania”) zastąpiły opracowania z `data/opracowania/`; opisy powyżej dotyczą tamtej wersji katalogu.

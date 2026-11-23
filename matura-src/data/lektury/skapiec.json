@@ -1,126 +1,483 @@
 {
   "id": "skapiec",
-  "metryczka": {
-    "autor": "Molier (Jean-Baptiste Poquelin)",
-    "tytul": "Skąpiec",
-    "rok": "1668",
-    "gatunek": "komedia (charakterów i intrygi)",
-    "epoka": "Barok",
-    "rodzaj": "dramat"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "04-barok.md",
+  "sekcje": [
     {
-      "tytul": "Akt I – tajemnice dzieci Harpagona",
-      "tekst": "Eliza, córka bogatego skąpca Harpagona, kocha Walerego, który – by być blisko niej – zatrudnił się u jej ojca jako intendent i schlebia mu na każdym kroku. Jej brat Kleant kocha ubogą Mariannę. Harpagon trzęsie się nad szkatułą z pieniędzmi zakopaną w ogrodzie i podejrzewa wszystkich, nawet przeszukuje Strzałkę, służącego Kleanta. Ogłasza, że sam poślubi Mariannę, Kleanta ożeni z bogatą wdową, a Elizę wyda za starszego, zamożnego Anzelma, bo ten chce ją wziąć „bez posagu”. Walery, by nie zdradzić się, przytakuje mu."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Molier (Jean-Baptiste Poquelin, 1622–1673), francuski dramaturg."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "barok (francuski klasycyzm XVII w.); zob. sekcja 0."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "1668 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "komedia charakteru w pięciu aktach, wierszem (białym wierszem – aleksandrynem)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Paryż, XVII w., dom Harpagona."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "komedia oparta na tradycji komedii charakterów i wzorach z *Aulularii* Plauta."
+        }
+      ]
     },
     {
-      "tytul": "Akt II – lichwa i swatka",
-      "tekst": "Kleant potrzebuje pieniędzy i przez pośrednika szuka pożyczki na lichwiarski procent. Okazuje się, że lichwiarzem jest jego własny ojciec – dochodzi do awantury. Swatka Frozyna pochlebia Harpagonowi, zapewniając, że Marianna woli starszych mężczyzn, i próbuje wyłudzić od niego zapłatę – bezskutecznie."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: przed użyciem sprawdź przebieg scen w wydaniu źródłowym; poniżej główna linia fabuły.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "Harpagon, bogaty i skąpy ojciec, ukrywa w ogrodzie kasetkę z pieniędzmi. Jego dzieci, Kleant i Elżbieta, mają swoje miłości, których on nie akceptuje."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kradzież",
+          "tekst": "służący La Flèche kradnie kasetkę. Harpagon wpada w rozpacz, podejrzewa wszystkich."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Plany matrymonialne",
+          "tekst": "Harpagon chce poślubić Marianę, ukochaną syna. Kleant jest w długach i nie może liczyć na wsparcie ojca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Intrygi",
+          "tekst": "Frozyna, swatka, pomaga w planach. Pojawiają się oszustwa i konflikty między domownikami."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rozwiązanie",
+          "tekst": "okazuje się, że Anzelm jest ojcem Walera i Mariany. Małżeństwa młodych zostają zawarte, a Harpagon odzyskuje kasetkę, ale traci pozycję w rodzinie."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** skąpstwo Harpagona prowadzi do konfliktów z dziećmi i domownikami; komedia ośmiesza ten charakter."
+        }
+      ]
     },
     {
-      "tytul": "Akt III – kolacja",
-      "tekst": "Harpagon przygotowuje kolację dla narzeczonej, oszczędzając na wszystkim. Kucharz i stangret w jednej osobie, Jakub, mówi mu otwarcie, że ludzie śmieją się z jego skąpstwa, za co dostaje kijem; kłóci się też z Walerym. Marianna przychodzi i rozpoznaje w Kleancie młodzieńca, którego pokochała. Kleant zdejmuje ojcu z palca diamentowy pierścień i wręcza go Mariannie „w imieniu ojca”, który nie może zaprotestować."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Harpagon",
+          "tekst": "bogaty skąpiec. Cechy: skąpstwo, podejrzliwość, egoizm. Decyzje: ukrywanie pieniędzy, plany małżeństwa z Marianą. Zmienia się: od podejrzliwości do upokorzenia. Wymowa: skąpstwo jako wada prowadząca do ośmieszenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kleant",
+          "tekst": "syn Harpagona. Cechy: lekkomyślność, miłość. Rola: kontrast dla ojca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Elżbieta",
+          "tekst": "córka Harpagona. Rola: miłość do Walera."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Waler",
+          "tekst": "służący Harpagona, ukochany Elżbiety."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mariana",
+          "tekst": "ukochana Kleanta, obiekt planów Harpagona."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "La Flèche",
+          "tekst": "służący, który kradnie kasetkę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Frozyna",
+          "tekst": "swatka."
+        }
+      ]
     },
     {
-      "tytul": "Akt IV – kradzież szkatuły",
-      "tekst": "Harpagon podstępem wydobywa od syna wyznanie, że kocha Mariannę; ojciec i syn kłócą się, a Harpagon przeklina Kleanta. Tymczasem Strzałka wykopuje szkatułę. Harpagon odkrywa kradzież i w słynnym monologu wpada w szał rozpaczy: podejrzewa wszystkich, chce wieszać cały świat, a nawet chwyta się za własne ramię jak złodzieja."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "skąpstwo, miłość, pieniądz, konflikt pokoleń."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Harpagon z dziećmi (pieniądz vs miłość), Harpagon z domownikami (podejrzliwość), Kleant z ojcem (długi vs obowiązek)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "miłość, uczciwość, wolność wyboru małżonka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "skąpstwo i egoizm ośmieszają człowieka; miłość i uczciwość są ważniejsze od majątku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "ośmieszenie Harpagona i triumf miłości."
+        }
+      ]
     },
     {
-      "tytul": "Akt V – rozwiązanie",
-      "tekst": "Komisarz prowadzi śledztwo. Jakub, by się zemścić, oskarża Walerego. Walery, sądząc, że chodzi o jego zaręczyny z Elizą, przyznaje się do „winy” – powstaje komiczne nieporozumienie. Przybywa Anzelm i wychodzi na jaw, że jest on ojcem Walerego i Marianny, rozdzielonych przed laty przez katastrofę morską. Kleant oddaje szkatułę w zamian za zgodę na ślub z Marianną. Anzelm pokrywa wszystkie koszty obu ślubów, a Harpagon zostaje szczęśliwy ze swoją szkatułą."
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Pieniądz",
+          "tekst": "skąpstwo. *Wykorzystanie:* zestawienie z *Lalką* (kapitał i jego wartość)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Miłość",
+          "tekst": "młodych bohaterów. *Wykorzystanie:* zestawienie z *Makbetem* (władza a miłość) lub z *Odą do młodości*."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Konflikt pokoleń",
+          "tekst": "ojciec i dzieci. *Wykorzystanie:* zestawienie z *Antygoną* (konflikt władcy i potomstwa)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Ośmieszenie wady",
+          "tekst": "komizm charakteru. *Wykorzystanie:* porównanie z *Zemstą* Fredry (komedia obyczajowa)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Kasetka",
+          "tekst": "symbol pieniądza i jego władzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ogród",
+          "tekst": "miejsce ukrycia skarbu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Maska komizmu",
+          "tekst": "symbol ośmieszenia wady."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Francja Ludwika XIV, absolutyzm, moda na komedię klasyczną."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "komedia charakterów, wzorzec *Aulularii* Plauta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Społeczny",
+          "tekst": "mieszczaństwo, wartość pieniądza w XVII w."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy pieniądz może zastąpić miłość?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Skąpstwo jako wada społeczna."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Harpagon pokazuje, że nadmierna troska o majątek prowadzi do samotności."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Skąpiec* – *Lalka* (wartość pieniądza)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Skąpiec* – *Zemsta* (komedia obyczajowa)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Molier, *Skąpiec*, 1668 r., komedia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Harpagon, Kleant, Elżbieta, Waler, Mariana, La Flèche."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: pieniądz, miłość, konflikt pokoleń."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: skąpstwo ośmiesza."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest głównym bohaterem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Co ukrywa Harpagon w ogrodzie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kto kradnie kasetkę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kogo chce poślubić Harpagon?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest Frozyna?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Kto jest ukochaną Kleanta?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak kończy się sprawa kasetki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kim jest Anzelm?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego skąpstwo Harpagona jest komiczne?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy miłość zwycięża pieniądz? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni Frozyna?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak Molier ośmiesza wady?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czy Harpagon jest postacią tragiczną? Uzasadnij."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Harpagon."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kasetkę z pieniędzmi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "La Flèche."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Marianę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Komedia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Swatka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Mariana."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Harpagon odzyskuje kasetkę, ale traci pozycję."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Ojciec Walera i Mariany."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Paryż."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Jest chciwy i podejrzliwy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Miłość ostatecznie wygrywa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Pomaga w intrygach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Przez komizm charakteru."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Nie, jest raczej postacią komiczną, choć jego samotność ma wymiar gorzki."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Harpagon",
-      "opis": "Skąpiec – chciwy, podejrzliwy, egoistyczny, gotów poświęcić szczęście dzieci dla pieniędzy; postać komiczna, a zarazem odpychająca."
-    },
-    {
-      "imie": "Kleant",
-      "opis": "Syn Harpagona, zakochany w Mariannie; buntuje się przeciw ojcu."
-    },
-    {
-      "imie": "Eliza",
-      "opis": "Córka Harpagona, ukochana Walerego."
-    },
-    {
-      "imie": "Walery",
-      "opis": "Zakochany w Elizie, udaje pochlebcę Harpagona; syn Anzelma."
-    },
-    {
-      "imie": "Marianna",
-      "opis": "Uboga, dobra dziewczyna, ukochana Kleanta; córka Anzelma."
-    },
-    {
-      "imie": "Anzelm",
-      "opis": "Szlachetny bogacz, odnaleziony ojciec Walerego i Marianny."
-    },
-    {
-      "imie": "Frozyna",
-      "opis": "Sprytna swatka."
-    },
-    {
-      "imie": "Jakub",
-      "opis": "Kucharz i stangret, szczery i mściwy."
-    },
-    {
-      "imie": "Strzałka",
-      "opis": "Sprytny służący Kleanta, który kradnie szkatułę."
-    }
-  ],
-  "problematyka": [
-    "skąpstwo i chciwość jako namiętność niszcząca człowieka i rodzinę",
-    "pieniądz ważniejszy niż miłość i więzi rodzinne",
-    "konflikt pokoleń: ojciec przeciw dzieciom",
-    "obłuda i pochlebstwo",
-    "komizm jako narzędzie krytyki wad"
-  ],
-  "motywy": [
-    {
-      "motyw": "skąpiec",
-      "opis": "Harpagon – literacki typ chciwca."
-    },
-    {
-      "motyw": "pieniądz",
-      "opis": "szkatuła jako „ukochana” bohatera."
-    },
-    {
-      "motyw": "ojciec i dzieci",
-      "opis": "konflikt pokoleń."
-    },
-    {
-      "motyw": "miłość młodych",
-      "opis": "przeszkody stawiane przez rodziców."
-    },
-    {
-      "motyw": "qui pro quo",
-      "opis": "nieporozumienie jako źródło komizmu."
-    }
-  ],
-  "konteksty": [
-    "Komedia klasycystyczna: zasada trzech jedności, komizm postaci, sytuacji i słowa.",
-    "Źródłem jest komedia Plauta „Aulularia” (Garnek).",
-    "Bolesław Prus, „Lalka” – świat pieniądza w XIX w.",
-    "Aleksander Fredro – polska komedia charakterów („Zemsta”, „Śluby panieńskie”).",
-    "Barok i klasycyzm: różne nurty XVII w."
-  ],
-  "cytaty": [
-    {
-      "tekst": "po to się je, aby żyć, nie zaś po to żyje, aby jeść",
-      "kontekst": "Walery przytacza sentencję starożytnego filozofa podczas przygotowań do kolacji (akt III, przekł. T. Boya-Żeleńskiego)."
-    },
-    {
-      "tekst": "Bez posagu!",
-      "kontekst": "Harpagon zachwycony propozycją Anzelma – refren komiczny aktu I."
-    }
-  ],
-  "doWypracowania": [
-    "Pieniądz w życiu człowieka – Skąpiec, Lalka.",
-    "Konflikt pokoleń – Harpagon i dzieci, „Tango”.",
-    "Namiętność, która niszczy – skąpstwo, ambicja (Makbet).",
-    "Śmiech jako sposób krytyki – komedia Moliera, satyra Krasickiego.",
-    "Pytanie ustne: Jakie rodzaje komizmu występują w „Skąpcu”?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Na Wolnych Lekturach przekład Tadeusza Boya-Żeleńskiego (imiona: Harpagon, Kleant, Eliza, Walery, Marianna, Anzelm, Frozyna, Strzałka, Jakub). Molier to klasycyzm francuski XVII w.; w szkole utwór omawia się w epoce baroku."
+  ]
 }

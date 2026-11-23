@@ -1,85 +1,168 @@
 {
   "id": "kochanowski-piesni",
-  "metryczka": {
-    "autor": "Jan Kochanowski",
-    "tytul": "Pieśni (wybrane)",
-    "rok": "zbiór „Pieśni księgi dwoje” wyd. 1586 (pieśni powstawały wcześniej)",
-    "gatunek": "pieśń (liryka refleksyjna i patriotyczna)",
-    "epoka": "Renesans (odrodzenie)",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-02-renesans.md",
+  "sekcje": [
     {
-      "tytul": "Pieśń IX ks. I („Chcemy sobie być radzi?”)",
-      "tekst": "Utwór zaczyna się od zaproszenia do biesiady: wino i muzyka mają rozweselić gości. Poeta zauważa, że nikt nie wie, co przyniesie jutro – przyszłość zna tylko Bóg, który z góry patrzy na ludzi zamartwiających się ponad miarę. Fortuna jest kapryśna: kto dziś stoi wysoko, jutro może upaść, i odwrotnie. Nie ma sensu, by śmiertelny człowiek próbował rozumem ogarnąć wszystko. Mądry jest ten, kto umie znosić zarówno szczęście, jak i nieszczęście: w złym losie wytrwać, w dobrym się nie wywyższać. Podmiot cieszy się trwałym szczęściem, ale gdy je straci, odda to, co dostał, i schroni się we własnej cnocie. W burzy (obraz życia) nie będzie panicznie modlił się o ocalenie towarów – spokojnie popłynie nawet małą łodzią."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Jan Kochanowski"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "zbiór „Pieśni księgi dwoje” wyd. 1586 (pieśni powstawały wcześniej)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Renesans (odrodzenie)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; pieśń (liryka refleksyjna i patriotyczna)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "wybrane pieśni, w tym Pieśń IX z Ksiąg pierwszych i Pieśń V z Ksiąg wtórych"
+        }
+      ]
     },
     {
-      "tytul": "Pieśń V ks. II („Pieśń o spustoszeniu Podola”)",
-      "tekst": "Kochanowski reaguje na najazd tatarski na Podole (1575). Nazywa klęskę wieczną hańbą Polaków: ziemia jest spustoszona, ludzi uprowadzono w niewolę, córki szlacheckie trafiły do haremów najeźdźców. Wrogowie, którzy nie budują miast ani wsi, zwyciężają tylko dzięki nierządowi Rzeczypospolitej – kraj przypomina stado bez pasterza i psów. Poeta wzywa „cnego Lacha” do przebudzenia, do pomszczenia krzywd i zmycia hańby, a także do ofiarności: niech szlachta przetopi srebrne naczynia na pieniądze dla wojska. Kończy gorzką przestrogą: jeśli Polacy się nie zmienią, powstanie nowe przysłowie, że Polak jest głupi i przed szkodą, i po szkodzie."
+      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Pieśń IX ks. I („Chcemy sobie być radzi?”)",
+          "tekst": "Utwór zaczyna się od zaproszenia do biesiady: wino i muzyka mają rozweselić gości. Poeta zauważa, że nikt nie wie, co przyniesie jutro – przyszłość zna tylko Bóg, który z góry patrzy na ludzi zamartwiających się ponad miarę. Fortuna jest kapryśna: kto dziś stoi wysoko, jutro może upaść, i odwrotnie. Nie ma sensu, by śmiertelny człowiek próbował rozumem ogarnąć wszystko. Mądry jest ten, kto umie znosić zarówno szczęście, jak i nieszczęście: w złym losie wytrwać, w dobrym się nie wywyższać. Podmiot cieszy się trwałym szczęściem, ale gdy je straci, odda to, co dostał, i schroni się we własnej cnocie. W burzy (obraz życia) nie będzie panicznie modlił się o ocalenie towarów – spokojnie popłynie nawet małą łodzią."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Pieśń V ks. II („Pieśń o spustoszeniu Podola”)",
+          "tekst": "Kochanowski reaguje na najazd tatarski na Podole (1575). Nazywa klęskę wieczną hańbą Polaków: ziemia jest spustoszona, ludzi uprowadzono w niewolę, córki szlacheckie trafiły do haremów najeźdźców. Wrogowie, którzy nie budują miast ani wsi, zwyciężają tylko dzięki nierządowi Rzeczypospolitej – kraj przypomina stado bez pasterza i psów. Poeta wzywa „cnego Lacha” do przebudzenia, do pomszczenia krzywd i zmycia hańby, a także do ofiarności: niech szlachta przetopi srebrne naczynia na pieniądze dla wojska. Kończy gorzką przestrogą: jeśli Polacy się nie zmienią, powstanie nowe przysłowie, że Polak jest głupi i przed szkodą, i po szkodzie."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny Pieśni IX",
+          "tekst": "Mędrzec-humanista, czerpiący z Horacego: łączy epikurejską radość życia ze stoickim spokojem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny Pieśni V",
+          "tekst": "Obywatel-patriota, który gani rodaków i nawołuje do czynu."
+        }
+      ]
+    },
+    {
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Fortuna",
+          "tekst": "Koło losu, które jednych wynosi, a innych strąca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biesiada",
+          "tekst": "Wspólna zabawa jako sposób na troski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Burza na morzu",
+          "tekst": "Metafora życiowych przeciwności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ojczyzna w niebezpieczeństwie",
+          "tekst": "Wezwanie do obrony i ofiarności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Polak mądry po szkodzie",
+          "tekst": "Przysłowie przekształcone w ironiczną przestrogę."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zmienność Fortuny i jak się wobec niej zachować."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Postawa stoicka i epikurejska – umiar, spokój ducha, cnota."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odpowiedzialność obywatela za państwo."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krytyka szlachty: beztroska, brak ofiarności, nierząd."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bóg jako stwórca i rządca świata (renesansowy optymizm)."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Horacy – pieśni o złotym środku i równowadze ducha (Do Deliusza, Do Licyniusza)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozofia antyczna",
+          "tekst": "stoicyzm (Seneka) i epikureizm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Historia",
+          "tekst": "najazdy tatarskie na Kresy, bezkrólewie po ucieczce Henryka Walezego (1574–1575)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ignacy Krasicki – oświeceniowa krytyka szlachty; Juliusz Słowacki, „Grób Agamemnona” – romantyczna krytyka narodu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Renesansowy humanizm",
+          "tekst": "zainteresowanie człowiekiem i jego szczęściem na ziemi."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Kochanowski pisał pieśni przez całe życie, wzorując się na Horacym. Zbiór „Pieśni ksiąg dwoje” ukazał się pośmiertnie w 1586 r. Tytuł nazywa gatunek – pieśń, czyli utwór liryczny o regularnej budowie, pierwotnie przeznaczony do śpiewu. Poszczególne pieśni oznacza się numerem księgi i utworu albo pierwszymi słowami (np. Pieśń XXV z Ksiąg wtórych „Czego chcesz od nas, Panie”)."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "podmiot liryczny Pieśni IX",
-      "opis": "Mędrzec-humanista, czerpiący z Horacego: łączy epikurejską radość życia ze stoickim spokojem."
-    },
-    {
-      "imie": "podmiot liryczny Pieśni V",
-      "opis": "Obywatel-patriota, który gani rodaków i nawołuje do czynu."
-    }
-  ],
-  "problematyka": [
-    "zmienność Fortuny i jak się wobec niej zachować",
-    "postawa stoicka i epikurejska – umiar, spokój ducha, cnota",
-    "odpowiedzialność obywatela za państwo",
-    "krytyka szlachty: beztroska, brak ofiarności, nierząd",
-    "Bóg jako stwórca i rządca świata (renesansowy optymizm)"
-  ],
-  "motywy": [
-    {
-      "motyw": "Fortuna",
-      "opis": "koło losu, które jednych wynosi, a innych strąca."
-    },
-    {
-      "motyw": "biesiada",
-      "opis": "wspólna zabawa jako sposób na troski."
-    },
-    {
-      "motyw": "burza na morzu",
-      "opis": "metafora życiowych przeciwności."
-    },
-    {
-      "motyw": "ojczyzna w niebezpieczeństwie",
-      "opis": "wezwanie do obrony i ofiarności."
-    },
-    {
-      "motyw": "Polak mądry po szkodzie",
-      "opis": "przysłowie przekształcone w ironiczną przestrogę."
-    }
-  ],
-  "konteksty": [
-    "Horacy – pieśni o złotym środku i równowadze ducha (Do Deliusza, Do Licyniusza).",
-    "Filozofia antyczna: stoicyzm (Seneka) i epikureizm.",
-    "Historia: najazdy tatarskie na Kresy, bezkrólewie po ucieczce Henryka Walezego (1574–1575).",
-    "Ignacy Krasicki – oświeceniowa krytyka szlachty; Juliusz Słowacki, „Grób Agamemnona” – romantyczna krytyka narodu.",
-    "Renesansowy humanizm: zainteresowanie człowiekiem i jego szczęściem na ziemi."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Chcemy sobie być radzi? / Rozkaż, panie, czeladzi,",
-      "kontekst": "Początek Pieśni IX ks. I – zaproszenie do biesiady."
-    },
-    {
-      "tekst": "Nową przypowieść Polak sobie kupi, / Że i przed szkodą, i po szkodzie głupi.",
-      "kontekst": "Zakończenie Pieśni V ks. II – przestroga dla rodaków."
-    }
-  ],
-  "doWypracowania": [
-    "Jak żyć, by osiągnąć szczęście? – renesansowa recepta (Kochanowski, Horacy).",
-    "Literatura wobec spraw ojczyzny – krytyka rodaków (Kochanowski, Krasicki, Słowacki, Wyspiański).",
-    "Człowiek wobec zmiennego losu (Pieśń IX a Treny – kryzys tej postawy).",
-    "Pytanie ustne: Jakie wartości propaguje Kochanowski w pieśniach?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Podstawa wymienia obowiązkowo Pieśń IX ks. I i Pieśń V ks. II; inne pieśni (np. Pieśń XXV ks. I „Czego chcesz od nas, Panie”, znana ze szkoły podstawowej) są do wyboru nauczyciela."
+  ]
 }

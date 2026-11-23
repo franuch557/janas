@@ -1,101 +1,418 @@
 {
   "id": "zdazyc-przed-panem-bogiem",
-  "metryczka": {
-    "autor": "Hanna Krall",
-    "tytul": "Zdążyć przed Panem Bogiem",
-    "rok": "1977",
-    "gatunek": "reportaż (wywiad-rzeka)",
-    "epoka": "Literatura wojny i okupacji",
-    "rodzaj": "epika (literatura faktu)"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "10-wojenna-powojenna.md",
+  "sekcje": [
     {
-      "tytul": "Rozmowa z Markiem Edelmanem",
-      "tekst": "Reportaż jest zapisem rozmów Hanny Krall z Markiem Edelmanem – ostatnim żyjącym przywódcą powstania w getcie warszawskim (1943), a w latach 70. kardiologiem w Łodzi. Narracja przeplata dwie płaszczyzny czasowe: wojnę w getcie i współczesne operacje serca."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autorka",
+          "tekst": "Hanna Krall (ur. 1937), polska reporterka i pisarka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "literatura powojenna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1977 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "reportaż literacki, wywiad-rzeka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Warszawa, getto warszawskie (1943), powstanie w getcie; relacja z lat 40."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Krall przeprowadziła rozmowy z Markiem Edelmanem, jednym z przywódców powstania w getcie warszawskim."
+        }
+      ]
     },
     {
-      "tytul": "Getto i Umschlagplatz",
-      "tekst": "Edelman opowiada o życiu w getcie, głodzie i wywózkach do Treblinki. Pracował jako goniec w szpitalu przy Umschlagplatzu – placu, z którego odjeżdżały pociągi do obozu zagłady – i wyprowadzał stamtąd niektórych ludzi, ratując im życie. Wspomina prezesa Judenratu Adama Czerniakowa, który odebrał sobie życie, gdy Niemcy zażądali dostarczania ludzi do wywózek, oraz historię Poli Lifszyc, która dobrowolnie poszła na Umschlagplatz za swoją matką."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: fragmenty wymagane przez CKE do potwierdzenia. Poniżej ogólna charakterystyka.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Książka oparta na rozmowach z Markiem Edelmanem, który opowiada o powstaniu w getcie warszawskim, o swoich decyzjach i o ludziach, z którymi walczył."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krall zachowuje dokumentalną precyzję i jednocześnie pokazuje emocje i moralne dylematy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tekst porusza pytania o odpowiedzialność, pamięć i sens ratowania życia."
+        }
+      ]
     },
     {
-      "tytul": "Powstanie",
-      "tekst": "Opowiada o Żydowskiej Organizacji Bojowej i jej komendancie Mordechaju Anielewiczu, o kwietniowym powstaniu 1943 r., walkach w płonących domach, o śmierci przywódców w bunkrze przy ul. Miłej 18 i o wyjściu ocalałych kanałami. Edelman odbiera heroizm patetycznym opisom: podkreśla, że wybrali sposób umierania, a godne życie i godna śmierć w getcie miały wiele form."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Marek Edelman",
+          "tekst": "jeden z przywódców powstania w getcie. Cechy: odwaga, skromność, pamięć. Rola: świadek i bohater relacji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Narratorka (Hanna Krall)",
+          "tekst": "reporterka, pytająca i interpretująca."
+        }
+      ]
     },
     {
-      "tytul": "Szpital",
-      "tekst": "We współczesnej części Edelman wraz z kardiochirurgami (m.in. prof. Janem Mollem) ryzykuje pionierskie operacje, by ratować chorych. Swoją pracę lekarza opisuje jako „zdążanie przed Panem Bogiem” – osłanianie płomienia życia, zanim zgaśnie. Tak jak w getcie, stawką jest każde pojedyncze życie."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pamięć o Zagładzie, odpowiedzialność jednostki w czasie wojny, moralność wyborów, sens oporu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: pamięć o przeszłości jest obowiązkiem wobec ofiar."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Pamięć",
+          "tekst": "świadectwo. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim* (pamięć o cierpieniu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Opór",
+          "tekst": "powstanie. *Wykorzystanie:* zestawienie z *Dżumą* (opór wobec zła)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Odpowiedzialność",
+          "tekst": "wybory moralne. *Wykorzystanie:* zestawienie z *Antygoną* (sumienie a prawo)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Getto",
+          "tekst": "symbol zniewolenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Powstanie",
+          "tekst": "symbol oporu."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "getto warszawskie, powstanie w getcie (1943)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "relacja z Markiem Edelmanem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "reportaż, wywiad-rzeka."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odpowiedzialność wobec ofiar wojny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pamięć jako obowiązek."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krall pokazuje, że świadectwo jest ważne, bo chroni przed zapomnieniem."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Zdążyć przed Panem Bogiem* – *Dżuma* (postawa wobec zła)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Zdążyć przed Panem Bogiem* – *Lament świętokrzyski* (pamięć o cierpieniu)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krall, reportaż o powstaniu w getcie, 1977 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohater: Marek Edelman."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: pamięć, opór, odpowiedzialność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: pamięć o ofiarach jest obowiązkiem."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest bohaterem relacji?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Co jest tematem książki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W którym roku wydano książkę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki jest kontekst historyczny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest narratorka?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Co symbolizuje getto?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jaką formę ma utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki jest cel świadectwa?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego pamięć jest ważna po wojnie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak Krall łączy dokument z emocją?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy opór ma sens w beznadziejnej sytuacji? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak reportaż różni się od powieści?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Dlaczego świadectwo ma wartość moralną?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Marek Edelman."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Powstanie w getcie warszawskim."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Reportaż literacki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "1977."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Zagłada i getto."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Reporterka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pamięć i opór."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Zniewolenie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Wywiad-rzeka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Ochrona przed zapomnieniem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo chroni prawdę o ofiarach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Łączy precyzję dokumentu z refleksją."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Opór ma wartość moralną, nawet bez szans."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Reportaż opiera się na faktach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Oddaje głos ofiarom i bohaterom."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Marek Edelman",
-      "opis": "Bohater reportażu: uczestnik powstania, lekarz; skromny, ironiczny, niechętny patosowi."
-    },
-    {
-      "imie": "Hanna Krall",
-      "opis": "Reporterka, która pyta i porządkuje wspomnienia."
-    },
-    {
-      "imie": "Mordechaj Anielewicz",
-      "opis": "Młody komendant ŻOB."
-    },
-    {
-      "imie": "Adam Czerniaków",
-      "opis": "Prezes Judenratu."
-    },
-    {
-      "imie": "Pola Lifszyc",
-      "opis": "Dziewczyna, która poszła na śmierć z matką."
-    },
-    {
-      "imie": "prof. Jan Moll i pacjenci",
-      "opis": "Lekarz i chorzy z czasów współczesnych."
-    }
-  ],
-  "problematyka": [
-    "Zagłada Żydów i pamięć o niej",
-    "heroizm bez patosu – wybór godnej śmierci",
-    "wartość pojedynczego życia",
-    "lekarz jako ten, kto walczy ze śmiercią",
-    "odpowiedzialność za innych"
-  ],
-  "motywy": [
-    {
-      "motyw": "getto",
-      "opis": "zamknięty świat skazanych."
-    },
-    {
-      "motyw": "Umschlagplatz",
-      "opis": "miejsce wywózek."
-    },
-    {
-      "motyw": "świeca/płomień",
-      "opis": "życie, które trzeba osłonić."
-    },
-    {
-      "motyw": "lekarz",
-      "opis": "„zdążanie przed Bogiem”."
-    },
-    {
-      "motyw": "bohaterstwo codzienne",
-      "opis": "postawy mieszkańców getta."
-    }
-  ],
-  "konteksty": [
-    "Historia: getto warszawskie (1940–1943), Wielka Akcja 1942, powstanie w getcie (19 IV – V 1943).",
-    "Reportaż jako gatunek – szkoła polskiego reportażu (Kapuściński, Krall).",
-    "Tadeusz Borowski – Zagłada z perspektywy obozu.",
-    "Albert Camus, „Dżuma” – lekarz jako ten, kto walczy ze złem (Rieux).",
-    "Czesław Miłosz, „Campo di Fiori” – świadek zagłady getta."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Heroizm – czym jest? (Edelman, Antygona, Rieux).",
-    "Wartość życia jednostki.",
-    "Literatura faktu jako świadectwo Zagłady.",
-    "Lekarz w literaturze – Edelman, Rieux.",
-    "Pytanie ustne: Co znaczy tytuł „Zdążyć przed Panem Bogiem”?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – brak cytatów i linku. Książka powstała w 1977 r., ale dotyczy Zagłady, dlatego umieszczono ją w literaturze wojny i okupacji."
+  ]
 }

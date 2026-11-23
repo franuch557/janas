@@ -1,92 +1,413 @@
 {
   "id": "podroze-z-herodotem",
-  "metryczka": {
-    "autor": "Ryszard Kapuściński",
-    "tytul": "Podróże z Herodotem (fragmenty)",
-    "rok": "2004",
-    "gatunek": "reportaż (z elementami eseju i autobiografii)",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "epika (literatura faktu)"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "11-wspolczesna.md",
+  "sekcje": [
     {
-      "tytul": "Pierwsza podróż i księga",
-      "tekst": "Kapuściński wspomina, jak w latach 50. jako młody reporter marzył o „przekroczeniu granicy”. Redakcja wysyła go do Indii; przed wyjazdem otrzymuje od redaktor naczelnej świeżo wydane po polsku „Dzieje” Herodota. Książka staje się jego towarzyszem podróży."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Ryszard Kapuściński (1932–2007), polski reportażysta i korespondent zagraniczny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "literatura współczesna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "2004 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "reportaż literacki, eseistyka podróżnicza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "podróże autora po Azji, Afryce i Bliskim Wschodzie; odniesienia do Herodota (V w. p.n.e.)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Kapuściński odnosi swoje doświadczenia reporterskie do dzieła Herodota, pokazując związek między podróżą, historią i obserwacją."
+        }
+      ]
     },
     {
-      "tytul": "Indie i Chiny",
-      "tekst": "W Indiach przeżywa szok kulturowy i barierę językową; uczy się angielskiego, czytając powieść Hemingwaya. Odkrywa, jak trudno zrozumieć obcą kulturę. W Chinach doświadcza świata zamkniętego, kontrolowanego przez władzę, poznaje filozofię Konfucjusza i Wielki Mur."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Fragmenty wymagane przez CKE do potwierdzenia. Poniżej ogólna charakterystyka.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kapuściński opisuje swoje podróże i spotkania z ludźmi różnych kultur."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Porównuje swoje obserwacje z opisami Herodota, pokazując, że podróż jest również sposobem poznawania siebie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tekst łączy reportaż z refleksją nad sensem podróży i pisania o świecie."
+        }
+      ]
     },
     {
-      "tytul": "Afryka i inne miejsca",
-      "tekst": "Kolejne podróże prowadzą go m.in. do Afryki, gdzie obserwuje upadek kolonializmu, zamachy stanu i wojny. Swoje doświadczenia zestawia z opowieściami Herodota."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ryszard Kapuściński (narrator)",
+          "tekst": "reportażysta, podróżnik. Rola: pośrednik między czytelnikiem a światem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Herodot",
+          "tekst": "starożytny historyk i podróżnik, wzór dla narratora."
+        }
+      ]
     },
     {
-      "tytul": "Opowieści Herodota",
-      "tekst": "Kapuściński opowiada na nowo historie z „Dziejów”: o królu Krezusie i rozmowie z Solonem o szczęściu, o Cyrusie i jego śmierci w wojnie z Masagetami, o szaleństwie Kambyzesa, o wyprawie Dariusza na Scytów, którzy stosowali taktykę spalonej ziemi, o Kserksesie każącym chłostać morze i o wojnach grecko-perskich (Termopile, Salamina)."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Podróż jako poznanie, obcość, relacja Europy z innymi kulturami, odpowiedzialność reportera."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: poznanie świata wymaga otwartości i pokory."
+        }
+      ]
     },
     {
-      "tytul": "Herodot jako pierwszy reporter",
-      "tekst": "Autor przedstawia Herodota jako pierwszego reportera i globalistę: człowieka ciekawego Innych, który podróżował, wypytywał, słuchał, porównywał relacje i chciał ocalić pamięć o ludzkich czynach. To także refleksja nad własnym zawodem i nad tym, jak poznawać innych bez uprzedzeń."
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Podróż",
+          "tekst": "poznanie. *Wykorzystanie:* zestawienie z *Odyseją* (podróż jako próba)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Obcość",
+          "tekst": "spotkanie z innym. *Wykorzystanie:* zestawienie z *Listami z podróży* Sienkiewicza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Historia",
+          "tekst": "pamięć o przeszłości. *Wykorzystanie:* zestawienie z *Pieśnią o Rolandzie*."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Herodot",
+          "tekst": "symbol dociekliwości historyka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Podróż",
+          "tekst": "symbol poznania."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "dekolonizacja Afryki i Azji, zimna wojna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "reportaż literacki, tradycja Herodota."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "doświadczenie Kapuścińskiego jako korespondenta."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Podróż jako sposób poznawania świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odpowiedzialność reportera."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kapuściński pokazuje, że poznanie obcego wymaga pokory i otwartości."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Podróże z Herodotem* – *Listy z podróży do Ameryki* (podróż jako poznanie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Podróże z Herodotem* – *Odyseja* (podróż)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kapuściński, *Podróże z Herodotem*, 2004 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motyw: podróż, obcość, historia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: poznanie świata wymaga pokory."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest autorem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kogo autor wspomina jako wzór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W którym roku wydano książkę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jakie są główne tematy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Gdzie odbywają się podróże?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Kim był Herodot?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jaki jest styl narracji?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Co łączy reportaż z historią?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Kapuściński odwołuje się do Herodota?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy podróż może zmienić sposób myślenia? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak reportaż łączy fakt z refleksją?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni pokora w poznawaniu świata?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czy reporter ma odpowiedzialność za przedstawianie obcych kultur? Uzasadnij."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Ryszard Kapuściński."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Reportaż literacki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Herodot."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "2004."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Podróż i poznanie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Azja, Afryka, Bliski Wschód."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Podróż."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Starożytny historyk."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Osobisty, refleksyjny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Fakt i refleksja."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo Herodot jest wzorem dociekliwości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Tak, otwiera na innych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Łączy dokument z osobistą refleksją."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Pozwala uniknąć uproszczeń."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Tak, bo kształtuje obraz obcych kultur."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "narrator (Ryszard Kapuściński)",
-      "opis": "Reporter, podróżnik, czytelnik Herodota; ciekawy świata, pokorny wobec obcych kultur."
-    },
-    {
-      "imie": "Herodot",
-      "opis": "Grecki historyk z V w. p.n.e., „ojciec historii”, przewodnik i alter ego narratora."
-    },
-    {
-      "imie": "władcy z „Dziejów” (Krezus, Cyrus, Kambyzes, Dariusz, Kserkses)",
-      "opis": "Bohaterowie opowieści o władzy, pysze i przemijaniu."
-    }
-  ],
-  "problematyka": [
-    "spotkanie z Innym i poznawanie obcych kultur",
-    "pamięć i historia – po co ją zapisywać",
-    "władza, pycha i jej klęska",
-    "zawód reportera i jego etyka",
-    "podróż jako sposób poznania świata i siebie"
-  ],
-  "motywy": [
-    {
-      "motyw": "podróż",
-      "opis": "przekraczanie granic."
-    },
-    {
-      "motyw": "księga",
-      "opis": "Herodot jako towarzysz."
-    },
-    {
-      "motyw": "Inny",
-      "opis": "obcy, którego trzeba zrozumieć."
-    },
-    {
-      "motyw": "władca",
-      "opis": "pycha i upadek."
-    },
-    {
-      "motyw": "pamięć",
-      "opis": "ocalanie przeszłości."
-    }
-  ],
-  "konteksty": [
-    "Herodot, „Dzieje” – źródło opowieści.",
-    "Reportaż polski (Krall, Kapuściński) – literatura faktu.",
-    "Szekspir, „Makbet” – pycha i upadek władców.",
-    "Olga Tokarczuk, „Profesor Andrews w Warszawie” – obcy w nieznanym kraju.",
-    "Globalizacja i dekolonizacja w XX w."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Spotkanie z obcą kulturą – Kapuściński, Tokarczuk.",
-    "Podróż jako doświadczenie przemiany.",
-    "Władza i pycha – Kserkses, Makbet, Kreon.",
-    "Pytanie ustne: Dlaczego Kapuściński nazywa Herodota pierwszym reporterem?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje, które fragmenty. Szczegóły dotyczące kolejności podróży i osób (np. redaktor Ireny Tarłowskiej) podano z pamięci – do sprawdzenia w tekście."
+  ]
 }

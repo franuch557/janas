@@ -1,0 +1,254 @@
+{
+  "id": "prus-kroniki",
+  "zrodlo": "czat",
+  "plik": "07-pozytywizm.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Bolesław Prus."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "pozytywizm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "felietony (publicystyka, kroniki tygodniowe w prasie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Warszawa, XIX w.; kroniki odnoszą się do bieżących wydarzeń."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "cykl felietonów, w których Prus komentował życie społeczne, obyczaje i problemy miasta."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: wybór kronik wymagany przez CKE nie został potwierdzony. Poniżej ogólna charakterystyka gatunku.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Felietony komentują aktualne wydarzenia, zjawiska obyczajowe i problemy miejskie, w formie lekkiej, ironicznej i rzeczowej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Prus stosuje ironię i dystans, łącząc obserwację z moralną refleksją."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Narrator – obserwator i komentator życia społecznego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Postacie pojawiające się w felietonach są typami społecznymi, nie postaciami fabularnymi."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krytyka obyczajów, pozytywistyczny ideał pracy i rozsądku, odpowiedzialność jednostki za wspólnotę."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Praca organiczna, rozsądek, obyczajowość."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Nie omawiane szczegółowo ze względu na brak potwierdzonego wyboru."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Historyczny: Warszawa po 1864 r.; prasa pozytywistyczna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Społeczny: problemy mieszczaństwa i rzemiosła."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zestawienie z *Lalką* (obraz społeczeństwa Warszawy)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Felietony Prusa jako przykład publicystyki pozytywistycznej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Do potwierdzenia w wykazie CKE."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentują kroniki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czym się zajmują kroniki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki styl stosuje Prus?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Gdzie są publikowane kroniki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki jest cel kronik?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak felieton łączy informację z oceną?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dlaczego ironia jest ważna w kronikach?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak kroniki wiążą się z pozytywizmem?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Felietony."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Bieżące wydarzenia i obyczaje."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Ironiczny i rzeczowy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W prasie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Komentowanie życia społecznego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Łączy opis z refleksją."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pozwala krytykować bez patosu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Ideał pracy i rozsądku."
+        }
+      ]
+    }
+  ]
+}

@@ -1,97 +1,195 @@
 {
   "id": "inny-swiat",
-  "metryczka": {
-    "autor": "Gustaw Herling-Grudziński",
-    "tytul": "Inny świat. Zapiski sowieckie (fragmenty)",
-    "rok": "1951 (wyd. angielskie, Londyn), 1953 (wyd. polskie, Londyn)",
-    "gatunek": "relacja wspomnieniowa (powieść-świadectwo, literatura faktu)",
-    "epoka": "Literatura wojny i okupacji",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-09-wojna-i-okupacja.md",
+  "sekcje": [
     {
-      "tytul": "Aresztowanie i więzienia",
-      "tekst": "W 1940 r. dwudziestoletni narrator (autor) zostaje zatrzymany przez NKWD podczas próby przedostania się przez granicę na Litwę, by dołączyć do polskiego wojska. Przechodzi przez więzienia (m.in. w Witebsku i Leningradzie), przesłuchania i oskarżenie o szpiegostwo; dostaje wyrok pięciu lat łagru."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Gustaw Herling-Grudziński"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1951 (wyd. angielskie, Londyn), 1953 (wyd. polskie, Londyn)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Literatura wojny i okupacji"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika; relacja wspomnieniowa (powieść-świadectwo, literatura faktu)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "fragmenty"
+        }
+      ]
     },
     {
-      "tytul": "Łagier w Jercewie",
-      "tekst": "Trafia do obozu pracy w Jercewie koło Archangielska. Opisuje organizację łagru: normy pracy w lesie i przy rozładunku, od których zależą racje żywności („kotły”), głód, zimno, choroby, przemoc kryminalistów („urków”), donosicielstwo. Więźniowie tracą godność, a system sprawia, że walczą o przeżycie kosztem innych. Ważne miejsca: barak dla wyniszczonych („trupiarnia”), szpital, Dom Swidań – barak, w którym więźniowie spotykają się z przyjeżdżającymi bliskimi."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Aresztowanie i więzienia",
+          "tekst": "W 1940 r. dwudziestoletni narrator (autor) zostaje zatrzymany przez NKWD podczas próby przedostania się przez granicę na Litwę, by dołączyć do polskiego wojska. Przechodzi przez więzienia (m.in. w Witebsku i Leningradzie), przesłuchania i oskarżenie o szpiegostwo; dostaje wyrok pięciu lat łagru."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Łagier w Jercewie",
+          "tekst": "Trafia do obozu pracy w Jercewie koło Archangielska. Opisuje organizację łagru: normy pracy w lesie i przy rozładunku, od których zależą racje żywności („kotły”), głód, zimno, choroby, przemoc kryminalistów („urków”), donosicielstwo. Więźniowie tracą godność, a system sprawia, że walczą o przeżycie kosztem innych. Ważne miejsca: barak dla wyniszczonych („trupiarnia”), szpital, Dom Swidań – barak, w którym więźniowie spotykają się z przyjeżdżającymi bliskimi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Ludzie łagru",
+          "tekst": "Narrator przedstawia losy współwięźniów: Kostylewa, który przypala sobie rękę w ogniu, by nie pracować dla systemu, który go oszukał; Natalii Lwowny, z którą rozmawia o „Zapiskach z martwego domu” Dostojewskiego; byłych funkcjonariuszy, kobiet zmuszanych do prostytucji, starych i chorych. Każda historia pokazuje inną formę zniewolenia i oporu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Wolność i epilog",
+          "tekst": "Po układzie Sikorski–Majski (1941) i amnestii dla Polaków narrator długo nie zostaje zwolniony; prowadzi głodówkę i w końcu wychodzi z obozu w 1942 r., by dołączyć do armii generała Andersa. W epilogu („Upadek Paryża”) po wojnie spotyka we Włoszech dawnego współwięźnia, który wyznaje, że w łagrze złożył fałszywe zeznania obciążające innych więźniów; prosi o zrozumienie, ale narrator nie potrafi mu go dać."
+        }
+      ]
     },
     {
-      "tytul": "Ludzie łagru",
-      "tekst": "Narrator przedstawia losy współwięźniów: Kostylewa, który przypala sobie rękę w ogniu, by nie pracować dla systemu, który go oszukał; Natalii Lwowny, z którą rozmawia o „Zapiskach z martwego domu” Dostojewskiego; byłych funkcjonariuszy, kobiet zmuszanych do prostytucji, starych i chorych. Każda historia pokazuje inną formę zniewolenia i oporu."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Narrator (Gustaw Herling-Grudziński)",
+          "tekst": "Młody Polak, świadek i ofiara; stara się zachować godność i opisać system bez nienawiści."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kostylew",
+          "tekst": "Więzień, który okalecza się, by nie pracować dla systemu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Natalia Lwowna",
+          "tekst": "Więźniarka, rozmówczyni narratora o Dostojewskim."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Współwięźniowie z różnych narodów",
+          "tekst": "Ofiary systemu, każda z własną historią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dawny współwięzień z epilogu",
+          "tekst": "Człowiek, który złamał się w łagrze i po latach szuka zrozumienia."
+        }
+      ]
     },
     {
-      "tytul": "Wolność i epilog",
-      "tekst": "Po układzie Sikorski–Majski (1941) i amnestii dla Polaków narrator długo nie zostaje zwolniony; prowadzi głodówkę i w końcu wychodzi z obozu w 1942 r., by dołączyć do armii generała Andersa. W epilogu („Upadek Paryża”) po wojnie spotyka we Włoszech dawnego współwięźnia, który wyznaje, że w łagrze złożył fałszywe zeznania obciążające innych więźniów; prosi o zrozumienie, ale narrator nie potrafi mu go dać."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Łagier",
+          "tekst": "„inny świat” z własnymi prawami."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Głód",
+          "tekst": "Główny mechanizm władzy nad więźniem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ręka w ogniu",
+          "tekst": "Bunt Kostylewa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Spotkanie z bliskimi",
+          "tekst": "Dom Swidań."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literatura jako świadectwo",
+          "tekst": "Pamięć ofiar."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "System totalitarny i mechanizm zniewolenia człowieka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy można zachować człowieczeństwo w nieludzkich warunkach?."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Głód, praca niewolnicza i degradacja."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Formy oporu: samookaleczenie, głodówka, wierność wartościom."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wina i przebaczenie (epilog)."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historia",
+          "tekst": "agresja ZSRR na Polskę (17 IX 1939), deportacje, system Gułagu, układ Sikorski–Majski i armia Andersa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Fiodor Dostojewski, „Zapiski z martwego domu” – motto i tytuł nawiązują do katorgi carskiej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tadeusz Borowski – obóz niemiecki jako drugi system totalitarny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "George Orwell, „Rok 1984” – totalitaryzm w wersji literackiej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Aleksander Sołżenicyn, „Archipelag GUŁag” – późniejsze świadectwo."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Herling-Grudziński był więźniem sowieckiego łagru w Jercewie (1940–1942). Książkę napisał na emigracji; najpierw ukazała się po angielsku w Londynie (1951), po polsku w 1953 r. Tytuł pochodzi z motta zaczerpniętego ze „Wspomnień z domu umarłych” Dostojewskiego: łagier to „inny świat”, w którym obowiązują odwrócone prawa i nie ma miejsca na zwykłą moralność."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "narrator (Gustaw Herling-Grudziński)",
-      "opis": "Młody Polak, świadek i ofiara; stara się zachować godność i opisać system bez nienawiści."
-    },
-    {
-      "imie": "Kostylew",
-      "opis": "Więzień, który okalecza się, by nie pracować dla systemu."
-    },
-    {
-      "imie": "Natalia Lwowna",
-      "opis": "Więźniarka, rozmówczyni narratora o Dostojewskim."
-    },
-    {
-      "imie": "współwięźniowie z różnych narodów",
-      "opis": "Ofiary systemu, każda z własną historią."
-    },
-    {
-      "imie": "dawny współwięzień z epilogu",
-      "opis": "Człowiek, który złamał się w łagrze i po latach szuka zrozumienia."
-    }
-  ],
-  "problematyka": [
-    "system totalitarny i mechanizm zniewolenia człowieka",
-    "czy można zachować człowieczeństwo w nieludzkich warunkach?",
-    "głód, praca niewolnicza i degradacja",
-    "formy oporu: samookaleczenie, głodówka, wierność wartościom",
-    "wina i przebaczenie (epilog)"
-  ],
-  "motywy": [
-    {
-      "motyw": "łagier",
-      "opis": "„inny świat” z własnymi prawami."
-    },
-    {
-      "motyw": "głód",
-      "opis": "główny mechanizm władzy nad więźniem."
-    },
-    {
-      "motyw": "ręka w ogniu",
-      "opis": "bunt Kostylewa."
-    },
-    {
-      "motyw": "spotkanie z bliskimi",
-      "opis": "Dom Swidań."
-    },
-    {
-      "motyw": "literatura jako świadectwo",
-      "opis": "pamięć ofiar."
-    }
-  ],
-  "konteksty": [
-    "Historia: agresja ZSRR na Polskę (17 IX 1939), deportacje, system Gułagu, układ Sikorski–Majski i armia Andersa.",
-    "Fiodor Dostojewski, „Zapiski z martwego domu” – motto i tytuł nawiązują do katorgi carskiej.",
-    "Tadeusz Borowski – obóz niemiecki jako drugi system totalitarny.",
-    "George Orwell, „Rok 1984” – totalitaryzm w wersji literackiej.",
-    "Aleksander Sołżenicyn, „Archipelag GUŁag” – późniejsze świadectwo."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Człowiek wobec systemu totalitarnego – Herling, Borowski, Orwell.",
-    "Godność w sytuacji granicznej.",
-    "Literatura jako świadectwo – Herling, Krall.",
-    "Bunt i jego formy – Kostylew.",
-    "Pytanie ustne: Dlaczego łagier nazwano „innym światem”?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim (autor zm. 2000) – brak cytatów i linku. Podstawa nie wskazuje fragmentów. Szczegóły niektórych postaci (np. losy Gorcewa) zostały przedstawione ogólnie – warto je sprawdzić w tekście."
+  ]
 }

@@ -1,0 +1,468 @@
+{
+  "id": "zemsta",
+  "zrodlo": "czat",
+  "plik": "06-romantyzm.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Aleksander Fredro (1793–1876), polski komediopisarz."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "romantyzm (kontekst: komedia obyczajowa; zob. uwagi w sekcji 0)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "napisana w 1833–1834 r.; prapremiera w 1838 r. (sprawdź miejsce i datę w źródle)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "komedia (w pięciu aktach, wierszem)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "XIX w., dwór szlachecki (dwór Cetnera i Milczka), Polska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "komedia obyczajowa, wzorowana na tradycji komedii charakterów; ukazuje spór dwóch rodów."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: szczegóły scen. Poniżej ogólny przebieg.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "dwaj szlachcice, Cetnerowie (Cetner) i Milczek, prowadzą wieloletni spór o miedzę i zniewagi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakochani",
+          "tekst": "Wacław, syn Cetnera, i Klara, córka Milczka, łączą się uczuciem. Konflikt rodowy utrudnia ich związek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Intrygi",
+          "tekst": "pojawiają się próby pojednania i zemsty; Papkin, komiczny szlachcic-chwalca, bierze udział w intrygach."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rozwiązanie",
+          "tekst": "po licznych zabawnych zdarzeniach rody godzą się, a młodzi biorą ślub."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie:** komedia ośmiesza spór rodów i zemstę jako wadę; zgoda i miłość zwyciężają."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Cetner",
+          "tekst": "szlachcic, ojciec Wacława. Cechy: uparty, dumny. Rola: uosobienie sporu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Milczek",
+          "tekst": "szlachcic, ojciec Klary. Cechy: uparty, honorowy. Rola: przeciwnik Cetnera."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wacław",
+          "tekst": "syn Cetnera, zakochany w Klarze. Rola: symbol pojednania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Klara",
+          "tekst": "córka Milczka. Rola: symbol miłości i zgody."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Papkin",
+          "tekst": "komiczny szlachcic, chwalca, tchórz. Rola: ośmieszenie wad."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "spór rodów, zemsta, miłość, zgoda."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Cetner z Milczkiem (zemsta), młodzi z rodzicami (miłość vs spór)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "zgoda, miłość, rozsądek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "zemsta jest absurdalna; zgoda i miłość są ważniejsze."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "pojednanie i ślub."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Zemsta",
+          "tekst": "spór rodów. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (spór Sopliców i Horeszków)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Miłość",
+          "tekst": "Wacław i Klara. *Wykorzystanie:* zestawienie z *Balladyną* (miłość a ambicja)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Zgoda",
+          "tekst": "pojednanie. *Wykorzystanie:* zestawienie z *Iliadą* (pojednanie wrogów)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Ośmieszenie wady",
+          "tekst": "Papkin. *Wykorzystanie:* zestawienie z *Skąpcem* (komizm charakteru)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Miedza",
+          "tekst": "symbol sporu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pojedynek",
+          "tekst": "symbol zemsty."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ślub",
+          "tekst": "symbol zgody."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "szlachta XIX w., obyczaje dworskie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "komedia charakterów i obyczajów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Społeczny",
+          "tekst": "krytyka sporów rodowych i zemsty."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zemsta jako źródło absurdu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Miłość jako siła pojednania."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Zemsta* pokazuje, że spór rodów niszczy wspólnotę, a zgoda ją przywraca."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Zemsta* – *Pan Tadeusz* (spór rodów)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Zemsta* – *Skąpiec* (komedia)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Fredro, *Zemsta*, 1834 r., komedia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Cetner, Milczek, Wacław, Klara, Papkin."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: zemsta, miłość, zgoda."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: zgoda zwycięża nad zemstą."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto prowadzi spór z Milczkiem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kim jest Wacław?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kim jest Klara?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kim jest Papkin?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jak kończy się komedia?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki symbol sporu pojawia się w tekście?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kiedy wystawiono komedię?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Co łączy rody?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego zemsta jest w komedii ośmieszona?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy miłość może zakończyć spór? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak Papkin wzmacnia komizm?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czy spór rodów ma wymiar symboliczny? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak *Zemsta* odnosi się do obyczajów szlacheckich?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Komedia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Cetner."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Syn Cetnera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Córka Milczka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Komiczny chwalca i tchórz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Zemsta i zgoda."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pojednaniem i ślubem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Miedza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W 1834 r."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Wspólne sąsiedztwo i dawny spór."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Pokazuje absurd wrogości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Tak, miłość przełamuje spór."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Ośmiesza tchórzostwo i chełpliwość."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Tak, spór o miedzę jest metaforą zaściankowości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Krytykuje obyczaje szlacheckie."
+        }
+      ]
+    }
+  ]
+}

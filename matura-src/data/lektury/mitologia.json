@@ -1,130 +1,242 @@
 {
   "id": "mitologia",
-  "metryczka": {
-    "autor": "Jan Parandowski",
-    "tytul": "Mitologia, część I: Grecja",
-    "rok": "1924",
-    "gatunek": "zbiór opowieści mitologicznych (popularne opracowanie mitów)",
-    "epoka": "Antyk",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-01-antyk-i-sredniowiecze.md",
+  "sekcje": [
     {
-      "tytul": "Wiadomości wstępne",
-      "tekst": "Parandowski wyjaśnia, czym są mity: opowieści, w których Grecy tłumaczyli powstanie świata, zjawiska przyrody, obyczaje i sens ludzkiego losu. Opisuje religię Greków: bogowie mieli ludzką postać i ludzkie namiętności, a kult łączył się z ofiarami, wyroczniami (np. w Delfach) i świętami."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Jan Parandowski"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1924"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Antyk"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika; zbiór opowieści mitologicznych (popularne opracowanie mitów)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "część I: Grecja"
+        }
+      ]
     },
     {
-      "tytul": "Powstanie świata i bogów",
-      "tekst": "Na początku był Chaos; z niego wyłoniły się m.in. Gaja (Ziemia) i Uranos (Niebo). Ich syn Kronos obalił ojca, a potem pożerał własne dzieci, bojąc się utraty władzy. Rea ukryła najmłodszego, Zeusa, który dorósł, zmusił ojca do zwrócenia rodzeństwa i w wojnie z tytanami zdobył władzę. Świat podzielili bracia: Zeus wziął niebo, Posejdon morze, a Hades podziemie."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Wiadomości wstępne",
+          "tekst": "Parandowski wyjaśnia, czym są mity: opowieści, w których Grecy tłumaczyli powstanie świata, zjawiska przyrody, obyczaje i sens ludzkiego losu. Opisuje religię Greków: bogowie mieli ludzką postać i ludzkie namiętności, a kult łączył się z ofiarami, wyroczniami (np. w Delfach) i świętami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Powstanie świata i bogów",
+          "tekst": "Na początku był Chaos; z niego wyłoniły się m.in. Gaja (Ziemia) i Uranos (Niebo). Ich syn Kronos obalił ojca, a potem pożerał własne dzieci, bojąc się utraty władzy. Rea ukryła najmłodszego, Zeusa, który dorósł, zmusił ojca do zwrócenia rodzeństwa i w wojnie z tytanami zdobył władzę. Świat podzielili bracia: Zeus wziął niebo, Posejdon morze, a Hades podziemie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Bogowie olimpijscy",
+          "tekst": "Na Olimpie zamieszkali m.in.: Zeus (władca bogów, grom), Hera (opiekunka małżeństwa), Atena (mądrość, zrodzona z głowy Zeusa), Apollo (sztuka, światło, wyrocznia), Artemida (łowy), Hermes (posłaniec bogów), Afrodyta (miłość i piękno), Ares (wojna), Hefajstos (kowal bogów) i Hestia. Ważne są też Demeter, bogini urodzaju, której córkę Persefonę porwał Hades (stąd mit o porach roku), oraz Dionizos – bóg wina i szału, z którego kultu wyrósł teatr."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Mity o ludziach i karach bogów",
+          "tekst": "Prometeusz ukradł bogom ogień i dał go ludziom; za karę przykuto go do skały, a orzeł wyjadał mu wątrobę. Zeus zesłał ludziom Pandorę z puszką pełną nieszczęść (na dnie została nadzieja). Po potopie ludzkość odrodziła się dzięki Deukalionowi i Pyrrze. Inne mity pokazują kary za pychę i zbrodnie: Tantal cierpi wieczny głód i pragnienie, Syzyf wtacza głaz, który zawsze się stacza, Niobe traci dzieci za wywyższanie się ponad Latonę, Narcyz zakochuje się we własnym odbiciu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "Mity o herosach i miłości",
+          "tekst": "Herakles wykonuje dwanaście prac (m.in. zabija lwa nemejskiego i hydrę). Tezeusz zabija Minotaura w labiryncie dzięki nici Ariadny; jego ojciec Egeusz, widząc czarne żagle, rzuca się w morze. Dedal i Ikar uciekają z Krety na skrzydłach; Ikar leci za wysoko i ginie. Perseusz zabija Meduzę. Jazon z Argonautami zdobywa złote runo z pomocą Medei. Orfeusz schodzi do Hadesu po Eurydykę, ale ogląda się za nią i traci ją na zawsze."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "Rody tragiczne i wojna trojańska",
+          "tekst": "Ród Labdakidów jest przeklęty: Edyp nieświadomie zabija ojca i poślubia matkę (z tego rodu pochodzi Antygona). Ród Atrydów obciążają kolejne zbrodnie. Spór bogiń o złote jabłko Eris rozstrzyga Parys, wybierając Afrodytę, która daje mu Helenę; jej porwanie wywołuje wojnę trojańską. Po dziesięciu latach Grecy zdobywają Troję podstępem drewnianego konia. Książka opowiada też o długim powrocie Odyseusza do Itaki."
+        }
+      ]
     },
     {
-      "tytul": "Bogowie olimpijscy",
-      "tekst": "Na Olimpie zamieszkali m.in.: Zeus (władca bogów, grom), Hera (opiekunka małżeństwa), Atena (mądrość, zrodzona z głowy Zeusa), Apollo (sztuka, światło, wyrocznia), Artemida (łowy), Hermes (posłaniec bogów), Afrodyta (miłość i piękno), Ares (wojna), Hefajstos (kowal bogów) i Hestia. Ważne są też Demeter, bogini urodzaju, której córkę Persefonę porwał Hades (stąd mit o porach roku), oraz Dionizos – bóg wina i szału, z którego kultu wyrósł teatr."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Zeus",
+          "tekst": "Najwyższy z bogów, władca nieba, często kierujący się własnymi namiętnościami."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Prometeusz",
+          "tekst": "Tytan-dobroczyńca ludzi, symbol buntu i poświęcenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Demeter i Persefona",
+          "tekst": "Matka i córka; mit tłumaczy cykl pór roku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Herakles",
+          "tekst": "Heros o nadludzkiej sile, symbol wytrwałości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Tezeusz",
+          "tekst": "Pogromca Minotaura, bohater ateński."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dedal i Ikar",
+          "tekst": "Ojciec-wynalazca i syn, który zginął z powodu brawury."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Orfeusz",
+          "tekst": "Śpiewak, którego miłość pokonuje śmierć tylko na chwilę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Syzyf, Tantal, Niobe",
+          "tekst": "Postaci ukarane przez bogów za pychę lub zbrodnię."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Edyp",
+          "tekst": "Król Teb, ofiara fatum; ojciec Antygony."
+        }
+      ]
     },
     {
-      "tytul": "Mity o ludziach i karach bogów",
-      "tekst": "Prometeusz ukradł bogom ogień i dał go ludziom; za karę przykuto go do skały, a orzeł wyjadał mu wątrobę. Zeus zesłał ludziom Pandorę z puszką pełną nieszczęść (na dnie została nadzieja). Po potopie ludzkość odrodziła się dzięki Deukalionowi i Pyrrze. Inne mity pokazują kary za pychę i zbrodnie: Tantal cierpi wieczny głód i pragnienie, Syzyf wtacza głaz, który zawsze się stacza, Niobe traci dzieci za wywyższanie się ponad Latonę, Narcyz zakochuje się we własnym odbiciu."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Prometeizm",
+          "tekst": "Poświęcenie dla dobra ludzkości i bunt przeciw bogom."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Syzyfowa praca",
+          "tekst": "Trud bez końca i bez efektu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Labirynt",
+          "tekst": "Zagubienie, poszukiwanie drogi, nić Ariadny jako ratunek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lot Ikara",
+          "tekst": "Młodzieńcza brawura, marzenie i jego cena."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość i śmierć",
+          "tekst": "Orfeusz i Eurydyka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Matka",
+          "tekst": "Demeter szukająca córki, Niobe opłakująca dzieci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Fatum",
+          "tekst": "Przekleństwo rodu Labdakidów."
+        }
+      ]
     },
     {
-      "tytul": "Mity o herosach i miłości",
-      "tekst": "Herakles wykonuje dwanaście prac (m.in. zabija lwa nemejskiego i hydrę). Tezeusz zabija Minotaura w labiryncie dzięki nici Ariadny; jego ojciec Egeusz, widząc czarne żagle, rzuca się w morze. Dedal i Ikar uciekają z Krety na skrzydłach; Ikar leci za wysoko i ginie. Perseusz zabija Meduzę. Jazon z Argonautami zdobywa złote runo z pomocą Medei. Orfeusz schodzi do Hadesu po Eurydykę, ale ogląda się za nią i traci ją na zawsze."
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Mit jako sposób wyjaśniania świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Relacje ludzi i bogów; pycha (hybris) i kara."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Los, fatum i wolność człowieka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Miłość silniejsza niż śmierć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterstwo, poświęcenie, ambicja."
+        }
+      ]
     },
     {
-      "tytul": "Rody tragiczne i wojna trojańska",
-      "tekst": "Ród Labdakidów jest przeklęty: Edyp nieświadomie zabija ojca i poślubia matkę (z tego rodu pochodzi Antygona). Ród Atrydów obciążają kolejne zbrodnie. Spór bogiń o złote jabłko Eris rozstrzyga Parys, wybierając Afrodytę, która daje mu Helenę; jej porwanie wywołuje wojnę trojańską. Po dziesięciu latach Grecy zdobywają Troję podstępem drewnianego konia. Książka opowiada też o długim powrocie Odyseusza do Itaki."
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Sofokles, „Antygona” – dalsze dzieje rodu Labdakidów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Homer, „Iliada” – wojna trojańska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Adam Mickiewicz, „Oda do młodości” – Herkules dławiący węże w kolebce jako obraz siły młodości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Albert Camus, „Mit Syzyfa” (esej) – Syzyf jako bohater absurdu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zbigniew Herbert, „Apollo i Marsjasz” – mit przetworzony we współczesnym wierszu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Malarstwo",
+          "tekst": "„Upadek Ikara” Pietera Bruegla."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Jan Parandowski wydał „Mitologię” w 1924 r. jako przystępne opowiedzenie mitów greckich i rzymskich, opracowane na podstawie źródeł antycznych (m.in. Homera, Hezjoda, Owidiusza). Nazwa pochodzi od greckich słów *mythos* („opowieść”) i *logos* („słowo, nauka”) i oznacza zbiór mitów danego ludu oraz naukę o nich."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Zeus",
-      "opis": "Najwyższy z bogów, władca nieba, często kierujący się własnymi namiętnościami."
-    },
-    {
-      "imie": "Prometeusz",
-      "opis": "Tytan-dobroczyńca ludzi, symbol buntu i poświęcenia."
-    },
-    {
-      "imie": "Demeter i Persefona",
-      "opis": "Matka i córka; mit tłumaczy cykl pór roku."
-    },
-    {
-      "imie": "Herakles",
-      "opis": "Heros o nadludzkiej sile, symbol wytrwałości."
-    },
-    {
-      "imie": "Tezeusz",
-      "opis": "Pogromca Minotaura, bohater ateński."
-    },
-    {
-      "imie": "Dedal i Ikar",
-      "opis": "Ojciec-wynalazca i syn, który zginął z powodu brawury."
-    },
-    {
-      "imie": "Orfeusz",
-      "opis": "Śpiewak, którego miłość pokonuje śmierć tylko na chwilę."
-    },
-    {
-      "imie": "Syzyf, Tantal, Niobe",
-      "opis": "Postaci ukarane przez bogów za pychę lub zbrodnię."
-    },
-    {
-      "imie": "Edyp",
-      "opis": "Król Teb, ofiara fatum; ojciec Antygony."
-    }
-  ],
-  "problematyka": [
-    "mit jako sposób wyjaśniania świata",
-    "relacje ludzi i bogów; pycha (hybris) i kara",
-    "los, fatum i wolność człowieka",
-    "miłość silniejsza niż śmierć",
-    "bohaterstwo, poświęcenie, ambicja"
-  ],
-  "motywy": [
-    {
-      "motyw": "prometeizm",
-      "opis": "poświęcenie dla dobra ludzkości i bunt przeciw bogom."
-    },
-    {
-      "motyw": "syzyfowa praca",
-      "opis": "trud bez końca i bez efektu."
-    },
-    {
-      "motyw": "labirynt",
-      "opis": "zagubienie, poszukiwanie drogi, nić Ariadny jako ratunek."
-    },
-    {
-      "motyw": "lot Ikara",
-      "opis": "młodzieńcza brawura, marzenie i jego cena."
-    },
-    {
-      "motyw": "miłość i śmierć",
-      "opis": "Orfeusz i Eurydyka."
-    },
-    {
-      "motyw": "matka",
-      "opis": "Demeter szukająca córki, Niobe opłakująca dzieci."
-    },
-    {
-      "motyw": "fatum",
-      "opis": "przekleństwo rodu Labdakidów."
-    }
-  ],
-  "konteksty": [
-    "Sofokles, „Antygona” – dalsze dzieje rodu Labdakidów.",
-    "Homer, „Iliada” – wojna trojańska.",
-    "Adam Mickiewicz, „Oda do młodości” – Herkules dławiący węże w kolebce jako obraz siły młodości.",
-    "Albert Camus, „Mit Syzyfa” (esej) – Syzyf jako bohater absurdu.",
-    "Zbigniew Herbert, „Apollo i Marsjasz” – mit przetworzony we współczesnym wierszu.",
-    "Malarstwo: „Upadek Ikara” Pietera Bruegla."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Bunt wobec władzy/porządku – Prometeusz (z Konradem, Antygoną).",
-    "Miłość silniejsza niż śmierć – Orfeusz i Eurydyka.",
-    "Kara za pychę – Niobe, Tantal, Ikar.",
-    "Rola mitu w kulturze – nawiązania w literaturze romantycznej i współczesnej.",
-    "Relacja rodzic–dziecko – Demeter i Persefona, Dedal i Ikar."
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim (autor zm. 1978) – brak cytatów i linku. Układ streszczenia jest tematyczny i nie odtwarza dokładnie tytułów rozdziałów książki."
+  ]
 }

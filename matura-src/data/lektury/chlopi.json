@@ -1,114 +1,220 @@
 {
   "id": "chlopi",
-  "metryczka": {
-    "autor": "Władysław Stanisław Reymont",
-    "tytul": "Chłopi (fragmenty)",
-    "rok": "1904–1909 (cztery tomy: Jesień, Zima, Wiosna, Lato)",
-    "gatunek": "powieść (epopeja chłopska)",
-    "epoka": "Młoda Polska",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-07-mloda-polska.md",
+  "sekcje": [
     {
-      "tytul": "Tom I – Jesień",
-      "tekst": "Wieś Lipce. Najbogatszy gospodarz, owdowiały Maciej Boryna, jest w sporze z synem Antkiem i jego żoną Hanką, którzy domagają się ziemi. Boryna postanawia ożenić się z najpiękniejszą dziewczyną we wsi, Jagną Paczesiówną; jej matka Dominikowa godzi się po zapisaniu Jagnie sześciu morgów. Antek, który kocha Jagnę, wpada w gniew. Obok toczy się codzienne życie wsi: wykopki, jarmark, sprawa lasu, który dwór chce sprzedać. Stary parobek Kuba, postrzelony w nogę w lesie dworskim, w obawie przed szpitalem sam odcina sobie nogę i umiera. Tom kończy się huczne wesele Boryny i Jagny; Antek zostaje wyrzucony z domu."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Władysław Stanisław Reymont"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1904–1909 (cztery tomy: Jesień, Zima, Wiosna, Lato)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Młoda Polska"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika; powieść (epopeja chłopska)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "fragmenty"
+        }
+      ]
     },
     {
-      "tytul": "Tom II – Zima",
-      "tekst": "Antek z rodziną żyje w biedzie u ojca Hanki; pracuje w tartaku i spotyka się potajemnie z Jagną, która nie jest szczęśliwa z mężem. Wieś huczy od plotek, a konflikt ojca z synem narasta. Dwór zaczyna wycinać las, do którego chłopi uważają się za uprawnionych. Gromada rusza do lasu, by bronić swego; w bójce gajowy ciężko rani Borynę, a Antek, broniąc ojca, zabija gajowego."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Tom I – Jesień",
+          "tekst": "Wieś Lipce. Najbogatszy gospodarz, owdowiały Maciej Boryna, jest w sporze z synem Antkiem i jego żoną Hanką, którzy domagają się ziemi. Boryna postanawia ożenić się z najpiękniejszą dziewczyną we wsi, Jagną Paczesiówną; jej matka Dominikowa godzi się po zapisaniu Jagnie sześciu morgów. Antek, który kocha Jagnę, wpada w gniew. Obok toczy się codzienne życie wsi: wykopki, jarmark, sprawa lasu, który dwór chce sprzedać. Stary parobek Kuba, postrzelony w nogę w lesie dworskim, w obawie przed szpitalem sam odcina sobie nogę i umiera. Tom kończy się huczne wesele Boryny i Jagny; Antek zostaje wyrzucony z domu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Tom II – Zima",
+          "tekst": "Antek z rodziną żyje w biedzie u ojca Hanki; pracuje w tartaku i spotyka się potajemnie z Jagną, która nie jest szczęśliwa z mężem. Wieś huczy od plotek, a konflikt ojca z synem narasta. Dwór zaczyna wycinać las, do którego chłopi uważają się za uprawnionych. Gromada rusza do lasu, by bronić swego; w bójce gajowy ciężko rani Borynę, a Antek, broniąc ojca, zabija gajowego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Tom III – Wiosna",
+          "tekst": "Chłopi zostają aresztowani, wieś zostaje bez mężczyzn i kobiety muszą same pracować w polu. Hanka wykazuje wielką siłę i gospodaruje. Boryna leży nieprzytomny, a Jagna wikła się w kolejne romanse (m.in. z wójtem). Pewnej nocy Boryna w malignie wychodzi na pole, wykonuje gest siania ziemi i umiera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Tom IV – Lato",
+          "tekst": "Antek wraca z więzienia i stopniowo przejmuje gospodarstwo, godzi się z Hanką. Jagna, zakochana w młodym synu organisty Jasiu, przyszłym księdzu, zostaje uznana przez gromadę za winną zgorszenia; wieś wywozi ją za opłotki na wozie z gnojem i porzuca. Życie Lipiec toczy się dalej w rytmie pór roku i prac polowych."
+        }
+      ]
     },
     {
-      "tytul": "Tom III – Wiosna",
-      "tekst": "Chłopi zostają aresztowani, wieś zostaje bez mężczyzn i kobiety muszą same pracować w polu. Hanka wykazuje wielką siłę i gospodaruje. Boryna leży nieprzytomny, a Jagna wikła się w kolejne romanse (m.in. z wójtem). Pewnej nocy Boryna w malignie wychodzi na pole, wykonuje gest siania ziemi i umiera."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Maciej Boryna",
+          "tekst": "Najbogatszy gospodarz, silny, uparty, przywiązany do ziemi; ożenek z Jagną przynosi mu nieszczęście."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Antek Boryna",
+          "tekst": "Syn Macieja, gwałtowny, ambitny, zakochany w Jagnie; po przejściach dojrzewa do roli gospodarza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jagna Paczesiówna (Borynowa)",
+          "tekst": "Piękna, wrażliwa, „inna” niż wieś; kieruje się uczuciem i potrzebą piękna, co gromada uznaje za grzech."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hanka",
+          "tekst": "Żona Antka; z cichej, uległej kobiety staje się twardą i mądrą gospodynią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dominikowa",
+          "tekst": "Matka Jagny, przebiegła i pobożna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kuba",
+          "tekst": "Stary, poczciwy parobek Borynów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ksiądz, organista, wójt, kowal",
+          "tekst": "Przedstawiciele wiejskiej hierarchii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gromada",
+          "tekst": "Zbiorowy bohater – społeczność wsi z jej prawami."
+        }
+      ]
     },
     {
-      "tytul": "Tom IV – Lato",
-      "tekst": "Antek wraca z więzienia i stopniowo przejmuje gospodarstwo, godzi się z Hanką. Jagna, zakochana w młodym synu organisty Jasiu, przyszłym księdzu, zostaje uznana przez gromadę za winną zgorszenia; wieś wywozi ją za opłotki na wozie z gnojem i porzuca. Życie Lipiec toczy się dalej w rytmie pór roku i prac polowych."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ziemia",
+          "tekst": "Żywicielka, sens istnienia; śmierć Boryny na polu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cykl pór roku",
+          "tekst": "Kompozycja czterech tomów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Obrzęd",
+          "tekst": "Wesele, święta, zwyczaje ludowe."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kozioł ofiarny",
+          "tekst": "Wypędzenie Jagny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ojciec i syn",
+          "tekst": "Boryna i Antek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kobieta fatalna",
+          "tekst": "Jagna jako źródło konfliktów."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Związek chłopa z ziemią – ziemia jako najwyższa wartość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Prawa gromady i los jednostki, która je łamie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Rytm życia wyznaczony przez pory roku i kalendarz liturgiczny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Konflikt pokoleń i walka o majątek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Namiętność i jej skutki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Konflikt wsi ze dworem."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Młoda Polska",
+          "tekst": "naturalizm (biologiczna siła popędu), impresjonizm (opisy przyrody), stylizacja gwarowa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Stanisław Wyspiański, „Wesele” – inny obraz chłopów (z perspektywy inteligencji)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Mickiewicz, „Ballady i romanse” – kultura ludowa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biblia",
+          "tekst": "rytm życia i ziemi; motyw siewcy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Film „Chłopi” (2023, reż. DK Welchman i Hugh Welchman) – animacja malarska."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Reymont wydawał „Chłopów” w latach 1904–1909, w czterech tomach: „Jesień”, „Zima”, „Wiosna”, „Lato”. W 1924 r. otrzymał za tę powieść Nagrodę Nobla. Tytuł wskazuje bohatera zbiorowego – społeczność wsi Lipce, której życie toczy się w rytmie pór roku, prac polowych i świąt kościelnych."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Maciej Boryna",
-      "opis": "Najbogatszy gospodarz, silny, uparty, przywiązany do ziemi; ożenek z Jagną przynosi mu nieszczęście."
-    },
-    {
-      "imie": "Antek Boryna",
-      "opis": "Syn Macieja, gwałtowny, ambitny, zakochany w Jagnie; po przejściach dojrzewa do roli gospodarza."
-    },
-    {
-      "imie": "Jagna Paczesiówna (Borynowa)",
-      "opis": "Piękna, wrażliwa, „inna” niż wieś; kieruje się uczuciem i potrzebą piękna, co gromada uznaje za grzech."
-    },
-    {
-      "imie": "Hanka",
-      "opis": "Żona Antka; z cichej, uległej kobiety staje się twardą i mądrą gospodynią."
-    },
-    {
-      "imie": "Dominikowa",
-      "opis": "Matka Jagny, przebiegła i pobożna."
-    },
-    {
-      "imie": "Kuba",
-      "opis": "Stary, poczciwy parobek Borynów."
-    },
-    {
-      "imie": "ksiądz, organista, wójt, kowal",
-      "opis": "Przedstawiciele wiejskiej hierarchii."
-    },
-    {
-      "imie": "gromada",
-      "opis": "Zbiorowy bohater – społeczność wsi z jej prawami."
-    }
-  ],
-  "problematyka": [
-    "związek chłopa z ziemią – ziemia jako najwyższa wartość",
-    "prawa gromady i los jednostki, która je łamie",
-    "rytm życia wyznaczony przez pory roku i kalendarz liturgiczny",
-    "konflikt pokoleń i walka o majątek",
-    "namiętność i jej skutki",
-    "konflikt wsi ze dworem"
-  ],
-  "motywy": [
-    {
-      "motyw": "ziemia",
-      "opis": "żywicielka, sens istnienia; śmierć Boryny na polu."
-    },
-    {
-      "motyw": "cykl pór roku",
-      "opis": "kompozycja czterech tomów."
-    },
-    {
-      "motyw": "obrzęd",
-      "opis": "wesele, święta, zwyczaje ludowe."
-    },
-    {
-      "motyw": "kozioł ofiarny",
-      "opis": "wypędzenie Jagny."
-    },
-    {
-      "motyw": "ojciec i syn",
-      "opis": "Boryna i Antek."
-    },
-    {
-      "motyw": "kobieta fatalna",
-      "opis": "Jagna jako źródło konfliktów."
-    }
-  ],
-  "konteksty": [
-    "Młoda Polska: naturalizm (biologiczna siła popędu), impresjonizm (opisy przyrody), stylizacja gwarowa.",
-    "Stanisław Wyspiański, „Wesele” – inny obraz chłopów (z perspektywy inteligencji).",
-    "Mickiewicz, „Ballady i romanse” – kultura ludowa.",
-    "Biblia: rytm życia i ziemi; motyw siewcy.",
-    "Film „Chłopi” (2023, reż. DK Welchman i Hugh Welchman) – animacja malarska."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Obraz wsi w literaturze – „Chłopi”, „Wesele”, „Przedwiośnie” (Nawłoć).",
-    "Jednostka a zbiorowość – los Jagny.",
-    "Ziemia jako wartość.",
-    "Kobieta w literaturze Młodej Polski – Jagna, Hanka.",
-    "Pytanie ustne: Jaką rolę pełni cykl pór roku w „Chłopach”?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Podstawa wymaga fragmentów, nie wskazując których (przed zmianami 2024 r. obowiązywał tom I „Jesień”). Streszczenie obejmuje główny wątek wszystkich tomów w uproszczeniu. Reymont otrzymał za „Chłopów” Nagrodę Nobla (1924)."
+  ]
 }

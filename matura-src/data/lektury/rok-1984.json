@@ -1,109 +1,492 @@
 {
   "id": "rok-1984",
-  "metryczka": {
-    "autor": "George Orwell (Eric Arthur Blair)",
-    "tytul": "Rok 1984",
-    "rok": "1949",
-    "gatunek": "powieść antyutopijna (dystopia)",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "10-wojenna-powojenna.md",
+  "sekcje": [
     {
-      "tytul": "Część I – świat Wielkiego Brata",
-      "tekst": "Londyn, główne miasto Pasa Startowego Jeden, prowincji superpaństwa Oceania, rządzonego przez Partię i jej przywódcę Wielkiego Brata. Winston Smith, członek Partii Zewnętrznej, pracuje w Ministerstwie Prawdy, gdzie poprawia stare gazety tak, by przeszłość zgadzała się z bieżącą linią władzy. Wszędzie wiszą teleekrany, które nadają i podglądają; Policja Myśli ściga nawet nieprawomyślne myśli. Codziennie odbywają się Dwie Minuty Nienawiści wymierzone w wroga Emmanuela Goldsteina. Hasła Partii głoszą, że wojna jest pokojem, wolność niewolą, a ignorancja siłą. Winston w tajemnicy zaczyna prowadzić pamiętnik, co jest przestępstwem."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "George Orwell (Eric Blair, 1903–1950), pisarz brytyjski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "literatura powojenna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1949 r. (Wielka Brytania)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "powieść antyutopijna, dystopia polityczna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "rok 1984, Oceania (państwo totalitarne), Londyn (miasto Airstrip One)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Orwell opisuje świat rządzony przez totalitarne państwo, inspirowany doświadczeniami nazizmu, stalinizmu i propagandy."
+        }
+      ]
     },
     {
-      "tytul": "Część II – miłość i bunt",
-      "tekst": "Młoda Julia, pozornie gorliwa działaczka, wsuwa mu liścik z wyznaniem miłości. Zaczynają się potajemnie spotykać, najpierw na wsi, potem w wynajętym pokoju nad sklepem starego pana Charringtona. Winston wierzy, że O'Brien, członek Partii Wewnętrznej, należy do tajnego Bractwa. O'Brien przyjmuje ich do „spisku” i daje Winstonowi księgę przypisywaną Goldsteinowi, wyjaśniającą mechanizmy władzy. Podczas jej lektury kochankowie zostają aresztowani – pan Charrington okazuje się agentem Policji Myśli."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: poniżej główne etapy. Szczegóły sprawdź w wydaniu.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "Winston Smith, pracownik Ministerstwa Prawdy, przepisuje historię tak, by była zgodna z aktualną propagandą Partii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Bunt",
+          "tekst": "Winston zaczyna prowadzić dziennik, co jest przestępstwem. Nawiązuje związek z Julią, która również sprzeciwia się systemowi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ruch oporu",
+          "tekst": "Winston i Julia poznają O’Briena, który pozornie jest członkiem ruchu oporu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Aresztowanie",
+          "tekst": "O’Brien zdradza ich. Winston zostaje uwięziony i poddany torturom w Ministerstwie Miłości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pokój 101",
+          "tekst": "Winston zostaje zmuszony do zdradzenia Julii, a następnie do pokochania Wielkiego Brata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "Winston akceptuje system, czując, że pokonał swoją wolę."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: szczegóły scen z Ministerstwa Miłości i funkcje postaci.*"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** zniszczenie Winstona pokazuje, jak totalitaryzm odbiera wolność nawet myśli."
+        }
+      ]
     },
     {
-      "tytul": "Część III – Ministerstwo Miłości",
-      "tekst": "Winston jest torturowany. O'Brien wyjaśnia mu, że Partia nie dąży do niczego poza władzą dla samej władzy, i łamie go tak, że Winston gotów jest uznać, że dwa plus dwa to pięć, jeśli tak każe Partia. W pokoju 101, gdzie więzień staje przed swoim największym lękiem, Winston, przerażony klatką ze szczurami, wydaje Julię, żądając, by to ją poddano karze. Po uwolnieniu, złamany, spotyka Julię – nie czują już do siebie nic. W kawiarni, słuchając komunikatu o zwycięstwie, Winston uświadamia sobie, że kocha Wielkiego Brata."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Winston Smith",
+          "tekst": "pracownik Ministerstwa Prawdy. Cechy: sceptycyzm, samotność, pragnienie wolności. Decyzje: prowadzenie dziennika, związek z Julią. Zmienia się: od buntownika do człowieka, który akceptuje system. Wymowa: indywidualność zniszczona przez totalitaryzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Julia",
+          "tekst": "młoda kobieta, kochanka Winstona. Cechy: pragmatyzm, bunt, miłość. Rola: symbol buntu w wymiarze osobistym."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "O’Brien",
+          "tekst": "członek Partii, rzekomo przeciwnik systemu. Rola: symbol manipulacji i władzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wielki Brat",
+          "tekst": "symboliczny przywódca Partii. Rola: symbol totalitarnego państwa."
+        }
+      ]
     },
     {
-      "tytul": "Dodatek",
-      "tekst": "Powieść zamyka aneks o zasadach nowomowy – języka tworzonego przez Partię po to, by uniemożliwić myśli niezgodne z ideologią."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "totalitaryzm, manipulacja, wolność myśli, granice władzy państwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "jednostka z państwem, prawda z propagandą, miłość z systemem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "wolność, prawda, miłość, godność człowieka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "totalitaryzm dąży do zniszczenia jednostki i jej myśli; ochrona wolności wymaga czujności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "pełne podporządkowanie Winstona jest ostrzeżeniem przed utratą wolności."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Władza",
+          "tekst": "Partia i Wielki Brat. *Wykorzystanie:* zestawienie z *Antygoną* (władza a sumienie) i *Makbetem* (władza zdobyta zbrodnią)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Manipulacja",
+          "tekst": "propaganda. *Wykorzystanie:* zestawienie z *Szewcami* (ideologia jako przymus)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Wolność",
+          "tekst": "myśl i uczucie. *Wykorzystanie:* zestawienie z *Dziadami* cz. III (sprzeciw wobec niewoli)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Miłość",
+          "tekst": "Winston i Julia. *Wykorzystanie:* zestawienie z *Balladyną* i *Lalką* (miłość a system)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Wielki Brat",
+          "tekst": "symbol totalitaryzmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pokój 101",
+          "tekst": "symbol najgłębszego strachu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dziennik",
+          "tekst": "symbol wolnej myśli."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "II wojna światowa, nazizm, stalinizm, zimna wojna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "krytyka totalitaryzmu; pytanie o prawdę i wolność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "dystopia (tradycja *Nowego wspaniałego świata* Huxleya i *My* Zamiatina)."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy państwo może kontrolować myśli obywateli?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Prawda jako wartość w systemie totalitarnym."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wolność jednostki a władza."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Rok 1984* pokazuje, że totalitaryzm dąży do zniszczenia wolności wewnętrznej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Winston pokazuje, że nawet najbardziej odważny człowiek może zostać złamany przez system."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Rok 1984* – *Dżuma* (zło w systemie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Rok 1984* – *Szewcy* (ideologia i absurd)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Rok 1984* – *Antygona* (władza i sumienie)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Orwell, *Rok 1984*, 1949 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Winston, Julia, O’Brien, Wielki Brat."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: władza, manipulacja, wolność, miłość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: totalitaryzm niszczy jednostkę."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest głównym bohaterem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gdzie jest zatrudniony Winston?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co prowadzi Winston?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kim jest Julia?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kim jest O’Brien?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co jest w Pokoju 101?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jak nazywa się przywódca Partii?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W którym roku rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jak kończy się powieść?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego dziennik jest przestępstwem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy Winston mógł się oprzeć systemowi? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak O’Brien symbolizuje manipulację?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak zakończenie ostrzega czytelnika?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czy *Rok 1984* jest aktualny? Uzasadnij."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Winston Smith."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W Ministerstwie Prawdy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Dziennik."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kochanka Winstona."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Członek Partii, rzekomy przeciwnik."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Najgłębszy strach bohatera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Wielki Brat."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Dystopia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "1984."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Winston akceptuje system."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo to wolna myśl, którą system chce kontrolować."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Nie, system złamał go w końcu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Ujawnia manipulację władzy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Ostrzega przed utratą wolności."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Tak, pytania o wolność są stałe."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Winston Smith",
-      "opis": "Urzędnik Ministerstwa Prawdy, samotny buntownik przeciw systemowi, który w końcu zostaje złamany."
-    },
-    {
-      "imie": "Julia",
-      "opis": "Kochanka Winstona; buntuje się raczej z potrzeby życia i przyjemności niż z ideowych pobudek."
-    },
-    {
-      "imie": "O'Brien",
-      "opis": "Członek Partii Wewnętrznej, prowokator i oprawca Winstona; rzecznik logiki totalitaryzmu."
-    },
-    {
-      "imie": "Wielki Brat",
-      "opis": "Twarz władzy, wszechobecny, być może nieistniejący przywódca."
-    },
-    {
-      "imie": "Emmanuel Goldstein",
-      "opis": "Wróg ludu, symbol potrzebny do podtrzymywania nienawiści."
-    },
-    {
-      "imie": "pan Charrington",
-      "opis": "Pozornie miły sklepikarz, w rzeczywistości agent Policji Myśli."
-    },
-    {
-      "imie": "Syme, Parsons",
-      "opis": "Współpracownicy Winstona – filolog nowomowy, który znika, i gorliwy aktywista, którego donosi własna córka."
-    }
-  ],
-  "problematyka": [
-    "mechanizmy państwa totalitarnego: kontrola, propaganda, terror, inwigilacja",
-    "manipulacja językiem i historią (nowomowa, dwójmyślenie, fałszowanie przeszłości)",
-    "zniszczenie jednostki, miłości i prawdy",
-    "granice ludzkiej wytrzymałości i godności",
-    "władza dla samej władzy"
-  ],
-  "motywy": [
-    {
-      "motyw": "Wielki Brat",
-      "opis": "symbol wszechobecnej inwigilacji."
-    },
-    {
-      "motyw": "teleekran",
-      "opis": "narzędzie kontroli."
-    },
-    {
-      "motyw": "pamiętnik",
-      "opis": "akt buntu, ocalenie pamięci."
-    },
-    {
-      "motyw": "miłość jako bunt",
-      "opis": "Winston i Julia."
-    },
-    {
-      "motyw": "zdrada",
-      "opis": "pokój 101."
-    },
-    {
-      "motyw": "język",
-      "opis": "nowomowa jako broń władzy."
-    }
-  ],
-  "konteksty": [
-    "Totalitaryzmy XX w.: stalinizm i nazizm; Orwell walczył w Hiszpanii i rozczarował się komunizmem.",
-    "Antyutopia jako gatunek – Aldous Huxley, „Nowy wspaniały świat” (lektura uzupełniająca).",
-    "Gustaw Herling-Grudziński, „Inny świat” – rzeczywisty system sowiecki.",
-    "Zbigniew Herbert, „Potęga smaku” – opór wobec języka propagandy.",
-    "Współczesność: inwigilacja cyfrowa, programy typu „Big Brother”, fake newsy."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Człowiek w państwie totalitarnym – Orwell, Herling, Borowski.",
-    "Język jako narzędzie władzy – nowomowa.",
-    "Czy można pokonać system? – klęska Winstona.",
-    "Miłość wobec przemocy.",
-    "Pytanie ustne: Jakie mechanizmy władzy totalitarnej przedstawia Orwell?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Polskie przekłady są chronione – brak cytatów i linku (na Wolnych Lekturach powieści brak)."
+  ]
 }

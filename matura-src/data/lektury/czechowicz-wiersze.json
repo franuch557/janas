@@ -1,70 +1,148 @@
 {
   "id": "czechowicz-wiersze",
-  "metryczka": {
-    "autor": "Józef Czechowicz",
-    "tytul": "Wybrane wiersze",
-    "rok": "1927–1939 (tomy m.in. „Kamień” 1927, „Ballada z tamtej strony” 1932, „nuta człowiecza” 1939)",
-    "gatunek": "liryka (awangardowa, katastroficzna)",
-    "epoka": "Dwudziestolecie międzywojenne",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-08-dwudziestolecie.md",
+  "sekcje": [
     {
-      "tytul": "„na wsi” (tom „Kamień”, 1927)",
-      "tekst": "Obraz wiejskiego popołudnia i wieczoru zbudowany z synestezji: siano pachnie snem, słońce dzwoni w rzece, krowy wracają przeżuwać zmierzch, księżyc pierze srebrne chusty, świerszcze grają w stogach. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Józef Czechowicz"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1927–1939 (tomy m.in. „Kamień” 1927, „Ballada z tamtej strony” 1932, „nuta człowiecza” 1939)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Dwudziestolecie międzywojenne"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; liryka (awangardowa, katastroficzna)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "wybrane wiersze"
+        }
+      ]
     },
     {
-      "tytul": "„żal” (tom „nuta człowiecza”, 1939)",
-      "tekst": "Wiersz napisany tuż przed wojną: podmiot, siwiejący, chodzi uliczkami i widzi znaki nadchodzącej katastrofy – rozbite szyby synagog, płomienie, ryk głodnych ludów. Przewiduje, że zginie wielokrotnie w różnych ludziach – w oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu – i pyta, czy rzeka zdąży oczyścić się z bratniej krwi, zanim odbudują się stolice. To proroctwo zagłady (katastrofizm)."
-    }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "podmiot liryczny",
-      "opis": "Wrażliwy obserwator świata, piewca prowincji i jednocześnie wizjoner katastrofy."
-    }
-  ],
-  "problematyka": [
-    "wieś i prowincja jako arkadia",
-    "katastrofizm – przeczucie wojny i zagłady",
-    "dzieciństwo jako utracony raj",
-    "nowoczesny język poetycki"
-  ],
-  "motywy": [
-    {
-      "motyw": "arkadia",
-      "opis": "wiejska sielanka."
+      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "„na wsi” (tom „Kamień”, 1927)",
+          "tekst": "Obraz wiejskiego popołudnia i wieczoru zbudowany z synestezji: siano pachnie snem, słońce dzwoni w rzece, krowy wracają przeżuwać zmierzch, księżyc pierze srebrne chusty, świerszcze grają w stogach. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "„żal” (tom „nuta człowiecza”, 1939)",
+          "tekst": "Wiersz napisany tuż przed wojną: podmiot, siwiejący, chodzi uliczkami i widzi znaki nadchodzącej katastrofy – rozbite szyby synagog, płomienie, ryk głodnych ludów. Przewiduje, że zginie wielokrotnie w różnych ludziach – w oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu – i pyta, czy rzeka zdąży oczyścić się z bratniej krwi, zanim odbudują się stolice. To proroctwo zagłady (katastrofizm)."
+        }
+      ]
     },
     {
-      "motyw": "synestezja",
-      "opis": "łączenie wrażeń zmysłowych."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny",
+          "tekst": "Wrażliwy obserwator świata, piewca prowincji i jednocześnie wizjoner katastrofy."
+        }
+      ]
     },
     {
-      "motyw": "zagłada",
-      "opis": "pożoga, wojna."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Arkadia",
+          "tekst": "Wiejska sielanka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Synestezja",
+          "tekst": "Łączenie wrażeń zmysłowych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zagłada",
+          "tekst": "Pożoga, wojna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sen",
+          "tekst": "Ukojenie i schronienie."
+        }
+      ]
     },
     {
-      "motyw": "sen",
-      "opis": "ukojenie i schronienie."
-    }
-  ],
-  "konteksty": [
-    "Awangarda lubelska i Druga Awangarda (katastrofizm: Miłosz, grupa Żagary).",
-    "Czechowicz zginął w Lublinie podczas bombardowania we wrześniu 1939 r. – jego katastroficzne wizje się spełniły.",
-    "Baczyński – kontynuacja katastrofizmu w poezji wojennej.",
-    "Kochanowski, „Pieśń świętojańska o Sobótce” – tradycja sielanki wiejskiej."
-  ],
-  "cytaty": [
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wieś i prowincja jako arkadia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Katastrofizm – przeczucie wojny i zagłady."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Dzieciństwo jako utracony raj."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Nowoczesny język poetycki."
+        }
+      ]
+    },
     {
-      "tekst": "siano pachnie snem",
-      "kontekst": "„na wsi” – pierwszy wers, przykład synestezji."
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Awangarda lubelska i Druga Awangarda (katastrofizm: Miłosz, grupa Żagary)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czechowicz zginął w Lublinie podczas bombardowania we wrześniu 1939 r. – jego katastroficzne wizje się spełniły."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Baczyński – kontynuacja katastrofizmu w poezji wojennej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kochanowski, „Pieśń świętojańska o Sobótce” – tradycja sielanki wiejskiej."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Józef Czechowicz, związany z Lublinem i awangardą, wydawał tomy od 1927 r. („Kamień”) do 1939 r. („nuta człowiecza”). W latach 30. jego poezja stała się katastroficzna – zapowiadała wojnę i zagładę. Zginął we wrześniu 1939 r. podczas bombardowania Lublina, co dodało jego przeczuciom tragicznej wymowy."
+        }
+      ]
     }
-  ],
-  "doWypracowania": [
-    "Arkadia w literaturze – wieś, dzieciństwo.",
-    "Przeczucie katastrofy w poezji przed II wojną światową.",
-    "Pytanie ustne: Czym jest katastrofizm w poezji Czechowicza?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Podstawa nie wskazuje tytułów. Opisano „na wsi” i „żal” jako typowe dla dwóch nurtów twórczości (sielankowy i katastroficzny)."
+  ]
 }

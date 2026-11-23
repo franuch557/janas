@@ -1,136 +1,178 @@
 {
   "id": "antygona",
-  "metryczka": {
-    "autor": "Sofokles",
-    "tytul": "Antygona",
-    "rok": "ok. 442 p.n.e.",
-    "gatunek": "tragedia antyczna",
-    "epoka": "Antyk",
-    "rodzaj": "dramat"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "01-antyk-i-sredniowiecze.md",
+  "sekcje": [
     {
-      "tytul": "Prolog",
-      "tekst": "Po wojnie o Teby bracia Eteokles i Polinejkes zginęli z rąk siebie nawzajem. Nowy władca Kreon nakazał uroczyście pochować Eteoklesa, a ciało Polinejkesa, który przyprowadził obce wojsko, pozostawić bez pogrzebu. Antygona mówi siostrze Ismenie, że pochowa brata wbrew zakazowi; Ismena boi się i odmawia."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Sofokles"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "ok. 442 r. p.n.e."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Antyk (Starożytna Grecja)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Dramat; tragedia antyczna"
+        }
+      ]
     },
     {
-      "tytul": "Parodos i epejsodion I",
-      "tekst": "Chór starców tebańskich sławi zwycięstwo. Kreon ogłasza edykt i tłumaczy go dobrem państwa. Strażnik donosi, że ktoś posypał ciało Polinejkesa ziemią. Kreon podejrzewa przekupstwo i grozi strażnikom."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Prologos",
+          "tekst": "Rozmowa Antygony z Ismeną przed pałacem królewskim w Tebach. Antygona informuje siostrę o zakazie Kreona dotyczącym pochówku Polinejkesa i zapowiada, że złamie rozkaz władcy. Ismena odmawia udziału w tym czynie ze strachu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Parodos",
+          "tekst": "Wejście Chóru tebańskich starców, który opiewa zwycięstwo Teb nad wojskami z Argos."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Epejsodion I",
+          "tekst": "Kreon wygłasza mowę tronową, uzasadniając swoją decyzję o uhonorowaniu Eteoklesa i pozostawieniu ciała Polinejkesa na pastwę ptaków. Strażnik przynosi wieść, że ktoś symbolicznie przysypał ciało zdrajcy ziemią."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Epejsodion II",
+          "tekst": "Strażnik przyprowadza pojmaną na gorącym uczynku Antygonę. Dochodzi do słynnego starcia racji między Antygoną (prawa boskie) a Kreonem (prawa państwowe). Ismena chce wziąć część winy na siebie, ale Antygona odrzuca jej poświęcenie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "Epejsodion III",
+          "tekst": "Hajmon, syn Kreona i narzeczony Antygony, próbuje przekonać ojca do zmiany wyroku, powołując się na głos ludu. Rozmowa przeradza się w kłótnię; Kreon skazuje Antygonę na zamurowanie żywcem w skalnej grocie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "Epejsodion IV",
+          "tekst": "Antygona idzie na śmierć, opłakując swój los, brak męża i dzieci (kommos)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "Epejsodion V",
+          "tekst": "Wieszczek Tejrezjasz ostrzega Kreona przed gniewem bogów i nieszczęściem, jakie spadnie na jego ród. Przerażony władca postanawia pochować Polinejkesa i uwolnić Antygonę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "Exodos",
+          "tekst": "Posłaniec przynosi wieść o tragicznych samobójstwach: Antygona powiesiła się w grocie, Hajmon przebił się mieczem na oczach ojca, a Eurydyka (żona Kreona) odebrała sobie życie na wieść o śmierci syna. Kreon pozostaje sam, zrozpaczony i złamany."
+        }
+      ]
     },
     {
-      "tytul": "Stasimon I",
-      "tekst": "Chór śpiewa pieśń o człowieku: najbardziej zdumiewającej istocie, która ujarzmia morze, ziemię i zwierzęta, tworzy mowę i państwo, ale może obrócić swe zdolności ku dobru lub złu; tylko wobec śmierci jest bezradna."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Antygona",
+          "tekst": "Córka Edypa i Jokasty, siostra Ismeny, Eteoklesa i Polinejkesa. Kobieta odważna, bezkompromisowa, kierująca się miłością rodzinną oraz nakazami religii. Uważa, że niepisane prawa boskie stoją ponad rozkazami śmiertelnego władcy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kreon",
+          "tekst": "Władca Teb, wuj Antygony. Racjonalista i autokrata, dla którego nadrzędną wartością jest dobro państwa, porządek publiczny i posłuszeństwo wobec prawa stanowionego. Jego upór i pycha (*hybris*) prowadzą do katastrofy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ismena",
+          "tekst": "Siostra Antygony. Uległa, lękliwa, reprezentuje postawę zdroworozsądkową i podporządkowanie władzy. Dopiero w obliczu śmierci siostry zdobywa się na odwagę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hajmon",
+          "tekst": "Syn Kreona, narzeczony Antygony. Kieruje się miłością oraz mądrością polityczną – rozumie, że władca nie powinien rządzić wbrew woli ludu."
+        }
+      ]
     },
     {
-      "tytul": "Epejsodion II – spór Antygony z Kreonem",
-      "tekst": "Strażnicy przyłapują Antygonę przy ciele brata. Dziewczyna nie zaprzecza i oświadcza, że wyżej niż rozkaz władcy stawia niepisane prawa bogów. Kreon widzi w tym bunt. Ismena chce dzielić winę, ale Antygona jej na to nie pozwala. Kreon skazuje Antygonę na śmierć."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikt tragiczny",
+          "tekst": "Starcie dwóch równorzędnych racji moralnych (prawa boskie kontra prawa ludzkie), w którym każdy wybór prowadzi do klęski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Władza",
+          "tekst": "Problem granic władzy absolutnej, odpowiedzialności rządzącego oraz konsekwencji tyranii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Bunt",
+          "tekst": "Sprzeciw jednostki wobec niesprawiedliwego prawa w imię wyższych wartości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzina i miłość",
+          "tekst": "Poświęcenie życia dla zmarłego brata; tragiczna miłość Hajmona i Antygony."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Fatum (przeznaczenie)",
+          "tekst": "Ciążąca nad rodem Labdakidów klątwa, której nie da się uniknąć."
+        }
+      ]
     },
     {
-      "tytul": "Epejsodion III – Hajmon",
-      "tekst": "Syn Kreona Hajmon, narzeczony Antygony, prosi ojca o rozwagę i mówi, że lud współczuje dziewczynie. Kreon odrzuca radę syna jako niegodną władcy; Hajmon odchodzi zrozpaczony. Kreon postanawia zamurować Antygonę żywcem w grocie. Chór śpiewa o potędze Erosa."
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Utwór stawia fundamentalne pytanie o hierarchię wartości w życiu człowieka: czy w sytuacji konfliktu należy słuchać własnego sumienia i praw boskich, czy też bezwzględnie podporządkować się prawu państwowemu? Sofokles ukazuje również, jak pycha i brak umiejętności słuchania innych niszczą nawet najbardziej zdeterminowanego władcę."
+        }
+      ]
     },
     {
-      "tytul": "Epejsodion IV – lament Antygony",
-      "tekst": "Antygona prowadzona na śmierć żegna się z życiem; żałuje, że nie zaznała małżeństwa, ale nie żałuje swojego czynu."
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczno-kulturowy",
+          "tekst": "Znaczenie pochówku w starożytnej Grecji (brak pogrzebu skazywał duszę na wieczną tułaczkę nad brzegiem Styksu)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Teatralny",
+          "tekst": "Zasada trzech jedności (czasu, miejsca i akcji), zasada *decorum* (brak scen drastycznych na scenie – o śmierci informuje posłaniec), rola Chóru oraz pojęcie *katharsis*."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "Prawa natury (boskie) a prawo pozytywne (stanowione przez ludzi)."
+        }
+      ]
     },
     {
-      "tytul": "Epejsodion V – Tejrezjasz",
-      "tekst": "Ślepy wieszcz Tejrezjasz ostrzega Kreona, że bogowie gniewają się za niepochowane ciało i karę dla Antygony. Kreon początkowo oskarża go o przekupstwo, potem jednak, przestraszony przepowiednią i radą chóru, ustępuje."
-    },
-    {
-      "tytul": "Eksodos – katastrofa",
-      "tekst": "Posłaniec relacjonuje: Kreon pochował Polinejkesa, ale gdy otworzono grotę, Antygona już się powiesiła; Hajmon rzucił się z mieczem na ojca, a potem przebił się sam. Na tę wieść żona Kreona Eurydyka odbiera sobie życie, przeklinając męża. Kreon zostaje sam i uznaje swoją winę. Chór kończy przestrogą, że największym szczęściem jest rozwaga, a pycha zostaje ukarana."
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Sofokles oparł fabułę na greckim micie o rodzie Labdakidów. Tytuł pochodzi od imienia głównej bohaterki (*Anti-gone* – dosłownie „urodzona zamiast” lub „przeciwstawiająca się”), co podkreśla jej niezłomną postawę buntu i centralną rolę w konflikcie wartości."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Antygona",
-      "opis": "Córka Edypa; nieugięta, wierna prawu boskiemu i miłości do brata; wybiera śmierć zamiast posłuszeństwa niesprawiedliwemu rozkazowi."
-    },
-    {
-      "imie": "Kreon",
-      "opis": "Król Teb; stawia rację stanu i własny autorytet ponad wszystko; jego upór prowadzi do tragedii. Postać tragiczna – rozpoznaje błąd za późno."
-    },
-    {
-      "imie": "Ismena",
-      "opis": "Siostra Antygony; łagodna i lękliwa, uznaje prawo silniejszego, ale kocha siostrę."
-    },
-    {
-      "imie": "Hajmon",
-      "opis": "Syn Kreona i narzeczony Antygony; głos rozsądku i umiaru."
-    },
-    {
-      "imie": "Tejrezjasz",
-      "opis": "Ślepy wróżbita, rzecznik woli bogów."
-    },
-    {
-      "imie": "Eurydyka",
-      "opis": "Żona Kreona; jej samobójstwo dopełnia klęski króla."
-    },
-    {
-      "imie": "Chór",
-      "opis": "Starcy tebańscy; komentują wydarzenia, wyrażają opinię wspólnoty."
-    }
-  ],
-  "problematyka": [
-    "konflikt prawa boskiego (moralnego) i prawa stanowionego (państwowego)",
-    "granice władzy i posłuszeństwa obywatela",
-    "wina tragiczna – racje obu stron są ważne, każdy wybór prowadzi do klęski",
-    "pycha (hybris) i kara",
-    "miłość rodzinna i obowiązek wobec zmarłych",
-    "nieuchronność losu (fatum ciążące nad rodem Labdakidów)"
-  ],
-  "motywy": [
-    {
-      "motyw": "konflikt tragiczny",
-      "opis": "zderzenie dwóch racji, z których żadna nie jest całkiem fałszywa."
-    },
-    {
-      "motyw": "pochówek zmarłych",
-      "opis": "święty obowiązek wobec bliskich."
-    },
-    {
-      "motyw": "władza",
-      "opis": "władca, który nie słucha nikogo, staje się tyranem."
-    },
-    {
-      "motyw": "siostry",
-      "opis": "Antygona i Ismena – dwie postawy wobec przemocy."
-    },
-    {
-      "motyw": "fatum",
-      "opis": "przekleństwo rodu Edypa."
-    },
-    {
-      "motyw": "miłość",
-      "opis": "Hajmon i Antygona; pieśń chóru o Erosie."
-    }
-  ],
-  "konteksty": [
-    "Budowa tragedii antycznej: prolog, parodos, epejsodia, stasimony, eksodos; zasada trzech jedności; katharsis (Arystoteles, „Poetyka”).",
-    "Mit o Edypie i rodzie Labdakidów (Parandowski).",
-    "Kontekst filozoficzny: spór o prawo naturalne a prawo pozytywne; Hegel widział w „Antygonie” konflikt dwóch równorzędnych racji.",
-    "Ludzie walczący z systemem: Antygona a Rieux i Tarrou z „Dżumy” lub Winston z „Roku 1984”.",
-    "Janusz Głowacki, „Antygona w Nowym Jorku” (zakres rozszerzony) – współczesna wersja motywu pochówku."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Współkochać przyszłam, nie współnienawidzić.",
-      "kontekst": "Antygona do Kreona – wyznanie, że kieruje się miłością, nie nienawiścią (przekł. K. Morawskiego)."
-    },
-    {
-      "tekst": "Siła jest dziwów, lecz nad wszystkie sięga / Dziwy człowieka potęga.",
-      "kontekst": "Początek pieśni chóru o człowieku (stasimon I, przekł. K. Morawskiego)."
-    }
-  ],
-  "doWypracowania": [
-    "Konflikt racji moralnych i państwowych – Antygona kontra Kreon.",
-    "Bunt jednostki wobec władzy – Antygona (z Konradem, Winstonem Smithem).",
-    "Władza i jej odpowiedzialność – upadek Kreona (porównanie z Makbetem).",
-    "Rodzina i lojalność – Antygona i Ismena.",
-    "Czy można uniknąć przeznaczenia? – fatum w tragedii.",
-    "Pytanie ustne: Jaką rolę pełni chór w tragedii antycznej?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Tekst na Wolnych Lekturach w przekładzie Kazimierza Morawskiego (domena publiczna); cytaty z tego przekładu. W innych przekładach brzmienie cytatów jest inne."
+  ]
 }

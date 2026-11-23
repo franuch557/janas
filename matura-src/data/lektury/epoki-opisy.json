@@ -1,0 +1,1603 @@
+{
+  "renesans": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Renesans w Polsce trwał od około 1500 do 1620/1630 r. Był to okres odrodzenia wzorców antycznych, humanizmu i rozwoju języka polskiego w literaturze. Kochanowski jest najwybitniejszym przedstawicielem tej epoki w Polsce."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1543",
+            "tekst": "wydanie *De revolutionibus* Kopernika (początek rewolucji naukowej)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1569",
+            "tekst": "unia lubelska, powstanie Rzeczypospolitej Obojga Narodów."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1573",
+            "tekst": "artykuły henrykowskie, pierwsza wolna elekcja."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1579",
+            "tekst": "śmierć córki Kochanowskiego (kontekst *Trenów*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1606",
+            "tekst": "ok. powstania *Makbeta* w Anglii."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Humanizm: człowiek w centrum zainteresowań, wartość rozumu i wiedzy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Stoicyzm: akceptacja losu, umiar, opanowanie."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Ideał szlachcica: mądrość, umiar, obowiązek wobec państwa."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Treny",
+            "tekst": "(elegia)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Pieśń",
+            "tekst": "(liryka)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Tragedia renesansowa",
+            "tekst": "(*Odprawa posłów greckich*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Dramat elżbietański",
+            "tekst": "(*Makbet*)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Nawiązania do antyku."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Humanistyczny ideał człowieka."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Refleksja nad losem i przemijaniem."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Rozwój polskiego języka literackiego."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Humanizm",
+            "tekst": "nurt umysłowy stawiający człowieka w centrum."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Elegia",
+            "tekst": "utwór żałobny."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Stoicyzm",
+            "tekst": "postawa akceptacji losu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Tragedia renesansowa",
+            "tekst": "dramat nawiązujący do wzorów antycznych."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Jan Kochanowski",
+            "tekst": "*Treny*, *Odprawa posłów greckich*, *Pieśni*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "William Szekspir",
+            "tekst": "*Makbet*."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Treny",
+            "tekst": "**Odprawa posłów greckich**: dwa oblicza Kochanowskiego, liryka i dramat."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Odprawa",
+            "tekst": "**Makbet**: władza i jej granice w dramacie antycznym i elżbietańskim."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Treny",
+            "tekst": "**Makbet**: przemijanie, śmierć i ludzki los."
+          }
+        ]
+      }
+    ],
+    "plik": "03-renesans.md"
+  },
+  "barok": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Barok (w Polsce ok. 1600–1740) to epoka przeciwieństw i kontrastów, ekspresji i przepychu, a także świadomości przemijania. W literaturze dominują pamiętniki, poezja metaforyczna i komedia klasycystyczna we Francji."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1655–1660",
+            "tekst": "potop szwedzki."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1668",
+            "tekst": "premiera *Skąpca* Moliera."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1683",
+            "tekst": "odsieczy wiedeńska, zwycięstwo nad Turkami."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "XVII w.",
+            "tekst": "wojny z Kozakami, Turcją i Rosją, kryzys Rzeczypospolitej."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Przemijanie i kruchość życia (*vanitas*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Kontrast między pozorem a rzeczywistością."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Religijność i wiara w opatrzność."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Ideał szlachcica: honor, odwaga, gościnność (kultura sarmacka)."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Pamiętnik",
+            "tekst": "(*Pamiętniki* Paska)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Komedia charakterów",
+            "tekst": "(*Skąpiec*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Poezja metaforyczna",
+            "tekst": "i **emblematyczna**."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Przepych, kontrast, metafora."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Motyw *vanitas* i przemijania."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Realizm w pamiętnikach i komizm w komedii."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Barok",
+            "tekst": "epoka przepychu i kontrastów."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Vanitas",
+            "tekst": "marność świata."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Komedia charakterów",
+            "tekst": "komedia ośmieszająca wady."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Kultura sarmacka",
+            "tekst": "styl życia szlachty polskiej XVII w."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Jan Chryzostom Pasek",
+            "tekst": "*Pamiętniki*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Molier",
+            "tekst": "*Skąpiec*."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Pamiętniki",
+            "tekst": "**Skąpiec**: obraz życia szlacheckiego i mieszczańskiego w XVII w."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Pamiętniki",
+            "tekst": "**Pan Tadeusz**: obyczaje szlacheckie w różnych epokach."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Skąpiec",
+            "tekst": "**Zemsta**: komedia obyczajowa i charakterów."
+          }
+        ]
+      }
+    ],
+    "plik": "04-barok.md"
+  },
+  "oswiecenie": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Oświecenie w Polsce obejmuje około 1730–1800. Epoka wierzy w rozum, postęp i reformy. Literatura pełni funkcję wychowawczą i krytyczną, a Krasicki jest jej najwybitniejszym przedstawicielem w Polsce."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1755",
+            "tekst": "trzęsienie ziemi w Lizbonie."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1765–1795",
+            "tekst": "panowanie Stanisława Augusta Poniatowskiego i reformy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1773",
+            "tekst": "powstanie Komisji Edukacji Narodowej, pierwszego świeckiego ministerstwa edukacji w Europie."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1791",
+            "tekst": "Konstytucja 3 maja."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1795",
+            "tekst": "trzeci rozbiór Polski."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Racjonalizm: wiara w rozum i jego moc."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Empiryzm i postęp naukowy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Tolerancja, krytyka fanatyzmu religijnego."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Ideał człowieka rozumnego i obywatela."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Bajka",
+            "tekst": "(*Bajki* Krasickiego)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Satyra",
+            "tekst": "(*Satyry* Krasickiego)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Powieść filozoficzna",
+            "tekst": "(*Kandyd* Woltera)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Racjonalizm i dydaktyzm."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka obyczajów i władzy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Ironia i satyra."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Rozwój prozy i publicystyki."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Racjonalizm",
+            "tekst": "przekonanie o mocy rozumu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Satyra",
+            "tekst": "utwór ośmieszający wady."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Bajka",
+            "tekst": "krótki utwór alegoryczny z morałem."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Conte philosophique",
+            "tekst": "powieść filozoficzna."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Ignacy Krasicki",
+            "tekst": "*Bajki*, *Satyry*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Wolter",
+            "tekst": "*Kandyd*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Jean-Jacques Rousseau",
+            "tekst": "teoria wychowania (poza zakresem tego dokumentu)."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Bajki",
+            "tekst": "**Kandyd**: krytyka wad i naiwności."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Satyra",
+            "tekst": "**Bajki**: dydaktyzm i ironia."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Kandyd",
+            "tekst": "**Księga Hioba**: pytanie o sens cierpienia (kontrast oświeceniowego rozumu z biblijną wiarą)."
+          }
+        ]
+      }
+    ],
+    "plik": "05-oswiecenie.md"
+  },
+  "romantyzm": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Romantyzm w Polsce obejmuje około 1822–1863. Epoka stawia uczucie ponad rozum, kładzie nacisk na patriotyzm, mesjanizm i wartości ludowe. Jej najwybitniejszym przedstawicielem jest Adam Mickiewicz."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1795–1918",
+            "tekst": "zabory Polski (kontekst cierpienia narodowego)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1830–1831",
+            "tekst": "powstanie listopadowe."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1832",
+            "tekst": "*Dziady* cz. III, po upadku powstania."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1834",
+            "tekst": "*Pan Tadeusz* i *Zemsta*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1846",
+            "tekst": "powstanie krakowskie (kontekst romantycznej walki)."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Emocjonalizm: uczucie jako źródło poznania."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Mesjanizm: Polska jako Chrystus narodów."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Indywidualizm i bunt."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Ludowość i wartości wspólnotowe."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Dramat romantyczny",
+            "tekst": "(*Dziady*, *Balladyna*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Epopeja narodowa",
+            "tekst": "(*Pan Tadeusz*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Oda, ballada, sonet",
+            "tekst": "(*Oda do młodości*, *Romantyczność*, *Sonety krymskie*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Komedia obyczajowa",
+            "tekst": "(*Zemsta*)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Uczucie ponad rozum."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Patriotyzm i mesjanizm."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Motywy ludowe i nadprzyrodzone."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Bunt i indywidualizm."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Mesjanizm",
+            "tekst": "przekonanie o misji narodu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Wieszcz",
+            "tekst": "poeta-prorok."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Ballada",
+            "tekst": "utwór o elementach nadprzyrodzonych."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Epopeja narodowa",
+            "tekst": "poemat o losach narodu."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Adam Mickiewicz",
+            "tekst": "*Dziady*, *Pan Tadeusz*, *Oda do młodości*, *Romantyczność*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Juliusz Słowacki",
+            "tekst": "*Balladyna*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Aleksander Fredro",
+            "tekst": "*Zemsta*."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Dziady",
+            "tekst": "**Pan Tadeusz**: ojczyzna i misja."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Balladyna",
+            "tekst": "**Makbet**: ambicja i zbrodnia (poza tą epoką)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Zemsta",
+            "tekst": "**Pan Tadeusz**: spór rodów i pojednanie."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Romantyczność",
+            "tekst": "**Oda do młodości**: wiara i młodość."
+          }
+        ]
+      }
+    ],
+    "plik": "06-romantyzm.md"
+  },
+  "pozytywizm": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Pozytywizm w Polsce obejmuje około 1864–1890 (w niektórych ujęciach do 1900). Epoka po klęsce powstania styczniowego stawia na pracę organiczną, rozwój gospodarczy, edukację i realizm. Literatura jest krytyczna społecznie i dąży do rzetelnego obrazu rzeczywistości."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1863–1864",
+            "tekst": "powstanie styczniowe i jego klęska; początek pracy organicznej."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1870–1871",
+            "tekst": "wojna francusko-pruska (kontekst przemian w Europie)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1876–1878",
+            "tekst": "podróż Sienkiewicza do USA."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1887–1889",
+            "tekst": "publikacja *Lalki*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1881",
+            "tekst": "*Latarnik* Sienkiewicza (poza zakresem tego dokumentu)."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pozytywizm: wiara w naukę, rozum i postęp."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Praca organiczna: rozwój społeczeństwa przez pracę u podstaw."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Scjentyzm i realizm."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Powieść realistyczna",
+            "tekst": "(*Lalka*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Felieton",
+            "tekst": "(*Kroniki tygodniowe*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Reportaż podróżniczy",
+            "tekst": "(*Listy z podróży*)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Realizm i rzetelność obrazu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka społeczna."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Psychologia postaci."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Ideał pracy i rozsądku."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Praca organiczna",
+            "tekst": "rozwój społeczeństwa przez pracę i edukację."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Pozytywizm",
+            "tekst": "nurt wiary w naukę i postęp."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Realizm",
+            "tekst": "wierne przedstawianie rzeczywistości."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Felieton",
+            "tekst": "krótki tekst publicystyczny."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Bolesław Prus",
+            "tekst": "*Lalka*, *Kroniki tygodniowe*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Henryk Sienkiewicz",
+            "tekst": "*Listy z podróży do Ameryki*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Eliza Orzeszkowa",
+            "tekst": "poza zakresem tego dokumentu."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Lalka",
+            "tekst": "**Kroniki tygodniowe**: obraz życia Warszawy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Lalka",
+            "tekst": "**Listy z podróży**: postęp i kapitał w różnych częściach świata."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Lalka",
+            "tekst": "**Oda do młodości** (kontrast romantycznego idealizmu i pozytywistycznego realizmu)."
+          }
+        ]
+      }
+    ],
+    "plik": "07-pozytywizm.md"
+  },
+  "mloda-polska": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Młoda Polska obejmuje około 1890–1918. Epoka reaguje na pozytywizm, szuka nowych form wyrazu, łączy sztukę z filozofią i religią. W literaturze dominują symbolizm, impresjonizm i dekadentyzm."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1890",
+            "tekst": "początek epoki (przybliżona data)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1900",
+            "tekst": "wesele Lucjana Rydla w Bronowicach (pierwowzór *Wesela*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1901",
+            "tekst": "prapremiera *Wesela* w Krakowie."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1905",
+            "tekst": "rewolucja w Rosji, aktywność polityczna Polaków."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1914–1918",
+            "tekst": "I wojna światowa, odzyskanie niepodległości (1918)."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Symbolizm i misterium."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Dekadentyzm i poczucie kryzysu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Zainteresowanie kulturą ludową i tradycją."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pytania o tożsamość narodową."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Dramat symboliczny",
+            "tekst": "(*Wesele*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Liryka symbolistyczna",
+            "tekst": "(poezja Kasprowicza, Tetmajera – poza zakresem tego dokumentu)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Powieść psychologiczna",
+            "tekst": "(poza zakresem tego dokumentu)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Symbolizm i wieloznaczność."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Synteza sztuk (Wyspiański jako malarz i dramaturg)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Refleksja nad tożsamością narodową."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Dekadentyzm i kryzys wartości."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Symbolizm",
+            "tekst": "kierunek posługujący się symbolem i aluzją."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Dekadentyzm",
+            "tekst": "poczucie schyłku kultury."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Synteza sztuk",
+            "tekst": "połączenie różnych form sztuki."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Chochoł",
+            "tekst": "symbol bierności w *Weselu*."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Stanisław Wyspiański",
+            "tekst": "*Wesele*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Jan Kasprowicz",
+            "tekst": "poezja (poza zakresem tego dokumentu)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Stanisław Przybyszewski",
+            "tekst": "dekadentyzm (poza zakresem tego dokumentu)."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Wesele",
+            "tekst": "**Dziady** cz. III: naród i jego misja, w różnych epokach."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Wesele",
+            "tekst": "**Pan Tadeusz**: wspólnota narodowa w ujęciu romantycznym i symbolicznym."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Wesele",
+            "tekst": "**Przedwiośnie** (dwudziestolecie): pytanie o kształt odrodzonej Polski."
+          }
+        ]
+      }
+    ],
+    "plik": "08-mloda-polska.md"
+  },
+  "dwudziestolecie": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Dwudziestolecie międzywojenne w Polsce trwa od 1918 do 1939 r. To czas odzyskanej niepodległości, budowania państwa, kryzysu gospodarczego i rosnących zagrożeń ze strony totalitaryzmów. Literatura łączy refleksję nad odrodzeniem państwa z eksperymentami formalnymi."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1918",
+            "tekst": "odzyskanie niepodległości."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1920",
+            "tekst": "wojna polsko-bolszewicka, cud nad Wisłą."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1926",
+            "tekst": "zamach majowy, rządy sanacji."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1929–1933",
+            "tekst": "Wielki Kryzys gospodarczy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1939",
+            "tekst": "wybuch II wojny światowej."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Odrodzenie państwa i jego problemy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka totalitaryzmów i ideologii."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Egzystencjalizm i kryzys metafizyczny (Witkacy)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Poczucie zagrożenia i niepewności."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Powieść społeczno-polityczna",
+            "tekst": "(*Przedwiośnie*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Dramat absurdalny i groteska",
+            "tekst": "(*Szewcy*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Poezja awangardowa",
+            "tekst": "(poza zakresem tego dokumentu)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Refleksja nad odrodzeniem państwa."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Eksperymenty formalne (groteska, absurd)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka totalitaryzmów."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pytanie o tożsamość i wolność."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Teatr absurdu",
+            "tekst": "kierunek przedstawiający bezsens świata."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Groteska",
+            "tekst": "połączenie komizmu i grozy."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Sanacja",
+            "tekst": "obóz polityczny rządzący Polską po 1926 r."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Bildungsroman",
+            "tekst": "powieść edukacyjna."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Stefan Żeromski",
+            "tekst": "*Przedwiośnie*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Witkacy",
+            "tekst": "*Szewcy*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Bruno Schulz, Julian Tuwim, Skamander",
+            "tekst": "poza zakresem tego dokumentu."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Przedwiośnie",
+            "tekst": "**Wesele**: pytanie o kształt narodu i odpowiedzialność elit."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Szewcy",
+            "tekst": "**Antygona**: władza wobec jednostki (kontrast antyczny i nowoczesny)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Przedwiośnie",
+            "tekst": "**Lalka**: krytyka społeczna i rozczarowanie."
+          }
+        ]
+      }
+    ],
+    "plik": "09-dwudziestolecie.md"
+  },
+  "wojna-i-okupacja": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Literatura wojenna i powojenna obejmuje czas od 1939 r. do lat 60. (w Polsce także późniejsze utwory). Epoka mierzy się z doświadczeniem wojny, Zagłady, totalitaryzmu i odbudowy. Literatura pyta o odpowiedzialność, pamięć i wartości."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1939",
+            "tekst": "wybuch II wojny światowej."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1943",
+            "tekst": "powstanie w getcie warszawskim."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1945",
+            "tekst": "koniec wojny, początek nowego porządku."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1948",
+            "tekst": "początek stalinizmu w Polsce (kontekst *Roku 1984*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1949",
+            "tekst": "publikacja *Roku 1984*."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Egzystencjalizm i absurd (Camus)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka totalitaryzmu (Orwell)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pytanie o odpowiedzialność i pamięć (Krall)."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Powieść alegoryczna",
+            "tekst": "(*Dżuma*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Dystopia",
+            "tekst": "(*Rok 1984*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Reportaż literacki",
+            "tekst": "(*Zdążyć przed Panem Bogiem*)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Doświadczenie wojny i Zagłady."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pytanie o wolność i godność człowieka."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Realizm dokumentalny i symbolizm."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka systemów totalitarnych."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Dystopia",
+            "tekst": "negatywna wizja przyszłości."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Egzystencjalizm",
+            "tekst": "filozofia wolności i odpowiedzialności."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Reportaż literacki",
+            "tekst": "połączenie dokumentu z formą literacką."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Zagłada",
+            "tekst": "eksterminacja Żydów podczas II wojny światowej."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Albert Camus",
+            "tekst": "*Dżuma*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "George Orwell",
+            "tekst": "*Rok 1984*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Hanna Krall",
+            "tekst": "*Zdążyć przed Panem Bogiem*."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Dżuma",
+            "tekst": "**Rok 1984**: zło systemowe i opór jednostki."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Dżuma",
+            "tekst": "**Zdążyć przed Panem Bogiem**: postawa wobec zła i pamięć o cierpieniu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Rok 1984",
+            "tekst": "**Szewcy**: ideologia i jej absurdalne konsekwencje."
+          }
+        ]
+      }
+    ],
+    "plik": "10-wojenna-powojenna.md"
+  },
+  "wspolczesnosc": {
+    "sekcje": [
+      {
+        "tytul": "Charakterystyka epoki",
+        "bloki": [
+          {
+            "typ": "akapit",
+            "tekst": "Literatura współczesna w tym repetytorium obejmuje utwory po 1970 r. (w tym najnowsze, po 1989 r.). Pisarze tej epoki podejmują pytania o pamięć, tożsamość, emigrację, globalizację i rolę literatury w świecie wielokulturowym."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze wydarzenia historyczne",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "1968",
+            "tekst": "kryzys marcowy w Polsce."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1980",
+            "tekst": "powstanie Solidarności."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1981",
+            "tekst": "stan wojenny."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "1989",
+            "tekst": "koniec komunizmu w Polsce."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "2004",
+            "tekst": "wejście Polski do Unii Europejskiej (kontekst dla *Podróży z Herodotem*)."
+          }
+        ]
+      },
+      {
+        "tytul": "Filozofia i światopogląd epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pytanie o pamięć i tożsamość."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Doświadczenie emigracji i wielokulturowości."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Krytyka totalitaryzmów i pamięć o nich."
+          }
+        ]
+      },
+      {
+        "tytul": "Charakterystyczne gatunki literackie",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Powieść refleksyjna",
+            "tekst": "(*Mała apokalipsa*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Dramat współczesny",
+            "tekst": "(*Antygona w Nowym Jorku*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Opowiadanie",
+            "tekst": "(*Profesor Andrews w Warszawie*)."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Reportaż literacki",
+            "tekst": "(*Podróże z Herodotem*)."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze cechy literatury",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Pytanie o pamięć i tożsamość."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Łączenie dokumentu z formą literacką."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Adaptacja mitów antycznych."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "",
+            "tekst": "Refleksja nad globalizacją i obcością."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejsze pojęcia i definicje",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Reportaż literacki",
+            "tekst": "połączenie dokumentu z formą literacką."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Adaptacja",
+            "tekst": "przeniesienie motywu z dzieła dawniejszego do nowego kontekstu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Pamięć historyczna",
+            "tekst": "zbiorowe przechowywanie przeszłości."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Emigracja",
+            "tekst": "opuszczenie kraju na stałe lub czasowo."
+          }
+        ]
+      },
+      {
+        "tytul": "Najważniejszych twórców",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Tadeusz Konwicki",
+            "tekst": "*Mała apokalipsa*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Janusz Głowacki",
+            "tekst": "*Antygona w Nowym Jorku*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Olga Tokarczuk",
+            "tekst": "*Profesor Andrews w Warszawie*."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Ryszard Kapuściński",
+            "tekst": "*Podróże z Herodotem*."
+          }
+        ]
+      },
+      {
+        "tytul": "Powiązania pomiędzy utworami z tej epoki",
+        "bloki": [
+          {
+            "typ": "punkt",
+            "etykieta": "Mała apokalipsa",
+            "tekst": "**Profesor Andrews**: pamięć i miasto."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Antygona w Nowym Jorku",
+            "tekst": "**Antygona** (Sofokles): adaptacja mitu."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Podróże z Herodotem",
+            "tekst": "**Listy z podróży do Ameryki**: spojrzenie na obcy świat."
+          },
+          {
+            "typ": "punkt",
+            "etykieta": "Mała apokalipsa",
+            "tekst": "**Dżuma**: zaniku wartości i opór wobec zła."
+          }
+        ]
+      }
+    ],
+    "plik": "11-wspolczesna.md"
+  }
+}

@@ -1,117 +1,487 @@
 {
   "id": "przedwiosnie",
-  "metryczka": {
-    "autor": "Stefan Żeromski",
-    "tytul": "Przedwiośnie",
-    "rok": "1924 (wyd. z datą 1925)",
-    "gatunek": "powieść (polityczna, społeczna; powieść inicjacyjna)",
-    "epoka": "Dwudziestolecie międzywojenne",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "09-dwudziestolecie.md",
+  "sekcje": [
     {
-      "tytul": "Część I – Szklane domy",
-      "tekst": "Baku nad Morzem Kaspijskim. Cezary Baryka, syn polskiego urzędnika Seweryna i Jadwigi, dorasta w dostatku; ojca powołano do armii rosyjskiej. Wybucha rewolucja – Cezary zachwyca się nią, porzuca szkołę i lekceważy matkę. Matka, zmuszona do ciężkiej pracy, umiera. W czasie walk Ormian z Tatarami (1918) Cezary jest zmuszony do wywożenia i grzebania zwłok – widok martwej, pięknej młodej kobiety zostaje mu w pamięci. Wraca ojciec i opowiada synowi o Polsce, w której wynalazca nazywany „kuzynem Baryką” zbudował „szklane domy” – czyste, tanie, zdrowe – dzięki którym kraj stał się nowoczesny i sprawiedliwy. Podczas wyczerpującej podróży do Polski ojciec umiera. Cezary przekracza granicę."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Stefan Żeromski (1864–1925), pisarz pozytywistyczny i młodopolski, autor *Ludzi bezdomnych*, *Syzyfowych prac*."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "dwudziestolecie międzywojenne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1924 r. (Warszawa)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "powieść społeczno-polityczna, powieść edukacyjna (Bildungsroman)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "1918–1919 (czas odzyskania niepodległości), Rosja (Syberia i Moskwa, rewolucja), potem Warszawa i Polska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Żeromski opisuje losy młodego człowieka w zmieniającej się Polsce po odzyskaniu niepodległości. Tytuł odnosi się do przejściowego okresu między zimą (zniewolenie) a wiosną (wolność)."
+        }
+      ]
     },
     {
-      "tytul": "Część II – Nawłoć",
-      "tekst": "W Warszawie Cezary nie znajduje szklanych domów – zamiast nich nędzę i brud. Zaczyna studia medyczne, pomaga mu znajomy matki Szymon Gajowiec. Jako ochotnik walczy w wojnie z bolszewikami w 1920 r., gdzie zaprzyjaźnia się z Hipolitem Wielosławskim. Spędza lato w majątku Wielosławskich w Nawłoci, wśród ziemiańskiej beztroski: zabaw, przejażdżek, uczt, przy których bieda czworaków jest prawie niezauważalna. Flirtuje z Karoliną (Karusią) Szarłatowiczówną i wdaje się w namiętny romans z Laurą Kościeniecką, narzeczoną starszego Barwickiego. Karolina zostaje otruta strychniną; podejrzaną zakochaną w Cezarym Wandę Okszyńską aresztowano, ale z braku dowodów ją wypuszczono. Romans z Laurą kończy się zerwaniem i upokorzeniem – Barwicki uderza Cezarego w twarz. Cezary opuszcza Nawłoć."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: powieść ma wiele wątków i wielu bohaterów. Poniżej główne etapy. Szczegółowy przebieg sprawdź w wydaniu.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dzieciństwo i Rosja",
+          "tekst": "Cezary Baryka dorasta w Rosji, wśród rewolucjonistów i żołnierzy. Jego ojciec, Seweryn Baryka, jest przedstawicielem dawnej szlachty i sprawia kłopoty rodzinie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wyprawa do Polski",
+          "tekst": "Cezary wyjeżdża do Polski z Rosji (przez Syberię i Moskwę), by odnaleźć miejsce dla siebie i poznać ojczyznę. Przeżywa trudy podróży, głód, zimno."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Warszawa",
+          "tekst": "w niepodległej Polsce Cezary poznaje odrodzone państwo, jego problemy społeczne, politykę i elity. Spotyka Laurę, córkę arystokratki, oraz przedstawicieli różnych obozów politycznych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Cezary widzi kontrasty między bogactwem a biedą, między idealistami a cynikami. Zderza się z postawami: narodowców, socjalistów, konserwatystów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "Cezary zaczyna widzieć, że odrodzenie Polski wymaga pracy i ofiary; powieść kończy się obrazem rozczarowania i nadziei, zostawiając pytanie o przyszłość."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: nazwiska i role bohaterów drugoplanowych oraz dokładna kolejność wydarzeń.*"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** podróż i pobyt w Warszawie pokazują, że niepodległość to nie koniec problemów, lecz początek trudnej pracy nad państwem."
+        }
+      ]
     },
     {
-      "tytul": "Część III – Wiatr od Kurdystanu",
-      "tekst": "W Warszawie Cezary obserwuje życie robotników i biedoty. Dyskutuje z dwiema wizjami przyszłości Polski: komunistą Antonim Lulkiem, który wzywa do rewolucji, i Gajowcem, zwolennikiem stopniowych reform w niepodległym państwie. Okazuje się, że Gajowiec dawniej kochał matkę Cezarego. Cezary nie przyjmuje w pełni żadnej racji. W ostatniej scenie w manifestacji robotniczej idącej pod Belweder Cezary wysuwa się z szeregu i idzie samotnie na czele tłumu wprost na kordon żołnierzy. Zakończenie pozostaje otwarte."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Cezary Baryka",
+          "tekst": "młody człowiek wychowany w Rosji. Cechy: idealizm, dociekliwość, rozczarowanie. Decyzje: wyjazd do Polski, poszukiwanie swojego miejsca. Zmienia się: od młodzieńczego zapału do dojrzałej refleksji. Wymowa: postawa młodego pokolenia wobec odrodzonej Polski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Seweryn Baryka",
+          "tekst": "ojciec Cezarego. Rola: przedstawiciel dawnej szlachty, uwikłany w konflikty rodzinne i społeczne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Laura",
+          "tekst": "córka arystokratki. Rola: symbol świata elit, w którym Cezary szuka sensu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przedstawiciele obozów politycznych",
+          "tekst": "narodowcy, socjaliści, konserwatyści. Rola: pokazują różnorodność postaw."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "kształt odrodzonej Polski, odpowiedzialność elit, miejsce młodego pokolenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Cezary z rzeczywistością, bogactwo z biedą, idealizm z cynizmem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "ojczyzna, uczciwość, praca, solidarność społeczna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "niepodległość wymaga ofiary, uczciwości i pracy u podstaw."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "nadzieja i ostrzeżenie zarazem; przyszłość Polski zależy od postaw ludzi."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Ojczyzna",
+          "tekst": "odrodzenie państwa. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (ojczyzna w romantycznym ujęciu) i *Weselem* (pytanie o kształt narodu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Młode pokolenie",
+          "tekst": "poszukiwanie sensu. *Wykorzystanie:* zestawienie z *Odą do młodości* (idealizm vs rozczarowanie)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Rozczarowanie",
+          "tekst": "konfrontacja z rzeczywistością. *Wykorzystanie:* zestawienie z *Lalką* (rozczarowanie Wokulskiego)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Ofiara",
+          "tekst": "wymóg poświęcenia dla wspólnoty. *Wykorzystanie:* zestawienie z *Iliadą* lub z *Pieśnią o Rolandzie*."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Przedwiośnie",
+          "tekst": "symbol przejściowego okresu i nadziei."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Syberia i Rosja",
+          "tekst": "symbol zniewolenia i przeszłości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Warszawa",
+          "tekst": "symbol odrodzonego państwa."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "odzyskanie niepodległości (1918), wojna polsko-bolszewicka (1920), rewolucja w Rosji (1917)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "Żeromski był zaangażowany w sprawy społeczne i polityczne; jego postawa łączy idealizm z krytyką."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "powieść edukacyjna; realizm społeczny."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy niepodległość wystarczy, by zbudować państwo?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Rola młodego pokolenia w odrodzeniu Polski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ofiara i odpowiedzialność elit."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Cezary pokazuje, że niepodległość wymaga pracy i uczciwości, a nie tylko zapału."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kontrasty społeczne w Warszawie ukazują zagrożenia dla odrodzonego państwa."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Przedwiośnie* – *Lalka* (rozczarowanie i społeczna krytyka)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Przedwiośnie* – *Wesele* (pytanie o naród)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Przedwiośnie* – *Pan Tadeusz* (ojczyzna)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Żeromski, *Przedwiośnie*, 1924 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Cezary Baryka, Seweryn Baryka, Laura."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: ojczyzna, młode pokolenie, rozczarowanie, ofiara."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: niepodległość wymaga pracy i uczciwości."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest głównym bohaterem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Skąd wyjeżdża Cezary?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co oznacza tytuł?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W jakim roku wydano powieść?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kim jest Seweryn Baryka?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kto jest córką arystokratki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jakie obozy polityczne pojawiają się w powieści?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki czas historyczny jest tłem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego tytuł odnosi się do przedwiośnia?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy niepodległość wystarcza, by zbudować państwo? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak Cezary zmienia się w trakcie powieści?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak powieść pokazuje kontrasty społeczne?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czy zakończenie jest optymistyczne? Uzasadnij."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Cezary Baryka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z Rosji."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Okres przejściowy między zimą a wiosną."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "1924."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Ojciec Cezarego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Laura."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Narodowcy, socjaliści, konserwatyści."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Odzyskanie niepodległości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Powieść społeczno-polityczna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Ojczyzna i odpowiedzialność."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Symbolizuje przejście od zniewolenia do wolności."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Nie, niepodległość wymaga pracy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Z idealisty staje się bardziej refleksyjny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Przez opisy Warszawy i różnych środowisk."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Częściowo: nadzieja jest obecna, ale towarzyszy jej ostrzeżenie."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Cezary Baryka",
-      "opis": "Młody człowiek poszukujący własnej drogi i idei; emocjonalny, zbuntowany, krytyczny wobec rzeczywistości – bohater powieści inicjacyjnej."
-    },
-    {
-      "imie": "Seweryn Baryka",
-      "opis": "Ojciec Cezarego, patriota i marzyciel, twórca mitu szklanych domów."
-    },
-    {
-      "imie": "Jadwiga Baryka",
-      "opis": "Matka, kochająca i bezradna wobec rewolucji."
-    },
-    {
-      "imie": "Szymon Gajowiec",
-      "opis": "Wysoki urzędnik, zwolennik ewolucyjnych reform i budowy państwa."
-    },
-    {
-      "imie": "Antoni Lulek",
-      "opis": "Komunista, rzecznik rewolucji."
-    },
-    {
-      "imie": "Hipolit Wielosławski",
-      "opis": "Przyjaciel z wojska, ziemianin z Nawłoci."
-    },
-    {
-      "imie": "Laura Kościeniecka",
-      "opis": "Piękna wdowa, kochanka Cezarego, kobieta z wyższych sfer."
-    },
-    {
-      "imie": "Karolina Szarłatowiczówna",
-      "opis": "Delikatna dziewczyna z Nawłoci, ofiara zbrodni."
-    },
-    {
-      "imie": "Wanda Okszyńska",
-      "opis": "Zakochana w Cezarym młoda dziewczyna, podejrzana o otrucie Karoliny."
-    }
-  ],
-  "problematyka": [
-    "wizje i rzeczywistość odrodzonej Polski: reforma czy rewolucja?",
-    "mit (szklane domy) a nędza rzeczywistości",
-    "kontrast klas społecznych: ziemiaństwo, robotnicy, chłopi",
-    "dojrzewanie i poszukiwanie tożsamości",
-    "ocena rewolucji i przemocy"
-  ],
-  "motywy": [
-    {
-      "motyw": "szklane domy",
-      "opis": "utopia nowoczesnej Polski."
-    },
-    {
-      "motyw": "przedwiośnie",
-      "opis": "czas niepewności i nadziei, zapowiedź przemian."
-    },
-    {
-      "motyw": "dwór",
-      "opis": "Nawłoć jako obraz ziemiańskiej sielanki."
-    },
-    {
-      "motyw": "rewolucja",
-      "opis": "Baku i Warszawa."
-    },
-    {
-      "motyw": "ojciec i syn",
-      "opis": "przekazanie marzenia."
-    },
-    {
-      "motyw": "droga/podróż",
-      "opis": "z Baku do Polski."
-    }
-  ],
-  "konteksty": [
-    "Historia: rewolucja w Rosji (1917), walki w Baku (1918), wojna polsko-bolszewicka (1920), początki II RP.",
-    "Literatura dwudziestolecia: dyskusja o kształcie państwa.",
-    "Prus, „Lalka” – rozczarowanie ideałami; Wyspiański, „Wesele” – krytyka społeczeństwa.",
-    "„Przedwiośnie” wywołało ostrą dyskusję publicystyczną zaraz po wydaniu."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Baryka wyszedł z szeregów robotników i parł oddzielnie, wprost na ten szary mur żołnierzy — na czele zbiedzonego tłumu.",
-      "kontekst": "Ostatnie zdanie powieści – otwarte zakończenie."
-    }
-  ],
-  "doWypracowania": [
-    "Mit a rzeczywistość – szklane domy.",
-    "Rewolucja w literaturze – „Przedwiośnie”, „Rok 1984”.",
-    "Bohater poszukujący swojej drogi – Cezary Baryka.",
-    "Obraz polskiego społeczeństwa – Przedwiośnie, Lalka, Wesele.",
-    "Pytanie ustne: Jaką wizję Polski przedstawiają Gajowiec i Lulek?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": null
+  ]
 }

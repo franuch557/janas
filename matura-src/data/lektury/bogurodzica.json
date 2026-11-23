@@ -1,83 +1,117 @@
 {
   "id": "bogurodzica",
-  "metryczka": {
-    "autor": "autor nieznany",
-    "tytul": "Bogurodzica",
-    "rok": "XIII–XIV w. (najstarszy zapis z 1407/1408 r.)",
-    "gatunek": "pieśń religijna (modlitwa, hymn)",
-    "epoka": "Średniowiecze",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "01-antyk-i-sredniowiecze.md",
+  "sekcje": [
     {
-      "tytul": "Zwrotka pierwsza – do Maryi",
-      "tekst": "Podmiot zbiorowy (my – wspólnota wiernych) zwraca się do Maryi, Matki Boga, wybranej przez Boga i sławionej, z prośbą, by uprosiła u Syna łaskę dla ludzi i zesłała ją na nich. Zwrotkę zamyka wezwanie Kyrieleison (Panie, zmiłuj się)."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Anonimowy"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "Najstarszy zapis pochodzi z początku XV wieku (ok. 1407 r.), sama pieśń powstała prawdopodobnie na przełomie XIII i XIV wieku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Średniowiecze"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; pieśń religijna (hymn), pełniąca funkcję pieśni rycerskiej (*carmen patrium* – pieśń ojczysta)."
+        }
+      ]
     },
     {
-      "tytul": "Zwrotka druga – do Chrystusa",
-      "tekst": "Modlący się zwracają się do Jezusa przez wstawiennictwo Jana Chrzciciela. Proszą o „zbożny pobyt” na ziemi (pobożne, dostatnie życie) i o „rajski przebyt” po śmierci (zbawienie). Kompozycja przedstawia hierarchię: lud prosi świętych pośredników, a oni Boga (scena deesis)."
+      "tytul": "Plan wydarzeń / Streszczenie (kompozycja utworu)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Zwrotka I",
+          "tekst": "Apostrofa do Matki Boskiej (Bogurodzicy Dziewicy) z prośbą o wstawiennictwo u Jej Syna, Jezusa Chrystusa, i wyproszenie łask dla wiernych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Zwrotka II",
+          "tekst": "Bezpośredni zwrot do Jezusa Chrystusa („Twego dziela Krzciciela, Bożycze”) – prośba o wysłuchanie modlitw, napełnienie myśli, zapewnienie godnego („zbożnego”) pobytu na ziemi oraz zbawienia („rajskiego przebytu”) po śmierci."
+        }
+      ]
     },
     {
-      "tytul": "Dalsze zwrotki",
-      "tekst": "Późniejsze, dopisane zwrotki mówią o zmartwychwstaniu Chrystusa i wybawieniu Adama, czyli całej ludzkości, z mocy grzechu i śmierci."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny (zbiorowy)",
+          "tekst": "Wierni zwracający się z modlitwą („nam”, „nas”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Adresaci modlitwy",
+          "tekst": "Maryja (Matka Boska), Jezus Chrystus oraz wspomniany Jan Chrzciciel."
+        }
+      ]
+    },
+    {
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Motyw Deesis",
+          "tekst": "Pośrednictwo między Bogiem a ludźmi. Maryja i Jan Chrzciciel występują jako orędownicy ludzkości przed surowym Chrystusem-Sędzią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Motyw maryjny",
+          "tekst": "Maryja ukazana jako królowa, matka Boga, wybrana przez Stwórcę („Bogiem sławiena”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ars bene vivendi et moriendi (sztuka dobrego życia i umierania)",
+          "tekst": "Prośba o pomyślne, pobożne życie doczesne i nagrodę w życiu wiecznym."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Utwór wyraża średniowieczny teocentryzm oraz hierarchiczny porządek świata: człowiek nie zwraca się bezpośrednio do Boga Ojca, lecz szuka pośredników, którzy wyjednają mu łaskę i zbawienie. Pieśń łączy sferę duchową z rycerską – stała się pierwszym nieoficjalnym hymnem państwowym Polski (śpiewano ją m.in. przed bitwą pod Grunwaldem w 1410 roku)."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Sztuka sakralna (ikonografia)",
+          "tekst": "Bezpośrednie nawiązanie do bizantyjskiego i romańskiego motywu ikonograficznego *Deesis* (przedstawiającego Chrystusa na tronie w otoczeniu Maryi i Jana Chrzciciela)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Językowy",
+          "tekst": "Najstarszy zachowany polski tekst poetycki, pełen archaizmów leksykalnych, fleksyjnych i składniowych (np. *Bogurodzica*, *dziela*, *Bożycze*, *zbożny*)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł pochodzi od pierwszego słowa utworu (*incipit*) – „Bogurodzica”, czyli „Rodzicielka Boga” (odpowiednik greckiego tytułu Maryi *Theotokos*)."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "podmiot liryczny zbiorowy",
-      "opis": "Wspólnota wiernych (my), modląca się w imieniu wszystkich ludzi."
-    },
-    {
-      "imie": "Maryja (Bogurodzica)",
-      "opis": "Pośredniczka między ludźmi a Bogiem."
-    },
-    {
-      "imie": "Jan Chrzciciel",
-      "opis": "Święty pośrednik, „Krzciciel”."
-    },
-    {
-      "imie": "Chrystus",
-      "opis": "Adresat próśb, Zbawiciel."
-    }
-  ],
-  "problematyka": [
-    "pośrednictwo świętych w modlitwie (deesis)",
-    "teocentryzm: życie doczesne jako droga do zbawienia",
-    "religijna wspólnota narodu",
-    "najstarszy zabytek polskiej poezji – początki literackiej polszczyzny"
-  ],
-  "motywy": [
-    {
-      "motyw": "Matka Boża",
-      "opis": "Maryja jako orędowniczka ludzi."
-    },
-    {
-      "motyw": "deesis",
-      "opis": "Chrystus z Maryją i Janem Chrzcicielem – motyw ikonograficzny przeniesiony do poezji."
-    },
-    {
-      "motyw": "modlitwa",
-      "opis": "prośby o dobra doczesne i wieczne."
-    }
-  ],
-  "konteksty": [
-    "Według Jana Długosza rycerstwo polskie śpiewało „Bogurodzicę” przed bitwą pod Grunwaldem (1410) – pieśń pełniła rolę hymnu rycerskiego (carmen patrium).",
-    "Henryk Sienkiewicz, „Krzyżacy” – scena śpiewania pieśni pod Grunwaldem.",
-    "Cechy języka staropolskiego: archaizmy („zyszczy”, „spuści”, „bożycze”), paralelizm składniowy, rymy, refren.",
-    "Średniowieczna sztuka: przedstawienia deesis w ikonach i malarstwie."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Bogurodzica dziewica, Bogiem sławiena Maryja,",
-      "kontekst": "Pierwszy wers – apostrofa do Maryi."
-    }
-  ],
-  "doWypracowania": [
-    "Średniowieczna wizja świata i człowieka – teocentryzm.",
-    "Literatura jako wyraz tożsamości narodowej – rola „Bogurodzicy” w dziejach.",
-    "Wizerunek Matki Bożej: „Bogurodzica” i „Lament świętokrzyski” (Maryja-orędowniczka a Matka Bolesna).",
-    "Pytanie ustne: Dlaczego „Bogurodzica” jest ważna dla polskiej kultury?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Data powstania i autorstwo są sporne (dawne przypisywanie św. Wojciechowi uznaje się za legendę)."
+  ]
 }

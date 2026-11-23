@@ -1,79 +1,159 @@
 {
   "id": "rozmowa-mistrza-polikarpa",
-  "metryczka": {
-    "autor": "autor nieznany",
-    "tytul": "Rozmowa Mistrza Polikarpa ze Śmiercią",
-    "rok": "XV w. (ok. 1463)",
-    "gatunek": "dialog, poemat dydaktyczno-moralizatorski",
-    "epoka": "Średniowiecze",
-    "rodzaj": "epika (z elementami dramatu)"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-01-antyk-i-sredniowiecze.md",
+  "sekcje": [
     {
-      "tytul": "Prolog i widzenie",
-      "tekst": "Autor prosi Boga o pomoc w napisaniu utworu i wzywa wszystkich ludzi, by poznali okrucieństwo śmierci, której nikt nie uniknie. Mędrzec Polikarp modli się, by zobaczyć Śmierć. W kościele ukazuje mu się ona jako naga, wychudzona kobieta o bladej, żółtej twarzy, bez nosa i warg, z krwawą rosą w oczach, przepasana płótnem i z kosą w ręku. Polikarp ze strachu pada na ziemię."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "autor nieznany"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "XV w. (ok. 1463)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Średniowiecze"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika (z elementami dramatu); dialog, poemat dydaktyczno-moralizatorski"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "fragmenty"
+        }
+      ]
     },
     {
-      "tytul": "Śmierć o sobie",
-      "tekst": "Śmierć drwi ze strachu mistrza i opowiada o swoim pochodzeniu: narodziła się, gdy Ewa i Adam zjedli zakazany owoc – od tego czasu wszyscy ludzie muszą umrzeć. Moc zabijania dostała od Boga. Kosi wszystkich, niezależnie od stanu: królów, książąt, rycerzy, mędrców, kupców, rzemieślników, chłopów. Nie da się jej przekupić. Jedynie Chrystus ją pokonał, zmartwychwstając trzeciego dnia."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Prolog i widzenie",
+          "tekst": "Autor prosi Boga o pomoc w napisaniu utworu i wzywa wszystkich ludzi, by poznali okrucieństwo śmierci, której nikt nie uniknie. Mędrzec Polikarp modli się, by zobaczyć Śmierć. W kościele ukazuje mu się ona jako naga, wychudzona kobieta o bladej, żółtej twarzy, bez nosa i warg, z krwawą rosą w oczach, przepasana płótnem i z kosą w ręku. Polikarp ze strachu pada na ziemię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Śmierć o sobie",
+          "tekst": "Śmierć drwi ze strachu mistrza i opowiada o swoim pochodzeniu: narodziła się, gdy Ewa i Adam zjedli zakazany owoc – od tego czasu wszyscy ludzie muszą umrzeć. Moc zabijania dostała od Boga. Kosi wszystkich, niezależnie od stanu: królów, książąt, rycerzy, mędrców, kupców, rzemieślników, chłopów. Nie da się jej przekupić. Jedynie Chrystus ją pokonał, zmartwychwstając trzeciego dnia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Pytania mistrza i satyra stanów",
+          "tekst": "Polikarp pyta, czy można uciec przed śmiercią, ukryć się, zamurować albo pomóc sobie lekarstwami. Śmierć odpowiada, że nic nie pomoże – lekarze i apteki tylko na chwilę ją opóźniają. Wylicza też grzechy różnych grup: nieuczciwych sędziów biorących łapówki, karczmarzy, lichwiarzy, duchownych folgujących sobie w jedzeniu i piciu, strojnych kobiet – wszystkich ich czeka kara. Najbardziej „kocha się” w ludzkim grzechu. Rozmowa urywa się w niezachowanej części tekstu."
+        }
+      ]
     },
     {
-      "tytul": "Pytania mistrza i satyra stanów",
-      "tekst": "Polikarp pyta, czy można uciec przed śmiercią, ukryć się, zamurować albo pomóc sobie lekarstwami. Śmierć odpowiada, że nic nie pomoże – lekarze i apteki tylko na chwilę ją opóźniają. Wylicza też grzechy różnych grup: nieuczciwych sędziów biorących łapówki, karczmarzy, lichwiarzy, duchownych folgujących sobie w jedzeniu i piciu, strojnych kobiet – wszystkich ich czeka kara. Najbardziej „kocha się” w ludzkim grzechu. Rozmowa urywa się w niezachowanej części tekstu."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Mistrz Polikarp",
+          "tekst": "Uczony mędrzec, który pragnie poznać Śmierć, a w jej obecności okazuje się bezradny i przerażony."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Śmierć",
+          "tekst": "Groteskowo-makabryczna postać kobieca z kosą; pewna siebie, ironiczna, wszechwładna, ale działająca z woli Boga."
+        }
+      ]
+    },
+    {
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Danse macabre (taniec śmierci)",
+          "tekst": "Śmierć porywa wszystkich bez wyjątku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Personifikacja śmierci",
+          "tekst": "Śmierć jako kobieta z kosą."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Memento mori",
+          "tekst": "Pamiętaj o śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Satyra stanowa",
+          "tekst": "Wyliczanie przywar sędziów, duchownych, mieszczan."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Powszechność i równość wobec śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Memento mori – przypomnienie o nieuchronności końca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Krytyka grzechów różnych stanów społecznych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przygotowanie do dobrej śmierci (ars moriendi)."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Średniowieczne tańce śmierci w malarstwie (np. „Taniec śmierci” w kościele bernardynów w Krakowie – z XVII w.)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Barok",
+          "tekst": "motyw marności i śmierci (Sęp Szarzyński, Naborowski)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Groteska jako łączenie grozy i komizmu – późniejsze nawiązania (np. w poezji Leśmiana)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Biblijny motyw grzechu pierworodnego jako źródła śmierci (Księga Rodzaju)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Utwór to polska przeróbka łacińskiego dialogu o rozmowie mędrca ze Śmiercią, powstała w XV w. (ok. 1463). Zachował się w rękopisie, który spłonął podczas II wojny światowej – tekst znamy z wcześniejszych wydań; brakuje zakończenia. Tytuł nazywa formę (rozmowa, czyli dialog) i jej uczestników. Imię Polikarp pochodzi z greki i znaczy „bogaty w owoce” – pasuje do mędrca, który chce poznać prawdę o śmierci."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Mistrz Polikarp",
-      "opis": "Uczony mędrzec, który pragnie poznać Śmierć, a w jej obecności okazuje się bezradny i przerażony."
-    },
-    {
-      "imie": "Śmierć",
-      "opis": "Groteskowo-makabryczna postać kobieca z kosą; pewna siebie, ironiczna, wszechwładna, ale działająca z woli Boga."
-    }
-  ],
-  "problematyka": [
-    "powszechność i równość wobec śmierci",
-    "memento mori – przypomnienie o nieuchronności końca",
-    "krytyka grzechów różnych stanów społecznych",
-    "przygotowanie do dobrej śmierci (ars moriendi)"
-  ],
-  "motywy": [
-    {
-      "motyw": "danse macabre (taniec śmierci)",
-      "opis": "śmierć porywa wszystkich bez wyjątku."
-    },
-    {
-      "motyw": "personifikacja śmierci",
-      "opis": "śmierć jako kobieta z kosą."
-    },
-    {
-      "motyw": "memento mori",
-      "opis": "pamiętaj o śmierci."
-    },
-    {
-      "motyw": "satyra stanowa",
-      "opis": "wyliczanie przywar sędziów, duchownych, mieszczan."
-    }
-  ],
-  "konteksty": [
-    "Średniowieczne tańce śmierci w malarstwie (np. „Taniec śmierci” w kościele bernardynów w Krakowie – z XVII w.).",
-    "Barok: motyw marności i śmierci (Sęp Szarzyński, Naborowski).",
-    "Groteska jako łączenie grozy i komizmu – późniejsze nawiązania (np. w poezji Leśmiana).",
-    "Biblijny motyw grzechu pierworodnego jako źródła śmierci (Księga Rodzaju)."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Ma kosa wisz, trawę siecze, / Przed nią nikt nie uciecze.",
-      "kontekst": "Śmierć o swojej kosie – nikt jej nie ucieknie."
-    }
-  ],
-  "doWypracowania": [
-    "Wizerunek śmierci w literaturze różnych epok.",
-    "Równość ludzi wobec śmierci – średniowieczne danse macabre.",
-    "Humor i groza – groteska w literaturze średniowiecza.",
-    "Pytanie ustne: Jak średniowiecze oswajało lęk przed śmiercią?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór zachował się niekompletnie (brak zakończenia). Podstawa wymaga fragmentów; streszczenie obejmuje zachowany tekst."
+  ]
 }

@@ -1,73 +1,160 @@
 {
   "id": "bialoszewski-wiersze",
-  "metryczka": {
-    "autor": "Miron Białoszewski",
-    "tytul": "Wybrane wiersze",
-    "rok": "od 1956 (debiut: tom „Obroty rzeczy”)",
-    "gatunek": "liryka (poezja lingwistyczna)",
-    "epoka": "Literatura po 1945 r. (współczesność)",
-    "rodzaj": "liryka"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-10-wspolczesnosc.md",
+  "sekcje": [
     {
-      "tytul": "„Karuzela z madonnami”",
-      "tekst": "Wiersz naśladuje ruch kręcącej się karuzeli na jarmarku: koniki i drewniane figurki (madonny) wirują, a rytm, powtórzenia i rozbite słowa oddają ich ruch i barwność. Jarmark, kicz i świętość mieszają się w zachwycie nad codziennym widowiskiem."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Miron Białoszewski"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "od 1956 (debiut: tom „Obroty rzeczy”)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Literatura po 1945 r. (współczesność)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Liryka; liryka (poezja lingwistyczna)"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakres na maturze",
+          "tekst": "wybrane wiersze"
+        }
+      ]
     },
     {
-      "tytul": "„Szare eminencje zachwytu”",
-      "tekst": "Podmiot zachwyca się zwykłymi, szarymi przedmiotami codziennego użytku – piecem, garnkiem, kuchnią, ścianą. To one są „eminencjami”, które ukrycie wywołują zachwyt; poeta odkrywa poezję w tym, co pomijane."
+      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "„Karuzela z madonnami”",
+          "tekst": "Wiersz naśladuje ruch kręcącej się karuzeli na jarmarku: koniki i drewniane figurki (madonny) wirują, a rytm, powtórzenia i rozbite słowa oddają ich ruch i barwność. Jarmark, kicz i świętość mieszają się w zachwycie nad codziennym widowiskiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "„Szare eminencje zachwytu”",
+          "tekst": "Podmiot zachwyca się zwykłymi, szarymi przedmiotami codziennego użytku – piecem, garnkiem, kuchnią, ścianą. To one są „eminencjami”, które ukrycie wywołują zachwyt; poeta odkrywa poezję w tym, co pomijane."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "„Ballada od zejścia do sklepu”",
+          "tekst": "Zwykłe wyjście z domu do sklepu opisane jak wielka wyprawa w stylu ballady i eposu: schodzenie po schodach, ulica, zakupy, powrót. Ironiczne wywyższenie banału pokazuje, że codzienność może być przygodą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "„Moja niewyczerpana oda do radości”",
+          "tekst": "Podmiot, który nie ma wiele, odnajduje radość w samym istnieniu i w tym, co ma pod ręką – oda do radości z ubogiej codzienności."
+        }
+      ]
     },
     {
-      "tytul": "„Ballada od zejścia do sklepu”",
-      "tekst": "Zwykłe wyjście z domu do sklepu opisane jak wielka wyprawa w stylu ballady i eposu: schodzenie po schodach, ulica, zakupy, powrót. Ironiczne wywyższenie banału pokazuje, że codzienność może być przygodą."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Podmiot liryczny",
+          "tekst": "Obserwator codzienności, zachwycony światem rzeczy i językiem."
+        }
+      ]
     },
     {
-      "tytul": "„Moja niewyczerpana oda do radości”",
-      "tekst": "Podmiot, który nie ma wiele, odnajduje radość w samym istnieniu i w tym, co ma pod ręką – oda do radości z ubogiej codzienności."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Rzeczy codzienne",
+          "tekst": "Piec, garnek, schody."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Karuzela",
+          "tekst": "Ruch i radość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wyprawa",
+          "tekst": "Ironiczna epickość banału."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Język potoczny",
+          "tekst": "Przetwarzanie słów."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Poezja codzienności i rzeczy zwykłych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Język jako tworzywo i temat poezji (lingwizm)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zachwyt nad światem mimo ubóstwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zabawa formą."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Poezja lingwistyczna (lingwizm) – Białoszewski, Karpowicz, Wirpsza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "„Pamiętnik z powstania warszawskiego” (1970) – proza Białoszewskiego o powstaniu z perspektywy cywila."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tuwim – poetyzacja codzienności i gra słowem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Leśmian – twórczy neologizm."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Białoszewski debiutował tomem „Obroty rzeczy” (1956). Pisał o przedmiotach codziennych, odkrywając w nich piękno, i bawił się językiem (poezja lingwistyczna): przekształcał słowa, tworzył neologizmy. Tytuły jego wierszy często same są grą językową („Szare eminencje zachwytu”)."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "podmiot liryczny",
-      "opis": "Obserwator codzienności, zachwycony światem rzeczy i językiem."
-    }
-  ],
-  "problematyka": [
-    "poezja codzienności i rzeczy zwykłych",
-    "język jako tworzywo i temat poezji (lingwizm)",
-    "zachwyt nad światem mimo ubóstwa",
-    "zabawa formą"
-  ],
-  "motywy": [
-    {
-      "motyw": "rzeczy codzienne",
-      "opis": "piec, garnek, schody."
-    },
-    {
-      "motyw": "karuzela",
-      "opis": "ruch i radość."
-    },
-    {
-      "motyw": "wyprawa",
-      "opis": "ironiczna epickość banału."
-    },
-    {
-      "motyw": "język potoczny",
-      "opis": "przetwarzanie słów."
-    }
-  ],
-  "konteksty": [
-    "Poezja lingwistyczna (lingwizm) – Białoszewski, Karpowicz, Wirpsza.",
-    "„Pamiętnik z powstania warszawskiego” (1970) – proza Białoszewskiego o powstaniu z perspektywy cywila.",
-    "Tuwim – poetyzacja codzienności i gra słowem.",
-    "Leśmian – twórczy neologizm."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Codzienność w poezji – Białoszewski, Szymborska.",
-    "Język jako bohater literatury.",
-    "Pytanie ustne: Na czym polega poezja lingwistyczna Białoszewskiego?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór chroniony prawem autorskim – zgodnie z zasadami katalogu bez cytatów i bez linku do pełnego tekstu. Podstawa nie wskazuje tytułów. Opisano wiersze z tomu „Obroty rzeczy” (1956)."
+  ]
 }

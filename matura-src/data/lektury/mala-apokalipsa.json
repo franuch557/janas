@@ -1,0 +1,446 @@
+{
+  "id": "mala-apokalipsa",
+  "zrodlo": "czat",
+  "plik": "11-wspolczesna.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Tadeusz Konwicki (1926–2015), polski prozaik, reżyser i scenarzysta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "literatura współczesna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1979 r. (pierwsze wydanie w drugim obiegu; sprawdź datę i miejsce wydania w źródle)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "powieść refleksyjna, powieść o przemianach kultury i ideologii; powieść z elementami satyry."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Warszawa, lata 70. XX w. (PRL); akcja obejmuje codzienne spacery bohatera po mieście."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Konwicki opisuje Warszawę jako przestrzeń, w której zanika dawna kultura, a jednocześnie pojawia się chaos i pustka."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: powieść ma formę luźnych refleksji i obserwacji, nie ciągłej fabuły. Poniżej główne wątki.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Narrator, pisarz w średnim wieku, wędruje po Warszawie i obserwuje miasto oraz jego mieszkańców."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przywołuje wspomnienia, rozmowy, obrazy z przeszłości i teraźniejszości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pojawia się motyw apokalipsy jako stopniowego rozpadu świata i wartości, a nie gwałtownej katastrofy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Powieść kończy się refleksją o losie człowieka w świecie, który traci sens i pamięć."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: konkretne sceny i motywy wymagane przez CKE.*"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie:** obraz miasta jako przestrzeni pamięci i zaniku wartości."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Narrator (pisarz)",
+          "tekst": "obserwator, refleksyjny. Cechy: melancholia, ironia, przywiązanie do przeszłości. Rola: pośrednik między czytelnikiem a miastem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mieszkańcy Warszawy",
+          "tekst": "postacie spotykane na ulicach. Rola: symbol zwykłego życia w PRL."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "pamięć, przemijanie, zanik wartości, pustka w świecie współczesnym."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "jednostka wobec zmieniającej się rzeczywistości; pamięć wobec zapomnienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "pamięć, godność, tradycja."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "apokalipsa nie jest wydarzeniem jednorazowym, ale procesem; wymaga refleksji i pamięci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "melancholijna refleksja nad losem człowieka."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Apokalipsa",
+          "tekst": "koniec świata, rozpad. *Wykorzystanie:* zestawienie z *Biblią* (Apokalipsa św. Jana) – różnica między apokalipsą religijną a współczesną."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Pamięć",
+          "tekst": "przeszłość i zapomnienie. *Wykorzystanie:* zestawienie z *Dziadami* cz. II (pamięć o zmarłych)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Miasto",
+          "tekst": "Warszawa jako przestrzeń. *Wykorzystanie:* zestawienie z *Lalką* (Warszawa w XIX w.)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Miasto",
+          "tekst": "symbol zanikającej kultury."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Spacer",
+          "tekst": "symbol refleksji."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "PRL, lata 70., kryzys ideologii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "Konwicki jako twórca związany z pokoleniem Kolumbów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "powieść refleksyjna, tradycja apokaliptyczna."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy pamięć chroni przed zanikiem wartości?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Apokalipsa jako proces."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Konwicki pokazuje, że apokalipsa może być codziennością, a nie wydarzeniem jednorazowym."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Mała apokalipsa* – *Biblia* (Apokalipsa św. Jana)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Mała apokalipsa* – *Dziady* cz. II (pamięć)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Konwicki, *Mała apokalipsa*, 1979 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Narrator: pisarz w Warszawie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: apokalipsa, pamięć, miasto."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: apokalipsa jako proces zaniku wartości."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest narratorem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Co robi narrator?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki czas historyczny jest tłem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaka jest forma powieści?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Co symbolizuje miasto?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jak kończy się powieść?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jak rozumieć tytułową apokalipsę?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego apokalipsa jest „mała”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak pamięć wpływa na obraz miasta?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy powieść ma charakter pesymistyczny? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak forma luźnych refleksji wzmacnia przesłanie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak *Mała apokalipsa* odnosi się do tradycji biblijnej?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Pisarz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Warszawa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Powieść refleksyjna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Apokalipsa i pamięć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Spaceruje i obserwuje."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "PRL."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Luźne refleksje."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Zanikającą kulturę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Melancholijnie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Proces rozpadu, nie katastrofa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo nie jest wydarzeniem gwałtownym."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Pamięć ratuje przed zapomnieniem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Tak, pokazuje zanik wartości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Wzmacnia obraz codzienności."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Odwołuje się do apokaliptycznego obrazu, ale zmienia jego sens."
+        }
+      ]
+    }
+  ]
+}

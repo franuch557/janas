@@ -1,130 +1,553 @@
 {
   "id": "wesele",
-  "metryczka": {
-    "autor": "Stanisław Wyspiański",
-    "tytul": "Wesele",
-    "rok": "1901 (premiera w Krakowie i wydanie)",
-    "gatunek": "dramat symboliczny (narodowy)",
-    "epoka": "Młoda Polska",
-    "rodzaj": "dramat"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "08-mloda-polska.md",
+  "sekcje": [
     {
-      "tytul": "Akt I – realistyczny obraz wesela",
-      "tekst": "Listopadowa noc 1900 r., Bronowice pod Krakowem, chata Gospodarza. Odbywa się wesele poety (Pana Młodego) z chłopką (Panną Młodą). Goście z miasta i ze wsi rozmawiają w parach. Dziennikarz zbywa Czepca, który interesuje się polityką, i zachwyca się spokojem wsi, nie chcąc słyszeć o niepokojach świata. Pan Młody zachwyca się wiejską sielanką i prostotą żony, choć słabo rozumie jej świat. Poeta flirtuje z Rachelą, córką Żyda karczmarza, która nastrojona poetycko radzi zaprosić na wesele chochoła (słomiane okrycie krzewu róży) – i Pan Młody go zaprasza. Gospodarz chwali chłopów jako siłę narodu."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Stanisław Wyspiański (1869–1907), malarz, dramaturg, poeta; jeden z najważniejszych twórców Młodej Polski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "Młoda Polska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1901 r. (Kraków); prapremiera w 1901 r. w Krakowie, w reżyserii autora."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "dramat (dramat romantyczno-symboliczny), utwór o formie łączącej realizm z symbolem; w trzech aktach."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Kraków, podkrakowska wieś, jesień (ok. 1900 r.); wesele w domu gospodarza wiejskiego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "inspirowane prawdziwym weselem poety Lucjana Rydla z Jadwigą Mikołajczykówną (w dramacie postaci mają inne, fikcyjne rysy), które odbyło się w Bronowicach. Utwór jest komentarzem do stanu narodu i jego tożsamości na przełomie wieków."
+        }
+      ]
     },
     {
-      "tytul": "Akt II – zjawy",
-      "tekst": "Chochoł przychodzi i wywołuje osoby dramatu – zjawy ukazujące się poszczególnym bohaterom i odsłaniające ich lęki i marzenia: Marysi zmarły narzeczony (Widmo), Dziennikarzowi błazen Stańczyk, który zarzuca mu bezczynność, Poecie Rycerz Czarny (Zawisza) – symbol dawnej siły, Panu Młodemu Hetman Branicki – zdrajca, Dziadowi Upiór Jakuba Szeli, przypominający rzeź galicyjską 1846 r. Gospodarzowi ukazuje się Wernyhora: daje mu złoty róg i polecenie, by o świcie zebrał ludzi z całej okolicy i czekał na znak do walki o niepodległość. Gospodarz przekazuje róg Jaśkowi i każe mu objechać wsie."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: dramat jest złożony, z wieloma postaciami i scenami symbolicznymi. Poniżej przebieg akcji w trzech aktach. Szczegóły scen sprawdź w wydaniu.*"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Akt I – wesele:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Goście (inteligencja krakowska i chłopi) bawią się na weselu poety z wiejską dziewczyną. Atmosfera jest radosna, ale napięta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Poeta jest zakochany w Jadwidze, która jest panną młodą. Rozmowy gości ujawniają ich postawy wobec narodu, historii i tożsamości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pojawia się Dziennikarz, który komentuje sytuację społeczną, oraz Gospodarz, który zarządza przebiegiem wesela."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wątki: krytyka inteligencji, pytanie o rolę chłopów w narodzie, polskie mity i symbole."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Akt II – sen/zjawy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Część bohaterów zapada w sen lub wizję, w której pojawiają się postacie historyczne i symboliczne (m.in. Stańczyk, Wernyhora)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wizje dotyczą wielkich postaci i wydarzeń z historii Polski, a także pytań o przeszłość i przyszłość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pojawia się symbol Złotego rogu, który ma wezwać do walki."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Akt III – przebudzenie:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie wracają do rzeczywistości. Wesele dobiega końca, a w wizji nie ma odpowiedzi na pytania o losy narodu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Chochoł (symbol bierności) zostaje w tle, a zakończenie pokazuje niemożność zjednoczenia się narodu."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: dokładny przebieg wizji, role postaci historycznych i przypisanie scen do aktów.*"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** wesele jest pretekstem do rozmowy o tożsamości narodowej, a sen i przebudzenie pokazują bezsilność wobec historii."
+        }
+      ]
     },
     {
-      "tytul": "Akt III – oczekiwanie i chocholi taniec",
-      "tekst": "Goście są zmęczeni. Gospodarz zapomina o poleceniu Wernyhory i zasypia. Czepiec i chłopi z kosami zbierają się gotowi do walki, ale inteligencja nie potrafi przewodzić. O świcie wszyscy nasłuchują tętentu, którego nie ma. Jasiek wraca bez rogu – zgubił go, schylając się po pawie pióra ze swojej czapki. Chochoł gra na skrzypkach, a weselnicy, jakby uśpieni, tańczą w kole senny, chocholi taniec. Jasiek, zrozumiawszy, co stracił, słyszy tylko słowa Chochoła o zgubionym złotym rogu."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Poeta",
+          "tekst": "(Lucjan Rydel w pierwowzorze) – inteligent, zakochany w wiejskiej dziewczynie. Cechy: rozdarcie, pragnienie zjednoczenia z ludem. Rola: reprezentuje inteligencję szukającą kontaktu z narodem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Panna młoda",
+          "tekst": "(Jadwiga) – chłopka. Rola: symbol ludu i tożsamości narodowej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gospodarz",
+          "tekst": "chłop, gospodarz wesela. Rola: symbol wsi i jej tradycji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dziennikarz",
+          "tekst": "komentator. Rola: głos krytyki społecznej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chochoł",
+          "tekst": "symbol bierności i przywiązania do tradycji. Rola: ukazuje niemożność działania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Stańczyk",
+          "tekst": "postać historyczna, dworzanin króla, symbol mądrości i ironii. W wizji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wernyhora",
+          "tekst": "postać wizyjna, prorok. Rola: przekaz przeszłości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rachela",
+          "tekst": "wizjonerka, symbol nadziei."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: role niektórych postaci zostały uproszczone; sprawdź ich pełny opis w wydaniu.*"
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "tożsamość narodowa, relacja inteligencji z ludem, bierność wobec historii, pytanie o przyszłość Polski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "inteligencja z chłopami, marzenia z rzeczywistością, dawna chwała z obecną bezsilnością."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "patriotyzm, wspólnota, tradycja, odpowiedzialność za przyszłość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "naród jest w stanie bezwładu; zjednoczenie wymaga działania, nie tylko słów i wizji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "pytanie o los narodu pozostaje otwarte; przebudzenie nie przynosi odpowiedzi."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Naród i tożsamość",
+          "tekst": "inteligencja i lud. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (jedność narodowa) i *Dziadami* cz. III (misja i naród)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Bierność",
+          "tekst": "Chochoł i niemożność działania. *Wykorzystanie:* zestawienie z *Antygoną* (działanie wbrew bierności)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Historia",
+          "tekst": "wizje przeszłości. *Wykorzystanie:* zestawienie z *Iliadą* (historia jako przeznaczenie) i *Pieśnią o Rolandzie* (pamięć wspólnoty)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Miłość i wesele",
+          "tekst": "symbol wspólnoty. *Wykorzystanie:* zestawienie z *Zemstą* (wesele jako zakończenie konfliktu)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Chochoł",
+          "tekst": "symbol bierności, pozornej obrony tradycji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Złoty róg",
+          "tekst": "symbol wezwania do walki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wesele",
+          "tekst": "symbol wspólnoty i przemiany."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wizja (sen)",
+          "tekst": "symbol przeszłości i pytań bez odpowiedzi."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Galicja na przełomie XIX i XX w., autonomia galicyjska, kwestia chłopska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "prawdziwe wesele Lucjana Rydla w Bronowicach (1900 r.); autor był związany z krakowską bohemą artystyczną."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "symbolizm, dramat symboliczny, tradycja romantyczna (wizje, prorocy)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Społeczny",
+          "tekst": "relacja inteligencji z chłopami, pytanie o rolę wsi w odrodzeniu narodu."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy naród potrafi się zjednoczyć bez działania?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Rola inteligencji w społeczeństwie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bierność jako postawa wobec historii."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Wesele* pokazuje, że rozmowy i wizje nie zastąpią działania. Chochoł symbolizuje bezczynność, która paraliżuje naród."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Inteligencja i lud spotykają się na weselu, ale nie tworzą wspólnoty działania."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Wesele* – *Dziady* cz. III (misja narodu i jego cierpienie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Wesele* – *Pan Tadeusz* (wspólnota szlachecka i chłopska)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Wesele* – *Antygona* (działanie wbrew bierności)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wyspiański, *Wesele*, 1901, dramat symboliczny w trzech aktach."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Poeta, Panna młoda, Gospodarz, Dziennikarz, Chochoł, Stańczyk, Wernyhora."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: naród, tożsamość, bierność, historia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: zjednoczenie narodu wymaga działania, nie tylko wizji."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaka uroczystość jest tłem dramatu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto jest panną młodą?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co symbolizuje Chochoł?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kto komentuje sytuację społeczną?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jakie postacie historyczne pojawiają się w wizji?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki symbol wzywa do walki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Ile aktów ma dramat?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kto jest poetą?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Chochoł symbolizuje bierność?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy wizja przynosi odpowiedź na pytania o naród? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak wesele odzwierciedla relację inteligencji i ludu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czy zakończenie daje nadzieję? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak symbolizm wpływa na odbiór dramatu?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Wesele."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jadwiga."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Bierność i przywiązanie do tradycji."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Dziennikarz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Stańczyk, Wernyhora."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Złoty róg."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Trzy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Podkrakowska wieś, Kraków."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Lucjan Rydel w pierwowzorze."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Dramat symboliczny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo nie prowadzi do działania."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Nie, pytania pozostają otwarte."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Pokazuje dystans i brak porozumienia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Raczej nie, bo bezczynność trwa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Symbole wieloznacznie wyrażają problemy narodu."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Gospodarz",
-      "opis": "Malarz osiadły na wsi (pierwowzór: Włodzimierz Tetmajer), wierzy w chłopów; dostaje od Wernyhory złoty róg, ale zawodzi."
-    },
-    {
-      "imie": "Pan Młody",
-      "opis": "Poeta z miasta (pierwowzór: Lucjan Rydel), zauroczony wsią i chłopomanią."
-    },
-    {
-      "imie": "Panna Młoda",
-      "opis": "Wiejska dziewczyna, prosta i pełna wdzięku."
-    },
-    {
-      "imie": "Poeta",
-      "opis": "Artysta-dekadent (pierwowzór: Kazimierz Przerwa-Tetmajer), marzy o wielkich czynach, ale nic nie robi."
-    },
-    {
-      "imie": "Dziennikarz",
-      "opis": "Redaktor konserwatywnej gazety, pesymista; widzi bezsens polskich zrywów."
-    },
-    {
-      "imie": "Czepiec",
-      "opis": "Wójt, pełen energii chłop, gotów do walki."
-    },
-    {
-      "imie": "Rachela",
-      "opis": "Córka karczmarza, romantyczna, oczytana; inicjatorka zaproszenia chochoła."
-    },
-    {
-      "imie": "Jasiek",
-      "opis": "Drużba, któremu powierzono złoty róg i który go gubi."
-    },
-    {
-      "imie": "Chochoł",
-      "opis": "Symbol uśpienia, marazmu, ale też uśpionej nadziei."
-    },
-    {
-      "imie": "Wernyhora, Stańczyk, Rycerz, Hetman, Upiór",
-      "opis": "Postaci fantastyczne – głosy historii i sumienia."
-    }
-  ],
-  "problematyka": [
-    "niemożność czynu narodowego i bierność społeczeństwa",
-    "konflikt i niezrozumienie między inteligencją a chłopami (chłopomania)",
-    "pamięć historyczna: zdrada, rzeź galicyjska, stracone szanse",
-    "krytyka romantycznych mitów i marzeń bez działania",
-    "sztuka i rola artysty w narodzie"
-  ],
-  "motywy": [
-    {
-      "motyw": "wesele",
-      "opis": "metafora społeczeństwa polskiego."
-    },
-    {
-      "motyw": "złoty róg",
-      "opis": "szansa na odzyskanie wolności."
-    },
-    {
-      "motyw": "czapka z piór",
-      "opis": "przedkładanie pozoru i własnego interesu nad sprawę narodową."
-    },
-    {
-      "motyw": "chochoł",
-      "opis": "uśpienie, marazm."
-    },
-    {
-      "motyw": "taniec",
-      "opis": "chocholi taniec jako obraz niemocy."
-    },
-    {
-      "motyw": "zjawy",
-      "opis": "przeszłość wracająca w snach."
-    }
-  ],
-  "konteksty": [
-    "Rzeczywiste wesele Lucjana Rydla z Jadwigą Mikołajczykówną (20 listopada 1900 r.) – wielu bohaterów ma pierwowzory.",
-    "Historia: zabory, rabacja galicyjska 1846 r. (Szela), Targowica (Branicki).",
-    "Młoda Polska: symbolizm, chłopomania, krytyka społeczeństwa.",
-    "Romantyzm: „Dziady” – zjawy, rozliczenie z narodem; Wernyhora – legendarny wieszcz ukraiński z literatury romantycznej.",
-    "Film Andrzeja Wajdy „Wesele” (1972); Wojciech Smarzowski, „Wesele” (2004) – współczesne nawiązanie."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Niech na całym świecie wojna, / byle polska wieś zaciszna,",
-      "kontekst": "Dziennikarz w akcie I – obojętność inteligencji na sprawy świata."
-    },
-    {
-      "tekst": "chłop potęgą jest i basta.",
-      "kontekst": "Gospodarz w akcie I – idealizacja chłopów."
-    },
-    {
-      "tekst": "Miałeś, chamie, złoty róg,",
-      "kontekst": "Chochoł w finale – piosenka o zaprzepaszczonej szansie."
-    }
-  ],
-  "doWypracowania": [
-    "Polacy wobec szansy na wolność – „Wesele”, „Dziady” cz. III.",
-    "Inteligencja i lud – „Wesele”, „Chłopi”, „Przedwiośnie”.",
-    "Funkcja fantastyki w dramacie.",
-    "Symbol w literaturze – złoty róg, chochoł.",
-    "Pytanie ustne: Jaki obraz społeczeństwa polskiego przedstawia „Wesele”?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": null
+  ]
 }

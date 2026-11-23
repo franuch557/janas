@@ -1,0 +1,484 @@
+{
+  "id": "pan-tadeusz",
+  "zrodlo": "czat",
+  "plik": "06-romantyzm.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Adam Mickiewicz."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "romantyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1834 r. (Paryż)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "epopeja narodowa, poemat w 12 księgach, napisany w polskim wierszu (trzynastozgłoskowiec, czyli wiersz z cezurą)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "1811–1812, Litwa (dwór Soplicowo), Nowogródczyzna; zarys wydarzeń kończy się przed wojną z Rosją."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Mickiewicz tworzy epopeję z tęsknoty za ojczyzną, z perspektywy emigracji."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: poemat jest długi (12 ksiąg); poniżej główne wątki. Szczegółowy przebieg księga po księdze sprawdź w wydaniu.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wprowadzenie",
+          "tekst": "poeta zwraca się do Litwy, przywołując obraz ojczyzny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikt rodów",
+          "tekst": "dwa rody, Sopliców i Horeszków, mają spór o zamek i majątek. Zemsta Gerwazego wobec Jacka Soplicy (ks. Robaka), który w przeszłości zabił Horeszkę, przeplata się z losami rodów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość Tadeusza i Zosi",
+          "tekst": "młodzi bohaterowie, Tadeusz Soplica i Zosia, łączą się uczuciem, ale konflikt rodzinny utrudnia ich związek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Polowanie",
+          "tekst": "scena polowania na niedźwiedzia ukazuje obyczaje szlacheckie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Powrót Jacka Soplicy",
+          "tekst": "ojciec Tadeusza zostaje ujawniony jako Jacek Soplica, który w przeszłości zabił Horeszkę, co ujawnia tajemnice rodu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "wojna z Rosją (1812) wybucha, a bohaterowie włączają się w walkę o ojczyznę."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** konflikt rodów i miłość młodych są osią; polowanie i uczta to obrazy obyczajów szlacheckich; wojna jest finałem jednoczącym naród."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Tadeusz Soplica",
+          "tekst": "młody szlachcic. Cechy: młodzieńczość, ideał patrioty, porywczość. Decyzje: włączenie się w wojnę. Zmienia się: od młodego chłopca do żołnierza. Wymowa: młodość w służbie ojczyźnie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zosia",
+          "tekst": "ukochana Tadeusza. Cechy: delikatność, miłość. Rola: symbol niewinności i miłości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jacek Soplica (ksiądz Robak)",
+          "tekst": "ojciec Tadeusza. Cechy: skrucha, pokuta. Rola: postać z tajemnicą; jego pokuta ukazuje drogę do odkupienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gerwazy",
+          "tekst": "dworzanin, zaufany Sopliców. Cechy: przywiązanie do tradycji, zemsta. Rola: symbol obyczajów szlacheckich."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hrabia",
+          "tekst": "szlachcic, który wprowadza atmosferę dworu. Rola: symbol szlacheckiej gościnności."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "ojczyzna, tradycja, miłość, zgoda narodowa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "spór rodów, konflikt między miłością a rodzinną zemstą, konflikt polskiego społeczeństwa z zaborcą."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "patriotyzm, tradycja, zgoda, miłość, gościnność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "zgoda narodowa i jedność wobec zaborcy są najważniejsze."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "wojna jako jednoczący się naród, nadzieja na niepodległość."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Ojczyzna",
+          "tekst": "Litwa jako symbol. *Wykorzystanie:* zestawienie z *Dziadami* cz. III (patriotyzm)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Zgoda",
+          "tekst": "pojednanie rodów. *Wykorzystanie:* zestawienie z *Iliadą* (pojednanie Achillesa i Priama)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Miłość",
+          "tekst": "Tadeusz i Zosia. *Wykorzystanie:* zestawienie z *Makbetem* (miłość a władza)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Tradycja",
+          "tekst": "obyczaje szlacheckie. *Wykorzystanie:* zestawienie z *Pamiętnikami* Paska."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "Zemsta",
+          "tekst": "Gerwazy. *Wykorzystanie:* zestawienie z *Zemstą* Fredry (zemsta jako motyw komediowy)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Soplicowo",
+          "tekst": "symbol ojczyzny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Polowanie",
+          "tekst": "symbol obyczajów i wspólnoty."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jacek Soplica",
+          "tekst": "symbol pokuty."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "wojna 1812 r., Księstwo Warszawskie, Napoleon."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Biograficzny",
+          "tekst": "tęsknota poety za Litwą, emigracja."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "epopeja narodowa, tradycja Homera i Wergilego."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ojczyzna jako wartość nadrzędna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zgoda narodowa jako warunek przetrwania."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Jacek Soplica pokazuje drogę pokuty i odkupienia dla wspólnoty."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Pan Tadeusz* – *Dziady* cz. III (ojczyzna i misja)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Pan Tadeusz* – *Zemsta* (spór rodowy)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Epopeja narodowa, 1834 r., 12 ksiąg."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Tadeusz, Zosia, Jacek Soplica, Gerwazy, Hrabia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: ojczyzna, zgoda, miłość, tradycja, zemsta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: zgoda narodowa i patriotyzm."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Ile ksiąg ma poemat?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kto jest ukochaną Tadeusza?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jakie rody są skonfliktowane?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest Jacek Soplica?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaką scenę obyczajową przedstawia utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki wydarzenie jest finałem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kim jest Gerwazy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Soplicowo jest symbolem ojczyzny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak miłość Tadeusza i Zosi wpływa na przesłanie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czy pokuta Jacka Soplicy jest przekonująca? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak polowanie ukazuje tradycję?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Dlaczego zgoda narodowa jest wartością?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Epopeja narodowa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dwanaście."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Litwa, dwór Soplicowo."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Zosia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Soplicowie i Horeszkowie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Ojciec Tadeusza i skruszony ksiądz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Polowanie na niedźwiedzia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Wojna z Rosją w 1812 r."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Dworzanin, zaufany Sopliców."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Ojczyzna i zgoda."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo symbolizuje ziemię i tradycję narodu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Łączy osobisty wątek z losem narodu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Częściowo: pokuta ma charakter moralnego odkupienia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Pokazuje obyczaje i wspólnotę szlachecką."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Bo jednoczy naród wobec zaborcy."
+        }
+      ]
+    }
+  ]
+}

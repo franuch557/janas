@@ -1,118 +1,216 @@
 {
   "id": "zbrodnia-i-kara",
-  "metryczka": {
-    "autor": "Fiodor Dostojewski",
-    "tytul": "Zbrodnia i kara",
-    "rok": "1866",
-    "gatunek": "powieść psychologiczna (także filozoficzna, kryminalna)",
-    "epoka": "Pozytywizm",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "zastepcze",
+  "plik": "z-06-pozytywizm.md",
+  "sekcje": [
     {
-      "tytul": "Część I – przed zbrodnią i zbrodnia",
-      "tekst": "Petersburg, upalne lato. Były student Rodion Raskolnikow żyje w nędzy w ciasnym pokoiku. Od dawna rozważa zabicie starej lichwiarki Alony Iwanowny. W szynku poznaje Marmieładowa, pijaka i byłego urzędnika, którego córka Sonia z biedy została prostytutką, by utrzymać rodzinę. Z listu matki dowiaduje się, że jego siostra Dunia zamierza poślubić zamożnego Łużyna, by mu pomóc – Raskolnikow odbiera to jako poświęcenie. Zabija siekierą lichwiarkę, a potem także jej siostrę Lizawietę, która niespodziewanie wraca do mieszkania. Ucieka z niewielkim łupem."
+      "tytul": "Metryczka / Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Fiodor Dostojewski"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania / wydania",
+          "tekst": "1866"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka literacka",
+          "tekst": "Pozytywizm"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek literacki",
+          "tekst": "Epika; powieść psychologiczna (także filozoficzna, kryminalna)"
+        }
+      ]
     },
     {
-      "tytul": "Część II – gorączka",
-      "tekst": "Raskolnikow chowa łup pod kamieniem, choruje, majaczy. Opiekuje się nim przyjaciel Razumichin. Na komisariacie mdleje, budząc podejrzenia. Przypadkiem jest świadkiem śmierci Marmieładowa przejechanego przez powóz i oddaje rodzinie wszystkie pieniądze od matki. Poznaje Sonię."
+      "tytul": "Plan wydarzeń / Streszczenie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Część I – przed zbrodnią i zbrodnia",
+          "tekst": "Petersburg, upalne lato. Były student Rodion Raskolnikow żyje w nędzy w ciasnym pokoiku. Od dawna rozważa zabicie starej lichwiarki Alony Iwanowny. W szynku poznaje Marmieładowa, pijaka i byłego urzędnika, którego córka Sonia z biedy została prostytutką, by utrzymać rodzinę. Z listu matki dowiaduje się, że jego siostra Dunia zamierza poślubić zamożnego Łużyna, by mu pomóc – Raskolnikow odbiera to jako poświęcenie. Zabija siekierą lichwiarkę, a potem także jej siostrę Lizawietę, która niespodziewanie wraca do mieszkania. Ucieka z niewielkim łupem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Część II – gorączka",
+          "tekst": "Raskolnikow chowa łup pod kamieniem, choruje, majaczy. Opiekuje się nim przyjaciel Razumichin. Na komisariacie mdleje, budząc podejrzenia. Przypadkiem jest świadkiem śmierci Marmieładowa przejechanego przez powóz i oddaje rodzinie wszystkie pieniądze od matki. Poznaje Sonię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Części III–IV – Porfiry, Swidrygajłow, Sonia",
+          "tekst": "Do Petersburga przyjeżdżają matka i Dunia; Raskolnikow zrywa zaręczyny siostry z Łużynem. Sędzia śledczy Porfiry Pietrowicz zna artykuł Raskolnikowa o ludziach „zwykłych” i „niezwykłych”, którym wolno przekraczać prawo dla wyższych celów (jak Napoleon), i prowadzi z nim psychologiczną grę. W mieście pojawia się Swidrygajłow, dawny chlebodawca Duni, cyniczny rozpustnik. Raskolnikow odwiedza Sonię, która czyta mu ewangeliczną opowieść o wskrzeszeniu Łazarza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Części V–VI – wyznanie",
+          "tekst": "Łużyn próbuje oskarżyć Sonię o kradzież, ale zostaje zdemaskowany. Umiera żona Marmieładowa, Katarzyna Iwanowna. Raskolnikow wyznaje Soni swoją zbrodnię; ona namawia go, by ucałował ziemię na rozstajach i przyznał się. Swidrygajłow podsłuchał wyznanie, próbuje szantażem zdobyć Dunię, a gdy ta go odrzuca, popełnia samobójstwo. Porfiry otwarcie mówi Raskolnikowowi, że wie o wszystkim, i radzi mu się przyznać. Raskolnikow całuje ziemię na placu Siennym i przyznaje się na komisariacie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "Epilog",
+          "tekst": "Raskolnikow zostaje skazany na osiem lat katorgi na Syberii. Sonia jedzie za nim. Początkowo nie odczuwa skruchy, uważa jedynie, że nie podołał swojej teorii. Po chorobie i proroczym śnie o zarazie, która czyni ludzi zarozumiałymi i wrogimi sobie, zaczyna się w nim przemiana. Pod wpływem miłości Soni otwiera się na nowe życie – w ręku ma Ewangelię."
+        }
+      ]
     },
     {
-      "tytul": "Części III–IV – Porfiry, Swidrygajłow, Sonia",
-      "tekst": "Do Petersburga przyjeżdżają matka i Dunia; Raskolnikow zrywa zaręczyny siostry z Łużynem. Sędzia śledczy Porfiry Pietrowicz zna artykuł Raskolnikowa o ludziach „zwykłych” i „niezwykłych”, którym wolno przekraczać prawo dla wyższych celów (jak Napoleon), i prowadzi z nim psychologiczną grę. W mieście pojawia się Swidrygajłow, dawny chlebodawca Duni, cyniczny rozpustnik. Raskolnikow odwiedza Sonię, która czyta mu ewangeliczną opowieść o wskrzeszeniu Łazarza."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Rodion Raskolnikow",
+          "tekst": "Zdolny, dumny, rozdarty wewnętrznie student; chce sprawdzić, czy jest „niezwykłym człowiekiem”; po zbrodni dręczą go lęk i sumienie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sonia Marmieładowa",
+          "tekst": "Uboga dziewczyna, która poświęca się dla rodziny; głęboko wierząca, pełna pokory i miłości – prowadzi Raskolnikowa do odrodzenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Porfiry Pietrowicz",
+          "tekst": "Inteligentny sędzia śledczy, psycholog; zamiast dowodów stosuje grę psychologiczną."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Arkadiusz Swidrygajłow",
+          "tekst": "Cyniczny rozpustnik, obraz człowieka, który zatracił granice moralne – „sobowtór” Raskolnikowa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dunia (Awdotia Romanowna)",
+          "tekst": "Siostra Raskolnikowa, dumna i szlachetna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Razumichin",
+          "tekst": "Przyjaciel Raskolnikowa, uczciwy i pracowity."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Marmieładow i Katarzyna Iwanowna",
+          "tekst": "Rodzina zniszczona przez nędzę i alkoholizm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Łużyn",
+          "tekst": "Wyrachowany karierowicz."
+        }
+      ]
     },
     {
-      "tytul": "Części V–VI – wyznanie",
-      "tekst": "Łużyn próbuje oskarżyć Sonię o kradzież, ale zostaje zdemaskowany. Umiera żona Marmieładowa, Katarzyna Iwanowna. Raskolnikow wyznaje Soni swoją zbrodnię; ona namawia go, by ucałował ziemię na rozstajach i przyznał się. Swidrygajłow podsłuchał wyznanie, próbuje szantażem zdobyć Dunię, a gdy ta go odrzuca, popełnia samobójstwo. Porfiry otwarcie mówi Raskolnikowowi, że wie o wszystkim, i radzi mu się przyznać. Raskolnikow całuje ziemię na placu Siennym i przyznaje się na komisariacie."
+      "tytul": "Główne motywy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Zbrodnia i kara",
+          "tekst": "Kara to przede wszystkim cierpienie psychiczne."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miasto",
+          "tekst": "Duszny, brudny Petersburg."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sobowtór",
+          "tekst": "Swidrygajłow jako ciemna strona Raskolnikowa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Łazarz",
+          "tekst": "Wskrzeszenie jako zapowiedź duchowego odrodzenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Prostytutka-święta",
+          "tekst": "Sonia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sen",
+          "tekst": "Sny Raskolnikowa (np. o skatowanej szkapie, o zarazie)."
+        }
+      ]
     },
     {
-      "tytul": "Epilog",
-      "tekst": "Raskolnikow zostaje skazany na osiem lat katorgi na Syberii. Sonia jedzie za nim. Początkowo nie odczuwa skruchy, uważa jedynie, że nie podołał swojej teorii. Po chorobie i proroczym śnie o zarazie, która czyni ludzi zarozumiałymi i wrogimi sobie, zaczyna się w nim przemiana. Pod wpływem miłości Soni otwiera się na nowe życie – w ręku ma Ewangelię."
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy cel uświęca środki? – teoria nadczłowieka i jej klęska."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Zbrodnia, sumienie i kara wewnętrzna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Nędza i jej wpływ na moralność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Odrodzenie przez cierpienie, miłość i wiarę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wolność człowieka i granice moralne."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Filozofia",
+          "tekst": "idea nadczłowieka (później u Nietzschego), utylitaryzm; spór o wolność i odpowiedzialność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ewangelia (wskrzeszenie Łazarza); Księga Hioba – sens cierpienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Szekspir, „Makbet” – psychologia zbrodniarza i wyrzuty sumienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Prus, „Lalka” – miasto i nędza; Camus, „Dżuma” – inna odpowiedź na pytanie o zło."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Powieść polifoniczna (M. Bachtin) – wiele równorzędnych głosów i racji."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Dostojewski wydał powieść w 1866 r. w odcinkach w piśmie „Ruskij Wiestnik”, pisząc ją w trudnej sytuacji finansowej. Tytuł oddaje kompozycję: zbrodnia zajmuje tylko pierwszą część, a reszta powieści to kara – przede wszystkim wewnętrzna, czyli męki sumienia Raskolnikowa, dopiero na końcu zesłanie na Syberię."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Rodion Raskolnikow",
-      "opis": "Zdolny, dumny, rozdarty wewnętrznie student; chce sprawdzić, czy jest „niezwykłym człowiekiem”; po zbrodni dręczą go lęk i sumienie."
-    },
-    {
-      "imie": "Sonia Marmieładowa",
-      "opis": "Uboga dziewczyna, która poświęca się dla rodziny; głęboko wierząca, pełna pokory i miłości – prowadzi Raskolnikowa do odrodzenia."
-    },
-    {
-      "imie": "Porfiry Pietrowicz",
-      "opis": "Inteligentny sędzia śledczy, psycholog; zamiast dowodów stosuje grę psychologiczną."
-    },
-    {
-      "imie": "Arkadiusz Swidrygajłow",
-      "opis": "Cyniczny rozpustnik, obraz człowieka, który zatracił granice moralne – „sobowtór” Raskolnikowa."
-    },
-    {
-      "imie": "Dunia (Awdotia Romanowna)",
-      "opis": "Siostra Raskolnikowa, dumna i szlachetna."
-    },
-    {
-      "imie": "Razumichin",
-      "opis": "Przyjaciel Raskolnikowa, uczciwy i pracowity."
-    },
-    {
-      "imie": "Marmieładow i Katarzyna Iwanowna",
-      "opis": "Rodzina zniszczona przez nędzę i alkoholizm."
-    },
-    {
-      "imie": "Łużyn",
-      "opis": "Wyrachowany karierowicz."
-    }
-  ],
-  "problematyka": [
-    "czy cel uświęca środki? – teoria nadczłowieka i jej klęska",
-    "zbrodnia, sumienie i kara wewnętrzna",
-    "nędza i jej wpływ na moralność",
-    "odrodzenie przez cierpienie, miłość i wiarę",
-    "wolność człowieka i granice moralne"
-  ],
-  "motywy": [
-    {
-      "motyw": "zbrodnia i kara",
-      "opis": "kara to przede wszystkim cierpienie psychiczne."
-    },
-    {
-      "motyw": "miasto",
-      "opis": "duszny, brudny Petersburg."
-    },
-    {
-      "motyw": "sobowtór",
-      "opis": "Swidrygajłow jako ciemna strona Raskolnikowa."
-    },
-    {
-      "motyw": "Łazarz",
-      "opis": "wskrzeszenie jako zapowiedź duchowego odrodzenia."
-    },
-    {
-      "motyw": "prostytutka-święta",
-      "opis": "Sonia."
-    },
-    {
-      "motyw": "sen",
-      "opis": "sny Raskolnikowa (np. o skatowanej szkapie, o zarazie)."
-    }
-  ],
-  "konteksty": [
-    "Filozofia: idea nadczłowieka (później u Nietzschego), utylitaryzm; spór o wolność i odpowiedzialność.",
-    "Ewangelia (wskrzeszenie Łazarza); Księga Hioba – sens cierpienia.",
-    "Szekspir, „Makbet” – psychologia zbrodniarza i wyrzuty sumienia.",
-    "Prus, „Lalka” – miasto i nędza; Camus, „Dżuma” – inna odpowiedź na pytanie o zło.",
-    "Powieść polifoniczna (M. Bachtin) – wiele równorzędnych głosów i racji."
-  ],
-  "cytaty": [],
-  "doWypracowania": [
-    "Czy cel uświęca środki? – Raskolnikow.",
-    "Wyrzuty sumienia i kara – Raskolnikow, Makbet.",
-    "Miłość, która ocala – Sonia.",
-    "Bieda i jej wpływ na człowieka.",
-    "Przemiana bohatera – od zbrodni do odrodzenia.",
-    "Pytanie ustne: Dlaczego Raskolnikow się przyznał?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Utwór literatury rosyjskiej XIX w. (realizm), w szkole omawiany razem z pozytywizmem. Na Wolnych Lekturach brak tej powieści (jest tylko inny utwór autora), a dostępne polskie przekłady są chronione – brak cytatów."
+  ]
 }

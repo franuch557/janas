@@ -1,132 +1,509 @@
 {
   "id": "lalka",
-  "metryczka": {
-    "autor": "Bolesław Prus (Aleksander Głowacki)",
-    "tytul": "Lalka",
-    "rok": "1887–1889 (druk w „Kurierze Codziennym”), wyd. książkowe 1890",
-    "gatunek": "powieść realistyczna (społeczno-obyczajowa)",
-    "epoka": "Pozytywizm",
-    "rodzaj": "epika"
-  },
-  "streszczenie": [
+  "zrodlo": "czat",
+  "plik": "07-pozytywizm.md",
+  "sekcje": [
     {
-      "tytul": "Tom I, rozdz. I–IV – sklep i powrót Wokulskiego",
-      "tekst": "Warszawa, początek 1878 r. Stary subiekt Ignacy Rzecki prowadzi galanteryjny sklep J. Mincla i S. Wokulskiego. W swoim pamiętniku wspomina młodość, Napoleona i udział w Wiośnie Ludów na Węgrzech (1848–1849). Stanisław Wokulski wraca z wojny rosyjsko-tureckiej, na której jako dostawca dla armii zarobił ogromny majątek. Plotkuje się o nim w mieście. Rzecki przypomina jego przeszłość: był subiektem w winiarni Hopfera, uczył się nocami, studiował w Szkole Przygotowawczej, wziął udział w powstaniu styczniowym, został zesłany na Syberię, a po powrocie ożenił się z dużo starszą wdową Małgorzatą Minclową, by wyjść z nędzy. Po jej śmierci odziedziczył sklep."
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Bolesław Prus (właściwie Aleksander Głowacki, 1847–1912), polski powieściopisarz pozytywistyczny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "pozytywizm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1887–1889 (w odcinkach w „Kurierze Warszawskim”, w 1890 r. jako książka)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "powieść realistyczna, powieść społeczno-obyczajowa, powieść psychologiczna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "Warszawa, lata 1878–1879 (po powstaniu styczniowym); akcja obejmuje także podróż Wokulskiego do Bułgarii i Paryża."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "Prus ukazuje przemiany społeczne Warszawy po powstaniu styczniowym, konflikt starej arystokracji z nowym mieszczaństwem i ideę pracy organicznej."
+        }
+      ]
     },
     {
-      "tytul": "Tom I, rozdz. V–IX – Izabela, Powiśle i nowe interesy",
-      "tekst": "Wokulski od czasu, gdy zobaczył w teatrze Izabelę Łęcką, jest w niej zakochany i to dla niej zdobywał majątek. Arystokratyczny ród Łęckich jest zrujnowany: ojciec, Tomasz Łęcki, ma długi, a jego kamienica pójdzie na licytację. Izabela żyje w świecie salonów, gardzi „kupcami” i marzy o życiu bez trosk. Wokulski potajemnie skupuje weksle Łęckiego, kupuje jego srebrny serwis i pomaga mu bez jego wiedzy. Podczas samotnej wędrówki po Powiślu (rozdział „Medytacje”) widzi nędzę ludu warszawskiego i rozmyśla o swoim życiu. Pomaga biednym – furmanowi Wysockiemu, któremu daje pracę, a jego bratu załatwia posadę dróżnika w Skierniewicach, oraz młodemu Węgiełkowi."
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Uwaga: powieść jest długa; poniżej przebieg najważniejszych wątków. Sekwencje scen sprawdź w wydaniu.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wprowadzenie",
+          "tekst": "Ignacy Rzecki, subiekt w sklepie Wokulskiego, prowadzi narrację. Wspomina dawne czasy i zainteresowanie Wokulskim."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Stanisław Wokulski",
+          "tekst": "kupiec, były uczestnik powstania styczniowego, zakochuje się w Izabeli Łęckiej, arystokratce, z którą spotyka się dzięki wydarzeniom w teatrze i salonach."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Relacja z Izabelą",
+          "tekst": "Wokulski zabiega o jej względy, ale Izabela, zafascynowana bogactwem i arystokracją, nie odwzajemnia uczuć w pełni. Jej ojciec, Tomasz Łęcki, jest zadłużony."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kariera Wokulskiego",
+          "tekst": "Wokulski zdobywa majątek, podróżuje, zajmuje się wynalazkami i handlem na szeroką skalę. Chce zrobić karierę, by zbliżyć się do Izabeli."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikt i rozczarowanie",
+          "tekst": "Izabela pozostaje obojętna, a jej środowisko odrzuca Wokulskiego jako człowieka z nizin społecznych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "Wokulski, rozczarowany, znika. Powieść zostawia zakończenie otwarte, sugerując jego samotność i możliwą śmierć."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** losy Wokulskiego pokazują konflikt między pracą, ambicją a uczuciem oraz zderzenie dwóch światów: mieszczaństwa i arystokracji."
+        }
+      ]
     },
     {
-      "tytul": "Tom I, rozdz. X–XX – wejście do „wielkiego świata”",
-      "tekst": "Wokulski stopniowo zbliża się do Łęckich. Daje hojną składkę podczas wielkanocnej kwesty u Grobu Pańskiego, w której uczestniczy Izabela, i zyskuje przychylność hrabiny Karolowej. Pomaga prostytutce Mariannie wydostać się z domu publicznego. Kupuje na licytacji kamienicę Łęckich (płacąc więcej, niż jest warta), zakłada spółkę do handlu ze Wschodem. Kupuje konia wyścigowego; dochodzi też do pojedynku z baronem Krzeszowskim (baron zostaje ranny). Wokulski poznaje młodego wynalazcę Juliana Ochockiego i zaczyna marzyć o nauce. Rzecki obserwuje zmiany w swoim pryncypale z niepokojem, a w swoim pamiętniku wraca do wspomnień o młodości i rodzinie Minclów."
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Stanisław Wokulski",
+          "tekst": "kupiec, człowiek pracy. Cechy: inteligencja, samodyscyplina, romantyczna miłość, dystans wobec arystokracji. Decyzje: zakup sklepu, podróże, inwestycje. Zmienia się: od pracowitego kupca do zrezygnowanego człowieka. Wymowa: pozytywistyczny ideał pracy i jego granice."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Izabela Łęcka",
+          "tekst": "arystokratka. Cechy: próżność, egoizm, fascynacja luksusem, ale i wrażliwość. Decyzje: odrzucenie Wokulskiego. Zmienia się: od obojętności do rozczarowania. Wymowa: arystokracja jako świat pozoru."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ignacy Rzecki",
+          "tekst": "subiekt i narrator. Cechy: lojalność, przywiązanie do Wokulskiego, konserwatyzm. Rola: pośrednik między czytelnikiem a bohaterem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Tomasz Łęcki",
+          "tekst": "ojciec Izabeli, zadłużony arystokrata. Rola: symbol upadku starego świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Julian Ochocki",
+          "tekst": "młody wynalazca. Rola: symbol nowoczesności i postępu."
+        }
+      ]
     },
     {
-      "tytul": "Tom II – Paryż, Zasławek, sprawa lalki",
-      "tekst": "Wokulski wyjeżdża w interesach do Paryża. Tam poznaje uczonego Geista, który pracuje nad metalem lżejszym od powietrza; Wokulski waha się, czy nie poświęcić się nauce, ale wraca do Warszawy dla Izabeli. Rzecki próbuje swatać go z panią Heleną Stawską, której mąż zaginął. Zamieszkująca w kamienicy Wokulskiego baronowa Krzeszowska oskarża Stawską o kradzież lalki należącej do jej zmarłej córki; w sądzie okazuje się, że lalka została kupiona w sklepie Wokulskiego, i Stawska zostaje uniewinniona (od tego epizodu pochodzi tytuł). Wokulski bywa w majątku prezesowej Zasławskiej, gdzie spotyka Izabelę i jej kuzyna Kazimierza Starskiego, z którym Izabela flirtuje. W końcu oświadcza się i zostaje przyjęty."
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "konflikt pozytywistycznych ideałów pracy i postępu z romantyczną miłością; zderzenie dwóch klas społecznych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Wokulski z Izabelą (uczucie vs klasa), Wokulski z arystokracją (mieszczaństwo vs szlachta), Rzecki z przemianą świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "praca, rozsądek, postęp, lojalność, uczciwość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "praca i postęp są wartościami, ale nie zastępują uczuć; świat arystokracji jest pusty."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "otwarte zakończenie pokazuje samotność człowieka, który wierzył w pracę jako drogę do szczęścia."
+        }
+      ]
     },
     {
-      "tytul": "Tom II – katastrofa i otwarte zakończenie",
-      "tekst": "Podczas podróży pociągiem do Krakowa Izabela i Starski rozmawiają po angielsku, sądząc, że Wokulski ich nie rozumie, i drwią z niego. Wokulski wysiada w Skierniewicach i rzuca się na tory; ratuje go dróżnik Wysocki. Wokulski zrywa z Izabelą, porzuca interesy, sprzedaje sklep Henrykowi Szlangbaumowi i znika. Rzecki, osamotniony i rozczarowany, umiera. Izabela po zerwaniu zapowiada wstąpienie do klasztoru. Ochocki opowiada, że Wokulski był widziany w Dąbrowie, gdzie kupował dynamit, a niedługo potem wysadzono ruiny zamku w Zasławiu. Ostatni rozdział, zatytułowany „…?…”, nie rozstrzyga, czy Wokulski zginął, czy wyjechał (np. do Geista)."
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Praca",
+          "tekst": "Wokulski, Rzecki. *Wykorzystanie:* zestawienie z *Syzyfem* (trud i jego sens) i z *Kandydem* (działanie zamiast spekulacji)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Miłość",
+          "tekst": "Wokulski i Izabela. *Wykorzystanie:* zestawienie z *Balladyną* (miłość a ambicja) i *Makbetem*."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Pieniądz i klasa",
+          "tekst": "bogactwo jako źródło pozycji. *Wykorzystanie:* zestawienie ze *Skąpcem* Moliera (pieniądz i wartość)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Postęp",
+          "tekst": "Ochocki, wynalazki. *Wykorzystanie:* zestawienie z *Oświeceniem* (wiara w rozum)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "Samotność",
+          "tekst": "zakończenie Wokulskiego. *Wykorzystanie:* zestawienie z *Konradem* (samotność wieszcza)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Lalka",
+          "tekst": "symbol pozoru i sztuczności arystokracji (tytuł nawiązuje do lalek, którymi są ludzie w salonach)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sklep",
+          "tekst": "symbol pracy i awansu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Teatr",
+          "tekst": "symbol pozoru."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wynalazki Ochockiego",
+          "tekst": "symbol postępu."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "Warszawa po powstaniu styczniowym (1863–1864), rozwój miast i przemysłu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Społeczny",
+          "tekst": "konflikt mieszczaństwa i arystokracji, kwestia pracy organicznej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "pozytywizm, scjentyzm, wiara w rozum i postęp."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "realizm, powieść społeczna i psychologiczna."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy praca i rozum wystarczą do szczęścia?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Pozór i rzeczywistość w społeczeństwie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Miłość a pozycja społeczna."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wokulski pokazuje, że praca może dać majątek, ale nie zapewnia miłości i spełnienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Izabela ukazuje świat pozoru, w którym uczucia są podporządkowane pozycji."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Lalka* – *Skąpiec* (pieniądz)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Lalka* – *Balladyna* (ambicja i miłość)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Lalka* – *Oda do młodości* (idealizm vs realizm)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Prus, *Lalka*, 1887–1889."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Wokulski, Izabela Łęcka, Rzecki, Łęcki, Ochocki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: praca, miłość, pieniądz, postęp, samotność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: praca nie zastąpi uczuć, a arystokracja jest pusta."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest narratorem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kim jest Wokulski?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kogo kocha Wokulski?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czym zajmuje się Izabela?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki jest zawód Wokulskiego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest Ochocki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co symbolizuje tytuł?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak kończy się powieść?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W jakim mieście rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jaki okres historyczny jest tłem?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Izabela odrzuca Wokulskiego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy praca zapewnia szczęście? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak Prus pokazuje świat pozoru?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czy zakończenie jest optymistyczne? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak powieść łączy realizm z psychologią?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Ignacy Rzecki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kupiec, były powstaniec."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Izabelę Łęcką."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jest arystokratką zafascynowaną luksusem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kupiec."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Młody wynalazca."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pozór i sztuczność."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Wokulski znika, zakończenie otwarte."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Warszawa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Okres po powstaniu styczniowym."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Bo arystokracja ceni pozycję, a nie człowieka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Częściowo: daje majątek, ale nie zastępuje miłości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Przez obraz salonów i pozorów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Nie, zakończenie jest gorzkie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Ukazuje psychologię bohatera w realistycznym tle."
+        }
+      ]
     }
-  ],
-  "bohaterowie": [
-    {
-      "imie": "Stanisław Wokulski",
-      "opis": "Kupiec, były powstaniec i zesłaniec, człowiek czynu i marzyciel; łączy cechy romantyka i pozytywisty. Jego tragedią jest miłość do kobiety, która go nie rozumie."
-    },
-    {
-      "imie": "Izabela Łęcka",
-      "opis": "Piękna arystokratka, wychowana w świecie pozorów; próżna, chłodna, niezdolna do docenienia Wokulskiego. Dla niego jest ideałem, w rzeczywistości jest jak tytułowa „lalka”."
-    },
-    {
-      "imie": "Ignacy Rzecki",
-      "opis": "Stary subiekt, idealista, wierny bonapartysta, autor „Pamiętnika starego subiekta”; ufa w postęp i wielkie idee polityczne."
-    },
-    {
-      "imie": "Tomasz Łęcki",
-      "opis": "Zubożały arystokrata, ojciec Izabeli, nieudolny w interesach."
-    },
-    {
-      "imie": "Julian Ochocki",
-      "opis": "Młody wynalazca, kuzyn Izabeli, marzy o maszynie latającej – idealista nauki."
-    },
-    {
-      "imie": "Kazimierz Starski",
-      "opis": "Lekkoduch i bawidamek, kuzyn Izabeli; jego flirt z nią niszczy Wokulskiego."
-    },
-    {
-      "imie": "pani Stawska i baronowa Krzeszowska",
-      "opis": "Uboga, szlachetna kobieta oraz zgorzkniała, kłótliwa arystokratka – strony procesu o lalkę."
-    },
-    {
-      "imie": "Geist",
-      "opis": "Paryski uczony-wynalazca, symbol nauki pracującej dla przyszłości."
-    },
-    {
-      "imie": "Henryk Szlangbaum",
-      "opis": "Żydowski subiekt, później właściciel sklepu; zmaga się z antysemityzmem."
-    },
-    {
-      "imie": "prezesowa Zasławska",
-      "opis": "Mądra, życzliwa Wokulskiemu arystokratka – przykład szlachetnej, rozumnej arystokracji."
-    }
-  ],
-  "problematyka": [
-    "rozpad społeczeństwa warszawskiego: arystokracja, mieszczaństwo, Żydzi, biedota",
-    "kryzys ideałów romantycznych i pozytywistycznych",
-    "miłość jako namiętność niszcząca",
-    "pieniądz i awans społeczny",
-    "nauka i postęp jako szansa na przyszłość",
-    "samotność jednostki wybitnej w świecie przeciętności"
-  ],
-  "motywy": [
-    {
-      "motyw": "lalka",
-      "opis": "Izabela jako piękna, pusta lalka; proces o lalkę jako symbol pozorów."
-    },
-    {
-      "motyw": "miasto",
-      "opis": "Warszawa jako pełnoprawny bohater powieści."
-    },
-    {
-      "motyw": "miłość nieszczęśliwa",
-      "opis": "Wokulski i Izabela."
-    },
-    {
-      "motyw": "pamiętnik",
-      "opis": "wspomnienia Rzeckiego – druga perspektywa narracji."
-    },
-    {
-      "motyw": "podróż",
-      "opis": "Paryż jako miasto przyszłości."
-    },
-    {
-      "motyw": "samobójstwo",
-      "opis": "próba Wokulskiego w Skierniewicach."
-    }
-  ],
-  "konteksty": [
-    "Pozytywizm: praca organiczna, praca u podstaw, scjentyzm, asymilacja Żydów; „Lalka” pokazuje, że te hasła się nie sprawdzają.",
-    "Realizm XIX w.: wszechwiedzący narrator, szczegółowy opis środowisk (Balzac, Dickens, Flaubert).",
-    "Historia: powstanie styczniowe i represje, wojna rosyjsko-turecka 1877–1878, Wiosna Ludów (w pamiętniku Rzeckiego).",
-    "Romantyzm: Wokulski czyta Mickiewicza, jego miłość przypomina miłość romantycznego kochanka (Gustaw z IV cz. „Dziadów”).",
-    "Molier, „Skąpiec”; Dostojewski, „Zbrodnia i kara” – pieniądz i jego wpływ na człowieka."
-  ],
-  "cytaty": [
-    {
-      "tekst": "Stopiło się w nim dwu ludzi: romantyk sprzed roku sześćdziesiątego i pozytywista z siedemdziesiątego.",
-      "kontekst": "Doktor Szuman o Wokulskim – najkrótsza charakterystyka bohatera."
-    }
-  ],
-  "doWypracowania": [
-    "Miłość, która niszczy – Wokulski (z Makbetem, Werterem).",
-    "Romantyk czy pozytywista? – postać Wokulskiego.",
-    "Obraz społeczeństwa w literaturze – „Lalka”, „Przedwiośnie”, „Wesele”.",
-    "Idealizm i jego klęska – Rzecki, Wokulski, Ochocki.",
-    "Miasto jako przestrzeń literacka – Warszawa w „Lalce”.",
-    "Pytanie ustne: Dlaczego powieść nosi tytuł „Lalka”?"
-  ],
-  "zrodlo": "opracowanie własne (Claude), do sprawdzenia z tekstem lektury",
-  "uwagi": "Kolejność niektórych epizodów tomu II (np. sprawy Stawskiej, pobyt w Zasławku) warto sprawdzić z tekstem. Zakończenie powieści jest celowo otwarte – nie wiadomo na pewno, co stało się z Wokulskim."
+  ]
 }

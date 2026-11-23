@@ -1,0 +1,468 @@
+{
+  "id": "balladyna",
+  "zrodlo": "czat",
+  "plik": "06-romantyzm.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Juliusz Słowacki (1809–1849), poeta romantyczny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "romantyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data powstania",
+          "tekst": "1834 r. (Paryż), publikacja 1839 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "dramat romantyczny (tragedia, z elementami baśni i ballady)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "legendarne czasy pradawne, Grecja/Słowiańszczyzna, las i zamek; akcja nie ma dokładnej dat."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "inspirowany ludowymi baśniami i legendami, wzorowany na *Makbecie* Szekspira (motyw zbrodni i ambicji)."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Do sprawdzenia: szczegóły przebiegu wymagane przez CKE. Poniżej ogólny schemat.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "siostry Balladyna i Alina pochodzą z biednej rodziny. Balladyna, ambitna i zazdrosna, pragnie władzy i bogactwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zbrodnia",
+          "tekst": "Balladyna zabija Alinę, aby przejąć jej pozycję i ukochanego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dalsze zbrodnie",
+          "tekst": "kolejne morderstwa, w tym zabójstwo kolejnych osób związanych z jej karierą, prowadzą do przejęcia władzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Królowa",
+          "tekst": "Balladyna zostaje królową, ale jej poczucie winy i strach narastają."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "Balladyna zostaje ukarana: ginie od pioruna (w wersji tradycyjnej interpretacji – jako kara losu)."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie:** zbrodnia rodzi kolejne zbrodnie; ambicja prowadzi do zguby; kara nadchodzi z góry."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Balladyna",
+          "tekst": "siostra Aliny. Cechy: ambicja, zazdrość, okrucieństwo. Decyzje: zabójstwa. Zmienia się: od biednej dziewczyny do królowej. Wymowa: ambicja niszczy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Alina",
+          "tekst": "siostra Balladyny. Cechy: dobroć, niewinność. Rola: ofiara zbrodni."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kirkor",
+          "tekst": "rycerz, obiekt uczuć. Rola: symbol władzy i miłości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pustelnik",
+          "tekst": "postać duchowa, komentator losu. Rola: symbol kary i moralnego porządku."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "ambicja, zbrodnia, kara, moralność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "Balladyna z Aliną, Balladyna z własnym sumieniem, Balladyna z losem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "dobroć, uczciwość, wierność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "zbrodnia i ambicja prowadzą do zguby; kara nie omija winnego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "kara losu jako finał moralny."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Ambicja",
+          "tekst": "Balladyna. *Wykorzystanie:* zestawienie z *Makbetem* (ambicja i zbrodnia)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Zbrodnia",
+          "tekst": "zabójstwa. *Wykorzystanie:* zestawienie z *Antygoną* (konsekwencje czynów)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Kara",
+          "tekst": "moralny porządek. *Wykorzystanie:* zestawienie z *Syzyfem* (kara za przewinienia)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Władza",
+          "tekst": "królowa. *Wykorzystanie:* zestawienie z *Dziadami* cz. III."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Piorun",
+          "tekst": "symbol kary."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Korona",
+          "tekst": "symbol władzy i ambicji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Las",
+          "tekst": "symbol tajemnicy i zbrodni."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "wzór *Makbeta*, tradycja baśni i ballad."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mitologiczny",
+          "tekst": "słowiańskie wierzenia, legendy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "kara moralna, sprawiedliwość boska."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Ambicja jako źródło zbrodni."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kara za winy – czy sprawiedliwość zawsze dosięga winnego?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Balladyna pokazuje, że zbrodnia rodzi kolejne zbrodnie i prowadzi do upadku."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Balladyna* – *Makbet* (ambicja)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Balladyna* – *Antygona* (konsekwencje czynów)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Słowacki, *Balladyna*, 1839 r., dramat romantyczny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Balladyna, Alina, Kirkor, Pustelnik."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: ambicja, zbrodnia, kara, władza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: zbrodnia i ambicja prowadzą do zguby."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kim jest Balladyna?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto jest ofiarą pierwszej zbrodni?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki motyw dominuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jakie nagrody zdobywa Balladyna?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak kończy się życie Balladyny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Kim jest Pustelnik?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki symbol kary występuje?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kto jest obiektem uczuć?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Z jakiego dzieła wzorowana jest *Balladyna*?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego ambicja prowadzi Balladynę do zbrodni?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czy kara Balladyny jest sprawiedliwa? Uzasadnij."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak *Balladyna* nawiązuje do *Makbeta*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaką rolę pełni las w utworze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czy Balladyna jest postacią tragiczną? Uzasadnij."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Siostra Aliny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Alina."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Ambicja."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Władzę i bogactwo."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Ginie od pioruna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Dramat romantyczny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Postać duchowa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Piorun."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Kirkor."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "*Makbet*."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Chce władzy i pozycji."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Tak, bo kara następuje zgodnie z moralnym porządkiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Przez motyw zbrodni i ambicji."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Symbolizuje tajemnicę i zbrodnię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Częściowo: jest postacią tragiczną, ale odpowiada za swoje czyny."
+        }
+      ]
+    }
+  ]
+}

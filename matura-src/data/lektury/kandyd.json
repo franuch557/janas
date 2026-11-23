@@ -1,0 +1,473 @@
+{
+  "id": "kandyd",
+  "zrodlo": "czat",
+  "plik": "05-oswiecenie.md",
+  "sekcje": [
+    {
+      "tytul": "Informacje podstawowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Autor",
+          "tekst": "Wolter (François-Marie Arouet, 1694–1778), francuski pisarz i filozof oświecenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epoka",
+          "tekst": "oświecenie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Data publikacji",
+          "tekst": "1759 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rodzaj i gatunek",
+          "tekst": "powieść filozoficzna, opowieść satyryczna (*conte philosophique*)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czas i miejsce akcji",
+          "tekst": "XVIII w.; Europa i świat (Westfalia, Lizbona, Ameryka Południowa, Turcja, Eldorado)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Geneza",
+          "tekst": "reakcja na trzęsienie ziemi w Lizbonie (1755) i na optymistyczną filozofię Leibniza."
+        }
+      ]
+    },
+    {
+      "tytul": "Szczegółowe streszczenie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "*Fragmenty wymagane przez CKE sprawdź w wykazie. Poniżej ogólny przebieg powieści.*"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Początek",
+          "tekst": "Kandyd, młody bohater, wychowywany przez nauczyciela Panglossa, uczy się, że żyje w „najlepszym ze światów”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wygnanie",
+          "tekst": "po miłosnym konflikcie z Kunegundą zostaje wygnany z zamku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Podróż",
+          "tekst": "bohater przeżywa kolejne nieszczęścia: wojnę, trzęsienie ziemi w Lizbonie, okrucieństwo inkwizycji, niewolę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Eldorado",
+          "tekst": "Kandyd trafia do utopijnego kraju, ale go opuszcza, bo chce odnaleźć Kunegundę i z nią być."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie",
+          "tekst": "bohater, po wielu przygodach, zamieszkuje z przyjaciółmi w małym gospodarstwie i uznaje, że trzeba uprawiać własny ogród, czyli zająć się praktycznym działaniem."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Znaczenie kluczowych wydarzeń:** cała podróż jest krytyką optymizmu filozoficznego i zachętą do realizmu."
+        }
+      ]
+    },
+    {
+      "tytul": "Bohaterowie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Kandyd",
+          "tekst": "młody bohater. Cechy: naiwność, dobroć, z czasem rozsądek. Decyzje: wyjazd, opuszczenie Eldorado, osiedlenie się. Zmienia się: od naiwnego optymisty do rozsądnego człowieka. Wymowa: przejście od teorii do praktyki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pangloss",
+          "tekst": "nauczyciel. Rola: ośmieszony optymista, symbol błędnej filozofii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kunegunda",
+          "tekst": "ukochana Kandyda. Rola: symbol losu, który zmienia się przez nieszczęścia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Martin",
+          "tekst": "pesymista. Rola: kontrast dla Panglossa."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka i interpretacja",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Główny problem",
+          "tekst": "optymizm filozoficzny a cierpienie; sens życia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikty",
+          "tekst": "teoria a rzeczywistość; optymizm a pesymizm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartości",
+          "tekst": "rozum, praca, pragmatyzm, tolerancja."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przesłanie",
+          "tekst": "zamiast spekulować, trzeba działać i „uprawiać własny ogród”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wymowa zakończenia",
+          "tekst": "rezygnacja z filozoficznych dywagacji na rzecz praktycznego działania."
+        }
+      ]
+    },
+    {
+      "tytul": "Motywy literackie",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "Optymizm i pesymizm",
+          "tekst": "spór o sens świata. *Wykorzystanie:* zestawienie z *Księgą Koheleta* (marność i sens życia)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "Podróż",
+          "tekst": "poszukiwanie sensu. *Wykorzystanie:* zestawienie z *Iliadą* (podróż jako próba)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "Cierpienie",
+          "tekst": "nieszczęścia świata. *Wykorzystanie:* zestawienie z *Księgą Hioba* (cierpienie i sens)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "Praca",
+          "tekst": "działanie jako wartość. *Wykorzystanie:* zestawienie z *Syzyfem* (daremny trud vs sensowne działanie)."
+        }
+      ]
+    },
+    {
+      "tytul": "Symbole i ważne elementy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ogród",
+          "tekst": "symbol praktycznego działania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Eldorado",
+          "tekst": "symbol utopii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lizbona",
+          "tekst": "symbol katastrofy i kruchości świata."
+        }
+      ]
+    },
+    {
+      "tytul": "Konteksty",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Historyczny",
+          "tekst": "trzęsienie ziemi w Lizbonie (1755), wojna siedmioletnia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozoficzny",
+          "tekst": "krytyka optymizmu Leibniza, racjonalizm, empiryzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Literacki",
+          "tekst": "*conte philosophique*, tradycja satyry."
+        }
+      ]
+    },
+    {
+      "tytul": "Wykorzystanie lektury na maturze",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Tematy:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Czy żyjemy w najlepszym ze światów?"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Działanie zamiast spekulacji."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Argumenty:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Kandyd pokazuje, że filozofia oderwana od życia prowadzi do rozczarowania."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Zestawienia:**"
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Kandyd* – *Księga Koheleta* (sens życia)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Kandyd* – *Księga Hioba* (cierpienie)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "*Kandyd* – *Syzyf* (trud i jego sens)."
+        }
+      ]
+    },
+    {
+      "tytul": "Najważniejsze informacje do zapamiętania",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Wolter, *Kandyd*, 1759 r."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Bohaterowie: Kandyd, Pangloss, Kunegunda, Martin."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Motywy: optymizm, cierpienie, podróż, praca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przesłanie: „trzeba uprawiać ogród”."
+        }
+      ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kim jest Kandyd?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto go uczy o „najlepszym ze światów”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co wydarza się w Lizbonie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co jest Eldorado?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kim jest Kunegunda?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Kim jest Martin?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Co oznacza zakończenie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W którym roku wydano *Kandyda*?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Co wywołało powstanie powieści?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania interpretacyjne:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dlaczego Pangloss jest ośmieszony?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Co Wolter chce powiedzieć o optymizmie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Dlaczego Kandyd opuszcza Eldorado?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak zakończenie zmienia sens utworu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Czy Wolter jest pesymistą? Uzasadnij."
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Młody bohater."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Pangloss."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Trzęsienie ziemi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Utopijny kraj."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Powieść filozoficzna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Ukochana Kandyda."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pesymista."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Trzeba działać, a nie spekulować."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "1759."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Trzęsienie ziemi w Lizbonie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Chce odnaleźć Kunegundę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Jest ośmieszony jako naiwny optymista."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Krytykuje naiwność i zachęca do praktycznego działania."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Zakończenie nadaje sens całej opowieści."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Nie, jest raczej realistą, który wzywa do działania."
+        }
+      ]
+    }
+  ]
+}
