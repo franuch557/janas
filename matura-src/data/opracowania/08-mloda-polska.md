@@ -131,14 +131,14 @@
 
 **Klucz odpowiedzi:**
 1. Wesele.
-2. Jadwiga.
-3. Bierność i przywiązanie do tradycji.
+2. Jadwiga Mikołajczykówna, chłopka z Bronowic (Panna Młoda).
+3. Bierność i uśpienie narodu.
 4. Dziennikarz.
-5. Stańczyk, Wernyhora.
+5. Stańczyk, Rycerz Czarny (Zawisza), Hetman (Branicki), Szela, Wernyhora.
 6. Złoty róg.
 7. Trzy.
-8. Podkrakowska wieś, Kraków.
-9. Lucjan Rydel w pierwowzorze.
+8. W Bronowicach pod Krakowem, w domu Gospodarza.
+9. Kazimierz Przerwa-Tetmajer (Pan Młody to Lucjan Rydel).
 10. Dramat symboliczny.
 11. Bo nie prowadzi do działania.
 12. Nie, pytania pozostają otwarte.

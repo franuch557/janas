@@ -18,42 +18,58 @@ function Back({ to, label }: { to: string; label: string }) {
   return <IconButton icon="wstecz" label={label} onClick={() => go(to)} />;
 }
 
+/** „Wybrane wiersze” itp.: na karcie i w nagłówku ważniejszy jest autor. */
+const headline = (b: BookEntry) => (/^wybrane (wiersze|utwory)/i.test(b.tytul) && !/^m\.in\./.test(b.autor) ? { title: b.autor.replace(/\s*\(.*\)$/, ''), sub: b.tytul } : { title: b.tytul, sub: b.autor });
+
+const short = (b: BookEntry) => {
+  const c = (b.czesciowo ?? '').toLowerCase();
+  return c.includes('fragment') ? 'fragmenty' : c.includes('wybran') ? 'wybrane' : null;
+};
+
 export function BooksView() {
   const [epoka, setEpoka] = useState('wszystkie');
   const [onlyOral, setOnlyOral] = useState(false);
   const [q, setQ] = useState('');
-  const oralIds = new Set((ORAL?.pytania ?? []).map((p) => p.lekturaId).filter(Boolean) as string[]);
-  const list = BOOKS.filter((b) => (epoka === 'wszystkie' || b.epokaId === epoka) && (!onlyOral || oralIds.has(b.id)) && (!q.trim() || `${b.tytul} ${b.autor} ${b.gatunek}`.toLowerCase().includes(q.trim().toLowerCase())));
+  const [info, setInfo] = useState<string | null>(null);
+  const oralCount = new Map<string, number>();
+  for (const p of ORAL?.pytania ?? []) if (p.lekturaId) oralCount.set(p.lekturaId, (oralCount.get(p.lekturaId) ?? 0) + 1);
+  const needle = q.trim().toLowerCase();
+  const list = BOOKS.filter((b) => (epoka === 'wszystkie' || b.epokaId === epoka) && (!onlyOral || oralCount.has(b.id)) && (!needle || `${b.tytul} ${b.autor} ${b.gatunek}`.toLowerCase().includes(needle)));
   const groups = (EPOCHS.length ? EPOCHS : [...new Set(BOOKS.map((b) => b.epokaId))].map((id) => ({ id, nazwa: BOOKS.find((b) => b.epokaId === id)?.epoka ?? id, lata: '' })))
     .map((e) => ({ e, books: list.filter((b) => b.epokaId === e.id) }))
     .filter((g) => g.books.length);
   return (
-    <div className="page" style={{ maxWidth: 860 }}>
-      <div className="row-between">
-        <h1>Lektury</h1>
+    <div className="page lk-page">
+      <header className="lk-head">
+        <div className="grow">
+          <h1>Lektury</h1>
+          <p className="muted">
+            {BOOKS.length} opracowań w {EPOCHS.length} epokach
+          </p>
+        </div>
         {ORAL?.pytania.length ? (
           <a className="btn btn-secondary" href="#ustny">
-            Ustny polski: {ORAL.pytania.length} pytań
+            Ustny polski · {ORAL.pytania.length} pytań
           </a>
         ) : null}
-      </div>
+      </header>
       {!BOOKS.length ? (
         <p className="muted">Opracowania lektur pojawią się tutaj wkrótce.</p>
       ) : (
         <>
-          <div className="field">
-            <label htmlFor="lq">Szukaj lektury</label>
-            <input id="lq" className="input" value={q} onChange={(e) => setQ(e.target.value)} placeholder="tytuł albo autor" />
+          <div className="lk-search">
+            <Icon name="szukaj" size={20} />
+            <input className="input" aria-label="Szukaj lektury" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Szukaj: tytuł, autor, gatunek" />
           </div>
-          <div className="chips" role="group" aria-label="Epoka">
-            {[{ id: 'wszystkie', nazwa: 'wszystkie' }, ...EPOCHS].map((e) => (
+          <div className="lk-chips" role="group" aria-label="Epoka">
+            {[{ id: 'wszystkie', nazwa: 'Wszystkie' }, ...EPOCHS].map((e) => (
               <button key={e.id} type="button" className="chip" aria-pressed={epoka === e.id} onClick={() => setEpoka(e.id)}>
-                {e.nazwa}
+                {e.nazwa.replace(/\s*\(.*\)$/, '')}
               </button>
             ))}
-            {oralIds.size ? (
+            {oralCount.size ? (
               <button type="button" className="chip" aria-pressed={onlyOral} onClick={() => setOnlyOral((x) => !x)}>
-                na pytania jawne
+                Na pytania jawne
               </button>
             ) : null}
           </div>
@@ -61,31 +77,35 @@ export function BooksView() {
             <Empty secondary text="Brak lektur dla tych filtrów." action={{ label: 'Wyczyść filtry', run: () => { setEpoka('wszystkie'); setOnlyOral(false); setQ(''); } }} />
           ) : (
             groups.map(({ e, books }) => (
-              <section className="stack" key={e.id}>
-                <h2>
-                  {e.nazwa}
-                  {e.lata ? <span className="small muted"> ({e.lata})</span> : null}
-                </h2>
-                <EpochOverview id={e.id} />
-                <div className="card flush list">
-                  {books.map((b) => (
-                    <button type="button" className="li" key={b.id} onClick={() => go({ name: 'lektura', id: b.id })}>
-                      <span className="grow">
-                        <span style={{ fontWeight: 600 }}>{b.tytul}</span>
-                        <br />
-                        <span className="small muted">
-                          {b.autor}
-                          {b.czesciowo ? `, ${b.czesciowo}` : ''}
-                        </span>
-                        {!b.obowiazkowa ? (
-                          <>
-                            <br />
-                            <span className="tag">spoza listy obowiązkowej</span>
-                          </>
-                        ) : null}
-                      </span>
+              <section className="lk-epoch" key={e.id}>
+                <div className="lk-epoch-head">
+                  <h2>{e.nazwa}</h2>
+                  {e.lata ? <span className="lk-epoch-years">{e.lata}</span> : null}
+                  <span className="grow" />
+                  {epochOverview(e.id).length ? (
+                    <button type="button" className="lk-link" aria-expanded={info === e.id} onClick={() => setInfo((x) => (x === e.id ? null : e.id))}>
+                      {info === e.id ? 'Zwiń opis epoki' : 'O epoce'}
                     </button>
-                  ))}
+                  ) : null}
+                </div>
+                {info === e.id ? <EpochOverview id={e.id} /> : null}
+                <div className="lk-grid">
+                  {books.map((b) => {
+                    const n = oralCount.get(b.id) ?? 0;
+                    const sh = short(b);
+                    return (
+                      <button type="button" className="lk-card" key={b.id} onClick={() => go({ name: 'lektura', id: b.id })}>
+                        <span className="lk-card-title">{headline(b).title}</span>
+                        <span className="lk-card-author">{headline(b).sub}</span>
+                        <span className="lk-tags">
+                          {b.gatunek ? <span className="lk-tag">{b.gatunek.split(/[;,(]/)[0].trim()}</span> : null}
+                          {sh ? <span className="lk-tag">{sh}</span> : null}
+                          {n ? <span className="lk-tag lk-tag-ink">{n} {n === 1 ? 'pytanie jawne' : n < 5 ? 'pytania jawne' : 'pytań jawnych'}</span> : null}
+                          {!b.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy</span> : null}
+                        </span>
+                      </button>
+                    );
+                  })}
                 </div>
               </section>
             ))
@@ -133,32 +153,46 @@ function Md({ text }: { text: string }) {
   return <>{out}</>;
 }
 
-function Item({ b }: { b: Extract<BookBlock, { typ: 'punkt' }> }) {
-  return (
-    <li>
-      {b.etykieta ? (
-        <>
-          <strong>
-            <Md text={b.etykieta} />
-          </strong>
-          {b.tekst ? ': ' : ''}
-        </>
-      ) : null}
-      <Md text={b.tekst} />
-    </li>
-  );
+type Punkt = Extract<BookBlock, { typ: 'punkt' }>;
+const clean = (t: string) => t.replace(/^\*\*(.*)\*\*:?$/, '$1').replace(/:$/, '');
+
+/** Akapit: cały pogrubiony = podtytuł, cały kursywą = uwaga. */
+function Para({ text }: { text: string }) {
+  if (/^\*\*[^*]+\*\*:?$/.test(text)) return <h3 className="lk-sub">{clean(text)}</h3>;
+  if (/^\*[^*].*\*$/.test(text)) return <p className="lk-note">{text.slice(1, -1)}</p>;
+  return <p><Md text={text} /></p>;
 }
 
-/** Bloki sekcji: kolejne punkty łączę w listę (numerowaną, gdy mają numery). */
+/** Bloki sekcji: długie punkty z etykietą jako akapity z nagłówkiem, krótkie jako lista. */
 function Blocks({ blocks }: { blocks: BookBlock[] }) {
   const out: ReactNode[] = [];
   for (let i = 0; i < blocks.length; ) {
     const b = blocks[i];
     if (b.typ === 'punkt') {
-      const run: Extract<BookBlock, { typ: 'punkt' }>[] = [];
-      while (i < blocks.length && blocks[i].typ === 'punkt') run.push(blocks[i++] as Extract<BookBlock, { typ: 'punkt' }>);
-      const items = run.map((x, k) => <Item key={k} b={x} />);
-      out.push(run[0].nr != null ? <ol key={i} className="topic-list" start={run[0].nr}>{items}</ol> : <ul key={i} className="topic-list">{items}</ul>);
+      const run: Punkt[] = [];
+      while (i < blocks.length && blocks[i].typ === 'punkt') run.push(blocks[i++] as Punkt);
+      const long = run.every((x) => x.etykieta) && run.some((x) => x.tekst.length > 160);
+      if (long) {
+        out.push(
+          <div key={i} className="lk-defs">
+            {run.map((x, k) => (
+              <div key={k} className="lk-def">
+                <h4><Md text={x.etykieta} /></h4>
+                <p><Md text={x.tekst} /></p>
+              </div>
+            ))}
+          </div>,
+        );
+      } else {
+        const items = run.map((x, k) => (
+          <li key={k}>
+            {x.etykieta ? <strong><Md text={x.etykieta} /></strong> : null}
+            {x.etykieta && x.tekst ? ' – ' : null}
+            <Md text={x.tekst} />
+          </li>
+        ));
+        out.push(run[0].nr != null ? <ol key={i} className="lk-list" start={run[0].nr}>{items}</ol> : <ul key={i} className="lk-list">{items}</ul>);
+      }
       continue;
     }
     if (b.typ === 'tabela') {
@@ -166,21 +200,96 @@ function Blocks({ blocks }: { blocks: BookBlock[] }) {
       out.push(
         <div key={i} style={{ overflowX: 'auto' }}>
           <table className="book-table">
-            <thead>
-              <tr>{head.map((c, k) => <th key={k}><Md text={c} /></th>)}</tr>
-            </thead>
-            <tbody>
-              {rows.map((r, k) => (
-                <tr key={k}>{r.map((c, n) => <td key={n}><Md text={c} /></td>)}</tr>
-              ))}
-            </tbody>
+            <thead><tr>{head.map((c, k) => <th key={k}><Md text={c} /></th>)}</tr></thead>
+            <tbody>{rows.map((r, k) => <tr key={k}>{r.map((c, n) => <td key={n}><Md text={c} /></td>)}</tr>)}</tbody>
           </table>
         </div>,
       );
-    } else out.push(<p key={i}><Md text={b.tekst} /></p>);
+    } else out.push(<Para key={i} text={b.tekst} />);
     i++;
   }
   return <>{out}</>;
+}
+
+/** Informacje podstawowe: siatka etykieta – wartość. */
+function Facts({ blocks }: { blocks: BookBlock[] }) {
+  const facts = blocks.filter((b): b is Punkt => b.typ === 'punkt' && !!b.etykieta);
+  const rest = blocks.filter((b) => !(b.typ === 'punkt' && b.etykieta));
+  return (
+    <>
+      <dl className="lk-facts">
+        {facts.map((f, k) => (
+          <div key={k} className={f.tekst.length > 90 ? 'wide' : undefined}>
+            <dt>{clean(f.etykieta)}</dt>
+            <dd><Md text={f.tekst.replace(/\.$/, '')} /></dd>
+          </div>
+        ))}
+      </dl>
+      {rest.length ? <Blocks blocks={rest} /> : null}
+    </>
+  );
+}
+
+/** Streszczenie: kolejne etapy na osi; akapity (uwagi, „znaczenie”) pod osią. */
+function Steps({ blocks }: { blocks: BookBlock[] }) {
+  const out: ReactNode[] = [];
+  let run: Punkt[] = [];
+  let n = 0;
+  const flush = (key: number) => {
+    if (!run.length) return;
+    out.push(
+      <ol key={`s${key}`} className="lk-steps">
+        {run.map((x, k) => (
+          <li key={k}>
+            <span className="lk-step-no" aria-hidden="true">{++n}</span>
+            <div>
+              {x.etykieta ? <h4><Md text={x.etykieta} /></h4> : null}
+              <p><Md text={x.tekst} /></p>
+            </div>
+          </li>
+        ))}
+      </ol>,
+    );
+    run = [];
+  };
+  blocks.forEach((b, k) => {
+    if (b.typ === 'punkt') run.push(b);
+    else if (b.typ === 'akapit' && /^\*\*[^*]+:?\*\*:?$/.test(b.tekst)) {
+      // nagłówek aktu („**Akt I – …:**”) bez treści – jako podtytuł osi
+      flush(k);
+      out.push(<h3 key={k} className="lk-sub">{clean(b.tekst)}</h3>);
+    } else {
+      flush(k);
+      out.push(<Para key={k} text={b.typ === 'akapit' ? b.tekst : ''} />);
+    }
+  });
+  flush(blocks.length);
+  return <>{out}</>;
+}
+
+/** Bohaterowie, motywy, symbole: kafelki. */
+function Tiles({ blocks }: { blocks: BookBlock[] }) {
+  const tiles = blocks.filter((b): b is Punkt => b.typ === 'punkt');
+  const rest = blocks.filter((b) => b.typ !== 'punkt');
+  return (
+    <>
+      <div className="lk-tiles">
+        {tiles.map((t, k) => {
+          // „**Imię** – opis” bez dwukropka trafia do tekstu; wydzielam imię
+          const m = !t.etykieta ? t.tekst.match(/^\*\*(.+?)\*\*\s*[–:-]\s*(.*)$/) : null;
+          const name = t.etykieta || m?.[1] || '';
+          const text = t.etykieta ? t.tekst : m ? m[2] : t.tekst;
+          return (
+            <div key={k} className="lk-tile">
+              {name ? <h4><Md text={name} /></h4> : null}
+              <p><Md text={text} /></p>
+            </div>
+          );
+        })}
+      </div>
+      {rest.length ? <Blocks blocks={rest} /> : null}
+    </>
+  );
 }
 
 /** „Sprawdź swoją wiedzę”: klucz odpowiedzi ukryty do kliknięcia. */
@@ -194,26 +303,36 @@ function QuizSection({ blocks }: { blocks: BookBlock[] }) {
       <button type="button" className="btn btn-secondary" onClick={() => setShow((x) => !x)} aria-expanded={show}>
         {show ? 'Ukryj klucz odpowiedzi' : 'Pokaż klucz odpowiedzi'}
       </button>
-      {show ? <Blocks blocks={blocks.slice(k)} /> : null}
+      {show ? <div className="lk-key"><Blocks blocks={blocks.slice(k + 1)} /></div> : null}
     </>
   );
 }
 
 const anchor = (i: number) => `sekcja-${i}`;
-const isOpen = (t: string) => !/sprawdź swoją wiedzę|najważniejsze informacje/i.test(t);
+type Kind = 'facts' | 'steps' | 'tiles' | 'remember' | 'quiz' | 'plain';
+function kindOf(t: string): Kind {
+  if (/informacje podstawowe|metryczka/i.test(t)) return 'facts';
+  if (/streszczenie|plan wydarzeń|omówienie|treny ix/i.test(t)) return 'steps';
+  if (/bohater|motyw|symbol/i.test(t)) return 'tiles';
+  if (/najważniejsze informacje/i.test(t)) return 'remember';
+  if (/sprawdź swoją wiedzę/i.test(t)) return 'quiz';
+  return 'plain';
+}
+const tocName = (t: string) => t.replace(/\s*\/.*$/, '').replace(/ i interpretacja$/, '').replace(/^Najważniejsze informacje do zapamiętania$/, 'Do zapamiętania').replace(/^Wykorzystanie lektury na maturze$/, 'Na maturze').replace(/^Szczegółowe streszczenie$/, 'Streszczenie').replace(/^Symbole i ważne elementy$/, 'Symbole').replace(/^Geneza i znaczenie tytułu$/, 'Geneza i tytuł').replace(/^Główne motywy$|^Motywy literackie$/, 'Motywy').replace(/^Informacje podstawowe$/, 'Informacje');
 
-function Sections({ sekcje }: { sekcje: BookSection[] }) {
+function Section({ sec, i }: { sec: BookSection; i: number }) {
+  const kind = kindOf(sec.tytul);
+  const body =
+    kind === 'facts' ? <Facts blocks={sec.bloki} /> :
+    kind === 'steps' ? <Steps blocks={sec.bloki} /> :
+    kind === 'tiles' ? <Tiles blocks={sec.bloki} /> :
+    kind === 'quiz' ? <QuizSection blocks={sec.bloki} /> :
+    <Blocks blocks={sec.bloki} />;
   return (
-    <>
-      {sekcje.map((sec, i) => (
-        <details key={i} id={anchor(i)} className="card stack-2 book-section" open={isOpen(sec.tytul)}>
-          <summary>
-            <h2>{sec.tytul}</h2>
-          </summary>
-          {/sprawdź swoją wiedzę/i.test(sec.tytul) ? <QuizSection blocks={sec.bloki} /> : <Blocks blocks={sec.bloki} />}
-        </details>
-      ))}
-    </>
+    <section id={anchor(i)} className={`lk-sec lk-sec-${kind}`}>
+      <h2>{sec.tytul.replace(/\s*\/\s*Informacje podstawowe$/, '')}</h2>
+      {body}
+    </section>
   );
 }
 
@@ -221,82 +340,108 @@ function EpochOverview({ id }: { id: string }) {
   const sekcje = useMemo(() => epochOverview(id), [id]);
   if (!sekcje.length) return null;
   return (
-    <details className="card book-epoch">
-      <summary style={{ fontWeight: 650, cursor: 'pointer', minHeight: 32 }}>Charakterystyka epoki</summary>
-      <div className="stack-2" style={{ marginTop: 8 }}>
-        {sekcje.map((sec, i) => (
-          <section key={i} className="stack-2">
-            <h3>{sec.tytul}</h3>
-            <Blocks blocks={sec.bloki} />
-          </section>
-        ))}
-      </div>
-    </details>
+    <div className="lk-epoch-info">
+      {sekcje.map((sec, i) => (
+        <section key={i}>
+          <h3>{sec.tytul.replace(/^Najważniejszych twórców$/, 'Najważniejsi twórcy')}</h3>
+          <Blocks blocks={sec.bloki} />
+        </section>
+      ))}
+    </div>
   );
+}
+
+/** Spis sekcji: podświetla sekcję, którą właśnie czytasz. */
+function useActive(count: number) {
+  const [active, setActive] = useState(0);
+  useEffect(() => {
+    if (!count || typeof IntersectionObserver === 'undefined') return;
+    const els = Array.from({ length: count }, (_, i) => document.getElementById(anchor(i))).filter((x): x is HTMLElement => !!x);
+    const io = new IntersectionObserver(
+      (entries) => {
+        const vis = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (vis) setActive(Number(vis.target.id.split('-')[1]));
+      },
+      { rootMargin: '-80px 0px -60% 0px' },
+    );
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, [count]);
+  return active;
 }
 
 export function BookView({ id }: { id: string }) {
   const entry = BOOKS.find((b) => b.id === id);
   const book = useMemo(() => bookById(id), [id]);
   const questions = (ORAL?.pytania ?? []).filter((p) => p.lekturaId === id);
+  const active = useActive(book?.sekcje.length ?? 0);
+  const tocRef = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    const el = tocRef.current?.querySelector<HTMLElement>('[aria-current="true"]');
+    el?.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }, [active]);
   if (!entry) return <Empty text="Nie znaleziono tej lektury." action={{ label: 'Przejdź do lektur', run: () => go('#lektury') }} />;
+  const jump = (i: number) => document.getElementById(anchor(i))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   return (
-    <div className="page" style={{ maxWidth: 760 }}>
-      <div className="row">
-        <Back to="#lektury" label="Wróć do lektur" />
-        <h1 className="grow" style={{ fontSize: '1.5rem', lineHeight: '1.875rem' }}>
-          {entry.tytul}
-        </h1>
-      </div>
-      <section className="card stack-2">
-        <p>
-          <strong>{entry.autor}</strong>
-          {entry.rok ? `, ${entry.rok}` : ''}
-        </p>
-        <p className="muted">{[entry.gatunek, entry.epoka, entry.czesciowo].filter(Boolean).join(', ')}</p>
-        {!entry.obowiazkowa ? (
-          <p className="small">
-            <span className="tag warn">spoza listy obowiązkowej</span> Nie ma jej w wykazie lektur obowiązkowych zakresu podstawowego (rozporządzenie z 28.06.2024).
-          </p>
-        ) : null}
-        {entry.pelnyTekst ? (
-          <a href={entry.pelnyTekst} target="_blank" rel="noopener noreferrer">
-            Pełny tekst (wolnelektury.pl)
-          </a>
-        ) : null}
-      </section>
+    <div className="page lk-book">
+      <header className="lk-hero">
+        <div className="row">
+          <Back to="#lektury" label="Wróć do lektur" />
+          <span className="lk-eyebrow">{entry.epoka}</span>
+        </div>
+        <h1>{headline(entry).title}</h1>
+        <p className="lk-hero-author">{headline(entry).sub}</p>
+        <div className="lk-tags">
+          {entry.rok ? <span className="lk-tag">{entry.rok}</span> : null}
+          {entry.gatunek ? <span className="lk-tag">{entry.gatunek}</span> : null}
+          {entry.czesciowo ? <span className="lk-tag">{entry.czesciowo}</span> : null}
+          {!entry.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy obowiązkowej</span> : null}
+        </div>
+        {!entry.obowiazkowa ? <p className="lk-note">Tej lektury nie ma w wykazie lektur obowiązkowych zakresu podstawowego (rozporządzenie z 28.06.2024).</p> : null}
+        <div className="lk-actions">
+          {entry.pelnyTekst ? (
+            <a className="btn btn-secondary" href={entry.pelnyTekst} target="_blank" rel="noopener noreferrer">
+              Pełny tekst
+            </a>
+          ) : null}
+          {questions.length ? (
+            <button type="button" className="btn btn-secondary" onClick={() => document.getElementById('pytania-jawne')?.scrollIntoView({ behavior: 'smooth' })}>
+              Pytania jawne ({questions.length})
+            </button>
+          ) : null}
+          {book ? <BookCards entry={entry} text={bookText(book, entry)} /> : null}
+        </div>
+      </header>
       {!book ? (
         <p className="muted">Opracowanie tej lektury pojawi się wkrótce.</p>
       ) : (
-        <>
-          <nav className="chips" aria-label="Sekcje opracowania">
+        <div className="lk-layout">
+          <nav className="lk-toc" aria-label="Sekcje opracowania" ref={tocRef}>
             {book.sekcje.map((sec, i) => (
-              <a key={i} className="chip" href={`#lektura-${id}`} onClick={(ev) => { ev.preventDefault(); const el = document.getElementById(anchor(i)); if (el instanceof HTMLDetailsElement) el.open = true; el?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>
-                {sec.tytul}
-              </a>
+              <button key={i} type="button" aria-current={active === i ? 'true' : undefined} onClick={() => jump(i)}>
+                {tocName(sec.tytul)}
+              </button>
+            ))}
+          </nav>
+          <article className="lk-content">
+            {book.sekcje.map((sec, i) => (
+              <Section key={i} sec={sec} i={i} />
             ))}
             {questions.length ? (
-              <a className="chip" href={`#lektura-${id}`} onClick={(ev) => { ev.preventDefault(); document.getElementById('pytania-jawne')?.scrollIntoView({ behavior: 'smooth' }); }}>
-                Pytania jawne
-              </a>
+              <section className="lk-sec" id="pytania-jawne">
+                <h2>Pytania jawne na maturę ustną</h2>
+                <div className="card flush list">
+                  {questions.map((p) => (
+                    <button type="button" className="li" key={p.nr} onClick={() => go({ name: 'ustny-pytanie', nr: p.nr })}>
+                      <span className="grow">{p.tresc}</span>
+                    </button>
+                  ))}
+                </div>
+              </section>
             ) : null}
-          </nav>
-          <BookCards entry={entry} text={bookText(book, entry)} />
-          <Sections sekcje={book.sekcje} />
-          {questions.length ? (
-            <section className="stack-2" id="pytania-jawne">
-              <h2>Pytania jawne</h2>
-              <div className="card flush list">
-                {questions.map((p) => (
-                  <button type="button" className="li" key={p.nr} onClick={() => go({ name: 'ustny-pytanie', nr: p.nr })}>
-                    <span className="grow">{p.tresc}</span>
-                  </button>
-                ))}
-              </div>
-            </section>
-          ) : null}
-          {book.zrodlo === 'zastepcze' ? <p className="small muted">Opracowanie własne aplikacji (tej lektury nie ma w plikach opracowań) – do sprawdzenia z tekstem lektury.</p> : null}
-        </>
+            {book.zrodlo === 'zastepcze' ? <p className="lk-note">Opracowanie własne aplikacji – do sprawdzenia z tekstem lektury.</p> : null}
+          </article>
+        </div>
       )}
     </div>
   );
