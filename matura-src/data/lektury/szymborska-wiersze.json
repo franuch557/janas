@@ -176,6 +176,115 @@
           "tekst": "Szymborska otrzymała Nagrodę Nobla w 1996 r. Jej wiersze to krótkie, ironiczne refleksje filozoficzne o przypadku, czasie i ludzkiej egzystencji. Tytuły są zwykle proste i zaskakujące („Kot w pustym mieszkaniu”, „Koniec i początek”) – wskazują codzienną sytuację, z której poetka wyprowadza ogólną myśl."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "O czym mówi wiersz „Nic dwa razy”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z czyjej perspektywy pokazana jest śmierć w wierszu „Kot w pustym mieszkaniu”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co zamierza zrobić kot, gdy właściciel wróci?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co, według wiersza „Koniec i początek”, ktoś musi zrobić po każdej wojnie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto z czasem zastępuje tych, którzy pamiętają wojnę?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co wyróżnia człowieka w wierszu „Pochwała złego o sobie mniemania”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co obrońca moralności uznaje za największą rozpustę w „Głosie w sprawie pornografii”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki jest dominujący sposób mówienia w poezji Szymborskiej?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "O niepowtarzalności chwili i ulotności uczuć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kota."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "„Ukarać” go za nieobecność."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Posprzątać (uprzątnąć gruz, naprawić domy, wstawić szyby)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Ci, którzy wiedzą mało lub nic."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Że potrafi mieć złe mniemanie o sobie (zwierzęta nie mają wyrzutów sumienia)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Myślenie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Ironia."
+        }
+      ]
     }
   ]
 }

@@ -176,6 +176,127 @@
           "tekst": "Miłosz pisał w czasie wojny w Warszawie („Campo di Fiori”, 1943), potem jako dyplomata i emigrant. W 1980 r. otrzymał Nagrodę Nobla. Tytuły jego wierszy często wskazują miejsce („Campo di Fiori” – plac w Rzymie, na którym spalono Giordana Bruna) albo adresata („Który skrzywdziłeś”, 1950 – zwrot do tyrana)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kogo spalono na rzymskim placu Campo di Fiori?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z jakim obrazem Warszawy 1943 r. zestawia poeta Campo di Fiori?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki problem moralny porusza „Campo di Fiori”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W jaki dzień nadchodzi koniec świata w „Piosence o końcu świata”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto w tym wierszu mógłby być prorokiem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Do kogo skierowany jest wiersz „Który skrzywdziłeś”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Gdzie umieszczono fragment wiersza „Który skrzywdziłeś”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Do kogo zwraca się poeta w „Przedmowie” do tomu „Ocalenie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jaki nastrój wyraża wiersz „Dar”?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Giordana Bruna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z karuzelą kręcącą się obok płonącego getta."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Obojętność wobec cierpienia i śmierci innych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W zwykły, piękny dzień."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Siwy staruszek zajęty ogrodem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Do tyrana, który krzywdzi prostego człowieka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Na pomniku Poległych Stoczniowców w Gdańsku."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Do zmarłego przyjaciela, którego nie zdołał ocalić."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Pogodzenie ze światem i wdzięczność za istnienie (szczęście)."
+        }
+      ]
     }
   ]
 }

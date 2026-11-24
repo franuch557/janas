@@ -149,6 +149,115 @@
           "tekst": "Staff debiutował tomem „Sny o potędze” (1901), z którego pochodzi „Kowal” – wiersz o hartowaniu własnej woli. „Deszcz jesienny” ukazał się w tomie „Dzień duszy” (1903) i jest przykładem młodopolskiego nastroju smutku i melancholii. Staff tworzył jeszcze przez pół wieku, zmieniając styl razem z epokami."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak nazywa się debiutancki tom Staffa?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Za kogo uważa się podmiot liryczny wiersza „Kowal”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co wykuwa kowal w wierszu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Na jaki nastrój epoki odpowiada „Kowal”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jakiego filozofa idee inspirują „Kowala”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jaki nastrój wyraża „Deszcz jesienny”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jakimi środkami Staff oddaje monotonię deszczu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Dlaczego Staff bywa nazywany „poetą trzech pokoleń”?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Sny o potędze”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Za kowala."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Własne serce (twardy, mocny charakter)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Na dekadencki pesymizm."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Nietzschego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Melancholię, rozpacz i znużenie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Refrenem, powtórzeniami i aliteracjami (instrumentacją dźwiękową)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Bo jego twórczość ewoluowała od symbolizmu, przez klasycyzm, do prostoty poezji powojennej."
+        }
+      ]
     }
   ]
 }

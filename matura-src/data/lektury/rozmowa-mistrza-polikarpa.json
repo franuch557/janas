@@ -154,6 +154,127 @@
           "tekst": "Utwór to polska przeróbka łacińskiego dialogu o rozmowie mędrca ze Śmiercią, powstała w XV w. (ok. 1463). Zachował się w rękopisie, który spłonął podczas II wojny światowej – tekst znamy z wcześniejszych wydań; brakuje zakończenia. Tytuł nazywa formę (rozmowa, czyli dialog) i jej uczestników. Imię Polikarp pochodzi z greki i znaczy „bogaty w owoce” – pasuje do mędrca, który chce poznać prawdę o śmierci."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "O co modli się mistrz Polikarp?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak wygląda Śmierć?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak Śmierć tłumaczy swoje narodziny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Od kogo Śmierć dostała moc zabijania?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kto jedyny pokonał Śmierć?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Czy lekarstwa chronią przed Śmiercią?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak nazywa się motyw tańca śmierci?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Co oznacza memento mori?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dialog, poemat dydaktyczno-moralizatorski."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "By zobaczyć Śmierć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Naga, wychudzona kobieta o żółtej twarzy, bez nosa i warg, z kosą w ręku."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Narodziła się, gdy Adam i Ewa zjedli zakazany owoc."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Od Boga."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Chrystus, który zmartwychwstał."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Nie, tylko na chwilę ją opóźniają."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Danse macabre."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Pamiętaj o śmierci."
+        }
+      ]
     }
   ]
 }

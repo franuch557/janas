@@ -143,6 +143,115 @@
           "tekst": "Józef Czechowicz, związany z Lublinem i awangardą, wydawał tomy od 1927 r. („Kamień”) do 1939 r. („nuta człowiecza”). W latach 30. jego poezja stała się katastroficzna – zapowiadała wojnę i zagładę. Zginął we wrześniu 1939 r. podczas bombardowania Lublina, co dodało jego przeczuciom tragicznej wymowy."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W jakim tomie ukazał się wiersz „na wsi”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jaki środek poetycki dominuje w wierszu „na wsi”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czym jest wieś w tym wierszu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jakie cechy formy są typowe dla awangardy w wierszu „na wsi”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kiedy powstał wiersz „żal”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jakie znaki katastrofy widzi podmiot w wierszu „żal”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "W kim podmiot przewiduje, że zginie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak nazywa się postawa przeczuwająca zagładę?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Kamień” (1927)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Synestezja."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Bezpiecznym, dziecięcym schronieniem (arkadią)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Brak interpunkcji i wielkich liter, swobodny rytm, bogata metaforyka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Tuż przed wojną (tom „nuta człowiecza”, 1939)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Rozbite szyby synagog, płomienie, ryk głodnych ludów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "W oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Katastrofizm."
+        }
+      ]
     }
   ]
 }

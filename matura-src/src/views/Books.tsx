@@ -7,6 +7,7 @@ import { BOOKS, bookById, bookText, EPOCHS, epochOverview, loadOral2Pack, ORAL, 
 import { cardsFromBookPrompt, oral2Prompt, oralPrompt, parseCards, parseOralPlan } from '../logic/ai';
 import { fmtClock, plural } from '../logic/format';
 import { checkBookAnswer, type QuizVerdict } from '../logic/bookQuiz';
+import { lqRef } from '../logic/bookReview';
 import { AiStatus, imagesFor, useAi, useAiCall } from '../ui/ai';
 import { Sheetimg } from '../ui/TaskImage';
 import { MathText } from '../ui/MathText';
@@ -325,7 +326,7 @@ function QuizSection({ blocks, bookId }: { blocks: BookBlock[]; bookId: string }
       /* bez zapisu w przeglądarce */
     }
   };
-  if (order) return <QuizRun items={order.map((i) => ({ ...items[i], i }))} total={items.length} onFinish={finish} onClose={() => setOrder(null)} onRetry={(ids) => setOrder(ids)} />;
+  if (order) return <QuizRun bookId={bookId} items={order.map((i) => ({ ...items[i], i }))} total={items.length} onFinish={finish} onClose={() => setOrder(null)} onRetry={(ids) => setOrder(ids)} />;
   return (
     <div className="lk-quiz-intro">
       <div className="grow">
@@ -354,7 +355,8 @@ function QuizSection({ blocks, bookId }: { blocks: BookBlock[]; bookId: string }
   );
 }
 
-function QuizRun({ items, total, onFinish, onClose, onRetry }: { items: { q: string; a: string; i: number }[]; total: number; onFinish: (good: number) => void; onClose: () => void; onRetry: (ids: number[]) => void }) {
+function QuizRun({ bookId, items, total, onFinish, onClose, onRetry }: { bookId: string; items: { q: string; a: string; i: number }[]; total: number; onFinish: (good: number) => void; onClose: () => void; onRetry: (ids: number[]) => void }) {
+  const { tick } = useStore();
   const [pos, setPos] = useState(0);
   const [text, setText] = useState('');
   const [res, setRes] = useState<{ i: number; ok: boolean }[]>([]);
@@ -392,6 +394,8 @@ function QuizRun({ items, total, onFinish, onClose, onRetry }: { items: { q: str
   const ok = own ?? verdict === 'dobrze';
   const check = (give = false) => setVerdict(give ? 'zle' : checkBookAnswer(text, cur.a).verdict);
   const next = () => {
+    // odpowiedź trafia do powtórek (sesja powtórek wróci do pytania)
+    tick(lqRef(bookId, cur.i, ok));
     const out = [...res, { i: cur.i, ok }];
     setRes(out);
     setText('');

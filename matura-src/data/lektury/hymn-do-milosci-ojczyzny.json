@@ -127,6 +127,103 @@
           "tekst": "Krasicki napisał „Hymn” w 1774 r., wkrótce po pierwszym rozbiorze Polski (1772), dla uczniów Szkoły Rycerskiej. Potem włączył go do poematu „Myszeida” (pieśń IX). Tytuł nazywa gatunek (hymn – uroczysta pieśń pochwalna, dawniej o bogach) i jego temat: miłość ojczyzny zajmuje tu miejsce zarezerwowane wcześniej dla sacrum."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest autorem „Hymnu do miłości ojczyzny”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W jakim poemacie wydano hymn?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Ile wersów ma utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Do kogo (czego) zwraca się podmiot liryczny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto, według utworu, czuje świętą miłość ojczyzny?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jakie paradoksy pojawiają się w hymnie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Na co jest gotów patriota, jeśli może pomóc ojczyźnie?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Ignacy Krasicki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W „Myszeidzie”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Osiem (jedna strofa)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Do miłości ojczyzny (apostrofa)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Tylko ludzie szlachetni („umysły poczciwe”)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Trucizna smakuje, kajdany nie hańbią, kalectwo i blizny są powodem do chwały."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Na życie w nędzy i śmierć."
+        }
+      ]
     }
   ]
 }

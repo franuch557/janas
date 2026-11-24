@@ -175,6 +175,127 @@
           "tekst": "„Testament mój” powstał na emigracji, ok. 1839–1840 r. Słowacki, często niedoceniany za życia, wierzył w przyszłą siłę swojej poezji. Tytuł nazywa formę: testament to ostatnia wola. Poeta zostawia w nim przyjaciołom i potomnym zobowiązanie do walki o ojczyznę oraz zapowiedź, że jego słowa będą działać po śmierci (motyw *non omnis moriar*)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kiedy powstał „Testament mój”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Do kogo zwraca się poeta w „Testamencie moim”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do kogo porównuje siebie poeta wierny ojczyźnie do końca?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co poeta każe nieść przed narodem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kim mają się stać „zjadacze chleba”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się sytuacja liryczna „Grobu Agamemnona”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jak Słowacki nazywa Polskę w „Grobie Agamemnona”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki nastrój wyraża „Hymn” („Smutno mi, Boże!”)?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Do kogo skierowany jest wiersz „Rozłączenie”?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W 1840 r."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Do przyjaciół i rodaków."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do żeglarza, który nie opuścił tonącego okrętu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kaganiec oświaty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Aniołami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "W grobowcu Agamemnona w Mykenach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "„Pawiem i papugą narodów”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Smutek, samotność i tęsknotę wygnańca za domem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Do ukochanej (Aleksandry Bécu)."
+        }
+      ]
     }
   ]
 }

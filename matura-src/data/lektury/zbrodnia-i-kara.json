@@ -211,6 +211,151 @@
           "tekst": "Dostojewski wydał powieść w 1866 r. w odcinkach w piśmie „Ruskij Wiestnik”, pisząc ją w trudnej sytuacji finansowej. Tytuł oddaje kompozycję: zbrodnia zajmuje tylko pierwszą część, a reszta powieści to kara – przede wszystkim wewnętrzna, czyli męki sumienia Raskolnikowa, dopiero na końcu zesłanie na Syberię."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje „Zbrodnia i kara”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kogo zabija Raskolnikow?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Dlaczego Sonia Marmieładowa została prostytutką?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "O czym był artykuł Raskolnikowa?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kto prowadzi z Raskolnikowem grę psychologiczną?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jaką opowieść czyta Raskolnikowowi Sonia?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Kogo nazywa się „sobowtórem” Raskolnikowa?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Gdzie Raskolnikow całuje ziemię przed przyznaniem się?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Na jaką karę zostaje skazany Raskolnikow?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Co prowadzi Raskolnikowa do odrodzenia?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Powieść psychologiczna (także filozoficzna, kryminalna)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W Petersburgu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Lichwiarkę Alonę Iwanownę i jej siostrę Lizawietę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Z biedy, by utrzymać rodzinę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "O ludziach „zwykłych” i „niezwykłych”, którym wolno przekraczać prawo dla wyższych celów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Sędzia śledczy Porfiry Pietrowicz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "O wskrzeszeniu Łazarza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Swidrygajłowa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Na placu Siennym."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Na osiem lat katorgi na Syberii."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Miłość Soni, cierpienie i wiara (Ewangelia)."
+        }
+      ]
     }
   ]
 }

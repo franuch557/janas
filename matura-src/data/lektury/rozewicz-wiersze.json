@@ -165,6 +165,115 @@
           "tekst": "Różewicz był w czasie wojny żołnierzem AK. Wiersz „Ocalony” ukazał się w tomie „Niepokój” (1947). Tytuł mówi o człowieku, który przeżył wojnę fizycznie, ale utracił wiarę w wartości – ocalał ciałem, nie duszą. Różewicz stworzył poezję bez ozdób, z prostych słów, bo po Zagładzie dawna poetyka wydawała mu się kłamliwa."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W jakim tomie ukazał się wiersz „Ocalony”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Ile lat ma podmiot liryczny wiersza „Ocalony”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co stało się ze słowami i pojęciami dla ocalonego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kogo szuka podmiot w zakończeniu wiersza „Ocalony”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Do kogo zwraca się poeta w wierszu „Lament”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co przedstawia wiersz „Warkoczyk”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Czego uczy się podmiot w wierszu „W środku życia”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak nazywa się styl poezji Różewicza?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Niepokój” (1947)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dwadzieścia cztery."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Straciły znaczenie (człowiek i zwierzę, miłość i nienawiść znaczą to samo)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Nauczyciela i mistrza, który nazwie na nowo rzeczy i pojęcia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Do kapłanów, nauczycieli, sędziów i artystów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Ekspozycję włosów ofiar w muzeum w Oświęcimiu, wśród nich warkoczyk dziewczynki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Życia od nowa: nazywa rzeczy i ludzi; człowieka trzeba kochać."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Poezja ściśnięta (wiersz wolny)."
+        }
+      ]
     }
   ]
 }

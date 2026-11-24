@@ -160,6 +160,115 @@
           "tekst": "Tetmajer wydawał kolejne serie „Poezji” od 1891 r. i stał się najpopularniejszym poetą wczesnej Młodej Polski. „Koniec wieku XIX” i „Hymn do Nirwany” wyrażają dekadentyzm – poczucie schyłku cywilizacji, zwątpienie i pragnienie ucieczki od cierpienia. Tytuły nazywają czas (przełom wieków) albo cel tęsknoty (nirwana – w buddyzmie stan wyzwolenia z cierpienia)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaką postawę wyraża wiersz „Koniec wieku XIX”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Do czego porównana jest walka w „Końcu wieku XIX”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak kończy się „Koniec wieku XIX”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czym jest Nirwana w „Hymnie do Nirwany”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaką modlitwę przypomina forma „Hymnu do Nirwany”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Czym jest miłość zmysłowa w wierszu „Lubię, kiedy kobieta…”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się „Melodia mgieł nocnych”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki styl reprezentuje „Melodia mgieł nocnych”?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Dekadentyzm (manifest dekadentyzmu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Do oporu mrówki wobec pędzącego pociągu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Człowiek końca wieku w milczeniu zwiesza głowę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Stanem wygaśnięcia pragnień i świadomości (zapomnieniem)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "„Ojcze nasz”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Sposobem ucieczki od cierpienia i nudy istnienia."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Nad Czarnym Stawem Gąsienicowym w Tatrach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Impresjonizm."
+        }
+      ]
     }
   ]
 }

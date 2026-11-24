@@ -174,6 +174,115 @@
           "tekst": "Baczyński pisał w okupowanej Warszawie, w latach 1941–1944, wydając tomiki w konspiracji. Należał do pokolenia Kolumbów – młodych, którym wojna odebrała młodość. Zginął w drugim dniu powstania warszawskiego (4 sierpnia 1944). Tytuły jego wierszy często nazywają gatunek („Elegia o… [chłopcu polskim]”) albo bohatera zbiorowego („Pokolenie”)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W jakich latach powstały wiersze Baczyńskiego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jakie zdanie powtarza się w wierszu „Pokolenie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co wojna odebrała pokoleniu w wierszu „Pokolenie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Z jakim eposem zestawia poeta pamięć o swoim pokoleniu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto mówi w „Elegii o… [chłopcu polskim]”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jakim pytaniem kończy się „Elegia…”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Czym kontrastuje pieszczotliwy ton „Elegii…”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak nazywa się pokolenie Baczyńskiego?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "1940–1944."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "„Nas nauczono”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Litość, sumienie i miłość."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Z „Iliadą”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Matka (zbiorowy głos) mówiąca do syna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Czy zabiła go kula, czy pękło mu serce."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Z okrucieństwem wojny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Pokolenie Kolumbów."
+        }
+      ]
     }
   ]
 }

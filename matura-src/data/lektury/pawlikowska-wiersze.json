@@ -155,6 +155,103 @@
           "tekst": "Maria Pawlikowska-Jasnorzewska, córka malarza Wojciecha Kossaka, związana była ze Skamandrem. Tom „Pocałunki” (1926) przyniósł jej sławę krótkich miniatur lirycznych o miłości, przemijaniu i kobiecości. Tytuły jej wierszy często są pointą albo kluczem do zrozumienia kilkuwersowego utworu."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak nazywa się tom miniatur Pawlikowskiej-Jasnorzewskiej z 1926 r.?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jak długo kobieta z wiersza „Miłość” nie widziała ukochanego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaka jest puenta wiersza „Miłość”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co zostaje po szczęściu w wierszu „Fotografia”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Do jakiego posągu porównana jest miłość w wierszu „Nike”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Do jakich form japońskich nawiązują „Pocałunki”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Czym kończą się miniatury poetki?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Pocałunki”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Od miesiąca."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Można żyć bez powietrza – miłość była jak oddech."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Tylko zdjęcie – a to bardzo mało."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Do posągu Nike z Samotraki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Do haiku i tanki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Zaskakującą puentą."
+        }
+      ]
     }
   ]
 }

@@ -164,6 +164,115 @@
           "tekst": "Opowiadanie Andrzeja Stasiuka weszło do tomu „Opowieści galicyjskie” (1995). Stasiuk osiadł w Beskidzie Niskim, na ziemiach dawnych Łemków. Tytuł „Miejsce” nazywa puste miejsce po rozebranej cerkwi – ślad, który przechowuje pamięć o ludziach i kulturze, które zniknęły."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W jakim tomie ukazało się opowiadanie „Miejsce”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gdzie mieszka narrator?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co rozebrano i dokąd to wywieziono?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co zostało po rozebranej świątyni?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kogo narrator oprowadza po pustym miejscu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co robi narrator, skoro nikt nie pamięta początków cerkwi?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co narrator znajduje w trawie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jakiej społeczności dotyczy pamięć miejsca?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W „Opowieściach galicyjskich”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Na wsi w Beskidzie Niskim."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Starą drewnianą cerkiew; wywieziono ją do muzeum."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Prostokąt szarej, gliniastej ziemi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Przyjezdnego turystę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Wyobraża sobie jej budowę przed wiekami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Pokruszone gonty i gwoździe."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Łemków."
+        }
+      ]
     }
   ]
 }

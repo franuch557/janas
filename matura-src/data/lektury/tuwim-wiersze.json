@@ -159,6 +159,115 @@
           "tekst": "Tuwim był współzałożycielem grupy poetyckiej Skamander (1918–1919), która pisała o codzienności i zwykłym człowieku. W latach 30. tworzył ostrą satyrę społeczną i polityczną. „Mieszkańcy” (1932) to drwina z mieszczańskiej przeciętności – tytuł nazywa zbiorowość ludzi, którzy tylko mieszkają, a nie naprawdę żyją."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Do kogo zwraca się poeta w wierszu „Do prostego człowieka”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto według Tuwima wywołuje wojny i po co?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do czego poeta wzywa w tym wierszu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Dlaczego wiersz wywołał skandal?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kogo krytykuje wiersz „Mieszkańcy”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jakie motta poprzedzają „Bal w operze”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co obnaża „Bal w operze”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Do jakiej grupy poetyckiej należał Tuwim?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Do zwykłego człowieka z każdego kraju."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Bogacze i politycy – dla ropy, pieniędzy i ceł."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "By rzucić karabin i nie przelewać krwi za cudze interesy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Bo był pacyfistyczny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Mieszczan (filisterstwo, bezmyślność, duchową martwotę)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Motta z Apokalipsy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Korupcję, rozpasanie i pogardę elit władzy dla zwykłych ludzi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Do Skamandra."
+        }
+      ]
     }
   ]
 }

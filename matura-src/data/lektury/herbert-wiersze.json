@@ -191,6 +191,127 @@
           "tekst": "Herbert stworzył postać Pana Cogito w tomie „Pan Cogito” (1974); „Przesłanie Pana Cogito” zamyka ten tom. Imię nawiązuje do zdania Kartezjusza *Cogito, ergo sum* („Myślę, więc jestem”) – Pan Cogito to człowiek myślący, który ocenia świat i wybiera wierność wartościom mimo przegranej."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kim jest Pan Cogito?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Po co, według „Przesłania Pana Cogito”, ocalałeś?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jakich bohaterów przywołuje „Przesłanie Pana Cogito”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kto przemawia w „Trenie Fortynbrasa” i nad czyim ciałem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jakie dwie postawy zderza „Tren Fortynbrasa”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Czego, według „Potęgi smaku”, wymagał opór wobec totalitaryzmu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co zapowiada kronikarz, jeśli Miasto padnie, a ocaleje jeden?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaką karę wymierza Apollo Marsjaszowi?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "O co pyta wiersz „Apollo i Marsjasz”?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Alter ego poety – myślący inteligent wierny wartościom."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Nie po to, by żyć, lecz by dawać świadectwo."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Gilgamesza, Hektora, Rolanda."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Fortynbras nad ciałem Hamleta."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Idealizm (Hamlet) i pragmatyzm władzy (Fortynbras)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Nie charakteru, lecz smaku (estetyka jako podstawa etyki)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Że będzie niósł Miasto w sobie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Obdzieranie ze skóry."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "O relację sztuki i cierpienia."
+        }
+      ]
     }
   ]
 }

@@ -112,6 +112,115 @@
           "tekst": "Tytuł pochodzi od pierwszego słowa utworu (*incipit*) – „Bogurodzica”, czyli „Rodzicielka Boga” (odpowiednik greckiego tytułu Maryi *Theotokos*)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest autorem „Bogurodzicy”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z kiedy pochodzi najstarszy zapis pieśni?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do kogo zwraca się podmiot w pierwszej zwrotce?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Do kogo zwraca się podmiot w drugiej zwrotce?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Na czym polega motyw Deesis?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "O co proszą wierni?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przed jaką bitwą śpiewano „Bogurodzicę”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki światopogląd wyraża pieśń?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Autor anonimowy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z początku XV wieku (ok. 1407 r.)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do Matki Boskiej (Bogurodzicy Dziewicy)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Do Jezusa Chrystusa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Na pośrednictwie: Maryja i Jan Chrzciciel wstawiają się za ludźmi u Chrystusa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "O pobożne („zbożne”) życie na ziemi i zbawienie („rajski przebyt”) po śmierci."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przed bitwą pod Grunwaldem (1410)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Średniowieczny teocentryzm (hierarchiczny porządek świata)."
+        }
+      ]
     }
   ]
 }

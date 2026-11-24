@@ -200,6 +200,139 @@
           "tekst": "Sienkiewicz drukował „Potop” w odcinkach w latach 1884–1886; to druga część „Trylogii”, pisanej „ku pokrzepieniu serc” w czasie zaborów. Tytuł jest metaforą najazdu szwedzkiego z lat 1655–1660, który zalał Rzeczpospolitą jak biblijny potop. Tak jak po potopie odrodził się świat, tak Polska i główny bohater, Kmicic, odradzają się po klęsce."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Którą częścią Trylogii jest „Potop”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W którym roku zaczyna się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kogo zgodnie z testamentem dziadka ma poślubić Oleńka?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Kto pokonuje Kmicica w pojedynku, ale go oszczędza?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Co zawiera Janusz Radziwiłł ze Szwedami?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Pod jakim nazwiskiem Kmicic walczy za króla?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Kto kieruje obroną Jasnej Góry?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Czego dokonuje Kmicic podczas obrony Jasnej Góry?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jak Oleńka i szlachta dowiadują się o zasługach Kmicica?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "W jakim celu Sienkiewicz pisał Trylogię?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Częścią II."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W 1655 r."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Andrzeja Kmicica."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Michał Wołodyjowski."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Ugodę kiejdańską (zdradza króla Jana Kazimierza)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Babinicz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przeor Augustyn Kordecki."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Wysadza ogromne szwedzkie działo (kolubrynę)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Z listu króla odczytanego w kościele w Upicie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "„Ku pokrzepieniu serc” w czasach zaborów."
+        }
+      ]
     }
   ]
 }

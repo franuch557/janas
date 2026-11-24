@@ -163,6 +163,139 @@
           "tekst": "Kochanowski pisał pieśni przez całe życie, wzorując się na Horacym. Zbiór „Pieśni ksiąg dwoje” ukazał się pośmiertnie w 1586 r. Tytuł nazywa gatunek – pieśń, czyli utwór liryczny o regularnej budowie, pierwotnie przeznaczony do śpiewu. Poszczególne pieśni oznacza się numerem księgi i utworu albo pierwszymi słowami (np. Pieśń XXV z Ksiąg wtórych „Czego chcesz od nas, Panie”)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W jakim zbiorze wydano pieśni Kochanowskiego i kiedy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Do czego zaprasza poeta na początku Pieśni IX z Ksiąg pierwszych?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kto według Pieśni IX zna przyszłość?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak mądry człowiek powinien znosić szczęście i nieszczęście?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Co jest metaforą życiowych przeciwności w Pieśni IX?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Na jakie wydarzenie reaguje „Pieśń o spustoszeniu Podola”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Dzięki czemu, według poety, wrogowie zwyciężają?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Do czego poeta wzywa szlachtę w Pieśni V?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jakie przysłowie przywołuje Kochanowski na końcu Pieśni V?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Z jakiego antycznego poety czerpie podmiot Pieśni IX?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "W zbiorze „Pieśni księgi dwoje”, wydanym w 1586 r."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Do biesiady (wino i muzyka)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Tylko Bóg."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W złym losie wytrwać, w dobrym się nie wywyższać."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Burza na morzu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Na najazd tatarski na Podole (1575)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Dzięki nierządowi Rzeczypospolitej."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Do pomszczenia krzywd i ofiarności (przetopienia srebra na pieniądze dla wojska)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Że Polak jest głupi i przed szkodą, i po szkodzie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Z Horacego."
+        }
+      ]
     }
   ]
 }

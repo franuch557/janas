@@ -215,6 +215,139 @@
           "tekst": "Reymont wydawał „Chłopów” w latach 1904–1909, w czterech tomach: „Jesień”, „Zima”, „Wiosna”, „Lato”. W 1924 r. otrzymał za tę powieść Nagrodę Nobla. Tytuł wskazuje bohatera zbiorowego – społeczność wsi Lipce, której życie toczy się w rytmie pór roku, prac polowych i świąt kościelnych."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak nazywają się cztery tomy „Chłopów”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W jakiej wsi toczy się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Z kim żeni się Maciej Boryna?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Ile morgów zapisał Boryna Jagnie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak umiera parobek Kuba?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co dzieje się podczas bójki o las?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Kto gospodaruje, gdy mężczyźni są w więzieniu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak umiera Maciej Boryna?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W kim zakochuje się Jagna w tomie „Lato”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jak gromada karze Jagnę?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jesień, Zima, Wiosna, Lato."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W Lipcach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Z Jagną Paczesiówną."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Sześć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Postrzelony w nogę, sam ją odcina z obawy przed szpitalem i umiera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Gajowy ciężko rani Borynę, a Antek zabija gajowego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Hanka (kobiety same pracują w polu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "W malignie wychodzi na pole, wykonuje gest siania i umiera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W Jasiu, synu organisty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Wywozi ją za opłotki na wozie z gnojem i porzuca."
+        }
+      ]
     }
   ]
 }

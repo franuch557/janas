@@ -360,7 +360,7 @@
 7. Nie zna języka i nie rozumie, co się dzieje.
 8. Sen o wronie.
 9. Olga Tokarczuk.
-10. Bohater zostaje ocalony i może wrócić do domu (szczegóły sprawdź w tekście).
+10. Bohater zostaje ocalony i może wrócić do domu.
 11. Obcy widzi absurd sytuacji wyraźniej niż ci, którzy w niej żyją.
 12. Teorie psychologa okazują się bezradne wobec rzeczywistości.
 13. Od pewnego siebie optymisty do zagubionego człowieka.

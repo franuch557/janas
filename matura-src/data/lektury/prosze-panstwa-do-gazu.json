@@ -185,6 +185,127 @@
           "tekst": "Borowski był więźniem Auschwitz i Dachau; opowiadanie oparł na własnych przeżyciach. Ukazało się po wojnie, potem w tomie „Pożegnanie z Marią” (1948). Tytuł to grzeczna formuła, którą wypowiada się przy rampie wobec ludzi idących do komory gazowej – zderzenie uprzejmości z zagładą pokazuje, jak obóz odwrócił znaczenie słów i wartości."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki rodzaj opowiadania reprezentuje utwór?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gdzie rozgrywa się akcja?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kim jest narrator?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Czym zajmuje się komando „Kanada”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Skąd przyjeżdża transport?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co robi młoda matka na rampie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przeciw komu narrator kieruje swoją wściekłość?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Co oznacza pojęcie „zlagrowanie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jak kończy się opowiadanie?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Opowiadanie behawiorystyczne."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "W Auschwitz-Birkenau."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Tadek, więzień-Polak."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Rozładowuje pociągi z transportami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Z Sosnowca i Będzina."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Wypiera się własnego dziecka, by ocaleć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przeciw ofiarom, a nie oprawcom."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Przemianę człowieka w obozie (rozpad wartości moralnych)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Nad krematoriami unoszą się słupy dymu, zapowiada się kolejny upalny dzień."
+        }
+      ]
     }
   ]
 }

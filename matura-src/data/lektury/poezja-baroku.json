@@ -191,6 +191,127 @@
           "tekst": "Wiersze powstały od końca XVI do końca XVII w. Sonety Mikołaja Sępa Szarzyńskiego wydano pośmiertnie w 1601 r. w tomie „Rytmy abo wiersze polskie”, utwory Naborowskiego i Morsztyna krążyły głównie w odpisach. Nazwa epoki pochodzi prawdopodobnie od portugalskiego *barocco* – „perła o nieregularnym kształcie”, co oddaje upodobanie baroku do kontrastu, przepychu i zaskoczenia."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentują wiersze Sępa Szarzyńskiego omawiane w opracowaniu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z jakimi trzema wrogami walczy człowiek w Sonecie IV Sępa Szarzyńskiego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Gdzie człowiek może znaleźć nadzieję na zwycięstwo w tej walce?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co według Sonetu V oszukuje duszę człowieka?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Do czego Naborowski porównuje życie w „Krótkości żywota”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co radzi Naborowski w wierszu „Marność”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Do kogo porównuje się zakochany w sonecie Morsztyna „Do trupa”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jak nazywa się zaskakujące zestawienie, na którym zbudowany jest ten sonet?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Co oznacza motyw vanitas?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Sonet."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Z szatanem, światem i ciałem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Tylko w Bogu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Miłość do rzeczy ziemskich (złota, władzy, sławy, piękna), jeśli nie jest skierowana ku Bogu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Do dźwięku, cienia, dymu, wiatru, błysku, punktu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kochać i żartować pobożnie i uczciwie, a nade wszystko bać się Boga."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Do trupa (leżącego zmarłego)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Koncept."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Marność dóbr ziemskich."
+        }
+      ]
     }
   ]
 }

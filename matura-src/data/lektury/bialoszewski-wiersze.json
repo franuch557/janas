@@ -155,6 +155,91 @@
           "tekst": "Białoszewski debiutował tomem „Obroty rzeczy” (1956). Pisał o przedmiotach codziennych, odkrywając w nich piękno, i bawił się językiem (poezja lingwistyczna): przekształcał słowa, tworzył neologizmy. Tytuły jego wierszy często same są grą językową („Szare eminencje zachwytu”)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak nazywa się debiutancki tom Białoszewskiego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jaki ruch naśladuje wiersz „Karuzela z madonnami”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kim są „szare eminencje zachwytu”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak opisane jest wyjście do sklepu w „Balladzie od zejścia do sklepu”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Z czego cieszy się podmiot „Mojej niewyczerpanej ody do radości”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jak nazywa się nurt poezji Białoszewskiego?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Obroty rzeczy” (1956)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Ruch kręcącej się karuzeli."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Zwykłe przedmioty codziennego użytku (piec, garnek, kuchnia, ściana)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak wielka wyprawa w stylu ballady i eposu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Z samego istnienia i ubogiej codzienności."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Poezja lingwistyczna (lingwizm)."
+        }
+      ]
     }
   ]
 }

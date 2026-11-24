@@ -139,6 +139,127 @@
           "tekst": "Tytuł *Iliada* pochodzi od greckiej nazwy Troi – **Ilion** (pieśń o Ilionie). Utwór opisuje zaledwie kilkadziesiąt dni z dziesiątego, ostatniego roku wojny trojańskiej, koncentrując się wokół gniewu Achillesa i jego konsekwencji."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje „Iliada”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jaki jest główny temat utworu zapowiedziany w inwokacji?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Z kim żegna się Hektor w Księdze VI?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Dlaczego Achilles staje do walki z Hektorem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Co robi Achilles ze zwłokami Hektora?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kto przychodzi do Achillesa po ciało Hektora?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Dlaczego Achilles zgadza się wydać ciało?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Czyim synem jest Achilles?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Co Hektor stawia ponad życie rodzinne?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Epos bohaterski (heroiczny)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Gniew Achillesa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Z żoną Andromachą i synkiem Astyanaksem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Chce pomścić śmierć przyjaciela Patroklosa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Bezcześci je: przywiązuje do rydwanu i włóczy wokół murów Troi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Król Troi Priam, ojciec Hektora."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Poruszył go widok cierpiącego ojca, który przypomina mu jego ojca Peleusa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Peleusa i bogini Tetydy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Honor i obronę ojczyzny."
+        }
+      ]
     }
   ]
 }

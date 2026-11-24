@@ -130,6 +130,115 @@
           "tekst": "Tytuł pochodzi od miejsca przechowywania rękopisu – klasztoru Benedyktynów na Świętym Krzyżu (Łysej Górze) – oraz od gatunku utworu (lamentu). Drugi tytuł to incipit (pierwsze słowa utworu): *Posłuchajcie, bracia miła*."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje „Lament świętokrzyski”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto jest podmiotem lirycznym?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do kogo Maryja zwraca się na początku utworu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Dlaczego Maryja nie może ulżyć Synowi?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Co Maryja wyrzuca Archaniołowi Gabrielowi?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "O co prosi inne matki?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jak nazywa się motyw matki cierpiącej po śmierci dziecka?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Czym różni się obraz Maryi od tego z „Bogurodzicy”?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Plankt (pieśń żałobna, skarga)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Maryja (Matka Boska) stojąca pod krzyżem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Do wszystkich ludzi („bracia miła”)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Nie może dosięgnąć jego ciała wiszącego wysoko na krzyżu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Że obiecywał jej radość, a spotkała ją rozpacz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "By modliły się, żeby nigdy nie patrzyły na śmierć swoich dzieci."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Mater Dolorosa (Matka Boleściwa)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Nie ma królewskiego majestatu; to zwykła, zrozpaczona matka."
+        }
+      ]
     }
   ]
 }

@@ -8,8 +8,12 @@ import { SUBJECTS, subjectDef, type SubjectId } from '../model';
 import { useStore } from '../store/AppStore';
 import type { AppTask } from '../store/derived';
 import { scoreClosed } from '../logic/scoring';
-import { autoRate, buildSession, dueCount, memoryMap, postponed, postponeRef, previewNext, RATES, whenLabel, type Rate, type ReviewMode, type TopicMemory } from '../logic/review';
+import { autoRate, buildSession, dueCount, memoryMap, memStatus, postponed, postponeRef, previewNext, RATES, whenLabel, type Rate, type ReviewMode, type TopicMemory } from '../logic/review';
 import { dni, fmtClock, plural, zadan } from '../logic/format';
+import { bookRecords, dueBookQuestions, lqRef, mixBookQuestions, parseLq } from '../logic/bookReview';
+import { checkBookAnswer, type QuizVerdict } from '../logic/bookQuiz';
+import { NEW_SRS, nextSrs, type SrsState } from '../logic/srs';
+import { bookById, BOOKS, bookQuiz } from '../store/books';
 import { topicName } from '../data/taxonomy';
 import { TIPS } from '../data/wskazowki';
 import { AnswerCard, checkMessage, SelfGrade } from '../ui/AnswerCard';
@@ -34,7 +38,19 @@ function usePool() {
   const pool = useMemo(() => subjects.flatMap((s) => d.available[s]).filter((t) => !t.essay), [d.available, subjects.join()]); // eslint-disable-line react-hooks/exhaustive-deps
   const srs = useMemo(() => new Map([...d.records].map(([k, v]) => [k, v.srs])), [d.records]);
   const skip = useMemo(() => postponed(d.active.ticks, today), [d.active.ticks, today]);
-  return { pool, srs, skip, subjects };
+  // pytania z lektur (polski): stan powtórek z odpowiedzi w quizach
+  const bookRecs = useMemo(() => bookRecords(d.active.ticks), [d.active.ticks]);
+  const bookDue = useMemo(
+    () =>
+      subjects.includes('pol-p')
+        ? dueBookQuestions(bookRecs, today, skip).filter((k) => {
+            const p = parseLq(k);
+            return !!p && p.i < bookQuiz(p.book).length;
+          })
+        : [],
+    [bookRecs, today, skip, subjects.join()], // eslint-disable-line react-hooks/exhaustive-deps
+  );
+  return { pool, srs, skip, subjects, bookRecs, bookDue };
 }
 
 interface Settings {
@@ -58,7 +74,7 @@ export function ReviewView({ subject, topic }: { subject: SubjectId | null; topi
 
 function Setup({ subject, topic, settings, onSettings, onStart }: { subject: SubjectId | null; topic: string | null; settings: Settings; onSettings: (s: Settings) => void; onStart: (ids: string[], minutes: number) => void }) {
   const { d, today } = useStore();
-  const { pool, srs, skip, subjects } = usePool();
+  const { pool, srs, skip, subjects, bookDue } = usePool();
   const { minutes, mode } = settings;
   const chosen = (settings.chosen ?? subjects).filter((s) => subjects.includes(s));
   const picked = chosen.length ? chosen : subjects;
@@ -66,7 +82,12 @@ function Setup({ subject, topic, settings, onSettings, onStart }: { subject: Sub
   const setMode = (m: ReviewMode) => onSettings({ ...settings, mode: m });
   const opts = { minutes, mode, subjects: picked, topic, today, priority: (s: string, tp: string) => d.priorities[s as SubjectId]?.[tp] ?? 0 };
   const set = useMemo(() => buildSession(pool, srs, skip, opts), [pool, srs, skip, minutes, mode, picked.join(), topic]); // eslint-disable-line react-hooks/exhaustive-deps
-  const due = dueCount(pool, srs, skip, picked, today, topic);
+  const withBooks = !topic && mode !== 'nowe' && picked.includes('pol-p');
+  const books = withBooks ? bookDue : [];
+  const taskMin = set.reduce((a, t) => a + Math.max(1, t.minutes), 0);
+  const ids = mixBookQuestions(set.map((t) => t.id), taskMin, books, minutes);
+  const nBooks = ids.length - set.length;
+  const due = dueCount(pool, srs, skip, picked, today, topic) + (withBooks ? bookDue.length : 0);
   const toggle = (s: SubjectId) => onSettings({ ...settings, chosen: picked.includes(s) ? (picked.length > 1 ? picked.filter((x) => x !== s) : picked) : [...picked, s] });
   return (
     <div className="focus rv">
@@ -126,9 +147,9 @@ function Setup({ subject, topic, settings, onSettings, onStart }: { subject: Sub
           ) : null}
           <div className="rv-start">
             <p className="muted small" aria-live="polite">
-              {set.length ? `${zadan(set.length)}, około ${set.reduce((a, t) => a + Math.max(1, t.minutes), 0)} min.` : mode === 'powtorki' ? 'Na dziś nie ma powtórek. Wybierz „Mieszane” albo „Nowe zadania”.' : d.packsLoading ? 'Ładowanie zadań…' : 'Brak zadań dla tych ustawień.'}
+              {ids.length ? `${set.length ? zadan(set.length) : ''}${set.length && nBooks ? ' i ' : ''}${nBooks ? plural(nBooks, `${nBooks} pytanie z lektur`, `${nBooks} pytania z lektur`, `${nBooks} pytań z lektur`) : ''}, około ${taskMin + nBooks} min.` : mode === 'powtorki' ? 'Na dziś nie ma powtórek. Wybierz „Mieszane” albo „Nowe zadania”.' : d.packsLoading ? 'Ładowanie zadań…' : 'Brak zadań dla tych ustawień.'}
             </p>
-            <button type="button" className="btn btn-primary btn-block btn-lg" disabled={!set.length} onClick={() => onStart(set.map((t) => t.id), minutes)}>
+            <button type="button" className="btn btn-primary btn-block btn-lg" disabled={!ids.length} onClick={() => onStart(ids, minutes)}>
               Zacznij sesję
             </button>
           </div>
@@ -166,6 +187,7 @@ function SessionClock({ start, minutes, active }: { start: number; minutes: numb
 
 function Runner({ ids, minutes, onAgain }: { ids: string[]; minutes: number; onAgain: () => void }) {
   const { d, today, saveResult, tick } = useStore();
+  const bookRecs = useMemo(() => bookRecords(d.active.ticks), [d.active.ticks]);
   const [queue, setQueue] = useState<string[]>(ids);
   const [requeued, setRequeued] = useState<Set<string>>(new Set());
   const [pos, setPos] = useState(0);
@@ -208,7 +230,23 @@ function Runner({ ids, minutes, onAgain }: { ids: string[]; minutes: number; onA
     tick(postponeRef(t.id, 1));
     advance('odl');
   };
-  const retry = !!t && queue.slice(0, pos).includes(t.id);
+  const retry = !!id && queue.slice(0, pos).includes(id);
+  const bookRated = (key: string, ok: boolean) => {
+    const prev = bookRecs.get(key);
+    const p = parseLq(key)!;
+    tick(lqRef(p.book, p.i, ok));
+    const rate: Rate = !ok ? 1 : retry ? 2 : 4;
+    setDone((x) => [...x.filter((y) => y.id !== key), { id: key, rate, next: nextSrs(prev ?? NEW_SRS, ok ? 100 : 0, today).nextReview }]);
+    if (!ok && !requeued.has(key)) {
+      setQueue((q) => [...q, key]);
+      setRequeued((s) => new Set(s).add(key));
+    }
+    advance(rate);
+  };
+  const laterBook = (key: string) => {
+    tick(postponeRef(key, 1));
+    advance('odl');
+  };
 
   return (
     <div className="focus rv">
@@ -229,6 +267,8 @@ function Runner({ ids, minutes, onAgain }: { ids: string[]; minutes: number; onA
       <div className="focus-body">
         {finished ? (
           <Summary done={done} onAgain={onAgain} />
+        ) : id?.startsWith('lq:') ? (
+          <BookStep key={`${id}-${pos}`} qkey={id} prev={bookRecs.get(id)} nr={pos + 1} total={queue.length} retry={retry} onDone={(ok) => bookRated(id, ok)} onLater={() => laterBook(id)} />
         ) : !t ? (
           <Empty text={d.packsLoading ? 'Ładowanie zadań…' : 'Nie znaleziono zadania.'} action={{ label: 'Pomiń', run: () => advance('pom') }} />
         ) : (
@@ -385,6 +425,91 @@ function Step({ t, nr, total, retry, onRated, onLater }: { t: AppTask; nr: numbe
   );
 }
 
+// ---------- pytanie z lektury ----------
+
+function BookStep({ qkey, prev, nr, total, retry, onDone, onLater }: { qkey: string; prev: SrsState | undefined; nr: number; total: number; retry: boolean; onDone: (ok: boolean) => void; onLater: () => void }) {
+  const { today } = useStore();
+  const p = parseLq(qkey)!;
+  const item = bookQuiz(p.book)[p.i];
+  const entry = BOOKS.find((b) => b.id === p.book);
+  const [text, setText] = useState('');
+  const [verdict, setVerdict] = useState<QuizVerdict | null>(null);
+  const [own, setOwn] = useState<boolean | null>(null);
+  const inRef = useRef<HTMLTextAreaElement>(null);
+  const nextRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    (verdict ? nextRef.current : inRef.current)?.focus({ preventScroll: true });
+  }, [!!verdict]); // eslint-disable-line react-hooks/exhaustive-deps
+  if (!item || !bookById(p.book)) return <Empty text="Nie znaleziono pytania." action={{ label: 'Pomiń', run: onLater }} />;
+  const ok = own ?? verdict === 'dobrze';
+  const check = (give = false) => setVerdict(give ? 'zle' : checkBookAnswer(text, item.a).verdict);
+  return (
+    <div className="page rv-step">
+      <div className="meta">
+        <span className="small muted tnum">
+          {nr} / {total}
+        </span>
+        <SubjectTag id="pol-p" />
+        <span className="small muted">{entry ? `${entry.tytul} – ${entry.autor}` : 'Lektura'}</span>
+        <span className="tag ink">{retry ? 'jeszcze raz' : 'pytanie z lektury'}</span>
+      </div>
+      <div className="lk-quiz-card">
+        <label htmlFor="rv-lq-in" className="lk-quiz-q">
+          {item.q}
+        </label>
+        <textarea
+          id="rv-lq-in"
+          ref={inRef}
+          rows={2}
+          value={text}
+          readOnly={!!verdict}
+          placeholder="Twoja odpowiedź…"
+          onChange={(e) => setText(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+              e.preventDefault();
+              if (!verdict && text.trim()) check();
+            }
+          }}
+        />
+        {!verdict ? (
+          <div className="lk-q-actions">
+            <button type="button" className="btn btn-primary btn-sm" disabled={!text.trim()} onClick={() => check()}>
+              Sprawdź
+            </button>
+            <button type="button" className="btn btn-quiet btn-sm" onClick={() => check(true)}>
+              Nie wiem
+            </button>
+            <button type="button" className="lk-link" onClick={onLater}>
+              Odłóż na później
+            </button>
+          </div>
+        ) : (
+          <div className={`lk-quiz-answer ${ok ? 'ok' : verdict === 'czesciowo' && own == null ? 'part' : 'bad'}`} aria-live="polite">
+            <p>
+              <span className="lk-quiz-mark">{ok ? 'Dobrze' : verdict === 'czesciowo' && own == null ? 'Prawie' : text.trim() ? 'Inaczej niż w kluczu' : 'Odpowiedź'}</span> {item.a}
+            </p>
+            <p className="small muted">Następna powtórka {whenLabel(nextSrs(prev ?? NEW_SRS, ok ? 100 : 0, today).nextReview, today)}{!ok && !retry ? '; wróci też na koniec tej sesji' : ''}.</p>
+            <div className="lk-q-actions">
+              <button ref={nextRef} type="button" className="btn btn-primary btn-sm" onClick={() => onDone(ok)}>
+                Dalej
+              </button>
+              {text.trim() ? (
+                <button type="button" className="lk-link" onClick={() => setOwn(!ok)}>
+                  {ok ? 'Jednak źle' : 'Miałem dobrze'}
+                </button>
+              ) : null}
+              <button type="button" className="lk-link" onClick={() => go({ name: 'lektura', id: p.book })}>
+                Otwórz opracowanie
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 // ---------- karta odpowiedzi ----------
 
 type Tab = 'odp' | 'rozw' | 'wsk' | 'bledy';
@@ -526,6 +651,15 @@ function AnswerPanel({ t }: { t: AppTask }) {
 
 // ---------- podsumowanie ----------
 
+/** Opis liczby obok wyniku: zadania, pytania z lektur albo oba rodzaje. */
+function doneLabel(done: Done[]): string {
+  const q = done.filter((x) => x.id.startsWith('lq:')).length;
+  const t = done.length - q;
+  if (!q) return plural(t, 'zadanie', 'zadania', 'zadań');
+  if (!t) return plural(q, 'pytanie z lektur', 'pytania z lektur', 'pytań z lektur');
+  return `${plural(done.length, 'pozycja', 'pozycje', 'pozycji')} (${zadan(t)}, pytania z lektur: ${q})`;
+}
+
 function Summary({ done, onAgain }: { done: Done[]; onAgain: () => void }) {
   const { d, today } = useStore();
   const by = (r: Rate) => done.filter((x) => x.rate === r).length;
@@ -537,7 +671,7 @@ function Summary({ done, onAgain }: { done: Done[]; onAgain: () => void }) {
       <div className="rv-hero">
         <span className="rv-hero-num tnum">{done.length}</span>
         <div>
-          <h1>{plural(done.length, 'zadanie', 'zadania', 'zadań')} za tobą</h1>
+          <h1>{doneLabel(done)} za tobą</h1>
           <p className="muted">Seria: {dni(d.streak)}. Każda sesja liczy się do celu dnia.</p>
         </div>
       </div>
@@ -555,7 +689,7 @@ function Summary({ done, onAgain }: { done: Done[]; onAgain: () => void }) {
           <ul className="topic-list">
             {Object.entries(nexts).map(([k, n]) => (
               <li key={k}>
-                {k}: {zadan(n)}
+                {k}: {plural(n, `${n} pozycja`, `${n} pozycje`, `${n} pozycji`)}
               </li>
             ))}
           </ul>
@@ -584,6 +718,31 @@ const STATUS: { k: keyof TopicMemory['counts']; label: string }[] = [
   { k: 'utrwalone', label: 'utrwalone' },
   { k: 'nowe', label: 'nowe' },
 ];
+
+function BookMemory() {
+  const { today } = useStore();
+  const { bookRecs, bookDue } = usePool();
+  const total = useMemo(() => BOOKS.reduce((a, b) => a + bookQuiz(b.id).length, 0), []);
+  const counts = { powtorka: 0, nauka: 0, utrwalone: 0, nowe: 0 };
+  for (const st of bookRecs.values()) counts[memStatus(st, today)]++;
+  counts.nowe = Math.max(0, total - bookRecs.size);
+  return (
+    <div className="rv-topic">
+      <div className="rv-topic-head">
+        <div className="grow">
+          <strong>Pytania z lektur</strong>
+          <span className="small muted">{bookDue.length ? `${bookDue.length} do powtórki dziś` : bookRecs.size ? `odpowiedziane: ${bookRecs.size} z ${total}` : 'Zacznij quiz w dowolnej lekturze.'}</span>
+        </div>
+        <button type="button" className="btn btn-secondary btn-sm" onClick={() => go(bookDue.length ? '#powtorki' : '#lektury')}>
+          {bookDue.length ? 'Powtórz' : 'Lektury'}
+        </button>
+      </div>
+      <div className="rv-bar" role="img" aria-label={STATUS.map((x) => `${x.label}: ${counts[x.k]}`).join(', ')}>
+        {STATUS.map((x) => (counts[x.k] ? <span key={x.k} className={`st-${x.k}`} style={{ flexGrow: counts[x.k] }} /> : null))}
+      </div>
+    </div>
+  );
+}
 
 export function MemoryMapView() {
   const { today } = useStore();
@@ -619,6 +778,7 @@ export function MemoryMapView() {
           </div>
         ))}
       </div>
+      {subj === 'pol-p' ? <BookMemory /> : null}
       {!list.length ? (
         <Empty text="Brak zadań w tym przedmiocie." />
       ) : (
@@ -671,8 +831,8 @@ export function MemoryMapView() {
 
 export function ReviewCard() {
   const { today } = useStore();
-  const { pool, srs, skip, subjects } = usePool();
-  const due = dueCount(pool, srs, skip, subjects, today);
+  const { pool, srs, skip, subjects, bookDue } = usePool();
+  const due = dueCount(pool, srs, skip, subjects, today) + bookDue.length;
   const rows = useMemo(() => memoryMap(pool, srs, today), [pool, srs, today]);
   const fixed = rows.reduce((a, r) => a + r.counts.utrwalone, 0);
   if (!pool.length) return null;

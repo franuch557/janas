@@ -190,6 +190,139 @@
           "tekst": "Herling-Grudziński był więźniem sowieckiego łagru w Jercewie (1940–1942). Książkę napisał na emigracji; najpierw ukazała się po angielsku w Londynie (1951), po polsku w 1953 r. Tytuł pochodzi z motta zaczerpniętego ze „Wspomnień z domu umarłych” Dostojewskiego: łagier to „inny świat”, w którym obowiązują odwrócone prawa i nie ma miejsca na zwykłą moralność."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentuje „Inny świat”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Za co narrator zostaje aresztowany przez NKWD w 1940 r.?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Na ile lat łagru zostaje skazany?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W jakim obozie przebywa narrator?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Od czego zależą racje żywności więźniów?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Czym jest Dom Swidań?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Co robi Kostylew i dlaczego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "O jakiej książce narrator rozmawia z Natalią Lwowną?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Dzięki czemu narrator wychodzi z obozu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Co wyznaje dawny współwięzień w epilogu?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Relacja wspomnieniowa (powieść-świadectwo, literatura faktu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Za próbę przedostania się przez granicę na Litwę, by dołączyć do polskiego wojska."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Na pięć lat."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "W Jercewie koło Archangielska."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Od wykonania norm pracy („kotły”)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Barakiem, w którym więźniowie spotykają się z przyjeżdżającymi bliskimi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przypala sobie rękę w ogniu, by nie pracować dla systemu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "O „Zapiskach z martwego domu” Dostojewskiego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Dzięki amnestii po układzie Sikorski–Majski i głodówce (w 1942 r. dołącza do armii Andersa)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Że w łagrze złożył fałszywe zeznania obciążające innych więźniów."
+        }
+      ]
     }
   ]
 }

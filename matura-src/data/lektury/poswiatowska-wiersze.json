@@ -149,6 +149,91 @@
           "tekst": "Halina Poświatowska od dzieciństwa chorowała na serce i zmarła w wieku 32 lat (1967). Debiutowała tomem „Hymn bałwochwalczy” (1958). Jej wiersze łączą miłość, zmysłowość i świadomość bliskiej śmierci. Tytuły często są pierwszymi słowami albo nazywają uczucie, o którym mówi wiersz."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jak nazywa się debiutancki tom Poświatowskiej?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Na co poetka chorowała od dzieciństwa?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jakie dwa tematy są stale obecne obok siebie w jej wierszach?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Z kim utożsamia się podmiot w wierszu „[jestem Julią]”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Ile lat ma podmiot tego wiersza?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Czym jest miłość wobec przemijania w liryce Poświatowskiej?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Hymn bałwochwalczy” (1958)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Na serce."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Miłość i śmierć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Z szekspirowską Julią."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Dwadzieścia trzy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Sposobem trwania."
+        }
+      ]
     }
   ]
 }

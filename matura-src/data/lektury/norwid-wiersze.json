@@ -175,6 +175,127 @@
           "tekst": "Norwid tworzył na emigracji, w biedzie i samotności, nierozumiany przez współczesnych. Wiersze z lat 1850–1860 zebrał w cyklu „Vade-mecum” (łac. „idź ze mną” – podręcznik, przewodnik), którego za życia nie wydał. „Bema pamięci żałobny rapsod” to hołd dla generała Józefa Bema (zm. 1850), „Moja piosnka [II]” – tęsknota za ojczyzną jako wspólnotą wartości."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Za jakim krajem tęskni poeta w „Mojej piosnce [II]”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jakie pozdrowienie przywołuje „Moja piosnka [II]”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Czyj pogrzeb przedstawia „Bema pamięci żałobny rapsod”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jakie przekonanie kończy rapsod o Bemie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaki problem porusza wiersz „Coś ty Atenom zrobił, Sokratesie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kogo wylicza Norwid w tym wierszu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Nad czyim grobem rozgrywa się wiersz „W Weronie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Czym dla poety są krople deszczu w „W Weronie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W jakim tomie Norwida znalazły się wiersze z lat 60.?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Za krajem, gdzie podnosi się okruszynę chleba, nie niszczy bocianich gniazd, a „tak” znaczy „tak”, „nie” znaczy „nie”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "„Bądź pochwalony!”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Generała Józefa Bema."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Że trzeba iść dalej śladem bohatera, bo idee walki o wolność nie umierają."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Niedocenianie wielkich ludzi za życia i czczenie ich dopiero po śmierci."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Sokratesa, Dantego, Kolumba, Kościuszkę, Napoleona, Mickiewicza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Nad grobem Romea i Julii."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Łzami nieba nad zmarłymi kochankami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "W „Vade-mecum”."
+        }
+      ]
     }
   ]
 }

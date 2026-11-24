@@ -177,6 +177,127 @@
           "tekst": "Horacy napisał cztery księgi „Pieśni” (*Carmina*) w latach ok. 23–13 p.n.e., gdy dzięki opiece Mecenasa mógł żyć spokojnie w swojej posiadłości w Sabinum. Wzorował się na poetach greckich (Alkajos, Safona). Utwory nie mają tytułów autorskich – nazywa się je od adresata („Do Leukonoe”, „Do Postumusa”) albo od pierwszych słów (*Exegi monumentum* – „Wybudowałem pomnik”)."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jaki gatunek reprezentują pieśni Horacego?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Co poeta wznosi sobie w pieśni „Exegi monumentum”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jaki motyw wyraża zdanie „nie wszystek umrę”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co Horacy radzi Leukonoe?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Co oznacza „carpe diem”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Czym jest „aurea mediocritas”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jakie przykłady w pieśni do Licyniusza pokazują zagrożenie skrajności?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki krajobraz jest tłem pieśni do Taliarcha?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Jakie dwie filozofie łączy postawa poety?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Pieśń (oda)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Pomnik trwalszy niż ze spiżu (jego poezję)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Non omnis moriar – sztuka zapewnia nieśmiertelność."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "By nie próbowała poznać przyszłości przez wróżby i korzystała z dnia dzisiejszego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Chwytaj dzień."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Złoty środek (umiar w życiu)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Najwyższe drzewa i wieże najbardziej narażone są na wiatr i pioruny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Zimowy: góra Soracte pod śniegiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Epikureizm i stoicyzm."
+        }
+      ]
     }
   ]
 }

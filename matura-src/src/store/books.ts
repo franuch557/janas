@@ -178,3 +178,16 @@ export function loadOral2Pack() {
       });
   return pack2;
 }
+
+/** Pytania z kluczem z sekcji „Sprawdź swoją wiedzę” (pytanie i odpowiedź w tej samej kolejności). */
+export function bookQuiz(id: string): { q: string; a: string }[] {
+  const b = bookById(id);
+  const s = b?.sekcje.find((x) => /sprawdź swoją wiedzę/i.test(x.tytul));
+  if (!s) return [];
+  const k = s.bloki.findIndex((x) => x.typ === 'akapit' && /klucz odpowiedzi/i.test(x.tekst));
+  if (k < 0) return [];
+  const pts = (xs: BookBlock[]) => xs.filter((x): x is Extract<BookBlock, { typ: 'punkt' }> => x.typ === 'punkt');
+  const qs = pts(s.bloki.slice(0, k));
+  const as = pts(s.bloki.slice(k + 1));
+  return qs.map((x, i) => ({ q: x.tekst, a: as[i]?.tekst ?? '' })).filter((x) => x.a);
+}

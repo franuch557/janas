@@ -138,7 +138,7 @@ for (const f of readdirSync(src).filter((x) => x.endsWith('.md')).sort()) {
 }
 for (const x of extras) {
   const e = entries.get(x.id);
-  if (e && !e.own) e.sekcje.push(...x.sekcje);
+  if (e) e.sekcje.push(...x.sekcje);
 }
 
 const known = new Set(index.lektury.map((b) => b.id));

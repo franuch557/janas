@@ -211,6 +211,151 @@
           "tekst": "Gombrowicz wydał „Ferdydurke” w 1937 r. Tytuł nie pojawia się w tekście i nie ma znaczenia – to celowa prowokacja wobec czytelnika szukającego sensu. Prawdopodobnie nawiązuje do postaci Freddy'ego Durkee z powieści „Babbitt” Sinclaira Lewisa. Absurd tytułu zapowiada groteskową formę całej powieści."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Ile lat ma Józio Kowalski?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kto zabiera Józia do szkoły?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co oznacza „upupienie”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaką kwestię powtarza nauczyciel polskiego o Słowackim?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kto stoi na czele dwóch obozów uczniów?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Jak przebiega pojedynek Syfona z Miętusem?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "U jakiej rodziny Józio zamieszkuje na stancji?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "W kim zakochuje się Józio?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Z kim chce się „spoufalić” Miętus we dworze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jakie opowiadania przerywają powieść?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Jaki jest główny problem powieści?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Trzydzieści."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Profesor Pimko."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Narzucenie infantylnej formy, traktowanie dorosłego jak dziecko."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Że Słowacki wielkim poetą był, bo zachwyca."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Syfon (niewinni idealiści) i Miętus (brutalni realiści)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "To pojedynek na miny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "U Młodziaków."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "W Zucie Młodziakównie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Z parobkiem (Walkiem)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "„Filidor dzieckiem podszyty” i „Filibert dzieckiem podszyty”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Forma – narzucane człowiekowi role i schematy zachowań."
+        }
+      ]
     }
   ]
 }

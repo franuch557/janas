@@ -237,6 +237,139 @@
           "tekst": "Jan Parandowski wydał „Mitologię” w 1924 r. jako przystępne opowiedzenie mitów greckich i rzymskich, opracowane na podstawie źródeł antycznych (m.in. Homera, Hezjoda, Owidiusza). Nazwa pochodzi od greckich słów *mythos* („opowieść”) i *logos* („słowo, nauka”) i oznacza zbiór mitów danego ludu oraz naukę o nich."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest autorem „Mitologii”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Która część książki obowiązuje na maturze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Kto ukradł bogom ogień i jak został ukarany?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jak bracia podzielili świat po zwycięstwie nad tytanami?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jakie zjawisko tłumaczy mit o Demeter i Persefonie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Dzięki czemu Tezeusz wyszedł z labiryntu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Dlaczego zginął Ikar?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Dlaczego Orfeusz stracił Eurydykę na zawsze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Na czym polega kara Syzyfa?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Co zostało na dnie puszki Pandory?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Jan Parandowski."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Część I: Grecja."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Prometeusz; przykuto go do skały, a orzeł wyjadał mu wątrobę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Zeus wziął niebo, Posejdon morze, a Hades podziemie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Cykl pór roku."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Dzięki nici Ariadny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Poleciał za wysoko (słońce stopiło skrzydła)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Obejrzał się za nią podczas wyjścia z Hadesu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Wtacza na górę głaz, który zawsze się stacza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Nadzieja."
+        }
+      ]
     }
   ]
 }

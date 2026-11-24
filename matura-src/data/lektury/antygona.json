@@ -173,6 +173,139 @@
           "tekst": "Sofokles oparł fabułę na greckim micie o rodzie Labdakidów. Tytuł pochodzi od imienia głównej bohaterki (*Anti-gone* – dosłownie „urodzona zamiast” lub „przeciwstawiająca się”), co podkreśla jej niezłomną postawę buntu i centralną rolę w konflikcie wartości."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kto jest autorem „Antygony”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Czego zakazał Kreon po bitwie o Teby?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Dlaczego Ismena odmawia pomocy siostrze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Jaką karę wyznacza Kreon Antygonie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kim jest Hajmon?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kto ostrzega Kreona przed gniewem bogów?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jak giną Antygona, Hajmon i Eurydyka?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Na czym polega konflikt tragiczny w utworze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Co oznacza pojęcie hybris w odniesieniu do Kreona?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Jakie prawa uważa Antygona za najważniejsze?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Sofokles."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Pochowania ciała Polinejkesa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Ze strachu przed władzą Kreona."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Zamurowanie żywcem w skalnej grocie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Syn Kreona i narzeczony Antygony."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Wieszczek Tejrezjasz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Antygona się wiesza, Hajmon przebija się mieczem, Eurydyka popełnia samobójstwo po śmierci syna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Na starciu dwóch równorzędnych racji (prawa boskie i prawa państwowe), w którym każdy wybór prowadzi do klęski."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Pychę i upór, które prowadzą go do katastrofy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Niepisane prawa boskie (ponad rozkazami władcy)."
+        }
+      ]
     }
   ]
 }

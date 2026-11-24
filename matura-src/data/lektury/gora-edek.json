@@ -154,6 +154,115 @@
           "tekst": "Opowiadanie pochodzi z tomu „Prawo prerii” Marka Nowakowskiego (1999). Nowakowski pisał o świecie ulicy i przemian po 1989 r. Tytuł jest okrzykiem triumfu: wygrywa „Edek”, czyli siła i bezczelność, a nie racja – nawiązanie do Edka z „Tanga” Mrożka, symbolu zwycięskiego prostactwa."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Z jakiego tomu pochodzi opowiadanie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Jakim samochodem jeździ młody mężczyzna w okularach?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Jak wygląda kierowca forda?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "O co toczy się spór na ulicy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jak kończy się starcie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Gdzie znika „Edek”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Dlaczego narrator nazywa go „Edkiem”?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki okres w Polsce pokazuje opowiadanie?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "„Prawo prerii”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Małym fiatem (maluchem)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Wysoki, tęgi mężczyzna w skórzanej kurtce."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "O miejsce parkingowe."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kierowca malucha ustępuje, a ford zajmuje miejsce."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "W bramie pełnej tabliczek firm i przedstawicielstw handlowych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Na wzór bohatera „Tanga” Mrożka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Polskę po transformacji ustrojowej (lata 90., kapitalizm)."
+        }
+      ]
     }
   ]
 }

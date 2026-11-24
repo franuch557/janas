@@ -231,6 +231,151 @@
           "tekst": "Biblia powstawała przez około tysiąc lat. Księgi Starego Testamentu spisano po hebrajsku (częściowo po aramejsku), Nowego Testamentu – po grecku. W IV w. św. Hieronim przełożył całość na łacinę (Wulgata), a ten przekład obowiązywał w Kościele przez wieki. Nazwa pochodzi od greckiego *ta biblia* – „księgi” (od fenickiego miasta Byblos, ośrodka handlu papirusem). Biblia jest więc zbiorem ksiąg, a nie jedną książką."
         }
       ]
+    },
+    {
+      "tytul": "Sprawdź swoją wiedzę",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "**Pytania sprawdzające:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Które księgi Biblii obowiązują na maturze?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dlaczego Adam i Ewa zostali wygnani z Edenu?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Co jest znakiem przymierza po potopie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Co symbolizuje wieża Babel?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Jaką próbę wiary przechodzi Abraham?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Co traci Hiob?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jak przyjaciele Hioba tłumaczą jego cierpienie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Jaki jest główny wniosek Księgi Koheleta?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Komu tradycyjnie przypisuje się psalmy?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Gdzie Jan doznaje wizji opisanych w Apokalipsie?"
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Czym kończy się wizja Apokalipsy?"
+        },
+        {
+          "typ": "akapit",
+          "tekst": "**Klucz odpowiedzi:**"
+        },
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Fragmenty Księgi Rodzaju, Księgi Hioba, Księgi Koheleta, Księgi Psalmów i Apokalipsy św. Jana."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Zjedli owoc z zakazanego drzewa poznania dobra i zła."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Tęcza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Pychę ludzką (kara: pomieszanie języków)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Bóg każe mu złożyć w ofierze syna Izaaka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Majątek, dzieci i zdrowie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Uważają je za karę za grzech."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Wszystko jest marnością; trzeba z umiarem cieszyć się tym, co daje Bóg, i zachować bojaźń Bożą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Królowi Dawidowi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Na wyspie Patmos."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Sądem ostatecznym, pokonaniem zła i obrazem Niebieskiego Jeruzalem (nowego nieba i nowej ziemi)."
+        }
+      ]
     }
   ]
 }
