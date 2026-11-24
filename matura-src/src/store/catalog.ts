@@ -1,10 +1,13 @@
 // Katalog arkuszy CKE (wbudowany w aplikację) i pakiety obrazów pobierane
 // względnym adresem cke/<examId>.json (pliki publikowane obok strony).
 
-import examsRaw from '../../data/exams.json';
 import { normalizeExams, readPack, type CkeExam, type CkePack } from '../logic/cke';
 
-export const EXAMS: CkeExam[] = normalizeExams(examsRaw as unknown);
+/** Arkusze CKE; wypełniane przy starcie przez loadData() (store/data.ts), osobny plik zamiast głównego skryptu. */
+export const EXAMS: CkeExam[] = [];
+export function setExams(raw: unknown) {
+  EXAMS.splice(0, EXAMS.length, ...normalizeExams(raw));
+}
 
 // Kryteria samooceny wypracowań; plik może jeszcze nie istnieć.
 const kryteriaMods = import.meta.glob('../../data/kryteria.json', { eager: true, import: 'default' }) as Record<string, unknown>;

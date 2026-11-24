@@ -11,6 +11,7 @@ import { setStorageScope } from './store/local';
 import { Sync } from './store/sync';
 import { supa } from './store/supabase';
 import { Login } from './views/Login';
+import { loadData } from './store/data';
 
 // W artefakcie (window.claude) dane trzyma capability `db`; na stronie GitHub Pages (tryb `pages`)
 // konto w Supabase. Serwer deweloperski i testy działają jak dotąd, bez logowania.
@@ -43,7 +44,25 @@ function Accounts() {
   );
 }
 
-createRoot(document.getElementById('root')!).render(
+const root = createRoot(document.getElementById('root')!);
+root.render(
+  <div className="onb">
+    <p className="muted" aria-busy="true">
+      Ładowanie…
+    </p>
+  </div>,
+);
+loadData().then(
+  () => root.render(<Main />),
+  () =>
+    root.render(
+      <div className="onb">
+        <p>Nie udało się wczytać danych. Sprawdź internet i odśwież stronę.</p>
+      </div>,
+    ),
+);
+
+const Main = () => (
   <StrictMode>
     {!accounts ? (
       <AppStore>
@@ -52,5 +71,5 @@ createRoot(document.getElementById('root')!).render(
     ) : (
       <Accounts />
     )}
-  </StrictMode>,
+  </StrictMode>
 );

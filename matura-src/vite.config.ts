@@ -56,6 +56,6 @@ export default defineConfig(({ command, mode }) => {
       : pages
         ? { outDir: 'dist-pages/matura-2027', emptyOutDir: true }
         : { outDir: '../matura', emptyOutDir: true },
-    test: { include: ['tests/**/*.test.ts'] },
+    test: { include: ['tests/**/*.test.ts'], setupFiles: ['tests/setup.ts'] },
   };
 });

@@ -1,9 +1,13 @@
 // Lektury (data/lektury/) i pytania jawne do matury ustnej (data/ustny/).
 // Pliki dochodzą osobno; gdy ich nie ma, sekcje pokazują jedno zdanie.
 
-const lekturyMods = import.meta.glob('../../data/lektury/*.json', { eager: true, import: 'default' }) as Record<string, unknown>;
-const ustnyMods = import.meta.glob('../../data/ustny/pytania-jawne.json', { eager: true, import: 'default' }) as Record<string, unknown>;
-const zad2Mods = import.meta.glob('../../data/ustny/zadanie2.json', { eager: true, import: 'default' }) as Record<string, unknown>;
+// Dane wczytuje loadData() (store/data.ts) z osobnego pliku i podaje do setBooksData().
+export interface BooksRaw {
+  lektury: Record<string, unknown>;
+  ustny?: unknown;
+  zad2?: unknown;
+}
+let lekturyMods: Record<string, unknown> = {};
 
 type Obj = Record<string, unknown>;
 const isObj = (x: unknown): x is Obj => typeof x === 'object' && x !== null && !Array.isArray(x);
@@ -54,8 +58,22 @@ function file(name: string): unknown {
   return k ? lekturyMods[k] : undefined;
 }
 
-const indexRaw = file('index');
-export const BOOKS: BookEntry[] = isObj(indexRaw)
+export const BOOKS: BookEntry[] = [];
+export const EPOCHS: { id: string; nazwa: string; lata: string }[] = [];
+export let ORAL: { zrodlo: string; rok: string; pytania: OralQuestion[] } | null = null;
+export let ORAL2: { zrodlo: string; zadania: OralTask2[] } | null = null;
+
+export function setBooksData(d: BooksRaw) {
+  lekturyMods = d.lektury;
+  const indexRaw = file('index');
+  BOOKS.splice(0, BOOKS.length, ...readBooks(indexRaw));
+  EPOCHS.splice(0, EPOCHS.length, ...readEpochs(indexRaw));
+  ORAL = readOral(d.ustny);
+  ORAL2 = readOral2(d.zad2);
+}
+
+const readBooks = (indexRaw: unknown): BookEntry[] =>
+  isObj(indexRaw)
   ? arr(indexRaw.lektury)
       .filter(isObj)
       .map((b) => ({
@@ -73,7 +91,8 @@ export const BOOKS: BookEntry[] = isObj(indexRaw)
       .filter((b) => b.id && b.tytul)
   : [];
 
-export const EPOCHS: { id: string; nazwa: string; lata: string }[] = isObj(indexRaw)
+const readEpochs = (indexRaw: unknown) =>
+  isObj(indexRaw)
   ? arr(indexRaw.epoki)
       .filter(isObj)
       .map((e) => ({ id: s(e.id), nazwa: s(e.nazwa), lata: s(e.lata) }))
@@ -128,8 +147,8 @@ export function bookText(b: Book, e?: BookEntry): string {
     .join('\n\n');
 }
 
-const ustnyRaw = Object.values(ustnyMods)[0];
-export const ORAL: { zrodlo: string; rok: string; pytania: OralQuestion[] } | null = isObj(ustnyRaw)
+const readOral = (ustnyRaw: unknown): typeof ORAL =>
+  isObj(ustnyRaw)
   ? {
       zrodlo: s(ustnyRaw.zrodlo),
       rok: s(ustnyRaw.rok),
@@ -150,8 +169,8 @@ export interface OralTask2 {
   polecenie: string;
 }
 
-const zad2Raw = Object.values(zad2Mods)[0];
-export const ORAL2: { zrodlo: string; zadania: OralTask2[] } | null = isObj(zad2Raw)
+const readOral2 = (zad2Raw: unknown): typeof ORAL2 =>
+  isObj(zad2Raw)
   ? {
       zrodlo: s(zad2Raw.zrodlo),
       zadania: arr(zad2Raw.zadania)

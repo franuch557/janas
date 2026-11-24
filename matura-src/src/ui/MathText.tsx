@@ -1,7 +1,13 @@
 // Tekst od Claude'a: akapity, listy, pogrubienie i wzory $…$ / $$…$$ (KaTeX).
 
-import katex from 'katex';
+import type Katex from 'katex';
 import { useMemo } from 'react';
+
+// KaTeX jest w osobnym pliku; loadData() (store/data.ts) wczytuje go przed pierwszym ekranem.
+let katex: typeof Katex | null = null;
+export const setKatex = (k: typeof Katex) => {
+  katex = k;
+};
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -9,8 +15,9 @@ function inline(s: string): string {
   const parts = s.split(/(\$\$[^$]+\$\$|\$[^$\n]+\$)/g);
   return parts
     .map((p) => {
-      if (/^\$\$[^$]+\$\$$/.test(p)) return katex.renderToString(p.slice(2, -2), { throwOnError: false, displayMode: true });
-      if (/^\$[^$\n]+\$$/.test(p)) return katex.renderToString(p.slice(1, -1), { throwOnError: false });
+      if (!katex && /^\$/.test(p)) return esc(p);
+      if (/^\$\$[^$]+\$\$$/.test(p)) return katex!.renderToString(p.slice(2, -2), { throwOnError: false, displayMode: true });
+      if (/^\$[^$\n]+\$$/.test(p)) return katex!.renderToString(p.slice(1, -1), { throwOnError: false });
       return esc(p).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     })
     .join('');
