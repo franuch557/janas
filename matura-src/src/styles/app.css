@@ -4329,3 +4329,38 @@ p.rv-verdict {
 .card.why p {
   margin: 0;
 }
+
+/* karta wzorów: jedna strona naraz z przyciskami */
+.wzory-nav {
+  position: sticky;
+  top: calc(-1 * var(--o-5));
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--o-2);
+  padding: var(--o-2) 0;
+  background: var(--powierzchnia);
+}
+@media (max-width: 420px) {
+  .wzory-page {
+    order: -1;
+    flex-basis: 100%;
+  }
+  .wzory-page select {
+    width: 100%;
+  }
+}
+.wzory-nav .btn {
+  min-height: 44px;
+}
+.wzory-page select {
+  font: inherit;
+  color: inherit;
+  min-height: 44px;
+  padding: 0 var(--o-3);
+  border: 1px solid var(--linia-mocna);
+  border-radius: 10px;
+  background: var(--powierzchnia-2);
+}
