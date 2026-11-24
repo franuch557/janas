@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { createPortal } from 'react-dom';
 import { subjectDef, type SubjectId } from '../model';
 import { Icon } from './icons';
 
@@ -66,7 +67,9 @@ export function Sheet({ title, onClose, children, label }: { title: string; onCl
       prev?.focus?.();
     };
   }, [onClose]);
-  return (
+  // okno trafia bezpośrednio do <body>: rodzic z backdrop-filter (np. górny pasek)
+  // ograniczałby „position: fixed” do swojego prostokąta i okna nie dałoby się przewijać
+  return createPortal(
     <div className="overlay" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
       <div className="sheet" role="dialog" aria-modal="true" aria-label={label ?? title} ref={ref}>
         <div className="row-between">
@@ -75,7 +78,8 @@ export function Sheet({ title, onClose, children, label }: { title: string; onCl
         </div>
         {children}
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
 
