@@ -84,7 +84,7 @@ export function ProgressView({ subject }: { subject: SubjectId | null }) {
   const busiest = [...enabled].sort((a, b) => d.active.results.filter((r) => r.subj === b.id).length - d.active.results.filter((r) => r.subj === a.id).length)[0];
   const [sel, setSel] = useState<SubjectId>(subject ?? busiest?.id ?? 'mat-p');
   const sub = subjectDef(sel)!;
-  const tasksDone = d.active.results.length;
+  const tasksDone = new Set(d.active.results.map((r) => r.task)).size;
   const fc = d.forecast[sel];
   const topics = topicsFor(sub.family, sub.level);
 

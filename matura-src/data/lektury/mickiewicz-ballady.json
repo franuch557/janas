@@ -60,10 +60,6 @@
           "typ": "punkt",
           "etykieta": "*Sonety krymskie",
           "tekst": "* podróż po Krymie opisuje piękno natury, zachwyt nad morzem, tęsknotę za ojczyzną."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: dokładny wybór ballad i sonetów wymagany przez CKE.*"
         }
       ]
     },
@@ -142,7 +138,7 @@
           "typ": "punkt",
           "nr": 4,
           "etykieta": "Przemijanie",
-          "tekst": "*Kohelet* jako kontrast."
+          "tekst": "*Księga Koheleta* jako kontrast."
         }
       ]
     },
@@ -214,7 +210,7 @@
         {
           "typ": "punkt",
           "etykieta": "",
-          "tekst": "*Oda* – *Kohelet* (przemijanie)."
+          "tekst": "*Oda* – *Księga Koheleta* (przemijanie)."
         },
         {
           "typ": "punkt",

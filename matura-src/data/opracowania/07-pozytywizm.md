@@ -53,7 +53,7 @@
 ### C. Bohaterowie
 
 - **Stanisław Wokulski** – kupiec, człowiek pracy. Cechy: inteligencja, samodyscyplina, romantyczna miłość, dystans wobec arystokracji. Decyzje: zdobycie majątku na wojnie, spółka do handlu ze Wschodem, starania o Izabelę, wyjazd do Paryża. Zmienia się: od pracowitego kupca do zrezygnowanego człowieka. Wymowa: pozytywistyczny ideał pracy i jego granice.
-- **Izabela Łęcka** – arystokratka. Cechy: próżność, egoizm, fascynacja luksusem, ale i wrażliwość. Decyzje: odrzucenie Wokulskiego. Zmienia się: od obojętności do rozczarowania. Wymowa: arystokracja jako świat pozoru.
+- **Izabela Łęcka** – arystokratka. Cechy: próżność, egoizm, fascynacja luksusem, ale i wrażliwość. Decyzje: przyjmuje oświadczyny Wokulskiego, ale dalej flirtuje ze Starskim. Zmienia się: od obojętności do rozczarowania. Wymowa: arystokracja jako świat pozoru.
 - **Ignacy Rzecki** – stary subiekt, autor „Pamiętnika starego subiekta”. Cechy: lojalność, przywiązanie do Wokulskiego, idealizm, wiara w Napoleonidów. Rola: drugi narrator, człowiek romantycznej epoki.
 - **Tomasz Łęcki** – ojciec Izabeli, zadłużony arystokrata. Rola: symbol upadku starego świata.
 - **Julian Ochocki** – młody wynalazca. Rola: symbol nowoczesności i postępu.
@@ -68,11 +68,11 @@
 
 ### E. Motywy literackie
 
-1. **Praca** – Wokulski, Rzecki. *Wykorzystanie:* zestawienie z *Syzyfem* (trud i jego sens) i z *Kandydem* (działanie zamiast spekulacji).
+1. **Praca** – Wokulski, Rzecki. *Wykorzystanie:* zestawienie z mitem o Syzyfie (trud i jego sens) i z *Kandydem* (działanie zamiast spekulacji).
 2. **Miłość** – Wokulski i Izabela. *Wykorzystanie:* zestawienie z *Balladyną* (miłość a ambicja) i *Makbetem*.
 3. **Pieniądz i klasa** – bogactwo jako źródło pozycji. *Wykorzystanie:* zestawienie ze *Skąpcem* Moliera (pieniądz i wartość).
-4. **Postęp** – Ochocki, wynalazki. *Wykorzystanie:* zestawienie z *Oświeceniem* (wiara w rozum).
-5. **Samotność** – zakończenie Wokulskiego. *Wykorzystanie:* zestawienie z *Konradem* (samotność wieszcza).
+4. **Postęp** – Ochocki, wynalazki. *Wykorzystanie:* zestawienie z *Kandydem* Woltera i oświeceniową wiarą w rozum.
+5. **Samotność** – zakończenie Wokulskiego. *Wykorzystanie:* zestawienie z *Dziadami cz. III* (samotność Konrada).
 
 ### F. Symbole i ważne elementy
 
@@ -126,14 +126,14 @@
 10. Jaki okres historyczny jest tłem?
 
 **Pytania interpretacyjne:**
-1. Dlaczego Izabela odrzuca Wokulskiego?
+1. Dlaczego związek Izabeli i Wokulskiego nie mógł się udać?
 2. Czy praca zapewnia szczęście? Uzasadnij.
 3. Jak Prus pokazuje świat pozoru?
 4. Czy zakończenie jest optymistyczne? Uzasadnij.
 5. Jak powieść łączy realizm z psychologią?
 
 **Klucz odpowiedzi:**
-1. Ignacy Rzecki.
+1. Dwóch: narrator trzecioosobowy (wszechwiedzący) i Ignacy Rzecki w „Pamiętniku starego subiekta”.
 2. Kupiec, były powstaniec.
 3. Izabelę Łęcką.
 4. Jest arystokratką zafascynowaną luksusem.
@@ -143,7 +143,7 @@
 8. Wokulski znika, zakończenie otwarte.
 9. Warszawa.
 10. Okres po powstaniu styczniowym.
-11. Bo arystokracja ceni pozycję, a nie człowieka.
+11. Izabela ceni pozycję i luksus, a nie człowieka; Wokulski kocha wyobrażenie o niej. Po rozmowie Izabeli ze Starskim w pociągu Wokulski zrywa zaręczyny.
 12. Częściowo: daje majątek, ale nie zastępuje miłości.
 13. Przez obraz salonów i pozorów.
 14. Nie, zakończenie jest gorzkie.

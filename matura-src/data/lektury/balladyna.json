@@ -42,10 +42,6 @@
       "tytul": "Szczegółowe streszczenie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: szczegóły przebiegu wymagane przez CKE. Poniżej ogólny schemat.*"
-        },
-        {
           "typ": "punkt",
           "etykieta": "Ekspozycja",
           "tekst": "nad Gopłem nimfa Goplana zakochuje się w prostym chłopie Grabcu i wraz z duchami Skierką i Chochlikiem miesza w losach ludzi. Rycerz Kirkor za radą Pustelnika (wygnanego króla Popiela III) szuka żony wśród ubogich i przychodzi do chaty wdowy, która ma dwie córki: Balladynę i Alinę."
@@ -165,7 +161,7 @@
           "typ": "punkt",
           "nr": 3,
           "etykieta": "Kara",
-          "tekst": "moralny porządek. *Wykorzystanie:* zestawienie z *Syzyfem* (kara za przewinienia)."
+          "tekst": "moralny porządek. *Wykorzystanie:* zestawienie z mitem o Syzyfie (kara za przewinienia)."
         },
         {
           "typ": "punkt",

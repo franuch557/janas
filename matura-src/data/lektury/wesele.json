@@ -24,7 +24,7 @@
         {
           "typ": "punkt",
           "etykieta": "Rodzaj i gatunek",
-          "tekst": "dramat (dramat romantyczno-symboliczny), utwór o formie łączącej realizm z symbolem; w trzech aktach."
+          "tekst": "dramat symboliczny (narodowy), utwór o formie łączącej realizm z symbolem; w trzech aktach."
         },
         {
           "typ": "punkt",
@@ -43,7 +43,7 @@
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią, Panna Młoda pyta, gdzie jest Polska – „A to Polska właśnie” jest w sercu. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie."
+          "tekst": "**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią i chłopską prostotą. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie."
         },
         {
           "typ": "akapit",
@@ -51,7 +51,7 @@
         },
         {
           "typ": "akapit",
-          "tekst": "**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła."
+          "tekst": "**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wcześniej, w rozmowie z Panną Młodą, Pan Młody tłumaczy jej, że Polska jest w sercu („A to Polska właśnie”). Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła."
         },
         {
           "typ": "akapit",

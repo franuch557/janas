@@ -127,7 +127,7 @@ Walidacja: bez rozbieżności.
 
 ## MJAP-P0-100-2306 (angielski, podstawowy, 2023) – status: pełny
 
-- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Zadanie 9 nie ma przypisanego tematu.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
@@ -140,7 +140,7 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2308 (angielski, podstawowy, 2023) – status: pełny
 
-- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:
@@ -152,7 +152,7 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2406 (angielski, podstawowy, 2024) – status: pełny
 
-- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Zadanie 9 nie ma przypisanego tematu.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
@@ -165,7 +165,7 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2408 (angielski, podstawowy, 2024) – status: pełny
 
-- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:
@@ -187,7 +187,7 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2508 (angielski, podstawowy, 2025) – status: pełny
 
-- Zadanie 2 (zamknięte): nieodczytane pozycje 2.3.
+- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:

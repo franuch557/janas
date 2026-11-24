@@ -1,14 +1,15 @@
 // Sesja powtórek (na cały ekran, jak aplikacja mobilna) i mapa pamięci.
 // Przebieg: ustawienia sesji → zadanie → karta odpowiedzi (odpowiedź, rozwiązanie, wskazówki,
-// najczęstsze błędy) → ocena trudności → następne zadanie. „Nie umiem” wraca raz na koniec sesji.
+// najczęstsze błędy) → ocena trudności wyliczona przez aplikację → następne zadanie.
+// Zadanie ocenione „Do nauki” wraca raz na koniec sesji.
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { SUBJECTS, subjectDef, type SubjectId } from '../model';
 import { useStore } from '../store/AppStore';
 import type { AppTask } from '../store/derived';
 import { scoreClosed } from '../logic/scoring';
-import { buildSession, dueCount, memoryMap, postponed, postponeRef, previewNext, ptsFromRate, RATES, rateFromPct, whenLabel, type Rate, type ReviewMode, type TopicMemory } from '../logic/review';
-import { fmtClock } from '../logic/format';
+import { autoRate, buildSession, dueCount, memoryMap, postponed, postponeRef, previewNext, RATES, whenLabel, type Rate, type ReviewMode, type TopicMemory } from '../logic/review';
+import { dni, fmtClock, plural, zadan } from '../logic/format';
 import { topicName } from '../data/taxonomy';
 import { TIPS } from '../data/wskazowki';
 import { AnswerCard, checkMessage, SelfGrade } from '../ui/AnswerCard';
@@ -36,23 +37,37 @@ function usePool() {
   return { pool, srs, skip, subjects };
 }
 
+interface Settings {
+  minutes: number;
+  mode: ReviewMode;
+  chosen: SubjectId[] | null;
+}
+
 export function ReviewView({ subject, topic }: { subject: SubjectId | null; topic: string | null }) {
-  const [run, setRun] = useState<{ ids: string[]; minutes: number } | null>(null);
-  return run ? <Runner key={run.ids.join()} ids={run.ids} minutes={run.minutes} onAgain={() => setRun(null)} /> : <Setup subject={subject} topic={topic} onStart={(ids, minutes) => setRun({ ids, minutes })} />;
+  const [run, setRun] = useState<{ ids: string[]; minutes: number; n: number } | null>(null);
+  // ustawienia zostają po „Jeszcze jedna sesja”
+  const [settings, setSettings] = useState<Settings>({ minutes: 10, mode: 'mieszane', chosen: subject ? [subject] : null });
+  return run ? (
+    <Runner key={`${run.n}-${run.ids.join()}`} ids={run.ids} minutes={run.minutes} onAgain={() => setRun(null)} />
+  ) : (
+    <Setup subject={subject} topic={topic} settings={settings} onSettings={setSettings} onStart={(ids, minutes) => setRun((r) => ({ ids, minutes, n: (r?.n ?? 0) + 1 }))} />
+  );
 }
 
 // ---------- ustawienia sesji ----------
 
-function Setup({ subject, topic, onStart }: { subject: SubjectId | null; topic: string | null; onStart: (ids: string[], minutes: number) => void }) {
+function Setup({ subject, topic, settings, onSettings, onStart }: { subject: SubjectId | null; topic: string | null; settings: Settings; onSettings: (s: Settings) => void; onStart: (ids: string[], minutes: number) => void }) {
   const { d, today } = useStore();
   const { pool, srs, skip, subjects } = usePool();
-  const [minutes, setMinutes] = useState<number>(10);
-  const [mode, setMode] = useState<ReviewMode>('mieszane');
-  const [chosen, setChosen] = useState<SubjectId[]>(subject ? [subject] : subjects);
-  const opts = { minutes, mode, subjects: chosen, topic, today, priority: (s: string, tp: string) => d.priorities[s as SubjectId]?.[tp] ?? 0 };
-  const set = useMemo(() => buildSession(pool, srs, skip, opts), [pool, srs, skip, minutes, mode, chosen.join(), topic]); // eslint-disable-line react-hooks/exhaustive-deps
-  const due = dueCount(pool, srs, skip, chosen, today);
-  const toggle = (s: SubjectId) => setChosen((c) => (c.includes(s) ? (c.length > 1 ? c.filter((x) => x !== s) : c) : [...c, s]));
+  const { minutes, mode } = settings;
+  const chosen = (settings.chosen ?? subjects).filter((s) => subjects.includes(s));
+  const picked = chosen.length ? chosen : subjects;
+  const setMinutes = (m: number) => onSettings({ ...settings, minutes: m });
+  const setMode = (m: ReviewMode) => onSettings({ ...settings, mode: m });
+  const opts = { minutes, mode, subjects: picked, topic, today, priority: (s: string, tp: string) => d.priorities[s as SubjectId]?.[tp] ?? 0 };
+  const set = useMemo(() => buildSession(pool, srs, skip, opts), [pool, srs, skip, minutes, mode, picked.join(), topic]); // eslint-disable-line react-hooks/exhaustive-deps
+  const due = dueCount(pool, srs, skip, picked, today, topic);
+  const toggle = (s: SubjectId) => onSettings({ ...settings, chosen: picked.includes(s) ? (picked.length > 1 ? picked.filter((x) => x !== s) : picked) : [...picked, s] });
   return (
     <div className="focus rv">
       <header className="focus-head">
@@ -71,8 +86,8 @@ function Setup({ subject, topic, onStart }: { subject: SubjectId | null; topic: 
           <section className="rv-hero">
             <span className="rv-hero-num tnum">{due}</span>
             <div>
-              <h1>{due === 1 ? 'powtórka czeka' : due >= 2 && due <= 4 ? 'powtórki czekają' : 'powtórek czeka'} na dziś</h1>
-              <p className="muted">{topic ? `Dział: ${topicName(topic)}.` : 'Ucz się krótko i często. Aplikacja pilnuje, kiedy wrócić do każdego zadania.'}</p>
+              <h1>{plural(due, 'powtórka czeka', 'powtórki czekają', 'powtórek czeka')} na dziś</h1>
+              <p className="muted">{topic ? `Dział: ${topicName(topic)}.` : 'Ucz się krótko i często. Aplikacja sama ocenia, jak poszło, i pilnuje, kiedy wrócić do każdego zadania.'}</p>
             </div>
           </section>
           <section className="stack-2">
@@ -102,7 +117,7 @@ function Setup({ subject, topic, onStart }: { subject: SubjectId | null; topic: 
               <h2 className="rv-label">Przedmioty</h2>
               <div className="lk-chips" style={{ marginTop: 0 }}>
                 {subjects.map((s) => (
-                  <button key={s} type="button" className="chip" aria-pressed={chosen.includes(s)} onClick={() => toggle(s)}>
+                  <button key={s} type="button" className="chip" aria-pressed={picked.includes(s)} onClick={() => toggle(s)}>
                     {subjectDef(s)!.name}
                   </button>
                 ))}
@@ -111,7 +126,7 @@ function Setup({ subject, topic, onStart }: { subject: SubjectId | null; topic: 
           ) : null}
           <div className="rv-start">
             <p className="muted small" aria-live="polite">
-              {set.length ? `${set.length} ${set.length === 1 ? 'zadanie' : set.length < 5 ? 'zadania' : 'zadań'}, około ${set.reduce((a, t) => a + Math.max(1, t.minutes), 0)} min.` : mode === 'powtorki' ? 'Na dziś nie ma powtórek. Wybierz „Mieszane” albo „Nowe zadania”.' : d.packsLoading ? 'Ładowanie zadań…' : 'Brak zadań dla tych ustawień.'}
+              {set.length ? `${zadan(set.length)}, około ${set.reduce((a, t) => a + Math.max(1, t.minutes), 0)} min.` : mode === 'powtorki' ? 'Na dziś nie ma powtórek. Wybierz „Mieszane” albo „Nowe zadania”.' : d.packsLoading ? 'Ładowanie zadań…' : 'Brak zadań dla tych ustawień.'}
             </p>
             <button type="button" className="btn btn-primary btn-block btn-lg" disabled={!set.length} onClick={() => onStart(set.map((t) => t.id), minutes)}>
               Zacznij sesję
@@ -131,40 +146,70 @@ interface Done {
   next: string | null;
 }
 
+/** Wynik pozycji w kolejce sesji (do kolorów paska postępu). */
+type Slot = Rate | 'odl' | 'pom';
+
+function SessionClock({ start, minutes, active }: { start: number; minutes: number; active: boolean }) {
+  const now = useNow(1000, active);
+  const [end, setEnd] = useState<number | null>(null);
+  useEffect(() => {
+    if (!active) setEnd((e) => e ?? Date.now());
+  }, [active]);
+  const elapsed = (end ?? now) - start;
+  return (
+    <span className={`timer${elapsed > minutes * 60_000 ? ' over' : ''}`} role="timer" aria-label="Czas sesji">
+      <Icon name="zegar" size={20} />
+      {fmtClock(elapsed)}
+    </span>
+  );
+}
+
 function Runner({ ids, minutes, onAgain }: { ids: string[]; minutes: number; onAgain: () => void }) {
   const { d, today, saveResult, tick } = useStore();
   const [queue, setQueue] = useState<string[]>(ids);
   const [requeued, setRequeued] = useState<Set<string>>(new Set());
   const [pos, setPos] = useState(0);
+  const [slots, setSlots] = useState<Slot[]>([]);
   const [done, setDone] = useState<Done[]>([]);
   const [start] = useState(Date.now());
-  const now = useNow(1000);
   const id = queue[pos];
   const t = id ? d.tasks.get(id) : undefined;
   const finished = pos >= queue.length;
 
-  const advance = () => setPos((p) => p + 1);
+  // każde zadanie zaczyna się od góry ekranu
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pos]);
+
+  const advance = (slot: Slot) => {
+    setSlots((s) => {
+      const n = [...s];
+      n[pos] = slot;
+      return n;
+    });
+    setPos((p) => p + 1);
+  };
   const rated = (rate: Rate, pts: number, extra: Partial<Parameters<typeof saveResult>[0]>, sec: number) => {
     if (!t) return;
     const prev = d.records.get(t.id)?.srs;
     const pct = t.maxPoints > 0 ? (pts / t.maxPoints) * 100 : 0;
     saveResult({ task: t.id, subj: t.subjectId, topics: t.topics, pts, max: t.maxPoints, sec, src: 'zadanie', rate, ...extra }, { toast: false });
-    setDone((x) => [...x, { id: t.id, rate, next: previewNext(prev, pct, rate, today) }]);
-    // „Nie umiem” wraca raz na koniec tej sesji (krok nauki)
+    // ostatnia ocena zadania zastępuje wcześniejszą (zadanie po błędzie wraca w tej sesji)
+    setDone((x) => [...x.filter((y) => y.id !== t.id), { id: t.id, rate, next: previewNext(prev, pct, rate, today) }]);
+    // „Do nauki” wraca raz na koniec tej sesji (krok nauki)
     if (rate === 1 && !requeued.has(t.id)) {
       setQueue((q) => [...q, t.id]);
       setRequeued((s) => new Set(s).add(t.id));
     }
-    advance();
+    advance(rate);
   };
   const later = () => {
     if (!t) return;
     tick(postponeRef(t.id, 1));
-    advance();
+    advance('odl');
   };
+  const retry = !!t && queue.slice(0, pos).includes(t.id);
 
-  const elapsed = now - start;
-  const over = elapsed > minutes * 60_000;
   return (
     <div className="focus rv">
       <header className="focus-head">
@@ -173,37 +218,47 @@ function Runner({ ids, minutes, onAgain }: { ids: string[]; minutes: number; onA
             <Icon name="zamknij" />
           </button>
           <div className="rv-progress" role="progressbar" aria-label="Postęp sesji" aria-valuemin={0} aria-valuemax={queue.length} aria-valuenow={Math.min(pos, queue.length)}>
-            {queue.map((q, i) => (
-              <span key={`${q}-${i}`} className={i < pos ? `done r${done[i]?.rate ?? 3}` : i === pos ? 'cur' : ''} />
-            ))}
+            {queue.map((q, i) => {
+              const sl = slots[i];
+              return <span key={`${q}-${i}`} className={i < pos ? `done ${typeof sl === 'number' ? `r${sl}` : 'skip'}` : i === pos ? 'cur' : ''} />;
+            })}
           </div>
-          <span className={`timer${over ? ' over' : ''}`} role="timer" aria-label="Czas sesji">
-            <Icon name="zegar" size={20} />
-            {fmtClock(elapsed)}
-          </span>
+          <SessionClock start={start} minutes={minutes} active={!finished} />
         </div>
       </header>
       <div className="focus-body">
         {finished ? (
           <Summary done={done} onAgain={onAgain} />
         ) : !t ? (
-          <Empty text={d.packsLoading ? 'Ładowanie zadań…' : 'Nie znaleziono zadania.'} action={{ label: 'Pomiń', run: advance }} />
+          <Empty text={d.packsLoading ? 'Ładowanie zadań…' : 'Nie znaleziono zadania.'} action={{ label: 'Pomiń', run: () => advance('pom') }} />
         ) : (
-          <Step key={`${t.id}-${pos}`} t={t} nr={pos + 1} total={queue.length} onRated={rated} onLater={later} />
+          <Step key={`${t.id}-${pos}`} t={t} nr={pos + 1} total={queue.length} retry={retry} onRated={rated} onLater={later} />
         )}
       </div>
     </div>
   );
 }
 
-function Step({ t, nr, total, onRated, onLater }: { t: AppTask; nr: number; total: number; onRated: (rate: Rate, pts: number, extra: Record<string, unknown>, sec: number) => void; onLater: () => void }) {
+/** Klawisze skrótów nie działają, gdy fokus jest na polu, przycisku albo zakładce, ani z modyfikatorami. */
+function shortcutAllowed(e: KeyboardEvent): boolean {
+  if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return false;
+  const tg = e.target as HTMLElement | null;
+  if (!tg) return true;
+  if (['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON', 'A'].includes(tg.tagName)) return false;
+  if (tg.isContentEditable || tg.closest('[role=tab],[role=radio],[role=button]')) return false;
+  return true;
+}
+
+function Step({ t, nr, total, retry, onRated, onLater }: { t: AppTask; nr: number; total: number; retry: boolean; onRated: (rate: Rate, pts: number, extra: Record<string, unknown>, sec: number) => void; onLater: () => void }) {
   const { d, today } = useStore();
   const [start] = useState(Date.now());
   const [choice, setChoice] = useState<Record<string, string>>({});
-  const [shown, setShown] = useState(false);
+  const [solveSec, setSolveSec] = useState<number | null>(null);
+  const shown = solveSec != null;
   const [self, setSelf] = useState<number | null>(null);
   const [auto, setAuto] = useState<AutoResult | null>(null);
   const [hints, setHints] = useState(0);
+  const verdictRef = useRef<HTMLDivElement>(null);
   const hintSteps = useHintSteps(t);
   const autoKind = useAutoKind(t);
   const sub = subjectDef(t.subjectId)!;
@@ -212,22 +267,32 @@ function Step({ t, nr, total, onRated, onLater }: { t: AppTask; nr: number; tota
   const pts = closed ? scoreClosed(t.answer!, choice, t.maxPoints).points : self;
   const pct = pts != null && t.maxPoints > 0 ? (pts / t.maxPoints) * 100 : null;
   const prev = d.records.get(t.id)?.srs;
-  const suggested = pct != null ? rateFromPct(pct) : null;
+  const verdict = pct != null && solveSec != null ? autoRate({ pct, hints, sec: solveSec, minutes: t.minutes, retry }) : null;
+  const next = verdict ? previewNext(prev, pct!, verdict.rate, today) : null;
   const msg = closed && shown ? checkMessage(t.answer!, choice) : null;
+  const rateLabel = verdict ? RATES.find((r) => r.rate === verdict.rate)!.label : '';
 
-  const rate = (r: Rate) => {
-    const p = pts ?? ptsFromRate(r, t.maxPoints);
+  const reveal = () => setSolveSec((s) => s ?? Math.round((Date.now() - start) / 1000));
+  const finish = () => {
+    if (!verdict || pts == null) return;
     const sec = Math.round((Date.now() - start) / 1000);
-    onRated(r, p, closed ? { choice, ...(hints ? { hints } : {}) } : { by: auto && self === auto.points ? 'automat' : 'samoocena', ...(auto && self === auto.points ? { feedback: auto.feedback } : {}), ...(hints ? { hints } : {}) }, sec);
+    const graded = !closed && auto && self === auto.points;
+    onRated(verdict.rate, pts, closed ? { choice, ...(hints ? { hints } : {}) } : { by: graded ? 'automat' : 'samoocena', ...(graded ? { feedback: auto!.feedback } : {}), ...(hints ? { hints } : {}) }, sec);
   };
+
+  // po sprawdzeniu fokus na werdykcie (czytnik ekranu od razu słyszy wynik)
+  useEffect(() => {
+    if (verdict) verdictRef.current?.focus({ preventScroll: true });
+  }, [!!verdict]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const k = (e: KeyboardEvent) => {
-      const tg = e.target as HTMLElement;
-      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(tg.tagName)) return;
-      if (shown && /^[1-4]$/.test(e.key)) rate(Number(e.key) as Rate);
-      else if (!shown && e.key === 'Enter' && (!closed || allChosen)) setShown(true);
-      else if (!shown && closed && t.answer!.items.length === 1 && t.answer!.items[0].options.includes(e.key.toUpperCase())) setChoice({ [t.answer!.items[0].id]: e.key.toUpperCase() });
+      if (!shortcutAllowed(e)) return;
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        if (shown) finish();
+        else if (!closed || allChosen) reveal();
+      } else if (!shown && closed && t.answer!.items.length === 1 && t.answer!.items[0].options.includes(e.key.toUpperCase())) setChoice({ [t.answer!.items[0].id]: e.key.toUpperCase() });
     };
     window.addEventListener('keydown', k);
     return () => window.removeEventListener('keydown', k);
@@ -241,7 +306,7 @@ function Step({ t, nr, total, onRated, onLater }: { t: AppTask; nr: number; tota
         </span>
         <SubjectTag id={t.subjectId} />
         <span className="small muted">{topicName(t.topics[0])}</span>
-        {prev?.attempts ? <span className="tag ink">powtórka</span> : <span className="tag">nowe</span>}
+        {retry ? <span className="tag ink">jeszcze raz</span> : prev?.attempts ? <span className="tag ink">powtórka</span> : <span className="tag">nowe</span>}
       </div>
       <div className="rv-task">
         <TaskSheet task={t} level={sub.level} showContext={false} />
@@ -259,12 +324,12 @@ function Step({ t, nr, total, onRated, onLater }: { t: AppTask; nr: number; tota
               onGraded={(r) => {
                 setAuto(r);
                 setSelf(r.points);
-                setShown(true);
+                reveal();
               }}
             />
           ) : null}
           <div className="rv-actions">
-            <button type="button" className="btn btn-primary btn-block btn-lg" disabled={closed && !allChosen} onClick={() => setShown(true)}>
+            <button type="button" className="btn btn-primary btn-block btn-lg" disabled={closed && !allChosen} onClick={reveal}>
               {closed ? 'Sprawdź' : 'Pokaż odpowiedź'}
             </button>
             <button type="button" className="btn btn-quiet btn-block" onClick={onLater}>
@@ -294,20 +359,25 @@ function Step({ t, nr, total, onRated, onLater }: { t: AppTask; nr: number; tota
           {!closed ? (
             <section className="card stack-2">
               <h3>Ile punktów?</h3>
-              <p className="small muted">Porównaj z odpowiedzią. Jeśli pominiesz, punkty wyliczę z oceny trudności.</p>
+              <p className="small muted">Porównaj z odpowiedzią i zaznacz punkty. Na tej podstawie aplikacja oceni, kiedy wrócić do zadania.</p>
               <SelfGrade max={t.maxPoints} value={self} onChange={setSelf} />
             </section>
           ) : null}
-          <section className="rv-rate" aria-label="Oceń trudność">
-            <h2 className="rv-label">Jak poszło?</h2>
-            <div className="rv-rates">
-              {RATES.map((r) => (
-                <button key={r.rate} type="button" className={`rv-rate-btn r${r.rate}${suggested === r.rate ? ' sug' : ''}`} onClick={() => rate(r.rate)} aria-keyshortcuts={r.key}>
-                  <strong>{r.label}</strong>
-                  <span>{whenLabel(previewNext(prev, pct ?? (ptsFromRate(r.rate, t.maxPoints) / Math.max(1, t.maxPoints)) * 100, r.rate, today), today)}</span>
-                </button>
-              ))}
-            </div>
+          <section className="rv-rate" aria-label="Ocena trudności">
+            {verdict ? (
+              <div ref={verdictRef} tabIndex={-1} className={`rv-verdict r${verdict.rate}`} aria-live="polite">
+                <div>
+                  <strong>{rateLabel}</strong>
+                  <span> · następna powtórka {whenLabel(next, today)}</span>
+                </div>
+                <small>{verdict.why.join(', ')}</small>
+              </div>
+            ) : (
+              <p className="small muted rv-verdict">Zaznacz punkty, a aplikacja oceni trudność.</p>
+            )}
+            <button type="button" className="btn btn-primary btn-block btn-lg" disabled={!verdict} onClick={finish}>
+              Dalej
+            </button>
           </section>
         </>
       )}
@@ -336,17 +406,48 @@ function AnswerPanel({ t }: { t: AppTask }) {
   ];
   const visible = tabs.filter((x) => x.on);
   const [tab, setTab] = useState<Tab>(visible[0]?.id ?? 'odp');
+  const [atEnd, setAtEnd] = useState(false);
+  const listRef = useRef<HTMLDivElement>(null);
+  const checkEnd = () => {
+    const el = listRef.current;
+    if (el) setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
+  };
+  useEffect(checkEnd, [visible.length]);
   if (!visible.length) return null;
+  const pick = (id: Tab) => {
+    setTab(id);
+    document.getElementById(`rv-tab-${t.id}-${id}`)?.focus();
+  };
+  const onKey = (e: React.KeyboardEvent) => {
+    const i = visible.findIndex((x) => x.id === tab);
+    const n = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? visible.length - 1 : null;
+    if (n == null) return;
+    e.preventDefault();
+    pick(visible[(n + visible.length) % visible.length].id);
+  };
+  const panelId = `rv-panel-${t.id}`;
   return (
     <section className="card rv-card reveal">
-      <div className="rv-tabs" role="tablist" aria-label="Karta odpowiedzi">
+      <div ref={listRef} className={`rv-tabs${atEnd ? ' at-end' : ''}`} role="tablist" aria-label="Karta odpowiedzi" onScroll={checkEnd} onKeyDown={onKey}>
         {visible.map((x) => (
-          <button key={x.id} type="button" role="tab" aria-selected={tab === x.id} onClick={() => setTab(x.id)}>
+          <button
+            key={x.id}
+            id={`rv-tab-${t.id}-${x.id}`}
+            type="button"
+            role="tab"
+            aria-selected={tab === x.id}
+            aria-controls={panelId}
+            tabIndex={tab === x.id ? 0 : -1}
+            onClick={(e) => {
+              setTab(x.id);
+              e.currentTarget.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+            }}
+          >
             {x.label}
           </button>
         ))}
       </div>
-      <div role="tabpanel" className="rv-tabpanel">
+      <div role="tabpanel" id={panelId} aria-labelledby={`rv-tab-${t.id}-${tab}`} className="rv-tabpanel" tabIndex={0}>
         {tab === 'odp' ? (
           t.user ? <p className="muted">Własne zadanie – porównaj z własnym rozwiązaniem.</p> : <TaskSheet task={t} kind="odp" />
         ) : tab === 'rozw' ? (
@@ -436,8 +537,8 @@ function Summary({ done, onAgain }: { done: Done[]; onAgain: () => void }) {
       <div className="rv-hero">
         <span className="rv-hero-num tnum">{done.length}</span>
         <div>
-          <h1>{done.length === 1 ? 'zadanie' : done.length >= 2 && done.length <= 4 ? 'zadania' : 'zadań'} za tobą</h1>
-          <p className="muted">Seria: {d.streak} {d.streak === 1 ? 'dzień' : 'dni'}. Każda sesja liczy się do celu dnia.</p>
+          <h1>{plural(done.length, 'zadanie', 'zadania', 'zadań')} za tobą</h1>
+          <p className="muted">Seria: {dni(d.streak)}. Każda sesja liczy się do celu dnia.</p>
         </div>
       </div>
       <div className="rv-stats">
@@ -454,7 +555,7 @@ function Summary({ done, onAgain }: { done: Done[]; onAgain: () => void }) {
           <ul className="topic-list">
             {Object.entries(nexts).map(([k, n]) => (
               <li key={k}>
-                {k}: {n} {n === 1 ? 'zadanie' : n < 5 ? 'zadania' : 'zadań'}
+                {k}: {zadan(n)}
               </li>
             ))}
           </ul>
@@ -581,8 +682,8 @@ export function ReviewCard() {
         {due}
       </div>
       <div className="grow">
-        <h2>{due ? `${due} ${due === 1 ? 'powtórka czeka' : due < 5 ? 'powtórki czekają' : 'powtórek czeka'}` : 'Sesja powtórek'}</h2>
-        <p className="small muted">{due ? 'Krótka sesja: zadanie, karta odpowiedzi, ocena trudności.' : `Utrwalone zadania: ${fixed}. Zacznij od nowych z najważniejszych działów.`}</p>
+        <h2>{due ? `${due} ${plural(due, 'powtórka czeka', 'powtórki czekają', 'powtórek czeka')}` : 'Sesja powtórek'}</h2>
+        <p className="small muted">{due ? 'Krótka sesja: zadanie, karta odpowiedzi, a aplikacja sama ocenia, kiedy wrócić.' : `Utrwalone zadania: ${fixed}. Zacznij od nowych z najważniejszych działów.`}</p>
       </div>
       <div className="rv-cta-actions">
         <button type="button" className="btn btn-primary" onClick={() => go('#powtorki')}>

@@ -1,6 +1,6 @@
-// Sesja powtórek zadań: krótka sesja (5–30 min) z powtórek i nowych zadań, po każdym
-// zadaniu ocena trudności (nie umiem / trudne / dobrze / łatwe), która ustala następną
-// powtórkę (srs.ts). Zadanie można odłożyć na później (zdarzenie „odhaczenia” z ref `odloz:<id>`).
+// Sesja powtórek zadań: krótka sesja (5–30 min) z powtórek i nowych zadań. Po każdym
+// zadaniu aplikacja sama ocenia trudność (do nauki / trudne / dobrze / łatwe) z wyniku,
+// podpowiedzi, czasu i ponownej próby; ocena ustala następną powtórkę (srs.ts). Zadanie można odłożyć na później (zdarzenie „odhaczenia” z ref `odloz:<id>`).
 // Mapa pamięci: stan zadań w każdym dziale (nowe, w nauce, do powtórki, utrwalone).
 
 import type { TickEvent } from '../model';
@@ -11,7 +11,7 @@ export type Rate = 1 | 2 | 3 | 4;
 export type ReviewMode = 'mieszane' | 'powtorki' | 'nowe';
 
 export const RATES: { rate: Rate; label: string; key: string }[] = [
-  { rate: 1, label: 'Nie umiem', key: '1' },
+  { rate: 1, label: 'Do nauki', key: '1' },
   { rate: 2, label: 'Trudne', key: '2' },
   { rate: 3, label: 'Dobrze', key: '3' },
   { rate: 4, label: 'Łatwe', key: '4' },
@@ -43,9 +43,47 @@ export function postponed(ticks: TickEvent[], today: string): Map<string, string
 
 export const postponeRef = (taskId: string, days = 1) => `${POSTPONE}${taskId}@${days}`;
 
-/** Ocena trudności, gdy uczeń jej nie wybrał: z wyniku. */
+/** Ocena trudności z samego wyniku. */
 export function rateFromPct(pct: number): Rate {
   return pct >= 90 ? 4 : pct >= 70 ? 3 : pct >= 40 ? 2 : 1;
+}
+
+export interface AutoRateInput {
+  /** Wynik w procentach. */
+  pct: number;
+  /** Ile kroków podpowiedzi uczeń odsłonił. */
+  hints: number;
+  /** Czas nad zadaniem w sekundach. */
+  sec: number;
+  /** Przewidywany czas zadania w minutach. */
+  minutes: number;
+  /** Druga próba w tej sesji (po błędzie). */
+  retry: boolean;
+}
+
+/**
+ * Ocena trudności bez pytania ucznia: z wyniku, a potem w dół za podpowiedzi,
+ * za czas dłuższy niż 1,5 × przewidywany i za ponowną próbę po błędzie.
+ * „Łatwe” tylko przy pełnym wyniku bez podpowiedzi i w przewidywanym czasie.
+ */
+export function autoRate(i: AutoRateInput): { rate: Rate; why: string[] } {
+  const why: string[] = [];
+  let rate = rateFromPct(i.pct);
+  if (rate === 1) return { rate, why: [i.pct > 0 ? `wynik ${Math.round(i.pct)}%` : 'błędna odpowiedź'] };
+  why.push(`wynik ${Math.round(i.pct)}%`);
+  const cap = (r: Rate, w: string) => {
+    if (rate > r) {
+      rate = r;
+      why.push(w);
+    }
+  };
+  const limit = Math.max(1, i.minutes) * 60;
+  if (i.hints >= 2) cap(2, `${i.hints} podpowiedzi`);
+  else if (i.hints === 1) cap(3, 'z podpowiedzią');
+  if (i.retry) cap(2, 'druga próba w sesji');
+  if (i.sec > limit * 1.5) cap(3, 'dłużej niż zwykle');
+  else if (rate === 4 && i.sec > limit) cap(3, 'nieco dłużej niż zwykle');
+  return { rate, why };
 }
 
 /** Punkty z oceny trudności, gdy zadania otwartego nie oceniono punktami. */
@@ -63,7 +101,6 @@ export function whenLabel(date: string | null, today: string): string {
   const n = diffDays(date, today);
   if (n <= 0) return 'dziś';
   if (n === 1) return 'jutro';
-  if (n < 5) return `za ${n} dni`;
   if (n < 7) return `za ${n} dni`;
   if (n % 7 === 0) return n === 7 ? 'za tydzień' : `za ${n / 7} tyg.`;
   return `za ${n} dni`;
@@ -86,15 +123,21 @@ export function memStatus(s: SrsState | undefined, today: string): MemStatus {
   if (!s || s.attempts === 0) return 'nowe';
   if (s.status === 'zrobione') return 'utrwalone';
   if (isDue(s, today)) return 'powtorka';
-  return s.step >= 2 ? 'utrwalone' : 'nauka';
+  // utrwalone dopiero po co najmniej dwóch próbach i długim odstępie
+  return s.step >= 2 && s.attempts >= 2 ? 'utrwalone' : 'nauka';
 }
 
 /**
  * Zestaw zadań na sesję: najpierw zaległe powtórki (najdłużej czekające), potem nowe
  * z najważniejszych działów (różne działy po kolei), w ramach czasu. Co najmniej jedno zadanie.
  */
+/** Czy zadanie może trafić do sesji (to samo kryterium dla licznika i sesji). */
+function eligible(t: ReviewTask, subjects: string[], skip: Map<string, string>, topic?: string | null): boolean {
+  return !t.essay && t.topics.length > 0 && subjects.includes(t.subjectId) && !skip.has(t.id) && (!topic || t.topics.includes(topic));
+}
+
 export function buildSession<T extends ReviewTask>(pool: T[], srs: Map<string, SrsState>, skip: Map<string, string>, o: BuildOpts): T[] {
-  const ok = pool.filter((t) => !t.essay && t.topics.length > 0 && o.subjects.includes(t.subjectId) && !skip.has(t.id) && (!o.topic || t.topics.includes(o.topic)));
+  const ok = pool.filter((t) => eligible(t, o.subjects, skip, o.topic));
   const due = ok
     .filter((t) => {
       const s = srs.get(t.id);
@@ -178,9 +221,9 @@ export function memoryMap(pool: ReviewTask[], srs: Map<string, SrsState>, today:
 }
 
 /** Ile powtórek czeka dziś (bez odłożonych). */
-export function dueCount(pool: ReviewTask[], srs: Map<string, SrsState>, skip: Map<string, string>, subjects: string[], today: string): number {
-  return pool.filter((t) => !t.essay && subjects.includes(t.subjectId) && !skip.has(t.id) && (() => {
+export function dueCount(pool: ReviewTask[], srs: Map<string, SrsState>, skip: Map<string, string>, subjects: string[], today: string, topic?: string | null): number {
+  return pool.filter((t) => {
     const s = srs.get(t.id);
-    return !!s && isDue(s, today);
-  })()).length;
+    return eligible(t, subjects, skip, topic) && !!s && isDue(s, today);
+  }).length;
 }

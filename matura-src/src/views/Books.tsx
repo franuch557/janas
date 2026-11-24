@@ -5,7 +5,8 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { newId, useStore } from '../store/AppStore';
 import { BOOKS, bookById, bookText, EPOCHS, epochOverview, loadOral2Pack, ORAL, ORAL2, type BookBlock, type BookEntry, type BookSection } from '../store/books';
 import { cardsFromBookPrompt, oral2Prompt, oralPrompt, parseCards, parseOralPlan } from '../logic/ai';
-import { fmtClock } from '../logic/format';
+import { fmtClock, plural } from '../logic/format';
+import { checkBookAnswer, type QuizVerdict } from '../logic/bookQuiz';
 import { AiStatus, imagesFor, useAi, useAiCall } from '../ui/ai';
 import { Sheetimg } from '../ui/TaskImage';
 import { MathText } from '../ui/MathText';
@@ -44,12 +45,12 @@ export function BooksView() {
         <div className="grow">
           <h1 className="ptitle">Lektury</h1>
           <p className="muted">
-            {BOOKS.length} opracowań w {EPOCHS.length} epokach
+            {BOOKS.length} {plural(BOOKS.length, 'opracowanie', 'opracowania', 'opracowań')} w {EPOCHS.length} {plural(EPOCHS.length, 'epoce', 'epokach', 'epokach')}
           </p>
         </div>
         {ORAL?.pytania.length ? (
           <a className="btn btn-secondary" href="#ustny">
-            Ustny polski · {ORAL.pytania.length} pytań
+            Ustny polski · {ORAL.pytania.length} {plural(ORAL.pytania.length, 'pytanie', 'pytania', 'pytań')}
           </a>
         ) : null}
       </header>
@@ -100,7 +101,7 @@ export function BooksView() {
                         <span className="lk-tags">
                           {b.gatunek ? <span className="lk-tag">{b.gatunek.split(/[;,(]/)[0].trim()}</span> : null}
                           {sh ? <span className="lk-tag">{sh}</span> : null}
-                          {n ? <span className="lk-tag lk-tag-ink">{n} {n === 1 ? 'pytanie jawne' : n < 5 ? 'pytania jawne' : 'pytań jawnych'}</span> : null}
+                          {n ? <span className="lk-tag lk-tag-ink">{n} {plural(n, 'pytanie jawne', 'pytania jawne', 'pytań jawnych')}</span> : null}
                           {!b.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy</span> : null}
                         </span>
                       </button>
@@ -293,18 +294,172 @@ function Tiles({ blocks }: { blocks: BookBlock[] }) {
 }
 
 /** „Sprawdź swoją wiedzę”: klucz odpowiedzi ukryty do kliknięcia. */
-function QuizSection({ blocks }: { blocks: BookBlock[] }) {
-  const [show, setShow] = useState(false);
+const QUIZ_KEY = (id: string) => `matura-lektura-wynik-${id}`;
+
+/**
+ * Pytania z lektury, spokojnie: na stronie tylko krótki wiersz z liczbą pytań i ostatnim wynikiem.
+ * Po „Zacznij” jedno pytanie naraz: wpisujesz odpowiedź, „Sprawdź” pokazuje odpowiedź z klucza.
+ */
+function QuizSection({ blocks, bookId }: { blocks: BookBlock[]; bookId: string }) {
   const k = blocks.findIndex((b) => b.typ === 'akapit' && /klucz odpowiedzi/i.test(b.tekst));
-  if (k < 0) return <Blocks blocks={blocks} />;
+  const qs = k < 0 ? [] : blocks.slice(0, k).filter((b): b is Punkt => b.typ === 'punkt');
+  const keys = k < 0 ? [] : blocks.slice(k + 1).filter((b): b is Punkt => b.typ === 'punkt');
+  const items = qs.map((q, i) => ({ q: q.tekst, a: keys[i]?.tekst ?? '' })).filter((x) => x.a);
+  const [last, setLast] = useState<number | null>(() => {
+    try {
+      const v = localStorage.getItem(QUIZ_KEY(bookId));
+      const n = v == null ? NaN : Number(v);
+      return Number.isFinite(n) ? n : null;
+    } catch {
+      return null;
+    }
+  });
+  const [order, setOrder] = useState<number[] | null>(null);
+  const [showAll, setShowAll] = useState(false);
+  if (!items.length) return <Blocks blocks={blocks} />;
+  const finish = (good: number) => {
+    setLast(good);
+    try {
+      localStorage.setItem(QUIZ_KEY(bookId), String(good));
+    } catch {
+      /* bez zapisu w przeglądarce */
+    }
+  };
+  if (order) return <QuizRun items={order.map((i) => ({ ...items[i], i }))} total={items.length} onFinish={finish} onClose={() => setOrder(null)} onRetry={(ids) => setOrder(ids)} />;
   return (
-    <>
-      <Blocks blocks={blocks.slice(0, k)} />
-      <button type="button" className="btn btn-secondary" onClick={() => setShow((x) => !x)} aria-expanded={show}>
-        {show ? 'Ukryj klucz odpowiedzi' : 'Pokaż klucz odpowiedzi'}
-      </button>
-      {show ? <div className="lk-key"><Blocks blocks={blocks.slice(k + 1)} /></div> : null}
-    </>
+    <div className="lk-quiz-intro">
+      <div className="grow">
+        <strong>{plural(items.length, `${items.length} pytanie`, `${items.length} pytania`, `${items.length} pytań`)} z kluczem</strong>
+        <span className="small muted">{last != null ? `Ostatnio: ${last} z ${items.length}` : 'Jedno pytanie naraz – wpisujesz odpowiedź i sprawdzasz.'}</span>
+      </div>
+      <div className="lk-quiz-intro-actions">
+        <button type="button" className="btn btn-primary" onClick={() => setOrder(items.map((_, i) => i))}>
+          {last != null ? 'Jeszcze raz' : 'Zacznij'}
+        </button>
+        <button type="button" className="lk-link" aria-expanded={showAll} onClick={() => setShowAll((x) => !x)}>
+          {showAll ? 'Ukryj listę' : 'Lista z odpowiedziami'}
+        </button>
+      </div>
+      {showAll ? (
+        <ol className="lk-list lk-quiz-all">
+          {items.map((x, i) => (
+            <li key={i}>
+              <Md text={x.q} />
+              <span className="muted small"> – <Md text={x.a} /></span>
+            </li>
+          ))}
+        </ol>
+      ) : null}
+    </div>
+  );
+}
+
+function QuizRun({ items, total, onFinish, onClose, onRetry }: { items: { q: string; a: string; i: number }[]; total: number; onFinish: (good: number) => void; onClose: () => void; onRetry: (ids: number[]) => void }) {
+  const [pos, setPos] = useState(0);
+  const [text, setText] = useState('');
+  const [res, setRes] = useState<{ i: number; ok: boolean }[]>([]);
+  const [verdict, setVerdict] = useState<QuizVerdict | null>(null);
+  const [own, setOwn] = useState<boolean | null>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+  const nextRef = useRef<HTMLButtonElement>(null);
+  const cur = items[pos];
+  useEffect(() => {
+    if (cur && !verdict) inputRef.current?.focus({ preventScroll: true });
+    if (verdict) nextRef.current?.focus({ preventScroll: true });
+  }, [pos, !!verdict]); // eslint-disable-line react-hooks/exhaustive-deps
+  if (!cur) {
+    const good = res.filter((r) => r.ok).length;
+    const wrong = res.filter((r) => !r.ok).map((r) => r.i);
+    return (
+      <div className="lk-quiz-card lk-quiz-end" aria-live="polite">
+        <strong className="lk-quiz-score tnum">
+          {good} / {res.length}
+        </strong>
+        <p className="muted">{good === res.length ? 'Wszystko dobrze.' : `Do powtórki: ${plural(wrong.length, `${wrong.length} pytanie`, `${wrong.length} pytania`, `${wrong.length} pytań`)}.`}</p>
+        <div className="lk-q-actions">
+          {wrong.length ? (
+            <button type="button" className="btn btn-primary btn-sm" onClick={() => onRetry(wrong)}>
+              Powtórz błędne
+            </button>
+          ) : null}
+          <button type="button" className="btn btn-quiet btn-sm" onClick={onClose}>
+            Zamknij
+          </button>
+        </div>
+      </div>
+    );
+  }
+  const ok = own ?? verdict === 'dobrze';
+  const check = (give = false) => setVerdict(give ? 'zle' : checkBookAnswer(text, cur.a).verdict);
+  const next = () => {
+    const out = [...res, { i: cur.i, ok }];
+    setRes(out);
+    setText('');
+    setVerdict(null);
+    setOwn(null);
+    setPos((p) => p + 1);
+    if (pos + 1 >= items.length && items.length === total) onFinish(out.filter((r) => r.ok).length);
+  };
+  return (
+    <div className="lk-quiz-card">
+      <div className="lk-quiz-top">
+        <span className="small muted tnum">
+          {pos + 1} / {items.length}
+        </span>
+        <div className="lk-quiz-dots" aria-hidden="true">
+          {items.map((_, i) => (
+            <span key={i} className={i < res.length ? (res[i].ok ? 'ok' : 'bad') : i === pos ? 'cur' : ''} />
+          ))}
+        </div>
+        <button type="button" className="lk-link" onClick={onClose}>
+          Zakończ
+        </button>
+      </div>
+      <label htmlFor="lk-quiz-in" className="lk-quiz-q">
+        <Md text={cur.q} />
+      </label>
+      <textarea
+        id="lk-quiz-in"
+        ref={inputRef}
+        rows={2}
+        value={text}
+        readOnly={!!verdict}
+        placeholder="Twoja odpowiedź…"
+        onChange={(e) => setText(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            if (!verdict && text.trim()) check();
+          }
+        }}
+      />
+      {!verdict ? (
+        <div className="lk-q-actions">
+          <button type="button" className="btn btn-primary btn-sm" disabled={!text.trim()} onClick={() => check()}>
+            Sprawdź
+          </button>
+          <button type="button" className="btn btn-quiet btn-sm" onClick={() => check(true)}>
+            Nie wiem
+          </button>
+        </div>
+      ) : (
+        <div className={`lk-quiz-answer ${ok ? 'ok' : verdict === 'czesciowo' && own == null ? 'part' : 'bad'}`} aria-live="polite">
+          <p>
+            <span className="lk-quiz-mark">{ok ? 'Dobrze' : verdict === 'czesciowo' && own == null ? 'Prawie' : text.trim() ? 'Inaczej niż w kluczu' : 'Odpowiedź'}</span> <Md text={cur.a} />
+          </p>
+          <div className="lk-q-actions">
+            <button ref={nextRef} type="button" className="btn btn-primary btn-sm" onClick={next}>
+              {pos + 1 < items.length ? 'Dalej' : 'Wynik'}
+            </button>
+            {text.trim() ? (
+              <button type="button" className="lk-link" onClick={() => setOwn(!ok)}>
+                {ok ? 'Jednak źle' : 'Miałem dobrze'}
+              </button>
+            ) : null}
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -320,13 +475,13 @@ function kindOf(t: string): Kind {
 }
 const tocName = (t: string) => t.replace(/\s*\/.*$/, '').replace(/ i interpretacja$/, '').replace(/^Najważniejsze informacje do zapamiętania$/, 'Do zapamiętania').replace(/^Wykorzystanie lektury na maturze$/, 'Na maturze').replace(/^Szczegółowe streszczenie$/, 'Streszczenie').replace(/^Symbole i ważne elementy$/, 'Symbole').replace(/^Geneza i znaczenie tytułu$/, 'Geneza i tytuł').replace(/^Główne motywy$|^Motywy literackie$/, 'Motywy').replace(/^Informacje podstawowe$/, 'Informacje');
 
-function Section({ sec, i }: { sec: BookSection; i: number }) {
+function Section({ sec, i, bookId }: { sec: BookSection; i: number; bookId: string }) {
   const kind = kindOf(sec.tytul);
   const body =
     kind === 'facts' ? <Facts blocks={sec.bloki} /> :
     kind === 'steps' ? <Steps blocks={sec.bloki} /> :
     kind === 'tiles' ? <Tiles blocks={sec.bloki} /> :
-    kind === 'quiz' ? <QuizSection blocks={sec.bloki} /> :
+    kind === 'quiz' ? <QuizSection blocks={sec.bloki} bookId={bookId} /> :
     <Blocks blocks={sec.bloki} />;
   return (
     <section id={anchor(i)} className={`lk-sec lk-sec-${kind}`}>
@@ -425,7 +580,7 @@ export function BookView({ id }: { id: string }) {
           </nav>
           <article className="lk-content">
             {book.sekcje.map((sec, i) => (
-              <Section key={i} sec={sec} i={i} />
+              <Section key={i} sec={sec} i={i} bookId={id} />
             ))}
             {questions.length ? (
               <section className="lk-sec" id="pytania-jawne">

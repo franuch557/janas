@@ -88,7 +88,7 @@
         {
           "typ": "punkt",
           "etykieta": "Izabela Łęcka",
-          "tekst": "arystokratka. Cechy: próżność, egoizm, fascynacja luksusem, ale i wrażliwość. Decyzje: odrzucenie Wokulskiego. Zmienia się: od obojętności do rozczarowania. Wymowa: arystokracja jako świat pozoru."
+          "tekst": "arystokratka. Cechy: próżność, egoizm, fascynacja luksusem, ale i wrażliwość. Decyzje: przyjmuje oświadczyny Wokulskiego, ale dalej flirtuje ze Starskim. Zmienia się: od obojętności do rozczarowania. Wymowa: arystokracja jako świat pozoru."
         },
         {
           "typ": "punkt",
@@ -144,7 +144,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "Praca",
-          "tekst": "Wokulski, Rzecki. *Wykorzystanie:* zestawienie z *Syzyfem* (trud i jego sens) i z *Kandydem* (działanie zamiast spekulacji)."
+          "tekst": "Wokulski, Rzecki. *Wykorzystanie:* zestawienie z mitem o Syzyfie (trud i jego sens) i z *Kandydem* (działanie zamiast spekulacji)."
         },
         {
           "typ": "punkt",
@@ -162,13 +162,13 @@
           "typ": "punkt",
           "nr": 4,
           "etykieta": "Postęp",
-          "tekst": "Ochocki, wynalazki. *Wykorzystanie:* zestawienie z *Oświeceniem* (wiara w rozum)."
+          "tekst": "Ochocki, wynalazki. *Wykorzystanie:* zestawienie z *Kandydem* Woltera i oświeceniową wiarą w rozum."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "Samotność",
-          "tekst": "zakończenie Wokulskiego. *Wykorzystanie:* zestawienie z *Konradem* (samotność wieszcza)."
+          "tekst": "zakończenie Wokulskiego. *Wykorzystanie:* zestawienie z *Dziadami cz. III* (samotność Konrada)."
         }
       ]
     },
@@ -379,7 +379,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Dlaczego Izabela odrzuca Wokulskiego?"
+          "tekst": "Dlaczego związek Izabeli i Wokulskiego nie mógł się udać?"
         },
         {
           "typ": "punkt",
@@ -413,7 +413,7 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Ignacy Rzecki."
+          "tekst": "Dwóch: narrator trzecioosobowy (wszechwiedzący) i Ignacy Rzecki w „Pamiętniku starego subiekta”."
         },
         {
           "typ": "punkt",
@@ -473,7 +473,7 @@
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Bo arystokracja ceni pozycję, a nie człowieka."
+          "tekst": "Izabela ceni pozycję i luksus, a nie człowieka; Wokulski kocha wyobrażenie o niej. Po rozmowie Izabeli ze Starskim w pociągu Wokulski zrywa zaręczyny."
         },
         {
           "typ": "punkt",

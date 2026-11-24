@@ -189,7 +189,7 @@
 
 1. **Władza** – rewolucja szewców. *Wykorzystanie:* zestawienie z *Antygoną* (władza i jej granice) i *Dziadami* cz. III (władza zaborcza).
 2. **Konformizm** – podporządkowanie się. *Wykorzystanie:* zestawienie z *Lalką* (presja społeczna).
-3. **Absurd** – bezsens. *Wykorzystanie:* zestawienie z *Kohelet* (marność).
+3. **Absurd** – bezsens. *Wykorzystanie:* zestawienie z *Księgą Koheleta* (marność).
 
 ### F. Symbole i ważne elementy
 

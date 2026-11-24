@@ -32,15 +32,15 @@
 - **Autor:** Stanisław Wyspiański (1869–1907), malarz, dramaturg, poeta; jeden z najważniejszych twórców Młodej Polski.
 - **Epoka:** Młoda Polska.
 - **Data publikacji:** 1901 r. (Kraków); prapremiera w 1901 r. w Krakowie, w reżyserii autora.
-- **Rodzaj i gatunek:** dramat (dramat romantyczno-symboliczny), utwór o formie łączącej realizm z symbolem; w trzech aktach.
+- **Rodzaj i gatunek:** dramat symboliczny (narodowy), utwór o formie łączącej realizm z symbolem; w trzech aktach.
 - **Czas i miejsce akcji:** jedna noc listopadowa 1900 r.; Bronowice pod Krakowem, izba w domu Gospodarza (malarza Włodzimierza Tetmajera).
 - **Geneza:** inspirowane prawdziwym weselem poety Lucjana Rydla z Jadwigą Mikołajczykówną (prawie wszystkie postacie mają pierwowzory wśród gości), które odbyło się w Bronowicach. Utwór jest komentarzem do stanu narodu i jego tożsamości na przełomie wieków.
 
 ### B. Szczegółowe streszczenie
 
-**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią, Panna Młoda pyta, gdzie jest Polska – „A to Polska właśnie” jest w sercu. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie.
+**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią i chłopską prostotą. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie.
 **Akt II – fantastyczny:** przychodzą zjawy, każda do osoby, której sumienie porusza: Widmo (zmarły narzeczony) do Marysi; Stańczyk do Dziennikarza (wręcza mu kaduceusz – symbol bezsilnego słowa); Rycerz Czarny (Zawisza) do Poety; Hetman (Branicki, zdrajca) do Pana Młodego; Upiór (Jakub Szela, przywódca rabacji 1846) do Dziada. Wernyhora, lirnik-prorok, daje Gospodarzowi złoty róg: o świcie trzeba zadąć, by zebrać naród do walki. Gospodarz przekazuje róg Jaśkowi i każe mu objechać okolicę.
-**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła.
+**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wcześniej, w rozmowie z Panną Młodą, Pan Młody tłumaczy jej, że Polska jest w sercu („A to Polska właśnie”). Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła.
 
 **Znaczenie kluczowych wydarzeń:** wesele jest pretekstem do rozmowy o tożsamości narodowej, a sen i przebudzenie pokazują bezsilność wobec historii.
 

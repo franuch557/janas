@@ -233,7 +233,7 @@ export function StartView() {
             </>
           )}
           {extra.length ? (
-            <p className="small muted">Poza planem: {zadan(extra.length)} z wynikiem.</p>
+            <p className="small muted">Poza planem: {zadan(new Set(extra.map((r) => r.task)).size)} z wynikiem.</p>
           ) : null}
           {work.length > 0 ? (
             <div>

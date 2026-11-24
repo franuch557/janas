@@ -38,7 +38,9 @@ export const NEW_SRS: SrsState = { status: 'nowe', step: 0, nextReview: null, la
 export function nextSrs(prev: SrsState, pct: number, date: string): SrsState {
   const r = Math.max(0, Math.min(100, Math.round(pct)));
   const finished = r >= 90 && prev.step === 3 && prev.attempts > 0;
-  const step = stepFor(r);
+  // ponowna próba tego samego dnia po słabym wyniku: najwyżej 3 dni (jeszcze nie utrwalone)
+  const sameDayRetry = prev.lastDate === date && (prev.lastPct ?? 100) < 50;
+  const step = sameDayRetry ? Math.min(stepFor(r), 1) : stepFor(r);
   return {
     status: finished ? 'zrobione' : 'do powtórki',
     step,

@@ -303,7 +303,7 @@
 1. **Optymizm i pesymizm** – spór o sens świata. *Wykorzystanie:* zestawienie z *Księgą Koheleta* (marność i sens życia).
 2. **Podróż** – poszukiwanie sensu. *Wykorzystanie:* zestawienie z *Iliadą* (podróż jako próba).
 3. **Cierpienie** – nieszczęścia świata. *Wykorzystanie:* zestawienie z *Księgą Hioba* (cierpienie i sens).
-4. **Praca** – działanie jako wartość. *Wykorzystanie:* zestawienie z *Syzyfem* (daremny trud vs sensowne działanie).
+4. **Praca** – działanie jako wartość. *Wykorzystanie:* zestawienie z mitem o Syzyfie (daremny trud vs sensowne działanie).
 
 ### F. Symbole i ważne elementy
 
@@ -329,7 +329,7 @@
 **Zestawienia:**
 - *Kandyd* – *Księga Koheleta* (sens życia).
 - *Kandyd* – *Księga Hioba* (cierpienie).
-- *Kandyd* – *Syzyf* (trud i jego sens).
+- *Kandyd* – mit o Syzyfie (trud i jego sens).
 
 ### I. Najważniejsze informacje do zapamiętania
 

@@ -23,7 +23,7 @@ import { FlashcardsView } from './views/Flashcards';
 import { QuickMode } from './views/QuickMode';
 import { BookView, BooksView, OralQuestionView, OralView } from './views/Books';
 
-const TITLES: Record<string, string> = { plan: 'Plan', zadania: 'Zadania', arkusze: 'Arkusze', postep: 'Postęp', ustawienia: 'Ustawienia', fiszki: 'Fiszki', lektury: 'Lektury', lektura: 'Lektury', ustny: 'Ustny polski', 'ustny-pytanie': 'Ustny polski' };
+const TITLES: Record<string, string> = { plan: 'Plan', zadania: 'Zadania', arkusze: 'Arkusze', postep: 'Postęp', ustawienia: 'Ustawienia', fiszki: 'Fiszki', lektury: 'Lektury', lektura: 'Lektury', ustny: 'Ustny polski', 'ustny-pytanie': 'Ustny polski', 'mapa-pamieci': 'Mapa pamięci' };
 
 const NAV = [
   { name: 'start', label: 'Start', icon: 'start' },

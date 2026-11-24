@@ -29,7 +29,7 @@
         {
           "typ": "punkt",
           "etykieta": "Czas i miejsce akcji",
-          "tekst": "algierskie miasto Oran, lata 40. XX w. (epidemia dżumy); akcja rozgrywa się w ciągu kilku miesięcy."
+          "tekst": "algierskie miasto Oran, lata 40. XX w. (epidemia dżumy); akcja trwa około dziesięciu miesięcy (od wiosny do lutego następnego roku)."
         },
         {
           "typ": "punkt",
@@ -74,10 +74,6 @@
           "typ": "punkt",
           "etykieta": "Zakończenie",
           "tekst": "po około dziesięciu miesiącach epidemia wygasa, bramy miasta zostają otwarte. Cottard, który bał się powrotu do normalności, strzela do ludzi i zostaje aresztowany. Rieux ujawnia, że to on jest narratorem kroniki; wie, że bakcyl dżumy nie umiera nigdy i może znów obudzić szczury."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "*Do sprawdzenia: szczegółowa chronologia i role drugoplanowych postaci.*"
         },
         {
           "typ": "akapit",
@@ -452,7 +448,7 @@
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Chce uciec do żony."
+          "tekst": "Przemianę: chce uciec do ukochanej w Paryżu, ale zostaje i walczy z epidemią (solidarność)."
         },
         {
           "typ": "punkt",

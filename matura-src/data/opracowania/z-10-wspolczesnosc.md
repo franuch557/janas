@@ -460,7 +460,7 @@ Halina Poświatowska od dzieciństwa chorowała na serce i zmarła w wieku 32 la
 * Ignacy Krasicki – satyra na obyczaje.
 
 ### Geneza i znaczenie tytułu
-Opowiadanie pochodzi z tomu „Prawo prerii” Marka Nowakowskiego (podawany rok: 1999 – do sprawdzenia w wydaniu). Nowakowski pisał o świecie ulicy i przemian po 1989 r. Tytuł jest okrzykiem triumfu: wygrywa „Edek”, czyli siła i bezczelność, a nie racja – nawiązanie do Edka z „Tanga” Mrożka, symbolu zwycięskiego prostactwa.
+Opowiadanie pochodzi z tomu „Prawo prerii” Marka Nowakowskiego (1999). Nowakowski pisał o świecie ulicy i przemian po 1989 r. Tytuł jest okrzykiem triumfu: wygrywa „Edek”, czyli siła i bezczelność, a nie racja – nawiązanie do Edka z „Tanga” Mrożka, symbolu zwycięskiego prostactwa.
 
 ---
 

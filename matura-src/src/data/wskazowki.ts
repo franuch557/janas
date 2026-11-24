@@ -32,7 +32,7 @@ export const TIPS: Record<string, TopicTips> = {
   },
   procenty: {
     bledy: [
-      'Odejmowanie procentów od procentów: obniżka o 20%, a potem podwyżka o 20% nie wraca do ceny początkowej.',
+      'Zmiany procentowe nie znoszą się: obniżka o 20%, a potem podwyżka o 20% nie wraca do ceny początkowej.',
       'Mylenie punktów procentowych z procentami.',
       'Liczenie procentu od złej wielkości (od nowej ceny zamiast od starej).',
     ],
@@ -140,7 +140,7 @@ export const TIPS: Record<string, TopicTips> = {
   },
   pochodne: {
     bledy: ['Pochodna iloczynu jako iloczyn pochodnych.', 'Brak sprawdzenia znaku pochodnej wokół miejsca zerowego (to nie zawsze ekstremum).', 'W optymalizacji brak dziedziny zmiennej.'],
-    mnemo: [{ tytul: 'Ekstremum', tekst: 'f′ zmienia znak z + na − – maksimum, z − na + – minimum. Sam zerowy f′ to za mało.' }],
+    mnemo: [{ tytul: 'Ekstremum', tekst: 'f′ zmienia znak z + na − – maksimum, z − na + – minimum. Samo f′ = 0 to za mało.' }],
   },
   dowody: {
     bledy: ['Dowód „na przykładach” zamiast ogólnego.', 'Zaczynanie od tezy i dochodzenie do prawdy bez równoważności przekształceń.', 'Brak zakończenia (co z tego wynika).'],

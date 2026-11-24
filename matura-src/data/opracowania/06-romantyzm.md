@@ -417,8 +417,6 @@
 - ***Ballady* (wybrane):** utwory oparte na ludowych wierzeniach, z elementami nadprzyrodzonymi, dramatycznymi zdarzeniami i moralnymi wnioskami.
 - ***Sonety krymskie:*** podróż po Krymie opisuje piękno natury, zachwyt nad morzem, tęsknotę za ojczyzną.
 
-*Do sprawdzenia: dokładny wybór ballad i sonetów wymagany przez CKE.*
-
 ### C. Bohaterowie
 
 - **Podmiot liryczny** – młody poeta w *Odzie*, zakochany w *Romantyczności*, podróżnik w *Sonetach*. Rola: wyraża przeżycia romantyczne.
@@ -438,7 +436,7 @@
 1. **Młodość** – idealizm. *Wykorzystanie:* zestawienie z *Dziadami* cz. III (młodzi więźniowie) i wierszami Baczyńskiego (pokolenie Kolumbów).
 2. **Wiara** – w uczucie. *Wykorzystanie:* zestawienie z *Bogurodzicą* (wiara w siłę modlitwy).
 3. **Natura** – zachwyt. *Wykorzystanie:* zestawienie z *Panem Tadeuszem* (natura Litwy).
-4. **Przemijanie** – *Kohelet* jako kontrast.
+4. **Przemijanie** – *Księga Koheleta* jako kontrast.
 
 ### F. Symbole i ważne elementy
 
@@ -461,7 +459,7 @@
 - *Romantyczność* pokazuje, że wiara w uczucie może być silniejsza niż rozum.
 
 **Zestawienia:**
-- *Oda* – *Kohelet* (przemijanie).
+- *Oda* – *Księga Koheleta* (przemijanie).
 - *Romantyczność* – *Bogurodzica* (wiara).
 
 ### I. Najważniejsze informacje do zapamiętania
@@ -523,8 +521,6 @@
 
 ### B. Szczegółowe streszczenie
 
-*Do sprawdzenia: szczegóły przebiegu wymagane przez CKE. Poniżej ogólny schemat.*
-
 - **Ekspozycja:** nad Gopłem nimfa Goplana zakochuje się w prostym chłopie Grabcu i wraz z duchami Skierką i Chochlikiem miesza w losach ludzi. Rycerz Kirkor za radą Pustelnika (wygnanego króla Popiela III) szuka żony wśród ubogich i przychodzi do chaty wdowy, która ma dwie córki: Balladynę i Alinę.
 - **Konkurs na maliny i zbrodnia:** matka nie może wybrać, która córka ma poślubić Kirkora, więc ogłasza, że zostanie nią ta, która przyniesie więcej malin. Gdy Alina ma pełny dzbanek, Balladyna zabija ją nożem w lesie. Na czole Balladyny pojawia się krwawa plama.
 - **Żona Kirkora:** Balladyna poślubia Kirkora, wypędza z zamku matkę. Zabija Pustelnika, który zna jej tajemnicę, oraz Grabca, by zdobyć koronę, którą miał na głowie. Z pomocą Kostryna zdobywa władzę, a potem otruwa i jego.
@@ -555,7 +551,7 @@
 
 1. **Ambicja** – Balladyna. *Wykorzystanie:* zestawienie z *Makbetem* (ambicja i zbrodnia).
 2. **Zbrodnia** – zabójstwa. *Wykorzystanie:* zestawienie z *Antygoną* (konsekwencje czynów).
-3. **Kara** – moralny porządek. *Wykorzystanie:* zestawienie z *Syzyfem* (kara za przewinienia).
+3. **Kara** – moralny porządek. *Wykorzystanie:* zestawienie z mitem o Syzyfie (kara za przewinienia).
 4. **Władza** – królowa. *Wykorzystanie:* zestawienie z *Dziadami* cz. III.
 
 ### F. Symbole i ważne elementy

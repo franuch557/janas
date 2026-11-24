@@ -63,12 +63,13 @@ export function taskRecords(results: ResultEvent[], before?: string): Map<string
   return out;
 }
 
-/** Dni z nauką: zapisany wynik, zakończony arkusz albo odhaczona pozycja. */
+/** Dni z nauką: zapisany wynik, zakończony arkusz albo odhaczona pozycja (bez odłożeń). */
 export function studyDays(a: ActiveEvents): Set<string> {
   const s = new Set<string>();
   for (const e of a.results) s.add(e.d);
   for (const e of a.sessions) s.add(e.d);
-  for (const e of a.ticks) s.add(e.d);
+  // odłożenie zadania w sesji powtórek to nie nauka
+  for (const e of a.ticks) if (!e.ref.startsWith('odloz:')) s.add(e.d);
   return s;
 }
 

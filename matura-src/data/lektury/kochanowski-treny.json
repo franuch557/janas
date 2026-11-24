@@ -57,13 +57,13 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Końcowe treny",
-          "tekst": "poeta dochodzi do pogodzenia się z losem. Zaakceptowanie straty nie oznacza jednak, że ból znika."
+          "etykieta": "Treny IX–XI (kryzys)",
+          "tekst": "ojciec wątpi w mądrość filozofów (IX), w istnienie życia pozagrobowego (X, „Orszulo moja wdzięczna, gdzieś mi się podziała?”) i w sens cnoty (XI, „Fraszka cnota!”)."
         },
         {
           "typ": "punkt",
-          "etykieta": "Treny IX–XI (kryzys)",
-          "tekst": "ojciec wątpi w mądrość filozofów (IX), w istnienie życia pozagrobowego (X, „Orszulo moja wdzięczna, gdzieś mi się podziała?”) i w sens cnoty (XI, „Fraszka cnota!”)."
+          "etykieta": "Końcowe treny",
+          "tekst": "poeta dochodzi do pogodzenia się z losem. Zaakceptowanie straty nie oznacza jednak, że ból znika."
         },
         {
           "typ": "punkt",
@@ -134,7 +134,7 @@
           "typ": "punkt",
           "nr": 2,
           "etykieta": "Przemijanie",
-          "tekst": "marność życia. *Wykorzystanie:* zestawienie z *Kohelet* (marność)."
+          "tekst": "marność życia. *Wykorzystanie:* zestawienie z *Księgą Koheleta* (marność)."
         },
         {
           "typ": "punkt",

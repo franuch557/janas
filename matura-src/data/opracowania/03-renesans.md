@@ -46,8 +46,8 @@
 
 - **Początek cyklu (Tren I–III):** podmiot mówi o swoim bólu i żalu, poszukuje słów na wyrażenie straty. Pojawiają się pytania o sens cierpienia i o to, dlaczego zmarło dziecko.
 - **Środek cyklu:** poeta wspomina córkę, przywołuje jej obecność w domu, obraz dziecka i codzienność, która się zmieniła. Pojawia się motyw Boga i wiary jako źródła pocieszenia.
-- **Końcowe treny:** poeta dochodzi do pogodzenia się z losem. Zaakceptowanie straty nie oznacza jednak, że ból znika.
 - **Treny IX–XI (kryzys):** ojciec wątpi w mądrość filozofów (IX), w istnienie życia pozagrobowego (X, „Orszulo moja wdzięczna, gdzieś mi się podziała?”) i w sens cnoty (XI, „Fraszka cnota!”).
+- **Końcowe treny:** poeta dochodzi do pogodzenia się z losem. Zaakceptowanie straty nie oznacza jednak, że ból znika.
 - **Tren XIX albo Sen:** ostatni utwór cyklu. We śnie przychodzi do poety zmarła matka z Urszulką na ręku i pociesza go: córka jest szczęśliwa w niebie, a człowiek powinien „ludzkie przygody ludzkie znosić”. Żałoba zostaje zamknięta.
 
 **Znaczenie kluczowych wydarzeń:** cykl pokazuje przejście od rozpaczy do pogodzenia się z losem i opisuje etapy żałoby w sposób poetycki.
@@ -68,7 +68,7 @@
 ### E. Motywy literackie
 
 1. **Śmierć** – śmierć córki i własna. *Wykorzystanie:* zestawienie z *Rozmową Mistrza Polikarpa ze Śmiercią* (przemijanie).
-2. **Przemijanie** – marność życia. *Wykorzystanie:* zestawienie z *Kohelet* (marność).
+2. **Przemijanie** – marność życia. *Wykorzystanie:* zestawienie z *Księgą Koheleta* (marność).
 3. **Miłość rodzicielska** – ból po stracie dziecka. *Wykorzystanie:* zestawienie z *Lamentem świętokrzyskim*.
 4. **Wiara i pokora** – akceptacja woli Bożej. *Wykorzystanie:* zestawienie z *Hiobem* (cierpienie i wiara).
 5. **Los** – nieprzewidywalność losu. *Wykorzystanie:* zestawienie z *Mitologią* (przeznaczenie).

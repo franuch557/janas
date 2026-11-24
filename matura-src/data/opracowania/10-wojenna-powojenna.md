@@ -37,7 +37,7 @@
 - **Epoka:** literatura wojenna i powojenna (powieść z 1947 r.).
 - **Data publikacji:** 1947 r. (Francja).
 - **Rodzaj i gatunek:** powieść alegoryczna, kronika epidemii; powieść filozoficzna.
-- **Czas i miejsce akcji:** algierskie miasto Oran, lata 40. XX w. (epidemia dżumy); akcja rozgrywa się w ciągu kilku miesięcy.
+- **Czas i miejsce akcji:** algierskie miasto Oran, lata 40. XX w. (epidemia dżumy); akcja trwa około dziesięciu miesięcy (od wiosny do lutego następnego roku).
 - **Geneza:** Camus pisze o dżumie jako metaforze okupacji hitlerowskiej i ogólnie zła; utwór odnosi się do doświadczeń wojny i ruchu oporu.
 
 ### B. Szczegółowe streszczenie
@@ -50,8 +50,6 @@
 - **Walka:** Rieux i jego współpracownicy, mimo beznadziei, prowadzą walkę z chorobą. Tarrou tworzy oddziały sanitarne.
 - **Ofiary:** na oczach Rieux i Paneloux umiera w męczarniach syn sędziego Othona, co wstrząsa księdzem; Paneloux sam choruje i umiera. Pod koniec epidemii umiera Tarrou, a Rieux dowiaduje się o śmierci żony, która leczyła się poza miastem.
 - **Zakończenie:** po około dziesięciu miesiącach epidemia wygasa, bramy miasta zostają otwarte. Cottard, który bał się powrotu do normalności, strzela do ludzi i zostaje aresztowany. Rieux ujawnia, że to on jest narratorem kroniki; wie, że bakcyl dżumy nie umiera nigdy i może znów obudzić szczury.
-
-*Do sprawdzenia: szczegółowa chronologia i role drugoplanowych postaci.*
 
 **Znaczenie kluczowych wydarzeń:** epidemia jest sprawdzianem postaw ludzkich; pokazuje, że walka ze złem wymaga zaangażowania, mimo że zło może powrócić.
 
@@ -143,7 +141,7 @@
 5. Cottard.
 6. Wygasa.
 7. Zło i okupację.
-8. Chce uciec do żony.
+8. Przemianę: chce uciec do ukochanej w Paryżu, ale zostaje i walczy z epidemią (solidarność).
 9. Ksiądz.
 10. Solidarność.
 11. Bo odnosi się do okupacji i zła.
@@ -175,8 +173,6 @@
 - **Aresztowanie:** Winston i Julia zostają aresztowani w pokoju nad sklepem pana Charringtona, który okazuje się agentem Policji Myśli. O’Brien to w rzeczywistości funkcjonariusz Partii. Winston jest torturowany w Ministerstwie Miłości.
 - **Pokój 101:** w obliczu swojego największego lęku – klatki ze szczurami – Winston zdradza Julię.
 - **Zakończenie:** złamany Winston siedzi w kawiarni Pod Kasztanem, spotyka obojętną Julię i w końcu „kocha Wielkiego Brata”.
-
-*Do sprawdzenia: szczegóły scen z Ministerstwa Miłości i funkcje postaci.*
 
 **Znaczenie kluczowych wydarzeń:** zniszczenie Winstona pokazuje, jak totalitaryzm odbiera wolność nawet myśli.
 

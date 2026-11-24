@@ -114,12 +114,28 @@ export function hrefOf(r: Route): string {
   }
 }
 
-let lastMain = '#start';
+// ostatni ekran główny – w sessionStorage, żeby „Zamknij” po odświeżeniu wracało tam, skąd uczeń przyszedł
+const LAST_KEY = 'matura-ostatni-ekran';
+let lastMain = (() => {
+  try {
+    return sessionStorage.getItem(LAST_KEY) || '#start';
+  } catch {
+    return '#start';
+  }
+})();
+const rememberMain = (h: string) => {
+  lastMain = h;
+  try {
+    sessionStorage.setItem(LAST_KEY, h);
+  } catch {
+    /* bez pamięci sesji */
+  }
+};
 
 export function go(r: Route | string, replace = false) {
   const h = typeof r === 'string' ? r : hrefOf(r);
   const cur = parseHash(window.location.hash);
-  if (!FOCUS_ROUTES.has(cur.name)) lastMain = window.location.hash || '#start';
+  if (!FOCUS_ROUTES.has(cur.name)) rememberMain(window.location.hash || '#start');
   if (replace) {
     try {
       history.replaceState(null, '', h);

@@ -24,6 +24,11 @@ describe('scalanie zdarzeń', () => {
     expect(studyDays(a).size).toBe(0);
   });
 
+  it('odłożenie zadania w sesji powtórek nie liczy się jako dzień nauki', () => {
+    const a = activeEvents([{ id: 'o1', k: 'o', at: 1, d: '2026-11-20', ref: 'odloz:T1@1' }, { id: 'o2', k: 'o', at: 2, d: '2026-11-21', ref: 'plan-x' }] as AppEvent[]);
+    expect([...studyDays(a)]).toEqual(['2026-11-21']);
+  });
+
   it('ponowny zapis po cofnięciu daje jeden wpis w historii', () => {
     const evs: AppEvent[] = [res('w1', '2026-11-20', 0), { id: 'c1', k: 'c', at: 1, d: '2026-11-20', target: 'w1' }, res('w2', '2026-11-20', 2)];
     const rec = taskRecords(activeEvents(evs).results).get('T1')!;
