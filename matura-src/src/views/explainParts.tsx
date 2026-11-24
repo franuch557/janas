@@ -90,3 +90,57 @@ export function OfflineExplain({ t }: { t: AppTask }) {
     </section>
   );
 }
+
+// ---------- „Dlaczego ta odpowiedź?” przy zadaniach zamkniętych ----------
+
+let whyData: Promise<Record<string, string>> | null = null;
+const loadWhy = () => (whyData ??= import('../data/wyjasnienia-zamkniete.json').then((m) => m.default as unknown as Record<string, string>));
+
+export function useWhy(id: string): string | null {
+  const [w, setW] = useState<string | null>(null);
+  useEffect(() => {
+    let alive = true;
+    setW(null);
+    void loadWhy().then((d) => alive && setW(d[id] ?? null));
+    return () => {
+      alive = false;
+    };
+  }, [id]);
+  return w;
+}
+
+/**
+ * Po sprawdzeniu zadania zamkniętego: przy błędzie od razu rozwinięte wyjaśnienie, dlaczego
+ * poprawna jest odpowiedź z klucza; przy dobrej odpowiedzi – do rozwinięcia na życzenie.
+ */
+export function WhyCorrect({ t, choice }: { t: AppTask; choice: Record<string, string> }) {
+  const why = useWhy(t.id);
+  const items = t.answer?.items ?? [];
+  const wrong = items.filter((i) => i.correct && choice[i.id] !== i.correct);
+  const [open, setOpen] = useState(wrong.length > 0);
+  if (!items.length) return null;
+  const key = items.length === 1 ? items[0].correct : null;
+  const title = key ? `Dlaczego odpowiedź ${key}?` : 'Dlaczego tak jest w kluczu?';
+  if (!why && !wrong.length) return null;
+  return (
+    <section className={`card why${wrong.length ? ' why-bad' : ''} reveal`} aria-live="polite">
+      <div className="row-between">
+        <h3>{title}</h3>
+        {why && !wrong.length ? (
+          <button type="button" className="btn btn-secondary btn-sm" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
+            {open ? 'Ukryj' : 'Pokaż'}
+          </button>
+        ) : null}
+      </div>
+      {wrong.length ? (
+        <p className="small muted">
+          {key
+            ? `Zaznaczono ${choice[items[0].id] ?? '—'}, a poprawna jest ${key}.`
+            : `Błędne pozycje: ${wrong.map((i) => `${i.label ?? i.id} (poprawnie: ${i.correct})`).join(', ')}.`}
+        </p>
+      ) : null}
+      {open && why ? <p style={{ whiteSpace: 'pre-wrap' }}>{why}</p> : null}
+      {open && !why ? <p className="small muted">Do tego zadania nie ma jeszcze opisu. Porównaj z rozwiązaniem z zasad oceniania CKE poniżej.</p> : null}
+    </section>
+  );
+}

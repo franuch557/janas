@@ -4318,3 +4318,14 @@ p.rv-verdict {
   font-family: var(--font-d, var(--font));
   font-size: 2rem;
 }
+
+/* „Dlaczego ta odpowiedź?” po sprawdzeniu zadania zamkniętego */
+.card.why {
+  border-left: 4px solid var(--atrament);
+}
+.card.why.why-bad {
+  border-left-color: var(--zle);
+}
+.card.why p {
+  margin: 0;
+}

@@ -21,7 +21,7 @@ import { ContextSheet, TaskSheet } from '../ui/TaskImage';
 import { Empty, SubjectTag, useNow } from '../ui/common';
 import { Icon } from '../ui/icons';
 import { go, goBack } from '../ui/router';
-import { useExplain } from './explainParts';
+import { useExplain, WhyCorrect } from './explainParts';
 import { HintSteps, useHintSteps } from './hintParts';
 import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
 
@@ -387,6 +387,7 @@ function Step({ t, nr, total, retry, onRated, onLater }: { t: AppTask; nr: numbe
               </span>
             </div>
           ) : null}
+          {closed ? <WhyCorrect t={t} choice={choice} /> : null}
           {auto ? (
             <div className="feedback reveal" aria-live="polite">
               <Icon name="ok" />

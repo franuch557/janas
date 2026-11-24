@@ -1,5 +1,5 @@
 import { RubricGrader } from './rubricParts';
-import { OfflineExplain } from './explainParts';
+import { OfflineExplain, WhyCorrect } from './explainParts';
 import { HintSteps, useHintSteps } from './hintParts';
 import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
 import { useEffect, useRef, useState } from 'react';
@@ -286,6 +286,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                     </div>
                   ) : null}
                 </div>
+                {checked ? <WhyCorrect t={t} choice={choice} /> : null}
                 {checked ? (
                   <button type="button" className="btn btn-secondary" onClick={() => setRevealed((r) => !r)}>
                     {revealed ? 'Ukryj rozwiązanie' : 'Pokaż rozwiązanie'}
