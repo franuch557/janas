@@ -165,7 +165,7 @@ Leśmian wydał najważniejsze tomy w okresie międzywojennym: „Łąka” (192
 ### Plan wydarzeń / Streszczenie (omawiane utwory)
 1. **„Do prostego człowieka”:** Poeta zwraca się do zwykłego człowieka z każdego kraju: gdy znów pojawią się plakaty wzywające do wojny, gdy przemawiać będą o ojczyźnie, chwale i granicach, gdy duchowni pobłogosławią karabiny, a tłum obrzuci żołnierzy kwiatami – niech wie, że to kłamstwo. Wojny wywołują bogacze i politycy dla ropy, pieniędzy i ceł. Wzywa, by rzucić karabin i nie przelewać własnej krwi za cudze interesy. Wiersz wywołał skandal jako pacyfistyczny.
 2. **„Mieszkańcy”:** Satyra na mieszczan: poeta opisuje „straszne mieszkania”, w których „straszni mieszczanie” żyją bezmyślnie, rozmawiają o niczym, jedzą, plotkują, wszystko mają poukładane i oceniają świat szablonami. Wiersz krytykuje filisterstwo, pustotę i duchową martwotę.
-3. **„Bal w operze”:** Poemat satyryczny, poprzedzony mottami z Apokalipsy: groteskowy, wulgarny obraz balu elit władzy i pieniądza, które bawią się w operze, podczas gdy kraj cierpi. Tuwim obnaża korupcję, rozpasanie i pogardę rządzących dla zwykłych ludzi; utwór długo blokowała cenzura.
+3. **„Bal w operze”:** Poemat satyryczny: groteskowy, wulgarny obraz balu elit władzy i pieniądza, które bawią się w operze, podczas gdy kraj cierpi. Tuwim obnaża korupcję, rozpasanie i pogardę rządzących dla zwykłych ludzi; utwór długo blokowała cenzura.
 
 ### Bohaterowie
 * **„prosty człowiek”:** Adresat, zwykły obywatel manipulowany przez propagandę.
@@ -175,7 +175,6 @@ Leśmian wydał najważniejsze tomy w okresie międzywojennym: „Łąka” (192
 ### Główne motywy
 * **Wojna:** Jako interes możnych.
 * **Mieszczanin:** Filister, człowiek bez wyobraźni.
-* **Apokalipsa:** Motta w „Balu w operze”.
 * **Prosty człowiek:** Bohater poezji Skamandra.
 
 ### Problematyka
@@ -187,7 +186,6 @@ Leśmian wydał najważniejsze tomy w okresie międzywojennym: „Łąka” (192
 ### Konteksty
 * **Grupa poetycka Skamander:** poezja codzienności, język potoczny, witalizm.
 * Ruchy pacyfistyczne po I wojnie światowej.
-* Księga Apokalipsy – motta „Balu w operze”.
 * Krasicki – satyra jako krytyka obyczajów.
 
 ### Geneza i znaczenie tytułu
@@ -207,8 +205,6 @@ Tuwim był współzałożycielem grupy poetyckiej Skamander (1918–1919), któr
 
 ### Plan wydarzeń / Streszczenie (omawiane utwory)
 1. **„Miłość”:** Kobieta mówi, że nie widziała ukochanego od miesiąca i pozornie nic się nie stało: jest tylko trochę bledsza, bardziej śpiąca i milcząca. Puenta zaskakuje: okazuje się, że można żyć bez powietrza – miłość była dla niej jak oddech.
-2. **„Fotografia”:** Gdy miało się szczęście, które się nie powtarza – czyjeś ciało i cały świat – a zostaje po nim tylko zdjęcie, to jest bardzo mało. Miniatura o przemijaniu miłości.
-3. **„Nike”:** Miłość porównana do posągu Nike z Samotraki: choć zabita, wciąż biegnie z zapałem, wyciągając odcięte ramiona – trwa mimo zranienia.
 4. **„Pocałunki” jako zbiór:** Krótkie, lekkie formy, nawiązujące do japońskiego haiku i tanki, z zaskakującą puentą; mówią o miłości, kobiecości, przemijaniu i lęku przed starością.
 
 ### Bohaterowie
@@ -248,8 +244,8 @@ Maria Pawlikowska-Jasnorzewska, córka malarza Wojciecha Kossaka, związana był
 * **Zakres na maturze:** wybrane wiersze
 
 ### Plan wydarzeń / Streszczenie (omawiane utwory)
-1. **„na wsi” (tom „Kamień”, 1927):** Obraz wiejskiego popołudnia i wieczoru zbudowany z synestezji: siano pachnie snem, słońce dzwoni w rzece, krowy wracają przeżuwać zmierzch, księżyc pierze srebrne chusty, świerszcze grają w stogach. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy.
-2. **„żal” (tom „nuta człowiecza”, 1939):** Wiersz napisany tuż przed wojną: podmiot, siwiejący, chodzi uliczkami i widzi znaki nadchodzącej katastrofy – rozbite szyby synagog, płomienie, ryk głodnych ludów. Przewiduje, że zginie wielokrotnie w różnych ludziach – w oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu – i pyta, czy rzeka zdąży oczyścić się z bratniej krwi, zanim odbudują się stolice. To proroctwo zagłady (katastrofizm).
+1. **„na wsi” (tom „Kamień”, 1927):** Obraz spokojnego wiejskiego popołudnia i wieczoru zbudowany z synestezji – zapachy, dźwięki i barwy przenikają się. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem świata. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy.
+2. **„żal” (tom „nuta człowiecza”, 1939):** Wiersz napisany tuż przed wojną. Podmiot przeczuwa nadchodzącą katastrofę i własną śmierć, a spokojny świat wydaje mu się kruchy i skazany na zagładę. To przykład katastrofizmu.
 
 ### Bohaterowie
 * **Podmiot liryczny:** Wrażliwy obserwator świata, piewca prowincji i jednocześnie wizjoner katastrofy.

@@ -11,6 +11,30 @@ Opowiadanie Andrzeja Stasiuka z tomu „Opowieści galicyjskie”. W beskidzkiej
 5. Narrator znajduje w trawie gonty i gwoździe.
 6. Refleksja o nieobecnych ludziach i o świętości miejsca.
 
+## Streszczenie szczegółowe
+### Puste miejsce
+> Po starej cerkwi zostało tylko puste miejsce i pytanie turysty.
+- Narrator stoi w miejscu, gdzie niedawno była drewniana **cerkiew**.
+- Przechodzący **turysta** pyta, co się tu stało.
+- Narrator zaczyna opowieść o świątyni.
+
+### Wyobrażona budowa
+> Narrator odtwarza w wyobraźni, jak przed wiekami budowano cerkiew.
+- Wyobraża sobie drewno na budowę i to, jak zimą je transportowano – trud ludzi i koni, zapach drewna.
+- Opisuje, jak mogło wyglądać wnętrze: układ świątyni, **ikonostas**.
+- Turysta w tym czasie robi zdjęcia.
+
+### Znaczenie i rozbiórka
+> Cerkiew była sercem społeczności, ale niszczała i została rozebrana.
+- Narrator myśli o setkach wiernych, którzy przez lata się tu modlili.
+- Świątynia niszczała: wilgoć, kruszące się fundamenty, chwiejąca się konstrukcja.
+- Rozebrano ją i przeniesiono do **muzeum** – zdaniem narratora to błąd, bo związku z miejscem nie da się przenieść.
+
+### Pamięć i wątpliwość
+> Na końcu narrator nie jest pewien, co było prawdą, a co wyobraźnią.
+- Zastanawia się, czy cerkiew naprawdę tu stała, czy jest tylko symbolem, który łączy ludzi.
+- Opowieść wypełnia lukę po tym, co zniknęło.
+
 ## Bohaterowie
 - **Narrator** – przybysz osiadły w Beskidzie Niskim, wrażliwy na przeszłość, odtwarza historię miejsca w wyobraźni.
 - **Turysta** – obcy, który pyta o to, czego już nie widać.

@@ -53,18 +53,6 @@
         },
         {
           "typ": "punkt",
-          "nr": 2,
-          "etykieta": "„Fotografia”",
-          "tekst": "Gdy miało się szczęście, które się nie powtarza – czyjeś ciało i cały świat – a zostaje po nim tylko zdjęcie, to jest bardzo mało. Miniatura o przemijaniu miłości."
-        },
-        {
-          "typ": "punkt",
-          "nr": 3,
-          "etykieta": "„Nike”",
-          "tekst": "Miłość porównana do posągu Nike z Samotraki: choć zabita, wciąż biegnie z zapałem, wyciągając odcięte ramiona – trwa mimo zranienia."
-        },
-        {
-          "typ": "punkt",
           "nr": 4,
           "etykieta": "„Pocałunki” jako zbiór",
           "tekst": "Krótkie, lekkie formy, nawiązujące do japońskiego haiku i tanki, z zaskakującą puentą; mówią o miłości, kobiecości, przemijaniu i lęku przed starością."
@@ -216,23 +204,11 @@
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Co zostaje po szczęściu w wierszu „Fotografia”?"
-        },
-        {
-          "typ": "punkt",
-          "nr": 5,
-          "etykieta": "",
-          "tekst": "Do jakiego posągu porównana jest miłość w wierszu „Nike”?"
-        },
-        {
-          "typ": "punkt",
-          "nr": 6,
-          "etykieta": "",
           "tekst": "Do jakich form japońskich nawiązują „Pocałunki”?"
         },
         {
           "typ": "punkt",
-          "nr": 7,
+          "nr": 5,
           "etykieta": "",
           "tekst": "Czym kończą się miniatury poetki?"
         },
@@ -262,23 +238,11 @@
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Tylko zdjęcie – a to bardzo mało."
-        },
-        {
-          "typ": "punkt",
-          "nr": 5,
-          "etykieta": "",
-          "tekst": "Do posągu Nike z Samotraki."
-        },
-        {
-          "typ": "punkt",
-          "nr": 6,
-          "etykieta": "",
           "tekst": "Do haiku i tanki."
         },
         {
           "typ": "punkt",
-          "nr": 7,
+          "nr": 5,
           "etykieta": "",
           "tekst": "Zaskakującą puentą."
         }

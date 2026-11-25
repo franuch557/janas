@@ -615,9 +615,8 @@ Odpowiedzi w kluczu opierają się na treści opracowania tej samej lektury.
 3. Czym jest wieś w tym wierszu?
 4. Jakie cechy formy są typowe dla awangardy w wierszu „na wsi”?
 5. Kiedy powstał wiersz „żal”?
-6. Jakie znaki katastrofy widzi podmiot w wierszu „żal”?
-7. W kim podmiot przewiduje, że zginie?
-8. Jak nazywa się postawa przeczuwająca zagładę?
+6. Co przeczuwa podmiot w wierszu „żal”?
+7. Jak nazywa się postawa przeczuwająca zagładę?
 
 **Klucz odpowiedzi:**
 1. „Kamień” (1927).
@@ -625,9 +624,8 @@ Odpowiedzi w kluczu opierają się na treści opracowania tej samej lektury.
 3. Bezpiecznym, dziecięcym schronieniem (arkadią).
 4. Brak interpunkcji i wielkich liter, swobodny rytm, bogata metaforyka.
 5. Tuż przed wojną (tom „nuta człowiecza”, 1939).
-6. Rozbite szyby synagog, płomienie, ryk głodnych ludów.
-7. W oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu.
-8. Katastrofizm.
+6. Nadchodzącą katastrofę wojny i własną śmierć.
+7. Katastrofizm.
 
 ## Maria Pawlikowska-Jasnorzewska – wybrane wiersze
 <!-- id: pawlikowska-wiersze -->
@@ -639,19 +637,15 @@ Odpowiedzi w kluczu opierają się na treści opracowania tej samej lektury.
 1. Jak nazywa się tom miniatur Pawlikowskiej-Jasnorzewskiej z 1926 r.?
 2. Jak długo kobieta z wiersza „Miłość” nie widziała ukochanego?
 3. Jaka jest puenta wiersza „Miłość”?
-4. Co zostaje po szczęściu w wierszu „Fotografia”?
-5. Do jakiego posągu porównana jest miłość w wierszu „Nike”?
-6. Do jakich form japońskich nawiązują „Pocałunki”?
-7. Czym kończą się miniatury poetki?
+4. Do jakich form japońskich nawiązują „Pocałunki”?
+5. Czym kończą się miniatury poetki?
 
 **Klucz odpowiedzi:**
 1. „Pocałunki”.
 2. Od miesiąca.
 3. Można żyć bez powietrza – miłość była jak oddech.
-4. Tylko zdjęcie – a to bardzo mało.
-5. Do posągu Nike z Samotraki.
-6. Do haiku i tanki.
-7. Zaskakującą puentą.
+4. Do haiku i tanki.
+5. Zaskakującą puentą.
 
 ## Julian Tuwim – wybrane wiersze
 <!-- id: tuwim-wiersze -->
@@ -665,9 +659,8 @@ Odpowiedzi w kluczu opierają się na treści opracowania tej samej lektury.
 3. Do czego poeta wzywa w tym wierszu?
 4. Dlaczego wiersz wywołał skandal?
 5. Kogo krytykuje wiersz „Mieszkańcy”?
-6. Jakie motta poprzedzają „Bal w operze”?
-7. Co obnaża „Bal w operze”?
-8. Do jakiej grupy poetyckiej należał Tuwim?
+6. Co obnaża „Bal w operze”?
+7. Do jakiej grupy poetyckiej należał Tuwim?
 
 **Klucz odpowiedzi:**
 1. Do zwykłego człowieka z każdego kraju.
@@ -675,9 +668,8 @@ Odpowiedzi w kluczu opierają się na treści opracowania tej samej lektury.
 3. By rzucić karabin i nie przelewać krwi za cudze interesy.
 4. Bo był pacyfistyczny.
 5. Mieszczan (filisterstwo, bezmyślność, duchową martwotę).
-6. Motta z Apokalipsy.
-7. Korupcję, rozpasanie i pogardę elit władzy dla zwykłych ludzi.
-8. Do Skamandra.
+6. Korupcję, rozpasanie i pogardę elit władzy dla zwykłych ludzi.
+7. Do Skamandra.
 
 ## Krzysztof Kamil Baczyński – wybrane wiersze
 <!-- id: baczynski-wiersze -->

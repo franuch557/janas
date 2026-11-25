@@ -32,31 +32,19 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Krótki tekst Marka Nowakowskiego z tomu „Prawo prerii”. Narrator obserwuje drobną scenę w zatłoczonym centrum miasta: o wolne miejsce parkingowe walczą młody, niepozorny inteligent w małym fiacie i pewny siebie mężczyzna w luksusowym fordzie. Wygrywa silniejszy i bezczelniejszy. Narrator nazywa zwycięzcę „Edkiem” – jak prostaka, który w „Tangu” Mrożka przejmuje władzę. Scena staje się diagnozą Polski lat 90.: rządzi prawo silniejszego."
-        }
-      ]
-    },
-    {
-      "tytul": "Streszczenie szczegółowe",
-      "bloki": [
-        {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "Scena na ulicy",
-          "tekst": "Narrator przypadkowo obserwuje zdarzenie w zatłoczonym centrum miasta: na wąskiej ulicy kierowcy krążą w poszukiwaniu wolnego miejsca parkingowego. Niewysoki, drobny młody mężczyzna w okularach, wyglądający na inteligenta, próbuje zaparkować swojego małego fiata, ale manewruje niezręcznie."
+          "etykieta": "O czym",
+          "tekst": "na zatłoczonej ulicy drobny inteligent w maluchu i rosły mężczyzna w fordzie walczą o miejsce parkingowe."
         },
         {
           "typ": "punkt",
-          "nr": 2,
-          "etykieta": "Starcie",
-          "tekst": "Tuż za nim staje luksusowy ford, z którego kierowcą jest wysoki, tęgi mężczyzna w skórzanej kurtce. Ford blokuje malucha. Młody kierowca trąbi i protestuje, dołączają inni kierowcy, ale „Edek” pozostaje niewzruszony. W końcu kierowca malucha ustępuje, a ford sprawnie zajmuje miejsce."
+          "etykieta": "Jak się kończy",
+          "tekst": "wygrywa silniejszy i bezczelniejszy, a słabszy zostaje zignorowany."
         },
         {
           "typ": "punkt",
-          "nr": 3,
-          "etykieta": "Finał",
-          "tekst": "Młodzieniec wysiada i próbuje coś powiedzieć, ale mężczyzna w skórzanej kurtce zachowuje się tak, jakby go nie widział. Znika w bramie pełnej tabliczek firm i przedstawicielstw handlowych, gotów do kolejnych interesów. Narrator nazywa go „Edkiem” – na wzór bohatera „Tanga” Mrożka."
+          "etykieta": "Najważniejsza myśl",
+          "tekst": "w Polsce po przemianach rządzi prawo silniejszego – zwycięża „Edek”, jak prostak z „Tanga” Mrożka."
         }
       ]
     },
@@ -67,37 +55,77 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Na zatłoczonej ulicy kierowcy szukają miejsca do parkowania."
+          "tekst": "Gwar uliczny, kierowcy szukają miejsca do parkowania."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Młody mężczyzna w okularach próbuje niezręcznie zaparkować malucha."
+          "tekst": "Kierowca malucha zauważa wolne miejsce, ale przejeżdża kawałek za daleko."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Za nim staje luksusowy ford; jego kierowca blokuje malucha."
+          "tekst": "Kierowca forda wpycha się i blokuje malucha."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Kłótnia, trąbienie, inni kierowcy się wtrącają."
+          "tekst": "Kierowca malucha domaga się pierwszeństwa, inni trąbią."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Kierowca malucha ustępuje, ford zajmuje miejsce."
+          "tekst": "Kierowca forda wszystkich ignoruje."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "„Edek” ignoruje protesty i znika w bramie pełnej szyldów firm."
+          "tekst": "Kierowca malucha rezygnuje i odjeżdża, a ford parkuje."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Inteligent wysiada i próbuje słownie bronić swoich racji."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Kierowca forda go ignoruje i znika w bramie pełnej szyldów firm."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Walka o miejsce",
+          "tekst": "",
+          "sedno": "Na ruchliwej ulicy drobne zdarzenie zamienia się w pojedynek silnego ze słabym.",
+          "punkty": [
+            "Kierowca **malucha** – niepozorny, drobny mężczyzna w okularach – znajduje wolne miejsce.",
+            "Parkując, przejeżdża kawałek za daleko.",
+            "Wykorzystuje to kierowca **forda** – rosły, pewny siebie mężczyzna – i blokuje mu wjazd.",
+            "Klaksony innych kierowców nic nie dają. Kierowca forda zachowuje się, jakby nikogo nie było."
+          ]
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przegrana inteligenta",
+          "tekst": "",
+          "sedno": "Racja nic nie znaczy, gdy druga strona jej nie słucha.",
+          "punkty": [
+            "Kierowca malucha ustępuje i odjeżdża, a ford spokojnie parkuje.",
+            "Inteligent jednak wraca i próbuje wytłumaczyć, że był pierwszy i że to nieuczciwe.",
+            "Kierowca forda go **ignoruje** i wchodzi do bramy pełnej tabliczek firm i przedstawicielstw handlowych."
+          ]
         }
       ]
     },

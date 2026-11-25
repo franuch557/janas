@@ -61,7 +61,7 @@
           "typ": "punkt",
           "nr": 3,
           "etykieta": "„Bal w operze”",
-          "tekst": "Poemat satyryczny, poprzedzony mottami z Apokalipsy: groteskowy, wulgarny obraz balu elit władzy i pieniądza, które bawią się w operze, podczas gdy kraj cierpi. Tuwim obnaża korupcję, rozpasanie i pogardę rządzących dla zwykłych ludzi; utwór długo blokowała cenzura."
+          "tekst": "Poemat satyryczny: groteskowy, wulgarny obraz balu elit władzy i pieniądza, które bawią się w operze, podczas gdy kraj cierpi. Tuwim obnaża korupcję, rozpasanie i pogardę rządzących dla zwykłych ludzi; utwór długo blokowała cenzura."
         }
       ]
     },
@@ -159,11 +159,6 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Apokalipsa",
-          "tekst": "Motta w „Balu w operze”."
-        },
-        {
-          "typ": "punkt",
           "etykieta": "Prosty człowiek",
           "tekst": "Bohater poezji Skamandra."
         }
@@ -181,11 +176,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Ruchy pacyfistyczne po I wojnie światowej."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Księga Apokalipsy – motta „Balu w operze”."
         },
         {
           "typ": "punkt",
@@ -235,17 +225,11 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Jakie motta poprzedzają „Bal w operze”?"
-        },
-        {
-          "typ": "punkt",
-          "nr": 7,
-          "etykieta": "",
           "tekst": "Co obnaża „Bal w operze”?"
         },
         {
           "typ": "punkt",
-          "nr": 8,
+          "nr": 7,
           "etykieta": "",
           "tekst": "Do jakiej grupy poetyckiej należał Tuwim?"
         },
@@ -287,17 +271,11 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Motta z Apokalipsy."
-        },
-        {
-          "typ": "punkt",
-          "nr": 7,
-          "etykieta": "",
           "tekst": "Korupcję, rozpasanie i pogardę elit władzy dla zwykłych ludzi."
         },
         {
           "typ": "punkt",
-          "nr": 8,
+          "nr": 7,
           "etykieta": "",
           "tekst": "Do Skamandra."
         }

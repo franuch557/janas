@@ -42,33 +42,24 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Opowiadanie Olgi Tokarczuk. Angielski psycholog, profesor Andrews, przylatuje do Warszawy w grudniu 1981 roku, by wygłosić wykład. Następnego dnia, 13 grudnia, zostaje wprowadzony stan wojenny. Profesor zostaje sam w obcym mieście, bez języka, telefonu i pieniędzy. Nie rozumie, co się dzieje. Błąka się po zimnej, szarej Warszawie, aż pomaga mu zwykły człowiek. Opowiadanie pokazuje stan wojenny oczami obcokrajowca."
-        }
-      ]
-    },
-    {
-      "tytul": "Streszczenie szczegółowe",
-      "bloki": [
-        {
           "typ": "punkt",
-          "etykieta": "Przylot",
-          "tekst": "Angielski profesor psychologii Andrews, przedstawiciel nowoczesnej szkoły psychoterapii, przylatuje do Warszawy w grudniu 1981 r., by wygłosić wykład. Jest pełen optymizmu: wyobraża sobie Polskę jako kraj inteligentnych ludzi, zainteresowanych ideami jego szkoły. W samolocie wspomina sen o wronie, który interpretuje jako zapowiedź czegoś dobrego. Na lotnisku wita go przewodniczka Gosha i zawozi do mieszkania na ostatnim piętrze szarego bloku."
+          "etykieta": "O czym",
+          "tekst": "angielski psycholog przyjeżdża do Warszawy na wykłady w grudniu 1981 roku i zostaje sam w mieście, w którym właśnie wprowadzono stan wojenny."
         },
         {
           "typ": "punkt",
-          "etykieta": "13 grudnia",
-          "tekst": "Następnego ranka Andrews budzi się sam. Telefon nie działa, a na ulicach widzi czołgi i żołnierzy. Nie zna języka, nie ma mapy, nie wie, że ogłoszono stan wojenny. Błąka się po zaśnieżonym, szarym mieście w poszukiwaniu działającego telefonu, gubi się, przypadkiem trafia z powrotem do bloku. Jego wykład się nie odbywa."
+          "etykieta": "Co się dzieje",
+          "tekst": "nie zna języka, telefony nie działają, nikt mu nic nie tłumaczy. Przez kilka dni błąka się po szarym, zimnym mieście."
         },
         {
           "typ": "punkt",
-          "etykieta": "Błądzenie",
-          "tekst": "Profesor jest coraz bardziej głodny i zmarznięty. Je w barze mlecznym, w osiedlowym sklepie kupuje tylko chleb i ocet, przez okratowaną witrynę ogląda pełne półki Peweksu. Przygląda się kolejkom ludzi po karpie, a nawet sam kupuje choinkę, by być jak inni. Zaczyna podejrzewać, że ma epizod psychotyczny – jego teorie psychologiczne nie pomagają zrozumieć tego, co się dzieje."
+          "etykieta": "Jak się kończy",
+          "tekst": "pomagają mu zwykli ludzie z bloku i odwożą go do ambasady."
         },
         {
           "typ": "punkt",
-          "etykieta": "Ocalenie",
-          "tekst": "Z opresji ratuje go zwykły człowiek, zaradny mieszkaniec bloku, który zabiera go do domu: na stole kiełbasa i wódka, w wannie pływa żywy karp. Patrząc w oko ryby, Andrews przeżywa coś na kształt mistycznego doświadczenia. Mężczyzna odwozi go do ambasady. Żegnają się zdaniem, którego profesor nauczył się od sprzedawców karpi (pytaniem, czy rybę zabić na miejscu)."
+          "etykieta": "Najważniejsza myśl",
+          "tekst": "stan wojenny widziany oczami obcego pokazuje absurd i lęk tamtych dni."
         }
       ]
     },
@@ -79,55 +70,108 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Profesor Andrews przylatuje do Warszawy pełen optymizmu."
+          "tekst": "Profesor Andrews ląduje w Warszawie; odbiera go asystentka, a jego bagaż ginie."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Przewodniczka zawozi go do mieszkania w bloku."
+          "tekst": "Kolacja z asystentką i jej narzeczonym; profesor zostaje w wynajętym mieszkaniu."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "13 grudnia budzi się sam – telefon nie działa, na ulicach są czołgi."
+          "tekst": "Rano telefony nie działają, asystentka nie przychodzi, na ulicy stoi czołg."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Błądzi po mieście, szuka telefonu i kogoś, kto mówi po angielsku."
+          "tekst": "Profesor wychodzi, gubi się, ale wraca do mieszkania."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Głód i zimno; bar mleczny, puste półki, Pewex."
+          "tekst": "Kolejne dni: bar, w którym trudno się porozumieć, kolejki, chleb i ocet, choinka."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Kupuje choinkę, obserwuje kolejki po karpie."
+          "tekst": "Profesor patrzy, jak sprzedawcy ogłuszają żywe ryby na oczach kupujących."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Zaczyna wątpić we własny rozum."
+          "tekst": "Postanawia iść do ambasady."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Pomaga mu zwykły mieszkaniec bloku – kolacja, karp w wannie."
+          "tekst": "Przed blokiem spotyka mężczyznę, który zabiera go do domu – wódka, kiełbasa, ryba w wannie."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Mężczyzna odwozi profesora do ambasady."
+          "tekst": "Polacy próbują mu wytłumaczyć, że jest stan wojenny, i odwożą go do ambasady."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Przylot",
+          "tekst": "",
+          "sedno": "Profesor przylatuje pełen planów, ale od początku coś idzie nie tak.",
+          "punkty": [
+            "**Profesor Andrews**, przedstawiciel ważnej szkoły psychologicznej, ma wygłosić wykłady i spotkać się z polskimi psychiatrami.",
+            "Na lotnisku odbiera go asystentka **Małgorzata**. Okazuje się, że **zginął jego bagaż**.",
+            "Asystentka i jej narzeczony zabierają go na kolację, a potem zostawiają w wynajętym mieszkaniu w bloku."
+          ]
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "13 grudnia",
+          "tekst": "",
+          "sedno": "Profesor budzi się w innym kraju, choć nie ruszył się z miejsca.",
+          "punkty": [
+            "Rano budzi się w ubraniu – jedynym, jakie ma.",
+            "**Telefony nie działają**, asystentka się nie pojawia.",
+            "Na ulicy widzi **czołg** i żołnierzy. Nie rozumie, co się stało.",
+            "Wychodzi z domu, prawie się gubi, ale wraca."
+          ]
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Błądzenie po mieście",
+          "tekst": "",
+          "sedno": "Codzienne sprawy stają się dla obcokrajowca nie do pojęcia.",
+          "punkty": [
+            "W barze na migi zamawia jedzenie, nikt nie mówi po angielsku.",
+            "Wsiada do złego autobusu, ogląda piękną witrynę sklepu, który jest zamknięty.",
+            "Stoi w **kolejkach**: kupuje chleb i napój, który okazuje się **octem**. Kupuje nawet **choinkę**.",
+            "Patrzy, jak sprzedawcy przed świętami ogłuszają **żywe ryby** odważnikiem.",
+            "Jego wiedza psychologiczna nie pomaga mu zrozumieć tego, co widzi."
+          ]
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ocalenie",
+          "tekst": "",
+          "sedno": "Pomoc przychodzi od zwykłych ludzi.",
+          "punkty": [
+            "Profesor pakuje rzeczy i chce znaleźć **ambasadę**.",
+            "Przed blokiem spotyka mężczyznę i wszystko mu opowiada.",
+            "W jego małym mieszkaniu dostaje wódkę i kiełbasę, słyszy o „wojnie”, a w wannie widzi **żywą rybę**.",
+            "Polacy odwożą go do ambasady. Na pożegnanie profesor pyta, jak sprzedawcy ryb: „Żywo czy na miejscu?”."
+          ]
         }
       ]
     },
@@ -141,8 +185,8 @@
         },
         {
           "typ": "punkt",
-          "etykieta": "Przewodniczka",
-          "tekst": "przywozi go do mieszkania i znika."
+          "etykieta": "Małgorzata",
+          "tekst": "Asystentka, odbiera profesora z lotniska i znika po wprowadzeniu stanu wojennego."
         },
         {
           "typ": "punkt",
@@ -371,7 +415,7 @@
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Kto wita go na lotnisku?"
+          "tekst": "Kto odbiera go z lotniska?"
         },
         {
           "typ": "punkt",
@@ -389,7 +433,7 @@
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Jaki sen ma w samolocie?"
+          "tekst": "Co ginie profesorowi zaraz po przylocie?"
         },
         {
           "typ": "punkt",
@@ -469,13 +513,13 @@
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Przewodniczka Gosha."
+          "tekst": "Asystentka Małgorzata."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Gosha znika, telefony nie działają, nikt nie przychodzi."
+          "tekst": "Asystentka nie przychodzi, telefony nie działają, wprowadzono stan wojenny."
         },
         {
           "typ": "punkt",
@@ -487,7 +531,7 @@
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Sen o wronie."
+          "tekst": "Bagaż."
         },
         {
           "typ": "punkt",

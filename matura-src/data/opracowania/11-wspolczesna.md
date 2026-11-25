@@ -336,10 +336,10 @@
 2. Po co przyjeżdża do Warszawy?
 3. W jakim momencie historycznym rozgrywa się akcja?
 4. Z jakiego tomu pochodzi opowiadanie?
-5. Kto wita go na lotnisku?
+5. Kto odbiera go z lotniska?
 6. Dlaczego Andrews zostaje sam?
 7. Co jest dla niego największą przeszkodą w mieście?
-8. Jaki sen ma w samolocie?
+8. Co ginie profesorowi zaraz po przylocie?
 9. Kto jest autorką?
 10. Jak kończy się opowiadanie?
 
@@ -355,10 +355,10 @@
 2. Wygłosić wykład o swojej szkole psychoterapii.
 3. 13 grudnia 1981 r. – wprowadzenie stanu wojennego.
 4. *Gra na wielu bębenkach*.
-5. Przewodniczka Gosha.
-6. Gosha znika, telefony nie działają, nikt nie przychodzi.
+5. Asystentka Małgorzata.
+6. Asystentka nie przychodzi, telefony nie działają, wprowadzono stan wojenny.
 7. Nie zna języka i nie rozumie, co się dzieje.
-8. Sen o wronie.
+8. Bagaż.
 9. Olga Tokarczuk.
 10. Bohater zostaje ocalony i może wrócić do domu.
 11. Obcy widzi absurd sytuacji wyraźniej niż ci, którzy w niej żyją.

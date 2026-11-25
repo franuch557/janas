@@ -212,9 +212,9 @@ Miłosz pisał w czasie wojny w Warszawie („Campo di Fiori”, 1943), potem ja
 
 ### Plan wydarzeń / Streszczenie (omawiane utwory)
 1. **„Przesłanie Pana Cogito”:** Wiersz-testament w formie rad: idź wyprostowany, bo ocalałeś nie po to, by żyć, lecz by dawać świadectwo; bądź odważny, gdy rozum zawodzi; strzeż się oschłości serca, ale nie wyzbywaj się pogardy dla szpiclów i katów; nie przebaczaj w imieniu tych, których zdradzono; bądź wierny. Podmiot przywołuje mitycznych i literackich bohaterów (Gilgamesz, Hektor, Roland), którzy przegrali, lecz pozostali wierni.
-2. **„Tren Fortynbrasa”:** Fortynbras, nowy władca, mówi nad ciałem Hamleta. Docenia go, ale też wytyka mu, że żył w świecie wielkich idei i nie umiał żyć zwyczajnie. Sam zapowiada pragmatyczne rządy: porządek, sprawy miasta, kanalizacja. Wiersz zderza dwie postawy: idealizm i realizm władzy.
+2. **„Tren Fortynbrasa”:** Fortynbras, nowy władca, mówi nad ciałem Hamleta. Docenia go, ale też wytyka mu, że żył w świecie wielkich idei i nie umiał żyć zwyczajnie. Sam zapowiada pragmatyczne rządy: porządek, dekrety, sprawy państwa. Wiersz zderza dwie postawy: idealizm i realizm władzy.
 3. **„Potęga smaku”:** Podmiot twierdzi, że opór wobec władzy totalitarnej nie wymagał wielkiego charakteru, lecz smaku: język propagandy był brzydki, prymitywny, a rządzący nieciekawi. Estetyka okazuje się podstawą etyki – nie można przyjąć kłamstwa, które razi brzydotą.
-4. **„Raport z oblężonego miasta”:** Kronikarz oblężonego Miasta notuje zwięźle wydarzenia: kolejne najeźdźców, nędzę, zdrady i tych, którzy trwają. Mówi, że jeśli Miasto padnie, a ocaleje jeden, to on będzie niósł Miasto w sobie. Wiersz odczytywano jako komentarz do stanu wojennego, ale ma wymiar uniwersalny.
+4. **„Raport z oblężonego miasta”:** Kronikarz oblężonego Miasta notuje zwięźle wydarzenia: kolejnych najeźdźców, nędzę, zdrady i tych, którzy trwają. Mówi, że jeśli Miasto padnie, a ocaleje jeden, to on będzie niósł Miasto w sobie. Wiersz odczytywano jako komentarz do stanu wojennego, ale ma wymiar uniwersalny.
 5. **„Apollo i Marsjasz”:** Opis kary, jaką Apollo wymierza Marsjaszowi, który wyzwał go na pojedynek muzyczny – obdzieranie ze skóry. Krzyk cierpiącego Marsjasza jest prawdziwą, nową sztuką, przeciwstawioną chłodnej doskonałości Apolla. Wiersz pyta o relację sztuki i cierpienia.
 
 ### Bohaterowie

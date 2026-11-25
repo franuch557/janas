@@ -13,9 +13,8 @@
 * **Zakres na maturze:** wybrane wiersze
 
 ### Plan wydarzeń / Streszczenie (omawiane utwory)
-1. **„Pokolenie” („Wiatr drzewa spienia…”):** Obraz dojrzałej, pełnej owoców ziemi zostaje skażony grozą: z drzew zwisa ucięta głowa, pod ziemią leżą skręcone ciała. Pokolenie młodych żyje w strachu, z wilczymi twarzami, w jamach jak troglodyci. Powtarzające się zdanie „Nas nauczono” pokazuje, że wojna odebrała im litość, sumienie i miłość. Na końcu wizja: staną do walki na wozach, czołgach i rumowiskach, nie wiedząc, czy zostaną zapamiętani jak bohaterowie Iliady, czy postawi się im – choćby z litości – krzyż nad grobem.
+1. **„Pokolenie” („Wiatr drzewa spienia…”):** Obraz dojrzałej, urodzajnej ziemi zostaje skażony grozą wojny i śmierci. Powtarzające się zdanie „Nas nauczono” pokazuje, że wojna odebrała młodym litość, sumienie i miłość. Pokolenie Kolumbów zostało zmuszone do zabijania i nie wie, czy zostanie zapamiętane.
 2. **„Elegia o… [chłopcu polskim]”:** Liryczny monolog matki (lub zbiorowego głosu) do syna: odebrano mu sny i dzieciństwo, jego oczy „wyhaftowano” krwią, wychowano go w ciemności i strachu, a ziemię ojczystą poznał, walcząc. W końcu wyszedł nocą z bronią i zginął, przeżegnawszy jeszcze ziemię. Wiersz kończy pytanie, czy zabiła go kula, czy pękło mu serce. Ton pieszczotliwy („syneczku”) kontrastuje z okrucieństwem wojny.
-3. **„Historia”:** Poeta widzi w krajobrazie ślady dawnych bitew – arkebuzy, kanonierów, puste miejsca po rycerzach – i odczuwa ciężar historii, która powtarza się w jego pokoleniu.
 
 ### Bohaterowie
 * **Pokolenie Kolumbów:** Młodzież urodzona ok. 1920 r., która dorastała w wojnie i musiała walczyć i zabijać.

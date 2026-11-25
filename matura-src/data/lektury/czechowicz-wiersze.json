@@ -49,13 +49,13 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "„na wsi” (tom „Kamień”, 1927)",
-          "tekst": "Obraz wiejskiego popołudnia i wieczoru zbudowany z synestezji: siano pachnie snem, słońce dzwoni w rzece, krowy wracają przeżuwać zmierzch, księżyc pierze srebrne chusty, świerszcze grają w stogach. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy."
+          "tekst": "Obraz spokojnego wiejskiego popołudnia i wieczoru zbudowany z synestezji – zapachy, dźwięki i barwy przenikają się. Wieś jest bezpiecznym, dziecięcym schronieniem przed złem świata. Brak interpunkcji i wielkich liter, swobodny rytm i bogata metaforyka są typowe dla awangardy."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "„żal” (tom „nuta człowiecza”, 1939)",
-          "tekst": "Wiersz napisany tuż przed wojną: podmiot, siwiejący, chodzi uliczkami i widzi znaki nadchodzącej katastrofy – rozbite szyby synagog, płomienie, ryk głodnych ludów. Przewiduje, że zginie wielokrotnie w różnych ludziach – w oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu – i pyta, czy rzeka zdąży oczyścić się z bratniej krwi, zanim odbudują się stolice. To proroctwo zagłady (katastrofizm)."
+          "tekst": "Wiersz napisany tuż przed wojną. Podmiot przeczuwa nadchodzącą katastrofę i własną śmierć, a spokojny świat wydaje mu się kruchy i skazany na zagładę. To przykład katastrofizmu."
         }
       ]
     },
@@ -216,17 +216,11 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Jakie znaki katastrofy widzi podmiot w wierszu „żal”?"
+          "tekst": "Co przeczuwa podmiot w wierszu „żal”?"
         },
         {
           "typ": "punkt",
           "nr": 7,
-          "etykieta": "",
-          "tekst": "W kim podmiot przewiduje, że zginie?"
-        },
-        {
-          "typ": "punkt",
-          "nr": 8,
           "etykieta": "",
           "tekst": "Jak nazywa się postawa przeczuwająca zagładę?"
         },
@@ -268,17 +262,11 @@
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Rozbite szyby synagog, płomienie, ryk głodnych ludów."
+          "tekst": "Nadchodzącą katastrofę wojny i własną śmierć."
         },
         {
           "typ": "punkt",
           "nr": 7,
-          "etykieta": "",
-          "tekst": "W oraczu, w prawniku, w śpiącej kobiecie, w dziecku, w żołnierzu."
-        },
-        {
-          "typ": "punkt",
-          "nr": 8,
           "etykieta": "",
           "tekst": "Katastrofizm."
         }
