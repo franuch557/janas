@@ -105,17 +105,26 @@
         {
           "typ": "punkt",
           "etykieta": "Miłość",
-          "tekst": "Najważniejszy temat; miłość jest zmysłowa, delikatna, ale nietrwała."
+          "tekst": "",
+          "punkty": [
+            "Najważniejszy temat; miłość jest zmysłowa, delikatna, ale nietrwała."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przemijanie",
-          "tekst": "Czas niszczy uczucia, urodę i młodość."
+          "tekst": "",
+          "punkty": [
+            "Czas niszczy uczucia, urodę i młodość."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Kobiecość",
-          "tekst": "Wiersze pokazują przeżycia kobiety, jej pragnienia i lęki."
+          "tekst": "",
+          "punkty": [
+            "Wiersze pokazują przeżycia kobiety, jej pragnienia i lęki."
+          ]
         }
       ]
     },

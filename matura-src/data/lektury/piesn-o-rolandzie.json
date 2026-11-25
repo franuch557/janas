@@ -114,27 +114,61 @@
         {
           "typ": "punkt",
           "etykieta": "Zdrada Ganelona",
-          "tekst": "Saraceński król Marsylion z Saragossy obiecuje Karolowi Wielkiemu pokój i chrzest. Roland proponuje, by poselstwo do Marsyliona przyjął jego ojczym, Ganelon. Ganelon czuje się upokorzony i boi się o życie. W zemście umawia się z Saracenami, że napadną na tylną straż wojsk Karola, którą dowodzić będzie Roland."
+          "tekst": "",
+          "sedno": "Ganelon z zemsty na pasierbie Rolandzie zdradza wojska Karola Wielkiego.",
+          "punkty": [
+            "Saraceński król **Marsylion** z Saragossy obiecuje **Karolowi Wielkiemu** pokój i chrzest.",
+            "**Roland** proponuje, by poselstwo do **Marsyliona** przyjął jego ojczym, **Ganelon**.",
+            "**Ganelon** czuje się upokorzony i boi się o życie.",
+            "W zemście umawia się z Saracenami, że napadną na tylną straż wojsk **Karola**, którą dowodzić będzie **Roland**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wąwóz Roncevaux",
-          "tekst": "Wojska Karola wracają do Francji. Roland z dwunastoma parami (najlepszymi rycerzami) i dwudziestoma tysiącami żołnierzy osłania odwrót. W wąwozie w Pirenejach atakuje ich ogromna armia saraceńska. Przyjaciel Rolanda, rozsądny Oliwer, prosi, by zadąć w róg i wezwać Karola. Roland odmawia – uważa, że wzywanie pomocy przyniosłoby mu wstyd."
+          "tekst": "",
+          "sedno": "Tylna straż Rolanda zostaje zaatakowana przez ogromne wojsko Saracenów.",
+          "punkty": [
+            "Wojska **Karola** wracają do Francji.",
+            "**Roland** z dwunastoma parami (najlepszymi rycerzami) i dwudziestoma tysiącami żołnierzy osłania odwrót.",
+            "W wąwozie w Pirenejach atakuje ich ogromna armia saraceńska.",
+            "Przyjaciel **Rolanda**, rozsądny **Oliwer**, prosi, by zadąć w róg i wezwać **Karola**.",
+            "**Roland** odmawia – uważa, że wzywanie pomocy przyniosłoby mu wstyd."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Bitwa",
-          "tekst": "Rycerze walczą bohatersko i zabijają wielu wrogów, ale giną jeden po drugim. Gdy zostaje garstka, Roland dmie w róg Olifant tak mocno, że pękają mu skronie. Karol słyszy i zawraca. Giną Oliwer i arcybiskup Turpin, który przed śmiercią błogosławi poległych."
+          "tekst": "",
+          "sedno": "Roland z dumy zbyt długo nie wzywa pomocy i jego rycerze giną.",
+          "punkty": [
+            "Rycerze walczą bohatersko i zabijają wielu wrogów, ale giną jeden po drugim.",
+            "Gdy zostaje garstka, **Roland** dmie w róg Olifant tak mocno, że pękają mu skronie.",
+            "**Karol** słyszy i zawraca.",
+            "Giną **Oliwer** i arcybiskup **Turpin**, który przed śmiercią błogosławi poległych."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Śmierć Rolanda",
-          "tekst": "Ranny Roland kładzie się pod drzewem, twarzą w stronę Hiszpanii, by pokazać, że umiera jako zwycięzca. Próbuje rozbić o skałę swój miecz Durendal, by nie dostał się w ręce wroga, ale miecz się nie łamie. Roland wyznaje grzechy, wyciąga do Boga rękawicę, a anioły zabierają jego duszę do nieba."
+          "tekst": "",
+          "sedno": "Roland umiera jak idealny rycerz, zwrócony twarzą ku wrogom.",
+          "punkty": [
+            "Ranny **Roland** kładzie się pod drzewem, twarzą w stronę Hiszpanii, by pokazać, że umiera jako zwycięzca.",
+            "Próbuje rozbić o skałę swój miecz Durendal, by nie dostał się w ręce wroga, ale miecz się nie łamie.",
+            "**Roland** wyznaje grzechy, wyciąga do Boga rękawicę, a anioły zabierają jego duszę do nieba."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zemsta i kara",
-          "tekst": "Karol pokonuje Saracenów, a Bóg zatrzymuje słońce, by wojsko mogło dokończyć walkę. Karol opłakuje poległych. Ganelon zostaje osądzony i rozerwany końmi, a jego krewni powieszeni."
+          "tekst": "",
+          "sedno": "Karol Wielki pokonuje Saracenów, a zdrajca Ganelon zostaje stracony.",
+          "punkty": [
+            "**Karol** pokonuje Saracenów, a Bóg zatrzymuje słońce, by wojsko mogło dokończyć walkę.",
+            "**Karol** opłakuje poległych.",
+            "**Ganelon** zostaje osądzony i rozerwany końmi, a jego krewni powieszeni."
+          ]
         }
       ]
     },
@@ -197,22 +231,35 @@
         {
           "typ": "punkt",
           "etykieta": "Ideał rycerza",
-          "tekst": "Roland walczy za Boga, króla i ojczyznę („słodka Francja”), dba o honor i sławę."
+          "tekst": "",
+          "punkty": [
+            "Roland walczy za Boga, króla i ojczyznę („słodka Francja”), dba o honor i sławę."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wojna religijna",
-          "tekst": "Walka chrześcijan z „poganami” ukazana jest jako święta – to echo wypraw krzyżowych."
+          "tekst": "",
+          "punkty": [
+            "Walka chrześcijan z „poganami” ukazana jest jako święta – to echo wypraw krzyżowych."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Honor a rozsądek",
-          "tekst": "Duma Rolanda prowadzi do klęski. Oliwer reprezentuje rozwagę."
+          "tekst": "",
+          "punkty": [
+            "Duma Rolanda prowadzi do klęski.",
+            "Oliwer reprezentuje rozwagę."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zdrada",
-          "tekst": "Ganelon to wzór zdrajcy, który z osobistej zemsty niszczy wspólnotę."
+          "tekst": "",
+          "punkty": [
+            "Ganelon to wzór zdrajcy, który z osobistej zemsty niszczy wspólnotę."
+          ]
         }
       ]
     },

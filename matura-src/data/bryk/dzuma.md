@@ -21,19 +21,45 @@ W algierskim mieście Oran wybucha epidemia dżumy. Miasto zostaje zamknięte. M
 
 ## Streszczenie szczegółowe
 ### Część I – nadejście dżumy
-Oran to zwyczajne, nudne miasto, w którym ludzie myślą głównie o pracy i pieniądzach. W kwietniu na ulicach zaczynają masowo ginąć szczury. Potem chorują ludzie. Doktor Rieux rozpoznaje dżumę i nalega, by władze zareagowały. Prefekt zwleka, w końcu ogłasza stan dżumy i zamyka miasto. Żona Rieux wyjechała wcześniej do sanatorium.
+> W Oranie giną szczury, a potem ludzie – doktor Rieux rozpoznaje dżumę.
+- Oran to zwyczajne, nudne miasto, w którym ludzie myślą głównie o pracy i pieniądzach.
+- W kwietniu na ulicach zaczynają masowo ginąć szczury.
+- Potem chorują ludzie.
+- Doktor **Rieux** rozpoznaje dżumę i nalega, by władze zareagowały.
+- Prefekt zwleka, w końcu ogłasza stan dżumy i zamyka miasto.
+- Żona **Rieux** wyjechała wcześniej do sanatorium.
 
 ### Część II – zamknięte miasto
-Mieszkańcy zostają odcięci od świata i bliskich. Rambert, dziennikarz z Paryża, za wszelką cenę chce się wydostać do ukochanej. Ojciec Paneloux wygłasza kazanie, że dżuma to kara Boża za grzechy. Jean Tarrou zakłada ochotnicze formacje sanitarne. Joseph Grand, skromny urzędnik, pomaga w statystykach i wciąż pisze pierwsze zdanie swojej powieści.
+> Miasto zostaje odcięte od świata, a ludzie różnie reagują: ucieczką, kazaniem, pomocą.
+- Mieszkańcy zostają odcięci od świata i bliskich.
+- **Rambert**, dziennikarz z Paryża, za wszelką cenę chce się wydostać do ukochanej.
+- Ojciec **Paneloux** wygłasza kazanie, że dżuma to kara Boża za grzechy.
+- **Jean Tarrou** zakłada ochotnicze formacje sanitarne.
+- **Joseph Grand**, skromny urzędnik, pomaga w statystykach i wciąż pisze pierwsze zdanie swojej powieści.
 
 ### Część III – szczyt epidemii
-Latem dżuma jest najgroźniejsza. Ludzi grzebie się w zbiorowych mogiłach, a potem pali. Mieszkańcy popadają w apatię, przyzwyczajają się do nieszczęścia.
+> Latem dżuma jest najgroźniejsza, a mieszkańcy popadają w apatię.
+- Latem dżuma jest najgroźniejsza.
+- Ludzi grzebie się w zbiorowych mogiłach, a potem pali.
+- Mieszkańcy popadają w apatię, przyzwyczajają się do nieszczęścia.
 
 ### Część IV – walka
-Rambert, mając już możliwość ucieczki, zostaje w Oranie, bo uważa, że wstydziłby się być szczęśliwym sam. Rieux, Tarrou i Paneloux patrzą na powolną śmierć małego syna sędziego Othona. To wstrząsa Paneloux. W drugim kazaniu mówi, że trzeba przyjąć wszystko albo odrzucić wszystko. Wkrótce sam umiera. Tarrou opowiada Rieux o swoim życiu: o ojcu-prokuratorze, który żądał kary śmierci, i o tym, jak postanowił walczyć z każdą formą zabijania.
+> Rambert zostaje, by pomagać, a śmierć dziecka wstrząsa wszystkimi.
+- **Rambert**, mając już możliwość ucieczki, zostaje w Oranie, bo uważa, że wstydziłby się być szczęśliwym sam.
+- **Rieux**, **Tarrou** i **Paneloux** patrzą na powolną śmierć małego syna sędziego **Othona**.
+- To wstrząsa **Paneloux**.
+- W drugim kazaniu mówi, że trzeba przyjąć wszystko albo odrzucić wszystko.
+- Wkrótce sam umiera.
+- **Tarrou** opowiada **Rieux** o swoim życiu: o ojcu-prokuratorze, który żądał kary śmierci, i o tym, jak postanowił walczyć z każdą formą zabijania.
 
 ### Część V – koniec dżumy
-W styczniu epidemia słabnie. Tuż przed jej końcem umiera Tarrou. Rieux dostaje telegram o śmierci żony. Bramy miasta zostają otwarte, ludzie świętują. Cottard, który bał się powrotu normalności, strzela z okna do przechodniów i zostaje aresztowany. Rieux wyjawia, że to on jest narratorem, i ostrzega, że bakcyl dżumy nigdy nie umiera.
+> Epidemia ustępuje, ale zabiera Tarrou, a Rieux ostrzega, że dżuma może wrócić.
+- W styczniu epidemia słabnie.
+- Tuż przed jej końcem umiera **Tarrou**.
+- **Rieux** dostaje telegram o śmierci żony.
+- Bramy miasta zostają otwarte, ludzie świętują.
+- **Cottard**, który bał się powrotu normalności, strzela z okna do przechodniów i zostaje aresztowany.
+- **Rieux** wyjawia, że to on jest narratorem, i ostrzega, że bakcyl dżumy nigdy nie umiera.
 
 ## Bohaterowie
 - **Bernard Rieux** – lekarz, narrator. Rzeczowy, skromny, robi to, co trzeba, bez wielkich słów. Nie wierzy w Boga, ale walczy ze złem.
@@ -52,19 +78,19 @@ Albert Camus wydał „Dżumę” w 1947 roku. Pisał ją w czasie II wojny świ
 
 ## Problematyka
 ### Zło
-Dżuma to symbol zła w świecie: wojny, totalitaryzmu, cierpienia.
+- Dżuma to symbol zła w świecie: wojny, totalitaryzmu, cierpienia.
 
 ### Postawy wobec zła
-Bohaterowie wybierają walkę, ucieczkę, rezygnację lub wykorzystanie sytuacji.
+- Bohaterowie wybierają walkę, ucieczkę, rezygnację lub wykorzystanie sytuacji.
 
 ### Solidarność
-Ludzie mogą przeciwstawić się złu tylko razem.
+- Ludzie mogą przeciwstawić się złu tylko razem.
 
 ### Cierpienie niewinnych
-Śmierć dziecka rodzi pytanie o sens cierpienia i obecność Boga.
+- Śmierć dziecka rodzi pytanie o sens cierpienia i obecność Boga.
 
 ### Egzystencjalizm
-Świat jest absurdalny, ale człowiek może nadać sens życiu przez działanie.
+- Świat jest absurdalny, ale człowiek może nadać sens życiu przez działanie.
 
 ## Znaczenie tytułu
 Dżuma to dosłownie epidemia, a symbolicznie zło, które może wrócić w każdej chwili.

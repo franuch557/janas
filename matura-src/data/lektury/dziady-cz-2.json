@@ -42,8 +42,19 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "W nocy w kaplicy na cmentarzu wieśniacy odprawiają obrzęd dziadów. Prowadzi go Guślarz, który przywołuje dusze zmarłych, pyta, czego potrzebują, by trafić do nieba, i daje im to, o co proszą. Pojawiają się trzy rodzaje duchów: lekkie, ciężkie i pośrednie. Każdy uczy innej prawdy moralnej. Na koniec przychodzi milczące widmo, które nie odpowiada na żadne wezwanie."
+          "typ": "punkt",
+          "etykieta": "O czym",
+          "tekst": "w nocy w kaplicy na cmentarzu Guślarz odprawia obrzęd dziadów – przywołuje dusze zmarłych i pyta, czego potrzebują, by trafić do nieba."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kto przychodzi",
+          "tekst": "duchy lekkie (dzieci), ciężki (Zły Pan) i pośredni (pasterka Zosia). Każdy przynosi jedną prawdę moralną."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jak się kończy",
+          "tekst": "pojawia się milczące Widmo, które wpatruje się w Pasterkę i nie odchodzi."
         }
       ]
     },
@@ -54,31 +65,55 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Guślarz i Starzec zbierają lud w kaplicy, zgaszenie świateł."
+          "tekst": "Wieśniacy zbierają się w kaplicy, Guślarz każe zgasić światła."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Przywołanie duchów lekkich – Józio i Rózia."
+          "tekst": "Zapalenie kądzieli – przybywają duchy lekkie, Józio i Rózia."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Przywołanie ducha ciężkiego – Widmo Złego Pana."
+          "tekst": "Dzieci proszą o dwa ziarnka gorczycy i odchodzą."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Przywołanie ducha pośredniego – Zosia."
+          "tekst": "Podpalenie kotła z wódką – przybywa Widmo Złego Pana."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Pojawienie się milczącego Widma, które idzie za Pasterką."
+          "tekst": "Chór ptaków – dusz jego ofiar – nie pozwala mu pomóc."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Zapalenie wianka z ziół – przybywa duch pasterki Zosi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Młodzieńcy nie potrafią przyciągnąć Zosi do ziemi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Koniec obrzędu, zaproszenie duchów na ucztę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Pojawia się milczące Widmo, które idzie za Pasterką."
         }
       ]
     },
@@ -88,27 +123,58 @@
         {
           "typ": "punkt",
           "etykieta": "Początek obrzędu",
-          "tekst": "Guślarz każe zamknąć drzwi kaplicy i zgasić światła. Zebrani wypowiadają obrzędowe formuły i składają jedzenie i napoje dla duchów. Guślarz zapala kądziel i przywołuje kolejne dusze."
+          "tekst": "",
+          "sedno": "Guślarz przygotowuje kaplicę i wzywa dusze czyśćcowe.",
+          "punkty": [
+            "**Guślarz** każe zamknąć drzwi i zgasić światła.",
+            "Zebrani wypowiadają obrzędowe formuły i przygotowują jedzenie dla duchów."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Duchy lekkie – Józio i Rózia",
-          "tekst": "Przychodzą dwoje zmarłych dzieci jako aniołki. Nie mogą trafić do nieba, bo za życia nie zaznały żadnej goryczy. Proszą o dwa ziarnka gorczycy. Ich nauka: kto nie zaznał goryczy, nie zazna i nieba."
+          "tekst": "",
+          "sedno": "Kto nie zaznał goryczy, nie zazna i nieba.",
+          "punkty": [
+            "Guślarz zapala kądziel. Przylatują **Józio i Rózia** – dzieci jak aniołki.",
+            "Żyli beztrosko, nie zaznali cierpienia, dlatego nie mogą wejść do nieba.",
+            "Proszą o **dwa ziarnka gorczycy** – symbol goryczy."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Duch ciężki – Widmo Złego Pana",
-          "tekst": "Pojawia się duch okrutnego dziedzica, który za życia głodził i krzywdził poddanych. Dręczy go głód i pragnienie, a ptaki – sowy i kruki, dusze jego ofiar – wyrywają mu jedzenie. Nikt nie może mu pomóc, bo kto nie był człowiekiem, temu człowiek nie pomoże."
+          "tekst": "",
+          "sedno": "Kto nie był człowiekiem, temu człowiek nie pomoże.",
+          "punkty": [
+            "Guślarz podpala kocioł z wódką. Przychodzi **Widmo Złego Pana**, okrutnego dziedzica.",
+            "Dręczy go głód i pragnienie. Prosi o wodę i dwa ziarna pszenicy.",
+            "**Kruk i Sowa** – dusze chłopów, których zagłodził i skrzywdził – wyrywają mu każdy kęs.",
+            "Guślarz odpędza widmo, bo nie można mu pomóc."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Duch pośredni – Zosia",
-          "tekst": "Przychodzi duch pięknej pasterki Zosi, która za życia odtrącała wszystkich kawalerów i nikogo nie kochała. Teraz unosi się w powietrzu i nie może dotknąć ziemi. Trzeba ją przyciągnąć, ale młodzieńcy nie mogą jej złapać. Jej nauka: kto nie dotknął ziemi, ten nie może być w niebie."
+          "tekst": "",
+          "sedno": "Kto nie dotknął ziemi ni razu, ten nigdy nie może być w niebie.",
+          "punkty": [
+            "Guślarz zapala wianek z ziół. Przylatuje duch pięknej pasterki **Zosi**.",
+            "Za życia odtrącała wszystkich kawalerów i nikogo nie pokochała.",
+            "Teraz unosi się w powietrzu i nie może dotknąć ziemi. Młodzieńcy nie umieją jej przyciągnąć.",
+            "Guślarz zapowiada, że trafi do nieba **za dwa lata**."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Milczące widmo",
-          "tekst": "Na koniec zjawia się widmo, które nie odpowiada na zaklęcia. Ma ranę w sercu. Idzie za jedną z wieśniaczek, Pasterką, i nie znika. To zapowiedź postaci Gustawa z dalszych części „Dziadów”."
+          "etykieta": "Milczące Widmo",
+          "tekst": "",
+          "sedno": "Ostatni duch nie odpowiada na żadne zaklęcia – to zapowiedź Gustawa z dalszych części.",
+          "punkty": [
+            "Po zakończeniu obrzędu pojawia się jeszcze jedno **Widmo** z raną w sercu.",
+            "Nie reaguje na słowa Guślarza i wpatruje się w **Pasterkę**.",
+            "Pasterka milczy. Widmo idzie za nią, gdy wychodzi z kaplicy."
+          ]
         }
       ]
     },
@@ -118,37 +184,37 @@
         {
           "typ": "punkt",
           "etykieta": "Guślarz",
-          "tekst": "przewodnik obrzędu, mędrzec ludowy, który zna drogę do świata zmarłych."
+          "tekst": "Prowadzi obrzęd, ludowy mędrzec, który zna świat zmarłych."
         },
         {
           "typ": "punkt",
           "etykieta": "Starzec i chór wieśniaków",
-          "tekst": "uczestnicy obrzędu, komentują i powtarzają formuły."
+          "tekst": "Uczestnicy obrzędu, powtarzają formuły."
         },
         {
           "typ": "punkt",
           "etykieta": "Józio i Rózia",
-          "tekst": "duchy lekkie, dzieci, które nie zaznały cierpienia."
+          "tekst": "Duchy lekkie, dzieci, które nie zaznały cierpienia."
         },
         {
           "typ": "punkt",
           "etykieta": "Widmo Złego Pana",
-          "tekst": "duch ciężki, okrutny dziedzic, który nie może zostać zbawiony."
+          "tekst": "Duch ciężki, okrutny dziedzic, bez szans na zbawienie."
         },
         {
           "typ": "punkt",
           "etykieta": "Zosia",
-          "tekst": "duch pośredni, dziewczyna, która nikogo nie pokochała."
+          "tekst": "Duch pośredni, pasterka, która nikogo nie pokochała."
         },
         {
           "typ": "punkt",
           "etykieta": "Widmo",
-          "tekst": "milczący duch z raną w sercu, zapowiedź Gustawa."
+          "tekst": "Milczący duch z raną w sercu; zapowiedź Gustawa."
         },
         {
           "typ": "punkt",
           "etykieta": "Pasterka",
-          "tekst": "wieśniaczka, za którą idzie widmo."
+          "tekst": "Wieśniaczka, za którą idzie Widmo."
         }
       ]
     },
@@ -156,8 +222,14 @@
       "tytul": "Czas i miejsce akcji",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Akcja trwa jedną noc, w czasie obrzędu dziadów (w okolicach Zaduszek), w kaplicy na cmentarzu na Litwie."
+          "typ": "punkt",
+          "etykieta": "Czas",
+          "tekst": "jedna noc obrzędu dziadów, w okolicach Zaduszek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miejsce",
+          "tekst": "kaplica na cmentarzu na Litwie."
         }
       ]
     },
@@ -165,8 +237,19 @@
       "tytul": "Geneza i gatunek",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Mickiewicz wydał „Dziady cz. II” w 1823 roku w drugim tomie „Poezji”, razem z częścią IV. Inspiracją były ludowe obrzędy na Litwie i Białorusi. To **dramat romantyczny** o budowie obrzędu, z cechami ballady i misterium. Ważny jest motto z „Hamleta” o tym, że są rzeczy, które się nie śniły filozofom."
+          "typ": "punkt",
+          "etykieta": "Powstanie",
+          "tekst": "wydane w 1823 roku w II tomie „Poezji” Mickiewicza, razem z częścią IV."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Źródło",
+          "tekst": "ludowe obrzędy z Litwy i Białorusi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gatunek",
+          "tekst": "dramat romantyczny o budowie obrzędu, z cechami ballady i misterium. Motto z „Hamleta” mówi, że są rzeczy, o których nie śniło się filozofom."
         }
       ]
     },
@@ -176,22 +259,40 @@
         {
           "typ": "punkt",
           "etykieta": "Ludowa moralność",
-          "tekst": "Każdy duch uczy jednej zasady: trzeba zaznać cierpienia, trzeba być człowiekiem dla innych, trzeba kochać i żyć wśród ludzi. To ludowy kodeks sprawiedliwości."
+          "tekst": "",
+          "sedno": "Każdy duch uczy jednej zasady życia.",
+          "punkty": [
+            "Trzeba zaznać cierpienia (dzieci).",
+            "Trzeba być człowiekiem dla innych (Zły Pan).",
+            "Trzeba kochać i żyć wśród ludzi (Zosia)."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Świat zmarłych i żywych",
-          "tekst": "Utwór pokazuje, że te dwa światy się przenikają, a zmarli potrzebują pomocy żywych."
+          "etykieta": "Świat żywych i zmarłych",
+          "tekst": "",
+          "sedno": "Oba światy się przenikają, a zmarli potrzebują pomocy żywych.",
+          "punkty": [
+            "Obrzęd to most między nimi."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Krzywda i kara",
-          "tekst": "Widmo Złego Pana pokazuje, że krzywda wyrządzona słabszym nie zostaje zapomniana. Zbawienie zależy od tego, jak żyło się na ziemi."
+          "tekst": "",
+          "sedno": "Krzywda wyrządzona słabszym nie zostaje zapomniana.",
+          "punkty": [
+            "Ofiary Złego Pana same wymierzają mu karę."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Romantyczna wiara w lud",
-          "tekst": "Mickiewicz pokazuje lud jako strażnika prawd moralnych, które są ważniejsze niż rozum i nauka."
+          "etykieta": "Wiara w lud",
+          "tekst": "",
+          "sedno": "Romantycy widzą w ludzie strażnika prawd moralnych.",
+          "punkty": [
+            "Ludowa mądrość jest ważniejsza niż rozum i nauka."
+          ]
         }
       ]
     },
@@ -199,8 +300,9 @@
       "tytul": "Znaczenie tytułu",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Dziady to ludowe święto zmarłych, połączone z obrzędem ich przywoływania i karmienia. Tytuł wskazuje temat utworu i jego ludowe źródło."
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Dziady to ludowe święto zmarłych, połączone z ich przywoływaniem i karmieniem."
         }
       ]
     },

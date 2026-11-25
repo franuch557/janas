@@ -1,62 +1,112 @@
-# Balladyna – opracowanie (układ: skrót, plan, streszczenie, bohaterowie, problematyka)
+# Balladyna – opracowanie
 
 ## W skrócie
-Uboga wdowa ma dwie córki: łagodną Alinę i ambitną Balladynę. Bogaty hrabia Kirkor, za radą Pustelnika, ma się ożenić z ubogą dziewczyną i wybiera jedną z sióstr. Matka obiecuje, że dostanie go ta, która nazbiera więcej malin. Balladyna zabija Alinę i wychodzi za Kirkora. Później, by zdobyć i utrzymać władzę, popełnia kolejne zbrodnie. Gdy zostaje królową, jako sędzia sama skazuje się na śmierć i ginie od pioruna.
+- **O czym:** wiejska dziewczyna Balladyna zabija siostrę, żeby wyjść za bogatego Kirkora, a potem popełnia kolejne zbrodnie, by zdobyć koronę.
+- **Jak się kończy:** jako królowa musi osądzić własne zbrodnie. Po trzecim wyroku śmierci ginie od pioruna.
+- **Najważniejsza myśl:** zbrodnia rodzi następną zbrodnię, a kara przychodzi nieuchronnie.
 
 ## Plan wydarzeń
-1. Pustelnik radzi Kirkorowi, by wziął za żonę ubogą dziewczynę.
-2. Goplana zakochuje się w Grabcu i miesza się w losy ludzi.
-3. Kirkor przybywa do chaty wdowy, matka urządza zawody w zbieraniu malin.
-4. Balladyna zabija Alinę w lesie.
-5. Ślub Balladyny z Kirkorem, matka zostaje wypędzona.
-6. Balladyna zabija Grabca dla korony.
-7. Kostryn na jej rozkaz zabija Pustelnika.
-8. Kirkor ginie w walce, Balladyna zostaje królową.
-9. Balladyna otruwa Kostryna.
-10. Sąd: Balladyna trzy razy skazuje na śmierć i ginie od pioruna.
+1. Kirkor prosi Pustelnika o radę w sprawie ożenku – ma wziąć ubogą dziewczynę.
+2. Pustelnik wyjawia, że jest wygnanym królem Popielem III.
+3. Goplana, zakochana w Grabcu, chce rozdzielić go z Balladyną.
+4. Kirkor trafia do chaty Wdowy i nie umie wybrać między Aliną a Balladyną.
+5. Konkurs: żoną zostanie ta, która nazbiera więcej malin.
+6. Goplana zamienia Grabca w płaczącą wierzbę.
+7. Balladyna zabija Alinę nożem; na czole zostaje jej krwawa plama.
+8. Balladyna kłamie, że Alina uciekła z kochankiem, i wychodzi za Kirkora.
+9. Kirkor wyjeżdża, a Balladyna odcina się od matki.
+10. Pustelnik rozpoznaje w Balladynie morderczynię, ona nie chce się przyznać.
+11. Grabiec zostaje królem dzwonkowym i jedzie na zamek.
+12. Balladyna zabija Gralona, posłańca Kirkora.
+13. Na uczcie Balladyna wypiera się matki i wyrzuca ją w burzę.
+14. Kirkor obala uzurpatora Popiela IV.
+15. Balladyna zabija Grabca dla korony; Kostryn zostaje jej wspólnikiem.
+16. Pustelnik zostaje powieszony przy swojej chacie.
+17. Bitwa: Balladyna przekupuje część wojsk, Kirkor ginie.
+18. Balladyna otruwa Kostryna.
+19. Sąd w Gnieźnie: trzy wyroki śmierci i piorun.
 
 ## Streszczenie szczegółowe
-### Akt I – zawody o męża
-Kirkor przychodzi do Pustelnika, który radzi mu ożenić się z ubogą dziewczyną. Nimfa Goplana, władczyni jeziora, zakochuje się w prostym chłopie Grabcu, który jest kochankiem Balladyny. Za sprawą Goplany Kirkor trafia do chaty wdowy. Obie córki mu się podobają, więc matka ustala, że żoną zostanie ta, która przyniesie pełniejszy dzban malin.
+### Akt I – Kirkor szuka żony
+> Pustelnik radzi Kirkorowi ożenić się z ubogą dziewczyną, a czary Goplany prowadzą go do chaty Wdowy.
+- **Pustelnik** to wygnany król **Popiel III**; jego tron zajął okrutny Popiel IV.
+- Nimfa **Goplana** kocha prostego chłopa **Grabca**, kochanka Balladyny, i chce ich rozdzielić.
+- Powóz **Kirkora** psuje się pod chatą **Wdowy**. Obie córki – **Alina** i **Balladyna** – mu się podobają.
+- **Wdowa** proponuje konkurs: żoną zostanie ta, która przyniesie pełniejszy dzban malin.
 
-### Akt II – zbrodnia w lesie
-Alina pierwsza nazbierała malin. Balladyna, zazdrosna i żądna bogactwa, zabija ją nożem. Na jej czole zostaje krwawa plama, której nie da się zmyć. Kirkor bierze ślub z Balladyną. Goplana za karę zamienia Grabca w wierzbę, a potem w króla dzwonkowego.
+### Akt II – zbrodnia w malinach
+> Balladyna zabija siostrę, bo Alina wygrywa konkurs.
+- **Goplana** zamienia Grabca w płaczącą wierzbę.
+- **Alina** pierwsza ma pełny dzban. **Balladyna** zabija ją nożem.
+- Na czole Balladyny pojawia się krwawa plama, której nie da się zmyć.
+- Ciało Aliny znajduje **Filon**, potem **Pustelnik**.
+- Balladyna mówi, że Alina uciekła z kochankiem. **Kirkor** daje jej pierścień i bierze z nią ślub.
 
-### Akty III–IV – władza i strach
-Balladyna mieszka w zamku Kirkora, ale dręczą ją wyrzuty sumienia. Wstydzi się matki i wypiera się jej, a stara kobieta wychodzi z zamku w czasie burzy. Kirkor wyrusza walczyć z uzurpatorem Popielem. Balladyna zabija Grabca, by zabrać mu koronę, którą dała mu Goplana. Z jej woli Kostryn zabija Pustelnika, który zna jej tajemnicę. Pustelnik to w rzeczywistości wygnany prawowity król.
+### Akt III – tajemnica wychodzi na jaw
+> Pustelnik odkrywa, że Balladyna jest morderczynią, a ona zabija kolejnego człowieka.
+- Po ślubie Balladyna odcina się od przeszłości i od matki.
+- Kirkor wyjeżdża na trzy dni. Pustelnik radzi mu wysłać żonie skrzynię, której nie wolno otwierać.
+- Balladyna prosi Pustelnika o usunięcie plamy z czoła. Ten rozpoznaje w niej zabójczynię, ale nie skłania jej do wyznania winy.
+- **Grabiec** prosi Goplanę, by zrobiła go królem – zostaje **królem dzwonkowym** z koroną Lecha.
+- **Gralon** przywozi skrzynię od Kirkora. **Kostryn** wyzywa go na pojedynek, a śmiertelny cios zadaje **Balladyna**.
+
+### Akt IV – wyparcie się matki
+> Balladyna wypiera się matki i dla korony zabija Grabca.
+- Na uczcie bawi się **Grabiec** jako król.
+- Przychodzi **Wdowa** i prosi o jedzenie. Balladyna nazywa ją wariatką i każe wyrzucić z zamku w czasie burzy.
+- Posłaniec ogłasza, że **Kirkor** pokonał Popiela IV. Królem ma zostać ten, kto ma prawdziwą koronę.
+- Pieśń Chochlika o malinach doprowadza Balladynę do omdlenia.
+- Balladyna zabija Grabca. Po koronę wraca **Kostryn** i zostaje jej wspólnikiem.
 
 ### Akt V – korona i sąd
-Kirkor ginie w walce. Balladyna z pomocą Kostryna przejmuje władzę i zostaje królową. Kostryna, który zna jej zbrodnie, otruwa.
-Jako królowa Balladyna sądzi przestępców. Przedstawiają jej trzy sprawy: zabójstwo dziewczyny w lesie, zabójstwo Pustelnika i porzucenie matki. Za każdą zbrodnię orzeka karę śmierci, nie przyznając, że to jej czyny. Po trzecim wyroku w Balladynę uderza piorun.
+> Balladyna zostaje królową, ale musi osądzić własne zbrodnie.
+- **Goplana** opuszcza Gopło, widząc, ile zła wyrządziła.
+- Przychodzi wieść, że **Pustelnik** został powieszony na drzewie.
+- Balladyna przekupuje część wojsk. **Kirkor** ginie w bitwie.
+- Balladyna kroi chleb zatrutym nożem i otruwa nim **Kostryna**.
+- Na sądzie stają: lekarz (otrucie Kostryna), **Filon** (śmierć Aliny) i oślepiona **Wdowa** (wyrodna córka).
+- Za każdą sprawę Balladyna orzeka śmierć. Po trzecim wyroku uderza w nią piorun.
 
 ## Bohaterowie
-- **Balladyna** – ambitna, okrutna, żądna władzy. Popełnia coraz więcej zbrodni, by zdobyć i utrzymać pozycję. Mimo wyrzutów sumienia nie umie się zatrzymać.
-- **Alina** – siostra Balladyny, łagodna, dobra i pracowita. Pierwsza ofiara.
-- **Wdowa** – matka sióstr, kocha je, choć jest naiwna. Zostaje odrzucona przez Balladynę.
-- **Kirkor** – szlachetny rycerz, który szuka uczciwej żony.
-- **Grabiec** – prosty, leniwy, zabawny chłop. Postać komiczna.
-- **Goplana** – nimfa, kapryśna i nieodpowiedzialna. Jej czary uruchamiają tragedię.
-- **Pustelnik** – mędrzec, wygnany król Popiel III.
-- **Kostryn** – rycerz, wspólnik Balladyny, zabity przez nią.
+- **Balladyna** – Ambitna, okrutna i żądna władzy. Każda zbrodnia pociąga następną. Mimo wyrzutów sumienia nie umie się zatrzymać.
+- **Alina** – Siostra Balladyny, łagodna i dobra. Pierwsza ofiara.
+- **Wdowa** – Matka sióstr, kochająca i naiwna. Odrzucona przez córkę, nawet na torturach jej nie zdradza.
+- **Kirkor** – Szlachetny rycerz, który szuka uczciwej żony. Ginie w walce.
+- **Grabiec** – Leniwy, zabawny chłop. Postać komiczna, zostaje królem dzwonkowym.
+- **Goplana** – Kapryśna nimfa jeziora. Jej czary uruchamiają tragedię.
+- **Pustelnik (Popiel III)** – Wygnany król, mędrzec, który zna prawdę o zbrodni.
+- **Kostryn** – Dowódca straży, wspólnik Balladyny, otruty przez nią.
+- **Filon** – Sentymentalny pasterz, który znajduje ciało Aliny.
 
 ## Czas i miejsce akcji
-Akcja toczy się w legendarnych, przedhistorycznych czasach Polski, nad jeziorem Gopło, w chacie wdowy, w lesie i w zamku Kirkora. Czas jest baśniowy, nie da się go dokładnie ustalić.
+- **Czas:** legendarny, przedhistoryczny – czasy Popielów, przed Piastami.
+- **Miejsce:** okolice jeziora Gopło, chata Wdowy, las z malinami, pustelnia, zamek Kirkora, Gniezno.
 
 ## Geneza i gatunek
-Juliusz Słowacki napisał „Balladynę” w 1834 roku, wydał w 1839. Utwór miał rozpocząć cykl dramatów o legendarnych dziejach Polski. To **dramat romantyczny**: łączy tragizm z komizmem, świat realny z fantastycznym, nawiązuje do ludowych ballad i do Szekspira.
+- **Powstanie:** Juliusz Słowacki napisał utwór w 1834 roku, wydał w 1839.
+- **Zamiar:** miał rozpocząć cykl dramatów o legendarnych dziejach Polski.
+- **Gatunek:** dramat romantyczny – łączy tragizm z komizmem, realizm z fantastyką, nawiązuje do ludowych ballad i do Szekspira.
 
 ## Problematyka
 ### Żądza władzy
-Balladyna pokazuje, jak ambicja prowadzi człowieka do kolejnych zbrodni. Każda zbrodnia wymusza następną.
+> Ambicja prowadzi Balladynę od jednej zbrodni do kolejnej.
+- Pierwsza zbrodnia z zazdrości, następne – by ukryć poprzednie i zdobyć tron.
+- Władza zdobyta zbrodnią nie daje szczęścia ani spokoju.
 
 ### Wina i kara
-Zbrodnie Balladyny nie zostają bez kary. Kara przychodzi od natury i Boga – w postaci pioruna – oraz z wyroku, który Balladyna sama wydaje.
+> Zbrodnia nie zostaje bez kary – wymierza ją Bóg i natura.
+- Plama na czole to znak winy, którego nie można zmyć.
+- Balladyna sama wydaje na siebie wyrok, a piorun go wykonuje.
 
 ### Świat fantastyczny
-Goplana, Skierka i Chochlik wpływają na losy ludzi, ale nie panują nad skutkami. Fantastyka łączy się z ludowym przekonaniem, że zbrodnia musi wyjść na jaw.
+> Siły nadprzyrodzone wpływają na ludzi, ale nie panują nad skutkami.
+- Goplana, Skierka i Chochlik swoimi psotami wywołują tragedię.
+- Fantastyka łączy się z ludowym przekonaniem, że zbrodnia musi wyjść na jaw.
 
 ### Ironia romantyczna
-Słowacki miesza tragizm z komizmem (Grabiec) i dystansuje się wobec opowiadanej historii.
+> Słowacki miesza tragizm z komizmem i patrzy na swoją historię z dystansem.
+- Komiczny Grabiec obok krwawych zbrodni.
+- Epilog z Wawelem-dziejopisem przypomina, że to opowieść, a nie kronika.
 
 ## Znaczenie tytułu
-Tytuł wskazuje na główną bohaterkę, której droga od wiejskiej dziewczyny do królowej jest drogą zbrodni.
+- Tytuł to imię bohaterki, której droga od wiejskiej dziewczyny do królowej jest drogą zbrodni.

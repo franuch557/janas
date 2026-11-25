@@ -20,25 +20,55 @@ Po bratobójczej walce o władzę w Tebach giną dwaj bracia, Eteokles i Polinej
 
 ## Streszczenie szczegółowe
 ### Prolog – rozmowa sióstr
-Antygona i Ismena, córki Edypa, rozmawiają przed pałacem. Ich bracia zginęli w pojedynku o tron. Kreon kazał uroczyście pochować Eteoklesa, a ciało Polinejkesa, który przyprowadził obce wojsko pod Teby, zostawić psom i ptakom. Antygona postanawia pochować brata. Ismena boi się i odmawia, mówiąc, że kobiety nie powinny walczyć z władzą.
+> Antygona postanawia pochować brata wbrew zakazowi Kreona, Ismena odmawia pomocy.
+- **Antygona** i **Ismena**, córki Edypa, rozmawiają przed pałacem.
+- Ich bracia zginęli w pojedynku o tron.
+- **Kreon** kazał uroczyście pochować Eteoklesa, a ciało Polinejkesa, który przyprowadził obce wojsko pod Teby, zostawić psom i ptakom.
+- **Antygona** postanawia pochować brata.
+- **Ismena** boi się i odmawia, mówiąc, że kobiety nie powinny walczyć z władzą.
 
 ### Parodos i epejsodion I – edykt Kreona
-Chór starców tebańskich cieszy się z ocalenia miasta. Kreon przedstawia swoje zasady: dobro państwa jest najważniejsze, a zdrajca nie zasługuje na pogrzeb. Strażnik melduje, że ktoś posypał zwłoki ziemią. Kreon podejrzewa przekupstwo i grozi strażnikom.
+> Kreon ogłasza, że dobro państwa jest najważniejsze, i dowiaduje się, że ktoś złamał zakaz.
+- **Chór** starców tebańskich cieszy się z ocalenia miasta.
+- **Kreon** przedstawia swoje zasady: dobro państwa jest najważniejsze, a zdrajca nie zasługuje na pogrzeb.
+- Strażnik melduje, że ktoś posypał zwłoki ziemią.
+- **Kreon** podejrzewa przekupstwo i grozi strażnikom.
 
 ### Epejsodion II – spór Antygony z Kreonem
-Strażnicy łapią Antygonę przy ciele brata. Antygona nie wypiera się czynu. Mówi, że niepisane prawa bogów są wieczne i silniejsze od rozkazów śmiertelnika. Kreon widzi w tym bunt i pychę. Ismena chce przyznać się do współudziału, ale Antygona jej odmawia. Kreon skazuje obie, potem oszczędza Ismenę.
+> Antygona przyznaje się do czynu i stawia prawa bogów ponad prawem władcy.
+- Strażnicy łapią **Antygonę** przy ciele brata.
+- **Antygona** nie wypiera się czynu.
+- Mówi, że niepisane prawa bogów są wieczne i silniejsze od rozkazów śmiertelnika.
+- **Kreon** widzi w tym bunt i pychę.
+- **Ismena** chce przyznać się do współudziału, ale **Antygona** jej odmawia.
+- **Kreon** skazuje obie, potem oszczędza **Ismenę**.
 
 ### Epejsodion III – Hajmon
-Hajmon, syn Kreona i narzeczony Antygony, prosi ojca, by posłuchał głosu ludu, który współczuje dziewczynie. Kreon uważa, że syn staje po stronie kobiety, i nie ustępuje. Hajmon odchodzi wzburzony. Kreon postanawia zamurować Antygonę żywcem w skalnym grobie.
+> Syn prosi Kreona o rozwagę, ale ojciec nie ustępuje i skazuje Antygonę na zamurowanie.
+- **Hajmon**, syn **Kreona** i narzeczony **Antygony**, prosi ojca, by posłuchał głosu ludu, który współczuje dziewczynie.
+- **Kreon** uważa, że syn staje po stronie kobiety, i nie ustępuje.
+- **Hajmon** odchodzi wzburzony.
+- **Kreon** postanawia zamurować **Antygonę** żywcem w skalnym grobie.
 
 ### Epejsodion IV – pożegnanie Antygony
-Antygona żali się, że umiera młodo, bez ślubu i bez opłakania. Nie żałuje jednak swojego czynu. Chór porównuje jej los do losów mitycznych bohaterek.
+> Antygona żegna się z życiem, ale nie żałuje swojego wyboru.
+- **Antygona** żali się, że umiera młodo, bez ślubu i bez opłakania.
+- Nie żałuje jednak swojego czynu.
+- **Chór** porównuje jej los do losów mitycznych bohaterek.
 
 ### Epejsodion V – Tyrezjasz
-Ślepy wróżbita Tyrezjasz ostrzega Kreona, że bogowie gniewają się, bo ołtarze są skażone ochłapami z ciała Polinejkesa. Przepowiada śmierć kogoś bliskiego. Kreon najpierw go obraża, potem się przestrasza i postanawia pochować Polinejkesa i uwolnić Antygonę.
+> Wróżbita ostrzega Kreona przed gniewem bogów – władca zmienia zdanie za późno.
+- Ślepy wróżbita **Tyrezjasz** ostrzega **Kreona**, że bogowie gniewają się, bo ołtarze są skażone ochłapami z ciała Polinejkesa.
+- Przepowiada śmierć kogoś bliskiego.
+- **Kreon** najpierw go obraża, potem się przestrasza i postanawia pochować Polinejkesa i uwolnić **Antygonę**.
 
 ### Eksodos – katastrofa
-Posłaniec opowiada: gdy otworzono grób, Antygona już nie żyła – powiesiła się. Hajmon rzucił się na ojca z mieczem, a potem przebił się sam. Na wieść o tym Eurydyka, żona Kreona, odbiera sobie życie. Kreon przyznaje się do winy i prosi o śmierć. Chór kończy słowami, że rozwaga jest podstawą szczęścia, a pycha zostaje ukarana.
+> Giną Antygona, Hajmon i Eurydyka, a Kreon zostaje sam ze swoją winą.
+- Posłaniec opowiada: gdy otworzono grób, **Antygona** już nie żyła – powiesiła się.
+- **Hajmon** rzucił się na ojca z mieczem, a potem przebił się sam.
+- Na wieść o tym **Eurydyka**, żona **Kreona**, odbiera sobie życie.
+- **Kreon** przyznaje się do winy i prosi o śmierć.
+- **Chór** kończy słowami, że rozwaga jest podstawą szczęścia, a pycha zostaje ukarana.
 
 ## Bohaterowie
 - **Antygona** – córka Edypa. Odważna, nieustępliwa, wierna rodzinie i bogom. Działa z poczucia obowiązku i miłości do brata, gotowa za to zginąć.
@@ -57,16 +87,21 @@ Sofokles wystawił „Antygonę” ok. 442 r. p.n.e. w Atenach. Utwór należy d
 
 ## Problematyka
 ### Konflikt racji
-Antygona broni prawa boskiego i więzów rodzinnych, Kreon – prawa państwowego i porządku. Obie strony mają swoje racje, ale obie trwają przy nich do końca. To konflikt tragiczny – każdy wybór prowadzi do nieszczęścia.
+- Antygona broni prawa boskiego i więzów rodzinnych, Kreon – prawa państwowego i porządku.
+- Obie strony mają swoje racje, ale obie trwają przy nich do końca.
+- To konflikt tragiczny – każdy wybór prowadzi do nieszczęścia.
 
 ### Fatum i wina
-Ród Labdakidów jest przeklęty. Nad bohaterami ciąży los, ale tragedię przyspiesza też ich własny upór.
+- Ród Labdakidów jest przeklęty.
+- Nad bohaterami ciąży los, ale tragedię przyspiesza też ich własny upór.
 
 ### Władza
-Kreon pokazuje, jak władza bez umiaru zmienia się w tyranię. Nie słucha syna, ludu ani wróżbity.
+- Kreon pokazuje, jak władza bez umiaru zmienia się w tyranię.
+- Nie słucha syna, ludu ani wróżbity.
 
 ### Hybris i katharsis
-Pycha (hybris) Kreona zostaje ukarana. Widz, patrząc na cierpienie bohaterów, ma przeżyć oczyszczenie (katharsis).
+- Pycha (hybris) Kreona zostaje ukarana.
+- Widz, patrząc na cierpienie bohaterów, ma przeżyć oczyszczenie (katharsis).
 
 ## Znaczenie tytułu
 Tytuł wskazuje główną bohaterkę, której wybór uruchamia całą tragedię. Antygona stała się symbolem sprzeciwu wobec niesprawiedliwego prawa i wierności sumieniu.

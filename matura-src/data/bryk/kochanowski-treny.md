@@ -5,13 +5,24 @@
 
 ## Omówienie wierszy
 ### Tren IX – „Kupić by cię, Mądrości…”
-Poeta zwraca się do Mądrości (filozofii stoickiej), która obiecywała, że człowiek mądry nie boi się nieszczęścia i nie rozpacza. Zdobył ją, ale gdy przyszło prawdziwe cierpienie, okazała się bezużyteczna. Kończy gorzko: „Nieszczęśliwy ja człowiek, który lata swoje / Na tym strawił, żebych był ujźrzał progi twoje!” – stracił życie na naukę, która zawiodła. To **kryzys wiary w rozum** i filozofię stoicką.
+- Poeta zwraca się do **Mądrości** (filozofii stoickiej), która obiecywała, że człowiek mądry nie boi się nieszczęścia i nie rozpacza.
+- Zdobył ją, ale gdy przyszło prawdziwe cierpienie, okazała się bezużyteczna.
+- Kończy gorzko: „Nieszczęśliwy ja człowiek, który lata swoje / Na tym strawił, żebych był ujźrzał progi twoje!” – stracił życie na naukę, która zawiodła.
+- To **kryzys wiary w rozum** i filozofię stoicką.
 
 ### Tren X – „Orszulo moja wdzięczna, gdzieś mi się podziała?”
-Ojciec pyta, gdzie jest teraz jego córka. Wylicza różne wyobrażenia życia po śmierci: niebo chrześcijańskie, wyspy szczęśliwe, Hades z Charonem, raj. Nie wie, w co wierzyć. Prosi, by Urszulka pokazała mu się – jako sen, cień albo marne widmo. To **kryzys wiary religijnej** – zwątpienie w istnienie życia po śmierci.
+- Ojciec pyta, gdzie jest teraz jego córka.
+- Wylicza różne wyobrażenia życia po śmierci: niebo chrześcijańskie, wyspy szczęśliwe, Hades z Charonem, raj.
+- Nie wie, w co wierzyć.
+- Prosi, by **Urszulka** pokazała mu się – jako sen, cień albo marne widmo.
+- To **kryzys wiary religijnej** – zwątpienie w istnienie życia po śmierci.
 
 ### Tren XI – „«Fraszka cnota!» – powiedział Brutus porażony…”
-Tren zaczyna się od słów Brutusa, który po klęsce uznał, że cnota to „fraszka”, czyli rzecz bez znaczenia. Poeta przyznaje mu rację: pobożność i cnota nikogo nie ochroniły przed nieszczęściem. Nieznany wróg miesza ludzkie sprawy, nie zważając na dobro i zło, i dotyka każdego. Rozum ludzki okazuje się bezsilny, a człowiek zostaje z bólem i zwątpieniem. To **kryzys wartości renesansowych**: rozumu, cnoty i ładu świata.
+- Tren zaczyna się od słów Brutusa, który po klęsce uznał, że cnota to „fraszka”, czyli rzecz bez znaczenia.
+- Poeta przyznaje mu rację: pobożność i cnota nikogo nie ochroniły przed nieszczęściem.
+- Nieznany wróg miesza ludzkie sprawy, nie zważając na dobro i zło, i dotyka każdego.
+- Rozum ludzki okazuje się bezsilny, a człowiek zostaje z bólem i zwątpieniem.
+- To **kryzys wartości renesansowych**: rozumu, cnoty i ładu świata.
 
 ## Bohaterowie
 - **Podmiot liryczny** – ojciec, poeta i filozof w głębokim kryzysie. Rozpacza, wątpi, buntuje się.
@@ -26,16 +37,16 @@ Kochanowski wydał „Treny” w 1580 roku. **Tren** to antyczny gatunek – pie
 
 ## Problematyka
 ### Kryzys światopoglądowy
-Tragedia osobista burzy renesansowe przekonania o ładzie świata, mądrości i dobroci Boga.
+- Tragedia osobista burzy renesansowe przekonania o ładzie świata, mądrości i dobroci Boga.
 
 ### Ból po stracie dziecka
-Rozpacz ojca jest bardzo osobista i szczera.
+- Rozpacz ojca jest bardzo osobista i szczera.
 
 ### Wiara i zwątpienie
-Poeta nie wie, czy istnieje życie po śmierci i czy Bóg jest sprawiedliwy.
+- Poeta nie wie, czy istnieje życie po śmierci i czy Bóg jest sprawiedliwy.
 
 ### Granice filozofii
-Stoicka obietnica spokoju ducha nie wytrzymuje zderzenia z prawdziwym cierpieniem.
+- Stoicka obietnica spokoju ducha nie wytrzymuje zderzenia z prawdziwym cierpieniem.
 
 ## Znaczenie tytułu
 Tren to utwór żałobny, lament po śmierci bliskiej osoby.

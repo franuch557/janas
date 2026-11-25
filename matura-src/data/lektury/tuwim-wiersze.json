@@ -104,22 +104,34 @@
         {
           "typ": "punkt",
           "etykieta": "Codzienność",
-          "tekst": "Poezja może mówić o zwykłym życiu, mieście i prostych ludziach."
+          "tekst": "",
+          "punkty": [
+            "Poezja może mówić o zwykłym życiu, mieście i prostych ludziach."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Krytyka mieszczaństwa",
-          "tekst": "Tuwim wyśmiewa bezmyślne, schematyczne życie."
+          "tekst": "",
+          "punkty": [
+            "Tuwim wyśmiewa bezmyślne, schematyczne życie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pacyfizm",
-          "tekst": "Poeta wzywa zwykłych ludzi, by nie dali się wciągnąć w wojnę w imię haseł polityków („Do prostego człowieka”)."
+          "tekst": "",
+          "punkty": [
+            "Poeta wzywa zwykłych ludzi, by nie dali się wciągnąć w wojnę w imię haseł polityków („Do prostego człowieka”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Słowo",
-          "tekst": "Tuwim fascynuje się językiem i jego możliwościami."
+          "tekst": "",
+          "punkty": [
+            "Tuwim fascynuje się językiem i jego możliwościami."
+          ]
         }
       ]
     },

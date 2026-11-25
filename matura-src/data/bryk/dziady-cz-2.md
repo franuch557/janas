@@ -1,58 +1,89 @@
-# Dziady cz. II – opracowanie (układ: skrót, plan, streszczenie, bohaterowie, problematyka)
+# Dziady cz. II – opracowanie
 
 ## W skrócie
-W nocy w kaplicy na cmentarzu wieśniacy odprawiają obrzęd dziadów. Prowadzi go Guślarz, który przywołuje dusze zmarłych, pyta, czego potrzebują, by trafić do nieba, i daje im to, o co proszą. Pojawiają się trzy rodzaje duchów: lekkie, ciężkie i pośrednie. Każdy uczy innej prawdy moralnej. Na koniec przychodzi milczące widmo, które nie odpowiada na żadne wezwanie.
+- **O czym:** w nocy w kaplicy na cmentarzu Guślarz odprawia obrzęd dziadów – przywołuje dusze zmarłych i pyta, czego potrzebują, by trafić do nieba.
+- **Kto przychodzi:** duchy lekkie (dzieci), ciężki (Zły Pan) i pośredni (pasterka Zosia). Każdy przynosi jedną prawdę moralną.
+- **Jak się kończy:** pojawia się milczące Widmo, które wpatruje się w Pasterkę i nie odchodzi.
 
 ## Plan wydarzeń
-1. Guślarz i Starzec zbierają lud w kaplicy, zgaszenie świateł.
-2. Przywołanie duchów lekkich – Józio i Rózia.
-3. Przywołanie ducha ciężkiego – Widmo Złego Pana.
-4. Przywołanie ducha pośredniego – Zosia.
-5. Pojawienie się milczącego Widma, które idzie za Pasterką.
+1. Wieśniacy zbierają się w kaplicy, Guślarz każe zgasić światła.
+2. Zapalenie kądzieli – przybywają duchy lekkie, Józio i Rózia.
+3. Dzieci proszą o dwa ziarnka gorczycy i odchodzą.
+4. Podpalenie kotła z wódką – przybywa Widmo Złego Pana.
+5. Chór ptaków – dusz jego ofiar – nie pozwala mu pomóc.
+6. Zapalenie wianka z ziół – przybywa duch pasterki Zosi.
+7. Młodzieńcy nie potrafią przyciągnąć Zosi do ziemi.
+8. Koniec obrzędu, zaproszenie duchów na ucztę.
+9. Pojawia się milczące Widmo, które idzie za Pasterką.
 
 ## Streszczenie szczegółowe
 ### Początek obrzędu
-Guślarz każe zamknąć drzwi kaplicy i zgasić światła. Zebrani wypowiadają obrzędowe formuły i składają jedzenie i napoje dla duchów. Guślarz zapala kądziel i przywołuje kolejne dusze.
+> Guślarz przygotowuje kaplicę i wzywa dusze czyśćcowe.
+- **Guślarz** każe zamknąć drzwi i zgasić światła.
+- Zebrani wypowiadają obrzędowe formuły i przygotowują jedzenie dla duchów.
 
 ### Duchy lekkie – Józio i Rózia
-Przychodzą dwoje zmarłych dzieci jako aniołki. Nie mogą trafić do nieba, bo za życia nie zaznały żadnej goryczy. Proszą o dwa ziarnka gorczycy. Ich nauka: kto nie zaznał goryczy, nie zazna i nieba.
+> Kto nie zaznał goryczy, nie zazna i nieba.
+- Guślarz zapala kądziel. Przylatują **Józio i Rózia** – dzieci jak aniołki.
+- Żyli beztrosko, nie zaznali cierpienia, dlatego nie mogą wejść do nieba.
+- Proszą o **dwa ziarnka gorczycy** – symbol goryczy.
 
 ### Duch ciężki – Widmo Złego Pana
-Pojawia się duch okrutnego dziedzica, który za życia głodził i krzywdził poddanych. Dręczy go głód i pragnienie, a ptaki – sowy i kruki, dusze jego ofiar – wyrywają mu jedzenie. Nikt nie może mu pomóc, bo kto nie był człowiekiem, temu człowiek nie pomoże.
+> Kto nie był człowiekiem, temu człowiek nie pomoże.
+- Guślarz podpala kocioł z wódką. Przychodzi **Widmo Złego Pana**, okrutnego dziedzica.
+- Dręczy go głód i pragnienie. Prosi o wodę i dwa ziarna pszenicy.
+- **Kruk i Sowa** – dusze chłopów, których zagłodził i skrzywdził – wyrywają mu każdy kęs.
+- Guślarz odpędza widmo, bo nie można mu pomóc.
 
 ### Duch pośredni – Zosia
-Przychodzi duch pięknej pasterki Zosi, która za życia odtrącała wszystkich kawalerów i nikogo nie kochała. Teraz unosi się w powietrzu i nie może dotknąć ziemi. Trzeba ją przyciągnąć, ale młodzieńcy nie mogą jej złapać. Jej nauka: kto nie dotknął ziemi, ten nie może być w niebie.
+> Kto nie dotknął ziemi ni razu, ten nigdy nie może być w niebie.
+- Guślarz zapala wianek z ziół. Przylatuje duch pięknej pasterki **Zosi**.
+- Za życia odtrącała wszystkich kawalerów i nikogo nie pokochała.
+- Teraz unosi się w powietrzu i nie może dotknąć ziemi. Młodzieńcy nie umieją jej przyciągnąć.
+- Guślarz zapowiada, że trafi do nieba **za dwa lata**.
 
-### Milczące widmo
-Na koniec zjawia się widmo, które nie odpowiada na zaklęcia. Ma ranę w sercu. Idzie za jedną z wieśniaczek, Pasterką, i nie znika. To zapowiedź postaci Gustawa z dalszych części „Dziadów”.
+### Milczące Widmo
+> Ostatni duch nie odpowiada na żadne zaklęcia – to zapowiedź Gustawa z dalszych części.
+- Po zakończeniu obrzędu pojawia się jeszcze jedno **Widmo** z raną w sercu.
+- Nie reaguje na słowa Guślarza i wpatruje się w **Pasterkę**.
+- Pasterka milczy. Widmo idzie za nią, gdy wychodzi z kaplicy.
 
 ## Bohaterowie
-- **Guślarz** – przewodnik obrzędu, mędrzec ludowy, który zna drogę do świata zmarłych.
-- **Starzec i chór wieśniaków** – uczestnicy obrzędu, komentują i powtarzają formuły.
-- **Józio i Rózia** – duchy lekkie, dzieci, które nie zaznały cierpienia.
-- **Widmo Złego Pana** – duch ciężki, okrutny dziedzic, który nie może zostać zbawiony.
-- **Zosia** – duch pośredni, dziewczyna, która nikogo nie pokochała.
-- **Widmo** – milczący duch z raną w sercu, zapowiedź Gustawa.
-- **Pasterka** – wieśniaczka, za którą idzie widmo.
+- **Guślarz** – Prowadzi obrzęd, ludowy mędrzec, który zna świat zmarłych.
+- **Starzec i chór wieśniaków** – Uczestnicy obrzędu, powtarzają formuły.
+- **Józio i Rózia** – Duchy lekkie, dzieci, które nie zaznały cierpienia.
+- **Widmo Złego Pana** – Duch ciężki, okrutny dziedzic, bez szans na zbawienie.
+- **Zosia** – Duch pośredni, pasterka, która nikogo nie pokochała.
+- **Widmo** – Milczący duch z raną w sercu; zapowiedź Gustawa.
+- **Pasterka** – Wieśniaczka, za którą idzie Widmo.
 
 ## Czas i miejsce akcji
-Akcja trwa jedną noc, w czasie obrzędu dziadów (w okolicach Zaduszek), w kaplicy na cmentarzu na Litwie.
+- **Czas:** jedna noc obrzędu dziadów, w okolicach Zaduszek.
+- **Miejsce:** kaplica na cmentarzu na Litwie.
 
 ## Geneza i gatunek
-Mickiewicz wydał „Dziady cz. II” w 1823 roku w drugim tomie „Poezji”, razem z częścią IV. Inspiracją były ludowe obrzędy na Litwie i Białorusi. To **dramat romantyczny** o budowie obrzędu, z cechami ballady i misterium. Ważny jest motto z „Hamleta” o tym, że są rzeczy, które się nie śniły filozofom.
+- **Powstanie:** wydane w 1823 roku w II tomie „Poezji” Mickiewicza, razem z częścią IV.
+- **Źródło:** ludowe obrzędy z Litwy i Białorusi.
+- **Gatunek:** dramat romantyczny o budowie obrzędu, z cechami ballady i misterium. Motto z „Hamleta” mówi, że są rzeczy, o których nie śniło się filozofom.
 
 ## Problematyka
 ### Ludowa moralność
-Każdy duch uczy jednej zasady: trzeba zaznać cierpienia, trzeba być człowiekiem dla innych, trzeba kochać i żyć wśród ludzi. To ludowy kodeks sprawiedliwości.
+> Każdy duch uczy jednej zasady życia.
+- Trzeba zaznać cierpienia (dzieci).
+- Trzeba być człowiekiem dla innych (Zły Pan).
+- Trzeba kochać i żyć wśród ludzi (Zosia).
 
-### Świat zmarłych i żywych
-Utwór pokazuje, że te dwa światy się przenikają, a zmarli potrzebują pomocy żywych.
+### Świat żywych i zmarłych
+> Oba światy się przenikają, a zmarli potrzebują pomocy żywych.
+- Obrzęd to most między nimi.
 
 ### Krzywda i kara
-Widmo Złego Pana pokazuje, że krzywda wyrządzona słabszym nie zostaje zapomniana. Zbawienie zależy od tego, jak żyło się na ziemi.
+> Krzywda wyrządzona słabszym nie zostaje zapomniana.
+- Ofiary Złego Pana same wymierzają mu karę.
 
-### Romantyczna wiara w lud
-Mickiewicz pokazuje lud jako strażnika prawd moralnych, które są ważniejsze niż rozum i nauka.
+### Wiara w lud
+> Romantycy widzą w ludzie strażnika prawd moralnych.
+- Ludowa mądrość jest ważniejsza niż rozum i nauka.
 
 ## Znaczenie tytułu
-Dziady to ludowe święto zmarłych, połączone z obrzędem ich przywoływania i karmienia. Tytuł wskazuje temat utworu i jego ludowe źródło.
+- Dziady to ludowe święto zmarłych, połączone z ich przywoływaniem i karmieniem.

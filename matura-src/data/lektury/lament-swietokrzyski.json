@@ -78,22 +78,43 @@
         {
           "typ": "punkt",
           "etykieta": "Wezwanie do słuchaczy",
-          "tekst": "Maryja prosi „bracie”, czyli wszystkich ludzi, by wysłuchali jej żalu. Mówi o swoim cierpieniu, które przypada „dzień piątkowy” – w dniu ukrzyżowania."
+          "tekst": "",
+          "sedno": "Matka Boża prosi ludzi, by wysłuchali jej skargi.",
+          "punkty": [
+            "**Maryja** prosi „bracie”, czyli wszystkich ludzi, by wysłuchali jej żalu.",
+            "Mówi o swoim cierpieniu, które przypada „dzień piątkowy” – w dniu ukrzyżowania."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Rozmowa z Synem",
-          "tekst": "Matka zwraca się do Jezusa „synku miły i wybrany”. Chce podzielić z nim ból, podtrzymać mu głowę, otrzeć krew. Nie może jednak nic zrobić, bo stoi pod krzyżem. Prosi go, by się do niej odezwał."
+          "tekst": "",
+          "sedno": "Maryja zwraca się do ukrzyżowanego Syna, którego nie może dotknąć ani mu pomóc.",
+          "punkty": [
+            "Matka zwraca się do **Jezusa** „synku miły i wybrany”.",
+            "Chce podzielić z nim ból, podtrzymać mu głowę, otrzeć krew.",
+            "Nie może jednak nic zrobić, bo stoi pod krzyżem.",
+            "Prosi go, by się do niej odezwał."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Żal do Gabriela",
-          "tekst": "Maryja przypomina, że archanioł Gabriel obiecał jej wielką radość, gdy zwiastował narodziny Syna. Teraz czuje się oszukana, bo zamiast radości przyszedł smutek."
+          "tekst": "",
+          "sedno": "Maryja przypomina archanioła, który obiecywał jej radość, a nie cierpienie.",
+          "punkty": [
+            "**Maryja** przypomina, że archanioł **Gabriel** obiecał jej wielką radość, gdy zwiastował narodziny Syna.",
+            "Teraz czuje się oszukana, bo zamiast radości przyszedł smutek."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Prośba do matek",
-          "tekst": "Na koniec Maryja prosi wszystkie matki, by modliły się, aby nie przeżyły tego co ona – śmierci dziecka na własnych oczach."
+          "tekst": "",
+          "sedno": "Maryja prosi matki, by modliły się, żeby nie spotkało ich podobne nieszczęście.",
+          "punkty": [
+            "Na koniec **Maryja** prosi wszystkie matki, by modliły się, aby nie przeżyły tego co ona – śmierci dziecka na własnych oczach."
+          ]
         }
       ]
     },
@@ -141,17 +162,26 @@
         {
           "typ": "punkt",
           "etykieta": "Cierpienie matki",
-          "tekst": "Ból kobiety tracącej dziecko jest uniwersalny i ponadczasowy."
+          "tekst": "",
+          "punkty": [
+            "Ból kobiety tracącej dziecko jest uniwersalny i ponadczasowy."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Uczłowieczenie świętości",
-          "tekst": "Maryja nie jest tu królową niebios, lecz zwykłą matką – to nowe, bliskie ludziom spojrzenie na religię."
+          "tekst": "",
+          "punkty": [
+            "Maryja nie jest tu królową niebios, lecz zwykłą matką – to nowe, bliskie ludziom spojrzenie na religię."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Motyw Mater Dolorosa",
-          "tekst": "Matka Boleśna to motyw obecny w literaturze i sztuce (np. „Pieta” Michała Anioła, średniowieczna pieśń „Stabat Mater”)."
+          "tekst": "",
+          "punkty": [
+            "Matka Boleśna to motyw obecny w literaturze i sztuce (np. „Pieta” Michała Anioła, średniowieczna pieśń „Stabat Mater”)."
+          ]
         }
       ]
     },

@@ -48,27 +48,53 @@
         {
           "typ": "punkt",
           "etykieta": "„Fortepian Szopena”",
-          "tekst": "W 1863 roku carscy żołnierze wyrzucili przez okno fortepian Chopina z mieszkania w Warszawie. Poeta wspomina ostatnie spotkanie z chorym kompozytorem, potem opisuje jego muzykę jako doskonałe połączenie ideału i polskiej, ludowej prostoty. Na końcu ukazuje zniszczenie fortepianu. Puenta: „Ideał – sięgnął bruku”, a przyszłe pokolenia („wnuki”) na tym skorzystają. Wiersz mówi o barbarzyństwie wobec sztuki i o tym, że ideał musi zejść na ziemię, by zmienić życie."
+          "tekst": "",
+          "punkty": [
+            "W 1863 roku carscy żołnierze wyrzucili przez okno fortepian **Chopina** z mieszkania w Warszawie.",
+            "Poeta wspomina ostatnie spotkanie z chorym kompozytorem, potem opisuje jego muzykę jako doskonałe połączenie ideału i polskiej, ludowej prostoty.",
+            "Na końcu ukazuje zniszczenie fortepianu.",
+            "Puenta: „Ideał – sięgnął bruku”, a przyszłe pokolenia („wnuki”) na tym skorzystają.",
+            "Wiersz mówi o barbarzyństwie wobec sztuki i o tym, że ideał musi zejść na ziemię, by zmienić życie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„Moja piosnka (II)”",
-          "tekst": "Podmiot tęskni do kraju, gdzie szanuje się chleb, okruszynę podnosi się z ziemi „przez uszanowanie dla darów Nieba”, gdzie bocianom nie burzy się gniazd i ludzie witają się słowami „Bądź pochwalony!”. Na końcu pisze, że tęskni do ludzi szczerych – „Tak – tak, nie – nie”. To tęsknota emigranta za prostą, uczciwą ojczyzną i tradycją."
+          "tekst": "",
+          "punkty": [
+            "**Podmiot** tęskni do kraju, gdzie szanuje się chleb, okruszynę podnosi się z ziemi „przez uszanowanie dla darów Nieba”, gdzie bocianom nie burzy się gniazd i ludzie witają się słowami „Bądź pochwalony!”.",
+            "Na końcu pisze, że tęskni do ludzi szczerych – „Tak – tak, nie – nie”.",
+            "To tęsknota emigranta za prostą, uczciwą ojczyzną i tradycją."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„W Weronie”",
-          "tekst": "Nad ruinami domów Kapuletich i Montekich spada gwiazda – to łza nieba nad losem Romea i Julii. Ludzie mówią jednak, że to tylko kamień, bo nie rozumieją uczuć. Wiersz przeciwstawia poetycką wrażliwość obojętnemu, praktycznemu światu."
+          "tekst": "",
+          "punkty": [
+            "Nad ruinami domów Kapuletich i Montekich spada gwiazda – to łza nieba nad losem Romea i Julii.",
+            "Ludzie mówią jednak, że to tylko kamień, bo nie rozumieją uczuć.",
+            "Wiersz przeciwstawia poetycką wrażliwość obojętnemu, praktycznemu światu."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„Bema pamięci żałobny rapsod”",
-          "tekst": "Opis uroczystego pogrzebu generała Józefa Bema, bohatera powstania węgierskiego. Kondukt idzie „od grodu do grodu”, a idea, za którą walczył, przetrwa i porywa następne pokolenia."
+          "tekst": "",
+          "punkty": [
+            "Opis uroczystego pogrzebu generała Józefa Bema, bohatera powstania węgierskiego.",
+            "Kondukt idzie „od grodu do grodu”, a idea, za którą walczył, przetrwa i porywa następne pokolenia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„Coś ty Atenom zrobił, Sokratesie…”",
-          "tekst": "Wiersz powstał po śmierci Mickiewicza. Poeta wylicza wielkich ludzi – m.in. Sokratesa, Dantego, Kolumba, Kościuszkę, Napoleona i Mickiewicza – których współcześni skrzywdzili albo odrzucili, a docenili dopiero po śmierci. Puenta: uznanie i pomniki przychodzą za późno, gdy twórca już nie żyje."
+          "tekst": "",
+          "punkty": [
+            "Wiersz powstał po śmierci Mickiewicza.",
+            "Poeta wylicza wielkich ludzi – m.in. Sokratesa, Dantego, Kolumba, Kościuszkę, Napoleona i Mickiewicza – których współcześni skrzywdzili albo odrzucili, a docenili dopiero po śmierci.",
+            "Puenta: uznanie i pomniki przychodzą za późno, gdy twórca już nie żyje."
+          ]
         }
       ]
     },
@@ -111,22 +137,34 @@
         {
           "typ": "punkt",
           "etykieta": "Sztuka i artysta",
-          "tekst": "Sztuka ma moc przemiany, ale świat jej nie rozumie i niszczy ją."
+          "tekst": "",
+          "punkty": [
+            "Sztuka ma moc przemiany, ale świat jej nie rozumie i niszczy ją."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ojczyzna i tradycja",
-          "tekst": "Norwid tęskni za Polską prostych wartości – szacunku dla chleba, życzliwości, prawdomówności."
+          "tekst": "",
+          "punkty": [
+            "Norwid tęskni za Polską prostych wartości – szacunku dla chleba, życzliwości, prawdomówności."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Historia i niewdzięczność",
-          "tekst": "Wielcy ludzie są niedoceniani za życia."
+          "tekst": "",
+          "punkty": [
+            "Wielcy ludzie są niedoceniani za życia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Praca",
-          "tekst": "Norwid podkreśla wartość pracy, która uszlachetnia człowieka."
+          "tekst": "",
+          "punkty": [
+            "Norwid podkreśla wartość pracy, która uszlachetnia człowieka."
+          ]
         }
       ]
     },

@@ -24,13 +24,13 @@ Marek Nowakowski wydał tom „Prawo prerii” w 1999 roku. To krótka **proza o
 
 ## Problematyka
 ### Prawo silniejszego
-W nowej rzeczywistości wygrywa ten, kto jest bezczelny i silny.
+- W nowej rzeczywistości wygrywa ten, kto jest bezczelny i silny.
 
 ### Przemiany po 1989 roku
-Nowi ludzie sukcesu nie liczą się z innymi.
+- Nowi ludzie sukcesu nie liczą się z innymi.
 
 ### Nawiązanie do „Tanga”
-Edek z Mrożka – prostak, który przejmuje władzę – staje się kluczem do zrozumienia współczesności.
+- Edek z Mrożka – prostak, który przejmuje władzę – staje się kluczem do zrozumienia współczesności.
 
 ## Znaczenie tytułu
 „Górą «Edek»” oznacza, że wygrał Edek – prostak i siłacz. To ironiczny komentarz do świata, w którym rządzi siła.

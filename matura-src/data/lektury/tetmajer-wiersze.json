@@ -48,22 +48,42 @@
         {
           "typ": "punkt",
           "etykieta": "„Koniec wieku XIX”",
-          "tekst": "Podmiot pyta, jaką postawę przyjąć wobec świata: przekleństwo, ironię, pogardę, rozpacz, walkę, rezygnację, modlitwę, użycie. Na każdą propozycję odpowiada, że nie ma sensu. Kończy pytaniem bez odpowiedzi i zwieszeniem głowy. To manifest **dekadentyzmu** – bezradności człowieka u schyłku wieku."
+          "tekst": "",
+          "punkty": [
+            "**Podmiot** pyta, jaką postawę przyjąć wobec świata: przekleństwo, ironię, pogardę, rozpacz, walkę, rezygnację, modlitwę, użycie.",
+            "Na każdą propozycję odpowiada, że nie ma sensu.",
+            "Kończy pytaniem bez odpowiedzi i zwieszeniem głowy.",
+            "To manifest **dekadentyzmu** – bezradności człowieka u schyłku wieku."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„Nie wierzę w nic”",
-          "tekst": "Podmiot nie wierzy w nic, nie pragnie niczego i niczego nie oczekuje. Jedynym ukojeniem jest **nirwana** – całkowite zapomnienie, „bezmyślność”, wieczny sen. Wiersz wyraża pesymizm i wpływ filozofii Schopenhauera."
+          "tekst": "",
+          "punkty": [
+            "**Podmiot** nie wierzy w nic, nie pragnie niczego i niczego nie oczekuje.",
+            "Jedynym ukojeniem jest **nirwana** – całkowite zapomnienie, „bezmyślność”, wieczny sen.",
+            "Wiersz wyraża pesymizm i wpływ filozofii Schopenhauera."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„Hymn do Nirwany”",
-          "tekst": "Modlitewna prośba do Nirwany, by ukoiła ból istnienia. Podmiot pragnie rozpłynąć się w nicości, nie czuć i nie myśleć."
+          "tekst": "",
+          "punkty": [
+            "Modlitewna prośba do Nirwany, by ukoiła ból istnienia.",
+            "**Podmiot** pragnie rozpłynąć się w nicości, nie czuć i nie myśleć."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "„Melodia mgieł nocnych” (Nad Czarnym Stawem Gąsienicowym)",
-          "tekst": "Impresjonistyczny obraz Tatr nocą: mgły unoszą się nad stawem, wszystko jest ulotne, niewyraźne, zmienne. Mgły same mówią o sobie. To przykład **impresjonizmu** w poezji – oddania ulotnego wrażenia."
+          "tekst": "",
+          "punkty": [
+            "Impresjonistyczny obraz Tatr nocą: mgły unoszą się nad stawem, wszystko jest ulotne, niewyraźne, zmienne.",
+            "Mgły same mówią o sobie.",
+            "To przykład **impresjonizmu** w poezji – oddania ulotnego wrażenia."
+          ]
         }
       ]
     },
@@ -101,17 +121,26 @@
         {
           "typ": "punkt",
           "etykieta": "Dekadentyzm",
-          "tekst": "Poczucie schyłku, kryzysu wartości, bezsilności."
+          "tekst": "",
+          "punkty": [
+            "Poczucie schyłku, kryzysu wartości, bezsilności."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ucieczka od cierpienia",
-          "tekst": "Nirwana, sztuka, miłość i natura jako sposoby ucieczki od świata."
+          "tekst": "",
+          "punkty": [
+            "Nirwana, sztuka, miłość i natura jako sposoby ucieczki od świata."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przyroda",
-          "tekst": "Tatry pokazane w impresjonistycznych, ulotnych obrazach."
+          "tekst": "",
+          "punkty": [
+            "Tatry pokazane w impresjonistycznych, ulotnych obrazach."
+          ]
         }
       ]
     },

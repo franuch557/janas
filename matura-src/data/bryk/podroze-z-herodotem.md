@@ -15,19 +15,34 @@ Ryszard Kapuściński opisuje swoje pierwsze podróże reporterskie w latach 50.
 
 ## Streszczenie szczegółowe
 ### Przekroczyć granicę
-Młody reporter chce zobaczyć cokolwiek poza Polską – „przekroczyć granicę” to dla niego wielkie marzenie. Redakcja wysyła go do Indii. Przed wyjazdem dostaje od redaktorki „Dzieje” Herodota.
+> Młody Kapuściński marzy o przekroczeniu granicy i dostaje pierwszą podróż zagraniczną.
+- Młody reporter chce zobaczyć cokolwiek poza Polską – „przekroczyć granicę” to dla niego wielkie marzenie.
+- Redakcja wysyła go do Indii.
+- Przed wyjazdem dostaje od redaktorki „Dzieje” **Herodota**.
 
 ### Indie
-W Indiach Kapuściński czuje się zagubiony: nie zna angielskiego, nie rozumie kultury. Uczy się angielskiego z powieści Hemingwaya. Zaczyna rozumieć, że każda kultura ma swój język i kod, które trzeba poznać, by zrozumieć ludzi.
+> W Indiach reporter odkrywa, że bez znajomości języka i kultury nie rozumie świata.
+- W Indiach **Kapuściński** czuje się zagubiony: nie zna angielskiego, nie rozumie kultury.
+- Uczy się angielskiego z powieści Hemingwaya.
+- Zaczyna rozumieć, że każda kultura ma swój język i kod, które trzeba poznać, by zrozumieć ludzi.
 
 ### Chiny
-W Chinach doświadcza ścisłej kontroli – wszędzie ma opiekuna, nie może swobodnie rozmawiać z ludźmi. Obserwuje kampanie propagandowe. Porównuje to z opisanym przez Herodota światem dawnych imperiów.
+> W Chinach poznaje kraj ogromny, zamknięty i rządzony przez propagandę.
+- W Chinach doświadcza ścisłej kontroli – wszędzie ma opiekuna, nie może swobodnie rozmawiać z ludźmi.
+- Obserwuje kampanie propagandowe.
+- Porównuje to z opisanym przez **Herodota** światem dawnych imperiów.
 
 ### Herodot i jego świat
-Kapuściński streszcza i komentuje opowieści Herodota: o Kroisosie, który był bogaty, ale nie szczęśliwy; o Kserksesie i wojnie z Grecją; o Scytach i ich obyczajach; o okrucieństwie władców. Zastanawia się, jak Herodot zbierał informacje – podróżował, słuchał i zapisywał. To przypomina pracę reportera.
+> Herodot staje się dla reportera mistrzem i towarzyszem w poznawaniu innych kultur.
+- **Kapuściński** streszcza i komentuje opowieści **Herodota**: o Kroisosie, który był bogaty, ale nie szczęśliwy; o Kserksesie i wojnie z Grecją; o Scytach i ich obyczajach; o okrucieństwie władców.
+- Zastanawia się, jak **Herodot** zbierał informacje – podróżował, słuchał i zapisywał.
+- To przypomina pracę reportera.
 
 ### Afryka i dalsze podróże
-Kapuściński opisuje rewolucje i walkę o niepodległość w Afryce, a także kolejne wyprawy. Szuka miejsc, które opisał Herodot. Kończy refleksją, że Herodot był pierwszym globalistą – ciekawym innych ludzi, wolnym od pogardy dla obcych.
+> Kapuściński łączy własne reportaże z opowieściami Herodota o wojnach i ludach.
+- **Kapuściński** opisuje rewolucje i walkę o niepodległość w Afryce, a także kolejne wyprawy.
+- Szuka miejsc, które opisał **Herodot**.
+- Kończy refleksją, że **Herodot** był pierwszym globalistą – ciekawym innych ludzi, wolnym od pogardy dla obcych.
 
 ## Bohaterowie
 - **Ryszard Kapuściński** – narrator, młody reporter, ciekawy świata, otwarty na innych.
@@ -42,16 +57,16 @@ Ryszard Kapuściński wydał książkę w 2004 roku, pod koniec życia. To **rep
 
 ## Problematyka
 ### Spotkanie z Innym
-Poznanie obcej kultury wymaga otwartości i wysiłku.
+- Poznanie obcej kultury wymaga otwartości i wysiłku.
 
 ### Reporter i historyk
-Herodot to pierwszy reporter – podróżuje, słucha i zapisuje, jak Kapuściński.
+- Herodot to pierwszy reporter – podróżuje, słucha i zapisuje, jak Kapuściński.
 
 ### Władza i przemoc
-Dzieje to także historia wojen i okrucieństwa władców.
+- Dzieje to także historia wojen i okrucieństwa władców.
 
 ### Pamięć i historia
-Historia ludzi jest podobna w różnych epokach.
+- Historia ludzi jest podobna w różnych epokach.
 
 ## Znaczenie tytułu
 Kapuściński podróżuje z książką Herodota, który staje się jego towarzyszem i przewodnikiem.

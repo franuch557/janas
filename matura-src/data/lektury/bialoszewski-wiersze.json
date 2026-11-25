@@ -105,17 +105,26 @@
         {
           "typ": "punkt",
           "etykieta": "Codzienność",
-          "tekst": "Zwykłe przedmioty i zdarzenia mogą być niezwykłe."
+          "tekst": "",
+          "punkty": [
+            "Zwykłe przedmioty i zdarzenia mogą być niezwykłe."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Język",
-          "tekst": "Słowa mają ukryte znaczenia, które poeta odkrywa przez grę językową."
+          "tekst": "",
+          "punkty": [
+            "Słowa mają ukryte znaczenia, które poeta odkrywa przez grę językową."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zachwyt",
-          "tekst": "Poezja jako sposób na radość z prostych rzeczy („Moja niewyczerpana oda do radości”)."
+          "tekst": "",
+          "punkty": [
+            "Poezja jako sposób na radość z prostych rzeczy („Moja niewyczerpana oda do radości”)."
+          ]
         }
       ]
     },

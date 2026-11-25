@@ -99,22 +99,34 @@
         {
           "typ": "punkt",
           "etykieta": "Miłość",
-          "tekst": "Najważniejsza wartość, która nadaje sens życiu."
+          "tekst": "",
+          "punkty": [
+            "Najważniejsza wartość, która nadaje sens życiu."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Śmierć i choroba",
-          "tekst": "Świadomość śmierci wzmacnia pragnienie życia."
+          "tekst": "",
+          "punkty": [
+            "Świadomość śmierci wzmacnia pragnienie życia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Kobiecość i cielesność",
-          "tekst": "Ciało i zmysły są ważną częścią przeżywania świata."
+          "tekst": "",
+          "punkty": [
+            "Ciało i zmysły są ważną częścią przeżywania świata."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Nawiązania do kultury",
-          "tekst": "Postaci literackie, np. Julia, jako maski dla własnych uczuć."
+          "tekst": "",
+          "punkty": [
+            "Postaci literackie, np. Julia, jako maski dla własnych uczuć."
+          ]
         }
       ]
     },

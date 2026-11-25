@@ -1,61 +1,96 @@
-# Zemsta – opracowanie (układ: skrót, plan, streszczenie, bohaterowie, problematyka)
+# Zemsta – opracowanie
 
 ## W skrócie
-W jednym zamku mieszkają dwaj sąsiedzi, którzy się nienawidzą: porywczy Cześnik Raptusiewicz i chytry Rejent Milczek. Kłócą się o mur graniczny. Tymczasem syn Rejenta, Wacław, kocha Klarę, synowicę Cześnika. Cześnik chce się ożenić z bogatą Podstoliną, ale Rejent planuje wydać ją za Wacława. W końcu Cześnik, chcąc zrobić Rejentowi na złość, zmusza Wacława do ślubu z Klarą – i tym samym spełnia marzenie zakochanych. Komedia kończy się pojednaniem.
+- **O czym:** dwaj skłóceni sąsiedzi – porywczy Cześnik i chytry Rejent – walczą o mur w dzielonym zamku.
+- **Wątek miłosny:** syn Rejenta, Wacław, kocha Klarę, synowicę Cześnika.
+- **Jak się kończy:** Cześnik, żeby zrobić Rejentowi na złość, zmusza Wacława do ślubu z Klarą – i spełnia marzenie zakochanych. Sąsiedzi się godzą.
 
 ## Plan wydarzeń
-1. Cześnik postanawia ożenić się z Podstoliną i prosi Papkina o pomoc w swatach.
-2. Rejent naprawia mur graniczny, Cześnik każe przegonić murarzy.
-3. Wacław i Klara spotykają się potajemnie w ogrodzie.
-4. Papkin zanosi Rejentowi wyzwanie na pojedynek.
-5. Rejent namawia Podstolinę, by wyszła za Wacława.
-6. Ludzie Cześnika porywają Wacława.
-7. Papkin, przekonany, że został otruty, pisze testament.
-8. Cześnik zmusza Wacława do natychmiastowego ślubu z Klarą.
-9. Pojednanie Cześnika i Rejenta: „Zgoda!”.
+1. Cześnik postanawia ożenić się z bogatą Podstoliną.
+2. Papkin ma swatać Cześnika, a sam zabiega o Klarę.
+3. Rejent naprawia mur – Cześnik uznaje to za wypowiedzenie wojny.
+4. Schadzka Klary i Wacława w altanie.
+5. Kłótnia Cześnika z Rejentem na murze.
+6. Wacław daje się złapać Papkinowi, udając komisarza Rejenta, i zostaje w zamku.
+7. Podstolina i Wacław znali się dawniej – ona chce go dla siebie.
+8. Cześnik zaręcza się z Podstoliną i wysyła Papkina z wyzwaniem do Rejenta.
+9. Rejent spisuje zeznania murarzy i każe Wacławowi poślubić Podstolinę.
+10. List Rejenta: Podstolina wyjdzie za Wacława. Cześnik wpada w furię.
+11. Papkin myśli, że wypił zatrute wino, i pisze testament.
+12. Cześnik wabi Wacława podstępem i zmusza go do ślubu z Klarą.
+13. Rejent dowiaduje się o ślubie; sąsiedzi się godzą.
 
 ## Streszczenie szczegółowe
-### Akt I – plany Cześnika
-Cześnik Maciej Raptusiewicz, stary szlachcic o gwałtownym charakterze, mówi Dyndalskiemu, że chce się ożenić. Wybrał Podstolinę, bo jest bogata. Papkin, samochwała i tchórz, ma mu pomóc w swatach. Cześnik widzi, że Rejent naprawia mur na wspólnym dziedzińcu, i każe swoim ludziom przepędzić murarzy.
+### Akt I – plany Cześnika i mur
+> Cześnik chce się ożenić z Podstoliną, a naprawa muru przez Rejenta rozpala spór na nowo.
+- **Cześnik Raptusiewicz** liczy majątek **Podstoliny** i postanawia się z nią ożenić. **Dyndalski** mu przytakuje.
+- **Papkin**, samochwała, opowiada o swoich „podbojach”. Ma swatać Cześnika, a sam marzy o **Klarze**.
+- Podstolina zgadza się na ślub z Cześnikiem.
+- Cześnik widzi, że **Rejent Milczek** naprawia mur. Każe przepędzić murarzy.
+- W altanie spotykają się **Klara** i **Wacław**. Wacław chce uciec i wziąć ślub, Klara się nie zgadza.
+- Na murze dochodzi do kłótni sąsiadów.
 
-### Akt II – Wacław i Klara, wyzwanie
-Klara spotyka się w ogrodzie z Wacławem, którego kocha. Papkin zabiega o względy Klary, a ta ośmiesza jego przechwałki. Cześnik wysyła Papkina do Rejenta z wyzwaniem na pojedynek. Rejent przyjmuje Papkina chłodno i grozi mu procesem.
+### Akt II – Wacław w zamku Cześnika
+> Wacław podstępem zostaje w zamku, a Cześnik wysyła wyzwanie na pojedynek.
+- **Wacław** oddaje się w ręce Papkina jako „jeniec”, udając komisarza Rejenta.
+- Przekupuje Papkina, żeby pomógł mu zostać blisko Klary.
+- **Podstolina** zna Wacława sprzed lat i chce go dla siebie, nie wie o Klarze.
+- **Klara** droczy się z Papkinem i żąda od niego dowodów miłości.
+- Cześnik zaręcza się z Podstoliną i wysyła **Papkina** do Rejenta z wyzwaniem.
 
 ### Akt III – intryga Rejenta
-Rejent spisuje zeznania murarzy, żeby wytoczyć Cześnikowi sprawę. Wacław wyznaje ojcu, że kocha Klarę, ale Rejent ma inny plan – chce go ożenić z Podstoliną, z którą Wacław kiedyś się spotykał. Podstolina zgadza się na ślub z Wacławem. Ludzie Cześnika porywają Wacława i przyprowadzają go do zamku.
+> Rejent postanawia odebrać Cześnikowi narzeczoną, żeniąc z nią syna.
+- **Rejent** wymusza na murarzach zeznania przeciw Cześnikowi i odprawia ich bez zapłaty.
+- Mówi **Wacławowi**, że wie o Klarze, ale syn musi poślubić **Podstolinę**.
+- Podstolina zgadza się na ślub z Wacławem.
+- **Papkin** przynosi wyzwanie. Dostaje od Rejenta odpowiedź na piśmie.
 
-### Akt IV – „zemsta” i zgoda
-Papkin, przekonany, że wypił truciznę, sporządza zabawny testament. Cześnik dowiaduje się o planach Rejenta i postanawia się zemścić: zmusza Wacława, by od razu wziął ślub z Klarą, przed powrotem Rejenta. Zemsta okazuje się szczęściem dla młodych. Rejent i Cześnik godzą się, a komedię kończy wezwanie do zgody.
+### Akt IV – „zemsta” Cześnika
+> Cześnik chce się zemścić, a w rzeczywistości łączy zakochanych.
+- Z listu Rejenta Cześnik dowiaduje się o ślubie Podstoliny z Wacławem i wpada w furię.
+- Mówi **Papkinowi**, że Rejent mógł go poczęstować zatrutym winem. Przerażony Papkin pisze testament.
+- Cześnik wabi **Wacława** do zamku podstępem i stawia warunek: ślub z Klarą albo śmierć.
+- Młodzi od razu się zgadzają i biorą ślub w kaplicy.
+- **Rejent** dowiaduje się o ślubie. Sąsiedzi się godzą, a komedię kończy wezwanie do zgody.
 
 ## Bohaterowie
-- **Cześnik Maciej Raptusiewicz** – stary szlachcic, porywczy, krzykliwy, ale w gruncie rzeczy dobroduszny. Lubi wojaczkę i ucztowanie, ma swoje powiedzonko „Mocium panie”.
-- **Rejent Milczek** – przeciwieństwo Cześnika. Spokojny, cichy, obłudny i mściwy. Walczy podstępem i procesami. Powtarza „Niech się dzieje wola nieba”.
-- **Papkin** – samochwała, tchórz i pieczeniarz, który opowiada o swoich bohaterskich czynach, choć nigdy ich nie dokonał. Najbardziej komiczna postać.
-- **Klara** – synowica Cześnika. Bystra, rezolutna, kocha Wacława.
-- **Wacław** – syn Rejenta, zakochany w Klarze. Uczciwy, choć pod presją ojca.
-- **Podstolina** – wdowa, która szuka bogatego męża.
-- **Dyndalski** – stary marszałek dworu Cześnika, wierny i powolny.
+- **Cześnik Maciej Raptusiewicz** – Stary szlachcic, porywczy, krzykliwy, ale dobroduszny. Powiedzonko: „Mocium panie”.
+- **Rejent Milczek** – Cichy, obłudny i mściwy. Walczy podstępem i procesami. Powtarza „Niech się dzieje wola nieba”.
+- **Papkin** – Samochwała, tchórz i pieczeniarz. Najbardziej komiczna postać.
+- **Klara** – Synowica Cześnika, bystra i rezolutna. Kocha Wacława.
+- **Wacław** – Syn Rejenta, zakochany w Klarze.
+- **Podstolina** – Wdowa szukająca bogatego męża.
+- **Dyndalski** – Stary, wierny marszałek dworu Cześnika.
 
 ## Czas i miejsce akcji
-Akcja dzieje się w ciągu jednego dnia w zamku na wsi, podzielonym między Cześnika i Rejenta. Utwór ukazuje stosunki szlacheckie z przełomu XVIII i XIX wieku.
+- **Czas:** jeden dzień; obyczaje szlacheckie z przełomu XVIII i XIX wieku.
+- **Miejsce:** zamek na wsi, podzielony między Cześnika i Rejenta.
 
 ## Geneza i gatunek
-Aleksander Fredro napisał „Zemstę” w 1833 roku. Wzorem był prawdziwy spór sąsiedzki o mur w zamku w Odrzykoniu. To **komedia** w czterech aktach, pisana wierszem (ośmiozgłoskowcem). Komizm opiera się na postaciach, sytuacjach i języku.
+- **Powstanie:** Aleksander Fredro napisał „Zemstę” w 1833 roku.
+- **Źródło:** prawdziwy spór sąsiedzki o mur w zamku w Odrzykoniu.
+- **Gatunek:** komedia w czterech aktach, pisana ośmiozgłoskowcem.
 
 ## Problematyka
 ### Spór sąsiedzki i pieniactwo
-Komedia wyśmiewa szlacheckie kłótnie, pychę i skłonność do procesów. Zemsta, która miała zaszkodzić, przynosi dobro.
+> Komedia wyśmiewa szlacheckie kłótnie, pychę i skłonność do procesów.
+- Mur staje się pretekstem do wojny dwóch charakterów.
+- Zemsta, która miała zaszkodzić, przynosi dobro.
 
 ### Typy ludzkie
-Cześnik i Rejent to dwa przeciwne charaktery: krzykacz i obłudnik. Papkin to typ samochwały i tchórza.
+> Bohaterowie to wyraziste typy, a nie złożone charaktery.
+- Cześnik – krzykacz o dobrym sercu; Rejent – obłudnik.
+- Papkin – samochwała i tchórz.
 
-### Miłość
-Miłość Wacława i Klary jest silniejsza niż kłótnie dorosłych. Młodzi przezwyciężają spór rodzin.
+### Miłość ponad kłótnią
+> Uczucie młodych jest silniejsze niż spór rodzin.
+- Wacław i Klara pobierają się dzięki zemście Cześnika.
 
 ### Rodzaje komizmu
-- **komizm postaci** – Papkin, Cześnik, Rejent,
-- **komizm sytuacji** – testament Papkina, wymuszony ślub,
-- **komizm słowa** – powiedzonka, przechwałki Papkina.
+> Śmiech rodzi się z postaci, sytuacji i języka.
+- **Komizm postaci:** Papkin, Cześnik, Rejent.
+- **Komizm sytuacji:** testament Papkina, wymuszony ślub.
+- **Komizm słowa:** powiedzonka i przechwałki.
 
 ## Znaczenie tytułu
-Tytułowa zemsta to podstęp Cześnika, który chciał zaszkodzić Rejentowi. Ironia polega na tym, że zemsta łączy zakochanych i prowadzi do zgody.
+- Tytułowa zemsta to podstęp Cześnika. Ironia polega na tym, że zemsta łączy zakochanych i prowadzi do zgody.

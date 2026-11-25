@@ -167,6 +167,15 @@ function parseBryk(text) {
     }
     const bullet = line.match(/^[*-]\s+(.*)$/);
     const num = line.match(/^(\d+)\.\s+(.*)$/);
+    // notatka pod „### ”: „> ” = sedno w jednym zdaniu, „- ” = punkty
+    if (sub && line.startsWith('> ')) {
+      sub.sedno = line.slice(2).trim();
+      continue;
+    }
+    if (sub && bullet && (sub.sedno || sub.punkty || !sub.tekst)) {
+      (sub.punkty ??= []).push(bullet[1].trim());
+      continue;
+    }
     if (bullet || num) {
       sub = null;
       cur.bloki.push({ typ: 'punkt', ...(num ? { nr: Number(num[1]) } : {}), ...parseItem((bullet ?? num)[bullet ? 1 : 2]) });

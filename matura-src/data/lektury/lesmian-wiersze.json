@@ -104,22 +104,34 @@
         {
           "typ": "punkt",
           "etykieta": "Miłość i natura",
-          "tekst": "Miłość jest zmysłowa i jednoczy człowieka z przyrodą."
+          "tekst": "",
+          "punkty": [
+            "Miłość jest zmysłowa i jednoczy człowieka z przyrodą."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Śmierć i nicość",
-          "tekst": "Zaświaty u Leśmiana są niepewne, a śmierć często okazuje się pustką."
+          "tekst": "",
+          "punkty": [
+            "Zaświaty u Leśmiana są niepewne, a śmierć często okazuje się pustką."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Sens działania",
-          "tekst": "Ludzki wysiłek ma wartość, nawet gdy cel jest złudzeniem („Dziewczyna”)."
+          "tekst": "",
+          "punkty": [
+            "Ludzki wysiłek ma wartość, nawet gdy cel jest złudzeniem („Dziewczyna”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Bóg",
-          "tekst": "Bóg jest bliski człowiekowi, ale nie wszechmocny."
+          "tekst": "",
+          "punkty": [
+            "Bóg jest bliski człowiekowi, ale nie wszechmocny."
+          ]
         }
       ]
     },

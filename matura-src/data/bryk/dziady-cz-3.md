@@ -1,78 +1,105 @@
-# Dziady cz. III
+# Dziady cz. III – opracowanie
 
 ## W skrócie
-Wilno, 1823 rok. Car prześladuje polską młodzież: śledztwo senatora Nowosilcowa przeciw filomatom i filaretom kończy się więzieniem i zsyłkami. W celi więzień Gustaw przemienia się w Konrada – poetę i patriotę. W Wielkiej Improwizacji Konrad buntuje się przeciw Bogu, żądając władzy nad duszami, by uszczęśliwić naród. Ratuje go modlitwa księdza Piotra, który ma wizję przyszłości Polski jako „Chrystusa narodów”. Utwór pokazuje martyrologię Polaków i ich duchową walkę z zaborcą.
+- **O czym:** młodzi Polacy z Wilna zostają uwięzieni przez carskie władze w czasie śledztwa przeciw filomatom. Więzień Konrad buntuje się przeciw Bogu w imię cierpiącego narodu.
+- **Dwa światy:** obok sceny realistycznej (więzienie, salon, bal u Senatora) są sceny metafizyczne (anioły, diabły, widzenia).
+- **Najważniejsza myśl:** cierpienie Polski ma sens – naród jest jak Chrystus, który przez ofiarę zbawi inne narody (mesjanizm).
 
 ## Plan wydarzeń
-1. Prolog: więzień w celi klasztoru Bazylianów; anioły i duchy walczą o jego duszę; Gustaw staje się Konradem.
-2. Scena I: więźniowie w celi Konrada w Wigilię opowiadają o prześladowaniach. Konrad śpiewa pieśń zemsty.
-3. Scena II: Wielka Improwizacja – Konrad wyzywa Boga.
-4. Scena III: diabły próbują porwać duszę Konrada; egzorcyzmy księdza Piotra.
-5. Scena IV: Ewa modli się za poetę, ma piękny sen.
-6. Scena V: Widzenie księdza Piotra – Polska jako Chrystus narodów i zapowiedź wskrzesiciela „czterdzieści i cztery”.
-7. Sceny VI–VII: sen Senatora i salon warszawski – obojętność elit wobec cierpienia narodu.
-8. Scena VIII: bal u Senatora; pani Rollisonowa prosi o łaskę dla syna, Senator ją oszukuje; piorun zabija doktora Bécu.
-9. Scena IX: Noc Dziadów na cmentarzu – Guślarz i Kobieta widzą upiora (Gustawa).
-10. Ustęp: obrazy Rosji, Petersburga i Polaków na zesłaniu.
+1. Gustaw zapisuje na ścianie celi, że umarł i narodził się Konrad.
+2. Wigilia w celi Konrada: więźniowie opowiadają o śledztwie, Żegota o kibitkach na Sybir.
+3. Pieśni więźniów, w tym pieśń zemsty Konrada.
+4. Wielka Improwizacja – Konrad wyzywa Boga i mdleje.
+5. Ksiądz Piotr odprawia egzorcyzmy nad Konradem.
+6. Widzenie Ewy w domku pod Lwowem i widzenie księdza Piotra.
+7. Sen Senatora dręczonego przez diabły.
+8. Salon warszawski: Adolf opowiada historię Cichowskiego.
+9. Pani Rollisonowa błaga Senatora o łaskę dla syna.
+10. Bal u Senatora; wiadomość o śmierci Rollisona i Doktora.
+11. Ksiądz Piotr i Konrad mijają się przy wyjściu.
+12. Ustęp: droga kibitek do Petersburga, pomnik Piotra I, przegląd wojska.
 
 ## Streszczenie szczegółowe
-### Prolog
-W celi więzienia w klasztorze Bazylianów w Wilnie śpi więzień. Duchy dobre i złe walczą o jego duszę. Więzień budzi się i pisze na ścianie: „Gustavus obiit… hic natus est Conradus” – umarł Gustaw, narodził się Konrad. Kochanek przemienia się w patriotę, który żyje dla narodu.
-
-### Scena I – cela Konrada
-W Wigilię więźniowie, młodzi filomaci, gromadzą się w celi Konrada. Opowiadają o śledztwie: o wywózkach na Sybir, o torturach, o Cichowskim, który wyszedł z więzienia zmieniony nie do poznania. Jan Sobolewski opisuje kibitki z młodzieżą wywożoną na Syberię. Konrad śpiewa pieśń zemsty, a potem zostaje sam.
+### Prolog i scena I – więźniowie
+> W klasztorze Bazylianów w Wilnie, przerobionym na więzienie, młodzi patrioci spędzają wigilię.
+- **Gustaw** pisze na ścianie celi, że umarł, a narodził się **Konrad** – kochanek staje się bojownikiem.
+- Więźniowie zbierają się w celi Konrada. Opowiadają o przesłuchaniach i kolejnych aresztowaniach.
+- **Żegota** przynosi wieść o kibitkach wywożących więźniów na Sybir.
+- **Tomasz** jest gotów poświęcić się za wszystkich.
+- **Jankowski** śpiewa bluźnierczą pieśń, **Feliks** – pieśń o ich losie, a **Konrad** – pieśń zemsty.
 
 ### Scena II – Wielka Improwizacja
-Konrad czuje w sobie ogromną moc poety. Mówi do Boga jak równy do równego. Twierdzi, że kocha naród bardziej niż Bóg i cierpi za miliony. Żąda „rządu dusz”, by uszczęśliwić ludzi. Gdy Bóg milczy, oskarża go, że jest „tylko mądrością”, a nie miłością. Już ma nazwać Boga „carem”, ale mdleje – diabeł wypowiada za niego to bluźnierstwo.
+> Konrad, samotny poeta, żąda od Boga władzy nad duszami, by uszczęśliwić naród.
+- Konrad czuje się wybitny i równy Bogu jako poeta.
+- Mówi w imieniu cierpiącego narodu: „Ja kocham cały naród”.
+- Domaga się władzy nad duszami i wyzywa Boga na pojedynek.
+- Zarzuca Bogu, że nie jest miłością, tylko „mądrością”. Ostatniego bluźnierstwa wypowiada za niego diabeł.
+- **Konrad mdleje.**
 
-### Scena III i IV – ratunek
-Ksiądz Piotr, pokorny bernardyn, odprawia egzorcyzmy i wypędza z Konrada diabła. W domu wiejskim pod Lwowem młoda Ewa modli się za poetę, a we śnie widzi Matkę Bożą i kwiaty – jej modlitwa pomaga ocalić Konrada.
+### Sceny III–V – egzorcyzmy i widzenia
+> Pokorny ksiądz Piotr ratuje duszę Konrada i dostaje widzenie przyszłości Polski.
+- **Ksiądz Piotr**, bernardyn, odprawia egzorcyzmy nad nieprzytomnym Konradem i wypędza diabła.
+- **Ewa** w domku pod Lwowem modli się za Polskę i ma piękne widzenie.
+- **Ksiądz Piotr** w widzeniu widzi Polskę jako Chrystusa narodów i tajemniczego wybawcę – „czterdzieści i cztery”.
 
-### Scena V – Widzenie księdza Piotra
-Ksiądz Piotr modli się w pokorze i ma wizję: Polska, jak Chrystus, zostaje ukrzyżowana przez narody, ale zmartwychwstanie. Zbawi świat przez cierpienie. Zapowiada też tajemniczego wybawcę: „A imię jego czterdzieści i cztery”. To **mesjanizm** – Polska jako Chrystus narodów.
-
-### Sceny VI–VII – Sen Senatora i salon warszawski
-Senatorowi śni się, że car go wyróżnia, a potem odwraca się od niego – diabły drwią z jego strachu przed utratą łask. W salonie warszawskim arystokraci rozmawiają po francusku o balach, a młodzi patrioci przy drzwiach mówią o cierpieniu narodu. Adolf opowiada historię Cichowskiego. Salon jest obojętny wobec losu Polski.
+### Scena VI–VII – Senator i salon
+> Sen Senatora odsłania jego tchórzostwo, a salon warszawski dzieli się na obojętnych i patriotów.
+- **Senator Nowosilcow** we śnie jest dręczony przez diabły.
+- W **salonie warszawskim** arystokraci rozmawiają po francusku, młodzież patriotyczna stoi z boku.
+- **Adolf** opowiada historię **Cichowskiego**, więzionego i torturowanego.
 
 ### Scena VIII – Pan Senator
-Na balu u Senatora ślepa pani Rollisonowa błaga o łaskę dla syna torturowanego w więzieniu. Senator udaje współczucie, a po cichu każe dalej męczyć więźnia. Wkrótce przychodzi wiadomość, że chłopak wypadł z okna więzienia. W czasie balu piorun zabija doktora Bécu, współpracownika Senatora – to znak kary Bożej. Konrad zostaje skazany na zsyłkę. Ksiądz Piotr przepowiada mu przyszłość.
+> Bal u Senatora pokazuje okrucieństwo władzy i boską karę.
+- **Pani Rollisonowa**, niewidoma matka, błaga Senatora o łaskę dla syna. Senator obiecuje, a w rzeczywistości planuje jego śmierć.
+- **Ksiądz Piotr** przepowiada śmierć **Doktorowi**.
+- Na balu Rollisonowa wdziera się z wiadomością, że syna wyrzucono z okna.
+- **Doktor** ginie rażony piorunem.
+- Przy wyjściu ksiądz Piotr spotyka **Konrada**, którego wywożą, i przepowiada mu przyszłość.
 
-### Scena IX – Noc Dziadów
-Na cmentarzu Guślarz i Kobieta w żałobie widzą kibitki jadące na zesłanie. W jednej jest Konrad, a na jego piersi rana. Kobieta (ukochana Gustawa) rozpoznaje go.
-
-### Ustęp
-Dołączone wiersze opisują drogę na Syberię, Petersburg, pomnik Piotra Wielkiego i rosyjski despotyzm. Kończy go wiersz „Do przyjaciół Moskali”.
+### Scena IX i Ustęp
+> Obrzęd dziadów i droga na Wschód zamykają dramat.
+- **Guślarz** z **Kobietą** czekają na cmentarzu na widmo jej kochanka. Widzą kibitki jadące na północ – w jednej z nich Kobieta rozpoznaje ukochanego.
+- **Ustęp:** kibitki jadą przez Rosję do Petersburga.
+- **Pielgrzym** podziwia pomnik **Piotra I** i patrzy na przegląd wojska.
+- **Oleszkiewicz** zapowiada katastrofę.
 
 ## Bohaterowie
-- **Konrad** – poeta-więzień, romantyczny bohater: samotny, dumny, gotów cierpieć za naród, ale popada w pychę i bluźni. Dawniej był Gustawem – nieszczęśliwym kochankiem z „Dziadów” cz. IV.
-- **Ksiądz Piotr** – pokorny zakonnik, przeciwieństwo Konrada. Osiąga to, czego Konrad chciał siłą: widzi przyszłość narodu dzięki pokorze i modlitwie.
-- **Senator Nowosilcow** – carski urzędnik, okrutny, cyniczny, tchórzliwy.
-- **Pani Rollisonowa** – niewidoma matka torturowanego syna.
-- **Ewa** – młoda, pobożna dziewczyna spod Lwowa, która modli się za poetę.
-- **Więźniowie** – Tomasz, Jan Sobolewski, Feliks, Frejend i inni – młodzi patrioci.
-- **Doktor Bécu** – współpracownik Senatora, ukarany śmiercią.
+- **Konrad** – Poeta i więzień, romantyczny bohater. Samotny, dumny, kocha naród. Buntuje się przeciw Bogu.
+- **Ksiądz Piotr** – Pokorny bernardyn, przeciwieństwo Konrada. Ma widzenie przyszłości Polski.
+- **Senator Nowosilcow** – Carski urzędnik, okrutny i tchórzliwy.
+- **Pani Rollisonowa** – Niewidoma matka, która walczy o syna.
+- **Tomasz, Żegota, Feliks, Jankowski** – Więźniowie, przedstawiciele młodzieży patriotycznej.
+- **Ewa** – Pobożna dziewczyna, ma widzenie.
+- **Doktor** – Współpracownik Senatora, ginie od pioruna.
 
 ## Czas i miejsce akcji
-Wilno w latach 1823–1824 (cela w klasztorze Bazylianów, cela księdza Piotra, mieszkanie Senatora), Warszawa (salon), dom wiejski pod Lwowem (Ewa), cmentarz (Noc Dziadów), a w Ustępie droga na Syberię i Petersburg. Akcja zaczyna się w Wigilię.
+- **Czas:** 1823–1824, śledztwo przeciw filomatom.
+- **Miejsce:** Wilno (cela w klasztorze Bazylianów), Warszawa (salon), okolice Lwowa, cmentarz, droga do Petersburga.
 
 ## Geneza i gatunek
-Mickiewicz napisał III część „Dziadów” w Dreźnie w 1832 roku, po upadku powstania listopadowego. Inspiracją był proces filomatów i filaretów (1823), w którym sam był więźniem. To **dramat romantyczny**: łączy realizm z fantastyką, ma budowę fragmentaryczną (sceny luźno powiązane), mieszanie rodzajów literackich (np. ballada, monolog, wiersz), sceny zbiorowe i duży udział sił nadprzyrodzonych.
+- **Powstanie:** napisana w Dreźnie w 1832 roku, po upadku powstania listopadowego.
+- **Źródło:** osobiste przeżycia Mickiewicza, aresztowanego w procesie filomatów.
+- **Gatunek:** dramat romantyczny – luźna kompozycja, sceny realistyczne i fantastyczne, różne style.
 
 ## Problematyka
-### Martyrologia narodu
-Cierpienie młodzieży polskiej pod zaborem rosyjskim.
-
 ### Mesjanizm
-Polska jako Chrystus narodów, który zbawi świat przez cierpienie.
+> Polska jest Chrystusem narodów – jej cierpienie zbawi inne narody.
+- Widzenie księdza Piotra pokazuje ukrzyżowanie i zmartwychwstanie Polski.
+- Tajemniczy wybawca – „czterdzieści i cztery”.
 
-### Bunt przeciw Bogu (prometeizm)
-Konrad chce uszczęśliwić naród wbrew Bogu – to pycha romantycznego bohatera.
+### Bunt przeciw Bogu
+> Konrad w Wielkiej Improwizacji żąda władzy, by zbawić naród, i oskarża Boga.
+- Bunt rodzi się z miłości do narodu, ale prowadzi do pychy.
+- Pokora księdza Piotra okazuje się silniejsza.
 
-### Pokora a pycha
-Ksiądz Piotr pokornie osiąga to, czego nie zdobył dumny Konrad.
+### Martyrologia narodu
+> Dramat pokazuje cierpienie młodych Polaków pod zaborem rosyjskim.
+- Więzienia, przesłuchania, zsyłki na Sybir.
+- Historie Cichowskiego i Rollisona.
 
 ### Społeczeństwo polskie
-Elita (salon) jest obojętna, a młodzież i patrioci gotowi do poświęceń.
+> Polacy są podzieleni na patriotów i obojętnych.
+- Salon warszawski: arystokracja kolaboruje lub jest bierna, młodzież cierpi.
 
 ## Znaczenie tytułu
-„Dziady” to ludowy obrzęd przywoływania dusz zmarłych. W części III obrzęd pojawia się tylko w scenie IX, a tytuł łączy ją z wcześniejszymi częściami utworu.
+- Dziady to obrzęd przywoływania zmarłych; w III części to także obraz narodu, który żyje cierpieniem i pamięcią.

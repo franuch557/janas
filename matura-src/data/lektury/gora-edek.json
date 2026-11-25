@@ -145,17 +145,26 @@
         {
           "typ": "punkt",
           "etykieta": "Prawo silniejszego",
-          "tekst": "W nowej rzeczywistości wygrywa ten, kto jest bezczelny i silny."
+          "tekst": "",
+          "punkty": [
+            "W nowej rzeczywistości wygrywa ten, kto jest bezczelny i silny."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przemiany po 1989 roku",
-          "tekst": "Nowi ludzie sukcesu nie liczą się z innymi."
+          "tekst": "",
+          "punkty": [
+            "Nowi ludzie sukcesu nie liczą się z innymi."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Nawiązanie do „Tanga”",
-          "tekst": "Edek z Mrożka – prostak, który przejmuje władzę – staje się kluczem do zrozumienia współczesności."
+          "tekst": "",
+          "punkty": [
+            "Edek z Mrożka – prostak, który przejmuje władzę – staje się kluczem do zrozumienia współczesności."
+          ]
         }
       ]
     },

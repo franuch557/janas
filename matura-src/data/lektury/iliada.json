@@ -126,32 +126,81 @@
         {
           "typ": "punkt",
           "etykieta": "Gniew Achillesa (pieśń I)",
-          "tekst": "Grecy oblegają Troję od dziesięciu lat. Kapłan Apollina, Chryzes, prosi Agamemnona o zwrot porwanej córki. Agamemnon odmawia, więc Apollo zsyła na obóz zarazę. Agamemnon w końcu oddaje Chryzeidę, ale w zamian odbiera Achillesowi jego brankę Bryzeidę. Upokorzony Achilles odmawia dalszej walki. Jego matka, nimfa Tetyda, prosi Zeusa, by Trojanie zwyciężali, dopóki Grecy nie oddadzą Achillesowi czci."
+          "tekst": "",
+          "sedno": "Agamemnon zabiera Achillesowi brankę, a obrażony bohater wycofuje się z walki.",
+          "punkty": [
+            "Grecy oblegają Troję od dziesięciu lat.",
+            "Kapłan Apollina, Chryzes, prosi **Agamemnona** o zwrot porwanej córki.",
+            "**Agamemnon** odmawia, więc Apollo zsyła na obóz zarazę.",
+            "**Agamemnon** w końcu oddaje Chryzeidę, ale w zamian odbiera **Achillesowi** jego brankę Bryzeidę.",
+            "Upokorzony **Achilles** odmawia dalszej walki.",
+            "Jego matka, nimfa Tetyda, prosi Zeusa, by Trojanie zwyciężali, dopóki Grecy nie oddadzą **Achillesowi** czci."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pojedynki i walki (pieśni II–VII)",
-          "tekst": "Homer przedstawia wojska obu stron. Parys staje do pojedynku z Menelaosem, którego żonę, Helenę, porwał. Gdy przegrywa, ratuje go bogini Afrodyta. Bogowie wtrącają się w bitwę po obu stronach."
+          "tekst": "",
+          "sedno": "Wojna trwa w pojedynkach bohaterów, a bogowie mieszają się do walki.",
+          "punkty": [
+            "Homer przedstawia wojska obu stron.",
+            "**Parys** staje do pojedynku z Menelaosem, którego żonę, **Helenę**, porwał.",
+            "Gdy przegrywa, ratuje go bogini Afrodyta.",
+            "**Bogowie** wtrącają się w bitwę po obu stronach."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pożegnanie Hektora z Andromachą (pieśń VI)",
-          "tekst": "Hektor wraca na chwilę do miasta. Żona Andromacha prosi go, by nie wychodził na bitwę, bo zostanie wdową, a syn sierotą. Hektor wie, że Troja upadnie, ale wybiera honor i obowiązek. Mały Astianaks boi się błyszczącego hełmu ojca – Hektor zdejmuje go i bierze syna na ręce. To jedna z najbardziej ludzkich scen eposu."
+          "tekst": "",
+          "sedno": "Hektor żegna żonę i syna, wiedząc, że może zginąć.",
+          "punkty": [
+            "**Hektor** wraca na chwilę do miasta.",
+            "Żona **Andromacha** prosi go, by nie wychodził na bitwę, bo zostanie wdową, a syn sierotą.",
+            "**Hektor** wie, że Troja upadnie, ale wybiera honor i obowiązek.",
+            "Mały Astianaks boi się błyszczącego hełmu ojca – **Hektor** zdejmuje go i bierze syna na ręce.",
+            "To jedna z najbardziej ludzkich scen eposu."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Klęski Greków (pieśni VIII–XVI)",
-          "tekst": "Trojanie, prowadzeni przez Hektora, zyskują przewagę i podchodzą pod greckie okręty. Agamemnon wysyła do Achillesa poselstwo z darami, ale Achilles odmawia. Gdy Trojanie podpalają statek, Patroklos prosi Achillesa o zbroję i rusza do walki. Odpycha Trojan, ale ginie z ręki Hektora, który zabiera mu zbroję Achillesa."
+          "tekst": "",
+          "sedno": "Bez Achillesa Grecy przegrywają, a w walce ginie Patroklos.",
+          "punkty": [
+            "Trojanie, prowadzeni przez **Hektora**, zyskują przewagę i podchodzą pod greckie okręty.",
+            "**Agamemnon** wysyła do **Achillesa** poselstwo z darami, ale **Achilles** odmawia.",
+            "Gdy Trojanie podpalają statek, **Patroklos** prosi **Achillesa** o zbroję i rusza do walki.",
+            "Odpycha Trojan, ale ginie z ręki **Hektora**, który zabiera mu zbroję **Achillesa**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Powrót Achillesa (pieśni XVIII–XXII)",
-          "tekst": "Achilles w rozpaczy godzi się z Agamemnonem. Hefajstos wykuwa dla niego nową zbroję i tarczę, na której przedstawiony jest cały świat: miasto w czasie pokoju i wojny, praca na polu, uczty i tańce. Achilles w szale zabija wielu Trojan. W końcu staje do pojedynku z Hektorem. Hektor ucieka trzy razy wokół murów, w końcu staje do walki i ginie. Achilles przywiązuje jego ciało do rydwanu i wlecze je po ziemi."
+          "tekst": "",
+          "sedno": "Achilles wraca do walki, by pomścić Patroklosa, i zabija Hektora.",
+          "punkty": [
+            "**Achilles** w rozpaczy godzi się z **Agamemnonem**.",
+            "Hefajstos wykuwa dla niego nową zbroję i tarczę, na której przedstawiony jest cały świat: miasto w czasie pokoju i wojny, praca na polu, uczty i tańce.",
+            "**Achilles** w szale zabija wielu Trojan.",
+            "W końcu staje do pojedynku z **Hektorem**.",
+            "**Hektor** ucieka trzy razy wokół murów, w końcu staje do walki i ginie.",
+            "**Achilles** przywiązuje jego ciało do rydwanu i wlecze je po ziemi."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Priam u Achillesa (pieśń XXIV)",
-          "tekst": "Achilles przez wiele dni znieważa ciało Hektora. Bogowie są oburzeni. Stary król Priam, pod opieką Hermesa, przychodzi nocą do namiotu Achillesa, całuje jego ręce i prosi o ciało syna, przypominając mu jego własnego ojca. Achilles wzrusza się, obaj płaczą. Oddaje ciało i daje Trojanom czas na pogrzeb. Epos kończy się pogrzebem Hektora."
+          "tekst": "",
+          "sedno": "Achilles oddaje ojcu ciało Hektora – gniew ustępuje litości.",
+          "punkty": [
+            "**Achilles** przez wiele dni znieważa ciało **Hektora**.",
+            "**Bogowie** są oburzeni.",
+            "Stary król **Priam**, pod opieką Hermesa, przychodzi nocą do namiotu **Achillesa**, całuje jego ręce i prosi o ciało syna, przypominając mu jego własnego ojca.",
+            "**Achilles** wzrusza się, obaj płaczą.",
+            "Oddaje ciało i daje Trojanom czas na pogrzeb.",
+            "Epos kończy się pogrzebem **Hektora**."
+          ]
         }
       ]
     },
@@ -224,22 +273,35 @@
         {
           "typ": "punkt",
           "etykieta": "Wojna",
-          "tekst": "Wojna przynosi sławę bohaterom, ale też cierpienie, śmierć i rozpacz bliskich."
+          "tekst": "",
+          "punkty": [
+            "Wojna przynosi sławę bohaterom, ale też cierpienie, śmierć i rozpacz bliskich."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Honor i sława",
-          "tekst": "Grecki wojownik walczy o chwałę. Gniew Achillesa wynika z urażonej czci."
+          "tekst": "",
+          "punkty": [
+            "Grecki wojownik walczy o chwałę.",
+            "Gniew Achillesa wynika z urażonej czci."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Los i bogowie",
-          "tekst": "Ludzie podlegają przeznaczeniu i kaprysom bogów, ale sami odpowiadają za swoje wybory."
+          "tekst": "",
+          "punkty": [
+            "Ludzie podlegają przeznaczeniu i kaprysom bogów, ale sami odpowiadają za swoje wybory."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Człowieczeństwo",
-          "tekst": "Scena z Priamem pokazuje, że nawet wróg może współczuć – wspólne cierpienie łączy ludzi."
+          "tekst": "",
+          "punkty": [
+            "Scena z Priamem pokazuje, że nawet wróg może współczuć – wspólne cierpienie łączy ludzi."
+          ]
         }
       ]
     },

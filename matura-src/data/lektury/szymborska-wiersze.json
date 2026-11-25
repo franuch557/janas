@@ -116,22 +116,34 @@
         {
           "typ": "punkt",
           "etykieta": "Niepowtarzalność chwili",
-          "tekst": "Nic się nie powtarza, każda chwila jest jedyna („Nic dwa razy”)."
+          "tekst": "",
+          "punkty": [
+            "Nic się nie powtarza, każda chwila jest jedyna („Nic dwa razy”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Śmierć i strata",
-          "tekst": "Śmierć pokazana z perspektywy, która wzrusza i zaskakuje („Kot w pustym mieszkaniu”)."
+          "tekst": "",
+          "punkty": [
+            "Śmierć pokazana z perspektywy, która wzrusza i zaskakuje („Kot w pustym mieszkaniu”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pamięć po wojnie",
-          "tekst": "Ktoś musi sprzątać po wojnie, a potem nikt nie pamięta („Koniec i początek”)."
+          "tekst": "",
+          "punkty": [
+            "Ktoś musi sprzątać po wojnie, a potem nikt nie pamięta („Koniec i początek”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Człowiek i natura",
-          "tekst": "Człowiek nie jest panem świata; przyroda jest niewinna."
+          "tekst": "",
+          "punkty": [
+            "Człowiek nie jest panem świata; przyroda jest niewinna."
+          ]
         }
       ]
     },

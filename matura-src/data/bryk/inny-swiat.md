@@ -17,22 +17,45 @@ Gustaw Herling-Grudziński opisuje swój pobyt w sowieckim łagrze w Jercewie w 
 
 ## Streszczenie szczegółowe
 ### Aresztowanie i droga do łagru
-W 1940 roku autor próbuje przedostać się na Litwę, by walczyć w polskim wojsku. Zostaje aresztowany przez NKWD, oskarżony o szpiegostwo i skazany na pięć lat łagru. Przechodzi przez więzienia i trafia do obozu w Jercewie pod Archangielskiem.
+> Autor zostaje aresztowany przez NKWD i trafia do łagru w Jercewie.
+- W 1940 roku autor próbuje przedostać się na Litwę, by walczyć w polskim wojsku.
+- Zostaje aresztowany przez NKWD, oskarżony o szpiegostwo i skazany na pięć lat łagru.
+- Przechodzi przez więzienia i trafia do obozu w Jercewie pod Archangielskiem.
 
 ### Życie w obozie
-Więźniowie pracują ponad siły przy wyrębie lasu i w bazie żywnościowej. Racje jedzenia zależą od wykonania normy – kto pracuje słabo, dostaje mniej i szybciej umiera. Rządzą głód, zimno, choroby i przemoc. Kryminaliści (urki) terroryzują politycznych. Kobiety są gwałcone lub sprzedają się za jedzenie.
+> W łagrze rządzą głód, praca ponad siły i przemoc, a człowiek traci człowieczeństwo.
+- Więźniowie pracują ponad siły przy wyrębie lasu i w bazie żywnościowej.
+- Racje jedzenia zależą od wykonania normy – kto pracuje słabo, dostaje mniej i szybciej umiera.
+- Rządzą głód, zimno, choroby i przemoc.
+- Kryminaliści (urki) terroryzują politycznych.
+- Kobiety są gwałcone lub sprzedają się za jedzenie.
 
 ### Dom Swidanij
-Do obozu przyjeżdżają czasem rodziny więźniów na krótkie widzenia. Więźniowie starają się wtedy udawać, że żyją normalnie. Po widzeniach wielu się załamuje.
+> Krótkie widzenia z rodziną przypominają więźniom o normalnym życiu i łamią ich.
+- Do obozu przyjeżdżają czasem rodziny więźniów na krótkie widzenia.
+- Więźniowie starają się wtedy udawać, że żyją normalnie.
+- Po widzeniach wielu się załamuje.
 
 ### Kostylew – ręka w ogniu
-Kostylew, młody komunista, rozczarował się systemem, czytając zachodnie książki. Żeby nie pracować dla sowieckiej władzy, co wieczór wkłada rękę do ognia. W końcu, gdy ma zostać wysłany do Kotłasu, oblewa się wrzątkiem i umiera. To przykład walki o wewnętrzną wolność.
+> Kostylew okalecza się, by nie pracować dla systemu – walczy o wewnętrzną wolność.
+- **Kostylew**, młody komunista, rozczarował się systemem, czytając zachodnie książki.
+- Żeby nie pracować dla sowieckiej władzy, co wieczór wkłada rękę do ognia.
+- W końcu, gdy ma zostać wysłany do Kotłasu, oblewa się wrzątkiem i umiera.
+- To przykład walki o wewnętrzną wolność.
 
 ### Głodówka
-Gdy po układzie Sikorski–Majski (1941) Polacy mają zostać uwolnieni, autor długo nie dostaje zwolnienia. Ogłasza głodówkę. Po kilku dniach zostaje wypuszczony. Wstępuje do armii Andersa.
+> Autor głodówką wymusza zwolnienie z łagru po amnestii.
+- Gdy po układzie Sikorski–Majski (1941) Polacy mają zostać uwolnieni, autor długo nie dostaje zwolnienia.
+- Ogłasza głodówkę.
+- Po kilku dniach zostaje wypuszczony.
+- Wstępuje do armii Andersa.
 
 ### Epilog
-W 1945 roku w Rzymie autor spotyka byłego współwięźnia z Jercewa. Ten wyznaje, że w obozie złożył fałszywe zeznania przeciw czterem Niemcom, przez co zostali rozstrzelani. Prosi o zrozumienie. Autor nie potrafi mu odpowiedzieć – w łagrze zło było codziennością, ale nie usprawiedliwia wszystkiego.
+> Spotkanie w Rzymie pokazuje, że w łagrze ludzie łamali się moralnie.
+- W 1945 roku w Rzymie autor spotyka byłego współwięźnia z Jercewa.
+- Ten wyznaje, że w obozie złożył fałszywe zeznania przeciw czterem Niemcom, przez co zostali rozstrzelani.
+- Prosi o zrozumienie.
+- Autor nie potrafi mu odpowiedzieć – w łagrze zło było codziennością, ale nie usprawiedliwia wszystkiego.
 
 ## Bohaterowie
 - **Narrator (Gustaw Herling-Grudziński)** – więzień polityczny, świadek i kronikarz. Stara się zachować godność i rozumieć innych.
@@ -48,16 +71,16 @@ Herling-Grudziński wydał książkę w Londynie w 1951 roku (po angielsku, rok 
 
 ## Problematyka
 ### System totalitarny
-Łagier jest obrazem całego państwa sowieckiego – niewoli, kłamstwa i terroru.
+- Łagier jest obrazem całego państwa sowieckiego – niewoli, kłamstwa i terroru.
 
 ### Dehumanizacja
-Głód i przemoc odbierają ludziom człowieczeństwo.
+- Głód i przemoc odbierają ludziom człowieczeństwo.
 
 ### Godność
-Niektórzy więźniowie, mimo wszystko, zachowują moralność.
+- Niektórzy więźniowie, mimo wszystko, zachowują moralność.
 
 ### Ocena moralna
-Epilog stawia pytanie, czy można osądzać ludzi, którzy w nieludzkich warunkach stali się katami.
+- Epilog stawia pytanie, czy można osądzać ludzi, którzy w nieludzkich warunkach stali się katami.
 
 ## Znaczenie tytułu
 „Inny świat” to łagier – świat z innymi prawami, w którym nie działa normalna moralność. Określenie pochodzi z Dostojewskiego.

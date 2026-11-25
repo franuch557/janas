@@ -113,32 +113,73 @@
         {
           "typ": "punkt",
           "etykieta": "Aresztowanie i droga do łagru",
-          "tekst": "W 1940 roku autor próbuje przedostać się na Litwę, by walczyć w polskim wojsku. Zostaje aresztowany przez NKWD, oskarżony o szpiegostwo i skazany na pięć lat łagru. Przechodzi przez więzienia i trafia do obozu w Jercewie pod Archangielskiem."
+          "tekst": "",
+          "sedno": "Autor zostaje aresztowany przez NKWD i trafia do łagru w Jercewie.",
+          "punkty": [
+            "W 1940 roku autor próbuje przedostać się na Litwę, by walczyć w polskim wojsku.",
+            "Zostaje aresztowany przez NKWD, oskarżony o szpiegostwo i skazany na pięć lat łagru.",
+            "Przechodzi przez więzienia i trafia do obozu w Jercewie pod Archangielskiem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Życie w obozie",
-          "tekst": "Więźniowie pracują ponad siły przy wyrębie lasu i w bazie żywnościowej. Racje jedzenia zależą od wykonania normy – kto pracuje słabo, dostaje mniej i szybciej umiera. Rządzą głód, zimno, choroby i przemoc. Kryminaliści (urki) terroryzują politycznych. Kobiety są gwałcone lub sprzedają się za jedzenie."
+          "tekst": "",
+          "sedno": "W łagrze rządzą głód, praca ponad siły i przemoc, a człowiek traci człowieczeństwo.",
+          "punkty": [
+            "Więźniowie pracują ponad siły przy wyrębie lasu i w bazie żywnościowej.",
+            "Racje jedzenia zależą od wykonania normy – kto pracuje słabo, dostaje mniej i szybciej umiera.",
+            "Rządzą głód, zimno, choroby i przemoc.",
+            "Kryminaliści (urki) terroryzują politycznych.",
+            "Kobiety są gwałcone lub sprzedają się za jedzenie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Dom Swidanij",
-          "tekst": "Do obozu przyjeżdżają czasem rodziny więźniów na krótkie widzenia. Więźniowie starają się wtedy udawać, że żyją normalnie. Po widzeniach wielu się załamuje."
+          "tekst": "",
+          "sedno": "Krótkie widzenia z rodziną przypominają więźniom o normalnym życiu i łamią ich.",
+          "punkty": [
+            "Do obozu przyjeżdżają czasem rodziny więźniów na krótkie widzenia.",
+            "Więźniowie starają się wtedy udawać, że żyją normalnie.",
+            "Po widzeniach wielu się załamuje."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Kostylew – ręka w ogniu",
-          "tekst": "Kostylew, młody komunista, rozczarował się systemem, czytając zachodnie książki. Żeby nie pracować dla sowieckiej władzy, co wieczór wkłada rękę do ognia. W końcu, gdy ma zostać wysłany do Kotłasu, oblewa się wrzątkiem i umiera. To przykład walki o wewnętrzną wolność."
+          "tekst": "",
+          "sedno": "Kostylew okalecza się, by nie pracować dla systemu – walczy o wewnętrzną wolność.",
+          "punkty": [
+            "**Kostylew**, młody komunista, rozczarował się systemem, czytając zachodnie książki.",
+            "Żeby nie pracować dla sowieckiej władzy, co wieczór wkłada rękę do ognia.",
+            "W końcu, gdy ma zostać wysłany do Kotłasu, oblewa się wrzątkiem i umiera.",
+            "To przykład walki o wewnętrzną wolność."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Głodówka",
-          "tekst": "Gdy po układzie Sikorski–Majski (1941) Polacy mają zostać uwolnieni, autor długo nie dostaje zwolnienia. Ogłasza głodówkę. Po kilku dniach zostaje wypuszczony. Wstępuje do armii Andersa."
+          "tekst": "",
+          "sedno": "Autor głodówką wymusza zwolnienie z łagru po amnestii.",
+          "punkty": [
+            "Gdy po układzie Sikorski–Majski (1941) Polacy mają zostać uwolnieni, autor długo nie dostaje zwolnienia.",
+            "Ogłasza głodówkę.",
+            "Po kilku dniach zostaje wypuszczony.",
+            "Wstępuje do armii Andersa."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Epilog",
-          "tekst": "W 1945 roku w Rzymie autor spotyka byłego współwięźnia z Jercewa. Ten wyznaje, że w obozie złożył fałszywe zeznania przeciw czterem Niemcom, przez co zostali rozstrzelani. Prosi o zrozumienie. Autor nie potrafi mu odpowiedzieć – w łagrze zło było codziennością, ale nie usprawiedliwia wszystkiego."
+          "tekst": "",
+          "sedno": "Spotkanie w Rzymie pokazuje, że w łagrze ludzie łamali się moralnie.",
+          "punkty": [
+            "W 1945 roku w Rzymie autor spotyka byłego współwięźnia z Jercewa.",
+            "Ten wyznaje, że w obozie złożył fałszywe zeznania przeciw czterem Niemcom, przez co zostali rozstrzelani.",
+            "Prosi o zrozumienie.",
+            "Autor nie potrafi mu odpowiedzieć – w łagrze zło było codziennością, ale nie usprawiedliwia wszystkiego."
+          ]
         }
       ]
     },
@@ -191,22 +232,34 @@
         {
           "typ": "punkt",
           "etykieta": "System totalitarny",
-          "tekst": "Łagier jest obrazem całego państwa sowieckiego – niewoli, kłamstwa i terroru."
+          "tekst": "",
+          "punkty": [
+            "Łagier jest obrazem całego państwa sowieckiego – niewoli, kłamstwa i terroru."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Dehumanizacja",
-          "tekst": "Głód i przemoc odbierają ludziom człowieczeństwo."
+          "tekst": "",
+          "punkty": [
+            "Głód i przemoc odbierają ludziom człowieczeństwo."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Godność",
-          "tekst": "Niektórzy więźniowie, mimo wszystko, zachowują moralność."
+          "tekst": "",
+          "punkty": [
+            "Niektórzy więźniowie, mimo wszystko, zachowują moralność."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ocena moralna",
-          "tekst": "Epilog stawia pytanie, czy można osądzać ludzi, którzy w nieludzkich warunkach stali się katami."
+          "tekst": "",
+          "punkty": [
+            "Epilog stawia pytanie, czy można osądzać ludzi, którzy w nieludzkich warunkach stali się katami."
+          ]
         }
       ]
     },

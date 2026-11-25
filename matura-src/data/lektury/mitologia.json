@@ -119,52 +119,117 @@
         {
           "typ": "punkt",
           "etykieta": "Powstanie świata",
-          "tekst": "Na początku był Chaos. Z niego wyłoniła się Gaja (Ziemia), która zrodziła Uranosa (Niebo). Ich dziećmi byli tytani. Najmłodszy, Kronos, obalił ojca i pożerał własne dzieci, bojąc się utraty władzy. Rea ocaliła Zeusa, podając mężowi kamień w pieluchach. Zeus dorósł, zmusił Kronosa, by zwrócił rodzeństwo, i po wojnie z tytanami objął władzę nad światem."
+          "tekst": "",
+          "sedno": "Z Chaosu powstaje świat, a władzę po walkach z tytanami obejmuje Zeus.",
+          "punkty": [
+            "Na początku był Chaos.",
+            "Z niego wyłoniła się Gaja (Ziemia), która zrodziła Uranosa (Niebo).",
+            "Ich dziećmi byli tytani.",
+            "Najmłodszy, Kronos, obalił ojca i pożerał własne dzieci, bojąc się utraty władzy.",
+            "Rea ocaliła **Zeusa**, podając mężowi kamień w pieluchach.",
+            "**Zeus** dorósł, zmusił Kronosa, by zwrócił rodzeństwo, i po wojnie z tytanami objął władzę nad światem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Prometeusz",
-          "tekst": "Tytan Prometeusz ulepił ludzi z gliny i ukradł dla nich ogień z Olimpu. Zeus ukarał go: przykuł do skały na Kaukazie, gdzie orzeł wyjadał mu wątrobę, która odrastała. Prometeusz stał się symbolem buntu w imię dobra ludzi (prometeizm)."
+          "tekst": "",
+          "sedno": "Prometeusz kradnie bogom ogień dla ludzi i zostaje okrutnie ukarany.",
+          "punkty": [
+            "Tytan **Prometeusz** ulepił ludzi z gliny i ukradł dla nich ogień z Olimpu.",
+            "**Zeus** ukarał go: przykuł do skały na Kaukazie, gdzie orzeł wyjadał mu wątrobę, która odrastała.",
+            "**Prometeusz** stał się symbolem buntu w imię dobra ludzi (prometeizm)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pandora i potop",
-          "tekst": "Bogowie stworzyli Pandorę i dali jej puszkę, której nie wolno było otwierać. Gdy ją otworzyła, wyleciały wszystkie nieszczęścia świata; na dnie została nadzieja. Gdy ludzie stali się źli, Zeus zesłał potop. Ocaleli tylko Deukalion i Pyrra, którzy odnowili ludzkość, rzucając za siebie kamienie."
+          "tekst": "",
+          "sedno": "Pandora wypuszcza na świat nieszczęścia, a bogowie zsyłają potop.",
+          "punkty": [
+            "Bogowie stworzyli Pandorę i dali jej puszkę, której nie wolno było otwierać.",
+            "Gdy ją otworzyła, wyleciały wszystkie nieszczęścia świata; na dnie została nadzieja.",
+            "Gdy ludzie stali się źli, **Zeus** zesłał potop.",
+            "Ocaleli tylko Deukalion i Pyrra, którzy odnowili ludzkość, rzucając za siebie kamienie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Demeter i Kora",
-          "tekst": "Hades porwał Korę (Persefonę), córkę bogini urodzaju Demeter. Zrozpaczona matka przestała dbać o ziemię i zapanował głód. Zeus ustalił, że Kora część roku spędza z matką, a część w podziemiu. Tak Grecy tłumaczyli pory roku. To mit o miłości matczynej."
+          "tekst": "",
+          "sedno": "Rozpacz Demeter po porwaniu córki tłumaczy zmianę pór roku.",
+          "punkty": [
+            "**Hades** porwał Korę (Persefonę), córkę bogini urodzaju Demeter.",
+            "Zrozpaczona matka przestała dbać o ziemię i zapanował głód.",
+            "**Zeus** ustalił, że Kora część roku spędza z matką, a część w podziemiu.",
+            "Tak Grecy tłumaczyli pory roku.",
+            "To mit o miłości matczynej."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Orfeusz i Eurydyka",
-          "tekst": "Śpiewak Orfeusz zszedł do Hadesu po zmarłą żonę Eurydykę. Swoją muzyką wzruszył władców podziemi i mógł ją zabrać pod warunkiem, że się nie obejrzy. Tuż przed wyjściem obejrzał się i stracił ją na zawsze."
+          "tekst": "",
+          "sedno": "Orfeusz schodzi po ukochaną do Hadesu, ale traci ją, bo się obejrzał.",
+          "punkty": [
+            "Śpiewak Orfeusz zszedł do **Hadesu** po zmarłą żonę Eurydykę.",
+            "Swoją muzyką wzruszył władców podziemi i mógł ją zabrać pod warunkiem, że się nie obejrzy.",
+            "Tuż przed wyjściem obejrzał się i stracił ją na zawsze."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Niobe i Narcyz",
-          "tekst": "Niobe chełpiła się, że ma więcej dzieci niż Latona. Apollo i Artemida zabili jej dzieci, a ona z bólu zamieniła się w skałę – to symbol matki w cierpieniu. Narcyz zakochał się we własnym odbiciu i umarł z tęsknoty – stąd narcyzm."
+          "tekst": "",
+          "sedno": "Pycha i zapatrzenie w siebie zostają surowo ukarane.",
+          "punkty": [
+            "Niobe chełpiła się, że ma więcej dzieci niż Latona.",
+            "**Apollo** i Artemida zabili jej dzieci, a ona z bólu zamieniła się w skałę – to symbol matki w cierpieniu.",
+            "Narcyz zakochał się we własnym odbiciu i umarł z tęsknoty – stąd narcyzm."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Herakles i Tezeusz",
-          "tekst": "Herakles, syn Zeusa, wykonał dwanaście prac, m.in. zabił lwa nemejskiego i hydrę lernejską. Tezeusz zabił Minotaura w labiryncie na Krecie; z labiryntu wyprowadziła go nić Ariadny."
+          "tekst": "",
+          "sedno": "Najwięksi herosi pokonują potwory dzięki sile i odwadze.",
+          "punkty": [
+            "**Herakles**, syn **Zeusa**, wykonał dwanaście prac, m.in. zabił lwa nemejskiego i hydrę lernejską.",
+            "**Tezeusz** zabił Minotaura w labiryncie na Krecie; z labiryntu wyprowadziła go nić Ariadny."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Dedal i Ikar",
-          "tekst": "Dedal, budowniczy labiryntu, uciekł z Krety z synem Ikarem na skrzydłach z piór i wosku. Ikar wbrew przestrogom wzleciał zbyt blisko słońca, wosk się stopił i chłopiec spadł do morza. To mit o marzeniach i pysze młodości."
+          "tekst": "",
+          "sedno": "Ikar ginie, bo nie słucha ojca i leci zbyt wysoko.",
+          "punkty": [
+            "Dedal, budowniczy labiryntu, uciekł z Krety z synem Ikarem na skrzydłach z piór i wosku.",
+            "Ikar wbrew przestrogom wzleciał zbyt blisko słońca, wosk się stopił i chłopiec spadł do morza.",
+            "To mit o marzeniach i pysze młodości."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Rody przeklęte",
-          "tekst": "Tantal za zbrodnie cierpi w Hadesie wieczny głód i pragnienie (męki Tantala). Klątwa ciąży nad Atrydami (Agamemnon, Orestes) i nad Labdakidami: Edyp nieświadomie zabija ojca i żeni się z matką, a jego dzieci giną w walkach o Teby."
+          "tekst": "",
+          "sedno": "Klątwy ciążą na kolejnych pokoleniach Labdakidów i Atrydów.",
+          "punkty": [
+            "Tantal za zbrodnie cierpi w **Hadesie** wieczny głód i pragnienie (męki Tantala).",
+            "Klątwa ciąży nad Atrydami (Agamemnon, Orestes) i nad Labdakidami: Edyp nieświadomie zabija ojca i żeni się z matką, a jego dzieci giną w walkach o Teby."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wojna trojańska i Odyseusz",
-          "tekst": "Eris rzuciła złote jabłko „dla najpiękniejszej”. Parys przyznał je Afrodycie i w nagrodę zdobył Helenę, co wywołało wojnę z Troją. Troję zdobyto podstępem drewnianego konia. Odyseusz przez dziesięć lat wracał do Itaki, do wiernej Penelopy."
+          "tekst": "",
+          "sedno": "Spór o jabłko niezgody prowadzi do wojny, a Odyseusz latami wraca do domu.",
+          "punkty": [
+            "Eris rzuciła złote jabłko „dla najpiękniejszej”.",
+            "Parys przyznał je **Afrodycie** i w nagrodę zdobył Helenę, co wywołało wojnę z Troją.",
+            "Troję zdobyto podstępem drewnianego konia.",
+            "**Odyseusz** przez dziesięć lat wracał do Itaki, do wiernej Penelopy."
+          ]
         }
       ]
     },
@@ -242,17 +307,27 @@
         {
           "typ": "punkt",
           "etykieta": "Wyjaśnianie świata",
-          "tekst": "Mity tłumaczą pochodzenie świata, ludzi, pór roku i zjawisk natury."
+          "tekst": "",
+          "punkty": [
+            "Mity tłumaczą pochodzenie świata, ludzi, pór roku i zjawisk natury."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Relacje bogów i ludzi",
-          "tekst": "Bogowie są potężni, ale mają ludzkie wady: zazdrość, gniew, próżność. Karzą pychę (hybris)."
+          "tekst": "",
+          "punkty": [
+            "Bogowie są potężni, ale mają ludzkie wady: zazdrość, gniew, próżność.",
+            "Karzą pychę (hybris)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Archetypy",
-          "tekst": "Mity stworzyły uniwersalne wzorce: buntownika (Prometeusz), matki (Demeter, Niobe), artysty (Orfeusz), daremnej pracy (Syzyf)."
+          "tekst": "",
+          "punkty": [
+            "Mity stworzyły uniwersalne wzorce: buntownika (Prometeusz), matki (Demeter, Niobe), artysty (Orfeusz), daremnej pracy (Syzyf)."
+          ]
         }
       ]
     },

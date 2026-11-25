@@ -27,16 +27,16 @@ Olga Tokarczuk wydała opowiadanie w tomie „Gra na wielu bębenkach” (2001).
 
 ## Problematyka
 ### Obcość
-Człowiek bez języka i znajomości realiów jest bezradny.
+- Człowiek bez języka i znajomości realiów jest bezradny.
 
 ### Stan wojenny
-Rzeczywistość PRL ukazana z perspektywy obcokrajowca jako absurdalna i przerażająca.
+- Rzeczywistość PRL ukazana z perspektywy obcokrajowca jako absurdalna i przerażająca.
 
 ### Granice wiedzy
-Teorie psychologiczne nie pomagają zrozumieć realnego świata.
+- Teorie psychologiczne nie pomagają zrozumieć realnego świata.
 
 ### Ludzka życzliwość
-Pomoc przychodzi od zwykłego człowieka.
+- Pomoc przychodzi od zwykłego człowieka.
 
 ## Znaczenie tytułu
 Tytuł wskazuje bohatera i miejsce – zderzenie Anglika z Warszawą w stanie wojennym.

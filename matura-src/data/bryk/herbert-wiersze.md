@@ -16,16 +16,16 @@ Zbigniew Herbert (1924–1998) wydał m.in. tomy „Struna światła” (1956), 
 
 ## Problematyka
 ### Wierność wartościom
-Trzeba być wiernym prawdzie i godności, nawet gdy to nic nie daje („Przesłanie Pana Cogito”).
+- Trzeba być wiernym prawdzie i godności, nawet gdy to nic nie daje („Przesłanie Pana Cogito”).
 
 ### Opór wobec zła
-Sprzeciw wobec totalitaryzmu wynika ze smaku i poczucia estetyki („Potęga smaku”).
+- Sprzeciw wobec totalitaryzmu wynika ze smaku i poczucia estetyki („Potęga smaku”).
 
 ### Polityka i idealizm
-Starcie praktycznego polityka z romantykiem („Tren Fortynbrasa”).
+- Starcie praktycznego polityka z romantykiem („Tren Fortynbrasa”).
 
 ### Cierpienie i sztuka
-Sztuka rodzi się z cierpienia („Apollo i Marsjasz”).
+- Sztuka rodzi się z cierpienia („Apollo i Marsjasz”).
 
 ## Znaczenie tytułu
 Tytuły często wskazują bohatera lub gatunek (tren, raport, przesłanie).

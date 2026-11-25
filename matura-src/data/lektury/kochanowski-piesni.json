@@ -48,22 +48,44 @@
         {
           "typ": "punkt",
           "etykieta": "Pieśń IX (Księgi pierwsze) – „Chcemy sobie być radzi?”",
-          "tekst": "Poeta zaprasza do zabawy i radości, ale przypomina, że przyszłość zna tylko Bóg, a losem rządzi Fortuna – kapryśna i zmienna. Trzeba więc zachować spokój: w nieszczęściu nie rozpaczać, w szczęściu nie popadać w pychę. Myśl przewodnia: „człowiek przeciw złemu stateczny”. To połączenie stoicyzmu i epikureizmu oraz motywu **carpe diem**."
+          "tekst": "",
+          "punkty": [
+            "Poeta zaprasza do zabawy i radości, ale przypomina, że przyszłość zna tylko Bóg, a losem rządzi **Fortuna** – kapryśna i zmienna.",
+            "Trzeba więc zachować spokój: w nieszczęściu nie rozpaczać, w szczęściu nie popadać w pychę.",
+            "Myśl przewodnia: „człowiek przeciw złemu stateczny”.",
+            "To połączenie stoicyzmu i epikureizmu oraz motywu **carpe diem**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pieśń V (Księgi wtóre) – „Pieśń o spustoszeniu Podola”",
-          "tekst": "Pieśń patriotyczna, napisana po najeździe Tatarów na Podole (1575). Poeta krytykuje szlachtę za brak przygotowania do obrony i powtarza przysłowie: „Polak i przed szkodą, i po szkodzie głupi”. Wzywa do podatków na wojsko i do zemsty na wrogu. Pokazuje obowiązki obywatela wobec państwa."
+          "tekst": "",
+          "punkty": [
+            "Pieśń patriotyczna, napisana po najeździe Tatarów na Podole (1575).",
+            "Poeta krytykuje szlachtę za brak przygotowania do obrony i powtarza przysłowie: „Polak i przed szkodą, i po szkodzie głupi”.",
+            "Wzywa do podatków na wojsko i do zemsty na wrogu.",
+            "Pokazuje obowiązki obywatela wobec państwa."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pieśń XXV (Księgi wtóre) – „Czego chcesz od nas, Panie”",
-          "tekst": "Hymn pochwalny dla Boga – Stwórcy pięknego, uporządkowanego świata. Bóg jest jak architekt i artysta, a natura zachwyca harmonią. Podmiot dziękuje Bogu i prosi o opiekę. To przykład renesansowego, radosnego obrazu Boga."
+          "tekst": "",
+          "punkty": [
+            "Hymn pochwalny dla Boga – Stwórcy pięknego, uporządkowanego świata.",
+            "Bóg jest jak architekt i artysta, a natura zachwyca harmonią.",
+            "**Podmiot** dziękuje Bogu i prosi o opiekę.",
+            "To przykład renesansowego, radosnego obrazu Boga."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pieśń XXIV (Księgi wtóre) – „Niezwykłym i nie leda piórem”",
-          "tekst": "Poeta mówi, że po śmierci zamieni się w łabędzia i będzie żył w swojej poezji. Nawiązuje do Horacego i motywu **exegi monumentum** – nieśmiertelności poety."
+          "tekst": "",
+          "punkty": [
+            "Poeta mówi, że po śmierci zamieni się w łabędzia i będzie żył w swojej poezji.",
+            "Nawiązuje do Horacego i motywu **exegi monumentum** – nieśmiertelności poety."
+          ]
         }
       ]
     },
@@ -106,27 +128,43 @@
         {
           "typ": "punkt",
           "etykieta": "Filozofia życia",
-          "tekst": "Szczęście daje cnota, umiar i spokój ducha; trzeba być „statecznym” w każdej sytuacji."
+          "tekst": "",
+          "punkty": [
+            "Szczęście daje cnota, umiar i spokój ducha; trzeba być „statecznym” w każdej sytuacji."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Los i Fortuna",
-          "tekst": "Świat jest zmienny, a człowiek nie zna przyszłości."
+          "tekst": "",
+          "punkty": [
+            "Świat jest zmienny, a człowiek nie zna przyszłości."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Bóg i natura",
-          "tekst": "Bóg to dobry Stwórca harmonijnego świata. Przyroda jest piękna i uporządkowana."
+          "tekst": "",
+          "punkty": [
+            "Bóg to dobry Stwórca harmonijnego świata.",
+            "Przyroda jest piękna i uporządkowana."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Patriotyzm",
-          "tekst": "Dobro ojczyzny wymaga poświęcenia i rozsądku obywateli."
+          "tekst": "",
+          "punkty": [
+            "Dobro ojczyzny wymaga poświęcenia i rozsądku obywateli."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Sława poety",
-          "tekst": "Poezja daje nieśmiertelność."
+          "tekst": "",
+          "punkty": [
+            "Poezja daje nieśmiertelność."
+          ]
         }
       ]
     },

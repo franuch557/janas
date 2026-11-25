@@ -116,22 +116,34 @@
         {
           "typ": "punkt",
           "etykieta": "Poeta wobec historii",
-          "tekst": "Poezja ma obowiązek mówić prawdę i ocalać pamięć."
+          "tekst": "",
+          "punkty": [
+            "Poezja ma obowiązek mówić prawdę i ocalać pamięć."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Obojętność wobec zła",
-          "tekst": "Świat żyje normalnie, gdy obok giną ludzie („Campo di Fiori”)."
+          "tekst": "",
+          "punkty": [
+            "Świat żyje normalnie, gdy obok giną ludzie („Campo di Fiori”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Koniec świata",
-          "tekst": "Koniec świata przychodzi niezauważony, w zwykły dzień."
+          "tekst": "",
+          "punkty": [
+            "Koniec świata przychodzi niezauważony, w zwykły dzień."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wdzięczność i harmonia",
-          "tekst": "Pogodzenie ze światem i radość istnienia („Dar”)."
+          "tekst": "",
+          "punkty": [
+            "Pogodzenie ze światem i radość istnienia („Dar”)."
+          ]
         }
       ]
     },

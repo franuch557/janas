@@ -14,16 +14,25 @@ Uczony Mistrz Polikarp prosi Boga, by pozwolił mu zobaczyć Śmierć. Gdy jego 
 
 ## Streszczenie szczegółowe
 ### Prośba Polikarpa
-Mistrz Polikarp, mądry człowiek, prosi Boga, by mógł ujrzeć śmierć w jej prawdziwej postaci. Pewnego dnia, gdy jest sam w kościele, prośba się spełnia.
+> Mędrzec Polikarp prosi Boga, by mógł zobaczyć Śmierć.
+- **Mistrz Polikarp**, mądry człowiek, prosi Boga, by mógł ujrzeć śmierć w jej prawdziwej postaci.
+- Pewnego dnia, gdy jest sam w kościele, prośba się spełnia.
 
 ### Wygląd Śmierci
-Śmierć to odrażająca, wychudzona, naga kobieta – blada, żółta, okaleczona, z kosą w ręku. Na ten widok Polikarp pada bez czucia.
+> Śmierć ukazuje się jako odrażająca, wychudzona kobieta z kosą.
+- **Śmierć** to odrażająca, wychudzona, naga kobieta – blada, żółta, okaleczona, z kosą w ręku.
+- Na ten widok **Polikarp** pada bez czucia.
 
 ### Przechwałki Śmierci
-Gdy Polikarp się ocknął, Śmierć mówi mu, że wszystkich zabiera: papieża, cesarza, króla, rycerza, mnicha, mieszczanina i chłopa. Ma władzę nad całym światem. Nie da się jej przekupić ani przed nią uciec.
+> Śmierć mówi, że nikt przed nią nie ucieknie, bez względu na stan i majątek.
+- Gdy **Polikarp** się ocknął, **Śmierć** mówi mu, że wszystkich zabiera: papieża, cesarza, króla, rycerza, mnicha, mieszczanina i chłopa.
+- Ma władzę nad całym światem.
+- Nie da się jej przekupić ani przed nią uciec.
 
 ### Grzesznicy
-Śmierć wylicza grzeszników, którzy pójdą do piekła: nieuczciwych kupców, sędziów biorących łapówki, chciwych, nierządnych mnichów, lichwiarzy. Tekst kończy się w połowie, bo zachował się niepełny.
+> Śmierć wylicza grzeszników z różnych stanów, których czeka kara.
+- **Śmierć** wylicza grzeszników, którzy pójdą do piekła: nieuczciwych kupców, sędziów biorących łapówki, chciwych, nierządnych mnichów, lichwiarzy.
+- Tekst kończy się w połowie, bo zachował się niepełny.
 
 ## Bohaterowie
 - **Mistrz Polikarp** – uczony, ciekawy świata, ale słaby wobec grozy śmierci.
@@ -37,16 +46,16 @@ Utwór powstał w XV wieku jako tłumaczenie i przeróbka łacińskiego dialogu.
 
 ## Problematyka
 ### Danse macabre – taniec śmierci
-Śmierć zabiera wszystkich bez wyjątku, bez względu na stan i bogactwo – to motyw tańca śmierci.
+- Śmierć zabiera wszystkich bez wyjątku, bez względu na stan i bogactwo – to motyw tańca śmierci.
 
 ### Równość wobec śmierci
-Wobec śmierci wszyscy są równi – papież i chłop.
+- Wobec śmierci wszyscy są równi – papież i chłop.
 
 ### Satyra społeczna
-Utwór wyśmiewa wady różnych stanów: chciwość, przekupstwo, obłudę.
+- Utwór wyśmiewa wady różnych stanów: chciwość, przekupstwo, obłudę.
 
 ### Memento mori
-„Pamiętaj o śmierci” – trzeba żyć pobożnie, bo śmierć może przyjść w każdej chwili.
+- „Pamiętaj o śmierci” – trzeba żyć pobożnie, bo śmierć może przyjść w każdej chwili.
 
 ## Znaczenie tytułu
 Tytuł wskazuje formę utworu (rozmowa, dialog) i jego bohaterów.

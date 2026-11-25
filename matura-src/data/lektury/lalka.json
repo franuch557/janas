@@ -47,8 +47,24 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Warszawa, lata 1878–1879. Stanisław Wokulski, bogaty kupiec, który doszedł do majątku ciężką pracą, zakochuje się w arystokratce Izabeli Łęckiej. Żeby się do niej zbliżyć, robi interesy z arystokracją, pomaga jej zrujnowanemu ojcu i stara się wejść do „wielkiego świata”. Izabela traktuje go chłodno i z pogardą dla „kupca”. Gdy Wokulski przekonuje się, że jest dla niej tylko narzędziem, jego życie się rozpada. Równolegle stary subiekt Ignacy Rzecki pisze pamiętnik, w którym wspomina młodość i komentuje to, co dzieje się z Wokulskim."
+          "typ": "punkt",
+          "etykieta": "O czym",
+          "tekst": "bogaty kupiec Stanisław Wokulski zakochuje się w arystokratce Izabeli Łęckiej i robi wszystko, by ją zdobyć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Drugi wątek",
+          "tekst": "stary subiekt Ignacy Rzecki pisze pamiętnik, w którym wspomina młodość i komentuje losy Wokulskiego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jak się kończy",
+          "tekst": "Wokulski odkrywa, że Izabela nim gardzi, próbuje się zabić, w końcu znika. Rzecki umiera, a Izabela wstępuje do klasztoru."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Najważniejsza myśl",
+          "tekst": "ani romantyczne ideały, ani pozytywistyczna praca nie naprawiają chorego społeczeństwa."
         }
       ]
     },
@@ -59,121 +75,109 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Rzecki prowadzi sklep galanteryjny Wokulskiego na Krakowskim Przedmieściu."
+          "tekst": "Rozmowa w jadłodajni o Wokulskim, który wrócił z wojny bogaty."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Wokulski wraca z wojny rosyjsko-tureckiej z wielkim majątkiem."
+          "tekst": "Wokulski wraca i rozmawia z Rzeckim; zaczyna starania o Izabelę."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Pamiętnik Rzeckiego: młodość, Napoleon, Wiosna Ludów na Węgrzech."
+          "tekst": "Izabela przychodzi do sklepu i traktuje Wokulskiego z góry."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Przeszłość Wokulskiego: winiarnia Hopfera, nauka, powstanie styczniowe, Syberia, małżeństwo z Minclową."
+          "tekst": "Wokulski pomaga biednym z Powiśla i Mariannie."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Sytuacja Łęckich: długi, licytacja kamienicy, Izabela gardzi kupcami."
+          "tekst": "Wokulski poznaje prezesową Zasławską i Ochockiego."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Wokulski skupuje weksle Łęckiego i po cichu mu pomaga."
+          "tekst": "Zakup klaczy i pojedynek z baronem Krzeszowskim."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Wędrówka po Powiślu – Wokulski widzi nędzę i pomaga Wysockiemu oraz Mariannie."
+          "tekst": "Obiad u Łęckich; Wokulski kupuje ich kamienicę przez pośrednika."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Wokulski kupuje klacz od barona Krzeszowskiego, klacz wygrywa wyścig."
+          "tekst": "Wokulski i Rzecki poznają Helenę Stawską."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Pojedynek z baronem Krzeszowskim."
+          "tekst": "Izabela odkrywa, kto kupił kamienicę; flirtuje ze Starskim."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Powstaje spółka do handlu ze Wschodem z udziałem arystokracji."
+          "tekst": "Wyjazd do Paryża, interesy z Suzinem, spotkanie z profesorem Geistem."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Licytacja: Wokulski przez pośrednika kupuje kamienicę Łęckich."
+          "tekst": "Pobyt w Zasławku – zbliżenie z Izabelą."
         },
         {
           "typ": "punkt",
           "nr": 12,
           "etykieta": "",
-          "tekst": "Podróż do Paryża, spotkanie z profesorem Geistem i jego wynalazkiem."
+          "tekst": "Proces o lalkę: Stawska oczyszczona z zarzutu kradzieży."
         },
         {
           "typ": "punkt",
           "nr": 13,
           "etykieta": "",
-          "tekst": "Pobyt w Zasławku u prezesowej, zbliżenie z Izabelą."
+          "tekst": "Oświadczyny Wokulskiego; śmierć Zasławskiej."
         },
         {
           "typ": "punkt",
           "nr": 14,
           "etykieta": "",
-          "tekst": "Proces o lalkę: baronowa Krzeszowska oskarża Helenę Stawską o kradzież."
+          "tekst": "Podróż do Krakowa: Wokulski odkrywa romans Izabeli ze Starskim."
         },
         {
           "typ": "punkt",
           "nr": 15,
           "etykieta": "",
-          "tekst": "Wokulski sprzedaje sklep Szlangbaumowi."
+          "tekst": "Próba samobójcza na torach – ratuje go Wysocki."
         },
         {
           "typ": "punkt",
           "nr": 16,
           "etykieta": "",
-          "tekst": "Zaręczyny Wokulskiego z Izabelą."
+          "tekst": "Wokulski sprzedaje sklep i wyjeżdża."
         },
         {
           "typ": "punkt",
           "nr": 17,
           "etykieta": "",
-          "tekst": "Podróż pociągiem: Izabela flirtuje ze Starskim, Wokulski wysiada w Skierniewicach."
+          "tekst": "Otwarcie testamentu, niejasne wieści o Wokulskim."
         },
         {
           "typ": "punkt",
           "nr": 18,
           "etykieta": "",
-          "tekst": "Próba samobójcza na torach – ratuje go Wysocki."
-        },
-        {
-          "typ": "punkt",
-          "nr": 19,
-          "etykieta": "",
-          "tekst": "Załamanie Wokulskiego, jego wyjazd i zniknięcie."
-        },
-        {
-          "typ": "punkt",
-          "nr": 20,
-          "etykieta": "",
-          "tekst": "Ostatnie zapiski i śmierć Rzeckiego; niejasny los Wokulskiego."
+          "tekst": "Izabela wstępuje do zakonu; Rzecki umiera."
         }
       ]
     },
@@ -182,73 +186,103 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Tom I – sklep i stary subiekt",
-          "tekst": "Akcja zaczyna się w 1878 roku w Warszawie. Ignacy Rzecki, wierny subiekt, od lat prowadzi sklep galanteryjny „J. Mincel i S. Wokulski”. Jest pedantyczny, żyje według stałych przyzwyczajeń, wierzy w Napoleonów i w to, że polityka zmierza ku sprawiedliwości. Miasto plotkuje o Wokulskim, który wyjechał na wojnę i wrócił bardzo bogaty."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Tom I – pamiętnik starego subiekta",
-          "tekst": "Rzecki zaczyna pisać pamiętnik. Wspomina dzieciństwo, ojca – zapalonego bonapartystę – i sklep Minclów, w którym się uczył. Opisuje, jak w 1848 roku wyjechał na Węgry i walczył w Wiośnie Ludów. Pamiętnik pokazuje świat dawnych ideałów i romantycznych nadziei."
-        },
-        {
-          "typ": "punkt",
           "etykieta": "Tom I – kim jest Wokulski",
-          "tekst": "Wokulski był kiedyś ubogim subiektem w winiarni Hopfera. Uczył się nocami, wyśmiewany przez gości, potem wstąpił do Szkoły Przygotowawczej. Wziął udział w powstaniu styczniowym i został zesłany na Syberię. Po powrocie, by wyrwać się z biedy, ożenił się ze starszą od siebie wdową Małgorzatą Minclową. Po jej śmierci odziedziczył sklep. Majątek pomnożył jako dostawca dla armii rosyjskiej w czasie wojny z Turcją."
+          "tekst": "",
+          "sedno": "Plotki w jadłodajni i pamiętnik Rzeckiego przedstawiają Wokulskiego – człowieka, który doszedł do majątku sam.",
+          "punkty": [
+            "Jest rok **1878**, Warszawa. Kupcy plotkują, że sklep **„J. Mincel i S. Wokulski”** upadnie.",
+            "**Wokulski** był ubogim subiektem w winiarni **Hopfera**, uczył się nocami, wziął udział w **powstaniu styczniowym** i trafił na **Syberię**.",
+            "Ożenił się ze starszą wdową **Małgorzatą Minclową** i po jej śmierci odziedziczył sklep.",
+            "Majątek pomnożył jako dostawca dla wojska w **wojnie rosyjsko-tureckiej**.",
+            "**Ignacy Rzecki**, wierny subiekt, prowadzi sklep i zaczyna pisać **pamiętnik** – wspomina ojca-bonapartystę i walkę na Węgrzech w **1848** roku."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom I – Łęccy i Izabela",
-          "tekst": "Tomasz Łęcki to zubożały arystokrata, który żyje ponad stan i tonie w długach. Jego kamienica ma pójść na licytację. Córka, Izabela, jest piękna, wychowana w salonach, przekonana, że świat dzieli się na ludzi „z towarzystwa” i resztę. Pracę i handel uważa za coś niskiego. Wokulski zakochał się w niej, gdy zobaczył ją w teatrze, i od tej pory wszystko, co robi, robi z myślą o niej."
+          "etykieta": "Tom I – Izabela i Łęccy",
+          "tekst": "",
+          "sedno": "Wokulski zakochał się w Izabeli i wszystko, co robi, robi z myślą o niej.",
+          "punkty": [
+            "**Tomasz Łęcki** to zrujnowany arystokrata, jego kamienica ma pójść na licytację.",
+            "**Izabela** jest piękna, chłodna i wychowana w salonach. Pracą i kupcami gardzi.",
+            "Wokulski po cichu skupuje weksle Łęckiego i pomaga mu tak, by ten o niczym nie wiedział.",
+            "Izabela przychodzi do sklepu i odnosi się do Wokulskiego z wyższością."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom I – pomoc w ukryciu",
-          "tekst": "Wokulski skupuje weksle Łęckiego, odkupuje jego srebrny serwis i pomaga mu tak, by ten o niczym nie wiedział. Izabela przychodzi do sklepu i odnosi się do Wokulskiego z wyższością. Wokulski coraz bardziej żyje swoją miłością, choć rozsądek mówi mu, że to obsesja."
+          "etykieta": "Tom I – Powiśle, wyścigi, pojedynek",
+          "tekst": "",
+          "sedno": "Wokulski pomaga biednym i wchodzi do „wielkiego świata”, by być bliżej Izabeli.",
+          "punkty": [
+            "Na **Powiślu** widzi nędzę. Pomaga furmanowi **Wysockiemu**, a jego bratu załatwia posadę dróżnika w **Skierniewicach**.",
+            "Ratuje **Mariannę** przed prostytucją – umieszcza ją u zakonnic. Później Marianna wychodzi za **Węgiełka**.",
+            "Bierze udział w kweście i poznaje **prezesową Zasławską** oraz wynalazcę **Ochockiego**.",
+            "Kupuje klacz od **barona Krzeszowskiego**; klacz wygrywa wyścig.",
+            "Baron obraża Izabelę – Wokulski wyzywa go na **pojedynek** i rani go."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom I – Powiśle",
-          "tekst": "Podczas samotnej wędrówki po Powiślu Wokulski widzi nędzę mieszkańców biednych dzielnic. Rozmyśla o tym, że mógłby zmienić los tych ludzi. Pomaga furmanowi Wysockiemu, daje mu pracę, a jego bratu załatwia posadę dróżnika w Skierniewicach. Pomaga też Mariannie, młodej kobiecie zmuszonej do prostytucji: umieszcza ją u zakonnic, gdzie uczy się szycia. Później Marianna wychodzi za Węgiełka, młodego rzemieślnika, któremu Wokulski także pomógł."
+          "etykieta": "Tom I – kamienica i Stawska",
+          "tekst": "",
+          "sedno": "Wokulski kupuje kamienicę Łęckich, a Izabela coraz wyraźniej nim gardzi.",
+          "punkty": [
+            "Wokulski dostaje zaproszenie na obiad do Łęckich.",
+            "Przez podstawionego pośrednika kupuje ich **kamienicę** za wysoką cenę.",
+            "Razem z Rzeckim poznaje **Helenę Stawską**, uczciwą kobietę samotnie wychowującą córkę.",
+            "Izabela dowiaduje się, kto kupił kamienicę. Flirtuje ze swoim kuzynem **Starskim**."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom I – wyścigi i pojedynek",
-          "tekst": "Aby zbliżyć się do Izabeli i jej środowiska, Wokulski kupuje klacz od barona Krzeszowskiego. Klacz wygrywa wyścig, a o Wokulskim zaczyna się mówić w salonach. Baron obraża Izabelę, więc Wokulski wyzywa go na pojedynek i rani go. Baron przeprasza Izabelę, a Wokulski zyskuje opinię człowieka honoru."
+          "etykieta": "Tom II – Paryż i Zasławek",
+          "tekst": "",
+          "sedno": "W Paryżu Wokulski widzi szansę w nauce, ale wraca dla Izabeli.",
+          "punkty": [
+            "Jedzie do **Paryża** w interesach z rosyjskim kupcem **Suzinem**.",
+            "Poznaje **profesora Geista**, który pracuje nad metalem lżejszym od powietrza.",
+            "Waha się, czy nie zostać i nie poświęcić się nauce, ale wraca do Warszawy.",
+            "W **Zasławku**, majątku prezesowej, zbliża się do Izabeli."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom I – spółka i licytacja kamienicy",
-          "tekst": "Wokulski zakłada spółkę do handlu ze Wschodem, do której przystępuje także arystokracja – dzięki temu bywa w domu Łęckich. Na licytacji kamienicy przez podstawionego pośrednika kupuje ją za wysoką cenę, żeby Łęckiemu zostało więcej pieniędzy. Rzecki z niepokojem obserwuje, jak jego przyjaciel się zmienia."
+          "etykieta": "Tom II – proces o lalkę i zaręczyny",
+          "tekst": "",
+          "sedno": "Wątek tytułowej lalki kończy się uniewinnieniem Stawskiej, a Wokulski się oświadcza.",
+          "punkty": [
+            "**Baronowa Krzeszowska** oskarża Stawską o kradzież lalki.",
+            "W sądzie okazuje się, że lalkę kupiono w sklepie Wokulskiego – Stawska zostaje **uniewinniona**.",
+            "Krzeszowska musi ją przeprosić.",
+            "Wokulski **oświadcza się** Izabeli i zostaje przyjęty.",
+            "Umiera **prezesowa Zasławska**."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom II – Paryż i profesor Geist",
-          "tekst": "Wokulski jedzie do Paryża w interesach z rosyjskim przyjacielem Suzinem. Poznaje tam profesora Geista, uczonego, który pracuje nad metalem lżejszym od powietrza. Wokulski waha się, czy nie zostać w Paryżu i nie poświęcić się nauce, ale wraca do Warszawy z powodu Izabeli."
+          "etykieta": "Tom II – katastrofa",
+          "tekst": "",
+          "sedno": "Wokulski odkrywa prawdę o Izabeli i jego życie się rozpada.",
+          "punkty": [
+            "W pociągu do **Krakowa** Izabela flirtuje ze **Starskim** po angielsku, myśląc, że Wokulski nie rozumie. On rozumie.",
+            "Wokulski wysiada w Skierniewicach i kładzie się na torach. Ratuje go **Wysocki**, dróżnik.",
+            "Wraca do Warszawy. Pani **Wąsowska** próbuje go pogodzić z Izabelą – bez skutku.",
+            "Sprzedaje sklep **Szlangbaumowi** i wyjeżdża."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Tom II – Zasławek",
-          "tekst": "Wokulski spędza czas w majątku prezesowej Zasławskiej, gdzie jest też Izabela. Spacery, rozmowy i wspólny wypad w ruiny zamku zbliżają ich do siebie. Pojawia się kuzyn Izabeli, Kazimierz Starski, lekkoduch i flirciarz, z którym Izabela chętnie się zabawia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Tom II – proces o lalkę",
-          "tekst": "Baronowa Krzeszowska oskarża Helenę Stawską, uczciwą kobietę samotnie wychowującą córkę, o kradzież lalki. W sądzie okazuje się, że lalka, którą ma córka Stawskiej, została kupiona w sklepie Wokulskiego, i Stawska zostaje uniewinniona. Rzecki marzy, by Wokulski ożenił się ze Stawską, sam jednak też się w niej podkochuje."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Tom II – sprzedaż sklepu i zaręczyny",
-          "tekst": "Wokulski sprzedaje sklep Henrykowi Szlangbaumowi. Rzecki z goryczą patrzy, jak dawny świat się kończy. Izabela, której rodzina jest w coraz gorszej sytuacji, przyjmuje oświadczyny Wokulskiego."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Tom II – scena w pociągu",
-          "tekst": "Wokulski, Izabela, jej ojciec i Starski jadą razem pociągiem do Krakowa. Izabela i Starski rozmawiają po angielsku, przekonani, że Wokulski ich nie rozumie. Wokulski jednak nauczył się angielskiego i słyszy, jak drwią z niego i jak Izabela z kuzynem flirtuje. Wysiada w Skierniewicach i kładzie się na torach. Ratuje go dróżnik Wysocki, brat furmana, któremu kiedyś pomógł."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Tom II – koniec",
-          "tekst": "Wokulski jest załamany, wycofuje się z interesów i wyjeżdża. Maruszewicz próbuje go oszukać, a Rzecki coraz bardziej podupada na zdrowiu i umiera, nie wiedząc, co stało się z przyjacielem. Z relacji innych wynika, że Wokulski mógł zginąć w ruinach zamku w Zasławku, wysadzonych dynamitem. Izabela postanawia wstąpić do klasztoru. Zakończenie jest otwarte."
+          "etykieta": "Tom II – zakończenie",
+          "tekst": "",
+          "sedno": "Losy bohaterów zostają niedopowiedziane, a świat Rzeckiego się kończy.",
+          "punkty": [
+            "Otwarto **testament** Wokulskiego – rozdziela majątek między bliskich.",
+            "Węgiełek przynosi wieści, że Wokulski był widziany w ruinach zamku w Zasławku, gdzie nastąpił wybuch.",
+            "Nie wiadomo, czy Wokulski zginął.",
+            "**Izabela** wstępuje do klasztoru.",
+            "**Rzecki** choruje, załamuje się i umiera."
+          ]
         }
       ]
     },
@@ -258,62 +292,52 @@
         {
           "typ": "punkt",
           "etykieta": "Stanisław Wokulski",
-          "tekst": "kupiec, ok. 45 lat. Ambitny, pracowity, zdolny, wrażliwy na krzywdę. Łączy w sobie romantyka (miłość idealna, powstanie, marzenia) i pozytywistę (praca, nauka, majątek, pomoc biednym). Jego słabością jest obsesyjna miłość do Izabeli."
+          "tekst": "Kupiec, ok. 45 lat. Ambitny, pracowity, wrażliwy na krzywdę. Łączy romantyka (idealna miłość, powstanie) z pozytywistą (praca, nauka, pomoc biednym). Słabość: obsesyjna miłość."
         },
         {
           "typ": "punkt",
           "etykieta": "Izabela Łęcka",
-          "tekst": "arystokratka, piękna i chłodna. Żyje w świecie salonów, uważa się za kogoś lepszego, gardzi pracą i kupcami. Nie rozumie uczuć Wokulskiego. To tytułowa „lalka” – piękna, ale pusta."
+          "tekst": "Arystokratka, piękna i chłodna. Gardzi pracą, nie rozumie uczuć Wokulskiego. Tytułowa „lalka” – piękna, ale pusta."
         },
         {
           "typ": "punkt",
           "etykieta": "Ignacy Rzecki",
-          "tekst": "stary subiekt, narrator pamiętnika. Wierny, uczciwy, pedantyczny, sentymentalny. Romantyk i bonapartysta, który wierzy w lepszy świat i w Wokulskiego."
+          "tekst": "Stary subiekt, autor pamiętnika. Wierny, uczciwy, pedantyczny. Romantyk i bonapartysta."
         },
         {
           "typ": "punkt",
           "etykieta": "Tomasz Łęcki",
-          "tekst": "ojciec Izabeli, zrujnowany arystokrata. Próżny, niezaradny, żyje ponad stan."
+          "tekst": "Ojciec Izabeli, zrujnowany, próżny arystokrata."
         },
         {
           "typ": "punkt",
           "etykieta": "Julian Ochocki",
-          "tekst": "kuzyn Izabeli, młody wynalazca, marzy o maszynach latających. Pokazuje drogę naukowca."
+          "tekst": "Młody wynalazca, marzy o maszynach latających."
         },
         {
           "typ": "punkt",
           "etykieta": "Kazimierz Starski",
-          "tekst": "kuzyn Izabeli, próżniak i uwodziciel. Uosabia zepsucie arystokracji."
+          "tekst": "Kuzyn Izabeli, próżniak i uwodziciel."
         },
         {
           "typ": "punkt",
           "etykieta": "Helena Stawska",
-          "tekst": "uboga, uczciwa kobieta, wychowuje córkę. Ofiara intrygi baronowej Krzeszowskiej."
+          "tekst": "Uboga, uczciwa kobieta, ofiara intrygi baronowej."
         },
         {
           "typ": "punkt",
-          "etykieta": "Baronowa Krzeszowska",
-          "tekst": "histeryczna, mściwa, przegrywa proces o lalkę."
+          "etykieta": "Prezesowa Zasławska",
+          "tekst": "Mądra arystokratka, życzliwa Wokulskiemu."
         },
         {
           "typ": "punkt",
           "etykieta": "Doktor Szuman",
-          "tekst": "lekarz, Żyd, trzeźwy i ironiczny komentator wydarzeń."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wysocki",
-          "tekst": "furman z Powiśla, któremu Wokulski pomaga; jego brat, dróżnik, ratuje Wokulskiemu życie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Marianna",
-          "tekst": "młoda kobieta, którą Wokulski wyrywa z prostytucji."
+          "tekst": "Lekarz, trzeźwy i ironiczny komentator."
         },
         {
           "typ": "punkt",
           "etykieta": "Suzin i profesor Geist",
-          "tekst": "rosyjski przyjaciel-kupiec oraz paryski uczony-wynalazca."
+          "tekst": "Rosyjski kupiec-przyjaciel oraz paryski uczony."
         }
       ]
     },
@@ -321,8 +345,14 @@
       "tytul": "Czas i miejsce akcji",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Główna akcja toczy się od wiosny 1878 do jesieni 1879 roku. Najważniejsze miejsce to Warszawa: Krakowskie Przedmieście (sklep), salony arystokracji, kamienica Łęckich, Powiśle. Część akcji dzieje się w Paryżu, w Zasławku (majątek prezesowej) i w Skierniewicach. Pamiętnik Rzeckiego cofa się do lat 1837–1878, m.in. do Wiosny Ludów na Węgrzech."
+          "typ": "punkt",
+          "etykieta": "Czas",
+          "tekst": "lata 1878–1879; pamiętnik Rzeckiego cofa się do lat 1837–1878."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miejsce",
+          "tekst": "Warszawa (sklep, salony, kamienica Łęckich, Powiśle), Paryż, Zasławek, Skierniewice, Kraków."
         }
       ]
     },
@@ -330,8 +360,24 @@
       "tytul": "Geneza i gatunek",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Prus drukował „Lalkę” w odcinkach w „Kurierze Codziennym” w latach 1887–1889, a w 1890 roku ukazała się w książce. Chciał pokazać społeczeństwo polskie po powstaniu styczniowym: upadek arystokracji, słabość mieszczaństwa i nędzę biednych. To **powieść realistyczna**, społeczno-obyczajowa i psychologiczna. Ma dwie narracje: trzecioosobowego, wszechwiedzącego narratora i pierwszoosobowy „Pamiętnik starego subiekta”. Prus nazywał ją powieścią o „trzech pokoleniach idealistów”."
+          "typ": "punkt",
+          "etykieta": "Powstanie",
+          "tekst": "Prus drukował powieść w „Kurierze Codziennym” w latach 1887–1889, w książce wydana w 1890 roku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zamiar",
+          "tekst": "pokazać polskie społeczeństwo po powstaniu styczniowym."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gatunek",
+          "tekst": "powieść realistyczna, społeczno-obyczajowa i psychologiczna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Narracja",
+          "tekst": "dwutorowa – trzecioosobowy narrator i pierwszoosobowy „Pamiętnik starego subiekta”."
         }
       ]
     },
@@ -341,27 +387,44 @@
         {
           "typ": "punkt",
           "etykieta": "Miłość",
-          "tekst": "Uczucie Wokulskiego jest romantyczne i obsesyjne. Wokulski kocha wyobrażenie Izabeli, a nie ją samą. Miłość prowadzi go do klęski."
+          "tekst": "",
+          "sedno": "Uczucie Wokulskiego jest romantyczne i obsesyjne – kocha wyobrażenie, a nie prawdziwą Izabelę.",
+          "punkty": [
+            "Miłość pcha go do działania, ale prowadzi do klęski.",
+            "Izabela nie jest w stanie odwzajemnić takiego uczucia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Społeczeństwo",
-          "tekst": "Arystokracja jest zepsuta i bezużyteczna, mieszczaństwo słabe, a lud żyje w nędzy. Społeczeństwo przypomina „organizm chory”, w którym podziały blokują rozwój."
+          "tekst": "",
+          "sedno": "Społeczeństwo to „organizm chory”, w którym podziały blokują rozwój.",
+          "punkty": [
+            "**Arystokracja:** zepsuta, bezużyteczna, żyje ponad stan.",
+            "**Mieszczaństwo:** słabe i zachowawcze.",
+            "**Biedota:** żyje w nędzy, bez szans na awans."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Romantyzm i pozytywizm",
-          "tekst": "Wokulski łączy oba światopoglądy: romantyczne uczucie i bohaterstwo oraz pozytywistyczną pracę, naukę i działalność gospodarczą. Powieść pokazuje, że żaden z tych programów nie wystarcza."
+          "tekst": "",
+          "sedno": "Wokulski łączy oba światopoglądy, a powieść pokazuje, że żaden nie wystarcza.",
+          "punkty": [
+            "Romantyczne: miłość idealna, bohaterstwo, marzenia.",
+            "Pozytywistyczne: praca, nauka, majątek, pomoc biednym."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Trzy pokolenia idealistów",
-          "tekst": "Rzecki wierzy w polityczne ideały, Wokulski w miłość i pracę, a Ochocki w naukę. Każdy z nich jest idealistą rozczarowanym przez rzeczywistość."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Praca i nauka",
-          "tekst": "Praca daje Wokulskiemu majątek i szacunek, ale nie szczęście. Nauka (Geist, Ochocki) jawi się jako szansa na zmianę świata."
+          "tekst": "",
+          "sedno": "Każdy z trzech bohaterów jest idealistą rozczarowanym przez rzeczywistość.",
+          "punkty": [
+            "**Rzecki:** wiara w polityczne ideały i Napoleonów.",
+            "**Wokulski:** wiara w miłość i pracę.",
+            "**Ochocki:** wiara w naukę."
+          ]
         }
       ]
     },
@@ -369,8 +432,14 @@
       "tytul": "Znaczenie tytułu",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "„Lalka” to przede wszystkim Izabela: piękna, wystrojona, bez prawdziwych uczuć, jak zabawka. Tytuł odnosi się też do lalki z procesu Stawskiej oraz do ludzi traktowanych jak marionetki przez społeczne konwenanse. Prus pisał, że tytuł nawiązuje do sprawy sądowej o lalkę."
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Dosłownie: lalka z procesu Stawskiej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przenośnie: Izabela – piękna, ale pusta jak lalka; także ludzie, którymi rządzą konwenanse jak marionetkami."
         }
       ]
     },

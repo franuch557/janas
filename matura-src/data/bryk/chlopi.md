@@ -16,16 +16,40 @@ Powieść opowiada o rocznym życiu wsi Lipce, od jesieni do lata. Rytm życia w
 
 ## Streszczenie szczegółowe
 ### Jesień
-Lipce szykują się do jesiennych prac. Maciej Boryna, ponad pięćdziesięcioletni wdowiec, chce się ożenić z najpiękniejszą dziewczyną we wsi, Jagną Paczesiówną. Daje jej matce, Dominikowej, sześć morgów ziemi. Jego syn Antek, żonaty z Hanką, kocha Jagnę i jest wściekły, że ojciec zapisuje ziemię komuś spoza rodziny. Dochodzi do kłótni, Boryna wyrzuca syna z domu. Odbywa się huczne wesele Boryny z Jagną.
+> Stary Boryna żeni się z młodą Jagną, co skłóca go z synem Antkiem.
+- Lipce szykują się do jesiennych prac.
+- **Maciej Boryna**, ponad pięćdziesięcioletni wdowiec, chce się ożenić z najpiękniejszą dziewczyną we wsi, **Jagną** Paczesiówną.
+- Zapisuje **Jagnie** sześć morgów ziemi, czego chce jej matka, **Dominikowa**.
+- Jego syn **Antek**, żonaty z **Hanką**, kocha **Jagnę** i jest wściekły, że ojciec zapisuje ziemię komuś spoza rodziny.
+- Dochodzi do kłótni, **Boryna** wyrzuca syna z domu.
+- Odbywa się huczne wesele **Boryny** z **Jagną**.
 
 ### Zima
-Antek z Hanką i dziećmi mieszka w nędzy u krewnych. Antek i Jagna spotykają się potajemnie. Boryna dowiaduje się o romansie. Ojciec i syn stają się wrogami, a cała wieś plotkuje o Jagnie. Dziedzic wycina las, do którego chłopi mają prawo. Chłopi idą na bitwę o las. Boryna zostaje ciężko ranny, a Antek ratuje ojca, zabijając borowego, który go uderzył.
+> Romans Antka z Jagną i bitwa o las kończą się nieszczęściem Boryny.
+- **Antek** z **Hanką** i dziećmi mieszka w nędzy u krewnych.
+- **Antek** i **Jagna** spotykają się potajemnie.
+- **Boryna** dowiaduje się o romansie.
+- Ojciec i syn stają się wrogami, a cała wieś plotkuje o **Jagnie**.
+- Dziedzic wycina las, do którego chłopi mają prawo.
+- Chłopi idą na bitwę o las.
+- **Boryna** zostaje ciężko ranny, a **Antek** ratuje ojca, zabijając borowego, który go uderzył.
 
 ### Wiosna
-Mężczyźni trafiają do więzienia. W Lipcach zostają kobiety, starcy i dzieci – same muszą pracować w polu. Hanka wraca do gospodarstwa Boryny i z poświęceniem nim kieruje. Boryna leży nieprzytomny. Jagna ma romans z wójtem i z organistą, młodym Jasiem, który ma zostać księdzem. W pewną noc Boryna wstaje, wychodzi w pole i rzuca ziemię jak ziarno, jakby siał. Umiera na swojej ziemi.
+> Bez mężczyzn wieś walczy o przetrwanie, a Boryna umiera na swojej ziemi.
+- Mężczyźni trafiają do więzienia.
+- W Lipcach zostają kobiety, starcy i dzieci – same muszą pracować w polu.
+- **Hanka** wraca do gospodarstwa **Boryny** i z poświęceniem nim kieruje.
+- **Boryna** leży nieprzytomny.
+- **Jagna** ma romans z wójtem, a potem zaleca się do Jasia, syna organisty, który ma zostać księdzem.
+- W pewną noc **Boryna** wstaje, wychodzi w pole i rzuca ziemię jak ziarno, jakby siał.
+- Umiera na swojej ziemi.
 
 ### Lato
-Chłopi wracają z więzienia, ale Antek zostaje dłużej. Wieś obwinia Jagnę za grzechy i zgorszenie. Prowadzeni przez wójtową i innych gospodarzy, mieszkańcy wywożą Jagnę na wozie z gnojem i wyrzucają za wieś. Antek wraca i przejmuje gospodarstwo.
+> Wieś wymierza Jagnie surową karę, a życie toczy się dalej.
+- Chłopi wracają z więzienia, ale **Antek** zostaje dłużej.
+- Wieś obwinia **Jagnę** za grzechy i zgorszenie.
+- Mieszkańcy wywożą **Jagnę** na wozie z gnojem i wyrzucają za wieś.
+- **Antek** wraca i przejmuje gospodarstwo.
 
 ## Bohaterowie
 - **Maciej Boryna** – najbogatszy gospodarz, stanowczy, przywiązany do ziemi. Szanowany we wsi, ale uparty i porywczy.
@@ -44,16 +68,17 @@ Władysław Reymont wydał „Chłopów” w latach 1904–1909. W 1924 roku dos
 
 ## Problematyka
 ### Ziemia
-Ziemia jest dla chłopa najwyższą wartością, decyduje o pozycji i godności.
+- Ziemia jest dla chłopa najwyższą wartością, decyduje o pozycji i godności.
 
 ### Wspólnota wiejska
-Wieś ma własne prawa i hierarchię. Kto je łamie, zostaje ukarany.
+- Wieś ma własne prawa i hierarchię.
+- Kto je łamie, zostaje ukarany.
 
 ### Rytm natury i obrzędów
-Życie toczy się zgodnie z porami roku i świętami.
+- Życie toczy się zgodnie z porami roku i świętami.
 
 ### Miłość i pożądanie
-Uczucia ścierają się z interesem i zasadami wspólnoty.
+- Uczucia ścierają się z interesem i zasadami wspólnoty.
 
 ## Znaczenie tytułu
 Tytuł mówi, że bohaterem powieści jest zbiorowość – chłopi.

@@ -43,22 +43,39 @@
         {
           "typ": "punkt",
           "etykieta": "Pierwsza część – zwrot do miłości ojczyzny",
-          "tekst": "Podmiot zwraca się do „świętej miłości kochanej ojczyzny”. Mówi, że czują ją tylko „umysły poczciwe”, czyli ludzie szlachetni."
+          "tekst": "",
+          "punkty": [
+            "**Podmiot** zwraca się do „świętej miłości kochanej ojczyzny”.",
+            "Mówi, że czują ją tylko „umysły poczciwe”, czyli ludzie szlachetni."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Druga część – poświęcenie",
-          "tekst": "Dla ojczyzny nawet trucizny smakują, więzy i pęta nie hańbią, a kalectwo zamienia się w chwalebne blizny. Gdy ojczyzna potrzebuje, warto znieść wszystko."
+          "tekst": "",
+          "punkty": [
+            "Dla ojczyzny nawet trucizny smakują, więzy i pęta nie hańbią, a kalectwo zamienia się w chwalebne blizny.",
+            "Gdy ojczyzna potrzebuje, warto znieść wszystko."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zakończenie – gotowość do ofiary",
-          "tekst": "Podmiot deklaruje, że byle tylko móc wspierać ojczyznę, nie żal mu żyć w nędzy ani umierać. Służba ojczyźnie nadaje sens nawet cierpieniu i śmierci."
+          "tekst": "",
+          "punkty": [
+            "**Podmiot** deklaruje, że byle tylko móc wspierać ojczyznę, nie żal mu żyć w nędzy ani umierać.",
+            "Służba ojczyźnie nadaje sens nawet cierpieniu i śmierci."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Forma",
-          "tekst": "Wiersz ma tylko 10 wersów, pisany jest trzynastozgłoskowcem. Krasicki stosuje apostrofę („Święta miłości…”), paradoksy (smaczne trucizny, zaszczytne rany) i wykrzyknienia. Ton jest podniosły."
+          "tekst": "",
+          "punkty": [
+            "Wiersz ma tylko 10 wersów, pisany jest trzynastozgłoskowcem.",
+            "Krasicki stosuje apostrofę („Święta miłości…”), paradoksy (smaczne trucizny, zaszczytne rany) i wykrzyknienia.",
+            "Ton jest podniosły."
+          ]
         }
       ]
     },
@@ -101,17 +118,26 @@
         {
           "typ": "punkt",
           "etykieta": "Patriotyzm",
-          "tekst": "Miłość do ojczyzny jest najwyższą wartością."
+          "tekst": "",
+          "punkty": [
+            "Miłość do ojczyzny jest najwyższą wartością."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Poświęcenie",
-          "tekst": "Dla ojczyzny warto znosić cierpienie i oddać życie."
+          "tekst": "",
+          "punkty": [
+            "Dla ojczyzny warto znosić cierpienie i oddać życie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wychowanie obywatela",
-          "tekst": "Utwór miał kształtować postawę obywatelską młodzieży – to typowe dla oświecenia."
+          "tekst": "",
+          "punkty": [
+            "Utwór miał kształtować postawę obywatelską młodzieży – to typowe dla oświecenia."
+          ]
         }
       ]
     },

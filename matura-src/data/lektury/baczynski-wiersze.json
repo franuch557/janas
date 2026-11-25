@@ -104,22 +104,34 @@
         {
           "typ": "punkt",
           "etykieta": "Tragizm pokolenia",
-          "tekst": "Młodzi ludzie muszą zabijać, choć tego nie chcą – wojna niszczy ich człowieczeństwo."
+          "tekst": "",
+          "punkty": [
+            "Młodzi ludzie muszą zabijać, choć tego nie chcą – wojna niszczy ich człowieczeństwo."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Katastrofizm",
-          "tekst": "Przeczucie zagłady i końca świata."
+          "tekst": "",
+          "punkty": [
+            "Przeczucie zagłady i końca świata."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Historia",
-          "tekst": "Historia narzuca ludziom swoje wymagania – nie da się od niej uciec."
+          "tekst": "",
+          "punkty": [
+            "Historia narzuca ludziom swoje wymagania – nie da się od niej uciec."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Miłość i piękno",
-          "tekst": "Obok wojny są miłość, przyroda i sztuka, które dają nadzieję."
+          "tekst": "",
+          "punkty": [
+            "Obok wojny są miłość, przyroda i sztuka, które dają nadzieję."
+          ]
         }
       ]
     },

@@ -138,37 +138,94 @@
         {
           "typ": "punkt",
           "etykieta": "Część I – zbrodnia",
-          "tekst": "Raskolnikow mieszka w ciasnej klitce, przerwał studia z braku pieniędzy. Od dawna rozmyśla o zabiciu chciwej lichwiarki. W karczmie spotyka pijaka Marmieładowa, który opowiada, jak jego córka Sonia musiała zacząć sprzedawać się, by utrzymać rodzinę. List od matki mówi, że siostra Dunia zaręczyła się z wyrachowanym Łużynem, by pomóc bratu. Raskolnikow nie chce tej ofiary. Następnego wieczoru zabija siekierą Alonę Iwanownę, a gdy niespodziewanie wraca jej siostra Lizawieta, zabija i ją. Ucieka cudem niezauważony."
+          "tekst": "",
+          "sedno": "W nędzy i gorączce Raskolnikow zabija lichwiarkę i jej siostrę.",
+          "punkty": [
+            "**Raskolnikow** mieszka w ciasnej klitce, przerwał studia z braku pieniędzy.",
+            "Od dawna rozmyśla o zabiciu chciwej lichwiarki.",
+            "W karczmie spotyka pijaka **Marmieładowa**, który opowiada, jak jego córka **Sonia** musiała zacząć sprzedawać się, by utrzymać rodzinę.",
+            "List od matki mówi, że siostra **Dunia** zaręczyła się z wyrachowanym **Łużynem**, by pomóc bratu.",
+            "**Raskolnikow** nie chce tej ofiary.",
+            "Następnego wieczoru zabija siekierą **Alonę Iwanownę**, a gdy niespodziewanie wraca jej siostra Lizawieta, zabija i ją.",
+            "Ucieka cudem niezauważony."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część II – po zbrodni",
-          "tekst": "Raskolnikow ukrywa łup pod kamieniem i nawet go nie ogląda. Wpada w gorączkę. Opiekuje się nim przyjaciel Razumichin. Przychodzi Łużyn, a Raskolnikow go obraża. Na ulicy widzi Marmieładowa stratowanego przez konie, zanosi go do domu i oddaje wdowie, Katarzynie Iwanownie, wszystkie pieniądze od matki. Poznaje Sonię."
+          "tekst": "",
+          "sedno": "Raskolnikow ukrywa łup, choruje i poznaje rodzinę Marmieładowów.",
+          "punkty": [
+            "**Raskolnikow** ukrywa łup pod kamieniem i nawet go nie ogląda.",
+            "Wpada w gorączkę.",
+            "Opiekuje się nim przyjaciel **Razumichin**.",
+            "Przychodzi **Łużyn**, a **Raskolnikow** go obraża.",
+            "Na ulicy widzi **Marmieładowa** stratowanego przez konie, zanosi go do domu i oddaje wdowie, **Katarzynie Iwanownie**, wszystkie pieniądze od matki.",
+            "Poznaje **Sonię**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część III – Porfiry",
-          "tekst": "Do Petersburga przyjeżdżają matka i Dunia. Raskolnikow idzie do śledczego Porfirego Pietrowicza. Ten przypomina jego artykuł o ludziach „zwykłych” i „niezwykłych”: ci drudzy, jak Napoleon, mają prawo przekraczać granice dla wielkich celów. Porfiry zaczyna podejrzewać Raskolnikowa."
+          "tekst": "",
+          "sedno": "Śledczy Porfiry zaczyna podejrzewać Raskolnikowa na podstawie jego artykułu.",
+          "punkty": [
+            "Do Petersburga przyjeżdżają matka i **Dunia**.",
+            "**Raskolnikow** idzie do śledczego **Porfirego Pietrowicza**.",
+            "Ten przypomina jego artykuł o ludziach „zwykłych” i „niezwykłych”: ci drudzy, jak Napoleon, mają prawo przekraczać granice dla wielkich celów.",
+            "**Porfiry** zaczyna podejrzewać **Raskolnikowa**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część IV – Sonia",
-          "tekst": "Do miasta przyjeżdża Swidrygajłow, dawny chlebodawca Duni, który chce ją zdobyć. Łużyn zostaje odprawiony przez Dunię. Raskolnikow odwiedza Sonię. Prosi ją, by przeczytała fragment Ewangelii o wskrzeszeniu Łazarza. Druga rozmowa z Porfirym jest grą psychologiczną; przerywa ją malarz Mikołaj, który niespodziewanie przyznaje się do zabójstwa."
+          "tekst": "",
+          "sedno": "Raskolnikow szuka oparcia u Soni, a Porfiry gra z nim w psychologiczną grę.",
+          "punkty": [
+            "Do miasta przyjeżdża **Swidrygajłow**, dawny chlebodawca **Duni**, który chce ją zdobyć.",
+            "**Łużyn** zostaje odprawiony przez **Dunię**.",
+            "**Raskolnikow** odwiedza **Sonię**.",
+            "Prosi ją, by przeczytała fragment Ewangelii o wskrzeszeniu Łazarza.",
+            "Druga rozmowa z **Porfirym** jest grą psychologiczną; przerywa ją malarz Mikołaj, który niespodziewanie przyznaje się do zabójstwa."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część V – wyznanie",
-          "tekst": "Łużyn oskarża Sonię o kradzież, ale jego intryga zostaje zdemaskowana. Raskolnikow wyznaje Soni, że zabił. Mówi, że chciał sprawdzić, czy jest „Napoleonem”, czy „wszą”. Sonia każe mu iść na rozstaje, pocałować ziemię i przyznać się. Katarzyna Iwanowna umiera."
+          "tekst": "",
+          "sedno": "Raskolnikow wyznaje Soni, że zabił, a ona wzywa go do przyznania się.",
+          "punkty": [
+            "**Łużyn** oskarża **Sonię** o kradzież, ale jego intryga zostaje zdemaskowana.",
+            "**Raskolnikow** wyznaje **Soni**, że zabił.",
+            "Mówi, że chciał sprawdzić, czy jest „Napoleonem”, czy „wszą”.",
+            "**Sonia** każe mu iść na rozstaje, pocałować ziemię i przyznać się.",
+            "**Katarzyna Iwanowna** umiera."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część VI – przyznanie się",
-          "tekst": "Porfiry mówi Raskolnikowowi, że wie o jego winie, i radzi, by sam się przyznał, bo dostanie niższy wyrok. Swidrygajłow wabi Dunię do mieszkania, ale ona strzela do niego. Puszcza ją, a następnego dnia się zastrzela. Raskolnikow całuje ziemię na placu i przyznaje się na komisariacie."
+          "tekst": "",
+          "sedno": "Swidrygajłow popełnia samobójstwo, a Raskolnikow przyznaje się do zbrodni.",
+          "punkty": [
+            "**Porfiry** mówi **Raskolnikowowi**, że wie o jego winie, i radzi, by sam się przyznał, bo dostanie niższy wyrok.",
+            "**Swidrygajłow** wabi **Dunię** do mieszkania, ale ona strzela do niego.",
+            "Puszcza ją, a następnego dnia się zastrzela.",
+            "**Raskolnikow** całuje ziemię na placu i przyznaje się na komisariacie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Epilog – Syberia",
-          "tekst": "Raskolnikow dostaje osiem lat katorgi. Sonia jedzie za nim. Na początku jest zamknięty i dumny, potem choruje i ma sen o zarazie, która odbiera ludziom rozum. W końcu rzuca się Soni do nóg – rozumie, że ją kocha. Zaczyna się jego odrodzenie moralne."
+          "tekst": "",
+          "sedno": "Na katordze dzięki miłości Soni zaczyna się moralne odrodzenie Raskolnikowa.",
+          "punkty": [
+            "**Raskolnikow** dostaje osiem lat katorgi.",
+            "**Sonia** jedzie za nim.",
+            "Na początku jest zamknięty i dumny, potem choruje i ma sen o zarazie, która odbiera ludziom rozum.",
+            "W końcu rzuca się **Soni** do nóg – rozumie, że ją kocha.",
+            "Zaczyna się jego odrodzenie moralne."
+          ]
         }
       ]
     },
@@ -246,27 +303,43 @@
         {
           "typ": "punkt",
           "etykieta": "Teoria nadczłowieka",
-          "tekst": "Raskolnikow sądzi, że wybitni ludzie mogą łamać prawo moralne. Zbrodnia pokazuje, że ta teoria jest fałszywa."
+          "tekst": "",
+          "punkty": [
+            "Raskolnikow sądzi, że wybitni ludzie mogą łamać prawo moralne.",
+            "Zbrodnia pokazuje, że ta teoria jest fałszywa."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wina i kara",
-          "tekst": "Prawdziwą karą jest nie więzienie, lecz męka sumienia."
+          "tekst": "",
+          "punkty": [
+            "Prawdziwą karą jest nie więzienie, lecz męka sumienia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Odkupienie",
-          "tekst": "Przez cierpienie, miłość i wiarę człowiek może się odrodzić."
+          "tekst": "",
+          "punkty": [
+            "Przez cierpienie, miłość i wiarę człowiek może się odrodzić."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Nędza",
-          "tekst": "Bieda niszczy ludzi i popycha ich do upadku (Marmieładowowie, Sonia)."
+          "tekst": "",
+          "punkty": [
+            "Bieda niszczy ludzi i popycha ich do upadku (Marmieładowowie, Sonia)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wiara",
-          "tekst": "Sonia reprezentuje chrześcijańską miłość i przebaczenie."
+          "tekst": "",
+          "punkty": [
+            "Sonia reprezentuje chrześcijańską miłość i przebaczenie."
+          ]
         }
       ]
     },

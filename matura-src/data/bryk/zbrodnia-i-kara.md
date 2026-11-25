@@ -22,25 +22,61 @@ Petersburg, lata 60. XIX w. Ubogi były student Rodion Raskolnikow zabija siekie
 
 ## Streszczenie szczegółowe
 ### Część I – zbrodnia
-Raskolnikow mieszka w ciasnej klitce, przerwał studia z braku pieniędzy. Od dawna rozmyśla o zabiciu chciwej lichwiarki. W karczmie spotyka pijaka Marmieładowa, który opowiada, jak jego córka Sonia musiała zacząć sprzedawać się, by utrzymać rodzinę. List od matki mówi, że siostra Dunia zaręczyła się z wyrachowanym Łużynem, by pomóc bratu. Raskolnikow nie chce tej ofiary. Następnego wieczoru zabija siekierą Alonę Iwanownę, a gdy niespodziewanie wraca jej siostra Lizawieta, zabija i ją. Ucieka cudem niezauważony.
+> W nędzy i gorączce Raskolnikow zabija lichwiarkę i jej siostrę.
+- **Raskolnikow** mieszka w ciasnej klitce, przerwał studia z braku pieniędzy.
+- Od dawna rozmyśla o zabiciu chciwej lichwiarki.
+- W karczmie spotyka pijaka **Marmieładowa**, który opowiada, jak jego córka **Sonia** musiała zacząć sprzedawać się, by utrzymać rodzinę.
+- List od matki mówi, że siostra **Dunia** zaręczyła się z wyrachowanym **Łużynem**, by pomóc bratu.
+- **Raskolnikow** nie chce tej ofiary.
+- Następnego wieczoru zabija siekierą **Alonę Iwanownę**, a gdy niespodziewanie wraca jej siostra Lizawieta, zabija i ją.
+- Ucieka cudem niezauważony.
 
 ### Część II – po zbrodni
-Raskolnikow ukrywa łup pod kamieniem i nawet go nie ogląda. Wpada w gorączkę. Opiekuje się nim przyjaciel Razumichin. Przychodzi Łużyn, a Raskolnikow go obraża. Na ulicy widzi Marmieładowa stratowanego przez konie, zanosi go do domu i oddaje wdowie, Katarzynie Iwanownie, wszystkie pieniądze od matki. Poznaje Sonię.
+> Raskolnikow ukrywa łup, choruje i poznaje rodzinę Marmieładowów.
+- **Raskolnikow** ukrywa łup pod kamieniem i nawet go nie ogląda.
+- Wpada w gorączkę.
+- Opiekuje się nim przyjaciel **Razumichin**.
+- Przychodzi **Łużyn**, a **Raskolnikow** go obraża.
+- Na ulicy widzi **Marmieładowa** stratowanego przez konie, zanosi go do domu i oddaje wdowie, **Katarzynie Iwanownie**, wszystkie pieniądze od matki.
+- Poznaje **Sonię**.
 
 ### Część III – Porfiry
-Do Petersburga przyjeżdżają matka i Dunia. Raskolnikow idzie do śledczego Porfirego Pietrowicza. Ten przypomina jego artykuł o ludziach „zwykłych” i „niezwykłych”: ci drudzy, jak Napoleon, mają prawo przekraczać granice dla wielkich celów. Porfiry zaczyna podejrzewać Raskolnikowa.
+> Śledczy Porfiry zaczyna podejrzewać Raskolnikowa na podstawie jego artykułu.
+- Do Petersburga przyjeżdżają matka i **Dunia**.
+- **Raskolnikow** idzie do śledczego **Porfirego Pietrowicza**.
+- Ten przypomina jego artykuł o ludziach „zwykłych” i „niezwykłych”: ci drudzy, jak Napoleon, mają prawo przekraczać granice dla wielkich celów.
+- **Porfiry** zaczyna podejrzewać **Raskolnikowa**.
 
 ### Część IV – Sonia
-Do miasta przyjeżdża Swidrygajłow, dawny chlebodawca Duni, który chce ją zdobyć. Łużyn zostaje odprawiony przez Dunię. Raskolnikow odwiedza Sonię. Prosi ją, by przeczytała fragment Ewangelii o wskrzeszeniu Łazarza. Druga rozmowa z Porfirym jest grą psychologiczną; przerywa ją malarz Mikołaj, który niespodziewanie przyznaje się do zabójstwa.
+> Raskolnikow szuka oparcia u Soni, a Porfiry gra z nim w psychologiczną grę.
+- Do miasta przyjeżdża **Swidrygajłow**, dawny chlebodawca **Duni**, który chce ją zdobyć.
+- **Łużyn** zostaje odprawiony przez **Dunię**.
+- **Raskolnikow** odwiedza **Sonię**.
+- Prosi ją, by przeczytała fragment Ewangelii o wskrzeszeniu Łazarza.
+- Druga rozmowa z **Porfirym** jest grą psychologiczną; przerywa ją malarz Mikołaj, który niespodziewanie przyznaje się do zabójstwa.
 
 ### Część V – wyznanie
-Łużyn oskarża Sonię o kradzież, ale jego intryga zostaje zdemaskowana. Raskolnikow wyznaje Soni, że zabił. Mówi, że chciał sprawdzić, czy jest „Napoleonem”, czy „wszą”. Sonia każe mu iść na rozstaje, pocałować ziemię i przyznać się. Katarzyna Iwanowna umiera.
+> Raskolnikow wyznaje Soni, że zabił, a ona wzywa go do przyznania się.
+- **Łużyn** oskarża **Sonię** o kradzież, ale jego intryga zostaje zdemaskowana.
+- **Raskolnikow** wyznaje **Soni**, że zabił.
+- Mówi, że chciał sprawdzić, czy jest „Napoleonem”, czy „wszą”.
+- **Sonia** każe mu iść na rozstaje, pocałować ziemię i przyznać się.
+- **Katarzyna Iwanowna** umiera.
 
 ### Część VI – przyznanie się
-Porfiry mówi Raskolnikowowi, że wie o jego winie, i radzi, by sam się przyznał, bo dostanie niższy wyrok. Swidrygajłow wabi Dunię do mieszkania, ale ona strzela do niego. Puszcza ją, a następnego dnia się zastrzela. Raskolnikow całuje ziemię na placu i przyznaje się na komisariacie.
+> Swidrygajłow popełnia samobójstwo, a Raskolnikow przyznaje się do zbrodni.
+- **Porfiry** mówi **Raskolnikowowi**, że wie o jego winie, i radzi, by sam się przyznał, bo dostanie niższy wyrok.
+- **Swidrygajłow** wabi **Dunię** do mieszkania, ale ona strzela do niego.
+- Puszcza ją, a następnego dnia się zastrzela.
+- **Raskolnikow** całuje ziemię na placu i przyznaje się na komisariacie.
 
 ### Epilog – Syberia
-Raskolnikow dostaje osiem lat katorgi. Sonia jedzie za nim. Na początku jest zamknięty i dumny, potem choruje i ma sen o zarazie, która odbiera ludziom rozum. W końcu rzuca się Soni do nóg – rozumie, że ją kocha. Zaczyna się jego odrodzenie moralne.
+> Na katordze dzięki miłości Soni zaczyna się moralne odrodzenie Raskolnikowa.
+- **Raskolnikow** dostaje osiem lat katorgi.
+- **Sonia** jedzie za nim.
+- Na początku jest zamknięty i dumny, potem choruje i ma sen o zarazie, która odbiera ludziom rozum.
+- W końcu rzuca się **Soni** do nóg – rozumie, że ją kocha.
+- Zaczyna się jego odrodzenie moralne.
 
 ## Bohaterowie
 - **Rodion Raskolnikow** – były student, inteligentny, dumny, wrażliwy, samotny. Popełnia zbrodnię z powodu teorii o „ludziach niezwykłych”. Jest rozdarty – zdolny do okrucieństwa i do dobroci.
@@ -61,19 +97,20 @@ Fiodor Dostojewski wydał powieść w 1866 roku. Sam przeżył katorgę na Syber
 
 ## Problematyka
 ### Teoria nadczłowieka
-Raskolnikow sądzi, że wybitni ludzie mogą łamać prawo moralne. Zbrodnia pokazuje, że ta teoria jest fałszywa.
+- Raskolnikow sądzi, że wybitni ludzie mogą łamać prawo moralne.
+- Zbrodnia pokazuje, że ta teoria jest fałszywa.
 
 ### Wina i kara
-Prawdziwą karą jest nie więzienie, lecz męka sumienia.
+- Prawdziwą karą jest nie więzienie, lecz męka sumienia.
 
 ### Odkupienie
-Przez cierpienie, miłość i wiarę człowiek może się odrodzić.
+- Przez cierpienie, miłość i wiarę człowiek może się odrodzić.
 
 ### Nędza
-Bieda niszczy ludzi i popycha ich do upadku (Marmieładowowie, Sonia).
+- Bieda niszczy ludzi i popycha ich do upadku (Marmieładowowie, Sonia).
 
 ### Wiara
-Sonia reprezentuje chrześcijańską miłość i przebaczenie.
+- Sonia reprezentuje chrześcijańską miłość i przebaczenie.
 
 ## Znaczenie tytułu
 Tytuł wskazuje dwie części historii: zbrodnię (krótką, w części I) i karę (całą resztę powieści). Karą są przede wszystkim cierpienia psychiczne Raskolnikowa.

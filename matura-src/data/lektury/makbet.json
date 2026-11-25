@@ -130,27 +130,72 @@
         {
           "typ": "punkt",
           "etykieta": "Akt I – przepowiednia",
-          "tekst": "Makbet i Banko wracają z wygranej bitwy. Na wrzosowisku spotykają trzy czarownice. Witają Makbeta jako tana Glamis, tana Kawdoru i przyszłego króla, a Banku zapowiadają, że jego potomkowie będą królami. Wkrótce Makbet dowiaduje się, że król Dunkan dał mu tytuł tana Kawdoru. Pisze o wszystkim do żony. Lady Makbet postanawia, że mąż musi zostać królem, i wyrzuca mu słabość. Dunkan przyjeżdża w gościnę do zamku Makbeta."
+          "tekst": "",
+          "sedno": "Czarownice przepowiadają Makbetowi koronę, a Lady Makbet popycha go do działania.",
+          "punkty": [
+            "**Makbet** i **Banko** wracają z wygranej bitwy.",
+            "Na wrzosowisku spotykają trzy czarownice.",
+            "Witają **Makbeta** jako tana Glamis, tana Kawdoru i przyszłego króla, a **Banku** zapowiadają, że jego potomkowie będą królami.",
+            "Wkrótce **Makbet** dowiaduje się, że król **Dunkan** dał mu tytuł tana Kawdoru.",
+            "Pisze o wszystkim do żony.",
+            "**Lady Makbet** postanawia, że mąż musi zostać królem, i wyrzuca mu słabość.",
+            "**Dunkan** przyjeżdża w gościnę do zamku **Makbeta**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Akt II – zabójstwo króla",
-          "tekst": "Nocą Makbet ma wizję sztyletu. Zabija śpiącego Dunkana. Lady Makbet podrzuca zakrwawione sztylety śpiącym strażnikom. Rano zbrodnię odkrywa Makduf. Makbet zabija strażników, by nie mogli mówić. Synowie króla, Malkolm i Donalbain, uciekają, więc podejrzenie pada na nich. Makbet zostaje królem."
+          "tekst": "",
+          "sedno": "Makbet zabija króla Dunkana i sam zostaje królem.",
+          "punkty": [
+            "Nocą **Makbet** ma wizję sztyletu.",
+            "Zabija śpiącego **Dunkana**.",
+            "**Lady Makbet** podrzuca zakrwawione sztylety śpiącym strażnikom.",
+            "Rano zbrodnię odkrywa **Makduf**.",
+            "**Makbet** zabija strażników, by nie mogli mówić.",
+            "Synowie króla, **Malkolm** i Donalbain, uciekają, więc podejrzenie pada na nich.",
+            "**Makbet** zostaje królem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Akt III – Banko",
-          "tekst": "Makbet boi się przepowiedni dla Banka. Wynajmuje morderców, którzy zabijają Banka, ale jego syn Fleance ucieka. Na uczcie Makbet widzi ducha Banka siedzącego na jego miejscu i traci panowanie nad sobą. Goście zaczynają podejrzewać prawdę."
+          "tekst": "",
+          "sedno": "Z obawy przed przepowiednią Makbet każe zabić Banka, a potem widzi jego ducha.",
+          "punkty": [
+            "**Makbet** boi się przepowiedni dla **Banka**.",
+            "Wynajmuje morderców, którzy zabijają **Banka**, ale jego syn Fleance ucieka.",
+            "Na uczcie **Makbet** widzi ducha **Banka** siedzącego na jego miejscu i traci panowanie nad sobą.",
+            "Goście zaczynają podejrzewać prawdę."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Akt IV – nowe przepowiednie",
-          "tekst": "Makbet sam idzie do czarownic. Zjawy mówią mu, by strzegł się Makdufa, ale też, że nie zabije go nikt „zrodzony z kobiety” i że nie zostanie pokonany, dopóki las birnamski nie podejdzie pod zamek Dunsinan. Makbet czuje się bezpieczny. Gdy dowiaduje się, że Makduf uciekł do Anglii, każe wymordować jego żonę i dzieci. Makduf łączy siły z Malkolmem."
+          "tekst": "",
+          "sedno": "Zjawy dają Makbetowi złudne poczucie bezpieczeństwa, a on morduje rodzinę Makdufa.",
+          "punkty": [
+            "**Makbet** sam idzie do czarownic.",
+            "Zjawy mówią mu, by strzegł się **Makdufa**, ale też, że nie zabije go nikt „zrodzony z kobiety” i że nie zostanie pokonany, dopóki las birnamski nie podejdzie pod zamek Dunsinan.",
+            "**Makbet** czuje się bezpieczny.",
+            "Gdy dowiaduje się, że **Makduf** uciekł do Anglii, każe wymordować jego żonę i dzieci.",
+            "**Makduf** łączy siły z **Malkolmem**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Akt V – upadek",
-          "tekst": "Lady Makbet lunatykuje: chodzi nocą ze świecą i próbuje zmyć z rąk niewidzialną krew. Wkrótce umiera, prawdopodobnie popełnia samobójstwo. Makbet wygłasza monolog o bezsensie życia („Życie jest tylko przechodnim półcieniem…”). Żołnierze Malkolma idą zasłonięci gałęziami z lasu birnamskiego – las „idzie”. W walce Makduf wyjawia, że został wyjęty z łona matki przed czasem, czyli nie „urodził się” w zwykły sposób. Zabija Makbeta. Malkolm zostaje królem Szkocji."
+          "tekst": "",
+          "sedno": "Lady Makbet szaleje i umiera, a Makbet ginie z ręki Makdufa.",
+          "punkty": [
+            "**Lady Makbet** lunatykuje: chodzi nocą ze świecą i próbuje zmyć z rąk niewidzialną krew.",
+            "Wkrótce umiera, prawdopodobnie popełnia samobójstwo.",
+            "**Makbet** wygłasza monolog o bezsensie życia („Życie jest tylko przechodnim półcieniem…”).",
+            "Żołnierze **Malkolma** idą zasłonięci gałęziami z lasu birnamskiego – las „idzie”.",
+            "W walce **Makduf** wyjawia, że został wyjęty z łona matki przed czasem, czyli nie „urodził się” w zwykły sposób.",
+            "Zabija **Makbeta**.",
+            "**Malkolm** zostaje królem Szkocji."
+          ]
         }
       ]
     },
@@ -218,22 +263,34 @@
         {
           "typ": "punkt",
           "etykieta": "Władza i ambicja",
-          "tekst": "Żądza władzy prowadzi do zbrodni, a zbrodnia rodzi kolejne zbrodnie."
+          "tekst": "",
+          "punkty": [
+            "Żądza władzy prowadzi do zbrodni, a zbrodnia rodzi kolejne zbrodnie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wina i sumienie",
-          "tekst": "Zbrodniarze nie mogą uciec przed wyrzutami sumienia: Makbet ma wizje, Lady Makbet popada w obłęd."
+          "tekst": "",
+          "punkty": [
+            "Zbrodniarze nie mogą uciec przed wyrzutami sumienia: Makbet ma wizje, Lady Makbet popada w obłęd."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Los a wolna wola",
-          "tekst": "Czarownice tylko przepowiadają przyszłość – zbrodnię wybiera sam Makbet."
+          "tekst": "",
+          "punkty": [
+            "Czarownice tylko przepowiadają przyszłość – zbrodnię wybiera sam Makbet."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zło",
-          "tekst": "Zło zmienia człowieka i niszczy porządek świata, ale na końcu zostaje ukarane."
+          "tekst": "",
+          "punkty": [
+            "Zło zmienia człowieka i niszczy porządek świata, ale na końcu zostaje ukarane."
+          ]
         }
       ]
     },

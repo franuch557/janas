@@ -93,17 +93,26 @@
         {
           "typ": "punkt",
           "etykieta": "Sielska prowincja",
-          "tekst": "Wieś i małe miasta są ostoją spokoju i tradycji."
+          "tekst": "",
+          "punkty": [
+            "Wieś i małe miasta są ostoją spokoju i tradycji."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Katastrofizm",
-          "tekst": "Przeczucie zagłady i końca świata."
+          "tekst": "",
+          "punkty": [
+            "Przeczucie zagłady i końca świata."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Sen i wspomnienie",
-          "tekst": "Świat w wierszach jest jak we śnie – ulotny i nierealny."
+          "tekst": "",
+          "punkty": [
+            "Świat w wierszach jest jak we śnie – ulotny i nierealny."
+          ]
         }
       ]
     },

@@ -48,32 +48,63 @@
         {
           "typ": "punkt",
           "etykieta": "Mikołaj Sęp Szarzyński, „Sonet IV. O wojnie naszej, którą wiedziemy z szatanem, światem i ciałem”",
-          "tekst": "Życie człowieka to nieustanna walka z trzema wrogami: szatanem, światem i ciałem. Człowiek jest słaby, ale nie poddaje się, bo pomaga mu Bóg. Podmiot prosi Boga o łaskę, bez której przegrałby walkę. Sonet pokazuje niepokój i dramatyzm barokowej religijności."
+          "tekst": "",
+          "punkty": [
+            "Życie człowieka to nieustanna walka z trzema wrogami: szatanem, światem i ciałem.",
+            "Człowiek jest słaby, ale nie poddaje się, bo pomaga mu Bóg.",
+            "**Podmiot** prosi Boga o łaskę, bez której przegrałby walkę.",
+            "Sonet pokazuje niepokój i dramatyzm barokowej religijności."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Mikołaj Sęp Szarzyński, „Sonet V. O nietrwałej miłości rzeczy świata tego”",
-          "tekst": "Ludzie kochają rzeczy przemijające: złoto, sławę, piękno. Te dobra nie dają spokoju, bo nie trwają. Prawdziwy spokój daje tylko miłość do Boga, który jest wieczny i doskonały."
+          "tekst": "",
+          "punkty": [
+            "Ludzie kochają rzeczy przemijające: złoto, sławę, piękno.",
+            "Te dobra nie dają spokoju, bo nie trwają.",
+            "Prawdziwy spokój daje tylko miłość do Boga, który jest wieczny i doskonały."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Daniel Naborowski, „Krótkość żywota”",
-          "tekst": "Wiersz o przemijaniu: życie mija szybko jak cień, sen, dym. „Godzina za godziną niepojęcie chodzi”. Człowiek przemija, a mądry powinien pamiętać o śmierci. To przykład motywu **vanitas** i **memento mori**."
+          "tekst": "",
+          "punkty": [
+            "Wiersz o przemijaniu: życie mija szybko jak cień, sen, dym.",
+            "„Godzina za godziną niepojęcie chodzi”.",
+            "Człowiek przemija, a mądry powinien pamiętać o śmierci.",
+            "To przykład motywu **vanitas** i **memento mori**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Daniel Naborowski, „Marność”",
-          "tekst": "Świat jest marnością. Wszystko jest zmienne i ulotne, a człowiek powinien zwrócić się ku Bogu. Wiersz nawiązuje do Księgi Koheleta."
+          "tekst": "",
+          "punkty": [
+            "Świat jest marnością.",
+            "Wszystko jest zmienne i ulotne, a człowiek powinien zwrócić się ku Bogu.",
+            "Wiersz nawiązuje do Księgi Koheleta."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Jan Andrzej Morsztyn, „Do trupa”",
-          "tekst": "Zakochany porównuje się do trupa: obaj są martwi, obaj zostali „zabici” – trup przez śmierć, a on przez miłość. Ale zakochany ma gorzej, bo cierpi i myśli. To **koncept** – zaskakujące, błyskotliwe porównanie."
+          "tekst": "",
+          "punkty": [
+            "Zakochany porównuje się do trupa: obaj są martwi, obaj zostali „zabici” – trup przez śmierć, a on przez miłość.",
+            "Ale zakochany ma gorzej, bo cierpi i myśli.",
+            "To **koncept** – zaskakujące, błyskotliwe porównanie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Jan Andrzej Morsztyn, „Niestatek”",
-          "tekst": "Wiersz wylicza rzeczy niemożliwe: łatwiej zatrzymać wiatr czy policzyć gwiazdy, niż żeby kobieta była stała w uczuciach. Puenta jest żartobliwa i zaskakująca."
+          "tekst": "",
+          "punkty": [
+            "Wiersz wylicza rzeczy niemożliwe: łatwiej zatrzymać wiatr czy policzyć gwiazdy, niż żeby kobieta była stała w uczuciach.",
+            "Puenta jest żartobliwa i zaskakująca."
+          ]
         }
       ]
     },
@@ -121,22 +152,34 @@
         {
           "typ": "punkt",
           "etykieta": "Vanitas i przemijanie",
-          "tekst": "Wszystko, co ziemskie, jest marne i nietrwałe."
+          "tekst": "",
+          "punkty": [
+            "Wszystko, co ziemskie, jest marne i nietrwałe."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Człowiek między dobrem a złem",
-          "tekst": "Człowiek walczy z pokusami i szuka oparcia w Bogu."
+          "tekst": "",
+          "punkty": [
+            "Człowiek walczy z pokusami i szuka oparcia w Bogu."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Miłość",
-          "tekst": "U Morsztyna miłość to gra, zabawa i cierpienie przedstawione w zaskakujących porównaniach."
+          "tekst": "",
+          "punkty": [
+            "U Morsztyna miłość to gra, zabawa i cierpienie przedstawione w zaskakujących porównaniach."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zaskoczenie i kontrast",
-          "tekst": "Barok lubi paradoksy, antytezy, oksymorony i puenty."
+          "tekst": "",
+          "punkty": [
+            "Barok lubi paradoksy, antytezy, oksymorony i puenty."
+          ]
         }
       ]
     },

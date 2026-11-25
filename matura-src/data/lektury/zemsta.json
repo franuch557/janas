@@ -42,8 +42,19 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "W jednym zamku mieszkają dwaj sąsiedzi, którzy się nienawidzą: porywczy Cześnik Raptusiewicz i chytry Rejent Milczek. Kłócą się o mur graniczny. Tymczasem syn Rejenta, Wacław, kocha Klarę, synowicę Cześnika. Cześnik chce się ożenić z bogatą Podstoliną, ale Rejent planuje wydać ją za Wacława. W końcu Cześnik, chcąc zrobić Rejentowi na złość, zmusza Wacława do ślubu z Klarą – i tym samym spełnia marzenie zakochanych. Komedia kończy się pojednaniem."
+          "typ": "punkt",
+          "etykieta": "O czym",
+          "tekst": "dwaj skłóceni sąsiedzi – porywczy Cześnik i chytry Rejent – walczą o mur w dzielonym zamku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wątek miłosny",
+          "tekst": "syn Rejenta, Wacław, kocha Klarę, synowicę Cześnika."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jak się kończy",
+          "tekst": "Cześnik, żeby zrobić Rejentowi na złość, zmusza Wacława do ślubu z Klarą – i spełnia marzenie zakochanych. Sąsiedzi się godzą."
         }
       ]
     },
@@ -54,55 +65,79 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Cześnik postanawia ożenić się z Podstoliną i prosi Papkina o pomoc w swatach."
+          "tekst": "Cześnik postanawia ożenić się z bogatą Podstoliną."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Rejent naprawia mur graniczny, Cześnik każe przegonić murarzy."
+          "tekst": "Papkin ma swatać Cześnika, a sam zabiega o Klarę."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Wacław i Klara spotykają się potajemnie w ogrodzie."
+          "tekst": "Rejent naprawia mur – Cześnik uznaje to za wypowiedzenie wojny."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Papkin zanosi Rejentowi wyzwanie na pojedynek."
+          "tekst": "Schadzka Klary i Wacława w altanie."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Rejent namawia Podstolinę, by wyszła za Wacława."
+          "tekst": "Kłótnia Cześnika z Rejentem na murze."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Ludzie Cześnika porywają Wacława."
+          "tekst": "Wacław daje się złapać Papkinowi, udając komisarza Rejenta, i zostaje w zamku."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Papkin, przekonany, że został otruty, pisze testament."
+          "tekst": "Podstolina i Wacław znali się dawniej – ona chce go dla siebie."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Cześnik zmusza Wacława do natychmiastowego ślubu z Klarą."
+          "tekst": "Cześnik zaręcza się z Podstoliną i wysyła Papkina z wyzwaniem do Rejenta."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Pojednanie Cześnika i Rejenta: „Zgoda!”."
+          "tekst": "Rejent spisuje zeznania murarzy i każe Wacławowi poślubić Podstolinę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "List Rejenta: Podstolina wyjdzie za Wacława. Cześnik wpada w furię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Papkin myśli, że wypił zatrute wino, i pisze testament."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Cześnik wabi Wacława podstępem i zmusza go do ślubu z Klarą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Rejent dowiaduje się o ślubie; sąsiedzi się godzą."
         }
       ]
     },
@@ -111,23 +146,55 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Akt I – plany Cześnika",
-          "tekst": "Cześnik Maciej Raptusiewicz, stary szlachcic o gwałtownym charakterze, mówi Dyndalskiemu, że chce się ożenić. Wybrał Podstolinę, bo jest bogata. Papkin, samochwała i tchórz, ma mu pomóc w swatach. Cześnik widzi, że Rejent naprawia mur na wspólnym dziedzińcu, i każe swoim ludziom przepędzić murarzy."
+          "etykieta": "Akt I – plany Cześnika i mur",
+          "tekst": "",
+          "sedno": "Cześnik chce się ożenić z Podstoliną, a naprawa muru przez Rejenta rozpala spór na nowo.",
+          "punkty": [
+            "**Cześnik Raptusiewicz** liczy majątek **Podstoliny** i postanawia się z nią ożenić. **Dyndalski** mu przytakuje.",
+            "**Papkin**, samochwała, opowiada o swoich „podbojach”. Ma swatać Cześnika, a sam marzy o **Klarze**.",
+            "Podstolina zgadza się na ślub z Cześnikiem.",
+            "Cześnik widzi, że **Rejent Milczek** naprawia mur. Każe przepędzić murarzy.",
+            "W altanie spotykają się **Klara** i **Wacław**. Wacław chce uciec i wziąć ślub, Klara się nie zgadza.",
+            "Na murze dochodzi do kłótni sąsiadów."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Akt II – Wacław i Klara, wyzwanie",
-          "tekst": "Klara spotyka się w ogrodzie z Wacławem, którego kocha. Papkin zabiega o względy Klary, a ta ośmiesza jego przechwałki. Cześnik wysyła Papkina do Rejenta z wyzwaniem na pojedynek. Rejent przyjmuje Papkina chłodno i grozi mu procesem."
+          "etykieta": "Akt II – Wacław w zamku Cześnika",
+          "tekst": "",
+          "sedno": "Wacław podstępem zostaje w zamku, a Cześnik wysyła wyzwanie na pojedynek.",
+          "punkty": [
+            "**Wacław** oddaje się w ręce Papkina jako „jeniec”, udając komisarza Rejenta.",
+            "Przekupuje Papkina, żeby pomógł mu zostać blisko Klary.",
+            "**Podstolina** zna Wacława sprzed lat i chce go dla siebie, nie wie o Klarze.",
+            "**Klara** droczy się z Papkinem i żąda od niego dowodów miłości.",
+            "Cześnik zaręcza się z Podstoliną i wysyła **Papkina** do Rejenta z wyzwaniem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Akt III – intryga Rejenta",
-          "tekst": "Rejent spisuje zeznania murarzy, żeby wytoczyć Cześnikowi sprawę. Wacław wyznaje ojcu, że kocha Klarę, ale Rejent ma inny plan – chce go ożenić z Podstoliną, z którą Wacław kiedyś się spotykał. Podstolina zgadza się na ślub z Wacławem. Ludzie Cześnika porywają Wacława i przyprowadzają go do zamku."
+          "tekst": "",
+          "sedno": "Rejent postanawia odebrać Cześnikowi narzeczoną, żeniąc z nią syna.",
+          "punkty": [
+            "**Rejent** wymusza na murarzach zeznania przeciw Cześnikowi i odprawia ich bez zapłaty.",
+            "Mówi **Wacławowi**, że wie o Klarze, ale syn musi poślubić **Podstolinę**.",
+            "Podstolina zgadza się na ślub z Wacławem.",
+            "**Papkin** przynosi wyzwanie. Dostaje od Rejenta odpowiedź na piśmie."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Akt IV – „zemsta” i zgoda",
-          "tekst": "Papkin, przekonany, że wypił truciznę, sporządza zabawny testament. Cześnik dowiaduje się o planach Rejenta i postanawia się zemścić: zmusza Wacława, by od razu wziął ślub z Klarą, przed powrotem Rejenta. Zemsta okazuje się szczęściem dla młodych. Rejent i Cześnik godzą się, a komedię kończy wezwanie do zgody."
+          "etykieta": "Akt IV – „zemsta” Cześnika",
+          "tekst": "",
+          "sedno": "Cześnik chce się zemścić, a w rzeczywistości łączy zakochanych.",
+          "punkty": [
+            "Z listu Rejenta Cześnik dowiaduje się o ślubie Podstoliny z Wacławem i wpada w furię.",
+            "Mówi **Papkinowi**, że Rejent mógł go poczęstować zatrutym winem. Przerażony Papkin pisze testament.",
+            "Cześnik wabi **Wacława** do zamku podstępem i stawia warunek: ślub z Klarą albo śmierć.",
+            "Młodzi od razu się zgadzają i biorą ślub w kaplicy.",
+            "**Rejent** dowiaduje się o ślubie. Sąsiedzi się godzą, a komedię kończy wezwanie do zgody."
+          ]
         }
       ]
     },
@@ -137,37 +204,37 @@
         {
           "typ": "punkt",
           "etykieta": "Cześnik Maciej Raptusiewicz",
-          "tekst": "stary szlachcic, porywczy, krzykliwy, ale w gruncie rzeczy dobroduszny. Lubi wojaczkę i ucztowanie, ma swoje powiedzonko „Mocium panie”."
+          "tekst": "Stary szlachcic, porywczy, krzykliwy, ale dobroduszny. Powiedzonko: „Mocium panie”."
         },
         {
           "typ": "punkt",
           "etykieta": "Rejent Milczek",
-          "tekst": "przeciwieństwo Cześnika. Spokojny, cichy, obłudny i mściwy. Walczy podstępem i procesami. Powtarza „Niech się dzieje wola nieba”."
+          "tekst": "Cichy, obłudny i mściwy. Walczy podstępem i procesami. Powtarza „Niech się dzieje wola nieba”."
         },
         {
           "typ": "punkt",
           "etykieta": "Papkin",
-          "tekst": "samochwała, tchórz i pieczeniarz, który opowiada o swoich bohaterskich czynach, choć nigdy ich nie dokonał. Najbardziej komiczna postać."
+          "tekst": "Samochwała, tchórz i pieczeniarz. Najbardziej komiczna postać."
         },
         {
           "typ": "punkt",
           "etykieta": "Klara",
-          "tekst": "synowica Cześnika. Bystra, rezolutna, kocha Wacława."
+          "tekst": "Synowica Cześnika, bystra i rezolutna. Kocha Wacława."
         },
         {
           "typ": "punkt",
           "etykieta": "Wacław",
-          "tekst": "syn Rejenta, zakochany w Klarze. Uczciwy, choć pod presją ojca."
+          "tekst": "Syn Rejenta, zakochany w Klarze."
         },
         {
           "typ": "punkt",
           "etykieta": "Podstolina",
-          "tekst": "wdowa, która szuka bogatego męża."
+          "tekst": "Wdowa szukająca bogatego męża."
         },
         {
           "typ": "punkt",
           "etykieta": "Dyndalski",
-          "tekst": "stary marszałek dworu Cześnika, wierny i powolny."
+          "tekst": "Stary, wierny marszałek dworu Cześnika."
         }
       ]
     },
@@ -175,8 +242,14 @@
       "tytul": "Czas i miejsce akcji",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Akcja dzieje się w ciągu jednego dnia w zamku na wsi, podzielonym między Cześnika i Rejenta. Utwór ukazuje stosunki szlacheckie z przełomu XVIII i XIX wieku."
+          "typ": "punkt",
+          "etykieta": "Czas",
+          "tekst": "jeden dzień; obyczaje szlacheckie z przełomu XVIII i XIX wieku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miejsce",
+          "tekst": "zamek na wsi, podzielony między Cześnika i Rejenta."
         }
       ]
     },
@@ -184,8 +257,19 @@
       "tytul": "Geneza i gatunek",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Aleksander Fredro napisał „Zemstę” w 1833 roku. Wzorem był prawdziwy spór sąsiedzki o mur w zamku w Odrzykoniu. To **komedia** w czterech aktach, pisana wierszem (ośmiozgłoskowcem). Komizm opiera się na postaciach, sytuacjach i języku."
+          "typ": "punkt",
+          "etykieta": "Powstanie",
+          "tekst": "Aleksander Fredro napisał „Zemstę” w 1833 roku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Źródło",
+          "tekst": "prawdziwy spór sąsiedzki o mur w zamku w Odrzykoniu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gatunek",
+          "tekst": "komedia w czterech aktach, pisana ośmiozgłoskowcem."
         }
       ]
     },
@@ -195,37 +279,42 @@
         {
           "typ": "punkt",
           "etykieta": "Spór sąsiedzki i pieniactwo",
-          "tekst": "Komedia wyśmiewa szlacheckie kłótnie, pychę i skłonność do procesów. Zemsta, która miała zaszkodzić, przynosi dobro."
+          "tekst": "",
+          "sedno": "Komedia wyśmiewa szlacheckie kłótnie, pychę i skłonność do procesów.",
+          "punkty": [
+            "Mur staje się pretekstem do wojny dwóch charakterów.",
+            "Zemsta, która miała zaszkodzić, przynosi dobro."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Typy ludzkie",
-          "tekst": "Cześnik i Rejent to dwa przeciwne charaktery: krzykacz i obłudnik. Papkin to typ samochwały i tchórza."
+          "tekst": "",
+          "sedno": "Bohaterowie to wyraziste typy, a nie złożone charaktery.",
+          "punkty": [
+            "Cześnik – krzykacz o dobrym sercu; Rejent – obłudnik.",
+            "Papkin – samochwała i tchórz."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Miłość",
-          "tekst": "Miłość Wacława i Klary jest silniejsza niż kłótnie dorosłych. Młodzi przezwyciężają spór rodzin."
+          "etykieta": "Miłość ponad kłótnią",
+          "tekst": "",
+          "sedno": "Uczucie młodych jest silniejsze niż spór rodzin.",
+          "punkty": [
+            "Wacław i Klara pobierają się dzięki zemście Cześnika."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Rodzaje komizmu",
-          "tekst": ""
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "komizm postaci",
-          "tekst": "Papkin, Cześnik, Rejent,"
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "komizm sytuacji",
-          "tekst": "testament Papkina, wymuszony ślub,"
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "komizm słowa",
-          "tekst": "powiedzonka, przechwałki Papkina."
+          "tekst": "",
+          "sedno": "Śmiech rodzi się z postaci, sytuacji i języka.",
+          "punkty": [
+            "**Komizm postaci:** Papkin, Cześnik, Rejent.",
+            "**Komizm sytuacji:** testament Papkina, wymuszony ślub.",
+            "**Komizm słowa:** powiedzonka i przechwałki."
+          ]
         }
       ]
     },
@@ -233,8 +322,9 @@
       "tytul": "Znaczenie tytułu",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Tytułowa zemsta to podstęp Cześnika, który chciał zaszkodzić Rejentowi. Ironia polega na tym, że zemsta łączy zakochanych i prowadzi do zgody."
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tytułowa zemsta to podstęp Cześnika. Ironia polega na tym, że zemsta łączy zakochanych i prowadzi do zgody."
         }
       ]
     },

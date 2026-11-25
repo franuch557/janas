@@ -107,37 +107,90 @@
         {
           "typ": "punkt",
           "etykieta": "Księga Rodzaju – stworzenie świata",
-          "tekst": "Bóg stwarza świat słowem w ciągu sześciu dni: światło, niebo, ziemię i morza, rośliny, ciała niebieskie, zwierzęta, a na końcu człowieka na swój obraz. Siódmego dnia odpoczywa. Świat jest uporządkowany i dobry."
+          "tekst": "",
+          "sedno": "Bóg stwarza świat w sześć dni, a człowieka na swój obraz.",
+          "punkty": [
+            "Bóg stwarza świat słowem w ciągu sześciu dni: światło, niebo, ziemię i morza, rośliny, ciała niebieskie, zwierzęta, a na końcu człowieka na swój obraz.",
+            "Siódmego dnia odpoczywa.",
+            "Świat jest uporządkowany i dobry."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Raj i grzech pierworodny",
-          "tekst": "Adam i Ewa żyją w ogrodzie Eden. Mogą jeść owoce ze wszystkich drzew poza drzewem poznania dobra i zła. Wąż namawia Ewę, by zjadła owoc; Ewa daje go Adamowi. Ludzie poznają wstyd i zostają wygnani z raju. Od tej pory muszą pracować w trudzie, a kobieta rodzić w bólu. Człowiek staje się śmiertelny."
+          "tekst": "",
+          "sedno": "Adam i Ewa łamią zakaz Boga i zostają wygnani z raju.",
+          "punkty": [
+            "**Adam** i Ewa żyją w ogrodzie Eden.",
+            "Mogą jeść owoce ze wszystkich drzew poza drzewem poznania dobra i zła.",
+            "Wąż namawia Ewę, by zjadła owoc; Ewa daje go **Adamowi**.",
+            "Ludzie poznają wstyd i zostają wygnani z raju.",
+            "Od tej pory muszą pracować w trudzie, a kobieta rodzić w bólu.",
+            "Człowiek staje się śmiertelny."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Kain i Abel",
-          "tekst": "Synowie Adama i Ewy składają ofiary. Bóg przyjmuje ofiarę Abla, a odrzuca ofiarę Kaina. Zazdrosny Kain zabija brata. Bóg naznacza go piętnem i skazuje na tułaczkę. To pierwsza zbrodnia i symbol bratobójstwa."
+          "tekst": "",
+          "sedno": "Z zazdrości Kain zabija brata – to pierwsza zbrodnia.",
+          "punkty": [
+            "Synowie **Adama** i Ewy składają ofiary.",
+            "Bóg przyjmuje ofiarę Abla, a odrzuca ofiarę **Kaina**.",
+            "Zazdrosny **Kain** zabija brata.",
+            "Bóg naznacza go piętnem i skazuje na tułaczkę.",
+            "To pierwsza zbrodnia i symbol bratobójstwa."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Księga Hioba",
-          "tekst": "Hiob jest pobożny i bogaty. Szatan twierdzi, że Hiob kocha Boga tylko dlatego, że jest szczęśliwy. Bóg pozwala go wypróbować: Hiob traci majątek, dzieci i zdrowie. Przyjaciele przekonują go, że cierpi za grzechy, ale Hiob wie, że jest niewinny, i pyta Boga o sens cierpienia. Bóg przemawia z wichru i pokazuje ogrom stworzenia – człowiek nie może pojąć Jego zamysłów. Hiob pokornie to przyjmuje i odzyskuje szczęście w dwójnasób."
+          "tekst": "",
+          "sedno": "Hiob traci wszystko, ale nie odwraca się od Boga – cierpienie jest próbą wiary.",
+          "punkty": [
+            "**Hiob** jest pobożny i bogaty.",
+            "Szatan twierdzi, że **Hiob** kocha Boga tylko dlatego, że jest szczęśliwy.",
+            "Bóg pozwala go wypróbować: **Hiob** traci majątek, dzieci i zdrowie.",
+            "Przyjaciele przekonują go, że cierpi za grzechy, ale **Hiob** wie, że jest niewinny, i pyta Boga o sens cierpienia.",
+            "Bóg przemawia z wichru i pokazuje ogrom stworzenia – człowiek nie może pojąć Jego zamysłów.",
+            "**Hiob** pokornie to przyjmuje i odzyskuje szczęście w dwójnasób."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Księga Koheleta",
-          "tekst": "Mędrzec Kohelet rozmyśla o życiu i stwierdza: „marność nad marnościami i wszystko marność”. Bogactwo, mądrość i przyjemności przemijają, a człowiek umiera tak samo jak zwierzę. Wszystko ma swój czas: czas rodzenia i umierania, płaczu i śmiechu. Trzeba cieszyć się z prostych darów i bać się Boga."
+          "tekst": "",
+          "sedno": "Wszystko jest marnością, więc trzeba cieszyć się życiem i pamiętać o Bogu.",
+          "punkty": [
+            "Mędrzec **Kohelet** rozmyśla o życiu i stwierdza: „marność nad marnościami i wszystko marność”.",
+            "Bogactwo, mądrość i przyjemności przemijają, a człowiek umiera tak samo jak zwierzę.",
+            "Wszystko ma swój czas: czas rodzenia i umierania, płaczu i śmiechu.",
+            "Trzeba cieszyć się z prostych darów i bać się Boga."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Psalmy",
-          "tekst": "Księga Psalmów to 150 pieśni religijnych, tradycyjnie przypisywanych królowi Dawidowi. Są wśród nich psalmy pochwalne (np. o stworzeniu świata), błagalne (prośba w cierpieniu), dziękczynne i pokutne. Bóg jest w nich pasterzem, obrońcą i sędzią. Psalmy stały się wzorem poezji religijnej (np. Kochanowski, „Psałterz Dawidów”)."
+          "tekst": "",
+          "sedno": "Psalmy to modlitwy – od lamentu po zachwyt nad Bogiem.",
+          "punkty": [
+            "Księga Psalmów to 150 pieśni religijnych, tradycyjnie przypisywanych królowi **Dawidowi**.",
+            "Są wśród nich psalmy pochwalne (np. o stworzeniu świata), błagalne (prośba w cierpieniu), dziękczynne i pokutne.",
+            "Bóg jest w nich pasterzem, obrońcą i sędzią.",
+            "Psalmy stały się wzorem poezji religijnej (np. Kochanowski, „Psałterz **Dawidów**”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Apokalipsa św. Jana",
-          "tekst": "Jan na wyspie Patmos ma wizje końca świata. Baranek otwiera księgę z siedmioma pieczęciami, pojawiają się czterej jeźdźcy (wojna, głód, zaraza, śmierć), smok i bestia walczą z ludźmi wiernymi Bogu. Następuje sąd ostateczny. Na końcu Jan widzi Nowe Jeruzalem – nowe niebo i nową ziemię, gdzie nie ma już śmierci ani łez."
+          "tekst": "",
+          "sedno": "Wizja końca świata, walki dobra ze złem i nowego Jeruzalem.",
+          "punkty": [
+            "Jan na wyspie Patmos ma wizje końca świata.",
+            "Baranek otwiera księgę z siedmioma pieczęciami, pojawiają się czterej jeźdźcy (wojna, głód, zaraza, śmierć), smok i bestia walczą z ludźmi wiernymi Bogu.",
+            "Następuje sąd ostateczny.",
+            "Na końcu Jan widzi Nowe Jeruzalem – nowe niebo i nową ziemię, gdzie nie ma już śmierci ani łez."
+          ]
         }
       ]
     },
@@ -205,27 +258,43 @@
         {
           "typ": "punkt",
           "etykieta": "Stworzenie i ład świata",
-          "tekst": "Świat ma porządek i sens nadany przez Boga."
+          "tekst": "",
+          "punkty": [
+            "Świat ma porządek i sens nadany przez Boga."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Grzech i wina",
-          "tekst": "Człowiek ma wolną wolę, może wybrać zło i ponosi tego skutki."
+          "tekst": "",
+          "punkty": [
+            "Człowiek ma wolną wolę, może wybrać zło i ponosi tego skutki."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Cierpienie niewinnego",
-          "tekst": "Hiob pokazuje, że cierpienie nie zawsze jest karą. Pytanie o jego sens wraca w literaturze (np. „Dżuma”)."
+          "tekst": "",
+          "punkty": [
+            "Hiob pokazuje, że cierpienie nie zawsze jest karą.",
+            "Pytanie o jego sens wraca w literaturze (np. „Dżuma”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przemijanie (vanitas)",
-          "tekst": "Kohelet mówi o marności dóbr doczesnych – to temat podjęty m.in. w baroku."
+          "tekst": "",
+          "punkty": [
+            "Kohelet mówi o marności dóbr doczesnych – to temat podjęty m.in. w baroku."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Nadzieja",
-          "tekst": "Apokalipsa kończy się obietnicą nowego świata, a psalmy wyrażają ufność w Bogu."
+          "tekst": "",
+          "punkty": [
+            "Apokalipsa kończy się obietnicą nowego świata, a psalmy wyrażają ufność w Bogu."
+          ]
         }
       ]
     },

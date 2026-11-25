@@ -15,16 +15,16 @@ Krzysztof Kamil Baczyński (1921–1944) wydawał wiersze w konspiracji. Należa
 
 ## Problematyka
 ### Tragizm pokolenia
-Młodzi ludzie muszą zabijać, choć tego nie chcą – wojna niszczy ich człowieczeństwo.
+- Młodzi ludzie muszą zabijać, choć tego nie chcą – wojna niszczy ich człowieczeństwo.
 
 ### Katastrofizm
-Przeczucie zagłady i końca świata.
+- Przeczucie zagłady i końca świata.
 
 ### Historia
-Historia narzuca ludziom swoje wymagania – nie da się od niej uciec.
+- Historia narzuca ludziom swoje wymagania – nie da się od niej uciec.
 
 ### Miłość i piękno
-Obok wojny są miłość, przyroda i sztuka, które dają nadzieję.
+- Obok wojny są miłość, przyroda i sztuka, które dają nadzieję.
 
 ## Znaczenie tytułu
 Tytuły nazywają adresata lub temat („Pokolenie”, „Historia”, „Elegia o… [chłopcu polskim]”).

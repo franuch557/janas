@@ -15,16 +15,16 @@ Wisława Szymborska (1923–2012) wydała m.in. tomy „Wołanie do Yeti” (195
 
 ## Problematyka
 ### Niepowtarzalność chwili
-Nic się nie powtarza, każda chwila jest jedyna („Nic dwa razy”).
+- Nic się nie powtarza, każda chwila jest jedyna („Nic dwa razy”).
 
 ### Śmierć i strata
-Śmierć pokazana z perspektywy, która wzrusza i zaskakuje („Kot w pustym mieszkaniu”).
+- Śmierć pokazana z perspektywy, która wzrusza i zaskakuje („Kot w pustym mieszkaniu”).
 
 ### Pamięć po wojnie
-Ktoś musi sprzątać po wojnie, a potem nikt nie pamięta („Koniec i początek”).
+- Ktoś musi sprzątać po wojnie, a potem nikt nie pamięta („Koniec i początek”).
 
 ### Człowiek i natura
-Człowiek nie jest panem świata; przyroda jest niewinna.
+- Człowiek nie jest panem świata; przyroda jest niewinna.
 
 ## Znaczenie tytułu
 Tytuły często są fragmentami zdań lub przewrotnymi określeniami tematu.

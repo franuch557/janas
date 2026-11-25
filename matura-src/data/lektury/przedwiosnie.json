@@ -47,8 +47,24 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Cezary Baryka dorasta w Baku. Po rewolucji traci matkę i majątek, a ojciec opowiada mu legendę o „szklanych domach” w Polsce. W 1919 roku przyjeżdża do kraju i widzi zupełnie inną rzeczywistość: biedę, zacofanie, nierówności. Poznaje życie ziemiańskie w Nawłoci, polityków i działaczy. Słucha dwóch programów naprawy Polski: reformy (Gajowiec) i rewolucji (Lulek). Na końcu idzie w manifestacji robotniczej na czele, prosto „na wał szarych żołnierzy”. Powieść kończy się bez rozstrzygnięcia."
+          "typ": "punkt",
+          "etykieta": "O czym",
+          "tekst": "Cezary Baryka dorasta w Baku, przeżywa rewolucję, a potem przyjeżdża do odrodzonej Polski, której szuka i nie umie zrozumieć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mit szklanych domów",
+          "tekst": "ojciec opowiada mu o nowoczesnej Polsce, której w rzeczywistości nie ma."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jak się kończy",
+          "tekst": "rozczarowany Cezary dołącza do robotniczej manifestacji idącej na Belweder."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Najważniejsza myśl",
+          "tekst": "odrodzona Polska potrzebuje reform – pytanie brzmi, czy ewolucji, czy rewolucji."
         }
       ]
     },
@@ -59,67 +75,91 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Szklane domy – wstęp: Cezary w Baku, dzieciństwo w bogatym domu."
+          "tekst": "Dzieciństwo Cezarego w Baku; ojciec Seweryn idzie na wojnę."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Rewolucja w Baku; Cezary fascynuje się nią."
+          "tekst": "Cezary rzuca szkołę i zachwyca się rewolucją."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Śmierć matki; rzeź Ormian i Turków w Baku."
+          "tekst": "Matka umiera z wycieńczenia na robotach; Cezary traci wiarę w rewolucję."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Ojciec wraca i opowiada o szklanych domach w Polsce."
+          "tekst": "Rzeź Ormian, Cezary grzebie zwłoki."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Podróż do Polski, śmierć ojca w drodze."
+          "tekst": "Ojciec wraca i opowiada o szklanych domach w Polsce."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Cezary widzi biedne polskie wsie zamiast szklanych domów."
+          "tekst": "Podróż do Polski; ojciec umiera w drodze."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Wojna polsko-bolszewicka – Cezary walczy, poznaje Hipolita Wielosławskiego."
+          "tekst": "Polska rozczarowuje Cezarego biedą."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Nawłoć – życie ziemiańskie, romanse z Laurą, Karusią i Wandą."
+          "tekst": "W Warszawie pomaga mu Szymon Gajowiec; Cezary studiuje medycynę."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Śmierć Karusi; Cezary opuszcza Nawłoć."
+          "tekst": "Wojna polsko-bolszewicka; Cezary ratuje Hipolita Wielosławskiego."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Warszawa – rozmowy z Gajowcem i z Lulkiem, komunistą."
+          "tekst": "Pobyt w Nawłoci: Karolina, Wanda, romans z Laurą."
         },
         {
           "typ": "punkt",
           "nr": 11,
           "etykieta": "",
-          "tekst": "Cezary idzie na czele manifestacji robotników na Belweder."
+          "tekst": "Wyjazd do Chłodka – Cezary widzi nędzę chłopów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Wanda otruwa Karolinę; Cezary musi opuścić Nawłoć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Laura wybiera Barwickiego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Cezary w Warszawie: dyskusje z Gajowcem i komunistą Lulkiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Cezary idzie z manifestacją robotników na Belweder."
         }
       ]
     },
@@ -128,28 +168,48 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Szklane domy – dzieciństwo w Baku",
-          "tekst": "Cezary Baryka rośnie w zamożnej polskiej rodzinie w Baku. Ojciec, Seweryn, jest inżynierem w przemyśle naftowym. Gdy wybucha wojna, ojciec zostaje wcielony do armii, a Cezary z matką zostają sami."
+          "etykieta": "Część I – Szklane domy (Baku)",
+          "tekst": "",
+          "sedno": "Cezary dorasta w Baku i na własne oczy przeżywa rewolucję i jej okrucieństwo.",
+          "punkty": [
+            "**Seweryn Baryka**, ojciec, jest urzędnikiem w Baku. Gdy wybucha wojna, idzie na front.",
+            "**Cezary** wymyka się spod władzy matki, rzuca szkołę i zachwyca się **rewolucją**.",
+            "Przekazuje rewolucjonistom majątek; matka ukrywa część, by mieli z czego żyć.",
+            "**Jadwiga Baryka**, matka, zostaje zesłana na roboty i **umiera z wycieńczenia**. Ktoś zdziera z jej ciała obrączkę.",
+            "Cezary traci wiarę w rewolucję. Wybucha rzeź między **Tatarami a Ormianami**.",
+            "Cezary grzebie zwłoki za miastem.",
+            "Odnajduje go ojciec i opowiada o Polsce ze **szklanymi domami** – czystej, nowoczesnej, sprawiedliwej.",
+            "W drodze do Polski ojciec **umiera**."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Rewolucja",
-          "tekst": "Wybucha rewolucja. Cezary zachwyca się nią, chodzi na wiece, sprzeciwia się matce. Matka, Jadwiga, wyczerpana pracą i zesłaniem na roboty, umiera. W Baku dochodzi do rzezi – Cezary widzi okrucieństwo walk Ormian z Turkami i grzebie zwłoki."
+          "etykieta": "Część II – Nawłoć",
+          "tekst": "",
+          "sedno": "W Polsce Cezary zamiast szklanych domów widzi biedę, a w dworku ziemiańskim – lenistwo i zabawę.",
+          "punkty": [
+            "Polska rozczarowuje Cezarego – wszędzie bieda, jak w Rosji.",
+            "W Warszawie **Szymon Gajowiec**, dawny ukochany matki, pomaga mu. Cezary studiuje medycynę.",
+            "W **wojnie polsko-bolszewickiej** Cezary ratuje życie **Hipolitowi Wielosławskiemu**.",
+            "Hipolit zaprasza go do rodzinnego majątku **Nawłoć**. Tam czas płynie na ucztach, spacerach i flirtach.",
+            "Cezary poznaje **Karolinę**, **Wandę Orszeńską** i **Laurę Kościeniecką**.",
+            "Jedzie do **Chłodka** i widzi nędzę chłopów.",
+            "Wybucha romans z **Laurą**, narzeczoną **Barwickiego**.",
+            "Zazdrosna **Wanda** otruwa **Karolinę**. Cezary musi wyjechać z Nawłoci.",
+            "Laura ostatecznie wybiera **Barwickiego** i zrywa z Cezarym."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Legenda o szklanych domach",
-          "tekst": "Wraca ojciec. Postanawiają jechać do Polski. W drodze ojciec opowiada synowi o Polsce: inżynier Barwiński zbudował tam szklane domy, czyste, ciepłe i tanie, a ludzie żyją w dobrobycie. Ojciec umiera w podróży. Cezary przekracza granicę i widzi brudne, nędzne wsie. Szklanych domów nie ma."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Nawłoć",
-          "tekst": "Cezary walczy w wojnie z bolszewikami, gdzie zaprzyjaźnia się z Hipolitem Wielosławskim. Ten zabiera go do majątku Nawłoć. Cezary poznaje beztroskie życie ziemian: polowania, zabawy, kuligi. Zakochuje się w Laurze Kościenieckiej, narzeczonej bogatego Barwickiego. Flirtuje też z kuzynką Hipolita, Karusią, która kocha go naprawdę. Odwiedza Chłodek, gdzie widzi biedę parobków. Karusia umiera, a Laura zrywa z Cezarym. Cezary wyjeżdża."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Warszawa – dwa programy",
-          "tekst": "W Warszawie Cezary studiuje medycynę. Szymon Gajowiec, przyjaciel ojca, przedstawia mu program stopniowych reform i budowy państwa. Antoni Lulek, komunista, przekonuje do rewolucji na wzór rosyjski. Cezary krytykuje obie strony. W końcu przyłącza się do demonstracji robotników i idzie na jej czele w stronę Belwederu."
+          "etykieta": "Część III – Wiatr od wschodu",
+          "tekst": "",
+          "sedno": "Cezary w Warszawie słucha dwóch programów naprawy Polski i wybiera bunt.",
+          "punkty": [
+            "**Gajowiec**, urzędnik państwowy, przekonuje do stopniowych reform (ewolucja).",
+            "**Antoni Lulek**, komunista, namawia do rewolucji.",
+            "Cezary bierze udział w zebraniu komunistów i krytykuje obie strony.",
+            "Na końcu idzie na czele robotniczej manifestacji w stronę **Belwederu**."
+          ]
         }
       ]
     },
@@ -159,42 +219,47 @@
         {
           "typ": "punkt",
           "etykieta": "Cezary Baryka",
-          "tekst": "młody, impulsywny, buntowniczy, szuka prawdy i swojego miejsca. Dojrzewa wraz z wydarzeniami."
+          "tekst": "Młody, impulsywny, szuka swojego miejsca i prawdy o Polsce. Przechodzi drogę od rewolucjonisty przez rozczarowanie do buntu."
         },
         {
           "typ": "punkt",
           "etykieta": "Seweryn Baryka",
-          "tekst": "ojciec Cezarego, patriota i marzyciel, autor mitu o szklanych domach."
+          "tekst": "Ojciec Cezarego, patriota, twórca mitu szklanych domów."
         },
         {
           "typ": "punkt",
           "etykieta": "Jadwiga Baryka",
-          "tekst": "matka, kochająca i ofiarna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Hipolit Wielosławski",
-          "tekst": "przyjaciel, ziemianin z Nawłoci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Laura Kościeniecka",
-          "tekst": "piękna, kapryśna ziemianka, romans z Cezarym."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Karusia (Karolina Szarłatowiczówna)",
-          "tekst": "uboga krewna Wielosławskich, delikatna, naprawdę kocha Cezarego."
+          "tekst": "Matka, poświęca się dla syna i umiera."
         },
         {
           "typ": "punkt",
           "etykieta": "Szymon Gajowiec",
-          "tekst": "polityk, zwolennik reform."
+          "tekst": "Urzędnik, zwolennik reform (ewolucji)."
         },
         {
           "typ": "punkt",
           "etykieta": "Antoni Lulek",
-          "tekst": "komunista, zwolennik rewolucji."
+          "tekst": "Komunista, zwolennik rewolucji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hipolit Wielosławski",
+          "tekst": "Ziemianin, przyjaciel Cezarego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Laura Kościeniecka",
+          "tekst": "Piękna ziemianka, romans Cezarego."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Karolina Szarłatowiczówna",
+          "tekst": "Delikatna dziewczyna, ofiara Wandy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wanda Orszeńska",
+          "tekst": "Zazdrosna, otruwa Karolinę."
         }
       ]
     },
@@ -202,8 +267,14 @@
       "tytul": "Czas i miejsce akcji",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Lata 1905–1920 (początek XX w., I wojna, rewolucja, pierwsze lata niepodległości). Miejsca: Baku, polskie kresy, Nawłoć, Chłodek, Warszawa."
+          "typ": "punkt",
+          "etykieta": "Czas",
+          "tekst": "od ok. 1905 do 1920 roku (wojna, rewolucja, pierwsze lata niepodległej Polski)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miejsce",
+          "tekst": "Baku, Rosja, Warszawa, Nawłoć, Chłodek, Leniec."
         }
       ]
     },
@@ -211,8 +282,19 @@
       "tytul": "Geneza i gatunek",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Stefan Żeromski wydał „Przedwiośnie” w 1924 roku. Chciał ostrzec przed brakiem reform w odrodzonej Polsce. To **powieść polityczna**, a także **powieść o dojrzewaniu** (bildungsroman) i powieść realistyczna. Ma trzy części: „Szklane domy”, „Nawłoć”, „Wiatr od wschodu”."
+          "typ": "punkt",
+          "etykieta": "Powstanie",
+          "tekst": "Stefan Żeromski wydał powieść w 1924 roku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zamiar",
+          "tekst": "pokazać problemy odrodzonej Polski i zapytać o drogę jej rozwoju."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gatunek",
+          "tekst": "powieść polityczna, powieść o dojrzewaniu."
         }
       ]
     },
@@ -221,23 +303,41 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Obraz II Rzeczypospolitej",
-          "tekst": "Kraj jest biedny, zacofany, pełen nierówności społecznych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Rewolucja czy reforma",
-          "tekst": "Powieść przedstawia dwa programy naprawy państwa i ostrzega przed rewolucją."
+          "etykieta": "Ewolucja czy rewolucja?",
+          "tekst": "",
+          "sedno": "Powieść zestawia dwa sposoby naprawy Polski i nie rozstrzyga wprost.",
+          "punkty": [
+            "**Gajowiec:** stopniowe reformy, budowa państwa.",
+            "**Lulek:** rewolucja na wzór sowiecki.",
+            "Cezary krytykuje obie strony, ale idzie z manifestacją."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Mit szklanych domów",
-          "tekst": "Symbol marzeń o nowoczesnej, sprawiedliwej Polsce."
+          "tekst": "",
+          "sedno": "Marzenie o nowoczesnej Polsce zderza się z rzeczywistością.",
+          "punkty": [
+            "Szklane domy to symbol postępu, którego w Polsce brakuje."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Dojrzewanie",
-          "tekst": "Cezary szuka sensu i swojej drogi życiowej."
+          "etykieta": "Rewolucja",
+          "tekst": "",
+          "sedno": "Cezary widzi rewolucję z bliska i poznaje jej okrucieństwo.",
+          "punkty": [
+            "Śmierć matki i rzeź w Baku pokazują, że przemoc niszczy ludzi."
+          ]
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kwestia społeczna",
+          "tekst": "",
+          "sedno": "Polska jest krajem nierówności.",
+          "punkty": [
+            "Ziemiaństwo bawi się w Nawłoci, chłopi w Chłodku żyją w nędzy."
+          ]
         }
       ]
     },
@@ -245,8 +345,9 @@
       "tytul": "Znaczenie tytułu",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "„Przedwiośnie” to czas przed wiosną – Polska dopiero zaczyna się odradzać, przyszłość jest niepewna. Tytuł może też zapowiadać nadchodzącą „wiosnę” rewolucji."
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Przedwiośnie to czas przed wiosną – niepewny, zimny, ale zapowiadający zmiany. Tak wygląda Polska tuż po odzyskaniu niepodległości."
         }
       ]
     },

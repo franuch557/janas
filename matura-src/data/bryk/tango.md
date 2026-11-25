@@ -17,13 +17,31 @@ W domu Stomilów panuje chaos: rodzice, dawni awangardowi artyści, odrzucili ws
 
 ## Streszczenie szczegółowe
 ### Akt I – świat bez zasad
-W mieszkaniu Stomilów panuje bałagan: wszędzie kurz, katafalk, wózek dziecięcy, suknia ślubna. Babcia Eugenia gra w karty z wujem Eugeniuszem i Edkiem – prostakiem, który przyszedł nie wiadomo skąd i się zadomowił. Artur, syn Stomila i Eleonory, jest oburzony. Rodzice za młodu walczyli z konwenansami, a teraz nie ma już z czym walczyć – wszystko wolno. Artur domaga się porządku i norm, a babcię za grę w karty każe położyć na katafalku. Przekonuje wuja Eugeniusza, który tęskni za dawnym światem, by pomógł mu przywrócić tradycję.
+> Artur buntuje się przeciw rodzinie, w której nie ma żadnych zasad.
+- W mieszkaniu **Stomilów** panuje bałagan: wszędzie kurz, katafalk, wózek dziecięcy, suknia ślubna.
+- **Babcia Eugenia** gra w karty z wujem **Eugeniuszem** i Edkiem – prostakiem, który przyszedł nie wiadomo skąd i się zadomowił.
+- **Artur**, syn **Stomila** i **Eleonory**, jest oburzony.
+- Rodzice za młodu walczyli z konwenansami, a teraz nie ma już z czym walczyć – wszystko wolno.
+- **Artur** domaga się porządku i norm, a babcię za grę w karty każe położyć na katafalku.
+- Przekonuje wuja **Eugeniusza**, który tęskni za dawnym światem, by pomógł mu przywrócić tradycję.
 
 ### Akt II – przygotowania
-Artur postanawia wziąć tradycyjny ślub z kuzynką Alą, która nie rozumie, po co to wszystko. Odkrywa, że matka zdradza ojca z Edkiem, i namawia Stomila, by bronił honoru i zastrzelił rywala. Stomil nie jest zdolny do takiego czynu, a sytuacja kończy się farsą.
+> Artur chce przywrócić porządek przez tradycyjny ślub, ale ojciec nie broni honoru.
+- **Artur** postanawia wziąć tradycyjny ślub z kuzynką Alą, która nie rozumie, po co to wszystko.
+- Odkrywa, że matka zdradza ojca z Edkiem, i namawia **Stomila**, by bronił honoru i zastrzelił rywala.
+- **Stomil** nie jest zdolny do takiego czynu, a sytuacja kończy się farsą.
 
 ### Akt III – upadek idei
-Wszyscy są ubrani odświętnie i czekają na ślub, ale Artur przychodzi pijany. Zrozumiał, że powrót do starych form nie ma sensu, bo nikt w nie nie wierzy. Postanawia, że idea może dać tylko władza, a władza opiera się na sile – przy pomocy Edka chce rządzić rodziną. Babcia Eugenia umiera. Ala wyznaje, że zdradziła Artura z Edkiem, żeby go sprowokować. Artur w rozpaczy chce zabić Edka, ale ten zabija go jednym ciosem w kark. Edek ogłasza, że teraz on będzie rządził. Wuj Eugeniusz podporządkowuje się nowej władzy. Edek tańczy z nim tango „La Cumparsita”.
+> Artur ginie z ręki Edka, który przejmuje władzę nad rodziną.
+- Wszyscy są ubrani odświętnie i czekają na ślub, ale **Artur** przychodzi pijany.
+- Zrozumiał, że powrót do starych form nie ma sensu, bo nikt w nie nie wierzy.
+- Postanawia, że idea może dać tylko władza, a władza opiera się na sile – przy pomocy Edka chce rządzić rodziną.
+- **Babcia Eugenia** umiera.
+- Ala wyznaje, że zdradziła **Artura** z Edkiem, żeby go sprowokować.
+- **Artur** w rozpaczy chce zabić Edka, ale ten zabija go jednym ciosem w kark.
+- **Edek** ogłasza, że teraz on będzie rządził.
+- Wuj **Eugeniusz** podporządkowuje się nowej władzy.
+- **Edek** tańczy z nim tango „La Cumparsita”.
 
 ## Bohaterowie
 - **Artur** – 25-letni student medycyny, idealista i buntownik. Pragnie porządku i wartości, ale jego idee są puste. W końcu sięga po przemoc i przegrywa.
@@ -42,19 +60,20 @@ Sławomir Mrożek napisał „Tango” w 1964 roku, prapremiera odbyła się w 1
 
 ## Problematyka
 ### Kryzys wartości
-Bunt pokolenia rodziców zniszczył wszystkie normy. Nie ma już czym się kierować.
+- Bunt pokolenia rodziców zniszczył wszystkie normy.
+- Nie ma już czym się kierować.
 
 ### Forma i treść
-Same formy (stroje, ślub) bez wiary w wartości są puste.
+- Same formy (stroje, ślub) bez wiary w wartości są puste.
 
 ### Władza i przemoc
-Gdy brak idei, władzę przejmuje siła, czyli Edek – cham bez skrupułów.
+- Gdy brak idei, władzę przejmuje siła, czyli Edek – cham bez skrupułów.
 
 ### Konflikt pokoleń
-Artur buntuje się przeciw liberalnym rodzicom – paradoksalnie w imię tradycji.
+- Artur buntuje się przeciw liberalnym rodzicom – paradoksalnie w imię tradycji.
 
 ### Inteligencja a „chamstwo”
-Inteligencja (Artur, Stomil) przegrywa z bezmyślną siłą.
+- Inteligencja (Artur, Stomil) przegrywa z bezmyślną siłą.
 
 ## Znaczenie tytułu
 Tango to taniec, który kiedyś był skandaliczny i symbolizował bunt rodziców, a teraz tańczy go Edek jako zwycięzca. Tytuł podkreśla absurd i ironię zakończenia.

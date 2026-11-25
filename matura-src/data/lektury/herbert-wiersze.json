@@ -121,22 +121,34 @@
         {
           "typ": "punkt",
           "etykieta": "Wierność wartościom",
-          "tekst": "Trzeba być wiernym prawdzie i godności, nawet gdy to nic nie daje („Przesłanie Pana Cogito”)."
+          "tekst": "",
+          "punkty": [
+            "Trzeba być wiernym prawdzie i godności, nawet gdy to nic nie daje („Przesłanie Pana Cogito”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Opór wobec zła",
-          "tekst": "Sprzeciw wobec totalitaryzmu wynika ze smaku i poczucia estetyki („Potęga smaku”)."
+          "tekst": "",
+          "punkty": [
+            "Sprzeciw wobec totalitaryzmu wynika ze smaku i poczucia estetyki („Potęga smaku”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Polityka i idealizm",
-          "tekst": "Starcie praktycznego polityka z romantykiem („Tren Fortynbrasa”)."
+          "tekst": "",
+          "punkty": [
+            "Starcie praktycznego polityka z romantykiem („Tren Fortynbrasa”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Cierpienie i sztuka",
-          "tekst": "Sztuka rodzi się z cierpienia („Apollo i Marsjasz”)."
+          "tekst": "",
+          "punkty": [
+            "Sztuka rodzi się z cierpienia („Apollo i Marsjasz”)."
+          ]
         }
       ]
     },

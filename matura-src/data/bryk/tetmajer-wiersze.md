@@ -5,16 +5,24 @@ Tetmajer to najbardziej popularny poeta Młodej Polski. Jego wiersze wyrażają 
 
 ## Omówienie wierszy
 ### „Koniec wieku XIX”
-Podmiot pyta, jaką postawę przyjąć wobec świata: przekleństwo, ironię, pogardę, rozpacz, walkę, rezygnację, modlitwę, użycie. Na każdą propozycję odpowiada, że nie ma sensu. Kończy pytaniem bez odpowiedzi i zwieszeniem głowy. To manifest **dekadentyzmu** – bezradności człowieka u schyłku wieku.
+- **Podmiot** pyta, jaką postawę przyjąć wobec świata: przekleństwo, ironię, pogardę, rozpacz, walkę, rezygnację, modlitwę, użycie.
+- Na każdą propozycję odpowiada, że nie ma sensu.
+- Kończy pytaniem bez odpowiedzi i zwieszeniem głowy.
+- To manifest **dekadentyzmu** – bezradności człowieka u schyłku wieku.
 
 ### „Nie wierzę w nic”
-Podmiot nie wierzy w nic, nie pragnie niczego i niczego nie oczekuje. Jedynym ukojeniem jest **nirwana** – całkowite zapomnienie, „bezmyślność”, wieczny sen. Wiersz wyraża pesymizm i wpływ filozofii Schopenhauera.
+- **Podmiot** nie wierzy w nic, nie pragnie niczego i niczego nie oczekuje.
+- Jedynym ukojeniem jest **nirwana** – całkowite zapomnienie, „bezmyślność”, wieczny sen.
+- Wiersz wyraża pesymizm i wpływ filozofii Schopenhauera.
 
 ### „Hymn do Nirwany”
-Modlitewna prośba do Nirwany, by ukoiła ból istnienia. Podmiot pragnie rozpłynąć się w nicości, nie czuć i nie myśleć.
+- Modlitewna prośba do Nirwany, by ukoiła ból istnienia.
+- **Podmiot** pragnie rozpłynąć się w nicości, nie czuć i nie myśleć.
 
 ### „Melodia mgieł nocnych” (Nad Czarnym Stawem Gąsienicowym)
-Impresjonistyczny obraz Tatr nocą: mgły unoszą się nad stawem, wszystko jest ulotne, niewyraźne, zmienne. Mgły same mówią o sobie. To przykład **impresjonizmu** w poezji – oddania ulotnego wrażenia.
+- Impresjonistyczny obraz Tatr nocą: mgły unoszą się nad stawem, wszystko jest ulotne, niewyraźne, zmienne.
+- Mgły same mówią o sobie.
+- To przykład **impresjonizmu** w poezji – oddania ulotnego wrażenia.
 
 ## Bohaterowie
 - **Podmiot liryczny** – dekadent, człowiek zmęczony życiem, wrażliwy estetycznie, pesymista.
@@ -27,13 +35,13 @@ Kazimierz Przerwa-Tetmajer (1865–1940) wydawał kolejne serie „Poezji” od 
 
 ## Problematyka
 ### Dekadentyzm
-Poczucie schyłku, kryzysu wartości, bezsilności.
+- Poczucie schyłku, kryzysu wartości, bezsilności.
 
 ### Ucieczka od cierpienia
-Nirwana, sztuka, miłość i natura jako sposoby ucieczki od świata.
+- Nirwana, sztuka, miłość i natura jako sposoby ucieczki od świata.
 
 ### Przyroda
-Tatry pokazane w impresjonistycznych, ulotnych obrazach.
+- Tatry pokazane w impresjonistycznych, ulotnych obrazach.
 
 ## Znaczenie tytułu
 Tytuły nazywają nastrój lub ideę („Koniec wieku XIX”, „Nie wierzę w nic”).

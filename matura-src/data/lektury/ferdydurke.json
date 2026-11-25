@@ -113,22 +113,54 @@
         {
           "typ": "punkt",
           "etykieta": "Porwanie",
-          "tekst": "Józio, trzydziestoletni autor książki „Pamiętnik z okresu dojrzewania”, jest niepewny siebie. Odwiedza go profesor Pimko, belfer-kulturalny, który traktuje go jak chłopca. Zmniejsza go, „upupia” i zabiera do szkoły."
+          "tekst": "",
+          "sedno": "Profesor Pimko „upupia” trzydziestoletniego Józia i zabiera go z powrotem do szkoły.",
+          "punkty": [
+            "**Józio**, trzydziestoletni autor książki „Pamiętnik z okresu dojrzewania”, jest niepewny siebie.",
+            "Odwiedza go profesor **Pimko**, nauczyciel-kulturalny filolog, który traktuje go jak chłopca.",
+            "Zmniejsza go, „upupia” i zabiera do szkoły."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Szkoła",
-          "tekst": "W szkole uczniowie są niedojrzali i zdeformowani. Polonista Bladaczka powtarza, że „Słowacki wielkim poetą był” i „zachwyca”, bo tak trzeba. Uczeń Gałkiewicz mówi, że go nie zachwyca. Lekcja łaciny jest równie absurdalna. Między uczniem-idealistą Syfonem a buntownikiem Miętusem dochodzi do pojedynku na miny. Miętus „gwałci” Syfona przez uszy – wmawia mu wulgarne słowa – i Syfon się wiesza."
+          "tekst": "",
+          "sedno": "Szkoła okazuje się miejscem sztucznych form, a spór uczniów kończy się tragedią.",
+          "punkty": [
+            "W szkole uczniowie są niedojrzali i zdeformowani.",
+            "Polonista Bladaczka powtarza, że „Słowacki wielkim poetą był” i „zachwyca”, bo tak trzeba.",
+            "Uczeń Gałkiewicz mówi, że go nie zachwyca.",
+            "Lekcja łaciny jest równie absurdalna.",
+            "Między uczniem-idealistą **Syfonem** a buntownikiem **Miętusem** dochodzi do pojedynku na miny.",
+            "**Miętus** „gwałci” **Syfona** przez uszy – wmawia mu wulgarne słowa – a **Syfon** potem się wiesza."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Młodziakowie",
-          "tekst": "Pimko umieszcza Józia na stancji u inżynierostwa Młodziaków, ludzi „nowoczesnych”. Ich córka, pensjonarka Zuta, wydaje się Józiowi idealnie młoda i nowoczesna – zakochuje się w niej. Aby uwolnić się od jej formy, Józio wywołuje skandal: w nocy w pokoju Zuty spotykają się Kopyrda, Pimko i Młodziak. Wybucha bójka, Józio ucieka."
+          "tekst": "",
+          "sedno": "Józio zakochuje się w nowoczesnej Zucie i, żeby się uwolnić, wywołuje skandal.",
+          "punkty": [
+            "**Pimko** umieszcza **Józia** na stancji u inżynierostwa **Młodziaków**, ludzi „nowoczesnych”.",
+            "Ich córka, pensjonarka **Zuta**, wydaje się **Józiowi** idealnie młoda i nowoczesna – zakochuje się w niej.",
+            "Aby uwolnić się od jej formy, **Józio** wywołuje skandal: w nocy w pokoju Zuty spotykają się Kopyrda, **Pimko** i Młodziak.",
+            "Wybucha bójka, **Józio** ucieka."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Dworek",
-          "tekst": "Józio ucieka z Miętusem na wieś, bo Miętus chce bratać się z parobkiem. Trafiają do dworku wujostwa Hurleckich w Bolimowie. Ziemianie mają swoją formę – pańskość i dystans wobec chłopów. Gdy Miętus brata się z parobkiem Walkiem, cała hierarchia się sypie. Wuj uderza Walka, chłopi się buntują. Józio porywa kuzynkę Zosię i ucieka z nią, bo nie ma innego wyjścia. Wie jednak, że z jednej formy przeszedł w drugą."
+          "tekst": "",
+          "sedno": "Na wsi Józio poznaje formę ziemiańską i ucieka z niej tylko w kolejną formę.",
+          "punkty": [
+            "**Józio** ucieka z **Miętusem** na wieś, bo **Miętus** chce bratać się z parobkiem.",
+            "Trafiają do dworku wujostwa **Hurleckich** w Bolimowie.",
+            "Ziemianie mają swoją formę – pańskość i dystans wobec chłopów.",
+            "Gdy **Miętus** brata się z parobkiem Walkiem, cała hierarchia się sypie.",
+            "Wuj uderza Walka, chłopi się buntują.",
+            "**Józio** porywa kuzynkę **Zosię** i ucieka z nią, bo nie ma innego wyjścia.",
+            "Wie jednak, że z jednej formy przeszedł w drugą."
+          ]
         }
       ]
     },
@@ -201,22 +233,35 @@
         {
           "typ": "punkt",
           "etykieta": "Forma",
-          "tekst": "Ludzie nie są wolni – narzucają sobie role i zachowania („gęba”, „pupa”)."
+          "tekst": "",
+          "punkty": [
+            "Ludzie nie są wolni – narzucają sobie role i zachowania („gęba”, „pupa”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Niedojrzałość",
-          "tekst": "Społeczeństwo traktuje ludzi jak dzieci („upupianie”). Kultura i szkoła infantylizują."
+          "tekst": "",
+          "punkty": [
+            "Społeczeństwo traktuje ludzi jak dzieci („upupianie”).",
+            "Kultura i szkoła infantylizują."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Krytyka szkoły i kultury",
-          "tekst": "Szkoła uczy powtarzania frazesów, a nie myślenia."
+          "tekst": "",
+          "punkty": [
+            "Szkoła uczy powtarzania frazesów, a nie myślenia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Krytyka społeczeństwa",
-          "tekst": "Ośmieszone zostają inteligencja, „nowoczesność” i ziemiaństwo."
+          "tekst": "",
+          "punkty": [
+            "Ośmieszone zostają inteligencja, „nowoczesność” i ziemiaństwo."
+          ]
         }
       ]
     },

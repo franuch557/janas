@@ -1,59 +1,90 @@
-# Wesele
+# Wesele – opracowanie
 
 ## W skrócie
-Bronowice pod Krakowem, listopad 1900 roku. Na weselu poety (Pana Młodego) z chłopką spotykają się inteligencja z miasta i chłopi. W pierwszym akcie goście rozmawiają i widać, że się nie rozumieją. W nocy pojawiają się widma, które pokazują ukryte myśli bohaterów. Wernyhora daje Gospodarzowi złoty róg, który ma poderwać naród do powstania. Jasiek gubi go, schylając się po czapkę z piórami. Na koniec wszyscy tańczą w letargu przy muzyce Chochoła – zryw się nie udaje.
+- **O czym:** w bronowickiej chacie trwa wesele krakowskiego poety z chłopką. Na jedną noc spotykają się inteligencja i chłopi.
+- **Zwrot akcji:** po północy przychodzą zjawy, a Wernyhora daje Gospodarzowi złoty róg – sygnał do powstania.
+- **Jak się kończy:** Jasiek gubi róg, a weselnicy kręcą się w sennym, chocholim tańcu.
+- **Najważniejsza myśl:** społeczeństwo jest podzielone i bierne, nie jest gotowe do walki o niepodległość.
 
 ## Plan wydarzeń
-1. Akt I: rozmowy weselnych gości – Czepiec i Dziennikarz, Pan Młody i Panna Młoda, Rachela i Poeta.
-2. Rachela namawia, by zaprosić na wesele Chochoła.
-3. Akt II: pojawiają się osoby dramatu – Chochoł, Widmo, Stańczyk, Rycerz, Hetman, Upiór.
-4. Wernyhora przychodzi do Gospodarza i daje mu złoty róg.
-5. Gospodarz przekazuje róg Jaśkowi i każe mu zwołać ludzi.
-6. Akt III: chłopi zbierają się z kosami, czekają na znak.
-7. Jasiek wraca bez rogu – zgubił go.
-8. Chochoł gra, a wszyscy tańczą w letargu.
+1. Rozmowy weselników: Czepiec z Dziennikarzem o polityce, Radczyni z Kliminą, Pan Młody z Panną Młodą o miłości.
+2. Poeta flirtuje z Maryną, Żyd i Rachela rozmawiają z Panem Młodym i Poetą.
+3. Gospodarz i Ojciec chwalą wieś; Dziad wspomina rzeź galicyjską.
+4. Rachela zauważa Chochoła; młoda para zaprasza go na wesele.
+5. Po północy przychodzą zjawy: Chochoł, Widmo, Stańczyk, Rycerz, Hetman, Upiór.
+6. Wernyhora daje Gospodarzowi złoty róg i rozkazy.
+7. Jasiek jedzie zwołać chłopów.
+8. Chłopi z kosami czekają o świcie, a panowie nie rozumieją sytuacji.
+9. Jasiek wraca – zgubił złoty róg.
+10. Chochoł gra, a weselnicy tańczą w uśpieniu.
 
 ## Streszczenie szczegółowe
-### Akt I – goście
-W izbie tańczą goście. Dziennikarz rozmawia z Czepcem i drwi z chłopów, mówiąc, że powinni siedzieć w swojej wsi. Czepiec odpowiada, że chłopi są gotowi walczyć. Pan Młody zachwyca się wsią, ale nie zna jej prawdziwego życia. Panna Młoda marzy o szklanym raju. Rachela, Żydówka z miasta, zachwyca się poezją. Radczyni nie rozumie wiejskich spraw. Kobiety i mężczyźni flirtują. Na koniec Rachela proponuje, by zaprosić na wesele Chochoła, czyli krzak róży okryty słomą.
+### Akt I – rozmowy weselne
+> Rozmowy pokazują, że inteligencja i chłopi się nie rozumieją, choć bawią się razem.
+- **Czepiec** pyta **Dziennikarza** o politykę, a ten zbywa go: „niech na całym świecie wojna, byle polska wieś zaciszna”.
+- **Radczyni** wypytuje **Kliminę** o życie na wsi i niczego nie rozumie.
+- **Pan Młody** zachwyca się wsią i zamęcza **Pannę Młodą** rozmowami o miłości.
+- **Poeta** flirtuje z **Maryną**.
+- **Rachela**, córka Żyda, rozmawia z Poetą o poezji. Zauważa **Chochoła** – krzak róży okryty słomą.
+- Młoda para zaprasza Chochoła na wesele.
 
-### Akt II – osoby dramatu
-Pojawiają się zjawy, które odpowiadają ukrytym myślom gości. Marysi ukazuje się Widmo – dawny narzeczony. Dziennikarzowi – Stańczyk, który zarzuca mu bierność. Poecie – Rycerz, symbol dawnej potęgi. Panu Młodemu – Hetman Branicki, zdrajca. Dziadowi – Upiór Jakuba Szeli, przywódcy rzezi galicyjskiej. Gospodarza odwiedza Wernyhora, legendarny wieszcz. Mówi o przyszłym powstaniu i daje mu złoty róg. Gospodarz każe Jaśkowi objechać wsie i zwołać ludzi o świcie.
+### Akt II – zjawy
+> Każda zjawa przychodzi do tego, kto ma coś na sumieniu albo o czymś marzy.
+- **Chochoł** zjawia się przed **Isią**.
+- **Widmo** zmarłego narzeczonego zjawia się **Marysi**.
+- **Stańczyk** przychodzi do **Dziennikarza**, wypomina mu bierność i daje kaduceus.
+- **Rycerz** (Zawisza Czarny) zjawia się **Poecie** jako symbol dawnej siły.
+- **Hetman** (Branicki) przychodzi do **Pana Młodego**, który przegania go jako zdrajcę.
+- **Upiór** (Jakub Szela) przychodzi do **Dziada** – przypomina rzeź szlachty w 1846 roku.
+- **Wernyhora** zjawia się **Gospodarzowi**, daje mu **złoty róg** i nakazuje zwołać ludzi.
+- Gospodarz przekazuje róg **Jaśkowi**, który rusza zbierać chłopów.
 
-### Akt III – zawiedzione nadzieje
-Gospodarz zapomina o poleceniu, ale chłopi z kosami zbierają się przed chatą. Czekają na znak Wernyhory. Jasiek wraca – zgubił róg, gdy schylił się po swoją czapkę z pawimi piórami. Został mu tylko sznur. Chochoł gra na skrzypcach i śpiewa „Miałeś, chamie, złoty róg… ostał ci się ino sznur”, a wszyscy tańczą w sennym, chocholim tańcu.
+### Akt III – czekanie na znak
+> Chłopi są gotowi do walki, ale panowie zawodzą, a róg przepada.
+- **Czepiec** z kosą zbiera chłopów. Krytykuje panów za bierność.
+- **Gospodarz** budzi się i nic nie pamięta.
+- O świcie pole jest pełne chłopów w gotowości.
+- Wszyscy nasłuchują, czy przyjdzie **Wernyhora**.
+- **Jasiek** wraca bez rogu – zgubił go, gdy schylał się po czapkę z pawimi piórami.
+- **Chochoł** każe weselnikom tańczyć. Wszyscy kręcą się jak we śnie, a Jasiek słyszy tylko „ostał ci się ino sznur”.
 
 ## Bohaterowie
-- **Gospodarz** – Włodzimierz Tetmajer, malarz osiadły na wsi, ożeniony z chłopką. Dostaje od Wernyhory róg, ale nie potrafi działać.
-- **Pan Młody** – poeta Lucjan Rydel, zachwycony „chłopomanią”, nie rozumie prawdziwej wsi.
-- **Panna Młoda** – Jadwiga Mikołajczykówna, prosta, naiwna dziewczyna.
-- **Poeta** – Kazimierz Przerwa-Tetmajer, dekadent, pięknoduch.
-- **Dziennikarz** – Rudolf Starzewski, redaktor „Czasu”, cynik, sceptyk.
-- **Czepiec** – wójt, gotów walczyć, symbol siły chłopów.
-- **Jasiek** – drużba, gubi złoty róg; symbol chłopskiej zachłanności na błyskotki.
-- **Rachela** – Żydówka, romantyczna i egzaltowana.
-- **Chochoł** – słomiana osłona krzaka róży; symbol uśpienia, marazmu narodu, ale też nadziei na odrodzenie.
-- **Wernyhora** – legendarny wieszcz kozacki, symbol nadziei na wolność.
-- **Upiór, Stańczyk, Hetman, Rycerz** – widma związane z historią Polski.
+- **Gospodarz** – Malarz z Krakowa (pierwowzór: Włodzimierz Tetmajer), od lat żyje na wsi. Dostaje od Wernyhory złoty róg.
+- **Pan Młody** – Poeta z miasta (Lucjan Rydel), zachwycony wsią, ale jej nie rozumie.
+- **Panna Młoda** – Chłopka Jadwiga, prosta i szczera.
+- **Poeta** – Kazimierz Przerwa-Tetmajer, dekadent, flirciarz.
+- **Dziennikarz** – Redaktor konserwatywnej gazety, bierny i zgorzkniały.
+- **Czepiec** – Wójt, chłop gotowy do walki.
+- **Jasiek** – Drużba, gubi złoty róg.
+- **Rachela** – Córka Żyda, romantyczna marzycielka.
+- **Radczyni** – Mieszczka z Krakowa, patrzy na wieś z góry.
 
 ## Czas i miejsce akcji
-Bronowice Małe pod Krakowem, noc z 20 na 21 listopada 1900 roku. Akcja dzieje się w izbie i przed chatą Tetmajerów.
+- **Czas:** jedna noc, listopad 1900 roku.
+- **Miejsce:** chata Włodzimierza Tetmajera w Bronowicach pod Krakowem.
 
 ## Geneza i gatunek
-Stanisław Wyspiański napisał „Wesele” po prawdziwym weselu Lucjana Rydla z Jadwigą Mikołajczykówną (1900). Prapremiera odbyła się w 1901 roku w Krakowie. To **dramat symboliczny** (postaci i przedmioty mają ukryte znaczenia) i jednocześnie realistyczny obraz społeczeństwa. Wyspiański łączy realizm, fantastykę i elementy szopki krakowskiej.
+- **Powstanie:** dramat oparty na prawdziwym weselu Lucjana Rydla z Jadwigą Mikołajczykówną (1900). Wystawiony i wydany w 1901 roku.
+- **Gatunek:** dramat symboliczny – realistyczne wesele łączy się z fantastycznymi zjawami.
 
 ## Problematyka
-### Chłopomania
-Inteligencja zachwyca się wsią, ale jej nie rozumie. Między chłopami a inteligencją jest przepaść.
+### Podział społeczeństwa
+> Inteligencja i chłopi bawią się razem, ale dzieli ich przepaść.
+- Inteligencja idealizuje wieś (chłopomania), ale nie zna chłopów.
+- Chłopi pamiętają rzeź galicyjską i nie ufają panom.
 
-### Niemożność czynu
-Polacy marzą o wolności, ale nie potrafią działać. Złoty róg zostaje zgubiony.
+### Niemoc narodowa
+> Polacy marzą o powstaniu, ale nie potrafią działać.
+- Złoty róg gubi się przez głupotę i chciwość (pawie pióra).
+- Chocholi taniec to symbol uśpienia i marazmu.
 
-### Mity narodowe
-Wyspiański rozprawia się z mitami: romantycznym zrywem, sojuszem szlachty i chłopów, potęgą przeszłości.
-
-### Historia
-Widma przypominają o winach (rzeź galicyjska, zdrada Targowicy) i o dawnej wielkości.
+### Symbole
+> Dramat jest pełen symboli, które trzeba umieć odczytać.
+- **Złoty róg:** wezwanie do walki o niepodległość.
+- **Chochoł:** uśpienie, bierność, ale i nadzieja na odrodzenie.
+- **Czapka z pawimi piórami:** próżność i chęć zysku.
+- **Złota podkowa:** szczęście i dostatek.
+- **Sznur:** utracona szansa.
 
 ## Znaczenie tytułu
-„Wesele” to prawdziwe wesele w Bronowicach, a symbolicznie – próba połączenia inteligencji z chłopami, która się nie udaje.
+- Dosłownie: wesele w Bronowicach. Symbolicznie: próba połączenia inteligencji i chłopów, która się nie udaje.

@@ -105,22 +105,34 @@
         {
           "typ": "punkt",
           "etykieta": "Kryzys wartości",
-          "tekst": "Wojna zniszczyła pojęcia dobra i zła („Ocalony”)."
+          "tekst": "",
+          "punkty": [
+            "Wojna zniszczyła pojęcia dobra i zła („Ocalony”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Doświadczenie ocalonych",
-          "tekst": "Ocaleni czują winę i pustkę."
+          "tekst": "",
+          "punkty": [
+            "Ocaleni czują winę i pustkę."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Odbudowa świata",
-          "tekst": "Trzeba nauczyć się na nowo podstawowych rzeczy: że chleb jest dobry, a człowiek ważny („W środku życia”)."
+          "tekst": "",
+          "punkty": [
+            "Trzeba nauczyć się na nowo podstawowych rzeczy: że chleb jest dobry, a człowiek ważny („W środku życia”)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pamięć o ofiarach",
-          "tekst": "Przedmioty po ofiarach mówią o zbrodni („Warkoczyk”)."
+          "tekst": "",
+          "punkty": [
+            "Przedmioty po ofiarach mówią o zbrodni („Warkoczyk”)."
+          ]
         }
       ]
     },

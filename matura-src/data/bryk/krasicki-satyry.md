@@ -5,16 +5,25 @@ Krasicki w satyrach wyśmiewa wady Polaków i szlachty XVIII wieku: pijaństwo, 
 
 ## Omówienie wierszy
 ### „Do króla”
-Satyryk udaje, że wytyka królowi Stanisławowi Augustowi „wady”: że jest Polakiem, a nie cudzoziemcem; że jest młody; że nie pochodzi z dynastii; że lubi naukę i sztukę; że jest łagodny i dobry. Każdy z tych zarzutów to w rzeczywistości zaleta, a ośmieszeni zostają szlachcice, którzy je stawiają. To przykład **ironii**: mówi się jedno, a myśli coś przeciwnego.
+- **Satyryk** udaje, że wytyka królowi **Stanisławowi Augustowi** „wady”: że jest Polakiem, a nie cudzoziemcem; że jest młody; że nie pochodzi z dynastii; że lubi naukę i sztukę; że jest łagodny i dobry.
+- Każdy z tych zarzutów to w rzeczywistości zaleta, a ośmieszeni zostają szlachcice, którzy je stawiają.
+- To przykład **ironii**: mówi się jedno, a myśli coś przeciwnego.
 
 ### „Pijaństwo”
-Dialog dwóch szlachciców. Jeden opowiada, jak upił się na imieninach i jak źle się czuje. Obiecuje, że przestanie pić, ale na koniec idzie się napić „na lekarstwo”. Satyra pokazuje nałóg i jego skutki: kłótnie, utratę zdrowia i majątku.
+- Dialog dwóch szlachciców.
+- Jeden opowiada, jak upił się na imieninach i jak źle się czuje.
+- Obiecuje, że przestanie pić, ale na koniec idzie się napić „na lekarstwo”.
+- **Satyra** pokazuje nałóg i jego skutki: kłótnie, utratę zdrowia i majątku.
 
 ### „Żona modna”
-Szlachcic żeni się z modną panną. Żona przenosi się na wieś z miejskimi zwyczajami: wymienia meble, sprowadza drogie rzeczy, robi z domu salon. Mąż szybko traci majątek. Satyra wyśmiewa naśladowanie obcych mód i rozrzutność.
+- **Szlachcic** żeni się z modną panną.
+- Żona przenosi się na wieś z miejskimi zwyczajami: wymienia meble, sprowadza drogie rzeczy, robi z domu salon.
+- Mąż szybko traci majątek.
+- **Satyra** wyśmiewa naśladowanie obcych mód i rozrzutność.
 
 ### „Świat zepsuty”
-Poeta porównuje dawne cnoty Polaków z obecnym zepsuciem: nie ma już uczciwości, wiary ani szacunku. Na końcu ostrzega, że państwo może upaść jak okręt bez sternika.
+- Poeta porównuje dawne cnoty Polaków z obecnym zepsuciem: nie ma już uczciwości, wiary ani szacunku.
+- Na końcu ostrzega, że państwo może upaść jak okręt bez sternika.
 
 ## Bohaterowie
 - **Satyryk** – narrator, moralista, ironiczny obserwator.
@@ -29,16 +38,16 @@ Krasicki wydał „Satyry” w latach 1779 i 1784. **Satyra** to utwór, który 
 
 ## Problematyka
 ### Wady szlachty
-Pijaństwo, rozrzutność, lenistwo, prywata.
+- Pijaństwo, rozrzutność, lenistwo, prywata.
 
 ### Dydaktyzm
-Satyry mają uczyć i poprawiać obyczaje – to typowe dla oświecenia.
+- Satyry mają uczyć i poprawiać obyczaje – to typowe dla oświecenia.
 
 ### Troska o państwo
-Krasicki ostrzega, że zepsucie obywateli prowadzi do upadku kraju.
+- Krasicki ostrzega, że zepsucie obywateli prowadzi do upadku kraju.
 
 ### Ironia
-Najważniejszy środek satyry – udawane pochwały lub udawane zarzuty.
+- Najważniejszy środek satyry – udawane pochwały lub udawane zarzuty.
 
 ## Znaczenie tytułu
 „Satyry” to nazwa gatunku; pojedyncze utwory mają tytuły wskazujące wadę lub adresata.

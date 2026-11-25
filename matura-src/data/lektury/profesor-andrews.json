@@ -175,22 +175,34 @@
         {
           "typ": "punkt",
           "etykieta": "Obcość",
-          "tekst": "Człowiek bez języka i znajomości realiów jest bezradny."
+          "tekst": "",
+          "punkty": [
+            "Człowiek bez języka i znajomości realiów jest bezradny."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Stan wojenny",
-          "tekst": "Rzeczywistość PRL ukazana z perspektywy obcokrajowca jako absurdalna i przerażająca."
+          "tekst": "",
+          "punkty": [
+            "Rzeczywistość PRL ukazana z perspektywy obcokrajowca jako absurdalna i przerażająca."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Granice wiedzy",
-          "tekst": "Teorie psychologiczne nie pomagają zrozumieć realnego świata."
+          "tekst": "",
+          "punkty": [
+            "Teorie psychologiczne nie pomagają zrozumieć realnego świata."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ludzka życzliwość",
-          "tekst": "Pomoc przychodzi od zwykłego człowieka."
+          "tekst": "",
+          "punkty": [
+            "Pomoc przychodzi od zwykłego człowieka."
+          ]
         }
       ]
     },

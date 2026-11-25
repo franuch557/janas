@@ -14,13 +14,13 @@ Maria Pawlikowska-Jasnorzewska (1891–1945) była związana ze Skamandrem. Wyda
 
 ## Problematyka
 ### Miłość
-Najważniejszy temat; miłość jest zmysłowa, delikatna, ale nietrwała.
+- Najważniejszy temat; miłość jest zmysłowa, delikatna, ale nietrwała.
 
 ### Przemijanie
-Czas niszczy uczucia, urodę i młodość.
+- Czas niszczy uczucia, urodę i młodość.
 
 ### Kobiecość
-Wiersze pokazują przeżycia kobiety, jej pragnienia i lęki.
+- Wiersze pokazują przeżycia kobiety, jej pragnienia i lęki.
 
 ## Znaczenie tytułu
 Tytuły są krótkie i nazywają motyw wiersza.

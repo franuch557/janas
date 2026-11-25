@@ -19,25 +19,53 @@ Lata 1655–1657, potop szwedzki. Młody, porywczy chorąży Andrzej Kmicic zako
 
 ## Streszczenie szczegółowe
 ### Kmicic i Oleńka
-Andrzej Kmicic, chorąży orszański, ma według testamentu dziadka Oleńki zostać jej mężem. Przyjeżdża do Wodoktów i zakochuje się w niej. Jego kompania, hulaszczy towarzysze, zachowuje się skandalicznie. Okoliczna szlachta, Butrymowie, zabija ich po bijatyce w karczmie. Kmicic w zemście pali zaścianek Wołmontowicze. Oleńka ukrywa się przed nim, a on porywa ją siłą.
+> Porywczy Kmicic zakochuje się w Oleńce, ale swoją awanturniczością traci jej szacunek.
+- **Andrzej Kmicic**, chorąży orszański, ma według testamentu dziadka **Oleńki** zostać jej mężem.
+- Przyjeżdża do Wodoktów i zakochuje się w niej.
+- Jego kompania, hulaszczy towarzysze, zachowuje się skandalicznie.
+- Okoliczna szlachta, Butrymowie, zabija ich po bijatyce w karczmie.
+- **Kmicic** w zemście pali zaścianek Wołmontowicze.
+- **Oleńka** ukrywa się przed nim, a on porywa ją siłą.
 
 ### Pojedynek z Wołodyjowskim
-Pan Michał Wołodyjowski uwalnia Oleńkę i w pojedynku ciężko rani Kmicica. Potem jednak oszczędza go i daje mu szansę na poprawę.
+> Wołodyjowski pokonuje Kmicica w pojedynku, ale daruje mu życie.
+- Pan **Michał Wołodyjowski** uwalnia **Oleńkę** i w pojedynku ciężko rani **Kmicica**.
+- Potem jednak oszczędza go i daje mu szansę na poprawę.
 
 ### Zdrada Radziwiłłów
-Szwedzi napadają na Polskę. Hetman wielki litewski Janusz Radziwiłł podpisuje w Kiejdanach ugodę ze Szwedami. Kmicic, który wcześniej złożył mu przysięgę na krucyfiks, zostaje przy nim i uważa go za męża stanu. Oleńka, wierna królowi, uważa go teraz za zdrajcę.
+> Kmicic zostaje przy Januszu Radziwille, który przechodzi na stronę Szwedów.
+- Szwedzi napadają na Polskę.
+- Hetman wielki litewski **Janusz Radziwiłł** podpisuje w Kiejdanach ugodę ze Szwedami.
+- **Kmicic**, który wcześniej złożył mu przysięgę na krucyfiks, zostaje przy nim i uważa go za męża stanu.
+- **Oleńka**, wierna królowi, uważa go teraz za zdrajcę.
 
 ### Przemiana Kmicica
-Kmicic, podsłuchawszy rozmowę księcia Bogusława, rozumie, że Radziwiłłowie dbają tylko o siebie. Porywa Bogusława, by oddać go w ręce stronników króla, ale ten zręcznie ucieka i rani go. Kmicic postanawia odkupić winy. Przyjmuje nazwisko Babinicz.
+> Kmicic rozumie, że Radziwiłłowie są zdrajcami, i jako Babinicz postanawia odkupić winy.
+- **Kmicic**, podsłuchawszy rozmowę księcia **Bogusława**, rozumie, że **Radziwiłłowie** dbają tylko o siebie.
+- Porywa **Bogusława**, by oddać go w ręce stronników króla, ale ten zręcznie ucieka i rani go.
+- **Kmicic** postanawia odkupić winy.
+- Przyjmuje nazwisko Babinicz.
 
 ### Obrona Jasnej Góry
-Kmicic przyjeżdża do Częstochowy i ostrzega przeora, księdza Kordeckiego, przed atakiem. Szwedzi oblegają klasztor. Kmicic nocą wychodzi z twierdzy i wysadza największe szwedzkie działo – kolubrynę. Zostaje ranny i schwytany. Kuklinowski torturuje go ogniem, ale Kmicic ucieka. Obrona Jasnej Góry staje się symbolem oporu całego narodu.
+> Kmicic bohatersko walczy w obronie klasztoru, który staje się symbolem oporu.
+- **Kmicic** przyjeżdża do Częstochowy i ostrzega przeora, księdza **Kordeckiego**, przed atakiem.
+- Szwedzi oblegają klasztor.
+- **Kmicic** nocą wychodzi z twierdzy i wysadza największe szwedzkie działo – kolubrynę.
+- Zostaje ranny i schwytany.
+- Kuklinowski torturuje go ogniem, ale **Kmicic** ucieka.
+- Obrona Jasnej Góry staje się symbolem oporu całego narodu.
 
 ### Ratunek króla
-Kmicic z Tatarami przeprowadza króla Jana Kazimierza z wygnania przez Śląsk. W wąwozie broni go przed Szwedami i zostaje ciężko ranny. Wyznaje królowi całą prawdę o sobie i dostaje przebaczenie.
+> Kmicic ratuje życie Jana Kazimierza i dostaje przebaczenie.
+- **Kmicic** z niewielkim oddziałem przeprowadza króla **Jana Kazimierza** ze Śląska do kraju.
+- W wąwozie broni go przed Szwedami i zostaje ciężko ranny.
+- Wyznaje królowi całą prawdę o sobie i dostaje przebaczenie.
 
 ### Walki i powrót
-Kmicic walczy pod Warszawą i na Litwie przeciw Bogusławowi Radziwiłłowi, który chciał zdobyć Oleńkę. Na koniec w kościele w Upicie odczytany zostaje list królewski: Babinicz to Kmicic, bohater wojny. Oleńka mu przebacza, biorą ślub.
+> Kmicic walczy z Bogusławem Radziwiłłem, zostaje oczyszczony z win i żeni się z Oleńką.
+- **Kmicic** walczy pod Warszawą i na Litwie przeciw **Bogusławowi Radziwiłłowi**, który chciał zdobyć **Oleńkę**.
+- Na koniec w kościele w Upicie odczytany zostaje list królewski: Babinicz to **Kmicic**, bohater wojny.
+- **Oleńka** mu przebacza, biorą ślub.
 
 ## Bohaterowie
 - **Andrzej Kmicic** – młody, porywczy, odważny, honorowy szlachcic. Przechodzi przemianę od warchoła do bohatera narodowego.
@@ -57,19 +85,19 @@ Henryk Sienkiewicz drukował „Potop” w odcinkach w latach 1884–1886. To dr
 
 ## Problematyka
 ### Patriotyzm
-Miłość ojczyzny i obrona wiary łączą naród w walce z wrogiem.
+- Miłość ojczyzny i obrona wiary łączą naród w walce z wrogiem.
 
 ### Przemiana bohatera
-Kmicic przez czyny i cierpienie odkupuje winy – to motyw nawrócenia.
+- Kmicic przez czyny i cierpienie odkupuje winy – to motyw nawrócenia.
 
 ### Zdrada i wierność
-Radziwiłłowie zdradzają, a ludzie prości i szlachta wierni są królowi.
+- Radziwiłłowie zdradzają, a ludzie prości i szlachta wierni są królowi.
 
 ### Wiara
-Obrona Jasnej Góry pokazuje znaczenie wiary katolickiej dla Polaków.
+- Obrona Jasnej Góry pokazuje znaczenie wiary katolickiej dla Polaków.
 
 ### Honor
-Honor i dane słowo mają dla bohaterów ogromne znaczenie.
+- Honor i dane słowo mają dla bohaterów ogromne znaczenie.
 
 ## Znaczenie tytułu
 „Potop” to najazd szwedzki, który zalał Polskę jak powódź.

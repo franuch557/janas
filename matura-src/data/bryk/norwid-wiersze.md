@@ -5,19 +5,30 @@ Norwid to poeta późnego romantyzmu, niedoceniany za życia, odkryty dopiero w 
 
 ## Omówienie wierszy
 ### „Fortepian Szopena”
-W 1863 roku carscy żołnierze wyrzucili przez okno fortepian Chopina z mieszkania w Warszawie. Poeta wspomina ostatnie spotkanie z chorym kompozytorem, potem opisuje jego muzykę jako doskonałe połączenie ideału i polskiej, ludowej prostoty. Na końcu ukazuje zniszczenie fortepianu. Puenta: „Ideał – sięgnął bruku”, a przyszłe pokolenia („wnuki”) na tym skorzystają. Wiersz mówi o barbarzyństwie wobec sztuki i o tym, że ideał musi zejść na ziemię, by zmienić życie.
+- W 1863 roku carscy żołnierze wyrzucili przez okno fortepian **Chopina** z mieszkania w Warszawie.
+- Poeta wspomina ostatnie spotkanie z chorym kompozytorem, potem opisuje jego muzykę jako doskonałe połączenie ideału i polskiej, ludowej prostoty.
+- Na końcu ukazuje zniszczenie fortepianu.
+- Puenta: „Ideał – sięgnął bruku”, a przyszłe pokolenia („wnuki”) na tym skorzystają.
+- Wiersz mówi o barbarzyństwie wobec sztuki i o tym, że ideał musi zejść na ziemię, by zmienić życie.
 
 ### „Moja piosnka (II)”
-Podmiot tęskni do kraju, gdzie szanuje się chleb, okruszynę podnosi się z ziemi „przez uszanowanie dla darów Nieba”, gdzie bocianom nie burzy się gniazd i ludzie witają się słowami „Bądź pochwalony!”. Na końcu pisze, że tęskni do ludzi szczerych – „Tak – tak, nie – nie”. To tęsknota emigranta za prostą, uczciwą ojczyzną i tradycją.
+- **Podmiot** tęskni do kraju, gdzie szanuje się chleb, okruszynę podnosi się z ziemi „przez uszanowanie dla darów Nieba”, gdzie bocianom nie burzy się gniazd i ludzie witają się słowami „Bądź pochwalony!”.
+- Na końcu pisze, że tęskni do ludzi szczerych – „Tak – tak, nie – nie”.
+- To tęsknota emigranta za prostą, uczciwą ojczyzną i tradycją.
 
 ### „W Weronie”
-Nad ruinami domów Kapuletich i Montekich spada gwiazda – to łza nieba nad losem Romea i Julii. Ludzie mówią jednak, że to tylko kamień, bo nie rozumieją uczuć. Wiersz przeciwstawia poetycką wrażliwość obojętnemu, praktycznemu światu.
+- Nad ruinami domów Kapuletich i Montekich spada gwiazda – to łza nieba nad losem Romea i Julii.
+- Ludzie mówią jednak, że to tylko kamień, bo nie rozumieją uczuć.
+- Wiersz przeciwstawia poetycką wrażliwość obojętnemu, praktycznemu światu.
 
 ### „Bema pamięci żałobny rapsod”
-Opis uroczystego pogrzebu generała Józefa Bema, bohatera powstania węgierskiego. Kondukt idzie „od grodu do grodu”, a idea, za którą walczył, przetrwa i porywa następne pokolenia.
+- Opis uroczystego pogrzebu generała Józefa Bema, bohatera powstania węgierskiego.
+- Kondukt idzie „od grodu do grodu”, a idea, za którą walczył, przetrwa i porywa następne pokolenia.
 
 ### „Coś ty Atenom zrobił, Sokratesie…”
-Wiersz powstał po śmierci Mickiewicza. Poeta wylicza wielkich ludzi – m.in. Sokratesa, Dantego, Kolumba, Kościuszkę, Napoleona i Mickiewicza – których współcześni skrzywdzili albo odrzucili, a docenili dopiero po śmierci. Puenta: uznanie i pomniki przychodzą za późno, gdy twórca już nie żyje.
+- Wiersz powstał po śmierci Mickiewicza.
+- Poeta wylicza wielkich ludzi – m.in. Sokratesa, Dantego, Kolumba, Kościuszkę, Napoleona i Mickiewicza – których współcześni skrzywdzili albo odrzucili, a docenili dopiero po śmierci.
+- Puenta: uznanie i pomniki przychodzą za późno, gdy twórca już nie żyje.
 
 ## Bohaterowie
 - **Podmiot liryczny** – myśliciel, artysta, wygnaniec; ironiczny i refleksyjny.
@@ -31,16 +42,16 @@ Cyprian Kamil Norwid (1821–1883) zebrał wiele wierszy w tomie „Vade-mecum�
 
 ## Problematyka
 ### Sztuka i artysta
-Sztuka ma moc przemiany, ale świat jej nie rozumie i niszczy ją.
+- Sztuka ma moc przemiany, ale świat jej nie rozumie i niszczy ją.
 
 ### Ojczyzna i tradycja
-Norwid tęskni za Polską prostych wartości – szacunku dla chleba, życzliwości, prawdomówności.
+- Norwid tęskni za Polską prostych wartości – szacunku dla chleba, życzliwości, prawdomówności.
 
 ### Historia i niewdzięczność
-Wielcy ludzie są niedoceniani za życia.
+- Wielcy ludzie są niedoceniani za życia.
 
 ### Praca
-Norwid podkreśla wartość pracy, która uszlachetnia człowieka.
+- Norwid podkreśla wartość pracy, która uszlachetnia człowieka.
 
 ## Znaczenie tytułu
 Tytuły często wskazują przedmiot lub miejsce, które staje się symbolem (fortepian, Werona).

@@ -18,34 +18,69 @@ Jan Parandowski opowiada najważniejsze mity greckie: o powstaniu świata i bog�
 
 ## Streszczenie szczegółowe
 ### Powstanie świata
-Na początku był Chaos. Z niego wyłoniła się Gaja (Ziemia), która zrodziła Uranosa (Niebo). Ich dziećmi byli tytani. Najmłodszy, Kronos, obalił ojca i pożerał własne dzieci, bojąc się utraty władzy. Rea ocaliła Zeusa, podając mężowi kamień w pieluchach. Zeus dorósł, zmusił Kronosa, by zwrócił rodzeństwo, i po wojnie z tytanami objął władzę nad światem.
+> Z Chaosu powstaje świat, a władzę po walkach z tytanami obejmuje Zeus.
+- Na początku był Chaos.
+- Z niego wyłoniła się Gaja (Ziemia), która zrodziła Uranosa (Niebo).
+- Ich dziećmi byli tytani.
+- Najmłodszy, Kronos, obalił ojca i pożerał własne dzieci, bojąc się utraty władzy.
+- Rea ocaliła **Zeusa**, podając mężowi kamień w pieluchach.
+- **Zeus** dorósł, zmusił Kronosa, by zwrócił rodzeństwo, i po wojnie z tytanami objął władzę nad światem.
 
 ### Prometeusz
-Tytan Prometeusz ulepił ludzi z gliny i ukradł dla nich ogień z Olimpu. Zeus ukarał go: przykuł do skały na Kaukazie, gdzie orzeł wyjadał mu wątrobę, która odrastała. Prometeusz stał się symbolem buntu w imię dobra ludzi (prometeizm).
+> Prometeusz kradnie bogom ogień dla ludzi i zostaje okrutnie ukarany.
+- Tytan **Prometeusz** ulepił ludzi z gliny i ukradł dla nich ogień z Olimpu.
+- **Zeus** ukarał go: przykuł do skały na Kaukazie, gdzie orzeł wyjadał mu wątrobę, która odrastała.
+- **Prometeusz** stał się symbolem buntu w imię dobra ludzi (prometeizm).
 
 ### Pandora i potop
-Bogowie stworzyli Pandorę i dali jej puszkę, której nie wolno było otwierać. Gdy ją otworzyła, wyleciały wszystkie nieszczęścia świata; na dnie została nadzieja. Gdy ludzie stali się źli, Zeus zesłał potop. Ocaleli tylko Deukalion i Pyrra, którzy odnowili ludzkość, rzucając za siebie kamienie.
+> Pandora wypuszcza na świat nieszczęścia, a bogowie zsyłają potop.
+- Bogowie stworzyli Pandorę i dali jej puszkę, której nie wolno było otwierać.
+- Gdy ją otworzyła, wyleciały wszystkie nieszczęścia świata; na dnie została nadzieja.
+- Gdy ludzie stali się źli, **Zeus** zesłał potop.
+- Ocaleli tylko Deukalion i Pyrra, którzy odnowili ludzkość, rzucając za siebie kamienie.
 
 ### Demeter i Kora
-Hades porwał Korę (Persefonę), córkę bogini urodzaju Demeter. Zrozpaczona matka przestała dbać o ziemię i zapanował głód. Zeus ustalił, że Kora część roku spędza z matką, a część w podziemiu. Tak Grecy tłumaczyli pory roku. To mit o miłości matczynej.
+> Rozpacz Demeter po porwaniu córki tłumaczy zmianę pór roku.
+- **Hades** porwał Korę (Persefonę), córkę bogini urodzaju Demeter.
+- Zrozpaczona matka przestała dbać o ziemię i zapanował głód.
+- **Zeus** ustalił, że Kora część roku spędza z matką, a część w podziemiu.
+- Tak Grecy tłumaczyli pory roku.
+- To mit o miłości matczynej.
 
 ### Orfeusz i Eurydyka
-Śpiewak Orfeusz zszedł do Hadesu po zmarłą żonę Eurydykę. Swoją muzyką wzruszył władców podziemi i mógł ją zabrać pod warunkiem, że się nie obejrzy. Tuż przed wyjściem obejrzał się i stracił ją na zawsze.
+> Orfeusz schodzi po ukochaną do Hadesu, ale traci ją, bo się obejrzał.
+- Śpiewak Orfeusz zszedł do **Hadesu** po zmarłą żonę Eurydykę.
+- Swoją muzyką wzruszył władców podziemi i mógł ją zabrać pod warunkiem, że się nie obejrzy.
+- Tuż przed wyjściem obejrzał się i stracił ją na zawsze.
 
 ### Niobe i Narcyz
-Niobe chełpiła się, że ma więcej dzieci niż Latona. Apollo i Artemida zabili jej dzieci, a ona z bólu zamieniła się w skałę – to symbol matki w cierpieniu. Narcyz zakochał się we własnym odbiciu i umarł z tęsknoty – stąd narcyzm.
+> Pycha i zapatrzenie w siebie zostają surowo ukarane.
+- Niobe chełpiła się, że ma więcej dzieci niż Latona.
+- **Apollo** i Artemida zabili jej dzieci, a ona z bólu zamieniła się w skałę – to symbol matki w cierpieniu.
+- Narcyz zakochał się we własnym odbiciu i umarł z tęsknoty – stąd narcyzm.
 
 ### Herakles i Tezeusz
-Herakles, syn Zeusa, wykonał dwanaście prac, m.in. zabił lwa nemejskiego i hydrę lernejską. Tezeusz zabił Minotaura w labiryncie na Krecie; z labiryntu wyprowadziła go nić Ariadny.
+> Najwięksi herosi pokonują potwory dzięki sile i odwadze.
+- **Herakles**, syn **Zeusa**, wykonał dwanaście prac, m.in. zabił lwa nemejskiego i hydrę lernejską.
+- **Tezeusz** zabił Minotaura w labiryncie na Krecie; z labiryntu wyprowadziła go nić Ariadny.
 
 ### Dedal i Ikar
-Dedal, budowniczy labiryntu, uciekł z Krety z synem Ikarem na skrzydłach z piór i wosku. Ikar wbrew przestrogom wzleciał zbyt blisko słońca, wosk się stopił i chłopiec spadł do morza. To mit o marzeniach i pysze młodości.
+> Ikar ginie, bo nie słucha ojca i leci zbyt wysoko.
+- Dedal, budowniczy labiryntu, uciekł z Krety z synem Ikarem na skrzydłach z piór i wosku.
+- Ikar wbrew przestrogom wzleciał zbyt blisko słońca, wosk się stopił i chłopiec spadł do morza.
+- To mit o marzeniach i pysze młodości.
 
 ### Rody przeklęte
-Tantal za zbrodnie cierpi w Hadesie wieczny głód i pragnienie (męki Tantala). Klątwa ciąży nad Atrydami (Agamemnon, Orestes) i nad Labdakidami: Edyp nieświadomie zabija ojca i żeni się z matką, a jego dzieci giną w walkach o Teby.
+> Klątwy ciążą na kolejnych pokoleniach Labdakidów i Atrydów.
+- Tantal za zbrodnie cierpi w **Hadesie** wieczny głód i pragnienie (męki Tantala).
+- Klątwa ciąży nad Atrydami (Agamemnon, Orestes) i nad Labdakidami: Edyp nieświadomie zabija ojca i żeni się z matką, a jego dzieci giną w walkach o Teby.
 
 ### Wojna trojańska i Odyseusz
-Eris rzuciła złote jabłko „dla najpiękniejszej”. Parys przyznał je Afrodycie i w nagrodę zdobył Helenę, co wywołało wojnę z Troją. Troję zdobyto podstępem drewnianego konia. Odyseusz przez dziesięć lat wracał do Itaki, do wiernej Penelopy.
+> Spór o jabłko niezgody prowadzi do wojny, a Odyseusz latami wraca do domu.
+- Eris rzuciła złote jabłko „dla najpiękniejszej”.
+- Parys przyznał je **Afrodycie** i w nagrodę zdobył Helenę, co wywołało wojnę z Troją.
+- Troję zdobyto podstępem drewnianego konia.
+- **Odyseusz** przez dziesięć lat wracał do Itaki, do wiernej Penelopy.
 
 ## Bohaterowie
 - **Zeus** – władca bogów i ludzi, bóg nieba i piorunów.
@@ -66,13 +101,14 @@ Jan Parandowski wydał „Mitologię” w 1924 roku. To popularnonaukowe opracow
 
 ## Problematyka
 ### Wyjaśnianie świata
-Mity tłumaczą pochodzenie świata, ludzi, pór roku i zjawisk natury.
+- Mity tłumaczą pochodzenie świata, ludzi, pór roku i zjawisk natury.
 
 ### Relacje bogów i ludzi
-Bogowie są potężni, ale mają ludzkie wady: zazdrość, gniew, próżność. Karzą pychę (hybris).
+- Bogowie są potężni, ale mają ludzkie wady: zazdrość, gniew, próżność.
+- Karzą pychę (hybris).
 
 ### Archetypy
-Mity stworzyły uniwersalne wzorce: buntownika (Prometeusz), matki (Demeter, Niobe), artysty (Orfeusz), daremnej pracy (Syzyf).
+- Mity stworzyły uniwersalne wzorce: buntownika (Prometeusz), matki (Demeter, Niobe), artysty (Orfeusz), daremnej pracy (Syzyf).
 
 ## Znaczenie tytułu
 Mitologia to zbiór mitów danego ludu, a także nauka o nich.

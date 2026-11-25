@@ -15,16 +15,16 @@ Bolesław Leśmian (1877–1937) wydał m.in. tomy „Łąka” (1920) i „Nap�
 
 ## Problematyka
 ### Miłość i natura
-Miłość jest zmysłowa i jednoczy człowieka z przyrodą.
+- Miłość jest zmysłowa i jednoczy człowieka z przyrodą.
 
 ### Śmierć i nicość
-Zaświaty u Leśmiana są niepewne, a śmierć często okazuje się pustką.
+- Zaświaty u Leśmiana są niepewne, a śmierć często okazuje się pustką.
 
 ### Sens działania
-Ludzki wysiłek ma wartość, nawet gdy cel jest złudzeniem („Dziewczyna”).
+- Ludzki wysiłek ma wartość, nawet gdy cel jest złudzeniem („Dziewczyna”).
 
 ### Bóg
-Bóg jest bliski człowiekowi, ale nie wszechmocny.
+- Bóg jest bliski człowiekowi, ale nie wszechmocny.
 
 ## Znaczenie tytułu
 Tytuły wskazują bohatera lub miejsce, które staje się symbolem.

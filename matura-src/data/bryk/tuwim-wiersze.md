@@ -15,16 +15,16 @@ Julian Tuwim (1894–1953) wydał m.in. tomy „Czyhanie na Boga” (1918), „S
 
 ## Problematyka
 ### Codzienność
-Poezja może mówić o zwykłym życiu, mieście i prostych ludziach.
+- Poezja może mówić o zwykłym życiu, mieście i prostych ludziach.
 
 ### Krytyka mieszczaństwa
-Tuwim wyśmiewa bezmyślne, schematyczne życie.
+- Tuwim wyśmiewa bezmyślne, schematyczne życie.
 
 ### Pacyfizm
-Poeta wzywa zwykłych ludzi, by nie dali się wciągnąć w wojnę w imię haseł polityków („Do prostego człowieka”).
+- Poeta wzywa zwykłych ludzi, by nie dali się wciągnąć w wojnę w imię haseł polityków („Do prostego człowieka”).
 
 ### Słowo
-Tuwim fascynuje się językiem i jego możliwościami.
+- Tuwim fascynuje się językiem i jego możliwościami.
 
 ## Znaczenie tytułu
 Tytuły nazywają bohaterów („Mieszkańcy”), adresata („Do prostego człowieka”) albo wydarzenie („Bal w operze”).

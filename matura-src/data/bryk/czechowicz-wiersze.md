@@ -14,13 +14,13 @@ Józef Czechowicz (1903–1939) wydał m.in. tomy „Kamień” (1927), „balla
 
 ## Problematyka
 ### Sielska prowincja
-Wieś i małe miasta są ostoją spokoju i tradycji.
+- Wieś i małe miasta są ostoją spokoju i tradycji.
 
 ### Katastrofizm
-Przeczucie zagłady i końca świata.
+- Przeczucie zagłady i końca świata.
 
 ### Sen i wspomnienie
-Świat w wierszach jest jak we śnie – ulotny i nierealny.
+- Świat w wierszach jest jak we śnie – ulotny i nierealny.
 
 ## Znaczenie tytułu
 Tytuły są krótkie i nazywają miejsce lub nastrój.

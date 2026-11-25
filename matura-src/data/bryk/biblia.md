@@ -16,25 +16,57 @@ Biblia to zbiór ksiąg świętych judaizmu i chrześcijaństwa, pisanych przez 
 
 ## Streszczenie szczegółowe
 ### Księga Rodzaju – stworzenie świata
-Bóg stwarza świat słowem w ciągu sześciu dni: światło, niebo, ziemię i morza, rośliny, ciała niebieskie, zwierzęta, a na końcu człowieka na swój obraz. Siódmego dnia odpoczywa. Świat jest uporządkowany i dobry.
+> Bóg stwarza świat w sześć dni, a człowieka na swój obraz.
+- Bóg stwarza świat słowem w ciągu sześciu dni: światło, niebo, ziemię i morza, rośliny, ciała niebieskie, zwierzęta, a na końcu człowieka na swój obraz.
+- Siódmego dnia odpoczywa.
+- Świat jest uporządkowany i dobry.
 
 ### Raj i grzech pierworodny
-Adam i Ewa żyją w ogrodzie Eden. Mogą jeść owoce ze wszystkich drzew poza drzewem poznania dobra i zła. Wąż namawia Ewę, by zjadła owoc; Ewa daje go Adamowi. Ludzie poznają wstyd i zostają wygnani z raju. Od tej pory muszą pracować w trudzie, a kobieta rodzić w bólu. Człowiek staje się śmiertelny.
+> Adam i Ewa łamią zakaz Boga i zostają wygnani z raju.
+- **Adam** i Ewa żyją w ogrodzie Eden.
+- Mogą jeść owoce ze wszystkich drzew poza drzewem poznania dobra i zła.
+- Wąż namawia Ewę, by zjadła owoc; Ewa daje go **Adamowi**.
+- Ludzie poznają wstyd i zostają wygnani z raju.
+- Od tej pory muszą pracować w trudzie, a kobieta rodzić w bólu.
+- Człowiek staje się śmiertelny.
 
 ### Kain i Abel
-Synowie Adama i Ewy składają ofiary. Bóg przyjmuje ofiarę Abla, a odrzuca ofiarę Kaina. Zazdrosny Kain zabija brata. Bóg naznacza go piętnem i skazuje na tułaczkę. To pierwsza zbrodnia i symbol bratobójstwa.
+> Z zazdrości Kain zabija brata – to pierwsza zbrodnia.
+- Synowie **Adama** i Ewy składają ofiary.
+- Bóg przyjmuje ofiarę Abla, a odrzuca ofiarę **Kaina**.
+- Zazdrosny **Kain** zabija brata.
+- Bóg naznacza go piętnem i skazuje na tułaczkę.
+- To pierwsza zbrodnia i symbol bratobójstwa.
 
 ### Księga Hioba
-Hiob jest pobożny i bogaty. Szatan twierdzi, że Hiob kocha Boga tylko dlatego, że jest szczęśliwy. Bóg pozwala go wypróbować: Hiob traci majątek, dzieci i zdrowie. Przyjaciele przekonują go, że cierpi za grzechy, ale Hiob wie, że jest niewinny, i pyta Boga o sens cierpienia. Bóg przemawia z wichru i pokazuje ogrom stworzenia – człowiek nie może pojąć Jego zamysłów. Hiob pokornie to przyjmuje i odzyskuje szczęście w dwójnasób.
+> Hiob traci wszystko, ale nie odwraca się od Boga – cierpienie jest próbą wiary.
+- **Hiob** jest pobożny i bogaty.
+- Szatan twierdzi, że **Hiob** kocha Boga tylko dlatego, że jest szczęśliwy.
+- Bóg pozwala go wypróbować: **Hiob** traci majątek, dzieci i zdrowie.
+- Przyjaciele przekonują go, że cierpi za grzechy, ale **Hiob** wie, że jest niewinny, i pyta Boga o sens cierpienia.
+- Bóg przemawia z wichru i pokazuje ogrom stworzenia – człowiek nie może pojąć Jego zamysłów.
+- **Hiob** pokornie to przyjmuje i odzyskuje szczęście w dwójnasób.
 
 ### Księga Koheleta
-Mędrzec Kohelet rozmyśla o życiu i stwierdza: „marność nad marnościami i wszystko marność”. Bogactwo, mądrość i przyjemności przemijają, a człowiek umiera tak samo jak zwierzę. Wszystko ma swój czas: czas rodzenia i umierania, płaczu i śmiechu. Trzeba cieszyć się z prostych darów i bać się Boga.
+> Wszystko jest marnością, więc trzeba cieszyć się życiem i pamiętać o Bogu.
+- Mędrzec **Kohelet** rozmyśla o życiu i stwierdza: „marność nad marnościami i wszystko marność”.
+- Bogactwo, mądrość i przyjemności przemijają, a człowiek umiera tak samo jak zwierzę.
+- Wszystko ma swój czas: czas rodzenia i umierania, płaczu i śmiechu.
+- Trzeba cieszyć się z prostych darów i bać się Boga.
 
 ### Psalmy
-Księga Psalmów to 150 pieśni religijnych, tradycyjnie przypisywanych królowi Dawidowi. Są wśród nich psalmy pochwalne (np. o stworzeniu świata), błagalne (prośba w cierpieniu), dziękczynne i pokutne. Bóg jest w nich pasterzem, obrońcą i sędzią. Psalmy stały się wzorem poezji religijnej (np. Kochanowski, „Psałterz Dawidów”).
+> Psalmy to modlitwy – od lamentu po zachwyt nad Bogiem.
+- Księga Psalmów to 150 pieśni religijnych, tradycyjnie przypisywanych królowi **Dawidowi**.
+- Są wśród nich psalmy pochwalne (np. o stworzeniu świata), błagalne (prośba w cierpieniu), dziękczynne i pokutne.
+- Bóg jest w nich pasterzem, obrońcą i sędzią.
+- Psalmy stały się wzorem poezji religijnej (np. Kochanowski, „Psałterz **Dawidów**”).
 
 ### Apokalipsa św. Jana
-Jan na wyspie Patmos ma wizje końca świata. Baranek otwiera księgę z siedmioma pieczęciami, pojawiają się czterej jeźdźcy (wojna, głód, zaraza, śmierć), smok i bestia walczą z ludźmi wiernymi Bogu. Następuje sąd ostateczny. Na końcu Jan widzi Nowe Jeruzalem – nowe niebo i nową ziemię, gdzie nie ma już śmierci ani łez.
+> Wizja końca świata, walki dobra ze złem i nowego Jeruzalem.
+- Jan na wyspie Patmos ma wizje końca świata.
+- Baranek otwiera księgę z siedmioma pieczęciami, pojawiają się czterej jeźdźcy (wojna, głód, zaraza, śmierć), smok i bestia walczą z ludźmi wiernymi Bogu.
+- Następuje sąd ostateczny.
+- Na końcu Jan widzi Nowe Jeruzalem – nowe niebo i nową ziemię, gdzie nie ma już śmierci ani łez.
 
 ## Bohaterowie
 - **Bóg** – Stwórca, sędzia i opiekun ludzi.
@@ -53,19 +85,20 @@ Biblia powstawała od ok. X w. p.n.e. do końca I w. n.e. Stary Testament pisano
 
 ## Problematyka
 ### Stworzenie i ład świata
-Świat ma porządek i sens nadany przez Boga.
+- Świat ma porządek i sens nadany przez Boga.
 
 ### Grzech i wina
-Człowiek ma wolną wolę, może wybrać zło i ponosi tego skutki.
+- Człowiek ma wolną wolę, może wybrać zło i ponosi tego skutki.
 
 ### Cierpienie niewinnego
-Hiob pokazuje, że cierpienie nie zawsze jest karą. Pytanie o jego sens wraca w literaturze (np. „Dżuma”).
+- Hiob pokazuje, że cierpienie nie zawsze jest karą.
+- Pytanie o jego sens wraca w literaturze (np. „Dżuma”).
 
 ### Przemijanie (vanitas)
-Kohelet mówi o marności dóbr doczesnych – to temat podjęty m.in. w baroku.
+- Kohelet mówi o marności dóbr doczesnych – to temat podjęty m.in. w baroku.
 
 ### Nadzieja
-Apokalipsa kończy się obietnicą nowego świata, a psalmy wyrażają ufność w Bogu.
+- Apokalipsa kończy się obietnicą nowego świata, a psalmy wyrażają ufność w Bogu.
 
 ## Znaczenie tytułu
 Słowo „Biblia” pochodzi od greckiego „biblia” – księgi. To zbiór ksiąg.

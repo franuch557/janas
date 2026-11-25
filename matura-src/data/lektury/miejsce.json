@@ -145,22 +145,34 @@
         {
           "typ": "punkt",
           "etykieta": "Pamięć",
-          "tekst": "Miejsce przechowuje pamięć o ludziach, którzy odeszli."
+          "tekst": "",
+          "punkty": [
+            "Miejsce przechowuje pamięć o ludziach, którzy odeszli."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przemijanie",
-          "tekst": "Budynek znika, ale ślad i znaczenie zostają."
+          "tekst": "",
+          "punkty": [
+            "Budynek znika, ale ślad i znaczenie zostają."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Sacrum",
-          "tekst": "Święte miejsce nie traci świętości, gdy znika świątynia."
+          "tekst": "",
+          "punkty": [
+            "Święte miejsce nie traci świętości, gdy znika świątynia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Historia regionu",
-          "tekst": "W tle są wysiedlenia Łemków i zanik ich kultury."
+          "tekst": "",
+          "punkty": [
+            "W tle są wysiedlenia Łemków i zanik ich kultury."
+          ]
         }
       ]
     },

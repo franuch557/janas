@@ -19,19 +19,45 @@ Harpagon, bogaty mieszczanin, kocha tylko pieniądze. Chce ożenić się z młod
 
 ## Streszczenie szczegółowe
 ### Akt I – tajemnice domowników
-Eliza i Walery są potajemnie zaręczeni. Walery, by być blisko niej, zatrudnił się u Harpagona i schlebia mu we wszystkim. Kleant wyznaje siostrze miłość do Marianny. Harpagon drży o pieniądze zakopane w ogrodzie i podejrzewa wszystkich. Ogłasza swoje plany: sam poślubi Mariannę, a Elizę wyda za bogatego Anzelma, który weźmie ją „bez posagu”.
+> Dzieci Harpagona ukrywają swoje miłości, a ojciec ogłasza plany ślubów dla oszczędności.
+- **Eliza** i **Walery** są potajemnie zaręczeni.
+- **Walery**, by być blisko niej, zatrudnił się u **Harpagona** i schlebia mu we wszystkim.
+- **Kleant** wyznaje siostrze miłość do **Marianny**.
+- **Harpagon** drży o pieniądze zakopane w ogrodzie i podejrzewa wszystkich.
+- Ogłasza swoje plany: sam poślubi **Mariannę**, a **Elizę** wyda za bogatego **Anzelma**, który weźmie ją „bez posagu”.
 
 ### Akt II – lichwa i swatka
-Kleant szuka pożyczki u pośrednika. Okazuje się, że lichwiarzem, który żąda ogromnego procentu, jest jego ojciec. Kłócą się. Frozyna, sprytna swatka, schlebia Harpagonowi i opowiada, jak Marianna lubi starszych mężczyzn i jak mało będzie kosztować. Gdy prosi o pieniądze, Harpagon nagle nie słyszy.
+> Kleant odkrywa, że lichwiarzem jest jego ojciec, a swatka próbuje wyłudzić od Harpagona pieniądze.
+- **Kleant** szuka pożyczki u pośrednika.
+- Okazuje się, że lichwiarzem, który żąda ogromnego procentu, jest jego ojciec.
+- Kłócą się.
+- **Frozyna**, sprytna swatka, schlebia **Harpagonowi** i opowiada, jak **Marianna** lubi starszych mężczyzn i jak mało będzie kosztować.
+- Gdy prosi o pieniądze, **Harpagon** nagle nie słyszy.
 
 ### Akt III – przyjęcie
-Harpagon wydaje służbie absurdalnie oszczędne polecenia na kolację. Kucharz i stangret Jakub mówi mu, że wszyscy się z niego śmieją. Przychodzi Marianna. Kleant w imieniu ojca, ale tak naprawdę od siebie, prawi jej komplementy i daje jej pierścień z palca Harpagona.
+> Skąpstwo Harpagona ośmiesza go przed wszystkimi, a Kleant zaleca się do Marianny w jego imieniu.
+- **Harpagon** wydaje służbie absurdalnie oszczędne polecenia na kolację.
+- Kucharz i stangret **Jakub** mówi mu, że wszyscy się z niego śmieją.
+- Przychodzi **Marianna**.
+- **Kleant** w imieniu ojca, ale tak naprawdę od siebie, prawi jej komplementy i daje jej pierścień z palca **Harpagona**.
 
 ### Akt IV – kradzież
-Harpagon odkrywa, że syn jest jego rywalem. Wydziedzicza go i przeklina. Strzałka, sługa Kleanta, wykopuje i kradnie szkatułę. Harpagon wygłasza słynny monolog: krzyczy „Złodzieje!”, chce wieszać wszystkich, w końcu łapie się za własną rękę, myśląc, że to złodziej.
+> Ojciec i syn stają się rywalami, a Strzałka kradnie szkatułę z pieniędzmi.
+- **Harpagon** odkrywa, że syn jest jego rywalem.
+- Wydziedzicza go i przeklina.
+- **Strzałka**, sługa **Kleanta**, wykopuje i kradnie szkatułę.
+- **Harpagon** wygłasza słynny monolog: krzyczy „Złodzieje!”, chce wieszać wszystkich, w końcu łapie się za własną rękę, myśląc, że to złodziej.
 
 ### Akt V – rozwiązanie
-Harpagon wzywa komisarza. Jakub z zemsty oskarża Walerego. Walery myśli, że chodzi o jego miłość do Elizy, i przyznaje się do „skarbu”. Wychodzi na jaw, że jest synem neapolitańskiego szlachcica. Anzelm rozpoznaje w nim i w Mariannie swoje dzieci, których szukał po katastrofie statku. Kleant obiecuje oddać szkatułę, jeśli ojciec zgodzi się na jego ślub z Marianną. Harpagon zgadza się, gdy Anzelm pokrywa wszystkie koszty wesel. Idzie oglądać swoją ukochaną szkatułę.
+> Wychodzi na jaw pochodzenie Walerego i Marianny, a Harpagon zgadza się na śluby za zwrot szkatuły.
+- **Harpagon** wzywa komisarza.
+- **Jakub** z zemsty oskarża **Walerego**.
+- **Walery** myśli, że chodzi o jego miłość do **Elizy**, i przyznaje się do „skarbu”.
+- Wychodzi na jaw, że jest synem neapolitańskiego szlachcica.
+- **Anzelm** rozpoznaje w nim i w **Mariannie** swoje dzieci, których szukał po katastrofie statku.
+- **Kleant** obiecuje oddać szkatułę, jeśli ojciec zgodzi się na jego ślub z **Marianną**.
+- **Harpagon** zgadza się, gdy **Anzelm** pokrywa wszystkie koszty wesel.
+- Idzie oglądać swoją ukochaną szkatułę.
 
 ## Bohaterowie
 - **Harpagon** – skąpiec, lichwiarz, ojciec Kleanta i Elizy. Podejrzliwy, egoistyczny, śmieszny; dla pieniędzy poświęca szczęście dzieci.
@@ -52,16 +78,16 @@ Molier (Jean-Baptiste Poquelin) wystawił „Skąpca” w 1668 roku. Wzorował s
 
 ## Problematyka
 ### Skąpstwo
-Chciwość czyni człowieka śmiesznym i samotnym, niszczy jego relacje.
+- Chciwość czyni człowieka śmiesznym i samotnym, niszczy jego relacje.
 
 ### Rodzina
-Ojciec traktuje dzieci jak towar, a dzieci oszukują ojca.
+- Ojciec traktuje dzieci jak towar, a dzieci oszukują ojca.
 
 ### Pieniądz
-Pieniądze stają się wartością ważniejszą niż miłość, rodzina i godność.
+- Pieniądze stają się wartością ważniejszą niż miłość, rodzina i godność.
 
 ### Komizm
-Komizm postaci (Harpagon), słowny („bez posagu”) i sytuacyjny (monolog po kradzieży).
+- Komizm postaci (Harpagon), słowny („bez posagu”) i sytuacyjny (monolog po kradzieży).
 
 ## Znaczenie tytułu
 Tytuł nazywa główną wadę bohatera – skąpstwo.

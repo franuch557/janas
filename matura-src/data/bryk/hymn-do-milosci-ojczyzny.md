@@ -5,16 +5,21 @@ Krótki wiersz Ignacego Krasickiego wychwalający miłość do ojczyzny. Poeta m
 
 ## Omówienie wierszy
 ### Pierwsza część – zwrot do miłości ojczyzny
-Podmiot zwraca się do „świętej miłości kochanej ojczyzny”. Mówi, że czują ją tylko „umysły poczciwe”, czyli ludzie szlachetni.
+- **Podmiot** zwraca się do „świętej miłości kochanej ojczyzny”.
+- Mówi, że czują ją tylko „umysły poczciwe”, czyli ludzie szlachetni.
 
 ### Druga część – poświęcenie
-Dla ojczyzny nawet trucizny smakują, więzy i pęta nie hańbią, a kalectwo zamienia się w chwalebne blizny. Gdy ojczyzna potrzebuje, warto znieść wszystko.
+- Dla ojczyzny nawet trucizny smakują, więzy i pęta nie hańbią, a kalectwo zamienia się w chwalebne blizny.
+- Gdy ojczyzna potrzebuje, warto znieść wszystko.
 
 ### Zakończenie – gotowość do ofiary
-Podmiot deklaruje, że byle tylko móc wspierać ojczyznę, nie żal mu żyć w nędzy ani umierać. Służba ojczyźnie nadaje sens nawet cierpieniu i śmierci.
+- **Podmiot** deklaruje, że byle tylko móc wspierać ojczyznę, nie żal mu żyć w nędzy ani umierać.
+- Służba ojczyźnie nadaje sens nawet cierpieniu i śmierci.
 
 ### Forma
-Wiersz ma tylko 10 wersów, pisany jest trzynastozgłoskowcem. Krasicki stosuje apostrofę („Święta miłości…”), paradoksy (smaczne trucizny, zaszczytne rany) i wykrzyknienia. Ton jest podniosły.
+- Wiersz ma tylko 10 wersów, pisany jest trzynastozgłoskowcem.
+- Krasicki stosuje apostrofę („Święta miłości…”), paradoksy (smaczne trucizny, zaszczytne rany) i wykrzyknienia.
+- Ton jest podniosły.
 
 ## Bohaterowie
 - **Podmiot liryczny** – patriota gotowy do poświęceń.
@@ -28,13 +33,13 @@ Wiersz wydrukowano w 1774 r., a rok później Krasicki włączył go do poematu 
 
 ## Problematyka
 ### Patriotyzm
-Miłość do ojczyzny jest najwyższą wartością.
+- Miłość do ojczyzny jest najwyższą wartością.
 
 ### Poświęcenie
-Dla ojczyzny warto znosić cierpienie i oddać życie.
+- Dla ojczyzny warto znosić cierpienie i oddać życie.
 
 ### Wychowanie obywatela
-Utwór miał kształtować postawę obywatelską młodzieży – to typowe dla oświecenia.
+- Utwór miał kształtować postawę obywatelską młodzieży – to typowe dla oświecenia.
 
 ## Znaczenie tytułu
 Hymn to uroczysta pieśń pochwalna; tytuł mówi, co jest wychwalane – miłość ojczyzny.

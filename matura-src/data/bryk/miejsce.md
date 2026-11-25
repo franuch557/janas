@@ -24,16 +24,16 @@ Andrzej Stasiuk wydał „Opowieści galicyjskie” w 1995 roku. To **opowiadani
 
 ## Problematyka
 ### Pamięć
-Miejsce przechowuje pamięć o ludziach, którzy odeszli.
+- Miejsce przechowuje pamięć o ludziach, którzy odeszli.
 
 ### Przemijanie
-Budynek znika, ale ślad i znaczenie zostają.
+- Budynek znika, ale ślad i znaczenie zostają.
 
 ### Sacrum
-Święte miejsce nie traci świętości, gdy znika świątynia.
+- Święte miejsce nie traci świętości, gdy znika świątynia.
 
 ### Historia regionu
-W tle są wysiedlenia Łemków i zanik ich kultury.
+- W tle są wysiedlenia Łemków i zanik ich kultury.
 
 ## Znaczenie tytułu
 „Miejsce” to puste miejsce po cerkwi, które wciąż ma znaczenie i wartość.

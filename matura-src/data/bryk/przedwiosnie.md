@@ -1,65 +1,97 @@
-# Przedwiośnie
+# Przedwiośnie – opracowanie
 
 ## W skrócie
-Cezary Baryka dorasta w Baku. Po rewolucji traci matkę i majątek, a ojciec opowiada mu legendę o „szklanych domach” w Polsce. W 1919 roku przyjeżdża do kraju i widzi zupełnie inną rzeczywistość: biedę, zacofanie, nierówności. Poznaje życie ziemiańskie w Nawłoci, polityków i działaczy. Słucha dwóch programów naprawy Polski: reformy (Gajowiec) i rewolucji (Lulek). Na końcu idzie w manifestacji robotniczej na czele, prosto „na wał szarych żołnierzy”. Powieść kończy się bez rozstrzygnięcia.
+- **O czym:** Cezary Baryka dorasta w Baku, przeżywa rewolucję, a potem przyjeżdża do odrodzonej Polski, której szuka i nie umie zrozumieć.
+- **Mit szklanych domów:** ojciec opowiada mu o nowoczesnej Polsce, której w rzeczywistości nie ma.
+- **Jak się kończy:** rozczarowany Cezary dołącza do robotniczej manifestacji idącej na Belweder.
+- **Najważniejsza myśl:** odrodzona Polska potrzebuje reform – pytanie brzmi, czy ewolucji, czy rewolucji.
 
 ## Plan wydarzeń
-1. Szklane domy – wstęp: Cezary w Baku, dzieciństwo w bogatym domu.
-2. Rewolucja w Baku; Cezary fascynuje się nią.
-3. Śmierć matki; rzeź Ormian i Turków w Baku.
-4. Ojciec wraca i opowiada o szklanych domach w Polsce.
-5. Podróż do Polski, śmierć ojca w drodze.
-6. Cezary widzi biedne polskie wsie zamiast szklanych domów.
-7. Wojna polsko-bolszewicka – Cezary walczy, poznaje Hipolita Wielosławskiego.
-8. Nawłoć – życie ziemiańskie, romanse z Laurą, Karusią i Wandą.
-9. Śmierć Karusi; Cezary opuszcza Nawłoć.
-10. Warszawa – rozmowy z Gajowcem i z Lulkiem, komunistą.
-11. Cezary idzie na czele manifestacji robotników na Belweder.
+1. Dzieciństwo Cezarego w Baku; ojciec Seweryn idzie na wojnę.
+2. Cezary rzuca szkołę i zachwyca się rewolucją.
+3. Matka umiera z wycieńczenia na robotach; Cezary traci wiarę w rewolucję.
+4. Rzeź Ormian, Cezary grzebie zwłoki.
+5. Ojciec wraca i opowiada o szklanych domach w Polsce.
+6. Podróż do Polski; ojciec umiera w drodze.
+7. Polska rozczarowuje Cezarego biedą.
+8. W Warszawie pomaga mu Szymon Gajowiec; Cezary studiuje medycynę.
+9. Wojna polsko-bolszewicka; Cezary ratuje Hipolita Wielosławskiego.
+10. Pobyt w Nawłoci: Karolina, Wanda, romans z Laurą.
+11. Wyjazd do Chłodka – Cezary widzi nędzę chłopów.
+12. Wanda otruwa Karolinę; Cezary musi opuścić Nawłoć.
+13. Laura wybiera Barwickiego.
+14. Cezary w Warszawie: dyskusje z Gajowcem i komunistą Lulkiem.
+15. Cezary idzie z manifestacją robotników na Belweder.
 
 ## Streszczenie szczegółowe
-### Szklane domy – dzieciństwo w Baku
-Cezary Baryka rośnie w zamożnej polskiej rodzinie w Baku. Ojciec, Seweryn, jest inżynierem w przemyśle naftowym. Gdy wybucha wojna, ojciec zostaje wcielony do armii, a Cezary z matką zostają sami.
+### Część I – Szklane domy (Baku)
+> Cezary dorasta w Baku i na własne oczy przeżywa rewolucję i jej okrucieństwo.
+- **Seweryn Baryka**, ojciec, jest urzędnikiem w Baku. Gdy wybucha wojna, idzie na front.
+- **Cezary** wymyka się spod władzy matki, rzuca szkołę i zachwyca się **rewolucją**.
+- Przekazuje rewolucjonistom majątek; matka ukrywa część, by mieli z czego żyć.
+- **Jadwiga Baryka**, matka, zostaje zesłana na roboty i **umiera z wycieńczenia**. Ktoś zdziera z jej ciała obrączkę.
+- Cezary traci wiarę w rewolucję. Wybucha rzeź między **Tatarami a Ormianami**.
+- Cezary grzebie zwłoki za miastem.
+- Odnajduje go ojciec i opowiada o Polsce ze **szklanymi domami** – czystej, nowoczesnej, sprawiedliwej.
+- W drodze do Polski ojciec **umiera**.
 
-### Rewolucja
-Wybucha rewolucja. Cezary zachwyca się nią, chodzi na wiece, sprzeciwia się matce. Matka, Jadwiga, wyczerpana pracą i zesłaniem na roboty, umiera. W Baku dochodzi do rzezi – Cezary widzi okrucieństwo walk Ormian z Turkami i grzebie zwłoki.
+### Część II – Nawłoć
+> W Polsce Cezary zamiast szklanych domów widzi biedę, a w dworku ziemiańskim – lenistwo i zabawę.
+- Polska rozczarowuje Cezarego – wszędzie bieda, jak w Rosji.
+- W Warszawie **Szymon Gajowiec**, dawny ukochany matki, pomaga mu. Cezary studiuje medycynę.
+- W **wojnie polsko-bolszewickiej** Cezary ratuje życie **Hipolitowi Wielosławskiemu**.
+- Hipolit zaprasza go do rodzinnego majątku **Nawłoć**. Tam czas płynie na ucztach, spacerach i flirtach.
+- Cezary poznaje **Karolinę**, **Wandę Orszeńską** i **Laurę Kościeniecką**.
+- Jedzie do **Chłodka** i widzi nędzę chłopów.
+- Wybucha romans z **Laurą**, narzeczoną **Barwickiego**.
+- Zazdrosna **Wanda** otruwa **Karolinę**. Cezary musi wyjechać z Nawłoci.
+- Laura ostatecznie wybiera **Barwickiego** i zrywa z Cezarym.
 
-### Legenda o szklanych domach
-Wraca ojciec. Postanawiają jechać do Polski. W drodze ojciec opowiada synowi o Polsce: inżynier Barwiński zbudował tam szklane domy, czyste, ciepłe i tanie, a ludzie żyją w dobrobycie. Ojciec umiera w podróży. Cezary przekracza granicę i widzi brudne, nędzne wsie. Szklanych domów nie ma.
-
-### Nawłoć
-Cezary walczy w wojnie z bolszewikami, gdzie zaprzyjaźnia się z Hipolitem Wielosławskim. Ten zabiera go do majątku Nawłoć. Cezary poznaje beztroskie życie ziemian: polowania, zabawy, kuligi. Zakochuje się w Laurze Kościenieckiej, narzeczonej bogatego Barwickiego. Flirtuje też z kuzynką Hipolita, Karusią, która kocha go naprawdę. Odwiedza Chłodek, gdzie widzi biedę parobków. Karusia umiera, a Laura zrywa z Cezarym. Cezary wyjeżdża.
-
-### Warszawa – dwa programy
-W Warszawie Cezary studiuje medycynę. Szymon Gajowiec, przyjaciel ojca, przedstawia mu program stopniowych reform i budowy państwa. Antoni Lulek, komunista, przekonuje do rewolucji na wzór rosyjski. Cezary krytykuje obie strony. W końcu przyłącza się do demonstracji robotników i idzie na jej czele w stronę Belwederu.
+### Część III – Wiatr od wschodu
+> Cezary w Warszawie słucha dwóch programów naprawy Polski i wybiera bunt.
+- **Gajowiec**, urzędnik państwowy, przekonuje do stopniowych reform (ewolucja).
+- **Antoni Lulek**, komunista, namawia do rewolucji.
+- Cezary bierze udział w zebraniu komunistów i krytykuje obie strony.
+- Na końcu idzie na czele robotniczej manifestacji w stronę **Belwederu**.
 
 ## Bohaterowie
-- **Cezary Baryka** – młody, impulsywny, buntowniczy, szuka prawdy i swojego miejsca. Dojrzewa wraz z wydarzeniami.
-- **Seweryn Baryka** – ojciec Cezarego, patriota i marzyciel, autor mitu o szklanych domach.
-- **Jadwiga Baryka** – matka, kochająca i ofiarna.
-- **Hipolit Wielosławski** – przyjaciel, ziemianin z Nawłoci.
-- **Laura Kościeniecka** – piękna, kapryśna ziemianka, romans z Cezarym.
-- **Karusia (Karolina Szarłatowiczówna)** – uboga krewna Wielosławskich, delikatna, naprawdę kocha Cezarego.
-- **Szymon Gajowiec** – polityk, zwolennik reform.
-- **Antoni Lulek** – komunista, zwolennik rewolucji.
+- **Cezary Baryka** – Młody, impulsywny, szuka swojego miejsca i prawdy o Polsce. Przechodzi drogę od rewolucjonisty przez rozczarowanie do buntu.
+- **Seweryn Baryka** – Ojciec Cezarego, patriota, twórca mitu szklanych domów.
+- **Jadwiga Baryka** – Matka, poświęca się dla syna i umiera.
+- **Szymon Gajowiec** – Urzędnik, zwolennik reform (ewolucji).
+- **Antoni Lulek** – Komunista, zwolennik rewolucji.
+- **Hipolit Wielosławski** – Ziemianin, przyjaciel Cezarego.
+- **Laura Kościeniecka** – Piękna ziemianka, romans Cezarego.
+- **Karolina Szarłatowiczówna** – Delikatna dziewczyna, ofiara Wandy.
+- **Wanda Orszeńska** – Zazdrosna, otruwa Karolinę.
 
 ## Czas i miejsce akcji
-Lata 1905–1920 (początek XX w., I wojna, rewolucja, pierwsze lata niepodległości). Miejsca: Baku, polskie kresy, Nawłoć, Chłodek, Warszawa.
+- **Czas:** od ok. 1905 do 1920 roku (wojna, rewolucja, pierwsze lata niepodległej Polski).
+- **Miejsce:** Baku, Rosja, Warszawa, Nawłoć, Chłodek, Leniec.
 
 ## Geneza i gatunek
-Stefan Żeromski wydał „Przedwiośnie” w 1924 roku. Chciał ostrzec przed brakiem reform w odrodzonej Polsce. To **powieść polityczna**, a także **powieść o dojrzewaniu** (bildungsroman) i powieść realistyczna. Ma trzy części: „Szklane domy”, „Nawłoć”, „Wiatr od wschodu”.
+- **Powstanie:** Stefan Żeromski wydał powieść w 1924 roku.
+- **Zamiar:** pokazać problemy odrodzonej Polski i zapytać o drogę jej rozwoju.
+- **Gatunek:** powieść polityczna, powieść o dojrzewaniu.
 
 ## Problematyka
-### Obraz II Rzeczypospolitej
-Kraj jest biedny, zacofany, pełen nierówności społecznych.
-
-### Rewolucja czy reforma
-Powieść przedstawia dwa programy naprawy państwa i ostrzega przed rewolucją.
+### Ewolucja czy rewolucja?
+> Powieść zestawia dwa sposoby naprawy Polski i nie rozstrzyga wprost.
+- **Gajowiec:** stopniowe reformy, budowa państwa.
+- **Lulek:** rewolucja na wzór sowiecki.
+- Cezary krytykuje obie strony, ale idzie z manifestacją.
 
 ### Mit szklanych domów
-Symbol marzeń o nowoczesnej, sprawiedliwej Polsce.
+> Marzenie o nowoczesnej Polsce zderza się z rzeczywistością.
+- Szklane domy to symbol postępu, którego w Polsce brakuje.
 
-### Dojrzewanie
-Cezary szuka sensu i swojej drogi życiowej.
+### Rewolucja
+> Cezary widzi rewolucję z bliska i poznaje jej okrucieństwo.
+- Śmierć matki i rzeź w Baku pokazują, że przemoc niszczy ludzi.
+
+### Kwestia społeczna
+> Polska jest krajem nierówności.
+- Ziemiaństwo bawi się w Nawłoci, chłopi w Chłodku żyją w nędzy.
 
 ## Znaczenie tytułu
-„Przedwiośnie” to czas przed wiosną – Polska dopiero zaczyna się odradzać, przyszłość jest niepewna. Tytuł może też zapowiadać nadchodzącą „wiosnę” rewolucji.
+- Przedwiośnie to czas przed wiosną – niepewny, zimny, ale zapowiadający zmiany. Tak wygląda Polska tuż po odzyskaniu niepodległości.

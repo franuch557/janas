@@ -42,8 +42,19 @@
       "tytul": "W skrócie",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Uboga wdowa ma dwie córki: łagodną Alinę i ambitną Balladynę. Bogaty hrabia Kirkor, za radą Pustelnika, ma się ożenić z ubogą dziewczyną i wybiera jedną z sióstr. Matka obiecuje, że dostanie go ta, która nazbiera więcej malin. Balladyna zabija Alinę i wychodzi za Kirkora. Później, by zdobyć i utrzymać władzę, popełnia kolejne zbrodnie. Gdy zostaje królową, jako sędzia sama skazuje się na śmierć i ginie od pioruna."
+          "typ": "punkt",
+          "etykieta": "O czym",
+          "tekst": "wiejska dziewczyna Balladyna zabija siostrę, żeby wyjść za bogatego Kirkora, a potem popełnia kolejne zbrodnie, by zdobyć koronę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jak się kończy",
+          "tekst": "jako królowa musi osądzić własne zbrodnie. Po trzecim wyroku śmierci ginie od pioruna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Najważniejsza myśl",
+          "tekst": "zbrodnia rodzi następną zbrodnię, a kara przychodzi nieuchronnie."
         }
       ]
     },
@@ -54,61 +65,115 @@
           "typ": "punkt",
           "nr": 1,
           "etykieta": "",
-          "tekst": "Pustelnik radzi Kirkorowi, by wziął za żonę ubogą dziewczynę."
+          "tekst": "Kirkor prosi Pustelnika o radę w sprawie ożenku – ma wziąć ubogą dziewczynę."
         },
         {
           "typ": "punkt",
           "nr": 2,
           "etykieta": "",
-          "tekst": "Goplana zakochuje się w Grabcu i miesza się w losy ludzi."
+          "tekst": "Pustelnik wyjawia, że jest wygnanym królem Popielem III."
         },
         {
           "typ": "punkt",
           "nr": 3,
           "etykieta": "",
-          "tekst": "Kirkor przybywa do chaty wdowy, matka urządza zawody w zbieraniu malin."
+          "tekst": "Goplana, zakochana w Grabcu, chce rozdzielić go z Balladyną."
         },
         {
           "typ": "punkt",
           "nr": 4,
           "etykieta": "",
-          "tekst": "Balladyna zabija Alinę w lesie."
+          "tekst": "Kirkor trafia do chaty Wdowy i nie umie wybrać między Aliną a Balladyną."
         },
         {
           "typ": "punkt",
           "nr": 5,
           "etykieta": "",
-          "tekst": "Ślub Balladyny z Kirkorem, matka zostaje wypędzona."
+          "tekst": "Konkurs: żoną zostanie ta, która nazbiera więcej malin."
         },
         {
           "typ": "punkt",
           "nr": 6,
           "etykieta": "",
-          "tekst": "Balladyna zabija Grabca dla korony."
+          "tekst": "Goplana zamienia Grabca w płaczącą wierzbę."
         },
         {
           "typ": "punkt",
           "nr": 7,
           "etykieta": "",
-          "tekst": "Kostryn na jej rozkaz zabija Pustelnika."
+          "tekst": "Balladyna zabija Alinę nożem; na czole zostaje jej krwawa plama."
         },
         {
           "typ": "punkt",
           "nr": 8,
           "etykieta": "",
-          "tekst": "Kirkor ginie w walce, Balladyna zostaje królową."
+          "tekst": "Balladyna kłamie, że Alina uciekła z kochankiem, i wychodzi za Kirkora."
         },
         {
           "typ": "punkt",
           "nr": 9,
           "etykieta": "",
-          "tekst": "Balladyna otruwa Kostryna."
+          "tekst": "Kirkor wyjeżdża, a Balladyna odcina się od matki."
         },
         {
           "typ": "punkt",
           "nr": 10,
           "etykieta": "",
-          "tekst": "Sąd: Balladyna trzy razy skazuje na śmierć i ginie od pioruna."
+          "tekst": "Pustelnik rozpoznaje w Balladynie morderczynię, ona nie chce się przyznać."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Grabiec zostaje królem dzwonkowym i jedzie na zamek."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Balladyna zabija Gralona, posłańca Kirkora."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Na uczcie Balladyna wypiera się matki i wyrzuca ją w burzę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Kirkor obala uzurpatora Popiela IV."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Balladyna zabija Grabca dla korony; Kostryn zostaje jej wspólnikiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 16,
+          "etykieta": "",
+          "tekst": "Pustelnik zostaje powieszony przy swojej chacie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 17,
+          "etykieta": "",
+          "tekst": "Bitwa: Balladyna przekupuje część wojsk, Kirkor ginie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 18,
+          "etykieta": "",
+          "tekst": "Balladyna otruwa Kostryna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 19,
+          "etykieta": "",
+          "tekst": "Sąd w Gnieźnie: trzy wyroki śmierci i piorun."
         }
       ]
     },
@@ -117,23 +182,68 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Akt I – zawody o męża",
-          "tekst": "Kirkor przychodzi do Pustelnika, który radzi mu ożenić się z ubogą dziewczyną. Nimfa Goplana, władczyni jeziora, zakochuje się w prostym chłopie Grabcu, który jest kochankiem Balladyny. Za sprawą Goplany Kirkor trafia do chaty wdowy. Obie córki mu się podobają, więc matka ustala, że żoną zostanie ta, która przyniesie pełniejszy dzban malin."
+          "etykieta": "Akt I – Kirkor szuka żony",
+          "tekst": "",
+          "sedno": "Pustelnik radzi Kirkorowi ożenić się z ubogą dziewczyną, a czary Goplany prowadzą go do chaty Wdowy.",
+          "punkty": [
+            "**Pustelnik** to wygnany król **Popiel III**; jego tron zajął okrutny Popiel IV.",
+            "Nimfa **Goplana** kocha prostego chłopa **Grabca**, kochanka Balladyny, i chce ich rozdzielić.",
+            "Powóz **Kirkora** psuje się pod chatą **Wdowy**. Obie córki – **Alina** i **Balladyna** – mu się podobają.",
+            "**Wdowa** proponuje konkurs: żoną zostanie ta, która przyniesie pełniejszy dzban malin."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Akt II – zbrodnia w lesie",
-          "tekst": "Alina pierwsza nazbierała malin. Balladyna, zazdrosna i żądna bogactwa, zabija ją nożem. Na jej czole zostaje krwawa plama, której nie da się zmyć. Kirkor bierze ślub z Balladyną. Goplana za karę zamienia Grabca w wierzbę, a potem w króla dzwonkowego."
+          "etykieta": "Akt II – zbrodnia w malinach",
+          "tekst": "",
+          "sedno": "Balladyna zabija siostrę, bo Alina wygrywa konkurs.",
+          "punkty": [
+            "**Goplana** zamienia Grabca w płaczącą wierzbę.",
+            "**Alina** pierwsza ma pełny dzban. **Balladyna** zabija ją nożem.",
+            "Na czole Balladyny pojawia się krwawa plama, której nie da się zmyć.",
+            "Ciało Aliny znajduje **Filon**, potem **Pustelnik**.",
+            "Balladyna mówi, że Alina uciekła z kochankiem. **Kirkor** daje jej pierścień i bierze z nią ślub."
+          ]
         },
         {
           "typ": "punkt",
-          "etykieta": "Akty III–IV – władza i strach",
-          "tekst": "Balladyna mieszka w zamku Kirkora, ale dręczą ją wyrzuty sumienia. Wstydzi się matki i wypiera się jej, a stara kobieta wychodzi z zamku w czasie burzy. Kirkor wyrusza walczyć z uzurpatorem Popielem. Balladyna zabija Grabca, by zabrać mu koronę, którą dała mu Goplana. Z jej woli Kostryn zabija Pustelnika, który zna jej tajemnicę. Pustelnik to w rzeczywistości wygnany prawowity król."
+          "etykieta": "Akt III – tajemnica wychodzi na jaw",
+          "tekst": "",
+          "sedno": "Pustelnik odkrywa, że Balladyna jest morderczynią, a ona zabija kolejnego człowieka.",
+          "punkty": [
+            "Po ślubie Balladyna odcina się od przeszłości i od matki.",
+            "Kirkor wyjeżdża na trzy dni. Pustelnik radzi mu wysłać żonie skrzynię, której nie wolno otwierać.",
+            "Balladyna prosi Pustelnika o usunięcie plamy z czoła. Ten rozpoznaje w niej zabójczynię, ale nie skłania jej do wyznania winy.",
+            "**Grabiec** prosi Goplanę, by zrobiła go królem – zostaje **królem dzwonkowym** z koroną Lecha.",
+            "**Gralon** przywozi skrzynię od Kirkora. **Kostryn** wyzywa go na pojedynek, a śmiertelny cios zadaje **Balladyna**."
+          ]
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt IV – wyparcie się matki",
+          "tekst": "",
+          "sedno": "Balladyna wypiera się matki i dla korony zabija Grabca.",
+          "punkty": [
+            "Na uczcie bawi się **Grabiec** jako król.",
+            "Przychodzi **Wdowa** i prosi o jedzenie. Balladyna nazywa ją wariatką i każe wyrzucić z zamku w czasie burzy.",
+            "Posłaniec ogłasza, że **Kirkor** pokonał Popiela IV. Królem ma zostać ten, kto ma prawdziwą koronę.",
+            "Pieśń Chochlika o malinach doprowadza Balladynę do omdlenia.",
+            "Balladyna zabija Grabca. Po koronę wraca **Kostryn** i zostaje jej wspólnikiem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Akt V – korona i sąd",
-          "tekst": "Kirkor ginie w walce. Balladyna z pomocą Kostryna przejmuje władzę i zostaje królową. Kostryna, który zna jej zbrodnie, otruwa. Jako królowa Balladyna sądzi przestępców. Przedstawiają jej trzy sprawy: zabójstwo dziewczyny w lesie, zabójstwo Pustelnika i porzucenie matki. Za każdą zbrodnię orzeka karę śmierci, nie przyznając, że to jej czyny. Po trzecim wyroku w Balladynę uderza piorun."
+          "tekst": "",
+          "sedno": "Balladyna zostaje królową, ale musi osądzić własne zbrodnie.",
+          "punkty": [
+            "**Goplana** opuszcza Gopło, widząc, ile zła wyrządziła.",
+            "Przychodzi wieść, że **Pustelnik** został powieszony na drzewie.",
+            "Balladyna przekupuje część wojsk. **Kirkor** ginie w bitwie.",
+            "Balladyna kroi chleb zatrutym nożem i otruwa nim **Kostryna**.",
+            "Na sądzie stają: lekarz (otrucie Kostryna), **Filon** (śmierć Aliny) i oślepiona **Wdowa** (wyrodna córka).",
+            "Za każdą sprawę Balladyna orzeka śmierć. Po trzecim wyroku uderza w nią piorun."
+          ]
         }
       ]
     },
@@ -143,42 +253,47 @@
         {
           "typ": "punkt",
           "etykieta": "Balladyna",
-          "tekst": "ambitna, okrutna, żądna władzy. Popełnia coraz więcej zbrodni, by zdobyć i utrzymać pozycję. Mimo wyrzutów sumienia nie umie się zatrzymać."
+          "tekst": "Ambitna, okrutna i żądna władzy. Każda zbrodnia pociąga następną. Mimo wyrzutów sumienia nie umie się zatrzymać."
         },
         {
           "typ": "punkt",
           "etykieta": "Alina",
-          "tekst": "siostra Balladyny, łagodna, dobra i pracowita. Pierwsza ofiara."
+          "tekst": "Siostra Balladyny, łagodna i dobra. Pierwsza ofiara."
         },
         {
           "typ": "punkt",
           "etykieta": "Wdowa",
-          "tekst": "matka sióstr, kocha je, choć jest naiwna. Zostaje odrzucona przez Balladynę."
+          "tekst": "Matka sióstr, kochająca i naiwna. Odrzucona przez córkę, nawet na torturach jej nie zdradza."
         },
         {
           "typ": "punkt",
           "etykieta": "Kirkor",
-          "tekst": "szlachetny rycerz, który szuka uczciwej żony."
+          "tekst": "Szlachetny rycerz, który szuka uczciwej żony. Ginie w walce."
         },
         {
           "typ": "punkt",
           "etykieta": "Grabiec",
-          "tekst": "prosty, leniwy, zabawny chłop. Postać komiczna."
+          "tekst": "Leniwy, zabawny chłop. Postać komiczna, zostaje królem dzwonkowym."
         },
         {
           "typ": "punkt",
           "etykieta": "Goplana",
-          "tekst": "nimfa, kapryśna i nieodpowiedzialna. Jej czary uruchamiają tragedię."
+          "tekst": "Kapryśna nimfa jeziora. Jej czary uruchamiają tragedię."
         },
         {
           "typ": "punkt",
-          "etykieta": "Pustelnik",
-          "tekst": "mędrzec, wygnany król Popiel III."
+          "etykieta": "Pustelnik (Popiel III)",
+          "tekst": "Wygnany król, mędrzec, który zna prawdę o zbrodni."
         },
         {
           "typ": "punkt",
           "etykieta": "Kostryn",
-          "tekst": "rycerz, wspólnik Balladyny, zabity przez nią."
+          "tekst": "Dowódca straży, wspólnik Balladyny, otruty przez nią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filon",
+          "tekst": "Sentymentalny pasterz, który znajduje ciało Aliny."
         }
       ]
     },
@@ -186,8 +301,14 @@
       "tytul": "Czas i miejsce akcji",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Akcja toczy się w legendarnych, przedhistorycznych czasach Polski, nad jeziorem Gopło, w chacie wdowy, w lesie i w zamku Kirkora. Czas jest baśniowy, nie da się go dokładnie ustalić."
+          "typ": "punkt",
+          "etykieta": "Czas",
+          "tekst": "legendarny, przedhistoryczny – czasy Popielów, przed Piastami."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miejsce",
+          "tekst": "okolice jeziora Gopło, chata Wdowy, las z malinami, pustelnia, zamek Kirkora, Gniezno."
         }
       ]
     },
@@ -195,8 +316,19 @@
       "tytul": "Geneza i gatunek",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Juliusz Słowacki napisał „Balladynę” w 1834 roku, wydał w 1839. Utwór miał rozpocząć cykl dramatów o legendarnych dziejach Polski. To **dramat romantyczny**: łączy tragizm z komizmem, świat realny z fantastycznym, nawiązuje do ludowych ballad i do Szekspira."
+          "typ": "punkt",
+          "etykieta": "Powstanie",
+          "tekst": "Juliusz Słowacki napisał utwór w 1834 roku, wydał w 1839."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zamiar",
+          "tekst": "miał rozpocząć cykl dramatów o legendarnych dziejach Polski."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gatunek",
+          "tekst": "dramat romantyczny – łączy tragizm z komizmem, realizm z fantastyką, nawiązuje do ludowych ballad i do Szekspira."
         }
       ]
     },
@@ -206,22 +338,42 @@
         {
           "typ": "punkt",
           "etykieta": "Żądza władzy",
-          "tekst": "Balladyna pokazuje, jak ambicja prowadzi człowieka do kolejnych zbrodni. Każda zbrodnia wymusza następną."
+          "tekst": "",
+          "sedno": "Ambicja prowadzi Balladynę od jednej zbrodni do kolejnej.",
+          "punkty": [
+            "Pierwsza zbrodnia z zazdrości, następne – by ukryć poprzednie i zdobyć tron.",
+            "Władza zdobyta zbrodnią nie daje szczęścia ani spokoju."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wina i kara",
-          "tekst": "Zbrodnie Balladyny nie zostają bez kary. Kara przychodzi od natury i Boga – w postaci pioruna – oraz z wyroku, który Balladyna sama wydaje."
+          "tekst": "",
+          "sedno": "Zbrodnia nie zostaje bez kary – wymierza ją Bóg i natura.",
+          "punkty": [
+            "Plama na czole to znak winy, którego nie można zmyć.",
+            "Balladyna sama wydaje na siebie wyrok, a piorun go wykonuje."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Świat fantastyczny",
-          "tekst": "Goplana, Skierka i Chochlik wpływają na losy ludzi, ale nie panują nad skutkami. Fantastyka łączy się z ludowym przekonaniem, że zbrodnia musi wyjść na jaw."
+          "tekst": "",
+          "sedno": "Siły nadprzyrodzone wpływają na ludzi, ale nie panują nad skutkami.",
+          "punkty": [
+            "Goplana, Skierka i Chochlik swoimi psotami wywołują tragedię.",
+            "Fantastyka łączy się z ludowym przekonaniem, że zbrodnia musi wyjść na jaw."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ironia romantyczna",
-          "tekst": "Słowacki miesza tragizm z komizmem (Grabiec) i dystansuje się wobec opowiadanej historii."
+          "tekst": "",
+          "sedno": "Słowacki miesza tragizm z komizmem i patrzy na swoją historię z dystansem.",
+          "punkty": [
+            "Komiczny Grabiec obok krwawych zbrodni.",
+            "Epilog z Wawelem-dziejopisem przypomina, że to opowieść, a nie kronika."
+          ]
         }
       ]
     },
@@ -229,8 +381,9 @@
       "tytul": "Znaczenie tytułu",
       "bloki": [
         {
-          "typ": "akapit",
-          "tekst": "Tytuł wskazuje na główną bohaterkę, której droga od wiejskiej dziewczyny do królowej jest drogą zbrodni."
+          "typ": "punkt",
+          "etykieta": "",
+          "tekst": "Tytuł to imię bohaterki, której droga od wiejskiej dziewczyny do królowej jest drogą zbrodni."
         }
       ]
     },

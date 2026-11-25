@@ -142,27 +142,68 @@
         {
           "typ": "punkt",
           "etykieta": "Część I – nadejście dżumy",
-          "tekst": "Oran to zwyczajne, nudne miasto, w którym ludzie myślą głównie o pracy i pieniądzach. W kwietniu na ulicach zaczynają masowo ginąć szczury. Potem chorują ludzie. Doktor Rieux rozpoznaje dżumę i nalega, by władze zareagowały. Prefekt zwleka, w końcu ogłasza stan dżumy i zamyka miasto. Żona Rieux wyjechała wcześniej do sanatorium."
+          "tekst": "",
+          "sedno": "W Oranie giną szczury, a potem ludzie – doktor Rieux rozpoznaje dżumę.",
+          "punkty": [
+            "Oran to zwyczajne, nudne miasto, w którym ludzie myślą głównie o pracy i pieniądzach.",
+            "W kwietniu na ulicach zaczynają masowo ginąć szczury.",
+            "Potem chorują ludzie.",
+            "Doktor **Rieux** rozpoznaje dżumę i nalega, by władze zareagowały.",
+            "Prefekt zwleka, w końcu ogłasza stan dżumy i zamyka miasto.",
+            "Żona **Rieux** wyjechała wcześniej do sanatorium."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część II – zamknięte miasto",
-          "tekst": "Mieszkańcy zostają odcięci od świata i bliskich. Rambert, dziennikarz z Paryża, za wszelką cenę chce się wydostać do ukochanej. Ojciec Paneloux wygłasza kazanie, że dżuma to kara Boża za grzechy. Jean Tarrou zakłada ochotnicze formacje sanitarne. Joseph Grand, skromny urzędnik, pomaga w statystykach i wciąż pisze pierwsze zdanie swojej powieści."
+          "tekst": "",
+          "sedno": "Miasto zostaje odcięte od świata, a ludzie różnie reagują: ucieczką, kazaniem, pomocą.",
+          "punkty": [
+            "Mieszkańcy zostają odcięci od świata i bliskich.",
+            "**Rambert**, dziennikarz z Paryża, za wszelką cenę chce się wydostać do ukochanej.",
+            "Ojciec **Paneloux** wygłasza kazanie, że dżuma to kara Boża za grzechy.",
+            "**Jean Tarrou** zakłada ochotnicze formacje sanitarne.",
+            "**Joseph Grand**, skromny urzędnik, pomaga w statystykach i wciąż pisze pierwsze zdanie swojej powieści."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część III – szczyt epidemii",
-          "tekst": "Latem dżuma jest najgroźniejsza. Ludzi grzebie się w zbiorowych mogiłach, a potem pali. Mieszkańcy popadają w apatię, przyzwyczajają się do nieszczęścia."
+          "tekst": "",
+          "sedno": "Latem dżuma jest najgroźniejsza, a mieszkańcy popadają w apatię.",
+          "punkty": [
+            "Latem dżuma jest najgroźniejsza.",
+            "Ludzi grzebie się w zbiorowych mogiłach, a potem pali.",
+            "Mieszkańcy popadają w apatię, przyzwyczajają się do nieszczęścia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część IV – walka",
-          "tekst": "Rambert, mając już możliwość ucieczki, zostaje w Oranie, bo uważa, że wstydziłby się być szczęśliwym sam. Rieux, Tarrou i Paneloux patrzą na powolną śmierć małego syna sędziego Othona. To wstrząsa Paneloux. W drugim kazaniu mówi, że trzeba przyjąć wszystko albo odrzucić wszystko. Wkrótce sam umiera. Tarrou opowiada Rieux o swoim życiu: o ojcu-prokuratorze, który żądał kary śmierci, i o tym, jak postanowił walczyć z każdą formą zabijania."
+          "tekst": "",
+          "sedno": "Rambert zostaje, by pomagać, a śmierć dziecka wstrząsa wszystkimi.",
+          "punkty": [
+            "**Rambert**, mając już możliwość ucieczki, zostaje w Oranie, bo uważa, że wstydziłby się być szczęśliwym sam.",
+            "**Rieux**, **Tarrou** i **Paneloux** patrzą na powolną śmierć małego syna sędziego **Othona**.",
+            "To wstrząsa **Paneloux**.",
+            "W drugim kazaniu mówi, że trzeba przyjąć wszystko albo odrzucić wszystko.",
+            "Wkrótce sam umiera.",
+            "**Tarrou** opowiada **Rieux** o swoim życiu: o ojcu-prokuratorze, który żądał kary śmierci, i o tym, jak postanowił walczyć z każdą formą zabijania."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Część V – koniec dżumy",
-          "tekst": "W styczniu epidemia słabnie. Tuż przed jej końcem umiera Tarrou. Rieux dostaje telegram o śmierci żony. Bramy miasta zostają otwarte, ludzie świętują. Cottard, który bał się powrotu normalności, strzela z okna do przechodniów i zostaje aresztowany. Rieux wyjawia, że to on jest narratorem, i ostrzega, że bakcyl dżumy nigdy nie umiera."
+          "tekst": "",
+          "sedno": "Epidemia ustępuje, ale zabiera Tarrou, a Rieux ostrzega, że dżuma może wrócić.",
+          "punkty": [
+            "W styczniu epidemia słabnie.",
+            "Tuż przed jej końcem umiera **Tarrou**.",
+            "**Rieux** dostaje telegram o śmierci żony.",
+            "Bramy miasta zostają otwarte, ludzie świętują.",
+            "**Cottard**, który bał się powrotu normalności, strzela z okna do przechodniów i zostaje aresztowany.",
+            "**Rieux** wyjawia, że to on jest narratorem, i ostrzega, że bakcyl dżumy nigdy nie umiera."
+          ]
         }
       ]
     },
@@ -230,27 +271,42 @@
         {
           "typ": "punkt",
           "etykieta": "Zło",
-          "tekst": "Dżuma to symbol zła w świecie: wojny, totalitaryzmu, cierpienia."
+          "tekst": "",
+          "punkty": [
+            "Dżuma to symbol zła w świecie: wojny, totalitaryzmu, cierpienia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Postawy wobec zła",
-          "tekst": "Bohaterowie wybierają walkę, ucieczkę, rezygnację lub wykorzystanie sytuacji."
+          "tekst": "",
+          "punkty": [
+            "Bohaterowie wybierają walkę, ucieczkę, rezygnację lub wykorzystanie sytuacji."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Solidarność",
-          "tekst": "Ludzie mogą przeciwstawić się złu tylko razem."
+          "tekst": "",
+          "punkty": [
+            "Ludzie mogą przeciwstawić się złu tylko razem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Cierpienie niewinnych",
-          "tekst": "Śmierć dziecka rodzi pytanie o sens cierpienia i obecność Boga."
+          "tekst": "",
+          "punkty": [
+            "Śmierć dziecka rodzi pytanie o sens cierpienia i obecność Boga."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Egzystencjalizm",
-          "tekst": "Świat jest absurdalny, ale człowiek może nadać sens życiu przez działanie."
+          "tekst": "",
+          "punkty": [
+            "Świat jest absurdalny, ale człowiek może nadać sens życiu przez działanie."
+          ]
         }
       ]
     },

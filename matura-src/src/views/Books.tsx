@@ -203,6 +203,24 @@ function Prose({ text }: { text: string }) {
   );
 }
 
+/** Notatka: tytuł, sedno w jednym zdaniu i krótkie punkty. Gdy nie ma punktów – zwykły tekst podzielony na akapity. */
+function Note({ p, title = true }: { p: Punkt; title?: boolean }) {
+  return (
+    <>
+      {title && p.etykieta ? <h4><Md text={clean(p.etykieta)} /></h4> : null}
+      {p.sedno ? <p className="lk-sedno"><Md text={p.sedno} /></p> : null}
+      {p.tekst ? <Prose text={p.tekst} /> : null}
+      {p.punkty?.length ? (
+        <ul className="lk-pts">
+          {p.punkty.map((x, k) => (
+            <li key={k}><Md text={x} /></li>
+          ))}
+        </ul>
+      ) : null}
+    </>
+  );
+}
+
 /** Bloki sekcji: długie punkty z etykietą jako akapity z nagłówkiem, krótkie jako lista. */
 function Blocks({ blocks }: { blocks: BookBlock[] }) {
   const out: ReactNode[] = [];
@@ -211,14 +229,13 @@ function Blocks({ blocks }: { blocks: BookBlock[] }) {
     if (b.typ === 'punkt') {
       const run: Punkt[] = [];
       while (i < blocks.length && blocks[i].typ === 'punkt') run.push(blocks[i++] as Punkt);
-      const long = run.every((x) => x.etykieta) && run.some((x) => x.tekst.length > 110);
+      const long = run.every((x) => x.etykieta) && run.some((x) => x.tekst.length > 220 || !!x.sedno || !!x.punkty);
       if (long) {
         out.push(
           <div key={i} className="lk-defs">
             {run.map((x, k) => (
               <div key={k} className="lk-def">
-                <h4><Md text={clean(x.etykieta)} /></h4>
-                <Prose text={x.tekst} />
+                <Note p={x} />
               </div>
             ))}
           </div>,
@@ -226,8 +243,8 @@ function Blocks({ blocks }: { blocks: BookBlock[] }) {
       } else {
         const items = run.map((x, k) => (
           <li key={k}>
-            {x.etykieta ? <strong><Md text={x.etykieta} /></strong> : null}
-            {x.etykieta && x.tekst ? ' – ' : null}
+            {x.etykieta ? <strong><Md text={clean(x.etykieta)} /></strong> : null}
+            {x.etykieta && x.tekst ? (/^[a-ząćęłńóśźż]/.test(x.tekst) ? ': ' : ' – ') : null}
             <Md text={x.tekst} />
           </li>
         ));
@@ -270,62 +287,40 @@ function Facts({ blocks }: { blocks: BookBlock[] }) {
   );
 }
 
-/** Streszczenie: części jako zwijane karty z numerem; akapity (uwagi, „znaczenie”) między nimi. */
+/** Streszczenie: kolejne etapy na osi; akapity (uwagi, „znaczenie”) pod osią. */
 function Steps({ blocks }: { blocks: BookBlock[] }) {
-  const parts = blocks.filter((b) => b.typ === 'punkt').length;
-  const [open, setOpen] = useState<Set<number>>(() => new Set([0]));
-  const all = open.size >= parts;
-  const toggle = (n: number) =>
-    setOpen((o) => {
-      const x = new Set(o);
-      if (x.has(n)) x.delete(n);
-      else x.add(n);
-      return x;
-    });
   const out: ReactNode[] = [];
+  let run: Punkt[] = [];
   let n = 0;
-  blocks.forEach((b, k) => {
-    if (b.typ === 'punkt') {
-      const no = n++;
-      const isOpen = open.has(no);
-      out.push(
-        <div key={k} className="lk-part" data-open={isOpen ? 'true' : undefined}>
-          <button type="button" className="lk-part-head" aria-expanded={isOpen} onClick={() => toggle(no)}>
-            <span className="lk-step-no" aria-hidden="true">{no + 1}</span>
-            <span className="grow">{b.etykieta ? <Md text={clean(b.etykieta)} /> : <Md text={b.tekst.slice(0, 60) + '…'} />}</span>
-            <span className="lk-part-chev" aria-hidden="true"><Icon name="dalej" size={18} /></span>
-          </button>
-          {isOpen ? (
-            <div className="lk-part-body">
-              <Prose text={b.tekst} />
-              {no + 1 < parts && !open.has(no + 1) ? (
-                <button type="button" className="lk-link" onClick={() => toggle(no + 1)}>
-                  Czytaj dalej: część {no + 2}
-                </button>
-              ) : null}
+  const flush = (key: number) => {
+    if (!run.length) return;
+    out.push(
+      <ol key={`s${key}`} className="lk-steps">
+        {run.map((x, k) => (
+          <li key={k}>
+            <span className="lk-step-no" aria-hidden="true">{++n}</span>
+            <div className="lk-step-body">
+              <Note p={x} />
             </div>
-          ) : null}
-        </div>,
-      );
-    } else if (b.typ === 'akapit' && /^\*\*[^*]+:?\*\*:?$/.test(b.tekst)) {
+          </li>
+        ))}
+      </ol>,
+    );
+    run = [];
+  };
+  blocks.forEach((b, k) => {
+    if (b.typ === 'punkt') run.push(b);
+    else if (b.typ === 'akapit' && /^\*\*[^*]+:?\*\*:?$/.test(b.tekst)) {
+      // nagłówek aktu („**Akt I – …:**”) bez treści – jako podtytuł osi
+      flush(k);
       out.push(<h3 key={k} className="lk-sub">{clean(b.tekst)}</h3>);
     } else {
+      flush(k);
       out.push(<Para key={k} text={b.typ === 'akapit' ? b.tekst : ''} />);
     }
   });
-  return (
-    <>
-      {parts > 1 ? (
-        <div className="lk-parts-bar">
-          <span className="muted">{parts} {plural(parts, 'część', 'części', 'części')}</span>
-          <button type="button" className="lk-link" onClick={() => setOpen(all ? new Set() : new Set(Array.from({ length: parts }, (_, i) => i)))}>
-            {all ? 'Zwiń wszystkie' : 'Rozwiń wszystkie'}
-          </button>
-        </div>
-      ) : null}
-      <div className="lk-parts">{out}</div>
-    </>
-  );
+  flush(blocks.length);
+  return <>{out}</>;
 }
 
 /** Bohaterowie, motywy, symbole: kafelki. */
@@ -340,11 +335,11 @@ function Tiles({ blocks }: { blocks: BookBlock[] }) {
           const m = !t.etykieta ? t.tekst.match(/^\*\*(.+?)\*\*\s*[–:-]\s*(.*)$/) : null;
           const name = t.etykieta || m?.[1] || '';
           const raw = t.etykieta ? t.tekst : m ? m[2] : t.tekst;
-          const text = name ? raw.charAt(0).toUpperCase() + raw.slice(1) : raw;
+          const text = name && raw ? raw.charAt(0).toUpperCase() + raw.slice(1) : raw;
           return (
             <div key={k} className="lk-tile">
-              {name ? <h4><Md text={name} /></h4> : null}
-              <p><Md text={text} /></p>
+              {name ? <h4><Md text={clean(name)} /></h4> : null}
+              <Note p={{ ...t, etykieta: '', tekst: text }} title={false} />
             </div>
           );
         })}
@@ -571,26 +566,37 @@ function EpochOverview({ id }: { id: string }) {
   );
 }
 
+/** Spis sekcji: podświetla sekcję, którą właśnie czytasz. */
+function useActive(count: number) {
+  const [active, setActive] = useState(0);
+  useEffect(() => {
+    if (!count || typeof IntersectionObserver === 'undefined') return;
+    const els = Array.from({ length: count }, (_, i) => document.getElementById(anchor(i))).filter((x): x is HTMLElement => !!x);
+    const io = new IntersectionObserver(
+      (entries) => {
+        const vis = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (vis) setActive(Number(vis.target.id.split('-')[1]));
+      },
+      { rootMargin: '-80px 0px -60% 0px' },
+    );
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, [count]);
+  return active;
+}
+
 export function BookView({ id }: { id: string }) {
   const entry = BOOKS.find((b) => b.id === id);
   const book = useMemo(() => bookById(id), [id]);
   const questions = (ORAL?.pytania ?? []).filter((p) => p.lekturaId === id);
-  // czytnik: jedna sekcja naraz; ostatnia „zakładka” to pytania jawne
-  const tabs = [...(book?.sekcje.map((x) => tocName(x.tytul)) ?? []), ...(questions.length ? ['Pytania jawne'] : [])];
-  const [active, setActive] = useState(0);
+  const active = useActive(book?.sekcje.length ?? 0);
   const tocRef = useRef<HTMLElement | null>(null);
-  const topRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const el = tocRef.current?.querySelector<HTMLElement>('[aria-current="true"]');
     el?.scrollIntoView({ block: 'nearest', inline: 'center' });
   }, [active]);
   if (!entry) return <Empty text="Nie znaleziono tej lektury." action={{ label: 'Przejdź do lektur', run: () => go('#lektury') }} />;
-  const jump = (i: number) => {
-    setActive(i);
-    const top = topRef.current;
-    if (top && top.getBoundingClientRect().top < 0) top.scrollIntoView({ block: 'start' });
-  };
-  const qTab = book ? book.sekcje.length : 0;
+  const jump = (i: number) => document.getElementById(anchor(i))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   return (
     <div className="page lk-book">
       <header className="lk-hero">
@@ -618,7 +624,7 @@ export function BookView({ id }: { id: string }) {
             </a>
           ) : null}
           {questions.length ? (
-            <button type="button" className="btn btn-secondary" onClick={() => jump(qTab)}>
+            <button type="button" className="btn btn-secondary" onClick={() => document.getElementById('pytania-jawne')?.scrollIntoView({ behavior: 'smooth' })}>
               Pytania jawne ({questions.length})
             </button>
           ) : null}
@@ -628,18 +634,19 @@ export function BookView({ id }: { id: string }) {
       {!book ? (
         <p className="muted">Opracowanie tej lektury pojawi się wkrótce.</p>
       ) : (
-        <div className="lk-layout" ref={topRef}>
+        <div className="lk-layout">
           <nav className="lk-toc" aria-label="Sekcje opracowania" ref={tocRef}>
-            {tabs.map((t, i) => (
+            {book.sekcje.map((sec, i) => (
               <button key={i} type="button" aria-current={active === i ? 'true' : undefined} onClick={() => jump(i)}>
-                {t}
+                {tocName(sec.tytul)}
               </button>
             ))}
           </nav>
           <article className="lk-content">
-            {active < qTab ? (
-              <Section key={active} sec={book.sekcje[active]} i={active} bookId={id} />
-            ) : (
+            {book.sekcje.map((sec, i) => (
+              <Section key={i} sec={sec} i={i} bookId={id} />
+            ))}
+            {questions.length ? (
               <section className="lk-sec" id="pytania-jawne">
                 <h2>Pytania jawne na maturę ustną</h2>
                 <div className="card flush list">
@@ -650,21 +657,7 @@ export function BookView({ id }: { id: string }) {
                   ))}
                 </div>
               </section>
-            )}
-            <nav className="lk-pager" aria-label="Następna sekcja">
-              {active > 0 ? (
-                <button type="button" className="lk-pager-btn" onClick={() => jump(active - 1)}>
-                  <span className="lk-pager-label">Wstecz</span>
-                  <span className="lk-pager-name">{tabs[active - 1]}</span>
-                </button>
-              ) : <span />}
-              {active < tabs.length - 1 ? (
-                <button type="button" className="lk-pager-btn next" onClick={() => jump(active + 1)}>
-                  <span className="lk-pager-label">Dalej</span>
-                  <span className="lk-pager-name">{tabs[active + 1]}</span>
-                </button>
-              ) : null}
-            </nav>
+            ) : null}
             {book.zrodlo === 'zastepcze' ? <p className="lk-note">Opracowanie własne aplikacji – do sprawdzenia z tekstem lektury.</p> : null}
           </article>
         </div>

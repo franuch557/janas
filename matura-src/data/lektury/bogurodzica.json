@@ -43,22 +43,41 @@
         {
           "typ": "punkt",
           "etykieta": "Zwrotka I – prośba do Matki Bożej",
-          "tekst": "Wierni zwracają się do Bogurodzicy, Dziewicy „Bogiem sławionej Maryi”. Proszą, by u swojego Syna „zyskała” i „zesłała” im łaskę. Kończy się błaganiem „Kyrie elejson” (Panie, zmiłuj się)."
+          "tekst": "",
+          "punkty": [
+            "Wierni zwracają się do **Bogurodzicy**, Dziewicy „Bogiem sławionej **Maryi**”.",
+            "Proszą, by u swojego Syna „zyskała” i „zesłała” im łaskę.",
+            "Kończy się błaganiem „Kyrie elejson” (Panie, zmiłuj się)."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zwrotka II – prośba do Chrystusa przez Jana Chrzciciela",
-          "tekst": "Wierni proszą Jezusa („Bożyc”), by przez Jana Chrzciciela („Krzciciela”) usłyszał ich głosy i spełnił ludzkie myśli. Proszą o „zbożny pobyt” – dostatnie, pobożne życie – i „po żywocie rajski przebyt” – życie wieczne w raju."
+          "tekst": "",
+          "punkty": [
+            "Wierni proszą Jezusa („Bożyc”), by przez Jana **Chrzciciela** („Krzciciela”) usłyszał ich głosy i spełnił ludzkie myśli.",
+            "Proszą o „zbożny pobyt” – dostatnie, pobożne życie – i „po żywocie rajski przebyt” – życie wieczne w raju."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Kompozycja – Deesis",
-          "tekst": "Układ pieśni odpowiada średniowiecznemu motywowi z malarstwa bizantyjskiego – **Deesis**. Chrystus siedzi na tronie, a po bokach stoją Maryja i Jan Chrzciciel, którzy wstawiają się za ludźmi. Wierni nie zwracają się do Boga bezpośrednio, lecz przez pośredników."
+          "tekst": "",
+          "punkty": [
+            "Układ pieśni odpowiada średniowiecznemu motywowi z malarstwa bizantyjskiego – **Deesis**.",
+            "**Chrystus** siedzi na tronie, a po bokach stoją **Maryja** i Jan **Chrzciciel**, którzy wstawiają się za ludźmi.",
+            "Wierni nie zwracają się do Boga bezpośrednio, lecz przez pośredników."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Język i forma",
-          "tekst": "Tekst ma archaizmy fonetyczne, fleksyjne i leksykalne (np. „Bożyc”, „zyszczy”, „spuści”, „przebyt”). Stosuje rymy wewnętrzne i paralelizm składniowy. Pieśń śpiewano na melodię gregoriańską."
+          "tekst": "",
+          "punkty": [
+            "Tekst ma archaizmy fonetyczne, fleksyjne i leksykalne (np. „Bożyc”, „zyszczy”, „spuści”, „przebyt”).",
+            "Stosuje rymy wewnętrzne i paralelizm składniowy.",
+            "Pieśń śpiewano na melodię gregoriańską."
+          ]
         }
       ]
     },
@@ -111,17 +130,26 @@
         {
           "typ": "punkt",
           "etykieta": "Pośrednictwo świętych",
-          "tekst": "Średniowieczny człowiek wierzył, że Maryja i święci pomagają mu dotrzeć do Boga."
+          "tekst": "",
+          "punkty": [
+            "Średniowieczny człowiek wierzył, że Maryja i święci pomagają mu dotrzeć do Boga."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Hierarchia świata",
-          "tekst": "Świat jest uporządkowany: Bóg na górze, ludzie na dole, pomiędzy – pośrednicy."
+          "tekst": "",
+          "punkty": [
+            "Świat jest uporządkowany: Bóg na górze, ludzie na dole, pomiędzy – pośrednicy."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Doczesność i wieczność",
-          "tekst": "Wierni proszą zarówno o dobre życie na ziemi, jak i o zbawienie – życie doczesne jest drogą do wieczności."
+          "tekst": "",
+          "punkty": [
+            "Wierni proszą zarówno o dobre życie na ziemi, jak i o zbawienie – życie doczesne jest drogą do wieczności."
+          ]
         }
       ]
     },

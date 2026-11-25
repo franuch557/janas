@@ -17,16 +17,34 @@ Opowiadanie Tadeusza Borowskiego o jednym dniu w obozie Auschwitz-Birkenau. Narr
 
 ## Streszczenie szczegółowe
 ### W bloku
-Jest gorący dzień. Więźniowie iskają się z wszy i rozmawiają o jedzeniu. Tadek, polski więzień, ma się lepiej niż inni, bo dostaje paczki z domu. Francuz Henri z komanda „Kanada” zabiera go na rampę, gdzie przyjedzie transport. Na rampie można „zorganizować” jedzenie i ubrania.
+> Więźniowie z „Kanady” żyją lepiej niż inni i czekają na kolejny transport.
+- Jest gorący dzień.
+- Więźniowie iskają się z wszy i rozmawiają o jedzeniu.
+- **Tadek**, polski więzień, ma się lepiej niż inni, bo dostaje paczki z domu.
+- Francuz **Henri** z komanda „Kanada” zabiera go na rampę, gdzie przyjedzie transport.
+- Na rampie można „zorganizować” jedzenie i ubrania.
 
 ### Rampa
-Esesmani, więźniowie i strażnicy czekają na pociąg. Gdy przyjeżdża transport z Sosnowca i Będzina, więźniowie otwierają wagony. Ludzie są przerażeni, spragnieni, zdezorientowani. Więźniowie każą im zostawić bagaże i wsiadać do ciężarówek, które wiozą prosto do komór gazowych.
+> Przyjeżdża transport, a ludzie zostają skierowani prosto do komór gazowych.
+- **Esesmani**, więźniowie i strażnicy czekają na pociąg.
+- Gdy przyjeżdża transport z Sosnowca i Będzina, więźniowie otwierają wagony.
+- **Ludzie** są przerażeni, spragnieni, zdezorientowani.
+- Więźniowie każą im zostawić bagaże i wsiadać do ciężarówek, które wiozą prosto do komór gazowych.
 
 ### Ludzie z transportu
-Młoda matka ucieka od własnego dziecka, żeby nie iść z nim na śmierć. Pewien więzień-Rosjanin bije ją i wrzuca na ciężarówkę razem z dzieckiem. Tadek pyta Henriego, czy to dobrze, że jest wściekły na tych ludzi – Henri odpowiada, że to normalne, bo przez nich muszą to robić. Piękna dziewczyna wysiada z wagonu i spokojnie pyta, dokąd jadą – zna odpowiedź i sama idzie do samochodu.
+> Obóz odbiera ludziom ludzkie odruchy – matka ucieka od dziecka, a więźniowie czują wściekłość na ofiary.
+- Młoda matka ucieka od własnego dziecka, żeby nie iść z nim na śmierć.
+- Pewien więzień-Rosjanin bije ją i wrzuca na ciężarówkę razem z dzieckiem.
+- **Tadek** pyta **Henriego**, czy to dobrze, że jest wściekły na tych ludzi – **Henri** odpowiada, że to normalne, bo przez nich muszą to robić.
+- Piękna dziewczyna wysiada z wagonu i spokojnie pyta, dokąd jadą – zna odpowiedź i sama idzie do samochodu.
 
 ### Po pracy
-Więźniowie wynoszą z wagonów zwłoki zmarłych w drodze, w tym dzieci. Tadek wymiotuje. Kolejne transporty przyjeżdżają w nocy. Rano więźniowie wracają do obozu obładowani jedzeniem i rzeczami. Obóz będzie żył z tego transportu przez kilka dni.
+> Więźniowie sprzątają zwłoki i wracają obładowani rzeczami po zamordowanych.
+- Więźniowie wynoszą z wagonów zwłoki zmarłych w drodze, w tym dzieci.
+- **Tadek** wymiotuje.
+- Kolejne transporty przyjeżdżają w nocy.
+- Rano więźniowie wracają do obozu obładowani jedzeniem i rzeczami.
+- Obóz będzie żył z tego transportu przez kilka dni.
 
 ## Bohaterowie
 - **Tadek** – narrator, polski więzień. Nie jest bohaterem – stara się przeżyć i przyzwyczaja się do zła. Czuje obrzydzenie i złość.
@@ -42,16 +60,16 @@ Tadeusz Borowski był więźniem Auschwitz i Dachau. Opowiadanie ukazało się n
 
 ## Problematyka
 ### Człowiek zlagrowany
-Więzień przystosowuje się do zła i traci wrażliwość moralną – to „człowiek zlagrowany”.
+- Więzień przystosowuje się do zła i traci wrażliwość moralną – to „człowiek zlagrowany”.
 
 ### Zagłada
-Opowiadanie pokazuje ludobójstwo jako zorganizowaną, codzienną „pracę”.
+- Opowiadanie pokazuje ludobójstwo jako zorganizowaną, codzienną „pracę”.
 
 ### Odpowiedzialność ofiar
-Borowski pokazuje, że więźniowie stają się częścią machiny zagłady, by przeżyć.
+- Borowski pokazuje, że więźniowie stają się częścią machiny zagłady, by przeżyć.
 
 ### Rozpad wartości
-Matka wypiera się dziecka, ludzie walczą o przetrwanie kosztem innych.
+- Matka wypiera się dziecka, ludzie walczą o przetrwanie kosztem innych.
 
 ## Znaczenie tytułu
 Tytuł to uprzejma formuła, którą w ironiczny sposób łączy się ze śmiercią. Pokazuje, jak zbrodnia zostaje ukryta pod pozorami grzeczności i rutyny.

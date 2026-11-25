@@ -106,27 +106,57 @@
         {
           "typ": "punkt",
           "etykieta": "Przekroczyć granicę",
-          "tekst": "Młody reporter chce zobaczyć cokolwiek poza Polską – „przekroczyć granicę” to dla niego wielkie marzenie. Redakcja wysyła go do Indii. Przed wyjazdem dostaje od redaktorki „Dzieje” Herodota."
+          "tekst": "",
+          "sedno": "Młody Kapuściński marzy o przekroczeniu granicy i dostaje pierwszą podróż zagraniczną.",
+          "punkty": [
+            "Młody reporter chce zobaczyć cokolwiek poza Polską – „przekroczyć granicę” to dla niego wielkie marzenie.",
+            "Redakcja wysyła go do Indii.",
+            "Przed wyjazdem dostaje od redaktorki „Dzieje” **Herodota**."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Indie",
-          "tekst": "W Indiach Kapuściński czuje się zagubiony: nie zna angielskiego, nie rozumie kultury. Uczy się angielskiego z powieści Hemingwaya. Zaczyna rozumieć, że każda kultura ma swój język i kod, które trzeba poznać, by zrozumieć ludzi."
+          "tekst": "",
+          "sedno": "W Indiach reporter odkrywa, że bez znajomości języka i kultury nie rozumie świata.",
+          "punkty": [
+            "W Indiach **Kapuściński** czuje się zagubiony: nie zna angielskiego, nie rozumie kultury.",
+            "Uczy się angielskiego z powieści Hemingwaya.",
+            "Zaczyna rozumieć, że każda kultura ma swój język i kod, które trzeba poznać, by zrozumieć ludzi."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Chiny",
-          "tekst": "W Chinach doświadcza ścisłej kontroli – wszędzie ma opiekuna, nie może swobodnie rozmawiać z ludźmi. Obserwuje kampanie propagandowe. Porównuje to z opisanym przez Herodota światem dawnych imperiów."
+          "tekst": "",
+          "sedno": "W Chinach poznaje kraj ogromny, zamknięty i rządzony przez propagandę.",
+          "punkty": [
+            "W Chinach doświadcza ścisłej kontroli – wszędzie ma opiekuna, nie może swobodnie rozmawiać z ludźmi.",
+            "Obserwuje kampanie propagandowe.",
+            "Porównuje to z opisanym przez **Herodota** światem dawnych imperiów."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Herodot i jego świat",
-          "tekst": "Kapuściński streszcza i komentuje opowieści Herodota: o Kroisosie, który był bogaty, ale nie szczęśliwy; o Kserksesie i wojnie z Grecją; o Scytach i ich obyczajach; o okrucieństwie władców. Zastanawia się, jak Herodot zbierał informacje – podróżował, słuchał i zapisywał. To przypomina pracę reportera."
+          "tekst": "",
+          "sedno": "Herodot staje się dla reportera mistrzem i towarzyszem w poznawaniu innych kultur.",
+          "punkty": [
+            "**Kapuściński** streszcza i komentuje opowieści **Herodota**: o Kroisosie, który był bogaty, ale nie szczęśliwy; o Kserksesie i wojnie z Grecją; o Scytach i ich obyczajach; o okrucieństwie władców.",
+            "Zastanawia się, jak **Herodot** zbierał informacje – podróżował, słuchał i zapisywał.",
+            "To przypomina pracę reportera."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Afryka i dalsze podróże",
-          "tekst": "Kapuściński opisuje rewolucje i walkę o niepodległość w Afryce, a także kolejne wyprawy. Szuka miejsc, które opisał Herodot. Kończy refleksją, że Herodot był pierwszym globalistą – ciekawym innych ludzi, wolnym od pogardy dla obcych."
+          "tekst": "",
+          "sedno": "Kapuściński łączy własne reportaże z opowieściami Herodota o wojnach i ludach.",
+          "punkty": [
+            "**Kapuściński** opisuje rewolucje i walkę o niepodległość w Afryce, a także kolejne wyprawy.",
+            "Szuka miejsc, które opisał **Herodot**.",
+            "Kończy refleksją, że **Herodot** był pierwszym globalistą – ciekawym innych ludzi, wolnym od pogardy dla obcych."
+          ]
         }
       ]
     },
@@ -174,22 +204,34 @@
         {
           "typ": "punkt",
           "etykieta": "Spotkanie z Innym",
-          "tekst": "Poznanie obcej kultury wymaga otwartości i wysiłku."
+          "tekst": "",
+          "punkty": [
+            "Poznanie obcej kultury wymaga otwartości i wysiłku."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Reporter i historyk",
-          "tekst": "Herodot to pierwszy reporter – podróżuje, słucha i zapisuje, jak Kapuściński."
+          "tekst": "",
+          "punkty": [
+            "Herodot to pierwszy reporter – podróżuje, słucha i zapisuje, jak Kapuściński."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Władza i przemoc",
-          "tekst": "Dzieje to także historia wojen i okrucieństwa władców."
+          "tekst": "",
+          "punkty": [
+            "Dzieje to także historia wojen i okrucieństwa władców."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pamięć i historia",
-          "tekst": "Historia ludzi jest podobna w różnych epokach."
+          "tekst": "",
+          "punkty": [
+            "Historia ludzi jest podobna w różnych epokach."
+          ]
         }
       ]
     },

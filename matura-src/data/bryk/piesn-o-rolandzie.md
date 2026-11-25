@@ -18,19 +18,38 @@ Karol Wielki wraca z wojny z Saracenami w Hiszpanii. Zdrajca Ganelon spiskuje z 
 
 ## Streszczenie szczegółowe
 ### Zdrada Ganelona
-Saraceński król Marsylion z Saragossy obiecuje Karolowi Wielkiemu pokój i chrzest. Roland proponuje, by poselstwo do Marsyliona przyjął jego ojczym, Ganelon. Ganelon czuje się upokorzony i boi się o życie. W zemście umawia się z Saracenami, że napadną na tylną straż wojsk Karola, którą dowodzić będzie Roland.
+> Ganelon z zemsty na pasierbie Rolandzie zdradza wojska Karola Wielkiego.
+- Saraceński król **Marsylion** z Saragossy obiecuje **Karolowi Wielkiemu** pokój i chrzest.
+- **Roland** proponuje, by poselstwo do **Marsyliona** przyjął jego ojczym, **Ganelon**.
+- **Ganelon** czuje się upokorzony i boi się o życie.
+- W zemście umawia się z Saracenami, że napadną na tylną straż wojsk **Karola**, którą dowodzić będzie **Roland**.
 
 ### Wąwóz Roncevaux
-Wojska Karola wracają do Francji. Roland z dwunastoma parami (najlepszymi rycerzami) i dwudziestoma tysiącami żołnierzy osłania odwrót. W wąwozie w Pirenejach atakuje ich ogromna armia saraceńska. Przyjaciel Rolanda, rozsądny Oliwer, prosi, by zadąć w róg i wezwać Karola. Roland odmawia – uważa, że wzywanie pomocy przyniosłoby mu wstyd.
+> Tylna straż Rolanda zostaje zaatakowana przez ogromne wojsko Saracenów.
+- Wojska **Karola** wracają do Francji.
+- **Roland** z dwunastoma parami (najlepszymi rycerzami) i dwudziestoma tysiącami żołnierzy osłania odwrót.
+- W wąwozie w Pirenejach atakuje ich ogromna armia saraceńska.
+- Przyjaciel **Rolanda**, rozsądny **Oliwer**, prosi, by zadąć w róg i wezwać **Karola**.
+- **Roland** odmawia – uważa, że wzywanie pomocy przyniosłoby mu wstyd.
 
 ### Bitwa
-Rycerze walczą bohatersko i zabijają wielu wrogów, ale giną jeden po drugim. Gdy zostaje garstka, Roland dmie w róg Olifant tak mocno, że pękają mu skronie. Karol słyszy i zawraca. Giną Oliwer i arcybiskup Turpin, który przed śmiercią błogosławi poległych.
+> Roland z dumy zbyt długo nie wzywa pomocy i jego rycerze giną.
+- Rycerze walczą bohatersko i zabijają wielu wrogów, ale giną jeden po drugim.
+- Gdy zostaje garstka, **Roland** dmie w róg Olifant tak mocno, że pękają mu skronie.
+- **Karol** słyszy i zawraca.
+- Giną **Oliwer** i arcybiskup **Turpin**, który przed śmiercią błogosławi poległych.
 
 ### Śmierć Rolanda
-Ranny Roland kładzie się pod drzewem, twarzą w stronę Hiszpanii, by pokazać, że umiera jako zwycięzca. Próbuje rozbić o skałę swój miecz Durendal, by nie dostał się w ręce wroga, ale miecz się nie łamie. Roland wyznaje grzechy, wyciąga do Boga rękawicę, a anioły zabierają jego duszę do nieba.
+> Roland umiera jak idealny rycerz, zwrócony twarzą ku wrogom.
+- Ranny **Roland** kładzie się pod drzewem, twarzą w stronę Hiszpanii, by pokazać, że umiera jako zwycięzca.
+- Próbuje rozbić o skałę swój miecz Durendal, by nie dostał się w ręce wroga, ale miecz się nie łamie.
+- **Roland** wyznaje grzechy, wyciąga do Boga rękawicę, a anioły zabierają jego duszę do nieba.
 
 ### Zemsta i kara
-Karol pokonuje Saracenów, a Bóg zatrzymuje słońce, by wojsko mogło dokończyć walkę. Karol opłakuje poległych. Ganelon zostaje osądzony i rozerwany końmi, a jego krewni powieszeni.
+> Karol Wielki pokonuje Saracenów, a zdrajca Ganelon zostaje stracony.
+- **Karol** pokonuje Saracenów, a Bóg zatrzymuje słońce, by wojsko mogło dokończyć walkę.
+- **Karol** opłakuje poległych.
+- **Ganelon** zostaje osądzony i rozerwany końmi, a jego krewni powieszeni.
 
 ## Bohaterowie
 - **Roland** – siostrzeniec Karola, idealny rycerz: odważny, wierny Bogu i władcy, dbający o honor. Jego wadą jest pycha i brawura.
@@ -48,16 +67,17 @@ Najstarszy zachowany tekst powstał na przełomie XI i XII w. we Francji. W osta
 
 ## Problematyka
 ### Ideał rycerza
-Roland walczy za Boga, króla i ojczyznę („słodka Francja”), dba o honor i sławę.
+- Roland walczy za Boga, króla i ojczyznę („słodka Francja”), dba o honor i sławę.
 
 ### Wojna religijna
-Walka chrześcijan z „poganami” ukazana jest jako święta – to echo wypraw krzyżowych.
+- Walka chrześcijan z „poganami” ukazana jest jako święta – to echo wypraw krzyżowych.
 
 ### Honor a rozsądek
-Duma Rolanda prowadzi do klęski. Oliwer reprezentuje rozwagę.
+- Duma Rolanda prowadzi do klęski.
+- Oliwer reprezentuje rozwagę.
 
 ### Zdrada
-Ganelon to wzór zdrajcy, który z osobistej zemsty niszczy wspólnotę.
+- Ganelon to wzór zdrajcy, który z osobistej zemsty niszczy wspólnotę.
 
 ## Znaczenie tytułu
 Pieśń opowiada o czynach i śmierci Rolanda – głównego bohatera.

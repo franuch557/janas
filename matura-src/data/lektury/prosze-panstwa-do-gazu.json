@@ -108,22 +108,52 @@
         {
           "typ": "punkt",
           "etykieta": "W bloku",
-          "tekst": "Jest gorący dzień. Więźniowie iskają się z wszy i rozmawiają o jedzeniu. Tadek, polski więzień, ma się lepiej niż inni, bo dostaje paczki z domu. Francuz Henri z komanda „Kanada” zabiera go na rampę, gdzie przyjedzie transport. Na rampie można „zorganizować” jedzenie i ubrania."
+          "tekst": "",
+          "sedno": "Więźniowie z „Kanady” żyją lepiej niż inni i czekają na kolejny transport.",
+          "punkty": [
+            "Jest gorący dzień.",
+            "Więźniowie iskają się z wszy i rozmawiają o jedzeniu.",
+            "**Tadek**, polski więzień, ma się lepiej niż inni, bo dostaje paczki z domu.",
+            "Francuz **Henri** z komanda „Kanada” zabiera go na rampę, gdzie przyjedzie transport.",
+            "Na rampie można „zorganizować” jedzenie i ubrania."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Rampa",
-          "tekst": "Esesmani, więźniowie i strażnicy czekają na pociąg. Gdy przyjeżdża transport z Sosnowca i Będzina, więźniowie otwierają wagony. Ludzie są przerażeni, spragnieni, zdezorientowani. Więźniowie każą im zostawić bagaże i wsiadać do ciężarówek, które wiozą prosto do komór gazowych."
+          "tekst": "",
+          "sedno": "Przyjeżdża transport, a ludzie zostają skierowani prosto do komór gazowych.",
+          "punkty": [
+            "**Esesmani**, więźniowie i strażnicy czekają na pociąg.",
+            "Gdy przyjeżdża transport z Sosnowca i Będzina, więźniowie otwierają wagony.",
+            "**Ludzie** są przerażeni, spragnieni, zdezorientowani.",
+            "Więźniowie każą im zostawić bagaże i wsiadać do ciężarówek, które wiozą prosto do komór gazowych."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ludzie z transportu",
-          "tekst": "Młoda matka ucieka od własnego dziecka, żeby nie iść z nim na śmierć. Pewien więzień-Rosjanin bije ją i wrzuca na ciężarówkę razem z dzieckiem. Tadek pyta Henriego, czy to dobrze, że jest wściekły na tych ludzi – Henri odpowiada, że to normalne, bo przez nich muszą to robić. Piękna dziewczyna wysiada z wagonu i spokojnie pyta, dokąd jadą – zna odpowiedź i sama idzie do samochodu."
+          "tekst": "",
+          "sedno": "Obóz odbiera ludziom ludzkie odruchy – matka ucieka od dziecka, a więźniowie czują wściekłość na ofiary.",
+          "punkty": [
+            "Młoda matka ucieka od własnego dziecka, żeby nie iść z nim na śmierć.",
+            "Pewien więzień-Rosjanin bije ją i wrzuca na ciężarówkę razem z dzieckiem.",
+            "**Tadek** pyta **Henriego**, czy to dobrze, że jest wściekły na tych ludzi – **Henri** odpowiada, że to normalne, bo przez nich muszą to robić.",
+            "Piękna dziewczyna wysiada z wagonu i spokojnie pyta, dokąd jadą – zna odpowiedź i sama idzie do samochodu."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Po pracy",
-          "tekst": "Więźniowie wynoszą z wagonów zwłoki zmarłych w drodze, w tym dzieci. Tadek wymiotuje. Kolejne transporty przyjeżdżają w nocy. Rano więźniowie wracają do obozu obładowani jedzeniem i rzeczami. Obóz będzie żył z tego transportu przez kilka dni."
+          "tekst": "",
+          "sedno": "Więźniowie sprzątają zwłoki i wracają obładowani rzeczami po zamordowanych.",
+          "punkty": [
+            "Więźniowie wynoszą z wagonów zwłoki zmarłych w drodze, w tym dzieci.",
+            "**Tadek** wymiotuje.",
+            "Kolejne transporty przyjeżdżają w nocy.",
+            "Rano więźniowie wracają do obozu obładowani jedzeniem i rzeczami.",
+            "Obóz będzie żył z tego transportu przez kilka dni."
+          ]
         }
       ]
     },
@@ -176,22 +206,34 @@
         {
           "typ": "punkt",
           "etykieta": "Człowiek zlagrowany",
-          "tekst": "Więzień przystosowuje się do zła i traci wrażliwość moralną – to „człowiek zlagrowany”."
+          "tekst": "",
+          "punkty": [
+            "Więzień przystosowuje się do zła i traci wrażliwość moralną – to „człowiek zlagrowany”."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zagłada",
-          "tekst": "Opowiadanie pokazuje ludobójstwo jako zorganizowaną, codzienną „pracę”."
+          "tekst": "",
+          "punkty": [
+            "Opowiadanie pokazuje ludobójstwo jako zorganizowaną, codzienną „pracę”."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Odpowiedzialność ofiar",
-          "tekst": "Borowski pokazuje, że więźniowie stają się częścią machiny zagłady, by przeżyć."
+          "tekst": "",
+          "punkty": [
+            "Borowski pokazuje, że więźniowie stają się częścią machiny zagłady, by przeżyć."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Rozpad wartości",
-          "tekst": "Matka wypiera się dziecka, ludzie walczą o przetrwanie kosztem innych."
+          "tekst": "",
+          "punkty": [
+            "Matka wypiera się dziecka, ludzie walczą o przetrwanie kosztem innych."
+          ]
         }
       ]
     },

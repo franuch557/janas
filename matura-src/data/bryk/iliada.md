@@ -20,22 +20,53 @@ Epos opowiada o kilkudziesięciu dniach dziesiątego roku wojny trojańskiej. Ac
 
 ## Streszczenie szczegółowe
 ### Gniew Achillesa (pieśń I)
-Grecy oblegają Troję od dziesięciu lat. Kapłan Apollina, Chryzes, prosi Agamemnona o zwrot porwanej córki. Agamemnon odmawia, więc Apollo zsyła na obóz zarazę. Agamemnon w końcu oddaje Chryzeidę, ale w zamian odbiera Achillesowi jego brankę Bryzeidę. Upokorzony Achilles odmawia dalszej walki. Jego matka, nimfa Tetyda, prosi Zeusa, by Trojanie zwyciężali, dopóki Grecy nie oddadzą Achillesowi czci.
+> Agamemnon zabiera Achillesowi brankę, a obrażony bohater wycofuje się z walki.
+- Grecy oblegają Troję od dziesięciu lat.
+- Kapłan Apollina, Chryzes, prosi **Agamemnona** o zwrot porwanej córki.
+- **Agamemnon** odmawia, więc Apollo zsyła na obóz zarazę.
+- **Agamemnon** w końcu oddaje Chryzeidę, ale w zamian odbiera **Achillesowi** jego brankę Bryzeidę.
+- Upokorzony **Achilles** odmawia dalszej walki.
+- Jego matka, nimfa Tetyda, prosi Zeusa, by Trojanie zwyciężali, dopóki Grecy nie oddadzą **Achillesowi** czci.
 
 ### Pojedynki i walki (pieśni II–VII)
-Homer przedstawia wojska obu stron. Parys staje do pojedynku z Menelaosem, którego żonę, Helenę, porwał. Gdy przegrywa, ratuje go bogini Afrodyta. Bogowie wtrącają się w bitwę po obu stronach.
+> Wojna trwa w pojedynkach bohaterów, a bogowie mieszają się do walki.
+- Homer przedstawia wojska obu stron.
+- **Parys** staje do pojedynku z Menelaosem, którego żonę, **Helenę**, porwał.
+- Gdy przegrywa, ratuje go bogini Afrodyta.
+- **Bogowie** wtrącają się w bitwę po obu stronach.
 
 ### Pożegnanie Hektora z Andromachą (pieśń VI)
-Hektor wraca na chwilę do miasta. Żona Andromacha prosi go, by nie wychodził na bitwę, bo zostanie wdową, a syn sierotą. Hektor wie, że Troja upadnie, ale wybiera honor i obowiązek. Mały Astianaks boi się błyszczącego hełmu ojca – Hektor zdejmuje go i bierze syna na ręce. To jedna z najbardziej ludzkich scen eposu.
+> Hektor żegna żonę i syna, wiedząc, że może zginąć.
+- **Hektor** wraca na chwilę do miasta.
+- Żona **Andromacha** prosi go, by nie wychodził na bitwę, bo zostanie wdową, a syn sierotą.
+- **Hektor** wie, że Troja upadnie, ale wybiera honor i obowiązek.
+- Mały Astianaks boi się błyszczącego hełmu ojca – **Hektor** zdejmuje go i bierze syna na ręce.
+- To jedna z najbardziej ludzkich scen eposu.
 
 ### Klęski Greków (pieśni VIII–XVI)
-Trojanie, prowadzeni przez Hektora, zyskują przewagę i podchodzą pod greckie okręty. Agamemnon wysyła do Achillesa poselstwo z darami, ale Achilles odmawia. Gdy Trojanie podpalają statek, Patroklos prosi Achillesa o zbroję i rusza do walki. Odpycha Trojan, ale ginie z ręki Hektora, który zabiera mu zbroję Achillesa.
+> Bez Achillesa Grecy przegrywają, a w walce ginie Patroklos.
+- Trojanie, prowadzeni przez **Hektora**, zyskują przewagę i podchodzą pod greckie okręty.
+- **Agamemnon** wysyła do **Achillesa** poselstwo z darami, ale **Achilles** odmawia.
+- Gdy Trojanie podpalają statek, **Patroklos** prosi **Achillesa** o zbroję i rusza do walki.
+- Odpycha Trojan, ale ginie z ręki **Hektora**, który zabiera mu zbroję **Achillesa**.
 
 ### Powrót Achillesa (pieśni XVIII–XXII)
-Achilles w rozpaczy godzi się z Agamemnonem. Hefajstos wykuwa dla niego nową zbroję i tarczę, na której przedstawiony jest cały świat: miasto w czasie pokoju i wojny, praca na polu, uczty i tańce. Achilles w szale zabija wielu Trojan. W końcu staje do pojedynku z Hektorem. Hektor ucieka trzy razy wokół murów, w końcu staje do walki i ginie. Achilles przywiązuje jego ciało do rydwanu i wlecze je po ziemi.
+> Achilles wraca do walki, by pomścić Patroklosa, i zabija Hektora.
+- **Achilles** w rozpaczy godzi się z **Agamemnonem**.
+- Hefajstos wykuwa dla niego nową zbroję i tarczę, na której przedstawiony jest cały świat: miasto w czasie pokoju i wojny, praca na polu, uczty i tańce.
+- **Achilles** w szale zabija wielu Trojan.
+- W końcu staje do pojedynku z **Hektorem**.
+- **Hektor** ucieka trzy razy wokół murów, w końcu staje do walki i ginie.
+- **Achilles** przywiązuje jego ciało do rydwanu i wlecze je po ziemi.
 
 ### Priam u Achillesa (pieśń XXIV)
-Achilles przez wiele dni znieważa ciało Hektora. Bogowie są oburzeni. Stary król Priam, pod opieką Hermesa, przychodzi nocą do namiotu Achillesa, całuje jego ręce i prosi o ciało syna, przypominając mu jego własnego ojca. Achilles wzrusza się, obaj płaczą. Oddaje ciało i daje Trojanom czas na pogrzeb. Epos kończy się pogrzebem Hektora.
+> Achilles oddaje ojcu ciało Hektora – gniew ustępuje litości.
+- **Achilles** przez wiele dni znieważa ciało **Hektora**.
+- **Bogowie** są oburzeni.
+- Stary król **Priam**, pod opieką Hermesa, przychodzi nocą do namiotu **Achillesa**, całuje jego ręce i prosi o ciało syna, przypominając mu jego własnego ojca.
+- **Achilles** wzrusza się, obaj płaczą.
+- Oddaje ciało i daje Trojanom czas na pogrzeb.
+- Epos kończy się pogrzebem **Hektora**.
 
 ## Bohaterowie
 - **Achilles** – najdzielniejszy z Greków, syn Peleusa i Tetydy. Gwałtowny, dumny, obrażony, ale zdolny do współczucia. Wybrał krótkie, sławne życie zamiast długiego i spokojnego.
@@ -55,16 +86,17 @@ Epos przypisywany Homerowi, powstał prawdopodobnie w VIII w. p.n.e. na podstawi
 
 ## Problematyka
 ### Wojna
-Wojna przynosi sławę bohaterom, ale też cierpienie, śmierć i rozpacz bliskich.
+- Wojna przynosi sławę bohaterom, ale też cierpienie, śmierć i rozpacz bliskich.
 
 ### Honor i sława
-Grecki wojownik walczy o chwałę. Gniew Achillesa wynika z urażonej czci.
+- Grecki wojownik walczy o chwałę.
+- Gniew Achillesa wynika z urażonej czci.
 
 ### Los i bogowie
-Ludzie podlegają przeznaczeniu i kaprysom bogów, ale sami odpowiadają za swoje wybory.
+- Ludzie podlegają przeznaczeniu i kaprysom bogów, ale sami odpowiadają za swoje wybory.
 
 ### Człowieczeństwo
-Scena z Priamem pokazuje, że nawet wróg może współczuć – wspólne cierpienie łączy ludzi.
+- Scena z Priamem pokazuje, że nawet wróg może współczuć – wspólne cierpienie łączy ludzi.
 
 ## Znaczenie tytułu
 „Iliada” to pieśń o Ilionie, czyli Troi.

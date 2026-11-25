@@ -15,16 +15,16 @@ Czesław Miłosz (1911–2004) przed wojną należał do katastroficznej grupy �
 
 ## Problematyka
 ### Poeta wobec historii
-Poezja ma obowiązek mówić prawdę i ocalać pamięć.
+- Poezja ma obowiązek mówić prawdę i ocalać pamięć.
 
 ### Obojętność wobec zła
-Świat żyje normalnie, gdy obok giną ludzie („Campo di Fiori”).
+- Świat żyje normalnie, gdy obok giną ludzie („Campo di Fiori”).
 
 ### Koniec świata
-Koniec świata przychodzi niezauważony, w zwykły dzień.
+- Koniec świata przychodzi niezauważony, w zwykły dzień.
 
 ### Wdzięczność i harmonia
-Pogodzenie ze światem i radość istnienia („Dar”).
+- Pogodzenie ze światem i radość istnienia („Dar”).
 
 ## Znaczenie tytułu
 Tytuły nazywają miejsce, temat lub adresata wiersza.

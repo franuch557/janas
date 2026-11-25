@@ -14,16 +14,16 @@ Halina Poświatowska (1935–1967) wydała m.in. tomy „Hymn bałwochwalczy” 
 
 ## Problematyka
 ### Miłość
-Najważniejsza wartość, która nadaje sens życiu.
+- Najważniejsza wartość, która nadaje sens życiu.
 
 ### Śmierć i choroba
-Świadomość śmierci wzmacnia pragnienie życia.
+- Świadomość śmierci wzmacnia pragnienie życia.
 
 ### Kobiecość i cielesność
-Ciało i zmysły są ważną częścią przeżywania świata.
+- Ciało i zmysły są ważną częścią przeżywania świata.
 
 ### Nawiązania do kultury
-Postaci literackie, np. Julia, jako maski dla własnych uczuć.
+- Postaci literackie, np. Julia, jako maski dla własnych uczuć.
 
 ## Znaczenie tytułu
 Wiersze często nie mają tytułów – nazywa się je pierwszymi słowami w nawiasie kwadratowym.

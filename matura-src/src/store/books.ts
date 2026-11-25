@@ -32,7 +32,7 @@ export interface BookEntry {
 /** Blok sekcji opracowania: akapit, punkt listy (z etykietą i numerem) albo tabela. Tekst w prostym markdownie (**, *). */
 export type BookBlock =
   | { typ: 'akapit'; tekst: string }
-  | { typ: 'punkt'; etykieta: string; tekst: string; nr?: number }
+  | { typ: 'punkt'; etykieta: string; tekst: string; nr?: number; sedno?: string; punkty?: string[] }
   | { typ: 'tabela'; wiersze: string[][] };
 
 export interface BookSection {
@@ -115,7 +115,14 @@ function sections(x: unknown): BookSection[] {
           b.typ === 'tabela'
             ? { typ: 'tabela', wiersze: arr(b.wiersze).map((r) => arr(r).map(s)) }
             : b.typ === 'punkt'
-              ? { typ: 'punkt', etykieta: s(b.etykieta), tekst: s(b.tekst), ...(typeof b.nr === 'number' ? { nr: b.nr } : {}) }
+              ? {
+                  typ: 'punkt',
+                  etykieta: s(b.etykieta),
+                  tekst: s(b.tekst),
+                  ...(typeof b.nr === 'number' ? { nr: b.nr } : {}),
+                  ...(typeof b.sedno === 'string' && b.sedno ? { sedno: b.sedno } : {}),
+                  ...(Array.isArray(b.punkty) && b.punkty.length ? { punkty: b.punkty.map(s) } : {}),
+                }
               : b.typ === 'akapit'
                 ? { typ: 'akapit', tekst: s(b.tekst) }
                 : null,
@@ -141,7 +148,7 @@ export function epochOverview(epokaId: string): BookSection[] {
 const plain = (t: string) => t.replace(/\*\*|\*/g, '');
 
 const blockText = (b: BookBlock) =>
-  b.typ === 'tabela' ? b.wiersze.map((r) => r.join(' | ')).join('\n') : plain(b.typ === 'punkt' && b.etykieta ? `${b.etykieta}: ${b.tekst}` : b.tekst);
+  b.typ === 'tabela' ? b.wiersze.map((r) => r.join(' | ')).join('\n') : plain(b.typ === 'punkt' ? [b.etykieta ? `${b.etykieta}:` : '', b.sedno ?? '', b.tekst, ...(b.punkty ?? [])].filter(Boolean).join(' ') : b.tekst);
 
 /** Opracowanie jako zwykły tekst (do promptów: fiszki, plan odpowiedzi). Bez pytań sprawdzających. */
 export function bookText(b: Book, e?: BookEntry): string {

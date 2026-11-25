@@ -125,37 +125,86 @@
         {
           "typ": "punkt",
           "etykieta": "Kmicic i Oleńka",
-          "tekst": "Andrzej Kmicic, chorąży orszański, ma według testamentu dziadka Oleńki zostać jej mężem. Przyjeżdża do Wodoktów i zakochuje się w niej. Jego kompania, hulaszczy towarzysze, zachowuje się skandalicznie. Okoliczna szlachta, Butrymowie, zabija ich po bijatyce w karczmie. Kmicic w zemście pali zaścianek Wołmontowicze. Oleńka ukrywa się przed nim, a on porywa ją siłą."
+          "tekst": "",
+          "sedno": "Porywczy Kmicic zakochuje się w Oleńce, ale swoją awanturniczością traci jej szacunek.",
+          "punkty": [
+            "**Andrzej Kmicic**, chorąży orszański, ma według testamentu dziadka **Oleńki** zostać jej mężem.",
+            "Przyjeżdża do Wodoktów i zakochuje się w niej.",
+            "Jego kompania, hulaszczy towarzysze, zachowuje się skandalicznie.",
+            "Okoliczna szlachta, Butrymowie, zabija ich po bijatyce w karczmie.",
+            "**Kmicic** w zemście pali zaścianek Wołmontowicze.",
+            "**Oleńka** ukrywa się przed nim, a on porywa ją siłą."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Pojedynek z Wołodyjowskim",
-          "tekst": "Pan Michał Wołodyjowski uwalnia Oleńkę i w pojedynku ciężko rani Kmicica. Potem jednak oszczędza go i daje mu szansę na poprawę."
+          "tekst": "",
+          "sedno": "Wołodyjowski pokonuje Kmicica w pojedynku, ale daruje mu życie.",
+          "punkty": [
+            "Pan **Michał Wołodyjowski** uwalnia **Oleńkę** i w pojedynku ciężko rani **Kmicica**.",
+            "Potem jednak oszczędza go i daje mu szansę na poprawę."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zdrada Radziwiłłów",
-          "tekst": "Szwedzi napadają na Polskę. Hetman wielki litewski Janusz Radziwiłł podpisuje w Kiejdanach ugodę ze Szwedami. Kmicic, który wcześniej złożył mu przysięgę na krucyfiks, zostaje przy nim i uważa go za męża stanu. Oleńka, wierna królowi, uważa go teraz za zdrajcę."
+          "tekst": "",
+          "sedno": "Kmicic zostaje przy Januszu Radziwille, który przechodzi na stronę Szwedów.",
+          "punkty": [
+            "Szwedzi napadają na Polskę.",
+            "Hetman wielki litewski **Janusz Radziwiłł** podpisuje w Kiejdanach ugodę ze Szwedami.",
+            "**Kmicic**, który wcześniej złożył mu przysięgę na krucyfiks, zostaje przy nim i uważa go za męża stanu.",
+            "**Oleńka**, wierna królowi, uważa go teraz za zdrajcę."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przemiana Kmicica",
-          "tekst": "Kmicic, podsłuchawszy rozmowę księcia Bogusława, rozumie, że Radziwiłłowie dbają tylko o siebie. Porywa Bogusława, by oddać go w ręce stronników króla, ale ten zręcznie ucieka i rani go. Kmicic postanawia odkupić winy. Przyjmuje nazwisko Babinicz."
+          "tekst": "",
+          "sedno": "Kmicic rozumie, że Radziwiłłowie są zdrajcami, i jako Babinicz postanawia odkupić winy.",
+          "punkty": [
+            "**Kmicic**, podsłuchawszy rozmowę księcia **Bogusława**, rozumie, że **Radziwiłłowie** dbają tylko o siebie.",
+            "Porywa **Bogusława**, by oddać go w ręce stronników króla, ale ten zręcznie ucieka i rani go.",
+            "**Kmicic** postanawia odkupić winy.",
+            "Przyjmuje nazwisko Babinicz."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Obrona Jasnej Góry",
-          "tekst": "Kmicic przyjeżdża do Częstochowy i ostrzega przeora, księdza Kordeckiego, przed atakiem. Szwedzi oblegają klasztor. Kmicic nocą wychodzi z twierdzy i wysadza największe szwedzkie działo – kolubrynę. Zostaje ranny i schwytany. Kuklinowski torturuje go ogniem, ale Kmicic ucieka. Obrona Jasnej Góry staje się symbolem oporu całego narodu."
+          "tekst": "",
+          "sedno": "Kmicic bohatersko walczy w obronie klasztoru, który staje się symbolem oporu.",
+          "punkty": [
+            "**Kmicic** przyjeżdża do Częstochowy i ostrzega przeora, księdza **Kordeckiego**, przed atakiem.",
+            "Szwedzi oblegają klasztor.",
+            "**Kmicic** nocą wychodzi z twierdzy i wysadza największe szwedzkie działo – kolubrynę.",
+            "Zostaje ranny i schwytany.",
+            "Kuklinowski torturuje go ogniem, ale **Kmicic** ucieka.",
+            "Obrona Jasnej Góry staje się symbolem oporu całego narodu."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Ratunek króla",
-          "tekst": "Kmicic z Tatarami przeprowadza króla Jana Kazimierza z wygnania przez Śląsk. W wąwozie broni go przed Szwedami i zostaje ciężko ranny. Wyznaje królowi całą prawdę o sobie i dostaje przebaczenie."
+          "tekst": "",
+          "sedno": "Kmicic ratuje życie Jana Kazimierza i dostaje przebaczenie.",
+          "punkty": [
+            "**Kmicic** z niewielkim oddziałem przeprowadza króla **Jana Kazimierza** ze Śląska do kraju.",
+            "W wąwozie broni go przed Szwedami i zostaje ciężko ranny.",
+            "Wyznaje królowi całą prawdę o sobie i dostaje przebaczenie."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Walki i powrót",
-          "tekst": "Kmicic walczy pod Warszawą i na Litwie przeciw Bogusławowi Radziwiłłowi, który chciał zdobyć Oleńkę. Na koniec w kościele w Upicie odczytany zostaje list królewski: Babinicz to Kmicic, bohater wojny. Oleńka mu przebacza, biorą ślub."
+          "tekst": "",
+          "sedno": "Kmicic walczy z Bogusławem Radziwiłłem, zostaje oczyszczony z win i żeni się z Oleńką.",
+          "punkty": [
+            "**Kmicic** walczy pod Warszawą i na Litwie przeciw **Bogusławowi Radziwiłłowi**, który chciał zdobyć **Oleńkę**.",
+            "Na koniec w kościele w Upicie odczytany zostaje list królewski: Babinicz to **Kmicic**, bohater wojny.",
+            "**Oleńka** mu przebacza, biorą ślub."
+          ]
         }
       ]
     },
@@ -228,27 +277,42 @@
         {
           "typ": "punkt",
           "etykieta": "Patriotyzm",
-          "tekst": "Miłość ojczyzny i obrona wiary łączą naród w walce z wrogiem."
+          "tekst": "",
+          "punkty": [
+            "Miłość ojczyzny i obrona wiary łączą naród w walce z wrogiem."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Przemiana bohatera",
-          "tekst": "Kmicic przez czyny i cierpienie odkupuje winy – to motyw nawrócenia."
+          "tekst": "",
+          "punkty": [
+            "Kmicic przez czyny i cierpienie odkupuje winy – to motyw nawrócenia."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Zdrada i wierność",
-          "tekst": "Radziwiłłowie zdradzają, a ludzie prości i szlachta wierni są królowi."
+          "tekst": "",
+          "punkty": [
+            "Radziwiłłowie zdradzają, a ludzie prości i szlachta wierni są królowi."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Wiara",
-          "tekst": "Obrona Jasnej Góry pokazuje znaczenie wiary katolickiej dla Polaków."
+          "tekst": "",
+          "punkty": [
+            "Obrona Jasnej Góry pokazuje znaczenie wiary katolickiej dla Polaków."
+          ]
         },
         {
           "typ": "punkt",
           "etykieta": "Honor",
-          "tekst": "Honor i dane słowo mają dla bohaterów ogromne znaczenie."
+          "tekst": "",
+          "punkty": [
+            "Honor i dane słowo mają dla bohaterów ogromne znaczenie."
+          ]
         }
       ]
     },

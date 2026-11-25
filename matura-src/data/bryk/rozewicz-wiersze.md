@@ -14,16 +14,16 @@ Tadeusz Różewicz (1921–2014) walczył w AK. Debiutował tomem „Niepokój�
 
 ## Problematyka
 ### Kryzys wartości
-Wojna zniszczyła pojęcia dobra i zła („Ocalony”).
+- Wojna zniszczyła pojęcia dobra i zła („Ocalony”).
 
 ### Doświadczenie ocalonych
-Ocaleni czują winę i pustkę.
+- Ocaleni czują winę i pustkę.
 
 ### Odbudowa świata
-Trzeba nauczyć się na nowo podstawowych rzeczy: że chleb jest dobry, a człowiek ważny („W środku życia”).
+- Trzeba nauczyć się na nowo podstawowych rzeczy: że chleb jest dobry, a człowiek ważny („W środku życia”).
 
 ### Pamięć o ofiarach
-Przedmioty po ofiarach mówią o zbrodni („Warkoczyk”).
+- Przedmioty po ofiarach mówią o zbrodni („Warkoczyk”).
 
 ## Znaczenie tytułu
 Tytuły są proste, często jednowyrazowe – jak cała poezja Różewicza.
