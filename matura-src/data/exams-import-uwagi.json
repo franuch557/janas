@@ -134,5 +134,41 @@
  {
   "examId": "MPOP-P1-P2-2608",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MJAP-P0-100-2203",
+  "text": "Zadanie 5: odczytano 3 z 7 odpowiedzi; brakujące = null"
+ },
+ {
+  "examId": "MMAP-P0-100-1805",
+  "text": "Zadanie 29: w arkuszu 2 pkt, w zasadach 4 pkt."
+ },
+ {
+  "examId": "MMAP-P0-100-1805",
+  "text": "Zadanie 33: w arkuszu 4 pkt, w zasadach 2 pkt."
+ },
+ {
+  "examId": "MMAP-P0-100-2203",
+  "text": "Zadanie 5: rozwiązanie „BE” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MMAP-P0-100-2203",
+  "text": "Zadanie 19: zadanie zamknięte, ale rozwiązania „1.B2.E” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2203",
+  "text": "Zadanie A1.1: rozwiązanie „A” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2203",
+  "text": "Zadanie A1.13: zadanie zamknięte, ale rozwiązania „PRAWDAPRAWDA” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2203",
+  "text": "Zadanie A1.15: zadanie zamknięte, ale rozwiązania „A.3B.2C.1” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null"
+ },
+ {
+  "examId": "MPOP-P1-P2-2203",
+  "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
  }
 ]

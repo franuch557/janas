@@ -55,7 +55,7 @@ describe('zakres lat', () => {
   });
 
   it('lata w bazie', () => {
-    expect(availableYears(data.exams, 'matematyka', 'rozszerzony')).toEqual([2023, 2024, 2025, 2026]);
+    expect(availableYears(data.exams, 'matematyka', 'rozszerzony')).toEqual([2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]);
   });
 });
 
@@ -126,7 +126,9 @@ describe('wszystkie arkusze z importu PDF', () => {
   const imported = data.exams.filter((e) => e.tasks.length > 0);
 
   it('jest 16 arkuszy z sesji majowej (4 przedmioty × lata 2023–2026) i arkusze z innych sesji', () => {
-    expect(imported.filter((e) => e.session === 'maj')).toHaveLength(16);
+    expect(imported.filter((e) => e.session === 'maj' && e.formula === '2023')).toHaveLength(16);
+    // formuła 2015: matematyka podstawowa i rozszerzona, maj 2015–2022
+    expect(imported.filter((e) => e.formula === '2015')).toHaveLength(16);
     expect(imported.length).toBeGreaterThanOrEqual(16);
   });
 
@@ -212,7 +214,7 @@ describe('zbiory zadań i informatory CKE', () => {
     }
   });
   it('nie są arkuszami próbnymi i nie zmieniają lat arkuszy', () => {
-    expect(availableYears(data.exams, 'matematyka', 'podstawowy')).not.toContain(2022);
+    expect(availableYears(data.exams.filter((e) => e.session === 'zbiór' || e.year >= 2023), 'matematyka', 'podstawowy')).not.toContain(2022);
     const n = normalizeExams(data).filter((e) => e.session === 'zbiór');
     expect(n).toHaveLength(4);
     expect(n.every((e) => !e.complete)).toBe(true);
@@ -226,8 +228,8 @@ describe('plik exams.json', () => {
     for (const e of data.exams) {
       expect(['matematyka', 'polski', 'angielski']).toContain(e.family);
       expect(['podstawowy', 'rozszerzony']).toContain(e.level);
-      expect(e.year).toBeGreaterThanOrEqual(e.session === 'zbiór' ? 2022 : 2023);
-      expect(e.formula).toBe('2023');
+      expect(e.year).toBeGreaterThanOrEqual(e.session === 'zbiór' || e.session === 'marzec' ? 2022 : e.formula === '2015' ? 2015 : 2023);
+      expect(e.formula).toBe(e.year < 2023 && e.session === 'maj' ? '2015' : '2023');
       expect(Array.isArray(e.tasks)).toBe(true);
       expect(e.sources.length).toBeGreaterThan(0);
     }

@@ -116,8 +116,8 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
   const available = {} as Derived['available'];
   for (const s of SUBJECTS) {
     const topics = topicsFor(s.family, s.level);
-    // wagi tematów tylko z prawdziwych arkuszy (zbiór zadań ma inne proporcje działów)
-    const ex = exams.filter((e) => e.subjectId === s.id && e.session !== 'zbiór');
+    // wagi tematów tylko z arkuszy formuły 2023 (zbiór zadań i stara formuła mają inne proporcje działów)
+    const ex = exams.filter((e) => e.subjectId === s.id && e.session !== 'zbiór' && (e.year >= 2023 || e.session === 'marzec'));
     const w = computeWeights(topicStats(ex, topics), 'bazowo');
     weights[s.id] = w;
     const m = masteryMap(active.results, s.id, topics.map((t) => t.id));

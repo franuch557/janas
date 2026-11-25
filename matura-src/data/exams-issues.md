@@ -127,7 +127,6 @@ Walidacja: bez rozbieżności.
 
 ## MJAP-P0-100-2306 (angielski, podstawowy, 2023) – status: pełny
 
-- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Zadanie 9 nie ma przypisanego tematu.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
@@ -140,7 +139,6 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2308 (angielski, podstawowy, 2023) – status: pełny
 
-- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:
@@ -152,7 +150,6 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2406 (angielski, podstawowy, 2024) – status: pełny
 
-- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Zadanie 9 nie ma przypisanego tematu.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
@@ -165,7 +162,6 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2408 (angielski, podstawowy, 2024) – status: pełny
 
-- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:
@@ -187,7 +183,6 @@ Uwagi z importu:
 
 ## MJAP-P0-100-2508 (angielski, podstawowy, 2025) – status: pełny
 
-- Zadanie 2 (zamknięte): pozycja 2.3 uzupełniona ręcznie z zasad oceniania CKE.
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Uwagi z importu:
@@ -478,3 +473,223 @@ Uwagi z importu:
 - Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
 
 Źródła: Informator CKE o egzaminie maturalnym z matematyki, poziom rozszerzony (od roku szkolnego 2024/2025); PDF informator-matematyka-pr-2024.pdf (import lokalny)
+
+## MJAP-P0-100-2203 (angielski, podstawowy, 2022) – status: pełny
+
+- Zadanie 5 (zamknięte): nieodczytane pozycje 5.4, 5.5, 5.6, 5.7.
+- Zadanie 9 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 5: odczytano 3 z 7 odpowiedzi; brakujące = null
+
+Źródła: PDF MJAP-P0-100-2203.pdf (import lokalny); PDF MJAP-P0-100-200-400-660-Q00-2203-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-1505 (matematyka, podstawowy, 2015) – status: pełny
+
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 10 nie ma przypisanego tematu.
+- Zadanie 14 nie ma przypisanego tematu.
+- Zadanie 31 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-1505.pdf (import lokalny); PDF MMAP-P0-100-1505-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-1605 (matematyka, podstawowy, 2016) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 10 nie ma przypisanego tematu.
+- Zadanie 11 nie ma przypisanego tematu.
+- Zadanie 12 nie ma przypisanego tematu.
+- Zadanie 23 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-1605.pdf (import lokalny); PDF MMAP-P0-100-1605-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-1705 (matematyka, podstawowy, 2017) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 16 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-1705.pdf (import lokalny); PDF MMAP-P0-100-1705-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-1805 (matematyka, podstawowy, 2018) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 10 nie ma przypisanego tematu.
+- Zadanie 23 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 29: w arkuszu 2 pkt, w zasadach 4 pkt.
+- Zadanie 33: w arkuszu 4 pkt, w zasadach 2 pkt.
+
+Źródła: PDF MMAP-P0-100-1805.pdf (import lokalny); PDF MMAP-P0-100-1805-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-1905 (matematyka, podstawowy, 2019) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 23 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-1905.pdf (import lokalny); PDF MMAP-P0-100-1905-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2203 (matematyka, podstawowy, 2022) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 5 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 12 nie ma przypisanego tematu.
+- Zadanie 19 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie 30.1 nie ma przypisanego tematu.
+- Zadanie 30.2 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 5: rozwiązanie „BE” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie 19: zadanie zamknięte, ale rozwiązania „1.B2.E” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+
+Źródła: PDF MMAP-P0-100-2203.pdf (import lokalny); PDF MMAP-P0-100-200-300-400-660-700-Q00-2203-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2005 (matematyka, podstawowy, 2020) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 7 nie ma przypisanego tematu.
+- Zadanie 8 nie ma przypisanego tematu.
+- Zadanie 11 nie ma przypisanego tematu.
+- Zadanie 12 nie ma przypisanego tematu.
+- Zadanie 16 nie ma przypisanego tematu.
+- Zadanie 23 nie ma przypisanego tematu.
+- Zadanie 25 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-2005.pdf (import lokalny); PDF MMAP-P0-100-2005-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2105 (matematyka, podstawowy, 2021) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 7 nie ma przypisanego tematu.
+- Zadanie 10 nie ma przypisanego tematu.
+- Zadanie 25 nie ma przypisanego tematu.
+- Zadanie 27 nie ma przypisanego tematu.
+- Zadanie 31 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-2105.pdf (import lokalny); PDF MMAP-P0-100-2105-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2205 (matematyka, podstawowy, 2022) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 6 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 10 nie ma przypisanego tematu.
+- Zadanie 11 nie ma przypisanego tematu.
+- Zadanie 24 nie ma przypisanego tematu.
+- Zadanie 27 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-2205.pdf (import lokalny); PDF MMAP-P0-100-2205-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-1505 (matematyka, rozszerzony, 2015) – status: pełny
+
+- Zadanie 3 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-1505.pdf (import lokalny); PDF MMAP-R0-100-1505-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-1605 (matematyka, rozszerzony, 2016) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 14 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-1605.pdf (import lokalny); PDF MMAP-R0-100-1605-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-1705 (matematyka, rozszerzony, 2017) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 15 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-1705.pdf (import lokalny); PDF MMAP-R0-100-1705-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-1805 (matematyka, rozszerzony, 2018) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-1805.pdf (import lokalny); PDF MMAP-R0-100-1805-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-1905 (matematyka, rozszerzony, 2019) – status: pełny
+
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 6 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-1905.pdf (import lokalny); PDF MMAP-R0-100-1905-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2203 (matematyka, rozszerzony, 2022) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-2203.pdf (import lokalny); PDF MMAP-R0-100-200-300-400-660-700-Q00-2203-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2005 (matematyka, rozszerzony, 2020) – status: pełny
+
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 15 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-2005.pdf (import lokalny); PDF MMAP-R0-100-2005-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2105 (matematyka, rozszerzony, 2021) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-2105.pdf (import lokalny); PDF MMAP-R0-100-2105-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2205 (matematyka, rozszerzony, 2022) – status: pełny
+
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-2205.pdf (import lokalny); PDF MMAP-R0-100-2205-zasady.pdf (import lokalny)
+
+## MPOP-P1-P2-2203 (polski, podstawowy, 2022) – status: pełny
+
+- Brak maksymalnej liczby punktów w sprawdzonych źródłach.
+- Zadanie A1.1 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie A1.13 (zamknięte): brak odpowiedzi (answer = null).
+- Zadanie A1.15 (zamknięte): brak odpowiedzi (answer = null).
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie A1.1: rozwiązanie „A” wymaga ręcznego rozpisania (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie A1.13: zadanie zamknięte, ale rozwiązania „PRAWDAPRAWDA” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Zadanie A1.15: zadanie zamknięte, ale rozwiązania „A.3B.2C.1” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
+- Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
+
+Źródła: PDF MPOP-P1-100-2203.pdf (import lokalny); PDF MPOP-P2-100-2203.pdf (import lokalny); PDF MPOP-P1-100-200-300-400-660-700-Q00-2203-zasady.pdf (import lokalny); PDF MPOP-P2-100-300-400-660-Q00-2203-zasady.pdf (import lokalny)

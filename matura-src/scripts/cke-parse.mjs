@@ -165,7 +165,8 @@ export function span(pages, from, to, family) {
 }
 
 export function isScratchPage(p) {
-  return p.lines.some((l) => /^BRUDNOPIS/.test(l.n));
+  // stara formuła: mały brudnopis pod zadaniem na tej samej stronie — taka strona nie jest brudnopisem
+  return p.lines.some((l) => /^BRUDNOPIS/.test(l.n)) && !p.lines.some((l) => /^Zadanie\d/.test(l.n));
 }
 
 /** Prostokąty do zamalowania na biało: kropki do pisania odpowiedzi, miejsca dla egzaminatora, „PRZENIEŚ…”. */
@@ -561,7 +562,9 @@ function groupTables(lines, rows) {
 export function isClosed(text) {
   const lines = text.split('\n').map((l) => l.trim());
   const opts = ['A.', 'B.', 'C.', 'D.'].filter((o) => lines.some((l) => l.startsWith(o)));
-  return opts.length >= 3 || /Zaznacz (właściwą|poprawną) odpowiedź|Wybierz (właściwą|poprawną)|P,? jeśli|prawdziwe,? albo F|Zakreśl|Zaznacz znakiem X|Dobierz|Dopasuj/i.test(text);
+  // stara formuła (2015–2022): „A. 4 B. 2 C. … D. …” w jednej linii
+  const inline = ['A', 'B', 'C', 'D'].filter((o) => new RegExp(`(^|\\s)${o}\\.(\\s|$)`, 'm').test(text));
+  return opts.length >= 3 || inline.length === 4 || /Zaznacz (właściwą|poprawną) odpowiedź|Wybierz (właściwą|poprawną)|P,? jeśli|prawdziwe,? albo F|Zakreśl|Zaznacz znakiem X|Dobierz|Dopasuj/i.test(text);
 }
 
 export function needsProof(text) {

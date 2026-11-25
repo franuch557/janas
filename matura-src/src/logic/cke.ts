@@ -153,7 +153,8 @@ export function normalizeExams(raw: unknown): CkeExam[] {
   const out: CkeExam[] = [];
   for (const e of list) {
     if (!isObj(e) || typeof e.id !== 'string') continue;
-    if (e.formula != null && e.formula !== '2023') continue;
+    // formuła 2015 (2015–2022): tylko matematyka, bo polski i angielski wyglądały zupełnie inaczej
+    if (e.formula != null && e.formula !== '2023' && !(e.formula === '2015' && e.family === 'matematyka')) continue;
     const family = e.family as Family;
     const level = e.level as Level;
     const sub = subjectFor(family, level);
@@ -247,7 +248,7 @@ export function bookLabel(id: string): string {
 
 export function examLabel(e: { year: number; session: string; id?: string; examId?: string }): string {
   if (e.session === 'zbiór') return bookLabel(e.id ?? e.examId ?? '');
-  return `CKE ${e.year}, ${MONTHS_NOM[e.session] ?? e.session}`;
+  return `CKE ${e.year}, ${MONTHS_NOM[e.session] ?? e.session}${e.year < 2023 && e.session !== 'marzec' ? ', stara formuła' : ''}`;
 }
 
 /** Numer jak w arkuszu CKE: polski „A1.7.1” → „7.1”, temat wypracowania „A2.1” → „temat 1”. */

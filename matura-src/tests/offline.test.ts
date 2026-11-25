@@ -48,7 +48,8 @@ describe('lista kontrolna planu ustnego', () => {
 describe('punktacja CKE w danych', () => {
   it('większość zadań otwartych ma poziomy punktacji od maksimum do zera', () => {
     const exams = EXAMS;
-    const open = exams.flatMap((e) => e.tasks).filter((t) => !t.auto && !t.essay && t.subjectId.startsWith('mat'));
+    // stara formuła (2015–2022) ma schematy punktowania w innym układzie
+    const open = exams.flatMap((e) => e.tasks).filter((t) => !t.auto && !t.essay && t.subjectId.startsWith('mat') && (t.year >= 2023 || t.session === 'marzec'));
     const withRubric = open.filter((t) => t.rubric);
     expect(withRubric.length / open.length).toBeGreaterThan(0.9);
     for (const t of withRubric) {

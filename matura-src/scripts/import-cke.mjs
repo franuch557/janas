@@ -21,6 +21,8 @@ import { parseFileName, planSheet, planRules, findMeta, isClosed, needsProof, ne
 import { rubricFrom, buildAnswer, keyDetails, saveKeys, englishItems } from './cke-answers.mjs';
 const keysOut = {};
 import { issuesMarkdown, imagesLookup } from './validate-exams.mjs';
+import { oldClosedKeys } from './stara-formula.mjs';
+import { optionLetters } from './cke-answers.mjs';
 
 const args = process.argv.slice(2);
 const dir = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--tylko');
@@ -43,6 +45,9 @@ const manualTopics = readJson('data/tematy-recznie.json', {});
 const manualAnswers = readJson('data/odpowiedzi-recznie.json', {});
 const audioTimes = readJson('data/audio-czasy.json', {});
 
+// formuła 2015: arkusze z lat 2015–2022 (arkusze pokazowe z marca 2022 są już w formule 2023)
+const oldFormula = (info) => info.year < 2023 && info.session !== 'marzec';
+
 // ---------- pliki ----------
 const groups = new Map();
 const skipped = [];
@@ -51,7 +56,7 @@ for (const f of readdirSync(dir).sort()) {
   const info = parseFileName(f);
   if (!info) { skipped.push(`${f}: nieznana nazwa pliku`); continue; }
   if (info.adapted) { skipped.push(`${f}: arkusz dostosowany (wariant ${info.variant})`); continue; }
-  if (info.year < 2023) { skipped.push(`${f}: rok ${info.year} przed formułą 2023`); continue; }
+  if (oldFormula(info) && info.family !== 'matematyka') { skipped.push(`${f}: rok ${info.year} przed formułą 2023`); continue; }
   if (only && info.examId !== only) continue;
   if (!groups.has(info.examId)) groups.set(info.examId, { info, arkusz: [], zasady: [], transkrypcja: [], nagranie: [] });
   groups.get(info.examId)[info.kind].push({ file: join(dir, f), name: f, info });
@@ -70,7 +75,7 @@ for (const [examId, g] of groups) {
   const { info } = g;
   let e = data.exams.find((x) => x.id === examId);
   if (!e) {
-    e = { id: examId, family: info.family, level: info.level, year: info.year, session: info.session ?? 'maj', formula: '2023',
+    e = { id: examId, family: info.family, level: info.level, year: info.year, session: info.session ?? 'maj', formula: oldFormula(info) ? '2015' : '2023',
       maxPoints: null, minutes: null, urls: { arkusz: [], zasady: [] }, status: 'tylko metadane', tasks: [], groups: [], sources: [] };
     data.exams.push(e);
   }
@@ -80,6 +85,11 @@ for (const [examId, g] of groups) {
   for (const a of g.arkusz.sort((x, y) => x.info.part - y.info.part)) sheets.push({ ...a, pdf: await loadPdf(a.file) });
   const rules = [];
   for (const z of g.zasady.sort((x, y) => x.info.part - y.info.part)) rules.push({ ...z, pdf: await loadPdf(z.file) });
+  // formuła 2015 (2015–2017): lewy margines 57 pt zamiast 62 pt (arkusz i zasady)
+  if (oldFormula(info)) for (const s of [...sheets, ...rules]) {
+    const xs = s.pdf.pages.flatMap((p) => p.lines.filter((l) => /^Zadanie\s+\d/.test(l.text)).map((l) => l.x0));
+    if (xs.length && Math.min(...xs) < 62) for (const p of s.pdf.pages) p.col = [50, 540];
+  }
 
   // ---------- metadane ----------
   const metas = sheets.map((s) => findMeta(s.pdf.pages));
@@ -100,10 +110,15 @@ for (const [examId, g] of groups) {
     if (!rulesDoc) issue(`Brak zasad oceniania dla arkusza ${s.name}: odpowiedzi zadań zamkniętych = null.`);
     for (const c of plan.contexts) images.push({ kind: 'ctx', key: c.key, src: s, frags: c.frags });
     const partTasks = [];
+    // formuła 2015: klucz zadań zamkniętych w innym układzie niż od 2023
+    const oldKeys = oldFormula(info) && rulesDoc ? oldClosedKeys(rulesDoc.pdf.pages) : null;
+    for (const w of oldKeys?.issues ?? []) issue(`Klucz starej formuły: ${w}`);
     for (const t of plan.tasks) {
       const body = t.text.replace(/^Zadanie[^\n]*\n?/, '');
       const full = [t.stem, t.text].filter(Boolean).join('\n');
-      const r = info.family === 'angielski' ? rPlan.find((x) => x.main === Number(t.sheetNr)) : rPlan.find((x) => x.nr === t.sheetNr);
+      let r = info.family === 'angielski' ? rPlan.find((x) => x.main === Number(t.sheetNr)) : rPlan.find((x) => x.nr === t.sheetNr);
+      const oldKey = oldKeys?.keys[t.sheetNr ?? t.nr];
+      if (oldKey && optionLetters(body).length >= 4) r = { ...(r ?? { frags: [] }), tokens: [oldKey] };
       if (rulesDoc && !r) issue(`Zadanie ${t.nr}: nie znalazłem go w zasadach oceniania.`);
       if (r && r.points != null && r.points !== t.maxPoints && info.family !== 'angielski' && !t.alternative) issue(`Zadanie ${t.nr}: w arkuszu ${t.maxPoints} pkt, w zasadach ${r.points} pkt.`);
       const ans = t.essay ? { type: 'otwarte', answer: null } : buildAnswer({ info, examId, task: t, body, rule: r, manual: manualAnswers[examId]?.[t.nr] });
