@@ -4386,3 +4386,15 @@ p.rv-verdict {
 .wzory-strona {
   max-width: none;
 }
+
+/* Teoria z matematyki */
+.th-page h1 { margin: 8px 0 4px; }
+.th-intro { color: var(--ink-2, inherit); }
+.th-lesson h2 { margin: 0; }
+.th-theory .katex-display { overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
+.th-example { border: 1px solid var(--linia); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+.th-example h4 { margin: 0; }
+.th-steps { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 6px; }
+.th-steps .math-text p { margin: 0; }
+.th-answer { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.th-answer .math-text p { margin: 0; }

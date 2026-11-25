@@ -22,8 +22,9 @@ import { useReminder } from './views/reminder';
 import { FlashcardsView } from './views/Flashcards';
 import { QuickMode } from './views/QuickMode';
 import { BookView, BooksView, OralQuestionView, OralView } from './views/Books';
+import { TheoryView } from './views/Theory';
 
-const TITLES: Record<string, string> = { plan: 'Plan', zadania: 'Zadania', arkusze: 'Arkusze', postep: 'Postęp', ustawienia: 'Ustawienia', fiszki: 'Fiszki', lektury: 'Lektury', lektura: 'Lektury', ustny: 'Ustny polski', 'ustny-pytanie': 'Ustny polski', 'mapa-pamieci': 'Mapa pamięci' };
+const TITLES: Record<string, string> = { plan: 'Plan', zadania: 'Zadania', arkusze: 'Arkusze', postep: 'Postęp', ustawienia: 'Ustawienia', fiszki: 'Fiszki', lektury: 'Lektury', lektura: 'Lektury', ustny: 'Ustny polski', 'ustny-pytanie': 'Ustny polski', 'mapa-pamieci': 'Mapa pamięci', teoria: 'Teoria' };
 
 const NAV = [
   { name: 'start', label: 'Start', icon: 'start' },
@@ -70,7 +71,7 @@ export function SyncButton() {
 function Shell({ route, children }: { route: Route; children: React.ReactNode }) {
   const { d, toasts, dismissToast } = useStore();
   const sync = useSyncInfo();
-  const active = route.name === 'zadanie' ? 'zadania' : ['lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'lektury' : route.name === 'mapa-pamieci' ? 'postep' : route.name;
+  const active = route.name === 'zadanie' || route.name === 'teoria' ? 'zadania' : ['lektura', 'ustny', 'ustny-pytanie'].includes(route.name) ? 'lektury' : route.name === 'mapa-pamieci' ? 'postep' : route.name;
   const focus = FOCUS_ROUTES.has(route.name);
   const toastsEl = (
     <div className={`toasts${focus ? ' focus-mode' : ''}`} aria-live="polite">
@@ -271,6 +272,9 @@ export default function App() {
       break;
     case 'mapa-pamieci':
       view = <MemoryMapView />;
+      break;
+    case 'teoria':
+      view = <TheoryView key={route.topic ?? ''} topic={route.topic} />;
       break;
     case 'lektury':
       view = <BooksView />;

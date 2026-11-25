@@ -27,7 +27,8 @@ export type Route =
   | { name: 'dziesiec-minut' }
   | { name: 'tramwaj' }
   | { name: 'powtorki'; subject: SubjectId | null; topic: string | null }
-  | { name: 'mapa-pamieci' };
+  | { name: 'mapa-pamieci' }
+  | { name: 'teoria'; topic: string | null };
 
 export const FOCUS_ROUTES = new Set(['zadanie', 'arkusz', 'diagnoza', 'wypracowanie', 'powitanie', 'piec-minut', 'cwiczenie', 'sprawdzian', 'dziesiec-minut', 'tramwaj', 'powtorki']);
 
@@ -54,6 +55,8 @@ export function parseHash(hash: string): Route {
   if (h === 'dziesiec-minut') return { name: 'dziesiec-minut' };
   if (h === 'tramwaj') return { name: 'tramwaj' };
   if (h === 'mapa-pamieci') return { name: 'mapa-pamieci' };
+  if (h === 'teoria') return { name: 'teoria', topic: null };
+  if (h.startsWith('teoria-')) return { name: 'teoria', topic: h.slice(7) };
   if (h === 'powtorki') return { name: 'powtorki', subject: null, topic: null };
   if (h.startsWith('powtorki-')) {
     const { subject, tail } = subjectPrefix(h.slice(9));
@@ -107,6 +110,8 @@ export function hrefOf(r: Route): string {
       return `#ustny-${r.nr}`;
     case 'cwiczenie':
       return `#cwiczenie-${r.subject}-${r.topic}`;
+    case 'teoria':
+      return `#teoria${r.topic ? `-${r.topic}` : ''}`;
     case 'powtorki':
       return `#powtorki${r.subject ? `-${r.subject}${r.topic ? `-${r.topic}` : ''}` : ''}`;
     default:

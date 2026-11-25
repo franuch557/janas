@@ -12,6 +12,7 @@ import { go } from '../ui/router';
 import { AddTaskSheet } from './AddTask';
 import { dueCards } from '../logic/flashcards';
 import { shortTopic, taskPlanItem, typeText, usePlanEdit } from './planParts';
+import { hasTheory } from './Theory';
 import { PacksBanner } from './Start';
 
 type Filter = 'niezrobione' | 'do powtórki' | 'zamknięte' | 'otwarte';
@@ -252,6 +253,11 @@ export function BankView({ subject, topic }: { subject: SubjectId | null; topic:
         <div className="row">
           {!wide ? <IconButton icon="wstecz" label="Wróć do tematów" onClick={() => go({ name: 'zadania', subject: activeSubject.id, topic: null })} /> : null}
           <h2 className="grow">{shortTopic(activeTopic)}</h2>
+          {activeSubject.family === 'matematyka' && hasTheory(activeTopic) ? (
+            <button type="button" className="btn btn-secondary btn-sm" onClick={() => go({ name: 'teoria', topic: activeTopic })}>
+              Teoria i przykłady
+            </button>
+          ) : null}
         </div>
         <div className="chips" role="group" aria-label="Filtry">
           <button type="button" className="chip" aria-pressed={filters.length === 0} onClick={() => setFilters([])}>
@@ -299,6 +305,10 @@ export function BankView({ subject, topic }: { subject: SubjectId | null; topic:
     <div className="page wide">
       <div className="row-between">
         <h1 className="ptitle">Zadania</h1>
+        <span className="grow" />
+        <button type="button" className="btn btn-quiet btn-sm" onClick={() => go({ name: 'teoria', topic: null })}>
+          Teoria z matematyki
+        </button>
         <IconButton icon={searching ? 'zamknij' : 'szukaj'} label={searching ? 'Zamknij wyszukiwanie' : 'Szukaj zadań'} onClick={() => { setSearching((s) => !s); setQuery(''); }} />
       </div>
       <PacksBanner />
