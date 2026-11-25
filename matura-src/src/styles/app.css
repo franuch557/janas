@@ -4364,3 +4364,25 @@ p.rv-verdict {
   border-radius: 10px;
   background: var(--powierzchnia-2);
 }
+
+.own-answer-text {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+/* karta wzorów: szerokie okno przewijane kółkiem lub palcem, strony jedna pod drugą */
+.sheet {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.sheet.sheet-wide {
+  max-height: 94vh;
+}
+@media (min-width: 720px) {
+  .sheet.sheet-wide {
+    width: min(920px, calc(100vw - 48px));
+  }
+}
+.wzory-strona {
+  max-width: none;
+}

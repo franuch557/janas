@@ -2,6 +2,7 @@
 // bez podpowiedzi. Uczy rozpoznawać metodę; dobry wynik daje poziom „opanowany”, błąd go cofa.
 // Zeszyt błędów: zadania z wynikiem poniżej maksimum do rozwiązania jeszcze raz.
 
+import { FormulasButton } from '../ui/Formulas';
 import { useMemo, useState } from 'react';
 import { subjectDef, type SubjectId } from '../model';
 import { useStore } from '../store/AppStore';
@@ -177,6 +178,7 @@ function ClosedQuestion({ t, onDone, onNext }: { t: AppTask; onDone: (pts: numbe
       <div className="row">
         <SubjectTag id={t.subjectId} />
         <span className="small muted">{t.label}</span>
+        <FormulasButton subject={t.subjectId} />
       </div>
       <TaskSheet task={t} level={subjectDef(t.subjectId)!.level} />
       <AnswerCard answer={t.answer} value={choice} onChange={(a, o) => !checked && setChoice((c) => ({ ...c, [a]: o }))} onAll={(v) => !checked && setChoice(v)} checked={checked} />

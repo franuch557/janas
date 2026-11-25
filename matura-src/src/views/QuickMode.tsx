@@ -1,5 +1,6 @@
 // Tryb „5 minut” i „10 minut”: szybkie zadania zamknięte z najsłabszych tematów (3 albo 6) i fiszki.
 
+import { FormulasButton } from '../ui/Formulas';
 import { useMemo, useState } from 'react';
 import { subjectDef } from '../model';
 import { useStore } from '../store/AppStore';
@@ -77,6 +78,7 @@ export function QuickMode({ minutes = 5 }: { minutes?: 5 | 10 }) {
                 </span>
                 <SubjectTag id={t.subjectId} />
                 <span className="small muted">{t.label}</span>
+                <FormulasButton subject={t.subjectId} />
               </div>
               <TaskSheet task={t} level={subjectDef(t.subjectId)!.level} />
               {t.answer ? <AnswerCard answer={t.answer} value={choice} onChange={(id, o) => !checked && setChoice((c) => ({ ...c, [id]: o }))} onAll={(v) => !checked && setChoice(v)} checked={checked} /> : null}

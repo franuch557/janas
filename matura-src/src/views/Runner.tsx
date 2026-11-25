@@ -126,7 +126,6 @@ export function Runner({ sessionId, title }: { sessionId: string; title: string 
 
 function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; title: string; onFinish: () => void }) {
   const { updateSession, commitNow, d } = useStore();
-  const ai = useAi();
   const wide = useMedia('(min-width: 1080px)');
   const now = useNow(1000);
   const [spis, setSpis] = useState(false);
@@ -242,7 +241,7 @@ function Running({ s, tasks, title, onFinish }: { s: Session; tasks: AppTask[]; 
                   <span style={{ fontWeight: 600 }}>Zrobione na kartce</span>
                   <Switch checked={!!a.paper} onChange={(v) => answer({ paper: v })} label="Zrobione na kartce" />
                 </label>
-                {ai.available || t.rubric?.result ? <OpenAnswerField key={t.id} value={a.text ?? ''} onSave={(text) => answerFor(t.id)({ text })} onSaveNow={(text) => saveNow(t.id, text)} /> : null}
+                {!t.essay ? <OpenAnswerField key={t.id} value={a.text ?? ''} onSave={(text) => answerFor(t.id)({ text })} onSaveNow={(text) => saveNow(t.id, text)} /> : null}
               </>
             )}
             {t.alternative ? <p className="small muted">Zadanie do wyboru: liczy się jedno z zadań oznaczonych jako alternatywne.</p> : null}
@@ -394,7 +393,7 @@ function OpenAnswerField({ value, onSave, onSaveNow }: { value: string; onSave: 
   useAutosave(v, onSave, onSaveNow, value);
   return (
     <div className="field">
-      <label htmlFor="mock-open">Wynik lub kluczowe kroki (opcjonalnie)</label>
+      <label htmlFor="mock-open">Twoja odpowiedź: wynik lub kluczowe kroki (opcjonalnie)</label>
       <textarea id="mock-open" className="textarea" value={v} onChange={(e) => setV(e.target.value)} maxLength={4000} />
       <span className="hint">Po zakończeniu porównasz to z kluczem CKE.</span>
     </div>

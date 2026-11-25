@@ -1,7 +1,7 @@
 import { RubricGrader } from './rubricParts';
 import { OfflineExplain, WhyCorrect } from './explainParts';
 import { HintSteps, useHintSteps } from './hintParts';
-import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
+import { AutoGrader, OwnAnswer, useAutoKind, type AutoResult } from './autoGrade';
 import { useEffect, useRef, useState } from 'react';
 import { subjectDef } from '../model';
 import { useStore } from '../store/AppStore';
@@ -299,7 +299,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                   <p className="muted">Rozwiąż na kartce i oceń swoje rozwiązanie.</p>
                 ) : (
                   <>
-                    {!revealed ? <p className="muted">Rozwiąż na kartce, potem porównaj z zasadami oceniania.</p> : null}
+                    {!revealed ? <p className="muted">Rozwiąż na kartce albo wpisz odpowiedź, potem porównaj z zasadami oceniania.</p> : null}
                     <button type="button" className="btn btn-secondary btn-block" onClick={() => setRevealed((r) => !r)} aria-expanded={revealed}>
                       {revealed ? 'Ukryj odpowiedź' : 'Pokaż odpowiedź'}
                     </button>
@@ -331,6 +331,7 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                 }}
               />
             ) : null}
+            {!t.auto && !t.essay && !autoKind ? <OwnAnswer key={`own-${t.id}`} id={t.id} shown={revealed || checked || !!grade} onCompare={() => setRevealed(true)} /> : null}
             {!t.auto && t.rubric && !grade ? (
               <RubricGrader
                 id={t.id}

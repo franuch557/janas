@@ -36,7 +36,7 @@ export function IconButton({ icon, label, onClick, disabled }: { icon: string; l
 }
 
 /** Dolny arkusz na telefonie, okno na środku na komputerze. Esc zamyka. */
-export function Sheet({ title, onClose, children, label }: { title: string; onClose: () => void; children: ReactNode; label?: string }) {
+export function Sheet({ title, onClose, children, label, wide }: { title: string; onClose: () => void; children: ReactNode; label?: string; wide?: boolean }) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const prev = document.activeElement as HTMLElement | null;
@@ -71,7 +71,7 @@ export function Sheet({ title, onClose, children, label }: { title: string; onCl
   // ograniczałby „position: fixed” do swojego prostokąta i okna nie dałoby się przewijać
   return createPortal(
     <div className="overlay" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="sheet" role="dialog" aria-modal="true" aria-label={label ?? title} ref={ref}>
+      <div className={wide ? 'sheet sheet-wide' : 'sheet'} role="dialog" aria-modal="true" aria-label={label ?? title} ref={ref}>
         <div className="row-between">
           <h2>{title}</h2>
           <IconButton icon="zamknij" label="Zamknij" onClick={onClose} />

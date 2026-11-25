@@ -151,3 +151,31 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
     </div>
   );
 }
+
+/**
+ * Pole odpowiedzi do zadania otwartego bez klucza do automatycznego sprawdzania:
+ * wpisana odpowiedź zostaje widoczna po odsłonięciu rozwiązania CKE, do porównania.
+ */
+export function OwnAnswer({ id, shown, onCompare }: { id: string; shown: boolean; onCompare: () => void }) {
+  const [text, setText] = useState('');
+  if (shown)
+    return text.trim() ? (
+      <div className="card stack-2 own-answer">
+        <h3>Twoja odpowiedź</h3>
+        <p className="own-answer-text">{text}</p>
+        <span className="hint">Porównaj ją z rozwiązaniem CKE i oceń, ile punktów by dostała.</span>
+      </div>
+    ) : null;
+  return (
+    <div className="card stack-2">
+      <div className="field">
+        <label htmlFor={`own-${id}`}>Twoja odpowiedź</label>
+        <textarea id={`own-${id}`} className="textarea" value={text} onChange={(e) => setText(e.target.value)} maxLength={4000} placeholder="Wynik albo kluczowe kroki rozwiązania" />
+        <span className="hint">Tego zadania aplikacja nie sprawdza sama. Po porównaniu zobaczysz swoją odpowiedź obok rozwiązania CKE.</span>
+      </div>
+      <button type="button" className="btn btn-secondary" disabled={!text.trim()} onClick={onCompare}>
+        Porównaj z rozwiązaniem CKE
+      </button>
+    </div>
+  );
+}

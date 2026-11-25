@@ -23,7 +23,8 @@ import { Icon } from '../ui/icons';
 import { go, goBack } from '../ui/router';
 import { useExplain, WhyCorrect } from './explainParts';
 import { HintSteps, useHintSteps } from './hintParts';
-import { AutoGrader, useAutoKind, type AutoResult } from './autoGrade';
+import { FormulasButton } from '../ui/Formulas';
+import { AutoGrader, OwnAnswer, useAutoKind, type AutoResult } from './autoGrade';
 
 const LENGTHS = [5, 10, 20, 30] as const;
 const MODES: { id: ReviewMode; label: string; hint: string }[] = [
@@ -346,6 +347,7 @@ function Step({ t, nr, total, retry, onRated, onLater }: { t: AppTask; nr: numbe
         </span>
         <SubjectTag id={t.subjectId} />
         <span className="small muted">{topicName(t.topics[0])}</span>
+        <FormulasButton subject={t.subjectId} />
         {retry ? <span className="tag ink">jeszcze raz</span> : prev?.attempts ? <span className="tag ink">powtórka</span> : <span className="tag">nowe</span>}
       </div>
       <div className="rv-task">
@@ -353,6 +355,7 @@ function Step({ t, nr, total, retry, onRated, onLater }: { t: AppTask; nr: numbe
         {t.context ? <ContextSheet task={t} collapsible /> : null}
       </div>
       {closed ? <AnswerCard answer={t.answer!} value={choice} onChange={(i, o) => !shown && setChoice((c) => ({ ...c, [i]: o }))} onAll={(v) => !shown && setChoice(v)} checked={shown} /> : null}
+      {!closed && !t.essay && !autoKind ? <OwnAnswer key={`own-${t.id}`} id={t.id} shown={shown} onCompare={reveal} /> : null}
       {!shown ? (
         <>
           {hintSteps ? <HintSteps steps={hintSteps} shown={hints} onShow={() => setHints((h) => h + 1)} /> : null}

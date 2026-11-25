@@ -49,62 +49,77 @@ export function FormulasButton({ subject }: { subject: string }) {
 function FormulasSheet({ onClose }: { onClose: () => void }) {
   const [pages, setPages] = useState<string[] | null>(null);
   const [err, setErr] = useState(false);
-  // strona 1 to okładka – zaczynamy od pierwszej strony ze wzorami
-  const [i, setI] = useState(1);
+  const [cur, setCur] = useState(0);
+  const box = useRef<HTMLDivElement>(null);
   useEffect(() => {
     loadFormulas().then(setPages, () => setErr(true));
   }, []);
-  const n = pages?.length ?? 0;
-  const cur = Math.min(Math.max(0, i), Math.max(0, n - 1));
-  const go = (d: number) => setI((x) => Math.min(Math.max(0, x + d), Math.max(0, n - 1)));
+  // strony 1–2 to okładka i skład zespołu: pokazuję od pierwszej strony ze wzorami
+  const first = pages && pages.length > 4 ? 2 : 0;
+  const list = pages ? pages.slice(first) : [];
   useEffect(() => {
+    // strzałki i PageUp/PageDown przewijają kartę, a nie zmieniają zadania w arkuszu pod spodem
     const k = (e: KeyboardEvent) => {
-      // strzałki zmieniają stronę karty, a nie zadanie w arkuszu pod spodem
-      if (e.key === 'ArrowRight' || e.key === 'PageDown') {
-        e.preventDefault();
-        e.stopPropagation();
-        go(1);
-      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
-        e.preventDefault();
-        e.stopPropagation();
-        go(-1);
-      }
+      if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(e.key)) e.stopPropagation();
     };
     window.addEventListener('keydown', k, true);
     return () => window.removeEventListener('keydown', k, true);
-  });
-  // po zmianie strony widok wraca na górę strony
-  const top = useRef<HTMLDivElement>(null);
+  }, []);
+  // numer strony widocznej w oknie (do listy „Strona k z n”)
   useEffect(() => {
-    top.current?.closest('.sheet')?.scrollTo({ top: 0 });
-  }, [cur]);
+    const sheet = box.current?.closest('.sheet');
+    if (!sheet || !list.length) return;
+    const onScroll = () => {
+      const imgs = [...sheet.querySelectorAll<HTMLElement>('.wzory-strona')];
+      const top = sheet.getBoundingClientRect().top + 80;
+      let k = 0;
+      imgs.forEach((el, j) => {
+        if (el.getBoundingClientRect().top <= top) k = j;
+      });
+      setCur(k);
+    };
+    sheet.addEventListener('scroll', onScroll, { passive: true });
+    return () => sheet.removeEventListener('scroll', onScroll);
+  }, [list.length]);
+  const jump = (k: number) => {
+    const sheet = box.current?.closest('.sheet');
+    const el = sheet?.querySelectorAll<HTMLElement>('.wzory-strona')[k];
+    if (sheet && el) sheet.scrollTo({ top: sheet.scrollTop + el.getBoundingClientRect().top - sheet.getBoundingClientRect().top - 64 });
+    setCur(k);
+  };
   return (
-    <Sheet title="Wybrane wzory matematyczne" onClose={onClose}>
-      {err || pages?.length === 0 ? <p>Nie udało się wczytać karty wzorów.</p> : !pages ? <p className="muted">Ładowanie…</p> : null}
-      {pages && n ? (
-        <>
-          <div ref={top} className="wzory-nav" role="group" aria-label="Strony karty wzorów">
-            <button type="button" className="btn btn-secondary btn-sm" disabled={cur === 0} onClick={() => go(-1)}>
-              ‹ Poprzednia
-            </button>
+    <Sheet title="Wybrane wzory matematyczne" onClose={onClose} wide>
+      {err || pages?.length === 0 ? (
+        <p>
+          Nie udało się wczytać karty wzorów.{' '}
+          <button type="button" className="btn btn-quiet btn-sm" onClick={() => { setErr(false); loadFormulas().then(setPages, () => setErr(true)); }}>
+            Spróbuj ponownie
+          </button>
+        </p>
+      ) : !pages ? (
+        <p className="muted">Ładowanie…</p>
+      ) : null}
+      {list.length ? (
+        <div ref={box} className="stack-2">
+          <div className="wzory-nav">
+            <span className="small muted">Przewijaj kółkiem myszy albo palcem.</span>
             <label className="wzory-page">
-              <span className="sr-only">Strona</span>
-              <select value={cur} onChange={(e) => setI(Number(e.target.value))}>
-                {pages.map((_, k) => (
+              <span className="sr-only">Przejdź do strony</span>
+              <select value={cur} onChange={(e) => jump(Number(e.target.value))}>
+                {list.map((_, k) => (
                   <option key={k} value={k}>
-                    Strona {k + 1} z {n}
+                    Strona {k + 1} z {list.length}
                   </option>
                 ))}
               </select>
             </label>
-            <button type="button" className="btn btn-primary btn-sm" disabled={cur >= n - 1} onClick={() => go(1)}>
-              Następna ›
-            </button>
           </div>
-          <div className="kartka" style={{ cursor: 'default' }}>
-            <img src={pages[cur]} alt={`Karta wzorów, strona ${cur + 1} z ${n}`} />
-          </div>
-        </>
+          {list.map((src, k) => (
+            <div key={k} className="kartka wzory-strona" style={{ cursor: 'default' }}>
+              <img src={src} alt={`Karta wzorów, strona ${k + 1} z ${list.length}`} decoding="async" />
+            </div>
+          ))}
+        </div>
       ) : null}
     </Sheet>
   );

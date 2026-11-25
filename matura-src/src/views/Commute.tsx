@@ -2,6 +2,7 @@
 // przedmiotu i tematu. Tylko zadania na 1–3 minuty: zamknięte CKE, krótkie otwarte z kluczem
 // (matematyka, angielski) i warianty z matematyki. Po odpowiedzi: „Sprawdź” albo „Pokaż klucz”.
 
+import { FormulasButton } from '../ui/Formulas';
 import { useMemo, useState } from 'react';
 import { SUBJECTS, subjectDef, type SubjectId } from '../model';
 import { useStore } from '../store/AppStore';
@@ -158,6 +159,7 @@ function CkeQuick({ t, onDone, onNext, onMenu }: { t: AppTask; onDone: (ok: bool
         <span className="small muted">
           {shortTopic(t.topics[0])} · {t.maxPoints} pkt
         </span>
+          <FormulasButton subject={t.subjectId} />
       </div>
       <TaskSheet task={t} level={subjectDef(t.subjectId)!.level} />
       {t.auto && t.answer ? (
