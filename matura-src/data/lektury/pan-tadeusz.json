@@ -44,50 +44,149 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: poemat jest długi (12 ksiąg); poniżej główne wątki. Szczegółowy przebieg księga po księdze sprawdź w wydaniu.*"
+          "tekst": "Litwa, lata 1811–1812. Młody Tadeusz Soplica wraca do rodzinnego Soplicowa i zakochuje się w Zosi. Między Soplicami a Hrabią trwa spór o stary zamek Horeszków, podsycany przez dawnego sługę Horeszków, Gerwazego. Spór kończy się zajazdem szlachty na Soplicowo i wspólną bitwą z Rosjanami. Tajemniczy ksiądz Robak okazuje się Jackiem Soplicą, ojcem Tadeusza, który przed laty zabił Stolnika Horeszkę, a potem całe życie odpokutowywał winę, walcząc za ojczyznę. Wiosną 1812 roku przychodzi wojsko Napoleona i Polaków, a Tadeusz zaręcza się z Zosią."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Powrót Tadeusza do Soplicowa, pierwsze spotkanie z Zosią i Telimeną."
         },
         {
           "typ": "punkt",
-          "etykieta": "Inwokacja i przyjazd Tadeusza (ks. I–II)",
-          "tekst": "poeta zwraca się do Litwy („Litwo! Ojczyzno moja!”). Młody Tadeusz wraca ze szkół do Soplicowa, dworu swojego stryja Sędziego. Poznaje Telimenę i jej wychowanicę Zosię. Sędzia prowadzi z Hrabią, krewnym Horeszków, proces o stary zamek."
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Wieczerza w zamku, spór Asesora i Rejenta o charty."
         },
         {
           "typ": "punkt",
-          "etykieta": "Dawna zbrodnia",
-          "tekst": "klucznik Horeszków Gerwazy opowiada Hrabiemu, że przed laty Jacek Soplica zastrzelił Stolnika Horeszkę w chwili, gdy zamek bronił się przed Moskalami – bo Stolnik odmówił mu ręki córki Ewy. Gerwazy przysiągł zemstę Soplicom."
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Gerwazy opowiada Hrabiemu o zabójstwie Stolnika przez Jacka Soplicę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Polowanie i uczta (ks. IV–V)",
-          "tekst": "podczas polowania na niedźwiedzia ksiądz Robak ratuje Tadeusza i Hrabiego, zabijając zwierzę strzałem. Wojski gra na rogu. Na uczcie w zamku dochodzi do kłótni Sędziego z Hrabią."
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Grzybobranie, flirt Tadeusza z Telimeną."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zajazd (ks. VI–VIII)",
-          "tekst": "Gerwazy z szlachtą z Dobrzyna, poduszczoną przez Hrabiego, najeżdża Soplicowo. Wkraczają wojska rosyjskie (Moskale) i aresztują szlachtę."
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Polowanie na niedźwiedzia – Robak ratuje Tadeusza i Hrabiego, Wojski gra na rogu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Bitwa z Moskalami (ks. IX)",
-          "tekst": "szlachta jednoczy się z Soplicami przeciw Rosjanom pod dowództwem księdza Robaka; zwyciężają, ale Robak zostaje ciężko ranny, a Tadeusz i Hrabia muszą uciekać do Księstwa Warszawskiego."
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kłótnia w zamku, Hrabia i Gerwazy postanawiają zrobić zajazd."
         },
         {
           "typ": "punkt",
-          "etykieta": "Spowiedź Jacka (ks. X)",
-          "tekst": "umierający ksiądz Robak wyznaje Gerwazemu, że jest Jackiem Soplicą, ojcem Tadeusza. Po zabójstwie Stolnika pokutował, był żołnierzem i emisariuszem przygotowującym powstanie na Litwie. Gerwazy mu przebacza."
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Gerwazy namawia szlachtę w zaścianku Dobrzyńskich, mimo sprzeciwu Maćka."
         },
         {
           "typ": "punkt",
-          "etykieta": "Epilog (ks. XI–XII)",
-          "tekst": "wiosną 1812 r. do Soplicowa przybywają wojska polskie (gen. Dąbrowski, Kniaziewicz). Tadeusz zaręcza się z Zosią (wnuczką Stolnika) – rody się godzą. Tadeusz zapowiada uwolnienie chłopów. Jankiel gra na cymbałach koncert o dziejach Polski, a ucztę kończy polonez."
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Zajazd na Soplicowo, Sędzia zostaje związany."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** konflikt rodów i miłość młodych są osią; polowanie i uczta to obrazy obyczajów szlacheckich; wojna jest finałem jednoczącym naród."
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Wkroczenie Rosjan, uwięzienie szlachty i bitwa, w której Polacy wygrywają."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Ucieczka szlachty, Tadeusza i Hrabiego do Księstwa Warszawskiego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Spowiedź umierającego Jacka Soplicy, przebaczenie Gerwazego."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Rok 1812: polskie wojsko w Soplicowie, zaręczyny Tadeusza i Zosi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Zosia i Tadeusz zapowiadają uwolnienie chłopów, koncert Jankiela, polonez."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Księga I – Gospodarstwo",
+          "tekst": "Tadeusz, po latach nauki w Wilnie, wraca do dworu stryja, Sędziego Soplicy. W swoim dawnym pokoju zauważa młodą dziewczynę, która ucieka (to Zosia). Na kolacji w zamku poznaje Telimenę, ciotkę Zosi, i siedzi obok niej. Szlachta rozmawia o polowaniu, a Asesor i Rejent kłócą się o to, czyj chart jest lepszy. Ksiądz Robak, kwestarz bernardyn, przygląda się Tadeuszowi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga II – Zamek",
+          "tekst": "Hrabia, młody dziedzic Horeszków, trafia do zamku, który próbuje odzyskać od Sopliców. Gerwazy, stary klucznik, opowiada mu historię: Stolnik Horeszko nie zgodził się na ślub swojej córki Ewy z Jackiem Soplicą, a gdy Rosjanie oblegali zamek, Jacek zastrzelił Stolnika. Gerwazy przysiągł zemstę na Soplicach i namawia Hrabiego do walki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga III – Umizgi",
+          "tekst": "Hrabia widzi w ogrodzie Zosię pasącą drób i jest oczarowany. Szlachta idzie na grzybobranie. Telimena spotyka się z Tadeuszem w Świątyni dumania, flirtuje z nim. Sędzia rozmawia z Robakiem o planie ożenienia Tadeusza z Zosią."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga IV – Dyplomatyka i łowiectwo",
+          "tekst": "W puszczy odbywa się polowanie na niedźwiedzia. Zwierzę rzuca się na Tadeusza i Hrabiego. Ich strzały chybiają, a niedźwiedzia zabija ksiądz Robak – strzałem z pożyczonej strzelby Gerwazego. Wojski gra na rogu słynny koncert, a potem opowiada historię o pojedynku Domeyki z Doweyką."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga V – Kłótnia",
+          "tekst": "Telimena chce wydać Zosię za Hrabiego, a Tadeusza zatrzymać dla siebie. Podczas uczty w zamku wybucha kłótnia: Hrabia i Sędzia obrażają się nawzajem. Gerwazy namawia Hrabiego, by siłą zajął Soplicowo."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księgi VI–VII – Zaścianek i Rada",
+          "tekst": "Gerwazy jedzie do zaścianka Dobrzyńskich i zwołuje szlachtę. Stary Maciek Dobrzyński, szanowany przez wszystkich, ostrzega przed awanturą, ale szlachta i tak daje się porwać. Zapada decyzja o zajeździe."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga VIII – Zajazd",
+          "tekst": "W nocy szlachta z Hrabią i Gerwazym napada na Soplicowo. Sędzia zostaje związany, a napastnicy ucztują."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga IX – Bitwa",
+          "tekst": "Rano do Soplicowa wkraczają Rosjanie pod dowództwem majora Płuta i kapitana Rykowa i więżą szlachtę. Sędzia, Robak i domownicy uwalniają uwięzionych i razem z dawnymi wrogami pokonują Rosjan. Robak kieruje walką i zostaje ciężko ranny. Gerwazy zabija Płuta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga X – Emigracja. Jacek",
+          "tekst": "Uczestnicy bitwy, w tym Tadeusz i Hrabia, muszą uciekać do Księstwa Warszawskiego. Umierający Robak wyznaje, że jest Jackiem Soplicą. Opowiada, jak zabił Stolnika z zazdrości i urażonej dumy, jak potem stał się zakonnikiem i emisariuszem, i jak walczył o Polskę. Gerwazy wybacza mu, bo Stolnik przed śmiercią także mu przebaczył."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księgi XI–XII – Rok 1812 i Kochajmy się",
+          "tekst": "Wiosną do Soplicowa przybywa polskie wojsko, a z nim generał Dąbrowski i Kniaziewicz. Tadeusz wraca jako oficer i zaręcza się z Zosią. Para ogłasza, że uwolni chłopów. Na uczcie Jankiel gra na cymbałach koncert o dziejach Polski. Wszyscy tańczą poloneza, prowadzonego przez Podkomorzego."
         }
       ]
     },
@@ -97,72 +196,114 @@
         {
           "typ": "punkt",
           "etykieta": "Tadeusz Soplica",
-          "tekst": "młody szlachcic. Cechy: młodzieńczość, ideał patrioty, porywczość. Decyzje: włączenie się w wojnę. Zmienia się: od młodego chłopca do żołnierza. Wymowa: młodość w służbie ojczyźnie."
+          "tekst": "młody szlachcic, syn Jacka. Szczery, porywczy, czasem lekkomyślny (flirt z Telimeną). Ostatecznie dojrzewa, walczy w wojsku i postanawia uwolnić chłopów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jacek Soplica / ksiądz Robak",
+          "tekst": "najważniejsza postać. W młodości hulaka i warchoł, który w gniewie zabił Stolnika. Potem pokutuje jako zakonnik i emisariusz, poświęca życie ojczyźnie. Przykład przemiany i odkupienia winy."
         },
         {
           "typ": "punkt",
           "etykieta": "Zosia",
-          "tekst": "wnuczka Stolnika Horeszki, wychowanica Telimeny; jej zaręczyny z Tadeuszem godzą zwaśnione rody."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Jacek Soplica (ksiądz Robak)",
-          "tekst": "ojciec Tadeusza, dawny warchoł i zabójca Stolnika; jako bernardyn i emisariusz odpokutowuje winę służbą ojczyźnie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Gerwazy Rębajło",
-          "tekst": "klucznik Horeszków, wierny dawnemu panu; żyje pamięcią o krzywdzie i zemstą na Soplicach, w końcu przebacza Jackowi."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Hrabia",
-          "tekst": "daleki krewny Horeszków, romantyczny marzyciel zapatrzony w zagraniczne mody; spór z Sędzią o zamek."
+          "tekst": "wychowanica Telimeny, wnuczka Stolnika Horeszki. Skromna, naturalna, związana z przyrodą i gospodarstwem."
         },
         {
           "typ": "punkt",
           "etykieta": "Sędzia Soplica",
-          "tekst": "stryj Tadeusza, gospodarz Soplicowa, strażnik tradycji i obyczaju szlacheckiego."
+          "tekst": "brat Jacka, gospodarz Soplicowa. Dba o dawne obyczaje i porządek w domu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hrabia",
+          "tekst": "ostatni z rodu Horeszków. Romantyk i dziwak, zapatrzony w zagraniczne mody i powieści."
         },
         {
           "typ": "punkt",
           "etykieta": "Telimena",
-          "tekst": "kokietka, krewna Sopliców, opiekunka Zosi."
+          "tekst": "kokietka, która udaje młodszą, niż jest. Bywała w Petersburgu, interesowna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gerwazy Rębajło",
+          "tekst": "klucznik Horeszków z mieczem Scyzorykiem. Wierny, mściwy, w końcu przebacza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wojski Hreczecha",
+          "tekst": "znawca dawnych obyczajów i polowań, gra na rogu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Maciek Dobrzyński",
+          "tekst": "stary, mądry przywódca zaścianka."
         },
         {
           "typ": "punkt",
           "etykieta": "Jankiel",
-          "tekst": "Żyd, karczmarz i patriota, mistrz gry na cymbałach."
+          "tekst": "Żyd, karczmarz, patriota, wybitny cymbalista."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Podkomorzy",
+          "tekst": "najwyższy rangą urzędnik, autorytet dla szlachty."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Akcja dzieje się na Litwie, w Soplicowie i okolicy. Główna część obejmuje pięć dni lata 1811 roku. Dwie ostatnie księgi przenoszą akcję na wiosnę 1812 roku, przed wyprawą Napoleona na Moskwę. Wspomnienia Gerwazego i Jacka sięgają czasów przed rozbiorami i konfederacji targowickiej."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Mickiewicz napisał poemat na emigracji w Paryżu w latach 1832–1834, po upadku powstania listopadowego. Chciał przypomnieć utracony kraj lat dziecinnych i dodać otuchy rodakom. Pełny tytuł: „Pan Tadeusz, czyli ostatni zajazd na Litwie. Historia szlachecka z roku 1811 i 1812 we dwunastu księgach wierszem”. To **epopeja narodowa** napisana trzynastozgłoskowcem. Ma inwokację, szeroki obraz społeczeństwa, opisy przyrody i obyczajów oraz rozbudowane porównania."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "ojczyzna, tradycja, miłość, zgoda narodowa."
+          "etykieta": "Obraz szlachty",
+          "tekst": "Poemat pokazuje szlachtę z jej zaletami (gościnność, patriotyzm, przywiązanie do tradycji) i wadami (kłótliwość, pieniactwo, warcholstwo, skłonność do awantur). Zajazd jest przykładem dawnego bezprawia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "spór rodów, konflikt między miłością a rodzinną zemstą, konflikt polskiego społeczeństwa z zaborcą."
+          "etykieta": "Wina i odkupienie",
+          "tekst": "Historia Jacka Soplicy pokazuje, że winę można odkupić pracą i ofiarą dla ojczyzny. Jacek zabił z pychy, a potem całe życie służył sprawie narodowej."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "patriotyzm, tradycja, zgoda, miłość, gościnność."
+          "etykieta": "Patriotyzm i nadzieja na wolność",
+          "tekst": "Utwór wyraża tęsknotę za ojczyzną i nadzieję na jej odrodzenie u boku Napoleona. Wkroczenie wojska w 1812 roku to moment radości i jedności."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "zgoda narodowa i jedność wobec zaborcy są najważniejsze."
+          "etykieta": "Tradycja i obyczaj",
+          "tekst": "Opisy uczty, polowania, grzybobrania, parzenia kawy czy poloneza utrwalają dawne obyczaje szlacheckie, które na emigracji wydawały się już utracone."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "wojna jako jednoczący się naród, nadzieja na niepodległość."
+          "etykieta": "Przyroda Litwy",
+          "tekst": "Rozbudowane opisy puszczy, ogrodów, burzy i nieba tworzą obraz Litwy jako krainy szczęśliwej."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł wskazuje na Tadeusza, ale prawdziwym bohaterem jest raczej Jacek Soplica i całe szlacheckie społeczeństwo. Podtytuł „ostatni zajazd na Litwie” mówi, że poemat opisuje świat, który odchodzi w przeszłość."
         }
       ]
     },
@@ -198,26 +339,6 @@
           "nr": 5,
           "etykieta": "Zemsta",
           "tekst": "Gerwazy. *Wykorzystanie:* zestawienie z *Zemstą* Fredry (zemsta jako motyw komediowy)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Soplicowo",
-          "tekst": "symbol ojczyzny."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Polowanie",
-          "tekst": "symbol obyczajów i wspólnoty."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Jacek Soplica",
-          "tekst": "symbol pokuty."
         }
       ]
     },

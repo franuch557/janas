@@ -23,6 +23,8 @@ export interface BookEntry {
   rok: string;
   gatunek: string;
   obowiazkowa: boolean;
+  /** lektura ze szkoły podstawowej – pokazywana osobno jako kontekst */
+  podstawowka: boolean;
   czesciowo: string | null;
   pelnyTekst: string | null;
 }
@@ -59,6 +61,8 @@ function file(name: string): unknown {
 }
 
 export const BOOKS: BookEntry[] = [];
+/** Lektury ze szkoły podstawowej, które warto znać jako kontekst na maturze. */
+export const PODSTAWOWKA = new Set(['krasicki-bajki', 'dziady-cz-2', 'pan-tadeusz', 'balladyna', 'zemsta']);
 export const EPOCHS: { id: string; nazwa: string; lata: string }[] = [];
 export let ORAL: { zrodlo: string; rok: string; pytania: OralQuestion[] } | null = null;
 export let ORAL2: { zrodlo: string; zadania: OralTask2[] } | null = null;
@@ -66,8 +70,8 @@ export let ORAL2: { zrodlo: string; zadania: OralTask2[] } | null = null;
 export function setBooksData(d: BooksRaw) {
   lekturyMods = d.lektury;
   const indexRaw = file('index');
-  // tylko lektury obowiązkowe zakresu podstawowego
-  BOOKS.splice(0, BOOKS.length, ...readBooks(indexRaw).filter((b) => b.obowiazkowa));
+  // lektury obowiązkowe zakresu podstawowego + ze szkoły podstawowej (osobna grupa)
+  BOOKS.splice(0, BOOKS.length, ...readBooks(indexRaw).filter((b) => b.obowiazkowa || b.podstawowka));
   EPOCHS.splice(0, EPOCHS.length, ...readEpochs(indexRaw));
   ORAL = readOral(d.ustny);
   ORAL2 = readOral2(d.zad2);
@@ -86,6 +90,7 @@ const readBooks = (indexRaw: unknown): BookEntry[] =>
         rok: s(b.rok),
         gatunek: s(b.gatunek),
         obowiazkowa: b.obowiazkowa !== false,
+        podstawowka: b.obowiazkowa === false && PODSTAWOWKA.has(s(b.id)),
         czesciowo: typeof b.czesciowo === 'string' && b.czesciowo ? b.czesciowo : null,
         pelnyTekst: typeof b.pelnyTekst === 'string' && /^https:\/\//.test(b.pelnyTekst) ? b.pelnyTekst : null,
       }))

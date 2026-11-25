@@ -28,6 +28,9 @@ const short = (b: BookEntry) => {
   return c.includes('fragment') ? 'fragmenty' : c.includes('wybran') ? 'wybrane' : null;
 };
 
+const PODST = 'podstawowka';
+const PODST_GROUP = { id: PODST, nazwa: 'Ze szkoły podstawowej (kontekst)', lata: '' };
+
 export function BooksView() {
   const [epoka, setEpoka] = useState('wszystkie');
   const [onlyOral, setOnlyOral] = useState(false);
@@ -37,16 +40,22 @@ export function BooksView() {
   for (const p of ORAL?.pytania ?? []) if (p.lekturaId) oralCount.set(p.lekturaId, (oralCount.get(p.lekturaId) ?? 0) + 1);
   const needle = q.trim().toLowerCase();
   const list = BOOKS.filter((b) => (epoka === 'wszystkie' || b.epokaId === epoka) && (!onlyOral || oralCount.has(b.id)) && (!needle || `${b.tytul} ${b.autor} ${b.gatunek}`.toLowerCase().includes(needle)));
-  const groups = (EPOCHS.length ? EPOCHS : [...new Set(BOOKS.map((b) => b.epokaId))].map((id) => ({ id, nazwa: BOOKS.find((b) => b.epokaId === id)?.epoka ?? id, lata: '' })))
-    .map((e) => ({ e, books: list.filter((b) => b.epokaId === e.id) }))
-    .filter((g) => g.books.length);
+  const main = list.filter((b) => !b.podstawowka);
+  const sp = BOOKS.filter((b) => b.podstawowka && (epoka === 'wszystkie' || epoka === PODST) && (!onlyOral || oralCount.has(b.id)) && (!needle || `${b.tytul} ${b.autor} ${b.gatunek}`.toLowerCase().includes(needle)));
+  const groups = [
+    ...(EPOCHS.length ? EPOCHS : [...new Set(BOOKS.map((b) => b.epokaId))].map((id) => ({ id, nazwa: BOOKS.find((b) => b.epokaId === id)?.epoka ?? id, lata: '' }))).map((e) => ({ e, books: main.filter((b) => b.epokaId === e.id) })),
+    { e: PODST_GROUP, books: sp },
+  ].filter((g) => g.books.length);
+  const mainCount = BOOKS.filter((b) => !b.podstawowka).length;
+  const spCount = BOOKS.length - mainCount;
   return (
     <div className="page lk-page">
       <header className="lk-head">
         <div className="grow">
           <h1 className="ptitle">Lektury</h1>
           <p className="muted">
-            {BOOKS.length} {plural(BOOKS.length, 'opracowanie', 'opracowania', 'opracowań')} w {EPOCHS.length} {plural(EPOCHS.length, 'epoce', 'epokach', 'epokach')}
+            {mainCount} {plural(mainCount, 'lektura obowiązkowa', 'lektury obowiązkowe', 'lektur obowiązkowych')} w {EPOCHS.length} {plural(EPOCHS.length, 'epoce', 'epokach', 'epokach')}
+            {spCount ? ` + ${spCount} ze szkoły podstawowej` : ''}
           </p>
         </div>
         {ORAL?.pytania.length ? (
@@ -64,7 +73,7 @@ export function BooksView() {
             <input className="input" aria-label="Szukaj lektury" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Szukaj: tytuł, autor, gatunek" />
           </div>
           <div className="lk-chips" role="group" aria-label="Epoka">
-            {[{ id: 'wszystkie', nazwa: 'Wszystkie' }, ...EPOCHS].map((e) => (
+            {[{ id: 'wszystkie', nazwa: 'Wszystkie' }, ...EPOCHS, ...(spCount ? [{ id: PODST, nazwa: 'Podstawówka' }] : [])].map((e) => (
               <button key={e.id} type="button" className="chip" aria-pressed={epoka === e.id} onClick={() => setEpoka(e.id)}>
                 {e.nazwa.replace(/\s*\(.*\)$/, '')}
               </button>
@@ -103,7 +112,7 @@ export function BooksView() {
                           {b.gatunek ? <span className="lk-tag">{b.gatunek.split(/[;,(]/)[0].trim()}</span> : null}
                           {sh ? <span className="lk-tag">{sh}</span> : null}
                           {n ? <span className="lk-tag lk-tag-ink">{n} {plural(n, 'pytanie jawne', 'pytania jawne', 'pytań jawnych')}</span> : null}
-                          {!b.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy</span> : null}
+                          {b.podstawowka ? <span className="lk-tag">szkoła podstawowa</span> : !b.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy</span> : null}
                         </span>
                       </button>
                     );
@@ -555,9 +564,13 @@ export function BookView({ id }: { id: string }) {
           {entry.rok ? <span className="lk-tag">{entry.rok}</span> : null}
           {entry.gatunek ? <span className="lk-tag">{entry.gatunek}</span> : null}
           {entry.czesciowo ? <span className="lk-tag">{entry.czesciowo}</span> : null}
-          {!entry.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy obowiązkowej</span> : null}
+          {entry.podstawowka ? <span className="lk-tag">szkoła podstawowa</span> : !entry.obowiazkowa ? <span className="lk-tag lk-tag-warn">spoza listy obowiązkowej</span> : null}
         </div>
-        {!entry.obowiazkowa ? <p className="lk-note">Tej lektury nie ma w wykazie lektur obowiązkowych zakresu podstawowego (rozporządzenie z 28.06.2024).</p> : null}
+        {entry.podstawowka ? (
+          <p className="lk-note">Lektura ze szkoły podstawowej. Nie ma jej w wykazie liceum, ale na maturze przydaje się jako kontekst w wypracowaniu i na ustnym.</p>
+        ) : !entry.obowiazkowa ? (
+          <p className="lk-note">Tej lektury nie ma w wykazie lektur obowiązkowych zakresu podstawowego (rozporządzenie z 28.06.2024).</p>
+        ) : null}
         <div className="lk-actions">
           {entry.pelnyTekst ? (
             <a className="btn btn-secondary" href={entry.pelnyTekst} target="_blank" rel="noopener noreferrer">

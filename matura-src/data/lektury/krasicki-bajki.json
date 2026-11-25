@@ -39,66 +39,56 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: bajki są krótkie, dlatego zamiast streszczenia całego zbioru poniżej omówienie schematu i wybranych przykładów. Konkretne tytuły wymagane przez CKE sprawdź w wykazie.*"
+          "tekst": "Krasicki w krótkich bajkach pokazuje ludzi pod postacią zwierząt i wyśmiewa ich wady: głupotę, próżność, obłudę, pychę i nadużywanie władzy. Każda bajka kończy się morałem, czasem wprost, czasem ukrytym w puencie. To utwory zabawne, ale gorzkie – świat w nich często rządzi się prawem silniejszego."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "„Wstęp do bajek”",
+          "tekst": "Poeta opisuje świat, którego nie ma: „był” młodzieniec bez wad, uczony bez pychy, pan bez obłudy. Ironia polega na tym, że wszystkie te ideały są nieprawdziwe. Wstęp mówi, że bajki pokazują świat taki, jaki jest naprawdę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Schemat bajki",
-          "tekst": "krótka opowieść o zwierzętach lub ludziach, w której zdarzenie prowadzi do puenty i morału."
+          "etykieta": "„Jagnię i wilcy”",
+          "tekst": "Wilki napadają na jagnię i szukają pretekstu, by je zjeść. Gdy jagnię się broni, mówią, że jest smaczne – i to wystarczy. Morał: silniejszy nie potrzebuje racji, by krzywdzić słabszego."
         },
         {
           "typ": "punkt",
-          "etykieta": "Typowe sytuacje",
-          "tekst": "pycha władców, chciwość, obłuda, głupota, naiwność."
+          "etykieta": "„Kruk i lis”",
+          "tekst": "Lis schlebia krukowi, chwaląc jego głos. Kruk, chcąc zaśpiewać, wypuszcza ser, który porywa lis. Morał: pochlebcy żyją kosztem tych, którzy im ufają."
         },
         {
           "typ": "punkt",
-          "etykieta": "Funkcja morału",
-          "tekst": "każdą bajkę zamyka wniosek moralny, często ironiczny lub gorzki."
+          "etykieta": "„Ptaszki w klatce”",
+          "tekst": "Młody czyżyk dziwi się, że stary płacze, choć w klatce mają jedzenie i bezpieczeństwo. Stary odpowiada, że młody urodził się w klatce, a on pamięta wolność. Bajka bywa odczytywana jako aluzja do utraty niepodległości."
         },
         {
           "typ": "punkt",
-          "etykieta": "Znaczenie",
-          "tekst": "bajki Krasickiego są satyrą obyczajową i zarazem dydaktyczną lekcją."
+          "etykieta": "„Przyjaciele”",
+          "tekst": "Zajączek ma wielu przyjaciół, ale gdy goni go sfora psów, każdy z nich znajduje wymówkę, by mu nie pomóc. Zajączek ginie. Morał: prawdziwych przyjaciół poznaje się w biedzie."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "**Przykłady najczęściej omawiane:**"
+          "etykieta": "„Szczur i kot”",
+          "tekst": "Szczur pyszni się, że to dla niego palą kadzidło w świątyni. Kot zjada go w tej chwili. Morał: pycha zgubą bywa."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "*Wstęp do bajek* – świat, w którym „był sobie dziad i baba” i młodzieniec „był statecznym”: same nieprawdopodobieństwa pokazują, że uczciwość i umiar to rzadkość."
+          "etykieta": "„Malarze”",
+          "tekst": "Jeden malarz maluje wiernie i nikt go nie chce, drugi schlebia klientom, upiększając ich, i się bogaci. Morał: ludzie wolą pochlebstwo niż prawdę."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "*Jagnię i wilcy* – wilki szukają pretekstu, by zjeść jagnię; morał: kto chce kogoś zgubić, zawsze znajdzie przyczynę – mocniejszy ma rację."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "*Kruk i lis* – lis pochlebstwem wyłudza od kruka ser; przestroga przed pochlebcami."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "*Ptaszki w klatce* – młody czyżyk nie rozumie, dlaczego stary płacze w wygodnej klatce: stary pamięta wolność (odczytywane jako aluzja do niewoli politycznej)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "*Szczur i kot* – szczur pyszni się, że to dla niego palą kadzidło, i ginie w łapach kota; morał o pysze."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "*Malarze* – lepiej zarabia malarz, który pochlebia klientom, niż ten, który maluje prawdę."
+          "etykieta": "„Dewotka”",
+          "tekst": "Pobożna kobieta, która wciąż się modli, okrutnie bije służącą za drobne przewinienie. Bajka wyśmiewa obłudę religijną."
         }
       ]
     },
@@ -108,47 +98,50 @@
         {
           "typ": "punkt",
           "etykieta": "Zwierzęta",
-          "tekst": "reprezentują typy ludzkie (lis – spryt i obłuda, wilk – siła i chciwość, osioł – głupota). Rola: alegoria postaw społecznych."
+          "tekst": "przedstawiają ludzkie charaktery: lis to spryciarz i pochlebca, wilk – silny okrutnik, jagnię – bezbronna ofiara."
         },
         {
           "typ": "punkt",
           "etykieta": "Ludzie",
-          "tekst": "w bajkach pojawiają się postacie typowe dla społeczeństwa XVIII w. (władcy, dworzanie, mieszczanie, chłopi). Rola: krytyka społeczna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Narrator",
-          "tekst": "moralizujący, ironiczny, dystansujący się od opisywanych wad."
+          "tekst": "w niektórych bajkach (np. „Malarze”, „Dewotka”) bohaterami są wprost ludzie z ich wadami."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Krasicki wydał „Bajki i przypowieści” w 1779 roku, a „Bajki nowe” w 1802 roku, po śmierci. To **bajki** – krótkie utwory wierszem z morałem. Wiele z nich ma budowę epigramatu: kilka wersów i zaskakującą puentę. Typowe dla oświecenia jest połączenie rozrywki z nauką."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "wady ludzkie i społeczne, krytyka obyczajów."
+          "etykieta": "Prawo silniejszego",
+          "tekst": "Świat bajek jest często niesprawiedliwy: wygrywa ten, kto ma siłę albo spryt, a słabszy przegrywa niezależnie od racji."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "pycha wobec pokory, chciwość wobec umiaru, obłuda wobec szczerości."
+          "etykieta": "Wady ludzkie",
+          "tekst": "Krasicki wyśmiewa pochlebstwo, próżność, pychę, obłudę i fałszywą przyjaźń."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "rozsądek, umiar, uczciwość, sprawiedliwość."
-        },
+          "etykieta": "Dydaktyzm oświecenia",
+          "tekst": "Bajki mają uczyć, ale nie przez kazanie, tylko przez krótką, zabawną historię z puentą."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "człowiek powinien kierować się rozumem; wady prowadzą do zguby."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończeń",
-          "tekst": "morał, często gorzki, pokazujący słabość ludzkiej natury."
+          "typ": "akapit",
+          "tekst": "Bajka to gatunek, w którym pod postacią zwierząt i krótkiej historii przedstawia się prawdę o ludziach. Tytuł mówi więc wprost, że chodzi o zbiór takich nauk."
         }
       ]
     },
@@ -178,21 +171,6 @@
           "nr": 4,
           "etykieta": "Władza",
           "tekst": "krytyka władców. *Wykorzystanie:* zestawienie z *Antygoną* (władca, który nie słucha rad)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Zwierzęta",
-          "tekst": "symbol ludzkich wad."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Morał",
-          "tekst": "symbol ironicznej lekcji."
         }
       ]
     },
