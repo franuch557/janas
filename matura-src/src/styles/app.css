@@ -4398,3 +4398,208 @@ p.rv-verdict {
 .th-steps .math-text p { margin: 0; }
 .th-answer { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
 .th-answer .math-text p { margin: 0; }
+
+/* ── Lektura: czytnik (jedna sekcja naraz, czytelny tekst) ── */
+.lk-content {
+  max-width: 720px;
+  gap: var(--o-5);
+}
+.lk-sec {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  gap: var(--o-4);
+}
+.lk-sec > h2 {
+  font-size: var(--t-xl);
+  padding-bottom: var(--o-2);
+  border-bottom: 1px solid var(--linia);
+}
+.lk-sec p {
+  margin: 0;
+  color: color-mix(in srgb, var(--tekst) 92%, var(--tekst-2));
+}
+.lk-sec strong {
+  color: var(--tekst);
+}
+/* W skrócie – ramka na start */
+.lk-sec-lead {
+  background: color-mix(in srgb, var(--lk) 7%, var(--powierzchnia));
+  border: 1px solid color-mix(in srgb, var(--lk) 22%, var(--linia));
+  border-left: 4px solid var(--lk);
+  border-radius: 18px;
+  padding: var(--o-5);
+}
+.lk-sec-lead > h2 {
+  border: 0;
+  padding: 0;
+  font-size: 1.125rem;
+  color: var(--lk);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.lk-sec-lead p {
+  font-size: 1.125rem;
+}
+/* Plan wydarzeń – rzędy z numerem */
+.lk-sec-plan .lk-list {
+  list-style: none;
+  padding: 0;
+  gap: 0;
+  counter-reset: plan;
+  border: 1px solid var(--linia);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--powierzchnia);
+}
+.lk-sec-plan .lk-list > li {
+  counter-increment: plan;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: var(--o-3);
+  padding: 12px var(--o-4);
+  max-width: none;
+  line-height: 1.55;
+}
+.lk-sec-plan .lk-list > li + li {
+  border-top: 1px solid var(--linia);
+}
+.lk-sec-plan .lk-list > li::before {
+  content: counter(plan);
+  font-family: var(--font-d);
+  font-weight: 760;
+  color: var(--lk);
+  text-align: right;
+}
+/* Streszczenie – zwijane części */
+.lk-parts-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9375rem;
+}
+.lk-parts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--o-3);
+}
+.lk-part {
+  background: var(--powierzchnia);
+  border: 1px solid var(--linia);
+  border-radius: 18px;
+  overflow: hidden;
+}
+.lk-part[data-open] {
+  border-color: color-mix(in srgb, var(--lk) 30%, var(--linia));
+}
+.lk-part-head {
+  display: flex;
+  align-items: center;
+  gap: var(--o-3);
+  width: 100%;
+  min-height: 56px;
+  padding: 10px var(--o-4);
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.35;
+  color: var(--tekst);
+  text-align: left;
+  cursor: pointer;
+}
+.lk-part-head:hover {
+  background: var(--hover);
+}
+.lk-part-head .lk-step-no {
+  flex: none;
+}
+.lk-part-chev {
+  display: grid;
+  color: var(--tekst-2);
+  transition: transform 0.2s;
+}
+.lk-part[data-open] .lk-part-chev {
+  transform: rotate(90deg);
+}
+.lk-part-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 var(--o-5) var(--o-5) calc(var(--o-4) + 34px + var(--o-3));
+}
+.lk-part-body .lk-link {
+  align-self: flex-start;
+  margin-top: var(--o-1);
+}
+@media (max-width: 560px) {
+  .lk-part-body {
+    padding: 0 var(--o-4) var(--o-4);
+  }
+}
+/* Problematyka itp. – karty z akcentem */
+.lk-defs {
+  gap: var(--o-3);
+}
+.lk-def {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--powierzchnia);
+  border: 1px solid var(--linia);
+  border-left: 3px solid var(--lk);
+  border-radius: 14px;
+  padding: var(--o-4) var(--o-5);
+}
+.lk-def h4 {
+  font-size: 1.0625rem;
+}
+.lk-tile h4 {
+  color: var(--lk);
+}
+.lk-tile p {
+  line-height: 1.6;
+}
+/* Dalej / Wstecz */
+.lk-pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--o-3);
+  margin-top: var(--o-4);
+  padding-top: var(--o-5);
+  border-top: 1px solid var(--linia);
+}
+.lk-pager-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 64px;
+  padding: 12px var(--o-4);
+  border: 1px solid var(--linia);
+  border-radius: 16px;
+  background: var(--powierzchnia);
+  font: inherit;
+  color: var(--tekst);
+  text-align: left;
+  cursor: pointer;
+}
+.lk-pager-btn:hover {
+  border-color: color-mix(in srgb, var(--lk) 40%, var(--linia));
+}
+.lk-pager-btn.next {
+  grid-column: 2;
+  text-align: right;
+  align-items: flex-end;
+  background: color-mix(in srgb, var(--lk) 9%, var(--powierzchnia));
+}
+.lk-pager-label {
+  font-size: 0.8125rem;
+  color: var(--tekst-2);
+  font-weight: 650;
+}
+.lk-pager-name {
+  font-weight: 720;
+}
+.lk-tiles {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+}
