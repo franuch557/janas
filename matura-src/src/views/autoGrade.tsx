@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import type { AppTask } from '../store/derived';
 import { gradeTask, type MathKey, type MathParams } from '../logic/mathGrade';
 import { gradeEnglish, type EnglishItem } from '../logic/englishGrade';
+import { gradeByKey, type TextKey } from '../logic/keyGrade';
 import { embedTexts, gradeText, setTextModel, unpackVec, type TextExample, type TextParams } from '../logic/textGrade';
 
 type MathKeys = Record<string, MathKey>;
@@ -23,8 +24,11 @@ const loadText = () =>
     return { keys: k.default as unknown as TextKeys, params: conf.params };
   }));
 
-/** Czy zadanie ma klucz do oceny automatycznej. */
-export type AutoKind = 'mat' | 'pol' | 'ang';
+let approxKeys: Promise<Record<string, TextKey>> | null = null;
+const loadApprox = () => (approxKeys ??= import('../data/klucze-tekst.json').then((k) => k.default as unknown as Record<string, TextKey>));
+
+/** Czy zadanie ma klucz do oceny automatycznej. 'klucz' = ocena przybliżona (słowa kluczowe z zasad CKE). */
+export type AutoKind = 'mat' | 'pol' | 'ang' | 'klucz';
 
 export function useAutoKind(t: AppTask | undefined): AutoKind | null {
   const [kind, setKind] = useState<AutoKind | null>(null);
@@ -32,10 +36,19 @@ export function useAutoKind(t: AppTask | undefined): AutoKind | null {
     let alive = true;
     setKind(null);
     if (!t || t.auto || t.essay || t.user) return;
-    if (t.subjectId === 'mat-p' || t.subjectId === 'mat-r') void loadMath().then((m) => alive && setKind(m.keys[t.id] ? 'mat' : null));
-    // w artefakcie polski ocenia Claude (silnika modelu nie ma w wersji jednoplikowej)
-    else if (t.subjectId === 'ang-p') void loadEng().then((k) => alive && setKind(k[t.id] ? 'ang' : null));
-    else if (t.subjectId === 'pol-p' && import.meta.env.MODE !== 'jeden-plik') void loadText().then((m) => alive && setKind(m.keys[t.id] ? 'pol' : null));
+    const exact: Promise<AutoKind | null> =
+      t.subjectId === 'mat-p' || t.subjectId === 'mat-r'
+        ? loadMath().then((m) => (m.keys[t.id] ? 'mat' : null))
+        : t.subjectId === 'ang-p'
+          ? loadEng().then((k) => (k[t.id] ? 'ang' : null))
+          : // w artefakcie polski ocenia Claude (silnika modelu nie ma w wersji jednoplikowej)
+            t.subjectId === 'pol-p' && import.meta.env.MODE !== 'jeden-plik'
+            ? loadText().then((m) => (m.keys[t.id] ? 'pol' : null))
+            : Promise.resolve(null);
+    // bez dokładnego klucza: ocena przybliżona według słów kluczowych z zasad CKE
+    void exact
+      .then(async (k) => k ?? ((await loadApprox())[t.id] ? 'klucz' : null))
+      .then((k) => alive && setKind(k));
     return () => {
       alive = false;
     };
@@ -60,6 +73,21 @@ export async function autoGrade(t: AppTask, kind: AutoKind, text: string, onProg
       g.missing.length && g.points < t.maxPoints ? `Do pełnej punktacji brakuje: ${g.missing.join('; ')}.` : '',
     ];
     return { points: g.points, feedback: parts.filter(Boolean).join(' ') };
+  }
+  if (kind === 'klucz') {
+    const k = (await loadApprox())[t.id];
+    const g = k ? gradeByKey(text, { ...k, max: t.maxPoints }) : null;
+    if (!g) return null;
+    const head = `Ocena przybliżona: porównałem twoją odpowiedź ze słowami kluczowymi z zasad oceniania CKE.`;
+    const detail =
+      g.basis === 'odpowiedzi'
+        ? g.missing.length
+          ? ` Nie znalazłem: ${g.missing.slice(0, 3).join('; ')}.`
+          : ' Wszystkie elementy z klucza są w odpowiedzi.'
+        : g.basis === 'poziomy' && g.matched.length
+          ? ` Pasuje do opisu za ${g.points} pkt: „${g.matched[0]}”.`
+          : '';
+    return { points: g.points, feedback: `${head}${detail} Sprawdź z rozwiązaniem i popraw punkty, jeśli trzeba.` };
   }
   if (kind === 'ang') {
     const items = (await loadEng())[t.id] ?? [];
@@ -117,7 +145,7 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
     <div className="card stack-2">
       <h3>Sprawdź automatycznie</h3>
       <div className="field">
-        <label htmlFor={`auto-${t.id}`}>{kind === 'mat' ? 'Twoje rozwiązanie: obliczenia i wynik' : kind === 'ang' ? 'Twoje odpowiedzi: jedna w linii, po kolei' : 'Twoja odpowiedź'}</label>
+        <label htmlFor={`auto-${t.id}`}>{kind === 'mat' || (kind === 'klucz' && t.subjectId.startsWith('mat')) ? 'Twoje rozwiązanie: obliczenia i wynik' : kind === 'ang' ? 'Twoje odpowiedzi: jedna w linii, po kolei' : 'Twoja odpowiedź'}</label>
         <textarea
           id={`auto-${t.id}`}
           className="textarea"
@@ -125,12 +153,14 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
           onChange={(e) => setText(e.target.value)}
           maxLength={4000}
           disabled={disabled}
-          placeholder={kind === 'mat' ? 'np.\nC = (14, 8)\n|BC| = √(16 + 36) = 2√13' : kind === 'ang' ? 'np.\nhaven’t changed since\nfor them to book\nmind if I' : 'Napisz odpowiedź pełnymi zdaniami.'}
+          placeholder={kind === 'klucz' ? 'Wynik, kroki rozwiązania albo odpowiedź' : kind === 'mat' ? 'np.\nC = (14, 8)\n|BC| = √(16 + 36) = 2√13' : kind === 'ang' ? 'np.\nhaven’t changed since\nfor them to book\nmind if I' : 'Napisz odpowiedź pełnymi zdaniami.'}
         />
         <span className="hint">
           {kind === 'mat'
             ? 'Pisz kolejne kroki w osobnych liniach. Pierwiastek: √ albo sqrt(), potęga: ^, ułamek: /.'
-            : kind === 'ang'
+            : kind === 'klucz'
+              ? 'Ocena przybliżona: aplikacja porówna słowa kluczowe i liczby z zasadami oceniania CKE.'
+              : kind === 'ang'
               ? 'Liczy się poprawna forma i pisownia, tak jak na maturze. Skróty (haven’t / have not) są równoważne.'
               : 'Ocena porównuje sens odpowiedzi z przykładowymi odpowiedziami CKE. Za pierwszym razem strona pobiera model oceny (ok. 118 MB).'}
         </span>

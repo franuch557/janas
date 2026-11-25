@@ -173,6 +173,11 @@ for (const [examId, g] of groups) {
   }
   tasks.sort(sortNr);
   e.tasks = tasks;
+  if (e.maxPoints == null && tasks.length) {
+    // strona tytułowa nie podaje maksimum (arkusz pokazowy z polskiego, 2022): suma punktów zadań
+    e.maxPoints = tasks.filter((t, i, a) => !t.alternative || a.findIndex((x) => x.alternative === t.alternative) === i).reduce((s, t) => s + t.maxPoints, 0);
+    issue(`Strona tytułowa nie podaje maksimum punktów: przyjęto sumę punktów zadań (${e.maxPoints}).`);
+  }
   e.groups = [];
   e.status = 'pełny';
   e.audio = info.family === 'angielski' ? (g.nagranie.length ? `${examId}.mp3` : null) : null;

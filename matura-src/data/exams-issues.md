@@ -679,7 +679,6 @@ Uwagi z importu:
 
 ## MPOP-P1-P2-2203 (polski, podstawowy, 2022) – status: pełny
 
-- Brak maksymalnej liczby punktów w sprawdzonych źródłach.
 - Zadanie A1.1 (zamknięte): brak odpowiedzi (answer = null).
 - Zadanie A1.13 (zamknięte): brak odpowiedzi (answer = null).
 - Zadanie A1.15 (zamknięte): brak odpowiedzi (answer = null).
@@ -692,4 +691,4 @@ Uwagi z importu:
 - Zadanie A1.15: zadanie zamknięte, ale rozwiązania „A.3B.2C.1” nie umiem rozpisać automatycznie (data/odpowiedzi-recznie.json): odpowiedź = null
 - Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
 
-Źródła: PDF MPOP-P1-100-2203.pdf (import lokalny); PDF MPOP-P2-100-2203.pdf (import lokalny); PDF MPOP-P1-100-200-300-400-660-700-Q00-2203-zasady.pdf (import lokalny); PDF MPOP-P2-100-300-400-660-Q00-2203-zasady.pdf (import lokalny)
+Źródła: PDF MPOP-P1-100-2203.pdf (import lokalny); PDF MPOP-P2-100-2203.pdf (import lokalny); PDF MPOP-P1-100-200-300-400-660-700-Q00-2203-zasady.pdf (import lokalny); PDF MPOP-P2-100-300-400-660-Q00-2203-zasady.pdf (import lokalny); maksimum 60 pkt: suma punktów zadań (strona tytułowa arkusza pokazowego go nie podaje)

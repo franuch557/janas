@@ -201,6 +201,7 @@ export function keyDetails(ruleText, maxPoints) {
   for (let i = 0; i < lines.length; i++) {
     if (!head(lines[i])) continue;
     let cur = null;
+    let oldHead = false;
     for (let j = i + 1; j < lines.length; j++) {
       const l = lines[j];
       if (noise(l)) continue;
@@ -213,17 +214,39 @@ export function keyDetails(ruleText, maxPoints) {
         cur.alts.push(m[2]);
         continue;
       }
+      // formuła 2015: „Zdający otrzymuje ……… 1 p.”, „Pokonanie zasadniczych trudności zadania … 3 p.”
+      // (nagłówek bywa w dwóch liniach), pod nim warianty „•” rozdzielone „albo”
+      const old = /^(.*?)[.…\s]*(\d+)\s*p(?:kt)?\.?$/.exec(l);
+      if (old && (/[.…]{2,}\s*\d+\s*p/.test(l) || /^(Zdający otrzymuje|Rozwiązanie|Pokonanie|Istotny|Dokonanie|Zadanie)/.test(old[1]) || oldHead)) {
+        const p = Number(old[2]);
+        cur = byPts.get(p) ?? { points: p, alts: [] };
+        byPts.set(p, cur);
+        cur.alts.push('');
+        cur.old = true;
+        oldHead = false;
+        continue;
+      }
+      if (/^(Zdający otrzymuje|Rozwiązanie,? w którym|Rozwiązanie pełne|Rozwiązanie zadania do końca|Pokonanie zasadniczych|Istotny postęp|Dokonanie istotnego)/.test(l)) {
+        oldHead = true; // początek dwuliniowego nagłówka poziomu: nie dopisuję go do poprzedniego wariantu
+        continue;
+      }
+      if (oldHead) continue;
       if (!cur) continue;
-      if (/^ALBO$/.test(l)) {
+      if (/^ALBO$/.test(l) || (cur.old && /^albo,?$/.test(l))) {
         cur.alts.push('');
         continue;
       }
-      const t = l.replace(/^[–—-]\s+/, '');
+      if (cur.old && /^(gdy|Zdający)\s*:?$/.test(l)) continue;
+      if (cur.old && /^•/.test(l) && cur.alts[cur.alts.length - 1]) cur.alts.push('');
+      const t = l.replace(/^[–—-]\s+/, '').replace(/^•\s*/, '');
       cur.alts[cur.alts.length - 1] = `${cur.alts[cur.alts.length - 1]} ${t}`.trim();
     }
   }
   const levels = [...byPts.values()].sort((x, y) => y.points - x.points);
-  for (const lv of levels) lv.alts = lv.alts.map((a) => a.replace(/[,;]\s*$/, '').trim()).filter(Boolean);
+  for (const lv of levels) {
+    lv.alts = lv.alts.map((a) => a.replace(/[,;]\s*$/, '').replace(/\s*i na tym zakończy( lub dalej popełni(a)? błędy)?\.?$/, '').trim()).filter(Boolean);
+    delete lv.old;
+  }
   let solution = null;
   const s = lines.findIndex((l) => /^Przykładow[ea] (pełne )?rozwiązani[ea]$/.test(l));
   if (s >= 0) {
@@ -274,6 +297,8 @@ export function keyDetails(ruleText, maxPoints) {
       if (answer.length > 8) break;
     }
   }
+  // formuła 2015: po rozwiązaniu następuje „Schemat punktowania” – wynik końcowy jest przed nim
+  if (solution) solution = solution.split(/\n(?=Schemat (?:punktowania|oceniania))/)[0].trim() || null;
   return { levels, solution, examples, answer };
 }
 

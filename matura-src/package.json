@@ -15,6 +15,7 @@
     "build:jeden-plik": "tsc --noEmit && vite build --mode jeden-plik && node tools/jeden-plik.mjs",
     "embed-images": "node scripts/embed-images.mjs",
     "cke:pakiet": "node scripts/cke-pakiet.mjs",
+    "klucze:tekst": "node scripts/klucze-tekst.mjs",
     "e2e": "node --test --test-force-exit --test-concurrency=1 --test-timeout=600000 tests-e2e/*.e2e.mjs",
     "ustny:import": "node scripts/ustny-import.mjs",
     "zbiory:import": "node scripts/zbiory-import.mjs",
