@@ -39,61 +39,126 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wilno, 1823 rok. Car prześladuje polską młodzież: śledztwo senatora Nowosilcowa przeciw filomatom i filaretom kończy się więzieniem i zsyłkami. W celi więzień Gustaw przemienia się w Konrada – poetę i patriotę. W Wielkiej Improwizacji Konrad buntuje się przeciw Bogu, żądając władzy nad duszami, by uszczęśliwić naród. Ratuje go modlitwa księdza Piotra, który ma wizję przyszłości Polski jako „Chrystusa narodów”. Utwór pokazuje martyrologię Polaków i ich duchową walkę z zaborcą."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Prolog: więzień w celi klasztoru Bazylianów; anioły i duchy walczą o jego duszę; Gustaw staje się Konradem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Scena I: więźniowie w celi Konrada w Wigilię opowiadają o prześladowaniach. Konrad śpiewa pieśń zemsty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Scena II: Wielka Improwizacja – Konrad wyzywa Boga."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Scena III: diabły próbują porwać duszę Konrada; egzorcyzmy księdza Piotra."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Scena IV: Ewa modli się za poetę, ma piękny sen."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Scena V: Widzenie księdza Piotra – Polska jako Chrystus narodów i zapowiedź wskrzesiciela „czterdzieści i cztery”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Sceny VI–VII: sen Senatora i salon warszawski – obojętność elit wobec cierpienia narodu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Scena VIII: bal u Senatora; pani Rollisonowa prosi o łaskę dla syna, Senator ją oszukuje; piorun zabija doktora Bécu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Scena IX: Noc Dziadów na cmentarzu – Guślarz i Kobieta widzą upiora (Gustawa)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Ustęp: obrazy Rosji, Petersburga i Polaków na zesłaniu."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
       "bloki": [
         {
           "typ": "punkt",
           "etykieta": "Prolog",
-          "tekst": "więzień w celi klasztoru bazylianów przechodzi przemianę: zapisuje na ścianie „Gustaw zmarł, narodził się Konrad” – nieszczęśliwy kochanek staje się bojownikiem o wolność ojczyzny. Nad więźniem toczą walkę duchy dobre i złe."
+          "tekst": "W celi więzienia w klasztorze Bazylianów w Wilnie śpi więzień. Duchy dobre i złe walczą o jego duszę. Więzień budzi się i pisze na ścianie: „Gustavus obiit… hic natus est Conradus” – umarł Gustaw, narodził się Konrad. Kochanek przemienia się w patriotę, który żyje dla narodu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Scena I (więzienna, Wigilia)",
-          "tekst": "więźniowie spotykają się w celi Konrada. Opowiadają o śledztwie i wywózkach (Sobolewski widział kibitki z młodzieżą wiezioną na Sybir, Janczewskiego i katowanego Wasilewskiego). Śpiewają; Konrad śpiewa pieśń zemsty."
+          "etykieta": "Scena I – cela Konrada",
+          "tekst": "W Wigilię więźniowie, młodzi filomaci, gromadzą się w celi Konrada. Opowiadają o śledztwie: o wywózkach na Sybir, o torturach, o Cichowskim, który wyszedł z więzienia zmieniony nie do poznania. Jan Sobolewski opisuje kibitki z młodzieżą wywożoną na Syberię. Konrad śpiewa pieśń zemsty, a potem zostaje sam."
         },
         {
           "typ": "punkt",
           "etykieta": "Scena II – Wielka Improwizacja",
-          "tekst": "samotny Konrad czuje się poetą równym Bogu. Kocha naród i domaga się od Boga „rządu dusz”, by uczynić go szczęśliwym. Gdy Bóg milczy, oskarża Go, że jest okrutny i nie kocha świata. Przed ostatecznym bluźnierstwem (nazwaniem Boga carem) traci przytomność – słowa kończy za niego diabeł."
+          "tekst": "Konrad czuje w sobie ogromną moc poety. Mówi do Boga jak równy do równego. Twierdzi, że kocha naród bardziej niż Bóg i cierpi za miliony. Żąda „rządu dusz”, by uszczęśliwić ludzi. Gdy Bóg milczy, oskarża go, że jest „tylko mądrością”, a nie miłością. Już ma nazwać Boga „carem”, ale mdleje – diabeł wypowiada za niego to bluźnierstwo."
         },
         {
           "typ": "punkt",
-          "etykieta": "Scena III – egzorcyzmy",
-          "tekst": "ksiądz Piotr, pokorny bernardyn, wypędza z Konrada złego ducha."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Scena IV",
-          "tekst": "w domu pod Lwowem młoda Ewa modli się za więźniów; ma widzenie, w którym zostaje nagrodzona za pokorę."
+          "etykieta": "Scena III i IV – ratunek",
+          "tekst": "Ksiądz Piotr, pokorny bernardyn, odprawia egzorcyzmy i wypędza z Konrada diabła. W domu wiejskim pod Lwowem młoda Ewa modli się za poetę, a we śnie widzi Matkę Bożą i kwiaty – jej modlitwa pomaga ocalić Konrada."
         },
         {
           "typ": "punkt",
           "etykieta": "Scena V – Widzenie księdza Piotra",
-          "tekst": "pokorny ksiądz otrzymuje to, czego żądał pyszny Konrad: widzenie przyszłości Polski. Polska jest jak Chrystus – ukrzyżowana przez zaborców, zmartwychwstanie. Pojawia się zbawca narodu: „a imię jego czterdzieści i cztery”."
+          "tekst": "Ksiądz Piotr modli się w pokorze i ma wizję: Polska, jak Chrystus, zostaje ukrzyżowana przez narody, ale zmartwychwstanie. Zbawi świat przez cierpienie. Zapowiada też tajemniczego wybawcę: „A imię jego czterdzieści i cztery”. To **mesjanizm** – Polska jako Chrystus narodów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Sceny VI–VIII – Senator",
-          "tekst": "Senator Nowosilcow śpi i ma sen, w którym diabły go dręczą. W domu Senatora trwa bal, a w tym samym czasie prowadzi się śledztwo. Pani Rollisonowa, niewidoma matka uwięzionego syna, prosi Senatora o litość; syn zostaje wyrzucony przez okno więzienia. Doktor Pelikan, współpracownik Senatora, ginie rażony piorunem."
+          "etykieta": "Sceny VI–VII – Sen Senatora i salon warszawski",
+          "tekst": "Senatorowi śni się, że car go wyróżnia, a potem odwraca się od niego – diabły drwią z jego strachu przed utratą łask. W salonie warszawskim arystokraci rozmawiają po francusku o balach, a młodzi patrioci przy drzwiach mówią o cierpieniu narodu. Adolf opowiada historię Cichowskiego. Salon jest obojętny wobec losu Polski."
         },
         {
           "typ": "punkt",
-          "etykieta": "Scena VII – Salon warszawski",
-          "tekst": "arystokracja mówi po francusku i obojętnie słucha o cierpieniach patriotów; młodzież przy drzwiach (Adolf, Wysocki) rozumie dramat narodu. Opowiadanie Adolfa o Cichowskim, który po latach więzienia wrócił zniszczony."
+          "etykieta": "Scena VIII – Pan Senator",
+          "tekst": "Na balu u Senatora ślepa pani Rollisonowa błaga o łaskę dla syna torturowanego w więzieniu. Senator udaje współczucie, a po cichu każe dalej męczyć więźnia. Wkrótce przychodzi wiadomość, że chłopak wypadł z okna więzienia. W czasie balu piorun zabija doktora Bécu, współpracownika Senatora – to znak kary Bożej. Konrad zostaje skazany na zsyłkę. Ksiądz Piotr przepowiada mu przyszłość."
         },
         {
           "typ": "punkt",
           "etykieta": "Scena IX – Noc Dziadów",
-          "tekst": "Guślarz i Kobieta na cmentarzu widzą przejeżdżającego Konrada wiezionego na zesłanie; ma na czole ranę."
+          "tekst": "Na cmentarzu Guślarz i Kobieta w żałobie widzą kibitki jadące na zesłanie. W jednej jest Konrad, a na jego piersi rana. Kobieta (ukochana Gustawa) rozpoznaje go."
         },
         {
           "typ": "punkt",
           "etykieta": "Ustęp",
-          "tekst": "Mickiewicz opisuje drogę do Rosji, Petersburg, pomnik Piotra Wielkiego, przegląd wojska, a w wierszu „Do przyjaciół Moskali” zwraca się do rosyjskich przyjaciół."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** pycha Konrada (Wielka Improwizacja) zostaje przeciwstawiona pokorze księdza Piotra – to pokornemu Bóg objawia przyszłość narodu."
+          "tekst": "Dołączone wiersze opisują drogę na Syberię, Petersburg, pomnik Piotra Wielkiego i rosyjski despotyzm. Kończy go wiersz „Do przyjaciół Moskali”."
         }
       ]
     },
@@ -103,67 +168,94 @@
         {
           "typ": "punkt",
           "etykieta": "Konrad",
-          "tekst": "poeta, więzień, dawny Gustaw. Kocha naród i cierpi za niego; pyszny buntownik, który rzuca wyzwanie Bogu. Typ bohatera romantycznego (prometeizm)."
+          "tekst": "poeta-więzień, romantyczny bohater: samotny, dumny, gotów cierpieć za naród, ale popada w pychę i bluźni. Dawniej był Gustawem – nieszczęśliwym kochankiem z „Dziadów” cz. IV."
         },
         {
           "typ": "punkt",
           "etykieta": "Ksiądz Piotr",
-          "tekst": "pokorny zakonnik bernardyn; egzorcysta Konrada; ma widzenie przyszłości Polski. Wzór pokory."
+          "tekst": "pokorny zakonnik, przeciwieństwo Konrada. Osiąga to, czego Konrad chciał siłą: widzi przyszłość narodu dzięki pokorze i modlitwie."
         },
         {
           "typ": "punkt",
           "etykieta": "Senator Nowosilcow",
-          "tekst": "carski urzędnik prowadzący śledztwo; okrutny, cyniczny, tchórzliwy. Symbol zła zaborczej władzy."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Więźniowie",
-          "tekst": "(Tomasz, Feliks Kołakowski, Jan Sobolewski, Frejend i inni) – młodzi patrioci, filomaci i filareci."
+          "tekst": "carski urzędnik, okrutny, cyniczny, tchórzliwy."
         },
         {
           "typ": "punkt",
           "etykieta": "Pani Rollisonowa",
-          "tekst": "matka uwięzionego syna, symbol cierpienia rodzin."
+          "tekst": "niewidoma matka torturowanego syna."
         },
         {
           "typ": "punkt",
           "etykieta": "Ewa",
-          "tekst": "pobożna dziewczyna, modląca się za więźniów."
+          "tekst": "młoda, pobożna dziewczyna spod Lwowa, która modli się za poetę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Doktor Pelikan, Bajkow, Botwinko",
-          "tekst": "współpracownicy Senatora, kolaboranci."
+          "etykieta": "Więźniowie",
+          "tekst": "Tomasz, Jan Sobolewski, Feliks, Frejend i inni – młodzi patrioci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Doktor Bécu",
+          "tekst": "współpracownik Senatora, ukarany śmiercią."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wilno w latach 1823–1824 (cela w klasztorze Bazylianów, cela księdza Piotra, mieszkanie Senatora), Warszawa (salon), dom wiejski pod Lwowem (Ewa), cmentarz (Noc Dziadów), a w Ustępie droga na Syberię i Petersburg. Akcja zaczyna się w Wigilię."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Mickiewicz napisał III część „Dziadów” w Dreźnie w 1832 roku, po upadku powstania listopadowego. Inspiracją był proces filomatów i filaretów (1823), w którym sam był więźniem. To **dramat romantyczny**: łączy realizm z fantastyką, ma budowę fragmentaryczną (sceny luźno powiązane), mieszanie rodzajów literackich (np. ballada, monolog, wiersz), sceny zbiorowe i duży udział sił nadprzyrodzonych."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "misja poety, cierpienie narodu, relacje z władzą, wiara."
+          "etykieta": "Martyrologia narodu",
+          "tekst": "Cierpienie młodzieży polskiej pod zaborem rosyjskim."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "Konrad z carem, Konrad z Bogiem, poeta wobec narodu."
+          "etykieta": "Mesjanizm",
+          "tekst": "Polska jako Chrystus narodów, który zbawi świat przez cierpienie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "wolność, patriotyzm, wiara, poświęcenie."
+          "etykieta": "Bunt przeciw Bogu (prometeizm)",
+          "tekst": "Konrad chce uszczęśliwić naród wbrew Bogu – to pycha romantycznego bohatera."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "poeta jest przywódcą narodu, a cierpienie prowadzi do zbawienia."
+          "etykieta": "Pokora a pycha",
+          "tekst": "Ksiądz Piotr pokornie osiąga to, czego nie zdobył dumny Konrad."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "nadzieja na wyzwolenie przez ofiarę."
+          "etykieta": "Społeczeństwo polskie",
+          "tekst": "Elita (salon) jest obojętna, a młodzież i patrioci gotowi do poświęceń."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "„Dziady” to ludowy obrzęd przywoływania dusz zmarłych. W części III obrzęd pojawia się tylko w scenie IX, a tytuł łączy ją z wcześniejszymi częściami utworu."
         }
       ]
     },
@@ -193,21 +285,6 @@
           "nr": 4,
           "etykieta": "Wiara",
           "tekst": "relacja z Bogiem. *Wykorzystanie:* zestawienie z *Hiobem* (buntu wobec Boga)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Więzienie",
-          "tekst": "symbol niewoli narodu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wielka Improwizacja",
-          "tekst": "symbol wieszczej misji poety."
         }
       ]
     },

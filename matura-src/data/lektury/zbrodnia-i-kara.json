@@ -29,37 +29,146 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Petersburg, lata 60. XIX w. Ubogi były student Rodion Raskolnikow zabija siekierą starą lichwiarkę Alonę Iwanownę i przypadkiem także jej siostrę Lizawietę. Wierzy w teorię, że ludzie wybitni mogą przekroczyć prawo moralne dla wyższego celu. Po zbrodni dręczą go strach, gorączka i wyrzuty sumienia. Śledczy Porfiry Pietrowicz domyśla się prawdy. Pod wpływem Soni Marmieładowej Raskolnikow przyznaje się do winy i trafia na Syberię, gdzie zaczyna się jego odrodzenie przez miłość i wiarę."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Część I – przed zbrodnią i zbrodnia",
-          "tekst": "Petersburg, upalne lato. Były student Rodion Raskolnikow żyje w nędzy w ciasnym pokoiku. Od dawna rozważa zabicie starej lichwiarki Alony Iwanowny. W szynku poznaje Marmieładowa, pijaka i byłego urzędnika, którego córka Sonia z biedy została prostytutką, by utrzymać rodzinę. Z listu matki dowiaduje się, że jego siostra Dunia zamierza poślubić zamożnego Łużyna, by mu pomóc – Raskolnikow odbiera to jako poświęcenie. Zabija siekierą lichwiarkę, a potem także jej siostrę Lizawietę, która niespodziewanie wraca do mieszkania. Ucieka z niewielkim łupem."
+          "etykieta": "",
+          "tekst": "Raskolnikow w nędzy obmyśla zbrodnię, odwiedza lichwiarkę na „próbę”."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Część II – gorączka",
-          "tekst": "Raskolnikow chowa łup pod kamieniem, choruje, majaczy. Opiekuje się nim przyjaciel Razumichin. Na komisariacie mdleje, budząc podejrzenia. Przypadkiem jest świadkiem śmierci Marmieładowa przejechanego przez powóz i oddaje rodzinie wszystkie pieniądze od matki. Poznaje Sonię."
+          "etykieta": "",
+          "tekst": "W karczmie poznaje Marmieładowa, który opowiada o córce Soni."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Części III–IV – Porfiry, Swidrygajłow, Sonia",
-          "tekst": "Do Petersburga przyjeżdżają matka i Dunia; Raskolnikow zrywa zaręczyny siostry z Łużynem. Sędzia śledczy Porfiry Pietrowicz zna artykuł Raskolnikowa o ludziach „zwykłych” i „niezwykłych”, którym wolno przekraczać prawo dla wyższych celów (jak Napoleon), i prowadzi z nim psychologiczną grę. W mieście pojawia się Swidrygajłow, dawny chlebodawca Duni, cyniczny rozpustnik. Raskolnikow odwiedza Sonię, która czyta mu ewangeliczną opowieść o wskrzeszeniu Łazarza."
+          "etykieta": "",
+          "tekst": "List od matki: siostra Dunia ma wyjść za Łużyna, by pomóc bratu."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Części V–VI – wyznanie",
-          "tekst": "Łużyn próbuje oskarżyć Sonię o kradzież, ale zostaje zdemaskowany. Umiera żona Marmieładowa, Katarzyna Iwanowna. Raskolnikow wyznaje Soni swoją zbrodnię; ona namawia go, by ucałował ziemię na rozstajach i przyznał się. Swidrygajłow podsłuchał wyznanie, próbuje szantażem zdobyć Dunię, a gdy ta go odrzuca, popełnia samobójstwo. Porfiry otwarcie mówi Raskolnikowowi, że wie o wszystkim, i radzi mu się przyznać. Raskolnikow całuje ziemię na placu Siennym i przyznaje się na komisariacie."
+          "etykieta": "",
+          "tekst": "Raskolnikow zabija Alonę Iwanownę i jej siostrę Lizawietę."
         },
         {
           "typ": "punkt",
           "nr": 5,
-          "etykieta": "Epilog",
-          "tekst": "Raskolnikow zostaje skazany na osiem lat katorgi na Syberii. Sonia jedzie za nim. Początkowo nie odczuwa skruchy, uważa jedynie, że nie podołał swojej teorii. Po chorobie i proroczym śnie o zarazie, która czyni ludzi zarozumiałymi i wrogimi sobie, zaczyna się w nim przemiana. Pod wpływem miłości Soni otwiera się na nowe życie – w ręku ma Ewangelię."
+          "etykieta": "",
+          "tekst": "Ukrywa łup pod kamieniem; choruje, majaczy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Wizyta Łużyna; Raskolnikow go wyrzuca."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Śmierć Marmieładowa pod kołami powozu; Raskolnikow daje pieniądze na pogrzeb."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Pierwsza rozmowa z Porfirym; artykuł Raskolnikowa o „ludziach niezwykłych”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Swidrygajłow przyjeżdża do Petersburga."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Sonia czyta Raskolnikowowi o wskrzeszeniu Łazarza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Raskolnikow wyznaje Soni zbrodnię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Porfiry mówi mu wprost, że wie, kto zabił, i radzi się przyznać."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Swidrygajłow próbuje zmusić Dunię do uległości, potem popełnia samobójstwo."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Raskolnikow przyznaje się na komisariacie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 15,
+          "etykieta": "",
+          "tekst": "Epilog: zsyłka na Syberię, Sonia jedzie za nim; początek odrodzenia."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Część I – zbrodnia",
+          "tekst": "Raskolnikow mieszka w ciasnej klitce, przerwał studia z braku pieniędzy. Od dawna rozmyśla o zabiciu chciwej lichwiarki. W karczmie spotyka pijaka Marmieładowa, który opowiada, jak jego córka Sonia musiała zacząć sprzedawać się, by utrzymać rodzinę. List od matki mówi, że siostra Dunia zaręczyła się z wyrachowanym Łużynem, by pomóc bratu. Raskolnikow nie chce tej ofiary. Następnego wieczoru zabija siekierą Alonę Iwanownę, a gdy niespodziewanie wraca jej siostra Lizawieta, zabija i ją. Ucieka cudem niezauważony."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część II – po zbrodni",
+          "tekst": "Raskolnikow ukrywa łup pod kamieniem i nawet go nie ogląda. Wpada w gorączkę. Opiekuje się nim przyjaciel Razumichin. Przychodzi Łużyn, a Raskolnikow go obraża. Na ulicy widzi Marmieładowa stratowanego przez konie, zanosi go do domu i oddaje wdowie, Katarzynie Iwanownie, wszystkie pieniądze od matki. Poznaje Sonię."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część III – Porfiry",
+          "tekst": "Do Petersburga przyjeżdżają matka i Dunia. Raskolnikow idzie do śledczego Porfirego Pietrowicza. Ten przypomina jego artykuł o ludziach „zwykłych” i „niezwykłych”: ci drudzy, jak Napoleon, mają prawo przekraczać granice dla wielkich celów. Porfiry zaczyna podejrzewać Raskolnikowa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część IV – Sonia",
+          "tekst": "Do miasta przyjeżdża Swidrygajłow, dawny chlebodawca Duni, który chce ją zdobyć. Łużyn zostaje odprawiony przez Dunię. Raskolnikow odwiedza Sonię. Prosi ją, by przeczytała fragment Ewangelii o wskrzeszeniu Łazarza. Druga rozmowa z Porfirym jest grą psychologiczną; przerywa ją malarz Mikołaj, który niespodziewanie przyznaje się do zabójstwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część V – wyznanie",
+          "tekst": "Łużyn oskarża Sonię o kradzież, ale jego intryga zostaje zdemaskowana. Raskolnikow wyznaje Soni, że zabił. Mówi, że chciał sprawdzić, czy jest „Napoleonem”, czy „wszą”. Sonia każe mu iść na rozstaje, pocałować ziemię i przyznać się. Katarzyna Iwanowna umiera."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część VI – przyznanie się",
+          "tekst": "Porfiry mówi Raskolnikowowi, że wie o jego winie, i radzi, by sam się przyznał, bo dostanie niższy wyrok. Swidrygajłow wabi Dunię do mieszkania, ale ona strzela do niego. Puszcza ją, a następnego dnia się zastrzela. Raskolnikow całuje ziemię na placu i przyznaje się na komisariacie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epilog – Syberia",
+          "tekst": "Raskolnikow dostaje osiem lat katorgi. Sonia jedzie za nim. Na początku jest zamknięty i dumny, potem choruje i ma sen o zarazie, która odbiera ludziom rozum. W końcu rzuca się Soni do nóg – rozumie, że ją kocha. Zaczyna się jego odrodzenie moralne."
         }
       ]
     },
@@ -69,42 +178,104 @@
         {
           "typ": "punkt",
           "etykieta": "Rodion Raskolnikow",
-          "tekst": "Zdolny, dumny, rozdarty wewnętrznie student; chce sprawdzić, czy jest „niezwykłym człowiekiem”; po zbrodni dręczą go lęk i sumienie."
+          "tekst": "były student, inteligentny, dumny, wrażliwy, samotny. Popełnia zbrodnię z powodu teorii o „ludziach niezwykłych”. Jest rozdarty – zdolny do okrucieństwa i do dobroci."
         },
         {
           "typ": "punkt",
           "etykieta": "Sonia Marmieładowa",
-          "tekst": "Uboga dziewczyna, która poświęca się dla rodziny; głęboko wierząca, pełna pokory i miłości – prowadzi Raskolnikowa do odrodzenia."
+          "tekst": "córka pijaka, zmuszona do prostytucji. Pokorna, głęboko wierząca, pełna miłości. Prowadzi Raskolnikowa do nawrócenia."
         },
         {
           "typ": "punkt",
           "etykieta": "Porfiry Pietrowicz",
-          "tekst": "Inteligentny sędzia śledczy, psycholog; zamiast dowodów stosuje grę psychologiczną."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Arkadiusz Swidrygajłow",
-          "tekst": "Cyniczny rozpustnik, obraz człowieka, który zatracił granice moralne – „sobowtór” Raskolnikowa."
+          "tekst": "śledczy, inteligentny psycholog, zmusza Raskolnikowa do przyznania się."
         },
         {
           "typ": "punkt",
           "etykieta": "Dunia (Awdotia Romanowna)",
-          "tekst": "Siostra Raskolnikowa, dumna i szlachetna."
+          "tekst": "siostra Raskolnikowa, dumna i ofiarna."
         },
         {
           "typ": "punkt",
           "etykieta": "Razumichin",
-          "tekst": "Przyjaciel Raskolnikowa, uczciwy i pracowity."
+          "tekst": "przyjaciel, pracowity i dobry; zakochuje się w Duni."
         },
         {
           "typ": "punkt",
-          "etykieta": "Marmieładow i Katarzyna Iwanowna",
-          "tekst": "Rodzina zniszczona przez nędzę i alkoholizm."
+          "etykieta": "Swidrygajłow",
+          "tekst": "zepsuty, cyniczny, ale zdolny do dobrych czynów; popełnia samobójstwo."
         },
         {
           "typ": "punkt",
           "etykieta": "Łużyn",
-          "tekst": "Wyrachowany karierowicz."
+          "tekst": "wyrachowany, egoistyczny narzeczony Duni."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Marmieładow i Katarzyna Iwanowna",
+          "tekst": "rodzina Soni, obraz nędzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Alona Iwanowna",
+          "tekst": "lichwiarka, ofiara zbrodni."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Petersburg, lato 1865 roku – głównie biedne dzielnice, ciasne mieszkania i karczmy. Akcja główna trwa ok. dwóch tygodni. Epilog dzieje się na Syberii półtora roku później."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Fiodor Dostojewski wydał powieść w 1866 roku. Sam przeżył katorgę na Syberii. To **powieść psychologiczna**, ale też filozoficzna i społeczna, z elementami kryminału. Narrator jest trzecioosobowy, ale często patrzy oczami Raskolnikowa, pokazując jego myśli (monologi wewnętrzne)."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Teoria nadczłowieka",
+          "tekst": "Raskolnikow sądzi, że wybitni ludzie mogą łamać prawo moralne. Zbrodnia pokazuje, że ta teoria jest fałszywa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wina i kara",
+          "tekst": "Prawdziwą karą jest nie więzienie, lecz męka sumienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Odkupienie",
+          "tekst": "Przez cierpienie, miłość i wiarę człowiek może się odrodzić."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Nędza",
+          "tekst": "Bieda niszczy ludzi i popycha ich do upadku (Marmieładowowie, Sonia)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wiara",
+          "tekst": "Sonia reprezentuje chrześcijańską miłość i przebaczenie."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł wskazuje dwie części historii: zbrodnię (krótką, w części I) i karę (całą resztę powieści). Karą są przede wszystkim cierpienia psychiczne Raskolnikowa."
         }
       ]
     },
@@ -144,36 +315,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Czy cel uświęca środki? – teoria nadczłowieka i jej klęska."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zbrodnia, sumienie i kara wewnętrzna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Nędza i jej wpływ na moralność."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Odrodzenie przez cierpienie, miłość i wiarę."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wolność człowieka i granice moralne."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -200,15 +341,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Powieść polifoniczna (M. Bachtin) – wiele równorzędnych głosów i racji."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Dostojewski wydał powieść w 1866 r. w odcinkach w piśmie „Ruskij Wiestnik”, pisząc ją w trudnej sytuacji finansowej. Tytuł oddaje kompozycję: zbrodnia zajmuje tylko pierwszą część, a reszta powieści to kara – przede wszystkim wewnętrzna, czyli męki sumienia Raskolnikowa, dopiero na końcu zesłanie na Syberię."
         }
       ]
     },

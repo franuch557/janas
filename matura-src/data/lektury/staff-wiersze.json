@@ -34,25 +34,36 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Staff był poetą trzech epok: Młodej Polski, dwudziestolecia i czasów powojennych. W młodości przeciwstawiał się dekadentyzmowi i głosił postawę spokoju, pogodzenia z losem i radości z życia. Później pisał prosto, z pokorą wobec świata, także o doświadczeniu wojny."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "„Kowal” (tom „Sny o potędze”, 1901)",
-          "tekst": "Podmiot liryczny przedstawia się jako kowal, który w ogniu i pod ciosami młota wykuwa z własnego serca coś twardego i mocnego. Praca nad sobą wymaga trudu i cierpienia, ale pozwala stać się silnym, gotowym do walki z przeciwnościami. To wiersz programowy – odpowiedź na dekadencki pesymizm, inspirowany nietzscheańską ideą tworzenia samego siebie."
+          "etykieta": "„Kowal”",
+          "tekst": "Kowal wykuwa w ogniu swoje serce, by było twarde i dumne jak stal. Chce stworzyć z siebie silnego człowieka. To wiersz o kształtowaniu własnego charakteru – przeciwieństwo dekadenckiej bierności, inspirowany myślą Nietzschego."
         },
         {
           "typ": "punkt",
-          "nr": 2,
           "etykieta": "„Deszcz jesienny”",
-          "tekst": "Monotonny jesienny deszcz dzwoni o szyby, a podmiot przywołuje smutne, senne wizje: korowód postaci, które coś utraciły, szlochające, błąkające się w szarości. Refreniczna budowa i dźwiękowa instrumentacja (powtórzenia, aliteracje) oddają nastrój melancholii, rozpaczy i znużenia – typowy dla dekadentyzmu, ale wyrażony z wielką muzycznością."
+          "tekst": "Za oknem pada jesienny deszcz, monotonny i smutny. Refren „O szyby deszcz dzwoni, deszcz dzwoni jesienny” powtarza się jak kapanie kropli. W kolejnych strofach przechodzą korowody smutnych postaci. Wiersz oddaje nastrój melancholii i pustki – przykład młodopolskiego **symbolizmu** i muzyczności."
         },
         {
           "typ": "punkt",
-          "nr": 3,
-          "etykieta": "Późna twórczość (np. „Wysokie drzewa”, tom z 1932 r.)",
-          "tekst": "W późniejszych wierszach Staff wyraża postawę spokojnej kontemplacji świata, zachwytu nad codziennością i przyrodą, pogodzenia się z przemijaniem. Poeta nazywany bywa „poetą trzech pokoleń”, bo jego twórczość ewoluowała od młodopolskiego symbolizmu, przez klasycyzm, do prostoty poezji powojennej."
+          "etykieta": "„Przedśpiew”",
+          "tekst": "Podmiot mówi, że przyjmuje wszystko, co przynosi życie – i smutek, i radość – ze spokojem i pogodą. Głosi postawę pogodzenia z losem, harmonii i umiaru. Nawiązuje do stoicyzmu i franciszkanizmu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "„Wysokie drzewa”",
+          "tekst": "Wieczorny obraz drzew, ciszy i zachodu słońca. Podmiot czuje spokój i bliskość natury. Proste piękno świata daje ukojenie."
         }
       ]
     },
@@ -62,7 +73,54 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "W „Kowalu” – człowiek silnej woli, kształtujący siebie; w „Deszczu jesiennym” – melancholik; w późnej poezji – mędrzec pogodzony ze światem."
+          "tekst": "mędrzec, który szuka harmonii z losem; w „Kowalu” – człowiek silnej woli."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Pierwsze tomy: początek XX wieku (Lwów, Kraków). Późne wiersze: czasy powojenne."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Leopold Staff (1878–1957) debiutował tomem „Sny o potędze” (1901), w którym jest „Kowal”. **Liryka refleksyjna** – od symbolizmu i parnasizmu do prostoty późnych utworów."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Siła woli",
+          "tekst": "Człowiek może ukształtować swój charakter."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Smutek i melancholia",
+          "tekst": "Młodopolski nastrój jesiennego przygnębienia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Harmonia i pogoda ducha",
+          "tekst": "Akceptacja losu, radość z prostych rzeczy."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły nazywają główny obraz wiersza (kowal, deszcz)."
         }
       ]
     },
@@ -92,31 +150,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Praca nad sobą i siła woli."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Melancholia i nastrój dekadencki."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Harmonia, umiar i zachwyt nad światem."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -138,15 +171,6 @@
           "typ": "punkt",
           "etykieta": "Młoda Polska",
           "tekst": "symbolizm i impresjonizm."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Staff debiutował tomem „Sny o potędze” (1901), z którego pochodzi „Kowal” – wiersz o hartowaniu własnej woli. „Deszcz jesienny” ukazał się w tomie „Dzień duszy” (1903) i jest przykładem młodopolskiego nastroju smutku i melancholii. Staff tworzył jeszcze przez pół wieku, zmieniając styl razem z epokami."
         }
       ]
     },

@@ -34,31 +34,95 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Powieść opowiada o rocznym życiu wsi Lipce, od jesieni do lata. Rytm życia wyznaczają pory roku, praca na roli i święta kościelne. Najbogatszy gospodarz, stary Maciej Boryna, żeni się z młodą Jagną, w której kocha się jego syn Antek. Prowadzi to do konfliktu ojca z synem. Wieś walczy z dziedzicem o las, Boryna zostaje śmiertelnie ranny. Na koniec wieś wypędza Jagnę. Na maturze obowiązują fragmenty."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Tom I – Jesień",
-          "tekst": "Wieś Lipce. Najbogatszy gospodarz, owdowiały Maciej Boryna, jest w sporze z synem Antkiem i jego żoną Hanką, którzy domagają się ziemi. Boryna postanawia ożenić się z najpiękniejszą dziewczyną we wsi, Jagną Paczesiówną; jej matka Dominikowa godzi się po zapisaniu Jagnie sześciu morgów. Antek, który kocha Jagnę, wpada w gniew. Obok toczy się codzienne życie wsi: wykopki, jarmark, sprawa lasu, który dwór chce sprzedać. Stary parobek Kuba, postrzelony w nogę w lesie dworskim, w obawie przed szpitalem sam odcina sobie nogę i umiera. Tom kończy się huczne wesele Boryny i Jagny; Antek zostaje wyrzucony z domu."
+          "etykieta": "",
+          "tekst": "Jesień: Boryna, wdowiec, postanawia się ożenić z Jagną."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Tom II – Zima",
-          "tekst": "Antek z rodziną żyje w biedzie u ojca Hanki; pracuje w tartaku i spotyka się potajemnie z Jagną, która nie jest szczęśliwa z mężem. Wieś huczy od plotek, a konflikt ojca z synem narasta. Dwór zaczyna wycinać las, do którego chłopi uważają się za uprawnionych. Gromada rusza do lasu, by bronić swego; w bójce gajowy ciężko rani Borynę, a Antek, broniąc ojca, zabija gajowego."
+          "etykieta": "",
+          "tekst": "Konflikt Boryny z synem Antkiem, który kocha Jagnę."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Tom III – Wiosna",
-          "tekst": "Chłopi zostają aresztowani, wieś zostaje bez mężczyzn i kobiety muszą same pracować w polu. Hanka wykazuje wielką siłę i gospodaruje. Boryna leży nieprzytomny, a Jagna wikła się w kolejne romanse (m.in. z wójtem). Pewnej nocy Boryna w malignie wychodzi na pole, wykonuje gest siania ziemi i umiera."
+          "etykieta": "",
+          "tekst": "Wesele Boryny i Jagny."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Tom IV – Lato",
-          "tekst": "Antek wraca z więzienia i stopniowo przejmuje gospodarstwo, godzi się z Hanką. Jagna, zakochana w młodym synu organisty Jasiu, przyszłym księdzu, zostaje uznana przez gromadę za winną zgorszenia; wieś wywozi ją za opłotki na wozie z gnojem i porzuca. Życie Lipiec toczy się dalej w rytmie pór roku i prac polowych."
+          "etykieta": "",
+          "tekst": "Zima: Antek wyprowadza się z ojcowskiego domu, spotyka się potajemnie z Jagną."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Boryna dowiaduje się o romansie, między ojcem a synem wybucha nienawiść."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Bitwa o las z dworem; Antek zabija borowego, Boryna zostaje ciężko ranny."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Wiosna: mężczyźni w więzieniu, kobiety same pracują w polu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Śmierć Boryny na polu – sieje ziemię przed śmiercią."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Lato: chłopi wracają z więzienia, wieś wypędza Jagnę na wozie z gnojem."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Jesień",
+          "tekst": "Lipce szykują się do jesiennych prac. Maciej Boryna, ponad pięćdziesięcioletni wdowiec, chce się ożenić z najpiękniejszą dziewczyną we wsi, Jagną Paczesiówną. Daje jej matce, Dominikowej, sześć morgów ziemi. Jego syn Antek, żonaty z Hanką, kocha Jagnę i jest wściekły, że ojciec zapisuje ziemię komuś spoza rodziny. Dochodzi do kłótni, Boryna wyrzuca syna z domu. Odbywa się huczne wesele Boryny z Jagną."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zima",
+          "tekst": "Antek z Hanką i dziećmi mieszka w nędzy u krewnych. Antek i Jagna spotykają się potajemnie. Boryna dowiaduje się o romansie. Ojciec i syn stają się wrogami, a cała wieś plotkuje o Jagnie. Dziedzic wycina las, do którego chłopi mają prawo. Chłopi idą na bitwę o las. Boryna zostaje ciężko ranny, a Antek ratuje ojca, zabijając borowego, który go uderzył."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wiosna",
+          "tekst": "Mężczyźni trafiają do więzienia. W Lipcach zostają kobiety, starcy i dzieci – same muszą pracować w polu. Hanka wraca do gospodarstwa Boryny i z poświęceniem nim kieruje. Boryna leży nieprzytomny. Jagna ma romans z wójtem i z organistą, młodym Jasiem, który ma zostać księdzem. W pewną noc Boryna wstaje, wychodzi w pole i rzuca ziemię jak ziarno, jakby siał. Umiera na swojej ziemi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Lato",
+          "tekst": "Chłopi wracają z więzienia, ale Antek zostaje dłużej. Wieś obwinia Jagnę za grzechy i zgorszenie. Prowadzeni przez wójtową i innych gospodarzy, mieszkańcy wywożą Jagnę na wozie z gnojem i wyrzucają za wieś. Antek wraca i przejmuje gospodarstwo."
         }
       ]
     },
@@ -68,42 +132,89 @@
         {
           "typ": "punkt",
           "etykieta": "Maciej Boryna",
-          "tekst": "Najbogatszy gospodarz, silny, uparty, przywiązany do ziemi; ożenek z Jagną przynosi mu nieszczęście."
+          "tekst": "najbogatszy gospodarz, stanowczy, przywiązany do ziemi. Szanowany we wsi, ale uparty i porywczy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jagna",
+          "tekst": "piękna, wrażliwa, bierna, żyje chwilą i uczuciami. Nie pasuje do wiejskich zasad, zostaje ukarana przez wspólnotę."
         },
         {
           "typ": "punkt",
           "etykieta": "Antek Boryna",
-          "tekst": "Syn Macieja, gwałtowny, ambitny, zakochany w Jagnie; po przejściach dojrzewa do roli gospodarza."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Jagna Paczesiówna (Borynowa)",
-          "tekst": "Piękna, wrażliwa, „inna” niż wieś; kieruje się uczuciem i potrzebą piękna, co gromada uznaje za grzech."
+          "tekst": "syn Macieja, silny, dumny, gwałtowny; kocha Jagnę."
         },
         {
           "typ": "punkt",
           "etykieta": "Hanka",
-          "tekst": "Żona Antka; z cichej, uległej kobiety staje się twardą i mądrą gospodynią."
+          "tekst": "żona Antka, z cichej i uległej staje się silną gospodynią."
         },
         {
           "typ": "punkt",
           "etykieta": "Dominikowa",
-          "tekst": "Matka Jagny, przebiegła i pobożna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Kuba",
-          "tekst": "Stary, poczciwy parobek Borynów."
+          "tekst": "matka Jagny, pobożna, ale wyrachowana."
         },
         {
           "typ": "punkt",
           "etykieta": "Ksiądz, organista, wójt, kowal",
-          "tekst": "Przedstawiciele wiejskiej hierarchii."
+          "tekst": "ważne postaci wsi."
         },
         {
           "typ": "punkt",
-          "etykieta": "Gromada",
-          "tekst": "Zbiorowy bohater – społeczność wsi z jej prawami."
+          "etykieta": "Jagustynka",
+          "tekst": "stara, złośliwa i bystra komentatorka wiejskiego życia."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wieś Lipce pod Warszawą, koniec XIX wieku, w ciągu jednego roku (od jesieni do lata). Czas mierzą pory roku i kalendarz kościelny."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Władysław Reymont wydał „Chłopów” w latach 1904–1909. W 1924 roku dostał za nich Nagrodę Nobla. To **epopeja chłopska** w czterech tomach (Jesień, Zima, Wiosna, Lato). Narrator opowiada językiem literackim, a dialogi są stylizowane na gwarę łowicką. Powieść ma cechy realizmu i impresjonizmu (opisy przyrody)."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ziemia",
+          "tekst": "Ziemia jest dla chłopa najwyższą wartością, decyduje o pozycji i godności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wspólnota wiejska",
+          "tekst": "Wieś ma własne prawa i hierarchię. Kto je łamie, zostaje ukarany."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rytm natury i obrzędów",
+          "tekst": "Życie toczy się zgodnie z porami roku i świętami."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość i pożądanie",
+          "tekst": "Uczucia ścierają się z interesem i zasadami wspólnoty."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł mówi, że bohaterem powieści jest zbiorowość – chłopi."
         }
       ]
     },
@@ -143,41 +254,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Związek chłopa z ziemią – ziemia jako najwyższa wartość."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Prawa gromady i los jednostki, która je łamie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Rytm życia wyznaczony przez pory roku i kalendarz liturgiczny."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Konflikt pokoleń i walka o majątek."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Namiętność i jej skutki."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Konflikt wsi ze dworem."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -204,15 +280,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Film „Chłopi” (2023, reż. DK Welchman i Hugh Welchman) – animacja malarska."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Reymont wydawał „Chłopów” w latach 1904–1909, w czterech tomach: „Jesień”, „Zima”, „Wiosna”, „Lato”. W 1924 r. otrzymał za tę powieść Nagrodę Nobla. Tytuł wskazuje bohatera zbiorowego – społeczność wsi Lipce, której życie toczy się w rytmie pór roku, prac polowych i świąt kościelnych."
         }
       ]
     },

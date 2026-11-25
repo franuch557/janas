@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Pawlikowska-Jasnorzewska pisała krótkie, często kilkuwersowe wiersze o miłości, przemijaniu i kobiecości. Przypominają japońskie miniatury: jeden obraz, jedna myśl, zaskakująca puenta. Miłość w jej wierszach jest piękna, ale krucha i zagrożona przez czas."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -67,8 +76,55 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny",
-          "tekst": "Kobieta zakochana, wrażliwa, ironiczna wobec siebie, świadoma przemijania."
+          "etykieta": "Podmiotka liryczna",
+          "tekst": "kobieta zakochana, wrażliwa, świadoma przemijania; często ironiczna wobec siebie."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Dwudziestolecie międzywojenne (lata 20. i 30. XX wieku)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Maria Pawlikowska-Jasnorzewska (1891–1945) była związana ze Skamandrem. Wydała m.in. tomy „Niebieskie migdały” (1922) i „Pocałunki” (1926). Tworzyła **miniatury liryczne**, często bez rymów, z puentą."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość",
+          "tekst": "Najważniejszy temat; miłość jest zmysłowa, delikatna, ale nietrwała."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przemijanie",
+          "tekst": "Czas niszczy uczucia, urodę i młodość."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kobiecość",
+          "tekst": "Wiersze pokazują przeżycia kobiety, jej pragnienia i lęki."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły są krótkie i nazywają motyw wiersza."
         }
       ]
     },
@@ -98,31 +154,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Miłość jako sens życia i źródło cierpienia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Kobiecość i kobiecy punkt widzenia w poezji."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie, starość, ulotność szczęścia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Lekkość formy i powaga treści."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -144,15 +175,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Rzeźba Nike z Samotraki (Luwr)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Maria Pawlikowska-Jasnorzewska, córka malarza Wojciecha Kossaka, związana była ze Skamandrem. Tom „Pocałunki” (1926) przyniósł jej sławę krótkich miniatur lirycznych o miłości, przemijaniu i kobiecości. Tytuły jej wierszy często są pointą albo kluczem do zrozumienia kilkuwersowego utworu."
         }
       ]
     },

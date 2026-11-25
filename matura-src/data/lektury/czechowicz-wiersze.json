@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Czechowicz to poeta awangardy lat 30., przedstawiciel katastrofizmu. Jego wiersze przypominają sen – są pełne obrazów, skojarzeń i dźwięków, często bez interpunkcji. Opisują spokojną prowincję, rodzinny Lublin i wieś, ale w tle czuć niepokój, przeczucie wojny i zagłady."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -56,7 +65,54 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Wrażliwy obserwator świata, piewca prowincji i jednocześnie wizjoner katastrofy."
+          "tekst": "marzyciel, obserwator sennej prowincji, przeczuwający katastrofę."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska lat 30. XX wieku, Lubelszczyzna, wieś i małe miasteczka."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Józef Czechowicz (1903–1939) wydał m.in. tomy „Kamień” (1927), „ballada z tamtej strony” (1932), „nuta człowiecza” (1939). Pisał **lirykę awangardową**: bez interpunkcji, z wyraźną muzycznością i nastrojem snu. Był przedstawicielem drugiej awangardy i **katastrofizmu**."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Sielska prowincja",
+          "tekst": "Wieś i małe miasta są ostoją spokoju i tradycji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Katastrofizm",
+          "tekst": "Przeczucie zagłady i końca świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sen i wspomnienie",
+          "tekst": "Świat w wierszach jest jak we śnie – ulotny i nierealny."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły są krótkie i nazywają miejsce lub nastrój."
         }
       ]
     },
@@ -86,31 +142,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wieś i prowincja jako arkadia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Katastrofizm – przeczucie wojny i zagłady."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Dzieciństwo jako utracony raj."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Nowoczesny język poetycki."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -132,15 +163,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Kochanowski, „Pieśń świętojańska o Sobótce” – tradycja sielanki wiejskiej."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Józef Czechowicz, związany z Lublinem i awangardą, wydawał tomy od 1927 r. („Kamień”) do 1939 r. („nuta człowiecza”). W latach 30. jego poezja stała się katastroficzna – zapowiadała wojnę i zagładę. Zginął we wrześniu 1939 r. podczas bombardowania Lublina, co dodało jego przeczuciom tragicznej wymowy."
         }
       ]
     },

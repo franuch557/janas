@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tuwim to poeta dwudziestolecia, współtwórca grupy Skamander. Pisał o codzienności, o mieście i zwykłych ludziach, prostym językiem, często z humorem. Zachwycał się słowem i jego mocą. W wierszach satyrycznych ostro krytykował mieszczaństwo i nacjonalizm."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -61,18 +70,65 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "„prosty człowiek”",
-          "tekst": "Adresat, zwykły obywatel manipulowany przez propagandę."
+          "etykieta": "Podmiot liryczny",
+          "tekst": "mieszkaniec miasta, obserwator codzienności, czasem satyryk."
         },
         {
           "typ": "punkt",
           "etykieta": "Mieszczanie",
-          "tekst": "Bohater zbiorowy satyry."
+          "tekst": "bohaterowie „Mieszkańców”, ludzie przeciętni i bezmyślni."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska dwudziestolecia międzywojennego, głównie miasto (Warszawa, Łódź)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Julian Tuwim (1894–1953) wydał m.in. tomy „Czyhanie na Boga” (1918), „Sokrates tańczący” (1920), „Czwarty tom wierszy” (1923). **Liryka codzienności**, satyra, wiersz programowy. Język potoczny, swobodny."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Codzienność",
+          "tekst": "Poezja może mówić o zwykłym życiu, mieście i prostych ludziach."
         },
         {
           "typ": "punkt",
-          "etykieta": "Elity z „Balu w operze”",
-          "tekst": "Karykatura władzy i pieniądza."
+          "etykieta": "Krytyka mieszczaństwa",
+          "tekst": "Tuwim wyśmiewa bezmyślne, schematyczne życie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pacyfizm",
+          "tekst": "Poeta wzywa zwykłych ludzi, by nie dali się wciągnąć w wojnę w imię haseł polityków („Do prostego człowieka”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Słowo",
+          "tekst": "Tuwim fascynuje się językiem i jego możliwościami."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły nazywają bohaterów („Mieszkańcy”), adresata („Do prostego człowieka”) albo wydarzenie („Bal w operze”)."
         }
       ]
     },
@@ -102,31 +158,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pacyfizm i krytyka propagandy wojennej."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Krytyka mieszczaństwa i bezmyślności."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Satyra polityczna na elity władzy."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Poezja codzienności i języka potocznego."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -148,15 +179,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Krasicki – satyra jako krytyka obyczajów."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Tuwim był współzałożycielem grupy poetyckiej Skamander (1918–1919), która pisała o codzienności i zwykłym człowieku. W latach 30. tworzył ostrą satyrę społeczną i polityczną. „Mieszkańcy” (1932) to drwina z mieszczańskiej przeciętności – tytuł nazywa zbiorowość ludzi, którzy tylko mieszkają, a nie naprawdę żyją."
         }
       ]
     },

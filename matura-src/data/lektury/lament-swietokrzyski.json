@@ -29,37 +29,71 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (kompozycja utworu)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Monolog Matki Boskiej stojącej pod krzyżem, na którym umiera jej Syn. Maryja zwraca się do ludzi, do Syna, do Gabriela i do innych matek. Opowiada o swoim bólu i bezradności. To nie święta postać z obrazu, ale cierpiąca, zrozpaczona kobieta – dlatego utwór jest przykładem motywu **Mater Dolorosa** (Matki Bolesnej)."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Zwrot do ludzi (strofy 1–2)",
-          "tekst": "Matka Boska stojąca pod krzyżem zwraca się do wszystkich ludzi („bracia miła”), prosząc, by zechcieli wysłuchać jej skargi i współodczuwać jej ogromny ból."
+          "etykieta": "",
+          "tekst": "Maryja prosi ludzi, by posłuchali jej skargi."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Zwrot do konającego Syna (strofy 3–5)",
-          "tekst": "Maryja patrzy na cierpiącego Jezusa, pragnie ulżyć mu w męce, podzielić jego ból („Synku miły i wybrany, / Rozdziel z matką swoje rany”), jednak nie jest w stanie dosięgnąć jego ciała wiszącego wysoko na krzyżu."
+          "etykieta": "",
+          "tekst": "Zwraca się do Syna, chce go dotknąć i pomóc mu."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Skarga na Archanioła Gabriela (strofa 6)",
-          "tekst": "Matka wspomina zwiastowanie, wyrzucając Archaniołowi Gabrielowi, że obiecywał jej wielką radość, a zamiast tego spotkała ją niewyobrażalna rozpacz."
+          "etykieta": "",
+          "tekst": "Prosi, by Syn przemówił do niej choć słowo."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Przestroga dla matek (strofa 7)",
-          "tekst": "Zwrócenie się do innych matek z prośbą, by modliły się do Boga, aby nigdy nie musiały patrzeć na śmierć własnych dzieci."
+          "etykieta": "",
+          "tekst": "Zwraca się do Gabriela – wypomina mu zapowiedź radości z czasu Zwiastowania."
         },
         {
           "typ": "punkt",
           "nr": 5,
-          "etykieta": "Konkluzja / Samotność (strofa 8)",
-          "tekst": "Wyraz ostatecznego osamotnienia po stracie jedynego ukochanego dziecka."
+          "etykieta": "",
+          "tekst": "Prosi inne matki, by modliły się, by nie straciły dzieci jak ona."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Wezwanie do słuchaczy",
+          "tekst": "Maryja prosi „bracie”, czyli wszystkich ludzi, by wysłuchali jej żalu. Mówi o swoim cierpieniu, które przypada „dzień piątkowy” – w dniu ukrzyżowania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rozmowa z Synem",
+          "tekst": "Matka zwraca się do Jezusa „synku miły i wybrany”. Chce podzielić z nim ból, podtrzymać mu głowę, otrzeć krew. Nie może jednak nic zrobić, bo stoi pod krzyżem. Prosi go, by się do niej odezwał."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Żal do Gabriela",
+          "tekst": "Maryja przypomina, że archanioł Gabriel obiecał jej wielką radość, gdy zwiastował narodziny Syna. Teraz czuje się oszukana, bo zamiast radości przyszedł smutek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Prośba do matek",
+          "tekst": "Na koniec Maryja prosi wszystkie matki, by modliły się, aby nie przeżyły tego co ona – śmierci dziecka na własnych oczach."
         }
       ]
     },
@@ -68,13 +102,65 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Maryja (Matka Boska)",
-          "tekst": "Podmiot liryczny. W odróżnieniu od *Bogurodzicy*, tutaj została pozbawiona królewskiego majestatu i boskiego dystansu – to zwykła, zrozpaczona matka cierpiąca po stracie dziecka."
+          "etykieta": "Maryja",
+          "tekst": "podmiot liryczny. Kochająca, rozpaczliwie cierpiąca matka, bezradna wobec śmierci Syna. Bardzo ludzka."
         },
         {
           "typ": "punkt",
-          "etykieta": "Jezus Chrystus",
-          "tekst": "Cierpiący, konający na krzyżu Syn."
+          "etykieta": "Jezus",
+          "tekst": "umierający Syn, do którego Maryja się zwraca."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gabriel",
+          "tekst": "archanioł, który zwiastował narodziny Jezusa."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Golgota, Wielki Piątek, chwila ukrzyżowania Jezusa."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Utwór powstał prawdopodobnie w XV w. Rękopis odnaleziono w klasztorze na Świętym Krzyżu (stąd nazwa), zaginął w czasie II wojny światowej. To **lament (planctus)**, czyli monolog liryczny wyrażający żal, oraz przykład liryki bezpośredniej. Nawiązuje do średniowiecznej pieśni „Stabat Mater Dolorosa”."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Cierpienie matki",
+          "tekst": "Ból kobiety tracącej dziecko jest uniwersalny i ponadczasowy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Uczłowieczenie świętości",
+          "tekst": "Maryja nie jest tu królową niebios, lecz zwykłą matką – to nowe, bliskie ludziom spojrzenie na religię."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Motyw Mater Dolorosa",
+          "tekst": "Matka Boleśna to motyw obecny w literaturze i sztuce (np. „Pieta” Michała Anioła, średniowieczna pieśń „Stabat Mater”)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "„Lament” to skarga, płacz po zmarłym. Druga nazwa, „Żale Matki Boskiej pod krzyżem”, mówi wprost, kto i gdzie się skarży."
         }
       ]
     },
@@ -99,15 +185,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Utwór humanizuje postać Matki Boskiej – czyni ją bliską każdemu człowiekowi poprzez uniwersalne doświadczenie bólu po stracie bliskiej osoby. Pokazuje bezsilność matki wobec cierpienia dziecka i przełamuje surowy, hieratyczny obraz świętych znany z wczesnego średniowiecza."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -119,15 +196,6 @@
           "typ": "punkt",
           "etykieta": "Filozoficzny (franciszkanizm)",
           "tekst": "Skupienie na człowieczeństwie Chrystusa i Maryi, emocjonalność religijna."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Tytuł pochodzi od miejsca przechowywania rękopisu – klasztoru Benedyktynów na Świętym Krzyżu (Łysej Górze) – oraz od gatunku utworu (lamentu). Drugi tytuł to incipit (pierwsze słowa utworu): *Posłuchajcie, bracia miła*."
         }
       ]
     },

@@ -29,25 +29,96 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "W domu Stomilów panuje chaos: rodzice, dawni awangardowi artyści, odrzucili wszystkie zasady i żyją w bałaganie. Ich syn Artur, student medycyny, buntuje się przeciw braku norm i chce przywrócić porządek. Planuje tradycyjny ślub z kuzynką Alą i zmusza rodzinę do ubrania się „jak dawniej”. Gdy zrozumie, że forma bez treści nic nie znaczy, próbuje oprzeć porządek na władzy. Wtedy zabija go prostak Edek, który przejmuje rządy. Sztuka kończy się tangiem „La Cumparsita”, które Edek tańczy z wujem Eugeniuszem."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Akt I – dom bez zasad",
-          "tekst": "Mieszkanie rodziny Stomilów pełne jest bałaganu: stoi katafalk, wózek dziecięcy, porzucona suknia ślubna. Ojciec Stomil to artysta-eksperymentator, który w młodości walczył z konwenansami; matka Eleonora romansuje z prymitywnym Edkiem, a babcia Eugenia gra z nim w karty. Wuj Eugeniusz to stary, bezradny przedstawiciel dawnego świata. Ich syn Artur, student medycyny, buntuje się przeciw temu, że wszystko wolno: chce przywrócić porządek, zasady i formę. Z kuzynką Alą postanawia wziąć tradycyjny ślub."
+          "etykieta": "",
+          "tekst": "Akt I: Artur wraca do domu i widzi chaos – babcia Eugenia gra w karty z Edkiem i wujem Eugeniuszem."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Akt II – zamach na rodzinę",
-          "tekst": "Artur z pomocą Eugeniusza przeprowadza „zamach stanu”: zmusza rodzinę do porządku, każe ubrać się odświętnie i przygotować ślub. Próbuje skłonić ojca, by z honoru zastrzelił Edka za romans z żoną, ale Stomil traktuje zdradę jako coś obojętnego i nie potrafi działać. Artur rozumie, że sama forma jest pusta."
+          "etykieta": "",
+          "tekst": "Artur kłóci się z rodzicami o brak zasad; Stomil prowadzi „eksperymenty” teatralne."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Akt III – idea władzy i śmierć Artura",
-          "tekst": "Pijany Artur ogłasza, że jedyną ideą, która może uporządkować świat, jest władza oparta na sile i śmierci. Wtedy Ala wyznaje, że zdradziła go z Edkiem. Załamany Artur grozi Edkowi, ale ten jednym ciosem go zabija. Władzę przejmuje Edek; Eugeniusz natychmiast mu się podporządkowuje. Nad ciałem Artura Edek tańczy z Eugeniuszem tango „La Cumparsita”."
+          "etykieta": "",
+          "tekst": "Artur za karę każe babci położyć się na katafalku i namawia wuja Eugeniusza do „spisku” na rzecz porządku."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Akt II: Artur postanawia ożenić się z Alą; przygotowania do tradycyjnego ślubu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Artur odkrywa, że Eleonora zdradza Stomila z Edkiem, i próbuje zmusić ojca do zemsty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Akt III: rodzina wystrojona do ślubu; Artur pijany, rozczarowany pustą formą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Artur ogłasza, że jedyną ideą może być władza, i planuje rządzić przemocą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Ala wyznaje, że zdradziła Artura z Edkiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Edek zabija Artura ciosem w kark."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Edek przejmuje władzę; tańczy tango z wujem Eugeniuszem."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Akt I – świat bez zasad",
+          "tekst": "W mieszkaniu Stomilów panuje bałagan: wszędzie kurz, katafalk, wózek dziecięcy, suknia ślubna. Babcia Eugenia gra w karty z wujem Eugeniuszem i Edkiem – prostakiem, który przyszedł nie wiadomo skąd i się zadomowił. Artur, syn Stomila i Eleonory, jest oburzony. Rodzice za młodu walczyli z konwenansami, a teraz nie ma już z czym walczyć – wszystko wolno. Artur domaga się porządku i norm, a babcię za grę w karty każe położyć na katafalku. Przekonuje wuja Eugeniusza, który tęskni za dawnym światem, by pomógł mu przywrócić tradycję."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt II – przygotowania",
+          "tekst": "Artur postanawia wziąć tradycyjny ślub z kuzynką Alą, która nie rozumie, po co to wszystko. Odkrywa, że matka zdradza ojca z Edkiem, i namawia Stomila, by bronił honoru i zastrzelił rywala. Stomil nie jest zdolny do takiego czynu, a sytuacja kończy się farsą."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt III – upadek idei",
+          "tekst": "Wszyscy są ubrani odświętnie i czekają na ślub, ale Artur przychodzi pijany. Zrozumiał, że powrót do starych form nie ma sensu, bo nikt w nie nie wierzy. Postanawia, że idea może dać tylko władza, a władza opiera się na sile – przy pomocy Edka chce rządzić rodziną. Babcia Eugenia umiera. Ala wyznaje, że zdradziła Artura z Edkiem, żeby go sprowokować. Artur w rozpaczy chce zabić Edka, ale ten zabija go jednym ciosem w kark. Edek ogłasza, że teraz on będzie rządził. Wuj Eugeniusz podporządkowuje się nowej władzy. Edek tańczy z nim tango „La Cumparsita”."
         }
       ]
     },
@@ -57,37 +128,94 @@
         {
           "typ": "punkt",
           "etykieta": "Artur",
-          "tekst": "Młody idealista, buntownik przeciw brakowi zasad; chce narzucić porządek, lecz przegrywa z siłą."
+          "tekst": "25-letni student medycyny, idealista i buntownik. Pragnie porządku i wartości, ale jego idee są puste. W końcu sięga po przemoc i przegrywa."
         },
         {
           "typ": "punkt",
           "etykieta": "Stomil",
-          "tekst": "Ojciec, awangardowy artysta, symbol pokolenia, które zburzyło dawne normy."
+          "tekst": "ojciec Artura, dawny awangardowy artysta, bierny, wygodny, przeciwnik wszelkich norm."
         },
         {
           "typ": "punkt",
           "etykieta": "Eleonora",
-          "tekst": "Matka, wyzwolona, romansuje z Edkiem."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Eugenia",
-          "tekst": "Babcia, ekscentryczna, gra w karty z Edkiem; umiera na katafalku."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Eugeniusz",
-          "tekst": "Wuj, stary konserwatysta, w końcu oportunista wobec Edka."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Ala",
-          "tekst": "Kuzynka i narzeczona Artura, kierująca się kaprysem."
+          "tekst": "matka Artura, wyzwolona, zdradza męża z Edkiem."
         },
         {
           "typ": "punkt",
           "etykieta": "Edek",
-          "tekst": "Prymityw i cham, który przejmuje władzę – symbol przemocy i siły bez idei."
+          "tekst": "prostak, cham, sprytny i silny. Symbol bezmyślnej siły, która przejmuje władzę, gdy brak wartości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ala",
+          "tekst": "kuzynka i narzeczona Artura, kokieteryjna, nie rozumie jego idei."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wuj Eugeniusz",
+          "tekst": "stary, tęskni za dawnymi czasami, ale łatwo się poddaje każdej władzy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Babcia Eugenia",
+          "tekst": "dawniej wyzwolona, teraz infantylna, gra w karty."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Mieszkanie Stomilów, czas nieokreślony – druga połowa XX wieku. Akcja trwa kilka dni."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Sławomir Mrożek napisał „Tango” w 1964 roku, prapremiera odbyła się w 1965 r. To **dramat groteskowy** – łączy tragizm z komizmem, absurdem i parodią. Jest też parabolą: dom Stomilów symbolizuje świat współczesny i społeczeństwo."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Kryzys wartości",
+          "tekst": "Bunt pokolenia rodziców zniszczył wszystkie normy. Nie ma już czym się kierować."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Forma i treść",
+          "tekst": "Same formy (stroje, ślub) bez wiary w wartości są puste."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Władza i przemoc",
+          "tekst": "Gdy brak idei, władzę przejmuje siła, czyli Edek – cham bez skrupułów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikt pokoleń",
+          "tekst": "Artur buntuje się przeciw liberalnym rodzicom – paradoksalnie w imię tradycji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Inteligencja a „chamstwo”",
+          "tekst": "Inteligencja (Artur, Stomil) przegrywa z bezmyślną siłą."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tango to taniec, który kiedyś był skandaliczny i symbolizował bunt rodziców, a teraz tańczy go Edek jako zwycięzca. Tytuł podkreśla absurd i ironię zakończenia."
         }
       ]
     },
@@ -122,36 +250,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Konflikt pokoleń i bunt młodych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Kryzys wartości i form w kulturze współczesnej."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Mechanizm przejmowania władzy przez siłę."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Inteligencja wobec prymitywizmu i przemocy."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Parodia rodziny i tradycji."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -178,15 +276,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Marek Nowakowski, „Górą »Edek«” – Edek jako typ człowieka triumfującego po 1989 r."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Mrożek opublikował „Tango” w 1964 r. w miesięczniku „Dialog”, a prapremiera odbyła się w 1965 r. Tango było niegdyś tańcem gorszącym i buntowniczym – symbolem rewolucji obyczajowej pokolenia Stomila. W finale tango tańczą Edek i Eugeniusz: to obraz zwycięstwa prostactwa i siły nad kulturą."
         }
       ]
     },

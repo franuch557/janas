@@ -39,45 +39,130 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: powieść jest długa, z wieloma postaciami i wątkami. Poniżej główne etapy.*"
+          "tekst": "W algierskim mieście Oran wybucha epidemia dżumy. Miasto zostaje zamknięte. Mieszkańcy reagują różnie: jedni uciekają w prywatne sprawy, inni się bogacą, jeszcze inni walczą z chorobą. Doktor Bernard Rieux, Jean Tarrou i ich przyjaciele organizują pomoc, choć wiedzą, że ich walka może być daremna. Po prawie roku epidemia ustępuje, ale Rieux wie, że dżuma może wrócić. Powieść to parabola o złu w świecie i o tym, jak człowiek może się mu przeciwstawić."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Kwiecień: w Oranie giną szczury."
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "w Oranie pojawiają się martwe szczury, a potem zaczynają umierać ludzie. Władze początkowo zwlekają z reakcją."
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Pierwsze zgony ludzi; doktor Rieux rozpoznaje dżumę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Epidemia",
-          "tekst": "miasto zostaje odcięte od świata, a mieszkańcy tracą kontakt z bliskimi. Dżuma rozprzestrzenia się, a życie codzienne ulega przemianom."
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Władze zwlekają, w końcu ogłaszają epidemię i zamykają miasto."
         },
         {
           "typ": "punkt",
-          "etykieta": "Postawy",
-          "tekst": "bohaterowie reagują różnie: Rieux, lekarz, walczy z chorobą; Tarrou organizuje pomoc; Cottard korzysta z chaosu; Grand pisze powieść, która nigdy nie zostaje ukończona; Rambert chce uciec do ukochanej w Paryżu, ale w końcu zostaje i pomaga w walce z epidemią."
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Rambert, dziennikarz, próbuje uciec do ukochanej w Paryżu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Walka",
-          "tekst": "Rieux i jego współpracownicy, mimo beznadziei, prowadzą walkę z chorobą. Tarrou tworzy oddziały sanitarne."
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kazanie ojca Paneloux: dżuma to kara za grzechy."
         },
         {
           "typ": "punkt",
-          "etykieta": "Ofiary",
-          "tekst": "na oczach Rieux i Paneloux umiera w męczarniach syn sędziego Othona, co wstrząsa księdzem; Paneloux sam choruje i umiera. Pod koniec epidemii umiera Tarrou, a Rieux dowiaduje się o śmierci żony, która leczyła się poza miastem."
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Tarrou organizuje ochotnicze oddziały sanitarne."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "po około dziesięciu miesiącach epidemia wygasa, bramy miasta zostają otwarte. Cottard, który bał się powrotu do normalności, strzela do ludzi i zostaje aresztowany. Rieux ujawnia, że to on jest narratorem kroniki; wie, że bakcyl dżumy nie umiera nigdy i może znów obudzić szczury."
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Cottard korzysta na epidemii, handluje na czarnym rynku."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** epidemia jest sprawdzianem postaw ludzkich; pokazuje, że walka ze złem wymaga zaangażowania, mimo że zło może powrócić."
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Rambert rezygnuje z ucieczki i zostaje, by pomagać."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Śmierć syna sędziego Othona w męczarniach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Drugie kazanie Paneloux; śmierć księdza."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Grudzień–styczeń: epidemia słabnie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Śmierć Tarrou tuż przed końcem zarazy."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Rieux dowiaduje się o śmierci żony; otwarcie bram miasta; Cottard strzela do ludzi i zostaje aresztowany."
+        },
+        {
+          "typ": "punkt",
+          "nr": 14,
+          "etykieta": "",
+          "tekst": "Rieux ujawnia, że to on jest narratorem kroniki."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Część I – nadejście dżumy",
+          "tekst": "Oran to zwyczajne, nudne miasto, w którym ludzie myślą głównie o pracy i pieniądzach. W kwietniu na ulicach zaczynają masowo ginąć szczury. Potem chorują ludzie. Doktor Rieux rozpoznaje dżumę i nalega, by władze zareagowały. Prefekt zwleka, w końcu ogłasza stan dżumy i zamyka miasto. Żona Rieux wyjechała wcześniej do sanatorium."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część II – zamknięte miasto",
+          "tekst": "Mieszkańcy zostają odcięci od świata i bliskich. Rambert, dziennikarz z Paryża, za wszelką cenę chce się wydostać do ukochanej. Ojciec Paneloux wygłasza kazanie, że dżuma to kara Boża za grzechy. Jean Tarrou zakłada ochotnicze formacje sanitarne. Joseph Grand, skromny urzędnik, pomaga w statystykach i wciąż pisze pierwsze zdanie swojej powieści."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część III – szczyt epidemii",
+          "tekst": "Latem dżuma jest najgroźniejsza. Ludzi grzebie się w zbiorowych mogiłach, a potem pali. Mieszkańcy popadają w apatię, przyzwyczajają się do nieszczęścia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część IV – walka",
+          "tekst": "Rambert, mając już możliwość ucieczki, zostaje w Oranie, bo uważa, że wstydziłby się być szczęśliwym sam. Rieux, Tarrou i Paneloux patrzą na powolną śmierć małego syna sędziego Othona. To wstrząsa Paneloux. W drugim kazaniu mówi, że trzeba przyjąć wszystko albo odrzucić wszystko. Wkrótce sam umiera. Tarrou opowiada Rieux o swoim życiu: o ojcu-prokuratorze, który żądał kary śmierci, i o tym, jak postanowił walczyć z każdą formą zabijania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część V – koniec dżumy",
+          "tekst": "W styczniu epidemia słabnie. Tuż przed jej końcem umiera Tarrou. Rieux dostaje telegram o śmierci żony. Bramy miasta zostają otwarte, ludzie świętują. Cottard, który bał się powrotu normalności, strzela z okna do przechodniów i zostaje aresztowany. Rieux wyjawia, że to on jest narratorem, i ostrzega, że bakcyl dżumy nigdy nie umiera."
         }
       ]
     },
@@ -87,62 +172,94 @@
         {
           "typ": "punkt",
           "etykieta": "Bernard Rieux",
-          "tekst": "lekarz i narrator. Cechy: odpowiedzialność, skromność, wytrwałość. Decyzje: walka z dżumą, pomoc chorym. Zmienia się: od zwykłego lekarza do świadomego obrońcy wartości. Wymowa: człowiek zaangażowany w dobro."
+          "tekst": "lekarz, narrator. Rzeczowy, skromny, robi to, co trzeba, bez wielkich słów. Nie wierzy w Boga, ale walczy ze złem."
         },
         {
           "typ": "punkt",
           "etykieta": "Jean Tarrou",
-          "tekst": "przyjaciel Rieux, organizator oddziałów sanitarnych. Cechy: idealizm, refleksja, empatia. Rola: symbol świadomego zaangażowania."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Cottard",
-          "tekst": "człowiek, który zyskuje na chaosie. Rola: symbol oportunizmu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Joseph Grand",
-          "tekst": "urzędnik, który marzy o napisaniu idealnego zdania. Rola: symbol zwykłego człowieka wobec beznadziei."
+          "tekst": "przybysz, autor notatek o mieście. Organizuje ochotników. Chce być „świętym bez Boga”."
         },
         {
           "typ": "punkt",
           "etykieta": "Raymond Rambert",
-          "tekst": "paryski dziennikarz, który chce uciec do ukochanej, ale zostaje, uznając, że wstydem byłoby być szczęśliwym samemu. Rola: symbol decyzji między osobistym szczęściem a solidarnością."
+          "tekst": "dziennikarz, chce uciec do ukochanej, ale zostaje i pomaga. Pokazuje przemianę i wybór solidarności."
         },
         {
           "typ": "punkt",
           "etykieta": "Ojciec Paneloux",
-          "tekst": "ksiądz, który interpretuje epidemię jako karę Bożą. Rola: symbol postawy religijnej."
+          "tekst": "jezuita, najpierw widzi w dżumie karę Bożą, potem przeżywa kryzys po śmierci dziecka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Joseph Grand",
+          "tekst": "urzędnik, cichy bohater codziennej pracy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cottard",
+          "tekst": "przemytnik, cieszy się z dżumy, bo daje mu bezkarność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sędzia Othon i jego syn",
+          "tekst": "śmierć niewinnego dziecka stawia pytanie o sens cierpienia."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Oran w Algierii, „194…” rok, od kwietnia do lutego następnego roku."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Albert Camus wydał „Dżumę” w 1947 roku. Pisał ją w czasie II wojny światowej – dżuma to także symbol nazizmu i okupacji. To **powieść-parabola** (opowieść o głębszym, uniwersalnym sensie) i kronika. Camus był filozofem egzystencjalistą."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "zło w świecie, odpowiedzialność człowieka, solidarność wobec cierpienia."
+          "etykieta": "Zło",
+          "tekst": "Dżuma to symbol zła w świecie: wojny, totalitaryzmu, cierpienia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "człowiek z dżumą; jednostka wobec wspólnoty; osobiste szczęście wobec obowiązku."
+          "etykieta": "Postawy wobec zła",
+          "tekst": "Bohaterowie wybierają walkę, ucieczkę, rezygnację lub wykorzystanie sytuacji."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "solidarność, odwaga, humanizm, odpowiedzialność."
+          "etykieta": "Solidarność",
+          "tekst": "Ludzie mogą przeciwstawić się złu tylko razem."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "zło jest stałą częścią świata, ale człowiek może mu przeciwstawiać solidarność i dobro."
+          "etykieta": "Cierpienie niewinnych",
+          "tekst": "Śmierć dziecka rodzi pytanie o sens cierpienia i obecność Boga."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "dżuma może powrócić; obowiązkiem człowieka jest nieustanna gotowość do walki."
+          "etykieta": "Egzystencjalizm",
+          "tekst": "Świat jest absurdalny, ale człowiek może nadać sens życiu przez działanie."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Dżuma to dosłownie epidemia, a symbolicznie zło, które może wrócić w każdej chwili."
         }
       ]
     },
@@ -172,26 +289,6 @@
           "nr": 4,
           "etykieta": "Śmierć",
           "tekst": "masowa. *Wykorzystanie:* zestawienie z *Rozmową Mistrza Polikarpa ze Śmiercią* (śmierć jako wyrównanie)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Dżuma",
-          "tekst": "symbol zła, okupacji, zagrożenia, które może powrócić."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Szczury",
-          "tekst": "symbol nadchodzącego zła."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Miasto zamknięte",
-          "tekst": "symbol izolacji i wspólnoty."
         }
       ]
     },

@@ -39,23 +39,84 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "**Akt I – realistyczny:** goście z miasta i ze wsi rozmawiają w izbie, z której słychać muzykę. Czepiec pyta Dziennikarza o politykę, a ten zbywa go („Niech na całym świecie wojna, / byle polska wieś zaciszna”). Pan Młody zachwyca się wsią i chłopską prostotą. Poeta flirtuje z Maryną. Rachela, córka karczmarza, zachwyca się poezją wesela. Na wesele zostaje zaproszony Chochoł – słomiana osłona krzaka róży w ogrodzie."
+          "tekst": "Bronowice pod Krakowem, listopad 1900 roku. Na weselu poety (Pana Młodego) z chłopką spotykają się inteligencja z miasta i chłopi. W pierwszym akcie goście rozmawiają i widać, że się nie rozumieją. W nocy pojawiają się widma, które pokazują ukryte myśli bohaterów. Wernyhora daje Gospodarzowi złoty róg, który ma poderwać naród do powstania. Jasiek gubi go, schylając się po czapkę z piórami. Na koniec wszyscy tańczą w letargu przy muzyce Chochoła – zryw się nie udaje."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Akt I: rozmowy weselnych gości – Czepiec i Dziennikarz, Pan Młody i Panna Młoda, Rachela i Poeta."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Akt II – fantastyczny:** przychodzą zjawy, każda do osoby, której sumienie porusza: Widmo (zmarły narzeczony) do Marysi; Stańczyk do Dziennikarza (wręcza mu kaduceusz – symbol bezsilnego słowa); Rycerz Czarny (Zawisza) do Poety; Hetman (Branicki, zdrajca) do Pana Młodego; Upiór (Jakub Szela, przywódca rabacji 1846) do Dziada. Wernyhora, lirnik-prorok, daje Gospodarzowi złoty róg: o świcie trzeba zadąć, by zebrać naród do walki. Gospodarz przekazuje róg Jaśkowi i każe mu objechać okolicę."
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Rachela namawia, by zaprosić na wesele Chochoła."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Akt III – przebudzenie:** o świcie chłopi z kosami czekają na znak. Gospodarz śpi i nie pamięta poleceń Wernyhory. Jasiek wraca bez rogu – zgubił go, schylając się po czapkę z pawich piór. Chochoł każe mu: „Miałeś, chamie, złoty róg”. Wcześniej, w rozmowie z Panną Młodą, Pan Młody tłumaczy jej, że Polska jest w sercu („A to Polska właśnie”). Wszyscy wpadają w senny, bezwolny taniec przy muzyce Chochoła."
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Akt II: pojawiają się osoby dramatu – Chochoł, Widmo, Stańczyk, Rycerz, Hetman, Upiór."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** wesele jest pretekstem do rozmowy o tożsamości narodowej, a sen i przebudzenie pokazują bezsilność wobec historii."
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Wernyhora przychodzi do Gospodarza i daje mu złoty róg."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Gospodarz przekazuje róg Jaśkowi i każe mu zwołać ludzi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Akt III: chłopi zbierają się z kosami, czekają na znak."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Jasiek wraca bez rogu – zgubił go."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Chochoł gra, a wszyscy tańczą w letargu."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Akt I – goście",
+          "tekst": "W izbie tańczą goście. Dziennikarz rozmawia z Czepcem i drwi z chłopów, mówiąc, że powinni siedzieć w swojej wsi. Czepiec odpowiada, że chłopi są gotowi walczyć. Pan Młody zachwyca się wsią, ale nie zna jej prawdziwego życia. Panna Młoda marzy o szklanym raju. Rachela, Żydówka z miasta, zachwyca się poezją. Radczyni nie rozumie wiejskich spraw. Kobiety i mężczyźni flirtują. Na koniec Rachela proponuje, by zaprosić na wesele Chochoła, czyli krzak róży okryty słomą."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt II – osoby dramatu",
+          "tekst": "Pojawiają się zjawy, które odpowiadają ukrytym myślom gości. Marysi ukazuje się Widmo – dawny narzeczony. Dziennikarzowi – Stańczyk, który zarzuca mu bierność. Poecie – Rycerz, symbol dawnej potęgi. Panu Młodemu – Hetman Branicki, zdrajca. Dziadowi – Upiór Jakuba Szeli, przywódcy rzezi galicyjskiej. Gospodarza odwiedza Wernyhora, legendarny wieszcz. Mówi o przyszłym powstaniu i daje mu złoty róg. Gospodarz każe Jaśkowi objechać wsie i zwołać ludzi o świcie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt III – zawiedzione nadzieje",
+          "tekst": "Gospodarz zapomina o poleceniu, ale chłopi z kosami zbierają się przed chatą. Czekają na znak Wernyhory. Jasiek wraca – zgubił róg, gdy schylił się po swoją czapkę z pawimi piórami. Został mu tylko sznur. Chochoł gra na skrzypcach i śpiewa „Miałeś, chamie, złoty róg… ostał ci się ino sznur”, a wszyscy tańczą w sennym, chocholim tańcu."
         }
       ]
     },
@@ -64,78 +125,110 @@
       "bloki": [
         {
           "typ": "punkt",
+          "etykieta": "Gospodarz",
+          "tekst": "Włodzimierz Tetmajer, malarz osiadły na wsi, ożeniony z chłopką. Dostaje od Wernyhory róg, ale nie potrafi działać."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Pan Młody",
-          "tekst": "(pierwowzór: Lucjan Rydel) – poeta z miasta, który żeni się z chłopką; zachwyca się wsią, ale idealizuje ją i nie rozumie."
+          "tekst": "poeta Lucjan Rydel, zachwycony „chłopomanią”, nie rozumie prawdziwej wsi."
         },
         {
           "typ": "punkt",
           "etykieta": "Panna Młoda",
-          "tekst": "(Jadwiga Mikołajczykówna) – prosta dziewczyna ze wsi, marząca o świecie z bajki."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Gospodarz",
-          "tekst": "(Włodzimierz Tetmajer) – malarz, inteligent żonaty z chłopką; dostaje od Wernyhory złoty róg i zawodzi."
+          "tekst": "Jadwiga Mikołajczykówna, prosta, naiwna dziewczyna."
         },
         {
           "typ": "punkt",
           "etykieta": "Poeta",
-          "tekst": "(Kazimierz Przerwa-Tetmajer) – dekadent, znudzony, marzy o wielkiej sztuce."
+          "tekst": "Kazimierz Przerwa-Tetmajer, dekadent, pięknoduch."
         },
         {
           "typ": "punkt",
           "etykieta": "Dziennikarz",
-          "tekst": "(Rudolf Starzewski, redaktor „Czasu”) – konserwatysta, sceptyk wobec walki o niepodległość."
+          "tekst": "Rudolf Starzewski, redaktor „Czasu”, cynik, sceptyk."
         },
         {
           "typ": "punkt",
           "etykieta": "Czepiec",
-          "tekst": "chłop, gotowy do walki, z dumą o wsi."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Rachela",
-          "tekst": "córka karczmarza, wrażliwa, zakochana w poezji; zaprasza Chochoła."
+          "tekst": "wójt, gotów walczyć, symbol siły chłopów."
         },
         {
           "typ": "punkt",
           "etykieta": "Jasiek",
-          "tekst": "drużba, który gubi złoty róg dla czapki z pawich piór."
+          "tekst": "drużba, gubi złoty róg; symbol chłopskiej zachłanności na błyskotki."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zjawy",
-          "tekst": "Chochoł (bierność, uśpienie narodu), Stańczyk (błazen królewski, sumienie narodu), Rycerz Czarny (dawna chwała), Hetman (zdrada), Upiór – Szela (rabacja, krzywda chłopów), Wernyhora (proroctwo odrodzenia Polski)."
+          "etykieta": "Rachela",
+          "tekst": "Żydówka, romantyczna i egzaltowana."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chochoł",
+          "tekst": "słomiana osłona krzaka róży; symbol uśpienia, marazmu narodu, ale też nadziei na odrodzenie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wernyhora",
+          "tekst": "legendarny wieszcz kozacki, symbol nadziei na wolność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Upiór, Stańczyk, Hetman, Rycerz",
+          "tekst": "widma związane z historią Polski."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Bronowice Małe pod Krakowem, noc z 20 na 21 listopada 1900 roku. Akcja dzieje się w izbie i przed chatą Tetmajerów."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Stanisław Wyspiański napisał „Wesele” po prawdziwym weselu Lucjana Rydla z Jadwigą Mikołajczykówną (1900). Prapremiera odbyła się w 1901 roku w Krakowie. To **dramat symboliczny** (postaci i przedmioty mają ukryte znaczenia) i jednocześnie realistyczny obraz społeczeństwa. Wyspiański łączy realizm, fantastykę i elementy szopki krakowskiej."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "tożsamość narodowa, relacja inteligencji z ludem, bierność wobec historii, pytanie o przyszłość Polski."
+          "etykieta": "Chłopomania",
+          "tekst": "Inteligencja zachwyca się wsią, ale jej nie rozumie. Między chłopami a inteligencją jest przepaść."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "inteligencja z chłopami, marzenia z rzeczywistością, dawna chwała z obecną bezsilnością."
+          "etykieta": "Niemożność czynu",
+          "tekst": "Polacy marzą o wolności, ale nie potrafią działać. Złoty róg zostaje zgubiony."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "patriotyzm, wspólnota, tradycja, odpowiedzialność za przyszłość."
+          "etykieta": "Mity narodowe",
+          "tekst": "Wyspiański rozprawia się z mitami: romantycznym zrywem, sojuszem szlachty i chłopów, potęgą przeszłości."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "naród jest w stanie bezwładu; zjednoczenie wymaga działania, nie tylko słów i wizji."
-        },
+          "etykieta": "Historia",
+          "tekst": "Widma przypominają o winach (rzeź galicyjska, zdrada Targowicy) i o dawnej wielkości."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "pytanie o los narodu pozostaje otwarte; przebudzenie nie przynosi odpowiedzi."
+          "typ": "akapit",
+          "tekst": "„Wesele” to prawdziwe wesele w Bronowicach, a symbolicznie – próba połączenia inteligencji z chłopami, która się nie udaje."
         }
       ]
     },
@@ -165,31 +258,6 @@
           "nr": 4,
           "etykieta": "Miłość i wesele",
           "tekst": "symbol wspólnoty. *Wykorzystanie:* zestawienie z *Zemstą* (wesele jako zakończenie konfliktu)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Chochoł",
-          "tekst": "symbol bierności, pozornej obrony tradycji."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Złoty róg",
-          "tekst": "symbol wezwania do walki."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wesele",
-          "tekst": "symbol wspólnoty i przemiany."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wizja (sen)",
-          "tekst": "symbol przeszłości i pytań bez odpowiedzi."
         }
       ]
     },

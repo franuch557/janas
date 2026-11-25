@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Szymborska, laureatka Nagrody Nobla (1996), pisze o zwykłych sprawach w niezwykły sposób. Zadaje pytania o sens istnienia, przypadek, przemijanie, miejsce człowieka w świecie. Często używa ironii, paradoksu i humoru. Jej wiersze wyglądają prosto, ale kryją głęboką refleksję filozoficzną."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -74,7 +83,64 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Ironiczny, uważny obserwator świata, zadziwiony istnieniem."
+          "tekst": "obserwator, filozof, zdziwiony światem; często ironiczny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Bohaterowie wierszy",
+          "tekst": "kot, zwykli ludzie, ludzkość jako całość."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Druga połowa XX wieku; świat codzienny, ale przedstawiony uniwersalnie."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wisława Szymborska (1923–2012) wydała m.in. tomy „Wołanie do Yeti” (1957), „Sól” (1962), „Wszelki wypadek” (1972), „Koniec i początek” (1993). **Liryka refleksyjna i filozoficzna**, z ironią, puentą i paradoksem."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Niepowtarzalność chwili",
+          "tekst": "Nic się nie powtarza, każda chwila jest jedyna („Nic dwa razy”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Śmierć i strata",
+          "tekst": "Śmierć pokazana z perspektywy, która wzrusza i zaskakuje („Kot w pustym mieszkaniu”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pamięć po wojnie",
+          "tekst": "Ktoś musi sprzątać po wojnie, a potem nikt nie pamięta („Koniec i początek”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Człowiek i natura",
+          "tekst": "Człowiek nie jest panem świata; przyroda jest niewinna."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły często są fragmentami zdań lub przewrotnymi określeniami tematu."
         }
       ]
     },
@@ -109,36 +175,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Niepowtarzalność chwili i przemijanie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wyjątkowość człowieka na tle przyrody."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pamięć i zapomnienie po wojnie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Żałoba i śmierć w codzienności."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wolność myśli wobec władzy."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -165,15 +201,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Orwell, „Rok 1984” – władza bojąca się myśli."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Szymborska otrzymała Nagrodę Nobla w 1996 r. Jej wiersze to krótkie, ironiczne refleksje filozoficzne o przypadku, czasie i ludzkiej egzystencji. Tytuły są zwykle proste i zaskakujące („Kot w pustym mieszkaniu”, „Koniec i początek”) – wskazują codzienną sytuację, z której poetka wyprowadza ogólną myśl."
         }
       ]
     },

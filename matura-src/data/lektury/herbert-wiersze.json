@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Herbert to poeta moralista. Jego bohater, Pan Cogito, myśli, wątpi i stara się żyć przyzwoicie. Herbert pisze o wierności wartościom, o oporze wobec zła i totalitaryzmu, o godności. Chętnie sięga po motywy antyczne i biblijne, by mówić o współczesności. Używa ironii i spokojnego, klasycznego tonu."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -74,22 +83,69 @@
         {
           "typ": "punkt",
           "etykieta": "Pan Cogito",
-          "tekst": "Alter ego poety – myślący inteligent, ironiczny, wierny wartościom."
+          "tekst": "alter ego poety, intelektualista, człowiek przeciętny, ale wierny wartościom."
         },
         {
           "typ": "punkt",
-          "etykieta": "Fortynbras i Hamlet",
-          "tekst": "Pragmatyk władzy i idealista."
+          "etykieta": "Podmiot liryczny",
+          "tekst": "świadek, kronikarz, moralista."
         },
         {
           "typ": "punkt",
-          "etykieta": "Kronikarz oblężonego miasta",
-          "tekst": "Świadek, który trwa."
+          "etykieta": "Postaci mitologiczne i historyczne",
+          "tekst": "Apollo i Marsjasz, Fortynbras i Hamlet."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "PRL (lata 50.–80.), ale wiersze dotyczą spraw uniwersalnych."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Zbigniew Herbert (1924–1998) wydał m.in. tomy „Struna światła” (1956), „Pan Cogito” (1974), „Raport z oblężonego miasta” (1983). **Liryka refleksyjna i moralna**, liryka maski i roli, często bez interpunkcji."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Wierność wartościom",
+          "tekst": "Trzeba być wiernym prawdzie i godności, nawet gdy to nic nie daje („Przesłanie Pana Cogito”)."
         },
         {
           "typ": "punkt",
-          "etykieta": "Apollo i Marsjasz",
-          "tekst": "Bóg doskonałości i cierpiący człowiek."
+          "etykieta": "Opór wobec zła",
+          "tekst": "Sprzeciw wobec totalitaryzmu wynika ze smaku i poczucia estetyki („Potęga smaku”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Polityka i idealizm",
+          "tekst": "Starcie praktycznego polityka z romantykiem („Tren Fortynbrasa”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cierpienie i sztuka",
+          "tekst": "Sztuka rodzi się z cierpienia („Apollo i Marsjasz”)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły często wskazują bohatera lub gatunek (tren, raport, przesłanie)."
         }
       ]
     },
@@ -124,36 +180,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wierność wartościom mimo klęski."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Odpowiedzialność świadka historii."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Opór wobec totalitaryzmu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Idealizm a pragmatyzm."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Sztuka a cierpienie."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -180,15 +206,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Mitologia (Parandowski) – Apollo i Marsjasz."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Herbert stworzył postać Pana Cogito w tomie „Pan Cogito” (1974); „Przesłanie Pana Cogito” zamyka ten tom. Imię nawiązuje do zdania Kartezjusza *Cogito, ergo sum* („Myślę, więc jestem”) – Pan Cogito to człowiek myślący, który ocenia świat i wybiera wierność wartościom mimo przegranej."
         }
       ]
     },

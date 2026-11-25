@@ -39,45 +39,118 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: przed użyciem sprawdź przebieg scen w wydaniu źródłowym; poniżej główna linia fabuły.*"
+          "tekst": "Harpagon, bogaty mieszczanin, kocha tylko pieniądze. Chce ożenić się z młodą Marianną, w której zakochany jest jego syn Kleant, a córkę Elizę wydać za starego Anzelma, bo ten nie żąda posagu. Gdy ktoś kradnie mu szkatułę ze złotem, Harpagon wpada w szał. Na koniec okazuje się, że Anzelm to zaginiony ojciec Marianny i Walerego. Dzieci Harpagona mogą wziąć ślub z ukochanymi, a skąpiec cieszy się, że odzyskał szkatułę."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Eliza kocha Walerego, który jako zarządca pracuje u jej ojca."
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "Harpagon, bogaty i skąpy ojciec, ukrywa w ogrodzie szkatułkę z pieniędzmi. Jego dzieci, Kleant i Elżbieta, mają swoje miłości, których on nie akceptuje."
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Kleant kocha ubogą Mariannę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Lichwa",
-          "tekst": "Kleant potrzebuje pieniędzy i przez pośrednika szuka pożyczki na lichwiarski procent. Okazuje się, że lichwiarzem jest jego własny ojciec."
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Harpagon zakopał w ogrodzie szkatułę z dziesięcioma tysiącami talarów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Kradzież",
-          "tekst": "La Flèche, służący Kleanta, kradnie szkatułkę. Harpagon wpada w rozpacz (słynny monolog, w którym podejrzewa wszystkich, nawet samego siebie) i każe aresztować całe miasto."
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Harpagon ogłasza: sam ożeni się z Marianną, Kleanta ożeni z bogatą wdową, Elizę wyda za Anzelma."
         },
         {
           "typ": "punkt",
-          "etykieta": "Plany matrymonialne",
-          "tekst": "Harpagon chce poślubić młodą Marianę, ukochaną syna, a córkę Elżbietę wydać za bogatego starca Anzelma, bo ten weźmie ją „bez posagu”."
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Kleant chce pożyczyć pieniądze na procent – okazuje się, że lichwiarzem jest jego ojciec."
         },
         {
           "typ": "punkt",
-          "etykieta": "Intrygi",
-          "tekst": "Frozyna, swatka, pomaga w planach. Pojawiają się oszustwa i konflikty między domownikami."
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Swatka Frozyna próbuje wyciągnąć od Harpagona pieniądze."
         },
         {
           "typ": "punkt",
-          "etykieta": "Rozwiązanie",
-          "tekst": "okazuje się, że Anzelm jest zaginionym ojcem Walera i Mariany. Harpagon zgadza się na śluby Kleanta z Marianą i Elżbiety z Walerem, gdy dostaje z powrotem szkatułkę, a Anzelm bierze na siebie wszystkie koszty. Harpagon zostaje sam ze swoimi pieniędzmi."
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Przygotowania do skąpego przyjęcia dla Marianny."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** skąpstwo Harpagona prowadzi do konfliktów z dziećmi i domownikami; komedia ośmiesza ten charakter."
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Sługa Kleanta, Strzałka, kradnie szkatułę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Rozpacz i szał Harpagona po kradzieży."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Oskarżenie Walerego; Walery wyznaje, że kocha Elizę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Anzelm rozpoznaje w Walerym i Mariannie swoje dzieci."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Kleant oddaje szkatułę w zamian za zgodę na ślub; dwa śluby, Harpagon zostaje ze złotem."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Akt I – tajemnice domowników",
+          "tekst": "Eliza i Walery są potajemnie zaręczeni. Walery, by być blisko niej, zatrudnił się u Harpagona i schlebia mu we wszystkim. Kleant wyznaje siostrze miłość do Marianny. Harpagon drży o pieniądze zakopane w ogrodzie i podejrzewa wszystkich. Ogłasza swoje plany: sam poślubi Mariannę, a Elizę wyda za bogatego Anzelma, który weźmie ją „bez posagu”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt II – lichwa i swatka",
+          "tekst": "Kleant szuka pożyczki u pośrednika. Okazuje się, że lichwiarzem, który żąda ogromnego procentu, jest jego ojciec. Kłócą się. Frozyna, sprytna swatka, schlebia Harpagonowi i opowiada, jak Marianna lubi starszych mężczyzn i jak mało będzie kosztować. Gdy prosi o pieniądze, Harpagon nagle nie słyszy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt III – przyjęcie",
+          "tekst": "Harpagon wydaje służbie absurdalnie oszczędne polecenia na kolację. Kucharz i stangret Jakub mówi mu, że wszyscy się z niego śmieją. Przychodzi Marianna. Kleant w imieniu ojca, ale tak naprawdę od siebie, prawi jej komplementy i daje jej pierścień z palca Harpagona."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt IV – kradzież",
+          "tekst": "Harpagon odkrywa, że syn jest jego rywalem. Wydziedzicza go i przeklina. Strzałka, sługa Kleanta, wykopuje i kradnie szkatułę. Harpagon wygłasza słynny monolog: krzyczy „Złodzieje!”, chce wieszać wszystkich, w końcu łapie się za własną rękę, myśląc, że to złodziej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt V – rozwiązanie",
+          "tekst": "Harpagon wzywa komisarza. Jakub z zemsty oskarża Walerego. Walery myśli, że chodzi o jego miłość do Elizy, i przyznaje się do „skarbu”. Wychodzi na jaw, że jest synem neapolitańskiego szlachcica. Anzelm rozpoznaje w nim i w Mariannie swoje dzieci, których szukał po katastrofie statku. Kleant obiecuje oddać szkatułę, jeśli ojciec zgodzi się na jego ślub z Marianną. Harpagon zgadza się, gdy Anzelm pokrywa wszystkie koszty wesel. Idzie oglądać swoją ukochaną szkatułę."
         }
       ]
     },
@@ -87,67 +160,99 @@
         {
           "typ": "punkt",
           "etykieta": "Harpagon",
-          "tekst": "bogaty skąpiec. Cechy: skąpstwo, podejrzliwość, egoizm. Decyzje: ukrywanie pieniędzy, plany małżeństwa z Marianą. Zmienia się: od podejrzliwości do upokorzenia. Wymowa: skąpstwo jako wada prowadząca do ośmieszenia."
+          "tekst": "skąpiec, lichwiarz, ojciec Kleanta i Elizy. Podejrzliwy, egoistyczny, śmieszny; dla pieniędzy poświęca szczęście dzieci."
         },
         {
           "typ": "punkt",
           "etykieta": "Kleant",
-          "tekst": "syn Harpagona. Cechy: lekkomyślność, miłość. Rola: kontrast dla ojca."
+          "tekst": "syn Harpagona, zakochany w Mariannie, buntuje się przeciw ojcu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Elżbieta",
-          "tekst": "córka Harpagona. Rola: miłość do Walera."
+          "etykieta": "Eliza",
+          "tekst": "córka Harpagona, zakochana w Walerym."
         },
         {
           "typ": "punkt",
-          "etykieta": "Waler",
-          "tekst": "ukochany Elżbiety; by być blisko niej, służy u Harpagona jako zarządca domu i schlebia mu."
+          "etykieta": "Walery",
+          "tekst": "zakochany w Elizie, udaje sługę i pochlebia Harpagonowi."
         },
         {
           "typ": "punkt",
-          "etykieta": "Mariana",
-          "tekst": "ukochana Kleanta, obiekt planów Harpagona."
+          "etykieta": "Marianna",
+          "tekst": "uboga, uczciwa dziewczyna, kocha Kleanta."
         },
         {
           "typ": "punkt",
-          "etykieta": "La Flèche",
-          "tekst": "sprytny służący Kleanta, który kradnie szkatułkę."
+          "etykieta": "Anzelm",
+          "tekst": "szlachcic z Neapolu, ojciec Walerego i Marianny."
         },
         {
           "typ": "punkt",
           "etykieta": "Frozyna",
-          "tekst": "swatka, która chce zarobić na pośredniczeniu w małżeństwie Harpagona z Marianą."
+          "tekst": "sprytna swatka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jakub",
+          "tekst": "kucharz i stangret Harpagona, szczery."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Strzałka",
+          "tekst": "sługa Kleanta, kradnie szkatułę."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Paryż, dom Harpagona, w ciągu jednego dnia, XVII wiek."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Molier (Jean-Baptiste Poquelin) wystawił „Skąpca” w 1668 roku. Wzorował się na komedii Plauta „Garnek”. To **komedia charakterów** (wyśmiewa wadę – skąpstwo) z elementami komedii intrygi i sytuacji. Zachowuje zasadę trzech jedności, ma pięć aktów i szczęśliwe zakończenie."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "skąpstwo, miłość, pieniądz, konflikt pokoleń."
+          "etykieta": "Skąpstwo",
+          "tekst": "Chciwość czyni człowieka śmiesznym i samotnym, niszczy jego relacje."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "Harpagon z dziećmi (pieniądz vs miłość), Harpagon z domownikami (podejrzliwość), Kleant z ojcem (długi vs obowiązek)."
+          "etykieta": "Rodzina",
+          "tekst": "Ojciec traktuje dzieci jak towar, a dzieci oszukują ojca."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "miłość, uczciwość, wolność wyboru małżonka."
+          "etykieta": "Pieniądz",
+          "tekst": "Pieniądze stają się wartością ważniejszą niż miłość, rodzina i godność."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "skąpstwo i egoizm ośmieszają człowieka; miłość i uczciwość są ważniejsze od majątku."
-        },
+          "etykieta": "Komizm",
+          "tekst": "Komizm postaci (Harpagon), słowny („bez posagu”) i sytuacyjny (monolog po kradzieży)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "ośmieszenie Harpagona i triumf miłości."
+          "typ": "akapit",
+          "tekst": "Tytuł nazywa główną wadę bohatera – skąpstwo."
         }
       ]
     },
@@ -177,26 +282,6 @@
           "nr": 4,
           "etykieta": "Ośmieszenie wady",
           "tekst": "komizm charakteru. *Wykorzystanie:* porównanie z *Zemstą* Fredry (komedia obyczajowa)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Szkatułka",
-          "tekst": "symbol pieniądza i jego władzy nad człowiekiem."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Ogród",
-          "tekst": "miejsce ukrycia skarbu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Maska komizmu",
-          "tekst": "symbol ośmieszenia wady."
         }
       ]
     },

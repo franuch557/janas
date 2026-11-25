@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Miłosz, laureat Nagrody Nobla (1980), pisał o odpowiedzialności poety, o wojnie i zagładzie, o pamięci i o pięknie świata. W czasie wojny zastanawiał się, czym jest poezja, która „nie ocala narodów ani ludzi”. Później pisał o wartościach moralnych, o sprzeciwie wobec tyranii i o wdzięczności za istnienie."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -74,7 +83,64 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Świadek historii, moralista, a zarazem człowiek szukający harmonii ze światem."
+          "tekst": "poeta-świadek historii, moralista, myśliciel."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Adresaci",
+          "tekst": "zmarli, tyrani („Który skrzywdziłeś”), czytelnicy."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Warszawa okupowana (wiersze z tomu „Ocalenie”, 1945), czasy powojenne, emigracja (Francja, USA)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Czesław Miłosz (1911–2004) przed wojną należał do katastroficznej grupy Żagary. Tomy: „Ocalenie” (1945), „Światło dzienne” (1953), późniejsze tomy emigracyjne. **Liryka refleksyjna, filozoficzna i moralna**, często z bohaterem-świadkiem."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Poeta wobec historii",
+          "tekst": "Poezja ma obowiązek mówić prawdę i ocalać pamięć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Obojętność wobec zła",
+          "tekst": "Świat żyje normalnie, gdy obok giną ludzie („Campo di Fiori”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Koniec świata",
+          "tekst": "Koniec świata przychodzi niezauważony, w zwykły dzień."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wdzięczność i harmonia",
+          "tekst": "Pogodzenie ze światem i radość istnienia („Dar”)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły nazywają miejsce, temat lub adresata wiersza."
         }
       ]
     },
@@ -109,36 +175,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Obojętność wobec cierpienia innych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Rola poezji i poety jako świadka i strażnika pamięci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Koniec świata w codzienności."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Władza, krzywda i odpowiedzialność moralna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Szczęście i pogodzenie ze światem."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -165,15 +201,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Horacy i Kochanowski – motyw szczęśliwego życia („Dar”)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Miłosz pisał w czasie wojny w Warszawie („Campo di Fiori”, 1943), potem jako dyplomata i emigrant. W 1980 r. otrzymał Nagrodę Nobla. Tytuły jego wierszy często wskazują miejsce („Campo di Fiori” – plac w Rzymie, na którym spalono Giordana Bruna) albo adresata („Który skrzywdziłeś”, 1950 – zwrot do tyrana)."
         }
       ]
     },

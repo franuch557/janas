@@ -34,37 +34,110 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Biblia to zbiór ksiąg świętych judaizmu i chrześcijaństwa, pisanych przez wiele wieków. Na maturze obowiązują fragmenty: Księga Rodzaju (stworzenie świata, raj, grzech pierworodny, Kain i Abel), Księga Hioba (cierpienie niewinnego), Księga Koheleta (marność świata), Psalmy (modlitwa i poezja) i Apokalipsa św. Jana (koniec świata i nadzieja zbawienia)."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Księga Rodzaju (Genesis)",
-          "tekst": "Bóg stwarza świat w sześć dni, a siódmego odpoczywa; na końcu stwarza człowieka na swój obraz. Adam i Ewa żyją w ogrodzie Eden, ale skuszeni przez węża zjadają owoc z zakazanego drzewa poznania dobra i zła – zostają wygnani, poznają pracę, ból i śmierć. Kain z zazdrości zabija brata Abla. Ludzkość się demoralizuje, więc Bóg zsyła potop; ocaleje tylko sprawiedliwy Noe z rodziną i zwierzętami w arce, a znakiem nowego przymierza jest tęcza. Ludzie budują wieżę Babel, chcąc sięgnąć nieba – Bóg miesza im języki i rozprasza ich. Dalej historia patriarchów: Bóg powołuje Abrahama, obiecuje mu potomstwo, a potem wystawia jego wiarę na próbę, każąc złożyć w ofierze syna Izaaka (w ostatniej chwili powstrzymuje ofiarę). Księga opowiada też o Jakubie i jego synu Józefie, sprzedanym przez braci do Egiptu."
+          "etykieta": "",
+          "tekst": "Księga Rodzaju: stworzenie świata w sześć dni, siódmego Bóg odpoczywa."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Księga Hioba",
-          "tekst": "Hiob to bogobojny i bogaty człowiek. W niebie szatan twierdzi, że jest on pobożny tylko dlatego, że mu się dobrze wiedzie; Bóg pozwala go wypróbować. Hiob traci majątek, dzieci, a w końcu zdrowie (pokrywają go wrzody). Mimo namów żony nie złorzeczy Bogu. Odwiedzają go trzej przyjaciele (Elifaz, Bildad i Sofar), którzy przekonują, że cierpienie musi być karą za jakiś grzech. Hiob broni swojej niewinności i domaga się, by Bóg mu odpowiedział. Bóg przemawia do niego z wichru: pokazuje ogrom i tajemnicę stworzenia, którego człowiek nie jest w stanie ogarnąć rozumem. Hiob pokornie to przyjmuje, a Bóg przywraca mu zdrowie i daje dwukrotnie więcej dóbr niż przedtem."
+          "etykieta": "",
+          "tekst": "Adam i Ewa w raju, zakaz jedzenia z drzewa poznania dobra i zła."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Księga Koheleta (Eklezjastesa)",
-          "tekst": "Mędrzec Kohelet, przedstawiający się jako syn Dawida i król w Jerozolimie, rozważa sens ludzkich starań. Stwierdza, że wszystko jest marnością: bogactwo, przyjemności, a nawet mądrość nie chronią przed przemijaniem i śmiercią, która jednakowo spotyka mądrego i głupiego. Wszystko ma swój czas (czas rodzenia i umierania, płaczu i śmiechu). Wniosek: trzeba z umiarem cieszyć się tym, co Bóg daje, wykonywać swoją pracę i zachować bojaźń Bożą."
+          "etykieta": "",
+          "tekst": "Grzech pierworodny i wygnanie z raju."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Księga Psalmów",
-          "tekst": "Zbiór 150 pieśni religijnych, tradycyjnie przypisywanych królowi Dawidowi. Są wśród nich psalmy pochwalne (wysławiające Boga i stworzenie), dziękczynne, błagalne, pokutne (wyznanie grzechu i prośba o przebaczenie), mądrościowe i królewskie. Psalmy wyrażają pełną gamę uczuć człowieka wobec Boga: zaufanie, radość, lęk, rozpacz i nadzieję. Często cytowane przykłady to psalm o Bogu jako Dobrym Pasterzu (Ps 23) i psalm wołania „z głębokości” (Ps 130)."
+          "etykieta": "",
+          "tekst": "Kain zabija Abla."
         },
         {
           "typ": "punkt",
           "nr": 5,
+          "etykieta": "",
+          "tekst": "Księga Hioba: zakład Boga z szatanem, Hiob traci wszystko."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Rozmowy Hioba z przyjaciółmi, Bóg przemawia z wichru, Hiob odzyskuje szczęście."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Księga Koheleta: „marność nad marnościami”, wszystko ma swój czas."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Psalmy: pieśni pochwalne, błagalne i dziękczynne."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Apokalipsa: wizje końca świata, walka dobra ze złem, Nowe Jeruzalem."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Księga Rodzaju – stworzenie świata",
+          "tekst": "Bóg stwarza świat słowem w ciągu sześciu dni: światło, niebo, ziemię i morza, rośliny, ciała niebieskie, zwierzęta, a na końcu człowieka na swój obraz. Siódmego dnia odpoczywa. Świat jest uporządkowany i dobry."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Raj i grzech pierworodny",
+          "tekst": "Adam i Ewa żyją w ogrodzie Eden. Mogą jeść owoce ze wszystkich drzew poza drzewem poznania dobra i zła. Wąż namawia Ewę, by zjadła owoc; Ewa daje go Adamowi. Ludzie poznają wstyd i zostają wygnani z raju. Od tej pory muszą pracować w trudzie, a kobieta rodzić w bólu. Człowiek staje się śmiertelny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kain i Abel",
+          "tekst": "Synowie Adama i Ewy składają ofiary. Bóg przyjmuje ofiarę Abla, a odrzuca ofiarę Kaina. Zazdrosny Kain zabija brata. Bóg naznacza go piętnem i skazuje na tułaczkę. To pierwsza zbrodnia i symbol bratobójstwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga Hioba",
+          "tekst": "Hiob jest pobożny i bogaty. Szatan twierdzi, że Hiob kocha Boga tylko dlatego, że jest szczęśliwy. Bóg pozwala go wypróbować: Hiob traci majątek, dzieci i zdrowie. Przyjaciele przekonują go, że cierpi za grzechy, ale Hiob wie, że jest niewinny, i pyta Boga o sens cierpienia. Bóg przemawia z wichru i pokazuje ogrom stworzenia – człowiek nie może pojąć Jego zamysłów. Hiob pokornie to przyjmuje i odzyskuje szczęście w dwójnasób."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Księga Koheleta",
+          "tekst": "Mędrzec Kohelet rozmyśla o życiu i stwierdza: „marność nad marnościami i wszystko marność”. Bogactwo, mądrość i przyjemności przemijają, a człowiek umiera tak samo jak zwierzę. Wszystko ma swój czas: czas rodzenia i umierania, płaczu i śmiechu. Trzeba cieszyć się z prostych darów i bać się Boga."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Psalmy",
+          "tekst": "Księga Psalmów to 150 pieśni religijnych, tradycyjnie przypisywanych królowi Dawidowi. Są wśród nich psalmy pochwalne (np. o stworzeniu świata), błagalne (prośba w cierpieniu), dziękczynne i pokutne. Bóg jest w nich pasterzem, obrońcą i sędzią. Psalmy stały się wzorem poezji religijnej (np. Kochanowski, „Psałterz Dawidów”)."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Apokalipsa św. Jana",
-          "tekst": "Jan na wyspie Patmos doznaje wizji. Najpierw kieruje listy do siedmiu Kościołów w Azji Mniejszej. Potem widzi tron Boga i Baranka, który otwiera księgę zapieczętowaną siedmioma pieczęciami; po otwarciu pierwszych czterech pojawiają się czterej jeźdźcy (m.in. wojna, głód, śmierć). Następują kolejne kataklizmy zapowiadane przez siedem trąb, walka Niewiasty obleczonej w słońce ze Smokiem, panowanie Bestii, upadek Babilonu (symbolu grzesznej potęgi). Wizja kończy się sądem ostatecznym, pokonaniem zła oraz obrazem nowego nieba i nowej ziemi – Niebieskiego Jeruzalem, gdzie nie ma już śmierci ani cierpienia."
+          "tekst": "Jan na wyspie Patmos ma wizje końca świata. Baranek otwiera księgę z siedmioma pieczęciami, pojawiają się czterej jeźdźcy (wojna, głód, zaraza, śmierć), smok i bestia walczą z ludźmi wiernymi Bogu. Następuje sąd ostateczny. Na końcu Jan widzi Nowe Jeruzalem – nowe niebo i nową ziemię, gdzie nie ma już śmierci ani łez."
         }
       ]
     },
@@ -73,43 +146,95 @@
       "bloki": [
         {
           "typ": "punkt",
+          "etykieta": "Bóg",
+          "tekst": "Stwórca, sędzia i opiekun ludzi."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Adam i Ewa",
-          "tekst": "Pierwsi ludzie; ich nieposłuszeństwo (grzech pierworodny) sprowadza na ludzkość cierpienie i śmierć."
+          "tekst": "pierwsi ludzie, symbol ludzkiej słabości i nieposłuszeństwa."
         },
         {
           "typ": "punkt",
           "etykieta": "Kain i Abel",
-          "tekst": "Synowie Adama; pierwsze zabójstwo w dziejach – archetyp bratobójstwa i zazdrości."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Noe",
-          "tekst": "Sprawiedliwy, którego Bóg ocala z potopu; z nim Bóg zawiera przymierze."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Abraham",
-          "tekst": "Ojciec narodu wybranego, wzór wiary i posłuszeństwa Bogu (ofiara Izaaka)."
+          "tekst": "bracia; zabójca z zazdrości i niewinna ofiara."
         },
         {
           "typ": "punkt",
           "etykieta": "Hiob",
-          "tekst": "Niewinnie cierpiący sprawiedliwy; symbol próby wiary i pytania o sens cierpienia."
+          "tekst": "sprawiedliwy, który cierpi bez winy, wzór wiary i cierpliwości."
         },
         {
           "typ": "punkt",
           "etykieta": "Kohelet",
-          "tekst": "Mędrzec-narrator rozmyślający nad przemijaniem i marnością świata."
+          "tekst": "mędrzec rozmyślający o przemijaniu."
         },
         {
           "typ": "punkt",
           "etykieta": "Dawid",
-          "tekst": "Król Izraela, tradycyjny autor psalmów."
+          "tekst": "król i poeta, uważany za autora psalmów."
         },
         {
           "typ": "punkt",
           "etykieta": "Jan",
-          "tekst": "Autor wizji apokaliptycznych, zesłaniec na wyspie Patmos."
+          "tekst": "autor Apokalipsy, wizjoner."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Od początku świata (Księga Rodzaju) po wizję końca czasów (Apokalipsa). Wydarzenia dzieją się w raju, na Bliskim Wschodzie, w kraju Us (Hiob) i w wizjach nieba."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Biblia powstawała od ok. X w. p.n.e. do końca I w. n.e. Stary Testament pisano głównie po hebrajsku, Nowy – po grecku. Na łacinę przetłumaczył ją św. Hieronim (Wulgata), na polski m.in. Jakub Wujek. Gatunki: opowieść (Księga Rodzaju), poemat dydaktyczny (Hiob, Kohelet), psalm (pieśń religijna), apokalipsa (wizja końca świata, pełna symboli)."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Stworzenie i ład świata",
+          "tekst": "Świat ma porządek i sens nadany przez Boga."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Grzech i wina",
+          "tekst": "Człowiek ma wolną wolę, może wybrać zło i ponosi tego skutki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Cierpienie niewinnego",
+          "tekst": "Hiob pokazuje, że cierpienie nie zawsze jest karą. Pytanie o jego sens wraca w literaturze (np. „Dżuma”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przemijanie (vanitas)",
+          "tekst": "Kohelet mówi o marności dóbr doczesnych – to temat podjęty m.in. w baroku."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Nadzieja",
+          "tekst": "Apokalipsa kończy się obietnicą nowego świata, a psalmy wyrażają ufność w Bogu."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Słowo „Biblia” pochodzi od greckiego „biblia” – księgi. To zbiór ksiąg."
         }
       ]
     },
@@ -154,41 +279,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pochodzenie świata i człowieka, miejsce człowieka w stworzeniu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Natura zła i grzechu, wolna wola i odpowiedzialność."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Sens cierpienia niewinnych (teodycea)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie i marność ludzkich dążeń (vanitas)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Relacja człowieka z Bogiem: wiara, bunt, zaufanie, modlitwa."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Koniec świata, sąd i nadzieja zbawienia."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -220,15 +310,6 @@
           "typ": "punkt",
           "etykieta": "Sztuka",
           "tekst": "freski Michała Anioła w Kaplicy Sykstyńskiej (stworzenie Adama, Sąd Ostateczny), „Sąd Ostateczny” Memlinga."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Biblia powstawała przez około tysiąc lat. Księgi Starego Testamentu spisano po hebrajsku (częściowo po aramejsku), Nowego Testamentu – po grecku. W IV w. św. Hieronim przełożył całość na łacinę (Wulgata), a ten przekład obowiązywał w Kościele przez wieki. Nazwa pochodzi od greckiego *ta biblia* – „księgi” (od fenickiego miasta Byblos, ośrodka handlu papirusem). Biblia jest więc zbiorem ksiąg, a nie jedną książką."
         }
       ]
     },

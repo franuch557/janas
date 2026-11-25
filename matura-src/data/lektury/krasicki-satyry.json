@@ -43,27 +43,36 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Krasicki w satyrach wyśmiewa wady Polaków i szlachty XVIII wieku: pijaństwo, rozrzutność, zamiłowanie do obcych mód, brak troski o kraj i lekceważenie króla. Pisze z humorem i ironią, ale jego cel jest poważny – chce poprawić obyczaje i pomóc państwu. Najczęściej omawiana jest satyra „Do króla”, w której poeta pozornie krytykuje Stanisława Augusta, a naprawdę go broni."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Schemat satyry",
-          "tekst": "poeta przedstawia wadę społeczną, ośmiesza ją i wskazuje jej szkodliwość."
+          "etykieta": "„Do króla”",
+          "tekst": "Satyryk udaje, że wytyka królowi Stanisławowi Augustowi „wady”: że jest Polakiem, a nie cudzoziemcem; że jest młody; że nie pochodzi z dynastii; że lubi naukę i sztukę; że jest łagodny i dobry. Każdy z tych zarzutów to w rzeczywistości zaleta, a ośmieszeni zostają szlachcice, którzy je stawiają. To przykład **ironii**: mówi się jedno, a myśli coś przeciwnego."
         },
         {
           "typ": "punkt",
-          "etykieta": "Tematy typowe",
-          "tekst": "pijaństwo, obłuda, zepsucie szlachty, próżność, brak rozumu w życiu publicznym."
+          "etykieta": "„Pijaństwo”",
+          "tekst": "Dialog dwóch szlachciców. Jeden opowiada, jak upił się na imieninach i jak źle się czuje. Obiecuje, że przestanie pić, ale na koniec idzie się napić „na lekarstwo”. Satyra pokazuje nałóg i jego skutki: kłótnie, utratę zdrowia i majątku."
         },
         {
           "typ": "punkt",
-          "etykieta": "Retoryka",
-          "tekst": "ironia, wyliczenia, przykłady, bezpośredni zwrot do czytelnika."
+          "etykieta": "„Żona modna”",
+          "tekst": "Szlachcic żeni się z modną panną. Żona przenosi się na wieś z miejskimi zwyczajami: wymienia meble, sprowadza drogie rzeczy, robi z domu salon. Mąż szybko traci majątek. Satyra wyśmiewa naśladowanie obcych mód i rozrzutność."
         },
         {
           "typ": "punkt",
-          "etykieta": "Znaczenie",
-          "tekst": "satyra jest narzędziem reformy obyczajów i wychowania."
+          "etykieta": "„Świat zepsuty”",
+          "tekst": "Poeta porównuje dawne cnoty Polaków z obecnym zepsuciem: nie ma już uczciwości, wiary ani szacunku. Na końcu ostrzega, że państwo może upaść jak okręt bez sternika."
         }
       ]
     },
@@ -72,43 +81,70 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny",
-          "tekst": "poeta-moralista, krytykujący wady."
+          "etykieta": "Satyryk",
+          "tekst": "narrator, moralista, ironiczny obserwator."
         },
         {
           "typ": "punkt",
-          "etykieta": "Postacie satyryczne",
-          "tekst": "typy ludzi (pijak, próżny szlachcic, obłudnik). Rola: ośmieszenie wad."
+          "etykieta": "Król (Stanisław August)",
+          "tekst": "w satyrze „Do króla” adresat pozornej krytyki."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Szlachcic",
+          "tekst": "typowy bohater satyr: pijak, utracjusz, modniś."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska drugiej połowy XVIII wieku, czasy Stanisława Augusta Poniatowskiego."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Krasicki wydał „Satyry” w latach 1779 i 1784. **Satyra** to utwór, który ośmiesza ludzkie wady lub zjawiska społeczne, by je poprawić. Krasicki stosuje ironię, dialog, scenki rodzajowe i puenty."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "wady społeczeństwa, zepsucie obyczajów."
+          "etykieta": "Wady szlachty",
+          "tekst": "Pijaństwo, rozrzutność, lenistwo, prywata."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "rozum wobec wady; cnota wobec zepsucia."
+          "etykieta": "Dydaktyzm",
+          "tekst": "Satyry mają uczyć i poprawiać obyczaje – to typowe dla oświecenia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "umiar, cnota, rozsądek, uczciwość."
+          "etykieta": "Troska o państwo",
+          "tekst": "Krasicki ostrzega, że zepsucie obywateli prowadzi do upadku kraju."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "społeczeństwo może się poprawić przez krytykę wad i wychowanie rozumem."
-        },
+          "etykieta": "Ironia",
+          "tekst": "Najważniejszy środek satyry – udawane pochwały lub udawane zarzuty."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "wezwanie do reformy obyczajów."
+          "typ": "akapit",
+          "tekst": "„Satyry” to nazwa gatunku; pojedyncze utwory mają tytuły wskazujące wadę lub adresata."
         }
       ]
     },
@@ -132,21 +168,6 @@
           "nr": 3,
           "etykieta": "Zepsucie",
           "tekst": "upadek obyczajów. *Wykorzystanie:* zestawienie z *Lalką* (obraz zepsucia społecznego)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Kielich",
-          "tekst": "(w satyrze o pijaństwie) – symbol wady."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Dwór",
-          "tekst": "symbol zepsucia szlachty."
         }
       ]
     },
@@ -426,29 +447,6 @@
           "nr": 15,
           "etykieta": "",
           "tekst": "Pokazuje, że wady niszczą państwo."
-        }
-      ]
-    },
-    {
-      "tytul": "Omówienie najczęściej wybieranych satyr",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "nr": 1,
-          "etykieta": "„Do króla”",
-          "tekst": "Satyra skierowana do Stanisława Augusta Poniatowskiego. Pozornie mówca wylicza „wady” króla, w rzeczywistości ośmiesza szlachtę, która mu je zarzuca. Król jest „winny” tego, że nie pochodzi z królewskiego rodu, że jest Polakiem, a nie cudzoziemcem, że był wcześniej szlachcicem równym innym, że był młody, gdy wstąpił na tron, że jest dobry i łagodny zamiast budzić strach, i że kocha książki i uczonych. Ironia pokazuje zawiść, pychę i ciemnotę szlachty."
-        },
-        {
-          "typ": "punkt",
-          "nr": 2,
-          "etykieta": "„Pijaństwo”",
-          "tekst": "Rozmowa dwóch szlachciców. Jeden skarży się na ból głowy: na imieninach żony pił do rana, następnego dnia „na kaca” znowu pił z kompanami, a przy obiedzie, rozprawiając z zapałem o dobru ojczyzny i reformach, opróżnili wiele butelek; skończyło się kłótnią o króla Jana i ciosem butelką w głowę. Klnie pijaństwo, a jego rozmówca wygłasza długą pochwałę trzeźwości i umiaru. Na koniec pierwszy żegna się i mówi, że idzie… napić się wódki. Puenta ośmiesza nałóg i pustotę moralnych deklaracji."
-        },
-        {
-          "typ": "punkt",
-          "nr": 3,
-          "etykieta": "„Żona modna”",
-          "tekst": "Pan Piotr opowiada przyjacielowi o swoim małżeństwie. Ożenił się dla posagu (czterech wsi) z panną wychowaną w mieście, zapatrzoną w modę francuską. Już intercyza zawierała jej wygórowane żądania (pobyty w stolicy, własny powóz, osobne apartamenty). W podróży do domu żona wiozła psy, kota, ptaki i mysz na łańcuszku, wyśmiewała jego prostotę, a po przyjeździe przebudowała dworek i ogród według mody, lekceważyła starą służbę i urządzała kosztowne bale. Podczas jednego z nich od fajerwerków spłonęła stodoła. W końcu przenieśli się do miasta, a pan Piotr przyznaje, że sam jest sobie winien."
         }
       ]
     }

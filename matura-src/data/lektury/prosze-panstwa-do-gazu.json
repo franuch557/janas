@@ -29,31 +29,101 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Opowiadanie Tadeusza Borowskiego o jednym dniu w obozie Auschwitz-Birkenau. Narrator, więzień Tadek, pracuje w komandzie „Kanada”, które rozładowuje transporty Żydów przywożonych na śmierć. Więźniowie zabierają im bagaże, a ludzi kierują do komór gazowych. Opowiadanie pokazuje, jak obóz niszczy moralność: więźniowie, by przeżyć, przestają współczuć, a nawet nienawidzą ofiar."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Upalny dzień w obozie",
-          "tekst": "Auschwitz-Birkenau, upalne lato. Więźniowie po odwszawianiu chodzą nago. Narrator, Tadek, więzień-Polak, żyje stosunkowo dobrze dzięki paczkom z domu i handlowi rzeczami z transportów. Od kilku dni nie ma transportów, a więc i „zaopatrzenia”. Jego znajomy Francuz Henri z komanda „Kanada” (rozładowującego pociągi) zabiera go na rampę, gdy przychodzi wiadomość o nowym pociągu."
+          "etykieta": "",
+          "tekst": "Upał w obozie, iskanie wszy, rozmowa o jedzeniu i paczkach."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Rampa",
-          "tekst": "Przyjeżdża transport Żydów z Sosnowca i Będzina. Więźniowie z „Kanady” wyciągają ludzi z wagonów, odbierają im bagaże, okłamują ich, że nic złego się nie stanie – takie jest prawo obozu. Z wagonów wyrzuca się zwłoki zaduszonych w podróży, także dzieci. Esesmani pilnują porządku, część ludzi trafia na ciężarówki jadące do komór gazowych. Młoda matka wypiera się własnego dziecka, by ocaleć – rosyjski więzień, marynarz Andrej, brutalnie wrzuca ją razem z dzieckiem na samochód. Jedna z dziewcząt, piękna i spokojna, świadomie wybiera auto jadące do gazu."
+          "etykieta": "",
+          "tekst": "Henri, Francuz z „Kanady”, zabiera Tadka do pracy na rampie."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Reakcja narratora",
-          "tekst": "Tadek jest wyczerpany, ogarnia go mdłość i wściekłość – ale kieruje ją przeciw ofiarom, przez które musi tu być, a nie przeciw oprawcom. Rozmawia o tym z Henrim, który traktuje to jako coś naturalnego w obozie. Narrator ma wrażenie, że to wszystko się nie dzieje naprawdę, i zbiera mu się na wymioty."
+          "etykieta": "",
+          "tekst": "Przygotowania na rampie, esesmani czekają na pociąg."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Zakończenie",
-          "tekst": "Pod wieczór przychodzi drugi transport i praca trwa do nocy. Rzeczy pomordowanych zostają w obozie, będą z nich żyć więźniowie i cywile. Obóz będzie długo mówić o „dobrym, bogatym” transporcie z Sosnowca i Będzina. Nad ranem z krematoriów unoszą się słupy dymu – zapowiada się kolejny pogodny, upalny dzień."
+          "etykieta": "",
+          "tekst": "Przyjeżdża transport z Sosnowca i Będzina."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Więźniowie wyciągają ludzi z wagonów, zabierają bagaże."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Matka wypiera się własnego dziecka, by ratować siebie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Tadek odczuwa wściekłość na ofiary i mdłości."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Kolejne transporty; dziewczyna, która wie, dokąd idzie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Więźniowie wynoszą zwłoki z wagonów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Powrót do obozu – „Kanada” się wzbogaciła."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "W bloku",
+          "tekst": "Jest gorący dzień. Więźniowie iskają się z wszy i rozmawiają o jedzeniu. Tadek, polski więzień, ma się lepiej niż inni, bo dostaje paczki z domu. Francuz Henri z komanda „Kanada” zabiera go na rampę, gdzie przyjedzie transport. Na rampie można „zorganizować” jedzenie i ubrania."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rampa",
+          "tekst": "Esesmani, więźniowie i strażnicy czekają na pociąg. Gdy przyjeżdża transport z Sosnowca i Będzina, więźniowie otwierają wagony. Ludzie są przerażeni, spragnieni, zdezorientowani. Więźniowie każą im zostawić bagaże i wsiadać do ciężarówek, które wiozą prosto do komór gazowych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ludzie z transportu",
+          "tekst": "Młoda matka ucieka od własnego dziecka, żeby nie iść z nim na śmierć. Pewien więzień-Rosjanin bije ją i wrzuca na ciężarówkę razem z dzieckiem. Tadek pyta Henriego, czy to dobrze, że jest wściekły na tych ludzi – Henri odpowiada, że to normalne, bo przez nich muszą to robić. Piękna dziewczyna wysiada z wagonu i spokojnie pyta, dokąd jadą – zna odpowiedź i sama idzie do samochodu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Po pracy",
+          "tekst": "Więźniowie wynoszą z wagonów zwłoki zmarłych w drodze, w tym dzieci. Tadek wymiotuje. Kolejne transporty przyjeżdżają w nocy. Rano więźniowie wracają do obozu obładowani jedzeniem i rzeczami. Obóz będzie żył z tego transportu przez kilka dni."
         }
       ]
     },
@@ -62,28 +132,75 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Tadek (narrator)",
-          "tekst": "Polski więzień, który przystosował się do obozu; relacjonuje bez komentarza, co pokazuje jego moralne zlagrowanie."
+          "etykieta": "Tadek",
+          "tekst": "narrator, polski więzień. Nie jest bohaterem – stara się przeżyć i przyzwyczaja się do zła. Czuje obrzydzenie i złość."
         },
         {
           "typ": "punkt",
           "etykieta": "Henri",
-          "tekst": "Francuz z komanda „Kanada”, cyniczny i praktyczny."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Andrej",
-          "tekst": "Więzień, rosyjski marynarz, brutalny i pijany."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Ofiary z transportu",
-          "tekst": "Żydzi z Sosnowca i Będzina: matka wypierająca się dziecka, dziewczyna wybierająca śmierć i inni."
+          "tekst": "Francuz z „Kanady”, doświadczony więzień, cyniczny i praktyczny."
         },
         {
           "typ": "punkt",
           "etykieta": "Esesmani",
-          "tekst": "Oprawcy, sprawnie organizujący zagładę."
+          "tekst": "sprawni, obojętni, traktują zagładę jak pracę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ludzie z transportu",
+          "tekst": "Żydzi z Sosnowca i Będzina, bezbronne ofiary."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Obóz Auschwitz-Birkenau, lato 1943 roku; rampa kolejowa, na której rozładowywano transporty."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tadeusz Borowski był więźniem Auschwitz i Dachau. Opowiadanie ukazało się najpierw w zbiorze „Byliśmy w Oświęcimiu” (1946), a potem w tomie „Pożegnanie z Marią” (1948). To **opowiadanie** pisane w narracji pierwszoosobowej, w stylu **behawioryzmu** – narrator opisuje zachowania ludzi chłodno, bez komentarza."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Człowiek zlagrowany",
+          "tekst": "Więzień przystosowuje się do zła i traci wrażliwość moralną – to „człowiek zlagrowany”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zagłada",
+          "tekst": "Opowiadanie pokazuje ludobójstwo jako zorganizowaną, codzienną „pracę”."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Odpowiedzialność ofiar",
+          "tekst": "Borowski pokazuje, że więźniowie stają się częścią machiny zagłady, by przeżyć."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rozpad wartości",
+          "tekst": "Matka wypiera się dziecka, ludzie walczą o przetrwanie kosztem innych."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł to uprzejma formuła, którą w ironiczny sposób łączy się ze śmiercią. Pokazuje, jak zbrodnia zostaje ukryta pod pozorami grzeczności i rutyny."
         }
       ]
     },
@@ -118,36 +235,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zlagrowanie – przemiana człowieka w obozie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Rozpad wartości moralnych i obojętność wobec śmierci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zagłada Żydów jako przemysł śmierci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Współodpowiedzialność ofiar systemu (współudział więźniów)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Granice ludzkiej godności."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -174,15 +261,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Kontrowersje wokół „nihilizmu” Borowskiego po wojnie (krytyka m.in. Zofii Kossak)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Borowski był więźniem Auschwitz i Dachau; opowiadanie oparł na własnych przeżyciach. Ukazało się po wojnie, potem w tomie „Pożegnanie z Marią” (1948). Tytuł to grzeczna formuła, którą wypowiada się przy rampie wobec ludzi idących do komory gazowej – zderzenie uprzejmości z zagładą pokazuje, jak obóz odwrócił znaczenie słów i wartości."
         }
       ]
     },

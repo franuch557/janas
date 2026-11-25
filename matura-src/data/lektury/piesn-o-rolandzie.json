@@ -29,31 +29,112 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (kluczowe fragmenty maturalne)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Karol Wielki wraca z wojny z Saracenami w Hiszpanii. Zdrajca Ganelon spiskuje z wrogiem, by tylna straż wojsk, którą dowodzi rycerz Roland, została zaatakowana w wąwozie Roncevaux. Roland przez dumę za długo nie wzywa pomocy rogiem. Ginie bohatersko razem z rycerzami. Karol mści się na Saracenach, a Ganelon zostaje stracony. Roland to wzór idealnego rycerza."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Zasadzka w wąwozie Roncevaux",
-          "tekst": "Tylna straż wojsk Karola Wielkiego, dowodzona przez hrabiego Rolanda, zostaje zaatakowana przez przeważające siły Saracenów (wskutek zdrady Ganelona)."
+          "etykieta": "",
+          "tekst": "Karol Wielki od siedmiu lat walczy w Hiszpanii; król Marsylion udaje chęć pokoju."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Duma Rolanda",
-          "tekst": "Przyjaciel Rolanda, Oliwier, namawia go, by zadął w róg (Olifant) i wezwał na pomoc główne wojska Karola Wielkiego. Roland odmawia, uznając, że wezwanie pomocy przyniosłoby ujmę jego honorowi i sławie Francji."
+          "etykieta": "",
+          "tekst": "Roland proponuje, by posłem był Ganelon; Ganelon w gniewie postanawia się zemścić."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Śmierć towarzyszy i dźwięk rogu",
-          "tekst": "Gdy niemal wszyscy rycerze francuscy giną, a Roland zostaje śmiertelnie ranny, postanawia zadąć w róg tak mocno, że pękają mu skronie."
+          "etykieta": "",
+          "tekst": "Ganelon zdradza i ustala z Saracenami zasadzkę."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Scena śmierci Rolanda",
-          "tekst": "Konający rycerz wchodzi na wzgórze, kładzie się na zielonej murawie pod sosną, pod ciałem ukrywa swój miecz Durendal (którego wcześniej nie udało mu się złamać o skałę, by nie wpadł w ręce pogan) oraz róg. Zwraca twarz w stronę Hiszpanii (ziemi wroga), bije się w pierś i wyciąga prawą rękawicę w geście hołdu lennego wobec Boga. Archanioł Gabriel i Święty Michał zabierają jego duszę do raju."
+          "etykieta": "",
+          "tekst": "Roland dowodzi tylną strażą w wąwozie Roncevaux."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Olbrzymia armia Saracenów atakuje; Roland nie chce zadąć w róg."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Bitwa: Francuzi giną jeden po drugim."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Roland w końcu zadyma w róg Olifant."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Śmierć Olivera i arcybiskupa Turpina."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Roland próbuje rozbić miecz Durendal, umiera twarzą do wroga; anioły zabierają jego duszę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Karol pokonuje Saracenów."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Proces i kara dla Ganelona."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Zdrada Ganelona",
+          "tekst": "Saraceński król Marsylion z Saragossy obiecuje Karolowi Wielkiemu pokój i chrzest. Roland proponuje, by poselstwo do Marsyliona przyjął jego ojczym, Ganelon. Ganelon czuje się upokorzony i boi się o życie. W zemście umawia się z Saracenami, że napadną na tylną straż wojsk Karola, którą dowodzić będzie Roland."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wąwóz Roncevaux",
+          "tekst": "Wojska Karola wracają do Francji. Roland z dwunastoma parami (najlepszymi rycerzami) i dwudziestoma tysiącami żołnierzy osłania odwrót. W wąwozie w Pirenejach atakuje ich ogromna armia saraceńska. Przyjaciel Rolanda, rozsądny Oliwer, prosi, by zadąć w róg i wezwać Karola. Roland odmawia – uważa, że wzywanie pomocy przyniosłoby mu wstyd."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Bitwa",
+          "tekst": "Rycerze walczą bohatersko i zabijają wielu wrogów, ale giną jeden po drugim. Gdy zostaje garstka, Roland dmie w róg Olifant tak mocno, że pękają mu skronie. Karol słyszy i zawraca. Giną Oliwer i arcybiskup Turpin, który przed śmiercią błogosławi poległych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Śmierć Rolanda",
+          "tekst": "Ranny Roland kładzie się pod drzewem, twarzą w stronę Hiszpanii, by pokazać, że umiera jako zwycięzca. Próbuje rozbić o skałę swój miecz Durendal, by nie dostał się w ręce wroga, ale miecz się nie łamie. Roland wyznaje grzechy, wyciąga do Boga rękawicę, a anioły zabierają jego duszę do nieba."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zemsta i kara",
+          "tekst": "Karol pokonuje Saracenów, a Bóg zatrzymuje słońce, by wojsko mogło dokończyć walkę. Karol opłakuje poległych. Ganelon zostaje osądzony i rozerwany końmi, a jego krewni powieszeni."
         }
       ]
     },
@@ -63,17 +144,84 @@
         {
           "typ": "punkt",
           "etykieta": "Roland",
-          "tekst": "Siostrzeniec cesarza Karola Wielkiego, wzór idealnego rycerza średniowiecznego (*miles christianus* – rycerz chrześcijański). Odważny, wierny Bogu, królowi i ojczyźnie („słodkiej Francji”), ale również dumny i porywczy (jego bezkompromisowy honor przyczynił się do śmierci towarzyszy)."
+          "tekst": "siostrzeniec Karola, idealny rycerz: odważny, wierny Bogu i władcy, dbający o honor. Jego wadą jest pycha i brawura."
         },
         {
           "typ": "punkt",
-          "etykieta": "Oliwier",
-          "tekst": "Przyjaciel Rolanda, równie dzielny rycerz, lecz kierujący się rozwagą i rozsądkiem („Roland jest dzielny, a Oliwier mądry”)."
+          "etykieta": "Oliwer",
+          "tekst": "przyjaciel Rolanda, roztropny i rozsądny („Roland był dzielny, a Oliwer mądry”)."
         },
         {
           "typ": "punkt",
           "etykieta": "Karol Wielki",
-          "tekst": "Władca idealny, pomazaniec Boży, obrońca chrześcijaństwa."
+          "tekst": "cesarz, idealny władca, opiekun chrześcijaństwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ganelon",
+          "tekst": "zdrajca, kieruje się urażoną dumą i zemstą."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Turpin",
+          "tekst": "arcybiskup-rycerz, łączy wiarę z walką."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Marsylion",
+          "tekst": "król Saracenów."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Rok 778, Hiszpania i wąwóz Roncevaux w Pirenejach. Historycznie tylną straż Karola zaatakowali Baskowie, a nie Saraceni – utwór przekształca historię."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Najstarszy zachowany tekst powstał na przełomie XI i XII w. we Francji. W ostatnim wersie pojawia się imię Turold – może autora lub kopisty. To **chanson de geste** – pieśń o czynach rycerskich, rodzaj eposu rycerskiego. Ma krótkie strofy (laisy) z asonansami, był recytowany przez żonglerów."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Ideał rycerza",
+          "tekst": "Roland walczy za Boga, króla i ojczyznę („słodka Francja”), dba o honor i sławę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wojna religijna",
+          "tekst": "Walka chrześcijan z „poganami” ukazana jest jako święta – to echo wypraw krzyżowych."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Honor a rozsądek",
+          "tekst": "Duma Rolanda prowadzi do klęski. Oliwer reprezentuje rozwagę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zdrada",
+          "tekst": "Ganelon to wzór zdrajcy, który z osobistej zemsty niszczy wspólnotę."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Pieśń opowiada o czynach i śmierci Rolanda – głównego bohatera."
         }
       ]
     },
@@ -98,15 +246,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Utwór przedstawia wzorzec osobowy idealnego rycerza chrześcijańskiego oraz propaguje ideę krucjat i walki w obronie wiary. Ukazuje jednocześnie dramatyczne napięcie między bezwzględnym honorem jednostki a odpowiedzialnością za życie powierzonych jej ludzi."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -118,15 +257,6 @@
           "typ": "punkt",
           "etykieta": "Kulturowy",
           "tekst": "System feudalny (gest podania rękawicy Bogu jako wasalowi najwyższemu) oraz kult relikwii (w rękojeści miecza Durendala ukryte były relikwie świętych)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "*Pieśń o Rolandzie* powstała w okresie wypraw krzyżowych, aby krzepić ducha rycerskiego i zachęcać do walki w obronie chrześcijaństwa. Tytuł wskazuje bezpośrednio na głównego bohatera utworu, będącego symbolem cnót rycerskich."
         }
       ]
     },

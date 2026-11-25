@@ -29,55 +29,134 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Po bratobójczej walce o władzę w Tebach giną dwaj bracia, Eteokles i Polinejkes. Nowy król Kreon zakazuje grzebać Polinejkesa, bo uznaje go za zdrajcę. Jego siostra Antygona łamie zakaz, bo wierzy, że prawo bogów jest ważniejsze od rozkazu władcy. Kreon skazuje ją na śmierć. Zbyt późno zmienia zdanie: Antygona odbiera sobie życie, a za nią jego syn Hajmon i żona Eurydyka. Kreon zostaje sam, złamany."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Prologos",
-          "tekst": "Rozmowa Antygony z Ismeną przed pałacem królewskim w Tebach. Antygona informuje siostrę o zakazie Kreona dotyczącym pochówku Polinejkesa i zapowiada, że złamie rozkaz władcy. Ismena odmawia udziału w tym czynie ze strachu."
+          "etykieta": "",
+          "tekst": "Prolog: Antygona mówi Ismenie, że pochowa brata mimo zakazu. Ismena odmawia pomocy."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Parodos",
-          "tekst": "Wejście Chóru tebańskich starców, który opiewa zwycięstwo Teb nad wojskami z Argos."
+          "etykieta": "",
+          "tekst": "Chór sławi zwycięstwo Teb nad wojskiem Polinejkesa."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Epejsodion I",
-          "tekst": "Kreon wygłasza mowę tronową, uzasadniając swoją decyzję o uhonorowaniu Eteoklesa i pozostawieniu ciała Polinejkesa na pastwę ptaków. Strażnik przynosi wieść, że ktoś symbolicznie przysypał ciało zdrajcy ziemią."
+          "etykieta": "",
+          "tekst": "Kreon ogłasza zakaz pochówku Polinejkesa pod karą śmierci."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Epejsodion II",
-          "tekst": "Strażnik przyprowadza pojmaną na gorącym uczynku Antygonę. Dochodzi do słynnego starcia racji między Antygoną (prawa boskie) a Kreonem (prawa państwowe). Ismena chce wziąć część winy na siebie, ale Antygona odrzuca jej poświęcenie."
+          "etykieta": "",
+          "tekst": "Strażnik donosi, że ktoś posypał ciało ziemią."
         },
         {
           "typ": "punkt",
           "nr": 5,
-          "etykieta": "Epejsodion III",
-          "tekst": "Hajmon, syn Kreona i narzeczony Antygony, próbuje przekonać ojca do zmiany wyroku, powołując się na głos ludu. Rozmowa przeradza się w kłótnię; Kreon skazuje Antygonę na zamurowanie żywcem w skalnej grocie."
+          "etykieta": "",
+          "tekst": "Straż przyłapuje Antygonę przy zwłokach i przyprowadza ją do Kreona."
         },
         {
           "typ": "punkt",
           "nr": 6,
-          "etykieta": "Epejsodion IV",
-          "tekst": "Antygona idzie na śmierć, opłakując swój los, brak męża i dzieci (kommos)."
+          "etykieta": "",
+          "tekst": "Spór Antygony z Kreonem; Ismena chce dzielić winę, Antygona jej nie pozwala."
         },
         {
           "typ": "punkt",
           "nr": 7,
-          "etykieta": "Epejsodion V",
-          "tekst": "Wieszczek Tejrezjasz ostrzega Kreona przed gniewem bogów i nieszczęściem, jakie spadnie na jego ród. Przerażony władca postanawia pochować Polinejkesa i uwolnić Antygonę."
+          "etykieta": "",
+          "tekst": "Hajmon prosi ojca o łaskę dla narzeczonej, kłócą się."
         },
         {
           "typ": "punkt",
           "nr": 8,
-          "etykieta": "Exodos",
-          "tekst": "Posłaniec przynosi wieść o tragicznych samobójstwach: Antygona powiesiła się w grocie, Hajmon przebił się mieczem na oczach ojca, a Eurydyka (żona Kreona) odebrała sobie życie na wieść o śmierci syna. Kreon pozostaje sam, zrozpaczony i złamany."
+          "etykieta": "",
+          "tekst": "Kreon skazuje Antygonę na zamurowanie w grobowcu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Lament Antygony prowadzonej na śmierć."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Tyrezjasz przepowiada Kreonowi nieszczęście."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Kreon ustępuje, ale jest za późno: Antygona się powiesiła, Hajmon przebija się mieczem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Eurydyka, żona Kreona, popełnia samobójstwo."
+        },
+        {
+          "typ": "punkt",
+          "nr": 13,
+          "etykieta": "",
+          "tekst": "Kreon uznaje swoją winę; chór mówi o rozwadze i karze bogów."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Prolog – rozmowa sióstr",
+          "tekst": "Antygona i Ismena, córki Edypa, rozmawiają przed pałacem. Ich bracia zginęli w pojedynku o tron. Kreon kazał uroczyście pochować Eteoklesa, a ciało Polinejkesa, który przyprowadził obce wojsko pod Teby, zostawić psom i ptakom. Antygona postanawia pochować brata. Ismena boi się i odmawia, mówiąc, że kobiety nie powinny walczyć z władzą."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Parodos i epejsodion I – edykt Kreona",
+          "tekst": "Chór starców tebańskich cieszy się z ocalenia miasta. Kreon przedstawia swoje zasady: dobro państwa jest najważniejsze, a zdrajca nie zasługuje na pogrzeb. Strażnik melduje, że ktoś posypał zwłoki ziemią. Kreon podejrzewa przekupstwo i grozi strażnikom."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epejsodion II – spór Antygony z Kreonem",
+          "tekst": "Strażnicy łapią Antygonę przy ciele brata. Antygona nie wypiera się czynu. Mówi, że niepisane prawa bogów są wieczne i silniejsze od rozkazów śmiertelnika. Kreon widzi w tym bunt i pychę. Ismena chce przyznać się do współudziału, ale Antygona jej odmawia. Kreon skazuje obie, potem oszczędza Ismenę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epejsodion III – Hajmon",
+          "tekst": "Hajmon, syn Kreona i narzeczony Antygony, prosi ojca, by posłuchał głosu ludu, który współczuje dziewczynie. Kreon uważa, że syn staje po stronie kobiety, i nie ustępuje. Hajmon odchodzi wzburzony. Kreon postanawia zamurować Antygonę żywcem w skalnym grobie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epejsodion IV – pożegnanie Antygony",
+          "tekst": "Antygona żali się, że umiera młodo, bez ślubu i bez opłakania. Nie żałuje jednak swojego czynu. Chór porównuje jej los do losów mitycznych bohaterek."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epejsodion V – Tyrezjasz",
+          "tekst": "Ślepy wróżbita Tyrezjasz ostrzega Kreona, że bogowie gniewają się, bo ołtarze są skażone ochłapami z ciała Polinejkesa. Przepowiada śmierć kogoś bliskiego. Kreon najpierw go obraża, potem się przestrasza i postanawia pochować Polinejkesa i uwolnić Antygonę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Eksodos – katastrofa",
+          "tekst": "Posłaniec opowiada: gdy otworzono grób, Antygona już nie żyła – powiesiła się. Hajmon rzucił się na ojca z mieczem, a potem przebił się sam. Na wieść o tym Eurydyka, żona Kreona, odbiera sobie życie. Kreon przyznaje się do winy i prosi o śmierć. Chór kończy słowami, że rozwaga jest podstawą szczęścia, a pycha zostaje ukarana."
         }
       ]
     },
@@ -87,22 +166,89 @@
         {
           "typ": "punkt",
           "etykieta": "Antygona",
-          "tekst": "Córka Edypa i Jokasty, siostra Ismeny, Eteoklesa i Polinejkesa. Kobieta odważna, bezkompromisowa, kierująca się miłością rodzinną oraz nakazami religii. Uważa, że niepisane prawa boskie stoją ponad rozkazami śmiertelnego władcy."
+          "tekst": "córka Edypa. Odważna, nieustępliwa, wierna rodzinie i bogom. Działa z poczucia obowiązku i miłości do brata, gotowa za to zginąć."
         },
         {
           "typ": "punkt",
           "etykieta": "Kreon",
-          "tekst": "Władca Teb, wuj Antygony. Racjonalista i autokrata, dla którego nadrzędną wartością jest dobro państwa, porządek publiczny i posłuszeństwo wobec prawa stanowionego. Jego upór i pycha (*hybris*) prowadzą do katastrofy."
+          "tekst": "król Teb, wuj Antygony. Stawia prawo państwa ponad wszystko, jest dumny i uparty. Uczy się na własnej tragedii – zbyt późno."
         },
         {
           "typ": "punkt",
           "etykieta": "Ismena",
-          "tekst": "Siostra Antygony. Uległa, lękliwa, reprezentuje postawę zdroworozsądkową i podporządkowanie władzy. Dopiero w obliczu śmierci siostry zdobywa się na odwagę."
+          "tekst": "siostra Antygony, łagodna i lękliwa. Nie chce łamać prawa, ale potem gotowa jest dzielić z siostrą karę."
         },
         {
           "typ": "punkt",
           "etykieta": "Hajmon",
-          "tekst": "Syn Kreona, narzeczony Antygony. Kieruje się miłością oraz mądrością polityczną – rozumie, że władca nie powinien rządzić wbrew woli ludu."
+          "tekst": "syn Kreona, narzeczony Antygony. Rozsądny, próbuje przekonać ojca, ginie z rozpaczy."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Tyrezjasz",
+          "tekst": "ślepy wróżbita, głos bogów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Eurydyka",
+          "tekst": "żona Kreona, ginie po śmierci syna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chór",
+          "tekst": "starcy tebańscy, komentują wydarzenia i wyrażają mądrość zbiorową."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Teby, przed pałacem królewskim, w ciągu jednego dnia, zaraz po wojnie o tron. Tragedia zachowuje zasadę trzech jedności: czasu, miejsca i akcji."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Sofokles wystawił „Antygonę” ok. 442 r. p.n.e. w Atenach. Utwór należy do cyklu tebańskiego (razem z „Królem Edypem” i „Edypem w Kolonos”). To **tragedia antyczna**: prolog, parodos (wejście chóru), epejsodia przedzielone stasimonami (pieśni chóru) i eksodos. Występują maksymalnie trzej aktorzy, nie ma scen przemocy na scenie – o śmierci mówi posłaniec."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Konflikt racji",
+          "tekst": "Antygona broni prawa boskiego i więzów rodzinnych, Kreon – prawa państwowego i porządku. Obie strony mają swoje racje, ale obie trwają przy nich do końca. To konflikt tragiczny – każdy wybór prowadzi do nieszczęścia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Fatum i wina",
+          "tekst": "Ród Labdakidów jest przeklęty. Nad bohaterami ciąży los, ale tragedię przyspiesza też ich własny upór."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Władza",
+          "tekst": "Kreon pokazuje, jak władza bez umiaru zmienia się w tyranię. Nie słucha syna, ludu ani wróżbity."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hybris i katharsis",
+          "tekst": "Pycha (hybris) Kreona zostaje ukarana. Widz, patrząc na cierpienie bohaterów, ma przeżyć oczyszczenie (katharsis)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł wskazuje główną bohaterkę, której wybór uruchamia całą tragedię. Antygona stała się symbolem sprzeciwu wobec niesprawiedliwego prawa i wierności sumieniu."
         }
       ]
     },
@@ -137,15 +283,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Utwór stawia fundamentalne pytanie o hierarchię wartości w życiu człowieka: czy w sytuacji konfliktu należy słuchać własnego sumienia i praw boskich, czy też bezwzględnie podporządkować się prawu państwowemu? Sofokles ukazuje również, jak pycha i brak umiejętności słuchania innych niszczą nawet najbardziej zdeterminowanego władcę."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -162,15 +299,6 @@
           "typ": "punkt",
           "etykieta": "Filozoficzny",
           "tekst": "Prawa natury (boskie) a prawo pozytywne (stanowione przez ludzi)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Sofokles oparł fabułę na greckim micie o rodzie Labdakidów. Tytuł pochodzi od imienia głównej bohaterki (*Anti-gone* – dosłownie „urodzona zamiast” lub „przeciwstawiająca się”), co podkreśla jej niezłomną postawę buntu i centralną rolę w konflikcie wartości."
         }
       ]
     },

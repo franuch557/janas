@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Białoszewski zachwyca się codziennością i rzeczami pozornie nieważnymi: piecem, łyżką, sklepem na rogu. Bawi się językiem, przekręca słowa, tworzy neologizmy, pisze mową potoczną. To poezja lingwistyczna – pokazuje, że w zwykłym języku i zwykłych rzeczach kryje się piękno."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -68,7 +77,54 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Obserwator codzienności, zachwycony światem rzeczy i językiem."
+          "tekst": "zwykły człowiek zachwycony codziennością, eksperymentator językowy."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Warszawa, lata 50. i 60. XX wieku; mieszkanie, ulica, sklep."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Miron Białoszewski (1922–1983) debiutował tomem „Obroty rzeczy” (1956). **Poezja lingwistyczna**, liryka codzienności, z grą słów i rozbijaniem składni."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Codzienność",
+          "tekst": "Zwykłe przedmioty i zdarzenia mogą być niezwykłe."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Język",
+          "tekst": "Słowa mają ukryte znaczenia, które poeta odkrywa przez grę językową."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zachwyt",
+          "tekst": "Poezja jako sposób na radość z prostych rzeczy („Moja niewyczerpana oda do radości”)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły są często przewrotne, łączą wzniosłe formy (oda, ballada) z codziennością."
         }
       ]
     },
@@ -98,31 +154,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Poezja codzienności i rzeczy zwykłych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Język jako tworzywo i temat poezji (lingwizm)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zachwyt nad światem mimo ubóstwa."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zabawa formą."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -144,15 +175,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Leśmian – twórczy neologizm."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Białoszewski debiutował tomem „Obroty rzeczy” (1956). Pisał o przedmiotach codziennych, odkrywając w nich piękno, i bawił się językiem (poezja lingwistyczna): przekształcał słowa, tworzył neologizmy. Tytuły jego wierszy często same są grą językową („Szare eminencje zachwytu”)."
         }
       ]
     },

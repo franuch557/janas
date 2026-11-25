@@ -34,43 +34,137 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Jan Parandowski opowiada najważniejsze mity greckie: o powstaniu świata i bogów, o bogach olimpijskich, o herosach i o wielkich rodach. Mity tłumaczą pochodzenie świata i ludzi, opisują ludzkie namiętności i są źródłem wielu toposów literackich. Na maturze liczy się znajomość postaci i znaczenia mitów."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Wiadomości wstępne",
-          "tekst": "Parandowski wyjaśnia, czym są mity: opowieści, w których Grecy tłumaczyli powstanie świata, zjawiska przyrody, obyczaje i sens ludzkiego losu. Opisuje religię Greków: bogowie mieli ludzką postać i ludzkie namiętności, a kult łączył się z ofiarami, wyroczniami (np. w Delfach) i świętami."
+          "etykieta": "",
+          "tekst": "Wstęp: czym była religia Greków, święta, wyrocznie, świątynie."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Powstanie świata i bogów",
-          "tekst": "Na początku był Chaos; z niego wyłoniły się m.in. Gaja (Ziemia) i Uranos (Niebo). Ich syn Kronos obalił ojca, a potem pożerał własne dzieci, bojąc się utraty władzy. Rea ukryła najmłodszego, Zeusa, który dorósł, zmusił ojca do zwrócenia rodzeństwa i w wojnie z tytanami zdobył władzę. Świat podzielili bracia: Zeus wziął niebo, Posejdon morze, a Hades podziemie."
+          "etykieta": "",
+          "tekst": "Początek świata: Chaos, Gaja, Uranos, tytani, Kronos."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Bogowie olimpijscy",
-          "tekst": "Na Olimpie zamieszkali m.in.: Zeus (władca bogów, grom), Hera (opiekunka małżeństwa), Atena (mądrość, zrodzona z głowy Zeusa), Apollo (sztuka, światło, wyrocznia), Artemida (łowy), Hermes (posłaniec bogów), Afrodyta (miłość i piękno), Ares (wojna), Hefajstos (kowal bogów) i Hestia. Ważne są też Demeter, bogini urodzaju, której córkę Persefonę porwał Hades (stąd mit o porach roku), oraz Dionizos – bóg wina i szału, z którego kultu wyrósł teatr."
+          "etykieta": "",
+          "tekst": "Zeus pokonuje ojca i tytanów, bogowie zamieszkują Olimp."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Mity o ludziach i karach bogów",
-          "tekst": "Prometeusz ukradł bogom ogień i dał go ludziom; za karę przykuto go do skały, a orzeł wyjadał mu wątrobę. Zeus zesłał ludziom Pandorę z puszką pełną nieszczęść (na dnie została nadzieja). Po potopie ludzkość odrodziła się dzięki Deukalionowi i Pyrrze. Inne mity pokazują kary za pychę i zbrodnie: Tantal cierpi wieczny głód i pragnienie, Syzyf wtacza głaz, który zawsze się stacza, Niobe traci dzieci za wywyższanie się ponad Latonę, Narcyz zakochuje się we własnym odbiciu."
+          "etykieta": "",
+          "tekst": "Bogowie olimpijscy i ich mity."
         },
         {
           "typ": "punkt",
           "nr": 5,
-          "etykieta": "Mity o herosach i miłości",
-          "tekst": "Herakles wykonuje dwanaście prac (m.in. zabija lwa nemejskiego i hydrę). Tezeusz zabija Minotaura w labiryncie dzięki nici Ariadny; jego ojciec Egeusz, widząc czarne żagle, rzuca się w morze. Dedal i Ikar uciekają z Krety na skrzydłach; Ikar leci za wysoko i ginie. Perseusz zabija Meduzę. Jazon z Argonautami zdobywa złote runo z pomocą Medei. Orfeusz schodzi do Hadesu po Eurydykę, ale ogląda się za nią i traci ją na zawsze."
+          "etykieta": "",
+          "tekst": "Prometeusz kradnie ogień dla ludzi i zostaje ukarany."
         },
         {
           "typ": "punkt",
           "nr": 6,
-          "etykieta": "Rody tragiczne i wojna trojańska",
-          "tekst": "Ród Labdakidów jest przeklęty: Edyp nieświadomie zabija ojca i poślubia matkę (z tego rodu pochodzi Antygona). Ród Atrydów obciążają kolejne zbrodnie. Spór bogiń o złote jabłko Eris rozstrzyga Parys, wybierając Afrodytę, która daje mu Helenę; jej porwanie wywołuje wojnę trojańską. Po dziesięciu latach Grecy zdobywają Troję podstępem drewnianego konia. Książka opowiada też o długim powrocie Odyseusza do Itaki."
+          "etykieta": "",
+          "tekst": "Puszka Pandory, potop Deukaliona."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Mity o Demeter i Korze, Orfeuszu, Narcyzie, Niobe."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Herosi: Herakles, Tezeusz, Perseusz, Jazon."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Dedal i Ikar."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Rody: Labdakidzi (Edyp, Antygona), Atrydzi (Tantal, Agamemnon)."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Wojna trojańska i powrót Odyseusza."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Powstanie świata",
+          "tekst": "Na początku był Chaos. Z niego wyłoniła się Gaja (Ziemia), która zrodziła Uranosa (Niebo). Ich dziećmi byli tytani. Najmłodszy, Kronos, obalił ojca i pożerał własne dzieci, bojąc się utraty władzy. Rea ocaliła Zeusa, podając mężowi kamień w pieluchach. Zeus dorósł, zmusił Kronosa, by zwrócił rodzeństwo, i po wojnie z tytanami objął władzę nad światem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Prometeusz",
+          "tekst": "Tytan Prometeusz ulepił ludzi z gliny i ukradł dla nich ogień z Olimpu. Zeus ukarał go: przykuł do skały na Kaukazie, gdzie orzeł wyjadał mu wątrobę, która odrastała. Prometeusz stał się symbolem buntu w imię dobra ludzi (prometeizm)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pandora i potop",
+          "tekst": "Bogowie stworzyli Pandorę i dali jej puszkę, której nie wolno było otwierać. Gdy ją otworzyła, wyleciały wszystkie nieszczęścia świata; na dnie została nadzieja. Gdy ludzie stali się źli, Zeus zesłał potop. Ocaleli tylko Deukalion i Pyrra, którzy odnowili ludzkość, rzucając za siebie kamienie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Demeter i Kora",
+          "tekst": "Hades porwał Korę (Persefonę), córkę bogini urodzaju Demeter. Zrozpaczona matka przestała dbać o ziemię i zapanował głód. Zeus ustalił, że Kora część roku spędza z matką, a część w podziemiu. Tak Grecy tłumaczyli pory roku. To mit o miłości matczynej."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Orfeusz i Eurydyka",
+          "tekst": "Śpiewak Orfeusz zszedł do Hadesu po zmarłą żonę Eurydykę. Swoją muzyką wzruszył władców podziemi i mógł ją zabrać pod warunkiem, że się nie obejrzy. Tuż przed wyjściem obejrzał się i stracił ją na zawsze."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Niobe i Narcyz",
+          "tekst": "Niobe chełpiła się, że ma więcej dzieci niż Latona. Apollo i Artemida zabili jej dzieci, a ona z bólu zamieniła się w skałę – to symbol matki w cierpieniu. Narcyz zakochał się we własnym odbiciu i umarł z tęsknoty – stąd narcyzm."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Herakles i Tezeusz",
+          "tekst": "Herakles, syn Zeusa, wykonał dwanaście prac, m.in. zabił lwa nemejskiego i hydrę lernejską. Tezeusz zabił Minotaura w labiryncie na Krecie; z labiryntu wyprowadziła go nić Ariadny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dedal i Ikar",
+          "tekst": "Dedal, budowniczy labiryntu, uciekł z Krety z synem Ikarem na skrzydłach z piór i wosku. Ikar wbrew przestrogom wzleciał zbyt blisko słońca, wosk się stopił i chłopiec spadł do morza. To mit o marzeniach i pysze młodości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Rody przeklęte",
+          "tekst": "Tantal za zbrodnie cierpi w Hadesie wieczny głód i pragnienie (męki Tantala). Klątwa ciąży nad Atrydami (Agamemnon, Orestes) i nad Labdakidami: Edyp nieświadomie zabija ojca i żeni się z matką, a jego dzieci giną w walkach o Teby."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wojna trojańska i Odyseusz",
+          "tekst": "Eris rzuciła złote jabłko „dla najpiękniejszej”. Parys przyznał je Afrodycie i w nagrodę zdobył Helenę, co wywołało wojnę z Troją. Troję zdobyto podstępem drewnianego konia. Odyseusz przez dziesięć lat wracał do Itaki, do wiernej Penelopy."
         }
       ]
     },
@@ -80,47 +174,94 @@
         {
           "typ": "punkt",
           "etykieta": "Zeus",
-          "tekst": "Najwyższy z bogów, władca nieba, często kierujący się własnymi namiętnościami."
+          "tekst": "władca bogów i ludzi, bóg nieba i piorunów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hera",
+          "tekst": "żona Zeusa, opiekunka małżeństwa, zazdrosna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Atena",
+          "tekst": "bogini mądrości i sprawiedliwej wojny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Apollo",
+          "tekst": "bóg sztuki, światła i wyroczni w Delfach."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Afrodyta",
+          "tekst": "bogini miłości i piękna."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hades",
+          "tekst": "władca podziemi."
         },
         {
           "typ": "punkt",
           "etykieta": "Prometeusz",
-          "tekst": "Tytan-dobroczyńca ludzi, symbol buntu i poświęcenia."
+          "tekst": "dobroczyńca ludzi, symbol buntu i poświęcenia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Demeter i Persefona",
-          "tekst": "Matka i córka; mit tłumaczy cykl pór roku."
+          "etykieta": "Syzyf",
+          "tekst": "za oszukiwanie bogów wtacza na górę kamień, który zawsze spada – symbol daremnej pracy."
         },
         {
           "typ": "punkt",
-          "etykieta": "Herakles",
-          "tekst": "Heros o nadludzkiej sile, symbol wytrwałości."
+          "etykieta": "Herakles, Tezeusz, Odyseusz",
+          "tekst": "herosi, wzory siły, odwagi i sprytu."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Czas mityczny – od stworzenia świata do końca epoki herosów. Akcja dzieje się na Olimpie, w Hadesie i w różnych miejscach starożytnej Grecji."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Jan Parandowski wydał „Mitologię” w 1924 roku. To popularnonaukowe opracowanie mitów greckich, rzymskich i germańskich (na maturze obowiązuje część I – Grecja). Mit to opowieść o bogach i herosach, która tłumaczy świat i nadaje sens zjawiskom."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Wyjaśnianie świata",
+          "tekst": "Mity tłumaczą pochodzenie świata, ludzi, pór roku i zjawisk natury."
         },
         {
           "typ": "punkt",
-          "etykieta": "Tezeusz",
-          "tekst": "Pogromca Minotaura, bohater ateński."
+          "etykieta": "Relacje bogów i ludzi",
+          "tekst": "Bogowie są potężni, ale mają ludzkie wady: zazdrość, gniew, próżność. Karzą pychę (hybris)."
         },
         {
           "typ": "punkt",
-          "etykieta": "Dedal i Ikar",
-          "tekst": "Ojciec-wynalazca i syn, który zginął z powodu brawury."
-        },
+          "etykieta": "Archetypy",
+          "tekst": "Mity stworzyły uniwersalne wzorce: buntownika (Prometeusz), matki (Demeter, Niobe), artysty (Orfeusz), daremnej pracy (Syzyf)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Orfeusz",
-          "tekst": "Śpiewak, którego miłość pokonuje śmierć tylko na chwilę."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Syzyf, Tantal, Niobe",
-          "tekst": "Postaci ukarane przez bogów za pychę lub zbrodnię."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Edyp",
-          "tekst": "Król Teb, ofiara fatum; ojciec Antygony."
+          "typ": "akapit",
+          "tekst": "Mitologia to zbiór mitów danego ludu, a także nauka o nich."
         }
       ]
     },
@@ -165,36 +306,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Mit jako sposób wyjaśniania świata."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Relacje ludzi i bogów; pycha (hybris) i kara."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Los, fatum i wolność człowieka."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Miłość silniejsza niż śmierć."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Bohaterstwo, poświęcenie, ambicja."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -226,15 +337,6 @@
           "typ": "punkt",
           "etykieta": "Malarstwo",
           "tekst": "„Upadek Ikara” Pietera Bruegla."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Jan Parandowski wydał „Mitologię” w 1924 r. jako przystępne opowiedzenie mitów greckich i rzymskich, opracowane na podstawie źródeł antycznych (m.in. Homera, Hezjoda, Owidiusza). Nazwa pochodzi od greckich słów *mythos* („opowieść”) i *logos* („słowo, nauka”) i oznacza zbiór mitów danego ludu oraz naukę o nich."
         }
       ]
     },

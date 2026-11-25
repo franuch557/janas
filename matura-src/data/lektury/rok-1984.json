@@ -39,45 +39,113 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: poniżej główne etapy. Szczegóły sprawdź w wydaniu.*"
+          "tekst": "Winston Smith żyje w Oceanii – państwie totalitarnym, w którym Partia i Wielki Brat kontrolują wszystko: myśli, uczucia, historię i język. Winston pracuje w Ministerstwie Prawdy, gdzie fałszuje przeszłość. Potajemnie prowadzi dziennik i romansuje z Julią. Oboje chcą przyłączyć się do ruchu oporu, ale O’Brien, któremu ufają, okazuje się funkcjonariuszem Policji Myśli. W Ministerstwie Miłości Winston zostaje złamany torturami. Na końcu kocha Wielkiego Brata."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Winston zaczyna potajemnie pisać dziennik."
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "Winston Smith, pracownik Ministerstwa Prawdy, przepisuje historię tak, by była zgodna z aktualną propagandą Partii."
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dwie Minuty Nienawiści; Winston zauważa Julię i O’Briena."
         },
         {
           "typ": "punkt",
-          "etykieta": "Bunt",
-          "tekst": "Winston zaczyna prowadzić dziennik, co jest przestępstwem. Nawiązuje związek z Julią, która również sprzeciwia się systemowi."
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Praca w Ministerstwie Prawdy – fałszowanie gazet."
         },
         {
           "typ": "punkt",
-          "etykieta": "Ruch oporu",
-          "tekst": "Winston i Julia poznają O’Briena, który pozornie jest członkiem ruchu oporu."
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Julia wręcza Winstonowi liścik „Kocham cię”."
         },
         {
           "typ": "punkt",
-          "etykieta": "Aresztowanie",
-          "tekst": "Winston i Julia zostają aresztowani w pokoju nad sklepem pana Charringtona, który okazuje się agentem Policji Myśli. O’Brien to w rzeczywistości funkcjonariusz Partii. Winston jest torturowany w Ministerstwie Miłości."
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Spotkania kochanków na wsi i w pokoju nad sklepem pana Charringtona."
         },
         {
           "typ": "punkt",
-          "etykieta": "Pokój 101",
-          "tekst": "w obliczu swojego największego lęku – klatki ze szczurami – Winston zdradza Julię."
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Wizyta u O’Briena; Winston i Julia deklarują przystąpienie do Bractwa."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zakończenie",
-          "tekst": "złamany Winston siedzi w kawiarni Pod Kasztanem, spotyka obojętną Julię i w końcu „kocha Wielkiego Brata”."
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Winston czyta książkę Goldsteina."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** zniszczenie Winstona pokazuje, jak totalitaryzm odbiera wolność nawet myśli."
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Aresztowanie – pan Charrington to agent Policji Myśli."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Tortury w Ministerstwie Miłości; O’Brien „leczy” Winstona."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Pokój 101 – Winston zdradza Julię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Winston zwolniony, spotyka Julię – nic już nie czują."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Winston kocha Wielkiego Brata."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Część I – Winston i system",
+          "tekst": "Londyn, stolica Pasa Startowego Jeden w Oceanii. Wszędzie wiszą plakaty „Wielki Brat patrzy”. Teleekrany podsłuchują i podglądają mieszkańców. Winston, członek Partii Zewnętrznej, w Ministerstwie Prawdy poprawia stare artykuły tak, by zgadzały się z aktualną linią Partii. Potajemnie zaczyna prowadzić dziennik, co jest myślozbrodnią. Pisze „Precz z Wielkim Bratem”. Zastanawia się, czy prolowie – zwykli ludzie – mogliby kiedyś zbuntować się przeciw Partii."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część II – miłość i bunt",
+          "tekst": "Młoda Julia wręcza Winstonowi liścik z wyznaniem miłości. Zaczynają się potajemnie spotykać – na wsi, potem w wynajętym pokoju nad sklepem pana Charringtona, gdzie nie ma teleekranu. Miłość i seks są dla nich formą buntu. Wierzą, że O’Brien należy do tajnego Bractwa. Idą do niego i przysięgają walkę z Partią. O’Brien daje Winstonowi książkę Emmanuela Goldsteina, która wyjaśnia mechanizm władzy. W pokoju nad sklepem zostają aresztowani – okazuje się, że za obrazem był teleekran, a pan Charrington to agent Policji Myśli."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Część III – Ministerstwo Miłości",
+          "tekst": "Winston jest więziony, bity i torturowany. O’Brien tłumaczy mu, że Partia chce władzy dla samej władzy. Zmusza go, by uwierzył, że dwa plus dwa równa się pięć. Na koniec zabiera go do pokoju 101, gdzie każdego czeka to, czego boi się najbardziej. Winston boi się szczurów. Gdy mają mu je wpuścić na twarz, krzyczy, by zrobili to Julii. Jest złamany. Po wypuszczeniu spotyka Julię – oboje przyznają, że się zdradzili. Siedzi w kawiarni, pije dżin i patrzy na twarz Wielkiego Brata. Kocha go."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Aneks – nowomowa",
+          "tekst": "Na końcu jest aneks o zasadach nowomowy – sztucznego języka, którego celem jest uniemożliwienie myślenia przeciw Partii."
         }
       ]
     },
@@ -87,52 +155,94 @@
         {
           "typ": "punkt",
           "etykieta": "Winston Smith",
-          "tekst": "pracownik Ministerstwa Prawdy. Cechy: sceptycyzm, samotność, pragnienie wolności. Decyzje: prowadzenie dziennika, związek z Julią. Zmienia się: od buntownika do człowieka, który akceptuje system. Wymowa: indywidualność zniszczona przez totalitaryzm."
+          "tekst": "39-letni urzędnik, samotny, chorowity, myślący. Szuka prawdy i wolności, ale przegrywa z systemem."
         },
         {
           "typ": "punkt",
           "etykieta": "Julia",
-          "tekst": "młoda kobieta, kochanka Winstona. Cechy: pragmatyzm, bunt, miłość. Rola: symbol buntu w wymiarze osobistym."
+          "tekst": "młoda, odważna, buntuje się z potrzeby życia i przyjemności, a nie z ideałów."
         },
         {
           "typ": "punkt",
           "etykieta": "O’Brien",
-          "tekst": "członek Partii, rzekomo przeciwnik systemu. Rola: symbol manipulacji i władzy."
+          "tekst": "członek Partii Wewnętrznej, inteligentny, okrutny, przekonany o racji systemu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pan Charrington",
+          "tekst": "pozornie miły antykwariusz, w rzeczywistości agent."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Parsons",
+          "tekst": "ortodoksyjny członek Partii, zadenuncjowany przez własną córkę."
         },
         {
           "typ": "punkt",
           "etykieta": "Wielki Brat",
-          "tekst": "symboliczny przywódca Partii. Rola: symbol totalitarnego państwa."
+          "tekst": "wódz Partii, którego być może w ogóle nie ma."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Emmanuel Goldstein",
+          "tekst": "wróg ludu, symboliczny przywódca opozycji."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Rok 1984 (wizja przyszłości), Londyn w Oceanii, jednym z trzech wiecznie walczących ze sobą supermocarstw."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "George Orwell wydał powieść w 1949 roku. Inspiracją były systemy totalitarne – stalinizm i nazizm. To **antyutopia (dystopia)** – obraz złego, przerażającego świata przyszłości, a także powieść polityczna."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "totalitaryzm, manipulacja, wolność myśli, granice władzy państwa."
+          "etykieta": "Totalitaryzm",
+          "tekst": "Państwo kontroluje każdy aspekt życia człowieka."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "jednostka z państwem, prawda z propagandą, miłość z systemem."
+          "etykieta": "Manipulacja prawdą",
+          "tekst": "Partia zmienia przeszłość („Kto kontroluje przeszłość, ten kontroluje przyszłość”)."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "wolność, prawda, miłość, godność człowieka."
+          "etykieta": "Język",
+          "tekst": "Nowomowa ogranicza myślenie, dwójmyślenie pozwala wierzyć w sprzeczności."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "totalitaryzm dąży do zniszczenia jednostki i jej myśli; ochrona wolności wymaga czujności."
+          "etykieta": "Miłość i bunt",
+          "tekst": "Uczucie jest formą wolności, ale system je niszczy."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "pełne podporządkowanie Winstona jest ostrzeżeniem przed utratą wolności."
+          "etykieta": "Zniszczenie człowieka",
+          "tekst": "Tortury łamią nie tylko ciało, ale i duszę."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Rok 1984 to przyszłość widziana z 1948 roku – Orwell przestawił dwie ostatnie cyfry roku powstania powieści."
         }
       ]
     },
@@ -162,26 +272,6 @@
           "nr": 4,
           "etykieta": "Miłość",
           "tekst": "Winston i Julia. *Wykorzystanie:* zestawienie z *Balladyną* i *Lalką* (miłość a system)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Wielki Brat",
-          "tekst": "symbol totalitaryzmu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Pokój 101",
-          "tekst": "symbol najgłębszego strachu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Dziennik",
-          "tekst": "symbol wolnej myśli."
         }
       ]
     },

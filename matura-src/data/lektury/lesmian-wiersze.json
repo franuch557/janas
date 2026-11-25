@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Leśmian tworzy własny, baśniowy świat, w którym granice między człowiekiem, naturą i zaświatami się zacierają. Wymyśla nowe słowa (neologizmy), pisze o miłości, śmierci, nicości i o Bogu, który nie zawsze potrafi pomóc. Jego wiersze często mają formę ballad i piosenek ludowych."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -61,18 +70,65 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Dwunastu braci",
-          "tekst": "Symbol ludzkiego dążenia do ideału, wysiłku ponad śmierć."
+          "etykieta": "Podmiot liryczny / bohaterowie ballad",
+          "tekst": "kochankowie, szaleńcy, istoty z pogranicza świata realnego i fantastycznego."
         },
         {
           "typ": "punkt",
-          "etykieta": "Bajdała",
-          "tekst": "Prosty chłop, który pyta Boga o sens zła."
+          "etykieta": "Bóg",
+          "tekst": "często bezradny, czuły, „ułomny”."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Świat baśniowy, nieokreślony; czasem polska wieś, łąki, lasy."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Bolesław Leśmian (1877–1937) wydał m.in. tomy „Łąka” (1920) i „Napój cienisty” (1936). Gatunki: **ballada**, liryka miłosna, liryka filozoficzna. Charakterystyczne są neologizmy (np. „bezświt”, „zaświecie”, „niebyt”), stylizacja ludowa i fantastyka."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość i natura",
+          "tekst": "Miłość jest zmysłowa i jednoczy człowieka z przyrodą."
         },
         {
           "typ": "punkt",
-          "etykieta": "Kochankowie z malinowego chruśniaka",
-          "tekst": "Zmysłowa para złączona z przyrodą."
+          "etykieta": "Śmierć i nicość",
+          "tekst": "Zaświaty u Leśmiana są niepewne, a śmierć często okazuje się pustką."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sens działania",
+          "tekst": "Ludzki wysiłek ma wartość, nawet gdy cel jest złudzeniem („Dziewczyna”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Bóg",
+          "tekst": "Bóg jest bliski człowiekowi, ale nie wszechmocny."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły wskazują bohatera lub miejsce, które staje się symbolem."
         }
       ]
     },
@@ -107,36 +163,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Granica między bytem a niebytem."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Dążenie do ideału i jego pustka."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Istnienie zła na świecie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Miłość zmysłowa jako część natury."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Ludowa fantastyka i baśniowość."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -163,15 +189,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Barok i Morsztyn – inne oblicze erotyki."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Leśmian wydał najważniejsze tomy w okresie międzywojennym: „Łąka” (1920) i „Napój cienisty” (1936). Tworzył własny, baśniowy świat pełen istot na pograniczu bytu i nicości, a do jego opisu wymyślał neologizmy („bezbrzeże”, „zieleń zielna”). Tytuły wierszy często nazywają te istoty albo miejsca („Dusiołek”, „W malinowym chruśniaku”)."
         }
       ]
     },

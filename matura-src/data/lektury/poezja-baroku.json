@@ -34,37 +34,46 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Poezja barokowa pokazuje człowieka rozdartego między niebem a ziemią: między wiarą a pokusami świata. Mikołaj Sęp Szarzyński pisze o niepokoju duszy i walce ze złem, Daniel Naborowski o przemijaniu czasu, a Jan Andrzej Morsztyn tworzy zabawne, zaskakujące wiersze o miłości (poezja konceptu). Typowe są kontrasty, paradoksy, antytezy i zaskakujące puenty."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "Sęp Szarzyński, Sonet I „O krótkości i niepewności na świecie żywota człowieczego”",
-          "tekst": "Czas pędzi jak obłoki, a śmierć idzie tuż za człowiekiem. Podmiot z wiekiem coraz wyraźniej widzi swoje błędy i żałuje młodzieńczych porywów. Władza, przyjemności i bogactwa odciągają człowieka od prawdziwego szczęścia, którym jest Bóg. Szczęśliwy jest ten, kto zaufa Bogu."
+          "etykieta": "Mikołaj Sęp Szarzyński, „Sonet IV. O wojnie naszej, którą wiedziemy z szatanem, światem i ciałem”",
+          "tekst": "Życie człowieka to nieustanna walka z trzema wrogami: szatanem, światem i ciałem. Człowiek jest słaby, ale nie poddaje się, bo pomaga mu Bóg. Podmiot prosi Boga o łaskę, bez której przegrałby walkę. Sonet pokazuje niepokój i dramatyzm barokowej religijności."
         },
         {
           "typ": "punkt",
-          "nr": 2,
-          "etykieta": "Sęp Szarzyński, Sonet IV „O wojnie naszej, którą wiedziemy z szatanem, światem i ciałem”",
-          "tekst": "Życie człowieka to nieustanna walka duchowa z trzema wrogami: szatanem, światem (jego marnościami) i ciałem, które pragnie przyjemności. Człowiek jest słaby i „rozdwojony w sobie”, więc sam nie wygra – nadzieja jest tylko w Bogu, który może go postawić przy sobie i zapewnić zwycięstwo."
+          "etykieta": "Mikołaj Sęp Szarzyński, „Sonet V. O nietrwałej miłości rzeczy świata tego”",
+          "tekst": "Ludzie kochają rzeczy przemijające: złoto, sławę, piękno. Te dobra nie dają spokoju, bo nie trwają. Prawdziwy spokój daje tylko miłość do Boga, który jest wieczny i doskonały."
         },
         {
           "typ": "punkt",
-          "nr": 3,
-          "etykieta": "Sęp Szarzyński, Sonet V „O nietrwałej miłości rzeczy świata tego”",
-          "tekst": "Podmiot rozważa paradoks: trudno nie kochać, ale kochanie rzeczy ziemskich (złota, władzy, sławy, piękna) przynosi tylko nędzną pociechę, bo wszystko to się psuje. Miłość jest naturą człowieka, lecz dusza zostaje oszukana, jeśli nie kieruje jej ku Bogu – wiecznemu pięknu."
+          "etykieta": "Daniel Naborowski, „Krótkość żywota”",
+          "tekst": "Wiersz o przemijaniu: życie mija szybko jak cień, sen, dym. „Godzina za godziną niepojęcie chodzi”. Człowiek przemija, a mądry powinien pamiętać o śmierci. To przykład motywu **vanitas** i **memento mori**."
         },
         {
           "typ": "punkt",
-          "nr": 4,
-          "etykieta": "Daniel Naborowski, „Krótkość żywota” i „Marność”",
-          "tekst": "„Krótkość żywota” to wyliczenie obrazów nietrwałości: życie jest jak dźwięk, cień, dym, wiatr, błysk, punkt; ledwie się zaczyna, a już mija – dla wielu kołyska stała się grobem. „Marność” stwierdza, że świat hołduje marności, ale radzi kochać i żartować pobożnie i uczciwie, a nade wszystko bać się Boga – wtedy śmierć nie jest straszna."
+          "etykieta": "Daniel Naborowski, „Marność”",
+          "tekst": "Świat jest marnością. Wszystko jest zmienne i ulotne, a człowiek powinien zwrócić się ku Bogu. Wiersz nawiązuje do Księgi Koheleta."
         },
         {
           "typ": "punkt",
-          "nr": 5,
           "etykieta": "Jan Andrzej Morsztyn, „Do trupa”",
-          "tekst": "Sonet zbudowany na zaskakującym porównaniu (koncepcie): zakochany porównuje się do leżącego zmarłego. Obaj są „zabici” – trup strzałą śmierci, on strzałą miłości. Różnica jest taka, że zmarły nic nie czuje i rozsypie się w proch, a kochanek cierpi i nie może się nawet obrócić w popiół, bo stał się wiecznym żywiołem własnego ognia."
+          "tekst": "Zakochany porównuje się do trupa: obaj są martwi, obaj zostali „zabici” – trup przez śmierć, a on przez miłość. Ale zakochany ma gorzej, bo cierpi i myśli. To **koncept** – zaskakujące, błyskotliwe porównanie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Jan Andrzej Morsztyn, „Niestatek”",
+          "tekst": "Wiersz wylicza rzeczy niemożliwe: łatwiej zatrzymać wiatr czy policzyć gwiazdy, niż żeby kobieta była stała w uczuciach. Puenta jest żartobliwa i zaskakująca."
         }
       ]
     },
@@ -73,18 +82,70 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny Sępa Szarzyńskiego",
-          "tekst": "Człowiek niespokojny, świadomy grzechu i słabości, szukający oparcia w Bogu."
+          "etykieta": "Podmiot liryczny u Sępa",
+          "tekst": "człowiek wierzący, niespokojny, świadomy grzechu i słabości."
         },
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny Naborowskiego",
-          "tekst": "Moralista rozważający krótkość życia."
+          "etykieta": "Podmiot u Naborowskiego",
+          "tekst": "mędrzec, który rozmyśla o przemijaniu."
         },
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny Morsztyna",
-          "tekst": "Wyrafinowany, dworski kochanek, bawiący się paradoksem."
+          "etykieta": "Podmiot u Morsztyna",
+          "tekst": "kochanek, dworzanin, ironiczny i dowcipny."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska przełomu XVI i XVII w. (Sęp, Naborowski) i XVII w. (Morsztyn)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Barok trwał w Polsce od końca XVI do połowy XVIII wieku. Ważne gatunki: **sonet** (14 wersów, dwie strofy czterowersowe i dwie trzywersowe), **epigramat**, liryk miłosny. Barok dzieli się na nurt metafizyczny (Sęp, Naborowski) i dworski, konceptystyczny (Morsztyn)."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Vanitas i przemijanie",
+          "tekst": "Wszystko, co ziemskie, jest marne i nietrwałe."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Człowiek między dobrem a złem",
+          "tekst": "Człowiek walczy z pokusami i szuka oparcia w Bogu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość",
+          "tekst": "U Morsztyna miłość to gra, zabawa i cierpienie przedstawione w zaskakujących porównaniach."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zaskoczenie i kontrast",
+          "tekst": "Barok lubi paradoksy, antytezy, oksymorony i puenty."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły wierszy często nazywają temat („Marność”, „Krótkość żywota”) albo adresata („Do trupa”)."
         }
       ]
     },
@@ -124,36 +185,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie i marność świata (vanitas)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Niepokój egzystencjalny i religijny człowieka baroku."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Walka duchowa: dusza przeciw ciału."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Miłość jako cierpienie i gra intelektualna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Bóg jako jedyna trwała wartość."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -180,15 +211,6 @@
           "typ": "punkt",
           "etykieta": "Malarstwo",
           "tekst": "martwe natury typu vanitas (czaszka, klepsydra, zgaszona świeca)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Wiersze powstały od końca XVI do końca XVII w. Sonety Mikołaja Sępa Szarzyńskiego wydano pośmiertnie w 1601 r. w tomie „Rytmy abo wiersze polskie”, utwory Naborowskiego i Morsztyna krążyły głównie w odpisach. Nazwa epoki pochodzi prawdopodobnie od portugalskiego *barocco* – „perła o nieregularnym kształcie”, co oddaje upodobanie baroku do kontrastu, przepychu i zaskoczenia."
         }
       ]
     },

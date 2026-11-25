@@ -34,31 +34,36 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tetmajer to najbardziej popularny poeta Młodej Polski. Jego wiersze wyrażają nastroje końca wieku (dekadentyzm): zniechęcenie, pesymizm, poczucie bezsensu i ucieczkę w sztukę, nirwanę lub miłość. Pisał też impresjonistyczne opisy Tatr."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
           "etykieta": "„Koniec wieku XIX”",
-          "tekst": "Wiersz jest serią pytań o to, jaką postawę może przyjąć człowiek schyłku wieku: przekleństwo, ironię, wzgardę, rozpacz, walkę, rezygnację, wiarę w życie przyszłe, użycie (hedonizm). Każda zostaje odrzucona krótkim kontrargumentem – np. walka jest bezsensowna jak opór mrówki wobec pędzącego pociągu. Na koniec pada pytanie, czym człowiek końca wieku ma się bronić przed złem, skoro żadna z dawnych wiar mu nie wystarcza – a ten w milczeniu zwiesza głowę. To manifest dekadentyzmu."
+          "tekst": "Podmiot pyta, jaką postawę przyjąć wobec świata: przekleństwo, ironię, pogardę, rozpacz, walkę, rezygnację, modlitwę, użycie. Na każdą propozycję odpowiada, że nie ma sensu. Kończy pytaniem bez odpowiedzi i zwieszeniem głowy. To manifest **dekadentyzmu** – bezradności człowieka u schyłku wieku."
         },
         {
           "typ": "punkt",
-          "nr": 2,
+          "etykieta": "„Nie wierzę w nic”",
+          "tekst": "Podmiot nie wierzy w nic, nie pragnie niczego i niczego nie oczekuje. Jedynym ukojeniem jest **nirwana** – całkowite zapomnienie, „bezmyślność”, wieczny sen. Wiersz wyraża pesymizm i wpływ filozofii Schopenhauera."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "„Hymn do Nirwany”",
-          "tekst": "Podmiot, cierpiący i zniesmaczony ludzką podłością, wzywa Nirwanę – stan wygaśnięcia wszelkich pragnień i świadomości (z filozofii buddyjskiej, przefiltrowanej przez Schopenhauera). Prosi, by przyniosła mu zapomnienie, uwolniła od myśli i pamięci. Forma przypomina modlitwę (parafraza „Ojcze nasz”), a refren „Nirwano!” powtarza się po każdym wersie."
+          "tekst": "Modlitewna prośba do Nirwany, by ukoiła ból istnienia. Podmiot pragnie rozpłynąć się w nicości, nie czuć i nie myśleć."
         },
         {
           "typ": "punkt",
-          "nr": 3,
-          "etykieta": "„Lubię, kiedy kobieta…”",
-          "tekst": "Erotyk opisujący chwilę miłosnego uniesienia: podmiot zachwyca się kobietą omdlewającą w jego objęciach, jej zamkniętymi oczami, bladością i drżeniem. Miłość zmysłowa jest tu sposobem ucieczki od cierpienia i nudy istnienia."
-        },
-        {
-          "typ": "punkt",
-          "nr": 4,
-          "etykieta": "„Melodia mgieł nocnych (Nad Czarnym Stawem Gąsienicowym)”",
-          "tekst": "Impresjonistyczny obraz tatrzańskiej nocy: mgły, przedstawione jak delikatne istoty, unoszą się nad stawem w świetle księżyca, tańczą i kołyszą się. Wiersz oddaje nastrój, ruch i światło, z dużą muzycznością."
+          "etykieta": "„Melodia mgieł nocnych” (Nad Czarnym Stawem Gąsienicowym)",
+          "tekst": "Impresjonistyczny obraz Tatr nocą: mgły unoszą się nad stawem, wszystko jest ulotne, niewyraźne, zmienne. Mgły same mówią o sobie. To przykład **impresjonizmu** w poezji – oddania ulotnego wrażenia."
         }
       ]
     },
@@ -68,7 +73,54 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Dekadent schyłku wieku – zmęczony, zniechęcony, szukający ucieczki w nirwanie, miłości i sztuce; wrażliwy na piękno natury."
+          "tekst": "dekadent, człowiek zmęczony życiem, wrażliwy estetycznie, pesymista."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Przełom XIX i XX wieku; Kraków i Tatry."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Kazimierz Przerwa-Tetmajer (1865–1940) wydawał kolejne serie „Poezji” od 1891 roku. To **liryka refleksyjna i nastrojowa** z cechami symbolizmu i impresjonizmu."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Dekadentyzm",
+          "tekst": "Poczucie schyłku, kryzysu wartości, bezsilności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ucieczka od cierpienia",
+          "tekst": "Nirwana, sztuka, miłość i natura jako sposoby ucieczki od świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przyroda",
+          "tekst": "Tatry pokazane w impresjonistycznych, ulotnych obrazach."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły nazywają nastrój lub ideę („Koniec wieku XIX”, „Nie wierzę w nic”)."
         }
       ]
     },
@@ -103,31 +155,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Dekadentyzm: poczucie końca, kryzys wartości i wiary."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pesymizm i bezradność człowieka."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Ucieczka od cierpienia: nirwana, erotyka, sztuka, natura."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Piękno przyrody tatrzańskiej."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -149,15 +176,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Leopold Staff – inna, bardziej optymistyczna odpowiedź na kryzys („Kowal”)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Tetmajer wydawał kolejne serie „Poezji” od 1891 r. i stał się najpopularniejszym poetą wczesnej Młodej Polski. „Koniec wieku XIX” i „Hymn do Nirwany” wyrażają dekadentyzm – poczucie schyłku cywilizacji, zwątpienie i pragnienie ucieczki od cierpienia. Tytuły nazywają czas (przełom wieków) albo cel tęsknoty (nirwana – w buddyzmie stan wyzwolenia z cierpienia)."
         }
       ]
     },

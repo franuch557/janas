@@ -34,31 +34,31 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Słowacki to drugi obok Mickiewicza wielki poeta romantyczny. W jego liryce wracają tematy samotności, tęsknoty za ojczyzną, roli poety i obowiązku wobec narodu. „Testament mój” to pożegnanie poety z przyjaciółmi i przesłanie dla przyszłych pokoleń: trzeba poświęcić się dla ojczyzny, nawet za cenę życia."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "„Testament mój”",
-          "tekst": "Poeta żegna się z przyjaciółmi i rodakami. Mówi, że żył z nimi i dzielił ich cierpienia, a teraz odchodzi bez spadkobierców swego talentu i nazwiska. Prosi, by przekazali w pamięci, że poświęcił młodość ojczyźnie i był wierny jej sprawie do końca – jak żeglarz, który nie opuścił tonącego okrętu. Prosi, by nie tracili nadziei, nieśli przed narodem kaganiec oświaty i w razie potrzeby szli na śmierć jak kamienie rzucane przez Boga na szaniec. Liczy, że po śmierci jego siła pozostanie z nimi i kiedyś przemieni „zjadaczy chleba” w aniołów."
+          "etykieta": "„Testament mój” (1839/1840)",
+          "tekst": "Poeta żegna się z przyjaciółmi. Mówi, że żył z nimi, cierpiał i płakał, a teraz odchodzi. Uważa, że dobrze służył ojczyźnie, i nie chce żałoby. Prosi przyjaciół, by w czasie powrotu do walki nie tracili nadziei i nieśli przed narodem kaganiec oświaty. Gdy trzeba, mają iść „na śmierć po kolei, jak kamienie przez Boga rzucane na szaniec”. Na koniec mówi, że po jego śmierci pozostanie „siła fatalna” – jego poezja, która będzie zmieniać ludzi z „zjadaczy chleba w aniołów”. Wiersz łączy motyw **exegi monumentum** z romantycznym patriotyzmem."
         },
         {
           "typ": "punkt",
-          "nr": 2,
-          "etykieta": "„Grób Agamemnona”",
-          "tekst": "Stojąc w grobowcu Agamemnona w Mykenach, poeta rozmyśla o greckim bohaterstwie (Termopile) i porównuje je z Polską. Gorzko krytykuje szlachtę: Polska była „pawiem i papugą narodów”, naśladującą innych, przywiązaną do pozorów i kontusza, przez co stała się służebnicą obcych. Wzywa do zrzucenia starej, szlacheckiej „koszuli” i odrodzenia narodu."
-        },
-        {
-          "typ": "punkt",
-          "nr": 3,
           "etykieta": "„Hymn” („Smutno mi, Boże!”)",
-          "tekst": "Podczas podróży morskiej, o zachodzie słońca, poeta zwraca się do Boga z wyznaniem smutku i samotności. Piękno morza i nieba kontrastuje z jego tęsknotą za domem i bliskimi. Refren wyraża bezradność wygnańca."
+          "tekst": "Podróżny na statku patrzy na zachód słońca nad morzem. Zachwyca się pięknem świata, ale czuje smutek i samotność, bo jest daleko od ojczyzny i nie ma rodzinnego grobu. Refren „Smutno mi, Boże!” wyraża tęsknotę wygnańca."
         },
         {
           "typ": "punkt",
-          "nr": 4,
-          "etykieta": "„Rozłączenie”",
-          "tekst": "List poetycki do ukochanej (Aleksandry Bécu) – samotność, rozłąka, wyobrażenie miejsc, których bliska osoba nie zobaczy, i tęsknota."
+          "etykieta": "„Grób Agamemnona” (fragment „Podróży do Ziemi Świętej z Neapolu”)",
+          "tekst": "Poeta odwiedza w Mykenach grobowiec Agamemnona i wspomina bohaterstwo Greków. Porównuje do nich Polaków i gorzko ocenia klęskę powstania listopadowego. Nazywa Polskę „pawiem narodów i papugą” – próżną i naśladującą innych. Wzywa naród, by wyzwolił swoją „anielską duszę” z „czerepu rubasznego”, czyli prymitywnej, sarmackiej skorupy. To przykład gorzkiego rozrachunku z wadami Polaków."
         }
       ]
     },
@@ -68,7 +68,64 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Poeta-wygnaniec, patriota, świadomy swojej misji i samotności; ironiczny wobec współczesnych."
+          "tekst": "samotny poeta-wygnaniec, świadomy swojej misji i wielkości, rozczarowany narodem, ale wierny ojczyźnie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przyjaciele (adresaci „Testamentu”)",
+          "tekst": "emigranci, przyszli bojownicy o wolność."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Emigracja po upadku powstania listopadowego (po 1831): Szwajcaria, Paryż, Morze Śródziemne, Grecja."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Juliusz Słowacki (1809–1849) całe dorosłe życie spędził na emigracji. „Testament mój” to **liryka bezpośrednia** w formie testamentu poetyckiego, „Hymn” – liryka refleksyjna o nastroju elegii."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Poeta i jego misja",
+          "tekst": "Poeta jest przewodnikiem narodu; jego słowo ma moc zmieniania ludzi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Patriotyzm i ofiara",
+          "tekst": "Trzeba być gotowym do poświęceń dla ojczyzny."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Samotność i tęsknota",
+          "tekst": "Wygnaniec czuje się samotny i obcy w świecie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Krytyka narodu",
+          "tekst": "Słowacki ostro ocenia wady Polaków, by pobudzić ich do przemiany."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "„Testament” to ostatnia wola – poeta przekazuje w nim swoje przesłanie przyszłym pokoleniom."
         }
       ]
     },
@@ -108,36 +165,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Rola poety i jego spuścizna."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Patriotyzm, poświęcenie i obowiązek wobec ojczyzny."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Krytyka narodu i szlachty."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Samotność emigranta."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Nieśmiertelność dzięki pamięci i sztuce."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -164,15 +191,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Zbigniew Herbert, „Przesłanie Pana Cogito” – XX-wieczny testament moralny."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "„Testament mój” powstał na emigracji, ok. 1839–1840 r. Słowacki, często niedoceniany za życia, wierzył w przyszłą siłę swojej poezji. Tytuł nazywa formę: testament to ostatnia wola. Poeta zostawia w nim przyjaciołom i potomnym zobowiązanie do walki o ojczyznę oraz zapowiedź, że jego słowa będą działać po śmierci (motyw *non omnis moriar*)."
         }
       ]
     },

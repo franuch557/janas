@@ -34,19 +34,36 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Pieśni Kochanowskiego to renesansowe utwory o tym, jak dobrze żyć. Poeta uczy umiaru i spokoju ducha, cieszy się życiem i przyrodą, chwali Boga za piękno świata, pisze też o obowiązkach wobec ojczyzny i o sławie poety. Wiele myśli przejął od Horacego. Obowiązkowe są m.in. Pieśń IX z Ksiąg pierwszych i Pieśń V z Ksiąg wtórych."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "Pieśń IX ks. I („Chcemy sobie być radzi?”)",
-          "tekst": "Utwór zaczyna się od zaproszenia do biesiady: wino i muzyka mają rozweselić gości. Poeta zauważa, że nikt nie wie, co przyniesie jutro – przyszłość zna tylko Bóg, który z góry patrzy na ludzi zamartwiających się ponad miarę. Fortuna jest kapryśna: kto dziś stoi wysoko, jutro może upaść, i odwrotnie. Nie ma sensu, by śmiertelny człowiek próbował rozumem ogarnąć wszystko. Mądry jest ten, kto umie znosić zarówno szczęście, jak i nieszczęście: w złym losie wytrwać, w dobrym się nie wywyższać. Podmiot cieszy się trwałym szczęściem, ale gdy je straci, odda to, co dostał, i schroni się we własnej cnocie. W burzy (obraz życia) nie będzie panicznie modlił się o ocalenie towarów – spokojnie popłynie nawet małą łodzią."
+          "etykieta": "Pieśń IX (Księgi pierwsze) – „Chcemy sobie być radzi?”",
+          "tekst": "Poeta zaprasza do zabawy i radości, ale przypomina, że przyszłość zna tylko Bóg, a losem rządzi Fortuna – kapryśna i zmienna. Trzeba więc zachować spokój: w nieszczęściu nie rozpaczać, w szczęściu nie popadać w pychę. Myśl przewodnia: „człowiek przeciw złemu stateczny”. To połączenie stoicyzmu i epikureizmu oraz motywu **carpe diem**."
         },
         {
           "typ": "punkt",
-          "nr": 2,
-          "etykieta": "Pieśń V ks. II („Pieśń o spustoszeniu Podola”)",
-          "tekst": "Kochanowski reaguje na najazd tatarski na Podole (1575). Nazywa klęskę wieczną hańbą Polaków: ziemia jest spustoszona, ludzi uprowadzono w niewolę, córki szlacheckie trafiły do haremów najeźdźców. Wrogowie, którzy nie budują miast ani wsi, zwyciężają tylko dzięki nierządowi Rzeczypospolitej – kraj przypomina stado bez pasterza i psów. Poeta wzywa „cnego Lacha” do przebudzenia, do pomszczenia krzywd i zmycia hańby, a także do ofiarności: niech szlachta przetopi srebrne naczynia na pieniądze dla wojska. Kończy gorzką przestrogą: jeśli Polacy się nie zmienią, powstanie nowe przysłowie, że Polak jest głupi i przed szkodą, i po szkodzie."
+          "etykieta": "Pieśń V (Księgi wtóre) – „Pieśń o spustoszeniu Podola”",
+          "tekst": "Pieśń patriotyczna, napisana po najeździe Tatarów na Podole (1575). Poeta krytykuje szlachtę za brak przygotowania do obrony i powtarza przysłowie: „Polak i przed szkodą, i po szkodzie głupi”. Wzywa do podatków na wojsko i do zemsty na wrogu. Pokazuje obowiązki obywatela wobec państwa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pieśń XXV (Księgi wtóre) – „Czego chcesz od nas, Panie”",
+          "tekst": "Hymn pochwalny dla Boga – Stwórcy pięknego, uporządkowanego świata. Bóg jest jak architekt i artysta, a natura zachwyca harmonią. Podmiot dziękuje Bogu i prosi o opiekę. To przykład renesansowego, radosnego obrazu Boga."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pieśń XXIV (Księgi wtóre) – „Niezwykłym i nie leda piórem”",
+          "tekst": "Poeta mówi, że po śmierci zamieni się w łabędzia i będzie żył w swojej poezji. Nawiązuje do Horacego i motywu **exegi monumentum** – nieśmiertelności poety."
         }
       ]
     },
@@ -55,13 +72,70 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny Pieśni IX",
-          "tekst": "Mędrzec-humanista, czerpiący z Horacego: łączy epikurejską radość życia ze stoickim spokojem."
+          "etykieta": "Podmiot liryczny",
+          "tekst": "humanista, mędrzec, obywatel. Ceni umiar, spokój, przyjaźń, ojczyznę i Boga."
         },
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny Pieśni V",
-          "tekst": "Obywatel-patriota, który gani rodaków i nawołuje do czynu."
+          "etykieta": "Fortuna",
+          "tekst": "personifikacja zmiennego losu."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska XVI wieku, czasy Zygmunta Augusta i Stefana Batorego; Czarnolas, dwór królewski."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Jan Kochanowski (1530–1584) pisał pieśni przez całe życie. Ukazały się w 1586 roku w zbiorze „Pieśni ksiąg dwoje”. Gatunek: **pieśń** – utwór liryczny o tematyce refleksyjnej, filozoficznej, patriotycznej lub religijnej, wzorowany na odach Horacego."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Filozofia życia",
+          "tekst": "Szczęście daje cnota, umiar i spokój ducha; trzeba być „statecznym” w każdej sytuacji."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Los i Fortuna",
+          "tekst": "Świat jest zmienny, a człowiek nie zna przyszłości."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Bóg i natura",
+          "tekst": "Bóg to dobry Stwórca harmonijnego świata. Przyroda jest piękna i uporządkowana."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Patriotyzm",
+          "tekst": "Dobro ojczyzny wymaga poświęcenia i rozsądku obywateli."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sława poety",
+          "tekst": "Poezja daje nieśmiertelność."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "„Pieśni” to nazwa gatunku. Utwory nie mają tytułów – nazywa się je numerem i pierwszymi słowami."
         }
       ]
     },
@@ -96,36 +170,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Zmienność Fortuny i jak się wobec niej zachować."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Postawa stoicka i epikurejska – umiar, spokój ducha, cnota."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Odpowiedzialność obywatela za państwo."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Krytyka szlachty: beztroska, brak ofiarności, nierząd."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Bóg jako stwórca i rządca świata (renesansowy optymizm)."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -152,15 +196,6 @@
           "typ": "punkt",
           "etykieta": "Renesansowy humanizm",
           "tekst": "zainteresowanie człowiekiem i jego szczęściem na ziemi."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Kochanowski pisał pieśni przez całe życie, wzorując się na Horacym. Zbiór „Pieśni ksiąg dwoje” ukazał się pośmiertnie w 1586 r. Tytuł nazywa gatunek – pieśń, czyli utwór liryczny o regularnej budowie, pierwotnie przeznaczony do śpiewu. Poszczególne pieśni oznacza się numerem księgi i utworu albo pierwszymi słowami (np. Pieśń XXV z Ksiąg wtórych „Czego chcesz od nas, Panie”)."
         }
       ]
     },

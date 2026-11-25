@@ -29,13 +29,36 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Krótki wiersz Ignacego Krasickiego wychwalający miłość do ojczyzny. Poeta mówi, że to uczucie „święte” – dla ojczyzny warto cierpieć, a nawet umrzeć, bo nie jest to hańbą, lecz zaszczytem. Utwór był bardzo popularny, a w czasach zaborów stał się hymnem patriotów."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "Treść",
-          "tekst": "Krótki utwór (jedna strofa, osiem wersów) jest apostrofą do miłości ojczyzny, nazwanej świętą. Czują ją tylko ludzie szlachetni. Dla niej nawet trucizna smakuje, więzy i kajdany nie przynoszą hańby, a kalectwo i blizny odniesione w walce są powodem do chwały. Miłość ojczyzny daje prawdziwą radość. Jeśli można ojczyźnie pomóc, nie żal żyć w nędzy ani umrzeć."
+          "etykieta": "Pierwsza część – zwrot do miłości ojczyzny",
+          "tekst": "Podmiot zwraca się do „świętej miłości kochanej ojczyzny”. Mówi, że czują ją tylko „umysły poczciwe”, czyli ludzie szlachetni."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Druga część – poświęcenie",
+          "tekst": "Dla ojczyzny nawet trucizny smakują, więzy i pęta nie hańbią, a kalectwo zamienia się w chwalebne blizny. Gdy ojczyzna potrzebuje, warto znieść wszystko."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Zakończenie – gotowość do ofiary",
+          "tekst": "Podmiot deklaruje, że byle tylko móc wspierać ojczyznę, nie żal mu żyć w nędzy ani umierać. Służba ojczyźnie nadaje sens nawet cierpieniu i śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Forma",
+          "tekst": "Wiersz ma tylko 10 wersów, pisany jest trzynastozgłoskowcem. Krasicki stosuje apostrofę („Święta miłości…”), paradoksy (smaczne trucizny, zaszczytne rany) i wykrzyknienia. Ton jest podniosły."
         }
       ]
     },
@@ -45,7 +68,59 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Patriota, który wyraża uczucia wspólne wszystkim „umysłom poczciwym”."
+          "tekst": "patriota gotowy do poświęceń."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość ojczyzny",
+          "tekst": "personifikacja, adresat hymnu."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska po I rozbiorze (1772); wiersz wydrukowano w 1774 r."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wiersz wydrukowano w 1774 r., a rok później Krasicki włączył go do poematu heroikomicznego „Myszeida” (pieśń IX). Według tradycji napisał go dla uczniów Szkoły Rycerskiej. Gatunek: **hymn** – uroczysta pieśń pochwalna."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Patriotyzm",
+          "tekst": "Miłość do ojczyzny jest najwyższą wartością."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Poświęcenie",
+          "tekst": "Dla ojczyzny warto znosić cierpienie i oddać życie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wychowanie obywatela",
+          "tekst": "Utwór miał kształtować postawę obywatelską młodzieży – to typowe dla oświecenia."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Hymn to uroczysta pieśń pochwalna; tytuł mówi, co jest wychwalane – miłość ojczyzny."
         }
       ]
     },
@@ -66,26 +141,6 @@
           "typ": "punkt",
           "etykieta": "Paradoks",
           "tekst": "Trucizna smakuje, kalectwo zdobi."
-        }
-      ]
-    },
-    {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Patriotyzm jako najwyższa wartość."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Poświęcenie dla ojczyzny aż do śmierci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Ofiara i cierpienie jako źródło godności."
         }
       ]
     },
@@ -116,15 +171,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Baczyński – patriotyzm pokolenia wojennego, ofiara z życia."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Krasicki napisał „Hymn” w 1774 r., wkrótce po pierwszym rozbiorze Polski (1772), dla uczniów Szkoły Rycerskiej. Potem włączył go do poematu „Myszeida” (pieśń IX). Tytuł nazywa gatunek (hymn – uroczysta pieśń pochwalna, dawniej o bogach) i jego temat: miłość ojczyzny zajmuje tu miejsce zarezerwowane wcześniej dla sacrum."
         }
       ]
     },

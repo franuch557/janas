@@ -34,43 +34,36 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Horacy to rzymski poeta z I w. p.n.e. W pieśniach (odach) uczy, jak mądrze żyć: cieszyć się chwilą, zachować umiar i spokój ducha, nie bać się śmierci. Wierzy też, że poezja daje artyście nieśmiertelność. Jego myśli wróciły w renesansie, m.in. u Kochanowskiego."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
       "bloki": [
         {
           "typ": "punkt",
-          "nr": 1,
-          "etykieta": "Exegi monumentum (Pieśń III, 30)",
-          "tekst": "Poeta stwierdza, że wzniósł sobie pomnik trwalszy niż ze spiżu i wyższy niż piramidy, którego nie zniszczy ani deszcz, ani wiatr, ani upływ lat. Nie umrze cały – jego poezja przetrwa. Będzie sławiony jako ten, kto pierwszy przeniósł pieśń grecką (eolską) na rytmy łacińskie. Prosi muzę Melpomenę o wieniec laurowy. To wzór motywu non omnis moriar."
+          "etykieta": "„Exegi monumentum” (Wybudowałem pomnik, Pieśń III 30)",
+          "tekst": "Poeta mówi, że jego twórczość to pomnik trwalszy niż ze spiżu i wyższy niż piramidy. Nie zniszczą go deszcz, wiatr ani czas. „Nie wszystek umrę” (non omnis moriar) – część poety przetrwa w poezji. Horacy chlubi się, że jako pierwszy przeniósł pieśń grecką do poezji łacińskiej. To wzór motywu **exegi monumentum**, czyli poety świadomego wartości swojego dzieła."
         },
         {
           "typ": "punkt",
-          "nr": 2,
-          "etykieta": "Do Leukonoe (Pieśń I, 11)",
-          "tekst": "Poeta radzi Leukonoe, by nie próbowała poznać przyszłości ani daty śmierci przez wróżby. Lepiej przyjąć to, co przyniesie los, bo czas ucieka nawet wtedy, gdy rozmawiamy. Trzeba korzystać z dnia dzisiejszego – stąd słynne „carpe diem”."
+          "etykieta": "„Carpe diem” (Do Leukonoe, Pieśń I 11)",
+          "tekst": "Poeta radzi Leukonoe, by nie pytała wróżbitów, ile lat jej zostało. Przyszłość jest niepewna, a czas szybko ucieka. Trzeba korzystać z dnia dzisiejszego i jak najmniej ufać jutru. **Carpe diem** – „chwytaj dzień” – to nie zachęta do hulanki, lecz do mądrego cieszenia się życiem."
         },
         {
           "typ": "punkt",
-          "nr": 3,
-          "etykieta": "Do Deliusza (Pieśń II, 3)",
-          "tekst": "Poeta zachęca do zachowania równowagi ducha w nieszczęściu i w szczęściu, bo każdy kiedyś umrze. Warto cieszyć się chwilą, odpoczynkiem i winem w cieniu drzew, bo bogactwa i tak przejmą spadkobiercy, a wszystkich czeka ta sama droga do świata zmarłych."
+          "etykieta": "„Do Deliusza” (Pieśń II 3)",
+          "tekst": "Poeta przypomina, że trzeba zachować spokój ducha w nieszczęściu i nie wpadać w przesadną radość w szczęściu. Wszyscy umrzemy, a bogactw nie zabierzemy ze sobą. To wyraz filozofii **stoickiej** i **epikurejskiej**: umiar, równowaga, akceptacja losu."
         },
         {
           "typ": "punkt",
-          "nr": 4,
-          "etykieta": "Do Licyniusza (Pieśń II, 10)",
-          "tekst": "Pochwała „złotego środka” (aurea mediocritas): kto unika skrajności, nie cierpi nędzy, ale też nie budzi zazdrości. Najwyższe drzewa i wieże najbardziej narażone są na wiatr i pioruny. W złym losie trzeba mieć nadzieję, a w dobrym – ostrożność."
-        },
-        {
-          "typ": "punkt",
-          "nr": 5,
-          "etykieta": "Do Postumusa (Pieśń II, 14)",
-          "tekst": "Smutna refleksja nad przemijaniem: lata uciekają, a pobożność nie powstrzyma starości ani śmierci. Każdy opuści dom, ziemię i bliskich, a zgromadzone dobra roztrwoni dziedzic."
-        },
-        {
-          "typ": "punkt",
-          "nr": 6,
-          "etykieta": "Do Taliarcha (Pieśń I, 9)",
-          "tekst": "Zimowy krajobraz (góra Soracte pod śniegiem) jest tłem zaproszenia do biesiady: trzeba dołożyć drew do ognia, nalać wina, resztę zostawić bogom i cieszyć się młodością, póki trwa."
+          "etykieta": "„Złoty środek” (Do Licyniusza, Pieśń II 10)",
+          "tekst": "Najlepiej żyć umiarkowanie, unikając skrajności. Kto wybiera **złoty środek** (aurea mediocritas), ten nie mieszka w nędzy ani w pałacu, który budzi zawiść. Najwyższe drzewa i wieże najbardziej narażone są na wichry i pioruny."
         }
       ]
     },
@@ -79,13 +72,65 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny (poeta)",
-          "tekst": "Mędrzec-epikurejczyk i stoik zarazem, doradca przyjaciół, świadomy wartości własnej poezji."
+          "etykieta": "Podmiot liryczny",
+          "tekst": "mędrzec i poeta, który doradza adresatom spokojne, rozumne życie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Adresaci pieśni (Leukonoe, Deliusz, Licyniusz, Postumus, Taliarch)",
-          "tekst": "Przyjaciele lub postaci, do których poeta kieruje rady."
+          "etykieta": "Adresaci",
+          "tekst": "przyjaciele i znajomi poety (Leukonoe, Deliusz, Licyniusz), do których zwraca się bezpośrednio (liryka zwrotu do adresata)."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Starożytny Rzym, czasy cesarza Augusta (I w. p.n.e.)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Kwintus Horacjusz Flakkus (65–8 p.n.e.) napisał cztery księgi „Pieśni” (Carmina). Pisał pod opieką mecenasa Mecenasa. Gatunek: **pieśń (oda)** – utwór liryczny o tematyce refleksyjnej, filozoficznej lub patriotycznej."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Przemijanie",
+          "tekst": "Czas płynie nieubłaganie, życie jest krótkie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Szczęście i umiar",
+          "tekst": "Szczęście daje spokój ducha, umiar i korzystanie z chwili, a nie bogactwo."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Nieśmiertelność poety",
+          "tekst": "Poezja przetrwa śmierć autora – to źródło dumy artysty."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Filozofia",
+          "tekst": "Horacy łączy stoicyzm (spokój wobec losu) i epikureizm (rozsądna przyjemność)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły pieśni nadali późniejsi wydawcy, często od pierwszych słów („Exegi monumentum”) albo adresata („Do Leukonoe”)."
         }
       ]
     },
@@ -120,31 +165,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie i nieuchronność śmierci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Jak żyć szczęśliwie – filozofia epikurejska (korzystanie z chwili) i stoicka (spokój ducha)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Umiar i złoty środek."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Nieśmiertelność poety dzięki twórczości."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -166,15 +186,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Odrodzenie zainteresowania antykiem w renesansie (humanizm)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Horacy napisał cztery księgi „Pieśni” (*Carmina*) w latach ok. 23–13 p.n.e., gdy dzięki opiece Mecenasa mógł żyć spokojnie w swojej posiadłości w Sabinum. Wzorował się na poetach greckich (Alkajos, Safona). Utwory nie mają tytułów autorskich – nazywa się je od adresata („Do Leukonoe”, „Do Postumusa”) albo od pierwszych słów (*Exegi monumentum* – „Wybudowałem pomnik”)."
         }
       ]
     },

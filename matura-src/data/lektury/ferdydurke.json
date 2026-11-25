@@ -34,37 +34,101 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Trzydziestoletni Józio Kowalski zostaje przez profesora Pimkę zamieniony w ucznia i odesłany do szkoły. Tam, w domu nowoczesnych Młodziaków i w dworku ziemiańskim, przekonuje się, że ludzie stale narzucają sobie nawzajem „gęby” i „pupy”, czyli sztuczne role i formy. Nie da się od nich uciec – można tylko zmienić jedną formę na inną. Powieść jest groteskowa, absurdalna i zabawna."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Porwanie w młodość",
-          "tekst": "Trzydziestoletni Józio Kowalski budzi się z lękiem, że nie jest w pełni dojrzały – czuje się „rozbity” na niedojrzałe kawałki. Odwiedza go profesor Pimko, belfer i filolog, który traktuje go jak ucznia, „upupia” go (narzuca mu pupę – infantylną formę) i zaprowadza do szkoły dyrektora Piórkowskiego."
+          "etykieta": "",
+          "tekst": "Józio budzi się z lękiem, chce napisać książkę, ale przychodzi Pimko."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Szkoła",
-          "tekst": "Józio staje się uczniem. Na lekcji polskiego nauczyciel powtarza, że Słowacki wielkim poetą był, bo zachwyca – a uczeń Gałkiewicz rozpaczliwie pyta, jak ma zachwycać, skoro nie zachwyca. Lekcja łaciny jest równie absurdalna. Uczniowie dzielą się na obóz niewinnych, idealistycznych chłopców (Syfon) i obóz brutalnych „realistów” (Miętus). Dochodzi do groteskowego pojedynku na miny: przeciwnicy stroją coraz bardziej wykrzywione twarze, a w końcu przemocą narzucają sobie nawzajem formy."
+          "etykieta": "",
+          "tekst": "Pimko „upupia” Józia i zabiera go do szkoły dyrektora Piórkowskiego."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Młodziakowie",
-          "tekst": "Pimko umieszcza Józia na stancji u nowoczesnej rodziny Młodziaków – inżyniera, inżynierowej i ich córki Zuty, nowoczesnej pensjonarki. Józio zakochuje się w Zucie, ale i nienawidzi jej nowoczesności. Rozbija tę formę intrygą: wysyła liściki, które sprawiają, że nocą w pokoju Zuty zjawiają się profesor Pimko i jej młody adorator Kopyrda – dochodzi do kompromitacji i bijatyki całego domu. Józio ucieka z Miętusem."
+          "etykieta": "",
+          "tekst": "Lekcje: polonista i „Słowacki wielkim poetą był”; łacina."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Dwór ziemiański",
-          "tekst": "Miętus marzy o „spoufaleniu się” z parobkiem, więc trafiają do dworu wujostwa Hurleckich. Józio poznaje świat sztywnej ziemiańskiej hierarchii. Miętus brata się z parobkiem Walkiem, co wywołuje skandal i bunt służby; porządek dworu się rozpada. Józio ucieka, porywając kuzynkę Zosię, choć wie, że od formy nie da się uciec – można tylko wpaść w inną."
+          "etykieta": "",
+          "tekst": "Pojedynek na miny między Syfonem a Miętusem."
         },
         {
           "typ": "punkt",
           "nr": 5,
-          "etykieta": "Wstawki",
-          "tekst": "Powieść przerywają dwa opowiadania-przypowieści: „Filidor dzieckiem podszyty” i „Filibert dzieckiem podszyty”, z przedmowami, w których narrator wykłada swoje poglądy na formę i sztukę."
+          "etykieta": "",
+          "tekst": "Józio zamieszkuje u Młodziaków, zakochuje się w nowoczesnej pensjonarce Zucie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Józio kompromituje Młodziaków – wszyscy zostają przyłapani w pokoju Zuty."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Józio z Miętusem uciekają na wieś szukać „parobka”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Dworek ciotki i wuja Hurleckich – Miętus brata się z parobkiem Walkiem."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Bunt chłopów, chaos, Józio porywa kuzynkę Zosię."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Józio ucieka z Zosią, ale wpada w nową formę – zakochanych."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Porwanie",
+          "tekst": "Józio, trzydziestoletni autor książki „Pamiętnik z okresu dojrzewania”, jest niepewny siebie. Odwiedza go profesor Pimko, belfer-kulturalny, który traktuje go jak chłopca. Zmniejsza go, „upupia” i zabiera do szkoły."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Szkoła",
+          "tekst": "W szkole uczniowie są niedojrzali i zdeformowani. Polonista Bladaczka powtarza, że „Słowacki wielkim poetą był” i „zachwyca”, bo tak trzeba. Uczeń Gałkiewicz mówi, że go nie zachwyca. Lekcja łaciny jest równie absurdalna. Między uczniem-idealistą Syfonem a buntownikiem Miętusem dochodzi do pojedynku na miny. Miętus „gwałci” Syfona przez uszy – wmawia mu wulgarne słowa – i Syfon się wiesza."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Młodziakowie",
+          "tekst": "Pimko umieszcza Józia na stancji u inżynierostwa Młodziaków, ludzi „nowoczesnych”. Ich córka, pensjonarka Zuta, wydaje się Józiowi idealnie młoda i nowoczesna – zakochuje się w niej. Aby uwolnić się od jej formy, Józio wywołuje skandal: w nocy w pokoju Zuty spotykają się Kopyrda, Pimko i Młodziak. Wybucha bójka, Józio ucieka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dworek",
+          "tekst": "Józio ucieka z Miętusem na wieś, bo Miętus chce bratać się z parobkiem. Trafiają do dworku wujostwa Hurleckich w Bolimowie. Ziemianie mają swoją formę – pańskość i dystans wobec chłopów. Gdy Miętus brata się z parobkiem Walkiem, cała hierarchia się sypie. Wuj uderza Walka, chłopi się buntują. Józio porywa kuzynkę Zosię i ucieka z nią, bo nie ma innego wyjścia. Wie jednak, że z jednej formy przeszedł w drugą."
         }
       ]
     },
@@ -74,42 +138,94 @@
         {
           "typ": "punkt",
           "etykieta": "Józio Kowalski",
-          "tekst": "Narrator, trzydziestoletni pisarz wtłoczony w rolę ucznia; walczy z formą, choć nie potrafi się od niej uwolnić."
+          "tekst": "narrator, trzydziestolatek uwięziony w roli ucznia. Pragnie wolności od formy, ale nie może jej osiągnąć."
         },
         {
           "typ": "punkt",
           "etykieta": "Profesor Pimko",
-          "tekst": "Belfer, filolog, symbol szkolnej, skostniałej formy."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Syfon",
-          "tekst": "Uczeń, idealista dbający o niewinność."
+          "tekst": "belfer, symbol zastanej kultury i szkolnej formy."
         },
         {
           "typ": "punkt",
           "etykieta": "Miętus",
-          "tekst": "Uczeń buntownik, wulgarny, tęskniący za autentycznością (parobek)."
+          "tekst": "zbuntowany uczeń, szuka „parobka”, czyli autentyczności."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Syfon",
+          "tekst": "uczeń-idealista, wyznawca „chłopięctwa”."
         },
         {
           "typ": "punkt",
           "etykieta": "Zuta Młodziakówna",
-          "tekst": "Nowoczesna pensjonarka, symbol nowoczesności."
+          "tekst": "nowoczesna pensjonarka, symbol „nowoczesności”."
         },
         {
           "typ": "punkt",
-          "etykieta": "Młodziakowie (inżynierostwo)",
-          "tekst": "Rodzina podporządkowana modzie na nowoczesność."
+          "etykieta": "Młodziakowie",
+          "tekst": "rodzice Zuty, udają postępowych."
         },
         {
           "typ": "punkt",
-          "etykieta": "Hurleccy, Zosia",
-          "tekst": "Ziemiańska rodzina i kuzynka Józia."
+          "etykieta": "Hurleccy i Zosia",
+          "tekst": "ziemiaństwo, przywiązane do dawnych form."
         },
         {
           "typ": "punkt",
           "etykieta": "Walek",
-          "tekst": "Parobek, z którym brata się Miętus."
+          "tekst": "parobek."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska lat 30. XX w. Warszawa (mieszkanie Józia, szkoła, dom Młodziaków) i dworek Hurleckich na wsi."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Witold Gombrowicz wydał „Ferdydurke” w 1937 roku. To **powieść awangardowa, groteskowa**, z elementami parodii i satyry. Ma wtrącone opowiadania („Filidor dzieckiem podszyty”, „Filibert dzieckiem podszyty”) i przedmowy, w których autor tłumaczy swoją filozofię."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Forma",
+          "tekst": "Ludzie nie są wolni – narzucają sobie role i zachowania („gęba”, „pupa”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Niedojrzałość",
+          "tekst": "Społeczeństwo traktuje ludzi jak dzieci („upupianie”). Kultura i szkoła infantylizują."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Krytyka szkoły i kultury",
+          "tekst": "Szkoła uczy powtarzania frazesów, a nie myślenia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Krytyka społeczeństwa",
+          "tekst": "Ośmieszone zostają inteligencja, „nowoczesność” i ziemiaństwo."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Słowo „Ferdydurke” nic nie znaczy – to wymyślony, absurdalny tytuł, pasujący do groteskowej powieści."
         }
       ]
     },
@@ -144,36 +260,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Forma – narzucane człowiekowi role i schematy zachowań."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Niedojrzałość i wtłaczanie w stereotyp („pupa”, „gęba”)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Krytyka szkoły, nowoczesności i ziemiańskiego tradycjonalizmu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Relacje międzyludzkie jako wzajemne narzucanie form."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Parodia szkolnego kultu wieszczów."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -200,15 +286,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Mickiewicz, „Oda do młodości” – inne ujęcie młodości."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Gombrowicz wydał „Ferdydurke” w 1937 r. Tytuł nie pojawia się w tekście i nie ma znaczenia – to celowa prowokacja wobec czytelnika szukającego sensu. Prawdopodobnie nawiązuje do postaci Freddy'ego Durkee z powieści „Babbitt” Sinclaira Lewisa. Absurd tytułu zapowiada groteskową formę całej powieści."
         }
       ]
     },

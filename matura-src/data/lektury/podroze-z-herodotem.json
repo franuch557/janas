@@ -39,32 +39,94 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Ryszard Kapuściński opisuje swoje pierwsze podróże reporterskie w latach 50. i 60. XX wieku – do Indii, Chin, Afryki i na Bliski Wschód. W każdej podróży towarzyszy mu książka Herodota, greckiego historyka z V w. p.n.e. Kapuściński porównuje swoją pracę z pracą Herodota: obaj chcą poznać innych ludzi i zrozumieć obce kultury. Herodot staje się dla niego przewodnikiem i pierwszym reporterem w dziejach."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Pierwsza podróż i księga",
-          "tekst": "Kapuściński wspomina, jak w latach 50. jako młody reporter marzył o „przekroczeniu granicy”. Redakcja wysyła go do Indii; przed wyjazdem otrzymuje od redaktor naczelnej świeżo wydane po polsku „Dzieje” Herodota. Książka staje się jego towarzyszem podróży."
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Młody Kapuściński marzy o „przekroczeniu granicy” – wyjeździe za granicę."
         },
         {
           "typ": "punkt",
-          "etykieta": "Indie i Chiny",
-          "tekst": "W Indiach przeżywa szok kulturowy i barierę językową; uczy się angielskiego, czytając powieść Hemingwaya. Odkrywa, jak trudno zrozumieć obcą kulturę. W Chinach doświadcza świata zamkniętego, kontrolowanego przez władzę, poznaje filozofię Konfucjusza i Wielki Mur."
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Dostaje od redakcji „Dzieje” Herodota i wyjeżdża do Indii."
         },
         {
           "typ": "punkt",
-          "etykieta": "Afryka i inne miejsca",
-          "tekst": "Kolejne podróże prowadzą go m.in. do Afryki, gdzie obserwuje upadek kolonializmu, zamachy stanu i wojny. Swoje doświadczenia zestawia z opowieściami Herodota."
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Pobyt w Indiach – bariera językowa, zderzenie z obcą kulturą."
         },
         {
           "typ": "punkt",
-          "etykieta": "Opowieści Herodota",
-          "tekst": "Kapuściński opowiada na nowo historie z „Dziejów”: o królu Krezusie i rozmowie z Solonem o szczęściu, o Cyrusie i jego śmierci w wojnie z Masagetami, o szaleństwie Kambyzesa, o wyprawie Dariusza na Scytów, którzy stosowali taktykę spalonej ziemi, o Kserksesie każącym chłostać morze i o wojnach grecko-perskich (Termopile, Salamina)."
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Podróż do Chin – kraj zamknięty, kontrolowany."
         },
         {
           "typ": "punkt",
-          "etykieta": "Herodot jako pierwszy reporter",
-          "tekst": "Autor przedstawia Herodota jako pierwszego reportera i globalistę: człowieka ciekawego Innych, który podróżował, wypytywał, słuchał, porównywał relacje i chciał ocalić pamięć o ludzkich czynach. To także refleksja nad własnym zawodem i nad tym, jak poznawać innych bez uprzedzeń."
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Lektura Herodota: wojny grecko-perskie, Kserkses, Kroisos, Scytowie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Afryka – rewolucje i walka o niepodległość."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Rozmyślania o Herodocie jako człowieku – ciekawym świata, otwartym na Innych."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Kolejne podróże i powroty do miejsc opisanych przez Herodota."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Przekroczyć granicę",
+          "tekst": "Młody reporter chce zobaczyć cokolwiek poza Polską – „przekroczyć granicę” to dla niego wielkie marzenie. Redakcja wysyła go do Indii. Przed wyjazdem dostaje od redaktorki „Dzieje” Herodota."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Indie",
+          "tekst": "W Indiach Kapuściński czuje się zagubiony: nie zna angielskiego, nie rozumie kultury. Uczy się angielskiego z powieści Hemingwaya. Zaczyna rozumieć, że każda kultura ma swój język i kod, które trzeba poznać, by zrozumieć ludzi."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Chiny",
+          "tekst": "W Chinach doświadcza ścisłej kontroli – wszędzie ma opiekuna, nie może swobodnie rozmawiać z ludźmi. Obserwuje kampanie propagandowe. Porównuje to z opisanym przez Herodota światem dawnych imperiów."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Herodot i jego świat",
+          "tekst": "Kapuściński streszcza i komentuje opowieści Herodota: o Kroisosie, który był bogaty, ale nie szczęśliwy; o Kserksesie i wojnie z Grecją; o Scytach i ich obyczajach; o okrucieństwie władców. Zastanawia się, jak Herodot zbierał informacje – podróżował, słuchał i zapisywał. To przypomina pracę reportera."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Afryka i dalsze podróże",
+          "tekst": "Kapuściński opisuje rewolucje i walkę o niepodległość w Afryce, a także kolejne wyprawy. Szuka miejsc, które opisał Herodot. Kończy refleksją, że Herodot był pierwszym globalistą – ciekawym innych ludzi, wolnym od pogardy dla obcych."
         }
       ]
     },
@@ -73,28 +135,70 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Ryszard Kapuściński (narrator)",
-          "tekst": "reportażysta, podróżnik. Rola: pośrednik między czytelnikiem a światem."
+          "etykieta": "Ryszard Kapuściński",
+          "tekst": "narrator, młody reporter, ciekawy świata, otwarty na innych."
         },
         {
           "typ": "punkt",
           "etykieta": "Herodot",
-          "tekst": "starożytny historyk i podróżnik, wzór dla narratora."
+          "tekst": "grecki historyk, „ojciec historii”, dla Kapuścińskiego wzór reportera."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ludzie spotkani w podróży",
+          "tekst": "mieszkańcy Indii, Chin, Afryki i Bliskiego Wschodu."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Lata 50.–60. XX wieku (podróże Kapuścińskiego) oraz V w. p.n.e. (świat Herodota). Miejsca: Indie, Chiny, Afryka, Bliski Wschód, Grecja i Persja."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Ryszard Kapuściński wydał książkę w 2004 roku, pod koniec życia. To **reportaż** z elementami eseju, wspomnienia i opowieści historycznej. Łączy dwa plany czasowe."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Podróż jako poznanie, obcość, relacja Europy z innymi kulturami, odpowiedzialność reportera."
+          "etykieta": "Spotkanie z Innym",
+          "tekst": "Poznanie obcej kultury wymaga otwartości i wysiłku."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przesłanie: poznanie świata wymaga otwartości i pokory."
+          "etykieta": "Reporter i historyk",
+          "tekst": "Herodot to pierwszy reporter – podróżuje, słucha i zapisuje, jak Kapuściński."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Władza i przemoc",
+          "tekst": "Dzieje to także historia wojen i okrucieństwa władców."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pamięć i historia",
+          "tekst": "Historia ludzi jest podobna w różnych epokach."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Kapuściński podróżuje z książką Herodota, który staje się jego towarzyszem i przewodnikiem."
         }
       ]
     },
@@ -118,21 +222,6 @@
           "nr": 3,
           "etykieta": "Historia",
           "tekst": "pamięć o przeszłości. *Wykorzystanie:* zestawienie z *Pieśnią o Rolandzie*."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Herodot",
-          "tekst": "symbol dociekliwości historyka."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Podróż",
-          "tekst": "symbol poznania."
         }
       ]
     },

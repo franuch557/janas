@@ -29,7 +29,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Opowiadanie Andrzeja Stasiuka z tomu „Opowieści galicyjskie”. W beskidzkiej wsi rozebrano starą drewnianą cerkiew łemkowską i wywieziono ją do muzeum. Zostało po niej tylko puste miejsce. Narrator wyobraża sobie, jak przed wiekami ją budowano, i myśli o ludziach, którzy się w niej modlili, a których już nie ma. Opowiadanie mówi o pamięci, przemijaniu i o tym, że miejsce zachowuje świętość nawet wtedy, gdy znika budynek."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
       "bloki": [
         {
           "typ": "punkt",
@@ -52,22 +61,115 @@
       ]
     },
     {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Rozbiórka cerkwi – robotnicy przewożą ją do muzeum."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Po cerkwi zostaje prostokąt gołej ziemi, który zarasta trawą."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Turysta pyta narratora, co tu było."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Narrator wyobraża sobie budowę cerkwi przed wiekami: zimowa wycinka drzew, ciosanie bali, składanie zrębu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Narrator znajduje w trawie gonty i gwoździe."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Refleksja o nieobecnych ludziach i o świętości miejsca."
+        }
+      ]
+    },
+    {
       "tytul": "Bohaterowie",
       "bloki": [
         {
           "typ": "punkt",
           "etykieta": "Narrator",
-          "tekst": "Przybysz osiadły w Beskidzie Niskim, wrażliwy na przeszłość, który poprzez wyobraźnię odtwarza historię miejsca."
+          "tekst": "przybysz osiadły w Beskidzie Niskim, wrażliwy na przeszłość, odtwarza historię miejsca w wyobraźni."
         },
         {
           "typ": "punkt",
           "etykieta": "Turysta",
-          "tekst": "Obcy, który pyta o to, czego już nie widać."
+          "tekst": "obcy, który pyta o to, czego już nie widać."
         },
         {
           "typ": "punkt",
-          "etykieta": "Dawni budowniczowie i wierni",
-          "tekst": "Nieobecni bohaterowie – ludność łemkowska."
+          "etykieta": "Dawni mieszkańcy",
+          "tekst": "Łemkowie wysiedleni po wojnie (akcja „Wisła”), nieobecni, ale wciąż obecni w pamięci miejsca."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wieś w Beskidzie Niskim, lata 90. XX wieku; w wyobraźni narratora – czasy budowy cerkwi przed wiekami."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Andrzej Stasiuk wydał „Opowieści galicyjskie” w 1995 roku. To **opowiadanie** o charakterze refleksyjnym, z elementami eseju i prozy poetyckiej."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Pamięć",
+          "tekst": "Miejsce przechowuje pamięć o ludziach, którzy odeszli."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przemijanie",
+          "tekst": "Budynek znika, ale ślad i znaczenie zostają."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Sacrum",
+          "tekst": "Święte miejsce nie traci świętości, gdy znika świątynia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Historia regionu",
+          "tekst": "W tle są wysiedlenia Łemków i zanik ich kultury."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "„Miejsce” to puste miejsce po cerkwi, które wciąż ma znaczenie i wartość."
         }
       ]
     },
@@ -102,36 +204,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pamięć miejsca i ślady nieobecnych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Sacrum w krajobrazie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie i znikanie kultury (Łemkowie)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Rola wyobraźni i opowieści w odtwarzaniu przeszłości."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Czas – mityczny i historyczny."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -153,15 +225,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Józef Czechowicz – arkadia prowincji; Olga Tokarczuk, „Prawiek i inne czasy” – mityczna przestrzeń."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Opowiadanie Andrzeja Stasiuka weszło do tomu „Opowieści galicyjskie” (1995). Stasiuk osiadł w Beskidzie Niskim, na ziemiach dawnych Łemków. Tytuł „Miejsce” nazywa puste miejsce po rozebranej cerkwi – ślad, który przechowuje pamięć o ludziach i kulturze, które zniknęły."
         }
       ]
     },

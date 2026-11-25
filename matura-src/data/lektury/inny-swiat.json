@@ -34,31 +34,111 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Gustaw Herling-Grudziński opisuje swój pobyt w sowieckim łagrze w Jercewie w latach 1940–1942. Pokazuje okrutny świat, w którym rządzą głód, niewolnicza praca, przemoc i donosicielstwo. Więźniowie tracą człowieczeństwo, ale niektórzy próbują zachować godność. Książka jest świadectwem zbrodni systemu sowieckiego."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Aresztowanie i więzienia",
-          "tekst": "W 1940 r. dwudziestoletni narrator (autor) zostaje zatrzymany przez NKWD podczas próby przedostania się przez granicę na Litwę, by dołączyć do polskiego wojska. Przechodzi przez więzienia (m.in. w Witebsku i Leningradzie), przesłuchania i oskarżenie o szpiegostwo; dostaje wyrok pięciu lat łagru."
+          "etykieta": "",
+          "tekst": "Aresztowanie autora przy próbie przekroczenia granicy, więzienia w Grodnie i Leningradzie."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Łagier w Jercewie",
-          "tekst": "Trafia do obozu pracy w Jercewie koło Archangielska. Opisuje organizację łagru: normy pracy w lesie i przy rozładunku, od których zależą racje żywności („kotły”), głód, zimno, choroby, przemoc kryminalistów („urków”), donosicielstwo. Więźniowie tracą godność, a system sprawia, że walczą o przeżycie kosztem innych. Ważne miejsca: barak dla wyniszczonych („trupiarnia”), szpital, Dom Swidań – barak, w którym więźniowie spotykają się z przyjeżdżającymi bliskimi."
+          "etykieta": "",
+          "tekst": "Transport do łagru w Jercewie."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Ludzie łagru",
-          "tekst": "Narrator przedstawia losy współwięźniów: Kostylewa, który przypala sobie rękę w ogniu, by nie pracować dla systemu, który go oszukał; Natalii Lwowny, z którą rozmawia o „Zapiskach z martwego domu” Dostojewskiego; byłych funkcjonariuszy, kobiet zmuszanych do prostytucji, starych i chorych. Każda historia pokazuje inną formę zniewolenia i oporu."
+          "etykieta": "",
+          "tekst": "Praca w lesie i w bazie żywnościowej, normy pracy, głód."
         },
         {
           "typ": "punkt",
           "nr": 4,
-          "etykieta": "Wolność i epilog",
-          "tekst": "Po układzie Sikorski–Majski (1941) i amnestii dla Polaków narrator długo nie zostaje zwolniony; prowadzi głodówkę i w końcu wychodzi z obozu w 1942 r., by dołączyć do armii generała Andersa. W epilogu („Upadek Paryża”) po wojnie spotyka we Włoszech dawnego współwięźnia, który wyznaje, że w łagrze złożył fałszywe zeznania obciążające innych więźniów; prosi o zrozumienie, ale narrator nie potrafi mu go dać."
+          "etykieta": "",
+          "tekst": "Hierarchia w obozie: urki (kryminaliści), polityczni, „bezprizorni”."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Dom Swidanij – widzenia z rodzinami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Głodówka protestacyjna autora."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Historie więźniów: Kostylew, Gorcew, Natalia Lwowna."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "„Ręka w ogniu” – samookaleczenie Kostylewa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Uwolnienie autora po układzie Sikorski–Majski."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Epilog: spotkanie z Rosjaninem w Rzymie, który w łagrze wydał innych."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Aresztowanie i droga do łagru",
+          "tekst": "W 1940 roku autor próbuje przedostać się na Litwę, by walczyć w polskim wojsku. Zostaje aresztowany przez NKWD, oskarżony o szpiegostwo i skazany na pięć lat łagru. Przechodzi przez więzienia i trafia do obozu w Jercewie pod Archangielskiem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Życie w obozie",
+          "tekst": "Więźniowie pracują ponad siły przy wyrębie lasu i w bazie żywnościowej. Racje jedzenia zależą od wykonania normy – kto pracuje słabo, dostaje mniej i szybciej umiera. Rządzą głód, zimno, choroby i przemoc. Kryminaliści (urki) terroryzują politycznych. Kobiety są gwałcone lub sprzedają się za jedzenie."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Dom Swidanij",
+          "tekst": "Do obozu przyjeżdżają czasem rodziny więźniów na krótkie widzenia. Więźniowie starają się wtedy udawać, że żyją normalnie. Po widzeniach wielu się załamuje."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kostylew – ręka w ogniu",
+          "tekst": "Kostylew, młody komunista, rozczarował się systemem, czytając zachodnie książki. Żeby nie pracować dla sowieckiej władzy, co wieczór wkłada rękę do ognia. W końcu, gdy ma zostać wysłany do Kotłasu, oblewa się wrzątkiem i umiera. To przykład walki o wewnętrzną wolność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Głodówka",
+          "tekst": "Gdy po układzie Sikorski–Majski (1941) Polacy mają zostać uwolnieni, autor długo nie dostaje zwolnienia. Ogłasza głodówkę. Po kilku dniach zostaje wypuszczony. Wstępuje do armii Andersa."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Epilog",
+          "tekst": "W 1945 roku w Rzymie autor spotyka byłego współwięźnia z Jercewa. Ten wyznaje, że w obozie złożył fałszywe zeznania przeciw czterem Niemcom, przez co zostali rozstrzelani. Prosi o zrozumienie. Autor nie potrafi mu odpowiedzieć – w łagrze zło było codziennością, ale nie usprawiedliwia wszystkiego."
         }
       ]
     },
@@ -68,27 +148,74 @@
         {
           "typ": "punkt",
           "etykieta": "Narrator (Gustaw Herling-Grudziński)",
-          "tekst": "Młody Polak, świadek i ofiara; stara się zachować godność i opisać system bez nienawiści."
+          "tekst": "więzień polityczny, świadek i kronikarz. Stara się zachować godność i rozumieć innych."
         },
         {
           "typ": "punkt",
           "etykieta": "Kostylew",
-          "tekst": "Więzień, który okalecza się, by nie pracować dla systemu."
+          "tekst": "rozczarowany komunista, kaleczy się, by nie pracować dla systemu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Gorcew",
+          "tekst": "były funkcjonariusz NKWD, więzień brutalny, nienawidzący Polaków."
         },
         {
           "typ": "punkt",
           "etykieta": "Natalia Lwowna",
-          "tekst": "Więźniarka, rozmówczyni narratora o Dostojewskim."
+          "tekst": "więźniarka, z którą autor rozmawia o „Zapiskach z domu umarłych” Dostojewskiego."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Lata 1940–1942, łagier w Jercewie pod Archangielskiem (północna Rosja), więzienia w Grodnie i Leningradzie; epilog w Rzymie w 1945 r."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Herling-Grudziński wydał książkę w Londynie w 1951 roku (po angielsku, rok później po polsku). W Polsce Ludowej była zakazana do 1989 roku. To **literatura faktu**: łączy reportaż, wspomnienie, dziennik i esej. Tytuł nawiązuje do „Zapisków z domu umarłych” Dostojewskiego."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "System totalitarny",
+          "tekst": "Łagier jest obrazem całego państwa sowieckiego – niewoli, kłamstwa i terroru."
         },
         {
           "typ": "punkt",
-          "etykieta": "Współwięźniowie z różnych narodów",
-          "tekst": "Ofiary systemu, każda z własną historią."
+          "etykieta": "Dehumanizacja",
+          "tekst": "Głód i przemoc odbierają ludziom człowieczeństwo."
         },
         {
           "typ": "punkt",
-          "etykieta": "Dawny współwięzień z epilogu",
-          "tekst": "Człowiek, który złamał się w łagrze i po latach szuka zrozumienia."
+          "etykieta": "Godność",
+          "tekst": "Niektórzy więźniowie, mimo wszystko, zachowują moralność."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Ocena moralna",
+          "tekst": "Epilog stawia pytanie, czy można osądzać ludzi, którzy w nieludzkich warunkach stali się katami."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "„Inny świat” to łagier – świat z innymi prawami, w którym nie działa normalna moralność. Określenie pochodzi z Dostojewskiego."
         }
       ]
     },
@@ -123,36 +250,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "System totalitarny i mechanizm zniewolenia człowieka."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Czy można zachować człowieczeństwo w nieludzkich warunkach?."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Głód, praca niewolnicza i degradacja."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Formy oporu: samookaleczenie, głodówka, wierność wartościom."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Wina i przebaczenie (epilog)."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -179,15 +276,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Aleksander Sołżenicyn, „Archipelag GUŁag” – późniejsze świadectwo."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Herling-Grudziński był więźniem sowieckiego łagru w Jercewie (1940–1942). Książkę napisał na emigracji; najpierw ukazała się po angielsku w Londynie (1951), po polsku w 1953 r. Tytuł pochodzi z motta zaczerpniętego ze „Wspomnień z domu umarłych” Dostojewskiego: łagier to „inny świat”, w którym obowiązują odwrócone prawa i nie ma miejsca na zwykłą moralność."
         }
       ]
     },

@@ -34,25 +34,83 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Uczony Mistrz Polikarp prosi Boga, by pozwolił mu zobaczyć Śmierć. Gdy jego prośba się spełnia, ukazuje mu się przerażająca postać: chuda, naga kobieta z kosą. Polikarp mdleje ze strachu, a potem zadaje jej pytania. Śmierć przechwala się, że nikt jej nie ucieknie – ani papież, ani król, ani rycerz. Opowiada też, kogo spotka w życiu wiecznym potępienie. Utwór uczy, że śmierć jest nieunikniona i trzeba żyć tak, by być na nią gotowym."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
           "nr": 1,
-          "etykieta": "Prolog i widzenie",
-          "tekst": "Autor prosi Boga o pomoc w napisaniu utworu i wzywa wszystkich ludzi, by poznali okrucieństwo śmierci, której nikt nie uniknie. Mędrzec Polikarp modli się, by zobaczyć Śmierć. W kościele ukazuje mu się ona jako naga, wychudzona kobieta o bladej, żółtej twarzy, bez nosa i warg, z krwawą rosą w oczach, przepasana płótnem i z kosą w ręku. Polikarp ze strachu pada na ziemię."
+          "etykieta": "",
+          "tekst": "Mistrz Polikarp modli się, by zobaczyć Śmierć."
         },
         {
           "typ": "punkt",
           "nr": 2,
-          "etykieta": "Śmierć o sobie",
-          "tekst": "Śmierć drwi ze strachu mistrza i opowiada o swoim pochodzeniu: narodziła się, gdy Ewa i Adam zjedli zakazany owoc – od tego czasu wszyscy ludzie muszą umrzeć. Moc zabijania dostała od Boga. Kosi wszystkich, niezależnie od stanu: królów, książąt, rycerzy, mędrców, kupców, rzemieślników, chłopów. Nie da się jej przekupić. Jedynie Chrystus ją pokonał, zmartwychwstając trzeciego dnia."
+          "etykieta": "",
+          "tekst": "Śmierć ukazuje się w kościele – opis jej wyglądu."
         },
         {
           "typ": "punkt",
           "nr": 3,
-          "etykieta": "Pytania mistrza i satyra stanów",
-          "tekst": "Polikarp pyta, czy można uciec przed śmiercią, ukryć się, zamurować albo pomóc sobie lekarstwami. Śmierć odpowiada, że nic nie pomoże – lekarze i apteki tylko na chwilę ją opóźniają. Wylicza też grzechy różnych grup: nieuczciwych sędziów biorących łapówki, karczmarzy, lichwiarzy, duchownych folgujących sobie w jedzeniu i piciu, strojnych kobiet – wszystkich ich czeka kara. Najbardziej „kocha się” w ludzkim grzechu. Rozmowa urywa się w niezachowanej części tekstu."
+          "etykieta": "",
+          "tekst": "Polikarp mdleje ze strachu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Śmierć mówi, że nikt jej nie ujdzie, i pokazuje swoją kosę."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Rozmowa o tym, czy można uniknąć śmierci – nikt jej nie przekupi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Śmierć wylicza stany społeczne, które zabiera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Śmierć opisuje grzeszników, którzy trafią do piekła."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Prośba Polikarpa",
+          "tekst": "Mistrz Polikarp, mądry człowiek, prosi Boga, by mógł ujrzeć śmierć w jej prawdziwej postaci. Pewnego dnia, gdy jest sam w kościele, prośba się spełnia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wygląd Śmierci",
+          "tekst": "Śmierć to odrażająca, wychudzona, naga kobieta – blada, żółta, okaleczona, z kosą w ręku. Na ten widok Polikarp pada bez czucia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Przechwałki Śmierci",
+          "tekst": "Gdy Polikarp się ocknął, Śmierć mówi mu, że wszystkich zabiera: papieża, cesarza, króla, rycerza, mnicha, mieszczanina i chłopa. Ma władzę nad całym światem. Nie da się jej przekupić ani przed nią uciec."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Grzesznicy",
+          "tekst": "Śmierć wylicza grzeszników, którzy pójdą do piekła: nieuczciwych kupców, sędziów biorących łapówki, chciwych, nierządnych mnichów, lichwiarzy. Tekst kończy się w połowie, bo zachował się niepełny."
         }
       ]
     },
@@ -62,12 +120,64 @@
         {
           "typ": "punkt",
           "etykieta": "Mistrz Polikarp",
-          "tekst": "Uczony mędrzec, który pragnie poznać Śmierć, a w jej obecności okazuje się bezradny i przerażony."
+          "tekst": "uczony, ciekawy świata, ale słaby wobec grozy śmierci."
         },
         {
           "typ": "punkt",
           "etykieta": "Śmierć",
-          "tekst": "Groteskowo-makabryczna postać kobieca z kosą; pewna siebie, ironiczna, wszechwładna, ale działająca z woli Boga."
+          "tekst": "groteskowa, przerażająca kobieta z kosą. Pewna siebie, ironiczna, wszechwładna."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Kościół, w którym modli się Polikarp; średniowiecze."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Utwór powstał w XV wieku jako tłumaczenie i przeróbka łacińskiego dialogu. To **dialog** (rozmowa dwóch postaci) o charakterze **moralizatorskim** i satyrycznym. Należy do literatury **ars moriendi** (sztuki umierania). Wiersz jest nieregularny (ok. 13 sylab), z rymami parzystymi."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Danse macabre – taniec śmierci",
+          "tekst": "Śmierć zabiera wszystkich bez wyjątku, bez względu na stan i bogactwo – to motyw tańca śmierci."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Równość wobec śmierci",
+          "tekst": "Wobec śmierci wszyscy są równi – papież i chłop."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Satyra społeczna",
+          "tekst": "Utwór wyśmiewa wady różnych stanów: chciwość, przekupstwo, obłudę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Memento mori",
+          "tekst": "„Pamiętaj o śmierci” – trzeba żyć pobożnie, bo śmierć może przyjść w każdej chwili."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł wskazuje formę utworu (rozmowa, dialog) i jego bohaterów."
         }
       ]
     },
@@ -97,31 +207,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Powszechność i równość wobec śmierci."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Memento mori – przypomnienie o nieuchronności końca."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Krytyka grzechów różnych stanów społecznych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przygotowanie do dobrej śmierci (ars moriendi)."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -143,15 +228,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Biblijny motyw grzechu pierworodnego jako źródła śmierci (Księga Rodzaju)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Utwór to polska przeróbka łacińskiego dialogu o rozmowie mędrca ze Śmiercią, powstała w XV w. (ok. 1463). Zachował się w rękopisie, który spłonął podczas II wojny światowej – tekst znamy z wcześniejszych wydań; brakuje zakończenia. Tytuł nazywa formę (rozmowa, czyli dialog) i jej uczestników. Imię Polikarp pochodzi z greki i znaczy „bogaty w owoce” – pasuje do mędrca, który chce poznać prawdę o śmierci."
         }
       ]
     },

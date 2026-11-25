@@ -66,7 +66,8 @@ export let ORAL2: { zrodlo: string; zadania: OralTask2[] } | null = null;
 export function setBooksData(d: BooksRaw) {
   lekturyMods = d.lektury;
   const indexRaw = file('index');
-  BOOKS.splice(0, BOOKS.length, ...readBooks(indexRaw));
+  // tylko lektury obowiązkowe zakresu podstawowego
+  BOOKS.splice(0, BOOKS.length, ...readBooks(indexRaw).filter((b) => b.obowiazkowa));
   EPOCHS.splice(0, EPOCHS.length, ...readEpochs(indexRaw));
   ORAL = readOral(d.ustny);
   ORAL2 = readOral2(d.zad2);

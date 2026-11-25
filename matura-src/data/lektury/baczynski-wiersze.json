@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Baczyński to najważniejszy poeta pokolenia Kolumbów – młodych ludzi, którzy dorastali w czasie okupacji. Pisał o wojnie, która odebrała im młodość, o konieczności zabijania i o tym, że muszą stać się żołnierzami, choć chcieli żyć normalnie. Jego wiersze łączą katastrofizm, piękne, malarskie obrazy i poczucie tragizmu. Zginął w czwartym dniu powstania warszawskiego, w wieku 23 lat."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -61,18 +70,65 @@
       "bloki": [
         {
           "typ": "punkt",
+          "etykieta": "Podmiot liryczny",
+          "tekst": "młody człowiek z pokolenia wojennego, żołnierz i poeta. Rozdarty między wrażliwością a obowiązkiem walki."
+        },
+        {
+          "typ": "punkt",
           "etykieta": "Pokolenie Kolumbów",
-          "tekst": "Młodzież urodzona ok. 1920 r., która dorastała w wojnie i musiała walczyć i zabijać."
+          "tekst": "rówieśnicy poety, urodzeni około 1920 roku."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Warszawa w czasie okupacji niemieckiej (1939–1944)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Krzysztof Kamil Baczyński (1921–1944) wydawał wiersze w konspiracji. Należał do Armii Krajowej, zginął 4 sierpnia 1944 roku. **Liryka wojenna**, refleksyjna i katastroficzna, często w formie elegii."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Tragizm pokolenia",
+          "tekst": "Młodzi ludzie muszą zabijać, choć tego nie chcą – wojna niszczy ich człowieczeństwo."
         },
         {
           "typ": "punkt",
-          "etykieta": "Chłopiec polski",
-          "tekst": "Młody żołnierz, ofiara wojny."
+          "etykieta": "Katastrofizm",
+          "tekst": "Przeczucie zagłady i końca świata."
         },
         {
           "typ": "punkt",
-          "etykieta": "Matka",
-          "tekst": "Głos opłakujący syna."
+          "etykieta": "Historia",
+          "tekst": "Historia narzuca ludziom swoje wymagania – nie da się od niej uciec."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość i piękno",
+          "tekst": "Obok wojny są miłość, przyroda i sztuka, które dają nadzieję."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły nazywają adresata lub temat („Pokolenie”, „Historia”, „Elegia o… [chłopcu polskim]”)."
         }
       ]
     },
@@ -107,36 +163,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Tragizm pokolenia wojennego: konieczność zabijania i utrata wartości."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Katastrofizm – świat jako miejsce zagłady."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Patriotyzm i ofiara."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemiana człowieka pod wpływem wojny."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Miłość i śmierć."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -163,15 +189,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Tadeusz Różewicz, „Ocalony” – inny sposób mówienia o wojnie."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Baczyński pisał w okupowanej Warszawie, w latach 1941–1944, wydając tomiki w konspiracji. Należał do pokolenia Kolumbów – młodych, którym wojna odebrała młodość. Zginął w drugim dniu powstania warszawskiego (4 sierpnia 1944). Tytuły jego wierszy często nazywają gatunek („Elegia o… [chłopcu polskim]”) albo bohatera zbiorowego („Pokolenie”)."
         }
       ]
     },

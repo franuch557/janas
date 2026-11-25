@@ -471,13 +471,14 @@ const anchor = (i: number) => `sekcja-${i}`;
 type Kind = 'facts' | 'steps' | 'tiles' | 'remember' | 'quiz' | 'plain';
 function kindOf(t: string): Kind {
   if (/informacje podstawowe|metryczka/i.test(t)) return 'facts';
-  if (/streszczenie|plan wydarzeń|omówienie|treny ix/i.test(t)) return 'steps';
+  if (/^plan wydarzeń|^w skrócie/i.test(t)) return 'plain';
+  if (/streszczenie|omówienie|treny ix/i.test(t)) return 'steps';
   if (/bohater|motyw|symbol/i.test(t)) return 'tiles';
   if (/najważniejsze informacje/i.test(t)) return 'remember';
   if (/sprawdź swoją wiedzę/i.test(t)) return 'quiz';
   return 'plain';
 }
-const tocName = (t: string) => t.replace(/\s*\/.*$/, '').replace(/ i interpretacja$/, '').replace(/^Najważniejsze informacje do zapamiętania$/, 'Do zapamiętania').replace(/^Wykorzystanie lektury na maturze$/, 'Na maturze').replace(/^Szczegółowe streszczenie$/, 'Streszczenie').replace(/^Symbole i ważne elementy$/, 'Symbole').replace(/^Geneza i znaczenie tytułu$/, 'Geneza i tytuł').replace(/^Główne motywy$|^Motywy literackie$/, 'Motywy').replace(/^Informacje podstawowe$/, 'Informacje');
+const tocName = (t: string) => t.replace(/\s*\/.*$/, '').replace(/ i interpretacja$/, '').replace(/^Najważniejsze informacje do zapamiętania$/, 'Do zapamiętania').replace(/^Wykorzystanie lektury na maturze$/, 'Na maturze').replace(/^(Szczegółowe streszczenie|Streszczenie szczegółowe)$/, 'Streszczenie').replace(/^Czas i miejsce akcji$/, 'Czas i miejsce').replace(/^Omówienie (wierszy|utworów)$/, 'Utwory').replace(/^Symbole i ważne elementy$/, 'Symbole').replace(/^Geneza i znaczenie tytułu$/, 'Geneza i tytuł').replace(/^Główne motywy$|^Motywy literackie$/, 'Motywy').replace(/^Informacje podstawowe$/, 'Informacje');
 
 function Section({ sec, i, bookId }: { sec: BookSection; i: number; bookId: string }) {
   const kind = kindOf(sec.tytul);

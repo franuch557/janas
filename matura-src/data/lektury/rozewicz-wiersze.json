@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Różewicz, poeta ocalony z wojny, pisze o świecie, w którym po Zagładzie runęły wszystkie wartości. Jego wiersze są surowe, bez rymów i ozdób, często bez interpunkcji – to „poezja ściśnięta”. Szuka nauczyciela, który powie, co jest dobre, a co złe, i próbuje na nowo odbudować sens."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -68,7 +77,59 @@
         {
           "typ": "punkt",
           "etykieta": "Podmiot liryczny",
-          "tekst": "Ocalały z wojny młody człowiek, który utracił wiarę w wartości i język, a teraz próbuje je odbudować."
+          "tekst": "ocalony z wojny młody człowiek, który stracił wiarę w wartości i szuka ich na nowo."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska po II wojnie światowej (wiersze z tomu „Niepokój”, 1947) i późniejsze lata."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tadeusz Różewicz (1921–2014) walczył w AK. Debiutował tomem „Niepokój” (1947). **Liryka refleksyjna** w formie wiersza wolnego, oszczędna i surowa."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Kryzys wartości",
+          "tekst": "Wojna zniszczyła pojęcia dobra i zła („Ocalony”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Doświadczenie ocalonych",
+          "tekst": "Ocaleni czują winę i pustkę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Odbudowa świata",
+          "tekst": "Trzeba nauczyć się na nowo podstawowych rzeczy: że chleb jest dobry, a człowiek ważny („W środku życia”)."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pamięć o ofiarach",
+          "tekst": "Przedmioty po ofiarach mówią o zbrodni („Warkoczyk”)."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuły są proste, często jednowyrazowe – jak cała poezja Różewicza."
         }
       ]
     },
@@ -103,31 +164,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Kryzys wartości i języka po wojnie i Zagładzie."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Tragizm pokolenia ocalonych."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Poszukiwanie nowego ładu moralnego."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pamięć o ofiarach."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -154,15 +190,6 @@
           "typ": "punkt",
           "etykieta": "",
           "tekst": "Biblia, Księga Rodzaju – oddzielanie światła od ciemności."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Różewicz był w czasie wojny żołnierzem AK. Wiersz „Ocalony” ukazał się w tomie „Niepokój” (1947). Tytuł mówi o człowieku, który przeżył wojnę fizycznie, ale utracił wiarę w wartości – ocalał ciałem, nie duszą. Różewicz stworzył poezję bez ozdób, z prostych słów, bo po Zagładzie dawna poetyka wydawała mu się kłamliwa."
         }
       ]
     },

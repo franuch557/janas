@@ -39,40 +39,31 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
       "bloki": [
         {
           "typ": "akapit",
-          "tekst": "*Uwaga: poniższy opis przedstawia ogólny przebieg cyklu. Szczegółowe treści poszczególnych trenów sprawdź w wydaniu źródłowym.*"
+          "tekst": "„Treny” to cykl 19 wierszy po śmierci Urszulki, dwuipółletniej córki Kochanowskiego. Na poziomie podstawowym obowiązują treny IX, X i XI. Pokazują kryzys światopoglądowy poety: wcześniej wierzył w mądrość, rozum i dobrego Boga, a po śmierci dziecka zaczyna w to wątpić. Rozpacz ojca przeradza się w pytania o sens życia, filozofię i wiarę."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie wierszy",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Tren IX – „Kupić by cię, Mądrości…”",
+          "tekst": "Poeta zwraca się do Mądrości (filozofii stoickiej), która obiecywała, że człowiek mądry nie boi się nieszczęścia i nie rozpacza. Zdobył ją, ale gdy przyszło prawdziwe cierpienie, okazała się bezużyteczna. Kończy gorzko: „Nieszczęśliwy ja człowiek, który lata swoje / Na tym strawił, żebych był ujźrzał progi twoje!” – stracił życie na naukę, która zawiodła. To **kryzys wiary w rozum** i filozofię stoicką."
         },
         {
           "typ": "punkt",
-          "etykieta": "Początek cyklu (Tren I–III)",
-          "tekst": "podmiot mówi o swoim bólu i żalu, poszukuje słów na wyrażenie straty. Pojawiają się pytania o sens cierpienia i o to, dlaczego zmarło dziecko."
+          "etykieta": "Tren X – „Orszulo moja wdzięczna, gdzieś mi się podziała?”",
+          "tekst": "Ojciec pyta, gdzie jest teraz jego córka. Wylicza różne wyobrażenia życia po śmierci: niebo chrześcijańskie, wyspy szczęśliwe, Hades z Charonem, raj. Nie wie, w co wierzyć. Prosi, by Urszulka pokazała mu się – jako sen, cień albo marne widmo. To **kryzys wiary religijnej** – zwątpienie w istnienie życia po śmierci."
         },
         {
           "typ": "punkt",
-          "etykieta": "Środek cyklu",
-          "tekst": "poeta wspomina córkę, przywołuje jej obecność w domu, obraz dziecka i codzienność, która się zmieniła. Pojawia się motyw Boga i wiary jako źródła pocieszenia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Treny IX–XI (kryzys)",
-          "tekst": "ojciec wątpi w mądrość filozofów (IX), w istnienie życia pozagrobowego (X, „Orszulo moja wdzięczna, gdzieś mi się podziała?”) i w sens cnoty (XI, „Fraszka cnota!”)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Końcowe treny",
-          "tekst": "poeta dochodzi do pogodzenia się z losem. Zaakceptowanie straty nie oznacza jednak, że ból znika."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Tren XIX albo Sen",
-          "tekst": "ostatni utwór cyklu. We śnie przychodzi do poety zmarła matka z Urszulką na ręku i pociesza go: córka jest szczęśliwa w niebie, a człowiek powinien „ludzkie przygody ludzkie znosić”. Żałoba zostaje zamknięta."
-        },
-        {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** cykl pokazuje przejście od rozpaczy do pogodzenia się z losem i opisuje etapy żałoby w sposób poetycki."
+          "etykieta": "Tren XI – „«Fraszka cnota!» – powiedział Brutus porażony…”",
+          "tekst": "Tren zaczyna się od słów Brutusa, który po klęsce uznał, że cnota to „fraszka”, czyli rzecz bez znaczenia. Poeta przyznaje mu rację: pobożność i cnota nikogo nie ochroniły przed nieszczęściem. Nieznany wróg miesza ludzkie sprawy, nie zważając na dobro i zło, i dotyka każdego. Rozum ludzki okazuje się bezsilny, a człowiek zostaje z bólem i zwątpieniem. To **kryzys wartości renesansowych**: rozumu, cnoty i ładu świata."
         }
       ]
     },
@@ -81,43 +72,70 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny (Kochanowski)",
-          "tekst": "ojciec po stracie dziecka. Cechy: ból, refleksyjność, pokora, zmienność nastrojów. Zmienia się: od rozpaczy do pogodzenia. Wymowa: uniwersalny obraz żałoby."
+          "etykieta": "Podmiot liryczny",
+          "tekst": "ojciec, poeta i filozof w głębokim kryzysie. Rozpacza, wątpi, buntuje się."
         },
         {
           "typ": "punkt",
-          "etykieta": "Urszula",
-          "tekst": "córka poety, adresat pośredni żałoby. Rola: symbol niewinności i przemijania."
+          "etykieta": "Urszulka",
+          "tekst": "zmarła córka, kochana, mądra i radosna dziewczynka."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Mądrość",
+          "tekst": "personifikacja filozofii (stoicyzmu), która zawiodła."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Czarnolas, rok 1579, po śmierci Urszulki."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Kochanowski wydał „Treny” w 1580 roku. **Tren** to antyczny gatunek – pieśń żałobna, którą zwykle pisano po śmierci wybitnych ludzi. Kochanowski jako pierwszy napisał tren o małym dziecku i zrobił z niego zapis własnych przeżyć. Cykl ma budowę zbliżoną do epicedium: pochwała zmarłej, opłakiwanie, przedstawienie straty, pocieszenie (Tren XIX – sen o matce)."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "śmierć dziecka, sens cierpienia, przemijanie, wiara."
+          "etykieta": "Kryzys światopoglądowy",
+          "tekst": "Tragedia osobista burzy renesansowe przekonania o ładzie świata, mądrości i dobroci Boga."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "ból poety wobec losu, pytanie o sprawiedliwość Boga, konflikt między rozpaczą a pokorą."
+          "etykieta": "Ból po stracie dziecka",
+          "tekst": "Rozpacz ojca jest bardzo osobista i szczera."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "miłość rodzicielska, wiara, pokora, stoicka akceptacja losu."
+          "etykieta": "Wiara i zwątpienie",
+          "tekst": "Poeta nie wie, czy istnieje życie po śmierci i czy Bóg jest sprawiedliwy."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "człowiek nie zawsze rozumie wyrok losu, ale może go przyjąć z pokorą."
-        },
+          "etykieta": "Granice filozofii",
+          "tekst": "Stoicka obietnica spokoju ducha nie wytrzymuje zderzenia z prawdziwym cierpieniem."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "pogodzenie się z losem, przy zachowaniu pamięci o stracie."
+          "typ": "akapit",
+          "tekst": "Tren to utwór żałobny, lament po śmierci bliskiej osoby."
         }
       ]
     },
@@ -153,26 +171,6 @@
           "nr": 5,
           "etykieta": "Los",
           "tekst": "nieprzewidywalność losu. *Wykorzystanie:* zestawienie z *Mitologią* (przeznaczenie)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Dziecko / Urszulka",
-          "tekst": "symbol niewinności i kruchości życia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Dom i codzienność",
-          "tekst": "symbol utraconego szczęścia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Pustka",
-          "tekst": "symbol straty."
         }
       ]
     },
@@ -472,35 +470,6 @@
           "nr": 15,
           "etykieta": "",
           "tekst": "Bo każdy może przeżyć stratę i zadać podobne pytania."
-        }
-      ]
-    },
-    {
-      "tytul": "Treny IX, X i XI – wymagane w zakresie podstawowym",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "nr": 1,
-          "etykieta": "Kontekst cyklu",
-          "tekst": "Treny są poświęcone zmarłej w wieku około dwóch i pół roku córce poety, Urszulce. Cykl pokazuje drogę od rozpaczy, przez kryzys wiary w rozum i porządek świata, do pocieszenia (Tren XIX, w którym matka poety przychodzi do niego we śnie z Urszulką)."
-        },
-        {
-          "typ": "punkt",
-          "nr": 2,
-          "etykieta": "Tren IX („Kupić by cię, mądrości, za drogie pieniądze…”)",
-          "tekst": "Poeta zwraca się do mądrości (filozofii stoickiej), która miała uwolnić człowieka od smutków i lęku, uczyć jednakowego spokoju w szczęściu i nieszczęściu, nie bać się śmierci, mierzyć bogactwo potrzebami. Wyznaje, że całe życie starał się dojść do jej progów, a teraz – po śmierci córki – został zrzucony z ostatnich stopni i stał się taki jak inni ludzie. To wyraz kryzysu stoickiej postawy: filozofia nie pomaga w prawdziwym cierpieniu."
-        },
-        {
-          "typ": "punkt",
-          "nr": 3,
-          "etykieta": "Tren X („Orszulo moja wdzięczna, gdzieś mi się podziała?”)",
-          "tekst": "Ojciec szuka córki w różnych zaświatach: czy jest w niebie wśród aniołków, w raju, na Wyspach Szczęśliwych, czy przeprawia ją Charon, czy zamieniła się w słowika, czy jest w czyśćcu. Pyta, czy w ogóle istnieje („jeśliś jest”), i prosi, by mu się ukazała – choćby we śnie, jako cień lub mara. To wyraz zwątpienia w pewność wiary i życia pozagrobowego."
-        },
-        {
-          "typ": "punkt",
-          "nr": 4,
-          "etykieta": "Tren XI („Fraszka cnota”)",
-          "tekst": "Poeta przywołuje słowa Brutusa, który po klęsce uznał cnotę za nic niewartą. Stwierdza, że pobożność i dobroć nikogo nie chronią przed nieszczęściem, a światem rządzi jakaś nieznana, ślepa siła, która dosięga dobrych i złych. Ludzki rozum jest bezsilny wobec tajemnic Boga. Na koniec pyta własną żałość, czy chce mu odebrać i radość, i rozum. Tren wyraża najgłębszy kryzys światopoglądowy cyklu."
         }
       ]
     }

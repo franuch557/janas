@@ -39,27 +39,95 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Reportaż Hanny Krall to rozmowa z Markiem Edelmanem, jednym z przywódców powstania w getcie warszawskim (1943), który po wojnie został kardiologiem. Edelman opowiada o getcie i powstaniu bez patosu. Przeplata te wspomnienia z opowieścią o pracy lekarza w latach 70. Łączy je jedno: walka o ludzkie życie, czyli próba „zdążenia przed Panem Bogiem” – zanim zgaśnie świeczka."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Edelman opowiada o getcie: głód, umieranie, Umschlagplatz."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Rozmowa o powstaniu – „godne umieranie”, a nie walka o zwycięstwo."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Wspomnienia o Mordechaju Anielewiczu i innych bojowcach."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Śmierć Michała Klepfisza, ucieczka kanałami."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Operacje serca w latach 70. – profesor Jan Moll i jego zespół."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Pani Bubnerowa i inni pacjenci; nowatorskie zabiegi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Samobójstwo Adama Czerniakowa, prezesa Judenratu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Edelman stoi przy bramie Umschlagplatzu i wyciąga ludzi z transportu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Refleksja: lekarz ma osłonić płomień świecy przed Bogiem, który chce ją zgasić."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
       "bloki": [
         {
           "typ": "punkt",
           "etykieta": "Getto",
-          "tekst": "Edelman, jedyny żyjący członek dowództwa Żydowskiej Organizacji Bojowej (zastępca Mordechaja Anielewicza), opowiada o życiu w getcie, głodzie i wywózkach z Umschlagplatzu, gdzie jako goniec szpitalny stał i wyciągał z tłumu ludzi skazanych na śmierć. Wspomina Polę Lifszyc, która dobrowolnie poszła z matką do wagonu."
+          "tekst": "Edelman opowiada o getcie warszawskim: o głodzie, chorobach, o ludziach umierających na ulicach. Pracował jako goniec w szpitalu przy Umschlagplatzu, skąd Niemcy wywozili Żydów do Treblinki. Stojąc przy wyjściu, wyciągał niektórych ludzi z kolejki – wybierał, kto przeżyje."
         },
         {
           "typ": "punkt",
           "etykieta": "Powstanie",
-          "tekst": "mówi bez patosu: powstańcy wiedzieli, że przegrają, ale chcieli wybrać, jak umrzeć – nie biernie, w komorze gazowej, lecz z bronią w ręku. Opowiada o śmierci Anielewicza w bunkrze przy Miłej 18 i o wyjściu kanałami."
+          "tekst": "Powstanie wybuchło 19 kwietnia 1943 roku. Edelman mówi, że nie chodziło o wygraną, ale o to, by umrzeć z bronią w ręku, a nie w komorze gazowej. Przywódca, Mordechaj Anielewicz, zginął w bunkrze przy ulicy Miłej. Edelman i nieliczni ocaleli wydostali się z getta kanałami. Mówi o powstaniu bez patosu i bez bohaterskiej legendy."
         },
         {
           "typ": "punkt",
-          "etykieta": "Szpital w Łodzi",
-          "tekst": "drugi plan to praca Edelmana jako kardiologa i operacje prof. Jana Molla, który jako jeden z pierwszych w Polsce przeprowadzał operacje na otwartym sercu. Ratowanie chorych jest dla Edelmana dalszym ciągiem walki o życie."
+          "etykieta": "Kardiologia",
+          "tekst": "Po wojnie Edelman został lekarzem w Łodzi. Współpracował z profesorem Janem Mollem, kardiochirurgiem, który przeprowadzał pionierskie operacje serca. Edelman opowiada o pacjentach, m.in. o pani Bubnerowej, i o ryzykownych decyzjach. Widzi związek między pracą lekarza a getto – w obu przypadkach chodzi o walkę o życie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Tytuł",
-          "tekst": "Edelman mówi, że Pan Bóg chce zgasić świeczkę, a on musi szybko osłonić płomień – zdążyć przed Panem Bogiem."
+          "etykieta": "Świeczka i Pan Bóg",
+          "tekst": "Edelman mówi, że Pan Bóg chce zgasić świeczkę ludzkiego życia, a lekarz musi szybko osłonić płomień i zdążyć przed Nim. To przesłanie łączy obie części jego życia."
         }
       ]
     },
@@ -69,37 +137,79 @@
         {
           "typ": "punkt",
           "etykieta": "Marek Edelman",
-          "tekst": "jeden z przywódców powstania w getcie (zastępca Anielewicza), po wojnie kardiolog w Łodzi. Cechy: odwaga, skromność, ironia, niechęć do patosu."
+          "tekst": "zastępca komendanta ŻOB, jedyny ocalały z dowództwa powstania. Lekarz kardiolog. Mówi trzeźwo, ironicznie, bez patosu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Hanna Krall",
+          "tekst": "reporterka, prowadzi rozmowę."
         },
         {
           "typ": "punkt",
           "etykieta": "Mordechaj Anielewicz",
-          "tekst": "przywódca ŻOB, zginął w bunkrze przy Miłej 18."
+          "tekst": "komendant ŻOB, przywódca powstania."
         },
         {
           "typ": "punkt",
-          "etykieta": "Prof. Jan Moll",
-          "tekst": "kardiochirurg, z którym Edelman ratuje pacjentów."
+          "etykieta": "Adam Czerniaków",
+          "tekst": "prezes Judenratu, popełnił samobójstwo, gdy Niemcy zażądali wydawania ludzi do transportów."
         },
         {
           "typ": "punkt",
-          "etykieta": "Narratorka (Hanna Krall)",
-          "tekst": "reporterka, pytająca i interpretująca."
+          "etykieta": "Profesor Jan Moll",
+          "tekst": "kardiochirurg, z którym Edelman pracował."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Dwie płaszczyzny czasowe: getto warszawskie (1940–1943) i lata 70. XX wieku (rozmowa, szpital w Łodzi)."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Hanna Krall wydała reportaż w 1977 roku. To **reportaż** oparty na wywiadzie, z kompozycją fragmentaryczną (luźne epizody, przeskoki w czasie) i językiem potocznym."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Pamięć o Zagładzie, odpowiedzialność jednostki w czasie wojny, moralność wyborów, sens oporu."
+          "etykieta": "Zagłada",
+          "tekst": "Książka pokazuje los Żydów w getcie bez wielkich słów, przez szczegóły."
         },
         {
           "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przesłanie: pamięć o przeszłości jest obowiązkiem wobec ofiar."
+          "etykieta": "Heroizm bez patosu",
+          "tekst": "Bohaterstwo to wybór godnej śmierci, a nie legenda."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Wartość życia",
+          "tekst": "Edelman walczył o życie innych w getcie i w szpitalu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Pamięć",
+          "tekst": "Reportaż ocala od zapomnienia ludzi i wydarzenia."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Tytuł odnosi się do metafory świeczki: lekarz ma zdążyć przed Panem Bogiem, zanim ten zgasi płomień ludzkiego życia."
         }
       ]
     },
@@ -123,21 +233,6 @@
           "nr": 3,
           "etykieta": "Odpowiedzialność",
           "tekst": "wybory moralne. *Wykorzystanie:* zestawienie z *Antygoną* (sumienie a prawo)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Getto",
-          "tekst": "symbol zniewolenia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Powstanie",
-          "tekst": "symbol oporu."
         }
       ]
     },

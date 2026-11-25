@@ -39,7 +39,16 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Opowiadanie Olgi Tokarczuk. Angielski psycholog, profesor Andrews, przylatuje do Warszawy w grudniu 1981 roku, by wygłosić wykład. Następnego dnia, 13 grudnia, zostaje wprowadzony stan wojenny. Profesor zostaje sam w obcym mieście, bez języka, telefonu i pieniędzy. Nie rozumie, co się dzieje. Błąka się po zimnej, szarej Warszawie, aż pomaga mu zwykły człowiek. Opowiadanie pokazuje stan wojenny oczami obcokrajowca."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
       "bloki": [
         {
           "typ": "punkt",
@@ -64,52 +73,133 @@
       ]
     },
     {
+      "tytul": "Plan wydarzeń",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Profesor Andrews przylatuje do Warszawy pełen optymizmu."
+        },
+        {
+          "typ": "punkt",
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Przewodniczka zawozi go do mieszkania w bloku."
+        },
+        {
+          "typ": "punkt",
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "13 grudnia budzi się sam – telefon nie działa, na ulicach są czołgi."
+        },
+        {
+          "typ": "punkt",
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Błądzi po mieście, szuka telefonu i kogoś, kto mówi po angielsku."
+        },
+        {
+          "typ": "punkt",
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Głód i zimno; bar mleczny, puste półki, Pewex."
+        },
+        {
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Kupuje choinkę, obserwuje kolejki po karpie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Zaczyna wątpić we własny rozum."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Pomaga mu zwykły mieszkaniec bloku – kolacja, karp w wannie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Mężczyzna odwozi profesora do ambasady."
+        }
+      ]
+    },
+    {
       "tytul": "Bohaterowie",
       "bloki": [
         {
           "typ": "punkt",
           "etykieta": "Profesor Andrews",
-          "tekst": "angielski psycholog, optymista, który przyjeżdża wygłosić wykład i nagle zostaje sam w obcym mieście, bez języka i kontaktu ze światem."
+          "tekst": "angielski psycholog, optymista, przyzwyczajony do porządku. W nieznanej rzeczywistości jego wiedza okazuje się bezużyteczna."
         },
         {
           "typ": "punkt",
-          "etykieta": "Gosha",
-          "tekst": "przewodniczka, która przywozi go do mieszkania i znika."
+          "etykieta": "Przewodniczka",
+          "tekst": "przywozi go do mieszkania i znika."
         },
         {
           "typ": "punkt",
-          "etykieta": "Warszawa w stanie wojennym",
-          "tekst": "zimna, ciemna i obca przestrzeń."
+          "etykieta": "Mężczyzna z bloku",
+          "tekst": "zwykły, zaradny człowiek, który mu pomaga."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Warszawa, grudzień 1981 roku – wprowadzenie stanu wojennego (13 grudnia) i kolejne dni."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Olga Tokarczuk wydała opowiadanie w tomie „Gra na wielu bębenkach” (2001). To **opowiadanie** z elementami groteski i absurdu."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "obcość i bezradność człowieka wobec historii, która nagle burzy jego świat; granice wiedzy i języka."
+          "etykieta": "Obcość",
+          "tekst": "Człowiek bez języka i znajomości realiów jest bezradny."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "optymistyczna teoria psychologii a chaos rzeczywistości; jednostka wobec przemocy państwa, której nie rozumie."
+          "etykieta": "Stan wojenny",
+          "tekst": "Rzeczywistość PRL ukazana z perspektywy obcokrajowca jako absurdalna i przerażająca."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "kontakt z drugim człowiekiem, empatia, pokora wobec nieznanego."
+          "etykieta": "Granice wiedzy",
+          "tekst": "Teorie psychologiczne nie pomagają zrozumieć realnego świata."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "wiedza i dobre intencje nie wystarczą, gdy nie rozumie się świata, w który się trafiło; obcy widzi stan wojenny jak absurdalny koszmar."
-        },
+          "etykieta": "Ludzka życzliwość",
+          "tekst": "Pomoc przychodzi od zwykłego człowieka."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "ocalenie przychodzi przypadkiem; doświadczenie pozostawia bohatera zmienionego."
+          "typ": "akapit",
+          "tekst": "Tytuł wskazuje bohatera i miejsce – zderzenie Anglika z Warszawą w stanie wojennym."
         }
       ]
     },
@@ -139,26 +229,6 @@
           "nr": 4,
           "etykieta": "Miasto",
           "tekst": "zimna, ciemna Warszawa. *Wykorzystanie:* zestawienie z *Małą apokalipsą* (rozpadające się miasto PRL)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Zima i ciemność",
-          "tekst": "symbol zniewolenia i zagubienia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Przerwane telefony",
-          "tekst": "symbol odcięcia od świata."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wrona ze snu",
-          "tekst": "zapowiedź, którą bohater błędnie odczytuje jako dobry znak."
         }
       ]
     },

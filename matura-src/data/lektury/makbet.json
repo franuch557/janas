@@ -39,36 +39,118 @@
       ]
     },
     {
-      "tytul": "Szczegółowe streszczenie",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Szkocki wódz Makbet słyszy od trzech czarownic, że zostanie królem. Namówiony przez żonę zabija króla Dunkana i przejmuje tron. Żeby utrzymać władzę, popełnia kolejne zbrodnie: każe zabić przyjaciela Banka i rodzinę Makdufa. Lady Makbet popada w obłęd i umiera. Makbet, zaślepiony przepowiedniami, ginie z ręki Makdufa, a królem zostaje syn Dunkana, Malkolm. To tragedia o tym, jak żądza władzy niszczy człowieka."
+        }
+      ]
+    },
+    {
+      "tytul": "Plan wydarzeń",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Początek",
-          "tekst": "trzy wiedźmy przepowiadają Makbetowi, że zostanie królem. Przepowiednia dla Banka mówi, że jego potomkowie będą władać."
+          "nr": 1,
+          "etykieta": "",
+          "tekst": "Czarownice przepowiadają Makbetowi koronę, a Bankowi – że jego potomkowie będą królami."
         },
         {
           "typ": "punkt",
-          "etykieta": "Zbrodnia",
-          "tekst": "Makbet, pod wpływem żony i własnych ambicji, zabija króla Dunkana. Zostaje królem."
+          "nr": 2,
+          "etykieta": "",
+          "tekst": "Makbet zostaje tanem Kawdoru – pierwsza część przepowiedni się spełnia."
         },
         {
           "typ": "punkt",
-          "etykieta": "Paranoja i kolejne zbrodnie",
-          "tekst": "Makbet obawia się Banka i każe go zabić (syn Banka, Fleance, ucieka). Na uczcie widzi ducha Banka. Następnie każe zamordować żonę i dzieci Macduffa."
+          "nr": 3,
+          "etykieta": "",
+          "tekst": "Lady Makbet namawia męża do zabicia króla."
         },
         {
           "typ": "punkt",
-          "etykieta": "Lady Makbet",
-          "tekst": "jej poczucie winy prowadzi do obłędu – lunatykuje i próbuje zmyć z rąk niewidzialną krew. Umiera poza sceną; Malcolm mówi, że odebrała sobie życie."
+          "nr": 4,
+          "etykieta": "",
+          "tekst": "Makbet zabija Dunkana w swoim zamku; synowie króla uciekają."
         },
         {
           "typ": "punkt",
-          "etykieta": "Finał",
-          "tekst": "żołnierze Malcolma, osłonięci gałęziami z lasu Birnam, podchodzą pod zamek Dunsinane – spełnia się przepowiednia, że Makbet nie zginie, dopóki las Birnam nie ruszy na niego. Macduff, który „nie został zrodzony z niewiasty” (wydobyto go z łona matki przed porodem), zabija Makbeta. Malcolm, syn Dunkana, zostaje królem."
+          "nr": 5,
+          "etykieta": "",
+          "tekst": "Makbet zostaje królem."
         },
         {
-          "typ": "akapit",
-          "tekst": "**Znaczenie kluczowych wydarzeń:** zbrodnia rodzi kolejne zbrodnie; władza zdobyta przemocą nie daje spokoju."
+          "typ": "punkt",
+          "nr": 6,
+          "etykieta": "",
+          "tekst": "Na rozkaz Makbeta mordercy zabijają Banka; jego syn Fleance ucieka."
+        },
+        {
+          "typ": "punkt",
+          "nr": 7,
+          "etykieta": "",
+          "tekst": "Duch Banka na uczcie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 8,
+          "etykieta": "",
+          "tekst": "Druga wizyta u czarownic – nowe przepowiednie."
+        },
+        {
+          "typ": "punkt",
+          "nr": 9,
+          "etykieta": "",
+          "tekst": "Mordercy zabijają żonę i dzieci Makdufa."
+        },
+        {
+          "typ": "punkt",
+          "nr": 10,
+          "etykieta": "",
+          "tekst": "Lady Makbet lunatykuje i próbuje zmyć krew z rąk; umiera."
+        },
+        {
+          "typ": "punkt",
+          "nr": 11,
+          "etykieta": "",
+          "tekst": "Las birnamski „idzie” na zamek."
+        },
+        {
+          "typ": "punkt",
+          "nr": 12,
+          "etykieta": "",
+          "tekst": "Makduf zabija Makbeta; Malkolm zostaje królem."
+        }
+      ]
+    },
+    {
+      "tytul": "Streszczenie szczegółowe",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Akt I – przepowiednia",
+          "tekst": "Makbet i Banko wracają z wygranej bitwy. Na wrzosowisku spotykają trzy czarownice. Witają Makbeta jako tana Glamis, tana Kawdoru i przyszłego króla, a Banku zapowiadają, że jego potomkowie będą królami. Wkrótce Makbet dowiaduje się, że król Dunkan dał mu tytuł tana Kawdoru. Pisze o wszystkim do żony. Lady Makbet postanawia, że mąż musi zostać królem, i wyrzuca mu słabość. Dunkan przyjeżdża w gościnę do zamku Makbeta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt II – zabójstwo króla",
+          "tekst": "Nocą Makbet ma wizję sztyletu. Zabija śpiącego Dunkana. Lady Makbet podrzuca zakrwawione sztylety śpiącym strażnikom. Rano zbrodnię odkrywa Makduf. Makbet zabija strażników, by nie mogli mówić. Synowie króla, Malkolm i Donalbain, uciekają, więc podejrzenie pada na nich. Makbet zostaje królem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt III – Banko",
+          "tekst": "Makbet boi się przepowiedni dla Banka. Wynajmuje morderców, którzy zabijają Banka, ale jego syn Fleance ucieka. Na uczcie Makbet widzi ducha Banka siedzącego na jego miejscu i traci panowanie nad sobą. Goście zaczynają podejrzewać prawdę."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt IV – nowe przepowiednie",
+          "tekst": "Makbet sam idzie do czarownic. Zjawy mówią mu, by strzegł się Makdufa, ale też, że nie zabije go nikt „zrodzony z kobiety” i że nie zostanie pokonany, dopóki las birnamski nie podejdzie pod zamek Dunsinan. Makbet czuje się bezpieczny. Gdy dowiaduje się, że Makduf uciekł do Anglii, każe wymordować jego żonę i dzieci. Makduf łączy siły z Malkolmem."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Akt V – upadek",
+          "tekst": "Lady Makbet lunatykuje: chodzi nocą ze świecą i próbuje zmyć z rąk niewidzialną krew. Wkrótce umiera, prawdopodobnie popełnia samobójstwo. Makbet wygłasza monolog o bezsensie życia („Życie jest tylko przechodnim półcieniem…”). Żołnierze Malkolma idą zasłonięci gałęziami z lasu birnamskiego – las „idzie”. W walce Makduf wyjawia, że został wyjęty z łona matki przed czasem, czyli nie „urodził się” w zwykły sposób. Zabija Makbeta. Malkolm zostaje królem Szkocji."
         }
       ]
     },
@@ -78,57 +160,89 @@
         {
           "typ": "punkt",
           "etykieta": "Makbet",
-          "tekst": "generał, potem król. Cechy: ambicja, lęk, zmienność. Decyzje: zabójstwo Dunkana, Banka i rodziny Macduffa. Zmienia się: od wahania do tyranii. Wymowa: władza zdobyta zbrodnią."
+          "tekst": "dzielny wódz, który pod wpływem ambicji, przepowiedni i żony staje się mordercą i tyranem. Męczą go wyrzuty sumienia, ale brnie w zbrodnię, aż staje się obojętny na wszystko."
         },
         {
           "typ": "punkt",
           "etykieta": "Lady Makbet",
-          "tekst": "żona. Cechy: ambicja, determinacja, potem obłęd. Decyzje: namawia męża do zbrodni. Zmienia się: od siły do rozpaczy. Wymowa: cena ambicji."
+          "tekst": "ambitna, silna, bezwzględna; namawia męża do zbrodni. Potem łamie się pod ciężarem winy, popada w obłęd."
         },
         {
           "typ": "punkt",
           "etykieta": "Banko",
-          "tekst": "generał, przyjaciel Makbeta. Rola: symbol moralności, zamordowany przez Makbeta."
+          "tekst": "przyjaciel Makbeta, uczciwy; nie daje się skusić przepowiedni. Ginie z rozkazu Makbeta."
         },
         {
           "typ": "punkt",
-          "etykieta": "Macduff",
-          "tekst": "szlachcic. Rola: symbol sprawiedliwości, zabija Makbeta."
+          "etykieta": "Dunkan",
+          "tekst": "dobry, ufny król Szkocji."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wiedźmy",
-          "tekst": "przepowiadają przyszłość. Rola: symbol przeznaczenia i pokusy."
+          "etykieta": "Makduf",
+          "tekst": "szlachcic, który traci rodzinę i zabija Makbeta."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Malkolm",
+          "tekst": "syn Dunkana, prawowity następca tronu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Czarownice (wiedźmy)",
+          "tekst": "siły zła i przeznaczenia, kuszą Makbeta."
         }
       ]
     },
     {
-      "tytul": "Problematyka i interpretacja",
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Szkocja i Anglia w XI wieku (historyczny Makbet panował w latach 1040–1057). Najważniejsze miejsca: wrzosowisko, zamki Inverness i Dunsinan."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "William Szekspir napisał „Makbeta” ok. 1606 roku. To **dramat szekspirowski**: łamie zasadę trzech jedności, łączy tragizm z elementami fantastyki (czarownice, duchy), sceny zbiorowe z kameralnymi, a postaci są złożone psychologicznie. Akcja trwa wiele miesięcy i dzieje się w wielu miejscach."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Główny problem",
-          "tekst": "ambicja, zbrodnia, władza, sumienie."
+          "etykieta": "Władza i ambicja",
+          "tekst": "Żądza władzy prowadzi do zbrodni, a zbrodnia rodzi kolejne zbrodnie."
         },
         {
           "typ": "punkt",
-          "etykieta": "Konflikty",
-          "tekst": "Makbet z sumieniem, Makbet z Bankiem i Macduffem, Lady Makbet z własnym poczuciem winy."
+          "etykieta": "Wina i sumienie",
+          "tekst": "Zbrodniarze nie mogą uciec przed wyrzutami sumienia: Makbet ma wizje, Lady Makbet popada w obłęd."
         },
         {
           "typ": "punkt",
-          "etykieta": "Wartości",
-          "tekst": "lojalność, sumienie, sprawiedliwość."
+          "etykieta": "Los a wolna wola",
+          "tekst": "Czarownice tylko przepowiadają przyszłość – zbrodnię wybiera sam Makbet."
         },
         {
           "typ": "punkt",
-          "etykieta": "Przesłanie",
-          "tekst": "władza zdobyta zbrodnią niszczy tego, kto ją zdobył."
-        },
+          "etykieta": "Zło",
+          "tekst": "Zło zmienia człowieka i niszczy porządek świata, ale na końcu zostaje ukarane."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
         {
-          "typ": "punkt",
-          "etykieta": "Wymowa zakończenia",
-          "tekst": "przywrócenie porządku przez sprawiedliwego następcę."
+          "typ": "akapit",
+          "tekst": "Tytuł to imię głównego bohatera, którego upadek moralny jest tematem dramatu."
         }
       ]
     },
@@ -158,31 +272,6 @@
           "nr": 4,
           "etykieta": "Władza",
           "tekst": "króla i tyrana. *Wykorzystanie:* zestawienie z *Antygoną* (władza a sumienie)."
-        }
-      ]
-    },
-    {
-      "tytul": "Symbole i ważne elementy",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "Krew",
-          "tekst": "symbol winy, która nie daje się zmyć (plamy na rękach Lady Makbet)."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Wiedźmy",
-          "tekst": "symbol przeznaczenia i pokusy."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Las Birnam",
-          "tekst": "symbol nadchodzącej sprawiedliwości."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "Sen",
-          "tekst": "symbol wyrzutów sumienia."
         }
       ]
     },

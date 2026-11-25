@@ -34,7 +34,16 @@
       ]
     },
     {
-      "tytul": "Plan wydarzeń / Streszczenie (omawiane utwory)",
+      "tytul": "W skrócie",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Poświatowska od dzieciństwa chorowała na serce i wiedziała, że jej życie będzie krótkie. Pisała o miłości, ciele, pragnieniu życia i o śmierci, która stale jej zagraża. Jej wiersze są zmysłowe i intensywne – miłość jest dla niej sposobem na pokonanie lęku przed przemijaniem."
+        }
+      ]
+    },
+    {
+      "tytul": "Omówienie utworów",
       "bloki": [
         {
           "typ": "punkt",
@@ -61,8 +70,60 @@
       "bloki": [
         {
           "typ": "punkt",
-          "etykieta": "Podmiot liryczny",
-          "tekst": "Młoda kobieta, zakochana i świadoma bliskości śmierci, mówiąca otwarcie o ciele i uczuciach."
+          "etykieta": "Podmiotka liryczna",
+          "tekst": "młoda, zakochana kobieta, świadoma choroby i bliskości śmierci, łaknąca życia."
+        }
+      ]
+    },
+    {
+      "tytul": "Czas i miejsce akcji",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Polska i USA, lata 50. i 60. XX wieku."
+        }
+      ]
+    },
+    {
+      "tytul": "Geneza i gatunek",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Halina Poświatowska (1935–1967) wydała m.in. tomy „Hymn bałwochwalczy” (1958) i „Dzień dzisiejszy” (1963). **Liryka miłosna i egzystencjalna**, wiersz wolny."
+        }
+      ]
+    },
+    {
+      "tytul": "Problematyka",
+      "bloki": [
+        {
+          "typ": "punkt",
+          "etykieta": "Miłość",
+          "tekst": "Najważniejsza wartość, która nadaje sens życiu."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Śmierć i choroba",
+          "tekst": "Świadomość śmierci wzmacnia pragnienie życia."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Kobiecość i cielesność",
+          "tekst": "Ciało i zmysły są ważną częścią przeżywania świata."
+        },
+        {
+          "typ": "punkt",
+          "etykieta": "Nawiązania do kultury",
+          "tekst": "Postaci literackie, np. Julia, jako maski dla własnych uczuć."
+        }
+      ]
+    },
+    {
+      "tytul": "Znaczenie tytułu",
+      "bloki": [
+        {
+          "typ": "akapit",
+          "tekst": "Wiersze często nie mają tytułów – nazywa się je pierwszymi słowami w nawiasie kwadratowym."
         }
       ]
     },
@@ -92,31 +153,6 @@
       ]
     },
     {
-      "tytul": "Problematyka",
-      "bloki": [
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Miłość i śmierć jako dwa bieguny ludzkiego losu."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Kobiecość i cielesność."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Przemijanie i kruchość życia."
-        },
-        {
-          "typ": "punkt",
-          "etykieta": "",
-          "tekst": "Literackie maski i tradycja."
-        }
-      ]
-    },
-    {
       "tytul": "Konteksty",
       "bloki": [
         {
@@ -138,15 +174,6 @@
           "typ": "punkt",
           "etykieta": "Barok",
           "tekst": "motyw miłości i śmierci (Morsztyn, „Do trupa”)."
-        }
-      ]
-    },
-    {
-      "tytul": "Geneza i znaczenie tytułu",
-      "bloki": [
-        {
-          "typ": "akapit",
-          "tekst": "Halina Poświatowska od dzieciństwa chorowała na serce i zmarła w wieku 32 lat (1967). Debiutowała tomem „Hymn bałwochwalczy” (1958). Jej wiersze łączą miłość, zmysłowość i świadomość bliskiej śmierci. Tytuły często są pierwszymi słowami albo nazywają uczucie, o którym mówi wiersz."
         }
       ]
     },
