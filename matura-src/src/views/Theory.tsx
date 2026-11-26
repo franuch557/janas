@@ -4,7 +4,9 @@
 import { useEffect, useState } from 'react';
 import { MATH_TOPICS } from '../data/taxonomy';
 import { TIPS } from '../data/wskazowki';
-import { parseTheory, type TheoryExample, type TopicTheory } from '../logic/theory';
+import { parseTheory, type TheoryExample, type TheoryPart, type TopicTheory } from '../logic/theory';
+import { sameBlank } from './Practice';
+import { Icon } from '../ui/icons';
 import { MathText } from '../ui/MathText';
 import { Empty, IconButton } from '../ui/common';
 import { go } from '../ui/router';
@@ -29,16 +31,12 @@ function useTheory(topic: string) {
   return state;
 }
 
-function Example({ ex, n }: { ex: TheoryExample; n: number }) {
-  const [shown, setShown] = useState(0);
+/** Rozwiązanie odsłaniane krok po kroku. */
+function StepReveal({ ex, startOpen = false }: { ex: TheoryExample; startOpen?: boolean }) {
   const all = ex.steps.length;
+  const [shown, setShown] = useState(startOpen ? all : 0);
   return (
-    <div className="th-example">
-      <h4>
-        Przykład {n}
-        {ex.title ? ` – ${ex.title}` : ''}
-      </h4>
-      <MathText text={ex.task} />
+    <>
       {shown > 0 ? (
         <ol className="th-steps">
           {ex.steps.slice(0, shown).map((s, i) => (
@@ -50,7 +48,7 @@ function Example({ ex, n }: { ex: TheoryExample; n: number }) {
       ) : null}
       {shown >= all && ex.answer ? (
         <div className="th-answer">
-          <strong>Odpowiedź: </strong>
+          <strong>Odpowiedź:</strong>
           <MathText text={ex.answer} />
         </div>
       ) : null}
@@ -58,7 +56,7 @@ function Example({ ex, n }: { ex: TheoryExample; n: number }) {
         {shown < all ? (
           <>
             <button type="button" className="btn btn-secondary btn-sm" onClick={() => setShown((k) => k + 1)}>
-              {shown === 0 ? 'Pokaż pierwszy krok' : 'Następny krok'}
+              {shown === 0 ? 'Pokaż pierwszy krok' : `Następny krok (${shown + 1} z ${all})`}
             </button>
             <button type="button" className="btn btn-quiet btn-sm" onClick={() => setShown(all)}>
               Pokaż całe rozwiązanie
@@ -70,6 +68,72 @@ function Example({ ex, n }: { ex: TheoryExample; n: number }) {
           </button>
         )}
       </div>
+    </>
+  );
+}
+
+function Example({ ex, n }: { ex: TheoryExample; n: number }) {
+  return (
+    <div className="th-example">
+      <div className="th-ex-head">
+        <span className="th-ex-no">Przykład {n}</span>
+        {ex.title ? <h4>{ex.title}</h4> : null}
+      </div>
+      <MathText text={ex.task} />
+      <StepReveal ex={ex} />
+    </div>
+  );
+}
+
+/** „Sprawdź się”: uczeń wpisuje wynik, aplikacja go sprawdza; rozwiązanie dopiero po sprawdzeniu albo na życzenie. */
+function SelfCheck({ ex }: { ex: TheoryExample }) {
+  const [val, setVal] = useState('');
+  const [res, setRes] = useState<boolean | null>(null);
+  const [giveUp, setGiveUp] = useState(false);
+  const want = ex.check ?? '';
+  const done = res === true || giveUp;
+  const check = () => setRes(want.split('|').some((w) => sameBlank(val, w.trim())));
+  return (
+    <div className="th-example th-self">
+      <div className="th-ex-head">
+        <span className="th-ex-no">Sprawdź się</span>
+        {ex.title ? <h4>{ex.title}</h4> : null}
+      </div>
+      <MathText text={ex.task} />
+      {!done ? (
+        <div className="th-self-row">
+          <input className="input" aria-label="Twój wynik" placeholder="Twój wynik" value={val} onChange={(e) => { setVal(e.target.value); setRes(null); }} onKeyDown={(e) => e.key === 'Enter' && val.trim() && check()} />
+          <button type="button" className="btn btn-primary btn-sm" disabled={!val.trim()} onClick={check}>
+            Sprawdź
+          </button>
+        </div>
+      ) : null}
+      {res === false && !giveUp ? (
+        <div className="th-self-res bad" role="status">
+          <Icon name="zle" size={18} /> Jeszcze nie. Sprawdź obliczenia i spróbuj ponownie.
+          <button type="button" className="btn btn-quiet btn-sm" onClick={() => setGiveUp(true)}>
+            Pokaż rozwiązanie
+          </button>
+        </div>
+      ) : null}
+      {res === true ? (
+        <div className="th-self-res ok" role="status">
+          <Icon name="ok" size={18} /> Dobrze! Porównaj swoje kroki z rozwiązaniem.
+        </div>
+      ) : null}
+      {done ? <StepReveal ex={ex} startOpen /> : null}
+      {!done && res === null ? <span className="small muted">Rozwiąż na kartce i wpisz sam wynik. Rozwiązanie zobaczysz po sprawdzeniu.</span> : null}
+    </div>
+  );
+}
+
+const PART_LABEL: Record<TheoryPart['kind'], string> = { text: '', key: 'Zapamiętaj', warn: 'Uwaga', method: 'Jak to rozwiązać' };
+function Part({ p }: { p: TheoryPart }) {
+  if (p.kind === 'text') return <MathText className="th-theory" text={p.text} />;
+  return (
+    <div className={`th-box th-${p.kind}`}>
+      <span className="th-box-label">{PART_LABEL[p.kind]}</span>
+      <MathText className="th-theory" text={p.text} />
     </div>
   );
 }
@@ -103,13 +167,19 @@ function TopicPage({ topic }: { topic: string }) {
             </nav>
           ) : null}
           {data.lessons.map((l, i) => (
-            <section key={i} id={`lekcja-${i}`} className="card stack th-lesson">
-              <h2>
-                Lekcja {i + 1}. {l.title}
-              </h2>
-              <MathText className="th-theory" text={l.theory} />
-              {l.examples.map((ex, k) => (
+            <section key={i} id={`lekcja-${i}`} className="th-lesson">
+              <div className="th-lesson-head">
+                <span className="th-lesson-no">Lekcja {i + 1}</span>
+                <h2>{l.title}</h2>
+              </div>
+              {l.parts.map((p, k) => (
+                <Part key={k} p={p} />
+              ))}
+              {l.examples.filter((ex) => !ex.self).map((ex, k) => (
                 <Example key={k} ex={ex} n={k + 1} />
+              ))}
+              {l.examples.filter((ex) => ex.self).map((ex, k) => (
+                <SelfCheck key={`s${k}`} ex={ex} />
               ))}
             </section>
           ))}

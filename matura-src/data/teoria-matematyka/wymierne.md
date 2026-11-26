@@ -7,6 +7,8 @@ Dziedzina: wykluczamy liczby, dla których mianownik jest zerem.
 
 Działania jak na zwykłych ułamkach: skracamy po rozłożeniu na czynniki, dodajemy po sprowadzeniu do wspólnego mianownika.
 
+> Uwaga: najpierw dziedzina – mianownik nie może być zerem. Skracaj tylko **czynniki**, nigdy składniki sumy.
+
 ### Przykład: skracanie
 Uprość wyrażenie $\dfrac{x^2 - 9}{x^2 + 3x}$ i podaj dziedzinę.
 1. Mianownik: $x^2 + 3x = x(x + 3)$, więc $x \neq 0$ i $x \neq -3$.
@@ -20,11 +22,23 @@ Wykonaj działanie $\dfrac{2}{x - 1} + \dfrac{3}{x + 1}$.
 2. $\dfrac{2(x + 1) + 3(x - 1)}{(x - 1)(x + 1)} = \dfrac{5x - 1}{x^2 - 1}$.
 Odpowiedź: $\dfrac{5x - 1}{x^2 - 1}$
 
+### Sprawdź się: wartość po skróceniu
+Skróć wyrażenie $\dfrac{x^2 - 9}{x - 3}$ i oblicz jego wartość dla $x = 5$.
+1. $\frac{(x-3)(x+3)}{x-3} = x + 3$ dla $x \neq 3$.
+2. Dla $x = 5$: $5 + 3 = 8$.
+Odpowiedź: $8$
+Wynik: 8
+
 ## Równania wymierne
 Kroki:
 1. Wyznacz dziedzinę.
 2. Pomnóż przez mianownik (albo zastosuj „na krzyż”, gdy jest ułamek = ułamek).
 3. Rozwiąż równanie i **sprawdź, czy rozwiązania należą do dziedziny**.
+
+> Metoda:
+> 1. Wyznacz dziedzinę (mianowniki różne od zera).
+> 2. Pomnóż obie strony przez wspólny mianownik.
+> 3. Rozwiąż równanie i odrzuć rozwiązania spoza dziedziny.
 
 ### Przykład: na krzyż
 Rozwiąż $\dfrac{x + 2}{x - 3} = 2$.
@@ -40,13 +54,24 @@ Rozwiąż $\dfrac{x^2 - 4}{x - 2} = 0$.
 3. $x = 2$ nie należy do dziedziny – odrzucamy.
 Odpowiedź: $x = -2$
 
+### Sprawdź się: równanie wymierne
+Rozwiąż równanie $\dfrac{2x + 1}{x - 1} = 3$.
+1. Dziedzina: $x \neq 1$. Mnożymy: $2x + 1 = 3x - 3$.
+2. $x = 4$ – należy do dziedziny.
+Odpowiedź: $x = 4$
+Wynik: 4
+
 ## Funkcja homograficzna
 $f(x) = \dfrac{a}{x - p} + q$ to hiperbola $y = \frac{a}{x}$ przesunięta o $p$ w prawo i o $q$ w górę.
-- **asymptota pionowa:** $x = p$,
-- **asymptota pozioma:** $y = q$,
-- dziedzina: $\mathbb{R} \setminus \{p\}$, zbiór wartości: $\mathbb{R} \setminus \{q\}$.
+
+> **asymptota pionowa:** $x = p$
+> **asymptota pozioma:** $y = q$
+> dziedzina: $\mathbb{R} \setminus \{p\}$, zbiór wartości: $\mathbb{R} \setminus \{q\}$.
 
 Dla $a > 0$ funkcja maleje w każdym z przedziałów $(-\infty, p)$ i $(p, +\infty)$, dla $a < 0$ rośnie.
+
+> $f(x) = \dfrac{a}{x - p} + q$ – asymptoty $x = p$ i $y = q$
+> Dziedzina $\mathbb{R} \setminus \{p\}$, zbiór wartości $\mathbb{R} \setminus \{q\}$
 
 ### Przykład: asymptoty
 Podaj dziedzinę, zbiór wartości i asymptoty funkcji $f(x) = \dfrac{3}{x + 2} - 1$.
@@ -61,3 +86,10 @@ Rozwiąż $\dfrac{x - 1}{x + 3} < 0$.
 2. Ułamek ma ten sam znak co iloczyn $(x - 1)(x + 3)$.
 3. $(x - 1)(x + 3) < 0$ – parabola ramionami w górę, ujemna między $-3$ a $1$.
 Odpowiedź: $x \in (-3, 1)$
+
+### Sprawdź się: asymptota pozioma
+Funkcja $f(x) = \dfrac{3}{x + 2} - 4$ ma asymptotę poziomą $y = q$. Podaj $q$.
+1. Postać $\frac{a}{x - p} + q$: $p = -2$, $q = -4$.
+2. Asymptota pozioma: $y = -4$.
+Odpowiedź: $q = -4$
+Wynik: -4

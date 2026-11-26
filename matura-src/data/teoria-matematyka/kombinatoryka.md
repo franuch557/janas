@@ -7,6 +7,14 @@ Kombinatoryka odpowiada na pytanie „na ile sposobów?”. Najważniejsza jest 
 
 **Reguła dodawania:** jeśli wybory się wykluczają (albo to, albo tamto), dodajemy liczby możliwości.
 
+> $n_1 \cdot n_2 \cdot \ldots$ – wybór w kilku etapach (reguła mnożenia)
+> $n_1 + n_2$ – albo jedno, albo drugie (reguła dodawania)
+
+> Metoda:
+> 1. Podziel wybór na etapy (np. kolejne cyfry liczby).
+> 2. Zacznij od etapu z ograniczeniem (np. pierwsza cyfra nie może być zerem).
+> 3. Pomnóż liczby możliwości.
+
 ### Przykład: liczby czterocyfrowe
 Ile jest liczb czterocyfrowych o cyfrach parzystych?
 1. Cyfry parzyste: $0, 2, 4, 6, 8$ – jest ich $5$.
@@ -23,12 +31,25 @@ Ile jest liczb trzycyfrowych o różnych cyfrach?
 4. $9 \cdot 9 \cdot 8 = 648$.
 Odpowiedź: $648$
 
+### Sprawdź się: liczby czterocyfrowe
+Ile jest liczb czterocyfrowych, których wszystkie cyfry są nieparzyste?
+1. Cyfry nieparzyste: $1, 3, 5, 7, 9$ – po $5$ możliwości na każdej pozycji (zero nie występuje).
+2. $5 \cdot 5 \cdot 5 \cdot 5 = 625$.
+Odpowiedź: $625$
+Wynik: 625
+
 ## Permutacje, wariacje, kombinacje
 - **Permutacje** – ustawienia $n$ elementów w kolejności: $n! = 1 \cdot 2 \cdot \dots \cdot n$.
 - **Wariacje bez powtórzeń** – wybór $k$ z $n$ elementów, kolejność ważna: $\dfrac{n!}{(n - k)!}$.
 - **Kombinacje** – wybór $k$ z $n$ elementów, kolejność nieważna: $\binom{n}{k} = \dfrac{n!}{k!(n - k)!}$.
 
 Jak rozpoznać: jeśli zamiana miejscami daje **inny** wynik (np. podium, kod) – kolejność ważna. Jeśli to ta sama grupa (np. delegacja, zestaw kart) – kombinacje.
+
+> $n!$ – ustawienie $n$ elementów w kolejności
+> $\frac{n!}{(n-k)!}$ – wybór $k$ z $n$, kolejność ważna
+> $\binom{n}{k} = \frac{n!}{k!(n-k)!}$ – wybór $k$ z $n$, kolejność nieważna
+
+> Uwaga: zanim policzysz, zadaj pytanie: czy zamiana dwóch wybranych elementów daje inny wynik? Tak – kolejność ważna, nie – kombinacje.
 
 ### Przykład: delegacja
 Z klasy liczącej $20$ osób wybieramy $3$-osobową delegację. Na ile sposobów?
@@ -48,3 +69,10 @@ Na ile sposobów można ustawić $5$ osób w rzędzie tak, by Ania i Bartek stal
 2. W bloku mogą się zamienić miejscami: $2$ sposoby.
 3. $24 \cdot 2 = 48$.
 Odpowiedź: $48$
+
+### Sprawdź się: uścisk dłoni
+Na spotkaniu jest $10$ osób i każda wita się z każdą jednym uściskiem dłoni. Ile jest uścisków?
+1. Uścisk to para osób, kolejność nieważna: $\binom{10}{2}$.
+2. $\binom{10}{2} = \frac{10 \cdot 9}{2} = 45$.
+Odpowiedź: $45$
+Wynik: 45

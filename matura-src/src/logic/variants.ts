@@ -705,6 +705,395 @@ export const GENERATORS: Generator[] = [
       };
     },
   },
+  // ---------- nowe działy: procenty, wielomiany, trygonometria, geometria, kombinatoryka ----------
+  {
+    id: 'procenty-dwie-zmiany',
+    subjectId: 'mat-p',
+    topic: 'procenty',
+    name: 'Dwie zmiany ceny',
+    make: (r) => {
+      const x = r.pick([200, 400, 500, 800, 1000]);
+      const p = r.pick([10, 20, 25, 50]);
+      const q = r.pick([10, 20, 25, 40]);
+      const up = Math.round(x * (100 + p)) / 100;
+      const fin = Math.round(up * (100 - q)) / 100;
+      const dec = (n: number) => String(n).replace('.', ',');
+      return {
+        maxPoints: 1,
+        question: `Cena towaru wynosiła ${x} zł. Najpierw podniesiono ją o ${p}%, a potem obniżono o ${q}%. Oblicz cenę końcową (w zł).`,
+        key: { levels: [{ points: 1, alts: [`cena końcowa: ${fin}`] }], answers: [String(fin)] },
+        steps: [
+          { text: `Po podwyżce o ${p}%: $${x} \\cdot ${dec((100 + p) / 100)} = {}$ zł.`, blank: String(up) },
+          { text: `Po obniżce o ${q}%: $${up} \\cdot ${dec((100 - q) / 100)} = {}$ zł.`, blank: String(fin) },
+        ],
+        answer: `${dec(fin)} zł`,
+      };
+    },
+  },
+  {
+    id: 'procenty-cena-poczatkowa',
+    subjectId: 'mat-p',
+    topic: 'procenty',
+    name: 'Cena przed obniżką',
+    make: (r) => {
+      const p = r.pick([10, 20, 25, 40]);
+      const x = r.pick([20, 40, 60, 80, 120, 200, 240]) * 5;
+      const y = (x * (100 - p)) / 100;
+      const m = (100 - p) / 100;
+      const dec = (n: number) => String(n).replace('.', ',');
+      return {
+        maxPoints: 2,
+        question: `Po obniżce o ${p}% kurtka kosztuje ${y} zł. Oblicz cenę kurtki przed obniżką.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie ceny początkowej: x = ${x}`] },
+            { points: 1, alts: [`ustalenie, że cena po obniżce to ${100 - p}% ceny początkowej: ${m}`] },
+          ],
+        },
+        steps: [
+          { text: `Cena po obniżce to ${100 - p}% ceny początkowej, czyli mnożnik $${dec(m)}$: $${dec(m)} \\cdot x = ${y}$. Mnożnik: {}.`, blank: String(m) },
+          { text: `$x = \\dfrac{${y}}{${dec(m)}} = {}$ zł.`, blank: String(x) },
+        ],
+        answer: `x = ${x} zł`,
+      };
+    },
+  },
+  {
+    id: 'wielomian-reszta',
+    subjectId: 'mat-p',
+    topic: 'wielomiany',
+    name: 'Reszta z dzielenia wielomianu',
+    make: (r) => {
+      const a = r.int(-3, 3);
+      const b = r.int(-6, 6);
+      const c = r.int(-9, 9);
+      const k = r.nz(-3, 3);
+      const v = k ** 3 + a * k * k + b * k + c;
+      const poly = `x^3 ${a ? `${sgn(a)}x^2`.replace(/([+-] )1x/, '$1x') : ''} ${b ? `${sgn(b)}x`.replace(/([+-] )1x/, '$1x') : ''} ${c ? sgn(c) : ''}`.replace(/\s+/g, ' ').trim();
+      return {
+        maxPoints: 1,
+        question: `Oblicz resztę z dzielenia wielomianu $W(x) = ${poly}$ przez dwumian $(${lin(1, -k)})$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie reszty: W(${num(k)}) = ${num(v)}`] }], answers: [num(v)] },
+        steps: [
+          { text: `Reszta z dzielenia przez $(x - a)$ to $W(a)$. Tu $a = {}$.`, blank: tnum(k) },
+          { text: `$W(${tnum(k)}) = (${tnum(k)})^3 ${a ? `${Math.abs(a) === 1 ? (a < 0 ? '-' : '+') : `${sgn(a)} \\cdot`} (${tnum(k)})^2` : ''} ${b ? `${Math.abs(b) === 1 ? (b < 0 ? '-' : '+') : `${sgn(b)} \\cdot`} (${tnum(k)})` : ''} ${c ? sgn(c) : ''} = {}$.`, blank: tnum(v) },
+        ],
+        answer: num(v),
+      };
+    },
+  },
+  {
+    id: 'wielomian-pierwiastki',
+    subjectId: 'mat-p',
+    topic: 'wielomiany',
+    name: 'Pierwiastki wielomianu',
+    make: (r) => {
+      const a = r.int(3, 7);
+      const b = r.int(3, 8);
+      if (a === b) return GENERATORS.find((g) => g.id === 'wielomian-pierwiastki')!.make(r);
+      // (x − a)(x² − b²) = x³ − a x² − b² x + a b²
+      const poly = `x^3 - ${a}x^2 - ${b * b}x + ${a * b * b}`;
+      return {
+        maxPoints: 2,
+        question: `Wyznacz wszystkie pierwiastki wielomianu $W(x) = ${poly}$.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`wyznaczenie pierwiastków: x = ${a}, x = ${b}, x = −${b}`] },
+            { points: 1, alts: [`pogrupowanie wyrazów i wyznaczenie pierwiastka: x = ${a}`] },
+          ],
+        },
+        steps: [
+          { text: `Grupujemy: $x^2(x - ${a}) - ${b * b}(x - ${a}) = (x - ${a})(x^2 - ${b * b})$. Pierwszy pierwiastek: $x = {}$.`, blank: String(a) },
+          { text: `$x^2 - ${b * b} = (x - ${b})(x + ${b})$, więc kolejne pierwiastki to $x = {}$ i $x = -${b}$.`, blank: String(b) },
+        ],
+        answer: `x = ${a}, x = ${b}, x = −${b}`,
+      };
+    },
+  },
+  {
+    id: 'tryg-sinus',
+    subjectId: 'mat-p',
+    topic: 'trygonometria',
+    name: 'Sinus i cosinus w trójkącie prostokątnym',
+    make: (r) => {
+      const [p, q, h] = r.pick([[3, 4, 5], [5, 12, 13], [8, 15, 17], [7, 24, 25]]);
+      const k = r.int(1, 3);
+      const fn = r.pick(['sin', 'cos', 'tg']);
+      const opp = p * k;
+      const adj = q * k;
+      const hyp = h * k;
+      const v = fn === 'sin' ? frac(p, h) : fn === 'cos' ? frac(q, h) : frac(p, q);
+      const name = fn === 'tg' ? '\\operatorname{tg}' : `\\${fn}`;
+      return {
+        maxPoints: 1,
+        question: `W trójkącie prostokątnym przyprostokątne mają długości ${opp} i ${adj}, a przeciwprostokątna ${hyp}. Kąt $\\alpha$ leży naprzeciw boku długości ${opp}. Oblicz $${name}\\alpha$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie: ${v.key}`] }], answers: [v.key] },
+        steps: [
+          { text: fn === 'sin' ? `$\\sin\\alpha$ = przyprostokątna naprzeciw kąta : przeciwprostokątna = $\\frac{${opp}}{${hyp}}$.` : fn === 'cos' ? `$\\cos\\alpha$ = przyprostokątna przy kącie : przeciwprostokątna = $\\frac{${adj}}{${hyp}}$.` : `$\\operatorname{tg}\\alpha$ = przyprostokątna naprzeciw : przyprostokątna przy kącie = $\\frac{${opp}}{${adj}}$.` },
+          { text: `Po skróceniu: {}.`, blank: v.key },
+        ],
+        answer: v.key,
+      };
+    },
+  },
+  {
+    id: 'tryg-jedynka',
+    subjectId: 'mat-p',
+    topic: 'trygonometria',
+    name: 'Jedynka trygonometryczna',
+    make: (r) => {
+      const [p, q, h] = r.pick([[3, 4, 5], [5, 12, 13], [8, 15, 17], [7, 24, 25], [20, 21, 29]]);
+      const sinV = frac(p, h);
+      const cosV = frac(q, h);
+      const tg = frac(p, q);
+      return {
+        maxPoints: 2,
+        question: `Kąt $\\alpha$ jest ostry i $\\sin\\alpha = \\frac{${p}}{${h}}$. Oblicz $\\operatorname{tg}\\alpha$.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie tangensa: tg α = ${tg.key}`] },
+            { points: 1, alts: [`obliczenie cosinusa: cos α = ${cosV.key}`] },
+          ],
+        },
+        steps: [
+          { text: `Z jedynki: $\\cos^2\\alpha = 1 - \\left(${sinV.tex}\\right)^2 = \\frac{${h * h - p * p}}{${h * h}}$, kąt ostry, więc $\\cos\\alpha = {}$.`, blank: cosV.key },
+          { text: `$\\operatorname{tg}\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha} = \\dfrac{${sinV.tex}}{${cosV.tex}} = {}$.`, blank: tg.key },
+        ],
+        answer: `tg α = ${tg.key}`,
+      };
+    },
+  },
+  {
+    id: 'pitagoras',
+    subjectId: 'mat-p',
+    topic: 'planimetria',
+    name: 'Twierdzenie Pitagorasa',
+    make: (r) => {
+      const [p, q, h] = r.pick([[3, 4, 5], [5, 12, 13], [8, 15, 17], [6, 8, 10], [9, 12, 15], [7, 24, 25]]);
+      const k = r.int(1, 3);
+      const askHyp = r.pick([true, false]);
+      const [a, b, c] = [p * k, q * k, h * k];
+      return {
+        maxPoints: 1,
+        question: askHyp ? `Przyprostokątne trójkąta prostokątnego mają długości ${a} i ${b}. Oblicz długość przeciwprostokątnej.` : `Przeciwprostokątna trójkąta prostokątnego ma długość ${c}, a jedna z przyprostokątnych ${a}. Oblicz długość drugiej przyprostokątnej.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie długości: ${askHyp ? c : b}`] }], answers: [String(askHyp ? c : b)] },
+        steps: askHyp
+          ? [{ text: `$c^2 = ${a}^2 + ${b}^2 = ${a * a} + ${b * b} = ${c * c}$.` }, { text: `$c = \\sqrt{${c * c}} = {}$.`, blank: String(c) }]
+          : [{ text: `$b^2 = ${c}^2 - ${a}^2 = ${c * c} - ${a * a} = ${b * b}$.` }, { text: `$b = \\sqrt{${b * b}} = {}$.`, blank: String(b) }],
+        answer: String(askHyp ? c : b),
+      };
+    },
+  },
+  {
+    id: 'pole-trapezu',
+    subjectId: 'mat-p',
+    topic: 'planimetria',
+    name: 'Pole trapezu',
+    make: (r) => {
+      const a = r.int(4, 14);
+      const b = r.int(2, 12);
+      const h = r.int(2, 9) * 2;
+      const P = ((a + b) * h) / 2;
+      return {
+        maxPoints: 1,
+        question: `Trapez ma podstawy długości ${a} i ${b} oraz wysokość ${h}. Oblicz jego pole.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie pola: ${P}`] }], answers: [String(P)] },
+        steps: [
+          { text: `$P = \\dfrac{(a + b) \\cdot h}{2} = \\dfrac{(${a} + ${b}) \\cdot ${h}}{2}$.` },
+          { text: `$P = \\dfrac{${(a + b) * h}}{2} = {}$.`, blank: String(P) },
+        ],
+        answer: String(P),
+      };
+    },
+  },
+  {
+    id: 'podobienstwo-pole',
+    subjectId: 'mat-p',
+    topic: 'podobienstwo',
+    name: 'Pole figury podobnej',
+    make: (r) => {
+      const k = r.int(2, 5);
+      const P = r.int(2, 12);
+      const ask = r.pick(['pole', 'obwód']);
+      const O = r.int(5, 20);
+      const res = ask === 'pole' ? P * k * k : O * k;
+      return {
+        maxPoints: 1,
+        question: ask === 'pole' ? `Trójkąty $ABC$ i $A'B'C'$ są podobne w skali $k = ${k}$ (większy to $A'B'C'$). Pole trójkąta $ABC$ wynosi ${P}. Oblicz pole trójkąta $A'B'C'$.` : `Trójkąty $ABC$ i $A'B'C'$ są podobne w skali $k = ${k}$ (większy to $A'B'C'$). Obwód trójkąta $ABC$ wynosi ${O}. Oblicz obwód trójkąta $A'B'C'$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie: ${res}`] }], answers: [String(res)] },
+        steps:
+          ask === 'pole'
+            ? [{ text: `Pole zmienia się o kwadrat skali: $k^2 = {}$.`, blank: String(k * k) }, { text: `$${P} \\cdot ${k * k} = {}$.`, blank: String(res) }]
+            : [{ text: `Obwód zmienia się tak jak boki – o skalę $k = ${k}$.` }, { text: `$${O} \\cdot ${k} = {}$.`, blank: String(res) }],
+        answer: String(res),
+      };
+    },
+  },
+  {
+    id: 'okrag-kat-wpisany',
+    subjectId: 'mat-p',
+    topic: 'okrag',
+    name: 'Kąt wpisany i środkowy',
+    make: (r) => {
+      const alpha = r.int(12, 80);
+      const askIns = r.pick([true, false]);
+      return {
+        maxPoints: 1,
+        question: askIns ? `Kąt środkowy oparty na łuku $AB$ ma miarę $${2 * alpha}^\\circ$. Oblicz miarę kąta wpisanego opartego na tym samym łuku.` : `Kąt wpisany oparty na łuku $AB$ ma miarę $${alpha}^\\circ$. Oblicz miarę kąta środkowego opartego na tym samym łuku.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie kąta: ${askIns ? alpha : 2 * alpha}`] }], answers: [String(askIns ? alpha : 2 * alpha)] },
+        steps: [
+          { text: `Kąt środkowy jest dwa razy większy od kąta wpisanego opartego na tym samym łuku.` },
+          { text: askIns ? `$${2 * alpha}^\\circ : 2 = {}^\\circ$.` : `$2 \\cdot ${alpha}^\\circ = {}^\\circ$.`, blank: String(askIns ? alpha : 2 * alpha) },
+        ],
+        answer: `${askIns ? alpha : 2 * alpha}°`,
+      };
+    },
+  },
+  {
+    id: 'prostopadloscian-przekatna',
+    subjectId: 'mat-p',
+    topic: 'stereometria',
+    name: 'Przekątna prostopadłościanu',
+    make: (r) => {
+      const [a, b, c, d] = r.pick([[2, 3, 6, 7], [1, 4, 8, 9], [2, 6, 9, 11], [4, 4, 7, 9], [6, 6, 7, 11], [2, 10, 11, 15]]);
+      const k = r.int(1, 2);
+      return {
+        maxPoints: 1,
+        question: `Krawędzie prostopadłościanu mają długości ${a * k}, ${b * k} i ${c * k}. Oblicz długość przekątnej tego prostopadłościanu.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie przekątnej: ${d * k}`] }], answers: [String(d * k)] },
+        steps: [
+          { text: `$d = \\sqrt{a^2 + b^2 + c^2} = \\sqrt{${a * a * k * k} + ${b * b * k * k} + ${c * c * k * k}} = \\sqrt{${d * d * k * k}}$.` },
+          { text: `$d = {}$.`, blank: String(d * k) },
+        ],
+        answer: String(d * k),
+      };
+    },
+  },
+  {
+    id: 'ostroslup-objetosc',
+    subjectId: 'mat-p',
+    topic: 'stereometria',
+    name: 'Objętość ostrosłupa',
+    make: (r) => {
+      const a = r.int(2, 10);
+      const H = r.int(1, 6) * 3;
+      const Pp = a * a;
+      const V = (Pp * H) / 3;
+      return {
+        maxPoints: 2,
+        question: `Ostrosłup prawidłowy czworokątny ma krawędź podstawy ${a} i wysokość ${H}. Oblicz jego objętość.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie objętości: V = ${V}`] },
+            { points: 1, alts: [`obliczenie pola podstawy: Pp = ${Pp}`] },
+          ],
+        },
+        steps: [
+          { text: `Podstawa to kwadrat: $P_p = ${a}^2 = {}$.`, blank: String(Pp) },
+          { text: `$V = \\frac13 P_p \\cdot H = \\frac13 \\cdot ${Pp} \\cdot ${H} = {}$.`, blank: String(V) },
+        ],
+        answer: `V = ${V}`,
+      };
+    },
+  },
+  {
+    id: 'kombinatoryka-liczby',
+    subjectId: 'mat-p',
+    topic: 'kombinatoryka',
+    name: 'Ile jest liczb',
+    make: (r) => {
+      const k = r.pick([3, 4]);
+      const kind = r.pick(['nieparzyste', 'nieparzyste-rozne', 'parzyste', 'rozne']);
+      // nieparzyste: 5^k; nieparzyste różne: 5·4·3(·2); parzyste (cyfry 0,2,4,6,8): 4·5^(k−1); różne cyfry: 9·9·8(·7)
+      const res =
+        kind === 'nieparzyste' ? 5 ** k : kind === 'nieparzyste-rozne' ? (k === 3 ? 60 : 120) : kind === 'parzyste' ? 4 * 5 ** (k - 1) : k === 3 ? 648 : 4536;
+      const opis = { nieparzyste: 'których wszystkie cyfry są nieparzyste', 'nieparzyste-rozne': 'których cyfry są nieparzyste i różne', parzyste: 'których wszystkie cyfry są parzyste', rozne: 'o różnych cyfrach' }[kind] ?? '';
+      const words = k === 3 ? 'trzycyfrowych' : 'czterocyfrowych';
+      const first = kind === 'parzyste' ? '4 (bez zera)' : kind === 'rozne' ? '9 (bez zera)' : '5';
+      const rest =
+        kind === 'nieparzyste' ? Array(k - 1).fill(5).join(' \\cdot ') : kind === 'nieparzyste-rozne' ? [4, 3, 2].slice(0, k - 1).join(' \\cdot ') : kind === 'parzyste' ? Array(k - 1).fill(5).join(' \\cdot ') : [9, 8, 7].slice(0, k - 1).join(' \\cdot ');
+      return {
+        maxPoints: 1,
+        question: `Ile jest liczb ${words}${opis.startsWith('o ') ? ' ' : ', '}${opis}?`,
+        key: { levels: [{ points: 1, alts: [`obliczenie: ${res}`] }], answers: [String(res)] },
+        steps: [
+          { text: `Pierwsza cyfra: ${first} możliwości.` },
+          { text: `Kolejne cyfry: $${rest}$ możliwości. Reguła mnożenia: $${first.split(' ')[0]} \\cdot ${rest} = {}$.`, blank: String(res) },
+        ],
+        answer: String(res),
+      };
+    },
+  },
+  {
+    id: 'kombinatoryka-pary',
+    subjectId: 'mat-p',
+    topic: 'kombinatoryka',
+    name: 'Wybór bez kolejności',
+    make: (r) => {
+      const n = r.int(6, 20);
+      const k = r.pick([2, 2, 3]);
+      const res = k === 2 ? (n * (n - 1)) / 2 : (n * (n - 1) * (n - 2)) / 6;
+      return {
+        maxPoints: 1,
+        question: k === 2 ? `Na turnieju jest ${n} drużyn. Każda gra z każdą dokładnie jeden mecz. Ile meczów zostanie rozegranych?` : `Z klasy liczącej ${n} osób wybieramy trzyosobową delegację. Na ile sposobów można to zrobić?`,
+        key: { levels: [{ points: 1, alts: [`obliczenie: ${res}`] }], answers: [String(res)] },
+        steps: [
+          { text: `Kolejność nie ma znaczenia, więc liczymy kombinacje $\\binom{${n}}{${k}}$.` },
+          { text: k === 2 ? `$\\binom{${n}}{2} = \\dfrac{${n} \\cdot ${n - 1}}{2} = {}$.` : `$\\binom{${n}}{3} = \\dfrac{${n} \\cdot ${n - 1} \\cdot ${n - 2}}{6} = {}$.`, blank: String(res) },
+        ],
+        answer: String(res),
+      };
+    },
+  },
+  {
+    id: 'kostki-suma',
+    subjectId: 'mat-p',
+    topic: 'prawdopodobienstwo',
+    name: 'Dwie kostki – suma oczek',
+    make: (r) => {
+      const s = r.int(3, 11);
+      const cnt = 6 - Math.abs(7 - s);
+      const P = frac(cnt, 36);
+      return {
+        maxPoints: 2,
+        question: `Rzucamy dwa razy symetryczną sześcienną kostką do gry. Oblicz prawdopodobieństwo, że suma wyrzuconych oczek będzie równa ${s}.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie prawdopodobieństwa: P(A) = ${P.key}`] },
+            { points: 1, alts: [`obliczenie liczby zdarzeń sprzyjających: ${cnt}`] },
+          ],
+        },
+        steps: [
+          { text: `Wszystkich wyników jest $6 \\cdot 6 = 36$. Sumę ${s} daje {} par.`, blank: String(cnt) },
+          { text: `$P(A) = \\dfrac{${cnt}}{36} = {}$.`, blank: P.key },
+        ],
+        answer: `P(A) = ${P.key}`,
+      };
+    },
+  },
+  {
+    id: 'wartosc-nierownosc-calkowite',
+    subjectId: 'mat-p',
+    topic: 'wartosc-bezwzgledna',
+    name: 'Nierówność z wartością bezwzględną',
+    make: (r) => {
+      const a = r.int(-6, 6);
+      const b = r.int(2, 7);
+      const strict = r.pick([true, false]);
+      const cnt = strict ? 2 * b - 1 : 2 * b + 1;
+      const xa = a === 0 ? 'x' : `x ${sgn(-a)}`;
+      return {
+        maxPoints: 1,
+        question: `Ile liczb całkowitych spełnia nierówność $|${xa}| ${strict ? '<' : '\\le'} ${b}$?`,
+        key: { levels: [{ points: 1, alts: [`obliczenie liczby rozwiązań: ${cnt}`] }], answers: [String(cnt)] },
+        steps: [
+          { text: `$${a - b} ${strict ? '<' : '\\le'} x ${strict ? '<' : '\\le'} ${a + b}$ – liczby odległe od $${a}$ o ${strict ? 'mniej niż' : 'co najwyżej'} ${b}.` },
+          { text: `Liczb całkowitych w tym przedziale jest {}.`, blank: String(cnt) },
+        ],
+        answer: String(cnt),
+      };
+    },
+  },
 ];
 
 export const genById = (id: string) => GENERATORS.find((g) => g.id === id);

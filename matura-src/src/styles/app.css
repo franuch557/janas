@@ -4388,15 +4388,40 @@ p.rv-verdict {
 }
 
 /* Teoria z matematyki */
+.th-page { max-width: 820px; }
 .th-page h1 { margin: 8px 0 4px; }
-.th-intro { color: var(--ink-2, inherit); }
-.th-lesson h2 { margin: 0; }
+.th-intro { color: var(--tekst-2); font-size: 1.0625rem; line-height: 1.65; }
+.th-lesson { display: flex; flex-direction: column; gap: var(--o-4); padding: var(--o-5); border: 1px solid var(--linia); border-radius: var(--r-card); background: var(--powierzchnia); scroll-margin-top: 80px; }
+.th-lesson-head { display: flex; flex-direction: column; gap: 2px; padding-bottom: var(--o-3); border-bottom: 1px solid var(--linia); }
+.th-lesson-no { font-size: 0.8125rem; font-weight: 700; color: var(--s-mat-p); }
+.th-lesson h2 { margin: 0; font-size: var(--t-xl); }
+.th-theory { font-size: 1.0625rem; line-height: 1.7; }
 .th-theory .katex-display { overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
-.th-example { border: 1px solid var(--linia); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
-.th-example h4 { margin: 0; }
-.th-steps { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 6px; }
+.th-box { display: flex; flex-direction: column; gap: 6px; padding: var(--o-4); border-radius: 14px; border: 1px solid var(--linia); }
+.th-box-label { font-size: 0.8125rem; font-weight: 720; }
+.th-box .th-theory { font-size: 1rem; }
+.th-key { background: color-mix(in srgb, var(--s-mat-p) 9%, var(--tlo)); border-color: color-mix(in srgb, var(--s-mat-p) 35%, var(--linia)); border-left: 4px solid var(--s-mat-p); }
+.th-key .th-box-label { color: var(--s-mat-p); }
+.th-key .katex { font-size: 1.12em; }
+.th-warn { background: color-mix(in srgb, var(--seria) 8%, var(--tlo)); border-color: color-mix(in srgb, var(--seria) 35%, var(--linia)); border-left: 4px solid var(--seria); }
+.th-warn .th-box-label { color: var(--seria-tekst); }
+.th-method { background: var(--tlo); border-left: 4px solid var(--atrament); }
+.th-method .th-box-label { color: var(--atrament-mocny); }
+.th-example { border: 1px solid var(--linia); border-radius: 14px; padding: var(--o-4); display: flex; flex-direction: column; gap: 10px; background: var(--tlo); }
+.th-ex-head { display: flex; flex-direction: column; gap: 2px; }
+.th-ex-no { font-size: 0.8125rem; font-weight: 700; color: var(--tekst-2); }
+.th-example h4 { margin: 0; font-size: 1.0625rem; }
+.th-self { border-color: color-mix(in srgb, var(--atrament) 40%, var(--linia)); }
+.th-self .th-ex-no { color: var(--atrament-mocny); }
+.th-self-row { display: flex; gap: var(--o-2); flex-wrap: wrap; }
+.th-self-row .input { flex: 1 1 180px; max-width: 280px; }
+.th-self-res { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; }
+.th-self-res.ok { color: var(--dobrze-tekst); }
+.th-self-res.bad { color: var(--zle-tekst); }
+.th-steps { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 8px; line-height: 1.6; }
+.th-steps li::marker { color: var(--tekst-2); font-weight: 700; }
 .th-steps .math-text p { margin: 0; }
-.th-answer { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.th-answer { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; padding: 8px 12px; border-radius: 10px; background: color-mix(in srgb, var(--dobrze) 10%, transparent); }
 .th-answer .math-text p { margin: 0; }
 
 /* ── Lektura: notatki zamiast ściany tekstu ── */
@@ -4534,4 +4559,106 @@ p.rv-verdict {
 }
 .lk-sec-lead .lk-list > li {
   line-height: 1.55;
+}
+
+/* ── Raport z oceny zadania otwartego ── */
+.grade-report {
+  display: flex;
+  flex-direction: column;
+  gap: var(--o-3);
+  padding: var(--o-4);
+  border-radius: 16px;
+  border: 1px solid var(--linia);
+  background: var(--powierzchnia);
+}
+.grade-report.dobrze {
+  border-color: color-mix(in srgb, var(--dobrze) 45%, var(--linia));
+}
+.grade-report.częściowo {
+  border-color: color-mix(in srgb, var(--seria) 45%, var(--linia));
+}
+.grade-report.źle {
+  border-color: color-mix(in srgb, var(--zle) 45%, var(--linia));
+}
+.gr-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--o-3);
+}
+.gr-score {
+  font-family: var(--font-d);
+  font-size: 1.5rem;
+  font-weight: 760;
+}
+.gr-score .muted {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.gr-bar {
+  display: flex;
+  gap: 4px;
+}
+.gr-bar span {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--linia);
+}
+.gr-bar span.on {
+  background: var(--dobrze);
+}
+.grade-report.częściowo .gr-bar span.on {
+  background: var(--seria);
+}
+.gr-stages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--o-2);
+}
+.gr-stages li {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: var(--o-2);
+  align-items: start;
+  line-height: 1.45;
+  color: var(--tekst-2);
+}
+.gr-stages li.met {
+  color: var(--tekst);
+}
+.gr-ico {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-top: 1px;
+  background: color-mix(in srgb, var(--zle) 15%, transparent);
+  color: var(--zle);
+}
+.gr-stages li.met .gr-ico {
+  background: color-mix(in srgb, var(--dobrze) 18%, transparent);
+  color: var(--dobrze);
+}
+.gr-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.gr-pts {
+  font-weight: 720;
+  font-size: 0.8125rem;
+}
+.gr-tips {
+  margin: 0;
+  padding: var(--o-3) 0 0 1.1rem;
+  border-top: 1px solid var(--linia);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  line-height: 1.5;
 }

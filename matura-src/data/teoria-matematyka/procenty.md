@@ -5,11 +5,12 @@ Procenty są w prawie każdym arkuszu: obniżki, podwyżki, lokaty, punkty proce
 ## Procent liczby i mnożnik
 $p\%$ liczby $x$ to $\frac{p}{100} \cdot x$. Np. $15\%$ z $80$ to $0{,}15 \cdot 80 = 12$.
 
-**Mnożniki:**
-- podwyżka o $p\%$: nowa wartość $= x \cdot \left(1 + \frac{p}{100}\right)$,
-- obniżka o $p\%$: nowa wartość $= x \cdot \left(1 - \frac{p}{100}\right)$.
+> podwyżka o $p\%$: nowa wartość $= x \cdot \left(1 + \frac{p}{100}\right)$
+> obniżka o $p\%$: nowa wartość $= x \cdot \left(1 - \frac{p}{100}\right)$
 
 Np. podwyżka o $20\%$ to mnożenie przez $1{,}2$, obniżka o $30\%$ to mnożenie przez $0{,}7$. Kilka zmian po kolei = mnożymy mnożniki.
+
+> Uwaga: podwyżka o $20\%$, a potem obniżka o $20\%$ **nie** wraca do ceny początkowej – mnożniki się mnożą, a nie znoszą.
 
 ### Przykład: dwie zmiany ceny
 Cenę towaru podniesiono o $20\%$, a potem obniżono o $20\%$. O ile procent zmieniła się cena?
@@ -24,12 +25,23 @@ Po obniżce o $15\%$ kurtka kosztuje $340$ zł. Ile kosztowała przed obniżką?
 2. $x = \frac{340}{0{,}85} = 400$.
 Odpowiedź: $400$ zł
 
+### Sprawdź się: cena po podwyżce
+Książka kosztowała $60$ zł. Cenę podniesiono o $15\%$. Ile kosztuje teraz?
+1. Mnożnik: $1{,}15$.
+2. $60 \cdot 1{,}15 = 69$.
+Odpowiedź: $69$ zł
+Wynik: 69
+
 ## Jakim procentem jest liczba, punkty procentowe
 Jakim procentem liczby $b$ jest liczba $a$? Liczymy $\frac{a}{b} \cdot 100\%$.
 
 O ile procent $a$ jest większe od $b$? Liczymy $\frac{a - b}{b} \cdot 100\%$ – zawsze dzielimy przez wartość, **z którą porównujemy**.
 
 **Punkty procentowe** to różnica dwóch procentów: jeśli oprocentowanie wzrosło z $4\%$ do $5\%$, to wzrosło o $1$ punkt procentowy, ale o $25\%$.
+
+> $\frac{a}{b} \cdot 100\%$ – jakim procentem $b$ jest $a$
+> $\frac{a - b}{b} \cdot 100\%$ – o ile procent $a$ jest większe od $b$
+> Punkty procentowe = różnica dwóch procentów
 
 ### Przykład: o ile procent więcej
 Liczba $a = 60$, liczba $b = 48$. O ile procent $a$ jest większa od $b$?
@@ -43,12 +55,21 @@ Poparcie partii wzrosło z $20\%$ do $25\%$. O ile punktów procentowych i o ile
 2. Procentowo: $\frac{25 - 20}{20} = \frac{5}{20} = 0{,}25$, czyli $25\%$.
 Odpowiedź: o $5$ punktów procentowych, czyli o $25\%$
 
+### Sprawdź się: jakim procentem
+Jakim procentem liczby $80$ jest liczba $12$? Podaj samą liczbę procentów.
+1. $\frac{12}{80} = 0{,}15$.
+2. $0{,}15 \cdot 100\% = 15\%$.
+Odpowiedź: $15\%$
+Wynik: 15
+
 ## Procent składany – lokaty i kredyty
 Kapitał $K$ na lokacie z oprocentowaniem $p\%$ rocznie, z kapitalizacją co rok, po $n$ latach wynosi:
 
-$$K_n = K \cdot \left(1 + \frac{p}{100}\right)^n$$
+> $$K_n = K \cdot \left(1 + \frac{p}{100}\right)^n$$
 
 To ciąg geometryczny o ilorazie $q = 1 + \frac{p}{100}$. Jeśli kapitalizacja jest $k$ razy w roku, to w każdym okresie oprocentowanie wynosi $\frac{p}{k}\%$, a okresów jest $n \cdot k$.
+
+> Uwaga: przy kapitalizacji częstszej niż raz w roku dzielimy oprocentowanie przez liczbę okresów, a liczbę lat mnożymy przez liczbę okresów.
 
 ### Przykład: lokata na 2 lata
 Wpłacamy $5000$ zł na lokatę $4\%$ w skali roku z kapitalizacją roczną. Ile będzie po 2 latach?
@@ -63,3 +84,10 @@ Lokata $1000$ zł, $8\%$ w skali roku, kapitalizacja co kwartał. Jaki będzie s
 2. W roku są $4$ kwartały: $K = 1000 \cdot 1{,}02^4$.
 3. $1{,}02^4 = 1{,}08243216$, więc $K \approx 1082{,}43$.
 Odpowiedź: około $1082{,}43$ zł
+
+### Sprawdź się: lokata roczna
+Na lokatę $2000$ zł z oprocentowaniem $5\%$ w skali roku (kapitalizacja roczna). Ile będzie po $2$ latach?
+1. $2000 \cdot 1{,}05^2 = 2000 \cdot 1{,}1025$.
+2. $= 2205$.
+Odpowiedź: $2205$ zł
+Wynik: 2205

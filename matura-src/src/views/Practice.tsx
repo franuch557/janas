@@ -6,7 +6,8 @@ import { useMemo, useState } from 'react';
 import { subjectDef, type SubjectId } from '../model';
 import { useStore } from '../store/AppStore';
 import { generatorsFor, makeVariant, variantTaskId, type Step, type Variant } from '../logic/variants';
-import { gradeTask } from '../logic/mathGrade';
+import { gradeReport, type GradeReport } from '../logic/gradeReport';
+import { GradeReportView } from './gradeReportView';
 import { constValue } from '../logic/mathExpr';
 import mathParams from '../data/ocena-matematyka.json';
 import { MathText } from '../ui/MathText';
@@ -210,12 +211,12 @@ function Blanks({ v, onSave, onNext }: { v: Variant; onSave: (pts: number) => vo
 function Solo({ v, onSave, onNext }: { v: Variant; onSave: (pts: number, hints: number, feedback: string) => void; onNext: () => void }) {
   const [text, setText] = useState('');
   const [hints, setHints] = useState(0);
-  const [res, setRes] = useState<{ points: number; feedback: string } | null>(null);
+  const [res, setRes] = useState<{ points: number; feedback: string; report: GradeReport | null } | null>(null);
   const check = () => {
-    const g = gradeTask(v.key, v.maxPoints, text, mathParams.params);
-    const points = g?.points ?? 0;
-    const fb = g ? [g.found.length ? `Zgadza się z kluczem: ${g.found.join('; ')}.` : 'Nie znalazłem wyniku z klucza.', g.missing.length && points < v.maxPoints ? `Brakuje: ${g.missing.join('; ')}.` : ''].filter(Boolean).join(' ') : 'Nie umiem odczytać rozwiązania.';
-    setRes({ points, feedback: fb });
+    const r = gradeReport(v.key, v.maxPoints, text, mathParams.params);
+    const points = r?.points ?? 0;
+    const fb = r ? r.tips.join(' ') : 'Nie umiem odczytać rozwiązania.';
+    setRes({ points, feedback: fb, report: r });
     onSave(points, hints, fb);
   };
   return (
@@ -240,13 +241,15 @@ function Solo({ v, onSave, onNext }: { v: Variant; onSave: (pts: number, hints: 
         </div>
       ) : (
         <>
-          <div className={`verdict ${res.points === v.maxPoints ? 'dobrze' : res.points ? 'częściowo' : 'źle'}`} role="status">
-            <strong>
-              Ocena automatyczna: {res.points} z {v.maxPoints} pkt
-            </strong>
-            <span>{res.feedback}</span>
-          </div>
-          <h3>Rozwiązanie</h3>
+          {res.report ? (
+            <GradeReportView r={res.report} />
+          ) : (
+            <div className="verdict źle" role="status">
+              <strong>0 z {v.maxPoints} pkt</strong>
+              <span>{res.feedback}</span>
+            </div>
+          )}
+          <h3>Wyjaśnienie krok po kroku</h3>
           <StepsList steps={v.steps} show={v.steps.length} />
           <p>
             <strong>Odpowiedź:</strong> {v.answer}

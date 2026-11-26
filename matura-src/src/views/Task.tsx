@@ -299,10 +299,12 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                   <p className="muted">Rozwiąż na kartce i oceń swoje rozwiązanie.</p>
                 ) : (
                   <>
-                    {!revealed ? <p className="muted">Rozwiąż na kartce albo wpisz odpowiedź, potem porównaj z zasadami oceniania.</p> : null}
-                    <button type="button" className="btn btn-secondary btn-block" onClick={() => setRevealed((r) => !r)} aria-expanded={revealed}>
-                      {revealed ? 'Ukryj odpowiedź' : 'Pokaż odpowiedź'}
-                    </button>
+                    {!revealed && !autoKind ? <p className="muted">Rozwiąż na kartce albo wpisz odpowiedź poniżej.</p> : null}
+                    {autoKind && !revealed ? null : (
+                      <button type="button" className="btn btn-secondary btn-block" onClick={() => setRevealed((r) => !r)} aria-expanded={revealed}>
+                        {revealed ? 'Ukryj rozwiązanie CKE' : 'Pokaż rozwiązanie CKE'}
+                      </button>
+                    )}
                   </>
                 )}
               </>
@@ -331,8 +333,13 @@ function Solve({ t, d, today, flow, saveResult, undo, updateStan, toast }: { t: 
                 }}
               />
             ) : null}
+            {autoKind && !revealed && !checked && !grade ? (
+              <button type="button" className="btn btn-quiet" onClick={() => setRevealed(true)}>
+                Nie wiem – pokaż rozwiązanie
+              </button>
+            ) : null}
             {!t.auto && !t.essay && !autoKind ? <OwnAnswer key={`own-${t.id}`} id={t.id} shown={revealed || checked || !!grade} onCompare={() => setRevealed(true)} /> : null}
-            {!t.auto && t.rubric && !grade ? (
+            {!t.auto && t.rubric && !grade && (revealed || checked) ? (
               <RubricGrader
                 id={t.id}
                 rubric={t.rubric}

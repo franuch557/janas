@@ -1,18 +1,21 @@
 # Potęgi i funkcja wykładnicza
 
-Ten dział to podstawa całej matury. Musisz umieć sprawnie liczyć potęgi o wykładnikach całkowitych i wymiernych, zamieniać pierwiastki na potęgi i znać wykres funkcji wykładniczej.
+Ten dział to podstawa całej matury. Musisz sprawnie liczyć potęgi o wykładnikach całkowitych i wymiernych, zamieniać pierwiastki na potęgi i znać wykres funkcji wykładniczej.
 
 ## Działania na potęgach
 Potęga $a^n$ to iloczyn $n$ czynników równych $a$, np. $2^3 = 2 \cdot 2 \cdot 2 = 8$.
 
-**Wzory, które musisz znać** (dla $a, b > 0$):
-- $a^m \cdot a^n = a^{m+n}$ – przy mnożeniu wykładniki **dodajemy**,
-- $a^m : a^n = a^{m-n}$ – przy dzieleniu wykładniki **odejmujemy**,
-- $(a^m)^n = a^{m \cdot n}$ – potęga potęgi: wykładniki **mnożymy**,
-- $(a \cdot b)^n = a^n \cdot b^n$ oraz $\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$,
-- $a^0 = 1$ (dla $a \neq 0$).
+> $a^m \cdot a^n = a^{m+n}$ – mnożenie: wykładniki **dodajemy**
+> $a^m : a^n = a^{m-n}$ – dzielenie: wykładniki **odejmujemy**
+> $(a^m)^n = a^{m \cdot n}$ – potęga potęgi: wykładniki **mnożymy**
+> $(a b)^n = a^n b^n$, $\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$, $a^0 = 1$
 
-Najważniejsza sztuczka: sprowadź wszystkie liczby do **tej samej podstawy**, np. $4 = 2^2$, $8 = 2^3$, $27 = 3^3$.
+> Metoda:
+> 1. Zamień wszystkie liczby na potęgi **tej samej podstawy**: $4 = 2^2$, $8 = 2^3$, $9 = 3^2$, $27 = 3^3$, $25 = 5^2$.
+> 2. Policz wykładniki według wzorów.
+> 3. Dopiero na końcu oblicz wartość.
+
+> Uwaga: wzory działają tylko przy mnożeniu i dzieleniu. $2^3 + 2^3 \neq 2^6$ – przy dodawaniu wyłączamy wspólny czynnik: $2^3 + 2^3 = 2 \cdot 2^3 = 2^4$.
 
 ### Przykład: ta sama podstawa
 Oblicz $\dfrac{4^3 \cdot 8^2}{2^{10}}$.
@@ -27,12 +30,22 @@ Oblicz $\dfrac{3^{20} + 3^{18}}{3^{18}}$.
 2. Skracamy $3^{18}$: zostaje $10$.
 Odpowiedź: $10$
 
+### Sprawdź się: potęgi trójki
+Oblicz $\dfrac{9^4 \cdot 27}{3^{9}}$.
+1. $9^4 = (3^2)^4 = 3^8$, $27 = 3^3$.
+2. Licznik: $3^8 \cdot 3^3 = 3^{11}$.
+3. $3^{11} : 3^9 = 3^2 = 9$.
+Odpowiedź: $9$
+Wynik: 9
+
 ## Wykładnik ujemny i wymierny
-**Wykładnik ujemny** oznacza odwrotność: $a^{-n} = \dfrac{1}{a^n}$, np. $2^{-3} = \frac{1}{8}$, a $\left(\frac{2}{3}\right)^{-2} = \left(\frac{3}{2}\right)^2 = \frac{9}{4}$.
+> $a^{-n} = \dfrac{1}{a^n}$ – minus w wykładniku to **odwrotność**
+> $a^{\frac{m}{n}} = \sqrt[n]{a^m}$ – mianownik to stopień pierwiastka, licznik to potęga
+> $\sqrt{a} = a^{\frac12}$, $\sqrt[3]{a} = a^{\frac13}$
 
-**Wykładnik wymierny** to pierwiastek: $a^{\frac{m}{n}} = \sqrt[n]{a^m}$. Mianownik to stopień pierwiastka, licznik to potęga. Np. $8^{\frac{2}{3}} = \left(\sqrt[3]{8}\right)^2 = 2^2 = 4$.
+Np. $2^{-3} = \frac{1}{8}$, $\left(\frac{2}{3}\right)^{-2} = \left(\frac{3}{2}\right)^2 = \frac{9}{4}$, $8^{\frac{2}{3}} = \left(\sqrt[3]{8}\right)^2 = 2^2 = 4$.
 
-Pierwiastki zamieniamy na potęgi: $\sqrt{a} = a^{\frac12}$, $\sqrt[3]{a} = a^{\frac13}$.
+> Uwaga: wykładnik ujemny nie zmienia znaku liczby. $2^{-3}$ to $\frac18$, a nie $-8$.
 
 ### Przykład: pierwiastki jako potęgi
 Zapisz $\sqrt[3]{9} \cdot 3^{\frac{1}{3}}$ w postaci jednej potęgi liczby $3$.
@@ -47,8 +60,21 @@ Oblicz $\left(\frac{1}{16}\right)^{-\frac{3}{4}}$.
 3. $2^3 = 8$.
 Odpowiedź: $8$
 
+### Sprawdź się: potęga o wykładniku ułamkowym
+Oblicz $27^{\frac{2}{3}} \cdot 9^{-1}$.
+1. $27^{\frac23} = \left(\sqrt[3]{27}\right)^2 = 3^2 = 9$.
+2. $9^{-1} = \frac19$.
+3. $9 \cdot \frac19 = 1$.
+Odpowiedź: $1$
+Wynik: 1
+
 ## Notacja wykładnicza
-Bardzo duże i bardzo małe liczby zapisujemy jako $a \cdot 10^k$, gdzie $1 \le a < 10$, a $k$ jest liczbą całkowitą. Np. $45\,000 = 4{,}5 \cdot 10^4$, a $0{,}0032 = 3{,}2 \cdot 10^{-3}$.
+> $a \cdot 10^k$, gdzie $1 \le a < 10$, a $k$ jest liczbą całkowitą
+> $45\,000 = 4{,}5 \cdot 10^4$, $0{,}0032 = 3{,}2 \cdot 10^{-3}$
+
+> Metoda:
+> 1. Mnożąc albo dzieląc, licz osobno liczby i osobno potęgi dziesiątki.
+> 2. Jeśli liczba przed potęgą wyjdzie $\ge 10$ albo $< 1$, popraw ją, przesuwając przecinek i zmieniając wykładnik.
 
 ### Przykład: iloczyn w notacji wykładniczej
 Oblicz $(3 \cdot 10^5) \cdot (4 \cdot 10^{-2})$ i zapisz wynik w notacji wykładniczej.
@@ -57,13 +83,20 @@ Oblicz $(3 \cdot 10^5) \cdot (4 \cdot 10^{-2})$ i zapisz wynik w notacji wykład
 3. Wynik: $1{,}2 \cdot 10^1 \cdot 10^3 = 1{,}2 \cdot 10^4$.
 Odpowiedź: $1{,}2 \cdot 10^4$
 
-## Funkcja wykładnicza
-Funkcja $f(x) = a^x$, gdzie $a > 0$ i $a \neq 1$.
-- Dziedzina: wszystkie liczby rzeczywiste, zbiór wartości: $(0, +\infty)$.
-- Wykres zawsze przechodzi przez punkt $(0, 1)$, bo $a^0 = 1$, i nigdy nie dotyka osi $OX$.
-- Dla $a > 1$ funkcja jest **rosnąca**, dla $0 < a < 1$ – **malejąca**.
+### Sprawdź się: iloraz
+Oblicz $\dfrac{8 \cdot 10^{6}}{2 \cdot 10^{2}}$. Podaj wynik jako liczbę.
+1. $8 : 2 = 4$, $10^6 : 10^2 = 10^4$.
+2. $4 \cdot 10^4 = 40\,000$.
+Odpowiedź: $40\,000 = 4 \cdot 10^4$
+Wynik: 40000
 
-Przesunięcie wykresu: $f(x) = a^{x-p} + q$ to wykres $a^x$ przesunięty o $p$ w prawo i o $q$ w górę. Wtedy zbiór wartości to $(q, +\infty)$.
+## Funkcja wykładnicza
+> $f(x) = a^x$, gdzie $a > 0$, $a \neq 1$
+> Dziedzina: $\mathbb{R}$, zbiór wartości: $(0, +\infty)$, wykres przechodzi przez $(0, 1)$
+> $a > 1$ – funkcja **rosnąca**, $0 < a < 1$ – **malejąca**
+> $f(x) = a^{x-p} + q$ – przesunięcie o $p$ w prawo i $q$ w górę, zbiór wartości $(q, +\infty)$
+
+> Uwaga: wykres funkcji wykładniczej nigdy nie dotyka osi $OX$ – asymptotą jest prosta $y = q$.
 
 ### Przykład: odczytywanie podstawy
 Wykres funkcji $f(x) = a^x$ przechodzi przez punkt $(2, 9)$. Wyznacz $a$ i oblicz $f(-1)$.
@@ -77,3 +110,10 @@ Podaj zbiór wartości funkcji $g(x) = 2^{x+1} - 5$.
 1. Funkcja $2^{x+1}$ przyjmuje wszystkie wartości dodatnie: $(0, +\infty)$.
 2. Odejmujemy $5$, czyli przesuwamy wykres o $5$ w dół.
 Odpowiedź: $(-5, +\infty)$
+
+### Sprawdź się: wartość funkcji
+Dla funkcji $f(x) = 3^{x} - 2$ oblicz $f(2)$.
+1. $3^2 = 9$.
+2. $f(2) = 9 - 2 = 7$.
+Odpowiedź: $7$
+Wynik: 7

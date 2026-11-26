@@ -1,6 +1,9 @@
 // 13. Każdy ekran: brak błędów konsoli, brak poziomego przewijania, przyciski ≥ 44 px na telefonie,
 // brak tekstów programisty. Przejście po wszystkich widokach w jasnym i ciemnym motywie.
 import { test, before, after } from 'node:test';
+
+// przycisk odsłaniający rozwiązanie CKE (przy zadaniach ocenianych automatycznie: „Nie wiem – pokaż rozwiązanie”)
+const REVEAL = /^(Pokaż rozwiązanie CKE|Nie wiem – pokaż rozwiązanie)$/;
 import {
   ensureServer, closeBrowser, openApp, bothDevices, checkScreen, clickVisible, waitReady, diagnosedState, softChecks,
   tid, url, sleep, hardProblems, imagesLoaded, seedState,
@@ -56,7 +59,7 @@ for (const theme of ['jasny', 'ciemny']) {
     await checkScreen(page, `${theme}-zadanie-menu`);
     await page.keyboard.press('Escape');
     await visit(page, `#zadanie-${tid('MMAP-R0-100-2405', '5')}`, `${theme}-zadanie-otwarte`, async () => {
-      await clickVisible(page, 'Pokaż odpowiedź');
+      await clickVisible(page, REVEAL);
       await imagesLoaded(page, '.reveal .kartka img');
       await page.getByRole('button', { name: 'Dodaj notatkę do błędu' }).click();
     });

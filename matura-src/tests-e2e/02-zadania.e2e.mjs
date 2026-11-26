@@ -1,6 +1,9 @@
 // 4. Zadanie zamknięte, 5. zadanie otwarte, 12. własne zadanie z zadania.info.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
+
+// przycisk odsłaniający rozwiązanie CKE (przy zadaniach ocenianych automatycznie: „Nie wiem – pokaż rozwiązanie”)
+const REVEAL = /^(Pokaż rozwiązanie CKE|Nie wiem – pokaż rozwiązanie)$/;
 import {
   ensureServer, closeBrowser, openApp, bothDevices, checkScreen, lsState, clickVisible, waitReady, seedState, softChecks,
   rawTask, tid, url, expectedClosed, imagesLoaded, sleep, answerClosed, shot,
@@ -90,7 +93,7 @@ bothDevices(test, '5. Zadanie otwarte: samoocena i cofnięcie', async (t, device
   const save = page.getByRole('button', { name: 'Zapisz wynik', exact: true }).filter({ visible: true }).first();
   sc.ok(await save.isDisabled(), '„Zapisz wynik” nieaktywne przed pokazaniem odpowiedzi');
   await checkScreen(page, 'zadanie-otwarte');
-  await clickVisible(page, 'Pokaż odpowiedź');
+  await clickVisible(page, REVEAL);
   const odp = await imagesLoaded(page, '.reveal .kartka img');
   sc.ok(odp[0]?.w > 0 && /Zasady oceniania/.test(odp[0].alt), 'obraz z zasad oceniania wczytany');
   const grade = page.getByRole('radiogroup', { name: 'Ile punktów przyznajesz sobie?' });
@@ -116,7 +119,7 @@ bothDevices(test, '5. Zadanie otwarte: samoocena i cofnięcie', async (t, device
   // drugi zapis i cofnięcie przyciskiem „Cofnij wynik”
   await page.reload();
   await waitReady(page);
-  await clickVisible(page, 'Pokaż odpowiedź');
+  await clickVisible(page, REVEAL);
   await page.getByRole('radiogroup', { name: 'Ile punktów przyznajesz sobie?' }).getByRole('radio', { name: '2', exact: true }).click();
   await clickVisible(page, 'Zapisz wynik');
   await page.getByRole('button', { name: 'Cofnij wynik' }).waitFor();
@@ -127,7 +130,7 @@ bothDevices(test, '5. Zadanie otwarte: samoocena i cofnięcie', async (t, device
   await sleep(600);
   res = activeResults(await lsState(page)).filter((e) => e.task === id);
   sc.ok(res.length === 0, `po „Cofnij wynik” brak aktywnego wyniku (jest ${res.length})`);
-  sc.ok(await page.getByRole('button', { name: 'Pokaż odpowiedź' }).filter({ visible: true }).count() > 0, 'po cofnięciu można rozwiązać ponownie');
+  sc.ok(await page.getByRole('button', { name: REVEAL }).filter({ visible: true }).count() > 0, 'po cofnięciu można rozwiązać ponownie');
   sc.done();
   return env;
 });

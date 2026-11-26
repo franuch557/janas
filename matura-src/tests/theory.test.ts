@@ -45,4 +45,20 @@ describe('teoria z matematyki', () => {
     expect(th.lessons[0].theory).toBe('Teoria:\n\n- punkt');
     expect(th.lessons[0].examples[0]).toEqual({ title: 'test', task: 'Oblicz $1+1$.', steps: ['Dodajemy.', 'Wynik $2$.'], answer: '$2$' });
   });
+
+  it('ramki w teorii i zadania „Sprawdź się”', () => {
+    const th = parseTheory('## L\nTekst.\n\n> $a^2$\n> drugi\n\n> Uwaga: znak\n\n> Metoda:\n> 1. krok\n### Sprawdź się: x\nOblicz.\n1. Krok.\nOdpowiedź: $4$\nWynik: 4\n');
+    expect(th.lessons[0].parts.map((p) => p.kind)).toEqual(['text', 'key', 'warn', 'method']);
+    expect(th.lessons[0].parts[1].text).toBe('$a^2$\ndrugi');
+    expect(th.lessons[0].parts[2].text).toBe('Znak');
+    expect(th.lessons[0].parts[3].text).toBe('1. krok');
+    expect(th.lessons[0].examples[0]).toMatchObject({ self: true, check: '4', answer: '$4$' });
+  });
+
+  it('każde zadanie „Sprawdź się” ma wynik do sprawdzenia', () => {
+    for (const f of readdirSync(dir)) {
+      const th = parseTheory(readFileSync(join(dir, f), 'utf8'));
+      for (const l of th.lessons) for (const ex of l.examples) if (ex.self) expect(ex.check, `${f}: ${ex.title}`).toBeTruthy();
+    }
+  });
 });

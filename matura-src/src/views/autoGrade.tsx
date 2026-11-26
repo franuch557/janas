@@ -5,6 +5,8 @@
 import { useEffect, useState } from 'react';
 import type { AppTask } from '../store/derived';
 import { gradeTask, type MathKey, type MathParams } from '../logic/mathGrade';
+import { gradeReport, type GradeReport } from '../logic/gradeReport';
+import { GradeReportView } from './gradeReportView';
 import { gradeEnglish, type EnglishItem } from '../logic/englishGrade';
 import { gradeByKey, type TextKey } from '../logic/keyGrade';
 import { embedTexts, gradeText, setTextModel, unpackVec, type TextExample, type TextParams } from '../logic/textGrade';
@@ -60,6 +62,8 @@ export function useAutoKind(t: AppTask | undefined): AutoKind | null {
 export interface AutoResult {
   points: number;
   feedback: string;
+  /** Matematyka: etapy z zasad oceniania (spełnione / niespełnione). */
+  report?: GradeReport;
 }
 
 export async function autoGrade(t: AppTask, kind: AutoKind, text: string, onProgress?: (p: number) => void): Promise<AutoResult | null> {
@@ -72,7 +76,8 @@ export async function autoGrade(t: AppTask, kind: AutoKind, text: string, onProg
       g.found.length ? `Zgadza się z kluczem: ${g.found.join('; ')}.` : 'Nie znalazłem w rozwiązaniu wyników z klucza.',
       g.missing.length && g.points < t.maxPoints ? `Do pełnej punktacji brakuje: ${g.missing.join('; ')}.` : '',
     ];
-    return { points: g.points, feedback: parts.filter(Boolean).join(' ') };
+    const report = k ? gradeReport(k, t.maxPoints, text, params) : null;
+    return { points: g.points, feedback: parts.filter(Boolean).join(' '), ...(report ? { report } : {}) };
   }
   if (kind === 'klucz') {
     const k = (await loadApprox())[t.id];
@@ -143,7 +148,7 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
   };
   return (
     <div className="card stack-2">
-      <h3>Sprawdź automatycznie</h3>
+      <h3>{res ? 'Twoje rozwiązanie' : 'Rozwiąż i sprawdź'}</h3>
       <div className="field">
         <label htmlFor={`auto-${t.id}`}>{kind === 'mat' || (kind === 'klucz' && t.subjectId.startsWith('mat')) ? 'Twoje rozwiązanie: obliczenia i wynik' : kind === 'ang' ? 'Twoje odpowiedzi: jedna w linii, po kolei' : 'Twoja odpowiedź'}</label>
         <textarea
@@ -152,23 +157,30 @@ export function AutoGrader({ t, kind, initialText = '', onGraded, disabled }: { 
           value={text}
           onChange={(e) => setText(e.target.value)}
           maxLength={4000}
-          disabled={disabled}
+          disabled={disabled || !!res}
           placeholder={kind === 'klucz' ? 'Wynik, kroki rozwiązania albo odpowiedź' : kind === 'mat' ? 'np.\nC = (14, 8)\n|BC| = √(16 + 36) = 2√13' : kind === 'ang' ? 'np.\nhaven’t changed since\nfor them to book\nmind if I' : 'Napisz odpowiedź pełnymi zdaniami.'}
         />
         <span className="hint">
           {kind === 'mat'
             ? 'Pisz kolejne kroki w osobnych liniach. Pierwiastek: √ albo sqrt(), potęga: ^, ułamek: /.'
             : kind === 'klucz'
-              ? 'Ocena przybliżona: aplikacja porówna słowa kluczowe i liczby z zasadami oceniania CKE.'
+              ? 'Napisz wynik i najważniejsze kroki albo pełną odpowiedź.'
               : kind === 'ang'
               ? 'Liczy się poprawna forma i pisownia, tak jak na maturze. Skróty (haven’t / have not) są równoważne.'
-              : 'Ocena porównuje sens odpowiedzi z przykładowymi odpowiedziami CKE. Za pierwszym razem strona pobiera model oceny (ok. 118 MB).'}
+              : 'Napisz odpowiedź pełnymi zdaniami. Za pierwszym sprawdzeniem strona pobiera model oceny (ok. 118 MB).'}
         </span>
       </div>
+      {!res ? (
       <button type="button" className="btn btn-primary" disabled={busy || disabled || !text.trim()} onClick={() => void run()}>
         {busy ? (progress != null && progress < 1 ? `Pobieram model oceny… ${Math.round(progress * 100)}%` : 'Sprawdzam…') : 'Sprawdź'}
       </button>
-      {res ? (
+      ) : null}
+      {res?.report ? (
+        <>
+          <GradeReportView r={res.report} />
+          <span className="small muted">Jeśli algorytm się pomylił, zmień punkty niżej.</span>
+        </>
+      ) : res ? (
         <div className={`verdict ${res.points === t.maxPoints ? 'dobrze' : res.points === 0 ? 'źle' : 'częściowo'}`} role="status">
           <strong>
             Ocena automatyczna: {res.points} z {t.maxPoints} pkt

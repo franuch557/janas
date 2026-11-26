@@ -3,13 +3,16 @@
 Funkcja kwadratowa to jeden z najważniejszych działów: postacie wzoru, wierzchołek, monotoniczność, największa i najmniejsza wartość, a na rozszerzeniu – zadania z parametrem i wzory Viète'a.
 
 ## Trzy postacie funkcji kwadratowej
-- **ogólna:** $f(x) = ax^2 + bx + c$,
-- **kanoniczna:** $f(x) = a(x - p)^2 + q$, gdzie $W = (p, q)$ to wierzchołek,
-- **iloczynowa:** $f(x) = a(x - x_1)(x - x_2)$, gdzie $x_1, x_2$ to miejsca zerowe (gdy $\Delta \ge 0$).
+
+> **ogólna:** $f(x) = ax^2 + bx + c$
+> **kanoniczna:** $f(x) = a(x - p)^2 + q$, gdzie $W = (p, q)$ to wierzchołek
+> **iloczynowa:** $f(x) = a(x - x_1)(x - x_2)$, gdzie $x_1, x_2$ to miejsca zerowe (gdy $\Delta \ge 0$).
 
 Wierzchołek: $p = \dfrac{-b}{2a}$, $q = \dfrac{-\Delta}{4a}$ (albo po prostu $q = f(p)$).
 
 Wartość $a$ decyduje o ramionach: $a > 0$ – w górę, $a < 0$ – w dół.
+
+> Uwaga: w postaci kanonicznej $a(x - p)^2 + q$ wierzchołek to $(p, q)$. Z $(x + 3)^2$ wynika $p = -3$, a nie $3$.
 
 ### Przykład: postać kanoniczna
 Zapisz $f(x) = 2x^2 - 8x + 3$ w postaci kanonicznej.
@@ -25,10 +28,22 @@ Funkcja kwadratowa ma miejsca zerowe $-1$ i $3$, a jej wykres przechodzi przez p
 3. $f(x) = -2(x + 1)(x - 3)$.
 Odpowiedź: $f(x) = -2(x + 1)(x - 3)$
 
+### Sprawdź się: wierzchołek paraboli
+Podaj pierwszą współrzędną wierzchołka paraboli $y = x^2 - 6x + 5$.
+1. $p = -\frac{b}{2a} = -\frac{-6}{2} = 3$.
+2. $q = f(3) = 9 - 18 + 5 = -4$.
+Odpowiedź: $W = (3, -4)$, więc $p = 3$
+Wynik: 3
+
 ## Monotoniczność i wartość największa / najmniejsza
 Dla $a > 0$ funkcja maleje na $(-\infty, p]$ i rośnie na $[p, +\infty)$, a najmniejsza wartość to $q$. Dla $a < 0$ odwrotnie, a $q$ jest wartością największą.
 
 **W przedziale domkniętym** $[m, n]$ wartości największej i najmniejszej szukamy wśród: $f(m)$, $f(n)$ i $f(p)$ – ale $f(p)$ tylko wtedy, gdy $p \in [m, n]$.
+
+> Metoda:
+> 1. Oblicz $p$ – pierwszą współrzędną wierzchołka.
+> 2. Sprawdź, czy $p$ należy do przedziału z zadania.
+> 3. Porównaj wartości w $p$ (jeśli należy) i na końcach przedziału.
 
 ### Przykład: przedział domknięty
 Wyznacz najmniejszą i największą wartość $f(x) = x^2 - 4x + 1$ w przedziale $[0, 5]$.
@@ -44,9 +59,18 @@ Suma dwóch liczb wynosi $10$. Dla jakich liczb ich iloczyn jest największy?
 3. Liczby to $5$ i $5$, iloczyn $25$.
 Odpowiedź: $5$ i $5$ (iloczyn $25$)
 
+### Sprawdź się: najmniejsza wartość w przedziale
+Wyznacz najmniejszą wartość funkcji $f(x) = x^2 - 4x + 1$ w przedziale $[0, 5]$.
+1. $p = 2 \in [0, 5]$, $f(2) = 4 - 8 + 1 = -3$.
+2. Na końcach: $f(0) = 1$, $f(5) = 6$.
+3. Najmniejsza z tych wartości to $-3$.
+Odpowiedź: $-3$
+Wynik: -3
+
 ## Wzory Viète'a i parametr
 Gdy $\Delta \ge 0$:
-$$x_1 + x_2 = \frac{-b}{a}, \qquad x_1 \cdot x_2 = \frac{c}{a}$$
+
+> $$x_1 + x_2 = \frac{-b}{a}, \qquad x_1 \cdot x_2 = \frac{c}{a}$$
 
 Typowe wyrażenia: $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2$, $\dfrac{1}{x_1} + \dfrac{1}{x_2} = \dfrac{x_1 + x_2}{x_1 x_2}$.
 
@@ -54,6 +78,11 @@ Typowe wyrażenia: $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2$, $\dfrac{1}{x_1} + 
 1. Warunek istnienia rozwiązań (np. $a \neq 0$, $\Delta > 0$ albo $\Delta \ge 0$).
 2. Warunek z treści zapisany wzorami Viète'a.
 3. Część wspólna warunków.
+
+> $x_1 + x_2 = -\frac{b}{a}$, $x_1 \cdot x_2 = \frac{c}{a}$
+> $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2$
+
+> Uwaga: wzory Viète'a stosuj dopiero wtedy, gdy równanie ma pierwiastki – najpierw warunek $\Delta \ge 0$ (albo $\Delta > 0$ dla dwóch różnych).
 
 ### Przykład: dwa różne pierwiastki dodatnie
 Dla jakich $m$ równanie $x^2 - 2mx + m + 6 = 0$ ma dwa różne pierwiastki dodatnie?
@@ -70,3 +99,10 @@ Równanie $x^2 - 4x + m = 0$ ma dwa pierwiastki. Dla jakiego $m$ zachodzi $x_1^2
 3. $x_1^2 + x_2^2 = 16 - 2m = 10$, więc $m = 3$.
 4. $3 \le 4$ – warunek spełniony.
 Odpowiedź: $m = 3$
+
+### Sprawdź się: suma kwadratów pierwiastków
+Równanie $x^2 - 5x + 3 = 0$ ma dwa pierwiastki. Oblicz $x_1^2 + x_2^2$.
+1. $\Delta = 25 - 12 = 13 > 0$. $x_1 + x_2 = 5$, $x_1 x_2 = 3$.
+2. $x_1^2 + x_2^2 = 5^2 - 2 \cdot 3 = 19$.
+Odpowiedź: $19$
+Wynik: 19

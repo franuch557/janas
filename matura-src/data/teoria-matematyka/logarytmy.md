@@ -3,13 +3,21 @@
 Logarytm to po prostu wykładnik. Na maturze trzeba umieć obliczyć logarytm z definicji, korzystać z trzech podstawowych wzorów i pamiętać o założeniach.
 
 ## Definicja logarytmu
-$\log_a b = c \iff a^c = b$
+
+> $\log_a b = c \iff a^c = b$
 
 Czytamy: „do jakiej potęgi trzeba podnieść $a$, żeby otrzymać $b$?”.
 
 **Założenia:** podstawa $a > 0$ i $a \neq 1$, liczba logarytmowana $b > 0$.
 
 Ważne wartości: $\log_a 1 = 0$, $\log_a a = 1$, $\log_a a^n = n$. Zapis $\log b$ (bez podstawy) oznacza $\log_{10} b$.
+
+> Założenia: $a > 0$, $a \neq 1$, $b > 0$
+> $\log_a 1 = 0$, $\log_a a = 1$, $\log_a a^n = n$
+
+> Metoda:
+> 1. Zapisz $b$ jako potęgę podstawy $a$.
+> 2. Wykładnik tej potęgi to szukany logarytm.
 
 ### Przykład: z definicji
 Oblicz $\log_2 32$ i $\log_3 \frac{1}{9}$.
@@ -24,13 +32,21 @@ Oblicz $\log_{\sqrt{2}} 8$.
 3. $\frac{c}{2} = 3$, więc $c = 6$.
 Odpowiedź: $6$
 
+### Sprawdź się: logarytm z definicji
+Oblicz $\log_5 125$.
+1. $125 = 5^3$.
+2. $\log_5 5^3 = 3$.
+Odpowiedź: $3$
+Wynik: 3
+
 ## Wzory na działania
 Dla $a > 0$, $a \neq 1$, $x, y > 0$:
-- $\log_a x + \log_a y = \log_a (x \cdot y)$ – suma logarytmów to logarytm **iloczynu**,
-- $\log_a x - \log_a y = \log_a \frac{x}{y}$ – różnica to logarytm **ilorazu**,
-- $\log_a x^n = n \cdot \log_a x$ – wykładnik „wychodzi” przed logarytm.
 
-Uwaga: $\log_a(x + y)$ **nie** jest równe $\log_a x + \log_a y$.
+> $\log_a x + \log_a y = \log_a (x \cdot y)$ – suma logarytmów to logarytm **iloczynu**
+> $\log_a x - \log_a y = \log_a \frac{x}{y}$ – różnica to logarytm **ilorazu**
+> $\log_a x^n = n \cdot \log_a x$ – wykładnik „wychodzi” przed logarytm.
+
+> Uwaga: $\log_a(x + y)$ **nie** jest równe $\log_a x + \log_a y$.
 
 ### Przykład: suma i różnica
 Oblicz $\log_6 4 + \log_6 9$.
@@ -45,10 +61,19 @@ Oblicz $2\log_5 10 - \log_5 4$.
 3. $\log_5 25 = 2$.
 Odpowiedź: $2$
 
+### Sprawdź się: różnica logarytmów
+Oblicz $\log_3 54 - \log_3 2$.
+1. $\log_3 \frac{54}{2} = \log_3 27$.
+2. $27 = 3^3$, więc wynik to $3$.
+Odpowiedź: $3$
+Wynik: 3
+
 ## Zmiana podstawy i zadania z parametrem
 Wzór na zmianę podstawy: $\log_a b = \dfrac{\log_c b}{\log_c a}$.
 
 Przydaje się, gdy znamy np. $\log 2$ i $\log 3$, a mamy obliczyć coś innego. Często też trzeba wyrazić logarytm przez dane literki.
+
+> $\log_a b = \dfrac{\log_c b}{\log_c a}$
 
 ### Przykład: wyrażanie przez dane
 Wiadomo, że $\log 2 = a$ i $\log 3 = b$. Wyraź $\log 12$ za pomocą $a$ i $b$.
@@ -64,3 +89,10 @@ Dla jakich $x$ wyrażenie $\log_{x-1} (5 - x)$ ma sens?
 3. Liczba logarytmowana dodatnia: $5 - x > 0$, czyli $x < 5$.
 4. Część wspólna: $x \in (1, 2) \cup (2, 5)$.
 Odpowiedź: $x \in (1, 2) \cup (2, 5)$
+
+### Sprawdź się: iloczyn logarytmów
+Oblicz $\log_2 9 \cdot \log_3 2$.
+1. Zmieniamy podstawę: $\log_2 9 = \frac{\log_3 9}{\log_3 2} = \frac{2}{\log_3 2}$.
+2. $\frac{2}{\log_3 2} \cdot \log_3 2 = 2$.
+Odpowiedź: $2$
+Wynik: 2
