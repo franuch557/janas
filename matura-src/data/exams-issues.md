@@ -692,3 +692,90 @@ Uwagi z importu:
 - Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null).
 
 Źródła: PDF MPOP-P1-100-2203.pdf (import lokalny); PDF MPOP-P2-100-2203.pdf (import lokalny); PDF MPOP-P1-100-200-300-400-660-700-Q00-2203-zasady.pdf (import lokalny); PDF MPOP-P2-100-300-400-660-Q00-2203-zasady.pdf (import lokalny); maksimum 60 pkt: suma punktów zadań (strona tytułowa arkusza pokazowego go nie podaje)
+
+## MMAP-P0-100-2209 (matematyka, podstawowy, 2022) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 12.1 nie ma przypisanego tematu.
+- Zadanie 12.2 nie ma przypisanego tematu.
+- Zadanie 22 nie ma przypisanego tematu.
+- Zadanie 24.1 nie ma przypisanego tematu.
+- Zadanie 24.2 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-2209.pdf (import lokalny); PDF MMAP-P0-100-200-300-400-660-700-Q00-2209-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2212 (matematyka, podstawowy, 2022) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 4 nie ma przypisanego tematu.
+- Zadanie 5 nie ma przypisanego tematu.
+- Zadanie 20 nie ma przypisanego tematu.
+- Zadanie 21 nie ma przypisanego tematu.
+- Zadanie 22 nie ma przypisanego tematu.
+- Zadanie 25.2 nie ma przypisanego tematu.
+- Zadanie 33 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-2212.pdf (import lokalny); PDF MMAP-P0-100-200-300-400-700-Q00-Z00-MMAU-2212-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2212 (matematyka, rozszerzony, 2022) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-2212.pdf (import lokalny); PDF MMAP-R0-100-200-300-400-700-Q00-Z00-2212-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2312 (matematyka, podstawowy, 2023) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 7 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 11.3: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie
+
+Źródła: PDF MMAP-P0-100-A-2312-arkusz.pdf (import lokalny); PDF MMAP-P0-100-200-300-400-660-Q00-K00-MMAU-100-2312-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2412 (matematyka, podstawowy, 2024) – status: pełny
+
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 6 nie ma przypisanego tematu.
+- Zadanie 7 nie ma przypisanego tematu.
+- Zadanie 26 nie ma przypisanego tematu.
+- Zadanie 27 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Uwagi z importu:
+
+- Zadanie 12.2: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie
+
+Źródła: PDF MMAP-P0-100-A-2412-arkusz.pdf (import lokalny); PDF MMAP-P0-100-200-300-400-700-Q00-K00-MMAU-2412-zasady.pdf (import lokalny)
+
+## MMAP-R0-100-2412 (matematyka, rozszerzony, 2024) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 12 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-R0-100-A-2412-arkusz.pdf (import lokalny); PDF MMAP-R0-100-200-300-400-700-Q00-K00-2412-zasady.pdf (import lokalny)
+
+## MMAP-P0-100-2601 (matematyka, podstawowy, 2026) – status: pełny
+
+- Zadanie 1 nie ma przypisanego tematu.
+- Zadanie 2 nie ma przypisanego tematu.
+- Zadanie 3 nie ma przypisanego tematu.
+- Zadanie 6 nie ma przypisanego tematu.
+- Zadanie 9 nie ma przypisanego tematu.
+- Zadanie 13 nie ma przypisanego tematu.
+- Zadanie 22 nie ma przypisanego tematu.
+- Zadanie 28 nie ma przypisanego tematu.
+- Zadanie 30 nie ma przypisanego tematu.
+- Brak potwierdzonego adresu PDF arkusza (import z pliku lokalnego).
+
+Źródła: PDF MMAP-P0-100-A-2601-arkusz.pdf (import lokalny); PDF MMAP-P0-100-2601-zasady.pdf (import lokalny)

@@ -228,7 +228,8 @@ describe('plik exams.json', () => {
     for (const e of data.exams) {
       expect(['matematyka', 'polski', 'angielski']).toContain(e.family);
       expect(['podstawowy', 'rozszerzony']).toContain(e.level);
-      expect(e.year).toBeGreaterThanOrEqual(e.session === 'zbiór' || e.session === 'marzec' ? 2022 : e.formula === '2015' ? 2015 : 2023);
+      // arkusze pokazowe, diagnostyczne i próbne formuły 2023 są też z 2022 roku
+      expect(e.year).toBeGreaterThanOrEqual(['zbiór', 'marzec', 'wrzesień', 'grudzień', 'styczeń'].includes(e.session) ? 2022 : e.formula === '2015' ? 2015 : 2023);
       expect(e.formula).toBe(e.year < 2023 && e.session === 'maj' ? '2015' : '2023');
       expect(Array.isArray(e.tasks)).toBe(true);
       expect(e.sources.length).toBeGreaterThan(0);

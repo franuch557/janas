@@ -45,8 +45,10 @@ const manualTopics = readJson('data/tematy-recznie.json', {});
 const manualAnswers = readJson('data/odpowiedzi-recznie.json', {});
 const audioTimes = readJson('data/audio-czasy.json', {});
 
-// formuła 2015: arkusze z lat 2015–2022 (arkusze pokazowe z marca 2022 są już w formule 2023)
-const oldFormula = (info) => info.year < 2023 && info.session !== 'marzec';
+// formuła 2015: arkusze z lat 2015–2022 (arkusze pokazowe z marca 2022 i diagnostyczne z września
+// i grudnia 2022 są już w formule 2023)
+const NEW_FORMULA_EXTRA = new Set(['marzec', 'wrzesień', 'grudzień', 'styczeń']);
+const oldFormula = (info) => info.year < 2023 && !NEW_FORMULA_EXTRA.has(info.session);
 
 // ---------- pliki ----------
 const groups = new Map();

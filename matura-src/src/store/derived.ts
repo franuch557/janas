@@ -2,7 +2,7 @@
 // biegłość, prognoza, diagnozy i plan. Liczone w jednym miejscu (useMemo).
 
 import { SUBJECTS, type DayPlan, type LocalData, type PlanItem, type ResultEvent, type SessionEvent, type SubjectId, type UserTask } from '../model';
-import { examMinutes, examPartIds, taskLabel, type CkeExam, type CkeTask } from '../logic/cke';
+import { examMinutes, examPartIds, NEW_FORMULA_EXTRA, taskLabel, type CkeExam, type CkeTask } from '../logic/cke';
 import { activeEvents, streak, studyDays, studySeconds, taskRecords, type ActiveEvents, type TaskRecord } from '../logic/events';
 import { forecast, isDiagnosed, masteryMap, weakBoost, type Forecast, type TopicMastery } from '../logic/mastery';
 import { memoryBoost } from '../logic/memory';
@@ -117,7 +117,7 @@ export function derive(data: Pick<LocalData, 'stan' | 'events' | 'memory' | 'car
   for (const s of SUBJECTS) {
     const topics = topicsFor(s.family, s.level);
     // wagi tematów tylko z arkuszy formuły 2023 (zbiór zadań i stara formuła mają inne proporcje działów)
-    const ex = exams.filter((e) => e.subjectId === s.id && e.session !== 'zbiór' && (e.year >= 2023 || e.session === 'marzec'));
+    const ex = exams.filter((e) => e.subjectId === s.id && e.session !== 'zbiór' && (e.year >= 2023 || NEW_FORMULA_EXTRA.has(e.session)));
     const w = computeWeights(topicStats(ex, topics), 'bazowo');
     weights[s.id] = w;
     const m = masteryMap(active.results, s.id, topics.map((t) => t.id));

@@ -614,5 +614,75 @@
       "scoring": "all",
       "issue": null
     }
+  },
+  "MMAP-P0-100-2209": {
+    "5": {
+      "items": [
+        {
+          "id": "5.1",
+          "label": "litera 1 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "D"
+        },
+        {
+          "id": "5.2",
+          "label": "litera 2 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "F"
+        }
+      ],
+      "scoring": "each",
+      "issue": null,
+      "zrodlo": "odczyt ręczny z zasad oceniania CKE i sprawdzenie rachunkiem"
+    }
+  },
+  "MMAP-P0-100-2212": {
+    "17": {
+      "items": [
+        {
+          "id": "17.1",
+          "label": "litera 1 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "A"
+        },
+        {
+          "id": "17.2",
+          "label": "litera 2 (alfabetycznie)",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correct": "E"
+        }
+      ],
+      "scoring": "each",
+      "issue": null,
+      "zrodlo": "odczyt ręczny z zasad oceniania CKE i sprawdzenie rachunkiem"
+    }
   }
 }

@@ -66,7 +66,10 @@ export function buildAnswer({ info, task, body, rule, manual }) {
   }
   if (info.family === 'angielski') return englishAnswer(task, body, rule, issues);
   const looksClosed = rule?.tokens?.versions || /Spośród podanych \S+ \([A-F][–-][A-F]\) wybierz|Zaznacz (właściwą|poprawną)|Wybierz (właściwą|poprawną)|P,? jeśli|albo F|Zakreśl|Dokończ zdani|Przyporządkuj|Wpisz (literę|numer)|Uzupełnij (tabelę|zdani).*(liter|wybran)/i.test(body);
-  const tokens = rule?.tokens ?? null;
+  // arkusze diagnostyczne (wrzesień 2022): po rozwiązaniu jest „Komentarz” z obliczeniami
+  const rawTokens = rule?.tokens ?? null;
+  const cut = rawTokens ? rawTokens.findIndex((x) => /^Komentarz/i.test(x)) : -1;
+  const tokens = rawTokens && cut > 0 ? rawTokens.slice(0, cut) : rawTokens;
   const s = tokens ? tokens.join('') : null;
   const closedToken = s != null && (/^([A-F]|[PF]{2,}|[A-F][1-4]|([A-F][1-6],?)+|[A-F]{2,3})$/.test(s) || (tokens.length > 1 && tokens.every((x) => /^(\d+\.\d+\.?)?[A-F]$/.test(x))));
   if (!rule) {

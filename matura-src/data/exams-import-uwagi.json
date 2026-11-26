@@ -170,5 +170,13 @@
  {
   "examId": "MPOP-P1-P2-2203",
   "text": "Arkusze 1 i 2 nie mają osobnego czasu: strona tytułowa podaje 240 min łącznie na testy i wypracowanie (parts[].minutes = null)."
+ },
+ {
+  "examId": "MMAP-P0-100-2312",
+  "text": "Zadanie 11.3: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
+ },
+ {
+  "examId": "MMAP-P0-100-2412",
+  "text": "Zadanie 12.2: wybór 2 liter z ABCDEF bez kolejności: pozycje zapisane alfabetycznie"
  }
 ]

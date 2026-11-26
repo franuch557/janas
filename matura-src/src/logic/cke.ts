@@ -239,7 +239,9 @@ export function normalizeExams(raw: unknown): CkeExam[] {
   return out.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
 }
 
-const MONTHS_NOM: Record<string, string> = { marzec: 'marzec (próbna)', maj: 'maj', czerwiec: 'czerwiec', 'sierpień': 'sierpień' };
+const MONTHS_NOM: Record<string, string> = { styczeń: 'styczeń (próbna)', marzec: 'marzec (próbna)', maj: 'maj', czerwiec: 'czerwiec', 'sierpień': 'sierpień', wrzesień: 'wrzesień (diagnostyczna)', grudzień: 'grudzień (diagnostyczna)' };
+/** Arkusze próbne i diagnostyczne CKE są w formule 2023 także przed 2023 rokiem. */
+export const NEW_FORMULA_EXTRA = new Set(['styczeń', 'marzec', 'wrzesień', 'grudzień']);
 
 /** Nazwa źródła zadania spoza arkuszy: zbiór zadań CKE (2022) albo informator CKE (2024). */
 export function bookLabel(id: string): string {
@@ -248,7 +250,7 @@ export function bookLabel(id: string): string {
 
 export function examLabel(e: { year: number; session: string; id?: string; examId?: string }): string {
   if (e.session === 'zbiór') return bookLabel(e.id ?? e.examId ?? '');
-  return `CKE ${e.year}, ${MONTHS_NOM[e.session] ?? e.session}${e.year < 2023 && e.session !== 'marzec' ? ', stara formuła' : ''}`;
+  return `CKE ${e.year}, ${MONTHS_NOM[e.session] ?? e.session}${e.year < 2023 && !NEW_FORMULA_EXTRA.has(e.session) ? ', stara formuła' : ''}`;
 }
 
 /** Numer jak w arkuszu CKE: polski „A1.7.1” → „7.1”, temat wypracowania „A2.1” → „temat 1”. */
