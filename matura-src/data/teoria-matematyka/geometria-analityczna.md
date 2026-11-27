@@ -86,3 +86,36 @@ Okrąg ma równanie $(x - 3)^2 + (y + 1)^2 = 49$. Podaj jego promień.
 2. $r = 7$.
 Odpowiedź: $r = 7$, środek $(3, -1)$
 Wynik: 7
+
+## Odległość punktu od prostej (rozszerzenie)
+Odległość punktu od prostej to długość odcinka prostopadłego poprowadzonego z punktu do prostej. Nie trzeba go wyznaczać – jest gotowy wzór.
+
+> $d = \dfrac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}$ – odległość punktu $(x_0, y_0)$ od prostej $Ax + By + C = 0$
+> Odległość prostych równoległych $Ax + By + C_1 = 0$ i $Ax + By + C_2 = 0$: $\dfrac{|C_1 - C_2|}{\sqrt{A^2 + B^2}}$
+
+> Uwaga: wzór działa dla prostej w postaci **ogólnej**. Prostą $y = 2x + 3$ najpierw przepisz jako $2x - y + 3 = 0$.
+
+> Metoda:
+> 1. Zapisz prostą w postaci $Ax + By + C = 0$.
+> 2. Wstaw współrzędne punktu do licznika i weź wartość bezwzględną.
+> 3. Podziel przez $\sqrt{A^2 + B^2}$.
+
+### Przykład: punkt i prosta
+Oblicz odległość punktu $P = (2, 5)$ od prostej $y = \frac34 x - 1$.
+1. Postać ogólna: mnożymy przez $4$: $4y = 3x - 4$, czyli $3x - 4y - 4 = 0$.
+2. Licznik: $|3 \cdot 2 - 4 \cdot 5 - 4| = |-18| = 18$.
+3. $\sqrt{9 + 16} = 5$, więc $d = \frac{18}{5}$.
+Odpowiedź: $\frac{18}{5}$
+
+### Przykład: wysokość trójkąta
+Wierzchołki trójkąta to $A = (0, 0)$, $B = (8, 6)$, $C = (1, 7)$. Oblicz wysokość opuszczoną z $C$ na bok $AB$.
+1. Prosta $AB$: $y = \frac34 x$, czyli $3x - 4y = 0$.
+2. $d = \frac{|3 \cdot 1 - 4 \cdot 7|}{5} = \frac{25}{5} = 5$.
+Odpowiedź: $h = 5$
+
+### Sprawdź się: odległość
+Oblicz odległość punktu $(1, 2)$ od prostej $6x + 8y + 8 = 0$.
+1. Licznik: $|6 + 16 + 8| = 30$.
+2. $\sqrt{36 + 64} = 10$, więc $d = 3$.
+Odpowiedź: $3$
+Wynik: 3

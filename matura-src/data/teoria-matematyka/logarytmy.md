@@ -96,3 +96,41 @@ Oblicz $\log_2 9 \cdot \log_3 2$.
 2. $\frac{2}{\log_3 2} \cdot \log_3 2 = 2$.
 Odpowiedź: $2$
 Wynik: 2
+
+## Równania i nierówności logarytmiczne (rozszerzenie)
+Równania z logarytmami rozwiązujemy w trzech krokach: dziedzina, sprowadzenie do jednego logarytmu, opuszczenie logarytmu.
+
+> $\log_a f(x) = \log_a g(x) \iff f(x) = g(x)$ (przy $f(x), g(x) > 0$)
+> $\log_a f(x) = c \iff f(x) = a^c$
+> Nierówność: dla $a > 1$ zwrot zostaje, dla $0 < a < 1$ zwrot się **zmienia**
+
+> Metoda:
+> 1. Wyznacz dziedzinę: wszystkie liczby logarytmowane dodatnie.
+> 2. Połącz logarytmy wzorami w jeden logarytm po każdej stronie.
+> 3. Opuść logarytm i rozwiąż zwykłe równanie.
+> 4. Odrzuć rozwiązania spoza dziedziny.
+
+> Uwaga: bez dziedziny łatwo zostawić rozwiązanie, dla którego logarytm nie istnieje – to najczęstsza utrata punktów.
+
+### Przykład: suma logarytmów
+Rozwiąż równanie $\log_3 (x + 1) + \log_3 (x - 1) = 1$.
+1. Dziedzina: $x + 1 > 0$ i $x - 1 > 0$, czyli $x > 1$.
+2. $\log_3 [(x+1)(x-1)] = 1$, więc $x^2 - 1 = 3$.
+3. $x^2 = 4$, czyli $x = 2$ lub $x = -2$.
+4. $-2$ nie należy do dziedziny.
+Odpowiedź: $x = 2$
+
+### Przykład: nierówność z podstawą mniejszą od 1
+Rozwiąż nierówność $\log_{\frac12} (x - 3) > -2$.
+1. Dziedzina: $x > 3$.
+2. $-2 = \log_{\frac12} 4$, więc $\log_{\frac12}(x - 3) > \log_{\frac12} 4$.
+3. Podstawa $\frac12 < 1$ – zmieniamy zwrot: $x - 3 < 4$, czyli $x < 7$.
+4. Z dziedziną: $x \in (3, 7)$.
+Odpowiedź: $x \in (3, 7)$
+
+### Sprawdź się: równanie logarytmiczne
+Rozwiąż równanie $\log_2 x + \log_2 (x - 2) = 3$.
+1. Dziedzina: $x > 2$. Równanie: $x(x - 2) = 8$, czyli $x^2 - 2x - 8 = 0$.
+2. $x = 4$ lub $x = -2$; zostaje $x = 4$.
+Odpowiedź: $x = 4$
+Wynik: 4

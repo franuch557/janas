@@ -85,3 +85,29 @@ Ile liczb całkowitych spełnia nierówność $|x - 2| < 3$?
 2. Liczby całkowite: $0, 1, 2, 3, 4$ – jest ich $5$.
 Odpowiedź: $5$
 Wynik: 5
+
+## Dwie wartości bezwzględne (rozszerzenie)
+Gdy w równaniu są dwie wartości bezwzględne, np. $|x - 1| + |x + 3| = 6$, nie da się użyć interpretacji „odległość od jednego punktu”. Dzielimy oś na przedziały, w których każde wyrażenie ma stały znak.
+
+> Metoda:
+> 1. Znajdź miejsca zerowe wyrażeń w modułach – dzielą oś na przedziały.
+> 2. W każdym przedziale opuść moduły ze znakiem $+$ albo $-$.
+> 3. Rozwiąż równanie i sprawdź, czy wynik **należy do przedziału**.
+> 4. Zbierz rozwiązania ze wszystkich przedziałów.
+
+> Uwaga: rozwiązanie spoza przedziału, w którym je liczysz, odrzucasz – nawet jeśli „wyszło ładnie”.
+
+### Przykład: suma dwóch modułów
+Rozwiąż równanie $|x - 1| + |x + 3| = 6$.
+1. Punkty podziału: $x = -3$ i $x = 1$.
+2. Dla $x < -3$: $-(x - 1) - (x + 3) = 6$, czyli $-2x - 2 = 6$, $x = -4$ – należy do przedziału.
+3. Dla $-3 \le x \le 1$: $-(x - 1) + (x + 3) = 4 = 6$ – sprzeczność.
+4. Dla $x > 1$: $(x - 1) + (x + 3) = 6$, czyli $2x + 2 = 6$, $x = 2$ – należy.
+Odpowiedź: $x = -4$ lub $x = 2$
+
+### Sprawdź się: większe rozwiązanie
+Rozwiąż równanie $|x| + |x - 4| = 10$. Podaj większe rozwiązanie.
+1. Dla $x > 4$: $x + x - 4 = 10$, więc $x = 7$.
+2. Dla $x < 0$: $-x - x + 4 = 10$, więc $x = -3$; dla $0 \le x \le 4$ wychodzi $4 = 10$ – sprzeczność.
+Odpowiedź: $x = -3$ lub $x = 7$, większe: $7$
+Wynik: 7

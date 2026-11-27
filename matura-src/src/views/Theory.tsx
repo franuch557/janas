@@ -6,6 +6,7 @@ import { MATH_TOPICS } from '../data/taxonomy';
 import { TIPS } from '../data/wskazowki';
 import { parseTheory, type TheoryExample, type TheoryPart, type TopicTheory } from '../logic/theory';
 import { sameBlank } from './Practice';
+import { GENERATORS } from '../logic/variants';
 import { Icon } from '../ui/icons';
 import { MathText } from '../ui/MathText';
 import { Empty, IconButton } from '../ui/common';
@@ -199,6 +200,11 @@ function TopicPage({ topic }: { topic: string }) {
             <button type="button" className="btn btn-primary" onClick={() => go({ name: 'cwiczenie', subject: rozsz ? 'mat-r' : 'mat-p', topic })}>
               Przećwicz ten dział
             </button>
+            {!rozsz && GENERATORS.some((g) => g.subjectId === 'mat-r' && g.topic === topic) ? (
+              <button type="button" className="btn btn-secondary" onClick={() => go({ name: 'cwiczenie', subject: 'mat-r', topic })}>
+                Przećwicz (rozszerzenie)
+              </button>
+            ) : null}
             <button type="button" className="btn btn-secondary" onClick={() => go({ name: 'zadania', subject: rozsz ? 'mat-r' : 'mat-p', topic })}>
               Zadania CKE z działu
             </button>

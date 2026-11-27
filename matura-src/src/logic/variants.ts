@@ -1094,10 +1094,404 @@ export const GENERATORS: Generator[] = [
       };
     },
   },
+  // ---------- poziom rozszerzony ----------
+  {
+    id: 'r-styczna',
+    subjectId: 'mat-r',
+    topic: 'pochodne',
+    name: 'Równanie stycznej',
+    make: (r) => {
+      const a = r.nz(-2, 3);
+      const b = r.int(-5, 5);
+      const c = r.int(-6, 6);
+      const x0 = r.nz(-3, 3);
+      const y0 = a * x0 * x0 + b * x0 + c;
+      const m = 2 * a * x0 + b;
+      const k = y0 - m * x0;
+      if (Math.abs(m) < 2 || Math.abs(y0) < 3) return GENERATORS.find((g) => g.id === 'r-styczna')!.make(r);
+      const f = `${coef(a)}x^2 ${b ? `${sgn(b)}x`.replace(/([+-] )1x/, '$1x') : ''} ${c ? sgn(c) : ''}`.replace(/\s+/g, ' ').trim();
+      const line = `y = ${m === 0 ? '' : `${coef(m)}x`}${m === 0 ? num(k) : k === 0 ? '' : ` ${sgn(k)}`}`.replace('−', '-');
+      return {
+        maxPoints: 2,
+        question: `Wyznacz równanie stycznej do wykresu funkcji $f(x) = ${f}$ w punkcie o pierwszej współrzędnej $x_0 = ${x0}$.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`równanie stycznej: ${line}`] },
+            { points: 1, alts: [`obliczenie współczynnika kierunkowego: f'(${x0}) = ${num(m)}`] },
+          ],
+        },
+        steps: [
+          { text: `$f(${x0}) = {}$ – punkt styczności $(${x0}, ${tnum(y0)})$.`, blank: tnum(y0) },
+          { text: `$f'(x) = ${2 * a}x ${b ? sgn(b) : ''}$, więc $f'(${x0}) = {}$.`, blank: tnum(m) },
+          { text: `$y = f'(x_0)(x - x_0) + f(x_0) = ${tnum(m)}(x - (${x0})) + (${tnum(y0)})$, czyli {}.`, blank: line },
+        ],
+        answer: line,
+      };
+    },
+  },
+  {
+    id: 'r-ekstremum',
+    subjectId: 'mat-r',
+    topic: 'pochodne',
+    name: 'Ekstremum funkcji',
+    make: (r) => {
+      const p = r.int(2, 4);
+      const c = r.int(-10, 10);
+      const askMin = r.pick([true, false]);
+      // f(x) = x³ − 3p²x + c: maksimum w −p, minimum w p
+      const x = askMin ? p : -p;
+      const v = x ** 3 - 3 * p * p * x + c;
+      if (Math.abs(v) < 3) return GENERATORS.find((g) => g.id === 'r-ekstremum')!.make(r);
+      return {
+        maxPoints: 2,
+        question: `Wyznacz ${askMin ? 'minimum lokalne' : 'maksimum lokalne'} funkcji $f(x) = x^3 - ${3 * p * p}x ${c ? sgn(c) : ''}$ (podaj wartość funkcji w tym punkcie).`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie ${askMin ? 'minimum' : 'maksimum'}: f(${num(x)}) = ${num(v)}`] },
+            { points: 1, alts: [`wyznaczenie miejsc zerowych pochodnej: x = ${p}, x = −${p}`] },
+          ],
+        },
+        steps: [
+          { text: `$f'(x) = 3x^2 - ${3 * p * p} = 3(x - ${p})(x + ${p})$, miejsca zerowe: $x = -${p}$ i $x = {}$.`, blank: String(p) },
+          { text: `Pochodna zmienia znak z $+$ na $-$ w $x = -${p}$ (maksimum), z $-$ na $+$ w $x = ${p}$ (minimum).` },
+          { text: `$f(${tnum(x)}) = (${tnum(x)})^3 - ${3 * p * p} \\cdot (${tnum(x)}) ${c ? sgn(c) : ''} = {}$.`, blank: tnum(v) },
+        ],
+        answer: `f(${num(x)}) = ${num(v)}`,
+      };
+    },
+  },
+  {
+    id: 'r-pochodna-ilorazu',
+    subjectId: 'mat-r',
+    topic: 'pochodne',
+    name: 'Pochodna ilorazu',
+    make: (r) => {
+      const a = r.nz(-4, 4);
+      const b = r.int(-6, 6);
+      const c = r.nz(-4, 4);
+      if (a * c - b === 0) return GENERATORS.find((g) => g.id === 'r-pochodna-ilorazu')!.make(r);
+      let x0 = r.int(-3, 3);
+      if (x0 + c === 0) x0 += 1;
+      const v = frac(a * c - b, (x0 + c) ** 2);
+      return {
+        maxPoints: 1,
+        question: `Funkcja $f$ jest określona wzorem $f(x) = \\dfrac{${lin(a, b)}}{${lin(1, c)}}$ dla $x \\neq ${-c}$. Oblicz $f'(${x0})$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie: ${v.key}`] }], answers: [v.key] },
+        steps: [
+          { text: `$f'(x) = \\dfrac{${a}(${lin(1, c)}) - (${lin(a, b)}) \\cdot 1}{(${lin(1, c)})^2} = \\dfrac{${a * c - b}}{(${lin(1, c)})^2}$.` },
+          { text: `$f'(${x0}) = \\dfrac{${a * c - b}}{${(x0 + c) ** 2}} = {}$.`, blank: v.key },
+        ],
+        answer: v.key,
+      };
+    },
+  },
+  {
+    id: 'r-optymalizacja-plot',
+    subjectId: 'mat-r',
+    topic: 'pochodne',
+    name: 'Optymalizacja – największe pole',
+    make: (r) => {
+      const L = r.int(3, 15) * 4;
+      const x = L / 4;
+      const P = (L * L) / 8;
+      return {
+        maxPoints: 3,
+        question: `Z siatki o długości ${L} m trzeba ogrodzić prostokątny wybieg przy ścianie budynku (ściana tworzy jeden bok, siatka – trzy pozostałe). Oblicz wymiary wybiegu o największym polu i to pole.`,
+        key: {
+          levels: [
+            { points: 3, alts: [`obliczenie największego pola: P = ${P}`] },
+            { points: 2, alts: [`wyznaczenie wymiarów: x = ${x}, ${L - 2 * x}`] },
+            { points: 1, alts: [`wyznaczenie argumentu, w którym pochodna jest równa zero: x = ${x}`] },
+          ],
+        },
+        steps: [
+          { text: `Boki prostopadłe do ściany: $x$, bok równoległy: $${L} - 2x$. Pole: $P(x) = x(${L} - 2x) = ${L}x - 2x^2$, $x \\in (0, ${L / 2})$.` },
+          { text: `$P'(x) = ${L} - 4x = 0$ dla $x = {}$; pochodna zmienia znak z $+$ na $-$, więc to maksimum.`, blank: String(x) },
+          { text: `Wymiary: $${x}$ m i $${L - 2 * x}$ m, pole $P = ${x} \\cdot ${L - 2 * x} = {}$ m².`, blank: String(P) },
+        ],
+        answer: `${x} m × ${L - 2 * x} m, P = ${P} m²`,
+      };
+    },
+  },
+  {
+    id: 'r-granica-sprzezenie',
+    subjectId: 'mat-r',
+    topic: 'granice-ciagow',
+    name: 'Granica z pierwiastkiem',
+    make: (r) => {
+      const a = r.int(1, 7) * 2;
+      const v = a / 2;
+      return {
+        maxPoints: 1,
+        question: `Oblicz granicę $\\lim\\limits_{n \\to \\infty} \\left(\\sqrt{n^2 + ${a}n} - n\\right)$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie granicy: ${v}`] }], answers: [String(v)] },
+        steps: [
+          { text: `Mnożymy przez sprzężenie: $\\dfrac{n^2 + ${a}n - n^2}{\\sqrt{n^2 + ${a}n} + n} = \\dfrac{${a}n}{\\sqrt{n^2 + ${a}n} + n}$.` },
+          { text: `Dzielimy przez $n$: $\\dfrac{${a}}{\\sqrt{1 + \\frac{${a}}{n}} + 1} \\to \\dfrac{${a}}{2} = {}$.`, blank: String(v) },
+        ],
+        answer: String(v),
+      };
+    },
+  },
+  {
+    id: 'r-granica-potegi',
+    subjectId: 'mat-r',
+    topic: 'granice-ciagow',
+    name: 'Granica z potęgami',
+    make: (r) => {
+      const p = r.int(3, 6);
+      const q = r.int(2, p - 1);
+      const k = r.int(1, 3);
+      // (p^(n+k) + q^n) / (p^n + q^(n+1)) → p^k
+      const v = p ** k;
+      return {
+        maxPoints: 1,
+        question: `Oblicz granicę $\\lim\\limits_{n \\to \\infty} \\dfrac{${p}^{n+${k}} + ${q}^{n}}{${p}^{n} + ${q}^{n+1}}$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie granicy: ${v}`] }], answers: [String(v)] },
+        steps: [
+          { text: `Dzielimy licznik i mianownik przez $${p}^n$: $\\dfrac{${p}^{${k}} + \\left(\\frac{${q}}{${p}}\\right)^n}{1 + ${q}\\left(\\frac{${q}}{${p}}\\right)^n}$.` },
+          { text: `$\\left(\\frac{${q}}{${p}}\\right)^n \\to 0$, więc granica to $${p}^{${k}} = {}$.`, blank: String(v) },
+        ],
+        answer: String(v),
+      };
+    },
+  },
+  {
+    id: 'r-dwie-wartosci',
+    subjectId: 'mat-r',
+    topic: 'wartosc-bezwzgledna',
+    name: 'Równanie z dwiema wartościami bezwzględnymi',
+    make: (r) => {
+      const a = r.int(-5, 3);
+      const d = r.int(1, 6);
+      const b = a + d;
+      const c = d + 2 * r.int(1, 4);
+      // |x − a| + |x − b| = c, c > b − a: x = (a + b ± c) / 2
+      const x1 = (a + b - c) / 2;
+      const x2 = (a + b + c) / 2;
+      if (!Number.isInteger(x1)) return GENERATORS.find((g) => g.id === 'r-dwie-wartosci')!.make(r);
+      const ab = (v: number) => (v === 0 ? 'x' : `x ${sgn(-v)}`);
+      return {
+        maxPoints: 3,
+        question: `Rozwiąż równanie $|${ab(a)}| + |${ab(b)}| = ${c}$.`,
+        key: {
+          levels: [
+            { points: 3, alts: [`wyznaczenie wszystkich rozwiązań: x = ${num(x1)}, x = ${num(x2)}`] },
+            { points: 2, alts: [`wyznaczenie jednego rozwiązania: x = ${num(x2)}`] },
+            { points: 1, alts: [`podział na przedziały wyznaczone przez ${num(a)} i ${num(b)}`] },
+          ],
+        },
+        steps: [
+          { text: `Punkty $x = ${a}$ i $x = ${b}$ dzielą oś na trzy przedziały.` },
+          { text: `Dla $x < ${a}$: $-(${ab(a)}) - (${ab(b)}) = ${c}$, czyli $-2x ${sgn(a + b)} = ${c}$, $x = {}$ (należy do przedziału).`, blank: tnum(x1) },
+          { text: `Dla $${a} \\le x \\le ${b}$: wychodzi $${d} = ${c}$ – sprzeczność.` },
+          { text: `Dla $x > ${b}$: $2x ${sgn(-(a + b))} = ${c}$, $x = {}$.`, blank: tnum(x2) },
+        ],
+        answer: `x = ${num(x1)}, x = ${num(x2)}`,
+      };
+    },
+  },
+  {
+    id: 'r-wielomian-parametr',
+    subjectId: 'mat-r',
+    topic: 'wielomiany',
+    name: 'Wielomian z parametrem',
+    make: (r) => {
+      const k = r.nz(-3, 3);
+      const m = r.pick([-7, -6, -5, -4, -3, 3, 4, 5, 6, 7]);
+      const b = r.int(-6, 6);
+      const c = -(k ** 3 + m * k * k + b * k);
+      const free = k ** 3 + b * k + c;
+      return {
+        maxPoints: 2,
+        question: `Wielomian $W(x) = x^3 + mx^2 ${b ? `${sgn(b)}x`.replace(/([+-] )1x/, '$1x') : ''} ${c ? sgn(c) : ''}$ jest podzielny przez dwumian $(${lin(1, -k)})$. Oblicz $m$.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie parametru: m = ${num(m)}`] },
+            { points: 1, alts: [`zapisanie warunku W(${num(k)}) = 0: ${k * k}m ${sgn(free)} = 0`] },
+          ],
+        },
+        steps: [
+          { text: `Podzielność przez $(${lin(1, -k)})$ oznacza $W(${k}) = 0$.` },
+          { text: `$(${k})^3 + m \\cdot (${k})^2 ${b ? `${sgn(b)} \\cdot (${k})` : ''} ${c ? sgn(c) : ''} = 0$, czyli $${k * k}m ${sgn(free)} = 0$, więc $m = {}$.`, blank: tnum(m) },
+        ],
+        answer: `m = ${num(m)}`,
+      };
+    },
+  },
+  {
+    id: 'r-tryg-rownanie',
+    subjectId: 'mat-r',
+    topic: 'trygonometria',
+    name: 'Równanie trygonometryczne',
+    make: (r) => {
+      const forms = [
+        { eq: '2\\sin^2 x - \\sin x = 0', sol: ['0', '\\frac{\\pi}{6}', '\\frac{5\\pi}{6}', '\\pi', '2\\pi'], hint: '$\\sin x(2\\sin x - 1) = 0$: $\\sin x = 0$ albo $\\sin x = \\frac12$.' },
+        { eq: '2\\cos^2 x - \\cos x = 0', sol: ['\\frac{\\pi}{3}', '\\frac{\\pi}{2}', '\\frac{3\\pi}{2}', '\\frac{5\\pi}{3}'], hint: '$\\cos x(2\\cos x - 1) = 0$: $\\cos x = 0$ albo $\\cos x = \\frac12$.' },
+        { eq: '2\\sin^2 x = 1', sol: ['\\frac{\\pi}{4}', '\\frac{3\\pi}{4}', '\\frac{5\\pi}{4}', '\\frac{7\\pi}{4}'], hint: '$\\sin^2 x = \\frac12$: $\\sin x = \\frac{\\sqrt2}{2}$ albo $\\sin x = -\\frac{\\sqrt2}{2}$.' },
+        { eq: '\\sin x \\cos x = 0', sol: ['0', '\\frac{\\pi}{2}', '\\pi', '\\frac{3\\pi}{2}', '2\\pi'], hint: '$\\sin x = 0$ albo $\\cos x = 0$.' },
+        { eq: '\\operatorname{tg}^2 x = 3', sol: ['\\frac{\\pi}{3}', '\\frac{2\\pi}{3}', '\\frac{4\\pi}{3}', '\\frac{5\\pi}{3}'], hint: '$\\operatorname{tg} x = \\sqrt3$ albo $\\operatorname{tg} x = -\\sqrt3$.' },
+      ];
+      const f = r.pick(forms);
+      const n = f.sol.length;
+      return {
+        maxPoints: 2,
+        question: `Ile rozwiązań ma równanie $${f.eq}$ w przedziale $[0, 2\\pi]$?`,
+        key: {
+          levels: [
+            { points: 2, alts: [`podanie liczby rozwiązań: ${n}`] },
+            { points: 1, alts: ['sprowadzenie równania do równań elementarnych'] },
+          ],
+          answers: [String(n)],
+        },
+        steps: [
+          { text: f.hint },
+          { text: `Rozwiązania w $[0, 2\\pi]$: $${f.sol.join(',\\ ')}$ – jest ich {}.`, blank: String(n) },
+        ],
+        answer: String(n),
+      };
+    },
+  },
+  {
+    id: 'r-bernoulli',
+    subjectId: 'mat-r',
+    topic: 'prawdopodobienstwo',
+    name: 'Schemat Bernoulliego',
+    make: (r) => {
+      const n = r.int(4, 8);
+      const k = r.int(1, n - 1);
+      let C = 1;
+      for (let i = 0; i < k; i++) C = (C * (n - i)) / (i + 1);
+      const P = frac(C, 2 ** n);
+      return {
+        maxPoints: 2,
+        question: `Rzucamy ${n} razy symetryczną monetą. Oblicz prawdopodobieństwo, że orzeł wypadnie dokładnie ${k} ${k === 1 ? 'raz' : 'razy'}.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie prawdopodobieństwa: P = ${P.key}`] },
+            { points: 1, alts: [`obliczenie liczby sposobów: ${C}`] },
+          ],
+        },
+        steps: [
+          { text: `Schemat Bernoulliego: $P = \\binom{${n}}{${k}} \\cdot \\left(\\frac12\\right)^{${n}}$. Liczba sposobów: $\\binom{${n}}{${k}} = {}$.`, blank: String(C) },
+          { text: `$P = \\dfrac{${C}}{${2 ** n}} = {}$.`, blank: P.key },
+        ],
+        answer: `P = ${P.key}`,
+      };
+    },
+  },
+  {
+    id: 'r-warunkowe',
+    subjectId: 'mat-r',
+    topic: 'prawdopodobienstwo',
+    name: 'Prawdopodobieństwo warunkowe',
+    make: (r) => {
+      const s = r.int(7, 10);
+      // A: suma oczek ≥ s, B: na pierwszej kostce wypadła liczba parzysta
+      let ab = 0;
+      for (let x = 2; x <= 6; x += 2) for (let y = 1; y <= 6; y++) if (x + y >= s) ab++;
+      const P = frac(ab, 18);
+      return {
+        maxPoints: 2,
+        question: `Rzucamy dwa razy kostką. Oblicz prawdopodobieństwo, że suma oczek będzie co najmniej ${s}, jeśli wiadomo, że w pierwszym rzucie wypadła liczba parzysta.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie prawdopodobieństwa warunkowego: P(A|B) = ${P.key}`] },
+            { points: 1, alts: [`obliczenie liczby zdarzeń A∩B: ${ab}`] },
+          ],
+        },
+        steps: [
+          { text: `$B$ – pierwsza liczba parzysta: $|B| = 3 \\cdot 6 = 18$.` },
+          { text: `$A \\cap B$ – pierwsza parzysta i suma co najmniej ${s}: {} wyników.`, blank: String(ab) },
+          { text: `$P(A|B) = \\dfrac{|A \\cap B|}{|B|} = \\dfrac{${ab}}{18} = {}$.`, blank: P.key },
+        ],
+        answer: `P(A|B) = ${P.key}`,
+      };
+    },
+  },
+  {
+    id: 'r-odleglosc-punktu',
+    subjectId: 'mat-r',
+    topic: 'geometria-analityczna',
+    name: 'Odległość punktu od prostej',
+    make: (r) => {
+      const [A, B, N] = r.pick([[3, 4, 5], [4, 3, 5], [6, 8, 10], [5, 12, 13], [12, 5, 13], [8, 6, 10]]);
+      const d = r.int(1, 5);
+      const x0 = r.int(-4, 4);
+      const y0 = r.int(-4, 4);
+      const sign = r.pick([1, -1]);
+      const C = sign * d * N - A * x0 - B * y0;
+      return {
+        maxPoints: 1,
+        question: `Oblicz odległość punktu $P = (${x0}, ${y0})$ od prostej $${A}x + ${B}y ${C ? sgn(C) : ''} = 0$.`,
+        key: { levels: [{ points: 1, alts: [`obliczenie odległości: ${d}`] }], answers: [String(d)] },
+        steps: [
+          { text: `$d = \\dfrac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}} = \\dfrac{|${A} \\cdot (${x0}) + ${B} \\cdot (${y0}) ${C ? sgn(C) : ''}|}{\\sqrt{${A * A} + ${B * B}}} = \\dfrac{${d * N}}{${N}}$.` },
+          { text: `$d = {}$.`, blank: String(d) },
+        ],
+        answer: String(d),
+      };
+    },
+  },
+  {
+    id: 'r-cosinusy-120',
+    subjectId: 'mat-r',
+    topic: 'podobienstwo',
+    name: 'Twierdzenie cosinusów',
+    make: (r) => {
+      const [a, b, c] = r.pick([[3, 5, 7], [5, 3, 7], [7, 8, 13], [5, 16, 19], [8, 7, 13], [16, 5, 19], [11, 24, 31]]);
+      return {
+        maxPoints: 2,
+        question: `W trójkącie dwa boki mają długości ${a} i ${b}, a kąt między nimi ma miarę $120^\\circ$. Oblicz długość trzeciego boku.`,
+        key: {
+          levels: [
+            { points: 2, alts: [`obliczenie długości boku: ${c}`] },
+            { points: 1, alts: [`zastosowanie twierdzenia cosinusów: c^2 = ${c * c}`] },
+          ],
+        },
+        steps: [
+          { text: `$c^2 = a^2 + b^2 - 2ab\\cos 120^\\circ$, a $\\cos 120^\\circ = -\\frac12$, więc $c^2 = ${a * a} + ${b * b} + ${a * b} = {}$.`, blank: String(c * c) },
+          { text: `$c = \\sqrt{${c * c}} = {}$.`, blank: String(c) },
+        ],
+        answer: String(c),
+      };
+    },
+  },
+  {
+    id: 'r-rownanie-logarytmiczne',
+    subjectId: 'mat-r',
+    topic: 'logarytmy',
+    name: 'Równanie logarytmiczne',
+    make: (r) => {
+      const [x, d, k] = r.pick([[4, 2, 3], [8, 4, 5], [4, 3, 2], [2, 1, 1], [8, 6, 4], [16, 12, 6], [8, 7, 3], [16, 14, 5]]);
+      const other = -(2 ** k) / x; // drugi pierwiastek (iloczyn pierwiastków równa się −2^k)
+      return {
+        maxPoints: 3,
+        question: `Rozwiąż równanie $\\log_2 x + \\log_2 (x - ${d}) = ${k}$.`,
+        key: {
+          levels: [
+            { points: 3, alts: [`rozwiązanie z uwzględnieniem dziedziny: x = ${x}`] },
+            { points: 2, alts: [`zapisanie równania kwadratowego: x^2 - ${d}x - ${2 ** k} = 0`] },
+            { points: 1, alts: [`wyznaczenie dziedziny: x > ${d}`] },
+          ],
+        },
+        steps: [
+          { text: `Dziedzina: $x > 0$ i $x > ${d}$, czyli $x > ${d}$.` },
+          { text: `$\\log_2 [x(x - ${d})] = ${k}$, więc $x^2 - ${d}x = ${2 ** k}$.` },
+          { text: `Pierwiastki równania $x^2 - ${d}x - ${2 ** k} = 0$: $x = ${x}$ oraz $x = ${tnum(other)}$ – drugi nie należy do dziedziny. Rozwiązanie: $x = {}$.`, blank: String(x) },
+        ],
+        answer: `x = ${x}`,
+      };
+    },
+  },
 ];
 
 export const genById = (id: string) => GENERATORS.find((g) => g.id === id);
-export const generatorsFor = (subjectId: string, topic: string) => GENERATORS.filter((g) => g.subjectId === subjectId && g.topic === topic);
+/** Generatory działu; rozszerzenie obejmuje też zadania z podstawy (najpierw typy z rozszerzenia). */
+export const generatorsFor = (subjectId: string, topic: string) => [
+  ...GENERATORS.filter((g) => g.subjectId === subjectId && g.topic === topic),
+  ...(subjectId === 'mat-r' ? GENERATORS.filter((g) => g.subjectId === 'mat-p' && g.topic === topic) : []),
+];
 
 /** Wariant: ten sam przy tym samym ziarnie. */
 export function makeVariant(g: Generator, seed: number): Variant {

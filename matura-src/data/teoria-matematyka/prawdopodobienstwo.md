@@ -92,3 +92,38 @@ Wyznacz medianę danych: $7, 2, 9, 4, 4, 10, 1$.
 2. Środkowa (czwarta) wartość: $4$.
 Odpowiedź: $4$
 Wynik: 4
+
+## Prawdopodobieństwo warunkowe i schemat Bernoulliego (rozszerzenie)
+Prawdopodobieństwo warunkowe odpowiada na pytanie: jaka jest szansa zdarzenia $A$, jeśli **wiemy**, że zaszło $B$? Zbiór wszystkich możliwości zawęża się wtedy do $B$.
+
+> $P(A|B) = \dfrac{P(A \cap B)}{P(B)}$, a przy wynikach jednakowo prawdopodobnych $P(A|B) = \dfrac{|A \cap B|}{|B|}$
+> Prawdopodobieństwo całkowite: $P(A) = P(A|B_1)P(B_1) + P(A|B_2)P(B_2) + \dots$
+> Schemat Bernoulliego: $P(k \text{ sukcesów w } n \text{ próbach}) = \binom{n}{k} p^k (1-p)^{n-k}$
+
+> Metoda:
+> 1. Ustal, co jest warunkiem ($B$), a co pytaniem ($A$).
+> 2. Policz $|B|$ i $|A \cap B|$ – wyniki spełniające **oba** warunki.
+> 3. Podziel; przy kilku etapach losowania narysuj drzewko.
+
+> Uwaga: $P(A|B)$ to nie to samo co $P(B|A)$. W mianowniku zawsze jest zdarzenie, które **wiemy, że zaszło**.
+
+### Przykład: warunek na kostce
+Rzucamy dwa razy kostką. Oblicz prawdopodobieństwo, że suma oczek jest równa $8$, jeśli wiadomo, że w pierwszym rzucie wypadła liczba nieparzysta.
+1. $B$: pierwsza liczba nieparzysta, $|B| = 3 \cdot 6 = 18$.
+2. $A \cap B$: suma $8$ i pierwsza nieparzysta: $(3,5)$, $(5,3)$ – $2$ wyniki.
+3. $P(A|B) = \frac{2}{18} = \frac19$.
+Odpowiedź: $\frac{1}{9}$
+
+### Przykład: schemat Bernoulliego
+Prawdopodobieństwo trafienia do kosza w jednym rzucie wynosi $\frac23$. Oblicz prawdopodobieństwo, że w $4$ rzutach zawodnik trafi dokładnie $3$ razy.
+1. $n = 4$, $k = 3$, $p = \frac23$, $1 - p = \frac13$.
+2. $P = \binom{4}{3} \cdot \left(\frac23\right)^3 \cdot \frac13 = 4 \cdot \frac{8}{27} \cdot \frac13$.
+3. $P = \frac{32}{81}$.
+Odpowiedź: $\frac{32}{81}$
+
+### Sprawdź się: rzuty monetą
+Rzucamy $6$ razy symetryczną monetą. Oblicz prawdopodobieństwo, że orzeł wypadnie dokładnie $2$ razy.
+1. $\binom{6}{2} = 15$, wszystkich ciągów wyników jest $2^6 = 64$.
+2. $P = \frac{15}{64}$.
+Odpowiedź: $\frac{15}{64}$
+Wynik: 15/64
